@@ -1,4 +1,4 @@
-# Lunacy release notes
+# Release notes
 
 ## Version 3.1
 
