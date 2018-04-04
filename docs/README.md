@@ -22,3 +22,4 @@
 - auto-size was disabled when text object duplicated or copied
 - fixed SVG export (tags sometimes wasn't closed properly)
 - decreased fonts loading time
+- fixed shadow and blur effects support loaded from sketch file
