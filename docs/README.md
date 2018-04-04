@@ -1,14 +1,24 @@
-Lunacy Release notes:
+# Lunacy release notes
 
-Version 3.1
-- high dpi cursors
-- fixed bug in resize artboard
-- new document created with empty page
-- increased fonts loading time
-- copy paste between lunacy windows
+## Version 3.1
+
+### **Add**
+
+- cursor sizes changed depend on dpi of display
 - color picker can be closed by escape key
-- fixed autosize bug on text editor
-- fixed SVG export
-- PNG compression on export
-- imporved Export to CDN
+- copy paste between lunacy windows
+
+### **Change**
+
+- PNG compression on export assets
+- new document created with empty page
+- improved Export assets to CDN
 - improved selection behavior
+- new object is created over to selected object, instead of on top of layers list
+
+### **Bug fix**
+
+- resize frame was not updated after select art-board preset
+- auto-size was disabled when text object duplicated or copied
+- fixed SVG export (tags sometimes wasn't closed properly)
+- decreased fonts loading time
