@@ -1,5 +1,17 @@
 # Release notes
 
+## Version 3.4
+
+### **Added**
+
+- sketch v50 format support
+- math in numeric text fields
+
+### **Bugs fixed**
+
+- folder structure fix
+- loading from explorer fix
+
 ## Version 3.3
 
 ### **Added**
