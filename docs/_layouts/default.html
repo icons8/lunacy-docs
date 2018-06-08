@@ -35,6 +35,15 @@
       </section>
     </div>
 
+    <div class="side-bar">
+      <div>Pages:</div>
+
+      {% assign sorted_pages = site.pages %}
+      {% for node in sorted_pages %}
+        <li><a href="{{node.url}}">{{node.title}}</a></li>
+      {% endfor %}
+    </div>
+
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
@@ -56,6 +65,5 @@
       </script>
     {% endif %}
 
-    <h1>CUSTOM!!!!</h1>
   </body>
 </html>
