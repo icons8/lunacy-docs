@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Release v3.1
 category: Releases
 published: 6.4.2018
