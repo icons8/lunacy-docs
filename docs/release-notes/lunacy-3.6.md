@@ -7,11 +7,11 @@ Author: Icons8
 
 ## Download
 ---
- **[Offline installer](https://desk.icons8.com/lunacy/LunacySetup_3.6.exe)**
+ **[Offline installer](https://desktop.icons8.com/lunacy/LunacySetup_3.6.exe)**
 
  **[Get from windows store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge)**
 
- **[Portable (no installer)](https://desk.icons8.com/lunacy/LunacyPortable_3.6.zip)**
+ **[Portable (no installer)](https://desktop.icons8.com/lunacy/LunacyPortable_3.6.zip)**
 
 *Ensure [that VC++ redistributable 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 and [Net framework 4.6.1](
