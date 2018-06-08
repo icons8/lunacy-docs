@@ -1,8 +1,9 @@
-Title: Release v3.1
-Category: Releases
-Published: 6.4.2018
-Author: Icons8
-NoSidebar: true
+---
+layout: post
+title: Release v3.1
+category: Releases
+published: 6.4.2018
+author: Icons8
 ---
 
 ## Download
