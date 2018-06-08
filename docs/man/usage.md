@@ -1,0 +1,119 @@
+﻿Description: Lunacy usage instructions.
+---
+Install, run, enjoy...
+
+If you are using Portable version, ensure [that VC++ redistributable 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+and [Net framework 4.6.1](
+https://www.microsoft.com/en-us/download/details.aspx?id=49981) is installed on your machine
+
+# Page navigation
+
+## Shortcuts
+
+You can use keyboard shortcuts to help speed up your design process. Commands are divided into several sections.
+
+### General Shortcuts
+Open					Ctrl+O
+New						Ctrl+N
+Save					Ctrl+S
+Save as					Shift+Ctrl+S
+Export					Ctrl+E
+About					F1
+Exit					Alt+F4, Ctrl+Q
+Copy					Ctrl+C
+Cut						Ctrl+X
+Paste					Ctrl+V 
+Undo					Ctrl+Z
+Rendo					Ctrl+Y, Ctrl+Shift+Z
+Toggle rules			Ctrl+R
+Toggle grid				Ctrl+’
+Toggle left panel		Ctrl+T 
+
+
+
+### Inserting Objects
+
+Rectangle				R
+Oval					O
+Line					L
+Text					T
+Artboard				A
+Draw from center		Atl+Drag
+Draw lock aspect		Shifrt+Drag
+Select					S, Esc
+Insert bitmap			P
+Create avatar			Ctrl+P
+
+### Selecting Objects
+
+Select layer			Click
+Select all				Ctrl+A
+Select all Artboards	Shift+Ctrl+A
+Select in group			Ctrl+click
+
+### Editing Objects
+
+Sape edit mode			Enter, double click
+Finish editing			Escape
+Delete layer			Backspace, Del
+Toggle mask				Ctrl+M
+Flip horizontaly		Ctrl+→, Ctrl+← 
+Flip vertical			Ctrl+↑, Ctrl+↓
+Union					Shift+Ctrl+U
+Substract				Shift+Ctrl+P
+Intersect				Shift+Ctrl+I
+Difference				Shift+Ctrl+X
+Align left				Shift+Ctrl+←
+Align horizontally		Shift+Ctrl(+)-
+Align right				Shift+Ctrl+→
+Align top				Shift+Ctrl+↑
+Align vertically		Shift+Ctrl+|
+Align bottom			Shift+Ctrl+↓
+Distribute horizontally	Shift+Ctrl+H
+Distribute vertically	Shift+Ctrl+V
+
+### Text Editing
+
+Bold					Ctrl+B
+Italic					Ctrl+I
+Increase font size		Ctrl(+)+
+Decrease font size		Ctrl(+) –
+
+### Moving and Resizing Objects
+
+Distances from objects	Alt
+Duplicate				Alt+Drag, Ctrl+D
+Move long X/Y axis		Shift+Drag
+Move by 1px				Arrow keys
+Move by 10px			Shift+Arrow keys
+Resize from center		Alt+resize
+Preserve ratio			Shift+resize
+Move canvas				Space+Drag
+
+### Arranging Objects
+
+Group selection			Ctrl+G
+Ungroup selection		Shift+Ctrl+G
+Bring forward			Ctrl+[
+Bring to front			Shift+Ctrl+[
+Send backward			Ctrl+]
+Send to back			Shift+Ctrl+]
+Hide/show				Ctrl+H
+Lock/unlock				Ctrl+L
+
+### Zoom and Focus
+Zoom					Ctrl + Mouse Wheel
+Zoom In					Ctrl(+)+,+
+Zoom Out				Ctrl(+)-,-
+Zoom to 100%			Ctrl+0
+Zoom to all elements	Ctrl+1
+Zoom to selection		Ctrl+2
+Fit width				Ctrl+3
+Fit height				Ctrl+4
+
+
+
+
+
+
+
