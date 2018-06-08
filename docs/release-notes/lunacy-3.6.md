@@ -5,7 +5,7 @@ Published: 8.6.2018
 Author: Icons8
 ---
 
-## Download
+## Release v3.6
 ---
  **[Offline installer](https://desktop.icons8.com/lunacy/LunacySetup_3.6.exe)**
 
