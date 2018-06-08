@@ -1,8 +1,8 @@
+---
 Title: Release v3.5
 Category: Releases
 Published: 30.5.2018
 Author: Icons8
-NoSidebar: true
 ---
 
 ## Download

@@ -1,8 +1,8 @@
+---
 Title: Release v3.4 HotFix
 Category: Releases
 Published: 15.5.2018
 Author: Icons8
-NoSidebar: true
 ---
 
 ## Download

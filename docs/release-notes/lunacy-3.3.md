@@ -1,8 +1,8 @@
+---
 Title: Release v3.3
 Category: Releases
 Published: 11.5.2018
 Author: Icons8
-NoSidebar: true
 ---
 
 ## Download
@@ -22,11 +22,11 @@ https://www.microsoft.com/en-us/download/details.aspx?id=49981) is installed on 
 
 ### **Added**
 
-- sketch v50 format supprot
+- sketch v50 format support
 - math in numeric text fields
 - blur and shadow effects support
 - new Avatar tool, which add random avatar images in one click
-- hotkey for toggling rulers: Ctr+R
+- hotkey for toggling rulers: Ctrl+R
 - animation, when select artboard preset
 
 ### **Changed**

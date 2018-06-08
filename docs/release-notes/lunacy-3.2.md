@@ -1,8 +1,8 @@
+---
 Title: Release v3.2
 Category: Releases
 Published: 18.4.2018
 Author: Icons8
-NoSidebar: true
 ---
 
 ## Download
