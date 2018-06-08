@@ -4,5 +4,15 @@
 @import "{{ site.theme }}";
 
 .side-bar {
-    float: left;
+    width: 250px;
+}
+
+@media (max-width: 500px) 
+{    
+    #side-bar
+    {
+        width:100%;
+        float:none;
+        margin-top:0;
+    }
 }

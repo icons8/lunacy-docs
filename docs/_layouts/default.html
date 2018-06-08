@@ -28,13 +28,7 @@
         </header>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        {{ content }}
-      </section>
-    </div>
-
+    <!-- NAVIGATION -->
     <div class="side-bar">
       <div>Pages:</div>
 
@@ -42,6 +36,13 @@
       {% for node in sorted_pages %}
         <li><a href="{{node.url}}">{{node.title}}</a></li>
       {% endfor %}
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
     </div>
 
     <!-- FOOTER  -->
