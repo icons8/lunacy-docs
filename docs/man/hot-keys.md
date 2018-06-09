@@ -3,8 +3,11 @@
 You can use keyboard shortcuts to help speed up your design process. Commands are divided into several sections.
 
 ### General Shortcuts
-Open					Ctrl+O
-New						Ctrl+N
+
+| Action        | Hotkey(s)     |
+| ------------- |:-------------:|
+| Open | Ctrl+O |
+| New | Ctrl+N |
 Save					Ctrl+S
 Save as					Shift+Ctrl+S
 Export					Ctrl+E
