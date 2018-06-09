@@ -4,10 +4,12 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 ### General Shortcuts
 
+
 | Action        | Hotkey(s)     |
 | ------------- |:-------------:|
 | Open | Ctrl+O |
 | New | Ctrl+N |
+
 Save					Ctrl+S
 Save as					Shift+Ctrl+S
 Export					Ctrl+E
