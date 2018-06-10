@@ -22,7 +22,6 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 |Toggle grid|Ctrl+’|
 |Toggle left panel|Ctrl+T| 
 
-
 ### Inserting Objects
 
 |Action|Hotkey(s)|
@@ -117,6 +116,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 |Zoom to selection|Ctrl+2|
 |Fit width|Ctrl+3|
 |Fit height|Ctrl+4|
+
 
 
 
