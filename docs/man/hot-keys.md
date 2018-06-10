@@ -27,6 +27,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 ### Inserting Objects
 
+
 | Rectangle |R |
 | Oval |O |
 | Line |L |
@@ -40,12 +41,14 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 ### Selecting Objects
 
+
 | Select layer |Click |
 | Select all |Ctrl+A |
 | Select all Artboards |Shift+Ctrl+A |
 | Select in group |Ctrl+click |
 
 ### Editing Objects
+
 
 | Sape edit mode |Enter, double click |
 | Finish editing |Escape |
@@ -68,12 +71,14 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 ### Text Editing
 
+
 | Bold |Ctrl+B |
 | Italic  |Ctrl+I |
 | Increase font size |Ctrl(+)+ |
 | Decrease font size |Ctrl(+)– |
 
 ### Moving and Resizing Objects
+
 
 | Distances from objects |Alt |
 | Duplicate |Alt+Drag, Ctrl+D |
@@ -86,6 +91,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 ### Arranging Objects
 
+
 | Group selection |Ctrl+G |
 | Ungroup selection |Shift+Ctrl+G |
 | Bring forward |Ctrl+[ |
@@ -96,6 +102,8 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Lock/unlock |Ctrl+L |
 
 ### Zoom and Focus
+
+
 | Zoom |Ctrl + Mouse Wheel |
 | Zoom In |Ctrl(+)+,+ |
 | Zoom Out |Ctrl(+)-,- |
