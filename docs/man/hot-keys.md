@@ -70,7 +70,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Align horizontally |Shift+Ctrl(+)- |
 | Align right |Shift+Ctrl+→ |
 | Align top |Shift+Ctrl+↑ |
-| Align vertically |Shift+Ctrl+| |
+| Align vertically |Shift+Ctrl+\| |
 | Align bottom |Shift+Ctrl+↓  |
 | Distribute horizontally |Shift+Ctrl+H |
 | Distribute vertically |Shift+Ctrl+V |
@@ -106,8 +106,8 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | ------------- |:-------------:|
 | Group selection |Ctrl+G |
 | Ungroup selection |Shift+Ctrl+G |
-| Bring forward |Ctrl+[ |
-| Bring to front |Shift+Ctrl+[ |
+| Bring forward |Ctrl+\[ |
+| Bring to front |Shift+Ctrl+\[ |
 | Send backward |Ctrl+] |
 | Send to back |Shift+Ctrl+] |
 | Hide/show |Ctrl+H |
