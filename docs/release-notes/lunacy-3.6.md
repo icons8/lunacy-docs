@@ -53,7 +53,7 @@
 ### **New Features**
 
 - blur and shadow effects support
-- new Avatar tool, which adds a random avatar images in one click
+- new Avatar tool, which adds random avatar images in one click
 - hotkey for toggling rulers: Ctr+R
 - animation, when select artboard preset
 
@@ -100,7 +100,7 @@
 - the height of text calculates properly now
 - default Boolean operations in combined shapes fixed in sketch files 
 - after group member resized it was dropped out of its group
-- typeface was reset after select text object
+- the typeface was reset after select text object
 - fixed preview image aspect radio when saving to sketch
 - performance improvements
 - art-board grid tuned
@@ -119,7 +119,7 @@
 - new document created with empty page
 - improved Export assets to CDN
 - improved selection behavior
-- new object is created over to selected object, instead of on top of layers list
+- the new object is created over to the selected object, instead of on top of the layers list
 
 ### **Bug Fixes**
 
