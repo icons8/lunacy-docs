@@ -4,17 +4,17 @@
 
 ### **New Features**
 
-- linear and radial gradient editors
-- dragging images from the desktop into shapes as image-fill
-- support of sketch files converted from PSD by third-party service
-- more [hotkeys](/man/hot-keys)
+- Linear and radial gradient editors
+- Dragging images from the desktop into shapes as image-fill
+- Support of sketch files converted from PSD by third-party service
+- More [hotkeys](/man/hot-keys)
 
 ### **Improvements**
 
 - internal optimizations and refactoring
 - better sketch export support
 
-### **Bugs fixes**
+### **Bugs Fixes**
 
 - minor bug fixes
 
