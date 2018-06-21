@@ -31,10 +31,10 @@ https://www.microsoft.com/en-us/download/details.aspx?id=49981) is installed on 
 ### **Changed**
 
 - Top panel layout changed
-- Property panel's tab selectors moved to bottom
-- Show distance indicator, when moving objects with arrow key and Alt is pressed
+- Property panel's tab selectors moved to the bottom
+- Show distance indicator, when moving objects with the arrow key and Alt is pressed
 
 ### **Bugs fixed**
 
-- Fixed bug, when click wasn't fired through invisible or masked objects
+- Fixed bug, when the click event wasn't fired through invisible or masked objects
 - Minor bug fixes
