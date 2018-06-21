@@ -54,7 +54,7 @@
 
 - blur and shadow effects support
 - new Avatar tool, which adds random avatar images in one click
-- hotkey for toggling rulers: Ctr+R
+- hotkey for toggling rulers: Ctrl+R
 - animation, when select artboard preset
 
 ### **Improvements**
