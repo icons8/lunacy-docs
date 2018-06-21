@@ -20,7 +20,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=49981) is installed on 
 ## Changes
 ---
 
-### **Added**
+### **New Features**
 
 - Gradient stops can be rearranged
 - Corner radius thumbs for rectangles
@@ -28,7 +28,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=49981) is installed on 
 - Export project to [Sketch the reaper](https://icons8.com/articles/sketch-ripper-free-tool-rip-sketch-file-contents/)
 - Zoom tool
 
-### **Changed**
+### **Improvements**
 
 - Top panel layout changed
 - Property panel's tab selectors moved to the bottom
