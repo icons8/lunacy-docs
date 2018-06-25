@@ -1,5 +1,25 @@
 # Release notes
 
+## Version v3.7
+### **New Features**
+
+- Gradient stops can be rearranged
+- Corner radius thumbs for rectangles
+- Text transformation support: Upper Case, Lower Case, Normal
+- Export project to [Sketch the reaper](https://icons8.com/articles/sketch-ripper-free-tool-rip-sketch-file-contents/)
+- Zoom tool
+
+### **Improvements**
+
+- Top panel layout changed
+- Property panel's tab selectors moved to the bottom
+- Show distance indicator, when moving objects with the arrow key and Alt is pressed
+
+### **Bugs fixed**
+
+- Fixed bug, when the click event wasn't fired through invisible or masked objects
+- Minor bug fixes
+
 ## Version v3.6
 
 ### **New Features**
