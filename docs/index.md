@@ -1,5 +1,4 @@
 
-# Lunacy Help
 
 Welcome to the user manual for Lunacy. This documentation covers everything you need to know about the app.
 
