@@ -1,5 +1,4 @@
 
-
 Welcome to the user manual for Lunacy. This documentation covers everything you need to know about the app.
 
 ## What Can You Do Using Lunacy
@@ -86,7 +85,7 @@ There are no floating panels. That way you always have a completely unobscured v
 
 ### Artboard and Objects
 
-The Artboard and Objects is the pane on your left. On the top level, there are the** artboards**. Artboard is a fixed frame inside the canvas. Usually, designers create a new artboard for each new web page, mobile screen, banner ad, or any other artwork. The use of artboards is optional; you can draw directly on the canvas.
+The Artboard and Objects is the pane on your left. On the top level, there are the **artboards**. Artboard is a fixed frame inside the canvas. Usually, designers create a new artboard for each new web page, mobile screen, banner ad, or any other artwork. The use of artboards is optional; you can draw directly on the canvas.
 
 Inside the artboards, there are objects. Here you can see each object's attributes, such as whether it’s hidden or locked, as well as reorganize layers by renaming and re-ordering them.
 
@@ -337,7 +336,7 @@ Each object in artboard can be located on Z-axis. It's possible to
 
 * bring it to front (keyboard shortcut **Shift+Ctrl+J**)
 
-* send backward  (keyboard shortcut **Ctrl + [**)** **
+* send backward  (keyboard shortcut **Ctrl + [**)
 
 * or send an object to back (keyboard shortcut **Shift + Ctrl + [**)
 
@@ -357,7 +356,7 @@ In a bar at the very top of the Canvas are buttons for aligning and distributing
 
 ### Masking
 
-Masks ![image alt text](public/mAz4bmww76HilrhUizdqvw_img_36.png)(keyboard shortcut **Ctrl + M) **in Lunacy are used to selectively show parts of objects. For example, masking two overlapping ovals will give you one oval image.
+Masks ![image alt text](public/mAz4bmww76HilrhUizdqvw_img_36.png)(keyboard shortcut **Ctrl + M**) in Lunacy are used to selectively show parts of objects. For example, masking two overlapping ovals will give you one oval image.
 
 Before masking:
 
@@ -513,7 +512,7 @@ Full list of shortcuts is available at  [http://docs.icons8.com/man/hot-keys](ht
 
 # Frequently Asked Questions
 
-**Q: Will Lunacy work on Linux? **
+**Q: Will Lunacy work on Linux?**
 
 A: It's quite an option, though requires additional development. If you’re willing to contribute, please check [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
 
@@ -523,9 +522,7 @@ A: No, Lunacy doesn't need a connection to the internet.
 
 **Q: How about being Open Source?**
 
-A: 
-
-Short answer: not at the moment, not all of it.
+A: Short answer: not at the moment, not all of it.
 
 Long answer: Certainly, that would speed up the development.
 
@@ -537,19 +534,20 @@ If you are willing to contribute, you may want to create the interface for Linux
 
 A: Nothing. Lunacy is completely free (no hidden charges, no ads, no locked features).
 
-**Q: How would I know when to update Lunacy? Once there are updates, will I have to reinstall Lunacy, or do they install automatically? 
-**A: Windows Store version updates silently. If not, check if you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) the automatic updates on. We recommend this option.
+**Q: How would I know when to update Lunacy? Once there are updates, will I have to reinstall Lunacy, or do they install automatically?**
+
+A: Windows Store version updates silently. If not, check if you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) the automatic updates on. We recommend this option.
 If you installed Lunacy with a downloadable installer, it will notify you about the update with an alert in the window title.
 
 In any case, you can check our [release notes](https://docs.icons8.com/release-notes/).
 
 # Contacting Support
 
-* **[Community Suppor**t](https://community.icons8.com/) — our forum. The whole development team is helping you too.
+* **[Community Support](https://community.icons8.com/)** — our forum. The whole development team is helping you too.
 
-* **[Feature Request**s](https://lunatics.icons8.com/) — a board similar to uservoice. Vote for features and propose yours. One feature per post, please.
+* **[Feature Requests](https://lunatics.icons8.com/)** — a board similar to uservoice. Vote for features and propose yours. One feature per post, please.
 
 * **Saying hello** — our [Lunacy page](https://icons8.com/lunacy) has the comments in the bottom. If you have a review of our work or just want to say hello, you're welcome!
 
-* **[Lunacy in the Windows Stor**e](https://www.microsoft.com/en-us/p/lunacy/9pnlmkkpcljj) — we depend your honest feedback. Please vote and leave a review so more people will know about Lunacy. Thank you 🙏🏽
+* **[Lunacy in the Windows Store](https://www.microsoft.com/en-us/p/lunacy/9pnlmkkpcljj)** — we depend your honest feedback. Please vote and leave a review so more people will know about Lunacy. Thank you 🙏🏽
 
