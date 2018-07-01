@@ -43,7 +43,7 @@ Using Lunacy, it's possible to create new designs. It’s a perfect tool for pro
 
 Lunacy is a full-fledged editor which allows you to modify existing design.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_1.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_1.png)
 
 ### View .sketch Files
 
@@ -53,17 +53,17 @@ Lunacy allows you to open .sketch file of all versions and any size. You can vie
 
 Lunacy allows you to see CSS and XAML code of elements. 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_2.jpg)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_2.jpg)
 
 ### Export Assets
 
 You can export any assets from you document in PNG, SVG, XAML. 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_3.jpg)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_3.jpg)
 
 Exclusive feature: upload directly to a CDN. Lunacy will generate a CDN link for you without any extra effort from your side. 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_4.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_4.png)
 
 # Getting Started: The Interface
 
@@ -81,7 +81,7 @@ The interface is built from the following blocks:
 
 There are no floating panels. That way you always have a completely unobscured view of your сanvas.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_5.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_5.png)
 
 ## Global Parts
 
@@ -91,11 +91,11 @@ The Artboard and Objects is the pane on your left. On the top level, there are t
 
 Inside the artboards, there are objects. Here you can see each object's attributes, such as whether it’s hidden or locked, as well as reorganize layers by renaming and re-ordering them.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_6.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_6.png)
 
-Any object or group of objects can be hidden from the canvas by clicking on the eye icon ![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_7.png)that appears on the screen when you click on the object. Alternatively, it's possible to hide element using keyboard shortcut **Ctrl + H.**
+Any object or group of objects can be hidden from the canvas by clicking on the eye icon ![image alt text](public/mAz4bmww76HilrhUizdqvw_img_7.png)that appears on the screen when you click on the object. Alternatively, it's possible to hide element using keyboard shortcut **Ctrl + H.**
 
-A padlock icon ![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_8.png)is used to lock the layer on canvas, meaning it cannot be selected or moved without being unlocked first. Alternatively, it's possible to lock an object using keyboard shortcut **Ctrl + L**
+A padlock icon ![image alt text](public/mAz4bmww76HilrhUizdqvw_img_8.png)is used to lock the layer on canvas, meaning it cannot be selected or moved without being unlocked first. Alternatively, it's possible to lock an object using keyboard shortcut **Ctrl + L**
 
 ### Objects
 
@@ -143,57 +143,57 @@ Some of these shapes have extra options, such as the ability to add stokes or ro
 
 Rulers (keyboard shortcut **Ctrl + R**) and grids (keyboard shortcut **Ctrl + '**)will help you position objects exactly where you want them. Grid allows you to align objects to a particular layout.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_9.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_9.png)
 
 **Note:** Rulers and grids are not part of your design, and won't appear on exported designs.
 
 Lunacy has support for a regular (square) grid. Users have a few options to choose from - a range of grids starts from a 4x4 grid to 64x64.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_10.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_10.png)
 
 ### Artboard
 
 Artboard is where you will see your designs. Lunacy provides a lot of predefined sizes for the artboard starting from the size of iWatch to the Full HD layouts. You can modify the size of an artboard afterwards.. 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_11.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_11.png)
 
 It's possible to add a few artboards inside the canvas. For example, when designing a landing page, many designers create an Artboard for desktop and mobile version of a landing page.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_12.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_12.png)
 
 ### Inspector
 
 The Inspector on the right lets you adjust the properties of the selected object.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_13.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_13.png)
 
 #### Color Picker
 
 Choosing, saving colors
 
-#### ![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_14.png)
+#### ![image alt text](public/mAz4bmww76HilrhUizdqvw_img_14.png)
 
 #### Gradients
 
 Create and edit gradients. 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_15.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_15.png)
 
 Following types of gradient are supported:
 
 * Linear gradient 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_16.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_16.png)
 
 * Radial gradient
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_17.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_17.png)
 
 #### Effects
 
 Effects need more explanation. Combining effects. Blending modes.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_18.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_18.png)
 
 #### Inspector Hacks
 
@@ -201,7 +201,7 @@ Inspector supports **formulas**. Type anything from 2+2 to complex algebra.
 
 You can **drag the values** up and down; they will increase or decrease.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_19.gif)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_19.gif)
 
 #### Rounded Corner Hack
 
@@ -215,7 +215,7 @@ The Zoom lets you see more or less of your document depending on the zoom level.
 
 In practice, designers use the shortcuts **Ctrl + '+' and Ctrl + ‘-’**. **Ctrl + ‘0’** resets the zoom level to 1:1.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_20.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_20.png)
 
 #### Zoom to Area
 
@@ -227,11 +227,11 @@ In practice, designers use the shortcuts **Ctrl + '+' and Ctrl + ‘-’**. **Ct
 
 Selecting objects in Lunacy is easy: you just click an object on the canvas. Once the object is selected, you should see eight little handles; one in each corner and one in the center of each edge.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_21.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_21.png)
 
 Alternatively, you can use the Layer List to select an object. Clicking an object's name in the list will select it on the canvas.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_22.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_22.png)
 
 You can select multiple objects by holding down the Shift key on the keyboard and click on another object.
 
@@ -269,7 +269,7 @@ Grouping objects is a way to organize a document. After creating a group, you ca
 
 Designers use grouping a lot. One can say, designer turn the documents into a series of the nested groups. 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_23.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_23.png)
 
 ### Adding Objects
 
@@ -298,37 +298,37 @@ T</td>
 
 If you need a square, choose the Rectangle tool and hold shift while drawing. 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_24.gif)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_24.gif)
 
 Drawing a Circle
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_25.gif)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_25.gif)
 
 #### Drawing Straight Lines
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_26.gif)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_26.gif)
 
 ### Avatar Tool
 
 Designing user interfaces, one of the common tasks is creating avatars. This time consuming process is easy with Lunacy. It has a tool for that. The avatar tool lets you create the one in one click.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_27.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_27.png)
 
 ### Resizing Objects
 
 Each object in Lunacy has eight handles that become visible when you select objects. Those handles don't just indicate selection; you can also use them to resize a layer. Grab any of the handles and drag them to resize an object.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_28.gif)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_28.gif)
 
 ### Rotating Objects
 
 You can rotate any object using rotate clock. 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_29.gif)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_29.gif)
 
 As rotation is a value measured in degrees, it can be edited via Lunacy's inspector.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_30.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_30.png)
 
 ### Z-axis Position Change
 
@@ -342,79 +342,79 @@ Each object in artboard can be located on Z-axis. It's possible to
 
 * or send an object to back (keyboard shortcut **Shift + Ctrl + [**)
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_31.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_31.png)
 
 ### Align, Group, and Distribute Objects
 
 In a bar at the very top of the Canvas are buttons for aligning and distributing objects. These buttons will become active when you have more than one object selected.
 
-* Flip horizontally ![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_32.png) (keyboard shortcut **Ctrl + ←, Ctrl + →**)
+* Flip horizontally ![image alt text](public/mAz4bmww76HilrhUizdqvw_img_32.png) (keyboard shortcut **Ctrl + ←, Ctrl + →**)
 
-* Flip vertically![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_33.png) (keyboard shortcut **Ctrl +↓, Ctrl +↑**)
+* Flip vertically![image alt text](public/mAz4bmww76HilrhUizdqvw_img_33.png) (keyboard shortcut **Ctrl +↓, Ctrl +↑**)
 
-* Align![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_34.png) which includes (align left, align top, align vertically, align horizontally, align right, align bottom, distribute horizontally, distribute vertically)
+* Align![image alt text](public/mAz4bmww76HilrhUizdqvw_img_34.png) which includes (align left, align top, align vertically, align horizontally, align right, align bottom, distribute horizontally, distribute vertically)
 
-* Group ![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_35.png) (keyboard shortcut **Ctrl + G)**
+* Group ![image alt text](public/mAz4bmww76HilrhUizdqvw_img_35.png) (keyboard shortcut **Ctrl + G)**
 
 ### Masking
 
-Masks ![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_36.png)(keyboard shortcut **Ctrl + M) **in Lunacy are used to selectively show parts of objects. For example, masking two overlapping ovals will give you one oval image.
+Masks ![image alt text](public/mAz4bmww76HilrhUizdqvw_img_36.png)(keyboard shortcut **Ctrl + M) **in Lunacy are used to selectively show parts of objects. For example, masking two overlapping ovals will give you one oval image.
 
 Before masking:
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_37.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_37.png)
 
 After masking
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_38.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_38.png)
 
 ### Edit Shape
 
 For some objects like rectangle, it's possible to edit the shape. To activate edit shape mode, you need to double click on the object. This option allows you to modify properties like corner radius for a rectangle.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_39.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_39.png)
 
 ### Resizing Options
 
 Using Lunacy it's possible to view properties of objects. You need to select an object to see it’s properties in the right panel.
 
-## ![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_40.png)
+## ![image alt text](public/mAz4bmww76HilrhUizdqvw_img_40.png)
 
 Notice the Resizing option. This is something that you'll only see if you have an object selected inside a group or Artboard, and it allows you to determine how that object should behave when the group or Artboard it’s in is resized. For example, when Fix Height is enabled, the height doesn’t grow if you resize the parent vertically.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_41.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_41.png)
 
 ### Styling
 
 You can change styling options for each object of your document. All styling properties for objects are available in Inspector. If you decided to remove styling, you need to select an object and click '-' button.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_42.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_42.png)
 
 #### Shadows
 
 When Shadow is enabled for the object, it will cast outside of the shape. It's possible to define shadow’s X and Y position, blur radius, spread, and color.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_43.gif)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_43.gif)
 
 #### Stroke
 
 All objects except text layers can contain strokes. These can all have various thicknesses, colors, and blend modes.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_44.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_44.png)
 
 Border position can be center, inside or outside. 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_45.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_45.png)
 
 Applying 10px stroke for rectangle object: original object, center stroke, inside stroke, outside stroke
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_46.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_46.png)
 
 #### Gaussian Blur
 
 Gaussian blur is a blur type that will accurately blur in all directions.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_47.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_47.png)
 
 ### Text
 
@@ -434,7 +434,7 @@ When you have a text layer selected you will notice that the Inspector has chang
 
 * Alignment options
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_48.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_48.png)
 
 ### Bitmaps
 
@@ -444,19 +444,19 @@ Bitmaps, or images are one of the object types that are supported in Lunacy. Bit
 
 Lunacy is also show margins and distances between elements.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_49.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_49.png)
 
 ## Code Preview
 
 Lunacy allows preview CSS and XAML code of all objects in a document. This feature is ideal for web designers. If you click on </> item in the top tab bar and select any element in the canvas, you'll see CSS/XAML code for this object in the right panel. It’s possible to copy code properties in one click.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_50.jpg)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_50.jpg)
 
 ## Exporting Individual Assets
 
 When designing icons, mobile app layouts, web pages, or anything else in Lunacy, you'll likely want to export parts of your creation or even all of it! With Lunacy, it’s simple to mark what you want to export, and how you want it exported.
 
-Simply click on ![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_51.png) item in the top toolbar and select the object (or objects) that you want to export. 
+Simply click on ![image alt text](public/mAz4bmww76HilrhUizdqvw_img_51.png) item in the top toolbar and select the object (or objects) that you want to export. 
 
 ### Export Assets in PNG or SVG
 
@@ -464,7 +464,7 @@ You can export design objects to PNG or SVG format.
 
 For PNG format you can choose a size or scale in which an element will export. The default size is '1x', which will export your layer at the actual size it was created. If you’re designing for mobile, you may want to export something at double or even triple the size you created it, in this case, ‘2x’ and ‘3x’.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_52.jpg)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_52.jpg)
 
 ### Export to CDN
 
@@ -476,7 +476,7 @@ The service is free thanks to the generous sponsorship of [KeyCDN](https://www.k
 
 The export works in one-click. Simply select Export option and click 'Get CDN Links.' That’s all!
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_53.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_53.png)
 
 # Unique Features
 
@@ -502,7 +502,7 @@ Lunacy integrates with [Sketch the Ripper](http://sketch.the.ripper.graphics/)�
 
 Imagine you are a designer who finished working on a piece. Instead of sending a .sketch file to your teammates, you share your designs with a single click and get a link to all the assets ripped off ([check this example](http://sketch.the.ripper.graphics/g3tkgj/music-final)). It sets a shortcut from design to development without the need of additional viewers.
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_54.png)
+![image alt text](public/mAz4bmww76HilrhUizdqvw_img_54.png)
 
 # Shortcuts
 
