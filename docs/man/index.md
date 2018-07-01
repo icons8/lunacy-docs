@@ -1,16 +1,9 @@
----
-title: Lunacy Help
-layout: post
-author: Ivan Braun
-permalink: /help/
-source-id: 1WxxDHCHaPzpN_cY3gQbYEBrlYuWpKKT7FqJSweaNIAs
-published: true
----
-Lunacy Help
+
+# Lunacy Help
 
 Welcome to the user manual for Lunacy. This documentation covers everything you need to know about the app.
 
-# What Can You Do Using Lunacy
+## What Can You Do Using Lunacy
 
 Lunacy is a native Windows app that works offline and supports .sketch files.
 
@@ -34,7 +27,7 @@ This is important, as Sketch completely changed the format in version 43, and ke
 
 We save the files in .sketch format. We preserve the original structure: naming, groups, and IDs.
 
-As of the version 3.7,** we don't fully support the symbols**. We save the symbols as the generic groups. Your designs will look the same, but updating a symbol won’t affect its instances.
+As of the version 3.7, _we don't fully support the symbols_. We save the symbols as the generic groups. Your designs will look the same, but updating a symbol won’t affect its instances.
 
 #### Tools, Objects, and Properties
 
@@ -44,7 +37,7 @@ We cover all the data structures of Sketch, including masks, gradients, rounded 
 
 Using Lunacy, it's possible to create new designs. It’s a perfect tool for prototyping. You can add simple shape elements to your layout (such as draw oval, rectangle, line, or add a bitmap), draw, align, and join objects. 
 
-![image alt text]({{ site.url }}/public/mAz4bmww76HilrhUizdqvw_img_0.png)
+![Lunacy Interface](public/mAz4bmww76HilrhUizdqvw_img_0.png)
 
 ### Modify Existing Design
 
@@ -545,7 +538,9 @@ If you are willing to contribute, you may want to create the interface for Linux
 
 A: Nothing. Lunacy is completely free (no hidden charges, no ads, no locked features).
 
-**Q: How would I know when to update Lunacy? Once there are updates, will I have to reinstall Lunacy, or do they install automatically? **A: Windows Store version updates silently. If not, check if you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) the automatic updates on. We recommend this option.If you installed Lunacy with a downloadable installer, it will notify you about the update with an alert in the window title.
+**Q: How would I know when to update Lunacy? Once there are updates, will I have to reinstall Lunacy, or do they install automatically? 
+**A: Windows Store version updates silently. If not, check if you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) the automatic updates on. We recommend this option.
+If you installed Lunacy with a downloadable installer, it will notify you about the update with an alert in the window title.
 
 In any case, you can check our [release notes](https://docs.icons8.com/release-notes/).
 
