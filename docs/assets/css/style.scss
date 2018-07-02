@@ -4,11 +4,12 @@
 @import "{{ site.theme }}";
 
 .side-bar {
+    width: 16%;
     float: left;
     display: none;
 }
 
-@media (max-width: 500px) 
+@media (max-width: 768px) 
 {    
     #side-bar
     {
@@ -16,6 +17,14 @@
         float:none;
         margin-top:0;
     }
+}
+
+#main_content{
+    max-width: 768px;
+}
+
+article#article-content{
+    width:69%;
 }
 
 body, p, h1, h2, h3 {
