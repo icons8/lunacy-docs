@@ -82,7 +82,7 @@
   <script>
     // parse the ToC content
     var article = document.getElementById("article-content");
-    var list = article.querySelectorAll("h1,h2"); // get all h1 & h2
+    var list = document.querySelectorAll("#article-content h1, #article-content h2"); // get all h1 & h2
     var tocArr = [], cur; // holds the structure of the ToC
     for (var i = 0; i < list.length; i++) {
       var e = list[i];
