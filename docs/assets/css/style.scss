@@ -4,8 +4,8 @@
 @import "{{ site.theme }}";
 
 .side-bar {
-    width: 16%;
-    float: left;
+    width: 20%;
+    margin-right: 16px;
     display: none;
 }
 
@@ -20,11 +20,21 @@
 }
 
 #main_content{
-    max-width: 768px;
+    display: flex;
+    max-width: 1056px;
 }
 
 article#article-content{
     width:69%;
+}
+
+#toc li{
+padding-left: 10px;    
+}
+
+#toc li{
+ list-style: none;
+
 }
 
 body, p, h1, h2, h3 {

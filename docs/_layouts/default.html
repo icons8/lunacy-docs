@@ -34,7 +34,7 @@
     <aside class="side-bar">
         <!-- <div>Pages:</div> -->
   
-        <h1>Contents</h1>
+        <h2>Contents</h2>
         <div>
           <ul id="toc">
           </ul>
@@ -47,7 +47,7 @@
     -->
       </aside>
   
-      <article>
+      <article id="article-content">
         {{ content }}
       </article>
     </section>
@@ -107,7 +107,11 @@
         var ul = document.createElement("ul");
         for (var i2 in ch) {
           var li2 = document.createElement("li");
-          li2.textContent = ch[i2];
+
+          var anchor = document.createElement("a");
+          anchor.setAttribute("href", i2.id);
+          anchor.textContent = ch[i2];
+          li2.appendChild(anchor); 
           ul.appendChild(li2);
         }
         li.appendChild(ul);
