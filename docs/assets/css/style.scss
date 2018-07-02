@@ -6,7 +6,6 @@
 .side-bar {
     width: 20%;
     margin-right: 50px;
-    display: none;
 }
 
 @media (max-width: 768px) 
@@ -29,7 +28,7 @@ article#article-content{
 }
 
 #toc ul{
-    padding-left: 0px;    
+    padding-left: 10px;    
 }
 
 #toc li{

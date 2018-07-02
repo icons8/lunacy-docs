@@ -30,23 +30,23 @@
   <div id="main_content_wrap" class="outer">
     <section id="main_content" class="inner">
 
-          <!-- NAVIGATION -->
-    <aside class="side-bar">
+      <!-- NAVIGATION -->
+      <aside class="side-bar">
         <!-- <div>Pages:</div> -->
-  
+
         <h3>Contents</h3>
         <div>
           <ul id="toc">
           </ul>
         </div>
-  
+
         <!--      {% assign sorted_pages = site.pages %}
           {% for node in sorted_pages %}
             <li><a href="{{node.url}}">{{node.title}}</a></li>
           {% endfor %}
     -->
       </aside>
-  
+
       <article id="article-content">
         {{ content }}
       </article>
@@ -88,14 +88,16 @@
       var e = list[i];
       if (e.tagName == "H1") {
         // for an h1, create a new heading entry (with a blank child list)
-        tocArr.push({ text: e.textContent, children: (cur = []),
-          id: e.id });
+        tocArr.push({
+          text: e.textContent, children: (cur = []),
+          id: e.id
+        });
       } else {
-        if(cur == undefined)
+        if (cur == undefined)
           continue;
-          
+
         // for an h2, add it to the current h1's child list
-        cur.push({ title: e.textContent, id: e.id});
+        cur.push({ title: e.textContent, id: e.id });
       }
     }
     console.log(tocArr);
@@ -104,7 +106,12 @@
     var toc = document.getElementById('toc');
     for (var i in tocArr) {
       var li = document.createElement("li");
-      li.textContent = tocArr[i].text;
+
+      var anchor_h1 = document.createElement("a");
+      anchor_h1.setAttribute("href", "#" + tocArr[i].id);
+      anchor_h1.textContent = tocArr[i].text;
+
+      li.appendChild(anchor_h1);
 
       // NEW: add a sub-ul for any subheadings
       var ch = tocArr[i].children;
@@ -114,9 +121,9 @@
           var li2 = document.createElement("li");
 
           var anchor = document.createElement("a");
-          anchor.setAttribute("href", ch[i2].id);
+          anchor.setAttribute("href", "#" + ch[i2].id);
           anchor.textContent = ch[i2].title;
-          li2.appendChild(anchor); 
+          li2.appendChild(anchor);
           ul.appendChild(li2);
         }
         li.appendChild(ul);
