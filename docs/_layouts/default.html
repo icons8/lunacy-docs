@@ -34,7 +34,7 @@
     <aside class="side-bar">
         <!-- <div>Pages:</div> -->
   
-        <h2>Contents</h2>
+        <h3>Contents</h3>
         <div>
           <ul id="toc">
           </ul>
@@ -81,16 +81,18 @@
 
   <script>
     // parse the ToC content
-    var list = document.querySelectorAll("h1,h2"); // get all h1 & h2
+    var article = document.getElementById("article-content");
+    var list = article.querySelectorAll("h1,h2"); // get all h1 & h2
     var tocArr = [], cur; // holds the structure of the ToC
     for (var i = 0; i < list.length; i++) {
       var e = list[i];
       if (e.tagName == "H1") {
         // for an h1, create a new heading entry (with a blank child list)
-        tocArr.push({ text: e.textContent, children: (cur = []) });
+        tocArr.push({ text: e.textContent, children: (cur = []),
+          id: e.id });
       } else {
         // for an h2, add it to the current h1's child list
-        cur.push(e.textContent);
+        cur.push({ title: e.textContent, id: e.id});
       }
     }
     console.log(tocArr);
@@ -109,8 +111,8 @@
           var li2 = document.createElement("li");
 
           var anchor = document.createElement("a");
-          anchor.setAttribute("href", i2.id);
-          anchor.textContent = ch[i2];
+          anchor.setAttribute("href", ch[i2].id);
+          anchor.textContent = ch[i2].title;
           li2.appendChild(anchor); 
           ul.appendChild(li2);
         }
