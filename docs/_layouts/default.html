@@ -91,6 +91,9 @@
         tocArr.push({ text: e.textContent, children: (cur = []),
           id: e.id });
       } else {
+        if(cur == undefined)
+          continue;
+          
         // for an h2, add it to the current h1's child list
         cur.push({ title: e.textContent, id: e.id});
       }
