@@ -28,25 +28,25 @@
 
   <!-- MAIN CONTENT -->
   <div id="main_content_wrap" class="outer">
-
-    <!-- NAVIGATION -->
-    <aside class="side-bar">
-      <!-- <div>Pages:</div> -->
-
-      <h1>Contents</h1>
-      <div>
-        <ul id="toc">
-        </ul>
-      </div>
-
-      <!--      {% assign sorted_pages = site.pages %}
-        {% for node in sorted_pages %}
-          <li><a href="{{node.url}}">{{node.title}}</a></li>
-        {% endfor %}
-  -->
-    </aside>
-
     <section id="main_content" class="inner">
+
+          <!-- NAVIGATION -->
+    <aside class="side-bar">
+        <!-- <div>Pages:</div> -->
+  
+        <h1>Contents</h1>
+        <div>
+          <ul id="toc">
+          </ul>
+        </div>
+  
+        <!--      {% assign sorted_pages = site.pages %}
+          {% for node in sorted_pages %}
+            <li><a href="{{node.url}}">{{node.title}}</a></li>
+          {% endfor %}
+    -->
+      </aside>
+  
       {{ content }}
     </section>
   </div>
