@@ -1,7 +1,7 @@
 
 Welcome to the user manual for Lunacy. This documentation covers everything you need to know about the app.
 
-## What Can You Do Using Lunacy
+# What Can You Do Using Lunacy
 
 Lunacy is a native Windows app that works offline and supports .sketch files.
 
