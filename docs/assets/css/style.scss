@@ -27,10 +27,6 @@ article#article-content{
     width:69%;
 }
 
-#toc ul{
-    padding-left: 10px;    
-}
-
 #toc li{
  list-style: none;
 
@@ -38,4 +34,12 @@ article#article-content{
 
 body, p, h1, h2, h3 {
     font-family: -apple-system, system-ui, "San Francisco", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", "Segoe UI", "Fira Sans", Roboto, Oxygen, Ubuntu, "Droid Sans", Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    margin: 50px auto 10px auto;
+}
+
+img {
+    padding: 20px 0 20px 0;
 }
