@@ -4,57 +4,60 @@
 @import "{{ site.theme }}";
 
 .side-bar {
-    width: 20%;
-    margin-right: 50px;
+  width: 20%;
+  margin-right: 50px;
 }
 
-@media (max-width: 768px)
-{
-    #side-bar
-    {
-        width:100%;
-        float:none;
-        margin-top:0;
-    }
+@media (max-width: 768px) {
+  #side-bar {
+    width: 100%;
+    float: none;
+    margin-top: 0;
+  }
 }
 
-#main_content{
-    display: flex;
-    max-width: 1056px;
+#main_content {
+  display: flex;
+  max-width: 1056px;
 }
 
-article#article-content{
-    width:69%;
+article#article-content {
+  width: 69%;
+  margin-left: 240px;
 }
 
-#toc li{
- list-style: none;
- padding-left: 10px;
+#toc li {
+  list-style: none;
+  padding-left: 10px;
 
 }
 
 body, p, h1, h2, h3 {
-    font-family: -apple-system, system-ui, "San Francisco", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", "Segoe UI", "Fira Sans", Roboto, Oxygen, Ubuntu, "Droid Sans", Arial, sans-serif;
+  font-family: -apple-system, system-ui, "San Francisco", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", "Segoe UI", "Fira Sans", Roboto, Oxygen, Ubuntu, "Droid Sans", Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    margin: 50px auto 10px auto;
+  margin: 50px auto 10px auto;
 }
 
 .tagline {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 img {
-    padding: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 
-#header_wrap .inner {
-    padding: 50px 10px 30px 70px;
+#header_wrap {
+  padding-left: 240px;
+  .inner {
+    width: 69%;
+    padding: 50px 10px 30px 10px;
+  }
 }
 
 .inner {
-    max-width: 1056px;
+  max-width: 1056px;
 }
 
 #project_tagline {
@@ -62,7 +65,19 @@ img {
 }
 
 .side-bar {
+  width: 20%;
+  min-width: 240px;
+  max-width: 300px;
+  margin-right: 50px;
+
   line-height: 1.8;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  padding: 40px 0;
+  z-index: 1;
+  background: white;
   li {
     font-weight: bold;
 
@@ -71,4 +86,8 @@ img {
       font-weight: normal;
     }
   }
+}
+
+p img {
+  margin: 30px 0;
 }
