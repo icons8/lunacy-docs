@@ -58,7 +58,7 @@ Lunacy allows you to see CSS and XAML code of elements.
 
 ### Export Assets
 
-You can export any assets from you document in PNG, SVG, XAML. 
+You can export any assets from your document in PNG, SVG, XAML. 
 
 ![Export assets in PNG, SVG, XAML](public/mAz4bmww76HilrhUizdqvw_img_3.jpg)
 
@@ -73,7 +73,7 @@ Lunacy's interface is minimal. It contains only essential controls so you won’
 The interface is built from the following blocks:
 
 * The **toolbar** along the top which contains high-level tools and actions. 
-* The **objects** is the pane on your left which contains all the **artboards** of your document.
+* The **objects** are the pane on your left which contains all the **artboards** of your document.
 * The **inspector** on the right which lets you see and adjust the properties of the selected object or layer. 
 * The **canvas** in the middle is a place where you will see your designs.
 
@@ -90,7 +90,7 @@ Inside the artboards, there are objects. Here you can see each object's attribut
 
 ![Artboard and objects in Lunacy](public/mAz4bmww76HilrhUizdqvw_img_6.png)
 
-Any object or group of objects can be hidden from the canvas by clicking on the eye icon ![hide from canvas](public/mAz4bmww76HilrhUizdqvw_img_7.png)that appears on the screen when you click on the object. Alternatively, it's possible to hide element using keyboard shortcut **Ctrl + H.**
+Any object or group of objects can be hidden from the canvas by clicking on the eye icon ![hide from canvas](public/mAz4bmww76HilrhUizdqvw_img_7.png)that appears on the screen when you click on the object. Alternatively, it's possible to hide an element using keyboard shortcut **Ctrl + H.**
 
 A padlock icon ![lock a layer](public/mAz4bmww76HilrhUizdqvw_img_8.png)is used to lock the layer on canvas, meaning it cannot be selected or moved without being unlocked first. Alternatively, it's possible to lock an object using keyboard shortcut **Ctrl + L**
 
@@ -150,7 +150,7 @@ Lunacy has support for a regular (square) grid. Users have a few options to choo
 
 ## Artboard
 
-Artboard is where you see your designs. Lunacy provides a lot of predefined sizes for the artboard starting from the size of iWatch to the Full HD layouts. You can modify the size of an artboard afterwards.. 
+Artboard is where you see your designs. Lunacy provides a lot of predefined sizes for the artboard starting from the size of iWatch to the Full HD layouts. You can modify the size of an artboard afterward.
 
 ![Artboard is where users see their designs](public/mAz4bmww76HilrhUizdqvw_img_11.png)
 
@@ -191,15 +191,15 @@ Alternatively, you can use the Layer List to select an object. Clicking an objec
 
 You can select multiple objects by holding down the Shift key on the keyboard and click on another object.
 
-Selecting Group vs Object
+Selecting Group vs. Object
 
 If you click an object within a group, Lunacy selects the whole group. Usually, it's handy: you can move around the whole components.
 
-Sometimes you need to choose an object though. To do so, hold Ctrl when choosing the object. 
+Sometimes you need to choose an object though. To do so, hold Ctrl when selecting the object.
 
 ## Adding 
 
-The most common type of objects in your document are shapes. The easiest way to add a shape is to pick one of the standard shapes from the toolbar. There is a wide variety of default shapes provided with Lunacy such as ovals, rectangles, lines and more.
+The most common type of objects in your document is shapes. The easiest way to add a shape is to pick one of the standard shapes from the toolbar. There is a wide variety of default shapes provided with Lunacy such as ovals, rectangles, lines and more.
 
 [//]: # (there was a weird broken table here; I removed it  - IB)
 
@@ -214,7 +214,7 @@ The most common type of objects in your document are shapes. The easiest way to 
 Using keyboard is handy when you either
 
 * Need precision
-* Or need to move object just a little bit (we, designers, spend 50% of our time doing small adjustments)
+* Or need to move an object just a little bit (we, designers, spend 50% of our time making small adjustments)
 
 ### Moving Horizontally and Vertically
 
@@ -263,7 +263,7 @@ You only see this option if you selected an object inside a group or an artboard
 
 ## Rotating 
 
-You can rotate any object using rotate clock. 
+You can rotate an object using the rotate clock. 
 
 ![Rotate objects](public/mAz4bmww76HilrhUizdqvw_img_29.gif)
 
@@ -274,9 +274,9 @@ As rotation is a value measured in degrees, it can be edited via Lunacy's inspec
 ## Z-Axis Position
 
 Each object in artboard can be located on Z-axis. It's possible to 
-* bring object forward (keyboard shortcut **Ctrl + J**)
-* bring it to front (keyboard shortcut **Shift+Ctrl+J**)
-* send backward  (keyboard shortcut **Ctrl + [**)
+* bring an object forward (keyboard shortcut **Ctrl + J**)
+* bring an object to the front (keyboard shortcut **Shift+Ctrl+J**)
+* send an object backward  (keyboard shortcut **Ctrl + [**)
 * or send an object to back (keyboard shortcut **Shift + Ctrl + [**)
 
 ![Change Z-axis position for elements](public/mAz4bmww76HilrhUizdqvw_img_31.png)
@@ -368,7 +368,7 @@ If you need a square, choose the Rectangle tool and hold shift while drawing.
 
 You can add text by choosing the Text tool from the Shapes and Objects toolbar (or press **T**). The pointer changes to the Text Input tool icon and then you can click anywhere in the Canvas to insert your text layer at that point. When you click on a canvas, a new text layer will be inserted with "Type something" placeholder, ready to replace.
 
-When you have a text layer selected you shall notice that the Inspector has changed to show you all the properties that apply to text. Underneath the standard object properties there's the area for text style options which includes:
+When you have a text layer selected, you shall notice that the Inspector has changed to show you all the properties that apply to text. Underneath the standard object properties, there’s the area for text style options which includes:
 
 * Font family
 * Font size
@@ -389,7 +389,7 @@ If you open a file with missing fonts, Lunacy checks Google Fonts and download t
 
 ### Auto Installation
 
-All the Google Fonts are already in the list. When you choose any of them, Lunacy downloads it from the Google service. Smooth!
+All the Google Fonts are already on the list. When you choose any of them, Lunacy downloads it from the Google service. Smooth!
 
 ### Auto Replacing
 
@@ -412,7 +412,7 @@ Designing user interfaces, one of the common tasks is creating avatars. This tim
 
 ## Masks
 
-The masks ![Masking in Lunacy](public/mAz4bmww76HilrhUizdqvw_img_36.png)(keyboard shortcut **Ctrl + M**) in Lunacy are used to selectively show parts of objects. For example, masking two overlapping ovals gives you an oval image.
+The masks ![Masking in Lunacy](public/mAz4bmww76HilrhUizdqvw_img_36.png)(keyboard shortcut **Ctrl + M**) in Lunacy are used to show parts of objects selectively.. For example, masking two overlapping ovals gives you an oval image.
 
 Before masking:
 
@@ -425,7 +425,7 @@ After masking
 
 # Styling
 
-You can change styling options for each object of your document. All styling properties for objects are available in Inspector. If you decided to remove styling, you need to select an object and click '-' button.
+You can change styling options for each object of your document. All styling properties for objects are available in Inspector. If you decided to remove styling, you need to select an object and click the '-' button.
 
 ![Change styling](public/mAz4bmww76HilrhUizdqvw_img_42.png)
 
@@ -494,9 +494,9 @@ You can **drag the values** up and down; they will increase or decrease.
 
 ## Rounded Corner Hack
 
-You can specify the radius for each corners separately. To do so, type 4 values divided with a space. 
+You can specify the radius for each corner separately. To do so, type 4 values divided by space.
 
-This is especially handy for tabs.
+This property is especially handy for tabs.
 
 
 ## Margins and Distances
