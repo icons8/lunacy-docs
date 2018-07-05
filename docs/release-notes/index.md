@@ -1,7 +1,6 @@
-# Release notes
 
-## Version v3.7
-### **New Features**
+# Version v3.7
+## **New Features**
 
 - Gradient stops can be rearranged
 - Corner radius thumbs for rectangles
@@ -9,82 +8,82 @@
 - Export project to [Sketch the reaper](https://icons8.com/articles/sketch-ripper-free-tool-rip-sketch-file-contents/)
 - Zoom tool
 
-### **Improvements**
+## **Improvements**
 
 - Top panel layout changed
 - Property panel's tab selectors moved to the bottom
 - Show distance indicator, when moving objects with the arrow key and Alt is pressed
 
-### **Bugs fixed**
+## **Bugs fixed**
 
 - Fixed bug, when the click event wasn't fired through invisible or masked objects
 - Minor bug fixes
 
-## Version v3.6
+# Version v3.6
 
-### **New Features**
+## **New Features**
 
 - Linear and radial gradient editors
 - Dragging images from the desktop into shapes as image-fill
 - Support of sketch files converted from PSD by third-party service
 - More [hotkeys](/man/hot-keys)
 
-### **Improvements**
+## **Improvements**
 
 - internal optimizations and refactoring
 - better sketch export support
 
-### **Bugs Fixes**
+## **Bugs Fixes**
 
 - minor bug fixes
 
 
-## Version 3.5
+# Version 3.5
 
-### **New Features**
+## **New Features**
 
 - objects render cache (performance improvements, CPU usage decreased)
 
-### **Improvements**
+## **Improvements**
 
 - workspace changes the background color from white to light-gray when artboard added
 - resize artboard from top crops content instead of moving it
 
-### **Bugs Fixes**
+## **Bugs Fixes**
 
 - image loading from sketch file fixed
 - export images fix
 - minor bug fixes
 
-## Version 3.4
+# Version 3.4
 
-### **New Features**
+## **New Features**
 
 - sketch v50 format support
 - math in numeric text fields
 
-### **Bugs Fixes**
+## **Bugs Fixes**
 
 - folder structure fix
 - loading from explorer fix
 
-## Version 3.3
+# Version 3.3
 
-### **New Features**
+## **New Features**
 
 - blur and shadow effects support
 - new Avatar tool, which adds a random avatar images in one click
 - hotkey for toggling rulers: Ctr+R
 - animation, when select artboard preset
 
-### **Improvements**
+## **Improvements**
 
 - styles and colors of UI controls have a more consistent style
 - icons updated
 - removed object properties when artboard tool is active
 - System fonts and Google Fonts have a single list sorted by name now
 
-### **Bugs Fixes**
+## **Bugs Fixes**
 
 - closing the main menu by clicking outside of it
 - sketch file loading error when it has extended text objects with inline styles
@@ -93,9 +92,9 @@
 - text alignment resets when other properties change
 - increased color precision when loading and save sketch files
 
-## Version 3.2
+# Version 3.2
 
-### **New Features**
+## **New Features**
 
 - UI for initial shadow support
 - saving the state of rulers from the last session
@@ -106,13 +105,13 @@
 - blend mode support for objects
 - flip(mirror) object tool
 
-### **Improvements**
+## **Improvements**
 
 - guide and distance lines restyled
 - scroll to the first object when selecting another page
 - new icons for flip tool
 
-### **Bug Fixes**
+## **Bug Fixes**
 
 - right panel layout fixes in the scroll-view mode
 - the weight of the text resets after selecting another text object
@@ -125,15 +124,15 @@
 - performance improvements
 - art-board grid tuned
 
-## Version 3.1
+# Version 3.1
 
-### **New Features**
+## **New Features**
 
 - cursor sizes changed depend on dpi of display
 - color picker can be closed by escape key
 - copy paste between lunacy windows
 
-### **Improvements**
+## **Improvements**
 
 - PNG compression on export assets
 - new document created with empty page
@@ -141,7 +140,7 @@
 - improved selection behavior
 - new object is created over to selected object, instead of on top of layers list
 
-### **Bug Fixes**
+## **Bug Fixes**
 
 - resize frame was not updated after select art-board preset
 - auto-size was disabled when text object duplicated or copied
