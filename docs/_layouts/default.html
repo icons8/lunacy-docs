@@ -9,6 +9,20 @@
 </head>
 
 <body>
+  <!-- NAVIGATION -->
+  <aside class="side-bar">
+    <div>
+      <ul id="toc">
+      </ul>
+    </div>
+
+    <!--      {% assign sorted_pages = site.pages %}
+      {% for node in sorted_pages %}
+        <li><a href="{{node.url}}">{{node.title}}</a></li>
+      {% endfor %}
+  -->
+  </aside>
+
   <!-- HEADER -->
   <div id="header_wrap" class="outer">
     <header class="inner">
@@ -29,20 +43,6 @@
   <!-- MAIN CONTENT -->
   <div id="main_content_wrap" class="outer">
     <section id="main_content" class="inner">
-
-      <!-- NAVIGATION -->
-      <aside class="side-bar">
-        <div>
-          <ul id="toc">
-          </ul>
-        </div>
-
-        <!--      {% assign sorted_pages = site.pages %}
-          {% for node in sorted_pages %}
-            <li><a href="{{node.url}}">{{node.title}}</a></li>
-          {% endfor %}
-    -->
-      </aside>
 
       <article id="article-content">
         {{ content }}
