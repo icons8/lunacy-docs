@@ -8,8 +8,8 @@
     margin-right: 50px;
 }
 
-@media (max-width: 768px) 
-{    
+@media (max-width: 768px)
+{
     #side-bar
     {
         width:100%;
@@ -42,8 +42,16 @@ h1, h2, h3, h4, h5 {
 
 .tagline {
     margin-top: 0;
-}      
+}
 
 img {
     padding: 20px 0 20px 0;
+}
+
+#header_wrap .inner {
+    padding: 50px 10px 30px 50px;
+}
+
+.inner {
+    max-width: 1056px;
 }
