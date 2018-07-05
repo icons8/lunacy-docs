@@ -1,3 +1,6 @@
+# Lunacy Release Notes
+
+
 
 ## Version v3.7
 ### **New Features**
