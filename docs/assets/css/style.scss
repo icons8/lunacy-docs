@@ -48,16 +48,25 @@ img {
   padding: 20px 0 20px 0;
 }
 
-#header_wrap {
+.outer {
+  width: auto;
   padding-left: 240px;
+}
+
+#header_wrap {
   .inner {
     width: 69%;
     padding: 50px 10px 30px 10px;
   }
 }
 
+#main_content {
+  margin: 0;
+}
+
 .inner {
   max-width: 1056px;
+  margin: 0 auto;
 }
 
 #project_tagline {
@@ -86,6 +95,10 @@ img {
       font-weight: normal;
     }
   }
+}
+
+article#article-content {
+  margin: 0 auto;
 }
 
 p img {
