@@ -21,6 +21,10 @@
   max-width: 1056px;
 }
 
+#main_content_wrap {
+  background: white;
+}
+
 article#article-content {
   width: 69%;
   margin-left: 240px;
@@ -51,7 +55,6 @@ img {
 .outer {
   width: auto;
   padding-left: 240px;
-  background: white;
 }
 
 #header_wrap {
