@@ -493,7 +493,7 @@ Lunacy shows margins and distances between elements.
 # Export
 
 
-## Exporting Individual Assets
+## Individual Assets
 
 When designing icons, mobile app layouts, web pages, or anything else in Lunacy, you'll likely want to export parts of your creation or even all of it! With Lunacy, it’s simple to mark what you want to export, and how you want it exported.
 
