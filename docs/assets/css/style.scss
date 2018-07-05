@@ -61,7 +61,8 @@ img {
 }
 
 #main_content {
-  margin: 0;
+  margin: 0 auto;
+  width: 69%;
 }
 
 .inner {
@@ -99,6 +100,7 @@ img {
 
 article#article-content {
   margin: 0 auto;
+  width: auto;
 }
 
 p img {
