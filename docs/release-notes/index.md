@@ -168,10 +168,10 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.1.exe) 
 - Decreased fonts loading time
 - Fixed shadow and blur effects support loaded from sketch file
 
-## Version 2
+# Version 2
 
 We've [presented](https://www.producthunt.com/posts/icons8-lunacy-2-0) this version middle 2017. Lunacy version 2 didn't allow editing and served as a handoff tool. It allowed to view the documents, copy the CSS code, and export assets. 
 
-## Version 1
+# Version 1
 
 After the meticulous testing with all kinds of Sketch files, we've launched Lunacy as a .sketch viewer. Two weeks after, version 43 came, completely changing the format. We had to rework it from scratch.
