@@ -1,8 +1,10 @@
 # Lunacy Release Notes
 
 
+## Version 3.7
 
-## Version v3.7
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.7.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.7.zip)
+
 ### **New Features**
 
 - Gradient stops can be rearranged
@@ -22,7 +24,9 @@
 - Fixed bug, when the click event wasn't fired through invisible or masked objects
 - Minor bug fixes
 
-## Version v3.6
+## Version 3.6
+
+Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.6.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.6.zip)
 
 ### **New Features**
 
@@ -43,6 +47,8 @@
 
 ## Version 3.5
 
+Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.5.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.5.zip)
+
 ### **New Features**
 
 - objects render cache (performance improvements, CPU usage decreased)
@@ -59,6 +65,7 @@
 - minor bug fixes
 
 ## Version 3.4
+Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.4.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.4.zip)
 
 ### **New Features**
 
@@ -71,6 +78,8 @@
 - loading from explorer fix
 
 ## Version 3.3
+
+Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.3.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.3.zip)
 
 ### **New Features**
 
@@ -96,6 +105,7 @@
 - increased color precision when loading and save sketch files
 
 ## Version 3.2
+Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.2.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.2.zip)
 
 ### **New Features**
 
@@ -128,6 +138,7 @@
 - art-board grid tuned
 
 ## Version 3.1
+Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.1.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.1.zip)
 
 ### **New Features**
 
