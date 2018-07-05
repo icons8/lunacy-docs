@@ -12,10 +12,6 @@ We're looking for your help editing and expanding it. In particular, we'll gladl
 
 ## Related
 
-[Lunacy Home Page](https://icons8.com/lunacy)
-
-[Release notes](https://icons8.github.io/Lunacy/)
-
-[//]: # ([Community](https://community.icons8.com))
-
-[Suggest feature](http://lunatics.icons8.com)
+* [Lunacy home page](https://icons8.com/lunacy)
+* [Release notes](https://icons8.github.io/Lunacy/)
+* [Suggest feature](http://lunatics.icons8.com)
