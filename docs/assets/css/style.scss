@@ -51,6 +51,7 @@ img {
 .outer {
   width: auto;
   padding-left: 240px;
+  background: white;
 }
 
 #header_wrap {
@@ -87,7 +88,7 @@ img {
   overflow-y: auto;
   padding: 40px 0;
   z-index: 1;
-  background: white;
+  background: #f2f2f2;
   li {
     font-weight: bold;
 
