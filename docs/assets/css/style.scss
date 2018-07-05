@@ -50,9 +50,25 @@ img {
 }
 
 #header_wrap .inner {
-    padding: 50px 10px 30px 50px;
+    padding: 50px 10px 30px 70px;
 }
 
 .inner {
     max-width: 1056px;
+}
+
+#project_tagline {
+  margin-top: 10px;
+}
+
+.side-bar {
+  line-height: 1.8;
+  li {
+    font-weight: bold;
+
+    & > ul > li {
+      font-size: 0.9em;
+      font-weight: normal;
+    }
+  }
 }
