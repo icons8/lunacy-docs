@@ -7,9 +7,42 @@ We release Lunacy once in two week. Take part! Vote for the next features.
 
 Version 3 introduced the full-scale editor. We've launched it in March and dedicated the following month fixing the bugs, improving the performance, and developing the remaining features such as gradients.
 
+## 3.8
+
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.8.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.8.zip)
+
+### Features
+- **Vector tool!** You can create and edit the polygons and Bezier curves. 
+
+![Vector tool](images/VectorTool.png)
+
+- **[Help!](https://docs.icons8.com)** 
+- **Symbols:** we started saving the symbols! If you open a file and there're some symbols, Lunacy preserves these symbols on saving. Expect the **complete support of symbols** in the next release.
+- You can add, delete, and rename the pages now. 
+- **Vertical align** for text
+- We fully support lowercase and UPPERCASE parameters in the .sketch files now (before, we were reading, but not saving them) 
+- The objects on an artboard have the constraints now (we only had it for the groups before)
+- The artboards have the "Adjust content on resize" setting now. When enabled, the objects move; if not, crop.
+
+### Bug Fixes
+- **Horizontal scroll!** Sorry for breaking it in the last release.
+- If an object partially crosses an artboard, it's nested in the artboard now
+- Uploading to the cloud fixed
+- Crash fixed when an object had the dimensions of less than 1 px
+- Crash fixed when you delete an object while moving it
+- Other weird crashes 
+- When you delete an artboard with a grid, the grid deletes too now
+
+### Improvements
+- We save the window size on exit and restore it on start
+- On small screens, the window opens full size
+- Uploading to the cloud shows the progress now
+- The grid button is disabled when there are no artboards on the screen
+- On the first install, the list of recent files doesn't show empty now
+
 ## 3.7
 
-Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.7.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.7.zip)
+Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.7.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.7.zip)
 
 ### **New Features**
 
