@@ -14,7 +14,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 ### Features
 - **Vector tool!** You can create and edit the polygons and Bezier curves. 
 
-![Vector tool](images/VectorTool.png)
+![Vector tool](Images/VectorTool.png)
 
 - **[Help!](https://docs.icons8.com)** 
 - **Symbols:** we started saving the symbols! If you open a file and there're some symbols, Lunacy preserves these symbols on saving. Expect the **complete support of symbols** in the next release.
