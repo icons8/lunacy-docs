@@ -76,6 +76,7 @@ img {
 
 #project_tagline {
   margin-top: 10px;
+  font-size: 22px;
 }
 
 .side-bar {
@@ -124,4 +125,9 @@ img.lunacy-logo {
   width: 48px;
   position: relative;
   top: 7px;
+}
+
+#forkme_banner {
+  background-color: #0288d1;
+  font-weight: 400;
 }
