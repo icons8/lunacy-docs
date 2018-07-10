@@ -60,8 +60,6 @@ Lunacy allows you to see CSS and XAML code of elements.
 
 You can export any assets from your document in PNG, SVG, XAML. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T3vMZPxsQQs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 ![Export assets in PNG, SVG, XAML](public/mAz4bmww76HilrhUizdqvw_img_3.jpg)
 
 Exclusive feature: upload directly to a CDN. Lunacy generates a CDN link for you without any extra effort from your side. 
@@ -526,6 +524,8 @@ For PNG format you can choose a size or scale in which an element will export. T
 ## Publish to CDN
 
 Lunacy allows you to publish assets directly to the web. Your image will be hosted on the fast servers in the multiple regions of the world, assuring the quick delivery.  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T3vMZPxsQQs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Instead of saving an image to a disk, you can get its URL with a single click, ready to insert into your HTML. Lunacy uploads the file to Icons8 CDN servers. 
 
