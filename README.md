@@ -6,7 +6,7 @@ This project is a collaboration to create the documentation for [Lunacy](https:/
 
 We're looking for your help editing and expanding it. In particular, we'll gladly accept:
 * Spellchecks 
-* Better illustratons
+* Better illustrations
 * New sections
 * Video tutorials
 
