@@ -198,25 +198,25 @@ In practice, designers use the shortcuts **Ctrl + '+' and Ctrl + ‘-’**. The 
 
 ## Selecting
 
-Selecting objects in Lunacy is easy: you just click an object on the canvas. Once the object is selected, you should see eight little handles; one in each corner and one in the center of each edge.
+Selecting objects in Lunacy is easy: You just click on an object in your canvas. Once the object is selected, you should see eight little handles along its outline; one in each corner and one in the center of each edge.
 
 ![Select an object and see its properties](public/mAz4bmww76HilrhUizdqvw_img_21.png)
 
-Alternatively, you can use the Layer List to select an object. Clicking an object's name in the list selects it on the canvas.
+Alternatively, you can use the Layer list to select an object. Clicking an object's name in the list selects it on the canvas.
 
 ![Use the Layer List to select an object](public/mAz4bmww76HilrhUizdqvw_img_22.png)
 
-You can select multiple objects by holding down the Shift key on the keyboard and click on another object.
+You can select multiple objects by holding down the Shift key on the keyboard and clicking on other objects.
 
 Selecting Group vs. Object
 
-If you click an object within a group, Lunacy selects the whole group. Usually, it's handy: you can move around the whole components.
+If you click on an object within a group, Lunacy selects the whole group. This is usually quite handy: You can easily move around whole components in your design.
 
-Sometimes you need to choose an object though. To do so, hold Ctrl when selecting the object.
+Sometimes you need to choose a single object though. To do so, hold Ctrl when choosing the object.
 
 ## Adding
 
-The most common type of objects in your document is shapes. The easiest way to add a shape is to pick one of the standard shapes from the toolbar. There is a wide variety of default shapes provided with Lunacy such as ovals, rectangles, lines and more.
+The most common type of objects in your document will be shapes. The easiest way to add a shape is to pick one of the standard shapes from the toolbar. There is a wide variety of default shapes provided by Lunacy; these include ovals, rectangles, lines and more.
 
 [//]: # (there was a weird broken table here; I removed it  - IB)
 
@@ -225,29 +225,29 @@ The most common type of objects in your document is shapes. The easiest way to a
 
 ### Moving With Keyboard
 
-* Click the arrow keys to move by one pixel
-* Shift+Arrow moves by 10 pixels
+* Hit the arrow keys to move an object by one pixel
+* Shift+Arrow moves objects by 10 pixels
 
 Using keyboard is handy when you either
 
 * Need precision
-* Or need to move an object just a little bit (we, designers, spend 50% of our time making small adjustments)
+* Or need to move objects just a little bit (as designers, we spend 50% of our time making these small adjustments)
 
 ### Moving Horizontally and Vertically
 
-Hold Shift while moving an object. Lunacy locks one of the axis and move object either horizontally or vertically.
+Hold Shift while moving an object. Lunacy will lock one of the axes and move the object either horizontally or vertically.
 
 ## Duplicating
 
 Hold Alt and move the object. Lunacy will create a copy.
 
-Another way to create a copy is pressing Ctrl+D.
+Another way to create a copy, is by pressing Ctrl+D.
 
 ## Grouping
 
-Grouping objects is a way to organize a document. After creating a group, you can move, scale, and duplicate the group as a single object.
+Grouping objects is a good way to organize a document. After creating a group, you can move, scale, and duplicate the group as a single object.
 
-Designers use grouping a lot. One can say, designer turn the documents into a series of the nested groups.
+Designers use grouping a lot. One can even say that designers turn their documents into a series of nested groups.
 
 ![Grouping objects](public/mAz4bmww76HilrhUizdqvw_img_23.png)
 
@@ -284,23 +284,23 @@ You can rotate an object using the rotate clock.
 
 ![Rotate objects](public/mAz4bmww76HilrhUizdqvw_img_29.gif)
 
-As rotation is a value measured in degrees, it can be edited via Lunacy's inspector.
+As rotation is a value measured in degrees, it can be edited via Lunacy's Inspector.
 
 ![Change the angle in Lunacy's Inspector](public/mAz4bmww76HilrhUizdqvw_img_30.png)
 
 ## Z-Axis Position
 
-Each object in artboard can be located on Z-axis. It's possible to
-* bring an object forward (keyboard shortcut **Ctrl + J**)
-* bring an object to the front (keyboard shortcut **Shift+Ctrl+J**)
-* send an object backward  (keyboard shortcut **Ctrl + [**)
-* or send an object to back (keyboard shortcut **Shift + Ctrl + [**)
+Each object on your artboard can be located on the Z-axis. You can:
+* Bring objects forward (keyboard shortcut **Ctrl + J**)
+* Bring it to the front (keyboard shortcut **Shift+Ctrl+J**)
+* Send objects backward (keyboard shortcut **Ctrl + [**)
+* Send an object directly to the back (keyboard shortcut **Shift + Ctrl + [**)
 
 ![Change Z-axis position for elements](public/mAz4bmww76HilrhUizdqvw_img_31.png)
 
 ## Align and Distribute
 
-In a bar at the very top of the canvas are the buttons for aligning and distributing objects. These buttons become active when you have more than one object selected.
+In a bar at the very top of the canvas, you will find the buttons for aligning and distributing objects. These buttons will become active when you have more than one object selected.
 
 
 
@@ -316,7 +316,7 @@ In a bar at the very top of the canvas are the buttons for aligning and distribu
 
 ## Edit Shape
 
-For some objects like rectangle, it's possible to edit the shape. To activate edit shape mode, you need to double-click on the object. This option allows you to modify properties like corner radius for a rectangle.
+For some objects, like the rectangle, it’s possible to edit the shape. To activate Edit shape mode, you need to double click on the object. This option allows you to modify properties like Corner radius for a rectangle.
 
 ![Editing shapes](public/mAz4bmww76HilrhUizdqvw_img_39.png)
 
@@ -363,7 +363,7 @@ Lunacy supports the typical tools for any vector editor.
 </table>
 
 
-Let us review some of these tools in detail.
+Let’s review some of these tools in more detail.
 
 
 ## Square
@@ -383,9 +383,9 @@ If you need a square, choose the Rectangle tool and hold shift while drawing.
 
 ## Text
 
-You can add text by choosing the Text tool from the Shapes and Objects toolbar (or press **T**). The pointer changes to the Text Input tool icon and then you can click anywhere in the Canvas to insert your text layer at that point. When you click on a canvas, a new text layer will be inserted with "Type something" placeholder, ready to replace.
+You can add text by choosing the Text tool from the Shapes and Objects toolbar (or press **T**). The pointer changes to the Text Input tool icon and then you can click anywhere in the Canvas to insert your text layer at that point. When you click on a canvas, a new text layer will be inserted with a “Type something” placeholder, ready for you to add your text.
 
-When you have a text layer selected, you shall notice that the Inspector has changed to show you all the properties that apply to text. Underneath the standard object properties, there’s the area for text style options which includes:
+When you have a text layer selected you will notice that the Inspector changes to show you all the properties that apply to text. Underneath the standard object properties, there’s an area for text style options which includes:
 
 * Font family
 * Font size
@@ -398,31 +398,32 @@ When you have a text layer selected, you shall notice that the Inspector has cha
 
 ## Missing Fonts, Solved
 
-When working with Sketch files downloaded from the internet, or received from a colleague, it may contain fonts that are missing on your system.
+When working with Sketch files that have been downloaded from the internet, or received from a colleague, it may contain fonts that you do not have on your system.
 
 ### Auto Downloading
 
-If you open a file with missing fonts, Lunacy checks Google Fonts and download those that are missing. The process is so smooth you never even notice it.
+If you open a file with missing fonts, Lunacy will check Google Fonts and download those that are missing. The process is so smooth, that you’ll never even notice it.
 
 ### Auto Installation
 
-All the Google Fonts are already on the list. When you choose any of them, Lunacy downloads it from the Google service. Smooth!
+All the Google Fonts are already in the list. When you choose any one of them, Lunacy downloads it from the Google service. Smooth!
 
 ### Auto Replacing
 
-In Lunacy, you can replace the font once for the whole document while other editors require to do it for every font instance.
+In Lunacy, you only have to replace the font once throughout the entire document, while other editors require you to do it for every font instance.
 
 [//]: # (Maybe we should cut the above into couple sentences - ib)
 
 
 ## Bitmaps
 
-Bitmaps, or images are one of the object types that are supported in Lunacy. Bitmaps, (or raster) images are made up of pixels; those images can take many forms, such as screenshots or photographs. Lunacy supports the most common image formats such as PNG, JPG, JPEG.
+Bitmaps, or images are one of the object types that are supported in Lunacy. Bitmaps, (or raster) images are made up of pixels; those images can take many forms, such as screenshots or photographs. Lunacy supports all the most common image formats, like PNG, JPG, JPEG.
+
 
 
 ## Avatar Tool
 
-Designing user interfaces, one of the common tasks is creating avatars. This time-consuming process is easy with Lunacy. It has a tool for that. The avatar tool lets you create the one in one click.
+When designing user interfaces, one of the most common tasks is creating avatars. This time consuming process is easy with Lunacy, as it has a tool specifically for this. The avatar tool lets you create them in one click.
 
 ![Create an avatar in one click](public/mAz4bmww76HilrhUizdqvw_img_27.png)
 
