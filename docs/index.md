@@ -1,12 +1,18 @@
 
 Welcome to the official help for [Lunacy, Sketch for Windows](https://icons8.com/lunacy). 
 
-
 ![Lunacy Screenshot](public/lunacy_screenshot_main.png)
+
+### Onboarding Video
+
+Here's a review of all the features with the features that one uses on a typical project. Music credits: [Young Ferry](https://icons8.com/music/author/yung-ferry) from [Fugue Music](https://icons8.com/music).
+
+<iframe width="739" height="416" src="https://www.youtube.com/embed/7E_3ZZhHeoQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 # Features
 
-Lunacy is a native Windows app that works offline and supports .sketch files.
+Lunacy is a native Windows app that works offline and supports .sketch files. We mean it; it's _not_ JavaScript wrapped into Electron. Therefore, our setup file is only 15 Mb. It's fast and takes only 200 Mb of memory for a typical project.
 
 ## Sketch Compatibility
 
@@ -729,7 +735,7 @@ In any case, you can check our [release notes](https://docs.icons8.com/release-n
 
 * **[Feature Requests](https://lunatics.icons8.com/)** — a board similar to UserVoice. Vote for features and propose yours. One feature per post, please.
 
-* **[Improving This Manual](https://github.com/icons8/lunacy-docs/blob/master/docs/index.md)** — please help us! We'll accept the pull requests for fixing the errors, expanding the sections, and updating it with new features (Icons8 team lags a little between adding a feature and writing the documentation for it). 
+* **[Improving This Manual](https://github.com/icons8/lunacy-docs/blob/master/docs/index.md)** — please help us! We'll accept the pull requests for fixing the errors, expanding the sections, and updating it with new features (Icons8 team lags a little between adding a feature and writing the documentation for it). We'll also include the video tutorials covering certain features.
 
 * **Saying hello** — our [Lunacy page](https://icons8.com/lunacy) has the comments in the bottom. If you have a review of our work or just want to say hello, you're welcome!
 
