@@ -1,6 +1,10 @@
 
 Welcome to the official help for [Lunacy - Sketch for Windows](https://icons8.com/lunacy). 
 
+#### Master Location
+
+If you see this documentation elsewhere, you may want to check our first-hand location at [docs.icons8.com](https://docs.icons8.com). It's up to date and has the proper formatting of the inline videos.
+
 ![Lunacy Screenshot](public/lunacy_screenshot_main.png)
 
 # About Lunacy
