@@ -535,19 +535,19 @@ Simply click on the ![Export assets](public/mAz4bmww76HilrhUizdqvw_img_51.png) i
 
 You can export your assets either to PNG or SVG format.
 
-For PNG format, you can choose a size or scale in which an element will export. The default size is '1x', which will export your layer at the actual size it was created. If you’re designing for mobile, you may want to export something at double or even triple the size you created it, in this case, ‘2x’ and ‘3x’.
+For PNG format, you can choose a size or scale in which an element will export. The default size is '1x', which will export your layer at the actual size it was created. If you’re designing for mobile, you may want to export something at double or even triple the size you created it - in this case, ‘2x’ and ‘3x’.
 
 ![Export assets in PNG or SVG](public/mAz4bmww76HilrhUizdqvw_img_52.jpg)
 
 ## Publish to CDN
 
-Lunacy allows you to publish assets directly to the web. Your image will be hosted on the fast servers in the multiple regions of the world, assuring the quick delivery.
+Lunacy allows you to publish assets directly to the web. Your image will be hosted on the fast servers in multiple regions of the world, ensuring quick delivery.
 
 <iframe style="margin: 30px 0;" width="739" height="416" src="https://www.youtube.com/embed/T3vMZPxsQQs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Instead of saving an image to a disk, you can get its URL with a single click, ready to insert into your HTML. Lunacy uploads the file to Icons8 CDN servers.
 
-The service is free thanks to the generous sponsorship of [KeyCDN](https://www.keycdn.com/).
+TThis service is free, thanks to the generous sponsorship of [KeyCDN](https://www.keycdn.com/).
 
 The export works in one-click. Simply select Export option and click 'Get CDN Links.' That’s all!
 
@@ -555,14 +555,14 @@ The export works in one-click. Simply select Export option and click 'Get CDN Li
 
 ## Code Preview
 
-Lunacy allows preview CSS and XAML code of all objects in a document. This feature is ideal for web designers. If you click on </> item in the top tab bar and select any element in the canvas, you'll see CSS/XAML code for this object in the right panel. It’s possible to copy code properties in one click.
+Lunacy allows you to preview CSS and XAML code for all objects in your document. This feature is ideal for web designers. If you click on </> item in the top tab bar and select any element in the canvas, you’ll see the CSS/XAML code for this object in the right panel. You can also copy these code properties with one click.
 
 ![Preview CSS and XAML code of all objects in a document](public/mAz4bmww76HilrhUizdqvw_img_50.jpg)
 
 
 ## Publishing Design
 
-Lunacy integrates with [Sketch the Ripper](http://sketch.the.ripper.graphics/)—a fast and rustic alternative to the advanced (and expensive!) tools like Zeplin, Avocode, or Simply. It allows you to smooth design handoff.
+Lunacy integrates with [Sketch the Ripper](http://sketch.the.ripper.graphics/) — a fast and rustic alternative to the advanced (and expensive!) tools like Zeplin, Avocode, or Simply. It allows you to smooth design handoff.
 
 Imagine you are a designer who finished working on a piece. Instead of sending a .sketch file to your teammates, you share your designs with a single click and get a link to all the assets ripped off ([check this example](http://sketch.the.ripper.graphics/g3tkgj/music-final)). It sets a shortcut from design to development without the need of additional viewers.
 
@@ -577,7 +577,7 @@ Imagine you are a designer who finished working on a piece. Instead of sending a
 
 You can use keyboard shortcuts in Lunacy to help speed up your design process.
 
-We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If you are used to the certain combinations, probably they will work here.
+We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If you are used to these certain combinations, they will likely work here as well.
 
 You can use keyboard shortcuts to help speed up your design process. Commands are divided into several sections.
 
@@ -711,45 +711,45 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 ### Question: Will Lunacy work on Linux?
 
-It's quite an option, though requires additional development. If you’re willing to contribute, please check [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
+It’s definitely an option, although it requires additional development. If you’re willing to contribute, please check [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
 
-### Question: Do I need internet connection to use Lunacy?
+### Question: Do I need an internet connection to use Lunacy?
 
-No, Lunacy doesn't need a connection to the internet.
+No, Lunacy doesn’t need to be connected to the internet.
 
-### Question: How about being Open Source?
+### Question: How about going Open Source?
 
-Short answer: not at the moment, not all of it.
+Short answer: Not at the moment, not all of it.
 
 Long answer: Certainly, that would speed up the development.
 
 On the other hand, it will slow it down too. Sometimes, a small team can advance more than a big community, especially in the beginning. We may reconsider it in the future.
 
-If you are willing to contribute, you may want to create the interface for Linux. Check [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
+If you are willing to contribute, you may want to create the interface for Linux. Check out [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
 
-### Question: How much will you plan to charge for Lunacy?
+### Question: How much are you planning to charge for Lunacy?
 
  Nothing. Lunacy is completely free (no hidden charges, no ads, no locked features).
 
 ### Q: How would I know when to update Lunacy?
 
-Windows Store version updates silently. If not, check if you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) the automatic updates on. We recommend this option.
+The Windows Store version updates silently. If not, check that you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) automatic updates on. We recommend this option.
 
 ### Q: Once there are updates, will I have to reinstall Lunacy, or do they install automatically?
 
 If you installed Lunacy with a downloadable installer, it will notify you about the update with an alert in the window title.
 
-In any case, you can check our [release notes](https://docs.icons8.com/release-notes/).
+Either way, you can check out our [release notes](https://docs.icons8.com/release-notes/).
 
 # Support
 
-* **[Community Support](https://community.icons8.com/)** — our forum. The whole development team is helping you too.
+* **[Community Support](https://community.icons8.com/)** — our forum. The whole development team is here to help you too.
 
 * **[Feature Requests](https://lunatics.icons8.com/)** — a board similar to UserVoice. Vote for features and propose yours. One feature per post, please.
 
 * **[Improving This Manual](https://github.com/icons8/lunacy-docs/blob/master/docs/index.md)** — please help us! We'll accept the pull requests for fixing the errors, expanding the sections, and updating it with new features (Icons8 team lags a little between adding a feature and writing the documentation for it). We'll also include the video tutorials covering certain features.
 
-* **Saying hello** — our [Lunacy page](https://icons8.com/lunacy) has the comments in the bottom. If you have a review of our work or just want to say hello, you're welcome!
+* **Saying hello** — our [Lunacy page](https://icons8.com/lunacy) has comments at the bottom. If you have a review of our work or just want to say hello, you’re welcome to do so!
 
-* **[Lunacy in the Windows Store](https://www.microsoft.com/en-us/p/lunacy/9pnlmkkpcljj)** — we depend your honest feedback. Please vote and leave a review so more people will know about Lunacy. Thank you 🙏🏽
+* **[Lunacy in the Windows Store](https://www.microsoft.com/en-us/p/lunacy/9pnlmkkpcljj)** — we depend on your honest feedback. Please vote and leave a review so more people will learn about Lunacy. Thank you 🙏🏽
 
