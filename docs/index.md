@@ -443,13 +443,13 @@ After masking
 
 # Styling
 
-You can change styling options for each object of your document. All styling properties for objects are available in Inspector. If you decided to remove styling, you need to select an object and click the '-' button.
+You can change the styling options for each object in your document. All styling properties for your objects are available in the Inspector. If you decide to remove styling from an object, you need to select the object and hit the ‘-‘ button.
 
 ![Change styling](public/mAz4bmww76HilrhUizdqvw_img_42.png)
 
 ## Color Picker
 
-Choosing, saving colors
+Choose and save colors.
 
 ![Color picker allows you to choose and save colors](public/mAz4bmww76HilrhUizdqvw_img_14.png)
 
@@ -459,7 +459,7 @@ Create and edit gradients.
 
 ![Lunacy allows you to create and edit gradients](public/mAz4bmww76HilrhUizdqvw_img_15.png)
 
-Following types of gradient are supported:
+The following types of gradients are supported in Lunacy:
 
 * Linear gradient
 
@@ -471,28 +471,28 @@ Following types of gradient are supported:
 
 ## Effects
 
-Effects need more explanation. Combining effects. Blending modes.
+Effects each need more explanation. Combining effects. Blending modes.
 
 ![Lunacy allows you to combine multiple effects together](public/mAz4bmww76HilrhUizdqvw_img_18.png)
 
 
 ## Shadows
 
-When Shadow is enabled for the object, it will cast outside of the shape. It's possible to define shadow’s X and Y position, blur radius, spread, and color.
+When Shadow is enabled for the object, it will cast the shadow outside of the shape. You can define the shadow’s X and Y position, as well as blur, radius, spread and color.
 
 ![Add shadows](public/mAz4bmww76HilrhUizdqvw_img_43.gif)
 
 ## Strokes
 
-All objects except text layers can contain strokes. These can all have various thicknesses, colors, and blend modes.
+All objects, with the exception of text layers, can contain strokes. These can all have various thicknesses, colors and blending modes.
 
 ![Add stroke](public/mAz4bmww76HilrhUizdqvw_img_44.png)
 
-Border position can be center, inside or outside.
+The border position of a stroke can be center, inside or outside.
 
 ![Border position for objects](public/mAz4bmww76HilrhUizdqvw_img_45.png)
 
-Applying 10px stroke for rectangle object: original object, center stroke, inside stroke, outside stroke
+Applying a 10px stroke for a rectangle object: Original object, center stroke, inside stroke, outside stroke
 
 ![Applying different types of stroke for rectangle object: center stroke, inside stroke, outside stroke](public/mAz4bmww76HilrhUizdqvw_img_46.png)
 
@@ -504,7 +504,7 @@ Gaussian blur is a blur type that will accurately blur in all directions.
 
 ## Formulas
 
-Inspector supports **formulas**. Type anything from 2+2 to complex algebra.
+Inspector also supports **formulas**. You can type anything from 2+2, to complex algebra.
 
 You can **drag the values** up and down; they will increase or decrease.
 
@@ -512,14 +512,14 @@ You can **drag the values** up and down; they will increase or decrease.
 
 ## Rounded Corner Hack
 
-You can specify the radius for each corner separately. To do so, type 4 values divided by space.
+You can specify the radius for each corner separately. To do so, type 4 values, each separated  with a space.
 
 This property is especially handy for tabs.
 
 
 ## Margins and Distances
 
-Lunacy shows margins and distances between elements.
+Lunacy shows margins, as well as distances between elements.
 
 ![Measure margins and distances between elements](public/mAz4bmww76HilrhUizdqvw_img_49.png)
 
@@ -529,13 +529,13 @@ Lunacy shows margins and distances between elements.
 
 ## Exporting Individual Assets
 
-When designing icons, mobile app layouts, web pages, or anything else in Lunacy, you'll likely want to export parts of your creation or even all of it! With Lunacy, it’s simple to mark what you want to export, and how you want it exported.
+When designing icons, mobile app layouts, web pages, or most anything else in Lunacy, you’ll likely want to export parts of your creation - or probably all of it! With Lunacy, it’s simple to mark what you want to export, and how you want it exported.
 
-Simply click on ![Export assets](public/mAz4bmww76HilrhUizdqvw_img_51.png) item in the top toolbar and select the object (or objects) that you want to export.
+Simply click on the ![Export assets](public/mAz4bmww76HilrhUizdqvw_img_51.png) item in the top toolbar and select the object (or objects) that you want to export.
 
 You can export your assets either to PNG or SVG format.
 
-For PNG format you can choose a size or scale in which an element will export. The default size is '1x', which will export your layer at the actual size it was created. If you’re designing for mobile, you may want to export something at double or even triple the size you created it, in this case, ‘2x’ and ‘3x’.
+For PNG format, you can choose a size or scale in which an element will export. The default size is '1x', which will export your layer at the actual size it was created. If you’re designing for mobile, you may want to export something at double or even triple the size you created it, in this case, ‘2x’ and ‘3x’.
 
 ![Export assets in PNG or SVG](public/mAz4bmww76HilrhUizdqvw_img_52.jpg)
 
