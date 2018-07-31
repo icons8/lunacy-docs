@@ -358,7 +358,7 @@ Lunacy supports the typical tools for any vector editor.
   </tr>
   <tr>
     <td>Avatar</td>
-    <td>Ctrl + P</td>
+    <td>Ctrl + I</td>
   </tr>
   <tr>
     <td>Artboard</td>
