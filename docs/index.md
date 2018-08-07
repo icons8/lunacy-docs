@@ -547,7 +547,7 @@ For PNG format, you can choose a size or scale in which an element will export. 
 
 Lunacy allows you to publish assets directly to the web. Your image will be hosted on the fast servers in multiple regions of the world, ensuring quick delivery.
 
-<iframe style="margin: 30px 0;" width="739" height="416" src="https://www.youtube.com/embed/T3vMZPxsQQs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="739" height="416" src="https://www.youtube.com/embed/u8cdtvOwlzg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Instead of saving an image to a disk, you can get its URL with a single click, ready to insert into your HTML. Lunacy uploads the file to Icons8 CDN servers.
 
