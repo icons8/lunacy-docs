@@ -24,7 +24,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 - Several bugs in the text editor fixed
 - Text style and weight change error
 - Color picker closing bug
-- Duplicates are removed in dropdown list
+- Duplicated font names are removed in dropdown list
 - Selection frame was disappearing after opening some sketch files
 - Undo/redo for multiple selected objects worked wrong on when moving by arrow keys
 - Sticking in scroll mode
