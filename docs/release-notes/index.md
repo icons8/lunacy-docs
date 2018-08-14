@@ -7,11 +7,41 @@ We release Lunacy once in two week. Take part! Vote for the next features.
 
 Version 3 introduced the full-scale editor. We've launched it in March and dedicated the following month fixing the bugs, improving the performance, and developing the remaining features such as gradients.
 
+## 3.9
+
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.9.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.9.zip)
+
+### Features
+
+- Shadow spread support
+- Double click to zoom tool button sets zoom to 100%
+- Each object now highlights by a separate frame when several objects are selected
+- Now you can reset the image to its original size with the link on the right panel
+
+### Bug Fixes
+
+- Several bugs in the text editor fixed
+- Text style and weight change error
+- Color picker closing bug
+- Duplicates are removed in dropdown list
+- Selection frame was disappearing after opening some sketch files
+- Undo/redo for multiple selected objects worked wrong on when moving by arrow keys
+- Sticking in scroll mode
+- Minor bug fixes
+
+### Improvements
+
+- Better support for text blocks in sketch file
+- Initial window size now is being changed depending on screen scale and size
+- Snapping support for objects outside of artboards
+- Image overrides and opacity support for symbol objects
+
 ## 3.8
 
 Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.8.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.8.zip)
 
 ### Features
+
 - **Vector tool!** You can create and edit the polygons and Bezier curves. 
 
 ![Vector tool](Images/VectorTool.png)
@@ -25,6 +55,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 - The artboards have the "Adjust content on resize" setting now. When enabled, the objects move; if not, crop.
 
 ### Bug Fixes
+
 - **Horizontal scroll!** Sorry for breaking it in the last release.
 - If an object partially crosses an artboard, it's nested in the artboard now
 - Uploading to the cloud fixed
@@ -34,6 +65,8 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 - When you delete an artboard with a grid, the grid deletes too now
 
 ### Improvements
+
+
 - We save the window size on exit and restore it on start
 - On small screens, the window opens full size
 - Uploading to the cloud shows the progress now
