@@ -17,6 +17,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 - Double click to zoom tool button sets zoom to 100%
 - Each object now highlights by a separate frame when several objects are selected
 - Now you can reset the image to its original size with the link on the right panel
+- Letter spacing and paragraph spacing support in text blocks
 
 ### Bug Fixes
 
