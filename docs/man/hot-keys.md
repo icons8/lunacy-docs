@@ -84,6 +84,11 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Italic  |Ctrl+I |
 | Increase font size |Ctrl(+)+ |
 | Decrease font size |Ctrl(+)– |
+| Increase Character Spacing |Ctrl+→ |
+| Decrease Character Spacing |Ctrl+← |
+| Horizontal Align Left |Ctrl + Shift + { |
+| Horizontal Align Center |Ctrl + Shift + | |
+| Horizontal Align Right |Ctrl + Shift + } |
 
 ### Moving and Resizing Objects
 
