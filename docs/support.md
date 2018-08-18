@@ -1,3 +1,23 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Support
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    prev:
+        content: FAQ
+        url: '/faq'
+---
+
+
 # Support
 
 * **[Community Support](https://community.icons8.com/)** — our forum. The whole development team is here to help you too.

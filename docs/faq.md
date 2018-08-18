@@ -1,3 +1,26 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: FAQ
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    next:
+        content: Support
+        url: '/support'
+    prev:
+        content: Shortcuts
+        url: '/shortcuts'
+---
+
+
 # FAQ
 
 ### Question: Will Lunacy work on Linux?

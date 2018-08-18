@@ -6,7 +6,6 @@ comments: false
 
 # Hero section
 title: About Lunacy
-description: Page description
 
 # Micro navigation
 micro_nav: true

@@ -1,3 +1,25 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Interface
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    next:
+        content: Editing
+        url: '/editing'
+    prev:
+        content: About
+        url: '/about'
+---
+
 # Interface
 
 Lunacy’s interface is minimal. It contains only essential controls, so you don’t have to spend much time learning how to interact with it.

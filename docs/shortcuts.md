@@ -1,3 +1,26 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Shortcuts
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    next:
+        content: FAQ
+        url: '/faq'
+    prev:
+        content: Export
+        url: '/export'
+---
+
+
 # Shortcuts
 
 You can use keyboard shortcuts in Lunacy to help speed up your design process.

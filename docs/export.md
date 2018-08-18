@@ -1,3 +1,26 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Export
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    next:
+        content: Shortcuts
+        url: '/shortcuts'
+    prev:
+        content: Styling
+        url: '/styling'
+---
+
+
 # Export
 
 

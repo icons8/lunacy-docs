@@ -1,3 +1,26 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Editing
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    next:
+        content: Objects
+        url: '/objects'
+    prev:
+        content: Interface
+        url: '/interface'
+---
+
+
 # Editing
 
 ## Selecting

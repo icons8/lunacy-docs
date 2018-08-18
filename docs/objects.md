@@ -1,3 +1,26 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Objects
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    next:
+        content: Styling
+        url: '/styling'
+    prev:
+        content: Editing
+        url: '/editing'
+---
+
+
 # Objects
 
 Lunacy supports the typical tools for any vector editor.
