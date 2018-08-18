@@ -16,8 +16,8 @@ page_nav:
         content: Export
         url: '/export'
     prev:
-        content: Styling
-        url: '/styling'
+        content: Objects
+        url: '/objects'
 ---
 
 
