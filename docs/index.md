@@ -4,17 +4,12 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Project name
-description: Project description
+title: Lunacy documentation
+description: Welcome to the official help for Lunacy - Sketch for Windows.
 buttons:
-    - content: Button
-      url: '#'
-      external_url: false
-    - icon: github
-      content: Button with icon
-      url: '#'
+    - content: Download
+      url: 'https://icons8.com/lunacy'
       external_url: true
-
 
 # Grid navigation
 grid_navigation:
