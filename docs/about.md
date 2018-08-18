@@ -14,8 +14,8 @@ micro_nav: true
 # Page navigation
 page_nav:
     next:
-        content: Next page
-        url: 'Interface'
+        content: Interface
+        url: '/interface'
 ---
 
 # About Lunacy

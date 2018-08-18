@@ -1,17 +1,14 @@
 doks:
-    baseurl: /lunacy-docs/
+    baseurl: /lunacy-docs
     color_theme: blue
     header:
         logo:
             text: Project name
             image:
         nav:
-            - item_name: Item 1
-              item_url: '#'
-            - item_name: Item 2
-              item_url: '#'
-            - item_name: Item 3
-              item_url: '#'
+            - item_name: Release Notes
+              item_url: 'release-notes'
+            
     footer:
         content:
             logo:

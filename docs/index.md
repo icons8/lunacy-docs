@@ -31,5 +31,5 @@ grid_navigation:
     - title: About Lunacy
       excerpt: Section description
       cta: Read more
-      url: 'about'
+      url: '/about'
 ---
