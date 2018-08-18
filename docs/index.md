@@ -14,39 +14,37 @@ buttons:
 # Grid navigation
 grid_navigation:
     - title: About Lunacy
-      excerpt: Section description
+      excerpt: Basic information about Lunacy
       cta: Read more
       url: '/about'
     - title: Interface
-      excerpt: Section description
+      excerpt: Learn about interface layout and navigation tools
       cta: Read more
       url: '/interface'
     - title: 'Editing'
-      excerpt: Section description
+      excerpt: Learn about tools that will help you create shapes you want 
       cta: Read more
       url: '/editing'
     - title: 'Objects'
-      excerpt: Section description
+      excerpt: Learn about shapes that Lunacy provides
       cta: Read more
       url: '/objects'
     - title: 'Styling'
-      excerpt: Section description
+      excerpt: Learn about tools that will help you create your unique style
       cta: Read more
       url: '/styling'
     - title: 'Export'
-      excerpt: Section description
+      excerpt: Learn about publishing capabilities and export formats of Lunacy
       cta: Read more
       url: '/export'
     - title: 'Shortcuts'
-      excerpt: Section description
+      excerpt: Make your workflow faster by learning Lunacy's shortcuts
       cta: Read more
       url: '/shortcuts'
     - title: 'FAQ'
-      excerpt: Section description
       cta: Read more
       url: '/faq'
     - title: 'Support'
-      excerpt: Section description
       cta: Read more
       url: '/support'
 ---
