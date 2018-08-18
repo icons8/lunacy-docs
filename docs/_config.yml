@@ -3,7 +3,7 @@ doks:
     color_theme: blue
     header:
         logo:
-            text: Project name
+            text: Lunacy
             image:
         nav:
             - item_name: Release Notes
@@ -12,18 +12,13 @@ doks:
     footer:
         content:
             logo:
-                text: Project name
+                text: Lunacy
                 image:
-            copyright: Copyright &copy; 2017. - Project name <br>All rights reserved.
+            copyright: Copyright &copy; 2018. - Project name <br>All rights reserved.
         social_list:
-            - network_name: facebook
-              profile_url: '#'
-            - network_name: twitter
-              profile_url: '#'
-            - network_name: instagram
-              profile_url: '#'
-            - network_name: youtube
-              profile_url: '#'
+            - network_name: github
+              profile_url: 'https://github.com/icons8/lunacy-docs'
+
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
     comments:
