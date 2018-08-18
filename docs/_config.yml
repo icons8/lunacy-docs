@@ -1,5 +1,5 @@
 doks:
-    baseurl:
+    baseurl: /lunacy-docs
     color_theme: blue
     header:
         logo:

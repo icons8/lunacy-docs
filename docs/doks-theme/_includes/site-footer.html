@@ -4,9 +4,9 @@
 			<div class="row">
 				<div class="col-sm-6">
 					{% if site.doks.footer.content.logo.text %}
-						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" class="site-footer__logo">{{ site.doks.footer.content.logo.text }}</a>
+						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}" class="site-footer__logo">{{ site.doks.footer.content.logo.text }}</a>
 					{% elsif site.doks.footer.content.logo.image %}
-						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" class="site-footer__logo">
+						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}" class="site-footer__logo">
 							<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo-footer.png">
 						</a><!-- /.site-footer__logo -->
 					{% endif %}
