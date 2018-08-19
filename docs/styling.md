@@ -21,8 +21,6 @@ page_nav:
 ---
 
 
-# Styling
-
 You can change the styling options for each object in your document. All styling properties for your objects are available in the Inspector. If you decide to remove styling from an object, you need to select the object and hit the ‘-‘ button.
 
 ![Change styling](public/mAz4bmww76HilrhUizdqvw_img_42.png)

@@ -21,8 +21,6 @@ page_nav:
 ---
 
 
-# Shortcuts
-
 You can use keyboard shortcuts in Lunacy to help speed up your design process.
 
 We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If you are used to these certain combinations, they will likely work here as well.

@@ -20,7 +20,6 @@ page_nav:
         url: '/about'
 ---
 
-# Interface
 
 Lunacy’s interface is minimal. It contains only essential controls, so you don’t have to spend much time learning how to interact with it.
 

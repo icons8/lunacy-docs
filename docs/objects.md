@@ -21,8 +21,6 @@ page_nav:
 ---
 
 
-# Objects
-
 Lunacy supports the typical tools for any vector editor.
 
 <table>

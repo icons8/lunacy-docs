@@ -21,8 +21,6 @@ page_nav:
 ---
 
 
-# FAQ
-
 ### Question: Will Lunacy work on Linux?
 
 It’s definitely an option, although it requires additional development. If you’re willing to contribute, please check [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).

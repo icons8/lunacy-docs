@@ -17,7 +17,6 @@ page_nav:
         url: '/interface'
 ---
 
-# About Lunacy
 
 ## Speed Art Video
 

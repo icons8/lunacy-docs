@@ -18,8 +18,6 @@ page_nav:
 ---
 
 
-# Support
-
 * **[Community Support](https://community.icons8.com/)** — our forum. The whole development team is here to help you too.
 
 * **[Feature Requests](https://lunatics.icons8.com/)** — a board similar to UserVoice. Vote for features and propose yours. One feature per post, please.

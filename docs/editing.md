@@ -21,7 +21,6 @@ page_nav:
 ---
 
 
-# Editing
 
 ## Selecting
 
