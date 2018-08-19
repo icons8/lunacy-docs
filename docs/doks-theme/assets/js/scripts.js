@@ -111,7 +111,7 @@
 				'</a>'
 			);
 
-			if ( i < 2 && list[ i ].childrens && list[ i ].childrens.length ) {
+			if ( i < 3 && list[ i ].childrens && list[ i ].childrens.length ) {
 				$li.append( generateList( list[ i ].childrens ) );
 				$li.addClass( 'has-submenu' );
 			}
