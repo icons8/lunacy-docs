@@ -43,17 +43,6 @@
 			&.has-submenu {
 				padding-right: 1.25rem;
 
-				&::after {
-					@extend .icon;
-					content: '\e91d';
-					color: #bdbdbd;
-					display: inline-block;
-					font-size: 1.25rem;
-					position: absolute;
-					right: 0;
-					top: .3125rem;
-					transition: color .2s;
-				}
 
 				> ul {
 					display: none;
