@@ -14,7 +14,7 @@ doks:
             logo:
                 text: Lunacy
                 image:
-            copyright: Copyright &copy; 2018. - icons8 <br>All rights reserved.
+            copyright: Copyright &copy; 2018 Icons8 LLC
         social_list:
             - network_name: github
               profile_url: 'https://github.com/icons8/lunacy-docs'
