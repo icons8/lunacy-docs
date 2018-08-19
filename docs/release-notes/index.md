@@ -1,4 +1,3 @@
-# Lunacy Release Notes
 
 We release Lunacy once in two week. Take part! Vote for the next features.
 
