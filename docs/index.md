@@ -34,8 +34,10 @@ grid_navigation:
     - title: 'Shortcuts'
       excerpt: Make your workflow faster by learning Lunacy's shortcuts
       url: '/shortcuts'
-    - title: 'FAQ'
-      url: '/faq'
     - title: 'Support'
+      excerpt: 'FAQ and our contacts'
       url: '/support'
+    - title: 'Release History'
+      excerpt: 'New features and fixes for each version of Lunacy'
+      url: '/release-notes'
 ---

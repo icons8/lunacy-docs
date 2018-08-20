@@ -6,8 +6,6 @@ doks:
             text: Lunacy
             image:
         nav:
-            - item_name: Release Notes
-              item_url: '/release-notes'
             
     footer:
         content:

@@ -1,3 +1,18 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Release Notes
+
+# Micro navigation
+micro_nav: true
+
+---
+
+
 
 We release Lunacy once in two week. Take part! Vote for the next features.
 
