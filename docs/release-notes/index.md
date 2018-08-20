@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Release Notes
+title: Release History
 
 # Micro navigation
 micro_nav: true

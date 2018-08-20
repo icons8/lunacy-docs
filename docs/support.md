@@ -16,7 +16,7 @@ page_nav:
         content: Shortcuts
         url: '/shortcuts'
     next:
-        content: Release Notes
+        content: Release History
         url: '/release-notes'
 ---
 
