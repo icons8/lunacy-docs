@@ -14,11 +14,8 @@
 							{% for item in site.doks.footer.social_list %}
 								<li>
 									<a href="{{ item.profile_url }}" target="_blank" class="social-list__item social-list__item--{{ item.network_name }}">
-										<i class="icon icon--{{ item.network_name }}"></i>
+										<i class="icon icon--{{ item.network_name }}"><span>View on GitHub</span></i>
 									</a>
-								</li>
-								<li>
-									<p>View on GitHub</p>
 								</li>
 							{% endfor %}
 						</ul><!-- /.social-list -->
