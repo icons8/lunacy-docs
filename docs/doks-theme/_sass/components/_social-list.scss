@@ -20,6 +20,10 @@
 			display: none;
 		}
 	}
+
+	p {
+		display: inline-block;
+	}
 }
 
 /* ----- Item ----- */
@@ -139,7 +143,4 @@
 		display: block;
 	}
 
-	p {
-		display: inline-block;
-	}
 }
