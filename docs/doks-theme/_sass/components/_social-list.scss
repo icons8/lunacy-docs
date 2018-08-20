@@ -5,6 +5,7 @@
 /* ----- General ----- */
 .social-list {
 	margin-bottom: 0;
+	padding-top: 20px;
 
 	li {
 		display: inline-block;
@@ -136,5 +137,9 @@
 
 	.icon {
 		display: block;
+	}
+
+	p {
+		display: inline-block;
 	}
 }
