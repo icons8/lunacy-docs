@@ -13,8 +13,8 @@ micro_nav: true
 # Page navigation
 page_nav:
     next:
-        content: FAQ
-        url: '/faq'
+        content: Support
+        url: '/support'
     prev:
         content: Export
         url: '/export'
