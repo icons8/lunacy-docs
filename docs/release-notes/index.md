@@ -10,6 +10,10 @@ title: Release Notes
 # Micro navigation
 micro_nav: true
 
+prev:
+    content: Support
+    url: '/support'
+
 ---
 
 

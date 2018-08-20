@@ -15,6 +15,9 @@ page_nav:
     prev:
         content: Shortcuts
         url: '/shortcuts'
+    next:
+        content: Release Notes
+        url: '/release-notes'
 ---
 
 ## FAQ
