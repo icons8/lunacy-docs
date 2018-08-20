@@ -17,7 +17,7 @@ page_nav:
         url: '/shortcuts'
 ---
 
-## FAQ:
+## FAQ
 
 ### Question: Will Lunacy work on Linux?
 
