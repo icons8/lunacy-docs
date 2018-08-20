@@ -7,7 +7,7 @@ keywords:
 title: Lunacy Documentation
 description: Welcome to the official help for Lunacy, Sketch for Windows.
 buttons:
-    - content: Download
+    - content: Download Lunacy
       url: 'https://icons8.com/lunacy'
       external_url: true
 
