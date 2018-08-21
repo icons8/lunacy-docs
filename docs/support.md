@@ -44,11 +44,11 @@ If you are willing to contribute, you may want to create the interface for Linux
 
  Nothing. Lunacy is completely free (no hidden charges, no ads, no locked features).
 
-### Q: How would I know when to update Lunacy?
+### Question: How would I know when to update Lunacy?
 
 The Windows Store version updates silently. If not, check that you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) automatic updates on. We recommend this option.
 
-### Q: Once there are updates, will I have to reinstall Lunacy, or do they install automatically?
+### Question: Once there are updates, will I have to reinstall Lunacy, or do they install automatically?
 
 If you installed Lunacy with a downloadable installer, it will notify you about the update with an alert in the window title.
 
