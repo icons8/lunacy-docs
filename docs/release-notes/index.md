@@ -9,6 +9,8 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 
 ## 3.9.1 Hotfix
 
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.9.1.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.9.1.zip)
+
 ### Bug Fixes
 
 - Space key is not working in text edit mode
