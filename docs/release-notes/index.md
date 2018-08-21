@@ -1,4 +1,23 @@
-# Lunacy Release Notes
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Release History
+
+# Micro navigation
+micro_nav: true
+
+page_nav:
+    prev:
+        content: Support
+        url: '/support'
+
+---
+
+
 
 We release Lunacy once in two week. Take part! Vote for the next features.
 
