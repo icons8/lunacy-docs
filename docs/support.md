@@ -22,6 +22,20 @@ page_nav:
 
 ## FAQ
 
+### Question: How do I scroll around the workspace?
+
+You can scroll around the workspace in these ways:
+
+* **For vertical scrolling:** Mouse wheel or Vertical scroll gesture on trackpad
+* **For horizontal scrolling:** Mouse wheel + Shift key or Horizontal scroll gesture on trackpad
+
+### Question: How to create and organize pages in Lunacy?
+
+You can add, delete, and rename the pages.
+
+* **To add a page** click on **+** sign on the page list and then hit Enter
+* **To rename/delete a page** use the right mouse button on the needed page and choose Rename or Delete 
+
 ### Question: Will Lunacy work on Linux?
 
 It’s definitely an option, although it requires additional development. If you’re willing to contribute, please check [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
