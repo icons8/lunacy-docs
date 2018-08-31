@@ -7,6 +7,42 @@ We release Lunacy once in two week. Take part! Vote for the next features.
 
 Version 3 introduced the full-scale editor. We've launched it in March and dedicated the following month fixing the bugs, improving the performance, and developing the remaining features such as gradients.
 
+## 3.10
+
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.10.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.10.zip)
+
+### Features
+
+- Autoresize added for text
+- Strikethrough text option added
+- Added Report a bug feature to the menu
+- Import .svg files with the Image Tool
+- Create the new window for the new document when the current document was changed
+
+### Bug Fixes
+
+- Fixed bugs in displaying the content of .sketch files
+- Fixed the order and position of the elements after copying/pasting when using keyboard shortcuts, context menu, duplication
+- When opening the gradients in the color picker now the first slider is active 
+- The behavior of the rounding radius on rectangles changed: it does not decrease when the size of the figure decreases
+- Fixed Undo-Redo for Send Backward/Send to back operations
+- Fixed Undo-Redo for creating artboards from templates 
+- Fixed the bug when the app was crashing if exported file names contained inappropriate elements: symbols, quotes, slashes, etc.
+- Fixed the bug when the order of elements was broken when grouping the objects
+- The input field for the roundings of the corners now doesn’t disappear if not all of the corners have the same value
+- Added Undo-Redo for the corner-radius changes
+- Removed unnecessary files generated in AppData folder
+
+### Improvements
+
+- Typography panel changed
+- Scrollbars added to the workspace
+- Added the license information (EULA) and Privacy policy to the About window
+- Slightly changed the design of the menu and the About window
+- The export panel redesigned, the export options now are all in one place
+- Color picker redesigned to be more compact
+- Now you can change the size of expanded pages panel
+
 ## 3.9.1 Hotfix
 
 Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.9.1.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.9.1.zip)
