@@ -1,1 +1,36 @@
-theme: jekyll-theme-slate
+doks:
+    baseurl: 
+    color_theme: blue
+    header:
+        logo:
+            text: Lunacy
+            image:
+        nav:
+            
+    footer:
+        content:
+            logo:
+                text: Lunacy
+                image:
+            copyright: Copyright &copy; 2018 Icons8 LLC
+        social_list:
+            - network_name: github
+              profile_url: 'https://github.com/icons8/lunacy-docs'
+
+    google_analytics:
+        tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
+    comments:
+        disqus_forum_shortname: # Add your disqus forum shortname to activate comments
+
+# SASS settings
+sass:
+    sass_dir: ./doks-theme/_sass
+    style: :compressed
+
+# Jekyll settings
+layouts_dir: ./doks-theme/_layouts
+includes_dir: ./doks-theme/_includes
+exclude: [ 'README.md', 'CHANGELOG.md' ]
+permalink: /:title/
+
+theme: jekyll-theme-cayman
