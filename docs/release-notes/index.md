@@ -35,6 +35,7 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 - Strikethrough text option added
 - Added Report a bug feature to the menu
 - Import .svg files with the Image Tool
+- Scrollbars added to the workspace
 - Create the new window for the new document when the current document was changed
 
 ### Bug Fixes
@@ -55,7 +56,6 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 
 - Typography panel changed
 - Added the ability to enter text when changing the style of text
-- Scrollbars added to the workspace
 - Added the license information (EULA) and Privacy policy to the About window
 - Slightly changed the design of the menu and the About window
 - The export panel redesigned, the export options now are all in one place
