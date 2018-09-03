@@ -25,10 +25,9 @@ We release Lunacy once in two week. Take part! Vote for the next features.
 # Version 3
 
 Version 3 introduced the full-scale editor. We've launched it in March and dedicated the following month fixing the bugs, improving the performance, and developing the remaining features such as gradients.
-<!---
+
 ## 3.10
 
-Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.10.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.10.zip)
 
 ### Features
 
@@ -61,7 +60,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 - The export panel redesigned, the export options now are all in one place
 - Color picker redesigned to be more compact
 - Now you can change the size of expanded pages panel
--->
+
 ## 3.9.1 Hotfix
 
 Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.9.1.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.9.1.zip)
