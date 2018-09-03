@@ -54,6 +54,7 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 ### Improvements
 
 - Typography panel changed
+- Added the ability to enter text when changing the style of text
 - Scrollbars added to the workspace
 - Added the license information (EULA) and Privacy policy to the About window
 - Slightly changed the design of the menu and the About window
