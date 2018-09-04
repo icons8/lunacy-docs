@@ -6,7 +6,7 @@
 .nav-grid {
 	font-size: .9375em;
 	line-height: 1.8em;
-	color: $color-dark-blue;
+	color: $color-dark;
 }
 
 .nav-grid--out {
@@ -30,10 +30,10 @@
 	&:hover,
 	&:active,
 	&:focus {
-		border-color: $color-dark-blue;
+		border-color: $color-dark;
 
 		.nav-grid__btn {
-			border-color: $color-dark-blue;
+			border-color: $color-dark;
 
 			.icon {
 				@include translate(.625rem, 0);
@@ -71,7 +71,7 @@
 	font-family: $font-family-secondary;
 	font-weight: 500;
 	text-transform: uppercase;
-	border-top: 2px solid rgba($color-dark-blue, .2);
+	border-top: 2px solid rgba($color-dark, .2);
 	padding: 1.25rem 1.875rem 0 1.875rem;
 	transition: border .2s;
 

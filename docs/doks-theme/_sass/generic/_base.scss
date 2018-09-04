@@ -118,12 +118,12 @@ hr {
 /* ----- States ----- */
 ::-moz-selection {
 	background: rgba($color-yellow, .99);
-	color: $color-dark-blue;
+	color: $color-dark;
 }
 
 ::selection {
 	background: rgba($color-yellow, .99);
-	color: $color-dark-blue;
+	color: $color-dark;
 }
 
 /* ----- Quotes ----- */
@@ -132,7 +132,7 @@ blockquote {
 }
 
 q {
-	color: $color-dark-blue;
+	color: $color-dark;
 }
 
 /* ----- Lists ----- */

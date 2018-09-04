@@ -7,7 +7,7 @@
 	position: absolute;
 	width: 100%;
 	height: 64px;
-	border-bottom: 1px solid rgba($color-dark-blue, .15);
+	border-bottom: 1px solid rgba($color-dark, .15);
 	background-color: #24282A;
 }
 
@@ -56,7 +56,7 @@
 		&:hover,
 		&:focus,
 		&:active {
-			border-color: $color-dark-blue;
+			border-color: $color-dark;
 		}
 	}
 }
@@ -106,7 +106,7 @@
 
 	a {
 		@include link-reset;
-		color: $color-dark-blue;
+		color: $color-dark;
 		font-family: $font-family-secondary;
 		text-transform: uppercase;
 	}
@@ -127,7 +127,7 @@
 		display: block;
 		height: 2px;
 		width: 1.875rem;
-		background-color: $color-dark-blue;
+		background-color: $color-dark;
 		position: absolute;
 		left: 1.875rem;
 		transition: top .2s, transform .2s, opacity .2s;

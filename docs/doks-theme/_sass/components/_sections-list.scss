@@ -37,7 +37,7 @@
 			transition: border .2s;
 
 			&.active {
-				border-left-color: $color-dark-blue;
+				border-left-color: $color-dark;
 			}
 
 			&.has-submenu {
@@ -50,7 +50,7 @@
 
 				&.active {
 					&::after {
-						color: $color-dark-blue;
+						color: $color-dark;
 					}
 
 					> ul {
