@@ -6,8 +6,9 @@
 .site-header {
 	position: absolute;
 	width: 100%;
-	height: 5.625rem;
+	height: 64px;
 	border-bottom: 1px solid rgba($color-dark-blue, .15);
+	background-color: #24282A;
 }
 
 /* ----- Navigation ----- */
@@ -19,7 +20,7 @@
 	font-family: $font-family-secondary;
 	font-weight: bold;
 	font-size: 2em;
-	line-height: 5.625rem;
+	line-height: 4rem;
 
 	&:hover,
 	&:focus,
