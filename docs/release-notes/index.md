@@ -8,7 +8,7 @@ comments: false
 title: Release History
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 page_nav:
     prev:

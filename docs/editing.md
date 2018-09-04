@@ -8,7 +8,7 @@ comments: false
 title: Editing
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 # Page navigation
 page_nav:
