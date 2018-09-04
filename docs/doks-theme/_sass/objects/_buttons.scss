@@ -24,8 +24,8 @@
 }
 
 .btn--dark {
-	color: $color-dark;
-	border: 1px solid $color-dark;
+	color: $color-bkack;
+	border: 1px solid #24282A;
 	padding: .5625rem 1.5625rem;
 	transition: color .2s, background-color .2s;
 
@@ -34,10 +34,13 @@
 	}
 
 	&:hover,
-	&:focus,
-	&:active {
-		color: $color-dark;
-		background-color: $color-yellow;
+	&:focus{
+		color: $color-white;
+		background-color: #24282A;
+	}
+
+	&:active{
+		color: #3E4446;
 	}
 }
 
