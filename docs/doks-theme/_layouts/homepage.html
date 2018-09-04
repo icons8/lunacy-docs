@@ -71,7 +71,7 @@
 									{% for item in page.grid_navigation %}
 										<div class="col-sm-6 col-lg-4">
 											<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="nav-grid__item">
-												<div class="nav-grid__content" data-mh>
+												<div class="nav-grid__content">
 													<img src="https://png.icons8.com/windows/40/000000/lunacy.png" class="nav-grid__logo">
 													<h2 class="nav-grid__title">{{ item.title }}</h2>
 													<p>{{ item.excerpt }}</p>

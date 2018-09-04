@@ -21,6 +21,8 @@
 	display: block;
 	background-color: #FFFFFF;
 	margin-bottom: .9375rem;
+	height: 200px;
+	width: 392px;
 	transition: box-shadow .2s;
 	border-radius: 3px;
 	@media (min-width: $screen-sm-min) {
@@ -43,7 +45,7 @@
 	padding: 1.25rem 1.875rem .625rem 1.875rem;
 
 	@media (min-width: $screen-md-min) {
-		padding: 1.875rem 2.5rem 1.25rem 2.5rem;
+		padding: 2.875rem 2.5rem 1.25rem 2.5rem;
 	}
 
 	p {
