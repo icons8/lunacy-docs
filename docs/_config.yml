@@ -3,8 +3,8 @@ doks:
     color_theme: blue
     header:
         logo:
-            text: Lunacy
-            image:
+            text:
+            image: true
         nav:
             
     footer:
