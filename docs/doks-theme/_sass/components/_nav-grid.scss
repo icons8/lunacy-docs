@@ -22,11 +22,11 @@
 	background-color: #FFFFFF;
 	margin-bottom: .9375rem;
 	height: 200px;
-	width: 370px;
+	width: 368px;
 	transition: box-shadow .2s;
 	border-radius: 3px;
 	@media (min-width: $screen-sm-min) {
-		margin-bottom: 1.875rem;
+		margin-bottom: 1.375rem;
 	}
 
 	&:hover,
