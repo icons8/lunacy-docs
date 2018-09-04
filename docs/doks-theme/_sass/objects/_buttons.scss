@@ -18,12 +18,12 @@
 }
 
 .btn--rounded {
-	border-radius: 3.125rem;
+	border-radius: 3px;
 }
 
 .btn--dark {
-	color: $color-white;
-	background-color: $color-dark;
+	color: $color-dark;
+	border: 1px solid $color-dark;
 	padding: .5625rem 1.5625rem;
 	transition: color .2s, background-color .2s;
 
