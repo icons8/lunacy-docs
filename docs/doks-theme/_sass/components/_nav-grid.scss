@@ -21,24 +21,19 @@
 	display: block;
 	background-color: #FFFFFF;
 	margin-bottom: .9375rem;
-	transition: background-color .2s, border .2s;
-
+	transition: box-shadow .2s;
+	border-radius: 3px;
 	@media (min-width: $screen-sm-min) {
 		margin-bottom: 1.875rem;
 	}
 
 	&:hover,
-	&:active,
 	&:focus {
-		border-color: $color-dark;
-
-		.nav-grid__btn {
-			border-color: $color-dark;
-
-			.icon {
-				@include translate(.625rem, 0);
-			}
+		box-shadow: 0 0 8px rgba($color: #000000, $alpha: 0.1)
 		}
+
+	&:active{
+		box-shadow: 0 0 4px rgba($color: #000000, $alpha: 0.1)
 	}
 }
 
