@@ -22,12 +22,6 @@
 	font-size: 2em;
 	line-height: 4rem;
 
-	&:hover,
-	&:focus,
-	&:active {
-		color: $color-dark-blue;
-	}
-
 	img {
 		height: calc(5.625rem - 1px);
 	}
