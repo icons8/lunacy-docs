@@ -29,11 +29,11 @@
 
 	&:hover,
 	&:focus {
-		box-shadow: 0 0 8px rgba($color: #000000, $alpha: 0.1)
+		box-shadow: 0 8px 24px rgba($color: #000000, $alpha: 0.1)
 		}
 
 	&:active{
-		box-shadow: 0 0 4px rgba($color: #000000, $alpha: 0.1)
+		box-shadow: 0 4px 8px rgba($color: #000000, $alpha: 0.1)
 	}
 }
 
