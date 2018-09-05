@@ -48,14 +48,15 @@
 		color: $color-white;
 		font-family: $font-family-primary;
 		line-height: 32px;
-		border-bottom: 1px solid;
-		border-color: transparent;
-		transition: border-color .2s;
+		transition: color, background-color .2s;
 
 		&:hover,
-		&:focus,
+		&:focus {
+			color: #BEBFC0;
+		}
+
 		&:active {
-			border-color: $color-dark;
+			background-color: #3D3F42;
 		}
 	}
 }
