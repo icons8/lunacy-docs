@@ -35,13 +35,12 @@
 	margin-bottom: 0;
 
 	li {
-		display: inline;
 		padding: 16px 16px;
 	}
 
 	a {
 		@include link-reset;
-		display: inline-block;
+		display: block;
 		font-size: 14px;
 		font-weight: 500;
 		color: $color-white;
