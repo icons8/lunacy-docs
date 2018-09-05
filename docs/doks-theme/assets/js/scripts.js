@@ -164,7 +164,14 @@
 		} );
 	} );
 
-	$('li a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+	var current = location.pathname;
+    $('.site-header__nav li a').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('href').indexOf(current) !== -1){
+            $this.addClass('active');
+        }
+    })
 
 	// Offcanvas
 	$( '.offcanvas-toggle' ).on( 'click', function() {
