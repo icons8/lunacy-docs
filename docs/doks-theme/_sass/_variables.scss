@@ -62,8 +62,8 @@ $color-theme-yellow: #FCFDE8 !default;
     }
 }
 
-@include font('SF Pro Text', '..fonts/SFProText-Regular');
-@include font('SF Pro Text-Medium', '..fonts/SFProText-Medium');
+@include font('SF Pro Text', '../fonts/SFProText-Regular');
+@include font('SF Pro Text-Medium', '../fonts/SFProText-Medium');
 
 
 $font-family-primary: 'SF Pro Text', sans-serif !default;
