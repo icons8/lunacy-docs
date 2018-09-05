@@ -164,6 +164,8 @@
 		} );
 	} );
 
+	$('li a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+
 	// Offcanvas
 	$( '.offcanvas-toggle' ).on( 'click', function() {
 		$( 'body' ).toggleClass( 'offcanvas-expanded' );

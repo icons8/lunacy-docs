@@ -38,10 +38,10 @@
 
 	li {
 		padding: 16px 16px;
-		transition: background-color .2s;
-		&:active {
-			background-color: #3D3F42;
-		}
+	}
+
+	.active {
+		background-color: #3D3F42;
 	}
 
 	a {
