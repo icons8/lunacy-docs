@@ -10,6 +10,7 @@ doks:
               item_url: /
             - item_name: Request Features
               item_url: icons8.ru/
+              external_url: true
             - item_name: Release Notes
               item_url: /release-notes
             

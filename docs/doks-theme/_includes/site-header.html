@@ -23,7 +23,11 @@
 					{% if site.doks.header.nav %}
 						<ul class="site-header__nav hidden-xs">
 							{% for item in site.doks.header.nav %}
-								<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.item_url }}">{{ item.item_name }}</a></li>
+								{% if item.external_url == true %}
+									<li><a href="{{ item.item_url }}">{{ item.item_name }}</a></li>
+								{% else %}
+									<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.item_url }}">{{ item.item_name }}</a></li>
+								{% endif %}
 							{% endfor %}
 						</ul><!-- /.site-header__nav -->
 						<button class="offcanvas-toggle visible-xs">
