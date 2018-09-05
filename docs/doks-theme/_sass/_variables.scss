@@ -49,8 +49,27 @@ $color-theme-red: #FFECE6 !default;
 $color-theme-yellow: #FCFDE8 !default;
 
 /* ----- Font families ----- */
+@mixin font($font-family, $font-file) {
+    @font-face {
+      font-family: $font-family;
+      src: url($font-file+'.eot');
+      src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
+    url($font-file+'.woff') format('woff'),
+    url($font-file+'.ttf') format('truetype'),
+    url($font-file+'.svg#aller') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+}
+
+@include font('SF Pro Text', '../assets/fonts/SFProText-Regular');
+@include font('SF Pro Text-Medium', '../assets/fonts/SFProText-Medium');
+
+
 $font-family-primary: 'Noto Sans', sans-serif !default;
 $font-family-secondary: 'Montserrat', sans-serif !default;
+$font-family-sfproregular: 'SF Pro Text' sans-serif !default;
+$font-family-sfpromedium: 'SF Pro Text-Medium' sans-serif !default;
 $font-family-monospace: 'Source Code Pro', monospace !default;
 
 /* ----- Font sizes ----- */
