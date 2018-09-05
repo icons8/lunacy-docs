@@ -32,10 +32,11 @@
 .site-header__nav {
 	@include list-horizontal;
 	@include clearfix;
-	float: right;
 	margin-bottom: 0;
 
 	li {
+		display: inline;
+		padding: 16px 16px;
 		+ li {
 			margin-left: 2.5rem;
 		}
@@ -43,7 +44,7 @@
 
 	a {
 		@include link-reset;
-		display: block;
+		display: inline-block;
 		font-size: 14px;
 		font-weight: 500;
 		color: $color-white;
