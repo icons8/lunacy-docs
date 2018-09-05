@@ -6,6 +6,12 @@ doks:
             text:
             image: true
         nav:
+            - item_name: Documentation
+              item_url: /
+            - item_name: Request Features
+              item_url: icons8.ru/
+            - item_name: Release Notes
+              item_url: /release-notes
             
     footer:
         content:
