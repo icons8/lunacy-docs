@@ -70,25 +70,3 @@
     width: 10%;
 }
 
-/* ----- Read more ----- */
-.nav-grid__btn {
-	font-family: $font-family-secondary;
-	font-weight: 500;
-	text-transform: uppercase;
-	border-top: 2px solid rgba($color-dark, .2);
-	padding: 1.25rem 1.875rem 0 1.875rem;
-	transition: border .2s;
-
-	@media (min-width: $screen-md-min) {
-		padding: 1.25rem 2.5rem 0 2.5rem;
-	}
-
-	.icon {
-		display: inline-block;
-		font-size: 1.25em;
-		margin-left: .5rem;
-		position: relative;
-		bottom: -.125rem;
-		transition: transform .2s;
-	}
-}
