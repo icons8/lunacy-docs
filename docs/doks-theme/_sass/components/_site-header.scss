@@ -44,10 +44,11 @@
 	a {
 		@include link-reset;
 		display: block;
-		font-size: .875em;
+		font-size: 14px;
 		font-weight: 500;
-		font-family: $font-family-secondary;
-		line-height: calc(5.625rem - 1px);
+		color: $color-white;
+		font-family: $font-family-sfpromedium;
+		line-height: 32px;
 		text-transform: uppercase;
 		border-bottom: 1px solid;
 		border-color: transparent;
