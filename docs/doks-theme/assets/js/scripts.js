@@ -164,16 +164,13 @@
 		} );
 	} );
 
-	var current = location.pathname;
-    $('.site-header__nav li a').each(function(){
-        var $this = $(this);
-        // if the current path is like this link, make it active
-        if($this.attr('href').indexOf(current) !== -1){
-			console.log($this.attr('href').indexOf(current))
-            $this.addClass('active');
-        }
-    })
-
+	var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+     $('site-header__nav li').each(function() {
+      if (this.children[0].href === path) {
+       $(this).addClass('active');
+	  }
+	 });
+	 
 	// Offcanvas
 	$( '.offcanvas-toggle' ).on( 'click', function() {
 		$( 'body' ).toggleClass( 'offcanvas-expanded' );
