@@ -162,14 +162,15 @@
 				}
 			}
 		} );
+		var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+     	$('site-header__nav li').each(function() {
+			if (this.children[0].href === path) {
+				$(this).addClass('active');
+			}
+	 	});
 	} );
 
-	var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
-     $('site-header__nav li').each(function() {
-      if (this.children[0].href === path) {
-       $(this).addClass('active');
-	  }
-	 });
+	
 	 
 	// Offcanvas
 	$( '.offcanvas-toggle' ).on( 'click', function() {
