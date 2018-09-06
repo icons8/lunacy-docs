@@ -81,7 +81,16 @@
 	}
 }
 
+.btn--right{
+	margin-right: -6px;
+	border-left: none;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
 .btn--w-icon-left {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
 	.icon {
 		float: left;
 		margin-left: 0;

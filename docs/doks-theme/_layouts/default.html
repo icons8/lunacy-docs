@@ -25,7 +25,7 @@
 										</a>
 									{% endif %}
 									{% if page.page_nav.next.content and page.page_nav.next.url %}
-										<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="btn btn--dark btn--rounded btn--w-icon">
+										<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--right">
 											<i class="icon icon--arrow-right"></i>
 											{{ page.page_nav.next.content }}
 										</a>
