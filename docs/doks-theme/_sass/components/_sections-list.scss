@@ -44,16 +44,16 @@
 			&.has-submenu {
 				padding-right: 1.25rem;
 
-
+				color: $color-black;
 				> ul {
 					display: none;
 				}
 
 				&.active {
+					color: #F85555;
 					&::after {
 						color: #F85555;
 					}
-
 					> ul {
 						display: block;
 					}
