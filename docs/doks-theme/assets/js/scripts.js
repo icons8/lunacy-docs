@@ -167,7 +167,11 @@
 	$(document).ready(function() {
 		// get current URL path and assign 'active' class
 		var pathname = window.location.pathname;
-		$('.site-header__nav > li > a[href="'+pathname+'"]').parent().addClass('active');
+		if(pathname === "/lunacy-docs/release-notes/")
+			$('.site-header__nav > li > a[href="'+pathname+'"]').parent().addClass('active');
+		else{
+			$('.site-header__nav > li > a[href="/lunacy-docs"]').parent().addClass('active');
+		}
 	})
 	 
 	// Offcanvas
