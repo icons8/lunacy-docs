@@ -48,13 +48,10 @@
 					display: none;
 				}
 
-				a{
-					&:active{
-						color: #F85555;
-					}
-				}
-
 				&.active {
+					a{
+						color: #F85555; 
+					}
 					&::after {
 						color: #F85555;
 					}
