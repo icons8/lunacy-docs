@@ -7,6 +7,7 @@ comments: false
 # Hero section
 title: Interface
 description: Learn about interface layout and navigation tools
+icon: 'toggle-off'
 
 # Micro navigation
 micro_nav: false

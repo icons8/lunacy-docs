@@ -7,6 +7,7 @@ comments: false
 # Hero section
 title: Support
 description: FAQ and our contacts
+icon: 'technical-support'
 
 # Micro navigation
 micro_nav: false

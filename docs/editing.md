@@ -7,6 +7,7 @@ comments: false
 # Hero section
 title: Editing
 description: Learn about tools that will help you create shapes you want
+icon: 'pencil-tip'
 
 # Micro navigation
 micro_nav: false

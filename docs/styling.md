@@ -7,6 +7,7 @@ comments: false
 # Hero section
 title: Styling
 description: Learn about tools that will help you create your unique style
+icon: 'design'
 
 # Micro navigation
 micro_nav: false
