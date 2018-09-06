@@ -170,7 +170,7 @@
 		if(pathname === "/lunacy-docs/release-notes/")
 			$('.site-header__nav > li > a[href="'+pathname+'"]').parent().addClass('active');
 		else{
-			$('.site-header__nav > li > a[href="/lunacy-docs"]').parent().addClass('active');
+			$('.site-header__nav > li > a[href="/lunacy-docs/"]').parent().addClass('active');
 		}
 	})
 	 
