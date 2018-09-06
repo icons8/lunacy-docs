@@ -6,6 +6,7 @@ comments: false
 
 # Hero section
 title: Objects
+description: Learn about shapes that Lunacy provides
 
 # Micro navigation
 micro_nav: false

@@ -6,6 +6,7 @@ comments: false
 
 # Hero section
 title: Support
+description: FAQ and our contacts
 
 # Micro navigation
 micro_nav: false

@@ -6,6 +6,7 @@ comments: false
 
 # Hero section
 title: Shortcuts
+description: Make your workflow faster by learning Lunacy's shortcuts
 
 # Micro navigation
 micro_nav: false

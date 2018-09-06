@@ -6,6 +6,7 @@ comments: false
 
 # Hero section
 title: Interface
+description: Learn about interface layout and navigation tools
 
 # Micro navigation
 micro_nav: false

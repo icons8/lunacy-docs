@@ -6,6 +6,7 @@ comments: false
 
 # Hero section
 title: Export
+description: Learn about publishing capabilities and export formats of Lunacy
 
 # Micro navigation
 micro_nav: false

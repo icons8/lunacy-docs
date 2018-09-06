@@ -6,6 +6,7 @@ comments: false
 
 # Hero section
 title: Editing
+description: Learn about tools that will help you create shapes you want
 
 # Micro navigation
 micro_nav: false
