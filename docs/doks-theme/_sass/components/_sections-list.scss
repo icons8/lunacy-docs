@@ -34,10 +34,11 @@
 		li {
 			margin-bottom: -1px;
 			border-left: 1px solid #D8D8D8;
-			transition: border .2s;
+			transition: border .2s, color .2s;
 
 			&.active {
 				border-left-color: #F85555;
+				color: #F85555;
 			}
 
 			&.has-submenu {
