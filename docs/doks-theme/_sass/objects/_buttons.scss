@@ -46,6 +46,28 @@
 	}
 }
 
+.btn--download {
+	color: $color-white;
+	border: 1px solid $color-white;
+	padding: .5625rem 1.5625rem;
+	transition: color .2s, background-color .2s, border-color .2s;
+
+	@media (min-width: $screen-sm-min) {
+		padding: .8125rem 2.1875rem;
+	}
+
+	&:hover,
+	&:focus{
+		color: #24282A;
+		background-color: $color-white;
+	}
+
+	&:active{
+		background-color: #CACACA;
+		border-color: #CACACA;
+	}
+}
+
 .btn--w-icon {
 	.icon {
 		float: right;
