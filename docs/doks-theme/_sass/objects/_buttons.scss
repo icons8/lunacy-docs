@@ -49,12 +49,14 @@
 .btn--download {
 	color: $color-white;
 	border: 1px solid $color-white;
-	padding: .5625rem 1.5625rem;
+	width: 116px;
+	height: 32px;
+	float: right;
+	text-align: center;
+	margin-top: 16px;
+	margin-right: 108px;
+	padding-top: 3px;
 	transition: color .2s, background-color .2s, border-color .2s;
-
-	@media (min-width: $screen-sm-min) {
-		padding: .8125rem 2.1875rem;
-	}
 
 	&:hover,
 	&:focus{
