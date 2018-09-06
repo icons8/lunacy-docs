@@ -48,6 +48,12 @@
 					display: none;
 				}
 
+				a{
+					&.active{
+						color: #F85555;
+					}
+				}
+
 				&.active {
 					&::after {
 						color: #F85555;
