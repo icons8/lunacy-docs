@@ -164,12 +164,11 @@
 		} );
 	} );
 
-	var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
-     $('site-header__nav li').each(function() {
-      if (this.children[0].href === path) {
-       $(this).addClass('active');
-	  }
-	 });
+	$(document).ready(function() {
+		// get current URL path and assign 'active' class
+		var pathname = window.location.pathname;
+		$('.site-header__nav > li > a[href="'+pathname+'"]').parent().addClass('active');
+	})
 	 
 	// Offcanvas
 	$( '.offcanvas-toggle' ).on( 'click', function() {
