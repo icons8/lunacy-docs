@@ -7,6 +7,7 @@ comments: false
 # Hero section
 title: About Lunacy
 description: Basic information about Lunacy
+icon: 'lunacy'
 
 # Micro navigation
 micro_nav: false

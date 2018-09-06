@@ -11,6 +11,9 @@
 					<div class="col-md-7">
 						<div class="align-container" data-mh>
 							<div class="align-inner">
+								{% if page.icon %}
+									<img src="https://png.icons8.com/windows/512/000000/{{ page.icon }}.png">
+								{% endif %}
 								{% if page.title %}
 									<h1 class="hero-subheader__title">{{ page.title }}</h1>
 								{% endif %}
