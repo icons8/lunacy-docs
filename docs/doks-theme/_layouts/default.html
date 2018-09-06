@@ -17,7 +17,17 @@
 								{% if page.description %}
 									<p class="hero-subheader__desc">{{ page.description }}</p>
 								{% endif %}
-								{% if page.page_nav.prev.content or page.page_nav.next.content %}
+								{% if page.page_nav.prev.content and page.page_nav.next.content %}
+									<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left" style="margin-right: 0px;">
+										<i class="icon icon--arrow-left"></i>
+										{{ page.page_nav.prev.content }}
+									</a>
+
+									<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--right">
+										<i class="icon icon--arrow-right"></i>
+										{{ page.page_nav.next.content }}
+									</a>
+								{% elsif page.page_nav.prev.content or page.page_nav.next.content %}
 									{% if page.page_nav.prev.content and page.page_nav.prev.url %}
 										<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">
 											<i class="icon icon--arrow-left"></i>
@@ -30,16 +40,6 @@
 											{{ page.page_nav.next.content }}
 										</a>
 									{% endif %}
-								{% elsif page.page_nav.prev.content and page.page_nav.next.content %}
-									<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left" style="margin-right: 0px;">
-										<i class="icon icon--arrow-left"></i>
-										{{ page.page_nav.prev.content }}
-									</a>
-
-									<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--right">
-										<i class="icon icon--arrow-right"></i>
-										{{ page.page_nav.next.content }}
-									</a>
 								{% endif %}
 							</div><!-- /.align-inner -->
 						</div><!-- /.align-container -->
