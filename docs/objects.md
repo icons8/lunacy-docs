@@ -32,31 +32,31 @@ Lunacy supports the typical tools for any vector editor.
   </tr>
   <tr>
     <td>Text</td>
-    <td>T</td>
+    <td>`T`</td>
   </tr>
   <tr>
     <td>Rectangle </td>
-    <td>R</td>
+    <td>`R`</td>
   </tr>
   <tr>
     <td>Oval</td>
-    <td>O</td>
+    <td>`O`</td>
   </tr>
   <tr>
     <td>Line</td>
-    <td>L</td>
+    <td>`L`</td>
   </tr>
   <tr>
     <td>Bitmap</td>
-    <td>P</td>
+    <td>`P`</td>
   </tr>
   <tr>
     <td>Avatar</td>
-    <td>Ctrl + P</td>
+    <td>`Ctrl` `P`</td>
   </tr>
   <tr>
     <td>Artboard</td>
-    <td>A</td>
+    <td>`A`</td>
   </tr>
 </table>
 
@@ -66,7 +66,7 @@ Let’s review some of these tools in more detail.
 
 ## Square
 
-If you need a square, choose the Rectangle tool and hold shift while drawing.
+If you need a square, choose the Rectangle tool and hold `Shift` while drawing.
 
 ![Drawing a square](public/mAz4bmww76HilrhUizdqvw_img_24.gif)
 
@@ -81,7 +81,7 @@ If you need a square, choose the Rectangle tool and hold shift while drawing.
 
 ## Text
 
-You can add text by choosing the Text tool from the Shapes and Objects toolbar (or press **T**). The pointer changes to the Text Input tool icon and then you can click anywhere in the Canvas to insert your text layer at that point. When you click on a canvas, a new text layer will be inserted with a “Type something” placeholder, ready for you to add your text.
+You can add text by choosing the Text tool from the Shapes and Objects toolbar (or press `T`). The pointer changes to the Text Input tool icon and then you can click anywhere in the Canvas to insert your text layer at that point. When you click on a canvas, a new text layer will be inserted with a “Type something” placeholder, ready for you to add your text.
 
 When you have a text layer selected you will notice that the Inspector changes to show you all the properties that apply to text. Underneath the standard object properties, there’s an area for text style options which includes:
 
@@ -128,7 +128,7 @@ When designing user interfaces, one of the most common tasks is creating avatars
 
 ## Masks
 
-The masks ![Masking in Lunacy](public/mAz4bmww76HilrhUizdqvw_img_36.png)(keyboard shortcut **Ctrl + M**) in Lunacy are used to show parts of objects selectively.. For example, masking two overlapping ovals gives you an oval image.
+The masks ![Masking in Lunacy](public/mAz4bmww76HilrhUizdqvw_img_36.png)(keyboard shortcut `Ctrl` `M`) in Lunacy are used to show parts of objects selectively.. For example, masking two overlapping ovals gives you an oval image.
 
 Before masking:
 

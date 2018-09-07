@@ -108,21 +108,21 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ### Features
 
-- **Vector tool!** You can create and edit the polygons and Bezier curves. 
+- Vector tool! You can create and edit the polygons and Bezier curves. 
 
 ![Vector tool](Images/VectorTool.png)
 
-- **[Help!](https://docs.icons8.com)** 
-- **Symbols:** we started saving the symbols! If you open a file and there're some symbols, Lunacy preserves these symbols on saving. Expect the **complete support of symbols** in the next release.
+- [Help!](https://docs.icons8.com) 
+- Symbols: we started saving the symbols! If you open a file and there're some symbols, Lunacy preserves these symbols on saving. Expect the complete support of symbols in the next release.
 - You can add, delete, and rename the pages now. 
-- **Vertical align** for text
+- Vertical align for text
 - We fully support lowercase and UPPERCASE parameters in the .sketch files now (before, we were reading, but not saving them) 
 - The objects on an artboard have the constraints now (we only had it for the groups before)
 - The artboards have the "Adjust content on resize" setting now. When enabled, the objects move; if not, crop.
 
 ### Bug Fixes
 
-- **Horizontal scroll!** Sorry for breaking it in the last release.
+- Horizontal scroll! Sorry for breaking it in the last release.
 - If an object partially crosses an artboard, it's nested in the artboard now
 - Uploading to the cloud fixed
 - Crash fixed when an object had the dimensions of less than 1 px
@@ -143,7 +143,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.7.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.7.zip)
 
-### **New Features**
+### New Features
 
 - You can rearrange the gradient stops now
 - Corner radius thumbs for rectangles
@@ -151,13 +151,13 @@ Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.7.
 - Export projects to [Sketch the Ripper](https://icons8.com/articles/sketch-ripper-free-tool-rip-sketch-file-contents/)
 - Zoom to area tool
 
-### **Improvements**
+### Improvements
 
 - Top panel layout changed
 - Property panel's tab selectors moved to the bottom
-- Show distance indicator, when moving objects with  Alt + an arrow key
+- Show distance indicator, when moving objects with  `Alt` + an arrow key
 
-### **Bugs Fixed**
+### Bugs Fixed
 
 - Fixed bug, when the click event didn't fire when behind the invisible or masked objects
 - Minor bug fixes
@@ -166,19 +166,19 @@ Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.7.
 
 Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.6.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.6.zip)
 
-### **New Features**
+### New Features
 
 - Linear and radial gradient editors
 - Dragging images from the desktop into shapes as image-fill
 - Support of sketch files converted from PSD by third-party service
 - More [hotkeys](/man/hot-keys)
 
-### **Improvements**
+### Improvements
 
 - Internal optimizations and refactoring
 - Better sketch export support
 
-### **Bugs Fixes**
+### Bugs Fixes
 
 - Minor bug fixes
 
@@ -187,16 +187,16 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.6.exe) 
 
 Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.5.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.5.zip)
 
-### **New Features**
+### New Features
 
 - Objects render cache (performance improvements, CPU usage decreased)
 
-### **Improvements**
+### Improvements
 
 - Workspace changes the background color from white to light-gray when artboard added
 - Resize artboard from top crops content instead of moving it
 
-### **Bugs Fixes**
+### Bugs Fixes
 
 - Image loading from sketch file fixed
 - Export images fix
@@ -205,12 +205,12 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.5.exe) 
 ## 3.4
 Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.4.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.4.zip)
 
-### **New Features**
+### New Features
 
 - Sketch v50 format support
 - Math in numeric text fields
 
-### **Bugs Fixes**
+### Bugs Fixes
 
 - Folder structure fix
 - Loading from explorer fix
@@ -219,21 +219,21 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.4.exe) 
 
 Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.3.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.3.zip)
 
-### **New Features**
+### New Features
 
 - Blur and shadow effects support
 - New Avatar tool, which adds random avatar images in one click
 - Hotkey for toggling rulers: Ctr+R
 - Animation, when select artboard preset
 
-### **Improvements**
+### Improvements
 
 - Styles and colors of UI controls have a more consistent style
 - Icons updated
 - Removed object properties when artboard tool is active
 - System fonts and Google Fonts have a single list sorted by name now
 
-### **Bugs Fixes**
+### Bugs Fixes
 
 - Closing the main menu by clicking outside of it
 - Sketch file loading error when it has extended text objects with inline styles
@@ -245,7 +245,7 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.3.exe) 
 ## 3.2
 Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.2.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.2.zip)
 
-### **New Features**
+### New Features
 
 - UI for initial shadow support
 - Saving the state of rulers from the last session
@@ -256,13 +256,13 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.2.exe) 
 - Blend mode support for objects
 - Flip(mirror) object tool
 
-### **Improvements**
+### Improvements
 
 - Guide and distance lines restyled
 - Scroll to the first object when selecting another page
 - New icons for flip tool
 
-### **Bug Fixes**
+### Bug Fixes
 
 - Right panel layout fixes in the scroll-view mode
 - The weight of the text resets after selecting another text object
@@ -278,13 +278,13 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.2.exe) 
 ## 3.1
 Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.1.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.1.zip)
 
-### **New Features**
+### New Features
 
 - Cursor sizes changed depend on dpi of display
 - Escape key can close color picker
 - Copy paste between lunacy windows
 
-### **Improvements**
+### Improvements
 
 - PNG compression on export assets
 - New document created with empty page
@@ -292,7 +292,7 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.1.exe) 
 - Improved selection behavior
 - A new object is created over to the selected object, instead of on top of the layers list
 
-### **Bug Fixes**
+### Bug Fixes
 
 - Resize frame not updated after select art-board preset
 - Auto-size was disabled when text object duplicated or copied

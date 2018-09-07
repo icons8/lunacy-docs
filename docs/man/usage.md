@@ -11,14 +11,14 @@ https://www.microsoft.com/en-us/download/details.aspx?id=49981) is installed on 
 
 ## Zoom
 
-* Ctrl + Mouse Wheel
+* `Ctrl` `Mouse Wheel`
 * scale gesture on trackpad
 * "+"/"-"
-* Ctrl + "+"/"-"
-* Shift
+* `Ctrl` `+`/`-`
+* `Shift`
 
 ## Scroll/Pan
 
-* `Pan` - Space + pressed Mouse left button dragging
-* `Vertical scroll` - **Mouse wheel** or **Vertical scroll gesture** on trackpad
-* `Horizontal scroll` - **Mouse wheel** + **Shift key** or **Horizontal scroll gesture** on trackpad
+* `Pan` - `Space` + pressed `Mouse left button` dragging
+* `Vertical scroll` - `Mouse wheel` or `Vertical scroll` gesture on trackpad
+* `Horizontal scroll` - `Mouse wheel` `Shift` key or `Horizontal scroll` gesture on trackpad

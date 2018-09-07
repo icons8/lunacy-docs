@@ -40,7 +40,7 @@ Selecting Group vs. Object
 
 If you click on an object within a group, Lunacy selects the whole group. This is usually quite handy: You can easily move around whole components in your design.
 
-Sometimes you need to choose a single object though. To do so, hold Ctrl when choosing the object.
+Sometimes you need to choose a single object though. To do so, hold `Ctrl` when choosing the object.
 
 ## Adding
 
@@ -54,7 +54,7 @@ The most common type of objects in your document will be shapes. The easiest way
 ### Moving With Keyboard
 
 * Hit the arrow keys to move an object by one pixel
-* Shift+Arrow moves objects by 10 pixels
+* `Shift` `Arrow` moves objects by 10 pixels
 
 Using keyboard is handy when you either
 
@@ -63,13 +63,13 @@ Using keyboard is handy when you either
 
 ### Moving Horizontally and Vertically
 
-Hold Shift while moving an object. Lunacy will lock one of the axes and move the object either horizontally or vertically.
+Hold `Shift` while moving an object. Lunacy will lock one of the axes and move the object either horizontally or vertically.
 
 ## Duplicating
 
-Hold Alt and move the object. Lunacy will create a copy.
+Hold `Alt` and move the object. Lunacy will create a copy.
 
-Another way to create a copy, is by pressing Ctrl+D.
+Another way to create a copy, is by pressing `Ctrl` `D`.
 
 ## Grouping
 
@@ -119,10 +119,10 @@ As rotation is a value measured in degrees, it can be edited via Lunacy's Inspec
 ## Z-Axis Position
 
 Each object on your artboard can be located on the Z-axis. You can:
-* Bring objects forward (keyboard shortcut **Ctrl + J**)
-* Bring it to the front (keyboard shortcut **Shift+Ctrl+J**)
-* Send objects backward (keyboard shortcut **Ctrl + [**)
-* Send an object directly to the back (keyboard shortcut **Shift + Ctrl + [**)
+* Bring objects forward (keyboard shortcut `Ctrl` `J`)
+* Bring it to the front (keyboard shortcut `Shift` `Ctrl` `J`)
+* Send objects backward (keyboard shortcut `Ctrl` `[`)
+* Send an object directly to the back (keyboard shortcut `Shift` `Ctrl` `[`)
 
 ![Change Z-axis position for elements](public/mAz4bmww76HilrhUizdqvw_img_31.png)
 
@@ -134,10 +134,10 @@ In a bar at the very top of the canvas, you will find the buttons for aligning a
 
 | Button | Action | Shortcut |
 |---|---|---|---|---|
-| ![Flip an object horizontally](public/mAz4bmww76HilrhUizdqvw_img_32.png) | Flip horizontally | Ctrl + ←, Ctrl + → |
-|  ![Flip an object vertically](public/mAz4bmww76HilrhUizdqvw_img_33.png) | Flip vertically | Ctrl +↓, Ctrl +↑ |
+| ![Flip an object horizontally](public/mAz4bmww76HilrhUizdqvw_img_32.png) | Flip horizontally | `Ctrl` `←`, `Ctrl` `→` |
+|  ![Flip an object vertically](public/mAz4bmww76HilrhUizdqvw_img_33.png) | Flip vertically | `Ctrl``↓`, `Ctrl``↑` |
 | ![Align an object](public/mAz4bmww76HilrhUizdqvw_img_34.png) | Align | None |
-| ![Group objects](public/mAz4bmww76HilrhUizdqvw_img_35.png) |Group| Ctrl + G |
+| ![Group objects](public/mAz4bmww76HilrhUizdqvw_img_35.png) |Group| `Ctrl` `G` |
 
 
 

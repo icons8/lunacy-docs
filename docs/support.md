@@ -28,15 +28,15 @@ page_nav:
 
 You can scroll around the workspace in these ways:
 
-* **For vertical scrolling:** Mouse wheel or Vertical scroll gesture on trackpad
-* **For horizontal scrolling:** Mouse wheel + Shift key or Horizontal scroll gesture on trackpad
+* For vertical scrolling: `Mouse wheel` or Vertical scroll gesture on trackpad
+* For horizontal scrolling: `Mouse wheel` `Shift` key or `Horizontal scroll` gesture on trackpad
 
 ### Question: How to create and organize pages in Lunacy?
 
 You can add, delete, and rename the pages.
 
-* **To add a page** click on **+** sign on the page list and then hit Enter
-* **To rename/delete a page** use the right mouse button on the needed page and choose Rename or Delete 
+* To add a page click on + sign on the page list and then hit Enter
+* To rename/delete a page use the right mouse button on the needed page and choose Rename or Delete 
 
 ### Question: Will Lunacy work on Linux?
 
@@ -74,12 +74,12 @@ Either way, you can check out our [release notes](https://docs.icons8.com/releas
 
 ## Contacts
 
-* **[Community Support](https://community.icons8.com/)** — our forum. The whole development team is here to help you too.
+* [Community Support](https://community.icons8.com/) — our forum. The whole development team is here to help you too.
 
-* **[Feature Requests](https://lunatics.icons8.com/)** — a board similar to UserVoice. Vote for features and propose yours. One feature per post, please.
+* [Feature Requests](https://lunatics.icons8.com/) — a board similar to UserVoice. Vote for features and propose yours. One feature per post, please.
 
-* **[Improving This Manual](https://github.com/icons8/lunacy-docs/blob/master/docs/index.md)** — please help us! We'll accept the pull requests for fixing the errors, expanding the sections, and updating it with new features (Icons8 team lags a little between adding a feature and writing the documentation for it). We'll also include the video tutorials covering certain features.
+* [Improving This Manual](https://github.com/icons8/lunacy-docs/blob/master/docs/index.md) — please help us! We'll accept the pull requests for fixing the errors, expanding the sections, and updating it with new features (Icons8 team lags a little between adding a feature and writing the documentation for it). We'll also include the video tutorials covering certain features.
 
-* **Saying hello** — our [Lunacy page](https://icons8.com/lunacy) has comments at the bottom. If you have a review of our work or just want to say hello, you’re welcome to do so!
+* Saying hello — our [Lunacy page](https://icons8.com/lunacy) has comments at the bottom. If you have a review of our work or just want to say hello, you’re welcome to do so!
 
-* **[Lunacy in the Windows Store](https://www.microsoft.com/en-us/p/lunacy/9pnlmkkpcljj)** — we depend on your honest feedback. Please vote and leave a review so more people will learn about Lunacy. Thank you 🙏🏽
+* [Lunacy in the Windows Store](https://www.microsoft.com/en-us/p/lunacy/9pnlmkkpcljj) — we depend on your honest feedback. Please vote and leave a review so more people will learn about Lunacy. Thank you 🙏🏽

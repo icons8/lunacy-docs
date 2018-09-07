@@ -116,7 +116,7 @@ This is important, as Sketch completely changed the format in version 43, and ke
 
 We save the files in .sketch format. We preserve the original structure: naming, groups, and IDs.
 
-As of the version 3.7,** we don't fully support the symbols**. We save the symbols as the generic groups. Your designs will look the same, but updating a symbol won't affect its instances.
+As of the version 3.7, we don't fully support the symbols. We save the symbols as the generic groups. Your designs will look the same, but updating a symbol won't affect its instances.
 
 
 #### Tools, Objects, and Properties
@@ -200,9 +200,9 @@ The interface is built from the following blocks:
 
 
 
-*   The **toolbar** along the top which contains high-level tools and actions. 
-*   The **objects** is the pane on your left which contains all the **artboards** of your document.
-*   The **Inspector** on the right which lets you see and adjust the properties of the selected object or layer. 
+*   The toolbar along the top which contains high-level tools and actions. 
+*   The objects is the pane on your left which contains all the artboards of your document.
+*   The Inspector on the right which lets you see and adjust the properties of the selected object or layer. 
 *   The canvas in the middle is a place where you will see your designs.
 
 There are no floating panels. That way you always have a completely unobscured view of your сanvas.
@@ -221,7 +221,7 @@ There are no floating panels. That way you always have a completely unobscured v
 
 ### Artboard and Objects
 
-The Artboard and Objects is the pane on your left. On the top level, there are the** artboards**. Artboard is a fixed frame inside the canvas. Usually, designers create a new artboard for each new web page, mobile screen, banner ad, or any other artwork. The use of artboards is optional; you can draw directly on the canvas.
+The Artboard and Objects is the pane on your left. On the top level, there are the artboards. Artboard is a fixed frame inside the canvas. Usually, designers create a new artboard for each new web page, mobile screen, banner ad, or any other artwork. The use of artboards is optional; you can draw directly on the canvas.
 
 Inside the artboards, there are objects. Here you can see each object's attributes, such as whether it's hidden or locked, as well as reorganize layers by renaming and re-ordering them.
 
@@ -239,7 +239,7 @@ Any object or group of objects can be hidden from the canvas by clicking on the 
 
 
 ![alt_text](images/Copy-of7.png "image_tooltip")
-that appears on the screen when you click on the object. Alternatively, it's possible to hide element using keyboard shortcut **Ctrl + H.**
+that appears on the screen when you click on the object. Alternatively, it's possible to hide element using keyboard shortcut `Ctrl` `H`.
 
 A padlock icon 
 
@@ -247,7 +247,7 @@ A padlock icon
 
 
 ![alt_text](images/Copy-of8.png "image_tooltip")
-is used to lock the layer on canvas, meaning it cannot be selected or moved without being unlocked first. Alternatively, it's possible to lock an object using keyboard shortcut **Ctrl + L**
+is used to lock the layer on canvas, meaning it cannot be selected or moved without being unlocked first. Alternatively, it's possible to lock an object using keyboard shortcut `Ctrl` `L`
 
 
 ### Objects
@@ -265,43 +265,43 @@ The toolbar contains elements you need to create your design. Those include:
   <tr>
    <td>Text
    </td>
-   <td>T
+   <td>`T`
    </td>
   </tr>
   <tr>
    <td>Rectangle 
    </td>
-   <td>R
+   <td>`R`
    </td>
   </tr>
   <tr>
    <td>Oval
    </td>
-   <td>O
+   <td>`O`
    </td>
   </tr>
   <tr>
    <td>Line
    </td>
-   <td>L
+   <td>`L`
    </td>
   </tr>
   <tr>
    <td>Bitmap
    </td>
-   <td>P
+   <td>`P`
    </td>
   </tr>
   <tr>
    <td>Avatar
    </td>
-   <td>Ctrl + P
+   <td>`Ctrl` `P`
    </td>
   </tr>
   <tr>
    <td>Artboard
    </td>
-   <td>A
+   <td>`A`
    </td>
   </tr>
 </table>
@@ -312,7 +312,7 @@ Some of these shapes have extra options, such as the ability to add stokes or ro
 
 ### Rulers and Grids
 
-Rulers (keyboard shortcut **Ctrl + R**) and grids (keyboard shortcut **Ctrl + '**)will help you position objects exactly where you want them. Grid allows you to align objects to a particular layout.
+Rulers (keyboard shortcut `Ctrl` `R`) and grids (keyboard shortcut `Ctrl` `'`)will help you position objects exactly where you want them. Grid allows you to align objects to a particular layout.
 
 
 
@@ -322,7 +322,7 @@ Rulers (keyboard shortcut **Ctrl + R**) and grids (keyboard shortcut **Ctrl + '*
 ![alt_text](images/Copy-of9.png "image_tooltip")
 
 
-**Note:** Rulers and grids are not part of your design, and won't appear on exported designs.
+Note: Rulers and grids are not part of your design, and won't appear on exported designs.
 
 Lunacy has support for a regular (square) grid. Users have a few options to choose from - a range of grids starts from a 4x4 grid to 64x64.
 
@@ -439,9 +439,9 @@ Effects need more explanation. Combining effects. Blending modes.
 
 #### Inspector Hacks
 
-Inspector supports **formulas**. Type anything from 2+2 to complex algebra.
+Inspector supports formulas. Type anything from 2+2 to complex algebra.
 
-You can **drag the values** up and down; they will increase or decrease.
+You can drag the values up and down; they will increase or decrease.
 
 
 
@@ -463,7 +463,7 @@ This is especially handy for tabs.
 
 The Zoom lets you see more or less of your document depending on the zoom level. You can change zoom factor from 25% to 800%.
 
-In practice, designers use the shortcuts **Ctrl + '+' and Ctrl + '-'**. **Ctrl + '0'** resets the zoom level to 1:1.
+In practice, designers use the shortcuts `Ctrl` `+` and `Ctrl` `-`. `Ctrl` `0` resets the zoom level to 1:1.
 
 
 
@@ -504,13 +504,13 @@ Alternatively, you can use the Layer List to select an object. Clicking an objec
 ![alt_text](images/Copy-of22.png "image_tooltip")
 
 
-You can select multiple objects by holding down the Shift key on the keyboard and click on another object.
+You can select multiple objects by holding down the `Shift` key on the keyboard and click on another object.
 
 Selecting Group vs Object
 
 If you click an object within a group, Lunacy selects the whole group. Usually, it's handy: you can move around the whole components.
 
-Sometimes you need to choose an object though. To do so, hold Ctrl when choosing the object. 
+Sometimes you need to choose an object though. To do so, hold `Ctrl` when choosing the object. 
 
 
 #### Moving With Keyboard
@@ -518,7 +518,7 @@ Sometimes you need to choose an object though. To do so, hold Ctrl when choosing
 
 
 *   Click the arrow keys to move by one pixel
-*   Shift+Arrow moves by 10 pixels
+*   `Shift` `Arrow` moves by 10 pixels
 
 This is handy when you either
 
@@ -530,14 +530,14 @@ This is handy when you either
 
 #### Moving Horizontally and Vertically
 
-Hold Shift while moving an object. Lunacy will lock one of the axis and move object either horizontally or vertically.
+Hold `Shift` while moving an object. Lunacy will lock one of the axis and move object either horizontally or vertically.
 
 
 #### Duplicating Objects
 
-Hold Alt and move the object. Lunacy will create a copy.
+Hold `Alt` and move the object. Lunacy will create a copy.
 
-Another way to create a copy is pressing Ctrl+D.
+Another way to create a copy is pressing `Ctrl` `D`.
 
 
 ### Grouping Objects
@@ -588,7 +588,7 @@ T
 
 #### Drawing a Square
 
-If you need a square, choose the Rectangle tool and hold shift while drawing. 
+If you need a square, choose the Rectangle tool and hold `Shift` while drawing. 
 
 
 
@@ -675,10 +675,10 @@ Each object in artboard can be located on Z-axis. It's possible to
 
 
 
-*   bring object forward (keyboard shortcut **Ctrl + J**)
-*   bring it to front (keyboard shortcut **Shift+Ctrl+J**)
-*   send backward  (keyboard shortcut **Ctrl + [**)** **
-*   or send an object to back (keyboard shortcut **Shift + Ctrl + [**)
+*   bring object forward (keyboard shortcut `Ctrl` `J`)
+*   bring it to front (keyboard shortcut `Shift` `Ctrl` `J`)
+*   send backward  (keyboard shortcut `Ctrl` `[`) 
+*   or send an object to back (keyboard shortcut `Shift` `Ctrl` `[`)
 
 
 
@@ -701,14 +701,14 @@ In a bar at the very top of the Canvas are buttons for aligning and distributing
 
 
 ![alt_text](images/Copy-of33.png "image_tooltip")
- (keyboard shortcut **Ctrl + ←, Ctrl + →**)
+ (keyboard shortcut `Ctrl`   `←`, `Ctrl`   `→`)
 *   Flip vertically
 
 <p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copy-of34.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/Copy-of34.png "image_tooltip")
- (keyboard shortcut **Ctrl +↓, Ctrl +↑**)
+ (keyboard shortcut `Ctrl`  `↓`, `Ctrl`  `↑`)
 *   Align
 
 <p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Copy-of35.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
@@ -722,7 +722,7 @@ In a bar at the very top of the Canvas are buttons for aligning and distributing
 
 
 ![alt_text](images/Copy-of36.png "image_tooltip")
- (keyboard shortcut **Ctrl + G)**
+ (keyboard shortcut `Ctrl` `G`)
 
 
 ### Masking
@@ -733,7 +733,7 @@ Masks
 
 
 ![alt_text](images/Copy-of37.png "image_tooltip")
-(keyboard shortcut **Ctrl + M) **in Lunacy are used to selectively show parts of objects. For example, masking two overlapping ovals will give you one oval image.
+(keyboard shortcut `Ctrl` `M`) in Lunacy are used to selectively show parts of objects. For example, masking two overlapping ovals will give you one oval image.
 
 Before masking:
 
@@ -867,7 +867,7 @@ Gaussian blur is a blur type that will accurately blur in all directions.
 
 ### Text
 
-You can add text by choosing the Text tool from the Shapes and Objects toolbar (or press **T**). The pointer changes to the Text Input tool icon and then you can click anywhere in the Canvas to insert your text layer at that point. When you click on a canvas, a new text layer will be inserted with "Type something" placeholder, ready to replace.
+You can add text by choosing the Text tool from the Shapes and Objects toolbar (or press T). The pointer changes to the Text Input tool icon and then you can click anywhere in the Canvas to insert your text layer at that point. When you click on a canvas, a new text layer will be inserted with "Type something" placeholder, ready to replace.
 
 When you have a text layer selected you will notice that the Inspector has changed to show you all the properties that apply to text. Underneath the standard object properties there's the area for text style options which includes:
 
@@ -1016,15 +1016,15 @@ Full list of shortcuts is available at  [http://docs.icons8.com/man/hot-keys](ht
 
 # Frequently Asked Questions
 
-**Q: Will Lunacy work on Linux? **
+Q: Will Lunacy work on Linux? 
 
 A: It's quite an option, though requires additional development. If you're willing to contribute, please check [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
 
-**Q: Do I need internet connection to use Lunacy?**
+Q: Do I need internet connection to use Lunacy?
 
 A: No, Lunacy doesn't need a connection to the internet. 
 
-**Q: How about being Open Source?**
+Q: How about being Open Source?
 
 A: 
 
@@ -1036,12 +1036,12 @@ On the other hand, it will slow it down too. Sometimes, a small team can advance
 
 If you are willing to contribute, you may want to create the interface for Linux. Check [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
 
-**Q: How much will you plan to charge for Lunacy?**
+Q: How much will you plan to charge for Lunacy?
 
 A: Nothing. Lunacy is completely free (no hidden charges, no ads, no locked features).
 
-**Q: How would I know when to update Lunacy? Once there are updates, will I have to reinstall Lunacy, or do they install automatically?  \
-**A: Windows Store version updates silently. If not, check if you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) the automatic updates on. We recommend this option. \
+Q: How would I know when to update Lunacy? Once there are updates, will I have to reinstall Lunacy, or do they install automatically?  \
+A: Windows Store version updates silently. If not, check if you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) the automatic updates on. We recommend this option. \
 If you installed Lunacy with a downloadable installer, it will notify you about the update with an alert in the window title.
 
 In any case, you can check our [release notes](https://docs.icons8.com/release-notes/).
@@ -1051,9 +1051,9 @@ In any case, you can check our [release notes](https://docs.icons8.com/release-n
 
 
 
-*   **[Community Support](https://community.icons8.com/)** — our forum. The whole development team is helping you too.
-*   **[Feature Requests](https://lunatics.icons8.com/)** — a board similar to uservoice. Vote for features and propose yours. One feature per post, please.
-*   **Saying hello** — our [Lunacy page](https://icons8.com/lunacy) has the comments in the bottom. If you have a review of our work or just want to say hello, you're welcome!
-*   **[Lunacy in the Windows Store](https://www.microsoft.com/en-us/p/lunacy/9pnlmkkpcljj)** — we depend your honest feedback. Please vote and leave a review so more people will know about Lunacy. Thank you 🙏🏽
+*   [Community Support](https://community.icons8.com/) — our forum. The whole development team is helping you too.
+*   [Feature Requests](https://lunatics.icons8.com/) — a board similar to uservoice. Vote for features and propose yours. One feature per post, please.
+*   Saying hello — our [Lunacy page](https://icons8.com/lunacy) has the comments in the bottom. If you have a review of our work or just want to say hello, you're welcome!
+*   [Lunacy in the Windows Store](https://www.microsoft.com/en-us/p/lunacy/9pnlmkkpcljj) — we depend your honest feedback. Please vote and leave a review so more people will know about Lunacy. Thank you 🙏🏽
 
 <!-- GD2md-html version 1.0β11 -->
