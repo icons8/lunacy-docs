@@ -23,7 +23,7 @@
 	margin-bottom: .9375rem;
 	height: 200px;
 	width: 368px;
-	transition: box-shadow .2s;
+	transition: box-shadow .2s, transform .2s;
 	border-radius: 3px;
 	@media (min-width: $screen-sm-min) {
 		margin-bottom: 1.5rem;
@@ -31,10 +31,12 @@
 
 	&:hover,
 	&:focus {
-		box-shadow: 0 8px 24px rgba($color: #000000, $alpha: 0.1)
+		transform: translateY(-2px);	
+		box-shadow: 0 8px 24px rgba($color: #000000, $alpha: 0.1);
 		}
 
 	&:active{
+		transform: translateY(2px);
 		box-shadow: 0 4px 8px rgba($color: #000000, $alpha: 0.1)
 	}
 }
