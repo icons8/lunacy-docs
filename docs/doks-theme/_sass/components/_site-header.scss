@@ -42,23 +42,20 @@
 	width: 56.5%;
 	float: right;
 
-	li {
-		padding: 16px 16px;
-	}
-
 	.active {
 		background-color: #3D3F42;
 	}
 
 	a {
 		@include link-reset;
-		display: block;
+		display: inline-block;
 		font-size: 14px;
 		font-weight: 500;
 		color: $color-white;
 		font-family: $font-family-primary;
 		line-height: 32px;
 		transition: color .2s;
+		padding: 16px;
 
 		&:hover,
 		&:focus {
