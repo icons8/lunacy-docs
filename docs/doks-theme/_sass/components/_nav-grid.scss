@@ -42,10 +42,10 @@
 /* ----- Content ----- */
 .nav-grid__content {
 	@include clearfix();
-	padding: 1.25rem 1.875rem .625rem 1.875rem;
+	padding: 2.5rem 1.875rem .625rem 1.875rem;
 
 	@media (min-width: $screen-md-min) {
-		padding: 2.875rem 2.5rem 1.25rem 2.5rem;
+		padding: 2.5rem 2.5rem 1.25rem 2.5rem;
 	}
 
 	p {
