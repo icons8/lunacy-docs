@@ -28,7 +28,6 @@
 	font-weight: bold;
 	font-size: 2em;
 	line-height: 3.8rem;
-	margin-left: 90px;
 
 	img {
 		vertical-align: middle;
@@ -40,7 +39,7 @@
 	@include list-horizontal;
 	@include clearfix;
 	margin-bottom: 0;
-	width: 49.5%;
+	width: 56.5%;
 	float: right;
 
 	li {
