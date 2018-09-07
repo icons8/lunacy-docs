@@ -10,9 +10,9 @@
 
 {% if site.doks.header.logo.text or site.doks.header.logo.image or site.doks.header.nav %}
 	<header class="site-header">
-		<div class="container-fluid" id="navbar-content">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 id="navbar-content"">
 					{% if site.doks.header.logo.text %}
 						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" class="site-header__logo">{{ site.doks.header.logo.text }}</a>
 					{% elsif site.doks.header.logo.image %}
