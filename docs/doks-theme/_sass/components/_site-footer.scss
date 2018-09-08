@@ -8,7 +8,25 @@
       padding-bottom: 24px;
       text-align: left;
       background-color: $color-footer-background;
-    }
+	}
+	
+	a{
+		border-bottom: none;
+	}
+
+	h2{
+		border-bottom: none;
+	}
+
+	ul{
+		li{
+			padding-left: 0;
+			margin-bottom: 0;
+			&:before{
+				content: none;
+			}
+		}
+	}
 
   .footer-wrapper-top {
     position: relative;
