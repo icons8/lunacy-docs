@@ -16,6 +16,7 @@
 
 	h2{
 		border-bottom: none;
+		padding-bottom: 0;
 	}
 
 	ul{
@@ -182,7 +183,7 @@
     font-weight: 700;
     text-align: left;
     color: white;
-    margin: 0 0 16px;
+    margin: 0 0 14px;
 
     @media (max-width: $responsive-tablet) {
       font-size: 14px;
