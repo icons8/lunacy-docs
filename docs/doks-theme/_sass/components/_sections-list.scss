@@ -27,13 +27,14 @@
 .sections-list {
 	ul {
 		ul {
-			margin-top: .625rem;
+			margin-top: 3px;
 			margin-bottom: 0;
 		}
 
 		li {
 			margin-bottom: -1px;
 			border-left: 1px solid #D8D8D8;
+			line-height: 32px;
 			transition: border .2s, color .2s;
 
 			&.active {
