@@ -142,6 +142,7 @@
   }
 
   .footer-column-6:nth-child(6) {
+    display: flex;
     @media (max-width: $responsive-tablet) {
       display: block;
       padding-bottom: 0;
@@ -302,6 +303,7 @@
   }
 
   .footer-social {
+    display:flex;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 40px;
