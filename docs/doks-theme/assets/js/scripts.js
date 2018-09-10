@@ -170,7 +170,7 @@
 	$(document).ready(function() {
 		// get current URL path and assign 'active' class
 		var pathname = window.location.pathname;
-		if(pathname === "/lunacy-docs/release-notes/")
+		if(pathname === "/release-notes/")
 			$('.site-header__nav > li > a[href="'+pathname+'"]').parent().addClass('active');
 		else{
 			$('.site-header__nav > li > a[href="/"]').parent().addClass('active');
