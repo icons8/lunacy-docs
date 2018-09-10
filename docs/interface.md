@@ -6,9 +6,11 @@ comments: false
 
 # Hero section
 title: Interface
+description: Learn about interface layout and navigation tools
+icon: 'toggle-off'
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 # Page navigation
 page_nav:
@@ -43,9 +45,9 @@ Inside the artboards, there are objects. Here you can see each object’s attrib
 
 ![Artboard and objects in Lunacy](public/mAz4bmww76HilrhUizdqvw_img_6.png)
 
-Any object or group of objects can be hidden from the canvas by clicking on the eye icon ![hide from canvas](public/mAz4bmww76HilrhUizdqvw_img_7.png)that appears on the screen when you click on the object. Alternatively, you can hide the element using the keyboard shortcut **Ctrl + H.**
+Any object or group of objects can be hidden from the canvas by clicking on the eye icon ![hide from canvas](public/mAz4bmww76HilrhUizdqvw_img_7.png)that appears on the screen when you click on the object. Alternatively, you can hide the element using the keyboard shortcut `Ctrl` `H`.
 
-A padlock icon ![lock a layer](public/mAz4bmww76HilrhUizdqvw_img_8.png)is used to lock the layer on your canvas, meaning it cannot be selected or moved again without being unlocked first. Alternatively, you can lock an object using the keyboard shortcut **Ctrl + L**
+A padlock icon ![lock a layer](public/mAz4bmww76HilrhUizdqvw_img_8.png)is used to lock the layer on your canvas, meaning it cannot be selected or moved again without being unlocked first. Alternatively, you can lock an object using the keyboard shortcut `Ctrl` `L`
 
 ## Object Tools
 
@@ -58,31 +60,31 @@ The toolbar contains the elements you need in order to create your design. These
   </tr>
   <tr>
     <td>Text</td>
-    <td>T</td>
+    <td>`T`</td>
   </tr>
   <tr>
     <td>Rectangle </td>
-    <td>R</td>
+    <td>`R`</td>
   </tr>
   <tr>
     <td>Oval</td>
-    <td>O</td>
+    <td>`O`</td>
   </tr>
   <tr>
     <td>Line</td>
-    <td>L</td>
+    <td>`L`</td>
   </tr>
   <tr>
     <td>Bitmap</td>
-    <td>P</td>
+    <td>`P`</td>
   </tr>
   <tr>
     <td>Avatar</td>
-    <td>Ctrl + P</td>
+    <td>`Ctrl` `P`</td>
   </tr>
   <tr>
     <td>Artboard</td>
-    <td>A</td>
+    <td>`A`</td>
   </tr>
 </table>
 
@@ -91,11 +93,11 @@ Some of these shapes have extra options, like the ability to add stokes or round
 
 ## Rulers and Grids
 
-Rulers (keyboard shortcut **Ctrl + R**) and grids (keyboard shortcut **Ctrl + '**)will help you position objects exactly where you want them. The grid allows you to align objects to a particular layout.
+Rulers (keyboard shortcut `Ctrl` `R`) and grids (keyboard shortcut `Ctrl` `'`)will help you position objects exactly where you want them. The grid allows you to align objects to a particular layout.
 
 ![Rulers and grids](public/mAz4bmww76HilrhUizdqvw_img_9.png)
 
-**Note:** Rulers and grids are not part of your design, and won't appear on your exported design.
+Note: Rulers and grids are not part of your design, and won't appear on your exported design.
 
 Lunacy offers support for a regular (square) grid. Users have a number of options to choose from; the range of grid sizes start from 4x4, and goes up to 64x64.
 
@@ -123,7 +125,7 @@ The Inspector on the right lets you adjust the properties of the selected object
 
 The Zoom lets you see a larger or smaller part of your document depending on the zoom level. You can change the zoom scale of your document from 25% to 800%.
 
-In practice, designers use the shortcuts **Ctrl + '+' and Ctrl + ‘-’**. The shortcut **Ctrl + ‘0’** resets the zoom level to 1:1.
+In practice, designers use the shortcuts `Ctrl` `+` and `Ctrl` `-`. The shortcut `Ctrl` `0` resets the zoom level to 1:1.
 
 ![Zoom lets you see more or less of your document](public/mAz4bmww76HilrhUizdqvw_img_20.png)
 

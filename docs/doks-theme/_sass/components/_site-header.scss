@@ -3,11 +3,19 @@
  */
 
 /* ----- General ----- */
+#navbar-content{
+	width: 1224px;
+    float: none;
+    margin: 0 auto;
+}
+
+
 .site-header {
 	position: absolute;
 	width: 100%;
-	height: 5.625rem;
-	border-bottom: 1px solid rgba($color-dark-blue, .15);
+	height: 64px;
+	border-bottom: 1px solid rgba($color-dark, .15);
+	background-color: #24282A;
 }
 
 /* ----- Navigation ----- */
@@ -15,20 +23,14 @@
 	@include link-reset;
 	display: block;
 	float: left;
-	color: $color-dark-blue;
+	color: #FFFFFF;
 	font-family: $font-family-secondary;
 	font-weight: bold;
 	font-size: 2em;
-	line-height: 5.625rem;
-
-	&:hover,
-	&:focus,
-	&:active {
-		color: $color-dark-blue;
-	}
-
+	line-height: 3.8rem;
+	width: 148px;
 	img {
-		height: calc(5.625rem - 1px);
+		vertical-align: middle;
 	}
 }
 
@@ -36,32 +38,30 @@
 .site-header__nav {
 	@include list-horizontal;
 	@include clearfix;
-	float: right;
 	margin-bottom: 0;
+	width: 56.5%;
+	float: right;
 
-	li {
-		+ li {
-			margin-left: 2.5rem;
-		}
+	.active {
+		background-color: #3D3F42;
 	}
 
 	a {
 		@include link-reset;
-		display: block;
-		font-size: .875em;
+		display: inline-block;
+		font-size: 14px;
 		font-weight: 500;
-		font-family: $font-family-secondary;
-		line-height: calc(5.625rem - 1px);
-		text-transform: uppercase;
-		border-bottom: 1px solid;
-		border-color: transparent;
-		transition: border-color .2s;
+		color: $color-white;
+		font-family: $font-family-primary;
+		line-height: 32px;
+		transition: color .4s;
+		padding: 16px;
 
 		&:hover,
-		&:focus,
-		&:active {
-			border-color: $color-dark-blue;
+		&:focus {
+			color: #BEBFC0;
 		}
+	
 	}
 }
 
@@ -110,7 +110,7 @@
 
 	a {
 		@include link-reset;
-		color: $color-dark-blue;
+		color: $color-dark;
 		font-family: $font-family-secondary;
 		text-transform: uppercase;
 	}
@@ -131,7 +131,7 @@
 		display: block;
 		height: 2px;
 		width: 1.875rem;
-		background-color: $color-dark-blue;
+		background-color: $color-dark;
 		position: absolute;
 		left: 1.875rem;
 		transition: top .2s, transform .2s, opacity .2s;

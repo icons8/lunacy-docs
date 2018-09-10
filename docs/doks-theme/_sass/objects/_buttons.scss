@@ -5,8 +5,12 @@
 /* ----- General ----- */
 .btn {
 	@include link-reset;
-	font-family: $font-family-secondary;
+	font-family: $font-family-primary;
 	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	text-transform: uppercase;
 	display: inline-block;
 	margin: 0 0 1.25rem 0;
 }
@@ -18,12 +22,12 @@
 }
 
 .btn--rounded {
-	border-radius: 3.125rem;
+	border-radius: 3px;
 }
 
 .btn--dark {
-	color: $color-white;
-	background-color: $color-dark-blue;
+	color: $color-black;
+	border: 1px solid #24282A;
 	padding: .5625rem 1.5625rem;
 	transition: color .2s, background-color .2s;
 
@@ -32,10 +36,58 @@
 	}
 
 	&:hover,
-	&:focus,
-	&:active {
-		color: $color-dark-blue;
-		background-color: $color-yellow;
+	&:focus{
+		color: $color-white;
+		background-color: #24282A;
+	}
+
+	&:active{
+		background-color: #3E4446;
+	}
+}
+
+.btn--github{
+	height: 54px;
+}
+
+#sections-button{
+	border: none;
+	padding: 0px;
+	height: 0px;
+	margin-top: 40px;
+	transition: color .2s;
+
+	&:hover,
+	&:focus{
+		color: #676C6F;
+	}
+
+	&:active{
+		color: #928F8F;
+	}
+}
+
+.btn--download {
+	color: $color-white;
+	border: 1px solid $color-white;
+	width: 116px;
+	height: 32px;
+	float: right;
+	text-align: center;
+	margin-top: 16px;
+	padding-top: 3px;
+	text-transform: none;
+	transition: color .2s, background-color .2s, border-color .2s;
+
+	&:hover,
+	&:focus{
+		color: #24282A;
+		background-color: $color-white;
+	}
+
+	&:active{
+		background-color: #CACACA;
+		border-color: #CACACA;
 	}
 }
 
@@ -47,6 +99,18 @@
 		position: relative;
 		bottom: -.125rem;
 	}
+}
+
+.btn--right{
+	margin-left: -6px;
+	border-left: none;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.btn--left{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 
 .btn--w-icon-left {

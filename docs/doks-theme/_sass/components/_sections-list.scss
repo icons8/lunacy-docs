@@ -5,7 +5,7 @@
 /* ----- General ----- */
 .sections-list {
 	float: left;
-	margin-top: 1.25rem;
+	margin-top: 4rem;
 }
 
 /* ----- Wrapper ----- */
@@ -27,32 +27,35 @@
 .sections-list {
 	ul {
 		ul {
-			margin-top: .625rem;
+			margin-top: 3px;
 			margin-bottom: 0;
 		}
 
 		li {
-			margin-bottom: .625rem;
-			border-left: 3px solid #eee;
-			transition: border .2s;
+			margin-bottom: -1px;
+			border-left: 1px solid #D8D8D8;
+			line-height: 32px;
+			transition: border .2s, color .2s;
 
 			&.active {
-				border-left-color: $color-dark-blue;
+				border-left-color: #F85555;
+				color: #F85555;
 			}
 
 			&.has-submenu {
 				padding-right: 1.25rem;
-
-
+				color: $color-black;
 				> ul {
 					display: none;
 				}
 
 				&.active {
-					&::after {
-						color: $color-dark-blue;
+					> a{
+						color: #F85555; 
 					}
-
+					&::after {
+						color: #F85555;
+					}
 					> ul {
 						display: block;
 					}

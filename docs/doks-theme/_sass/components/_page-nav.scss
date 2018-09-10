@@ -4,12 +4,12 @@
 
 /* ----- General ----- */
 .page-nav {
-	color: $color-dark-blue;
-	background-color: $color-theme-blue;
+	color: #24282A;
+	background-color: #FFD36F;
 	padding: 1.25rem 0;
 
 	@media (min-width: $screen-sm-min) {
-		padding: 2.1875rem 0 2.5rem 0;
+		padding: 2rem 0 2rem 0;
 	}
 }
 
@@ -18,7 +18,7 @@
 	@include link-reset;
 	display: block;
 	text-align: center;
-	font-weight: 500;
+	font-weight: 800;
 	font-family: $font-family-secondary;
 
 	@media (min-width: $screen-sm-min) {

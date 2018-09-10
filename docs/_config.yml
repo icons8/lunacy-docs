@@ -1,11 +1,18 @@
 doks:
-    baseurl: 
+    baseurl:
     color_theme: blue
     header:
         logo:
-            text: Lunacy
-            image:
+            text:
+            image: true
         nav:
+            - item_name: Documentation
+              item_url: /
+            - item_name: Request Features
+              item_url: https://lunatics.icons8.com/
+              external_url: true
+            - item_name: Release Notes
+              item_url: /release-notes/
             
     footer:
         content:

@@ -126,6 +126,9 @@
 		headings = reduceLevels( headings );
 
 		generateList( headings, true ).appendTo( '.js-sections' );
+		var ghButtonHtml = "<a href='https://github.com/icons8/lunacy-docs' id='sections-button' class='btn btn--dark btn--rounded btn--w-icon btn--github js-affix'><i class='icon icon--github' style='float: left; margin-left: 0px; margin-right: 16px'></i>Suggest Edits</a>";
+		var ghButton = $.parseHTML(ghButtonHtml);
+		$('.js-sections').append(ghButton);
 	}
 
 	// Smooth anchor scrolling
@@ -164,6 +167,16 @@
 		} );
 	} );
 
+	$(document).ready(function() {
+		// get current URL path and assign 'active' class
+		var pathname = window.location.pathname;
+		if(pathname === "/lunacy-docs/release-notes/")
+			$('.site-header__nav > li > a[href="'+pathname+'"]').parent().addClass('active');
+		else{
+			$('.site-header__nav > li > a[href="/lunacy-docs/"]').parent().addClass('active');
+		}
+	})
+	 
 	// Offcanvas
 	$( '.offcanvas-toggle' ).on( 'click', function() {
 		$( 'body' ).toggleClass( 'offcanvas-expanded' );

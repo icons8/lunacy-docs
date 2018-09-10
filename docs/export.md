@@ -6,9 +6,11 @@ comments: false
 
 # Hero section
 title: Export
+description: Learn about publishing capabilities and export formats of Lunacy
+icon: 'folder-invoices'
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 # Page navigation
 page_nav:

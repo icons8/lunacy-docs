@@ -7,7 +7,6 @@
 $color-white: #fff !default;
 $color-black: #000 !default;
 $color-dark: #333 !default;
-$color-dark-blue: #253951 !default;
 $color-yellow: #f6d000 !default;
 
 // Base
@@ -15,13 +14,13 @@ $color-h2-border: #dadada !default;
 $color-horizontal-rule: #dadada !default;
 $color-list-prefix: #a0a0a0 !default;
 $color-definition-list: #8a8a8a !default;
-$color-table-border: #f5f5f5 !default;
+$color-table-border: rgba(36, 40, 42, 0.1) !default;
 $color-table-header-border: #ececec !default;
 $color-table-header-bg: #f5f5f5 !default;
 
 // Code
-$color-code: #c0341d !default;
-$color-code-bg: #fcefed !default;
+$color-code: #24282A !default;
+$color-code-bg: #E9F3FF !default;
 $color-pre: #f8f8f2 !default;
 $color-pre-border: #3c4654 !default;
 
@@ -36,7 +35,7 @@ $color-callout-warning: #fffae9 !default;
 $color-callout-danger: #ffedeb !default;
 
 // Footer
-$color-footer-bg: #f5f5f5 !default;
+$color-footer-bg: #2E2D45 !default;
 $color-footer-copyright: #bdbdbd !default;
 
 // Social list
@@ -44,24 +43,43 @@ $color-social-item: #bdbdbd !default;
 
 // Themes
 $color-theme-green: #F0FAE6 !default;
-$color-theme-blue: #E8F2FC !default;
+$color-theme-blue: #F5F5F5 !default;
 $color-theme-purple: #FDE8F8 !default;
 $color-theme-red: #FFECE6 !default;
 $color-theme-yellow: #FCFDE8 !default;
 
 /* ----- Font families ----- */
-$font-family-primary: 'Noto Sans', sans-serif !default;
+@mixin font($font-family, $font-file) {
+    @font-face {
+      font-family: $font-family;
+      src: url($font-file+'.eot');
+      src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
+    url($font-file+'.woff') format('woff'),
+    url($font-file+'.otf') format('opentype'),
+    url($font-file+'.svg#aller') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+}
+
+@include font('SF Pro Text', '../fonts/SFProText-Regular');
+@include font('SF Pro Text-Medium', '../fonts/SFProText-Medium');
+
+
+$font-family-primary: 'SF Pro Text', sans-serif !default;
 $font-family-secondary: 'Montserrat', sans-serif !default;
+$font-family-sfproregular: 'SF Pro Text', sans-serif !default;
+$font-family-sfpromedium: 'SF Pro Text-Medium', sans-serif !default;
 $font-family-monospace: 'Source Code Pro', monospace !default;
 
 /* ----- Font sizes ----- */
 // Base
-$font-size-base: 1em !default;
+$font-size-base: 18px !default;
 
 // Headings
 $font-size-h1: 2.5em !default;
-$font-size-h2: 2em !default;
-$font-size-h3: 1.75em !default;
+$font-size-h2: 40px !default;
+$font-size-h3: 24px !default;
 $font-size-h4: 1.5em !default;
 $font-size-h5: 1.25em !default;
 $font-size-h6: 1em !default;

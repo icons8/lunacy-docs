@@ -5,9 +5,12 @@
 	</head>
 	<body class="{{ site.doks.color_theme }}" data-spy="scroll" data-target=".js-scrollspy">
 		{% include site-header.html %}
-		<div class="hero-subheader">
+		<div class="hero-subheader" id="hero-article">
 			<div class="container">
 				<div class="row">
+					{% if page.icon %}
+						<img src="https://png.icons8.com/windows/512/24282A/{{ page.icon }}.png" class="hero-subheader__icon">
+					{% endif %}
 					<div class="col-md-7">
 						<div class="align-container" data-mh>
 							<div class="align-inner">
@@ -17,7 +20,17 @@
 								{% if page.description %}
 									<p class="hero-subheader__desc">{{ page.description }}</p>
 								{% endif %}
-								{% if page.page_nav.prev.content or page.page_nav.next.content %}
+								{% if page.page_nav.prev.content and page.page_nav.next.content %}
+									<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left btn--left" style="margin-right: 0px;">
+										<i class="icon icon--arrow-left"></i>
+										{{ page.page_nav.prev.content }}
+									</a>
+
+									<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--right">
+										<i class="icon icon--arrow-right"></i>
+										{{ page.page_nav.next.content }}
+									</a>
+								{% elsif page.page_nav.prev.content or page.page_nav.next.content %}
 									{% if page.page_nav.prev.content and page.page_nav.prev.url %}
 										<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">
 											<i class="icon icon--arrow-left"></i>
@@ -72,7 +85,7 @@
 					<div class="col-md-4 col-md-offset-1">
 						<div class="sections-list-wrapper">
 							<div class="sections-list js-sections js-affix js-scrollspy hidden-xs hidden-sm"></div><!-- /.sections-list -->
-						</div>
+						</div>	
 					</div><!-- /.col -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->

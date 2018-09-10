@@ -4,7 +4,7 @@
 
 /* ----- General ----- */
 .hero-subheader {
-	color: $color-dark-blue;
+	color: $color-dark;
 	background-color: $color-theme-blue;
 	padding: 3.75rem 0 (4.6875rem - 1.25rem) 0;
 
@@ -25,7 +25,7 @@
 		padding: 9.375rem 0 (4.6875rem - 1.25rem) 0;
 
 		@media (min-width: $screen-sm-min) {
-			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
+			padding: 14.875rem 0 13rem 0;
 		}
 	}
 }
@@ -39,11 +39,24 @@
 /* ----- Title ----- */
 .hero-subheader__title {
 	margin-top: 0;
+	font-size: 64px;
 }
 
-/* ----- Title ----- */
+#hero-article{
+	padding-top: 15.68rem;
+	padding-bottom: 8rem;
+}
+
+.hero-subheader__icon {
+	width: 128px;
+	float: right;
+	margin-top: -10px;
+}
+
+/* ----- Description ----- */
 .hero-subheader__desc {
-	margin-bottom: 1.875rem;
+	margin-bottom: 1.6875rem;
+	font-size: 18px;
 }
 
 /* ----- Author ----- */

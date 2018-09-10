@@ -60,13 +60,12 @@ h1, .h1 {
 h2, .h2 {
 	font-size: $font-size-h2;
 	font-weight: 700;
-	border-bottom: 1px solid $color-h2-border;
 	padding-bottom: .5rem;
 }
 
 h3, .h3 {
 	font-size: $font-size-h3;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 h4, .h4 {
@@ -118,12 +117,12 @@ hr {
 /* ----- States ----- */
 ::-moz-selection {
 	background: rgba($color-yellow, .99);
-	color: $color-dark-blue;
+	color: $color-dark;
 }
 
 ::selection {
 	background: rgba($color-yellow, .99);
-	color: $color-dark-blue;
+	color: $color-dark;
 }
 
 /* ----- Quotes ----- */
@@ -132,7 +131,7 @@ blockquote {
 }
 
 q {
-	color: $color-dark-blue;
+	color: $color-dark;
 }
 
 /* ----- Lists ----- */
@@ -184,7 +183,7 @@ table {
 	margin: 0 0 1.25rem 0;
 
 	th, td {
-		border: 2px solid $color-table-border;
+		border-bottom: 1px solid $color-table-border;
 		vertical-align: middle;
 		padding: .625rem .9375rem;
 
@@ -198,10 +197,12 @@ table {
 	}
 
 	th {
-		font-family: $font-family-secondary;
-		text-transform: uppercase;
-		background-color: $color-table-header-bg;
-		border-color: $color-table-header-border;
+		font-weight: 300;
+		border-bottom: 1px solid $color-table-border;
+		font-family: $font-family-primary;
+		color: #727272;
+		line-height: 24px;
+		font-size: 12px;
 	}
 }
 

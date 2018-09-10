@@ -10,9 +10,9 @@
 
 {% if site.doks.header.logo.text or site.doks.header.logo.image or site.doks.header.nav %}
 	<header class="site-header">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12" id="navbar-content">
 					{% if site.doks.header.logo.text %}
 						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" class="site-header__logo">{{ site.doks.header.logo.text }}</a>
 					{% elsif site.doks.header.logo.image %}
@@ -21,9 +21,14 @@
 						</a><!-- /.site-header__logo -->
 					{% endif %}
 					{% if site.doks.header.nav %}
+						<a href="https://icons8.ru/lunacy" class="btn btn--download btn--rounded">Download</a>
 						<ul class="site-header__nav hidden-xs">
 							{% for item in site.doks.header.nav %}
-								<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.item_url }}">{{ item.item_name }}</a></li>
+								{% if item.external_url == true %}
+									<li><a href="{{ item.item_url }}">{{ item.item_name }}</a></li>
+								{% else %}
+									<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.item_url }}">{{ item.item_name }}</a></li>
+								{% endif %}
 							{% endfor %}
 						</ul><!-- /.site-header__nav -->
 						<button class="offcanvas-toggle visible-xs">

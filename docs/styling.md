@@ -6,9 +6,11 @@ comments: false
 
 # Hero section
 title: Styling
+description: Learn about tools that will help you create your unique style
+icon: 'design'
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 # Page navigation
 page_nav:
@@ -82,9 +84,9 @@ Gaussian blur is a blur type that will accurately blur in all directions.
 
 ## Formulas
 
-Inspector also supports **formulas**. You can type anything from 2+2, to complex algebra.
+Inspector also supports formulas. You can type anything from 2+2, to complex algebra.
 
-You can **drag the values** up and down; they will increase or decrease.
+You can drag the values up and down; they will increase or decrease.
 
 ![Lunacy supports formulas](public/mAz4bmww76HilrhUizdqvw_img_19.gif)
 

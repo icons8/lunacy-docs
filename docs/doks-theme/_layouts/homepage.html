@@ -4,22 +4,24 @@
 		{% include site-head.html %}
 	</head>
 	<body class="{{ site.doks.color_theme }}">
+		{% include site-header.html %}
 		<div class="hero-subheader{% if page.grid_navigation %} hero-subheader--before-out{% endif %}">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-7">
+					<div class="col-md-7 col-lg-12 col-centered" style="float: none">
 						<div class="align-container" data-mh>
-							<div class="align-inner">
+							<div class="align-inner text-centered">
 								{% if page.title %}
-									<h1 class="hero-subheader__title"> <img class="lunacy-logo" src="https://icons8.com/vue-static/landings/lunacy/logo_mark.png"/> {{ page.title }}</h1>
+									<h1 class="hero-subheader__title">{{ page.title }}</h1>
 								{% endif %}
 								{% if page.description %}
 									<p class="hero-subheader__desc">{{ page.description }}</p>
 								{% endif %}
 								{% for button in page.buttons %}
 									{% if button.external_url == true %}
-									<a href="{{ button.url }}" class="btn btn--dark btn--rounded btn--w-icon">
+									<a href="{{ button.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--github">
 										{% if button.icon %}<i class="icon icon--{{ button.icon }}"></i>{% endif %}
+										<i class="icon icon--github" style="float: left; margin-left: 0px; margin-right: 16px"></i>
 										{{ button.content }}
 									</a>
 									{% else %}
@@ -69,7 +71,8 @@
 									{% for item in page.grid_navigation %}
 										<div class="col-sm-6 col-lg-4">
 											<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="nav-grid__item">
-												<div class="nav-grid__content" data-mh>
+												<div class="nav-grid__content">
+													<img src="https://png.icons8.com/windows/96/24282A/{{ item.icon }}.png" class="nav-grid__logo">
 													<h2 class="nav-grid__title">{{ item.title }}</h2>
 													<p>{{ item.excerpt }}</p>
 												</div><!-- /.nav-grid__content -->
