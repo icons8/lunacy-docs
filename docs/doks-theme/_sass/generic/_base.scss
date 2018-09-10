@@ -183,7 +183,7 @@ table {
 	margin: 0 0 1.25rem 0;
 
 	th, td {
-		border: 2px solid $color-table-border;
+		border-bottom: 1px solid $color-table-border;
 		vertical-align: middle;
 		padding: .625rem .9375rem;
 
@@ -197,10 +197,10 @@ table {
 	}
 
 	th {
-		font-family: $font-family-secondary;
-		text-transform: uppercase;
-		background-color: $color-table-header-bg;
-		border-color: $color-table-header-border;
+		font-family: $font-family-primary;
+		color: #727272;
+		line-height: 24px;
+		font-size: 12px;
 	}
 }
 
