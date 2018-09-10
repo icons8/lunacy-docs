@@ -50,6 +50,22 @@
 	height: 54px;
 }
 
+#sections-button{
+	border: none;
+	padding: 0px;
+	height: 0px;
+	transition: color .2s;
+
+	&:hover,
+	&:focus{
+		color: #676C6F;
+	}
+
+	&:active{
+		color: #928F8F;
+	}
+}
+
 .btn--download {
 	color: $color-white;
 	border: 1px solid $color-white;
