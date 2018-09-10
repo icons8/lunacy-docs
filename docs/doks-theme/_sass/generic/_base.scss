@@ -197,6 +197,7 @@ table {
 	}
 
 	th {
+		border-bottom: 1px solid $color-table-border;
 		font-family: $font-family-primary;
 		color: #727272;
 		line-height: 24px;
