@@ -24,29 +24,29 @@ page_nav:
 
 ## FAQ
 
-### Question: How do I scroll around the workspace?
+### How do I scroll around the workspace?
 
 You can scroll around the workspace in these ways:
 
 * For vertical scrolling: `Mouse wheel` or Vertical scroll gesture on trackpad
 * For horizontal scrolling: `Mouse wheel` `Shift` key or `Horizontal scroll` gesture on trackpad
 
-### Question: How to create and organize pages in Lunacy?
+### How to create and organize pages in Lunacy?
 
 You can add, delete, and rename the pages.
 
 * To add a page click on + sign on the page list and then hit Enter
 * To rename/delete a page use the right mouse button on the needed page and choose Rename or Delete 
 
-### Question: Will Lunacy work on Linux?
+### Will Lunacy work on Linux?
 
 It’s definitely an option, although it requires additional development. If you’re willing to contribute, please check [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
 
-### Question: Do I need an internet connection to use Lunacy?
+### Do I need an internet connection to use Lunacy?
 
 No, Lunacy doesn’t need to be connected to the internet.
 
-### Question: How about going Open Source?
+### How about going Open Source?
 
 Short answer: Not at the moment, not all of it.
 
@@ -56,15 +56,15 @@ On the other hand, it will slow it down too. Sometimes, a small team can advance
 
 If you are willing to contribute, you may want to create the interface for Linux. Check out [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
 
-### Question: How much are you planning to charge for Lunacy?
+### How much are you planning to charge for Lunacy?
 
  Nothing. Lunacy is completely free (no hidden charges, no ads, no locked features).
 
-### Question: How would I know when to update Lunacy?
+### How would I know when to update Lunacy?
 
 The Windows Store version updates silently. If not, check that you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) automatic updates on. We recommend this option.
 
-### Question: Once there are updates, will I have to reinstall Lunacy, or do they install automatically?
+### Once there are updates, will I have to reinstall Lunacy, or do they install automatically?
 
 If you installed Lunacy with a downloadable installer, it will notify you about the update with an alert in the window title.
 
