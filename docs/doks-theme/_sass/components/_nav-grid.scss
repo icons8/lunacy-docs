@@ -22,7 +22,7 @@
 	background-color: #FFFFFF;
 	margin-bottom: .9375rem;
 	height: 200px;
-	width: 368px;
+	width: 392px;
 	transition: box-shadow .2s, transform .2s;
 	border-radius: 3px;
 	@media (min-width: $screen-sm-min) {
@@ -71,5 +71,14 @@
 .nav-grid__logo {
 	margin-left: -3px;
     width: 32px;
+}
+
+#card{
+	margin-right: 1.5rem;
+}
+
+#grid{
+	width: 1224px;
+	padding: 0;
 }
 

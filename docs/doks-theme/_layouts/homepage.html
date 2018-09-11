@@ -63,13 +63,13 @@
 		</div><!-- /.hero-subheader -->
 		{% if page.grid_navigation %}
 			<div class="section section--darker-theme-color-bg">
-				<div class="container">
+				<div class="container" id="grid">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="nav-grid nav-grid--out">
 								<div class="row">
 									{% for item in page.grid_navigation %}
-										<div class="col-sm-6 col-lg-4">
+										<div class="col-sm-6 col-lg-4" id="card">
 											<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="nav-grid__item">
 												<div class="nav-grid__content">
 													<img src="https://png.icons8.com/windows/96/24282A/{{ item.icon }}.png" class="nav-grid__logo">
