@@ -122,17 +122,6 @@
 		return $ul;
 	};
 
-	var clickSingleA = function(a) {
-		console.log(a);
-		var items = $("a.active");
-
-		if(items.length){
-			items[0].className = '';
-		}
-
-		a.className = 'active';
-	}
-
 	if ( headings.length ) {
 		headings = reduceLevels( headings );
 
@@ -193,3 +182,17 @@
 		$( 'body' ).toggleClass( 'offcanvas-expanded' );
 	} );
 }( jQuery ) );
+
+
+function clickSingleA(a)
+{
+	console.log(a);
+    items = document.querySelectorAll('a.active');
+
+    if(items.length) 
+    {
+        items[0].className = '';
+    }
+
+    a.className = 'active';
+}
