@@ -23,5 +23,10 @@
 .page-nav__item {
 	@include link-reset;
 	width: 480px;
+	align-self: center;
+}
+
+.page-nav__item__right {
+	text-align: right;
 }
 

@@ -115,7 +115,7 @@
 								
 							{% endif %}
 							{% if page.page_nav.next.content and page.page_nav.next.url %}
-							<div class="page-nav__item">
+							<div class="page-nav__item page-nav__item__right">
 								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="page-nav__item page-nav__item--next">
 									{{ page.page_nav.next.content }}
 									<i class="icon icon--arrow-right"></i>
