@@ -47,17 +47,11 @@
 			&.has-submenu {
 				padding-right: 1.25rem;
 				color: $color-black;
-				a{
-					color: #24282A;
-				}
 				> ul {
 					display: none;
 				}
 
 				&.active {
-					a{
-						color: #F85555; 
-					}
 					&::after {
 						color: #F85555;
 					}
