@@ -33,11 +33,13 @@
 	&:focus {
 		transform: translateY(-2px);	
 		box-shadow: 0 8px 24px rgba($color: #000000, $alpha: 0.1);
+		color: #24282A;
 		}
 
 	&:active{
 		transform: translateY(2px);
-		box-shadow: 0 4px 8px rgba($color: #000000, $alpha: 0.1)
+		box-shadow: 0 4px 8px rgba($color: #000000, $alpha: 0.1);
+		color: #24282A;
 	}
 }
 
