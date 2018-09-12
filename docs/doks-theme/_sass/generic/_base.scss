@@ -93,11 +93,17 @@ p {
 
 /* ----- Hyperlinks ----- */
 a {
-	color: inherit;
+	color: #4294FF;
 	text-decoration: none;
-	border-bottom: .0625em solid;
-	border-color: inherit;
-	padding-bottom: .125em;
+	transition: color .2s;
+	&:focus,
+	&:hover{
+		color: #2477E2;
+	}
+
+	&:active{
+		color: #0C61D0;
+	}
 }
 
 /* ----- Images ----- */
@@ -189,10 +195,6 @@ table {
 
 		@media (min-width: $screen-sm-min) {
 			padding: .8125rem 1.25rem;
-		}
-
-		a {
-			border-color: $color-dark;
 		}
 	}
 
