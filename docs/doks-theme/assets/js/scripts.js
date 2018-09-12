@@ -106,7 +106,7 @@
 		for ( i = 0; i < list.length; i += 1 ) {
 			$li = $( '<li></li>' );
 			$li.append(
-				'<a href="#' + list[ i ].$el.attr( 'id' ) + '">' +
+				'<a href="#' + list[ i ].$el.attr( 'id' ) + '" onclick="clickSingleA(this)">' +
 					list[ i ].$el.text().replace( /^#\ /, '' ) +
 				'</a>'
 			);
@@ -121,6 +121,16 @@
 
 		return $ul;
 	};
+
+	var clickSingleA = function(a) {
+		var items = $("a.active");
+
+		if(items.length){
+			items[0].className = ''
+		}
+
+		a.className = 'active'
+	}
 
 	if ( headings.length ) {
 		headings = reduceLevels( headings );

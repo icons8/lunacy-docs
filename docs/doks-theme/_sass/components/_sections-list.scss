@@ -40,7 +40,7 @@
 			&.active {
 				border-left-color: #F85555;
 				a{
-					&:active{
+					&.active{
 						color: #F85555;
 					}
 				}
