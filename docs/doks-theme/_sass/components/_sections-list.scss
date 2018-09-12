@@ -53,6 +53,10 @@
 					display: none;
 				}
 
+				li{
+					font-size: 16px;
+				}
+
 				&.active {
 					&::after {
 						color: #F85555;
