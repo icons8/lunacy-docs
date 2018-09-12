@@ -124,6 +124,7 @@
 							</div>
 						</div>
 					{% endif %}
+					{% if page.page_nav.prev.content and page.page_nav.prev.url and page.page_nav.next.content and page.page_nav.next.url %}
 					<div class="page-nav-content">
 							{% if page.page_nav.prev.content and page.page_nav.prev.url %}
 							<div class="page-nav__item">
@@ -143,6 +144,7 @@
 							</div>	
 							{% endif %}
 					</div>
+					{% endif %}
 				</nav><!-- /.page-nav -->
 			{% endif %}
 			{% if page.micro_nav == true %}
