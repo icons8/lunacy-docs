@@ -31,11 +31,12 @@
 	transition: transform .2s;
 
 	a{
+		&:active,
 		&:focus,
 		&:hover{
 			color: #24282A;
 			span{
-				transform: translateX(-5px)
+				@include translate(-10px, 0)
 			}
 		}
 	}
@@ -45,11 +46,12 @@
 	text-align: right;
 
 	a{
+		&:active,
 		&:focus,
 		&:hover{
 			color: #24282A;
 			span{
-				transform: translateX(5px)
+				@include translate(10px, 0)
 			}
 		}
 	}
