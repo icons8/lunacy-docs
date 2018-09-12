@@ -60,31 +60,31 @@ The toolbar contains the elements you need in order to create your design. These
   </tr>
   <tr>
     <td>Text</td>
-    <td>`T`</td>
+    <td><code>T</code></td>
   </tr>
   <tr>
     <td>Rectangle </td>
-    <td>`R`</td>
+    <td><code>R</code></td>
   </tr>
   <tr>
     <td>Oval</td>
-    <td>`O`</td>
+    <td><code>O</code></td>
   </tr>
   <tr>
     <td>Line</td>
-    <td>`L`</td>
+    <td><code>L</code></td>
   </tr>
   <tr>
     <td>Bitmap</td>
-    <td>`P`</td>
+    <td><code>P</code></td>
   </tr>
   <tr>
     <td>Avatar</td>
-    <td>`Ctrl` `P`</td>
+    <td><code>Ctrl</code> <code>P</code></td>
   </tr>
   <tr>
     <td>Artboard</td>
-    <td>`A`</td>
+    <td><code>A</code></td>
   </tr>
 </table>
 
