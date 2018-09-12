@@ -19,6 +19,14 @@
 	justify-content: space-between;
 }
 
+.page-nav-content-left{
+	justify-content: flex-start;
+}
+
+.page-nav-content-right{
+	justify-content: flex-end;
+}
+
 /* ----- Item ----- */
 .page-nav__item {
 	@include link-reset;
