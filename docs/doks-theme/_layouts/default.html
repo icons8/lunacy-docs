@@ -116,8 +116,8 @@
 					{% endunless %}
 					{% unless page.page_nav.prev.content %}
 						<div class="page-nav-content page-nav-content-right">
-							<div class="page-nav__item">
-								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="page-nav__item page-nav__item--prev">
+							<div class="page-nav__item page-nav__item__right">
+								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="page-nav__item page-nav__item--prev">
 									{{ page.page_nav.next.content }}
 									<span>→</span>
 								</a><!-- /.page-nav__item -->
