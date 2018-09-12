@@ -47,6 +47,9 @@
 			&.has-submenu {
 				padding-right: 1.25rem;
 				color: $color-black;
+				a{
+					color: #24282A;
+				}
 				> ul {
 					display: none;
 				}
