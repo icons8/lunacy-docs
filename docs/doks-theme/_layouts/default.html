@@ -104,7 +104,7 @@
 		<div class="js-footer-area">
 			{% if page.page_nav.prev.content or page.page_nav.next.content %}
 				<nav class="page-nav">
-					{% if page.page_nav.prev.content and page.page_nav.next.content = '' %}
+					{% unless page.page_nav.next.content %}
 						<div class="page-nav-content page-nav-content-left">
 							<div class="page-nav__item">
 								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="page-nav__item page-nav__item--prev">
@@ -113,8 +113,8 @@
 								</a><!-- /.page-nav__item -->
 							</div>
 						</div>
-					{% endif %}
-					{% if page.page_nav.prev.content = '' and page.page_nav.next.content %}
+					{% endunless %}
+					{% unless page.page_nav.prev.content %}
 						<div class="page-nav-content page-nav-content-right">
 							<div class="page-nav__item">
 								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="page-nav__item page-nav__item--prev">
@@ -123,7 +123,7 @@
 								</a><!-- /.page-nav__item -->
 							</div>
 						</div>
-					{% endif %}
+					{% endunless %}
 					{% if page.page_nav.prev.content and page.page_nav.next.content %}
 					<div class="page-nav-content">
 							{% if page.page_nav.prev.content and page.page_nav.prev.url %}
