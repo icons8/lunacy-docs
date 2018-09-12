@@ -186,7 +186,6 @@
 
 function clickSingleA(a)
 {
-	console.log(a);
     items = document.querySelectorAll('a.active');
 
     if(items.length) 
