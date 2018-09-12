@@ -14,6 +14,7 @@
 
 	.btn {
 		margin-right: .9375rem;
+		margin-bottom: 2.25rem;
 	}
 
 	.btn--github,
@@ -25,7 +26,7 @@
 		padding: 9.375rem 0 (4.6875rem - 1.25rem) 0;
 
 		@media (min-width: $screen-sm-min) {
-			padding: 14.875rem 0 13rem 0;
+			padding: 11.25rem 0 13rem 0;
 		}
 	}
 }
@@ -40,6 +41,7 @@
 .hero-subheader__title {
 	margin-top: 0;
 	font-size: 64px;
+	margin-bottom: (0.9375rem - 0.1875rem);
 }
 
 #hero-article{
@@ -56,7 +58,7 @@
 
 /* ----- Description ----- */
 .hero-subheader__desc {
-	margin-bottom: 1.6875rem;
+	margin-bottom: 2rem;
 	font-size: 18px;
 }
 
