@@ -39,7 +39,11 @@
 
 			&.active {
 				border-left-color: #F85555;
-				color: #F85555;
+				a{
+					&:active{
+						color: #F85555;
+					}
+				}
 			}
 
 			&.has-submenu {
