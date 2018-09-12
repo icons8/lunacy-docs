@@ -33,7 +33,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 
 | Action        | Hotkey(s)     |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | Open |`Ctrl` `O` |
 | New |`Ctrl` `N` |
 | Save |`Ctrl` `S` |
@@ -56,7 +56,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 
 | Action        | Hotkey(s)     |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | Rectangle |`R`|
 | Oval |`O` |
 | Line |`L` |
@@ -72,7 +72,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 
 | Action        | Hotkey(s)     |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | Select layer |`Click` |
 | Select all |`Ctrl` `A` |
 | Select all Artboards |`Shift` `Ctrl` `A` |
@@ -82,7 +82,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 
 | Action        | Hotkey(s)     |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | Sape edit mode |`Enter`, `Double click` |
 | Finish editing |`Escape` |
 | Delete layer |`Backspace`, `Del` |
@@ -106,7 +106,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 
 | Action        | Hotkey(s)     |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | Bold |`Ctrl` `B` |
 | Italic  |`Ctrl` `I` |
 | Increase font size |`Ctrl` `+` |
@@ -121,7 +121,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 
 | Action        | Hotkey(s)     |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | Distances from objects |`Alt` |
 | Duplicate |`Alt` `Drag`, `Ctrl` `D` |
 | Move long X/Y axis |`Shift` `Drag` |
@@ -135,7 +135,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 
 | Action        | Hotkey(s)     |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | Group selection |`Ctrl` `G` |
 | Ungroup selection |`Shift` `Ctrl` `G` |
 | Bring forward |`Ctrl` `[` |
@@ -149,7 +149,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 
 | Action        | Hotkey(s)     |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | Zoom |`Ctrl` `Mouse Wheel` |
 | Zoom In |`Ctrl` `+`,`+` |
 | Zoom Out |`Ctrl` `-`,`-`|
