@@ -92,13 +92,11 @@
 }
 
 .btn--w-icon {
-	.icon {
-		float: right;
-		font-size: 1.375rem;
-		margin-left: .75rem;
-		position: relative;
-		bottom: -.125rem;
-	}
+	float: right;
+	font-size: 1.375rem;
+	margin-left: .75rem;
+	position: relative;
+	bottom: -.125rem;
 }
 
 .btn--w-icon-arrow{
@@ -119,11 +117,9 @@
 }
 
 .btn--w-icon-left {
-	.icon {
-		float: left;
-		margin-left: 0;
-		margin-right: .75rem;
-	}
+	float: left;
+	margin-left: 0;
+	margin-right: .75rem;
 }
 
 .btn--read-more {
