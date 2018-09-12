@@ -28,9 +28,30 @@
 	font-weight: 800;
 	font-size: 24px;
 	line-height: 40px;
+	transition: transform .2s;
+
+	a{
+		&:focus,
+		&:hover{
+			color: #24282A;
+			span{
+				transform: translateX(-5px)
+			}
+		}
+	}
 }
 
 .page-nav__item__right {
 	text-align: right;
+
+	a{
+		&:focus,
+		&:hover{
+			color: #24282A;
+			span{
+				transform: translateX(5px)
+			}
+		}
+	}
 }
 
