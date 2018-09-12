@@ -14,15 +14,6 @@ doks:
             - item_name: Release Notes
               item_url: /release-notes/
             
-    footer:
-        content:
-            logo:
-                text: Lunacy
-                image:
-            copyright: Copyright &copy; 2018 Icons8 LLC
-        social_list:
-            - network_name: github
-              profile_url: 'https://github.com/icons8/lunacy-docs'
 
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
