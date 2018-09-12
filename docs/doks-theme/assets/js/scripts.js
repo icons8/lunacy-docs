@@ -123,13 +123,14 @@
 	};
 
 	var clickSingleA = function(a) {
+		console.log(a);
 		var items = $("a.active");
 
 		if(items.length){
-			items[0].className = ''
+			items[0].className = '';
 		}
 
-		a.className = 'active'
+		a.className = 'active';
 	}
 
 	if ( headings.length ) {
