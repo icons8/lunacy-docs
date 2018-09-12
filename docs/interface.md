@@ -54,38 +54,42 @@ A padlock icon ![lock a layer](public/mAz4bmww76HilrhUizdqvw_img_8.png)is used t
 The toolbar contains the elements you need in order to create your design. These include:
 
 <table>
-  <tr>
-    <td>Object</td>
-    <td>Keyboard shortcut</td>
-  </tr>
-  <tr>
-    <td>Text</td>
-    <td><code>T</code></td>
-  </tr>
-  <tr>
-    <td>Rectangle </td>
-    <td><code>R</code></td>
-  </tr>
-  <tr>
-    <td>Oval</td>
-    <td><code>O</code></td>
-  </tr>
-  <tr>
-    <td>Line</td>
-    <td><code>L</code></td>
-  </tr>
-  <tr>
-    <td>Bitmap</td>
-    <td><code>P</code></td>
-  </tr>
-  <tr>
-    <td>Avatar</td>
-    <td><code>Ctrl</code> <code>P</code></td>
-  </tr>
-  <tr>
-    <td>Artboard</td>
-    <td><code>A</code></td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Object</th>
+      <th>Keyboard shortcut</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Text</td>
+      <td><code>T</code></td>
+    </tr>
+    <tr>
+      <td>Rectangle </td>
+      <td><code>R</code></td>
+    </tr>
+    <tr>
+      <td>Oval</td>
+      <td><code>O</code></td>
+    </tr>
+    <tr>
+      <td>Line</td>
+      <td><code>L</code></td>
+    </tr>
+    <tr>
+      <td>Bitmap</td>
+      <td><code>P</code></td>
+    </tr>
+    <tr>
+      <td>Avatar</td>
+      <td><code>Ctrl</code> <code>P</code></td>
+    </tr>
+    <tr>
+      <td>Artboard</td>
+      <td><code>A</code></td>
+    </tr>
+  </tbody>
 </table>
 
 
