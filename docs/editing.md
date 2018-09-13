@@ -36,7 +36,7 @@ Alternatively, you can use the Layer list to select an object. Clicking an objec
 
 You can select multiple objects by holding down the `Shift` key on the keyboard and clicking on other objects.
 
-Selecting Group vs. Object
+###Selecting Group vs. Object
 
 If you click on an object within a group, Lunacy selects the whole group. This is usually quite handy: You can easily move around whole components in your design.
 
