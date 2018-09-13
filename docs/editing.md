@@ -67,9 +67,7 @@ Hold `Shift` while moving an object. Lunacy will lock one of the axes and move t
 
 ## Duplicating
 
-Hold `Alt` and move the object. Lunacy will create a copy.
-
-Another way to create a copy, is by pressing `Ctrl` `D`.
+Hold `Alt` and move the object. Lunacy will create a copy. Another way to create a copy, is by pressing `Ctrl` `D`.
 
 ## Grouping
 
@@ -96,7 +94,7 @@ Each object in Lunacy has eight handles that become visible when you select obje
 
 [//]: # (this resizing option is called somehow else - ib)
 
-Notice the Resizing option.
+### Notice the Resizing option.
 
 Imagine you've got an object inside a group. When you resize this group, how the object should behave? Should it resize or stay locked?
 
