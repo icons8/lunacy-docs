@@ -63,6 +63,9 @@
 }
 
 .page-nav__item__right {
+	a{
+		flex: 0;
+	}
 	justify-content: flex-start;
 
 	&:focus,
