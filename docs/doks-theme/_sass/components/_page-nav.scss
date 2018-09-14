@@ -40,36 +40,44 @@
 	font-weight: 800;
 	font-size: 24px;
 	line-height: 40px;
+	transition: all .2s;
 	span{
 		transition: transform .2s;
 		display: inline-block;
 	}
 
-	a{
-		flex: 0;
-		&:active,
-		&:focus,
-		&:hover{
+	&:focus,
+	&:hover{
+		background-color: #FACC63;
+		a{
 			color: #24282A;
 			span{
 				@include translate(-10px, 0)
 			}
 		}
 	}
+
+	&:active{
+		background-color: #FBC751;
+	}
 }
 
 .page-nav__item__right {
 	justify-content: flex-start;
 
-	a{
-		&:active,
-		&:focus,
-		&:hover{
+	&:focus,
+	&:hover{
+		background-color: #FACC63;
+		a{
 			color: #24282A;
 			span{
 				@include translate(10px, 0)
 			}
 		}
+	}
+
+	&:active{
+		background-color: #FBC751;
 	}
 }
 
