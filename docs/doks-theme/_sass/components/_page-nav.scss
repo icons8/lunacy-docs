@@ -14,7 +14,7 @@
 
 .page-nav-content{
 	display: flex;
-	width: 100%;
+	width: 1224px;
 	height: 88px;
 	justify-content: space-between;
 }
@@ -30,57 +30,41 @@
 /* ----- Item ----- */
 .page-nav__item {
 	@include link-reset;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	width: 33.3%;
-	height: 100%;
+	width: 480px;
 	align-self: center;
 	font-family: $font-family-secondary;
 	font-weight: 800;
 	font-size: 24px;
 	line-height: 40px;
-	transition: all .2s;
 	span{
 		transition: transform .2s;
 		display: inline-block;
 	}
 
-	&:focus,
-	&:hover{
-		background-color: #FACC63;
-		a{
+	a{
+		&:active,
+		&:focus,
+		&:hover{
 			color: #24282A;
 			span{
 				@include translate(-10px, 0)
 			}
 		}
 	}
-
-	&:active{
-		background-color: #FBC751;
-	}
 }
 
 .page-nav__item__right {
-	a{
-		flex: 0;
-	}
-	justify-content: flex-start;
+	text-align: right;
 
-	&:focus,
-	&:hover{
-		background-color: #FACC63;
-		a{
+	a{
+		&:active,
+		&:focus,
+		&:hover{
 			color: #24282A;
 			span{
 				@include translate(10px, 0)
 			}
 		}
-	}
-
-	&:active{
-		background-color: #FBC751;
 	}
 }
 
