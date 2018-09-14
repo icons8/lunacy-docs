@@ -59,7 +59,7 @@
 }
 
 .page-nav__item__right {
-	text-align: right;
+	justify-content: flex-start;
 
 	a{
 		&:active,
