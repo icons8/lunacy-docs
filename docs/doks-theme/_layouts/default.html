@@ -128,7 +128,7 @@
 					<div class="page-nav-content">
 							{% if page.page_nav.prev.content and page.page_nav.prev.url %}
 							<div class="page-nav__item">
-								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="page-nav__item page-nav__item--prev">
+								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="page-nav__item page-nav__item--prev" style="margin-right: 193px;">
 									<span>←</span>
 									{{ page.page_nav.prev.content }}
 								</a><!-- /.page-nav__item -->
@@ -137,7 +137,7 @@
 							{% endif %}
 							{% if page.page_nav.next.content and page.page_nav.next.url %}
 							<div class="page-nav__item page-nav__item__right">
-								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="page-nav__item page-nav__item--next">
+								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="page-nav__item page-nav__item--next" style="margin-left:181px;">
 									{{ page.page_nav.next.content }}
 									<span>→</span>
 								</a><!-- /.page-nav__item -->
