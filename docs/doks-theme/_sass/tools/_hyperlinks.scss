@@ -7,4 +7,9 @@
 	border-bottom: 0;
 	padding: 0;
 	color: #24282A;
+	&:focus,
+	&:hover,
+	&:active{
+		color: #24282A;
+	}
 }
