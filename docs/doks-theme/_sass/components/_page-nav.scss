@@ -68,3 +68,11 @@
 	}
 }
 
+.table-of-contents{
+	display: flex;
+	justify-content: center;
+	a{
+		@include link-reset;
+	}
+}
+
