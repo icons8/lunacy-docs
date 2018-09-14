@@ -14,7 +14,7 @@
 
 .page-nav-content{
 	display: flex;
-	width: 1224px;
+	width: 100%;
 	height: 88px;
 	justify-content: space-between;
 }
@@ -30,7 +30,11 @@
 /* ----- Item ----- */
 .page-nav__item {
 	@include link-reset;
-	width: 480px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 33.3%;
+	height: 100%;
 	align-self: center;
 	font-family: $font-family-secondary;
 	font-weight: 800;
@@ -42,6 +46,7 @@
 	}
 
 	a{
+		flex: 0;
 		&:active,
 		&:focus,
 		&:hover{
