@@ -76,11 +76,11 @@
 		@include link-reset;
 		&:focus,
 		&:hover{
-			@include translate(0, 5px);
+			@include translate(0, -5px);
 		}
 
 		&:active{
-			@include translate(0, -5px);
+			@include translate(0, 5px);
 		}
 	}
 }
