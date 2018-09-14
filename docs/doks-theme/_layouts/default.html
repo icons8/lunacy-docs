@@ -126,23 +126,21 @@
 					{% endunless %}
 					{% if page.page_nav.prev.content and page.page_nav.next.content %}
 					<div class="page-nav-content">
-							{% if page.page_nav.prev.content and page.page_nav.prev.url %}
-							<div class="page-nav__item">
-								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="page-nav__item page-nav__item--prev">
-									<span>←</span>
-									{{ page.page_nav.prev.content }}
-								</a><!-- /.page-nav__item -->
-							</div>
-								
-							{% endif %}
-							{% if page.page_nav.next.content and page.page_nav.next.url %}
-							<div class="page-nav__item page-nav__item__right">
-								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="page-nav__item page-nav__item--next">
-									{{ page.page_nav.next.content }}
-									<span>→</span>
-								</a><!-- /.page-nav__item -->
-							</div>	
-							{% endif %}
+						<div class="page-nav__item">
+							<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="page-nav__item page-nav__item--prev">
+								<span>←</span>
+								{{ page.page_nav.prev.content }}
+							</a><!-- /.page-nav__item -->
+						</div>
+						<div class="page-nav__item table_of_contents">
+							<a href="/">Table Of Contents</a>
+						</div>
+						<div class="page-nav__item page-nav__item__right">
+							<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="page-nav__item page-nav__item--next">
+								{{ page.page_nav.next.content }}
+								<span>→</span>
+							</a><!-- /.page-nav__item -->
+						</div>	
 					</div>
 					{% endif %}
 				</nav><!-- /.page-nav -->
