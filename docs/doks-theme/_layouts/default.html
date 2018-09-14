@@ -112,11 +112,17 @@
 									{{ page.page_nav.prev.content }}
 								</a><!-- /.page-nav__item -->
 							</div>
+							<div class="page-nav__item table_of_contents table_of_contents--single">
+								<a href="/">Table Of Contents</a>
+							</div>
 						</div>
 					{% endunless %}
 					{% unless page.page_nav.prev.content %}
-						<div class="page-nav-content page-nav-content-right">
-							<div class="page-nav__item page-nav__item__right">
+					<div class="page-nav-content page-nav-content-right">
+						<div class="page-nav__item table_of_contents table_of_contents--single">
+							<a href="/">Table Of Contents</a>
+						</div>
+						<div class="page-nav__item page-nav__item__right">
 								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="page-nav__item page-nav__item--prev">
 									{{ page.page_nav.next.content }}
 									<span>→</span>
