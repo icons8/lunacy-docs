@@ -28,6 +28,31 @@ We release Lunacy once in two week. Take part! Vote for the next features.
 
 Version 3 introduced the full-scale editor. We've launched it in March and dedicated the following month fixing the bugs, improving the performance, and developing the remaining features such as gradients.
 
+## 3.11
+
+Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.11.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.11.zip)
+
+### Features
+
+- Dash patterns option for lines and borders added
+- Added social media section to artboard presets
+
+### Bug Fixes
+
+- Ability to select locked objects fixed
+- Fixed pattern fill behavior for various pattern types
+- An error happened when clicked to the locked group fixed
+- Symbol objects were converted into artboards when saved into sketch format
+- Scrollbar behavior on properties tab fixed
+
+### Improvements
+
+- Lunacy to Reaper interaction format changed
+- Now you can change object size symmetrically with Alt key pressed
+- Resize thumbs visibility changed depend on selection bounds size and viewport zoom
+- Now it's possible to change styles and type text at the same time
+- 0.5px snapping step for vertexes in shape editing
+
 ## 3.10
 
 Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.10.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.10.zip)
