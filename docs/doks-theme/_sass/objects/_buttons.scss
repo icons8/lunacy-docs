@@ -65,6 +65,7 @@
 
 .btn--download {
 	color: $color-white;
+	display: none;
 	border: 1px solid $color-white;
 	width: 116px;
 	height: 32px;
@@ -84,6 +85,10 @@
 	&:active{
 		background-color: #CACACA;
 		border-color: #CACACA;
+	}
+
+	@media (min-width: $screen-xs-min){
+		display: inline-block;
 	}
 }
 
