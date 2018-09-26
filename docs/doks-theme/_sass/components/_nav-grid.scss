@@ -21,12 +21,16 @@
 	display: block;
 	background-color: #FFFFFF;
 	margin-bottom: .9375rem;
-	height: 200px;
-	width: 392px;
+	width: 320px;
+	height: 160px;
 	transition: box-shadow .2s, transform .2s;
 	border-radius: 3px;
 	@media (min-width: $screen-sm-min) {
 		margin-bottom: 1.5rem;
+	}
+	@media (min-width: $screen-xs-min) {
+		width: 392px;
+		height: 200px;
 	}
 
 	&:hover,
