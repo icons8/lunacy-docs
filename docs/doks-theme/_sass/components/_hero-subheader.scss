@@ -43,6 +43,10 @@
 	font-size: 64px;
 	line-height: 88px;
 	margin-bottom: (0.9375rem - 0.1875rem);
+	@media (min-width: $screen-xs-min) {
+		font-size: 36px;
+		line-height: 48px
+	}
 }
 
 #hero-article{
