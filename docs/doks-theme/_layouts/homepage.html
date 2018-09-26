@@ -69,7 +69,7 @@
 							<div class="nav-grid nav-grid--out">
 								<div class="row">
 									{% for item in page.grid_navigation %}
-										<div class="col-sm-6 col-lg-4" style="width: 392px; margin-right: 1.5rem;">
+										<div class="col-sm-6 col-lg-4 grid-item-container">
 											<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="nav-grid__item">
 												<div class="nav-grid__content">
 													<img src="https://png.icons8.com/windows/96/24282A/{{ item.icon }}.png" class="nav-grid__logo">
