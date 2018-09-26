@@ -47,6 +47,14 @@
   }
 }
 
+.grid-item-container{
+	width: 100%; 
+	margin-right: 1.5rem;
+	@media (min-width: $screen-xs-min){
+		width: 392px;
+	};
+}
+
 /* ----- Content ----- */
 .nav-grid__content {
   @include clearfix();
@@ -89,6 +97,10 @@
 }
 
 #grid {
-  width: 1224px;
-  padding: 0;
+  width: 320px;
+	padding: 0;
+	
+	@media (min-width: $screen-xs-min){
+		width: 1224px;
+	}
 }
