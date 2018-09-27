@@ -14,9 +14,15 @@
 
 .page-nav-content{
 	display: flex;
-	width: 1224px;
+	width: 320px;
 	height: 88px;
 	justify-content: space-between;
+	@media (min-width: $screen-sm-min){
+		width: 720px;
+	}
+	@media (min-width: $screen-lg-min){
+		width: 1224px;
+	}
 }
 
 .page-nav-content-left{
