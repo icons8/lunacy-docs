@@ -8,3 +8,15 @@
 		margin-top: 0;
 	}
 }
+
+#content-wrapper {
+	width: 320px;
+	padding: 0;
+	@media (min-width: $screen-sm-min){
+		width: 720px;
+	}
+	@media (min-width: $screen-lg-min){
+		width: 1224px;
+	}
+
+}
