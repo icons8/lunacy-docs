@@ -26,6 +26,7 @@
   transition: box-shadow 0.2s, transform 0.2s;
   border-radius: 3px;
   @media (min-width: $screen-sm-min) {
+    margin-bottom: 1.5rem;
     width: 348px;
     height: 192px;
   }
