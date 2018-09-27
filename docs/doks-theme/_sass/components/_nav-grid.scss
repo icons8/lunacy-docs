@@ -27,10 +27,12 @@
   border-radius: 3px;
   @media (min-width: $screen-sm-min) {
     margin-bottom: 1.5rem;
-  }
-  @media (min-width: $screen-xs-min) {
     width: 392px;
     height: 200px;
+  }
+  @media (min-width: $screen-xs-min) {
+    width: 348px;
+    height: 192px;
   }
 
   &:hover,
@@ -50,9 +52,12 @@
 .grid-item-container{
 	width: 100%; 
 	margin-right: 1.5rem;
-	@media (min-width: $screen-xs-min){
+	@media (min-width: $screen-sm-min){
 		width: 392px;
-	};
+  }
+  @media (min-width: $screen-xs-min){
+		width: 348px;
+  }
 }
 
 /* ----- Content ----- */
@@ -100,8 +105,12 @@
 #grid {
   width: 320px;
 	padding: 0;
+  @media (min-width: $screen-sm-min){
+    width: 1224px;
+  }
 	
 	@media (min-width: $screen-xs-min){
-		width: 1224px;
-	}
+		width: 768px;
+  }
+  
 }
