@@ -54,6 +54,16 @@
 	padding-bottom: 6rem;
 }
 
+#article-hero-wrapper{
+	width: 320px;
+	@media (min-width: $screen-sm-min){
+		width: 720px;
+	}
+	@media (min-width: $screen-lg-min){
+		width: 1224px;
+	}
+}
+
 .hero-subheader__icon {
 	width: 128px;
 	float: right;
