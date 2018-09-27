@@ -107,9 +107,9 @@
   width: 320px;
 	padding: 0;
   @media (min-width: $screen-sm-min){
-    width: 768px;
+    width: 720px;
   }
-  @media (min-width: 1024px){
+  @media (min-width: $screen-lg-min){
     width: 1224px;
   }
 }
