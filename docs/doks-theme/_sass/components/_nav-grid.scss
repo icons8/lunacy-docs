@@ -25,11 +25,11 @@
   height: 160px;
   transition: box-shadow 0.2s, transform 0.2s;
   border-radius: 3px;
-  @media (min-width: $screen-xs-min) {
+  @media (min-width: $screen-sm-min) {
     width: 348px;
     height: 192px;
   }
-  @media (min-width: $screen-sm-min) {
+  @media (min-width: $screen-lg-min) {
     margin-bottom: 1.5rem;
     width: 392px;
     height: 200px;
@@ -52,10 +52,10 @@
 .grid-item-container{
 	width: 100%; 
 	margin-right: 1.5rem;
-  @media (min-width: $screen-xs-min){
+  @media (min-width: $screen-sm-min){
     width: 348px;
   }
-	@media (min-width: $screen-sm-min){
+	@media (min-width: $screen-lg-min){
 		width: 392px;
   }
 }
