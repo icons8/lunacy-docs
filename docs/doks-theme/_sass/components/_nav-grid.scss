@@ -105,10 +105,10 @@
 #grid {
   width: 320px;
 	padding: 0;
-  @media (min-width: $screen-xs-min){
+  @media (min-width: $screen-sm-min){
     width: 768px;
   }
-  @media (min-width: $screen-sm-min){
+  @media (min-width: $screen-lg-min){
     width: 1224px;
   }
 }
