@@ -42,6 +42,13 @@
 	}
 }
 
+.site-header__logo__mobile {
+	display: block;
+	width: 48px;
+	@media (min-width: $screen-sm-min){
+		display: none;
+	}
+}
 /* ----- Navigation ----- */
 .site-header__nav {
 	@include list-horizontal;
