@@ -13,10 +13,17 @@
 
 .site-header {
 	position: absolute;
+	display: hidden;
 	width: 100%;
 	height: 64px;
 	border-bottom: 1px solid rgba($color-dark, .15);
 	background-color: #24282A;
+	@media (min-width: $screen-sm-min){
+		display: block;
+	}
+	@media (min-width: $screen-lg-min){
+		display: block;
+	}
 }
 
 /* ----- Navigation ----- */
