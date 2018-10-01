@@ -45,6 +45,8 @@
 .site-header__logo__mobile {
 	display: block;
 	width: 48px;
+	margin: auto;
+	margin-bottom: 26px;
 	@media (min-width: $screen-sm-min){
 		display: none;
 	}
