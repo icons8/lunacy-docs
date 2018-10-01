@@ -4,11 +4,11 @@
 		{% include site-head.html %}
 	</head>
 	<body class="{{ site.doks.color_theme }}">
-		<a href="https://icons8.ru/lunacy" class="site-header__logo__mobile">
-			<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo.png">
-		</a><!-- /.site-header__logo -->
 		{% include site-header.html %}
 		<div class="hero-subheader{% if page.grid_navigation %} hero-subheader--before-out{% endif %}">
+			<a href="https://icons8.ru/lunacy" class="site-header__logo__mobile">
+				<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/mobile-logo.png">
+			</a><!-- /.site-header__logo -->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7 col-lg-12 col-centered" style="float: none">
