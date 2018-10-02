@@ -82,6 +82,17 @@
 	}
 }
 
+.burger{
+	padding: 20px;
+	background-color: transparent;
+	border: none;
+	display: block;
+	margin-bottom: 6.5rem;
+	@media (min-width: $screen-sm-min){
+		display: none;
+	}
+}
+
 /* ----- Offcanvas ----- */
 .offcanvas {
 	overflow: hidden;
@@ -102,16 +113,6 @@
 		opacity: 1;
 		visibility: visible;
 		@include translate(0, 0);
-	}
-}
-
-.burger{
-	padding: 20px;
-	background-color: transparent;
-	border: none;
-	display: block;
-	@media (min-width: $screen-sm-min){
-		display: none;
 	}
 }
 
