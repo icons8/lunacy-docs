@@ -1,5 +1,6 @@
 .burger-modal{
-  display: none;
+  visibility: hidden;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   background-color: rgba(36, 40, 42, 0.9);
