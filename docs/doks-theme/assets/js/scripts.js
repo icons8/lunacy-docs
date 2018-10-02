@@ -199,6 +199,5 @@ function clickSingleA(a)
 function openModal()
 {
 	console.log("Modal Opened")
-	console.log(document.querySelector(".burger-modal"))
 	document.querySelector(".burger-modal").style.display = "flex"
 }
