@@ -195,3 +195,8 @@ function clickSingleA(a)
 
     a.className = 'active';
 }
+
+function openModal()
+{
+	console.log("Modal Opened")
+}

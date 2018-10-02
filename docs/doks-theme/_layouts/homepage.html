@@ -6,7 +6,7 @@
 	<body class="{{ site.doks.color_theme }}">
 		{% include site-header.html %}
 		<div class="hero-subheader{% if page.grid_navigation %} hero-subheader--before-out{% endif %}">
-				<button class="burger">
+				<button class="burger" onclick="openModal()">
 					<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/burger.png"/>
 				</button>
 			<a href="https://icons8.ru/lunacy" class="site-header__logo__mobile">
