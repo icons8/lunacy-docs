@@ -134,6 +134,26 @@
   }
 }
 
+.close-modal{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 14;
+	width: 24px;
+	height: 24px;
+	background-color: transparent;
+	border: none;
+	color: $color-white;
+	margin: 24px;
+	padding: 0;
+	img{
+		width: 24px;
+	}
+}
+
 /* ----- Offcanvas ----- */
 .offcanvas {
 	overflow: hidden;

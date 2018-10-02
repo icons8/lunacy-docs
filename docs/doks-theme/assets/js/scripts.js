@@ -199,5 +199,13 @@ function clickSingleA(a)
 function openModal()
 {
 	console.log("Modal Opened")
+	document.querySelector(".close-modal").style.display = "inline-block"
 	document.querySelector(".burger-modal").style.display = "flex"
+}
+
+function closeModal()
+{
+	console.log("Modal Closed")
+	document.querySelector(".burger-modal").style.display = "none"
+	document.querySelector(".close-modal").style.display = "none"
 }
