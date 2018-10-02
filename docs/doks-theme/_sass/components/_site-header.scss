@@ -109,9 +109,9 @@
 	padding: 20px;
 	background-color: transparent;
 	border: none;
-	display: none;
+	display: block;
 	@media (min-width: $screen-sm-min){
-		display: block;
+		display: none;
 	}
 }
 
