@@ -105,6 +105,16 @@
 	}
 }
 
+.burger{
+	padding: 20px;
+	background-color: transparent;
+	border: none;
+	display: none;
+	@media (min-width: $screen-sm-min){
+		display: block;
+	}
+}
+
 /* ----- Offcanvas navigation ----- */
 .offcanvas__nav {
 	height: 100%;
