@@ -13,6 +13,9 @@ doks:
               external_url: true
             - item_name: Release Notes
               item_url: /release-notes/
+            - item_name: Forum
+              item_url: https://community.icons8.com/c/lunacy/
+              external_url: true
             
 
     google_analytics:
