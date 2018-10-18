@@ -36,7 +36,7 @@
 /* ----- Item ----- */
 .page-nav__item {
 	@include link-reset;
-	width: 480px;
+	width: 100%;
 	align-self: center;
 	font-family: $font-family-secondary;
 	font-weight: 700;
@@ -57,6 +57,9 @@
 			}
 		}
 	}
+	@media (min-width: $screen-sm-min){
+		width: 480px;
+	}
 }
 
 .page-nav__item__right {
@@ -74,9 +77,17 @@
 	}
 }
 
+.page-nav__text{
+	width: 0;
+	@media (min-width: $screen-sm-min){
+		width: 100%;
+	}
+}
+
 .table_of_contents{
 	display: flex;
 	justify-content: center;
+	font-size: 20px;
 	a{
 		transition: all .2s;
 		@include link-reset;
@@ -88,6 +99,10 @@
 		&:active{
 			@include translate(0, 5px);
 		}
+	}
+	@media (min-width: $screen-sm-min){
+		display: block;
+		font-size: 24px;
 	}
 }
 

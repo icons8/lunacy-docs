@@ -88,7 +88,7 @@
 							<div class="page-nav__item">
 								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="page-nav__item page-nav__item--prev">
 									<span>←</span>
-									{{ page.page_nav.prev.content }}
+									<span class="page-nav__text">{{ page.page_nav.prev.content }}</span>
 								</a><!-- /.page-nav__item -->
 							</div>
 							<div class="page-nav__item table_of_contents table_of_contents--single">
@@ -103,7 +103,7 @@
 						</div>
 						<div class="page-nav__item page-nav__item__right">
 								<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="page-nav__item page-nav__item--prev">
-									{{ page.page_nav.next.content }}
+									<span class="page-nav__text">{{ page.page_nav.next.content }}</span>
 									<span>→</span>
 								</a><!-- /.page-nav__item -->
 							</div>
@@ -114,7 +114,7 @@
 						<div class="page-nav__item">
 							<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="page-nav__item page-nav__item--prev">
 								<span>←</span>
-								{{ page.page_nav.prev.content }}
+								<span class="page-nav__text">{{ page.page_nav.prev.content }}</span>
 							</a><!-- /.page-nav__item -->
 						</div>
 						<div class="page-nav__item table_of_contents">
@@ -122,7 +122,7 @@
 						</div>
 						<div class="page-nav__item page-nav__item__right">
 							<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="page-nav__item page-nav__item--next">
-								{{ page.page_nav.next.content }}
+								<span class="page-nav__text">{{ page.page_nav.next.content }}</span>
 								<span>→</span>
 							</a><!-- /.page-nav__item -->
 						</div>	
