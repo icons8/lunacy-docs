@@ -50,8 +50,11 @@
 }
 
 #hero-article{
-	padding-top: 11.25rem;
+	padding-top: 0;
 	padding-bottom: 6rem;
+	@media (min-width: $screen-lg-min){
+		padding-top: 11.25rem;
+	}
 }
 
 #article-hero-wrapper{
