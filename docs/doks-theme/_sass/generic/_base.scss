@@ -239,6 +239,11 @@ iframe {
 	display: block;
 	border: 0;
 	margin: 0 0 1.25rem 0;
+	width: 100%;
+	height: 200px;
+	@media (min-width: $screen-sm-min){
+		height: 100%;
+	}
 }
 
 /* ----- Button ----- */
