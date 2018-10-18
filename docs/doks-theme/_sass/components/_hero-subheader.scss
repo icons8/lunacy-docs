@@ -64,11 +64,25 @@
 	}
 }
 
+.align-container{
+	width: 70%;
+	@media (min-width: $screen-lg-min){
+		width: 100%;
+	}	
+}
+
 .hero-subheader__icon {
-	width: 128px;
+	width: 64px;
 	float: right;
-	margin-top: -14px;
-    margin-right: 15px;
+	margin-top: 10px;
+	margin-right: 15px;
+	@media (min-width: $screen-sm-min){
+		width: 80px;
+	}
+	@media (min-width: $screen-lg-min){
+		width: 128px;
+		margin-top: -14px;
+	}	
 }
 
 /* ----- Description ----- */
