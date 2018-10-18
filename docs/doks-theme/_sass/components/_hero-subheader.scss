@@ -52,7 +52,7 @@
 #hero-article{
 	padding-top: 0;
 	padding-bottom: 0;
-	@media (min-width: $screen-lg-min){
+	@media (min-width: $screen-sm-min){
 		padding-top: 11.25rem;
 		padding-bottom: 6rem;
 	}
