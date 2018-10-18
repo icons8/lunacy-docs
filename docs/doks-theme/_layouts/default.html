@@ -6,6 +6,9 @@
 	<body class="{{ site.doks.color_theme }}" data-spy="scroll" data-target=".js-scrollspy">
 		{% include site-header.html %}
 		<div class="hero-subheader" id="hero-article">
+			<button class="burger" onclick="openModal()">
+				<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/burger.png"/>
+			</button>
 			<div class="container" id="article-hero-wrapper">
 				<div class="row">
 					{% if page.icon %}
@@ -130,6 +133,15 @@
 			{% if page.micro_nav == true %}
 				{% include micro-nav.html %}
 			{% endif %}
+			<button class="close-modal" onclick="closeModal()">
+				<img src="https://png.icons8.com/ios/100/ffffff/delete-sign.png">
+			</button>
+			<div class="burger-modal">
+				<a href="https://docs.icons8.com/">Documentation</a>
+				<a href="https://lunatics.icons8.com/">Request Features</a>
+				<a href="https://docs.icons8.com/release-notes/">Release Notes</a>
+				<a class="big_filled" href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge">Get from Windows Store</a>
+			</div>
 			{% include site-footer.html %}
 		</div><!-- /.js-footer-area -->
 	</body>
