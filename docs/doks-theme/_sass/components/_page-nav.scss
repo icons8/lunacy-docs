@@ -78,9 +78,9 @@
 }
 
 .page-nav__text{
-	width: 0;
+	font-size: 0px;
 	@media (min-width: $screen-sm-min){
-		width: 100%;
+		font-size: 24px;
 	}
 }
 
