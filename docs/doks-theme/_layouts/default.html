@@ -6,7 +6,7 @@
 	<body class="{{ site.doks.color_theme }}" data-spy="scroll" data-target=".js-scrollspy">
 		{% include site-header.html %}
 		<div class="hero-subheader" id="hero-article">
-			<button class="burger" onclick="openModal()">
+			<button class="burger" id="article-burger" onclick="openModal()">
 				<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/burger.png"/>
 			</button>
 			<div class="container" id="article-hero-wrapper">
