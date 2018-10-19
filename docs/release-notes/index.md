@@ -31,12 +31,12 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 ## 3.12
 
 ### Features
-- Added ability to work with *Symbols* (beta)
-- Added “Override symbol” context menu item for nested symbols
-- Added ability to build Lists in text
-- Added “Fill” and Stroke effects for text
-- Added Interal Shadow effect
-- Added Guidelines
+- Added ability to work with **Symbols** (beta)
+- Added **Override symbol** context menu item for nested symbols
+- Added ability to build **Lists in text**
+- Added **Fill** and **Stroke** effects for text
+- Added **Interal Shadow** effect
+- Added **Guidelines**
 
 ### Improvements
 
