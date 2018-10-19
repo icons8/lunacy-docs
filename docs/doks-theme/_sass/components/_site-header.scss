@@ -4,10 +4,16 @@
 
 /* ----- General ----- */
 #navbar-content{
-	width: 1224px;
-    float: none;
+	width: 320px;
+	float: none;
 	margin: 0 auto;
 	padding: 0;
+	@media (min-width: $screen-sm-min){
+    width: 720px;
+  }
+  @media (min-width: $screen-lg-min){
+    width: 1224px;
+  }
 }
 
 
