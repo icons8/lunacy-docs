@@ -30,6 +30,8 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 
 ## 3.12
 
+Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip)
+
 ### Features
 - Added ability to work with **Symbols** (beta)
 - Added **Override symbol** context menu item for nested symbols
