@@ -42,7 +42,7 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 
 - Improved performance of Undo / Redo operations
 - Accelerated processing of large images
--Automatic hide of the left panel
+- Automatic hide of the left panel
 - Improved navigation. Now, when an item is selected in the tree, arrow buttons there is a capability to move selected item within working area rather that navigating along the tree.
 - Improved saving experience. A progress ring animation is displayed now while saving files
 - Font size can be changed now by 10 with Shift pressed
