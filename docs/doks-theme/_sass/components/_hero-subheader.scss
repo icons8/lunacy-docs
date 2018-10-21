@@ -68,6 +68,12 @@
 	}
 }
 
+#hero-mobile {
+	@media (max-width: $screen-sm-min){
+		padding-left: 0px;
+	}
+}
+
 #article-burger{
 	margin-bottom: 1.5rem;
 }
@@ -87,11 +93,12 @@
 	float: none;
 	margin-top: 10px;
 	margin-right: 0;
-	margin-left: 15px;
+	margin-left: 0;
 	@media (min-width: $screen-sm-min){
 		width: 80px;
 		float: right;
 		margin-right: 15px;
+		margin-left: 15px;
 	}
 	@media (min-width: $screen-lg-min){
 		width: 128px;
