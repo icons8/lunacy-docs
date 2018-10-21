@@ -28,6 +28,43 @@ We release Lunacy once in two week. Take part! Vote for the next features.
 
 Version 3 introduced the full-scale editor. We've launched it in March and dedicated the following month fixing the bugs, improving the performance, and developing the remaining features such as gradients.
 
+## 3.12
+
+Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip)
+
+### Features
+- Added ability to work with **Symbols** (beta)
+- Added **Override symbol** context menu item for nested symbols
+- Added ability to build **Lists in text**
+- Added **Fill** and **Stroke** effects for text
+- Added **Interal Shadow** effect
+- Added **Guidelines**
+
+### Improvements
+
+- Improved performance of Undo / Redo operations
+- Accelerated processing of large images
+- Automatic hide of the left panel
+- Improved navigation. Now, when an item is selected in the tree, arrow buttons there is a capability to move selected item within working area rather that navigating along the tree.
+- Improved saving experience. A progress ring animation is displayed now while saving files
+- Font size can be changed now by 10 with Shift pressed
+- When saving an empty project, the .sketch extension is used now as default, instead of .lunacy
+- When loading / saving files, the last position of the workspace is used
+- Added additional features for the Line tool
+- Improved support for reading sketch files
+
+### Bug Fixes
+
+- Fixed bugs related to duplication and dragging objects
+- Now, color preview in borders displays gradients (there used to be only solid color of the first stop)
+- Fixed bug that caused app crash when saving an empty file in .sketch format
+- Fixed bug related to redrawing of object effects while blur effect is active
+- Fixed bug while moving objects in edit mode
+- Fixed bug related to situations when applied effects are clipped while exporting to PNG
+- Fixed errors associated with reading of some Sketch files that caused crashes in previous versions
+- Various minor fixes
+
+
 ## 3.11
 
 Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.11.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.11.zip)
