@@ -61,7 +61,7 @@ Using keyboard is handy when you either
 * Need precision
 * Or need to move objects just a little bit (as designers, we spend 50% of our time making these small adjustments)
 
-### Moving Horizontally and Vertically
+#### Moving Horizontally and Vertically
 
 Hold `Shift` while moving an object. Lunacy will lock one of the axes and move the object either horizontally or vertically.
 
