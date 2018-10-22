@@ -42,7 +42,7 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe)
 
 ### Improvements
 
-- Added the ability **to enter text** for languages such as: Japanese, Chinese, Korean
+- Added the ability **to enter text** into a text block of such languages as: Japanese, Chinese, Korean
 - Improved performance of Undo / Redo operations
 - Accelerated processing of large images
 - Automatic hide of the left panel
