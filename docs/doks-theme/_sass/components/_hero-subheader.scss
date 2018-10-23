@@ -20,6 +20,10 @@
 	.btn--github,
 	.btn--w-arrow-down {
 		@extend .btn--dark;
+		padding: 1rem 2.1875rem;
+		@media (min-width: $screen-sm-min) {
+			padding: .8125rem 2.1875rem;
+		}
 	}
 
 	.site-header + & {
