@@ -107,11 +107,13 @@ small,
 p {
 	margin: 0 0 1.25rem 0;
 	font-size: 14px;
+	line-height: 24px;
 	@media (min-width: $screen-sm-min){
 		font-size: 16px;
 	}
 	@media (min-width: $screen-lg-min){
 		font-size: 18px;
+		line-height: 32px;
 	}
 }
 
