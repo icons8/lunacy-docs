@@ -46,6 +46,20 @@
 	height: 54px;
 }
 
+.btn--github_mobile{
+	display: block;
+	border: none;
+	margin-top: 30px;
+	i{	
+		float: left;
+		margin-left: 0;
+		margin-right: .75rem;
+	}
+	@media (min-width: $screen-sm-min){
+		display: none;
+	}
+}
+
 #sections-button{
 	border: none;
 	padding: 0px;
