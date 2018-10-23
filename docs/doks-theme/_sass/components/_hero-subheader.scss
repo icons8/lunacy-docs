@@ -84,12 +84,6 @@
 
 .align-container{
 	width: 100%;
-	@media (min-width: $screen-sm-min){
-		width: 70%;
-	}
-	@media (min-width: $screen-lg-min){
-		width: 100%;
-	}	
 }
 
 .hero-subheader__icon {
