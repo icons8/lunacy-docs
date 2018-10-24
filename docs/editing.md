@@ -101,9 +101,9 @@ Imagine you've got an object inside a group. When you resize this group, how the
 
 For example, when _Fix Height_ is enabled, the height remains intact when you resize the parent vertically.
 
-You only see this option if you selected an object inside a group or an artboard.
-
 ![Resizing control in Inspector](public/editing_constraints_example.png)
+
+You only see this option if you selected an object inside a group or an artboard.
 
 ## Rotating
 
