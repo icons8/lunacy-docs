@@ -18,6 +18,9 @@
 					{% elsif site.doks.header.logo.image %}
 						<a href="https://icons8.com/lunacy" class="site-header__logo">
 							<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo.png">
+						</a>
+						<a href="https://icons8.com/lunacy" class="site-header__logo__tablet">
+							<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo_tablet.svg">
 						</a><!-- /.site-header__logo -->
 					{% endif %}
 					{% if site.doks.header.nav %}

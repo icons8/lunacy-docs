@@ -35,7 +35,7 @@
 /* ----- Navigation ----- */
 .site-header__logo {
 	@include link-reset;
-	display: block;
+	display: none;
 	float: left;
 	color: #FFFFFF;
 	font-family: $font-family-secondary;
@@ -46,6 +46,19 @@
 	img {
 		vertical-align: middle;
 		max-width: 100%;
+	}
+	@media (min-width: $screen-lg-min){
+		display: block;
+	}
+}
+
+.site-header__logo__tablet {
+	@include link-reset;
+	display: block;
+	float: left;
+	width: 48px;
+	@media (min-width: $screen-lg-min){
+		display: none;
 	}
 }
 
