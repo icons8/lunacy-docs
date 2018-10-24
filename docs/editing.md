@@ -55,7 +55,7 @@ The most common type of objects in your document will be shapes. The easiest way
 #### Moving With Keyboard
 
 * Hit the arrow keys to move an object by one pixel
-* `Shift` `Arrow` moves objects by 10 pixels
+* `Shift` with `←` `↑` `↓` `→` moves objects by 10 pixels
 
 Using keyboard is handy when you either
 
