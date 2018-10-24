@@ -143,7 +143,7 @@ In a bar at the very top of the canvas, you will find the buttons for aligning a
 |---|---|---|---|---|
 | ![Flip an object horizontally](public/mAz4bmww76HilrhUizdqvw_img_32.png) | Flip horizontally | `Ctrl` `←`, `Ctrl` `→` |
 |  ![Flip an object vertically](public/mAz4bmww76HilrhUizdqvw_img_33.png) | Flip vertically | `Ctrl``↓`, `Ctrl``↑` |
-| ![Align an object](public/mAz4bmww76HilrhUizdqvw_img_34.png) | Align | None |
+| ![Align an object](public/editing_align_left.png) | Align | None |
 | ![Group objects](public/mAz4bmww76HilrhUizdqvw_img_35.png) |Group| `Ctrl` `G` |
 
 
