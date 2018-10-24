@@ -83,14 +83,12 @@ Designers use grouping a lot. One can even say that designers turn their documen
 
 Each object in Lunacy has eight handles that become visible when you select objects. Those handles don't just indicate selection; you can also use them to resize a layer. Grab any of the handles and drag them to resize an object.
 
-![Resize objects](public/mAz4bmww76HilrhUizdqvw_img_28.gif)
+![Resize objects](public/editing_resizing.png)
 
 
 [//]: # (this piece must go somewhere else - ib)
 
 [//]: # (Using Lunacy it's possible to view properties of objects. You need to select an object to see it’s properties in the right panel.)
-
-![Resize objects](public/mAz4bmww76HilrhUizdqvw_img_40.png)
 
 [//]: # (this resizing option is called somehow else - ib)
 
@@ -98,21 +96,20 @@ Each object in Lunacy has eight handles that become visible when you select obje
 
 Imagine you've got an object inside a group. When you resize this group, how the object should behave? Should it resize or stay locked?
 
+![Resize objects](public/editing_constraints.png)
+
 For example, when _Fix Height_ is enabled, the height remains intact when you resize the parent vertically.
 
 You only see this option if you selected an object inside a group or an artboard.
 
-![Resizing control in Inspector](public/mAz4bmww76HilrhUizdqvw_img_41.png)
+![Resizing control in Inspector](public/editing_constraints_example.png)
 
 ## Rotating
 
-You can rotate an object using the rotate clock.
+You can rotate an object using the rotate clock. As rotation is a value measured in degrees, it can be edited via Lunacy's Inspector.
 
-![Rotate objects](public/mAz4bmww76HilrhUizdqvw_img_29.gif)
+![Rotate objects](public/editing_rotating.png)
 
-As rotation is a value measured in degrees, it can be edited via Lunacy's Inspector.
-
-![Change the angle in Lunacy's Inspector](public/mAz4bmww76HilrhUizdqvw_img_30.png)
 
 ## Z-Axis Position
 
@@ -122,7 +119,7 @@ Each object on your artboard can be located on the Z-axis. You can:
 * Send objects backward (keyboard shortcut `Ctrl` `[`)
 * Send an object directly to the back (keyboard shortcut `Shift` `Ctrl` `[`)
 
-![Change Z-axis position for elements](public/mAz4bmww76HilrhUizdqvw_img_31.png)
+![Change Z-axis position for elements](public/editing_positioning.png)
 
 ## Align and Distribute
 
@@ -144,4 +141,4 @@ In a bar at the very top of the canvas, you will find the buttons for aligning a
 
 For some objects, like the rectangle, it’s possible to edit the shape. To activate Edit shape mode, you need to double click on the object. This option allows you to modify properties like Corner radius for a rectangle.
 
-![Editing shapes](public/mAz4bmww76HilrhUizdqvw_img_39.png)
+![Editing shapes](public/editing_edit_shape.png)
