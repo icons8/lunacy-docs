@@ -57,6 +57,10 @@
 	display: block;
 	float: left;
 	width: 48px;
+	img {
+		vertical-align: middle;
+		max-width: 100%;
+	}
 	@media (min-width: $screen-lg-min){
 		display: none;
 	}
