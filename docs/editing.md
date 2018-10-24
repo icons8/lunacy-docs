@@ -141,10 +141,14 @@ In a bar at the very top of the canvas, you will find the buttons for aligning a
 
 | Button | Action | Shortcut |
 |---|---|---|---|---|
-| ![Flip an object horizontally](public/mAz4bmww76HilrhUizdqvw_img_32.png) | Flip horizontally | `Ctrl` `←`, `Ctrl` `→` |
-|  ![Flip an object vertically](public/mAz4bmww76HilrhUizdqvw_img_33.png) | Flip vertically | `Ctrl``↓`, `Ctrl``↑` |
-| ![Align an object](public/editing_align_left.png) | Align | None |
-| ![Group objects](public/mAz4bmww76HilrhUizdqvw_img_35.png) |Group| `Ctrl` `G` |
+| ![Align left](public/editing_align_left.png) | Align left | `Shift` `Ctrl` `←` |
+| ![Center vertically](public/editing_align_center_v.png) | Center vertically | `Shift` `Ctrl` `-` |
+| ![Align right](public/editing_align_right.png) | Align right | `Shift` `Ctrl` `→` |
+| ![Align top](public/editing_align_top.png) | Align top | `Shift` `Ctrl` `↑` |
+| ![Center horizontally](public/editing_align_center_h.png) | Center horizontally | `Shift` `Ctrl` `|` |
+| ![Align bottom](public/editing_align_bottom.png) | Align bottom | `Shift` `Ctrl` `↓` |
+| ![Distribute horizontally](public/editing_distribute_horizontally.png) | Distribute horizontally | `Shift` `Ctrl` `H` |
+| ![Distribute vertically](public/editing_distribute_vertically.png) | Distribute vertically | `Shift` `Ctrl` `V` |
 
 
 
