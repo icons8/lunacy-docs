@@ -40,12 +40,12 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Save as |`Shift` `Ctrl` `S` |
 | Export |`Ctrl` `E` |
 | About |`F1` |
-| Exit |`Alt` `F4`, `Ctrl` `Q` |
+| Exit |`Alt` `F4` or `Ctrl` `Q` |
 | Copy |`Ctrl` `C` |
 | Cut |`Ctrl` `X` |
 | Paste |`Ctrl` `V` |
 | Undo |`Ctrl` `Z`  |
-| Redo |`Ctrl` `Y`, `Ctrl` `Shift` `Z` |
+| Redo |`Ctrl` `Y` or `Ctrl` `Shift` `Z` |
 | Toggle rules |`Ctrl` `R` |
 | Toggle grid |`Ctrl` `’` |
 | Toggle left panel |`Ctrl` `T` |
@@ -64,7 +64,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Artboard |`A` |
 | Draw from center | `Alt` `Drag` |
 | Draw lock aspect |`Shift` `Drag` |
-| Select |`S`, `Esc` |
+| Select |`S` and `Esc` for deselect |
 | Insert bitmap |`P` |
 | Create avatar |`Ctrl` `P` |
 
@@ -83,12 +83,12 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Sape edit mode |`Enter`, `Double click` |
+| Sape edit mode |`Enter` or `Double click` |
 | Finish editing |`Escape` |
-| Delete layer |`Backspace`, `Del` |
+| Delete layer |`Backspace` or `Del` |
 | Toggle mask |`Ctrl` `M` |
-| Flip horizontaly |`Ctrl` `→`, `Ctrl` `←` |
-| Flip vertical |`Ctrl` `↑`, `Ctrl` `↓` |
+| Flip horizontaly |`Ctrl` `→` or `Ctrl` `←` |
+| Flip vertical |`Ctrl` `↑` or `Ctrl` `↓` |
 | Union |`Shift` `Ctrl` `U` |
 | Substract |`Shift` `Ctrl` `P` |
 | Intersect |`Shift` `Ctrl` `I` |
@@ -123,7 +123,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
 | Distances from objects |`Alt` |
-| Duplicate |`Alt` `Drag`, `Ctrl` `D` |
+| Duplicate |`Alt` `Drag` or `Ctrl` `D` |
 | Move long X/Y axis |`Shift` `Drag` |
 | Move by 1px |`Arrow keys` |
 | Move by 10px |`Shift` `Arrow keys` |
@@ -151,8 +151,8 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
 | Zoom |`Ctrl` `Mouse Wheel` |
-| Zoom In |`Ctrl` `+`,`+` |
-| Zoom Out |`Ctrl` `-`,`-`|
+| Zoom In |`Ctrl` `+` or just `+` |
+| Zoom Out |`Ctrl` `-` or just `-`|
 | Zoom to 100% |`Ctrl` `0` |
 | Zoom to all elements |`Ctrl` `1`|
 | Zoom to selection |`Ctrl` `2` |
