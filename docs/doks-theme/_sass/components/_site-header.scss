@@ -56,6 +56,7 @@
 	@include link-reset;
 	display: block;
 	float: left;
+	line-height: 3.8rem;
 	width: 48px;
 	img {
 		vertical-align: middle;
@@ -80,8 +81,11 @@
 	@include list-horizontal;
 	@include clearfix;
 	margin-bottom: 0;
-	width: 59.5%;
+	width: 70%;
 	float: right;
+	@media (min-width: $screen-lg-min){
+		width: 59.5%;
+	}
 
 	.active {
 		background-color: #3D3F42;
