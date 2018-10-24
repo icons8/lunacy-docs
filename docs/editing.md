@@ -39,7 +39,7 @@ You can select multiple objects by holding down the `Shift` key on the keyboard 
 
 ![Use the Layer List to select an object](public/editing_select_multiple_objects.png)
 
-#### Selecting Group vs. Object
+### Selecting Group vs. Object
 
 If you click on an object within a group, Lunacy selects the whole group. This is usually quite handy: You can easily move around whole components in your design.
 
@@ -54,7 +54,7 @@ The most common type of objects in your document will be shapes. The easiest way
 
 ## Moving
 
-#### Moving With Keyboard
+### Moving With Keyboard
 
 * Hit the arrow keys to move an object by one pixel
 * `Shift` with `←` `↑` `↓` `→` moves objects by 10 pixels
@@ -64,7 +64,7 @@ The most common type of objects in your document will be shapes. The easiest way
 * Need precision
 * Or need to move objects just a little bit (as designers, we spend 50% of our time making these small adjustments)
 
-#### Moving Horizontally and Vertically
+### Moving Horizontally and Vertically
 
 Hold `Shift` while moving an object. Lunacy will lock one of the axes and move the object either horizontally or vertically.
 
