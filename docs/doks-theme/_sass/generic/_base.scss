@@ -137,6 +137,11 @@ img {
 	max-width: 70%;
 	height: auto;
 	vertical-align: top;
+	+ h5 {
+		font-size: 12px;
+		color: #727272;
+		line-height: 16px;
+	}
 }
 
 /* ----- Horizontal rules ----- */
