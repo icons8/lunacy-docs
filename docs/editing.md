@@ -28,13 +28,13 @@ page_nav:
 
 Selecting objects in Lunacy is easy: You just click on an object in your canvas. Once the object is selected, you should see eight little handles along its outline; one in each corner and one in the center of each edge.
 
-![Select an object and see its properties](public/select_single_object.png)
+![Select an object and see its properties](public/editing_select_single_object.png)
 
 Alternatively, you can use the Layer list to select an object. Clicking an object's name in the list selects it on the canvas.
 
-![Use the Layer List to select an object](public/mAz4bmww76HilrhUizdqvw_img_22.png)
-
 You can select multiple objects by holding down the `Shift` key on the keyboard and clicking on other objects.
+
+![Use the Layer List to select an object](public/editing_select_multiple_objects.png)
 
 #### Selecting Group vs. Object
 
@@ -75,7 +75,7 @@ Grouping objects is a good way to organize a document. After creating a group, y
 
 Designers use grouping a lot. One can even say that designers turn their documents into a series of nested groups.
 
-![Grouping objects](public/mAz4bmww76HilrhUizdqvw_img_23.png)
+![Grouping objects](public/editing_grouping.png)
 
 
 
