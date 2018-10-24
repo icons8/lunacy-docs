@@ -57,9 +57,9 @@ The most common type of objects in your document will be shapes. The easiest way
 #### Moving With Keyboard
 
 * Hit the arrow keys to move an object by one pixel
-* `Shift` `Arrow` moves objects by 10 pixels
+* `Shift` with `←` `↑` `↓` `→` moves objects by 10 pixels
 
-Using keyboard is handy when you either
+**Using keyboard is handy when you either**
 
 * Need precision
 * Or need to move objects just a little bit (as designers, we spend 50% of our time making these small adjustments)
@@ -101,11 +101,11 @@ Imagine you've got an object inside a group. When you resize this group, how the
 
 ![Resize objects](public/editing_constraints.png)
 
-For example, when _Fix Height_ is enabled, the height remains intact when you resize the parent vertically.
-
-You only see this option if you selected an object inside a group or an artboard.
+For example, when **_Fix Height_** is enabled, the height remains intact when you resize the parent vertically.
 
 ![Resizing control in Inspector](public/editing_constraints_example.png)
+
+You only see this option if you selected an object inside a group or an artboard.
 
 ## Rotating
 
@@ -117,10 +117,10 @@ You can rotate an object using the rotate clock. As rotation is a value measured
 ## Z-Axis Position
 
 Each object on your artboard can be located on the Z-axis. You can:
-* Bring objects forward (keyboard shortcut `Ctrl` `J`)
-* Bring it to the front (keyboard shortcut `Shift` `Ctrl` `J`)
-* Send objects backward (keyboard shortcut `Ctrl` `[`)
-* Send an object directly to the back (keyboard shortcut `Shift` `Ctrl` `[`)
+* Bring objects forward (keyboard shortcut `Ctrl` `J`
+* Bring it to the front (keyboard shortcut `Shift` `Ctrl` `J`
+* Send objects backward (keyboard shortcut `Ctrl` `[`
+* Send an object directly to the back (keyboard shortcut `Shift` `Ctrl` `[`
 
 ![Change Z-axis position for elements](public/editing_positioning.png)
 
