@@ -7,7 +7,7 @@ comments: false
 # Hero section
 title: Localization
 description: Help us improve the translation of Lunacy
-icon: 'pencil-tip'
+icon: 'translation'
 
 # Micro navigation
 micro_nav: false
