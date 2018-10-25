@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     prev:
-        content: Shortcuts
-        url: '/shortcuts'
+        content: Localization
+        url: '/localization'
     next:
         content: Release History
         url: '/release-notes'

@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Support
-        url: '/support'
+        content: Localization
+        url: '/localization'
     prev:
         content: Export
         url: '/export'
