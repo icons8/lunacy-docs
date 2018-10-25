@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Localization
-description: Learn about tools that will help you create shapes you want
+description: Help us improve the translation of Lunacy
 icon: 'pencil-tip'
 
 # Micro navigation
