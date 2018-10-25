@@ -44,7 +44,7 @@ grid_navigation:
     - title: 'Localization'
       excerpt: Help us improve the translation of Lunacy 
       url: '/localization'
-      icon: 'keyboard'
+      icon: 'translation'
     - title: 'Support'
       excerpt: 'FAQ and our contacts'
       url: '/support'
