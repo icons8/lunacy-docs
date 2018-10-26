@@ -30,6 +30,8 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 
 # 3.13
 
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.13.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.13.zip)
+
 ### Features
 - Support for sketch files created in **version 52**
 - Support for reading foreign symbols
