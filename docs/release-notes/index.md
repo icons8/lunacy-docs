@@ -31,9 +31,9 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 # 3.13
 
 ### Features
-- Support for sketch files created in version 52
+- Support for sketch files created in **version 52**
 - Support for reading foreign symbols
-- Multilingual interface.
+- **Multilingual interface.**
 Languages:
 • English
 • Spanish
