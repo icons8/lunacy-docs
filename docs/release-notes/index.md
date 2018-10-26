@@ -35,13 +35,13 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 - Support for reading foreign symbols
 - **Multilingual interface.**
 Languages:
-• English
-• Spanish
-• Indonesian
-• Italian
-• French
-• Russian
-• Ukrainian
+* English
+* Spanish
+* Indonesian
+* Italian
+* French
+* Russian
+* Ukrainian
 ### Improvements
 - Added button **Return to Instance** symbol
 - Added ability to change and delete symbols from symbol panel
