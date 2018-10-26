@@ -41,7 +41,8 @@ Languages:
 — Italian  
 — French  
 — Russian  
-— Ukrainian  
+— Ukrainian    
+**[Help us improve the translation of Lunacy for other languages](http://docs.icons8.com/localization/)**  
 ### Improvements
 - Added button **Return to Instance** symbol
 - Added ability to change and delete symbols from symbol panel
