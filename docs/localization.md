@@ -24,9 +24,9 @@ page_nav:
 
 ## Editing or translating an existing localization
 
-To edit an existing localization of Lunacy, you can use the service called Crowdin. Sign up or log in with your account.
+To edit an existing localization of Lunacy, you can use the service called [Crowdin](https://crowdin.com). Sign up or log in with your account.
 
-To find our project, use search or follow the direct link https://crowdin.com/project/lunacy
+To find our project, use search or follow the direct link [https://crowdin.com/project/lunacy](https://crowdin.com/project/lunacy)
 
 ![Select an object and see its properties](public/localization_find_crowdin_project.png)
 
