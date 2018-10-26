@@ -33,14 +33,15 @@ Version 3 introduced the full-scale editor. We've launched it in March and dedic
 ### Features
 - Support for sketch files created in **version 52**
 - Support for reading foreign symbols
-- **Multilingual interface.**  Languages:
-- English
-- Spanish
-- Indonesian
-- Italian
-- French
-- Russian
-- Ukrainian
+- **Multilingual interface.**  
+Languages:  
+— English  
+— Spanish  
+— Indonesian  
+— Italian  
+— French  
+— Russian  
+— Ukrainian  
 ### Improvements
 - Added button **Return to Instance** symbol
 - Added ability to change and delete symbols from symbol panel
