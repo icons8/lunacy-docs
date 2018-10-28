@@ -104,6 +104,7 @@ It calls Constraints
 
 For example, when **_Fix Height_** is enabled, the height remains intact when you resize the parent vertically.
 
+{:.is-big}
 ![How constraints works](public/editing_constraints_example.png)
 
 {:.image-info}
@@ -115,6 +116,7 @@ You only see this option if you selected an object inside a group or an artboard
 
 You can rotate an object using the rotate clock. As rotation is a value measured in degrees, it can be edited via Lunacy's Inspector.
 
+{:.is-big}
 ![Rotate objects](public/editing_rotating.png)
 
 {:.image-info}
@@ -129,6 +131,7 @@ Each object on your artboard can be located on the Z-axis. You can:
 * Send objects backward (keyboard shortcut `Ctrl` `[`
 * Send an object directly to the back (keyboard shortcut `Shift` `Ctrl` `[`
 
+{:.is-big}
 ![Change Z-axis position for elements](public/editing_positioning.png)
 
 {:.image-info}
@@ -158,6 +161,7 @@ In a bar at the very top of the canvas, you will find the buttons for aligning a
 
 For some objects, like the rectangle, it’s possible to edit the shape. To activate Edit shape mode, you need to double click on the object. This option allows you to modify properties like Corner radius for a rectangle.
 
+{:.is-big}
 ![Editing shapes](public/editing_edit_shape.png)
 
 {:.image-info}
