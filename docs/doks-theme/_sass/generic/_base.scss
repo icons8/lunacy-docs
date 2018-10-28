@@ -251,6 +251,12 @@ table {
 		}
 	}
 
+	td {
+		img {
+			width: 32px;
+		}
+	}
+
 	th {
 		font-weight: 300;
 		border-bottom: 1px solid $color-table-border;
