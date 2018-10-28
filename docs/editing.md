@@ -39,7 +39,10 @@ You can select multiple objects by holding down the `Shift` key on the keyboard 
 
 ![Use the Layer List to select an object](public/editing_select_multiple_objects.png)
 
-#### Selecting Group vs. Object
+{:.image-info}
+The whole flock of sheep can be selected in the Objects list
+
+### Selecting Group vs. Object
 
 If you click on an object within a group, Lunacy selects the whole group. This is usually quite handy: You can easily move around whole components in your design.
 
@@ -49,12 +52,9 @@ Sometimes you need to choose a single object though. To do so, hold `Ctrl` when 
 
 The most common type of objects in your document will be shapes. The easiest way to add a shape is to pick one of the standard shapes from the toolbar. There is a wide variety of default shapes provided by Lunacy; these include ovals, rectangles, lines and more.
 
-[//]: # (there was a weird broken table here; I removed it  - IB)
-
-
 ## Moving
 
-#### Moving With Keyboard
+### Moving With Keyboard
 
 * Hit the arrow keys to move an object by one pixel
 * `Shift` with `←` `↑` `↓` `→` moves objects by 10 pixels
@@ -64,13 +64,13 @@ The most common type of objects in your document will be shapes. The easiest way
 * Need precision
 * Or need to move objects just a little bit (as designers, we spend 50% of our time making these small adjustments)
 
-#### Moving Horizontally and Vertically
+### Moving Horizontally and Vertically
 
 Hold `Shift` while moving an object. Lunacy will lock one of the axes and move the object either horizontally or vertically.
 
 ## Duplicating
 
-Hold `Alt` and move the object. Lunacy will create a copy. Another way to create a copy, is by pressing `Ctrl` `D`.
+Hold `Alt` and move the object. Lunacy will create a copy. Another way to create a copy, is by pressing `Ctrl` `D`
 
 ## Grouping
 
@@ -80,7 +80,8 @@ Designers use grouping a lot. One can even say that designers turn their documen
 
 ![Grouping objects](public/editing_grouping.png)
 
-
+{:.image-info}
+Designers use grouping a lot
 
 ## Resizing
 
@@ -88,22 +89,24 @@ Each object in Lunacy has eight handles that become visible when you select obje
 
 ![Resize objects](public/editing_resizing.png)
 
+{:.image-info}
+Use handles to resize in any direction
 
-[//]: # (this piece must go somewhere else - ib)
-
-[//]: # (Using Lunacy it's possible to view properties of objects. You need to select an object to see it’s properties in the right panel.)
-
-[//]: # (this resizing option is called somehow else - ib)
-
-### Notice the Resizing option.
+### Notice the Group Resizing Option.
 
 Imagine you've got an object inside a group. When you resize this group, how the object should behave? Should it resize or stay locked?
 
-![Resize objects](public/editing_constraints.png)
+![Resize groups](public/editing_constraints.png)
+
+{:.image-info}
+It calls Constraints
 
 For example, when **_Fix Height_** is enabled, the height remains intact when you resize the parent vertically.
 
-![Resizing control in Inspector](public/editing_constraints_example.png)
+![How constraints works](public/editing_constraints_example.png)
+
+{:.image-info}
+Note how in the second group the sun is still at his position, even after group resizing
 
 You only see this option if you selected an object inside a group or an artboard.
 
@@ -112,6 +115,9 @@ You only see this option if you selected an object inside a group or an artboard
 You can rotate an object using the rotate clock. As rotation is a value measured in degrees, it can be edited via Lunacy's Inspector.
 
 ![Rotate objects](public/editing_rotating.png)
+
+{:.image-info}
+You Spin Me Round!
 
 
 ## Z-Axis Position
@@ -124,6 +130,9 @@ Each object on your artboard can be located on the Z-axis. You can:
 
 ![Change Z-axis position for elements](public/editing_positioning.png)
 
+{:.image-info}
+Also, you can use the power of contextual menu, for moving objects on the Z-axis
+
 ## Align and Distribute
 
 In a bar at the very top of the canvas, you will find the buttons for aligning and distributing objects. These buttons will become active when you have more than one object selected.
@@ -132,10 +141,14 @@ In a bar at the very top of the canvas, you will find the buttons for aligning a
 
 | Button | Action | Shortcut |
 |---|---|---|---|---|
-| ![Flip an object horizontally](public/mAz4bmww76HilrhUizdqvw_img_32.png) | Flip horizontally | `Ctrl` `←`, `Ctrl` `→` |
-|  ![Flip an object vertically](public/mAz4bmww76HilrhUizdqvw_img_33.png) | Flip vertically | `Ctrl``↓`, `Ctrl``↑` |
-| ![Align an object](public/mAz4bmww76HilrhUizdqvw_img_34.png) | Align | None |
-| ![Group objects](public/mAz4bmww76HilrhUizdqvw_img_35.png) |Group| `Ctrl` `G` |
+| ![Align left](public/editing_align_left.png) | Align left | `Shift` `Ctrl` `←` |
+| ![Center vertically](public/editing_align_center_v.png) | Center vertically | `Shift` `Ctrl` `-` |
+| ![Align right](public/editing_align_right.png) | Align right | `Shift` `Ctrl` `→` |
+| ![Align top](public/editing_align_top.png) | Align top | `Shift` `Ctrl` `↑` |
+| ![Center horizontally](public/editing_align_center_h.png) | Center horizontally | `Shift` `Ctrl` `|` |
+| ![Align bottom](public/editing_align_bottom.png) | Align bottom | `Shift` `Ctrl` `↓` |
+| ![Distribute horizontally](public/editing_distribute_horizontally.png) | Distribute horizontally | `Shift` `Ctrl` `H` |
+| ![Distribute vertically](public/editing_distribute_vertically.png) | Distribute vertically | `Shift` `Ctrl` `V` |
 
 
 
@@ -145,3 +158,6 @@ In a bar at the very top of the canvas, you will find the buttons for aligning a
 For some objects, like the rectangle, it’s possible to edit the shape. To activate Edit shape mode, you need to double click on the object. This option allows you to modify properties like Corner radius for a rectangle.
 
 ![Editing shapes](public/editing_edit_shape.png)
+
+{:.image-info}
+Select and edit vector points of the shape

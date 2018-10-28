@@ -28,9 +28,36 @@ We release Lunacy once in two week. Take part! Vote for the next features.
 
 Version 3 introduced the full-scale editor. We've launched it in March and dedicated the following month fixing the bugs, improving the performance, and developing the remaining features such as gradients.
 
+# 3.13
+
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.13.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.13.zip)
+
+### Features
+- Support for sketch files created in **version 52**
+- Support for reading foreign symbols
+- **Multilingual interface.**  
+Languages:  
+— English  
+— Spanish  
+— Indonesian  
+— Italian  
+— French  
+— Russian  
+— Ukrainian    
+**[Help us improve the translation of Lunacy for other languages](http://docs.icons8.com/localization/)**  
+### Improvements
+- Added button **Return to Instance** symbol
+- Added ability to change and delete symbols from symbol panel
+### Bug Fixes
+- Fixed crash of the application when the test blocks are deselected
+- Fixed text alignment in text blocks when building lists
+- Fixed crash when removing Symbols
+- Fixed a bug when applying the Blur effect when the Stroke effect is active.
+- Fixed display of a set of effects in the inspector when selecting several dissimilar objects
+
 ## 3.12
 
-Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip)
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip)
 
 ### Features
 - Added ability to work with **Symbols** (beta)
