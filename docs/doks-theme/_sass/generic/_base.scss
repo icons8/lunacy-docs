@@ -115,6 +115,11 @@ p {
 		font-size: 18px;
 		line-height: 32px;
 	}
+	&.is-big{
+		img{
+			max-width: 100%;
+		}
+	}
 }
 
 /* ----- Hyperlinks ----- */
@@ -144,11 +149,6 @@ img {
 	max-width: 70%;
 	height: auto;
 	vertical-align: top;
-	&.is-big{
-		img{
-			max-width: 100%;
-		}
-	}
 }
 
 /* ----- Horizontal rules ----- */
