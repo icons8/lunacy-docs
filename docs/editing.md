@@ -28,7 +28,6 @@ page_nav:
 
 Selecting objects in Lunacy is easy: You just click on an object in your canvas. Once the object is selected, you should see eight little handles along its outline; one in each corner and one in the center of each edge.
 
-{:.is-big}
 ![Select an object and see its properties](public/editing_select_single_object.png)
 
 {:.image-info}
@@ -38,6 +37,7 @@ Alternatively, you can use the Layer list to select an object. Clicking an objec
 
 You can select multiple objects by holding down the `Shift` key on the keyboard and clicking on other objects.
 
+{:.is-big}
 ![Use the Layer List to select an object](public/editing_select_multiple_objects.png)
 
 {:.image-info}
