@@ -144,6 +144,9 @@ img {
 	max-width: 70%;
 	height: auto;
 	vertical-align: top;
+	&.is-big{
+		max-width: 100%;
+	}
 }
 
 /* ----- Horizontal rules ----- */
