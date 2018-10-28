@@ -244,10 +244,14 @@ table {
 	th, td {
 		border-bottom: 1px solid $color-table-border;
 		vertical-align: middle;
-		padding: .625rem .9375rem;
+		padding: 6px;
 
 		@media (min-width: $screen-sm-min) {
-			padding: .8125rem 1.25rem;
+			padding: 16px 12px;
+		}
+
+		@media (min-width: $screen-lg-min){
+			padding: 22px 1.25rem;
 		}
 	}
 
