@@ -21,7 +21,7 @@ page_nav:
 
 
 
-We release Lunacy once in two week. Take part! Vote for the next features.
+We release new version of Lunacy once per two weeks. Take part! Vote for the next features.
 
 
 # Version 3
