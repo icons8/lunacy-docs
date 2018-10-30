@@ -26,7 +26,7 @@ We release new version of Lunacy once per two weeks. Take part! Vote for the nex
 
 # Version 3
 
-One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us another month to actually make it complete. During this month our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, etc.
+One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us a few months to actually make it more or less complete. During these months of work, our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, guidelines, etc.
 
 # 3.13
 
@@ -51,8 +51,8 @@ Languages:
 ### Bug Fixes
 - Fixed app crash bug caused by deselecting test blocks
 - Fixed a bug related to text alignment in text blocks caused by building lists
-- Fixed app crash bug caused by removing Symbols
-- Fixed a bug related to applying the Blur effect while the Stroke effect is active
+- Fixed app crash bug caused by removing symbols
+- Fixed a bug related to applying the blur effect while the stroke effect is active
 - Fixed a bug related to displaying a set of effects in the inspector while selecting several dissimilar objects
 
 ## 3.12
@@ -99,8 +99,8 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ### Features
 
-- Dash patterns option for lines and borders is added
-- Social media section to artboard presets is added
+- Added dash patterns option for lines and borders
+- Added social media section to artboard presets
 
 ### Bug Fixes
 
@@ -112,11 +112,11 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ### Improvements
 
-- Lunacy to Reaper interaction format changed
-- Now you can change object size symmetrically with Alt key pressed
-- Resize thumbs visibility changed depending on selection bounds size and viewport zoom
-- Now it's possible to change styles and type text at the same time
-- 0.5 px snapping step for vertices in shape editing is reached
+- Improved Lunacy to Reaper interaction format
+- Improved object size manipulation. Now, you can change an object size symmetrically with Alt key pressed
+- Improved thumbs visibility. Now, resize thumbs visibility changed depending on selection bounds size and viewport zoom
+- Improved text editing functionality. Now it's possible to change styles and type text at the same time
+- Improved the precision in shape editing. A snapping step in the amount of 0.5 px for vertices in shape editing is reached
 
 
 ## 3.10
