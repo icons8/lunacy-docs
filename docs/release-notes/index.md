@@ -114,9 +114,10 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 - Lunacy to Reaper interaction format changed
 - Now you can change object size symmetrically with Alt key pressed
-- Resize thumbs visibility changed depend on selection bounds size and viewport zoom
+- Resize thumbs visibility changed depending on selection bounds size and viewport zoom
 - Now it's possible to change styles and type text at the same time
-- 0.5px snapping step for vertexes in shape editing
+- 0.5 px snapping step for vertices in shape editing is reached
+
 
 ## 3.10
 
@@ -124,35 +125,38 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ### Features
 
-- Autoresize added for text
-- Strikethrough text option added
-- Added Report a bug feature to the menu
-- Import .svg files with the Image Tool
-- Scrollbars added to the workspace
-- Create the new window for the new document when the current document was changed
+-  Text auto-resize is added
+- Strikethrough text option is added
+- Report a bug feature is added to the menu
+- Ability to import .svg files with the use of Image Tool is added
+- Scrollbars function is added to the workspace
+- Added ability to create new window for the new document while the current document is been changing
+
 
 ### Bug Fixes
 
-- Fixed bugs in displaying the content of .sketch files
-- Fixed the order and position of the elements after copying/pasting when using keyboard shortcuts, context menu, duplication
-- When opening the gradients in the color picker now the first slider is active 
-- The behavior of the rounding radius on rectangles changed: it does not decrease when the size of the figure decreases
-- Fixed Undo-Redo for Send Backward/Send to back operations
-- Fixed Undo-Redo for creating artboards from templates 
-- Fixed the bug when the app was crashing if exported file names contained inappropriate elements: symbols, quotes, slashes, etc.
-- Fixed the bug when the order of elements was broken when grouping the objects
-- The input field for the roundings of the corners now doesn’t disappear if not all of the corners have the same value
+- Fixed bugs associated with displaying content of .sketch files
+- Fixed the order and position of the elements after copying/pasting while using keyboard shortcuts, context menu and - - -duplication
+- Now after opening the gradients in the color picker the first slider is active
+- The behavior of the rounding radius on rectangles has been changed: it does not decrease anymore while size of a figure is -decreasing
+- Fixed Undo-Redo function for Send Backward/Send to back operations
+- Fixed Undo-Redo function for creating artboards from templates
+- Fixed the bug associated with the app crashing in the case when exported file names contained inappropriate elements: symbols, quotes, slashes, etc.
+- Fixed the bug related to the case when the order of elements was broken while grouping objects
+- Now the input field for the roundings of the corners doesn’t disappear in case if not all of the corners have the same value
 - Added Undo-Redo for the corner-radius changes
 - Removed unnecessary files generated in AppData folder
 
+
 ### Improvements
 
-- Typography panel changed
-- Added the license information (EULA) and Privacy policy to the About window
-- Slightly changed the design of the menu and the About window
-- The export panel redesigned, the export options now are all in one place
+- Typography panel has changed
+- Added license agreement (EULA) and Privacy policy to the About window
+- Added minor changes to the design of the menu and the About window
+- The export panel has been redesigned: all the export options are located in the same place now
 - Color picker redesigned to be more compact
-- Now you can change the size of expanded pages panel
+- Expanded pages panel has been changed: now its size can be changed
+
 
 ## 3.9.1 Hotfix
 
@@ -160,8 +164,9 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ### Bug Fixes
 
-- Space key is not working in text edit mode
-- Scaling issue of resizing thumbs
+- Space key malfunctioning in text edit mode has been fixed
+- Scaling issue of resizing thumbs has been fixed
+
 
 ## 3.9
 
@@ -172,26 +177,29 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 - Shadow spread support
 - Double click to zoom tool button sets zoom to 100%
 - Each object now highlights by a separate frame when several objects are selected
-- Now you can reset the image to its original size with the link on the right panel
+- Now you can reset an image to its original size with the link on the right panel
 - Letter spacing and paragraph spacing support in text blocks
+
 
 ### Bug Fixes
 
-- Several bugs in the text editor fixed
-- Text style and weight change error
-- Color picker closing bug
-- Duplicated font names are removed in dropdown list
-- Selection frame was disappearing after opening some sketch files
-- Undo/redo for multiple selected objects worked wrong on when moving by arrow keys
-- Sticking in scroll mode
-- Minor bug fixes
+- Several bugs in the text editor have been fixed
+- Text style and weight change error have been resolved
+- Color picker closing bug have been fixed
+- Duplicated font names are transferred in dropdown list
+- Selection frame disappearing after opening some sketch files have been resolved
+- Fixed bug related to the malfunctioning of undo/redo for multiple selected objects while moving by arrow keys
+- Sticking in scroll mode have been fixed
+- Minor bugs have been fixed
+
 
 ### Improvements
 
-- Better support for text blocks in sketch file
+- Better support for text blocks in sketch files have been achieved
 - Initial window size now is being changed depending on screen scale and size
-- Snapping support for objects outside of artboards
-- Image overrides and opacity support for symbol objects
+- Snapping support for objects outside of artboards have been introduced
+- Image overrides and opacity support for symbol objects have been added
+
 
 ## 3.8
 
@@ -204,16 +212,16 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 ![Vector tool](Images/VectorTool.png)
 
 - [Help!](https://docs.icons8.com) 
-- Symbols: we started saving the symbols! If you open a file and there're some symbols, Lunacy preserves these symbols on saving. Expect the complete support of symbols in the next release.
-- You can add, delete, and rename the pages now. 
-- Vertical align for text
-- We fully support lowercase and UPPERCASE parameters in the .sketch files now (before, we were reading, but not saving them) 
-- The objects on an artboard have the constraints now (we only had it for the groups before)
-- The artboards have the "Adjust content on resize" setting now. When enabled, the objects move; if not, crop.
+- Symbols: we’ve just started to provide the basic functionality for saving symbols in output files! Expect the extended set of operations with symbols in the upcoming releases.
+- Added functionality to add, delete, and rename pages.
+- Added vertical alignment for text
+- Lowercase and UPPERCASE parameters are now fully supported in the .sketch files now (in previous version there was ability to read, but not to save them)
+- Added constraints for the objects on an artboard (in previous version these constraints could only be applied to groups)
+- Introduced new setting to artboards named as "Adjust content on resize". When enabled, objects could be moved; otherwise - cropped.
 
 ### Bug Fixes
 
-- Horizontal scroll! Sorry for breaking it in the last release.
+- Horizontal scroll is fixed! Sorry for breaking it in the last release.
 - If an object partially crosses an artboard, it's nested in the artboard now
 - Uploading to the cloud fixed
 - Crash fixed when an object had the dimensions of less than 1 px
