@@ -235,7 +235,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.7.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.7.zip)
 
 ### New Features
-
+ 
 - You can rearrange the gradient stops now
 - Corner radius thumbs for rectangles
 - Text transformation support: upper case, lower case, normal
