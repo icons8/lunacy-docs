@@ -26,7 +26,7 @@ We release Lunacy once in two week. Take part! Vote for the next features.
 
 # Version 3
 
-Version 3 introduced the full-scale editor. We've launched it in March and dedicated the following month fixing the bugs, improving the performance, and developing the remaining features such as gradients.
+One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us another month to actually make it complete. During this month our team efforts were focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, etc.
 
 # 3.13
 
@@ -49,11 +49,11 @@ Languages:
 - Added button **Return to Instance** symbol
 - Added ability to change and delete symbols from symbol panel
 ### Bug Fixes
-- Fixed crash of the application when the test blocks are deselected
-- Fixed text alignment in text blocks when building lists
-- Fixed crash when removing Symbols
-- Fixed a bug when applying the Blur effect when the Stroke effect is active.
-- Fixed display of a set of effects in the inspector when selecting several dissimilar objects
+- Fixed app crash bug caused by deselecting test blocks
+- Fixed the bug related to text alignment in text blocks caused by building lists
+- Fixed app crash bug caused by removing Symbols
+- Fixed a bug related to applying the Blur effect while the Stroke effect is active
+- Fixed a bug related to displaying a set of effects in the inspector while selecting several dissimilar objects
 
 ## 3.12
 
