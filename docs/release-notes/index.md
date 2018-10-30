@@ -33,8 +33,8 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.13.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.13.zip)
 
 ### Features
-- Support for sketch files created in **version 52**
-- Support for reading foreign symbols
+- Added support for sketch files created in **version 52**
+- Added support for reading foreign symbols
 - **Multilingual interface.**  
 Languages:  
 — English  
@@ -46,11 +46,11 @@ Languages:
 — Ukrainian    
 **[Help us improve the translation of Lunacy for other languages](http://docs.icons8.com/localization/)**  
 ### Improvements
-- Added button **Return to Instance** symbol
-- Added ability to change and delete symbols from symbol panel
+- Added **Return to Instance** symbol button 
+- Added functionality to change and delete symbols from symbols panel
 ### Bug Fixes
 - Fixed app crash bug caused by deselecting test blocks
-- Fixed the bug related to text alignment in text blocks caused by building lists
+- Fixed a bug related to text alignment in text blocks caused by building lists
 - Fixed app crash bug caused by removing Symbols
 - Fixed a bug related to applying the Blur effect while the Stroke effect is active
 - Fixed a bug related to displaying a set of effects in the inspector while selecting several dissimilar objects
@@ -60,19 +60,19 @@ Languages:
 Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip)
 
 ### Features
-- Added ability to work with **Symbols** (beta)
+- Added functionality to work with **Symbols** (beta)
 - Added **Override symbol** context menu item for nested symbols
-- Added ability to build **Lists in text**
+- Added functionality to build **Lists in text**
 - Added **Fill** and **Stroke** effects for text
 - Added **Interal Shadow** effect
 - Added **Guidelines**
 
 ### Improvements
 
-- Added the ability **to enter text** into a text block of such languages as: Japanese, Chinese, Korean
+- Added functionality **to enter text** into a text block of such languages as: Japanese, Chinese, Korean
 - Improved performance of Undo / Redo operations
 - Accelerated processing of large images
-- Automatic hide of the left panel
+- Added automatic hide of the left panel
 - Improved navigation. Now, when an item is selected in the tree, arrow buttons there is a capability to move selected item within working area rather that navigating along the tree.
 - Improved saving experience. A progress ring animation is displayed now while saving files
 - Font size can be changed now by 10 with Shift pressed
@@ -84,7 +84,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 ### Bug Fixes
 
 - Fixed bugs related to duplication and dragging objects
-- Now, color preview in borders displays gradients (there used to be only solid color of the first stop)
+- Fixed color preview in borderes. Now, color preview in borders displays gradients instead of displaying solid color of the first stop as it was before
 - Fixed bug that caused app crash when saving an empty file in .sketch format
 - Fixed bug related to redrawing of object effects while blur effect is active
 - Fixed bug while moving objects in edit mode
@@ -99,16 +99,16 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ### Features
 
-- Dash patterns option for lines and borders added
-- Added social media section to artboard presets
+- Dash patterns option for lines and borders is added
+- Social media section to artboard presets is added
 
 ### Bug Fixes
 
-- Ability to select locked objects fixed
+- Fixed functionality to select locked objects
 - Fixed pattern fill behavior for various pattern types
-- An error happened when clicked to the locked group fixed
-- Symbol objects were converted into artboards when saved into sketch format
-- Scrollbar behavior on properties tab fixed
+- Fixed the error caused by clicking to locked group 
+- Fixed a bug related conversion of symbol objects into artboards while saving into sketch format
+- Fixed erroneous scrollbar behavior on properties tab
 
 ### Improvements
 
