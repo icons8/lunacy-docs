@@ -125,37 +125,36 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ### Features
 
--  Text auto-resize is added
-- Strikethrough text option is added
-- Report a bug feature is added to the menu
-- Ability to import .svg files with the use of Image Tool is added
-- Scrollbars function is added to the workspace
+- Added auto-resize of text
+- Added strikethrough text option
+- Added report a bug feature to the menu
+- Added ability to import .svg files with the use of Image Tool
+- Added scrollbars function to the workspace
 - Added ability to create new window for the new document while the current document is been changing
-
+- Added Undo-Redo for the corner-radius changes
 
 ### Bug Fixes
 
 - Fixed bugs associated with displaying content of .sketch files
 - Fixed the order and position of the elements after copying/pasting while using keyboard shortcuts, context menu and - - -duplication
-- Now after opening the gradients in the color picker the first slider is active
-- The behavior of the rounding radius on rectangles has been changed: it does not decrease anymore while size of a figure is -decreasing
-- Fixed Undo-Redo function for Send Backward/Send to back operations
+- Fixed colour autoselection. Now, after opening the gradients in the color picker the first slider is active
+- Fixed behavior of the rounding radius on rectangles. It is not decreasing anymore while size of a figure is decreasing
+- Fixed Undo-Redo function for Send Backward/Send-to-back operations
 - Fixed Undo-Redo function for creating artboards from templates
 - Fixed the bug associated with the app crashing in the case when exported file names contained inappropriate elements: symbols, quotes, slashes, etc.
 - Fixed the bug related to the case when the order of elements was broken while grouping objects
-- Now the input field for the roundings of the corners doesn’t disappear in case if not all of the corners have the same value
-- Added Undo-Redo for the corner-radius changes
+- Fixed corners rounding behaviour. Now, the input field for the roundings of the corners doesn’t disappear in case if not all of the corners have the same value
 - Removed unnecessary files generated in AppData folder
 
 
 ### Improvements
 
-- Typography panel has changed
+- Improved functionality of typography panel
 - Added license agreement (EULA) and Privacy policy to the About window
 - Added minor changes to the design of the menu and the About window
 - The export panel has been redesigned: all the export options are located in the same place now
-- Color picker redesigned to be more compact
-- Expanded pages panel has been changed: now its size can be changed
+- Improved color picker design. Now, color picker redesigned to be more compact
+- Improved expaned panel behaviour. Now, expanded pages panel size can be changed
 
 
 ## 3.9.1 Hotfix
