@@ -163,8 +163,8 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ### Bug Fixes
 
-- Space key malfunctioning in text edit mode has been fixed
-- Scaling issue of resizing thumbs has been fixed
+- Fixed space key malfunctioning in text edit mode
+- Fixed scaling issue of resizing thumbs
 
 
 ## 3.9
@@ -173,8 +173,8 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ### Features
 
-- Shadow spread support
-- Double click to zoom tool button sets zoom to 100%
+- Added shadow spread support
+- Updated behavior of zoom tool. Now, double click to zoom tool button sets zoom to 100%
 - Each object now highlights by a separate frame when several objects are selected
 - Now you can reset an image to its original size with the link on the right panel
 - Letter spacing and paragraph spacing support in text blocks
