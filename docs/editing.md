@@ -126,8 +126,8 @@ You Spin Me Round!
 ## Z-Axis Position
 
 Each object on your artboard can be located on the Z-axis. You can:
-* Bring objects forward (keyboard shortcut `Ctrl` `J`
-* Bring it to the front (keyboard shortcut `Shift` `Ctrl` `J`
+* Bring objects forward (keyboard shortcut `Ctrl` `]`
+* Bring it to the front (keyboard shortcut `Shift` `Ctrl` `]`
 * Send objects backward (keyboard shortcut `Ctrl` `[`
 * Send an object directly to the back (keyboard shortcut `Shift` `Ctrl` `[`
 
