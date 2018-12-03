@@ -38,7 +38,7 @@ Alternatively, you can use the Layer list to select an object. Clicking an objec
 You can select multiple objects by holding down the `Shift` key on the keyboard and clicking on other objects.
 
 {:.is-big}
-![Use the Layer List to select an object](public/editing_select_multiple_objects.png)
+![Use the Layer List to select an object](public/editing_select_multiple_objects.gif)
 
 {:.image-info}
 The whole flock of sheep can be selected in the Objects list
