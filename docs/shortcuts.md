@@ -48,7 +48,9 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Redo |`Ctrl` `Y` or `Ctrl` `Shift` `Z` |
 | Toggle rules |`Ctrl` `R` |
 | Toggle grid |`Ctrl` `’` |
+| Toggle layout |`Ctrl` `:` |
 | Toggle left panel |`Ctrl` `T` |
+| Collapse all groups |`Ctrl` `~` |
 
 
 
@@ -111,7 +113,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Italic  |`Ctrl` `I` |
 | Increase font size |`Ctrl` `+` |
 | Decrease font size |`Ctrl` `–` |
-| Increase Character Spacing |`Ctrl` `→` |
+| Increase CharacterFocus Spacing |`Ctrl` `→` |
 | Decrease Character Spacing |`Ctrl` `←` |
 | Horizontal Align Left |`Ctrl` `Shift` `{` |
 | Horizontal Align Center |`Ctrl` `Shift` `\`| |
