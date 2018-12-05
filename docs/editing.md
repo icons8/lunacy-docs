@@ -88,7 +88,7 @@ Designers use grouping a lot
 
 Each object in Lunacy has eight handles that become visible when you select objects. Those handles don't just indicate selection; you can also use them to resize a layer. Grab any of the handles and drag them to resize an object.
 
-![Resize objects](public/editing_resizing.png)
+![Resize objects](public/editing_resizing.gif)
 
 {:.image-info}
 Use handles to resize in any direction
