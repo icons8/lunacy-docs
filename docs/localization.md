@@ -22,11 +22,13 @@ page_nav:
         url: '/shortcuts'
 ---
 
-## Editing or translating an existing localization
+## Editing or Translating an Existing Language
 
-To edit an existing localization of Lunacy, you can use the service called [Crowdin](https://crowdin.com). Sign up or log in with your account.
+To edit a language that Lunacy already supports, use a service called [Crowdin](https://crowdin.com/project/lunacy). 
 
-To find our project, use search or follow the direct link [https://crowdin.com/project/lunacy](https://crowdin.com/project/lunacy)
+1. You'll need to sign up or log in to your account.
+
+2. To find our project, use search or follow the [direct link](https://crowdin.com/project/lunacy).
 
 ![Select an object and see its properties](public/localization_find_crowdin_project.png)
 
@@ -40,6 +42,6 @@ We also provided every value with a screenshot that shows where the text you wor
 
 ![Select an object and see its properties](public/localization_crowdin_screenshot_link.png)
 
-## Adding a new language of localization
+## Adding a New Language
 
 If you want to add a localization language to Lunacy but it isn’t found in the Crowdin service, inform us via lunacy@icons8.com, and we will add it to Сrowdin, and after its localization, it will be included to the next release of Lunacy.
