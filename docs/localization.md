@@ -22,9 +22,11 @@ page_nav:
         url: '/shortcuts'
 ---
 
-## Editing or Translating an Existing Language
+## Improving an Existing Language
 
-To edit a language that Lunacy already supports, use a service called [Crowdin](https://crowdin.com/project/lunacy). 
+Some of our translations are bad. And some are missing, especially for the new features.
+
+To help us improve, use a service called [Crowdin](https://crowdin.com/project/lunacy). 
 
 1. You'll need to sign up or log in to your account.
 
