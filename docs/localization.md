@@ -32,16 +32,16 @@ To edit a language that Lunacy already supports, use a service called [Crowdin](
 
 ![Select an object and see its properties](public/localization_find_crowdin_project.png)
 
-Use the language of localization which you want to edit or help to localize.
+3. Choose the language which you want to edit or translate.
 
-Use the search for quick navigation to the necessary value.
+4. Search for a string in question.
 
 ![Select an object and see its properties](public/localization_crowdin_search.png)
 
-We also provided every value with a screenshot that shows where the text you work on can be found in the interface.
+5. Useful: there are the screenshots that show where this string is located.
 
 ![Select an object and see its properties](public/localization_crowdin_screenshot_link.png)
 
 ## Adding a New Language
 
-If you want to add a localization language to Lunacy but it isn’t found in the Crowdin service, inform us via lunacy@icons8.com, and we will add it to Сrowdin, and after its localization, it will be included to the next release of Lunacy.
+If you want to add a new language but it's not in our Crowdin project, drop us an email to lunacy@icons8.com. We will add it to Сrowdin; after we're done with translation, we'll include it in the next release of Lunacy.
