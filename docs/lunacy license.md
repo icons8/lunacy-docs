@@ -15,7 +15,7 @@ This EULA agreement shall apply only to the Software supplied by Icons8 LLC here
 
 ## License Grant
 
-Icons8 LLC hereby grants you a personal, non-transferable, non-exclusive licence to use the Lunacy software on your devices in accordance with the terms of this EULA agreement.
+Icons8 LLC hereby grants you a personal, non-transferable, non-exclusive licence to use the Lunacy software on your devices in accordance with the terms of this EULA agreement. You can use the Lunacy software for your personal or commercial projects.
 
 You are permitted to load the Lunacy software (for example a PC, laptop, mobile or tablet) under your control. You are responsible for ensuring your device meets the minimum requirements of the Lunacy software.
 
