@@ -34,7 +34,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 - The **Grids** is configured for the workspace and for the artboard separately
 - **Layouts**
 - **Automatic font switching** for text block when typing languages (Chinese, Korean, Japanese, etc.)
-- Presentation mode **Ctrl + .**
+- Presentation mode **(Ctrl + .)**
 - The ability to apply effects to images
 - The ability **copy / paste layer style**
 ### Improvements
@@ -42,7 +42,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 - Correct display of Japanese, Chinese, Korean characters in artboard title
 - Improved Symbols items behavior when the size of the left panel changes
 - Reduced ruler size
-- Added the ability to collapse all items in the tree **Ctrl + ~**
+- Added the ability to collapse all items in the tree **(Ctrl + ~)**
 - When copying objects via Alt, the distance between the copied object and the original
 - When building lists, the text ignores the creation of a marker when moving to the next line if Shift or Ctrl is pressed
 - The ruler adapts to the selected objects
