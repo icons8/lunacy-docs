@@ -32,7 +32,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 
 ### Features
 - The **Grids** is configured for the workspace and for the artboard separately
-- **Layouts**
+- **Layouts** for artboards
 - **Automatic font switching** for text block when typing languages (Chinese, Korean, Japanese, etc.)
 - Presentation mode **(Ctrl + .)**
 - The ability to **apply effects to images**
