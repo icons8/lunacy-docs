@@ -35,7 +35,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 - **Layouts**
 - **Automatic font switching** for text block when typing languages (Chinese, Korean, Japanese, etc.)
 - Presentation mode **(Ctrl + .)**
-- The ability to apply effects to images
+- The ability to **apply effects to images**
 - The ability **copy / paste layer style**
 ### Improvements
 - Improved **export to XAML**
@@ -64,6 +64,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 - Fixed errors with the selection of objects
 - Fixed errors with duplication of objects through Alt
 - Fixed errors in the guidelines
+- And many other fixes
 
 *The ability to save to the .lunacy format is disabled. No further support is planned for this format. You will be able to open .luancy format and resave it to the .sketch format.*
 
