@@ -31,7 +31,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 # 3.14
 
 ### Features
-- The **Grids* is configured for the workspace and for the artboard separately
+- The **Grids** is configured for the workspace and for the artboard separately
 - **Layouts**
 - **Automatic font switching** for text block when typing languages (Chinese, Korean, Japanese, etc.)
 - Presentation mode **Ctrl + .**
