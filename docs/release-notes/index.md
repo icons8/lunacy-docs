@@ -29,6 +29,53 @@ We release new version of Lunacy once per two weeks. Take part! Vote for the nex
 One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us a few months to actually make it more or less complete. During these months of work, our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, guidelines, etc.
 
 
+# 3.14
+
+### Features
+- The **Grids** is configured for the [workspace](https://a.icons8.com/2TdZnnJc/6Wy1Kf/image.png) and for [artboard separately](https://a.icons8.com/cjiWecVu/1MMsGf/image.png)
+- [**Layouts**](https://a.icons8.com/inMb0Spa/EB0kao/image.png) for artboards
+- **Automatic font switching** for text block when typing languages (Chinese, Korean, Japanese, etc.)
+- [Presentation mode](https://a.icons8.com/inMb0Spa/mzb96T/image.png) **(Ctrl + .)**
+- The ability to [**apply effects to images**](https://a.icons8.com/2TdZnnJc/B9ouCF/image.png)
+- The ability [**copy / paste layer style**](https://a.icons8.com/oVWbeead/xEzCR0/image.png)
+- Interface languages added:  
+— Portuguese  
+— Chinese  
+— Deutsch  
+— Japanese  
+— Polish  
+### Improvements
+- Improved **export to XAML**
+- Correct display of Japanese, Chinese, Korean characters in artboard title
+- Improved Symbols items behavior when the size of the left panel changes
+- Reduced ruler size
+- Added the ability to collapse all items in the tree **(Ctrl + ~)**
+- When copying objects via Alt, the distance between the copied object and the original
+- When building lists, the text ignores the creation of a marker when moving to the next line if Shift or Ctrl is pressed
+- The ruler adapts to the selected objects
+- Added the ability to move guides using the arrows on the keyboard
+- Reduced opening speed of some files
+- Added the ability to use the grid in increments of 1 pixel.
+- Expanded area on the border of the artboard on which it can be selected
+- If the file is not saved in the window title, an asterisk (\*) will be displayed
+- When exporting a single object to a file, you can change the name of the file being exported.
+- The state of the left panel is remembered after the application is closed
+### Bug Fixes
+- Fixed multiple bugs for working with text
+- Fixed errors when opening many sketch files
+- Fixed bugs when working with sumbols
+- Fixed bugs when working with artboards
+- Fixed errors when working with effects
+- Fixed errors when importing images
+- Fixed interface behavior error
+- Fixed errors with the selection of objects
+- Fixed errors with duplication of objects through Alt
+- Fixed errors in the guidelines
+- And many other fixes
+
+*The ability to save to the .lunacy format is disabled. No further support is planned for this format. You will be able to open .luancy format and resave it to the .sketch format.*
+
+
 ## 3.13
 
 Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.13.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.13.zip)
