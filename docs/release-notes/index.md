@@ -21,9 +21,6 @@ page_nav:
 
 
 
-We release new version of Lunacy once per two weeks. Take part! Vote for the next features.
-
-
 # Version 3
 
 One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us a few months to actually make it more or less complete. During these months of work, our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, guidelines, etc.
