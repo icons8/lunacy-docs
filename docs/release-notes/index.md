@@ -46,7 +46,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 — Polish  
 ### Improvements
 - Improved **export to XAML**
-- Correct display of Japanese, Chinese, Korean characters in artboard title
+- Corrected display of Japanese, Chinese, Korean characters in artboard title
 - Improved Symbols items behavior when the size of the left panel changes
 - Reduced ruler size
 - Added the ability to collapse all items in the tree **(Ctrl + ~)**
@@ -71,7 +71,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 - Fixed errors with the selection of objects
 - Fixed errors with duplication of objects through Alt
 - Fixed errors in the guidelines
-- And many other fixes
+- And many other minor bugs are fixed
 
 *The ability to save to the .lunacy format is disabled. No further support is planned for this format. You will be able to open .luancy format and resave it to the .sketch format.*
 
