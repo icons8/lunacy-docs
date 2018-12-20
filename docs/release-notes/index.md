@@ -61,16 +61,16 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 - When exporting a single object to a file, you can change the name of the file being exported.
 - The state of the left panel is remembered after the application is closed
 ### Bug Fixes
-- Fixed multiple bugs for working with text
+- Fixed most errors of working with text
 - Fixed errors when opening many sketch files
-- Fixed bugs when working with sumbols
-- Fixed bugs when working with artboards
-- Fixed errors when working with effects
-- Fixed errors when importing images
+- Fixed most errors of working with sumbols
+- Fixed most errors of working with artboards
+- Fixed most errors of working with effects
+- Fixed most errors of importing images
 - Fixed interface behavior error
-- Fixed errors with the selection of objects
-- Fixed errors with duplication of objects through Alt
-- Fixed errors in the guidelines
+- Fixed most errors with selection of objects
+- Fixed most errors with duplication of objects through Alt
+- Fixed most errors of working with guidelines
 - And many other minor bugs are fixed
 
 *The ability to save to the .lunacy format is disabled. No further support is planned for this format. You will be able to open .luancy format and resave it to the .sketch format.*
