@@ -29,7 +29,7 @@ We release new version of Lunacy once per two weeks. Take part! Vote for the nex
 One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us a few months to actually make it more or less complete. During these months of work, our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, guidelines, etc.
 
 
-# 3.13
+## 3.13
 
 Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.13.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.13.zip)
 
