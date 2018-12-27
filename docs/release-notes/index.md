@@ -36,7 +36,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 - **Automatic font switching** for text block when typing languages (Chinese, Korean, Japanese, etc.)
 - [Presentation mode](https://a.icons8.com/inMb0Spa/mzb96T/image.png) **(Ctrl + .)**
 - The ability to [**apply effects to images**](https://a.icons8.com/2TdZnnJc/B9ouCF/image.png)
-- The ability [**copy / paste layer style**](https://a.icons8.com/oVWbeead/xEzCR0/image.png)
+- The ability to [**copy / paste layer style**](https://a.icons8.com/oVWbeead/xEzCR0/image.png)
 - Interface languages added:  
 — Portuguese  
 — Chinese  
@@ -46,23 +46,23 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 ### Improvements
 - Improved **export to XAML**
 - Corrected display of Japanese, Chinese, Korean characters in artboard title
-- Improved Symbols items behavior when the size of the left panel changes
+- Improved Symbols items behavior when the size of the left panel is changing
 - Reduced ruler size
 - Added the ability to collapse all items in the tree **(Ctrl + ~)**
-- When copying objects via Alt, the distance between the copied object and the original
-- When building lists, the text ignores the creation of a marker when moving to the next line if Shift or Ctrl is pressed
+- The distance between the original object and its copy is displayed while copying the object with Alt pressed 
+- List building behavior changed. Creation of a marker is ignored when moving to the next line with Shift or Ctrl pressed
 - The ruler adapts to the selected objects
 - Added the ability to move guides using the arrows on the keyboard
-- Reduced opening speed of some files
+- Optimized opening speed of some files
 - Added the ability to use the grid in increments of 1 pixel.
 - Expanded area on the border of the artboard on which it can be selected
-- If the file is not saved in the window title, an asterisk (\*) will be displayed
+- If a file is not saved in the window title, an asterisk (\*) will be displayed
 - When exporting a single object to a file, you can change the name of the file being exported.
 - The state of the left panel is remembered after the application is closed
 ### Bug Fixes
 - Fixed most errors of working with text
 - Fixed errors when opening many sketch files
-- Fixed most errors of working with sumbols
+- Fixed most errors of working with symbols
 - Fixed most errors of working with artboards
 - Fixed most errors of working with effects
 - Fixed most errors of importing images
