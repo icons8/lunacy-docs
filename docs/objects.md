@@ -145,6 +145,7 @@ Image tool will help you to insert bitmap graphic into your designs
 
 The masks (keyboard shortcut `Ctrl` `M`) in Lunacy are used to show parts of objects selectively.. For example, masking two overlapping ovals gives you an oval image.
 
+{:.is-big}
 ![How masks works](public/objects_masks.png)
 
 {:.image-info}
