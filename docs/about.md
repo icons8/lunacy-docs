@@ -22,10 +22,10 @@ page_nav:
 
 ## Speed Art Video
 
-Here's a review of all the features with the features that one uses on a typical project. Music credits: [Young Ferry](https://icons8.com/music/author/yung-ferry) from [Fugue Music](https://icons8.com/music).
+Here's a review of all the features with the features that one uses on a typical project. 
 
 <iframe width="739" height="416" src="https://www.youtube.com/embed/7E_3ZZhHeoQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+Music credits: [Young Ferry](https://icons8.com/music/author/yung-ferry) from [Fugue Music](https://icons8.com/music)
 
 ## Features
 
