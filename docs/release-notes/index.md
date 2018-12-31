@@ -30,8 +30,6 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 
 Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.14.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.14.zip)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a6X0qtjpZiI?start=53" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Features
 - The **Grids** is configured for the [workspace](https://a.icons8.com/2TdZnnJc/6Wy1Kf/image.png) and for [artboard separately](https://a.icons8.com/cjiWecVu/1MMsGf/image.png)
 - [**Layouts**](https://a.icons8.com/inMb0Spa/EB0kao/image.png) for artboards
@@ -75,6 +73,9 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 - And many other minor bugs are fixed
 
 *The ability to save to the .lunacy format is disabled. No further support is planned for this format. You will be able to open .luancy format and resave it to the .sketch format.*
+
+Here's the fantastic review of our features. A designer called Kavin Prasath recorded a review of the features that we've introduced in the last 7 months:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a6X0qtjpZiI?start=53" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## 3.13
