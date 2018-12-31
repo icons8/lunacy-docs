@@ -50,9 +50,10 @@ This is important, as Sketch completely changed the format in version 43, and ke
 
 #### Save .sketch Files
 
-We save the files in .sketch format while preserving the original structure: naming, groups, and IDs.
+We save the files in .sketch format while preserving the original structure: naming, groups, IDs. 
 
-As of version 3.7, _Lunacy doesn't fully support the symbols_. We save the symbols as generic groups, meaning that your designs will look the same, but updating a symbol won’t affect its instances.
+Lunacy fully supports the symbols (creating, updating the instances, redefines). As of December 2018, we read the symbol libraries, but not save them yet.
+
 
 #### Tools, Objects, and Properties
 
