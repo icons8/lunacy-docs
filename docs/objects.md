@@ -72,7 +72,8 @@ Let’s review some of these tools in more detail.
 
 You can add text by choosing the Text tool from the Shapes and Objects toolbar (or press `T`). The pointer changes to the Text Input tool icon and then you can click anywhere in the Canvas to insert your text layer at that point. When you click on a canvas, a new text layer will be inserted with a “Type something” placeholder, ready for you to add your text.
 
-![Chaning font properties](public/objects_adding_text.png)
+{:.is-big}
+![Adding text](public/objects_adding_text.png)
 
 {:.image-info}
 Text tool in action
@@ -86,6 +87,7 @@ When you have a text layer selected you will notice that the Inspector changes t
 * Line spacing
 * Alignment options
 
+{:.is-big}
 ![Chaning font properties](public/objects_editing_text.png)
 
 {:.image-info}
@@ -113,7 +115,8 @@ In Lunacy, you only have to replace the font once throughout the entire document
 
 If you need a square, choose the Rectangle tool and hold `Shift` while drawing. You easily can create other primitives as well.
 
-![Chaning font properties](public/objects_adding_primitives.png)
+{:.is-big}
+![Adding primitives](public/objects_adding_primitives.png)
 
 {:.image-info}
 Basic primitive objects
@@ -122,7 +125,8 @@ Basic primitive objects
 
 Bitmaps, or images are one of the object types that are supported in Lunacy. Bitmaps, (or raster) images are made up of pixels; those images can take many forms, such as screenshots or photographs. Lunacy supports all the most common image formats, like PNG, JPG, JPEG.
 
-![Chaning font properties](public/objects_bitmaps.png)
+{:.is-big}
+![Adding bitmaps](public/objects_bitmaps.png)
 
 {:.image-info}
 Image tool will help you to insert bitmap graphic into your designs
@@ -131,6 +135,7 @@ Image tool will help you to insert bitmap graphic into your designs
 
 When designing user interfaces, one of the most common tasks is creating avatars. This time consuming process is easy with Lunacy, as it has a tool specifically for this. The avatar tool lets you create them in one click.
 
+{:.is-big}
 ![Create an avatar in one click](public/objects_avatars.png)
 
 {:.image-info}
@@ -140,7 +145,7 @@ Image tool will help you to insert bitmap graphic into your designs
 
 The masks (keyboard shortcut `Ctrl` `M`) in Lunacy are used to show parts of objects selectively.. For example, masking two overlapping ovals gives you an oval image.
 
-![Image before masking](public/objects_masks.png)
+![How masks works](public/objects_masks.png)
 
 {:.image-info}
 Masking objects
