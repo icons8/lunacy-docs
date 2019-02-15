@@ -116,7 +116,7 @@ In Lunacy, you only have to replace the font once throughout the entire document
 If you need a square, choose the Rectangle tool and hold `Shift` while drawing. You easily can create other primitives as well.
 
 {:.is-big}
-![Adding primitives](public/objects_adding_primitives.png)
+![Adding primitives](public/objects_adding_primitives.gif)
 
 {:.image-info}
 Basic primitive objects
