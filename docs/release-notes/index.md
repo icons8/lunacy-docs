@@ -33,13 +33,12 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 - Added feature to [**underline**](https://a.icons8.com/acSkXaER/jVOEMz/image.png) text
 - Added font support with the [**Stretch**](https://a.icons8.com/acSkXaER/X91VbE/image.png) parameter
 - Added ability to change the transparency of objects using the keys 1-9
-- Interface languages added:  
-- Added new interface language: Turkish 
+- Added new interface language: Turkish
 
 ### Improvements
 - Added **correct line editor**
 - Updated [**Symbols panel**](https://a.icons8.com/QQhXVZYO/bAcczk/image.png) design
-- Improved [header cropping](https://a.icons8.com/TQffnlXP/0mj7cr/image.png) at Artboards
+- Improved [**header cropping**](https://a.icons8.com/TQffnlXP/0mj7cr/image.png) at Artboards
 - Added the ability to change the order of pages in the page list
 - Improved export to XAML. Exported more objects
 - Improved animation. Now when saving a file it no longer blocks the application(moved to taskbar)
