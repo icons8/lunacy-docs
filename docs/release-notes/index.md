@@ -27,6 +27,8 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 
 ## 3.15
 
+Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.2.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.2.zip)
+
 ### Features
 - Ability to add more settings for the stroke: [**Folds, Caps, Nozzles**](https://a.icons8.com/mwlQoYtb/F3iscZ/image.png)
 - Added [**acrylic effect**](https://a.icons8.com/ccYVnZUh/LiOFMS/image.png) for application Window (supported from Windows 10 1803 version)
