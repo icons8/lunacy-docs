@@ -25,6 +25,39 @@ page_nav:
 
 One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us a few months to actually make it more or less complete. During these months of work, our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, guidelines, etc.
 
+## 3.15.1
+
+### Features
+- Ability to add more settings for the stroke: [**Folds, Caps, Nozzles**](https://a.icons8.com/mwlQoYtb/F3iscZ/image.png)
+- Added [**acrylic effect**](https://a.icons8.com/ccYVnZUh/LiOFMS/image.png) for application Window (supported from Windows 10 1803 version)
+- Added feature to [**underline**](https://a.icons8.com/acSkXaER/jVOEMz/image.png) text
+- Added font support with the [**Stretch**](https://a.icons8.com/acSkXaER/X91VbE/image.png) parameter
+- Added ability to change the transparency of objects using the keys 1-9
+- Interface languages added:  
+- Added new interface language: Turkish 
+
+### Improvements
+- Added **correct line editor**
+- Updated [**Symbols panel**](https://a.icons8.com/QQhXVZYO/bAcczk/image.png) design
+- Improved [header cropping](https://a.icons8.com/TQffnlXP/0mj7cr/image.png) at Artboards
+- Added the ability to change the order of pages in the page list
+- Improved export to XAML. Exported more objects
+- Improved animation. Now when saving a file it no longer blocks the application(moved to taskbar)
+- Improved CSS builder. Now it does not display a parameter if it has a default value
+- Reduced input field sensitivity
+
+### Bug Fixes
+- Fixed fonts reading error
+- Fixed snappin
+- Fixed bugs with flip of objects
+- Fixed import of some svg files
+- Fixed most errors of working with vector tool
+- Reduced application freezing when selecting multiple objects
+- Fixed errors of working with select tool
+- Fixed rotation angle error and object visibility
+- Fixed reading of some sketch files
+- And many other bugs were fixed
+
 
 ## 3.14
 
