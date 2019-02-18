@@ -27,7 +27,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 
 ## 3.15
 
-Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.2.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.2.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.2.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.2.zip)
 
 ### Features
 - Ability to add more settings for the stroke: [**Folds, Caps, Nozzles**](https://a.icons8.com/mwlQoYtb/F3iscZ/image.png)
@@ -62,7 +62,7 @@ Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15
 
 ## 3.14
 
-Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.14.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.14.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.14.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.14.zip)
 
 ### Features
 - The **Grids** is configured for the [workspace](https://a.icons8.com/2TdZnnJc/6Wy1Kf/image.png) and for [artboard separately](https://a.icons8.com/cjiWecVu/1MMsGf/image.png)
@@ -114,7 +114,7 @@ Here's the fantastic review of our features. A designer called Kavin Prasath rec
 
 ## 3.13
 
-Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.13.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.13.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.13.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.13.zip)
 
 ### Features
 - Added support for sketch files created in **version 52**
@@ -141,7 +141,7 @@ Languages:
 
 ## 3.12
 
-Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip)
 
 ### Features
 - Added functionality to work with **Symbols** (beta)
@@ -179,7 +179,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ## 3.11
 
-Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.11.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.11.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.11.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.11.zip)
 
 ### Features
 
