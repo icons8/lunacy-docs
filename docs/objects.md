@@ -126,7 +126,7 @@ Basic primitive objects
 Bitmaps, or images are one of the object types that are supported in Lunacy. Bitmaps, (or raster) images are made up of pixels; those images can take many forms, such as screenshots or photographs. Lunacy supports all the most common image formats, like PNG, JPG, JPEG.
 
 {:.is-big}
-![Adding bitmaps](public/objects_bitmaps.png)
+![Adding bitmaps](public/objects_bitmaps.gif)
 
 {:.image-info}
 Image tool will help you to insert bitmap graphic into your designs
