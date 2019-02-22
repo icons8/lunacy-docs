@@ -105,7 +105,7 @@ It calls Constraints
 For example, when **_Fix Height_** is enabled, the height remains intact when you resize the parent vertically.
 
 {:.is-big}
-![How constraints works](public/editing_constraints_example.png)
+![How constraints works](public/editing_constraints_example.gif)
 
 {:.image-info}
 Note how in the second group the sun is still at his position, even after group resizing
