@@ -114,7 +114,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Underline  |`Ctrl` `U` |
 | Increase font size |`Ctrl` `+` |
 | Decrease font size |`Ctrl` `–` |
-| Increase CharacterFocus Spacing |`Ctrl` `→` |
+| Increase Character Spacing |`Ctrl` `→` |
 | Decrease Character Spacing |`Ctrl` `←` |
 | Horizontal Align Left |`Ctrl` `Shift` `{` |
 | Horizontal Align Center |`Ctrl` `Shift` `\`| |
