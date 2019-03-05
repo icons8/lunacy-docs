@@ -111,6 +111,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | ------------- |-------------|
 | Bold |`Ctrl` `B` |
 | Italic  |`Ctrl` `I` |
+| Underline  |`Ctrl` `U` |
 | Increase font size |`Ctrl` `+` |
 | Decrease font size |`Ctrl` `–` |
 | Increase CharacterFocus Spacing |`Ctrl` `→` |
