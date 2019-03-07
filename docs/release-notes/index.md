@@ -25,7 +25,19 @@ page_nav:
 
 One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us a few months to actually make it more or less complete. During these months of work, our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, guidelines, etc.
 
-## 3.15
+## 3.15.3
+
+Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.3.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.3.zip)
+
+### Bug Fixes
+- Fixed various problems with input fields
+- Fixed problem with editing text in Symbols instance
+- Fixed problem with loading Google fonts
+- Fixed problem of switching interface language for Installer version
+- Fixed problem of incorrect saving of some sketch files
+- Fixed the problem of rewriting the font parameter for text blocks having the missing font
+
+## 3.15.2
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.2.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.2.zip)
 
