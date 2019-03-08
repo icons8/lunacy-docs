@@ -27,7 +27,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 
 ## 3.15.3
 
-Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.3.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.3.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.3.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.3.zip)
 
 ### Bug Fixes
 - Fixed various problems with input fields
