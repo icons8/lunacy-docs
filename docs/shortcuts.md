@@ -67,7 +67,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Draw from center | `Alt` `Drag` |
 | Draw lock aspect |`Shift` `Drag` |
 | Select |`S` and `Esc` for deselect |
-| Insert bitmap |`P` |
+| Insert bitmap |`I` |
 | Create avatar |`Ctrl` `P` |
 
 ## Selecting Objects
