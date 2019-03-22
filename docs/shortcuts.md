@@ -59,16 +59,17 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
+| Select |`S` and `Esc` for deselect |
+| Text	|`T` |
 | Rectangle |`R`|
 | Oval |`O` |
 | Line |`L` |
-| Text	|`T` |
+| Vector tool |`V` |
+| Insert bitmap |`I` |
+| Create avatar |`Ctrl` `I` |
 | Artboard |`A` |
 | Draw from center | `Alt` `Drag` |
 | Draw lock aspect |`Shift` `Drag` |
-| Select |`S` and `Esc` for deselect |
-| Insert bitmap |`I` |
-| Create avatar |`Ctrl` `P` |
 
 ## Selecting Objects
 
@@ -153,6 +154,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
+| Zoom tool |`Z` |
 | Zoom |`Ctrl` `Mouse Wheel` |
 | Zoom In |`Ctrl` `+` or just `+` |
 | Zoom Out |`Ctrl` `-` or just `-`|
