@@ -117,7 +117,7 @@ You only see this option if you selected an object inside a group or an artboard
 You can rotate an object using the rotate clock. As rotation is a value measured in degrees, it can be edited via Lunacy's Inspector.
 
 {:.is-big}
-![Rotate objects](public/editing_rotating.png)
+![Rotate objects](public/editing_rotating.gif)
 
 {:.image-info}
 You Spin Me Round!
