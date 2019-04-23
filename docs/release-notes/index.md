@@ -26,6 +26,7 @@ page_nav:
 One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us a few months to actually make it more or less complete. During these months of work, our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, guidelines, etc.
 
 ## 3.15.3
+_RELEASED 07 March, 2019_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.3.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.3.zip)
 
@@ -38,6 +39,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed the problem of rewriting the font parameter for text blocks having the missing font
 
 ## 3.15.2
+_RELEASED 15 February, 2019_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.2.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.2.zip)
 
@@ -73,6 +75,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 
 ## 3.14
+_RELEASED 21 December, 2018_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.14.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.14.zip)
 
@@ -125,6 +128,7 @@ Here's the fantastic review of our features. A designer called Kavin Prasath rec
 
 
 ## 3.13
+_RELEASED 26 October, 2018_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.13.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.13.zip)
 
@@ -152,6 +156,7 @@ Languages:
 - Fixed a bug related to displaying a set of effects in the inspector while selecting several dissimilar objects
 
 ## 3.12
+_RELEASED 19 October, 2018_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip)
 
