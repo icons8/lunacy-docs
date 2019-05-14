@@ -119,7 +119,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Decrease Line height |`Ctrl` `Alt` `<` |
 | Increase Character Spacing |`Ctrl` `Shift` `>` |
 | Decrease Character Spacing |`Ctrl` `Shift` `<` |
-| Horizontal Align Left |`Ctrl` `Shift` `{` |
+| Horizontal Align Left |`Ctrl` `Alt` `{` |
 | Horizontal Align Center |`Ctrl` `Alt` `|` |
 | Horizontal Align Right |`Ctrl` `Alt` `}` |
 | Horizontal Align Justify |`Ctrl` `Alt` `J` |
