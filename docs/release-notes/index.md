@@ -28,7 +28,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 ## 3.16.4
 _RELEASED 15 May, 2019_  
 
-Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.16.4.exe)
+Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.16.4.exe)
 
 ### Features
 - [**Integration with icons8 Icons**](https://a.icons8.com/rMVfffrk/5VZTPr/5.png)
