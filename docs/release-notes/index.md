@@ -31,19 +31,19 @@ _RELEASED 15 May, 2019_
 Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.16.4.exe)
 
 ### Features
-- [**Integration with icons8 Icons**](https://a.icons8.com/fbgSbXYW/NaN2e2/image.png)
-- [**Justify alignment**](https://a.icons8.com/fbgSbXYW/Bej7Fd/image.png) in text
-- Editing [**multiple**](https://a.icons8.com/jgOZsuaZ/q6GQsX/image.png) text blocks
-- [**Search**](https://a.icons8.com/ddZWpfcb/9CvBqG/image.png) by document structure
+- [**Integration with icons8 Icons**](https://a.icons8.com/uhasognU/jzhVDy/5.png)
+- [**Justify alignment**](https://a.icons8.com/kYXYbXkT/DlMKIw/5.png) in text
+- Editing [**multiple**](https://a.icons8.com/kYXYbXkT/76YGL7/5.png) text blocks
+- [**Search**](https://a.icons8.com/kYXYbXkT/1V7ayC/5.png) by document structure
 - Enabling and disabling effects
-- Size indicator near creating or editing object
+- [**Size indicator**](https://a.icons8.com/uhasognU/zsNqjK/image.png) near creating or editing object
 - Window position and state saving
 - Added new interface language: Serbian (Latin)
 
 ### Improvements
 - Improved of export and import to **SVG**
 - Improved work with the parameter Line height in the text
-- Improved tab support in text
+- Improved horizontal tabulation support in text
 - Improved correctness of drawing effects for text
 - Added update font weights when changing font family
 - Added the ability to apply shortcuts to text without entering edit mode
