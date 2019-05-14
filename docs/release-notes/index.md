@@ -48,7 +48,7 @@ Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.16
 - Added update font weights when changing font family
 - Added the ability to apply shortcuts to text without entering edit mode
 - Improved the use of styles in the text on shortcuts Ctrl+B, Ctrl+I
-- Added new shortcuts for text (тут ссылка на документацию)
+- Added new shortcuts for text
 - Display CSS for several selected objects
 - The ability to apply Paragraph spacing to the selected paragraph in the text
 - While adding objects if an element inside group is selected, new object is created inside the same group
