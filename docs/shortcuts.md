@@ -66,7 +66,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Line |`L` |
 | Vector tool |`V` |
 | Insert bitmap |`I` |
-| Create avatar |`Ctrl` `I` |
+| Create avatar |`Q` |
 | Artboard |`A` |
 | Draw from center | `Alt` `Drag` |
 | Draw lock aspect |`Shift` `Drag` |
@@ -113,13 +113,16 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Bold |`Ctrl` `B` |
 | Italic  |`Ctrl` `I` |
 | Underline  |`Ctrl` `U` |
-| Increase font size |`Ctrl` `+` |
-| Decrease font size |`Ctrl` `–` |
-| Increase Character Spacing |`Ctrl` `→` |
-| Decrease Character Spacing |`Ctrl` `←` |
+| Increase font size |`Ctrl` `Alt` `+` |
+| Decrease font size |`Ctrl` `Alt` `–` |
+| Increase Line height |`Ctrl` `Alt` `>` |
+| Decrease Line height |`Ctrl` `Alt` `<` |
+| Increase Character Spacing |`Ctrl` `Shift` `>` |
+| Decrease Character Spacing |`Ctrl` `Shift` `<` |
 | Horizontal Align Left |`Ctrl` `Shift` `{` |
-| Horizontal Align Center |`Ctrl` `Shift` `\`| |
-| Horizontal Align Right |`Ctrl` `Shift` `}` |
+| Horizontal Align Center |`Ctrl` `Alt` `|` |
+| Horizontal Align Right |`Ctrl` `Alt` `}` |
+| Horizontal Align Justify |`Ctrl` `Alt` `J` |
 
 ## Moving and Resizing Objects
 
