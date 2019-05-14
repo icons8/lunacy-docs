@@ -25,6 +25,52 @@ page_nav:
 
 One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us a few months to actually make it more or less complete. During these months of work, our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, guidelines, etc.
 
+## 3.16.4
+_RELEASED 15 May, 2019_  
+
+### Features
+- [**Integration with icons8 Icons**](https://a.icons8.com/fbgSbXYW/NaN2e2/image.png)
+- [**Justify alignment**](https://a.icons8.com/fbgSbXYW/Bej7Fd/image.png) in text
+- Editing [**multiple**](https://a.icons8.com/jgOZsuaZ/q6GQsX/image.png) text blocks
+- [**Search**](https://a.icons8.com/ddZWpfcb/9CvBqG/image.png) by document structure
+- Enabling and disabling effects
+- Size indicator near creating or editing object
+- Window position and state saving
+- Added new interface language: Serbian (Latin)
+
+### Improvements
+- Improved of export and import to **SVG**
+- Improved work with the parameter Line height in the text
+- Improved tab support in text
+- Improved correctness of drawing effects for text
+- Added update font weights when changing font family
+- Added the ability to apply shortcuts to text without entering edit mode
+- Improved the use of styles in the text on shortcuts Ctrl+B, Ctrl+I
+- Added new shortcuts for text (тут ссылка на документацию)
+- Display CSS for several selected objects
+- The ability to apply Paragraph spacing to the selected paragraph in the text
+- While adding objects if an element inside group is selected, new object is created inside the same group
+- Improved work with mixed content in the text and object transformations
+- Added new templates for artboards
+- Improved work with distance lines (alt behaviour)
+- Added possibility to move points of editing object with arrow keys
+- Improved work with zoom field and grid settings
+- Corrected window size and panel state saving
+- Corrected vector tool Esc behaviour 
+
+### Bug Fixes
+- Fixed the error of exporting objects with long names to a local file
+- Fixed the problem of selecting artboards by title
+- Fixed most errors of working with text
+- Fixed inner shadow rendering
+- Fixed properties and effects view in right panel
+- Fixed problem with ghost artboard frames after removing page with them from project or just changing it
+- Some undo behaviour fixes
+- Fixed some issues with selection in tree 
+- Fixed UI bugs including some buttons behaviours, cursors changings etc
+- And many other bugs were fixed
+
+
 ## 3.15.3
 _RELEASED 07 March, 2019_  
 
