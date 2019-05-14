@@ -31,7 +31,7 @@ _RELEASED 15 May, 2019_
 Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.16.4.exe)
 
 ### Features
-- [**Integration with icons8 Icons**](https://a.icons8.com/uhasognU/jzhVDy/5.png)
+- [**Integration with icons8 Icons**](https://a.icons8.com/rMVfffrk/5VZTPr/5.png)
 - [**Justify alignment**](https://a.icons8.com/kYXYbXkT/DlMKIw/5.png) in text
 - Editing [**multiple**](https://a.icons8.com/kYXYbXkT/76YGL7/5.png) text blocks
 - [**Search**](https://a.icons8.com/kYXYbXkT/1V7ayC/5.png) by document structure
