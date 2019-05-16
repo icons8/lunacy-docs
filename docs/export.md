@@ -43,7 +43,7 @@ Lunacy allows you to publish assets directly to the web. Your image will be host
 
 Instead of saving an image to a disk, you can get its URL with a single click, ready to insert into your HTML. Lunacy uploads the file to Icons8 CDN servers.
 
-This service is free, thanks to the generous sponsorship of [KeyCDN](https://www.keycdn.com/).
+This service is free, thanks to the generous sponsorship of [CDN77](hhttps://www.cdn77.com/).
 
 The export works in one-click. Simply select Export option and click 'Get CDN Links.' That’s all!
 
