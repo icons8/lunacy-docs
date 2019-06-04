@@ -131,7 +131,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | ------------- |-------------|
 | Create Symbol |`Ctrl` `Alt` `K`  |
 | Edit Symbol  |`Ctrl` `Alt` `E` |
-| Send to Symbol page  |`Ctrl` `Alt` `M` |
+| Send to Symbols page  |`Ctrl` `Alt` `M` |
 
 ## Moving and Resizing Objects
 
