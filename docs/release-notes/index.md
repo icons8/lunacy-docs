@@ -26,7 +26,7 @@ Version 4 comes with GPU rendering support and Icons8 content integration.
 ## 4.0.0
 _RELEASED 17 June, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.1.exe)
 
 ### Features
 - GPU rendering 
