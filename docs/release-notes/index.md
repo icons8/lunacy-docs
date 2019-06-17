@@ -24,7 +24,7 @@ page_nav:
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
 ## 4.0.0
-_RELEASED 27 May, 2019_
+_RELEASED 17 June, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.0.exe)
 
@@ -41,16 +41,18 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Significant increase in performance when working with large files
 - Reduced RAM usage
 - Improved effects rendering
-- Added grouped elements selection with double click
 - Improved text undo operations sensitivity
 - Improved hover selection rendering over elements
+- Added 200 new avatars
 
 ### Bug Fixes
+- Fixed grouped elements selection with double click
 - Fixed flips not changing object orientation 
 - Fixed flips for path
 - Fixed fills for images
 - Fixed effects rotation and flips
 - Fixed artboard resize
+- Fixed symbols bugs
 
 # Version 3
 
