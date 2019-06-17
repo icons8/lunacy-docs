@@ -124,6 +124,15 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Horizontal Align Right |`Ctrl` `Alt` `}` |
 | Horizontal Align Justify |`Ctrl` `Alt` `J` |
 
+## Symbols operations
+
+
+| Action        | Hotkey(s)     |
+| ------------- |-------------|
+| Create Symbol |`Ctrl` `Alt` `K`  |
+| Edit Symbol  |`Ctrl` `Alt` `E` |
+| Send to Symbols page  |`Ctrl` `Alt` `M` |
+
 ## Moving and Resizing Objects
 
 
