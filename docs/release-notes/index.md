@@ -23,6 +23,14 @@ page_nav:
 
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
+## 4.0.2 hotfix
+_RELEASED 19 June, 2019_
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.2.exe)
+
+### Bug Fixes
+- Fixed all crashes we are received via new report system
+
 ## 4.0.1
 _RELEASED 17 June, 2019_
 
