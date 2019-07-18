@@ -86,7 +86,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Sape edit mode |`Enter` or `Double click` |
+| Shape edit mode |`Enter` or `Double click` |
 | Finish editing |`Escape` |
 | Delete layer |`Backspace` or `Del` |
 | Toggle mask |`Ctrl` `M` |
