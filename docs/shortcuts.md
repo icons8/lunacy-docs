@@ -37,7 +37,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Open |`Ctrl` `O` |
 | New |`Ctrl` `N` |
 | Save |`Ctrl` `S` |
-| Save as |`Shift` `Ctrl` `S` |
+| Save as |`Ctrl` `Shift` `S` |
 | Export |`Ctrl` `E` |
 | About |`F1` |
 | Exit |`Alt` `F4` or `Ctrl` `Q` |
@@ -46,11 +46,11 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Paste |`Ctrl` `V` |
 | Undo |`Ctrl` `Z`  |
 | Redo |`Ctrl` `Y` or `Ctrl` `Shift` `Z` |
-| Toggle rules |`Ctrl` `R` |
-| Toggle grid |`Ctrl` `’` |
-| Toggle layout |`Ctrl` `:` |
-| Toggle left panel |`Ctrl` `T` |
-| Collapse all groups |`Ctrl` `~` |
+| Toggle Rules |`Ctrl` `R` |
+| Toggle Grid |`Ctrl` `’` |
+| Toggle Layout |`Ctrl` `:` |
+| Objects Panel |`Ctrl` `T` |
+| Collapse All Objects |`Ctrl` `~` |
 
 
 
@@ -59,51 +59,51 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Select |`S` and `Esc` for deselect |
+| Select Tool |`S` and `Esc` for Deselect |
 | Text	|`T` |
 | Rectangle |`R`|
 | Oval |`O` |
 | Line |`L` |
-| Vector tool |`V` |
-| Insert bitmap |`I` |
-| Create avatar |`Q` |
+| Vector Tool |`V` |
+| Place Image |`I` |
+| Place Avatar |`Q` |
 | Artboard |`A` |
-| Draw from center | `Alt` `Drag` |
-| Draw lock aspect |`Shift` `Drag` |
+| Draw from Center | `Alt` `Drag` |
+| Draw Lock Aspect |`Shift` `Drag` |
 
 ## Selecting Objects
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Select layer |`Click` |
-| Select all |`Ctrl` `A` |
-| Select all Artboards |`Shift` `Ctrl` `A` |
-| Select in group |`Ctrl` `Click` |
+| Select Layer |`Click` |
+| Select All |`Ctrl` `A` |
+| Select All Artboards |`Shift` `Ctrl` `A` |
+| Select in Group |`Ctrl` `Click` |
 
 ## Editing Objects
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Shape edit mode |`Enter` or `Double click` |
-| Finish editing |`Escape` |
-| Delete layer |`Backspace` or `Del` |
-| Toggle mask |`Ctrl` `M` |
-| Flip horizontaly |`Ctrl` `→` or `Ctrl` `←` |
-| Flip vertical |`Ctrl` `↑` or `Ctrl` `↓` |
-| Union |`Shift` `Ctrl` `U` |
-| Substract |`Shift` `Ctrl` `P` |
-| Intersect |`Shift` `Ctrl` `I` |
-| Difference |`Shift` `Ctrl` `X` |
-| Align left |`Shift` `Ctrl` `←` |
-| Align horizontally |`Shift` `Ctrl` `-` |
-| Align right |`Shift` `Ctrl` `→` |
-| Align top |`Shift` `Ctrl` `↑` |
-| Align vertically |`Shift` `Ctrl` `\`|
-| Align bottom |`Shift` `Ctrl` `↓`  |
-| Distribute horizontally |`Shift` `Ctrl` `H` |
-| Distribute vertically |`Shift` `Ctrl` `V` |
+| Shape Edit Mode |`Enter` or `Double click` |
+| Finish Editing |`Escape` |
+| Delete Layer |`Backspace` or `Del` |
+| Toggle Mask |`Ctrl` `M` |
+| Flip Horizontaly |`Ctrl` `→` or `Ctrl` `←` |
+| Flip Vertical |`Ctrl` `↑` or `Ctrl` `↓` |
+| Union |`Ctrl` `Shift` `U` |
+| Substract |`Ctrl` `Shift` `P` |
+| Intersect |`Ctrl` `Shift` `I` |
+| Difference |`Ctrl` `Shift` `X` |
+| Align Left |`Ctrl` `Shift` `←` |
+| Align Right |`Ctrl` `Shift` `→` |
+| Align Horizontally |`Ctrl` `Shift` `-` |
+| Align Top |`Ctrl` `Shift` `↑` |
+| Align Bottom |`Ctrl` `Shift` `↓`  |
+| Align Vertically |`Ctrl` `Shift` `\`|
+| Distribute Horizontally |`Ctrl` `Shift` `H` |
+| Distribute Vertically |`Ctrl` `Shift` `V` |
 
 ## Text Editing
 
@@ -113,10 +113,10 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Bold |`Ctrl` `B` |
 | Italic  |`Ctrl` `I` |
 | Underline  |`Ctrl` `U` |
-| Increase font size |`Ctrl` `Alt` `+` |
-| Decrease font size |`Ctrl` `Alt` `–` |
-| Increase Line height |`Ctrl` `Alt` `>` |
-| Decrease Line height |`Ctrl` `Alt` `<` |
+| Increase Font Size |`Ctrl` `Alt` `+` |
+| Decrease Font Size |`Ctrl` `Alt` `–` |
+| Increase Line Height |`Ctrl` `Alt` `>` |
+| Decrease Line Height |`Ctrl` `Alt` `<` |
 | Increase Character Spacing |`Ctrl` `Shift` `>` |
 | Decrease Character Spacing |`Ctrl` `Shift` `<` |
 | Horizontal Align Left |`Ctrl` `Alt` `{` |
@@ -131,47 +131,47 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | ------------- |-------------|
 | Create Symbol |`Ctrl` `Alt` `K`  |
 | Edit Symbol  |`Ctrl` `Alt` `E` |
-| Send to Symbols page  |`Ctrl` `Alt` `M` |
+| Send to Symbols Page  |`Ctrl` `Alt` `M` |
 
 ## Moving and Resizing Objects
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Distances from objects |`Alt` |
+| Distances from Objects |`Alt` |
 | Duplicate |`Alt` `Drag` or `Ctrl` `D` |
-| Move long X/Y axis |`Shift` `Drag` |
+| Move Long X/Y Axis |`Shift` `Drag` |
 | Move by 1px |`Arrow keys` |
 | Move by 10px |`Shift` `Arrow keys` |
-| Resize from center |`Alt` `resize` |
-| Preserve ratio |`Shift` `resize` |
-| Move canvas |`Space` `Drag` |
+| Resize from Center |`Alt` `resize` |
+| Preserve Ratio |`Shift` `resize` |
+| Move Canvas |`Space` `Drag` |
 
 ## Arranging Objects
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Group selection |`Ctrl` `G` |
-| Ungroup selection |`Shift` `Ctrl` `G` |
-| Bring forward |`Ctrl` `[` |
-| Bring to front |`Shift` `Ctrl` `[` |
-| Send backward |`Ctrl` `]` |
-| Send to back |`Shift` `Ctrl` `]` |
-| Hide/show |`Ctrl` `H` |
-| Lock/unlock |`Ctrl` `L` |
+| Group Selection |`Ctrl` `G` |
+| Ungroup Selection |`Ctrl` `Shift` `G` |
+| Bring Forward |`Ctrl` `[` |
+| Bring to Front |`Ctrl` `Shift` `[` |
+| Send Backward |`Ctrl` `]` |
+| Send to Back |`Ctrl` `Shift` `]` |
+| Show / Hide |`Ctrl` `H` |
+| Lock / Unlock |`Ctrl` `L` |
 
 ## Zoom and Focus
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Zoom tool |`Z` |
+| Zoom Tool |`Z` |
 | Zoom |`Ctrl` `Mouse Wheel` |
 | Zoom In |`Ctrl` `+` or just `+` |
 | Zoom Out |`Ctrl` `-` or just `-`|
 | Zoom to 100% |`Ctrl` `0` |
-| Zoom to all elements |`Ctrl` `1`|
-| Zoom to selection |`Ctrl` `2` |
-| Fit width |`Ctrl` `3` |
-| Fit height |`Ctrl` `4` |
+| Zoom to All Elements |`Ctrl` `1`|
+| Zoom to Selection |`Ctrl` `2` |
+| Fit Width |`Ctrl` `3` |
+| Fit Height |`Ctrl` `4` |
