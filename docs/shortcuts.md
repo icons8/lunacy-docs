@@ -51,8 +51,12 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Toggle Layout |`Ctrl` `:` |
 | Objects Panel |`Ctrl` `T` |
 | Collapse All Objects |`Ctrl` `~` |
-
-
+| Select Objects panel |`Alt` `1` |
+| Select Symbols panel |`Alt` `2` |
+| Select Libraries panel |`Alt` `3` |
+| Select Properties panel |`Alt` `4` |
+| Select Code panel |`Alt` `5` |
+| Select Export panel |`Alt` `6` |
 
 ## Inserting Objects
 
@@ -131,7 +135,8 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | ------------- |-------------|
 | Create Symbol |`Ctrl` `Alt` `K`  |
 | Edit Symbol  |`Ctrl` `Alt` `E` |
-| Send to Symbols Page  |`Ctrl` `Alt` `M` |
+| Send to Symbols Page  |`Ctrl` `Alt` `M` 
+| Detach from Symbol  |`Ctrl` `Alt` `D` |
 
 ## Moving and Resizing Objects
 
