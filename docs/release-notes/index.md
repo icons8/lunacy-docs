@@ -23,6 +23,63 @@ page_nav:
 
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
+## 4.1.0
+_RELEASED 20 August, 2019_
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.1.0.exe)
+
+### Features
+- UI Kits 
+- Rich boolean operations
+- Symbols inspector - right panel UI to swap a symbol
+- Export to PDF, JPEG, WEBP, BMP, ICO, GIF, TIFF file formats
+- Import of JPEG, WEBP, BMP, ICO, GIF file formats
+- Ability to flatten selection
+- Ability to rasterize selection
+
+### Improvements
+- Improved sketch file load speed
+- Improved sketch format compatibility
+- Improved effects on images
+- When exporting to our cloud, we export PDF files now
+- Improved snapping
+- Ability to see symbol preview on mouse over
+- Ability to rename and set destination symbol page
+- Ability to detach symbol instance
+- Ability to reset symbol size
+- Ability to set page as Master Symbol Page via context menu
+- Symbols multiselection and multi drag drop
+- Improved layer selection via double click and ctrl+click
+- Fast tabs navigation via Alt+1, Alt+2, ..., Alt+6
+- Typography now supports special chars of Poland language
+- Improved objects editing via multiselect
+- Improved fonts detection
+- Ability to change style for a group
+- Ability to refresh avatar
+- Ability to replace image
+- Ability to change corner radius in vector tool
+- Auto-closing of the path in vector tool
+- Ability to use text as mask
+- Ability to copy tree elements with Alt+Drag
+- Ability to duplicate, copy and paste pages
+- Memorizing format in colorpicker
+- Export scale values are expanded, added an ability to create custom ones
+- Ability to lock and hide artboards
+- Improved duplicates placing - depends on grid size now
+- Minor UI improvements
+- Color string format HEX/RGB is now saved in colod picker
+
+### Bug Fixes
+- Fixed vector tool issues
+- Fixed undo/redo issues
+- Fixed typography issues
+- Fixed symbol issues
+- Fixed file saving issues
+- Fixed corner radius issues
+- Fixed crashes
+- Fixed images and illustrations import
+- Fixed translations
+
 ## 4.0.3 hotfix
 _RELEASED 26 June, 2019_
 
