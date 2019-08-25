@@ -43,31 +43,31 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Improved effects on images
 - When exporting to our cloud, we export PDF files now
 - Improved snapping
-- Ability to see symbol preview on mouse over
+- Ability to see symbol preview on mouseover
 - Ability to rename and set destination symbol page
 - Ability to detach symbol instance
 - Ability to reset symbol size
-- Ability to set page as Master Symbol Page via context menu
-- Symbols multiselection and multi drag drop
+- Ability to set a page as Master Symbol Page via context menu
+- Symbols multiselection and multi drag-drop
 - Improved layer selection via double click and ctrl+click
 - Fast tabs navigation via Alt+1, Alt+2, ..., Alt+6
 - Typography now supports special chars of Poland language
-- Improved objects editing via multiselect
+- Improved objects editing via multi-select
 - Improved fonts detection
-- Ability to change style for a group
+- Ability to change the style for a group
 - Ability to refresh avatar
-- Ability to replace image
+- Ability to replace the image
 - Ability to change corner radius in vector tool
 - Auto-closing of the path in vector tool
-- Ability to use text as mask
+- Ability to use text as a mask
 - Ability to copy tree elements with Alt+Drag
 - Ability to duplicate, copy and paste pages
-- Memorizing format in colorpicker
+- Memorizing format in color picker
 - Export scale values are expanded, added an ability to create custom ones
 - Ability to lock and hide artboards
 - Improved duplicates placing - depends on grid size now
 - Minor UI improvements
-- Color string format HEX/RGB is now saved in colod picker
+- Color string format HEX/RGB is now saving in color picker
 
 ### Bug Fixes
 - Fixed vector tool issues
@@ -86,9 +86,9 @@ _RELEASED June 26, 2019_
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.3.exe)
 
 ### Bug Fixes
-- Fixed all crashes we are received via report system
-- Fixed OutOfMemory issues, but memory usage is increased
-- Fixed some issues with Vector Tool, Text, Copy&Paste
+- Fixed all crashes, we have received via report system
+- Fixed OutOfMemory issues, by the cost of memory usage
+- Fixed some problems with Vector Tool, Text, Copy&Paste
 
 ## 4.0.2 hotfix
 _RELEASED June 19, 2019_
@@ -96,7 +96,7 @@ _RELEASED June 19, 2019_
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.2.exe)
 
 ### Bug Fixes
-- Fixed all crashes we are received via new report system
+- Fixed all crashes, we have received via report system
 
 ## 4.0.1
 _RELEASED June 17, 2019_
@@ -123,7 +123,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ### Bug Fixes
 - Fixed grouped elements selection with double click
 - Fixed flips not changing object orientation 
-- Fixed flips for path
+- Fixed flips for the path
 - Fixed fills for images
 - Fixed effects rotation and flips
 - Fixed artboard resize
