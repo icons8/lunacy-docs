@@ -24,7 +24,7 @@ page_nav:
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
 ## 4.1.0
-_RELEASED 20 August, 2019_
+_RELEASED August 20, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.1.0.exe)
 
@@ -81,7 +81,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed translations
 
 ## 4.0.3 hotfix
-_RELEASED 26 June, 2019_
+_RELEASED June 26, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.3.exe)
 
@@ -91,7 +91,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed some issues with Vector Tool, Text, Copy&Paste
 
 ## 4.0.2 hotfix
-_RELEASED 19 June, 2019_
+_RELEASED June 19, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.2.exe)
 
@@ -99,7 +99,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed all crashes we are received via new report system
 
 ## 4.0.1
-_RELEASED 17 June, 2019_
+_RELEASED June 17, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.1.exe)
 
@@ -134,7 +134,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us a few months to actually make it more or less complete. During these months of work, our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, guidelines, etc.
 
 ## 3.16.4
-_RELEASED 15 May, 2019_  
+_RELEASED May 15, 2019_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.16.4.exe)
 
@@ -182,7 +182,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 
 ## 3.15.3
-_RELEASED 07 March, 2019_  
+_RELEASED March 7, 2019_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.3.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.3.zip)
 
@@ -195,7 +195,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed the problem of rewriting the font parameter for text blocks having the missing font
 
 ## 3.15.2
-_RELEASED 15 February, 2019_  
+_RELEASED February 15, 2019_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.2.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.2.zip)
 
@@ -231,7 +231,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 
 ## 3.14
-_RELEASED 21 December, 2018_  
+_RELEASED December 21, 2018_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.14.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.14.zip)
 
@@ -284,7 +284,7 @@ Here's the fantastic review of our features. A designer called Kavin Prasath rec
 
 
 ## 3.13
-_RELEASED 26 October, 2018_  
+_RELEASED October 26, 2018_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.13.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.13.zip)
 
@@ -312,7 +312,7 @@ Languages:
 - Fixed a bug related to displaying a set of effects in the inspector while selecting several dissimilar objects
 
 ## 3.12
-_RELEASED 19 October, 2018_  
+_RELEASED October 19, 2018_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip)
 
