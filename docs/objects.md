@@ -143,10 +143,21 @@ Image tool will help you to insert bitmap graphic into your designs
 
 ## Masks
 
-The masks (keyboard shortcut `Ctrl` `M`) in Lunacy are used to show parts of objects selectively.. For example, masking two overlapping ovals gives you an oval image.
+The masks (keyboard shortcut `Ctrl` `M`) in Lunacy are used to show parts of objects selectively. For example, masking two overlapping ovals gives you an oval image.
 
 {:.is-big}
 ![How masks works](public/objects_masks.png)
 
 {:.image-info}
 Masking objects
+
+## Boolean Operations
+
+Using boolean operations, you can easily draw complex shapes using primitives.
+
+* Union(`Ctrl` `Shift` `U`): The result is a vector that is the sum of both vectors’ areas.
+* Subtract(`Ctrl` `Shift` `P`): The result is a vector where the area of the top shape is removed from the one under it.
+* Intersect(`Ctrl` `Shift` `I`): The result is a vector consisting of the parts where the original shapes overlapped.
+* Difference(`Ctrl` `Shift` `X`): The result is a vector that is exactly the part where they didn’t overlap. It’s the inverse of an intersect operation.
+
+Also, Lunacy has a Flatten selection operation: The result is a vector that represents the multiple paths inside the shape as one path. However, there are many paths that can’t be flattened into one. A shape with a hole inside it will always represent as two paths; one for outer path, and one for the inner path.
