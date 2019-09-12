@@ -180,3 +180,4 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Zoom to Selection |`Ctrl` `2` |
 | Fit Width |`Ctrl` `3` |
 | Fit Height |`Ctrl` `4` |
+| Focus at Search |`Ctrl` `/` or just `/` |

@@ -23,6 +23,33 @@ page_nav:
 
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
+## 4.2.0
+_RELEASED September 12, 2019_
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.2.0.exe)
+
+### Features
+- Symbols Overrides  
+— Nested Symbols  
+— Text   
+— Images
+- Main Window Menu
+- Welcome Window
+- Dummy Text Generation
+- Shortcuts Panel
+### Improvements
+- Ability to select symbols from UI kits in the right panel
+- Minor performance improvement
+- Minor UI improvements
+### Bug Fixes
+- Fixed issues of groups and masks layout calculation
+- Fixed inner shadow rendering
+- More undo/redo fixes
+- Fixed sketch compatibility issues of text nodes
+- Fixed symbols issues
+- Fixed line editor
+- Fixed some vector tool issues
+
 ## 4.1.0
 _RELEASED August 20, 2019_
 
