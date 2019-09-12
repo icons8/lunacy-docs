@@ -160,4 +160,10 @@ Using boolean operations, you can easily draw complex shapes using primitives.
 * Intersect: The result is a vector consisting of the parts where the original shapes overlapped.
 * Difference: The result is a vector that is exactly the part where they didn’t overlap. It’s the inverse of an intersect operation.
 
+{:.is-big}
+![How boolean operations works](public/BoolOps.gif)
+
 Also, Lunacy has a Flatten selection operation: The result is a vector that represents the multiple paths inside the shape as one path. However, there are many paths that can’t be flattened into one. A shape with a hole inside it will always represent as two paths; one for outer path, and one for the inner path.
+
+{:.is-big}
+![How flatten selection works](public/Flatten.gif)
