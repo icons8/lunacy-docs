@@ -24,7 +24,7 @@ page_nav:
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
 
-## 4.4.0
+## 4.4
 _RELEASED October 8, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.4.0.exe)
@@ -49,7 +49,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed some undo/redo problems
 - Fixed a lot of crashes and errors
 
-## 4.3.0
+## 4.3
 _RELEASED September 25, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.3.0.exe)
@@ -71,7 +71,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed some app freezes
 - Fixed a lot of crashes and errors
 
-## 4.2.0
+## 4.2
 _RELEASED September 12, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.2.0.exe)
@@ -100,7 +100,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed line editor
 - Fixed some vector tool issues
 
-## 4.1.0
+## 4.1
 _RELEASED August 20, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.1.0.exe)
@@ -175,7 +175,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ### Bug Fixes
 - Fixed all crashes, we have received via report system
 
-## 4.0.1
+## 4.0
 _RELEASED June 17, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.1.exe)
@@ -210,7 +210,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 One of the substantial improvements introduced in Version 3 was the full-scale editor. Version 3 was launched in March, though it took us a few months to actually make it more or less complete. During these months of work, our team efforts were mainly focused on fixing bugs, improving performance, and implementing the remaining features such as gradients, guidelines, etc.
 
-## 3.16.4
+## 3.16
 _RELEASED May 15, 2019_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.16.4.exe)
@@ -271,7 +271,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed problem of incorrect saving of some sketch files
 - Fixed the problem of rewriting the font parameter for text blocks having the missing font
 
-## 3.15.2
+## 3.15
 _RELEASED February 15, 2019_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.2.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.2.zip)
