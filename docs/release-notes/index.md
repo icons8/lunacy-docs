@@ -24,6 +24,31 @@ page_nav:
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
 ## 4.3.0
+_RELEASED October 8, 2019_
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.4.0.exe)
+
+### Features
+- Tabs - open some projects in a single window
+- New auto-size support for Text (horizontal/vertical)
+
+### Improvements
+- Darker scrollbars
+- Added ability to apply masks to the symbol instances
+- Improved performance of copy-paste
+- Items numbering. Example: Vector, Vector 2, Vector 3.
+- Improved rendering of corner radius on vector shapes
+- Icons8 license from Microsoft Store now synchronized with Icons8 websites and Pichon app 
+
+### Bug Fixes
+- Fix project state change on page selection
+- Fixed window size on a small resolution/large scale desktops
+- Fixed foreign symbols behaviors
+- Fixed text change issues
+- Fixed some undo/redo problems
+- Fixed a lot of crashes and errors
+
+## 4.3.0
 _RELEASED September 25, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.3.0.exe)
