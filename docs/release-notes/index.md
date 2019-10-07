@@ -23,6 +23,7 @@ page_nav:
 
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
+
 ## 4.4.0
 _RELEASED October 8, 2019_
 
@@ -33,12 +34,12 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - New auto-size support for Text (horizontal/vertical)
 
 ### Improvements
-- Darker scrollbars
 - Added ability to apply masks to the symbol instances
 - Improved performance of copy-paste
 - Items numbering. Example: Vector, Vector 2, Vector 3.
 - Improved rendering of corner radius on vector shapes
 - Icons8 license from Microsoft Store now synchronized with Icons8 websites and Pichon app 
+- Minor UI improvements
 
 ### Bug Fixes
 - Fix project state change on page selection
