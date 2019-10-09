@@ -63,12 +63,13 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Select Tool |`S` and `Esc` for Deselect |
+| Select Tool |`S` or `V` and `Esc` for Deselect |
 | Text	|`T` |
 | Rectangle |`R`|
 | Oval |`O` |
 | Line |`L` |
-| Vector Tool |`V` |
+| Pencil Tool |`N` |
+| Pen Tool |`P` |
 | Place Image |`I` |
 | Place Avatar |`Q` |
 | Artboard |`A` |
