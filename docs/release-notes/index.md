@@ -23,9 +23,35 @@ page_nav:
 
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
+## 4.5
+_RELEASED October 23, 2019_
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.5.0.exe)
+
+### Features
+- Image Adjust - ability to change hue/saturation/brightness/contrast of image
+- Background blur
+- New fonts dropdown with filters, previews and recent items
+- Ability to scale elements
+- New drawing primitives: star, polygon, cornered rectangle, arrow
+
+### Improvements
+- Dramatical rendering performance increase
+- App launch speed minor improvement
+- Ability to use a flatten tool on multiple shapes to union and flatten them
+- Ability to close other tabs and close all but this tab via tabs context menu
+- Toolbar UI improvement
+- Ability to override symbol instance to nothing
+- Document palette will be saved inside the project file
+
+### Bug Fixes
+- Fixed vectors bounding box size
+- Fixed Color Picker eye dropper for gradients
+- Fixed a lot of issues related to resizing, undo/redo, symbols, typography etc.
+
 
 ## 4.4.1 hotfix
-_RELEASED October 8, 2019_
+_RELEASED October 9, 2019_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.4.1.exe)
 
