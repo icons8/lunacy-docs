@@ -23,6 +23,26 @@ page_nav:
 
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
+## 4.6
+_RELEASED November 1, 2019_
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.6.0.exe)
+
+### Features
+- Sketch Prototyping Format support. You can see, edit and save files with prototyping. Preview is not implemented.
+- Added Korean language support (thanks "JK Jeong")
+
+### Improvements
+- Dramatical rendering performance increase
+- Tips with corner radius and angle value on a canvas
+- Improved text scaling algorithm
+
+### Bug Fixes
+- Fixed scale issues
+- Fixed resize issues
+- Fixed undo/redo issues
+- Fixed a lot of crashes
+
 ## 4.5
 _RELEASED October 23, 2019_
 
