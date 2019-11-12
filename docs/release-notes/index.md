@@ -55,7 +55,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.5
 _RELEASED October 23, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.5.1.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.5.0.exe)
 
 ### Features
 - Image Adjust - ability to change hue/saturation/brightness/contrast of image
