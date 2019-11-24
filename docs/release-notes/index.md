@@ -23,6 +23,37 @@ page_nav:
 
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
+## 4.7
+_RELEASED November 20, 2019_
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.7.0.exe)
+
+### Features
+- Dark Mode
+- Text Styles
+- Layer Styles
+- Ability to override text and layer styles
+- Smart Dragging. If you will drag background element - foreground element will drag with it
+- Style Suggestions - Lunacy will suggest you previously used styles
+- Smart Text Insertion. Press T to insert text into selected shape
+
+### Improvements
+- Improved pan/scrolling experience
+- Improved file load speed
+- Improved app close speed
+- Bool operations will work more like Sketch
+- Border Options mixed content handling
+- Improved sketch format compatibility
+- Ability to add element from a library via double click
+
+### Bug Fixes
+- Fixed prototyping issues
+- Fixed move from/to artboard issues
+- Fixed background blur issues
+- Fixed export issues
+- Fixed document palette issues
+- Fixed stability issues
+
 ## 4.6.1 hotfix
 _RELEASED November 3, 2019_
 
@@ -30,7 +61,6 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 ### Bug Fixes
 - Fixed scroll bars issue and some attached issues
-
 
 ## 4.6
 _RELEASED November 1, 2019_
