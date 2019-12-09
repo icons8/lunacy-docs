@@ -131,7 +131,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 ## Text Generation Snippets
 
 
-| Key        | Text generation value     |
+| Text generation value | Snippet     |
 | ------------- |-------------|
 | Full Name |`#fullname` |
 | First Name  |`#firstname` |
