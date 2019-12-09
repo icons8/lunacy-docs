@@ -52,11 +52,9 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Objects Panel |`Ctrl` `T` |
 | Collapse All Objects |`Ctrl` `~` |
 | Switch to Objects |`Alt` `1` |
-| Switch to Symbols |`Alt` `2` |
-| Switch to Libraries |`Alt` `3` |
-| Switch to Properties |`Alt` `4` |
-| Switch to Code |`Alt` `5` |
-| Switch to Export |`Alt` `6` |
+| Switch to Libraries |`Alt` `2` |
+| Switch to Properties |`Alt` `3` |
+| Switch to Code |`Alt` `4` |
 
 ## Inserting Objects
 
@@ -128,6 +126,44 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Horizontal Align Center |`Ctrl` `Alt` `|` |
 | Horizontal Align Right |`Ctrl` `Alt` `}` |
 | Horizontal Align Justify |`Ctrl` `Alt` `J` |
+| Refresh Text Data Generation |`Shift` `R` |
+
+## Text Generation Snippets
+
+
+| Text generation value | Snippet     |
+| ------------- |-------------|
+| Full Name |`#fullname` |
+| First Name  |`#firstname` |
+| Last Name  |`#lastname` |
+| Phone  |`#phone` |
+| Email  |`#email` |
+| Full Address  |`#address` |
+| State  |`#state` |
+| City  |`#city` |
+| Zip Code  |`#zipcode` |
+| Company  |`#company` |
+| Department  |`#department` |
+| Job Title  |`#jobtitle` |
+| Credit Card  |`#credit` |
+| Amount  |`#amount` |
+| Day  |`#day` |
+| Week  |`#week` |
+| Month  |`#month` |
+| Year  |`#year` |
+| 12/31/1999  |`#dateslash` |
+| 31.12.1999  |`#datedot` |
+| December 31, 1999  |`#datefull` |
+| 23:00  |`#time24` |
+| 11:00 PM  |`#time12` |
+| Theme  |`#theme` |
+| Header  |`#header` |
+| Paragraph  |`#paragraph` |
+| Url  |`#url` |
+| User Name  |`#username` |
+| File Name  |`#filename` |
+| Country  |`#country` |
+| Language  |`#language` |
 
 ## Symbols operations
 
