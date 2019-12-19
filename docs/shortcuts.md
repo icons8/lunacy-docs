@@ -40,10 +40,16 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Save as |`Ctrl` `Shift` `S` |
 | Export |`Ctrl` `E` |
 | About |`F1` |
+| Close Tab |`Ctrl` `W` |
+| Next Tab |`Ctrl` `Tab` |
+| Prev Tab |`Ctrl` `Shift` `Tab` |
 | Exit |`Alt` `F4` or `Ctrl` `Q` |
 | Copy |`Ctrl` `C` |
 | Cut |`Ctrl` `X` |
 | Paste |`Ctrl` `V` |
+| Copy to Cloud |`Ctrl` `C` , `C` |
+| Copy Style |`Ctrl` `Alt` `C` |
+| Paste Style |`Ctrl` `Alt` `V` |
 | Undo |`Ctrl` `Z`  |
 | Redo |`Ctrl` `Y` or `Ctrl` `Shift` `Z` |
 | Toggle Rules |`Ctrl` `R` |
@@ -64,6 +70,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Select Tool |`S` or `V` and `Esc` for Deselect |
 | Text	|`T` |
 | Rectangle |`R`|
+| Rounded Rectangle |`U`|
 | Oval |`O` |
 | Line |`L` |
 | Pencil Tool |`N` |
@@ -71,6 +78,8 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Place Image |`I` |
 | Place Avatar |`Q` |
 | Artboard |`A` |
+| Hotspot |`H` |
+| Slice |`E` |
 | Draw from Center | `Alt` `Drag` |
 | Draw Lock Aspect |`Shift` `Drag` |
 
@@ -107,6 +116,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Align Vertically |`Ctrl` `Shift` `\`|
 | Distribute Horizontally |`Ctrl` `Shift` `H` |
 | Distribute Vertically |`Ctrl` `Shift` `V` |
+| Scale objects |`Ctrl` `K` |
 
 ## Text Editing
 
