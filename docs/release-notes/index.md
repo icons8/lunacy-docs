@@ -23,6 +23,37 @@ page_nav:
 
 Version 4 comes with GPU rendering support and Icons8 content integration.
 
+## 4.9
+_RELEASED December 27, 2019_
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.9.0.exe)
+
+### Features
+- Missing Fonts Replace
+- Eyedropper Tool
+- Export Selected as PNG to Cloud via Ctrl+C,C hotkey
+
+### Improvements
+- Minor UI improvements
+- New app version installer auto-downloading
+- Double click in library item to import content to the canvas
+- Google Fonts caching with offline access
+- Ability to select locked elements from elements tree
+- Create Text/Layer Style button will create a style from the selected element
+- New cursors for corner radius, duplication, etc.
+- Icons improvements
+
+### Bug Fixes
+- Fixed some crashes
+- Fixed hotspot and slice rotation
+- Fixed fields issues
+- Fixed scale issues
+- Fixed move issues
+- Fixed resize issues
+- Fixed flatten issues
+- Fixed some symbols issues
+
+
 ## 4.8.1 hotfix
 _RELEASED December 10, 2019_
 
