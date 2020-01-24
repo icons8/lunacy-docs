@@ -19,6 +19,48 @@ page_nav:
 
 ---
 
+# Version 5
+
+Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
+
+## 5.0
+_RELEASED January 15, 2020_
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.0.0.exe)
+
+### Features
+- What's new information inside Lunacy
+- Basic Tutorial on the first Lunacy Launch
+- Ability to buy a single icon, photo or illustration for 1$
+- Ability to supersize a stock photo
+- Outline Stroke
+- Microsoft Pen Support
+- Persian language support (thanks “0amir1” and everyone who helped)
+
+### Improvements
+- Huge CPU rendering performance improvement
+- GPU rendering input lag minimized
+- Minor UI improvements
+- Ability to on/off UI kits
+- Ability to paste some images via drag-drop
+- Element selection improvements on a canvas
+- Ability to close tab via Middle Click
+- Ability to paste SVG file from Clipboard text data
+- Autosave feature will no longer interrupt editing experience
+- Autosave indication
+- Image Tool single and multi-drop improvements
+- Prototyping connections rendering improvement
+- Smooth scrolling and zoom via mouse wheel
+- Slice SVG export
+
+### Bug Fixes
+- Fixed some overrides issues
+- Fixed prototyping issues, improved some interactions
+- Fixed some find similar issues
+- Fixed duplicate crashes
+- Fixed some SVG import issues
+
+
 # Version 4
 
 Version 4 comes with GPU rendering support and Icons8 content integration.
