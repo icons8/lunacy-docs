@@ -184,6 +184,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Edit Symbol  |`Ctrl` `Alt` `E` |
 | Send to Symbols Page  |`Ctrl` `Alt` `M` 
 | Detach from Symbol  |`Ctrl` `Alt` `D` |
+| Reset instance size  |`Ctrl` `Alt` `R` |
 
 ## Moving and Resizing Objects
 
