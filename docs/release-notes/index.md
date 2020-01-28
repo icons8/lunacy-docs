@@ -23,6 +23,17 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
+## 5.0.2 hotfix
+_RELEASED January 28, 2020_
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.0.2.exe)
+
+### Bug Fixes
+- Fixed text preview quality in the floating style panel
+- Fixed shift selection
+- Fixed eyedropper zoom colors
+- Fixed artboard names and layouts
+
 ## 5.0.1 hotfix
 _RELEASED January 25, 2020_
 
@@ -43,7 +54,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Ability to supersize a stock photo
 - Outline Stroke
 - Microsoft Pen Support
-- Persian language support (thanks “0amir1” and everyone who helped)
+- Persian language support (thanks 0amir1 and everyone who helped)
 
 ### Improvements
 - Huge CPU rendering performance improvement
@@ -125,7 +136,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Text Generation snippets
 - Slice Tool
 - Hotspot Tool
-- Hungarian language support (thanks "Levente Szíjártó")
+- Hungarian language support (thanks Levente Szíjártó)
 
 ### Improvements
 - New UI for Top Bar, Main Menu, Libraries and Export 
@@ -190,7 +201,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 ### Features
 - Sketch Prototyping Format support. You can see, edit and save files with prototyping. Preview is not implemented.
-- Added Korean language support (thanks "JK Jeong")
+- Added Korean language support (thanks JK Jeong)
 
 ### Improvements
 - Dramatical rendering performance increase
