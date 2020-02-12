@@ -52,10 +52,11 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Paste Style |`Ctrl` `Alt` `V` |
 | Undo |`Ctrl` `Z`  |
 | Redo |`Ctrl` `Y` or `Ctrl` `Shift` `Z` |
-| Toggle Rules |`Ctrl` `R` |
-| Toggle Grid |`Ctrl` `’` |
-| Toggle Layout |`Ctrl` `:` |
-| Objects Panel |`Ctrl` `T` |
+| Show Rules |`Ctrl` `R` |
+| Show Grid |`Ctrl` `’` |
+| Show Layout Grid |`Ctrl` `\` |
+| Show Guidelines |`Ctrl` `;` |
+| Lock Guidelines |`Ctrl` `Alt` `;` |
 | Collapse All Objects |`Ctrl` `~` |
 | Switch to Objects |`Alt` `1` |
 | Switch to Libraries |`Alt` `2` |
