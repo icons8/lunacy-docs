@@ -52,7 +52,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Paste Style |`Ctrl` `Alt` `V` |
 | Undo |`Ctrl` `Z`  |
 | Redo |`Ctrl` `Y` or `Ctrl` `Shift` `Z` |
-| Show Rules |`Ctrl` `R` |
+| Show Rulers |`Ctrl` `R` |
 | Show Grid |`Ctrl` `’` |
 | Show Layout Grid |`Ctrl` `\` |
 | Show Guidelines |`Ctrl` `;` |
