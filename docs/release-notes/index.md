@@ -23,6 +23,36 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
+## 5.1
+_RELEASED February 12, 2020_  
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.1.0.exe)
+### Features
+- AI Background Removal for images
+- Hotspot Overrides
+- Disable Snapping by holding Ctrl when moving objects
+- Title Case in Typography
+- Artboard Orientation Switcher and resize it to fit the content
+### Improvements
+- Ability to delete uploaded files from the Lunacy server
+- Previous Uploads URLs stored in the Cloud export panel
+- Ability to apply Text or Layer Style to a selected object
+- Ability to swap a selected Symbol from symbols panel
+- Ability to hide some panels via the Main Menu
+- Ability to remove all guidelines via the context menu on rulers
+- Ability to lock guidelines on the workspace
+- Text Generation UI improvements
+- Improved constraints math
+- Drop image replace highlight on the target object
+- Left Panel width saved between app launches
+### Bug Fixes
+- Fixed some SVG import issues
+- Fixed some typography issues
+- Fixed some undo/redo issues
+- Fixed some crashes
+- Fixed incorrect masks on sketch file resave
+- Fixed some flatten issues
+
 ## 5.0.2 hotfix
 _RELEASED January 28, 2020_
 
