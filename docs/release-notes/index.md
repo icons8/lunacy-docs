@@ -47,6 +47,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Improved constraints math
 - Drop image replace highlight on the target object
 - Left Panel width saved between app launches
+
 ### Bug Fixes
 - Fixed some SVG import issues
 - Fixed some typography issues
