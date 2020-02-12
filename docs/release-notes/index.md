@@ -27,12 +27,14 @@ Version 5 takes Lunacy out of beta (better stability and performance), provides 
 _RELEASED February 12, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.1.0.exe)
+
 ### Features
 - AI Background Removal for images
 - Hotspot Overrides
 - Disable Snapping by holding Ctrl when moving objects
 - Title Case in Typography
 - Artboard Orientation Switcher and resize it to fit the content
+
 ### Improvements
 - Ability to delete uploaded files from the Lunacy server
 - Previous Uploads URLs stored in the Cloud export panel
