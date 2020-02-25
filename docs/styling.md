@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Export
-        url: '/export'
+        content: Layer and text styles
+        url: '/layerstyles'
     prev:
         content: Objects
         url: '/objects'
@@ -54,7 +54,6 @@ The following types of gradients are supported in Lunacy:
 Effects each need more explanation. Combining effects. Blending modes.
 
 ![Lunacy allows you to combine multiple effects together](public/mAz4bmww76HilrhUizdqvw_img_18.png)
-
 
 ## Shadows
 
@@ -95,7 +94,6 @@ You can drag the values up and down; they will increase or decrease.
 You can specify the radius for each corner separately. To do so, type 4 values, each separated  with a space.
 
 This property is especially handy for tabs.
-
 
 ## Margins and Distances
 
