@@ -36,7 +36,7 @@ grid_navigation:
     - title: 'Layer and text styles'
       excerpt: Learn how to speed up your work with layer and text styles
       url: '/layerstyles'
-      icon: 'design'
+      icon: 'rich-text-converter'
     - title: 'Export'
       excerpt: Learn about publishing capabilities and export formats of Lunacy
       url: '/export'
