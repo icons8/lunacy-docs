@@ -7,7 +7,7 @@ comments: false
 # Hero section
 title: Layer and text styles
 description: Learn how to speed up your work with layer and text styles
-icon: 'design'
+icon: 'rich-text-converter'
 
 # Micro navigation
 micro_nav: false
