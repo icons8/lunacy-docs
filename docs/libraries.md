@@ -56,9 +56,9 @@ When working with the icons library you can select their:
 * color
 * opacity
 
-![Working with icons](public/iconsizecolor1.gif)
+![Working with icons](public/iconssizecolor2.gif)
 
-## [Photos and masked photos](#photo-libraries)
+## [Photos and masked photos](#photos-and-masked-photos)
 
 When working with the photo libraries you can make use of such handy features as:
 
@@ -76,13 +76,15 @@ To **search** the library for images similar to the one you have on the canvas, 
 Lunacy will run through its photo library and display the best matches on the library panel.
 
 ## Illustrations
+
 Illustrations is a collection of images for awesome web, mobile and UI designs. When you drop them on the canvas, they are added as rasters. But if you are a subscriber of our paid plan, just click the **Vectorize** button at the lower-left corner of the image. Now you can edit it to your heart's content.  
 
 ![Vectorizing an image](public/vectorize.png)
 
-Like with [photo libraries](#photo-libraries), when working with illustrations you can use the **replacement** and **find similar** features.
+Like with [photos](#photos-and-masked-photos), when working with illustrations you can use the **replacement** and **find similar** features.
 
 ## UI kits
+
 Lunacy library includes the following UI kits:
 
 * Apple macOS
