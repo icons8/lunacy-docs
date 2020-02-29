@@ -94,7 +94,7 @@ Lunacy library includes the following UI kits:
 * Apple iOS
 * Microsoft Web Fluent
 
-You can **hide** the kits that you don't need. For this, pressing the settings button at the upper-right corner of the library panel and clear respective checkboxes.
+You can **hide** the kits that you don't need. For this, press the settings button at the upper-right corner of the library panel and clear respective checkboxes.
 
 ![Hiding UI kits](public/uikits.png)
 
