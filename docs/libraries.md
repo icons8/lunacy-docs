@@ -34,7 +34,7 @@ One of the cool things in Lunacy is Libraries. Libraries are collections of visu
 
 For your convenience, the items inside libraries are organized in categories. Also, to find the required item, you can use the search field at the top of the library tab. Once you've found the item you like, just click it and drag onto the canvas. That's it!
 
-![Adding icons to canvas](public/addicon.gif)
+![Adding icons to canvas](public/addicon1.gif)
 
 Now you can work with the item in the same way as with any other similar objects.
 
@@ -50,7 +50,7 @@ The Lunacy icon library exceeds 140 thousand items which is more than enough eve
 
 ![Downloading icons library](public/dnldicn.png)
 
-When working with the icons library you can select their:
+When working with icons you can select their:
 
 * initial size
 * color
@@ -65,7 +65,7 @@ When working with the photo libraries you can make use of such handy features as
 * Image replacement
 * Searching for similar images
 
-To **replace** an image on the canvas, drag an image from the library and hover it somewhere near the center of the current image. Wait a moment until the green mask and replacement icon appear (see the figure below), and then release the mouse button.
+To **replace** an image on the canvas, drag an image from the library and hover it somewhere near the center of the current image. Wait a moment until the green mask and replacement icon appear, and then release the mouse button.
 
 ![Replacing an image](public/replaceimage.gif)
 
