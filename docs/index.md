@@ -37,6 +37,10 @@ grid_navigation:
       excerpt: Learn how to speed up your work with layer and text styles
       url: '/layerstyles/'
       icon: 'rich-text-converter'
+    - title: 'Libraries'
+      excerpt: How to make use of our built-in icons, photos, images and UI kits
+      url: '/libraries'
+      icon: 'book-shelf'
     - title: 'Export'
       excerpt: Learn about publishing capabilities and export formats of Lunacy
       url: '/export'

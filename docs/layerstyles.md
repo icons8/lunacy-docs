@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Export
-        url: '/export'
+        content: Libraries
+        url: '/libraries'
     prev:
         content: Styling
         url: '/styling'

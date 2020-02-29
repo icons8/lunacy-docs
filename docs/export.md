@@ -18,8 +18,8 @@ page_nav:
         content: Shortcuts
         url: '/shortcuts'
     prev:
-        content: Layer and text styles
-        url: '/layerstyles'
+        content: Libraries
+        url: '/libraries'
 ---
 
 
