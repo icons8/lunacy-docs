@@ -23,6 +23,34 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
+## 5.2
+_RELEASED March 02, 2020_  
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.2.0.exe)
+
+### Features
+- New Rendering Engine (input lag reduced, performance improved)
+- Icon Tool
+- Superscript and Subscript for Typography
+- Ability to connect / disconnect your UIKits
+- Sign In to Icons8 with Microsoft Account
+
+### Improvements
+- Ability to delete uploaded files from the Lunacy server
+- Previous Uploads URLs stored in the Cloud export panel
+- Ability to apply Text or Layer Style to a selected object
+- Ability to swap a selected Symbol from symbols panel
+- Ability to hide some panels via the Main Menu
+- Ability to remove all guidelines via the context menu on rulers
+- Ability to lock guidelines on the workspace
+- Text Generation UI improvements
+- Improved constraints math
+- Drop image replace highlight on the target object
+- Left Panel width saved between app 
+
+### Bug Fixes
+- Fixed some minor bugs
+
 ## 5.1.1 hotfix
 _RELEASED February 19, 2020_  
 
