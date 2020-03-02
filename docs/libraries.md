@@ -77,9 +77,9 @@ Lunacy will run through its photo library and display the best matches on the li
 
 ## Illustrations
 
-Illustrations is a collection of images for awesome web, mobile and UI designs. When you drop them on the canvas, they are added as rasters. But if you are a subscriber of our paid plan, just click the **Vectorize** button at the lower-left corner of the image. Now you can edit it to your heart's content.  
+Illustrations is a collection of vector images for awesome web, mobile and UI designs. But if you are on a free plan, you will only be able to use library items as rasters.
 
-![Vectorizing an image](public/vectorize.png)
+![Illustrations library](public/illustrations1.png)
 
 Like with [photos](#photos-and-masked-photos), when working with illustrations you can use the **replacement** and **find similar** features.
 
