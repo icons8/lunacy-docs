@@ -98,4 +98,6 @@ You can **hide** the kits that you don't need. For this, press the settings butt
 
 ![Hiding UI kits](public/uikits.png)
 
-Also, you can **add your own UI kits** to the list. Click the plus button at the upper-right corner of the library panel and define the path to your .sketch file in the displayed dialog box.
+Click the settings button once again to exit the settings mode.
+
+Also, you can **add your own UI kits** to the list. Click the plus button at the upper-right corner of the library panel and define the path to your .sketch file in the displayed dialog box. Note that .sketch files that you intend to use as UI kits must include symbols.

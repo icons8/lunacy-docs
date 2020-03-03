@@ -40,7 +40,7 @@ Layer style properties include:
 
 They appear in the Inspector when you select an object.
 
-![Layer properties](public/properties.png)
+![Layer properties](public/properties_new.png)
 
 For details on styling properties, refer to the [Styling](https://docs.icons8.com/styling) section of our documentation.
 
@@ -50,11 +50,11 @@ There are two ways of adding layer styles.
 
 **Way 1.** By clicking the plus icon on the *Libraries* tab and defining all the required properties in the Inspector.
 
-![Adding a layer style. Way 1](public/addstyle.png)
+![Adding a layer style. Way 1](public/addstyle_new.png)
 
 **Way 2.** By first defining the properties of an object and then saving them as a style.
 
-![Adding a layer style. Way 2](public/addstyle2.png)
+![Adding a layer style. Way 2](public/addstyle2_new.png)
 
 The new style will appear on the *Libraries* panel on the left.
 
@@ -64,7 +64,7 @@ To modify a layer style, select an object using this style and make changes to i
 
 When you are done, you will see an asterisk next to the style name on the Inspector panel. It indicates that changes have been made to the style.
 
-![Modifying a layer style](public/modifystyle.png)
+![Modifying a layer style](public/modifystyle_new.png)
 
 Click the down arrowhead next to the style name and select one of the following options on the menu:
 
@@ -75,11 +75,13 @@ Click the down arrowhead next to the style name and select one of the following 
 
 Click the required object and select the style you want to apply to it from the menu on the Inspector panel.
 
-![Applying styles](public/applyingstyles.png)
+![Applying styles](public/applyingstyles_new.png)
 
-Optionally, after selecting the object you can right-click the required style on the left panel and click *Apply style to node* on the displayed menu.
+Optionally, after selecting the object you can click the required style on the left panel and then click the replacement icon as shown below.
 
-![Applying styles. Way 2](public/applyingstyles.png)
+![Applying styles. Way 2](public/applyingstyles2_new.png)
+
+You can also apply a style to multiple selected objects at a time.
 
 ### Detaching a style
 
