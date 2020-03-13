@@ -91,16 +91,66 @@ Click the required object and select the *Detach style* command on the menu as s
 
 The appearance of the object remains the same, but it is no longer associated with the style and further changes to the style will not affect the object.
 
-### Managing styles
+### Organizing styles
 
-You can arrange styles in the list to your liking, expand or collapse style blocks, rename and delete unnecessary styles. For this, right-click over a style block and select the respective command on the displayed menu.
+It is a good practice to organize styles into categories similar to those shown in the figure below.
 
-![Managing styles](public/tabs4.gif)
+![Layer style categories](public/layers-organizing.png)
+
+To divide your styles into categories, consider the following format of style names:
+
+`Category name / Subcategory name / Style name`  
+
+For example, to organize your styles of backgrounds, you can give them the following names:
+
+* Backgrounds / Light
+* Backgrounds / Dark
+* etc.
+
+You don't need to manually create categories and subcategories. Lunacy will show them automatically based on style names. The number of nesting levels for subcategories is not limited.
+
+To rename a style:
+
+1. On the **Library** panel, right-click the symbol on the **Symbols** panel, and select **Rename** on the displayed menu or press  `F2`, if you prefer shortcuts.
+2. Enter the new name and click `Enter`.
+
+To rename a style category, right-click the category you want to rename and select the respective command on the displayed menu.
+
+Style categories and styles appear in the A-Z order on the **Library** tab.
+
+To unfold/fold the content of all style categories, right-click anywhere over the category list and select **Expand All/Collapse All** on the displayed menu.
+
+### Deleting styles and categories
+
+To delete a style:
+
+* Click the style in the list and press `Delete`.
+
+    OR
+* Right-click the style in the list and select **Delete** in the displayed menu.
+
+To delete a style category, right-click the category you want to delete and select the respective command on the displayed menu.
 
 ## Text styles
 
 Working with text styles is almost the same as with [Layer styles](#layer-styles). The only difference is that in addition to such properties as fills, shadows, etc., text styles also feature a set of typography properties that include font size, font family, line spacing and others.
 
-![Managing styles](public/text.png)
+![Text styles](public/text.png)
 
 See also the [Objects](https://docs.icons8.com/objects/#text) section for tips on working with text objects.
+
+## External styles
+
+You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the UI kits library. For details about UI kits, click [here](#https://docs.icons8.com/libraries/#ui-kits).
+
+To apply an external style to an object:
+
+1. Select the object on the canvas.
+2. In the **Appearance** section of the Inspector panel, click the down arrowhead to invoke the menu.
+3. In the **UI kits** section of the menu, navigate to the required style.
+
+![Applying an external style](public/applyuikitstyle.gif)
+
+You cannot make changes to external styles, but you can use the **Unlink from Library** feature. This feature will add a copy of the style you need to your documents assets, i.e. to your layer or text library. After that, you can do whatever you want with the unlinked style as with any other style within your project.
+
+![Unlinking an external style](public/unlinkstlye.png).
