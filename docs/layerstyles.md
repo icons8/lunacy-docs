@@ -22,11 +22,11 @@ page_nav:
         url: '/styling'
 ---
 
-Layer and text styles are predefined sets of layer and text properties that you can reuse in your designs. With the help of styles you can dramatically save your time and make your designs look more professional and consistent.  When you modify a style, the changes are immediately applied to all the objects using this style.
+Layer and text styles are predefined sets of layer and text properties that you can reuse in your designs. With the help of styles you can dramatically save your time and make your designs look more professional and consistent.  When you modify a style, Lunacy immediately applies them to all the objects using this style.
 
 You will store your custom layer and text styles on the **Libraries** tab.
 
-![A view of the Libraries tab](public/tabs3.gif)
+![A view of the Libraries tab](public/layerdemo1.gif)
 
 ## [Layer styles](#layer-styles)
 
@@ -35,8 +35,8 @@ Layer style properties include:
 * Fills
 * Borders
 * Shadows
-* Inner shadow
-* Gaussian blur
+* Inner shadows
+* Blurs
 
 They appear in the Inspector when you select an object.
 
@@ -48,7 +48,7 @@ For details on styling properties, refer to the [Styling](https://docs.icons8.co
 
 There are two ways of adding layer styles.
 
-**Way 1.** By clicking the plus icon on the *Libraries* tab and defining all the required properties in the Inspector.
+**Way 1.** By clicking the plus icon in the **Libraries** panel and defining all the required properties in the Inspector.
 
 ![Adding a layer style. Way 1](public/addstyle_new.png)
 
@@ -56,28 +56,39 @@ There are two ways of adding layer styles.
 
 ![Adding a layer style. Way 2](public/addstyle2_new.png)
 
-The new style will appear on the *Libraries* panel on the left.
+The new style will appear in the **Libraries** panel.
 
 ### Modifying a layer style
 
-To modify a layer style, select an object using this style and make changes to its properties in the Inspector. You will note that when you change the style, all the objects using this style are instantly updated.
+There are two ways to modify a style.
 
-When you are done, you will see an asterisk next to the style name on the Inspector panel. It indicates that changes have been made to the style.
+**Way 1.**
 
-![Modifying a layer style](public/modifystyle_new.png)
+1. In the **Libraries** panel, click the style you want to modify . The **Edit Layer Style** panel appears on the right.
+2. Use the panel to make the required changes.
+3. Click the **Save** button below the preview window. To discard all changes that you have made but have not saved yet, use the **Reset** button.
 
-Click the down arrowhead next to the style name and select one of the following options on the menu:
+![Modifying a layer style](public/modifystyle_new1.png)
 
-* Update style: Saves the changes to the existing style
-* Create New Layer Style: Saves the changes to a new style.
+**Way 2.**
+
+1. Select an object using the style you want to modify.
+2. Make the required changes in the Inspector. When you are done, you will see an asterisk next to the style name in the Inspector. It indicates that changes have been made to the style.
+3. Click the down arrowhead next to the style name and select one of the following options on the menu:
+
+    * Update Style: Saves the changes to the existing style.
+    * Create New Layer Style: Saves the changes to a new style.
+    * Reset Style: Discards all changes that you have made.
+
+![Modifying a layer style](public/modifystyle_new2.png)
 
 ### Applying styles to objects
 
-Click the required object and select the style you want to apply to it from the menu on the Inspector panel.
+Click the required object and select the style you want to apply to it from the menu in the Inspector.
 
 ![Applying styles](public/applyingstyles_new.png)
 
-Optionally, after selecting the object you can click the required style on the left panel and then click the replacement icon as shown below.
+Optionally, after selecting the object you can click the required style in the left panel and then click the replacement icon as shown below.
 
 ![Applying styles. Way 2](public/applyingstyles2_new.png)
 
@@ -85,7 +96,7 @@ You can also apply a style to multiple selected objects at a time.
 
 ### Detaching a style
 
-Click the required object and select the *Detach style* command on the menu as shown below.
+Click the required object and select the **Detach style** command on the menu as shown below.
 
 ![Detaching a style](public/detaching.png)
 
@@ -111,12 +122,12 @@ You don't need to manually create categories and subcategories. Lunacy will show
 
 To rename a style:
 
-1. On the **Library** panel, right-click the symbol on the **Symbols** panel, and select **Rename** on the displayed menu or press  `F2`, if you prefer shortcuts.
-2. Enter the new name and click `Enter`.
+1. In the **Library** panel, right-click the style and select **Rename** on the displayed menu or press  `F2`, if you prefer shortcuts.
+2. Type the new name and press `ENTER`.
 
 To rename a style category, right-click the category you want to rename and select the respective command on the displayed menu.
 
-Style categories and styles appear in the A-Z order on the **Library** tab.
+Style categories and styles appear in the A-Z order in the **Library** panel.
 
 To unfold/fold the content of all style categories, right-click anywhere over the category list and select **Expand All/Collapse All** on the displayed menu.
 
@@ -124,10 +135,10 @@ To unfold/fold the content of all style categories, right-click anywhere over th
 
 To delete a style:
 
-* Click the style in the list and press `Delete`.
+* Click the style in the list and press `DELETE`.
 
     OR
-* Right-click the style in the list and select **Delete** in the displayed menu.
+* Right-click the style in the list and select **Delete** on the displayed menu.
 
 To delete a style category, right-click the category you want to delete and select the respective command on the displayed menu.
 
@@ -141,12 +152,12 @@ See also the [Objects](https://docs.icons8.com/objects/#text) section for tips o
 
 ## External styles
 
-You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the UI kits library. For details about UI kits, click [here](#https://docs.icons8.com/libraries/#ui-kits).
+You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the **UI Kits** library. For details about UI kits, click [here](https://docs.icons8.com/libraries/#ui-kits).
 
 To apply an external style to an object:
 
 1. Select the object on the canvas.
-2. In the **Appearance** section of the Inspector panel, click the down arrowhead to invoke the menu.
+2. In the **Appearance** section of the Inspector, click the down arrowhead to invoke the menu.
 3. In the **UI kits** section of the menu, navigate to the required style.
 
 ![Applying an external style](public/applyuikitstyle.gif)
