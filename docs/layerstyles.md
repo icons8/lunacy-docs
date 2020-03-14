@@ -151,6 +151,6 @@ To apply an external style to an object:
 
 ![Applying an external style](public/applyuikitstyle.gif)
 
-You cannot make changes to external styles, but you can use the **Unlink from Library** feature. This feature will add a copy of the style you need to your documents assets, i.e. to your layer or text library. After that, you can do whatever you want with the unlinked style as with any other style within your project.
+You cannot make changes to external styles, but you can use the **Unlink from Library** feature. This feature will add a copy of the style you need to your document assets, i.e. to your layer or text library. After that, you can do whatever you want with the unlinked style as with any other style within your project.
 
 ![Unlinking an external style](public/unlinkstlye.png).
