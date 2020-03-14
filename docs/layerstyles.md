@@ -124,7 +124,7 @@ You don't need to manually create categories and subcategories. Lunacy will show
 To rename a style:
 
 1. In the **Library** panel, right-click the style and select **Rename** on the displayed menu or press  `F2`, if you prefer shortcuts.
-2. Type the new name and press `ENTER`.
+2. Type the new name and press `Enter`.
 
 To rename a style category, right-click the category you want to rename and select the respective command on the displayed menu.
 
@@ -136,7 +136,7 @@ To unfold/fold the content of all style categories, right-click anywhere over th
 
 To delete a style:
 
-* Click the style in the list and press `DELETE`.
+* Click the style in the list and press `Delete`.
 
     OR
 * Right-click the style in the list and select **Delete** on the displayed menu.
