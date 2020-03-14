@@ -161,6 +161,7 @@ To apply an external style to an object:
 2. In the **Appearance** section of the Inspector, click the down arrowhead to invoke the menu.
 3. In the **UI kits** section of the menu, navigate to the required style.
 
+{:.is-big}
 ![Applying an external style](public/applyuikitstyle.gif)
 
 You cannot make changes to external styles, but you can use the **Unlink from Library** feature. This feature will add a copy of the style you need to your document assets, i.e. to your layer or text library. After that, you can do whatever you want with the unlinked style as with any other style within your project.
