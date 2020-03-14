@@ -26,6 +26,7 @@ Layer and text styles are predefined sets of layer and text properties that you 
 
 You will store your custom layer and text styles on the **Libraries** tab.
 
+{:.is-big}
 ![A view of the Libraries tab](public/layerdemo1.gif)
 
 ## [Layer styles](#layer-styles)
