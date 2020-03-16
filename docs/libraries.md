@@ -106,7 +106,7 @@ The default location of the preinstalled UI kits is at `C:\Program Files\Lunacy\
 
 >**Tip:** If you're working with a large project and feel that your computer is slow, you can disable the UI kits that you don't currently need. This will spare some system resources. You can always enable UI kits later.
 
-To enable/disable UI kits:
+To disable/enable UI kits:
 
 1. Click the settings button at the upper-right corner of the library panel.
 2. Clear/select respective checkboxes.
