@@ -102,8 +102,6 @@ Lunacy library includes the following UI kits:
 
 In fact, UI kits are external .sketch files with ready-made [symbols](https://docs.icons8.com/symbols), [layer styles](https://docs.icons8.com/layerstyles/#layer-styles) and [text styles](https://docs.icons8.com/layerstyles/#text-styles).
 
-The default location of the preinstalled UI kits is at `C:\Program Files\Lunacy\Components\UIKits`.
-
 >**Tip:** If you're working with a large project and feel that your computer is slow, you can disable the UI kits that you don't currently need. This will spare some system resources. You can always enable UI kits later.
 
 To disable/enable UI kits:
@@ -122,9 +120,11 @@ Also, you can add any other UI kits that you might find on the Internet or get f
 
 To add a custom UI kit to the library:
 
-1. Click the plus button at the upper-right corner of the library panel. The **Open** dialog box appears.
+1. Click the plus button at the upper-right corner of the library panel (see the figure below). The **Open** dialog box appears.
 2. In the dialog box, select your .sketch file .
 3. Click the **Open** button.
+
+![Adding a custom UI kit](public/adduikit.png)
 
 To delete a custom UI kit from the library:
 
