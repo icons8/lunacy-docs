@@ -129,7 +129,7 @@ To add a custom UI kit to the library:
 To delete a custom UI kit from the library:
 
 1. Right-click the kit in the library panel.
-2. On the displayed menu, select **Delete from Library**.
+2. On the displayed menu, select **Delete Library**.
 
 You can also use the **Show in File Explorer** command, to learn the location of a UI kit file.
 
@@ -153,7 +153,7 @@ Like with other library items, you can replace the selected item on the canvas w
 
 ![Working with UI kits](public/uikitadd.gif)
 
-On the **Objects** tab, items from a UI kit library appear with the link icon in front of their names (see the figure below). It indicates that the object is an instance of a symbol from an external file and that you cannot modify its properties, except for the size and text. To get more control over a library item, consider the following commands accessible on the context menu or menus invoked from the menu bar and the Inspector:
+On the **Objects** tab, items from a UI kit library appear with the link icon in front of their names (see the figure below). It indicates that the object is an instance of a symbol from an external file. You cannot modify such objects, except for the size and overrides. To get more control over a library item, consider the following commands accessible on the context menu or menus invoked from the menu bar and the Inspector:
 
 * Detach from Symbols: Converts the selected instance into a layered object.
 * Detach from Library: Adds a master symbol of the selected instance to the document assets, i.e. to the symbols page. After you detach a symbol from the library, you can work with it as with all other symbols in your project.
