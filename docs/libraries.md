@@ -52,9 +52,9 @@ The Lunacy icon library exceeds 140 thousand items which is more than enough eve
 
 When working with icons you can select their:
 
-* initial size
-* color
-* opacity
+* Initial size
+* Color
+* Opacity
 
 ![Working with icons](public/iconssizecolor2.gif)
 
@@ -85,6 +85,12 @@ Like with [photos](#photos-and-masked-photos), when working with illustrations y
 
 ## UI kits
 
+>**Tip:** To better understand the intent and how to use UI kits, we recommend that you first read the [Symbols](https://docs.icons8.com/symbols) and [Layer and text styles](https://docs.icons8.com/layerstyles) sections of our documentation.
+
+With Lunacy you always have all popular UI kits at hand. They can be of great help when you are working on a project for a specific OS or device. You can quickly find the required components (buttons, menus, colors, etc.) and add them to your design.
+
+### Preinstalled UI kits
+
 Lunacy library includes the following UI kits:
 
 * Apple macOS
@@ -94,10 +100,68 @@ Lunacy library includes the following UI kits:
 * Apple iOS
 * Microsoft Web Fluent
 
-You can **hide** the kits that you don't need. For this, press the settings button at the upper-right corner of the library panel and clear respective checkboxes.
+In fact, UI kits are external .sketch files with ready-made [symbols](https://docs.icons8.com/symbols), [layer styles](https://docs.icons8.com/layerstyles/#layer-styles) and [text styles](https://docs.icons8.com/layerstyles/#text-styles).
 
-![Hiding UI kits](public/uikits.png)
+The default location of the preinstalled UI kits is at `C:\Program Files\Lunacy\Components\UIKits`.
 
-Click the settings button once again to exit the settings mode.
+>**Tip:** If you're working with a large project and feel that your computer is slow, you can disable the UI kits that you don't currently need. This will spare some system resources. You can always enable UI kits later.
 
-Also, you can **add your own UI kits** to the list. Click the plus button at the upper-right corner of the library panel and define the path to your .sketch file in the displayed dialog box. Note that .sketch files that you intend to use as UI kits must include symbols.
+To enable/disable UI kits:
+
+1. Click the settings button at the upper-right corner of the library panel.
+2. Clear/select respective checkboxes.
+3. Click the settings button once again to exit the settings mode.
+
+![Disabling UI kits](public/uikits.png)
+
+### Custom UI kits
+
+You can create your own kits and save them for further use or share them with other people. For this, you should convert the components (UI elements, colors, typography) that you are going to reuse into symbols, layer and text styles, accordingly.
+
+Also, you can add any other UI kits that you might find on the Internet or get from your team. The only requirement is that those *must* be .sketch files and they *must* include symbols.
+
+To add a custom UI kit to the library:
+
+1. Click the plus button at the upper-right corner of the library panel. The **Open** dialog box appears.
+2. In the dialog box, select your .sketch file .
+3. Click the **Open** button.
+
+To delete a custom UI kit from the library:
+
+1. Right-click the kit in the library panel.
+2. On the displayed menu, select **Delete from Library**.
+
+You can also use the **Show in File Explorer** command, to learn the location of a UI kit file.
+
+![Working with UI kits](public/libraries-delcustuikit.png)
+
+### Using UI kits
+
+In general, the workflow with UI kits is as follows:
+
+* In the left panel (on the **Objects** and **Libraries** tabs) you deal with symbols.
+* In the right panel (the Inspector) you make use of layer and text styles.
+
+#### Symbols
+
+To add an item from a UI kit library to your project:
+
+1. Find the required item. For this, you can browse the library categories or use the search. The search works both, globally, across all libraries, or inside a specific library, depending on where you are in the interface.
+2. Click the **Paste to workspace** icon or just drop the item onto the canvas.
+
+Like with other library items, you can replace the selected item on the canvas with the one from the library.
+
+![Working with UI kits](public/uikitadd.gif)
+
+On the **Objects** tab, items from a UI kit library appear with the link icon in front of their names (see the figure below). It indicates that the object is an instance of a symbol from an external file and that you cannot modify its properties, except for the size and text. To get more control over a library item, consider the following commands accessible on the context menu or menus invoked from the menu bar and the Inspector:
+
+* Detach from Symbols: Converts the selected instance into a layered object.
+* Detach from Library: Adds a master symbol of the selected instance to the document assets, i.e. to the symbols page. After you detach a symbol from the library, you can work with it as with all other symbols in your project.
+* Restore instance size: Restores the original size of the selected instance.  
+
+{:.is-big}
+![Working with UI kits](public/uikitscommands.png)
+
+#### Layer and text styles
+
+For more information on how to use layer and text styles from UI kits, read [here](https://docs.icons8.com/layerstyles/#external-styles).
