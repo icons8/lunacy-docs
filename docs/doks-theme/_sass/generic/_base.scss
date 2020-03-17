@@ -19,8 +19,15 @@ html {
 body {
 	color: $color-dark;
 	font-family: $font-family-primary;
-	font-size: $font-size-base;
-	line-height: $line-height-base;
+	font-size: 14px;
+	line-height: 24px;
+	@media (min-width: $screen-sm-min){
+		font-size: 16px;
+	}
+	@media (min-width: $screen-lg-min){
+		font-size: 18px;
+		line-height: 32px;
+	}
 }
 
 /* ----- Everything ----- */
