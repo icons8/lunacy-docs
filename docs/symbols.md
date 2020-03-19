@@ -277,6 +277,7 @@ The commands are as follows:
   </tbody>
 </table>
 
+
 ## Nested symbols
 
 Until now we've been considering  only primitive symbols. But you can also create complex symbols with other symbols inside. That will be nested symbols. And that is nested symbols that will become real time savers for your projects.
