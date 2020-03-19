@@ -284,11 +284,6 @@ The commands are as follows:
 
 Until now we've been considering  only primitive symbols. But you can also create complex symbols with other symbols inside. That will be nested symbols. And that is nested symbols that will become real time savers for your projects.
 
-The gif below shows a complex master symbol (leftmost) and its instances created in several easy steps described below. Note how changes to the master immediately apply to the instances.
-
-{:.is-big}
-![Layer and text style overrides](public/symb-tutorial11.gif)
-
 ## [Overrides](#overrides)
 
 Overrides are changes that you can make to a specific symbol instance not affecting the master symbol and other instances of this symbol across the project.
