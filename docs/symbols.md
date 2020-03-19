@@ -22,9 +22,12 @@ page_nav:
         url: '/styling'
 ---
 
-**Symbols** are reusable objects or groups of objects that make your designs consistent and your life easier. When working with symbols you should understand the idea of **master symbols** and **symbol instances**.
+**Symbols** are reusable objects or groups of objects that make your designs consistent and your life easier.
 
-For example, when you are designing a UI, you can create a button symbol (that will be a master symbol) and then add identical buttons (symbol instances) wherever you need them with just a click. If you later decide to change the size, shape or the color of your buttons, you'll need to modify only the master symbol, and the changes will immediately apply to all the instances.
+{:.is-big}
+![Layer and text style overrides](public/symb-tutorial14.gif)
+
+When working with symbols you should understand the idea of **master symbols** and **symbol instances**. For example, when you are designing a UI, you can create a button symbol (that will be a master symbol) and then add identical buttons (symbol instances) wherever you need them with just a click. If you later decide to change the size, shape or the color of your buttons, you'll need to modify only the master symbol, and the changes will immediately apply to all the instances.
 Moreover, you can also change the text on one or even all instances. That will be an **override**. We will discuss overrides later in this section.
 
 ## [Creating symbols](#creating-symbols)
@@ -142,7 +145,7 @@ The changes you make immediately apply to all the symbol instances across the pr
 ### Deleting  master symbols
 
 To delete a master symbol, you should either do it from the **Library** or from the **Objects** panel.
-Note that deletion of a master turns all its instances into objects.
+Note that deletion of a master turns all its instances into groups.
 
 ## Symbol instances
 
@@ -203,14 +206,14 @@ There are two ways to replace an instance on the canvas.
 2. In the **Symbol** section of the Inspector panel, click the down arrowhead to unfold the menu.
 3. Use the menu to find and select the replacement symbol.
 
+![Replacing symbol instances](public/symb-replaceinst.gif)
+
 The menu features the following sections:
 
 * Commands: Shows the list of symbol-related commands. Click [here](#symbol-related-commands) for details.
 * Related: Shows the symbols that share the same category/subcategory with the selected symbol instance.
 * Categories: Shows the list of available symbol categories. You can click through the categories and subcategories to find the required symbol. For your convenience, the category and subcategories to which the selected symbol instance belong will have a dot next their names (see the gif below). For details about how to organize symbols, read [here](#organizing-symbols).
 * UI kits: Shows the list of external UI kits from where you can also select a replacement. For details about UI kits, click [here](https://docs.icons8.com/libraries/#ui-kits)
-
-![Replacing symbol instances](public/symb-replaceinst.gif)
 
 **Tip:** The size of the menu depends on the number of symbols and symbol categories in your project. If you don't see the content of the upper or lower menu sections in full, use the scroll.
 
@@ -246,12 +249,12 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Detach from Symbols</td>
-      <td>When you detach an instance from its master, it becomes an independent object. All further changes to the master symbol will no longer apply to its ex-instance.</td>
+      <td>When you detach an instance from its master, it becomes a group. All further changes to the master symbol will no longer apply to its ex-instance.</td>
       <td><code>Ctrl+Alt+D</code></td>
     </tr>
     <tr>
       <td>Detach from Library</td>
-      <td>This command is similar to the previous one, but applies only to symbols from external files, i.e. to symbols from UI kits. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits">here</a>.</td>
+      <td>This command applies only to symbols from external files, i.e. to symbols from UI kits. It creates adds a copy of the selected symbol to the document assets, i.e. to the <a href="https://docs.icons8.com/symbols/#symbols-page">symbols page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits">here</a>.</td>
       <td><code>-</code></td>
     </tr>
     <tr>
@@ -303,7 +306,7 @@ Currently, Lunacy provides the following types of overrides:
 
 This mini tutorial will help you better understand the idea and the power of overrides. Also, you will learn how to use some of the advanced Lunacy features.
 
-Let's assume that we are designing a contact UI for a mobile app. We have prepared two templates: light and dark. In the figure below, they are on the right. The figure is a screenshot of the symbols page of the project. These two templates are complex symbols that include several individual symbols shown to the left of the templates. Once an individual symbol becomes a part of a complex symbol, we call it a nested symbol.
+Let's assume that we are designing a contact UI. We have prepared two templates: light and dark. In the figure below, they are on the right. The figure is a screenshot of the symbols page of the project. These two templates are complex symbols that include several individual symbols shown to the left of the templates. Once an individual symbol becomes a part of a complex symbol, we call it a nested symbol.
 
 {:.is-big}
 ![A view of the symbols page](public/symb-tutorial1.png)
