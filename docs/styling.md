@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Layer and text styles
-        url: '/layerstyles'
+        content: Symbols
+        url: '/symbols'
     prev:
         content: Objects
         url: '/objects'
