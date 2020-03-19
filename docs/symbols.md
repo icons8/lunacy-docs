@@ -224,6 +224,7 @@ To access them,  first select a symbol instance and then open the menu in the In
 ![Symbol-related commands](public/symb-menucommands.png)
 
 The commands are as follows:
+
 <table>
   <thead>
     <tr>
@@ -270,13 +271,11 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Organize Symbols</td>
-      <td>A click over this command opens the symbols panel on the <B>Libraries</B> tab, where you can organize symbols as described <a href="https://docs.icons8.com/libraries/organizing-symbols">here</a>.</td>
+      <td>A click over this command opens the symbols panel on the <B>Libraries</B> tab, where you can organize symbols as described <a href="https://docs.icons8.com/symbols/#organizing-symbols">here</a>.</td>
       <td><code>-</code></td>
     </tr>
   </tbody>
 </table>
-
-
 
 ## Nested symbols
 
@@ -396,6 +395,7 @@ The procedure is as follows:
 2. In the **Symbol** section of the Inspector, click the down arrowhead. The menu appears.
 3. In the categories section of the menu, navigate to the required symbol (see the gif below).
 
+{:.is-big}
 ![Text override. Step 2](public/symb-tutorial9.gif)
 
 As you might notice, at the end we also made a text override.
