@@ -266,7 +266,7 @@ The commands are as follows:
     <tr>
       <td>Send to Symbols page</td>
       <td>This command applies only to master symbols and becomes available only when a symbol is not on a dedicated symbols page.</td>
-      <td><code>-</code>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>Organize Symbols</td>
