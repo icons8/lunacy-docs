@@ -254,7 +254,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Detach from Library</td>
-      <td>This command applies only to symbols from external files, i.e. to symbols from UI kits. It creates adds a copy of the selected symbol to the document assets, i.e. to the <a href="https://docs.icons8.com/symbols/#symbols-page">symbols page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits">here</a>.</td>
+      <td>This command applies only to symbols from external files, i.e. to symbols from UI kits. It adds a copy of the selected symbol to the document assets, i.e. to the <a href="https://docs.icons8.com/symbols/#symbols-page">symbols page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits">here</a>.</td>
       <td><code>-</code></td>
     </tr>
     <tr>
