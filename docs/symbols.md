@@ -387,7 +387,8 @@ First of all, let's change the icon in front of the contact's email address for 
 {:.is-big}
 ![Nested symbols override. Step 1](public/symb-tutorial-nestoverstep1.png)
 
-**Step 2**
+**Step 2.**
+
 At the bottom of our template we have three buttons: one is in the active state, two others are inactive. Let's show how the button will look when hovered over. For this, we have also created an individual symbol, which will override the current one.
 The procedure is as follows:
 
