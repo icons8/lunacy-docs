@@ -224,7 +224,6 @@ To access them,  first select a symbol instance and then open the menu in the In
 ![Symbol-related commands](public/symb-menucommands.png)
 
 The commands are as follows:
-
 <table>
   <thead>
     <tr>
@@ -276,6 +275,7 @@ The commands are as follows:
     </tr>
   </tbody>
 </table>
+
 
 
 ## Nested symbols
