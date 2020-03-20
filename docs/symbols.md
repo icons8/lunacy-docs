@@ -34,7 +34,7 @@ Moreover, you can also change the text on one or even all instances. That will b
 
 Select the object and perform one of the following actions:
 
-* Click the plus icon on the symbols panel.
+* Click the plus icon in the symbols panel.
 * Click the add symbol on the tool bar at the top of the window.
 * Right-click and select **Create symbol** on the displayed menu.
 * Press `Ctrl` + `Alt` + `K`, if you prefer shortcuts.
