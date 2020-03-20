@@ -24,11 +24,13 @@ page_nav:
 
 **Symbols** are reusable objects or groups of objects that make your designs consistent and your life easier.
 
-{:.is-big}
-![Layer and text style overrides](public/symb-tutorial14.gif)
-
 When working with symbols you should understand the idea of **master symbols** and **symbol instances**. For example, when you are designing a UI, you can create a button symbol (that will be a master symbol) and then add identical buttons (symbol instances) wherever you need them with just a click. If you later decide to change the size, shape or the color of your buttons, you'll need to modify only the master symbol, and the changes will immediately apply to all the instances.
 Moreover, you can also change the text on one or even all instances. That will be an **override**. We will discuss overrides later in this section.
+
+The gif below demonstrates the effect and efficiency of using symbols in designs.
+
+{:.is-big}
+![Layer and text style overrides](public/symb-tutorial14.gif)
 
 ## [Creating symbols](#creating-symbols)
 
