@@ -23,6 +23,35 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
+## 5.3
+_RELEASED March 25, 2020_  
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.3.0.exe)
+
+### Features
+- Sketch Cloud integration:
+    - Profile, Teams, Projects, Sharing - this release
+    - Libraries, Prototyping Preview in Cloud - will be in the next release
+    - Comments, Manage Versions, Notifications, Access Management - will be in the future
+
+### Improvements
+- Ability to rename element using F2 hotkey
+- Ability to lock/hide element from context menu
+- Minor performance optimizations
+- Ability to enable/disable generated text data refresh on duplicate of text element
+- Ability to select all guidelines
+- Ctrl+P to Print - export selected artboard to the PDF and open it
+- Ability to clear recent list
+- Better way to make a flow connection - like in sketch
+
+### Bug Fixes
+- Fixed group edit issues
+- Fixed flip issues
+- Fixed Vector Tool issues
+- Fixed resizing issues
+- Fixed snapping issues
+- Fixed typography issues
+
 ## 5.2
 _RELEASED March 02, 2020_  
 
