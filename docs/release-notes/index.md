@@ -26,8 +26,6 @@ Version 5 takes Lunacy out of beta (better stability and performance), provides 
 ## 5.3
 _RELEASED March 25, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.3.0.exe)
-
 ### Features
 - Sketch Cloud integration:
     - Profile, Teams, Projects, Sharing - this release
