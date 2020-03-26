@@ -23,6 +23,14 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
+## 5.3.1 hotfix
+_RELEASED March 26, 2020_  
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.3.1.exe)
+
+### Bug Fixes
+- Critical bugs fixed
+
 ## 5.3
 _RELEASED March 25, 2020_  
 
