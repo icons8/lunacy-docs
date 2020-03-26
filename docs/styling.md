@@ -18,8 +18,8 @@ page_nav:
         content: Symbols
         url: '/symbols'
     prev:
-        content: Objects
-        url: '/objects'
+        content: Text
+        url: '/text'
 ---
 
 

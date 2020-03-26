@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Styling
-        url: '/styling'
+        content: Text
+        url: '/text'
     prev:
         content: Editing
         url: '/editing'

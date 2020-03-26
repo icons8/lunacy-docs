@@ -29,6 +29,10 @@ grid_navigation:
       excerpt: Learn about shapes that Lunacy provides
       url: '/objects'
       icon: 'ungroup-objects'
+    - title: 'Text'
+      excerpt: Learn how to work with text in Lunacy
+      url: '/text'
+      icon: 'document'
     - title: 'Styling'
       excerpt: Learn about tools that will help you create your unique style
       url: '/styling'
