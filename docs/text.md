@@ -26,7 +26,7 @@ page_nav:
 
 ## Text
 
-Text is one of the key aspects of almost every design project. This section you describes how to work with text layers in Lunacy.
+Text is one of the key aspects of almost every design project. This section describes how to work with text layers in Lunacy.
 
 ## Text-related controls
 
