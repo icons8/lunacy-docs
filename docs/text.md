@@ -277,7 +277,7 @@ Combinations of layer styling effects and typography settings make up text style
 
 ![Hiding common layer effects](public/text-effectsno.gif)
 
-For details about styling properties, read [here](https://docs.icons8.com/styling/)
+For details about styling properties, read [here](https://docs.icons8.com/styling/).
 
 ## [Floating panel](#floating-panel)
 
