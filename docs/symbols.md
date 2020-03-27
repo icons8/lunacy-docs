@@ -373,6 +373,8 @@ The gif below demonstrates text overrides described in Steps 2 and 3.
 
 ![Text override. Steps 2 and 3](public/symb-tutorial8.gif)
 
+For details, about text generation and text snippets, click [here](https://docs.icons8.com/text/#text-generation-and-text-snippets).
+
 ### Nested symbols overrides
 
 Now we'll have a look at how nested symbols overrides work.
