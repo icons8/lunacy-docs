@@ -177,9 +177,9 @@ Use this control to define the required font size in pixels. You can do it by:
 
 ### Mixed font settings
 
-You can apply different font settings of the same type (fonts, colors, font sizes or weights) to a text within a layer. In such a case the respective controls in the Inspector will display *Mix*.
-
 ![Mixed settings](public/text-mixed.png)
+
+You can apply different font settings of the same type (fonts, colors, font sizes or weights) to a text within a layer. In such a case the respective controls in the Inspector will display *Mix*.
 
 ### Text alignment options
 
