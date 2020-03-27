@@ -223,9 +223,9 @@ In the latter case:
 
 These three buttons determine the behavior of text boxes depending on the size of the content.
 
-1. Horizontal resize: In this mode, the text box expands horizontally as wide as it is required to fit all the content on a single line.
-2. Vertical resize: In this mode, the text box adjusts vertically to fit all the content while the width of the box remains unchanged.
-3. Fixed size: In this mode, the size of the text box is fixed and, unlike in the above two modes, does not adjust to fit the content.
+1. **Horizontal resize**: In this mode, the text box expands horizontally as wide as it is required to fit all the content on a single line.
+2. **Vertical resize**: In this mode, the text box adjusts vertically to fit all the content while the width of the box remains unchanged.
+3. **Fixed size**: In this mode, the size of the text box is fixed and, unlike in the above two modes, does not adjust to fit the content.
 
 ### Position alignment
 
