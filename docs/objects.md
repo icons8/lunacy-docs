@@ -78,38 +78,7 @@ You can add text by choosing the Text tool from the Shapes and Objects toolbar (
 {:.image-info}
 Text tool in action
 
-When you have a text layer selected you will notice that the Inspector changes to show you all the properties that apply to text. Underneath the standard object properties, there’s an area for text style options which includes:
-
-* Font family
-* Font size
-* Font weight
-* Font color
-* Line spacing
-* Alignment options
-
-{:.is-big}
-![Chaning font properties](public/objects_editing_text.png)
-
-{:.image-info}
-All options you need to work with text
-
-### Missing Fonts, Solved
-
-When working with Sketch files that have been downloaded from the internet, or received from a colleague, it may contain fonts that you do not have on your system.
-
-### Auto Downloading
-
-If you open a file with missing fonts, Lunacy will check Google Fonts and download those that are missing. The process is so smooth, that you’ll never even notice it.
-
-### Auto Installation
-
-All the Google Fonts are already in the list. When you choose any one of them, Lunacy downloads it from the Google service. Smooth!
-
-### Auto Replacing
-
-In Lunacy, you only have to replace the font once throughout the entire document, while other editors require you to do it for every font instance.
-
-[//]: # (Maybe we should cut the above into couple sentences - ib)
+When you have a text layer selected you will notice that the Inspector changes to show you all the properties that apply to text. For details about working with text in Lunacy, click [here](https://docs.icons8.com/text/).
 
 ## Squares, Circles, Straight Lines
 
