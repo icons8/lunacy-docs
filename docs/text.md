@@ -39,7 +39,7 @@ The figure below shows the location of text-related controls in the Lunacy inter
 3. The **Edit object** button. The button appears when you select a text layer. Click this button to start editing the text. Alternatively, just press `Enter`.
 4. In the **Appearance** section you deal with [reusable text styles](https://docs.icons8.com/layerstyles/#text-styles). Also the section features the button that invokes the [floating style panel](#floating-panel).
 5. The **Generate text** button. A click over the button generates a random text.
-6. Another instance of the **Generate text** button. A click over the down arrowhead next to the button invokes the menu with text generation options. For details, click [here]((#text-generation-and-text-snippets)).
+6. Another instance of the **Generate text** button. A click over the down arrowhead next to the button invokes the menu with text generation options. For details, click [here](#text-generation-and-text-snippets).
 
 ## Adding text layers
 
