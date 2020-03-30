@@ -124,6 +124,9 @@
 	border: none;
 	display: block;
 	margin-bottom: 6.5rem;
+	img {
+		border:none;
+	}
 	@media (min-width: $screen-sm-min){
 		display: none;
 	}
@@ -187,6 +190,7 @@
 	padding: 0;
 	img{
 		width: 24px;
+		border:none;
 	}
 }
 
