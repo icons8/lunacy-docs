@@ -76,6 +76,10 @@
 	width: 48px;
 	margin: auto;
 	margin-bottom: 26px;
+	img {
+		border:none;
+	}
+
 	@media (min-width: $screen-sm-min){
 		display: none;
 	}
