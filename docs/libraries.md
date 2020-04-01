@@ -155,9 +155,9 @@ Like with other library items, you can replace the selected item on the canvas w
 
 On the **Objects** tab, items from a UI kit library appear with the link icon in front of their names (see the figure below). It indicates that the object is an instance of a symbol from an external file. You cannot modify such objects, except for the size and overrides. To get more control over a library item, consider the following commands accessible on the context menu or menus invoked from the menu bar and the Inspector:
 
-* Detach from Symbols: Converts the selected instance into a layered object.
-* Detach from Library: Adds a master symbol of the selected instance to the document assets, i.e. to the symbols page. After you detach a symbol from the library, you can work with it as with all other symbols in your project.
-* Restore instance size: Restores the original size of the selected instance.  
+* **Detach from Symbols**: Converts the selected instance into a layered object.
+* **Detach from Library**: Adds a master symbol of the selected instance to the document assets, i.e. to the symbols page. After you detach a symbol from the library, you can work with it as with all other symbols in your project.
+* **Restore instance size**: Restores the original size of the selected instance.  
 
 {:.is-big}
 ![Working with UI kits](public/uikitscommands.png)
