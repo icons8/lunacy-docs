@@ -246,14 +246,17 @@ Like other Cloud documents, libraries appear in the list of documents in the Clo
 
 Also, libraries available to you appear in the panel of UI kits (**Libraries** > **UI Kits** > **Import Cloud UI Kits**). Click the required library to add it to the list of UI kits.
 
+{:.is-big}
 ![Libraries](public/cloud-libraries.png)
 
 ## Viewing prototypes in Cloud
 
 If you are working on a prototype, you can view it in action on Sketch Cloud. For this:
 
-1. Select an artboard from which you want to start preview. Note that the artboard should have a hotspot and a configured target.
-2. Click the play button that will appear at the top bar.  
+1. Update the document in the Cloud to apply the latest changes.
+2. Make sure that Cloud processing is complete.
+3. Select an artboard from which you want to start preview. Note that the artboard should have a hotspot and a configured target.
+4. Click the play button that will appear at the top bar.  
 
 {:.is-big}
 ![Viewing a prototype](public/cloud-proto2.gif)
