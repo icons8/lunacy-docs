@@ -18,8 +18,8 @@ page_nav:
         content: Localization
         url: '/localization'
     prev:
-        content: Export
-        url: '/export'
+        content: Working with Sketch Cloud
+        url: '/cloud'
 ---
 
 

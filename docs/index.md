@@ -53,6 +53,10 @@ grid_navigation:
       excerpt: Learn about publishing capabilities and export formats of Lunacy
       url: '/export'
       icon: 'folder-invoices'
+    - title: 'Working with Sketch Cloud'
+      excerpt: Learn how to work with Sketch Cloud from Lunacy
+      url: '/cloud'
+      icon: 'upload-2'  
     - title: 'Shortcuts'
       excerpt: Make your workflow faster by learning Lunacy's shortcuts
       url: '/shortcuts'

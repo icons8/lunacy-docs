@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Shortcuts
-        url: '/shortcuts'
+        content: Working with Sketch Cloud
+        url: '/cloud'
     prev:
         content: Libraries
         url: '/libraries'
