@@ -24,9 +24,9 @@ page_nav:
 
 ## Overview
 
-Lunacy provides full support of Sketch Cloud. This enables you to upload your documents to the Cloud and:
+Lunacy provides full support of Sketch Cloud. This enables you to upload your documents to Sketch Cloud and:
 
-* Store your documents privately on the Cloud.
+* Store your documents privately on Cloud.
 * Access your documents from any location or computer.
 * Share your documents with other people and gather feedback.
 * Review different versions of documents.
@@ -85,7 +85,7 @@ You cannot edit Cloud versions of documents shared with you.
 
 **Libraries** are *shared documents* that you can use similarly to what we in Lunacy call [UI kits](https://docs.icons8.com/libraries/#ui-kits). When the owner of the file updates it in the Cloud, the updates become available to everyone who has access to the file. For details, click [here](#working-with-libraries).
 
-## Signing into the Cloud
+## Signing into Sketch Cloud
 
 To sign into the Sketch Cloud from Lunacy, click the Cloud icon on the top toolbar and enter your Sketch Cloud credentials in the displayed form (see the figure below). You can also use this form to create a new Cloud account and even to reset you password.
 
@@ -93,7 +93,7 @@ To sign into the Sketch Cloud from Lunacy, click the Cloud icon on the top toolb
 
 ## User settings
 
-After successful sign-in to the Cloud, you will see your Cloud username and avatar, as well as the list of your documents and projects if you've already had some in the Cloud.
+After successful sign-in, you will see your Cloud username and avatar, as well as the list of your documents and projects if you've already had some in the Cloud.
 
 ![First logon](public/cloud-firstlogon.png)
 
@@ -171,7 +171,6 @@ The commands available to the document owner include the following:
 
 * **Move to Team**: Allows you to move personal documents to the team area.
 * **Move to Project**: Allows you to organize your documents into projects.
-
 * **Delete**: Deletes the document from the Cloud.
 
 ## [Sharing documents](#sharing-documents)
