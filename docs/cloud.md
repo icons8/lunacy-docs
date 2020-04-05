@@ -33,7 +33,7 @@ Lunacy provides full support of Sketch Cloud. This enables you to upload your do
 * Collaborate with your team in the team area.
 * View prototypes in action.
 
-Except for some operations (such as team creation and commenting documents), the bulk of the Sketch Cloud functionality is accessible directly from Lunacy.
+Except for some operations (such as team creation and comments), the bulk of the Sketch Cloud functionality is accessible directly from Lunacy.
 
 This article focuses on how to make use of Sketch Cloud features in Lunacy. For general information about Sketch Cloud, as well as for specifics and licensing details, refer to [Sketch documentation](https://www.sketch.com/docs/sketch-cloud/).
 
