@@ -29,7 +29,7 @@ Moreover, you can also change the text on one or even all instances. That will b
 
 The demo below demonstrates the effect and efficiency of using symbols in designs.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symb-tutorial14.gif" height="auto"><source src="/public/symbolsdemo2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symb-tutorial14.gif" height="auto"><source src="/public/symbolsdemo3.mp4" type="video/mp4"></video>
 
 ## [Creating symbols](#creating-symbols)
 
