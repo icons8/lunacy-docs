@@ -40,7 +40,7 @@ To use the eyedropper tool:
 
 That is typically how all eyedroppers work in similar apps. But Lunacy's eyedropper also features a very nice zoom option that comes in handy when the target area is small and you need pixel precision. To enable zoom, hover the eyedropper over the target and hold down the left mouse button. Then point the eyedropper to the required pixel and release the mouse button. To exit the zoom mode, press `Esc` or quickly swipe the cursor anywhere away from the current area, see the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="80%" poster="/public/eyedropper2.gif" height="auto"><source src="/public/eyedropper2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/eyedropper3.gif" height="auto"><source src="/public/eyedropper2.mp4" type="video/mp4"></video>
 
 ## How Lunacy applies color to objects
 
