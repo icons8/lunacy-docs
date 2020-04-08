@@ -18,8 +18,8 @@ page_nav:
         content: Layer and text styles
         url: '/layerstyles'
     prev:
-        content: Styling
-        url: '/styling'
+        content: Smart eyedropper
+        url: '/eyedropper'
 ---
 
 **Symbols** are reusable objects or groups of objects that make your designs consistent and your life easier.

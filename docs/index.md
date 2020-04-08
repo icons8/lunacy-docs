@@ -37,6 +37,10 @@ grid_navigation:
       excerpt: Learn about tools that will help you create your unique style
       url: '/styling'
       icon: 'design'
+    - title: 'Smart eyedropper'
+      excerpt: How to be quick, efficient and precise when working colors
+      url: '/eyedropper'
+      icon: 'color-dropper'
     - title: 'Symbols'
       excerpt: Explore the power of Lunacy by learning how to use symbols
       url: '/symbols'
