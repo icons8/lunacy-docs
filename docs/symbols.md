@@ -214,7 +214,7 @@ The menu features the following sections:
 * Commands: Shows the list of symbol-related commands. Click [here](#symbol-related-commands) for details.
 * Related: Shows the symbols that share the same category/subcategory with the selected symbol instance.
 * Categories: Shows the list of available symbol categories. You can click through the categories and subcategories to find the required symbol. For your convenience, the category and subcategories to which the selected symbol instance belong will have a dot next their names (see the gif below). For details about how to organize symbols, read [here](#organizing-symbols).
-* UI kits: Shows the list of external UI kits from where you can also select a replacement. For details about UI kits, click [here](https://docs.icons8.com/libraries/#ui-kits).
+* UI kits: Shows the list of external UI kits from where you can also select a replacement. For details about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
 
 **Tip:** The size of the menu depends on the number of symbols and symbol categories in your project. If you don't see the content of the upper or lower menu sections in full, use the scroll.
 
@@ -255,7 +255,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Detach from Library</td>
-      <td>This command applies only to symbols from external files, i.e. to symbols from UI kits. It adds a copy of the selected symbol to the document assets, i.e. to the <a href="https://docs.icons8.com/symbols/#symbols-page">symbols page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits">here</a>.</td>
+      <td>This command applies only to symbols from external files, i.e. to symbols from UI kits. It adds a copy of the selected symbol to the document assets, i.e. to the <a href="https://docs.icons8.com/symbols/#symbols-page">symbols page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.</td>
       <td><code>-</code></td>
     </tr>
     <tr>
@@ -307,7 +307,7 @@ Let's assume that we are designing a contact UI. We have prepared two templates:
 {:.is-big}
 ![A view of the symbols page](public/symb-tutorial1.png)
 
->**Note:** To demonstrate Lunacy capabilities to the maximum, we have also added some layer and text styles. For details about them, click [here](https://docs.icons8.com/layerstyles/).
+>**Note:** To demonstrate Lunacy capabilities to the maximum, we have also added some layer and text styles. For details about them, click <a href="https://docs.icons8.com/layerstyles/" target="_blank">here</a>.
 
 Now, we'll move from the symbols page to our project page, add one of the templates to the artboard and let the magic begin.
 
@@ -372,7 +372,7 @@ The gif below demonstrates text overrides described in Steps 2 and 3.
 
 ![Text override. Steps 2 and 3](public/symb-tutorial8.gif)
 
-For details, about text generation and text snippets, click [here](https://docs.icons8.com/text/#text-generation-and-text-snippets).
+For details, about text generation and text snippets, click <a href="https://docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">here</a>.
 
 ### Nested symbols overrides
 

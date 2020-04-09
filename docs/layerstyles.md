@@ -43,7 +43,7 @@ They appear in the Inspector when you select an object.
 
 ![Layer properties](public/properties_new.png)
 
-For details on styling properties, refer to the [Styling](https://docs.icons8.com/styling) section of our documentation.
+For details on styling properties, refer to the <a href="https://docs.icons8.com/styling" target="_blank">Styling</a> section of our documentation.
 
 ### Adding a layer style
 
@@ -149,11 +149,11 @@ Working with text styles is almost the same as with [Layer styles](#layer-styles
 
 ![Text styles](public/text.png)
 
-See also the [Objects](https://docs.icons8.com/objects/#text) section for tips on working with text objects.
+See also the <a href="https://docs.icons8.com/objects/#text" target="_blank">Objects</a> section for tips on working with text objects.
 
 ## External styles
 
-You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the **UI Kits** library. For details about UI kits, click [here](https://docs.icons8.com/libraries/#ui-kits).
+You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the **UI Kits** library. For details about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
 
 To apply an external style to an object:
 

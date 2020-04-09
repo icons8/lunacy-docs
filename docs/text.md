@@ -37,7 +37,7 @@ The figure below shows the location of text-related controls in the Lunacy inter
 1. The **Typography** section. Appears in the Inspector when a text layer is selected. Features all the settings that you might need when working with text. For details, click [here](#typography-settings).
 2. The **Text** menu. Includes all the settings available in the **Typography** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu. For details about converting text to outlines, click [here](#converting-text-to-vector-shapes).
 3. The **Edit object** button. The button appears when you select a text layer. Click this button to start editing the text. Alternatively, just press `Enter`.
-4. In the **Appearance** section you deal with [reusable text styles](https://docs.icons8.com/layerstyles/#text-styles). Also the section features the button that invokes the [floating style panel](#floating-panel).
+4. In the **Appearance** section you deal with <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable text styles</a>. Also the section features the button that invokes the [floating style panel](#floating-panel).
 5. The **Generate text** button. A click over the button generates a random text.
 6. Another instance of the **Generate text** button. A click over the down arrowhead next to the button invokes the menu with text generation options. For details, click [here](#text-generation-and-text-snippets).
 
@@ -125,7 +125,7 @@ The three buttons at the top of the list allow you to quickly filter the content
 
 * **All**: Shows the full list of fonts.
 * **System**: Shows the list of fonts installed on your computer.
-* **Google**: shows the list of fonts available in the [Google fonts](https://fonts.google.com/) library. You don't need to download them. Lunacy will do it automatically. Lunacy's integration with Google fonts will solve most of you problems with missing fonts (click [here](#missing-fonts) for details).
+* **Google**: shows the list of fonts available in the <a href="https://fonts.google.com/" target="_blank">Google fonts</a> library. You don't need to download them. Lunacy will do it automatically. Lunacy's integration with Google fonts will solve most of you problems with missing fonts (click [here](#missing-fonts) for details).
 
 The list shows font names and their samples. If a font's name is too long and appears truncated, hover a cursor over the name to view the full name. When you hover the cursor over font samples, Lunacy will display their larger previews. Google fonts come without samples until used.  
 
@@ -162,7 +162,7 @@ Also, you can use standard text editor shortcuts:
 
 ### Font color picker
 
-This control is a standard color picker that allows you to choose the required color from the color field or from preset colors, as well as to manually enter the required color code. For more information about using the color picker, click [here](https://docs.icons8.com/styling/#color-picker).
+This control is a standard color picker that allows you to choose the required color from the color field or from preset colors, as well as to manually enter the required color code. For more information about using the color picker, click <a href="https://docs.icons8.com/styling/#color-picker" target="_blank">here</a>.
 
 ![Font color picker](public/text-colorpicker.png)
 
@@ -271,13 +271,13 @@ All these settings appear in the Inspector, below the **Typography** section.
 
 ![Common layer settings](public/text-allsettings.png).
 
-Combinations of layer styling effects and typography settings make up text styles. You can save text styles to the document assets and [reuse](https://docs.icons8.com/layerstyles/#text-styles) them across your project. Also,you can find your recent text styles on the floating panel (see below).
+Combinations of layer styling effects and typography settings make up text styles. You can save text styles to the document assets and <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reuse</a> them across your project. Also,you can find your recent text styles on the floating panel (see below).
 
 >**Note:** When you edit a text whose style includes both typography and common layer settings, Lunacy hides layer styling effects and shows them back once you exit the edit mode. This is for the ease of editing heavily styled texts (see the gif below).
 
 ![Hiding common layer effects](public/text-effectsno.gif)
 
-For details about styling properties, read [here](https://docs.icons8.com/styling/).
+For details about styling properties, read <a href="https://docs.icons8.com/styling/" target="_blank">here</a>.
 
 ## [Floating panel](#floating-panel)
 
@@ -293,7 +293,7 @@ You can select styles from the panel by clicking them. To preview a style, hover
 
 ![Common layer settings](public/text-switchstyles.gif)
 
-If you make changes to a style selected from the floating panel, they apply only to the currently selected layer and the style itself but they don't affect other layers with this style. Compare this behavior with [reusable layer styles](https://docs.icons8.com/layerstyles/#text-styles).
+If you make changes to a style selected from the floating panel, they apply only to the currently selected layer and the style itself but they don't affect other layers with this style. Compare this behavior with <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable layer styles</a>.
 
 ## [Converting text to vector shapes](#converting-text-to-vector-shapes)
 

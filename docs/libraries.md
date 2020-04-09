@@ -38,9 +38,9 @@ For your convenience, the items inside libraries are organized in categories. Al
 
 Now you can work with the item in the same way as with any other similar objects.
 
-With some limitations you can use all the library items for free. Speaking in plain words, if you are using our app and content for free, please be honest. Your designs *must* include a link to the [Icons8 website](https://icons8.com), otherwise our lawyers get nervous and unhappy.
+With some limitations you can use all the library items for free. Speaking in plain words, if you are using our app and content for free, please be honest. Your designs *must* include a link to the <a href="https://icons8.com" target="_blank">Icons8 website</a>, otherwise our lawyers get nervous and unhappy.
 
-To be able to edit photos in high resolution or to convert icons and illustrations to vector you should subscribe to one of our [paid plans](https://icons8.com/pricing).
+To be able to edit photos in high resolution or to convert icons and illustrations to vector you should subscribe to one of our <a href="https://icons8.com/pricing" target="_blank">paid plans</a>.
 
 The sections below describe library-specific actions that you can perform with library items.
 
@@ -85,7 +85,7 @@ Like with [photos](#photos-and-masked-photos), when working with illustrations y
 
 ## UI kits
 
->**Tip:** To better understand the intent and how to use UI kits, we recommend that you first read the [Symbols](https://docs.icons8.com/symbols) and [Layer and text styles](https://docs.icons8.com/layerstyles) sections of our documentation.
+>**Tip:** To better understand the intent and how to use UI kits, we recommend that you first read the <a href="https://docs.icons8.com/symbols" target="_blank">Symbols</a> and <a href="https://docs.icons8.com/layerstyles" target="_blank">Layer and text styles</a> sections of our documentation.
 
 With Lunacy you always have all popular UI kits at hand. They can be of great help when you are working on a project for a specific OS or device. You can quickly find the required components (buttons, menus, colors, etc.) and add them to your design.
 
@@ -100,7 +100,7 @@ Lunacy library includes the following UI kits:
 * Apple iOS
 * Microsoft Web Fluent
 
-In fact, UI kits are external .sketch files with ready-made [symbols](https://docs.icons8.com/symbols), [layer styles](https://docs.icons8.com/layerstyles/#layer-styles) and [text styles](https://docs.icons8.com/layerstyles/#text-styles).
+In fact, UI kits are external .sketch files with ready-made <a href="https://docs.icons8.com/symbols" target="_blank">symbols</a>, <a href="https://docs.icons8.com/layerstyles/#layer-styles" target="_blank">layer styles</a> and <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
 
 >**Tip:** If you're working with a large project and feel that your computer is slow, you can disable the UI kits that you don't currently need. This will spare some system resources. You can always enable UI kits later.
 
@@ -164,4 +164,4 @@ On the **Objects** tab, items from a UI kit library appear with the link icon in
 
 #### Layer and text styles
 
-For more information on how to use layer and text styles from UI kits, read [here](https://docs.icons8.com/layerstyles/#external-styles).
+For more information on how to use layer and text styles from UI kits, read <a href="https://docs.icons8.com/layerstyles/#external-styles" target="_blank">here</a>.
