@@ -192,7 +192,7 @@ The settings are as follows:
   * *Comment* - commenting is available only through the document webpage. A user should open the link to the document in a browser.
   * *Download* - those who have access to the document will be able to save the document to their computer.
   * *Use as Library* - with this option selected, those who have access to the document will be able to use it as a library. For details, click [here](#working-with-libraries)
-  * *Inspect* - with this options selected those who have access to the document will have access to the [Cloud Inspector](https://www.sketch.com/docs/sketch-cloud/#cloud-inspector-beta).
+  * *Inspect* - with this options selected those who have access to the document will have access to the <a href="https://www.sketch.com/docs/sketch-cloud/#cloud-inspector-beta" target="_blank">Cloud Inspector</a>.
 
 When you are done with configuring sharing settings, click **Save** at the bottom of the dialog box.
 
@@ -229,7 +229,7 @@ The screenshot below shows a view of the context menu of a shared document with 
 The available options include:
 
 * **Open**: Opens the document in Lunacy (view only).
-* **Add to UI Kits**:  Available for libraries only. Adds the library to the list of [UI Kits](https://docs.icons8.com/libraries/#ui-kits). For details, click [here](#working-with-libraries)
+* **Add to UI Kits**:  Available for libraries only. Adds the library to the list of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>. For details, click [here](#working-with-libraries).
 * **Download**: Downloads the document to your computer.
 * **View on Cloud**: Opens the document's Sketch Cloud webpage. There you can leave your comments to the document,
 * **Copy link**: Copies the link to the document to your clipboard.
@@ -238,9 +238,9 @@ The available options include:
 
 ## [Working with libraries](#working-with-libraries)
 
-Libraries are shared documents that can be used as [UI kits](https://docs.icons8.com/libraries/#ui-kits). To provide for this, the owner of the document should enable the **Use as Library** option in the [document settings](#sharing-documents).
+Libraries are shared documents that can be used as <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>. To provide for this, the owner of the document should enable the **Use as Library** option in the [document settings](#sharing-documents).
 
->**Note**: You should understand that to be able to use libraries according to their intent, library elements must be saved as [symbols](https://docs.icons8.com/symbols/).
+>**Note**: You should understand that to be able to use libraries according to their intent, library elements must be saved as <a href="https://docs.icons8.com/symbols/" target="_blank">symbols</a>.
 
 Like other Cloud documents, libraries appear in the list of documents in the Cloud panel. You can quickly find them by applying the *Libraries* filter. To add a library to UI kits, click the respective command on the context menu.
 
