@@ -35,7 +35,7 @@ Lunacy provides full support of Sketch Cloud. This enables you to upload your do
 
 Except for some operations (such as team creation and comments), the bulk of the Sketch Cloud functionality is accessible directly from Lunacy.
 
-This article focuses on how to make use of Sketch Cloud features in Lunacy. For general information about Sketch Cloud, as well as for specifics and licensing details, refer to [Sketch documentation](https://www.sketch.com/docs/sketch-cloud/).
+This article focuses on how to make use of Sketch Cloud features in Lunacy. For general information about Sketch Cloud, as well as for specifics and licensing details, refer to <a href="https://www.sketch.com/docs/sketch-cloud/" target="_blank">Sketch documentation</a>.
 
 ## Basic terms
 
@@ -83,7 +83,7 @@ You cannot edit Cloud versions of documents shared with you.
 
 ### Libraries
 
-**Libraries** are *shared documents* that you can use similarly to what we in Lunacy call [UI kits](https://docs.icons8.com/libraries/#ui-kits). When the owner of the file updates it in the Cloud, the updates become available to everyone who has access to the file. For details, click [here](#working-with-libraries).
+**Libraries** are *shared documents* that you can use similarly to what we in Lunacy call <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>. When the owner of the file updates it in the Cloud, the updates become available to everyone who has access to the file. For details, click [here](#working-with-libraries).
 
 ## Signing into Sketch Cloud
 
