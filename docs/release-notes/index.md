@@ -23,6 +23,32 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
+## 5.4
+_RELEASED April 15, 2020_  
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.4.0.exe)
+
+### Features
+- Sketch Cloud Libraries
+- Sketch Cloud Versions
+- Sketch Cloud Access management for Files and Teams
+- Ability to preview prototyping on Sketch Cloud
+- Align Magnets for Typography
+- Ability to Sign in to Icons8 via Google, GitHub and Facebook account
+
+### Improvements
+- Ability to change an icon of icon element
+- Ability to Zoom to object
+- Improved rulers rendering performance
+- License expire status in account details
+
+### Bug Fixes
+- Fixed undo redo issues
+- Fixed Mixed fields issues
+- Fixed export issues
+- Fixed symbols issues
+- Fixed some effects rendering issues
+
 ## 5.3.1 hotfix
 _RELEASED March 26, 2020_  
 
