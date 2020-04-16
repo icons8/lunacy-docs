@@ -43,77 +43,77 @@ The table below provides an overview of the controls and their shortcuts.
       <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
     </tr>
     <tr>
-      <td><img src="public/tool-handicon.png" alt="Hand tool"></td>
+      <td><img src="/public/tool-handicon.png" alt="Hand tool"></td>
       <td>Hand tool. Not presented on the toolbar. Serves for moving around the canvas without accidentally selecting objects, rulers, etc.</td>
       <td>Hold down <code>Space</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-zoomicon.png" alt="Zoom tool"></td>
+      <td><img src="/public/tool-zoomicon.png" alt="Zoom tool"></td>
       <td>Zoom tool. Serves for zooming in the selected object or canvas area.</td>
       <td><code>Z</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-eyedropicon.png" alt="Eyedropper tool"></td>
+      <td><img src="/public/tool-eyedropicon.png" alt="Eyedropper tool"></td>
       <td>Eyedropper tool. Serves for sampling colors.</td>
       <td><code>I</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-texticon.png" alt="Text tool"></td>
+      <td><img src="/public/tool-texticon.png" alt="Text tool"></td>
       <td>Text tool. Serves for adding text layers.</td>
       <td><code>T</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-shapeicon.png" alt="Shape tool"></td>
+      <td><img src="/public/tool-shapeicon.png" alt="Shape tool"></td>
       <td>Shape tool. Serves for adding pre-made shapes. The icon in the toolbar varies depending on the shape that you added last. Only the most frequently used shapes have shortcuts.</td>
       <td><p><code>R</code> - rectangle</p><p><code>U</code> - rounded rectangle</p><p><code>O</code> - oval</p><p><code>L</code> - line</p></td>
     </tr>
     <tr>
-      <td><img src="public/tool-penicon.png" alt="Pen tool"></td>
+      <td><img src="/public/tool-penicon.png" alt="Pen tool"></td>
       <td>Pen tool or Vector tool. Serves for adding custom vector shapes.</td>
       <td><code>P</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-pencilicon.png" alt="Pencil tool"></td>
+      <td><img src="/public/tool-pencilicon.png" alt="Pencil tool"></td>
       <td>Pencil tool. Serves for adding freehand shapes. Shares the same fly-out menu with the Pen tool.</td>
       <td><code>N</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-imageicon.png" alt="Image tool"></td>
+      <td><img src="/public/tool-imageicon.png" alt="Image tool"></td>
       <td>Image tool.  Serves for adding images to your designs. Shares the same fly-out menu with the Avatar and Slice tools.</td>
       <td><code>M</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-avataricon.png" alt="Avatar tool"></td>
+      <td><img src="/public/tool-avataricon.png" alt="Avatar tool"></td>
       <td>Avatar tool. Serves for quickly adding avatars to your designs. Shares the same fly-out menu with the Image and Slice tools.</td>
       <td><code>Q</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-sliceicon.png" alt="Slice tool"></td>
+      <td><img src="/public/tool-sliceicon.png" alt="Slice tool"></td>
       <td>Slice tool. Serves for quick export of selected areas. Shares the same fly-out menu with the Image and Avatar tools.</td>
       <td><code>E</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-artboardicon.png" alt="Artboard tool"></td>
+      <td><img src="/public/tool-artboardicon.png" alt="Artboard tool"></td>
       <td>Artboard tool. Serves for adding artboards onto the canvas. Shares the same fly-out menu with the Hotspot tool.</td>
       <td><code>A</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-hotspoticon.png" alt="Hotspot tool"></td>
+      <td><img src="/public/tool-hotspoticon.png" alt="Hotspot tool"></td>
       <td>Hotspot tool. Serves for adding hotspots when working on prototypes. Shares the same fly-out menu with the Artboard tool.</td>
       <td><code>H</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-iconicon.png" alt="Slice tool"></td>
+      <td><img src="/public/tool-iconicon.png" alt="Slice tool"></td>
       <td>Icon tool. Keeps the icons that you've recently use at hand. After you use the tool for the first time, the latest icon appears on the toolbar instead of the tool icon.</td>
       <td><code>X</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-shortcutsicon.png" alt="Shortcuts button"></td>
+      <td><img src="/public/tool-shortcutsicon.png" alt="Shortcuts button"></td>
       <td>Shortcuts button. Opens a panel with the full list of Lunacy shortcuts.</td>
       <td><code>-</code></td>
     </tr>
     <tr>
-      <td><img src="public/tool-hidesidebaricon.png" alt="Hide sidebar button"></td>
+      <td><img src="/public/tool-hidesidebaricon.png" alt="Hide sidebar button"></td>
       <td>Hide/show sidebar button. Use this button to hide/show the left panel.</td>
       <td><code>-</code></td>
     </tr>
