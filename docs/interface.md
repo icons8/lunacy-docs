@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Editing
-        url: '/editing'
+        content: Tools
+        url: '/tools'
     prev:
         content: About
         url: '/about'
@@ -122,8 +122,6 @@ In Lunacy you have the ability  to add more than one artboard inside a canvas. F
 The Inspector on the right lets you adjust the properties of the selected object.
 
 ![Inspector lets you see and adjust the properties of the selected object](public/mAz4bmww76HilrhUizdqvw_img_13.png)
-
-
 
 ## Zoom
 

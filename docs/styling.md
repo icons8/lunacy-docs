@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Smart eyedropper
-        url: '/eyedropper'
+        content: Symbols
+        url: '/symbols'
     prev:
         content: Text
         url: '/text'

@@ -18,10 +18,9 @@ page_nav:
         content: Objects
         url: '/objects'
     prev:
-        content: Interface
-        url: '/interface'
+        content: Tools
+        url: '/tools'
 ---
-
 
 
 ## Selecting

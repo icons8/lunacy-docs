@@ -21,6 +21,10 @@ grid_navigation:
       excerpt: Learn about interface layout and navigation tools
       url: '/interface'
       icon: 'toggle-off'
+    - title: Tools
+      excerpt: Tools and controls on the Lunacy toolbar
+      url: '/tools'
+      icon: 'maintenance'
     - title: 'Editing'
       excerpt: Learn about tools that will help you create shapes you want 
       url: '/editing'
@@ -37,10 +41,6 @@ grid_navigation:
       excerpt: Learn about tools that will help you create your unique style
       url: '/styling'
       icon: 'design'
-    - title: 'Smart eyedropper'
-      excerpt: How to be quick, efficient and precise when working colors
-      url: '/eyedropper'
-      icon: 'color-dropper'
     - title: 'Symbols'
       excerpt: Explore the power of Lunacy by learning how to use symbols
       url: '/symbols'
