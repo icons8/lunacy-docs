@@ -31,7 +31,7 @@ The table below provides an overview of the controls and their shortcuts.
 <table>
   <thead>
     <tr>
-      <th style="width: 74px;">Tool icon</th>
+      <th style="width: 85px;">Tool icon</th>
       <th>Description</th>
       <th>Keyboard shortcut</th>
     </tr>
@@ -186,7 +186,7 @@ Also, for zooming and focusing you can use the shortcuts from the table below.
     </tr>
     <tr>
       <td>Zoom in/out</td>
-      <td><code>Ctrl + "+/-"</code></td>
+      <td><code>+/-</code> or <code>Ctrl + "+/-"</code></td>
     </tr>
     <tr>
       <td>Zoom to 100%</td>
@@ -330,8 +330,12 @@ Creating views of user profiles is one of the most common tasks when designing u
 To add an avatar to your design:
 
 1. Click the avatar tool.
-2. Place the avatar to where you want it.
-3. Resize the avatar as needed.
+2. Click or click and drag to place the avatar to where you want it.
+
+Lunacy remembers the size of the latest avatar you add (at the moment you release the tool). The next time you invoke the tool it will appear with an avatar of that very size.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-avatarsizeplaceholder.png" height="auto"><source src="/public/tool-avatarsize.mp4" type="video/mp4"></video>
+
 
 To change the image of an avatar, click the refresh button at the top left corner of the avatar (see the demo below). The default collection of avatars installed with the app includes five images. You can use them even when your computer has no internet connection. When you're online, you have access to the full collection of avatars.
 
