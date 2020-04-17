@@ -31,7 +31,7 @@ The table below provides an overview of the controls and their shortcuts.
 <table>
   <thead>
     <tr>
-      <th width:"74px">Tool icon</th>
+      <th style="width: 74px;">Tool icon</th>
       <th>Description</th>
       <th>Keyboard shortcut</th>
     </tr>
