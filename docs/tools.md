@@ -315,8 +315,9 @@ The Image tool serves for quick adding images from files to your designs. Lunacy
 To add an image:
 
 1. Click the tool icon on the toolbar. The **Open** dialog box appears.
-2. In the **Open** dialog box, browse to the required file. You can select multiple files at a time, if you want.
-3. Click over the area where you want to have the image or click and drag to get required size of the image as shown in the the demo below.
+2. In the **Open** dialog box, browse to the required file.
+3. Select the file. You can select multiple files at a time, if you want.
+4. Click over the area where you want to put the image or click and drag to get required size of the image as shown in the the demo below.
 
 ![Adding an image](public/objects_bitmaps.gif)
 
