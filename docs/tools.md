@@ -293,7 +293,7 @@ If you are using the mouse, just hold down the left-mouse button and draw the re
 
 Unlike other tools that switch to the select mode right after you create an object, the Pencil tool allows you to create as many objects as you need. Each Pencil "stroke" adds a new layer to the **Objects** panel. You can group them later.
 
-The figure below shows two words *Lunacy* written with the Pencil tool. The bottom one is written in one stroke, while the top one is in a stroke per letter (grouped for convenience). See how they appear in the **Objects** panel.
+The figure below shows two words *Lunacy* written with the Pencil tool. The top one is written in one stroke, while the bottom one is in a stroke per letter (grouped for convenience). See how they appear in the **Objects** panel.
 
 {:.is-big}
 ![Pencil tool](public/pencil-view2.png)
