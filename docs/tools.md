@@ -113,7 +113,7 @@ The table below provides an overview of the controls and their shortcuts.
       <td><code>Shift+F1</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-hidesidebaricon.png" alt="Hide sidebar button"></td>
+      <td><img src="/public/tool-hidesidebaricon2.png" alt="Hide sidebar button"></td>
       <td>Hide/show sidebar button. Use this button to hide/show the left panel.</td>
       <td><code>-</code></td>
     </tr>
