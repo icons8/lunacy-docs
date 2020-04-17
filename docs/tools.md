@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Symbols
-        url: '/symbols'
+        content: Editing
+        url: '/editing'
     prev:
-        content: Styling
-        url: '/styling'
+        content: Interface
+        url: '/interface'
 ---
 
 ## Introduction
@@ -38,7 +38,7 @@ The table below provides an overview of the controls and their shortcuts.
   </thead>
   <tbody>
     <tr>
-      <td><img src="/public/tool-selecticon.png" alt="Select tool" width="40px" height="40px"></td>
+      <td><img src="/public/tool-selecticon2.png" alt="Select tool"></td>
       <td> Select tool. Allows you to select, move and resize objects and object groups.</td>
       <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
     </tr>
@@ -110,7 +110,7 @@ The table below provides an overview of the controls and their shortcuts.
     <tr>
       <td><img src="/public/tool-shortcutsicon.png" alt="Shortcuts button"></td>
       <td>Shortcuts button. Opens a panel with the full list of Lunacy shortcuts.</td>
-      <td><code>-</code></td>
+      <td><code>Shift+F1</code></td>
     </tr>
     <tr>
       <td><img src="/public/tool-hidesidebaricon.png" alt="Hide sidebar button"></td>
