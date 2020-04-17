@@ -69,7 +69,7 @@ The table below provides an overview of the controls and their shortcuts.
     </tr>
     <tr>
       <td><img src="/public/tool-penicon.png" alt="Pen tool"></td>
-      <td>Pen tool or Vector tool. Serves for adding custom vector shapes.</td>
+      <td>Pen tool or Vector tool. Serves for adding custom vector shapes. Shares the same fly-out menu with the Pencil tool.</td>
       <td><code>P</code></td>
     </tr>
     <tr>
