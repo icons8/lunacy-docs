@@ -38,7 +38,7 @@ The table below provides an overview of the controls and their shortcuts.
   </thead>
   <tbody>
     <tr>
-      <td><img src="/public/tool-selecticon2.png" alt="Select tool"></td>
+      <td><img src="/public/tool-selecticon.png" alt="Select tool"></td>
       <td> Select tool. Allows you to select, move and resize objects and object groups.</td>
       <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
     </tr>
