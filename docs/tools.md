@@ -161,7 +161,7 @@ The Hand is another tool that you will be using a lot to quickly move to the req
 The Zoom tool allows you to zoom in the selected object or canvas area. To use the tool:
 
 1. Select the Zoom tool on the tool bar or press `Z`.
-2. Click the object you want to zoom in as many times as you need. Alternatively, click and drag over the required area. For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid (provided that the **Pixels on Zoom** parameter is enabled on the **View** menu).
+2. Click the object you want to zoom in as many times as you need. Alternatively, click and drag over the required area. For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid.
 3. To zoom out, hold down `Alt` and click over the object or area.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom.mp4" type="video/mp4"></video>
