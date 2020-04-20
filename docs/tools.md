@@ -28,8 +28,6 @@ This section is a description of tools and controls on the Lunacy toolbar.
 
 The table below provides an overview of the controls and their shortcuts.
 
-<a href="https://docs.icons8.com/tools/#eyedropper-tool">Eyedropper tool</a>
-
 <table>
   <thead>
     <tr>
