@@ -56,47 +56,47 @@ The interface consists of the following main elements.
     </thead>
     <tbody>
         <tr>
-        <td><img src="public/interface-rulerbtn.png" alt="Show/Hide rulers button"></td>
+        <td><img src="/public/interface-rulerbtn.png" alt="Show/Hide rulers button"></td>
         <td> The <b>Show/Hide rulers</b> button. Controls the display of rulers. For details, read <a href="https://docs.icons8.com/interface/#rulers-and-guides">below</a>.</td>
         <td><code>Ctrl + R</code></td>
         </tr>
         <tr>
-        <td><img src="public/interface-layoutbtn.png" alt="Show/Hide layout button"></td>
+        <td><img src="/public/interface-layoutbtn.png" alt="Show/Hide layout button"></td>
         <td>The <b>Layout</b> button. Controls the display of the layout grid. Available only when there is an artboard on the canvas. For details, read <a href="https://docs.icons8.com/interface/#layout-grid">here</a>.</td>
         <td><code>Ctrl + \</code></td>
         </tr>
         <tr>
-        <td><img src="public/interface-prototbtn.png" alt="Show prototyping button"></td>
+        <td><img src="/public/interface-prototbtn.png" alt="Show prototyping button"></td>
         <td>The <b>Show prototyping</b> button. Controls the display of <a href="https://docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a>.</td>
         <td><b>View > Prototyping</b></td>
         </tr>
         <tr>
-        <td><img src="public/interface-pixelbtn.png" alt="Show pixels on zoom button"></td>
+        <td><img src="/public/interface-pixelbtn.png" alt="Show pixels on zoom button"></td>
         <td>The <b>Show pixels on zoom</b> button. Enables the display of pixels when the zoom value exceeds 100. For details, read  <a href="https://docs.icons8.com/interface/#show-pixels-on-zoom">here</a>.</td>
         <td><b>View > Pixels on Zoom</b></td>
         </tr>
         <tr>
-        <td><img src="public/interface-gridbtn.png" alt="Show grid button"></td>
+        <td><img src="/public/interface-gridbtn.png" alt="Show grid button"></td>
         <td>The <b>Show grid</b> button. Enables the display of the square grid. For details, read <a href="https://docs.icons8.com/interface/#square-grid">here</a>.</td>
         <td><code>Ctrl+'</code></td>
         </tr>
         <tr>
-        <td><img src="public/interface-nightbtn.png" alt="Sketch Cloud Button"></td>
+        <td><img src="/public/interface-nightbtn.png" alt="Sketch Cloud Button"></td>
         <td>The <b>Enable dark mode</b> button. Turns on/off the night theme in the Lunacy interface.</td>
         <td><code>-</code></td>
         </tr>
         <tr>
-        <td><img src="public/interface-cloudbtn.png" alt="Sketch Cloud Button"></td>
+        <td><img src="/public/interface-cloudbtn.png" alt="Sketch Cloud Button"></td>
         <td>The <b>Sketch Cloud</b> button. Opens the Sketch Cloud panel. For details about working with Sketch Cloud in Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.</td>
         <td><code>-</code></td>
         </tr>
         <tr>
-        <td><img src="public/interface-misfontbtn.png" alt="Missing fonts button"></td>
+        <td><img src="/public/interface-misfontbtn.png" alt="Missing fonts button"></td>
         <td>The <b>Missing fonts button</b> button. Appears when the file you are working with includes fonts not installed on you computer. For details, read <a href="https://docs.icons8.com/text/#missing-fonts" target="_blank">here</a>.</td>
         <td><code>-</code></td>
         </tr>
         <tr>
-        <td><img src="public/interface-notifybtn.png" alt="Notifications button"></td>
+        <td><img src="/public/interface-notifybtn.png" alt="Notifications button"></td>
         <td>The <b>Notifications</b> button. Appears when you have a new notification from Lunacy. Opens the panel where you can view and manage Lunacy notifications.</td>
         <td><code>-</code></td>
         </tr>
@@ -133,7 +133,7 @@ To change the position of a page in the list, just drag it up or down to where y
 
 The rest of the operations are accessible through the context menu invoked by a right-click over the required page name.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-pagesplaceholder.png" height="auto"><source src="/public/interface-pages.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/tool-pagesplaceholder.png" height="auto"><source src="/public/interface-pages.mp4" type="video/mp4"></video>
 
 There is also a special type of a page - the Symbols page. For details, read <a href="https://docs.icons8.com/symbols/#symbols-page" target="_blank">here</a>.
 
@@ -153,7 +153,7 @@ The operations that you can perform in the objects list include:
 * Locking objects - by locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
 * Other basic operations with objects available on the context menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-objectlistplaceholder.png" height="auto"><source src="/public/interface-pages.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/tool-objectlistplaceholder.png" height="auto"><source src="/public/interface-pages.mp4" type="video/mp4"></video>
 
 **Tip:** Some projects, such as design systems, can house hundreds of objects on a single page. To quickly locate the required object on the canvas, find it by typing its name in the search field, select it in the objects list and then press `Ctrl + 2` (Fit to selection).
 
@@ -247,31 +247,31 @@ The Inspector is the panel on the left of the Lunacy interface. The controls and
     </thead>
     <tbody>
         <tr>
-        <td><img src="public/interface-alignctrl.png" alt="Alignment and distribution controls"></td>
+        <td><img src="/public/interface-alignctrl.png" alt="Alignment and distribution controls"></td>
         <td><b>Alignment and distribution controls</b>. Become available when you select two or more objects.</td>
         </tr>
         <tr>
-        <td><img src="public/interface-positionctrl.png" alt="Position controls"></td>
+        <td><img src="/public/interface-positionctrl.png" alt="Position controls"></td>
         <td><b>Position and size adjustment controls</b>. Allow you to adjust the position and size of the object.</td>
         </tr>
         <tr>
-        <td><img src="public/interface-resizectrl.png" alt="Resizing constraints"></td>
+        <td><img src="/public/interface-resizectrl.png" alt="Resizing constraints"></td>
         <td><b>Resizing constraints</b>. Appear when you select two or more objects, a group of objects or an object on an artboard. Serve to determine the behavior of objects upon resizing.</a></td>
         </tr>
         <tr>
-        <td><img src="public/interface-protoctrl.png" alt="Prototyping controls"></td>
+        <td><img src="/public/interface-protoctrl.png" alt="Prototyping controls"></td>
         <td>The <b>Prototyping</b> section features the settings related to prototyping.</td>
         </tr>
         <tr>
-        <td><img src="public/interface-appear.png" alt="Appearance section"></td>
+        <td><img src="/public/interface-appear.png" alt="Appearance section"></td>
         <td>The <b>Appearance</b> section allows you to apply <a href="https://docs.icons8.com/layerstyles" target="_blank">styles</a> to the selected object.</td>
         </tr>
         <tr>
-        <td><img src="public/interface-stylingctrl.png" alt="Styling options"></td>
+        <td><img src="/public/interface-stylingctrl.png" alt="Styling options"></td>
         <td><b>Styling options</b>. For details, read <a href="https://docs.icons8.com/styling" target="_blank">here</a>.</td>
         </tr>
         <tr>
-        <td><img src="public/interface-exportctrl.png" alt="Export settings"></td>
+        <td><img src="/public/interface-exportctrl.png" alt="Export settings"></td>
         <td><b>Export settings</b>. For details, read <a href="https://docs.icons8.com/export" target="_blank">here</a>.</td>
         </tr>
     </tbody>
