@@ -227,17 +227,6 @@ To toggle on/off the pixel mode, use the **Show pixels on zoom** button (![Show 
 
 The Inspector is the panel on the left of the Lunacy interface. The controls and settings that appear in the Inspector depend on the type of object that you select on the canvas. Below is a description of Inspector elements common for almost all object types.
 
-|         Inspector element                                                     | Description |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![Alignment and distribution controls](public/interface-alignctrl.png) | **Alignment and distribution controls**. Become available when you select two or more objects. |
-| ![Position controls](public/interface-positionctrl.png)      | **Position and size adjustment controls**. Allow you to adjust the position and size of the object. |
-| ![Resizing constraints](public/interface-resizectrl.png)     | **Resizing constraints**. Appear when you select two or more objects, a group of objects or an object on an artboard. Serve to determine the behavior of objects upon resizing. |
-| ![Prototyping controls](public/interface-protoctrl.png)      | The **Prototyping** section features the settings related to prototyping. |
-| ![Appearance section](public/interface-appear.png)           | The **Appearance** section allows you to apply <a href="https://docs.icons8.com/layerstyles" target="_blank">styles</a> to the selected object. |
-| ![Styling options](public/interface-stylingctrl.png)         | **Styling options**. For details, read <a href="https://docs.icons8.com/styling" target="_blank">here</a>. |
-| ![Export settings](public/interface-exportctrl.png)          | **Export settings**. For details, read <a href="https://docs.icons8.com/export" target="_blank">here</a>. |
-
-
 <table>
     <thead>
         <tr>
