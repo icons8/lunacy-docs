@@ -241,7 +241,7 @@ The Inspector is the panel on the left of the Lunacy interface. The controls and
 <table>
     <thead>
         <tr>
-        <th style="width: 85px;">Inspector element</th>
+        <th>Inspector element</th>
         <th>Description</th>
         </tr>
     </thead>
