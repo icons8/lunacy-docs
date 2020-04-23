@@ -247,7 +247,7 @@ The Inspector is the panel on the left of the Lunacy interface. The controls and
     </thead>
     <tbody>
         <tr>
-        <td><img src="/public/interface-alignctrl.png" alt="Alignment and distribution controls"></td>
+        <td><img src="/public/interface-alignctrl.png" alt="Alignment and distribution controls" width="100%"></td>
         <td><b>Alignment and distribution controls</b>. Become available when you select two or more objects.</td>
         </tr>
         <tr>
