@@ -153,7 +153,7 @@ The operations that you can perform in the objects list include:
 * Locking objects - by locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
 * Other basic operations with objects available on the context menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/tool-objectlistplaceholder.png" height="auto"><source src="/public/interface-pages.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/tool-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist.mp4" type="video/mp4"></video>
 
 **Tip:** Some projects, such as design systems, can house hundreds of objects on a single page. To quickly locate the required object on the canvas, find it by typing its name in the search field, select it in the objects list and then press `Ctrl + 2` (Fit to selection).
 
