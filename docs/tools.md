@@ -161,7 +161,7 @@ The Hand is another tool that you will be using a lot to quickly move to the req
 The Zoom tool allows you to zoom in the selected object or canvas area. To use the tool:
 
 1. Select the Zoom tool on the tool bar or press `Z`.
-2. Click the object you want to zoom in as many times as you need. Alternatively, click and drag over the required area. For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid.
+2. Click the object you want to zoom in or click and drag over the required area. For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid.
 3. To zoom out, hold down `Alt` and click over the object or area.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom.mp4" type="video/mp4"></video>
@@ -217,7 +217,7 @@ The above options, except for *Zoom to object* and *Soft zoom to object*, are al
 
 ## Eyedropper tool
 
-Working with colors is an essential part of a designer's job. The Lunacy's smart eyedropper tool is designed to make this work easy and effective.
+Working with colors is an essential part of a designer's job. The smart eyedropper tool is designed to make this work easy and effective.
 
 To use the eyedropper tool:
 
@@ -317,7 +317,7 @@ To add an image:
 1. Click the tool icon on the toolbar. The **Open** dialog box appears.
 2. In the **Open** dialog box, browse to the required file.
 3. Select the file. You can select multiple files at a time, if you want.
-4. Click over the area where you want to put the image or click and drag to get required size of the image as shown in the the demo below.
+4. Click over the area where you want to put the image or click and drag to get the required size of the image as shown in the demo below.
 
 ![Adding an image](public/objects_bitmaps.gif)
 
