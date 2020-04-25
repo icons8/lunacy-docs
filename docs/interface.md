@@ -308,20 +308,20 @@ By default, Lunacy displays canvas in the vector mode. It means that all objects
 
 To toggle on/off the pixel mode, use the **Show pixels on zoom** button (![Show pixels on zoom button](public/interface-pixelbtn.png)) or do it through the menu bar (**View** > **Pixels on Zoom**).
 
-### How to change the color of the canvas
+### Changing the canvas color
 
 There are two ways to change the color of the canvas:
 
 **Way 1**
 
-1. Deselect all objects on the canvas.
+1. Deselect all the objects on the canvas.
 2. Use the **Workspace color** control that will appear in the Inspector.
 
 **Way 2**
 
-1. Deselect all objects on the canvas.
+1. Deselect all the objects on the canvas.
 2. Select the <a href="https://docs.icons8.com/tools/#eyedropper-tool" target="_blank">eyedropper tool</a>. 
-3. Select the new color in the pallets that will appear in the left panel.
+3. Use the pallets that will appear in the left panel to select the new color.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-canvascolorplaceholder.png" height="auto"><source src="/public/interface-canvascolor1356x730.mp4" type="video/mp4"></video>
 
@@ -373,7 +373,7 @@ The set of controls and settings displayed in the Inspector varies with the type
         <td><b>Export settings</b>. For details, read <a href="https://docs.icons8.com/export" target="_blank">here</a>.</td>
         </tr>
     </tbody>
-    </table>
+</table>
 
 When you select no objects on the canvas, the Inspector shows the following controls.
 
