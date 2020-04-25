@@ -146,6 +146,10 @@ The object list shows all the objects available on the current page. Lunacy auto
 {:.is-big}
 ![A view of an object list](public/interface-objectlist.png)
 
+If the names of objects appear truncated in the list, you can change the width of the panel as shown below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-resizeleft.png" height="auto"><source src="/public/interface-resizeleft.mp4" type="video/mp4"></video>
+
 The operations that you can perform in the objects list include:
 
 * Selecting objects - to select an object or object group, click its name in the objects list. As you do it, the selection frame appears around the object on the canvas. To select multiple items hold down the `Ctrl` or `Shift` keys and click.

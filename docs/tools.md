@@ -161,7 +161,7 @@ The Zoom tool allows you to zoom in the selected object or canvas area. To use t
 
 For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. To disable this feature, use the menu (**View** > **Pixel grid**).
 
-For information about zooming options in Lunacy, read <a href="https://docs.icons8.com/interface/#zooming-options" target="_blank">here</a>.
+For information about other zooming options in Lunacy, read <a href="https://docs.icons8.com/interface/#zooming-options" target="_blank">here</a>.
 
 ## Eyedropper tool
 
