@@ -229,9 +229,9 @@ For information about other zooming options, read below.
 
 #### The Zoom control
 
-The zoom control is found on the right of the file tab panel.To change the zoom value, you can:
+The zoom control is found on the right of the file tab panel. To change the zoom value, you can:
 
-* Enter the zoom value manually in the edit field
+* Enter the zoom value manually in the edit field.
 * Hover the cursor over the zoom control edit field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl1358x734.mp4" type="video/mp4"></video>

@@ -154,10 +154,12 @@ When you click or drag over a group of objects, you select the group. To select 
 The Zoom tool allows you to zoom in the selected object or canvas area. To use the tool:
 
 1. Select the Zoom tool on the tool bar or press `Z`.
-2. Click the object you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be). For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid.
+2. Click the object you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be).
 3. To zoom out, hold down `Alt` and click or drag over the object or area.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom.mp4" type="video/mp4"></video>
+
+For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. To disable this feature, use the menu (**View** > **Pixel grid**).
 
 For information about zooming options in Lunacy, read <a href="https://docs.icons8.com/interface/#zooming-options" target="_blank">here</a>.
 
