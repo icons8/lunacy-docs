@@ -146,7 +146,7 @@ The object list shows all the objects available on the current page. Lunacy auto
 {:.is-big}
 ![A view of an object list](public/interface-objectlist.png)
 
-If the names of objects appear truncated in the list, you can change the width of the panel as shown below.
+If the names of objects in the list appear truncated, you can change the width of the panel as shown below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-resizeleft.png" height="auto"><source src="/public/interface-resizeleft.mp4" type="video/mp4"></video>
 
@@ -227,7 +227,10 @@ The easiest way to zoom to an object in Lunacy is to hold down the `Ctrl` key an
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomtoobject1358x734.mp4" type="video/mp4"></video>
 
-For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. To disable this feature, use the menu (**View** > **Pixel grid**).
+For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
+
+1. Through the menu (**View** > **Pixel grid**).
+2. Deselect all objects on the canvas and clear the **Show pixel grid** checkbox that will appear in the Inspector.
 
 For information about other zooming options, read below.
 
@@ -237,10 +240,13 @@ The zoom control is found on the right of the file tab panel. To change the zoom
 
 * Enter the zoom value manually in the edit field.
 * Hover the cursor over the zoom control edit field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
+* Click over the edit field of the zoom control and rotate the mouse wheel.
+
+The demo below shows the first two methods.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl1358x734.mp4" type="video/mp4"></video>
 
-Alternatively, you can click the down arrowhead next to zoom control and select one of the preset values or options on the displayed menu (see the figure below).
+Alternatively, you can click the down arrowhead next to the zoom control and select one of the preset values or options on the displayed menu (see the figure below).
 
 ![Zoom control](public/interface-zoomcontrol.png)
 
@@ -302,9 +308,28 @@ By default, Lunacy displays canvas in the vector mode. It means that all objects
 
 To toggle on/off the pixel mode, use the **Show pixels on zoom** button (![Show pixels on zoom button](public/interface-pixelbtn.png)) or do it through the menu bar (**View** > **Pixels on Zoom**).
 
+### How to change the color of the canvas
+
+There are two ways to change the color of the canvas:
+
+**Way 1**
+
+1. Deselect all objects on the canvas.
+2. Use the **Workspace color** control that will appear in the Inspector.
+
+**Way 2**
+
+1. Deselect all objects on the canvas.
+2. Select the <a href="https://docs.icons8.com/tools/#eyedropper-tool" target="_blank">eyedropper tool</a>. 
+3. Select the new color in the pallets that will appear in the left panel.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-canvascolorplaceholder.png" height="auto"><source src="/public/interface-canvascolor1356x730.mp4" type="video/mp4"></video>
+
 ## The Inspector
 
-The Inspector is the panel on the left of the Lunacy interface. The controls and settings that appear in the Inspector depend on the type of object that you select on the canvas. Below is a description of Inspector elements common for almost all object types.
+The Inspector is the panel that appears on the right of the Lunacy interface. When you create a new document, the first thing you see on the right is not yet the Inspector but the panel of presets of the <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboard tool</a>. Lunacy enables it by default upon creation of a new document. And only you add an artboard or add and select another object, the Property Inspector appears.
+
+The set of controls and settings displayed in the Inspector varies with the type of object that you select on the canvas. Below is a description of Inspector elements common for almost all object types.
 
 <table>
     <thead>
@@ -317,6 +342,11 @@ The Inspector is the panel on the left of the Lunacy interface. The controls and
         <tr>
         <td><img src="/public/interface-alignctrl.png" alt="Alignment and distribution controls"></td>
         <td><b>Alignment and distribution controls</b>. Become available when you select two or more objects.</td>
+        </tr>
+        <tr>
+        <tr>
+        <td><img src="/public/interface-opacity.png" alt="Opacity and blend mode settings"></td>
+        <td><b>Opacity and blend mode settings</b>. Allow you to set the overall opacity of an object and its blending mode.</td>
         </tr>
         <tr>
         <td><img src="/public/interface-positionctrl.png" alt="Position controls"></td>
@@ -344,3 +374,11 @@ The Inspector is the panel on the left of the Lunacy interface. The controls and
         </tr>
     </tbody>
     </table>
+
+When you select no objects on the canvas, the Inspector shows the following controls.
+
+![A view of Inspector with no objects selected](public/interface-canvasinspector.png)
+
+* **Workspace color**: Allows you to change the color of the canvas.
+* **Show pixel grid**: Toggles on/off the display of the pixel grid when the zoom value exceeds 500.
+* **Export project**: Allows you to export the whole project. For details, read <a href="https://docs.icons8.com/export" target="_blank">here</a>.

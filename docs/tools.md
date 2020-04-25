@@ -159,7 +159,10 @@ The Zoom tool allows you to zoom in the selected object or canvas area. To use t
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom.mp4" type="video/mp4"></video>
 
-For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. To disable this feature, use the menu (**View** > **Pixel grid**).
+For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
+
+1. Through the menu (**View** > **Pixel grid**).
+2. Deselect all objects on the canvas and clear the **Show pixel grid** checkbox that will appear in the Inspector.
 
 For information about other zooming options in Lunacy, read <a href="https://docs.icons8.com/interface/#zooming-options" target="_blank">here</a>.
 
@@ -325,7 +328,7 @@ To hide/show slices on the canvas, use the **Show slices** button on the top bar
 
 To remove a slice from the canvas, select it and press`Del`.
 
-For more information about export in Lunacy, click here.
+For more information about export in Lunacy, click <a href="https://docs.icons8.com/export" target="_blank">here</a>.
 
 ## Hotspot tool
 
