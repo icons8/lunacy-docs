@@ -122,6 +122,8 @@ The table below provides an overview of the controls and their shortcuts.
 
 For details about using the tools, read further.
 
+**Note:** If you need more space or prefer shortcuts you can toggle off the display of the toolbar through the menu (**View** > **Toolbar**).
+
 ## Select tool
 
 The Select tool is likely the tool that you will be using most often when working with Lunacy. It is the default tool which gets enabled, if no other tool is active. The Select tool allows you to select, move and resize objects and object groups.
@@ -161,8 +163,8 @@ The Hand is another tool that you will be using a lot to quickly move to the req
 The Zoom tool allows you to zoom in the selected object or canvas area. To use the tool:
 
 1. Select the Zoom tool on the tool bar or press `Z`.
-2. Click the object you want to zoom in or click and drag over the required area. For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid.
-3. To zoom out, hold down `Alt` and click over the object or area.
+2. Click the object you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be). For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid.
+3. To zoom out, hold down `Alt` and click or drag over the object or area.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom.mp4" type="video/mp4"></video>
 
@@ -172,40 +174,49 @@ Also, for zooming you can use the zoom control on the right of the file tab pane
   <thead>
     <tr>
       <th>Operation</th>
+      <th>Description</th>
       <th>Keyboard shortcut</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Zoom to object</td>
+      <td>Allows you to zoom in to a particular object or area. Hover the cursor over the object or area, hold down `Ctrl` and use the mouse wheel to zoom in or out.</td>
       <td><code>Ctrl + Mouse Wheel</code></td>
     </tr>
     <tr>
       <td>Soft zoom to object</td>
+      <td>Similar to the previous option, but with lower zooming speed.</td>
       <td><code>Ctrl + Shift + Mouse Wheel</code></td>
     </tr>
     <tr>
       <td>Zoom in/out</td>
+      <td>Zooms the canvas in/out</td>
       <td><code>+/-</code> or <code>Ctrl + "+/-"</code></td>
     </tr>
     <tr>
       <td>Zoom to 100%</td>
+      <td>Sets the zoom value to 100%</td>
       <td><code>Ctrl + 0</code></td>
     </tr>
     <tr>
       <td>Zoom to all objects</td>
+      <td>Shows all the objects available on the page</td>
       <td><code>Ctrl + 1</code></td>
     </tr>
     <tr>
       <td>Zoom to selection</td>
+      <td>Zooms in and displays the selected object in the center of the screen.</td>
       <td><code>Ctrl + 2</code></td>
     </tr>
     <tr>
       <td>Zoom to fit width</td>
+      <td>Zooms the canvas so that all the horizontally distributed objects fit the screen and you don't have to scroll the screen to the sides.</td>
       <td><code>Ctrl + 3</code></td>
     </tr>
     <tr>
       <td>Zoom to fit height</td>
+      <td>Zooms the canvas so that all the vertically distributed objects fit the screen and you don't have to scroll the screen up or down.</td>
       <td><code>Ctrl + 4</code></td>
     </tr>
   </tbody>

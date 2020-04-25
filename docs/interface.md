@@ -36,7 +36,9 @@ The interface consists of the following main elements.
     * **Objects**: Shows the list of pages in the current document and the list of objects on the selected page. For details, read [below](#the-objects-panel).
     * **Libraries**: Provides access to the document assets (<a href="https://docs.icons8.com/symbols" target="_blank">symbols</a>, layer and text <a href="https://docs.icons8.com/layerstyles/" target="_blank">styles</a>), built-in <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as built-in and external <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>.
 
-2. The **toolbar**. Features all the primary Lunacy tools. For details about tools, click <a href="https://docs.icons8.com/tools/" target="_blank">here</a>.
+    You can temporarily hide the left panel by clicking the respective button (![Hide left panel button](public/interface-hidepanelbtn.png)) at the bottom of the toolbar (2). Also, you can do it through the menu (**View** > **Layers panel**).
+
+2. The **toolbar**. Features all the primary Lunacy tools. For details about tools, click <a href="https://docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer shortcuts you can toggle off the display of the toolbar through the menu (**View** > **Toolbar**).
 3. The **canvas**. That is your working area. For details, read [below](#the-canvas).
 4. The **Inspector** panel. Features two tabs:
 
@@ -110,7 +112,7 @@ The interface consists of the following main elements.
 
 ### Document pages
 
-Each document can include any number of pages. You can keep all you work on a single page or split it into several pages by components, if the project is large. For instance, if you are designing a website, you can opt to keep the desktop and mobile versions on separate pages. Or you can duplicate a page to save a snapshot of your current work and continue working the copy. In fact, the reasons for having multiple pages in a document are numerous and it is completely up to you to decide what approach to choose. The figure below shows a view of a page list.
+Each document can include any number of pages. You can keep all you work on a single page or split it into several pages by components, if the project is large. For instance, if you are designing a website, you can opt to keep the desktop and mobile versions on separate pages. Or you can duplicate a page to save a snapshot of your current work and continue working with the copy. In fact, the reasons for having multiple pages in a document are numerous and it is completely up to you to decide what approach to choose. The figure below shows a view of a page list.
 
 ![A view of a page list](public/interface-pagelist.png)
 
@@ -119,8 +121,8 @@ The operations that you can perform with document pages include:
 * Adding pages
 * Changing the order of pages
 * Renaming pages
-* Duplicating pages and their content
-* Copying and pasting pages and their content between documents
+* Duplicating pages with their content
+* Copying and pasting pages with their content between documents
 * Deleting pages
 
 To add a new page to the document:
@@ -139,7 +141,7 @@ There is also a special type of a page - the Symbols page. For details, read <a 
 
 ### Objects list
 
-The object list shows all the objects and object groups available on the current page. Lunacy automatically assigns names to objects and object groups as you create them, but you can rename them if you like. The figure below shows a view of an object list.
+The object list shows all the objects available on the current page. Lunacy automatically assigns names to objects and object groups as you create them, but you can rename them if you like. The figure below shows a view of an object list.
 
 {:.is-big}
 ![A view of an object list](public/interface-objectlist.png)
@@ -148,8 +150,8 @@ The operations that you can perform in the objects list include:
 
 * Selecting objects - to select an object or object group, click its name in the objects list. As you do it, the selection frame appears around the object on the canvas. To select multiple items hold down the `Ctrl` or `Shift` keys and click.
 * Searching for objects - to quickly find the required object start typing its name in the search field above the object list.
-* Arranging objects - by default Lunacy adds newly created objects to the top of the list. To arrange objects in the list, drag them up or down.
-* Hiding objects - by hiding you can temporarily remove the selected item from the canvas. You can hide objects, object groups or individual items within object groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide objects by using the `Ctrl+H` shortcut or the respective command on the context menu.
+* Arranging objects - you can change the order of objects in the list by dragging them up or down.
+* Hiding objects - by hiding you can temporarily hide the selected item from the canvas. You can hide objects, object groups or individual items within object groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide objects by using the `Ctrl+H` shortcut or the respective command on the context menu.
 * Locking objects - by locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
 * Other basic operations with objects available on the context menu.
 
@@ -160,6 +162,18 @@ The operations that you can perform in the objects list include:
 ## [The Canvas](#the-canvas)
 
 The canvas is your working area. It has no boundaries, so you can add objects wherever you want. But if you need to observe certain frames you can add <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboards</a> to the canvas. Also, you can toggle on and off the display of [rulers](#rulers-and-guides) and [grids](#grids) on the canvas.
+
+### Moving around the canvas
+
+If your design takes a lot of space and does not fit the screen, you can use the scroll bars located on the right side and the bottom of the screen.
+
+Also, you can use the mouse wheel for scrolling the canvas. Just point the cursor anywhere over the canvas and rotate the wheel to scroll vertically. To scroll horizontally, hold down the `Shift` key and rotate the mouse wheel.
+
+Another option to navigate the canvas is to hold down the `Space` key (the cursor will turn into a palm) and drag the canvas to where you need.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-movingcanvas.png" height="auto"><source src="/public/interface-movingcanvas.mp4" type="video/mp4"></video>
+
+Also, read about the [zooming options](#zooming-options).
 
 ### [Rulers and guides](#rulers-and-guides)
 
