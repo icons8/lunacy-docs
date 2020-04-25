@@ -43,11 +43,6 @@ The table below provides an overview of the controls and their shortcuts.
       <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
     </tr>
     <tr>
-      <td><img src="/public/tool-handicon.png" alt="Hand tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#hand-tool">Hand tool</a>. Not presented on the toolbar. Serves for moving around the canvas without accidentally selecting objects, rulers, etc.</td>
-      <td>Hold down <code>Space</code></td>
-    </tr>
-    <tr>
       <td><img src="/public/tool-zoomicon.png" alt="Zoom tool"></td>
       <td><a href="https://docs.icons8.com/tools/#zoom-tool">Zoom tool</a>. Serves for zooming in the selected object or canvas area.</td>
       <td><code>Z</code></td>
@@ -154,10 +149,6 @@ When you click or drag over a group of objects, you select the group. To select 
 
 >**Tip:** Alternatively, you can select objects through the **Objects** panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects. For details about working with objects, click here.
 
-## Hand tool
-
-The Hand is another tool that you will be using a lot to quickly move to the required canvas area. The Hand is not available on the toolbar. To use it, just hold down the `Space` key and use the mouse to move the canvas as you need.
-
 ## Zoom tool
 
 The Zoom tool allows you to zoom in the selected object or canvas area. To use the tool:
@@ -175,7 +166,7 @@ Also, for zooming you can use the zoom control on the right of the file tab pane
     <tr>
       <th>Operation</th>
       <th>Description</th>
-      <th style="width: 150px;">Keyboard shortcut</th>
+      <th style="width: 160px;">Keyboard shortcut</th>
     </tr>
   </thead>
   <tbody>
