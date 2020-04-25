@@ -165,7 +165,7 @@ The canvas is your working area. It has no boundaries, so you can add objects wh
 
 ### Moving around the canvas
 
-If your design takes a lot of space and does not fit the screen, you can use the scroll bars located on the right side and the bottom of the screen.
+If your design takes a lot of space and does not fit the screen, you can use the scroll bars located on the right side and at the bottom of the screen.
 
 Also, you can use the mouse wheel for scrolling the canvas. Just point the cursor anywhere over the canvas and rotate the wheel to scroll vertically. To scroll horizontally, hold down the `Shift` key and rotate the mouse wheel.
 

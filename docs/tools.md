@@ -175,7 +175,7 @@ Also, for zooming you can use the zoom control on the right of the file tab pane
     <tr>
       <th>Operation</th>
       <th>Description</th>
-      <th>Keyboard shortcut</th>
+      <th style="width: 150px;">Keyboard shortcut</th>
     </tr>
   </thead>
   <tbody>
