@@ -60,7 +60,7 @@ The table below provides an overview of the controls and their shortcuts.
     <tr>
       <td><img src="/public/tool-shapeicon.png" alt="Shape tool"></td>
       <td><a href="https://docs.icons8.com/tools/#shape-tool">Shape tool</a>. Serves for adding pre-made shapes. The icon in the toolbar varies depending on the shape that you added last. Only the most frequently used shapes have shortcuts.</td>
-      <td><p><code>R</code> - rectangle</p><p><code>U</code> - rounded rectangle</p><p><code>O</code> - oval</p><p><code>L</code> - line</p></td>
+      <td><p><code>R</code> - rectangle</p><p><code>U</code> - rounded rectangle</p><p><code>O</code> - ellipse</p><p><code>L</code> - line</p></td>
     </tr>
     <tr>
       <td><img src="/public/tool-penicon.png" alt="Pen tool"></td>
@@ -159,63 +159,7 @@ The Zoom tool allows you to zoom in the selected object or canvas area. To use t
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom.mp4" type="video/mp4"></video>
 
-Also, for zooming you can use the zoom control on the right of the file tab panel or the shortcuts from the table below.
-
-<table>
-  <thead>
-    <tr>
-      <th>Operation</th>
-      <th>Description</th>
-      <th style="width: 160px;">Keyboard shortcut</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Zoom to object</td>
-      <td>Allows you to zoom in to a particular object or area. Hover the cursor over the object or area, hold down `Ctrl` and use the mouse wheel to zoom in or out.</td>
-      <td><code>Ctrl + Mouse Wheel</code></td>
-    </tr>
-    <tr>
-      <td>Soft zoom to object</td>
-      <td>Similar to the previous option, but with lower zooming speed.</td>
-      <td><code>Ctrl + Shift + Mouse Wheel</code></td>
-    </tr>
-    <tr>
-      <td>Zoom in/out</td>
-      <td>Zooms the canvas in/out</td>
-      <td><code>+/-</code> or <p><code>Ctrl + "+/-"</code></p></td>
-    </tr>
-    <tr>
-      <td>Zoom to 100%</td>
-      <td>Sets the zoom value to 100%</td>
-      <td><code>Ctrl + 0</code></td>
-    </tr>
-    <tr>
-      <td>Zoom to all objects</td>
-      <td>Shows all the objects available on the page</td>
-      <td><code>Ctrl + 1</code></td>
-    </tr>
-    <tr>
-      <td>Zoom to selection</td>
-      <td>Zooms in and displays the selected object in the center of the screen.</td>
-      <td><code>Ctrl + 2</code></td>
-    </tr>
-    <tr>
-      <td>Zoom to fit width</td>
-      <td>Zooms the canvas so that all the horizontally distributed objects fit the screen and you don't have to scroll the screen to the sides.</td>
-      <td><code>Ctrl + 3</code></td>
-    </tr>
-    <tr>
-      <td>Zoom to fit height</td>
-      <td>Zooms the canvas so that all the vertically distributed objects fit the screen and you don't have to scroll the screen up or down.</td>
-      <td><code>Ctrl + 4</code></td>
-    </tr>
-  </tbody>
-</table>
-
-The above options, except for *Zoom to object* and *Soft zoom to object*, are also accessible through the **View** menu, see the figure below.
-
-![Zoom tool](public/tool-zoommenu2.png)
+For information about zooming options in Lunacy, read <a href="https://docs.icons8.com/interface/#zooming-options" target="_blank">here</a>.
 
 ## Eyedropper tool
 

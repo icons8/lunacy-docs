@@ -219,13 +219,74 @@ The procedure is as follows:
 
 ### Zooming options
 
+The easiest way to zoom to an object in Lunacy is to hold down the `Ctrl` key and rotate the mouse wheel. Similarly, you can hold down `Ctrl` and `Shift` keys. In such a case the speed of zooming will be slower (see the demo below).
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomtoobject1358x734.mp4" type="video/mp4"></video>
+
+For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. To disable this feature, use the menu (**View** > **Pixel grid**).
+
+For information about other zooming options, read below.
+
 #### The Zoom control
 
-To change the zoom value, you can enter the zoom value manually or click the down arrowhead and select one of the preset values or options on the displayed menu (see the figure below).
+The zoom control is found on the right of the file tab panel.To change the zoom value, you can:
+
+* Enter the zoom value manually in the edit field
+* Hover the cursor over the zoom control edit field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl1358x734.mp4" type="video/mp4"></video>
+
+Alternatively, you can click the down arrowhead next to zoom control and select one of the preset values or options on the displayed menu (see the figure below).
 
 ![Zoom control](public/interface-zoomcontrol.png)
 
-Another way to adjust the zoom value is to hover the cursor over the zoom control edit field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
+The table below explains the options on the menu.
+
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Description</th>
+      <th style="width: 160px;">Keyboard shortcut</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Zoom in/out</td>
+      <td>Zooms the canvas in/out.</td>
+      <td><code>+/-</code> or <p><code>Ctrl + "+/-"</code></p></td>
+    </tr>
+    <tr>
+      <td>Zoom to 100%</td>
+      <td>Sets the zoom value to 100%.</td>
+      <td><code>Ctrl + 0</code></td>
+    </tr>
+    <tr>
+      <td>Zoom to all objects</td>
+      <td>Shows all the objects available on the page.</td>
+      <td><code>Ctrl + 1</code></td>
+    </tr>
+    <tr>
+      <td>Zoom to selection</td>
+      <td>Zooms in and displays the selected object in the center of the screen.</td>
+      <td><code>Ctrl + 2</code></td>
+    </tr>
+    <tr>
+      <td>Zoom to fit width</td>
+      <td>Zooms the canvas so that all the horizontally distributed objects fit the screen and you don't have to scroll the screen to the sides.</td>
+      <td><code>Ctrl + 3</code></td>
+    </tr>
+    <tr>
+      <td>Zoom to fit height</td>
+      <td>Zooms the canvas so that all the vertically distributed objects fit the screen and you don't have to scroll the screen up or down.</td>
+      <td><code>Ctrl + 4</code></td>
+    </tr>
+  </tbody>
+</table>
+
+The above options are also accessible through the **View** menu, see the figure below.
+
+![Zoom tool](public/tool-zoommenu2.png)
 
 Also, for zooming and focusing you can use the <a href="https://docs.icons8.com/tools/#zoom-tool" target="_blank">zoom tool</a>.
 
