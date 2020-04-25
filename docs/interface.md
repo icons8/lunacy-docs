@@ -344,7 +344,6 @@ The set of controls and settings displayed in the Inspector varies with the type
         <td><b>Alignment and distribution controls</b>. Become available when you select two or more objects.</td>
         </tr>
         <tr>
-        <tr>
         <td><img src="/public/interface-opacity.png" alt="Opacity and blend mode settings"></td>
         <td><b>Opacity and blend mode settings</b>. Allow you to set the overall opacity of an object and its blending mode.</td>
         </tr>
