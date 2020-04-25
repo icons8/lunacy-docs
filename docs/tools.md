@@ -192,7 +192,7 @@ Also, for zooming you can use the zoom control on the right of the file tab pane
     <tr>
       <td>Zoom in/out</td>
       <td>Zooms the canvas in/out</td>
-      <td><code>+/-</code> or <code>Ctrl + "+/-"</code></td>
+      <td><code>+/-</code> or <p><code>Ctrl + "+/-"</code></p></td>
     </tr>
     <tr>
       <td>Zoom to 100%</td>
