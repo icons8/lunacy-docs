@@ -141,7 +141,7 @@ There is also a special type of a page - the Symbols page. For details, read <a 
 
 ### Objects list
 
-The object list shows all the objects available on the current page. Lunacy automatically assigns names to objects and object groups as you create them, but you can rename them if you like. The figure below shows a view of an object list.
+The object list shows a tree objects available on the current page. Lunacy automatically assigns names to objects and object groups as you create them, but you can rename them if you like. The figure below shows a view of an object list.
 
 {:.is-big}
 ![A view of an object list](public/interface-objectlist.png)
@@ -155,11 +155,13 @@ The operations that you can perform in the objects list include:
 * Selecting objects - to select an object or object group, click its name in the objects list. As you do it, the selection frame appears around the object on the canvas. To select multiple items hold down the `Ctrl` or `Shift` keys and click.
 * Searching for objects - to quickly find the required object start typing its name in the search field above the object list.
 * Arranging objects - you can change the order of objects in the list by dragging them up or down.
-* Hiding objects - by hiding you can temporarily hide the selected item from the canvas. You can hide objects, object groups or individual items within object groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide objects by using the `Ctrl+H` shortcut or the respective command on the context menu.
+* Hiding objects - you can temporarily hide the selected item from the canvas. You can hide objects, object groups or individual items within object groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide objects by using the `Ctrl+H` shortcut or the respective command on the context menu.
 * Locking objects - by locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
 * Other basic operations with objects available on the context menu.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist.mp4" type="video/mp4"></video>
+
+To collapse all branches in the object tree use the `Ctrl + ~` shortcut.
 
 **Tip:** Some projects, such as design systems, can house hundreds of objects on a single page. To quickly locate the required object on the canvas, find it by typing its name in the search field, select it in the objects list and then press `Ctrl + 2` (Fit to selection).
 
@@ -197,16 +199,14 @@ There are two types of grids: square grid and layout grids. If necessary, you ca
 
 #### [Square grid](#square-grid)
 
-If there no artboards on the canvas, Lunacy displays the square grid directly on the canvas (to enable it, just click the **Show grid** button on the action bar). Otherwise, you should enable the display of the grid individually for each artboard.
+If there no artboards on the canvas, Lunacy displays the square grid directly on the canvas (to enable it, just click the **Show grid** button on the action bar). Otherwise, you can toggle on/off the display of the grid:
 
-The procedure is as follows:
+* For all artboards available on the canvas. For this, deselect all artboards and objects on the canvas (click over an empty area on the canvas or press `Esc`) and click the **Show grid** button on the action bar.
+* Individually for each artboard. For this, select the required artboard or an object on it and click the **Show grid** button on the action bar.
 
-1. Select the required artboard. For this, if there are no objects on the artboard, click anywhere on the artboard. Otherwise, click the artboard name at the top of it. Also, you can select it through the object list.
-2. Click the **Show grid** button on the action bar.
+To select the size of the grid cell, click the down arrowhead next to the button and choose one of the presets or define your custom size as shown in the demo below.
 
-To select the size of the grid cell, click the down arrowhead next to the button and choose one of the presets or define your custom size as shown in the figure below.
-
-![Square grid settings](public/interface-sqgrid.png)
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-sqgridplaceholder.png" height="auto"><source src="/public/inteface-sqgrid.mp4" type="video/mp4"></video>
 
 #### [Layout grid](#layout-grid)
 
@@ -376,8 +376,10 @@ The set of controls and settings displayed in the Inspector varies with the type
 
 When you select no objects on the canvas, the Inspector shows the following controls.
 
-![A view of Inspector with no objects selected](public/interface-canvasinspector.png)
-
 * **Workspace color**: Allows you to change the color of the canvas.
 * **Show pixel grid**: Toggles on/off the display of the pixel grid when the zoom value exceeds 500.
 * **Export project**: Allows you to export the whole project. For details, read <a href="https://docs.icons8.com/export" target="_blank">here</a>.
+
+![A view of Inspector with no objects selected](public/interface-canvasinspector.png)
+
+If you need more space, you can toggle on/off the display of the Inspector panel through the menu bar (**View** > **Inspector**).
