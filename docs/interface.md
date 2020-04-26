@@ -204,19 +204,17 @@ If there no artboards on the canvas, Lunacy displays the square grid directly on
 * For all artboards available on the canvas. For this, deselect all artboards and objects on the canvas (click over an empty area on the canvas or press `Esc`) and click the **Show grid** button on the action bar.
 * Individually for each artboard. For this, select the required artboard or an object on it and click the **Show grid** button on the action bar.
 
-To select the size of the grid cell, click the down arrowhead next to the button and choose one of the presets or define your custom size as shown in the demo below.
+To select the size of the grid cell, click the down arrowhead next to the button and choose one of the presets or define your custom size.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-sqgridplaceholder.png" height="auto"><source src="/public/interface-sqgrid.mp4" type="video/mp4"></video>
 
 #### [Layout grid](#layout-grid)
 
-You can apply layout grids only to <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboards</a>. If you have several artboards on a page, the display and the settings of the grid are configured individually for each artboard.
+You can apply layout grids only to <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboards</a>. If you have several artboards on a page, you can toggle on and off the display of layout grids for all or individually for each artboard.
 
-The procedure is as follows:
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-layoutgridplaceholder.png" height="auto"><source src="/public/interface-layoutgridvid.mp4" type="video/mp4"></video>
 
-1. Select the required artboard. If there are no objects on the artboard, click anywhere on the artboard. Otherwise, click the artboard name at the top of it. Also, you can select it through the object list.
-2. Click the **Show layout** button on the the action bar. Alternatively, you can click the eye icon in the **Grid layout** section of the Inspector.
-3. If necessary, configure the settings of the grid in the Inspector (see the figure below).
+Also, each artboard can have its own settings of the layout grid (see the demo above and the figure below).
 
 {:.is-big}
 ![Layout grid settings](public/interface-layoutgrid.png)
