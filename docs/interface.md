@@ -45,7 +45,7 @@ The interface consists of the following main elements.
     * **Properties**: Lets you see and adjust the properties of the selected object. The view of the Properties Inspector varies with the type of the selected object. For details, read [below](#the-inspector).
     * **Code**: Allows you to view and copy the code of the selected object in CSS, XAML and SVG.
 5. The **menu bar**. Holds the options and commands related to files, objects, editing, etc.
-6. The **context toolbar**. The set of controls that appears on the context toolbar depends on the type of the currently selected object. Hover the cursor over a tool icon to see a pop-up explaining what the tool does.
+6. The **context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected object. Hover the cursor over a tool icon to see a pop-up explaining what the tool does.
 7. The **action bar**. Features a set of buttons related mostly to display options, see the table below.
     
     <table>
