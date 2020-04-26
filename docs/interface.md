@@ -206,7 +206,7 @@ If there no artboards on the canvas, Lunacy displays the square grid directly on
 
 To select the size of the grid cell, click the down arrowhead next to the button and choose one of the presets or define your custom size as shown in the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-sqgridplaceholder.png" height="auto"><source src="/public/inteface-sqgrid.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-sqgridplaceholder.png" height="auto"><source src="/public/interface-sqgrid1356x730.mp4" type="video/mp4"></video>
 
 #### [Layout grid](#layout-grid)
 
