@@ -341,8 +341,8 @@ The set of controls and settings displayed in the Inspector varies with the type
         <td><b>Opacity and blend mode settings</b>. Allow you to set the overall opacity of an object and its blending mode.</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-positionctrl.png" alt="Position controls"></td>
-        <td><b>Position and size adjustment controls</b>. Allow you to adjust the position and size of the object.</td>
+        <td><img src="/public/interface-positionctrl2.png" alt="Object properties controls"></td>
+        <td><b>Object properties controls</b>. Allow you to adjust the position and size of the object, as well as its rotation angle, corner radius and number of vertices in stars and polygons. The set of displayed controls varies with the selected object.</td>
         </tr>
         <tr>
         <td><img src="/public/interface-resizectrl.png" alt="Resizing constraints"></td>
