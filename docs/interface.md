@@ -210,14 +210,9 @@ To select the size of the grid cell, click the down arrowhead next to the button
 
 #### [Layout grid](#layout-grid)
 
-You can apply layout grids only to <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboards</a>. If you have several artboards on a page, you can toggle on and off the display of layout grids for all or individually for each artboard.
+You can apply layout grids only to <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboards</a>. If you have several artboards on a page, you can toggle on and off the display of layout grids for all or individually for each artboard. Also, each artboard can have its own settings of the layout grid (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-layoutgridplaceholder.png" height="auto"><source src="/public/interface-layoutgridvid.mp4" type="video/mp4"></video>
-
-Also, each artboard can have its own settings of the layout grid (see the demo above and the figure below).
-
-{:.is-big}
-![Layout grid settings](public/interface-layoutgrid.png)
 
 ### Zooming options
 
