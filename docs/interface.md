@@ -141,7 +141,7 @@ There is also a special type of a page - the Symbols page. For details, read <a 
 
 ### Objects list
 
-The object list shows a tree objects available on the current page. Lunacy automatically assigns names to objects and object groups as you create them, but you can rename them if you like. The figure below shows a view of an object list.
+The object list shows a tree of objects available on the current page. Lunacy automatically assigns names to objects and object groups as you create them, but you can rename them if you like. The figure below shows a view of an object list.
 
 {:.is-big}
 ![A view of an object list](public/interface-objectlist.png)
