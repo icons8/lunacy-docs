@@ -97,6 +97,6 @@ This property is especially handy for tabs.
 
 ## Margins and Distances
 
-Lunacy shows margins, as well as distances between elements.
+Lunacy shows margins as well as distances between elements with the command Distances from Objects (hotkey `Alt`).
 
 ![Measure margins and distances between elements](public/mAz4bmww76HilrhUizdqvw_img_49.png)
