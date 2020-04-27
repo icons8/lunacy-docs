@@ -214,9 +214,9 @@ You can apply layout grids only to <a href="https://docs.icons8.com/tools/#artbo
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-layoutgridplaceholder.png" height="auto"><source src="/public/interface-layoutgridvid.mp4" type="video/mp4"></video>
 
-#### Measuring
+### Measuring
 
-To learn the distance between to objects on the canvas:
+To learn the distance between two objects on the canvas:
 
 1. Select an the first object.
 2. Hover the cursor over the other object.
