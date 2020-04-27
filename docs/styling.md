@@ -81,22 +81,8 @@ Gaussian blur is a blur type that will accurately blur in all directions.
 
 ![Gaussian blur](public/mAz4bmww76HilrhUizdqvw_img_47.png)
 
-## Formulas
-
-Inspector also supports formulas. You can type anything from 2+2, to complex algebra.
-
-You can drag the values up and down; they will increase or decrease.
-
-![Lunacy supports formulas](public/mAz4bmww76HilrhUizdqvw_img_19.gif)
-
 ## Rounded Corner Hack
 
 You can specify the radius for each corner separately. To do so, type 4 values, each separated  with a space.
 
 This property is especially handy for tabs.
-
-## Margins and Distances
-
-Lunacy shows margins, as well as distances between elements.
-
-![Measure margins and distances between elements](public/mAz4bmww76HilrhUizdqvw_img_49.png)
