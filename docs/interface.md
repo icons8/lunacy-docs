@@ -214,6 +214,23 @@ You can apply layout grids only to <a href="https://docs.icons8.com/tools/#artbo
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-layoutgridplaceholder.png" height="auto"><source src="/public/interface-layoutgridvid.mp4" type="video/mp4"></video>
 
+#### Measuring
+
+To learn the distance between to objects on the canvas:
+
+1. Select an the first object.
+2. Hover the cursor over the other object.
+3. Press and hold `Alt`.
+
+To learn the distance between an object and the borders of the artboard:
+
+* Hover the cursor over the object, then press and hold `Alt`.
+  
+  OR
+* Select an object, then hover the cursor over an empty area within the artboard and press and hold `Alt`.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
+
 ### Zooming options
 
 The easiest way to zoom to an object in Lunacy is to hold down the `Ctrl` key and rotate the mouse wheel. Similarly, you can hold down `Ctrl` and `Shift` keys. In such a case the speed of zooming will be slower (see the demo below).
