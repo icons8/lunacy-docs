@@ -393,3 +393,14 @@ When you select no objects on the canvas, the Inspector shows the following cont
 ![A view of Inspector with no objects selected](public/interface-canvasinspector.png)
 
 If you need more space, you can toggle on/off the display of the Inspector panel through the menu bar (**View** > **Inspector**).
+
+### Tips on working with the Inspector
+
+There are several ways to change values in the numeric fields of the Inspector. You can:
+
+* Enter the new value manually (press `Enter` to submit).
+* Click over the required field and rotate the mouse wheel to gradually increase or decrease the value.
+* Hover the cursor over the required field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
+* Use math (press `Enter` to submit).
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-inspectortipsplaceholder.png" height="auto"><source src="/public/interface-inspectortips.mp4" type="video/mp4"></video>
