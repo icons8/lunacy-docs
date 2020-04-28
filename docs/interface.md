@@ -181,6 +181,72 @@ Another option to navigate the canvas is to hold down the `Space` key (the curso
 
 Also, read about the [zooming options](#zooming-options).
 
+### Artboards
+
+Artboards are a special type of objects that allow you to divide the canvas into separate areas with different content. Artboards are optional but they come in handy when you’re designing for a certain screen size or device. To create an art board, use the <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboard tool</a>. In fact, it is the tool that Lunacy enables when you create a new document. It allows you to select an artboard from a list of that will appear on the right or create a custom size artboard.
+
+To add an artboard:
+
+1. Select the artboard tool on the toolbar or press `A`.
+2. Click and drag to create a custom size artboard or select an option from the artboard selection panel which will appear on the right. It features presets for all popular devices, screen resolutions and social media templates (see the figure below).
+
+{:.is-big}
+![Adding an artboard](public/tool-addatrboard.png)
+
+But even if you started your project without artboards, it is never too late to add them. Just drag the artboard tool over the objects that you want to put on an artboard.
+
+The figure below shows how artboards appear in the **Objects** panel and a view of the Inspector with artboard settings and controls which differ a lot from those available in the Inspector panels of other object types. 
+
+{:.is-big}
+![Artboards: Object panel and presets](public/interface-artboardpanels70.png)
+
+The table below provides a description of the Artboard Inspector elements.
+
+<table>
+    <thead>
+        <tr>
+        <th style="width: 270px;">Inspector element</th>
+        <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td><img src="/public/interface-artbinspector1.png" alt="Size controls"></td>
+        <td><b>Preset sizes and orientation</b><p>Allow you to select the size of the artboard from one of the presets and change its orientation. The <b>Resize to Fit</b> button changes the size of an artboard to the size of the selection frame that you get when you select all objects on the given artboard.</p></td>
+        </tr>
+        <tr>
+        <td><img src="/public/interface-artbinspector2.png" alt="Position and dimension controls"></td>
+        <td><b>Position and size</b><p>The <b>X</b> and <b>Y</b> controls show and allow you to manage the absolute position of the artboard on the canvas.</p> <p> The <b>W</b> and <b>H</b> controls, show and allow to change the width and height of the object. Click the links icon, if you want to preserve aspect ratio when change the size of the artboard.</p></td>
+        </tr>
+        <tr>
+        <td><img src="/public/interface-artbinspector3.png" alt="Adjust content on resize"></td>
+        <td><b>Adjust content on resize</b><p>With this checkbox selected, when you change the size of the artboard, Lunacy will proportionally change the size of the objects on it. Read also about resizing constraints.</p></td>
+        </tr>
+        <tr>
+        <td><img src="/public/interface-artbinspector4.png" alt="Artboard background"></td>
+        <td><b>Artboard background</b><p>Use these controls to change the color and opacity of the artboard. Also, you can clear the <b>Include in export</b> check box, if you don't want to include the artboard into export results. In such a case, Lunacy will export only the objects available on the artboard.</p></td>
+        </tr>
+        <tr>
+        <td><img src="/public/interface-artbinspector5.png" alt="Layout grid settings"></td>
+        <td><b>Layout grid settings</b><p>This group of controls allows you to configure the settings of the layout grid. For details about layout grids, read <a href="https://docs.icons8.com/interface/#layout-grid">here</a>.</p></td>
+        </tr>
+        <tr>
+        <td><img src="/public/interface-artbinspector6.png" alt="Export controls"></td>
+        <td><b>Export controls</b><p>Allow you to export the artboard and its content. For details about export in Lunacy, click <a href="https://docs.icons8.com/export" target="_blank">here</a>.</td>
+        </tr>
+    </tbody>
+</table>
+
+#### Selecting and moving artboards
+
+To select an empty artboard, you can click anywhere within the artboard. To select an artboard with objects on it, click the artboard name or select it through the **Objects** panel.
+
+Similarly, to move an empty artboard, click anywhere within the artboard and drag it to where you want it. To move an artboard with objects, click the artboard name and drag.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
+
+Alternatively, you can select the required artboard by clicking its name in the **Objects** panel.
+
 ### [Rulers and guides](#rulers-and-guides)
 
 Ruler and guides will help you position and align objects on the canvas. In Lunacy, rulers are enabled by default. They appear at the top and on the left side of the canvas. The default and the only measurement unit is pixels. To toggle the rulers off/on, use the `Ctrl+R` shortcut or do it through the menu bar (**View** > **Rulers**).  
