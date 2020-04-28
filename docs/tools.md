@@ -307,7 +307,7 @@ To add an artboard:
 {:.is-big}
 ![Adding an artboard](public/tool-addatrboard.png)
 
-**Tip:** If there are already some layers on the canvas and you decide to put them on an artboard, just drag the artboard tool over these layers.
+**Tip:** If there are already some objects on the canvas and you decide to put them on an artboard, just drag the artboard tool over these objects.
 
 For details, about using artboards read here.
 

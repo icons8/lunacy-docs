@@ -363,7 +363,7 @@ The set of controls and settings displayed in the Inspector varies with the type
         </tr>
         <tr>
         <td><img src="/public/interface-resizectrl.png" alt="Resizing constraints"></td>
-        <td><b>Resizing constraints</b>. Appear when you select two or more objects, a group of objects or an object on an artboard. Serve to determine the behavior of objects upon resizing.</a></td>
+        <td><b>Resizing constraints</b>. Appear when you select two or more objects, a group of objects or an object on an artboard. Serve to determine the behavior of objects upon resizing.</td>
         </tr>
         <tr>
         <td><img src="/public/interface-protoctrl.png" alt="Prototyping controls"></td>
