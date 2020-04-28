@@ -309,7 +309,7 @@ To add an artboard:
 
 **Tip:** If there are already some objects on the canvas and you decide to put them on an artboard, just drag the artboard tool over these objects.
 
-For details, about using artboards read here.
+For details, about using artboards read <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.  
 
 ## Slice tool
 
