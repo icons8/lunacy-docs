@@ -203,38 +203,38 @@ The figure below shows how artboards appear in the **Objects** panel and a view 
 The table below provides a description of the Artboard Inspector elements.
 
 <table>
-    <thead>
-        <tr>
-        <th style="width: 270px;">Inspector element</th>
-        <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-        <td><img src="/public/interface-artbinspector1.png" alt="Size controls"></td>
-        <td><b>Preset sizes and orientation</b><p>Allow you to select the size of the artboard from one of the presets and change its orientation. The <b>Resize to Fit</b> button changes the size of an artboard to the size of the selection frame that you get when you select all objects on the given artboard.</p></td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-artbinspector2.png" alt="Position and dimension controls"></td>
-        <td><b>Position and size</b><p>The <b>X</b> and <b>Y</b> controls show and allow you to manage the absolute position of the artboard on the canvas.</p> <p> The <b>W</b> and <b>H</b> controls, show and allow to change the width and height of the object. Click the links icon, if you want to preserve aspect ratio when change the size of the artboard.</p></td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-artbinspector3.png" alt="Adjust content on resize"></td>
-        <td><b>Adjust content on resize</b><p>With this checkbox selected, when you change the size of the artboard, Lunacy will proportionally change the size of the objects on it. Read also about resizing constraints.</p></td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-artbinspector4.png" alt="Artboard background"></td>
-        <td><b>Artboard background</b><p>Use these controls to change the color and opacity of the artboard. Also, you can clear the <b>Include in export</b> check box, if you don't want to include the artboard into export results. In such a case, Lunacy will export only the objects available on the artboard.</p></td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-artbinspector5.png" alt="Layout grid settings"></td>
-        <td><b>Layout grid settings</b><p>This group of controls allows you to configure the settings of the layout grid. For details about layout grids, read <a href="https://docs.icons8.com/interface/#layout-grid">here</a>.</p></td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-artbinspector6.png" alt="Export controls"></td>
-        <td><b>Export controls</b><p>Allow you to export the artboard and its content. For details about export in Lunacy, click <a href="https://docs.icons8.com/export" target="_blank">here</a>.</td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr>
+      <th style="width: 270px;">Inspector element</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/public/interface-artbinspector1.png" alt="Size controls"></td>
+      <td><b>Preset sizes and orientation</b><p>Allow you to select the size of the artboard from one of the presets and change its orientation. The <b>Resize to Fit</b> button changes the size of an artboard to the size of the selection frame that you get when you select all objects on the given artboard.</p></td>
+    </tr>
+    <tr>
+      <td><img src="/public/interface-artbinspector2.png" alt="Position and dimension controls"></td>
+      <td><b>Position and size</b><p>The <b>X</b> and <b>Y</b> controls show and allow you to manage the absolute position of the artboard on the canvas.</p> <p> The <b>W</b> and <b>H</b> controls, show and allow to change the width and height of the object. Click the links icon, if you want to preserve aspect ratio when change the size of the artboard.</p></td>
+    </tr>
+    <tr>
+      <td><img src="/public/interface-artbinspector3.png" alt="Adjust content on resize"></td>
+      <td><b>Adjust content on resize</b><p>With this checkbox selected, when you change the size of the artboard, Lunacy will proportionally change the size of the objects on it. Read also about resizing constraints.</p></td>
+    </tr>
+    <tr>
+      <td><img src="/public/interface-artbinspector4.png" alt="Artboard background"></td>
+      <td><b>Artboard background</b><p>Use these controls to change the color and opacity of the artboard. Also, you can clear the <b>Include in export</b> check box, if you don't want to include the artboard into export results. In such a case, Lunacy will export only the objects available on the artboard.</p></td>
+    </tr>
+    <tr>
+      <td><img src="/public/interface-artbinspector5.png" alt="Layout grid settings"></td>
+      <td><b>Layout grid settings</b><p>This group of controls allows you to configure the settings of the layout grid. For details about layout grids, read <a href="https://docs.icons8.com/interface/#layout-grid">here</a>.</p></td>
+    </tr>
+    <tr>
+      <td><img src="/public/interface-artbinspector6.png" alt="Export controls"></td>
+      <td><b>Export controls</b><p>Allow you to export the artboard and its content. For details about export in Lunacy, click <a href="https://docs.icons8.com/export" target="_blank">here</a>.</p></td>
+    </tr>
+  </tbody>
 </table>
 
 #### Selecting and moving artboards
