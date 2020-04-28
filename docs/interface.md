@@ -195,7 +195,7 @@ To add an artboard:
 
 But even if you started your project without artboards, it is never too late to add them. Just drag the artboard tool over the objects that you want to put on an artboard.
 
-The figure below shows how artboards appear in the **Objects** panel and a view of the Inspector with artboard settings and controls which differ a lot from those available in the Inspector panels of other object types.
+The figure below shows how artboards appear in the **Objects** panel and a view of the Inspector with artboard settings and controls which differ a lot from those available in the [Inspector](#the-inspector) panels of other object types.
 
 {:.is-big}
 ![Artboards: Object panel and presets](public/interface-artboardpanels70.png)
@@ -224,7 +224,7 @@ The table below provides a description of Inspector elements displayed for artbo
     </tr>
     <tr>
       <td><img src="/public/interface-artbinspector4.png" alt="Artboard background"></td>
-      <td><b>Artboard background</b><p>Use these controls to change the color and opacity of the artboard. Also, you can clear the <b>Include in export</b> check box, if you don't want to include the artboard into export results. In such a case, Lunacy will export only the objects available on the artboard.</p></td>
+      <td><b>Artboard background</b><p>Use these controls to change the color and opacity of the artboard. Also, you can clear the <b>Include in export</b> checkbox, if you don't want to include the artboard into export results. In such a case, Lunacy will export only the objects available on the artboard.</p></td>
     </tr>
     <tr>
       <td><img src="/public/interface-artbinspector5.png" alt="Layout grid settings"></td>
@@ -401,7 +401,7 @@ There are two ways to change the color of the canvas:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-canvascolorplaceholder.png" height="auto"><source src="/public/interface-canvascolor1356x730.mp4" type="video/mp4"></video>
 
-## The Inspector
+## [The Inspector](#the-inspector)
 
 The Inspector is the panel that appears on the right of the Lunacy interface. When you create a new document, the first thing you see on the right is not yet the Inspector but the panel of presets of the <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboard tool</a>. Lunacy enables it by default upon creation of a new document. And only you add an artboard or add and select another object, the Property Inspector appears.
 
