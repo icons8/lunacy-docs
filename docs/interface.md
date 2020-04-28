@@ -167,7 +167,7 @@ To collapse all branches in the object tree use the `Ctrl + ~` shortcut.
 
 ## [The Canvas](#the-canvas)
 
-The canvas is your working area. It has no boundaries, so you can add objects wherever you want. But if you need to observe certain frames you can add <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboards</a> to the canvas. Also, you can toggle on and off the display of [rulers](#rulers-and-guides) and [grids](#grids) on the canvas.
+The canvas is your working area. It has no boundaries, so you can add objects wherever you want. But if you need to observe certain frames you can add [artboards](#artboards) to the canvas. Also, you can toggle on and off the display of [rulers](#rulers-and-guides) and [grids](#grids) on the canvas.
 
 ### Moving around the canvas
 
