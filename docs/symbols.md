@@ -203,7 +203,7 @@ There are two ways to replace an instance on the canvas.
 
 **Way 2**
 
-1. Select the symbol instance you want replace.
+1. Select the symbol instance you want to replace.
 2. In the **Symbol** section of the Inspector panel, click the down arrowhead to unfold the menu.
 3. Use the menu to find and select the replacement symbol.
 
