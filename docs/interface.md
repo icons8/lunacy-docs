@@ -234,7 +234,7 @@ The table below provides a description of the Artboard Inspector elements.
         <td><img src="/public/interface-artbinspector6.png" alt="Export controls"></td>
         <td><b>Export controls</b><p>Allow you to export the artboard and its content. For details about export in Lunacy, click <a href="https://docs.icons8.com/export" target="_blank">here</a>.</td>
         </tr>
-  </tbody>
+    </tbody>
 </table>
 
 #### Selecting and moving artboards
