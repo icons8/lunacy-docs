@@ -23,6 +23,31 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
+## 5.5
+_RELEASED April 30, 2020_  
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.5.0.exe)
+
+### Improvements
+- Panning performance improvements
+- Selection performance improvements
+- Object rotation now works by Ctrl+Drag on selection corners
+- Paste Here and Paste Over options available in the menus
+- Text Edit caret is now visible on almost any background.
+- Ability to duplicate Symbols from Symbols panel
+- Ability to duplicate Shared Styles from Shared Styles panels
+- Ability to Zoom to Selection
+
+### Bug Fixes
+- Fixed a lot of Undo/Redo issues
+- Fixed selection issues
+- Fixed performance issues
+- Fixed a lot of resize issues
+- Fixed some Sketch Cloud issues
+- Fixed color picker issues
+- Fixed paste issues
+- Fixed export issues
+
 ## 5.4
 _RELEASED April 15, 2020_  
 
