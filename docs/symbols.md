@@ -192,8 +192,8 @@ There are two ways to replace an instance on the canvas.
 **Way 1.**
 
 1. Select the symbol instance you want to replace.
-2. Find the new symbol on the symbols panel.
-3. If you are in the list view mode, click the replacement icon at the left of the symbol block.
+2. Find the new symbol in the symbols panel.
+3. If you are in the list view mode, click the replacement icon on the symbol block.
 
     OR
 

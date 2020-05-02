@@ -24,7 +24,7 @@ page_nav:
 
 ## Overview
 
-The Lunacy interface is minimal. It contains only essential controls, so you don’t have to spend much time learning how to interact with it.
+The Lunacy interface is intuitive and minimal. It contains only essential controls, so you don’t have to spend much time learning how to interact with it.
 
 {:.is-big}
 ![Lunacy interface](public/interface-genview_notext.png)
@@ -460,7 +460,7 @@ When you select no objects on the canvas, the Inspector shows the following cont
 
 If you need more space, you can toggle on/off the display of the Inspector panel through the menu bar (**View** > **Inspector**).
 
-### Tips on working with the Inspector
+### [Tips on working with the Inspector](#tips-on-working-with-the-Inspector)
 
 There are several ways to change values in the numeric fields of the Inspector. You can:
 
