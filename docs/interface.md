@@ -529,7 +529,7 @@ The table below gives an overview of context menu commands and options common fo
       </tr>
       <tr>
         <td><b>Duplicate</b></td>
-        <td>Creates a duplicate of the selected object. For details, read <a href="https://docs.icons8.com/objects/#duplicating-objects">here</a>.</td>
+        <td>Creates a duplicate of the selected object. For details, read <a href="https://docs.icons8.com/objects/#duplicating-objects" target="_blank">here</a>.</td>
       </tr>
       <tr>
         <td><b>Delete</b></td>
