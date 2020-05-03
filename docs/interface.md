@@ -157,7 +157,7 @@ The operations that you can perform in the objects list include:
 * Arranging objects - you can change the order of objects in the list by dragging them up or down.
 * Hiding objects - you can temporarily hide the selected item from the canvas. You can hide objects, object groups or individual items within object groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide objects by using the `Ctrl+H` shortcut or the respective command on the context menu.
 * Locking objects - by locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
-* Other basic operations with objects available on the context menu.
+* Other [basic operations](#context-menu) with objects available on the context menu.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist.mp4" type="video/mp4"></video>
 
@@ -216,7 +216,7 @@ The table below provides a description of Inspector elements displayed for artbo
     </tr>
     <tr>
       <td><img src="/public/interface-artbinspector2.png" alt="Position and dimension controls"></td>
-      <td><b>Position and size</b><p>The <b>X</b> and <b>Y</b> controls show and allow you to manage the absolute position of the artboard on the canvas.</p> <p> The <b>W</b> and <b>H</b> controls, show and allow to change the width and height of the object. Click the links icon, if you want to preserve aspect ratio when changing the size of the artboard.</p></td>
+      <td><b>Position and size</b><p>The <b>X</b> and <b>Y</b> controls show and allow you to manage the absolute position of the artboard on the canvas.</p> <p> The <b>W</b> and <b>H</b> controls, show and allow to change the width and height of the object. Click the links button, if you want to preserve aspect ratio when changing the size of the artboard.</p></td>
     </tr>
     <tr>
       <td><img src="/public/interface-artbinspector3.png" alt="Adjust content on resize"></td>
@@ -470,3 +470,71 @@ There are several ways to change values in the numeric fields of the Inspector. 
 * Use math (press `Enter` to submit).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-inspectortipsplaceholder.png" height="auto"><source src="/public/interface-inspectortips.mp4" type="video/mp4"></video>
+
+## [The context menu](#the-context-menu)
+
+The context menu is a pop-up list of commands and and options for basic operations with objects. It appears when you right-click an object on the canvas. The set of items available on the context menu might slightly vary. It depends on the type of object that you right-click. Also, next to each item, the context menu shows respective shortcuts that you can use when you become more confident with Lunacy (see the figure below).  
+
+![A view of Inspector with no objects selected](public/interface-contextmenu.png)
+
+The table below gives an overview of context menu commands and options common for almost all object types.
+
+<table>
+    <thead>
+        <tr>
+        <th>Menu option</th>
+        <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td><b>Bring Forward</b></td>
+        <td>Moves the object one layer forward.</td>
+        </tr>
+        <tr>
+        <td><b>Bring to Front</b></td>
+        <td>Moves the object to the topmost layer.</td>
+        </tr>
+        <tr>
+        <td><b>Send Backward</b></td>
+        <td>Moves the object one layer back.</td>
+        </tr>
+        <tr>
+        <td><b>Send to Back</b></td>
+        <td>Moves the object to the backmost layer.</td>
+        </tr>
+        <tr>
+        <td><b>Group Selection</b></td>
+        <td>Groups two or more selected objects together. For details about grouping objects, read <a href="https://docs.icons8.com/objects/#grouping-objects" target="_blank">here</a>.</td>
+        </tr>
+        <tr>
+        <td><b>Ungroup</b></td>
+        <td>Splits the selected group into separate objects.</td>
+        </tr>
+        <tr>
+        <td><b>Lock</b></td>
+        <td>Locks the object from accidental edits. For details, read <a href="https://docs.icons8.com/interface/#objects-list">here</a>.</td>
+        </tr>
+        <tr>
+        <td><b>Hide</b></td>
+        <td>Temporarily hides the object from the canvas. For details, read <a href="https://docs.icons8.com/interface/#objects-list">here</a>.</td>
+        </tr>
+        <tr>
+        <td><b>Rename</b></td>
+        <td>Allows you to rename the selection in the object list.</td>
+        </tr>
+        <tr>
+        <td><b>Copy/Paste</b></td>
+        <td>Opens a submenu with copying/pasting options.</td>
+        </tr>
+        <tr>
+        <td><b>Duplicate</b></td>
+        <td>Creates a duplicate of the selected object. For details, read <a href="https://docs.icons8.com/objects/#duplicating-objects">here</a>.</td>
+        </tr>
+        <td><b>Delete</b></td>
+        <td>Deletes the selected object.</td>
+        </tr>
+    </tbody>
+</table>
+
+When you right-click an empty area on the canvas or an artboard, the only command available on the context menu will be **Paste here**. The point where you right-click is the place where Lunacy will place the top-left selection handle of the object you paste.
