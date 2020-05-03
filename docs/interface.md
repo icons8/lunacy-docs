@@ -480,61 +480,61 @@ The context menu is a pop-up list of commands and and options for basic operatio
 The table below gives an overview of context menu commands and options common for almost all object types.
 
 <table>
-    <thead>
-        <tr>
+  <thead>
+      <tr>
         <th>Menu option</th>
         <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
         <td><b>Bring Forward</b></td>
         <td>Moves the object one layer forward.</td>
-        </tr>
-        <tr>
+      </tr>
+      <tr>
         <td><b>Bring to Front</b></td>
         <td>Moves the object to the topmost layer.</td>
-        </tr>
-        <tr>
+      </tr>
+      <tr>
         <td><b>Send Backward</b></td>
         <td>Moves the object one layer back.</td>
-        </tr>
+      </tr>
         <tr>
         <td><b>Send to Back</b></td>
         <td>Moves the object to the backmost layer.</td>
-        </tr>
-        <tr>
+      </tr>
+      <tr>
         <td><b>Group Selection</b></td>
         <td>Groups two or more selected objects together. For details about grouping objects, read <a href="https://docs.icons8.com/objects/#grouping-objects" target="_blank">here</a>.</td>
-        </tr>
-        <tr>
+      </tr>
+      <tr>
         <td><b>Ungroup</b></td>
         <td>Splits the selected group into separate objects.</td>
-        </tr>
-        <tr>
+      </tr>
+      <tr>
         <td><b>Lock</b></td>
         <td>Locks the object from accidental edits. For details, read <a href="https://docs.icons8.com/interface/#objects-list">here</a>.</td>
-        </tr>
-        <tr>
+      </tr>
+      <tr>
         <td><b>Hide</b></td>
         <td>Temporarily hides the object from the canvas. For details, read <a href="https://docs.icons8.com/interface/#objects-list">here</a>.</td>
-        </tr>
-        <tr>
+      </tr>
+      <tr>
         <td><b>Rename</b></td>
         <td>Allows you to rename the selection in the object list.</td>
-        </tr>
-        <tr>
+      </tr>
+      <tr>
         <td><b>Copy/Paste</b></td>
         <td>Opens a submenu with copying/pasting options.</td>
-        </tr>
-        <tr>
+      </tr>
+      <tr>
         <td><b>Duplicate</b></td>
         <td>Creates a duplicate of the selected object. For details, read <a href="https://docs.icons8.com/objects/#duplicating-objects">here</a>.</td>
-        </tr>
+      </tr>
         <td><b>Delete</b></td>
         <td>Deletes the selected object.</td>
-        </tr>
-    </tbody>
+      </tr>
+  </tbody>
 </table>
 
 When you right-click an empty area on the canvas or an artboard, the only command available on the context menu will be **Paste here**. The point where you right-click is the place where Lunacy will place the top-left selection handle of the object you paste.
