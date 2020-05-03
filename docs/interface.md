@@ -499,7 +499,7 @@ The table below gives an overview of context menu commands and options common fo
         <td><b>Send Backward</b></td>
         <td>Moves the object one layer back.</td>
       </tr>
-        <tr>
+      <tr>
         <td><b>Send to Back</b></td>
         <td>Moves the object to the backmost layer.</td>
       </tr>
@@ -531,6 +531,7 @@ The table below gives an overview of context menu commands and options common fo
         <td><b>Duplicate</b></td>
         <td>Creates a duplicate of the selected object. For details, read <a href="https://docs.icons8.com/objects/#duplicating-objects">here</a>.</td>
       </tr>
+      <tr>
         <td><b>Delete</b></td>
         <td>Deletes the selected object.</td>
       </tr>
