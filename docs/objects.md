@@ -271,7 +271,7 @@ The table below provides a description of the controls.
     <tr>
       <td><img src="/public/objects-alignright.png" alt="Align Right"></td>
       <td><b>Align Right</b>. Aligns the selected objects to the right bound of their selection frame.</td>
-      <td><code>Shift + Ctrl + &#8594</code></td>
+      <td><code>Shift + Ctrl + &rightarrow;</code></td>
     </tr>
     <tr>
       <td><img src="/public/objects-distribvertspac.png" alt="Distribute Vertical Spacing"></td>

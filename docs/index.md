@@ -30,7 +30,7 @@ grid_navigation:
       url: '/editing'
       icon: 'pencil-tip'
     - title: 'Objects'
-      excerpt: Learn about shapes that Lunacy provides
+      excerpt: Learn about basic operations with objects in Lunacy
       url: '/objects'
       icon: 'ungroup-objects'
     - title: 'Text'
