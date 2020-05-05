@@ -261,7 +261,7 @@ The table below provides a description of the controls.
     <tr>
       <td><img src="/public/objects-alignleft.png" alt="Align Left"></td>
       <td><b>Align Left</b>. Aligns the selected objects to the left bound of their selection frame.</td>
-      <td><code>Shift + Ctrl + &#8592</code></p></td>
+      <td><code>Shift + Ctrl + &leftarrow;</code></p></td>
     </tr>
     <tr>
       <td><img src="/public/objects-alignhoriz.png" alt="Align Horizontally"></td>
@@ -281,7 +281,7 @@ The table below provides a description of the controls.
     <tr>
       <td><img src="/public/objects-aligntop.png" alt="Align Top"></td>
       <td><b>Align Top</b>. Aligns the selected objects to the top bound of their selection frame.</td>
-      <td><code>Shift + Ctrl + &#8593</code></td>
+      <td><code>Shift + Ctrl + &uparrow;</code></td>
     </tr>
     <tr>
       <td><img src="/public/objects-alignvert.png" alt="Align Vertically"></td>
@@ -291,7 +291,7 @@ The table below provides a description of the controls.
     <tr>
       <td><img src="/public/objects-alignbot.png" alt="Align Bottom"></td>
       <td><b>Align Bottom</b>. Aligns the selected objects to the bottom bound of their selection frame.</td>
-      <td><code>Shift + Ctrl + &#8595</code></td>
+      <td><code>Shift + Ctrl + &downarrow;</code></td>
     </tr>
     <tr>
       <td><img src="/public/objects-distribhorspac.png" alt="Distribute Vertical Spacing"></td>
@@ -331,7 +331,7 @@ To flip the selected object, use the **Flip Horizontally** (![Flip horizontally 
 
 Alternatively, you can use the following shortcuts:
 
-* `Ctrl + &#8592` or `Ctrl + &#8594` - horizontal flip.
-* `Ctrl + &#8593` or `Ctrl + &#8595` - vertical flip.
+* `Ctrl + &rightarrow;` or `Ctrl + &leftarrow;` - horizontal flip.
+* `Ctrl + &uparrow;` or `Ctrl + &downarrow;` - vertical flip.
 
 Also, the **Flip Horizontally** and **Flip Vertically** commands are available on the **Object** menu.
