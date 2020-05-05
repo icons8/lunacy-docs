@@ -331,7 +331,7 @@ To flip the selected object, use the **Flip Horizontally** (![Flip horizontally 
 
 Alternatively, you can use the following shortcuts:
 
-* `Ctrl +` &rightarrow; or `Ctrl +` &leftarrow;  - horizontal flip.
+* `Ctrl + <code>&rightarrow;</code>` or `Ctrl +` &leftarrow;  - horizontal flip.
 * `Ctrl +` &uparrow; or `Ctrl +` &downarrow; - vertical flip.
 
 Also, the **Flip Horizontally** and **Flip Vertically** commands are available on the **Object** menu.
