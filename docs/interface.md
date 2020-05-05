@@ -69,7 +69,7 @@ The interface consists of the following main elements.
         </tr>
         <tr>
         <td><img src="/public/interface-prototbtn.png" alt="Show prototyping button"></td>
-        <td>The <b>Show prototyping</b> button. Controls the display of <a href="https://docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a>.</td>
+        <td>The <b>Show prototyping</b> button. Controls the display of <a href="https://docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a> and prototyping arrows.</td>
         <td><b>View > Prototyping</b></td>
         </tr>
         <tr>
