@@ -525,7 +525,7 @@ The table below gives an overview of context menu commands and options common fo
       </tr>
       <tr>
         <td><b>Copy/Paste</b></td>
-        <td>Opens a submenu with copying/pasting options.</td>
+        <td>Opens a submenu with copying/pasting options. For details, read <a href="https://docs.icons8.com/objects/#copy-and-paste-options" target="_blank">here</a>.</td>
       </tr>
       <tr>
         <td><b>Duplicate</b></td>

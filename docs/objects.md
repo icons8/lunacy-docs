@@ -48,7 +48,7 @@ If you need to create a regular shape (for example, a circle or a square), hold 
 
 That is the most common method used in all similar applications. When you use it, the point from where you start dragging becomes an angle of the shape, if it is a rectangle, or an angle of its selection frame, if it is anything else. If you want the starting point to become the center of the shape, hold down `Alt` while dragging and `Alt + Shift` to get a regular shape (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-addingplaceholder.png" height="auto"><source src="/public/objects-adding.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-addingplaceholder.png" height="auto"><source src="/public/objects-adding.mp4" type="video/mp4"></video>
 
 **Note:** To check out the shortcuts available in Lunacy, click the **Keyboard Shortcuts** button at the bottom of the toolbar (this will open the shortcuts panel in Lunacy) or read <a href="https://docs.icons8.com/shortcuts/" target="_blank">here</a>.
 
@@ -83,7 +83,7 @@ Also, to adjust an object's position on the canvas or artboard, you can use the 
 
 If the object is a part of an artboard, **X** and **Y**  display the coordinates of the object's top-left selection handle relative to the artboard's top-left corner. See the demo below and the <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-Inspector" target="_blank">tips</a> on working with numeric fields in the Inspector.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-moving1placeholder.png" height="auto"><source src="/public/objects-moving1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-moving1placeholder.png" height="auto"><source src="/public/objects-moving1.mp4" type="video/mp4"></video>
 
 ## Grouping objects
 
@@ -112,7 +112,7 @@ To duplicate and object, select it and press `Ctrl+D`. Alternatively, you can ho
 
 Lunacy remembers the offset of the latest duplicate. So, if you press `Ctrl+D` shortly after you create a duplicate of and object, Lunacy will add another duplicate with the same offset as the previous one (see the demo below). This can be handy for designing patterns or things alike.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-duplicateplaceholder.png" height="auto"><source src="/public/objects-duplicate.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-duplicateplaceholder.png" height="auto"><source src="/public/objects-duplicate.mp4" type="video/mp4"></video>
 
 And of course, you can use the **Duplicate** command and standard **Copy** and **Paste** options available on the context menu.
 
@@ -120,9 +120,11 @@ And of course, you can use the **Duplicate** command and standard **Copy** and *
 
 You can simply select an object and use the standard `Ctrl+C` and `Ctrl+V` combination. This will create a copy of the object right above the original.
 
-Also, you can make use of other related options available on the context menu (see the figure and the table below).
+Also, you can make use of other related options available on the context menu.
 
 ![Copy and paste options](public/objects-copypaste.png)
+
+The table below provides a description of these options.
 
 <table>
   <thead>
@@ -167,9 +169,9 @@ Also, you can make use of other related options available on the context menu (s
   </tbody>
 </table>
 
+The demo below shows how you can copy and paste styling properties between objects.
+
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-copypasteplaceholder.png" height="auto"><source src="/public/objects-copypaste.mp4" type="video/mp4"></video>
-{:.image-info}
-Copying and pasting styling properties
 
 ## Resizing objects
 
@@ -183,7 +185,7 @@ There are several ways how you can resize objects:
 
 To resize an object, drag any of its selection handles as shown in the demo below. Use the handles on the sides, to change the object's height or width. Use the corner handles to adjust the object's height and width at the same time.  Hold down `Shift` while dragging to preserve the object's aspect ratio.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/object-resizing1.png" height="auto"><source src="/public/object-resizing1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing1.png" height="auto"><source src="/public/object-resizing1.mp4" type="video/mp4"></video>
 
 Also, you can hold down `Alt` while dragging to resize the object from its center, rather than from the edge that you are dragging.
 
@@ -193,7 +195,7 @@ The `Alt+Shift+drag` combination is also possible to preserve the object's aspec
 
 Select the object and use the **W** (width) and **H** (height) edit fields, when you need to define the exact size of an object.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/object-resizing2.png" height="auto"><source src="/public/object-resizing2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing2.png" height="auto"><source src="/public/object-resizing2.mp4" type="video/mp4"></video>
 
 Click the links button to preserve the object's aspect ratio. With this button enabled, the change of a value in one of the boxes, will result in respective value adjustment in the second box.
 
@@ -327,7 +329,7 @@ To quickly return the object into its initial position:
 
 To flip the selected object, use the **Flip Horizontally** (![Flip horizontally button](public/objects-fliphbtn.png)) and **Flip Vertically** (![Flip horizontally button](public/objects-flipvbtn.png)) buttons that appear on the context toolbar.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-flipplaceholder.png" height="auto"><source src="/public/objects-flip.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-flipplaceholder.png" height="auto"><source src="/public/objects-flip.mp4" type="video/mp4"></video>
 
 Alternatively, you can use the following shortcuts:
 
