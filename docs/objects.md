@@ -59,7 +59,7 @@ The Keyboard Shortcuts button
 
 ## Selecting objects
 
-There two ways to select objects in Lunacy.
+There are two ways to select objects in Lunacy.
 
 **Way 1. Selecting objects in the Objects panel**
 
