@@ -94,7 +94,7 @@ The interface consists of the following main elements.
         </tr>
         <tr>
         <td><img src="/public/interface-misfontbtn.png" alt="Missing fonts button"></td>
-        <td>The <b>Missing fonts button</b> button. Appears when the file you are working with includes fonts not installed on you computer. For details, read <a href="https://docs.icons8.com/text/#missing-fonts" target="_blank">here</a>.</td>
+        <td>The <b>Missing fonts</b> button. Appears when the file you are working with includes fonts not installed on your computer. For details, read <a href="https://docs.icons8.com/text/#missing-fonts" target="_blank">here</a>.</td>
         <td><code>-</code></td>
         </tr>
         <tr>
@@ -284,7 +284,7 @@ You can apply layout grids only to [artboards]((#artboards). If you have several
 
 To learn the distance between two objects on the canvas:
 
-1. Select an the first object.
+1. Select the first object.
 2. Hover the cursor over the other object.
 3. Press and hold `Alt`.
 
@@ -473,7 +473,7 @@ There are several ways to change values in the numeric fields of the Inspector. 
 
 ## [The context menu](#the-context-menu)
 
-The context menu is a pop-up list of commands and and options for basic operations with objects. It appears when you right-click an object on the canvas. The set of items available on the context menu might slightly vary. It depends on the type of object that you right-click. Also, next to each item, the context menu shows respective shortcuts that you can use when you become more confident with Lunacy (see the figure below).  
+The context menu is a pop-up list of commands and options for basic operations with objects. It appears when you right-click an object on the canvas. The set of items available on the context menu might slightly vary. It depends on the type of object that you right-click. Also, next to each item, the context menu shows respective shortcuts that you can use when you become more confident with Lunacy (see the figure below).  
 
 ![A view of Inspector with no objects selected](public/interface-contextmenu.png)
 

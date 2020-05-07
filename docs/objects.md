@@ -75,7 +75,7 @@ To move an object, just click and drag it. Make sure that the cursor is over the
 
 If you want to restrict movement to the X or Y axis, hold down `Shift` as you drag.
 
-For precise positioning you can use the arrow keys. Each key stroke moves an object by one pixel. Holding down `Shift` increases each step to 10 pixels.
+For precise positioning you can use the arrow keys. Each keystroke moves an object by one pixel. Holding down `Shift` increases each step to 10 pixels.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-movingplaceholder.png" height="auto"><source src="/public/objects-moving.mp4" type="video/mp4"></video>
 
@@ -108,7 +108,7 @@ To ungroup objects, select the group and click the **Ungroup** button (![Ungroup
 
 ## Duplicating objects
 
-To duplicate and object, select it and press `Ctrl+D`. Alternatively, you can hold down `Alt`, select the object and drag to where you want to place the duplicate.
+To duplicate an object, select it and press `Ctrl+D`. Alternatively, you can hold down `Alt`, select the object and drag to where you want to place the duplicate.
 
 Lunacy remembers the offset of the latest duplicate. So, if you press `Ctrl+D` shortly after you create a duplicate of and object, Lunacy will add another duplicate with the same offset as the previous one (see the demo below). This can be handy for designing patterns or things alike.
 
