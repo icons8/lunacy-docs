@@ -67,7 +67,20 @@ To select an object through the **Objects** panel, just find it in the list of o
 
 **Way 2. Selecting objects on the canvas**
 
-To select an object, use the select tool which gets enabled when no other tool is active. Just click the object or click and drag over it. See the details and a demo <a href="https://docs.icons8.com/tools/#select-tool" target="_blank">here</a>.
+To select an object, use the select tool which gets enabled when no other tool is active. Just click the object or click and drag over it.
+
+To select multiple objects, hold down the `Shift` key and click the objects you want to select. Also, you can click and drag over these objects.
+
+When you click or drag over a group of objects, you select the group. To select a certain object within a group:
+
+* Hold down the `Ctrl` key and click over the required object.
+  
+  OR
+* Click to select the group, then double-click to select the object.
+
+After you select an object within a group, you can switch to other objects of that group by simply clicking them.
+
+For details about using the select tool, and a demo click <a href="https://docs.icons8.com/tools/#select-tool" target="_blank">here</a>.
 
 ## Moving objects
 
@@ -313,13 +326,13 @@ To better understand how it all works, see the demo below.
 To rotate an object:
 
 1. Select the object.
-2. Click the rotation handle at the top of the object and drag it.
+2. Hover the cursor somewhere near any corner selection. Wait a moment until the cursor turns into a bended double-headed arrow, then drag.
   
     OR
 
     In the Inspector, enter the required value in the rotation angle field and press `Enter`.
 
-![Rotating an object](public/objects-rotation.png)
+![Rotating an object](public/objects-rotation1.png)
 
 To quickly return the object into its initial position:
 
@@ -337,6 +350,10 @@ Alternatively, you can use the following shortcuts:
 * <code>Ctrl + &uparrow;</code> or <code>Ctrl + &downarrow;</code> - vertical flip.
 
 Also, the **Flip Horizontally** and **Flip Vertically** commands are available on the **Object** menu.
+
+Another way to flip an object is to drag selection handles as shown in the demo below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-flipplaceholder.png" height="auto"><source src="/public/objects-flip2.mp4" type="video/mp4"></video>
 
 ## Boolean Operations
 

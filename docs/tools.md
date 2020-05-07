@@ -136,7 +136,7 @@ To resize the selected object(-s) with the Select tool, drag the handles on the 
 
 ### Using the Select tool with grouped objects
 
-When you click or drag over a group of objects, you select the group. To select a certain object within the group:
+When you click or drag over a group of objects, you select the group. To select a certain object within a group:
 
 * Hold down the `Ctrl` key and click over the required object.
   
