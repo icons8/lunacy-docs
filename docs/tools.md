@@ -265,7 +265,7 @@ In the demo below we added some curves to a heart-shaped object built with strai
 
 ### Types of points
 
-There are two types of points: the so-called straight (1) and curved points. Curved points appear with handles for building <a href="https://en.wikipedia.org/wiki/Bézier_curve" target="_blank">B&#x00e9;zier curves</a>.
+There are two types of points: the so-called **Straight** (1) and curved points. Curved points appear with handles for building <a href="https://en.wikipedia.org/wiki/Bézier_curve" target="_blank">B&#x00e9;zier curves</a>.
 
 And also, there are three subtypes of curved points. The difference between them is determined by the handles behavior:
 
