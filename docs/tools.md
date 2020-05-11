@@ -250,7 +250,7 @@ To build a shape that includes curves, double-click when setting a point or clic
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-pentool2placholder.png" height="auto"><source src="/public/tools-pentool2.mp4" type="video/mp4"></video>
 
-Don't worry if the resulting shape is not exactly what you wanted. You can always refine it by modifying curves and straight lines, moving points, adding new or deleting unnecessary ones.
+Don't worry if the resulting shape is not exactly what you wanted. You can always refine it by modifying curves and straight lines, moving points, adding new points or deleting unnecessary ones.
 
 For this:
 
@@ -285,11 +285,11 @@ For more information about editing vector objects, also read here.
 
 ## Pencil tool
 
-The Pencil is a tool for drawing freehand shapes with a stylus or, having some skill, with the mouse. You will find the Pencil on the same fly-out menu with the Pen tool. Alternatively, you can use `N` as a shortcut.
+The Pencil is a tool for drawing freehand paths with a stylus or, having some skill, with the mouse. You will find the Pencil on the same fly-out menu with the Pen tool. Alternatively, you can use `N` as a shortcut.
 
 If you are using the mouse, just hold down the left-mouse button and draw the required path. Release the button when you are done.
 
-Unlike other tools that switch to the select mode right after you create an object, the Pencil tool allows you to create as many objects as you need. Each Pencil "stroke" adds a new layer to the **Objects** panel. You can group them later.
+Unlike other tools that switch to the select mode right after you create an object, the Pencil tool allows you to create as many objects as you need. Each Pencil "stroke" adds a new object to the **Objects** panel. You can group them later.
 
 The figure below shows two words *Lunacy* written with the Pencil tool. The top one is written in one stroke, while the bottom one is in a stroke per letter (grouped for convenience). See how they appear in the **Objects** panel.
 
@@ -298,13 +298,13 @@ The figure below shows two words *Lunacy* written with the Pencil tool. The top 
 
 To exit the Pencil, press `Esc` or click the Select tool. When you exit the Pencil, Lunacy selects the latest path that you've added.
 
-### Editing shapes drawn with the Pencil
+### Editing paths drawn with the Pencil
 
-Lunacy automatically smooths the paths that you create. But you can also edit pencil-drawn paths like all other vector shapes: add, delete and move points, bend segments, etc. To switch to the edit mode, select the required path and press `Enter` or click the **Edit object** button at the top bar. To exit the edit mode, press `Esc` or click anywhere on the canvas beyond the selected object, see the demo below.
+Lunacy automatically smooths the paths that you create. But you can also edit pencil-drawn paths like all other vector paths: add, delete and move points, bend segments, etc. To switch to the edit mode, select the required path and press `Enter` or click the **Edit object** button at the top bar. To exit the edit mode, press `Esc` or click anywhere on the canvas beyond the selected object, see the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/pencil-editplaceholder.png" height="auto"><source src="/public/tool-penciltool.mp4" type="video/mp4"></video>
 
-Finally, you can make use of such styling properties as borders, shadows, inner shadows and blurs. As for fills, you should remember that the Pencil always draws open shapes, even if they appear as closed. You can try to apply fills but in many cases the result can be weird. If you need to close a shape, enable the object edit mode and click the **Close path** button which will appear in the Inspector.
+Finally, you can make use of such styling properties as borders, shadows, inner shadows and blurs. As for fills, you should remember that the Pencil always draws open paths, even if they appear as closed. You can try to apply fills but in many cases the result can be weird. If you need to close a path, enable the object edit mode and click the **Close path** button which will appear in the Inspector.
 
 ## Image tool
 
