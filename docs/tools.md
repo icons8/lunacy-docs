@@ -230,11 +230,58 @@ For details about working with shapes, click here.
 
 ## Pen tool
 
-The Pen tool serves for building custom vector shapes.
+The pen is a tool for creating vector shapes. It is used in all similar apps. But if you are a complete novice to design, it might take you some time and practice to master it.
+
+The pen builds shapes by drawing segments between points that you add onto the canvas. Altogether, the segments between interconnected points are called a *path*. Paths that have no end points, which means that all points are connected with two segments, are called *closed paths* or *shapes*.
+
+![Open path vs Shape](public/tools-openclosed.png)
+
+Path segments can be straight lines or curves.
+
+To build a shape that consists of straight lines:
+
+1. Click on the canvas to add the first point, then click where you want to have the second point.
+2. Go on clicking until the shape that you want is ready and close the path by clicking over the point from where you started or clicking the **Close path** button in the Inspector.
+3. Press `Esc` to exit the tool.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-penplaceholder.png" height="auto"><source src="/public/tool-pen.mp4" type="video/mp4"></video>
 
-For details about working with vector shapes, click here.
+To build a shape that includes curves, double-click when setting a point or click and drag a little. You will see two handles near the point. By dragging these handles and changing their length, you determine the shape of the curve. You can even drag the point, if necessary (see the demo below).
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-pentool2placholder.png" height="auto"><source src="/public/tools-pentool2.mp4" type="video/mp4"></video>
+
+Don't worry if the resulting shape is not exactly what you wanted. You can always refine it by modifying curves and straight lines, moving points, adding new or deleting unnecessary ones.
+
+For this:
+
+1. Select the shape.
+2. Click the **Edit object** button (![Edit object button](public/tools-editobjectbtn.png)) on the context tool bar or press `Enter`, to enable the edit mode.
+3. Make the required changes.
+4. To exit the edit mode, press `Esc` or click the canvas anywhere beyond the shape.
+
+In the demo below we added some curves to a heart-shaped object built with straight lines. Note how a double-click turns a straight point into a curved (mirrored) point. It works in the opposite way as well. For details about the types of points, read the subsection below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools-pentool3placeholder.png" height="auto"><source src="/public/tools-pentool3.mp4" type="video/mp4"></video>
+
+### Types of points
+
+There are two types of points: the so-called straight (1) and curved points. Curved points appear with handles for building <a href="https://en.wikipedia.org/wiki/Bézier_curve" target="_blank">B&#x00e9;zier curves</a>.
+
+And also, there are three subtypes of curved points. The difference between them is determined by the handles behavior:
+
+* **Mirrored points** (2) come with identical handles that mirror each other as you drag one of the handles.
+* **Disconnected points** (3) have entirely independent handles.
+* **Asymmetric points** (4) come with handles that share the same angle but can have different lengths.  
+
+As it was mentioned earlier, to switch between straight and mirror points, you can use double-clicking. To get a disconnected or asymmetric point, use the controls that appear at the top of the Inspector when you draw with the pen or enable the object editing mode. The numbers in the figure below correspond to the numbers in the description of point types.
+
+![Point type controls](public/tools-curvebuttons.png)
+
+To better understand how it all works, see the demo below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-curvesplaceholder.png" height="auto"><source src="/public/tools-curves.mp4" type="video/mp4"></video>
+
+For more information about editing vector objects, also read here.
 
 ## Pencil tool
 
