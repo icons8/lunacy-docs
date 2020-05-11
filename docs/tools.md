@@ -261,7 +261,7 @@ For this:
 
 In the demo below we added some curves to a heart-shaped object built with straight lines. Note how a double-click turns a straight point into a curved (mirrored) point. It works in the opposite way as well. For details about the types of points, read the subsection below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools-pentool3placeholder.png" height="auto"><source src="/public/tools-pentool3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools-pentool3placeholder.png" height="auto"><source src="/public/tools-pentool31.mp4" type="video/mp4"></video>
 
 ### Types of points
 
