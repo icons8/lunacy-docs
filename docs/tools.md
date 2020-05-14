@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Editing
-        url: '/editing'
+        content: Objects
+        url: '/objects'
     prev:
         content: Interface
         url: '/interface'

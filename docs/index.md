@@ -25,14 +25,14 @@ grid_navigation:
       excerpt: Tools and controls on the Lunacy toolbar
       url: '/tools'
       icon: 'maintenance'
-    - title: 'Editing'
-      excerpt: Learn about tools that will help you create shapes you want 
-      url: '/editing'
-      icon: 'pencil-tip'
     - title: 'Objects'
       excerpt: Learn about basic operations with objects in Lunacy
       url: '/objects'
       icon: 'ungroup-objects'
+    - title: 'Editing shapes'
+      excerpt: Make sure that you know everything about working with shapes in Lunacy 
+      url: '/editing'
+      icon: 'pencil-tip'
     - title: 'Text'
       excerpt: Learn how to work with text in Lunacy
       url: '/text'

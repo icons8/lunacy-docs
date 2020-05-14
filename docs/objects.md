@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Text
-        url: '/text'
-    prev:
-        content: Editing
+        content: Editing shapes
         url: '/editing'
+    prev:
+        content: Tools
+        url: '/tools'
 ---
 
 ## Introduction
