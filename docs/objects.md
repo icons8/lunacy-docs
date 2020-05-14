@@ -324,14 +324,14 @@ To better understand how it all works, see the demo below.
 
 To position objects along the Z-axis, use the send/bring commands found on the context menu or their respective shortcuts. The commands are as follows:
 
-* Bring Forward (`Ctrl` `]`). Moves the selected object one step forward.
-* Bring to Front (`Shift` `Ctrl` `]`). Places the selected object to the very front of the stack.
-* Send Backward (`Ctrl` `[`). Moves the selected object one step backward.
-* Send to Back (`Shift` `Ctrl` `[`). Places the selected object to the very back of the stack.
+* Bring Forward (`Ctrl + ]`). Moves the selected object one step forward.
+* Bring to Front (`Shift + Ctrl + ]`). Places the selected object to the very front of the stack.
+* Send Backward (`Ctrl + [`). Moves the selected object one step backward.
+* Send to Back (`Shift + Ctrl + [`). Places the selected object to the very back of the stack.
 
 The demo below shows how it works.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-sendbringplaceholder.png" height="auto"><source src="/public/objects-aligndistr.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-sendbringplaceholder.png" height="auto"><source src="/public/objects-sendbring.mp4" type="video/mp4"></video>
 
 Also, you can do the same by dragging objects up and down relative one another in the object list.
 
