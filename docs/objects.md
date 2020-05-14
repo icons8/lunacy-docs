@@ -368,30 +368,3 @@ Also, the **Flip Horizontally** and **Flip Vertically** commands are available o
 Another way to flip an object is to drag selection handles as shown in the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-flipplaceholder.png" height="auto"><source src="/public/objects-flip2.mp4" type="video/mp4"></video>
-
-## Boolean Operations
-
-Using boolean operations, you can easily draw complex shapes using primitives.
-
-* Union: The result is a vector that is the sum of both vectors’ areas.
-* Subtract: The result is a vector where the area of the top shape is removed from the one under it.
-* Intersect: The result is a vector consisting of the parts where the original shapes overlapped.
-* Difference: The result is a vector that is exactly the part where they didn’t overlap. It’s the inverse of an intersect operation.
-
-{:.is-big}
-![How boolean operations works](public/BoolOps.gif)
-
-Also, Lunacy has a Flatten selection operation: The result is a vector that represents the multiple paths inside the shape as one path. However, there are many paths that can’t be flattened into one. A shape with a hole inside it will always represent as two paths; one for outer path, and one for the inner path.
-
-{:.is-big}
-![How flatten selection works](public/Flatten.gif)
-
-## Masks
-
-Masks (keyboard shortcut `Ctrl` `M`) in Lunacy are used to show parts of objects selectively. For example, masking two overlapping ovals gives you an oval image.
-
-{:.is-big}
-![How masks works](public/objects_masks.png)
-
-{:.image-info}
-Masking objects

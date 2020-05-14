@@ -58,7 +58,7 @@ The demo below shows these controls in action.
 
 To enable the object edit mode, select the shape and then do one of the following:
 
-* Double click the object.
+* Double-click the shape.
 * Press `Enter`.
 * Click the **Edit object** button (![Edit object button](public/tools-editobjectbtn.png)) on the context toolbar.
 
