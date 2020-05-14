@@ -5,8 +5,8 @@ keywords:
 comments: false
 
 # Hero section
-title: Editing
-description: Learn about tools that will help you create shapes you want
+title: Editing shapes
+description: Make sure that you know everything about working with shapes in Lunacy
 icon: 'pencil-tip'
 
 # Micro navigation
@@ -23,145 +23,146 @@ page_nav:
 ---
 
 
-## Selecting
+## Introduction
 
-Selecting objects in Lunacy is easy: You just click on an object in your canvas. Once the object is selected, you should see eight little handles along its outline; one in each corner and one in the center of each edge.
+If we put aside such specific <a href="https://docs.icons8.com/objects/#introduction" target="_blank">object types</a> as artboards and hotspots, all objects in Lunacy that are not text or rasters are vector shapes.
 
-![Select an object and see its properties](public/editing_select_single_object.gif)
+Lunacy provides a set of pre-made shapes that you can add in no time using the <a href="https://docs.icons8.com/tools/#shape-tool" target="_blank">shape tool</a>. Also, you can make use of the <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">pen</a> and <a href="https://docs.icons8.com/tools/#pencil-tool" target="_blank">pencil</a> tools to create freehand shapes and paths. Among the latter two, we should pay special attention to the pen tool, which allows you to edit vector shapes, both pre-made and freehand.
 
-{:.image-info}
-Sheep selected for breeding
+Another important thing for working with shapes is Boolean operations that allow you to combine shapes of all kinds and create even more fancy shapes whose diversity depends only on your creativity.
 
-Alternatively, you can use the Layer list to select an object. Clicking an object's name in the list selects it on the canvas.
+This section focuses on how to edit and transform vector shapes. For information about creating pre-made shapes, read <a href="https://docs.icons8.com/tools/#shape-tool" target="_blank">here</a> and <a href="https://docs.icons8.com/objects/#adding-objects" target="_blank">here</a>. For details about creating shapes with the pen tool, read <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">here</a>.
 
-You can select multiple objects by holding down the `Shift` key on the keyboard and clicking on other objects.
+For information how to apply fills, borders, shadows and blurs, refer to the <a href="https://docs.icons8.com/styling" target="_blank">Styling</a> section.
 
-{:.is-big}
-![Use the Layer List to select an object](public/editing_select_multiple_objects.gif)
 
-{:.image-info}
-The whole flock of sheep can be selected in the Objects list
+## Transforming shapes in the Inspector
 
-### Selecting Group vs. Object
+The figure below shows the controls in the Inspector that allow you to transform pre-made shapes. 
 
-If you click on an object within a group, Lunacy selects the whole group. This is usually quite handy: You can easily move around whole components in your design.
+![Object transformation controls](public/shapes-inspectorcontrols.png)
 
-Sometimes you need to choose a single object though. To do so, hold `Ctrl` when choosing the object.
+These controls include:
 
-## Adding
+1. The **Corner radius** control. Available for most of pre-made shapes, except for ellipses, lines and arrows.
+2. The **Points** control. Available only for stars and poligons.
+3. The **Ratio** control. Available for stars only. Sets the ratio of star shapes.
 
-The most common type of objects in your document will be shapes. The easiest way to add a shape is to pick one of the standard shapes from the toolbar. There is a wide variety of default shapes provided by Lunacy; these include ovals, rectangles, lines and more.
+The demo below shows these controls in action.
 
-## Moving
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-transform1placeholder.png" height="auto"><source src="/public/shapes-transform1.mp4" type="video/mp4"></video>
 
-### Moving With Keyboard
+## Vector editing
 
-* Hit the arrow keys to move an object by one pixel
-* `Shift` with `←` `↑` `↓` `→` moves objects by 10 pixels
+**Note**: Before you get down to reading this subsection, we recommend you get acquainted with <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">this</a> article first. It provides the basic information about the structure of vector objects, paths, point types and the usage of the Pen tool.
 
-**Using keyboard is handy when you either**
+To enable the object edit mode, select the shape and then do one of the following:
 
-* Need precision
-* Or need to move objects just a little bit (as designers, we spend 50% of our time making these small adjustments)
+* Double click the object.
+* Press `Enter`.
+* Click the **Edit object** button (![Edit object button](public/tools-editobjectbtn.png)) on the context toolbar.
 
-### Moving Horizontally and Vertically
+As you do it:
 
-Hold `Shift` while moving an object. Lunacy will lock one of the axes and move the object either horizontally or vertically.
-
-## Duplicating
-
-Hold `Alt` and move the object. Lunacy will create a copy. Another way to create a copy, is by pressing `Ctrl` `D`
-
-## Grouping
-
-Grouping objects is a good way to organize a document. After creating a group, you can move, scale, and duplicate the group as a single object.
-
-Designers use grouping a lot. One can even say that designers turn their documents into a series of nested groups.
-
-![Grouping objects](public/editing_grouping.png)
-
-{:.image-info}
-Designers use grouping a lot
-
-## Resizing
-
-Each object in Lunacy has eight handles that become visible when you select objects. Those handles don't just indicate selection; you can also use them to resize a layer. Grab any of the handles and drag them to resize an object.
-
-![Resize objects](public/editing_resizing.gif)
-
-{:.image-info}
-Use handles to resize in any direction
-
-### Notice the Group Resizing Option.
-
-Imagine you've got an object inside a group. When you resize this group, how the object should behave? Should it resize or stay locked?
-
-![Resize groups](public/editing_constraints.png)
-
-{:.image-info}
-It calls Constraints
-
-For example, when **_Fix Height_** is enabled, the height remains intact when you resize the parent vertically.
+1. The Pen tool becomes active.
+2. The selection frame disappears. You see the anchor points of the shape.
+3. The **Edit shape** section appears in the Inspector.
 
 {:.is-big}
-![How constraints works](public/editing_constraints_example.gif)
+![Edit object button](public/shapes-editmode1.png)
 
-{:.image-info}
-Note how in the second group the sun is still at his position, even after group resizing
+In general, vector editing is all about manipulations with points and bending segments. The basic procedures are as follows:
 
-You only see this option if you selected an object inside a group or an artboard.
+* To select a point, just click it. To select multiple points, drag over them or hold down `Shift` while clicking.
+* To move a point, select and drag it. This works with multiple points as well.
+* To add a new point to a path, hover the cursor over the path, then click the path to get a straight point or double-click to set a mirrored point.
+* To switch between other point types, use the controls in **Edit shape** section of the Inspector (#3 in the figure above).
+* To bend segments, use curved points.
+* To create a rounded corner on a straight point use the corner radius control (#4 in the figure above). It becomes active only when you select a straight point.
+* To delete a point or several points, select it (them) and press the `Delete` key.
 
-## Rotating
+The next demo shows all the above procedures in action.
 
-You can rotate an object using the rotate clock. As rotation is a value measured in degrees, it can be edited via Lunacy's Inspector.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-editmode1.png" height="auto"><source src="/public/shapes-vectorediting3.mp4" type="video/mp4"></video>
 
-{:.is-big}
-![Rotate objects](public/editing_rotating.gif)
+## Boolean Operations
 
-{:.image-info}
-You Spin Me Round!
+Boolean operations allow you to create complex shapes by combining parts or all of simple shapes. 
 
+For this:
+1. Select two or more overlapping shapes.
+2. On the context tool bar, select the required Boolean operation as shown in the figure below.
 
-## Z-Axis Position
+![Boolean operations](public/shapes-booleans.png)
 
-Each object on your artboard can be located on the Z-axis. You can:
-* Bring objects forward (keyboard shortcut `Ctrl` `]`
-* Bring it to the front (keyboard shortcut `Shift` `Ctrl` `]`
-* Send objects backward (keyboard shortcut `Ctrl` `[`
-* Send an object directly to the back (keyboard shortcut `Shift` `Ctrl` `[`
+Lunacy provides four types of Boolean operations:
 
-{:.is-big}
-![Change Z-axis position for elements](public/editing_positioning.png)
+* **Union**: Results in a shape that is the sum of areas of all selected shapes.
+* **Subtract**: Removes overlapping areas from the lowermost shape. Opposite to the union operation.
+* **Intersect**: The result of this operation is a shape that includes only the area where all selected shapes overlap.
+* **Difference**: Results in a shape that does not include overlapping areas. Opposite to the intersect operation.
 
-{:.image-info}
-Also, you can use the power of contextual menu, for moving objects on the Z-axis
+The demo below shows how Boolean operations work.
 
-## Align and Distribute
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-booleansplaceholder.png" height="auto"><source src="/public/shapes-booleans.mp4" type="video/mp4"></video>
 
-In a bar at the very top of the canvas, you will find the buttons for aligning and distributing objects. These buttons will become active when you have more than one object selected.
+When you apply a Boolean operation, the selected shapes become a Boolean group. The figure below shows a view of a Boolean group in the **Objects** panel. Note that there is an icon next to one of the shapes. It indicates the type of the Boolean operation currently applied. By clicking this icon you invoke a menu where you can select another operation.
 
+![Boolean group](public/shapes-ellipseunion.png)
 
+You can select individual shapes within the group through the **Objects** panel or on the canvas. If necessary, you can move and resize them on the canvas to modify the resulting shape.
 
-| Button | Action | Shortcut |
-|---|---|---|---|---|
-| ![Align left](public/editing_align_left.png) | Align left | `Shift` `Ctrl` `←` |
-| ![Center vertically](public/editing_align_center_v.png) | Center vertically | `Shift` `Ctrl` `-` |
-| ![Align right](public/editing_align_right.png) | Align right | `Shift` `Ctrl` `→` |
-| ![Align top](public/editing_align_top.png) | Align top | `Shift` `Ctrl` `↑` |
-| ![Center horizontally](public/editing_align_center_h.png) | Center horizontally | `Shift` `Ctrl` `|` |
-| ![Align bottom](public/editing_align_bottom.png) | Align bottom | `Shift` `Ctrl` `↓` |
-| ![Distribute horizontally](public/editing_distribute_horizontally.png) | Distribute horizontally | `Shift` `Ctrl` `H` |
-| ![Distribute vertically](public/editing_distribute_vertically.png) | Distribute vertically | `Shift` `Ctrl` `V` |
+**Tip:** There is no special button or menu option to disassemble a Boolean group. But you can do it by dragging shapes out of the group in the **Objects** panel.
 
+## Flattening
 
-
-
-## Edit Shape
-
-For some objects, like the rectangle, it’s possible to edit the shape. To activate Edit shape mode, you need to double click on the object. This option allows you to modify properties like Corner radius for a rectangle.
+The flattening operation is another method of creating complex shapes by combining two or more primitives. It is in a way similar to the Boolean union operation, but unlike the latter the result of flattening is a single object that cannot be disassembled. The **Flatten selection** option shares the same drop-down list with the Boolean operations and also is available on the **Object** menu (see the figure below).
 
 {:.is-big}
-![Editing shapes](public/editing_edit_shape.png)
+![Boolean group](public/shapes-flatten.png)
 
-{:.image-info}
-Select and edit vector points of the shape
+The next demo shows how flattening works.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-flattenplaceholder.png" height="auto"><source src="/public/shapes-flat.mp4" type="video/mp4"></video>
+
+## Masks
+
+Masks allow you to use shapes for hiding parts of objects that don't fall within a shape.
+
+To create a mask:
+
+1. Add a shape that you will use as a mask over the target object(s).
+2. Send the mask shape to back. You can skip this step, if you are applying a mask to a photo.
+3. Select the mask shape and the target object(s).
+4. On the context toolbar, click the **Toggle mask** button (![Toggle mask button](public/shapes-togglemaskbtn.png)) or press `Ctrl+M`. The **Toggle mask** option is also available on the context menu.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-masksplaceholder.png" height="auto"><source src="/public/shapes-masks.mp4" type="video/mp4"></video>
+
+When you apply a mask, Lunacy creates a mask group in the **Objects** list.
+
+![A mask group](public/shapes-maskgroup.png)
+
+If it is necessary, you can select the mask shape right within the mask group and move, edit or resize the mask.
+
+To remove a mask, select the mask group in the **Objects** panel or on the canvas and click the **Toggle mask** button (`Ctrl+M`).
+
+## Outline stroke
+
+The **Outline stroke** option (`Ctrl+Shift+O`) appears on the context menu and on the **Object** menu when you select a shape with a border. It allows you to convert that border into an independent object. Watch the demo below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-outlinestrokeplaceholder.png" height="auto"><source src="/public/shapes-outlinestroke.mp4" type="video/mp4"></video>
+
+## Rasterizing vector shapes
+
+**Note:** Bear in mind that you cannot convert a raster back into a vector shape.
+
+When it is necessary, you can turn vector shapes into rasters.
+
+For this:
+
+1. Select the required object(s).
+2. Right-click over the selection, then click **Rasterize selection** on the context menu. This option is also available on the **Object** menu.
+
+![Rasterizing vector shapes](public/shapes-rasterize.png)
+
+See also <a href="https://docs.icons8.com/interface/#show-pixels-on-zoom" target="_blank">Show pixels on zoom</a>.
