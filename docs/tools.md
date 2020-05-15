@@ -147,7 +147,7 @@ When you click or drag over a group of objects, you select the group. To select 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selectltoolgroup.mp4" type="video/mp4"></video>
 
->**Tip:** Alternatively, you can select objects through the **Objects** panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects. For details about working with objects, click here.
+>**Tip:** Alternatively, you can select objects through the **Objects** panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects. For details about working with objects, click <a href="https://docs.icons8.com/objects/" target="_blank">here</a>.
 
 ## Zoom tool
 
@@ -226,7 +226,7 @@ To add a shape, select the required shape on the fly-out menu and then drag and 
 {:.is-big}
 ![Shape tool](public/objects_adding_primitives.gif)
 
-For details about working with shapes, click here.
+For details about working with shapes, click <a href="https://docs.icons8.com/editing/" target="_blank">here</a>.
 
 ## Pen tool
 
@@ -281,7 +281,7 @@ To better understand how it all works, see the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-curvesplaceholder.png" height="auto"><source src="/public/tools-curves.mp4" type="video/mp4"></video>
 
-For more information about editing vector objects, also read here.
+For more information about editing vector objects, also read <a href="https://docs.icons8.com/editing/#vector-editing" target="_blank">here</a>.
 
 ## Pencil tool
 
