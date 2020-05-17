@@ -57,13 +57,13 @@ The demo below shows these controls in action.
 There are two more ways of changing corner radii in rectangles drawn with the shape tool:
 
 1. Drag the circle handles that appear inside a rectangle when you select it. This will change the radii of all corners.
-2. In the **Corner radius** control, enter four values separating them with spaces. This will be the values of the corner radii (starting from the top-left and going clockwise).
+2. In the **Corner radius** control, enter four values separating them with spaces. This will be the values of the corner radii (starting from the top-left and going clockwise). Press `Enter` to submit.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-cronerradplaceholder.png" height="auto"><source src="/public/shapes-cronerrad.mp4" type="video/mp4"></video>
 
 **Note:** The above methods won't work with rectangles drawn with the Pen tool.
 
-Read also and see the demo in the next subsection. It shows how to edit corner radii in other shapes.
+Read also and see the demo in the next subsection. It shows how to edit individual corner radii in other shapes.
 
 ## Vector editing
 
