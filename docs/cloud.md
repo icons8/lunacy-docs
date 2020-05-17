@@ -136,10 +136,9 @@ To save a document to Sketch Cloud:
 1. Click the Cloud button on the top toolbar. The Cloud panel appears on the right.
 2. In the Cloud panel, click **Upload Document**.
 
-If you've been working with a file that you already had on your computer, a new file tab with the Cloud document will appear once the uploading is complete. Cloud documents appear in the Lunacy interface with the Cloud icon in front of their names (see the demo below). Bear in mind that the local file and the Cloud file are two independent files. Changes to the local file will not affect the Cloud one and vice versa.
+If you've been working with a file that you already had on your computer, the local file will close and a new file tab with the Cloud document will appear once the uploading is complete. Cloud documents appear in the Lunacy interface with the Cloud icon in front of their names (see the demo below). Bear in mind that the local file and the Cloud file are two independent files. Changes to the local file will not affect the Cloud one and vice versa.
 
-{:.is-big}
-![Saving a document to Cloud](public/cloud-save.gif)
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/cloud-savedocplaceholder.png" height="auto"><source src="/public/cloud-savedoc.mp4" type="video/mp4"></video>
 
 ## Updating a document in the Cloud
 
