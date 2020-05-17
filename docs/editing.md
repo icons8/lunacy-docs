@@ -36,7 +36,7 @@ This section focuses on how to edit and transform vector shapes. For information
 For information how to apply fills, borders, shadows and blurs, refer to the <a href="https://docs.icons8.com/styling" target="_blank">Styling</a> section.
 
 
-## Transforming shapes in the Inspector
+## Transforming shapes through the Inspector
 
 The figure below shows the controls in the Inspector that allow you to transform pre-made shapes. 
 
@@ -51,6 +51,19 @@ These controls include:
 The demo below shows these controls in action.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-transform1placeholder.png" height="auto"><source src="/public/shapes-transform1.mp4" type="video/mp4"></video>
+
+### Editing corner radii in rectangles
+
+There are two more ways of changing corner radii in rectangles drawn with the shape tool:
+
+1. Drag the circle handles that appear inside a rectangle when you select it. This will change the radii of all corners.
+2. In the **Corner radius** control, enter four values separating them with spaces. This will be the values of the corner radii (starting from the top-left and going clockwise).
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-cronerradplaceholder.png" height="auto"><source src="/public/shapes-cronerrad.mp4" type="video/mp4"></video>
+
+**Note:** The above methods won't work with rectangles drawn with the Pen tool.
+
+Read also and see the demo in the next subsection. It shows how to edit corner radii in other shapes.
 
 ## Vector editing
 
