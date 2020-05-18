@@ -80,6 +80,8 @@ When you click or drag over a group of objects, you select the group. To select 
 
 After you select an object within a group, you can switch to other objects of that group by simply clicking them.
 
+To quickly select all objects on the canvas, use the `Ctrl+A` shortcut.
+
 For details about using the select tool and a demo, click <a href="https://docs.icons8.com/tools/#select-tool" target="_blank">here</a>.
 
 ## Moving objects

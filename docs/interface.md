@@ -282,6 +282,8 @@ You can apply layout grids only to [artboards]((#artboards). If you have several
 
 ### Measuring
 
+#### Individual objects
+
 To learn the distance between two objects on the canvas:
 
 1. Select the first object.
@@ -296,6 +298,34 @@ To learn the distance between an object and the borders of the artboard:
 * Select an object, then hover the cursor over an empty area within the artboard and press and hold `Alt`.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
+
+#### Grouped objects
+
+To measure the distance between a grouped object and another object (or grouped object) or between a grouped object and the borders of the artboard, proceed as described in the previous subsection.
+
+To learn the distance between a member of a group and the borders of the group:
+
+1. Press and hold `Ctrl + Alt`.
+2. Point the cursor over the required group member.
+
+To learn the distance between a member of a group and the borders of the artboard:
+
+1. Select the group member.
+2. Press and hold `Alt`.
+3. Point the cursor anywhere beyond other group members.
+
+To learn the distance between a member of a group and another member of the group or another object (group):
+
+1. Select the first group member.
+2. Press and hold `Alt`.
+3. Point the cursor over the second group member/object(group).
+
+To learn the distance between a member of a group and a member of another group:
+
+1. Select the first group member.
+2. Press and hold `Ctrl+Alt`.
+3. Point the cursor over the member of the other group.
+
 
 ### Zooming options
 
