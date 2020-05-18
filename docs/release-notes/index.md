@@ -23,6 +23,30 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
+## 5.6
+_RELEASED May 18, 2020_  
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.6.0.exe)
+
+### Features
+- Notifications Panel
+- The naming of items in Color Picker
+- Resize elements with Ctrl+Arrows
+### Improvements
+- Improved UI of Appearance Inspector
+- Improved UI of Symbol Inspector
+- Minor UI improvements of Style Suggestions
+- Improved Navigation in Libraries
+- Magnets are supporting Justify 
+### Bug Fix
+- Fixed typography issues
+- Fixed copy-paste issues
+- Fixed undo-redo issues
+- Fixed icon tool issues
+- Fixed tree elements issues
+- Fixed snapping issues
+- Fixed selection issues
+
 ## 5.5
 _RELEASED April 30, 2020_  
 
