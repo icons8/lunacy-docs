@@ -460,7 +460,7 @@ When you select no objects on the canvas, the Inspector shows the following cont
 
 If you need more space, you can toggle on/off the display of the Inspector panel through the menu bar (**View** > **Inspector**).
 
-### [Tips on working with the Inspector](#tips-on-working-with-the-Inspector)
+### [Tips on working with the Inspector](#tips-on-working-with-the-inspector)
 
 There are several ways to change values in the numeric fields of the Inspector. You can:
 

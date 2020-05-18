@@ -287,7 +287,7 @@ For more information about editing vector objects, also read <a href="https://do
 
 The Pencil is a tool for drawing freehand paths with a stylus or, having some skill, with the mouse. You will find the Pencil on the same fly-out menu with the Pen tool. Alternatively, you can use `N` as a shortcut.
 
-If you are using the mouse, just hold down the left-mouse button and draw the required path. Release the button when you are done.
+If you are using the mouse, just hold down the left mouse button and draw the required path. Release the button when you are done.
 
 Unlike other tools that switch to the select mode right after you create an object, the Pencil tool allows you to create as many objects as you need. Each Pencil "stroke" adds a new object to the **Objects** panel. You can group them later.
 

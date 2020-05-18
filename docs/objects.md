@@ -94,7 +94,7 @@ For precise positioning you can use the arrow keys. Each keystroke moves an obje
 
 Also, to adjust an object's position on the canvas or artboard, you can use the **X** and **Y** controls in the Inspector. If an object is on the canvas, the figures in the **X** and **Y** fields show the absolute coordinates of the object's top-left selection handle.
 
-If the object is a part of an artboard, **X** and **Y**  display the coordinates of the object's top-left selection handle relative to the artboard's top-left corner. See the demo below and the <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-Inspector" target="_blank">tips</a> on working with numeric fields in the Inspector.
+If the object is a part of an artboard, **X** and **Y**  display the coordinates of the object's top-left selection handle relative to the artboard's top-left corner. See the demo below and the <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">tips</a> on working with numeric fields in the Inspector.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-moving1placeholder.png" height="auto"><source src="/public/objects-moving1.mp4" type="video/mp4"></video>
 
