@@ -212,7 +212,7 @@ Select the object and use the **W** (width) and **H** (height) edit fields, when
 
 Click the links button to preserve the object's aspect ratio. With this button enabled, the change of a value in one of the boxes, will result in respective value adjustment in the second box.
 
-Also, read <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-Inspector" target="_blank">here</a> for some tips on working with numeric fields in the Inspector.
+Also, read <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">here</a> for some tips on working with numeric fields in the Inspector.
 
 ### Scaling objects
 
@@ -229,6 +229,8 @@ To scale an object:
 See the demo below and note how the value of the border thickness changes with the object size.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/object-resizing3.png" height="auto"><source src="/public/object-resizing3.mp4" type="video/mp4"></video>
+
+In a similar fashion you can scale several objects at a time.
 
 ### Resizing constraints
 
