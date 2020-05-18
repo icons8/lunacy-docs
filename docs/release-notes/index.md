@@ -32,12 +32,14 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Notifications Panel
 - The naming of items in Color Picker
 - Resize elements with Ctrl+Arrows
+
 ### Improvements
 - Improved UI of Appearance Inspector
 - Improved UI of Symbol Inspector
 - Minor UI improvements of Style Suggestions
 - Improved Navigation in Libraries
 - Magnets are supporting Justify 
+
 ### Bug Fix
 - Fixed typography issues
 - Fixed copy-paste issues
