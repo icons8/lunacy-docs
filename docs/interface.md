@@ -305,7 +305,7 @@ For precise positioning of objects on the artboard or relative one another, proc
 2. Point the cursor over an empty area or on the other object.
 3. Holding down `Alt`, move the selected object using the arrow keys.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure1ph.png" height="auto"><source src="/public/interface-groupmeasure1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure3ph.png" height="auto"><source src="/public/interface-groupmeasure3.mp4" type="video/mp4"></video>
 
 #### Grouped objects
 
@@ -338,7 +338,7 @@ To learn the distance between a member of a group and a member of another group:
 
 The next demo shows the above three procedures.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure1ph.png" height="auto"><source src="/public/interface-groupmeasure1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure2ph.png" height="auto"><source src="/public/interface-groupmeasure2.mp4" type="video/mp4"></video>
 
 ### Zooming options
 
