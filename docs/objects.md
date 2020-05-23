@@ -90,7 +90,7 @@ To move an object, just click and drag it. Make sure that the cursor is over the
 
 If you want to restrict movement to the X or Y axis, hold down `Shift` as you drag.
 
-For precise positioning you can use the arrow keys. Each keystroke moves an object by one pixel. Holding down `Shift` increases each step to 10 pixels.
+For precise positioning you can use the arrow keys. Each keystroke moves an object by one pixel. Holding down `Shift` increases each step to 10 pixels (see also the <a href="https://docs.icons8.com/interface/#measuring" target="_blank">Measuring</a> section).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-movingplaceholder.png" height="auto"><source src="/public/objects-moving.mp4" type="video/mp4"></video>
 

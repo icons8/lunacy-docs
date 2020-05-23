@@ -54,7 +54,7 @@ grid_navigation:
       url: '/libraries'
       icon: 'book-shelf'
     - title: 'Export'
-      excerpt: Learn about publishing capabilities and export formats of Lunacy
+      excerpt: All you need to know about export in Lunacy
       url: '/export'
       icon: 'folder-invoices'
     - title: 'Sketch Cloud'

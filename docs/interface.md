@@ -302,7 +302,7 @@ To learn the distance between an object and the borders of the artboard:
 For precise positioning of objects on the artboard or relative one another, proceed as follows:
 
 1. Select one of the objects.
-2. Point the cursor over an empty area or on the other object.
+2. Point the cursor over an empty area or over the other object.
 3. Holding down `Alt`, move the selected object using the arrow keys.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure3ph.png" height="auto"><source src="/public/interface-groupmeasure3.mp4" type="video/mp4"></video>
