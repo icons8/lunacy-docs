@@ -156,10 +156,7 @@ The quickest way to export all content of a document page is as follows:
 
 ## Exporting a project
 
->**Note:** Bear in mind two important things:
-
->1. To be able to export a project, you should have at least one artboard in it.
->2. During export of projects, Lunacy ignores all objects that are beyond artboards, as well as the content of the <a href="https://docs.icons8.com/symbols/#symbols-page" target="_blank">Symbols</a> page.
+**Note:** To be able to export a project, you should have at least one artboard in it. Also, bear in mind that during export of projects, Lunacy ignores all objects that are beyond artboards, as well as the content of the <a href="https://docs.icons8.com/symbols/#symbols-page" target="_blank">Symbols</a> page.
 
 When exporting a project, Lunacy creates folders whose names correspond to the names of pages in the project. Inside these folders, Lunacy creates separate files for each object available on the respective page. Grouped objects and symbol instances are viewed as single objects.
 
@@ -192,7 +189,7 @@ You can export to cloud:
 
 ![Exporting an object to the cloud](public/export-panel6.png)
 
->**Productivity Tip:** The `Alt+С + C` shortcut allows you to instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away. This option is also available on the context menu.
+**Productivity Tip:** The `Alt+С + C` shortcut allows you to instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away. This option is also available on the context menu.
 
 ![Alt + C, C](public/export-altcc.png)
 
@@ -217,7 +214,7 @@ To delete a file from the cloud, right-click the link to the file, then click **
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/export-historyph.png" height="auto"><source src="/public/export-history.mp4" type="video/mp4"></video>
 
-**Note:** We in no way read or analyze files that you upload to Icons8 cloud. The guaranteed storage period of uploaded files is 60 days. After that they can be deleted from our servers. Removed files cannot be restored. Please do not consider Icons8 cloud as a long-term storage.
+**Note:** We in no way read or analyze files that you upload to Icons8 cloud. The guaranteed storage period of uploaded files is 60 days. After that they can be deleted from our servers without prior notice. Removed files cannot be restored. For this reason, please do not consider Icons8 cloud as a long-term storage.
 
 ## Other export options
 
