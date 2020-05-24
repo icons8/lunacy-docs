@@ -43,13 +43,9 @@ Lunacy allows you to export your designs into the following formats:
       </tr>
       <tr>
         <td>Vector</td>
-        <td>SVG</td>
+        <td>SVG, PDF</td>
       </tr>
-      <tr>
-        <td>Other</td>
-        <td>PDF</td>
-      </tr>
-    </tbody>
+  </tbody>
 </table>
 
 You can export:
