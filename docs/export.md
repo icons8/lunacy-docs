@@ -29,15 +29,28 @@ page_nav:
 
 Lunacy allows you to export your designs into the following formats:
 
-* PNG
-* JPEG
-* SVG
-* PDF
-* WEBP
-* IFF
-* BMP
-* GIF
-* ICO
+<table>
+  <thead>
+      <tr>
+        <th>Format type</th>
+        <th>Supported formats</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>Raster</td>
+        <td>PNG, JPEG, BMP, TIFF, ICO, WEBP</td>
+      </tr>
+      <tr>
+        <td>Vector</td>
+        <td>SVG</td>
+      </tr>
+      <tr>
+        <td>Other</td>
+        <td>PDF</td>
+      </tr>
+    </tbody>
+</table>
 
 You can export:
 
@@ -55,6 +68,8 @@ You can save export files to:
 Moreover, within one export procedure you can get multiple files of different formats and sizes.
 
 All these is detailed in the sections below. Also, here you will learn how to print your designs and how to get CSS, XAML and SVG code of your designs.
+
+**Tip:** You can also use Sketch Cloud for saving you projects and sharing them with other people. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>. 
 
 ## Important notices
 
@@ -156,7 +171,7 @@ The quickest way to export all content of a document page is as follows:
 
 ## Exporting a project
 
-**Note:** To be able to export a project, you should have at least one artboard in it. Also, bear in mind that during export of projects, Lunacy ignores all objects that are beyond artboards, as well as the content of the <a href="https://docs.icons8.com/symbols/#symbols-page" target="_blank">Symbols</a> page.
+**Note:** To be able to export a project, you should have at least one artboard in it. Also, bear in mind that during export of projects, Lunacy ignores all objects that are beyond artboards, as well as master symbols.
 
 When exporting a project, Lunacy creates folders whose names correspond to the names of pages in the project. Inside these folders, Lunacy creates separate files for each object available on the respective page. Grouped objects and symbol instances are viewed as single objects.
 
