@@ -75,7 +75,7 @@ All these is detailed in the sections below. Also, here you will learn how to pr
 
 Remember that during export Lunacy ignores all guides, square and layout grids, artboard names, as well as prototyping arrows and canvas color (not to be confused with the artboard color). There is now way to include them into export files.
 
-Also, note that if there is at least one artboard in your project, during **export of a project** Lunacy will ignore all objects that are beyond artboards.
+Also, note that if there is at least one artboard in your project, during *export of a project* Lunacy ignores all objects that are beyond artboards, as well as master symbols.
 
 ## Export settings (size, suffix/prefix, format)
 
