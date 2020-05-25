@@ -145,7 +145,7 @@ When you click or drag over a group of objects, you select the group. To select 
 
  After you select an object within a group, you can switch to other objects of that group by simply clicking them.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selectltoolgroup.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selectltoolgroup1.mp4" type="video/mp4"></video>
 
 >**Tip:** Alternatively, you can select objects through the **Objects** panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects. For details about working with objects, click <a href="https://docs.icons8.com/objects/" target="_blank">here</a>.
 
