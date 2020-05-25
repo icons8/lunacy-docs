@@ -132,7 +132,7 @@ To move the selected object(-s):
 
 To resize the selected object(-s) with the Select tool, drag the handles on the selection frame. As in all similar apps, use the `Shift` key and corner handles to preserve the aspect ratio of the  object you resize.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selectltool.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selecttool.mp4" type="video/mp4"></video>
 
 ### Using the Select tool with grouped objects
 
