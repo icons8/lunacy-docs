@@ -60,7 +60,11 @@ grid_navigation:
     - title: 'Sketch Cloud'
       excerpt: Learn how to work with Sketch Cloud from Lunacy
       url: '/cloud'
-      icon: 'upload-2'  
+      icon: 'upload-2'
+    - title: 'Prototyping'
+      excerpt: Learn how to build prototypes in Lunacy
+      url: '/prototyping'
+      icon: 'tree-structure'  
     - title: 'Shortcuts'
       excerpt: Make your workflow faster by learning Lunacy's shortcuts
       url: '/shortcuts'

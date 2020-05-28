@@ -388,9 +388,9 @@ The demo below shows the procedure of creating a hotspot and setting a target ar
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-addhotspotplaceholder.png" height="auto"><source src="/public/tool-addhotspot.mp4" type="video/mp4"></video>
 
-To hide/show hotspots and prototyping arrows on the canvas, use the **Show prototyping** button on the top bar.
+To hide/show hotspots and prototyping links on the canvas, use the **Show prototyping** button on the top bar.
 
-![Adding a slice](public/tool-showproto.png)
+![Show/hide prototyping](public/tool-showproto.png)
 
 For more information about prototyping in Lunacy, click here.
 

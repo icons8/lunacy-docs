@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Shortcuts
-        url: '/shortcuts'
+        content: Prototyping
+        url: '/prototyping'
     prev:
         content: Export
         url: '/export'

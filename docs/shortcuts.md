@@ -18,14 +18,14 @@ page_nav:
         content: Localization
         url: '/localization'
     prev:
-        content: Working with Sketch Cloud
-        url: '/cloud'
+        content: Prototyping
+        url: '/prototyping'
 ---
 
 
 You can use keyboard shortcuts in Lunacy to help speed up your design process.
 
-We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If you are used to these certain combinations, they will likely work here as well.
+We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If you are used to these certain combinations, they will likely work in Lunacy as well.
 
 You can use keyboard shortcuts to help speed up your design process. Commands are divided into several sections.
 
