@@ -39,7 +39,7 @@ The easiest way to create a prototype is to add a link between two artboards. Th
 
 1. On the first artboard, select an object the user will interact with (say, a button).
 2. In the Inspector panel, click + in the **Prototyping** section. A prototyping link appears.
-3. Point the cursor over the second artboard and click to set the link. To define the target artboard you can also use the dropdown list in the **Prototyping** section (see the demo below).
+3. Point the cursor over the second artboard and click to set the link. To define the target artboard you can also use the **Target** dropdown list in the **Prototyping** section (see the demo below).
 
 That's it. A primitive prototype is ready. To make it a bit more usable, we will repeat the above steps and create a control that will return the user from Artboard 1 to Artboard 2.
 
@@ -47,7 +47,7 @@ To preview a prototype we need to upload it to Sketch Cloud:
 
 1. Click the Sketch Cloud icon on the action bar. Log into your Cloud account, if necessary.
 2. In the Sketch Cloud panel, click **Upload document**. Wait a bit until Cloud processing is complete.
-3. Select an artboard from which you want to start preview.
+3. Select the artboard from which you want to start preview.
 4. Click the play button that will appear at the top bar.
 
 All the above steps are shown in the demo below.
