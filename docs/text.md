@@ -227,9 +227,11 @@ These three buttons determine the behavior of text boxes depending on the size o
 2. **Vertical resize**: In this mode, the text box adjusts vertically to fit all the content while the width of the box remains unchanged.
 3. **Fixed size**: In this mode, the size of the text box is fixed and, unlike in the above two modes, does not adjust to fit the content.
 
-You might also find handy the auto-rize feauture: double-click the borders of a text box to make it fit the text (see the demo below).
+You might also find handy the auto-resize feature: double-click the borders of a text box to make it fit the text (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-autoresizeph.png" height="auto"><source src="/public/text-autoresize.mp4" type="video/mp4"></video>
+
+Note that a click over a right or left border sets the text box to the *horizontal resize mode* and transforms a multiline text into a single line.
 
 ### [Position alignment](#position-alignment)
 
