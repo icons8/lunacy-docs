@@ -174,7 +174,7 @@ When exporting a project, Lunacy creates folders whose names correspond to the n
 To export a project:
 
 1. Press `Esc` to deselect all objects. The **Export project** section appears in the Inspector.
-2. Define the export settings as described above.
+2. Define the export settings as described <a href="https://docs.icons8.com/export/#export-settings-size-suffixprefix-format">above</a>.
 3. Click **Export Project**.
 4. In the displayed dialog box, browse to the target folder and confirm your intent.
 5. Once the procedure is complete, the **Open file location** link appears at the bottom of the Inspector. Click the link to see the resulting folder(s) and file(s).

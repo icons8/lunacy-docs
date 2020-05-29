@@ -392,7 +392,7 @@ To hide/show hotspots and prototyping links on the canvas, use the **Show protot
 
 ![Show/hide prototyping](public/tool-showproto.png)
 
-For more information about prototyping in Lunacy, click here.
+For more information about prototyping in Lunacy, click <a href="https://docs.icons8.com/prototyping" target="_blank">here</a>.
 
 ## Icon tool
 
