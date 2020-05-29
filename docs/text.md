@@ -181,7 +181,7 @@ Use this control to define the required font size in pixels. You can do it by:
 
 You can apply different font settings of the same type (fonts, colors, font sizes or weights) to a text within a layer. In such a case the respective controls in the Inspector will display *Mix*.
 
-### Text alignment options
+### [Text alignment options](#text-alignment-options)
 
 ![Alignment buttons](public/text-align.png)
 
@@ -191,14 +191,6 @@ Use these buttons to align and justify the text inside the text box. Optionally,
 * `Ctrl + Alt + "|"`: Center text.
 * `Ctrl + Alt + "}"`: Align text to the right.
 * `Ctrl + Alt + "J"`: Justify.
-
-### Text alignment magnets
-
-You can also align text within text boxes using the alignment magnets that appear around the text box when you select it. The demo below shows how this nice feature works.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-magnets.mp4" type="video/mp4"></video>
-
-To disable the display of magnets, go to the **View** menu and uncheck the **Text Alignment Magnets** option.
 
 ### Line, letter and paragraph spacing
 
@@ -239,7 +231,7 @@ You might also find handy the auto-rize feauture: double-click the borders of a 
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-autoresizeph.png" height="auto"><source src="/public/text-autoresize.mp4" type="video/mp4"></video>
 
-### Position alignment
+### [Position alignment](#position-alignment)
 
 ![Position alignment buttons](public/text-aligncell.png)
 
@@ -250,6 +242,14 @@ Use these three buttons to adjust the position of text content within the text b
 * Align text to the bottom border of the text box.
 
 ![Position alignment buttons](public/text-aligncell.gif)
+
+### Text alignment magnets
+
+You can also align text within text boxes using the alignment magnets that appear around the text box when you select it. They combine the functions of the [text alignment](#text-alignment-options) and [position alignment](#position-alignment) controls. The demo below shows how this nice feature works.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-magnets.mp4" type="video/mp4"></video>
+
+To disable the display of magnets, go to the **View** menu and uncheck the **Text Alignment Magnets** option.
 
 ### Advanced typography options
 
