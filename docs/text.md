@@ -231,7 +231,7 @@ You might also find handy the auto-resize feature: double-click the borders of a
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-autoresizeph.png" height="auto"><source src="/public/text-autoresize.mp4" type="video/mp4"></video>
 
-Note that a click over a right or left border sets the text box to the *horizontal resize mode* and transforms a multiline text into a single line.
+Note that a click over the right or left border sets the text box to the *horizontal resize mode* and transforms a multiline text into a single line.
 
 ### [Position alignment](#position-alignment)
 
