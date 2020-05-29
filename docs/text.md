@@ -192,6 +192,14 @@ Use these buttons to align and justify the text inside the text box. Optionally,
 * `Ctrl + Alt + "}"`: Align text to the right.
 * `Ctrl + Alt + "J"`: Justify.
 
+### Text alignment magnets
+
+You can also align text within text boxes using the alignment magnets that appear around the text box when you select it. The demo below shows how this nice feature works.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-magnets.mp4" type="video/mp4"></video>
+
+To disable the display of magnets, go to the **View** menu and uncheck the **Text Alignment Magnets** option.
+
 ### Line, letter and paragraph spacing
 
 ![Spacing buttons](public/text-spacing1.png)
@@ -260,14 +268,6 @@ The panel features the following:
 * Underline and strikethrough options.
 * Numbered and bulleted lists.
 * Superscript and subscript
-
-### Text alignment magnets
-
-You can also align text within text boxes using the alignment magnets that appear around the text box when you select it. The demo below shows how this nice feature works.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-magnets.mp4" type="video/mp4"></video>
-
-To disable the display of magnets, go to the **View** menu and uncheck the **Text Alignment Magnets** option.
 
 ## Common layer effects
 
