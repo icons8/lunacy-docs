@@ -132,6 +132,17 @@ Style categories and styles appear in the A-Z order in the **Library** panel.
 
 To unfold/fold the content of all style categories, right-click anywhere over the category list and select **Expand All/Collapse All** on the displayed menu.
 
+### Duplicating styles
+
+You can duplicate your existing styles and quickly create new ones based on their parents.
+
+To duplicate a style:
+
+* Click the style in the list and press `Ctrl + D`.
+
+    OR
+* Right-click the style in the list and select **Duplicate** on the displayed menu.
+
 ### Deleting styles and categories
 
 To delete a style:

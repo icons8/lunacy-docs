@@ -435,3 +435,14 @@ Repeat the procedure to override text styles of the phone number and email addre
 ### Hotspot overrides
 
 If your template features a hotspot, you can override its target artboard. Optionally, you can select the none override option to disable the hotspot.
+
+## Duplicating symbols
+
+You can duplicate your existing symbols and quickly create new ones based on their parents.
+
+To duplicate a symbol:
+
+* Select the symbol in the left panel or on the canvas and press `Ctrl + D`.
+
+    OR
+* Right-click the symbol in the left panel or on the canvas, then select **Duplicate** on the displayed menu.
