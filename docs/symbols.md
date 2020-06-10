@@ -142,6 +142,10 @@ There are two ways to edit a master symbol:
 1. Select an instance of the symbol you want to edit.
 2. Press `Enter` or click the **Edit master symbol** button (![Edit master symbol button](public/symbols-editsymbolbtn.png)) on the context toolbar. This enables the symbol editor. The master symbol appears over the selected instance. The **Object list** panel displays the list of the symbol components. The rest of the canvas becomes dimmed.
 3. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
+4. To exit the editor, do one of the following:
+    * Click ![Edit master symbol button](public/symbols-editsymbolbtn.png) on the context tool bar.
+    * Click anywhere over the dimmed area.
+    * Press `Esc`. 
 
 The changes you make immediately apply to all the symbol instances across the project, except for the instances with respective overrides (see the demo below).
 
@@ -149,9 +153,16 @@ The changes you make immediately apply to all the symbol instances across the pr
 
 **Way 2**
 
-1. Go to the [symbols page](#symbols-page).
-2. Find and select the required symbol.
-3. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
+1. Right-click an instance of the symbol you want to edit and select **Go to Master Symbol** on the context menu. The Symbols page opens with the required symbol selected.
+
+    OR
+  
+    Go to the [Symbols page](#symbols-page), find and select the required symbol.
+2. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
+3. When you are through with editing:
+
+    * If you used the **Go to Master Symbol** command click the **Back to instance** button that will appear in the top-left corner of the canvas.
+    * If you chose to manually open the Symbols page, just switch to the required page, to continue working with the project.
 
 ### Deleting  master symbols
 
