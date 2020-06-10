@@ -137,8 +137,6 @@ There are two ways to edit a master symbol:
 1. In the symbol editor (the quick one).
 2. Directly on the Symbols page.
 
-The changes you make immediately apply to all the symbol instances across the project, except for the instances with respective overrides.
-
 **Way 1**
 
 1. Select an instance of the symbol you want to edit.
@@ -151,11 +149,9 @@ The changes you make immediately apply to all the symbol instances across the pr
 
 **Way 2**
 
-1. Go to the symbols page.
+1. Go to the [symbols page](#symbols-page).
 2. Find and select the required symbol.
 3. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
-
-![Editing a master symbol](public/colorchange.gif)
 
 ### Deleting  master symbols
 
