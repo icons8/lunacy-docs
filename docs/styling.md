@@ -160,7 +160,7 @@ To add a gradient fill:
 
 The demo below shows what you can do when adding a linear gradient.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-lineargradph.png" height="auto"><source src="/public/styling-lineargrad.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-lineargradph.png" height="auto"><source src="/public/styling-lineargrad.mp4" type="video/mp4"></video>
 
 #### Radial gradients
 
@@ -176,7 +176,7 @@ When you select the radial type, the gradient control becomes a radius of a circ
 
 When you select the angular type, the gradient control takes the form of a circle with color points sitting on its edge. Drag the points around the circle to get the desired gradient. Add some extra color points, if needed.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-angularph.png" height="auto"><source src="/public/styling-angular.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-angularph.png" height="auto"><source src="/public/styling-angular.mp4" type="video/mp4"></video>
 
 ### Image fills
 
@@ -194,7 +194,7 @@ To create an image fill:
      * **Tile**. Tiles the image to fit the object. The size of tiles is adjustable (see the demo below).
 6. Close the color picker, when you are through.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-imagefillph1.png" height="auto"><source src="/public/styling-imagefill1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-imagefillph1.png" height="auto"><source src="/public/styling-imagefill1.mp4" type="video/mp4"></video>
 
 
 **Tip:** You can also create an image fill by dropping an image from the Lunacy library or your desktop directly on to the object as shown in the demo below. As a matter of fact, what the <a href="https://docs.icons8.com/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.  
@@ -217,6 +217,7 @@ The section features the following controls:
 4. This icon opens the advanced border settings (see below).
 
 ![Border position](public/styling-borderdiff.png)
+
 {:.image-info}
 From top to bottom: outside, center, inside borders
 
@@ -229,7 +230,7 @@ The advanced border settings include:
 * **Caps**. Applicable to open paths only. Use these controls to define the shape of endings of open paths: no endings, round or square (see the demo below).
 * **Folds**. You can these controls to adjust the appearance of border or open path corners: square, rounded, beveled (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-capsfoldsph.png" height="auto"><source src="/public/styling-capsfolds.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-capsfoldsph.png" height="auto"><source src="/public/styling-capsfolds.mp4" type="video/mp4"></video>
 
 * **Nozzles**. Applicable to open paths only. Use this group of controls to set arrowheads.
 * **Dotted line**. Use these controls to create dashed lines and borders. Define the length of dashes and gaps between them in respective text boxes. To restore a solid line/border, set all the values to *0*.
