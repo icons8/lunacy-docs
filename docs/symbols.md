@@ -132,14 +132,28 @@ You can choose to include or not to include the artboard fill into instances of 
 
 ### Editing master symbols
 
-To edit a master symbol:
+There are two ways to edit a master symbol:
+
+1. In the symbol editor (the quick one).
+2. Directly on the Symbols page.
+
+The changes you make immediately apply to all the symbol instances across the project, except for the instances with respective overrides.
+
+**Way 1**
+
+1. Select an instance of the symbol you want to edit.
+2. Press `Enter` or click the **Edit master symbol** button (![Edit master symbol button](public/symbols-editsymbolbtn.png)) on the context toolbar. This enables the symbol editor. The master symbol appears over the selected instance. The **Object list** panel displays the list of the symbol components. The rest of the canvas becomes dimmed.
+3. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
+
+The changes you make immediately apply to all the symbol instances across the project, except for the instances with respective overrides (see the demo below).
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symbols-editmasterph.png" height="auto"><source src="/public/symbols-editmaster.mp4" type="video/mp4"></video>
+
+**Way 2**
 
 1. Go to the symbols page.
-2. Find the required symbol.
-3. Expand the symbol node.
-4. Edit the symbol the same way as any other layered object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
-
-The changes you make immediately apply to all the symbol instances across the project, except for the instances with respective overrides. The gif below shows how changes to a master symbol affect two its instances.
+2. Find and select the required symbol.
+3. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
 
 ![Editing a master symbol](public/colorchange.gif)
 
@@ -245,7 +259,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Go to Master Symbol</td>
-      <td>Brings you to the master symbol of the selected instance. Optionally, you can just double-click the required instance. To return to the instance from the master, click the <B>Back to instance</B> button that will appear in the top-left corner of the canvas.</td>
+      <td>Brings you to the master symbol of the selected instance. To return to the instance from the master, click the <B>Back to instance</B> button that will appear in the top-left corner of the canvas.</td>
       <td><code>Ctrl+Alt+E</code></td>
     </tr>
     <tr>
