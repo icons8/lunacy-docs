@@ -23,10 +23,6 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
-<!---
-your comment goes here
-and here
--->
 
 ## 5.7
 _RELEASED May 28, 2020_  
