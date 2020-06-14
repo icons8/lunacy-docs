@@ -161,7 +161,7 @@ The changes you make immediately apply to all the symbol instances across the pr
 2. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
 3. When you are through with editing:
 
-    * If you used the **Go to Master Symbol** command click the **Back to instance** button that will appear in the top-left corner of the canvas.
+    * If you used the **Go to Master Symbol** command, click the **Back to instance** button that will appear in the top-left corner of the canvas.
     * If you chose to manually open the Symbols page, just switch to the required page, to continue working with the project.
 
 ### Deleting  master symbols

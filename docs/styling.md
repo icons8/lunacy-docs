@@ -67,7 +67,7 @@ You can:
 
 * Click the color box and use the [color picker](#color-picker).
 * Manually enter or paste the HEX value of the required solid fill.
-* Copy HEX, RGBA or HLS value of the current solid fill. For this, right-click over the text box and select the required option on the displayed menu as shown in the figure below.
+* Copy the HEX, RGBA or HLS value of the current solid fill. For this, right-click over the text box and select the required option on the displayed menu as shown in the figure below.
 
 The last two options do not apply to shadows as they don't have the color text box.
 
@@ -186,7 +186,7 @@ To create an image fill:
 2. In the top bar of the color picker, click ![Image fill button](public/styling-imagefillbtn.png).
 3. Click **Choose image**.
 4. In the displayed dialog box, select the required image on your computer and click **Open**. See also the tip below.
-5. Use the drop-down list below the **Choose image** button to select the type of fill:
+5. Use the drop-down list below the **Choose image** button to select the fill method:
     
      * **Fill**. Adjusts the image size to the object's width.
      * **Fit**. Adjusts the image size  to fit the object's height.
@@ -212,7 +212,7 @@ The figure below shows a view of settings in the **Borders** section.
 The section features the following controls:
 
 1. The [color control](#color-controls) for setting border colors. You can apply both solid and gradient fills to borders.
-2. The border position control. Available for closed paths (shapes) only. You can choose between the inside, outside or center (default) of the outline. The difference between these options is shown in the figure below. The only option available for open paths (lines, arrows, curves, etc.) is the center.
+2. The border position control. Available for closed paths (shapes) only. You can choose between the inside, outside or center (default) of the outline. The difference between these options is shown in the figure below. The only option available for open paths (lines, arrows, curves, etc.) is the *center*.
 3. The borders thickness control. Sets the thickness of a border or an open path in pixels.
 4. This icon opens the advanced border settings (see below).
 
