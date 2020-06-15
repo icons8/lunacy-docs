@@ -139,10 +139,16 @@ There are two ways to edit a master symbol:
 
 **Way 1**
 
-1. Select an instance of the symbol you want to edit.
-2. Press `Enter` or click the **Edit master symbol** button (![Edit master symbol button](public/symbols-editsymbolbtn.png)) on the context toolbar. This enables the symbol editor. The master symbol appears over the selected instance. The **Object list** panel displays the list of the symbol components. The rest of the canvas becomes dimmed.
-3. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
-4. To exit the editor, do one of the following:
+1. Double-click an instance of the symbol you want to edit.
+
+   OR
+
+   Select an instance of the symbol you want to edit. Then press `Enter` or click the **Edit master symbol** button (![Edit master symbol button](public/symbols-editsymbolbtn.png)) on the context toolbar.
+   
+   This enables the symbol editor. The master symbol appears over the selected instance. The **Object list** panel displays the list of the symbol components. The rest of the canvas becomes dimmed.
+
+2. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
+3. To exit the editor, do one of the following:
     * Click ![Edit master symbol button](public/symbols-editsymbolbtn.png) on the context tool bar.
     * Click anywhere over the dimmed area.
     * Press `Esc`. 
@@ -153,7 +159,7 @@ The changes you make immediately apply to all the symbol instances across the pr
 
 **Way 2**
 
-1. Right-click an instance of the symbol you want to edit and select **Go to Master Symbol** on the context menu. The Symbols page opens with the required symbol selected.
+1. Right-click an instance (on the canvas or in the **Objects** list) of the symbol you want to edit and select **Go to Master Symbol** on the context menu. The Symbols page opens with the required symbol selected.
 
     OR
   
