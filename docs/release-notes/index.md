@@ -22,8 +22,53 @@ page_nav:
 # Version 5
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
+<!--
+## 5.8
 
+_RELEASED June XX, 2020_
 
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.8.0.exe)
+
+### New features
+
+#### Symbol editor
+
+You no longer need to switch to the Symbols page to edit masters.  Just select an instance of the symbol you want to edit and press `Enter` or click the **Edit symbol** button on the context tool bar.
+
+![Edit symbol button](/public/rn5_8-symboleditorbtn.png)
+
+For details and a demo, click <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">here</a>.
+
+#### Smart distribute
+
+Now you can quickly arrange multiple objects into nice grids with equal spacing between rows and columns.
+
+For this, select the objects and click the **Tidy up** button in the Inspector. Then drag the red handles that will appear between the "rows" and "columns". Click the red circle in the center of an object and drag to move it to another grid "cell". For details and a demo, click <a href="https://docs.icons8.com/symbols/#smart-distribute" target="_blank">here</a>.
+
+![Smart distribute](/public/objects-smartdistribph.png)
+
+#### Artboard presets
+
+Now you can save your frequently used custom artboards to presets. Enable the Artboard tool and click **Create custom preset** at the bottom of the presets panel.
+
+![Artboard presets](/public/interface-customartboards.png)
+
+#### Inverse gradients
+
+Now you can invert gradients with a single button click in the Color Picker.
+
+![Artboard presets](/public/rn5_8-invertgrad.png)
+
+### Improvements
+
+- Better snapping indication.
+- A click over an icon in the Library now activates the Icon Tool with this icon selected.
+- A click over a photo or illustration in the Library now activates the Image Tool with this image selected.
+- Better emoji support.
+- Improved support of the Sketch chequerboard pattern. The pattern is now available in image fill presets of the Color Picker.
+- Improved support of the Sketch format.
+- Now you can underline and strikethrough a text at the same time.
+-->
 ## 5.7
 _RELEASED May 28, 2020_  
 

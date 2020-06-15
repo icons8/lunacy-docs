@@ -324,6 +324,18 @@ To better understand how it all works, see the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-aligndistrpaceholder.png" height="auto"><source src="/public/objects-aligndistr.mp4" type="video/mp4"></video>
 
+### Smart distribute
+
+You can quickly arrange multiple object into nice grids with equal spacing between rows and columns.
+
+For this:
+
+1. Select the required objects.
+2. Click the **Tidy up** button in the Inspector. The objects get re-arranged,red handles appear between rows and columns of the "grid".
+3. Drag the red handles to adjust the spacing between rows and columns. Click the red circle in the center of an object and drag to move it to another “grid cell”. See the demo below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-smartdistribph.png" height="auto"><source src="/public/objects-smartdistr.mp4" type="video/mp4"></video>
+
 ## Arranging objects along the Z-axis
 
 To position objects along the Z-axis, use the send/bring commands found on the context menu or their respective shortcuts. The commands are as follows:
