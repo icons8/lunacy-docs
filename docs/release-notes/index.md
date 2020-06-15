@@ -22,7 +22,9 @@ page_nav:
 # Version 5
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
+
 <!--
+
 ## 5.8
 
 _RELEASED June XX, 2020_
@@ -68,7 +70,9 @@ Now you can invert gradients with a single button click in the Color Picker.
 - Improved support of the Sketch chequerboard pattern. The pattern is now available in image fill presets of the Color Picker.
 - Improved support of the Sketch format.
 - Now you can underline and strikethrough a text at the same time.
+
 -->
+
 ## 5.7
 _RELEASED May 28, 2020_  
 
