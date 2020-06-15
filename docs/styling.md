@@ -145,7 +145,7 @@ To add a gradient fill:
 
     As you do it, the gradient bar (2) with two handles gets displayed in the color picker. Also, you will see a gradient control with two color points (3) over the object. The appearance of the gradient control depends on the selected gradient type. The next figure shows a linear gradient (see also the demos below).
 
-    ![Gradient controls](public/styling-colorpickergrad.png)
+    ![Gradient controls](public/styling-colorpickergrad1.png)
 
 3. Use the gradient control and/or the gradient bar to get the desired effect. The handles on the gradient bar correspond to color points over the object. Actions applicable to all types of gradients:
 
