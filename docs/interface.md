@@ -183,7 +183,7 @@ Also, read about the [zooming options](#zooming-options).
 
 ### [Artboards](#artboards)
 
-Artboards are a special type of objects that allows you to divide the canvas into separate areas with different content. Artboards are optional but they come in handy when you’re designing for a certain screen size or device. To create an artboard, use the <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboard tool</a>. In fact, it is the tool that Lunacy enables first when you create a new document. It allows you to create a custom size artboard or to select an option from the list that will appear on the right. This list features presets for popular devices, screen resolutions and social media templates.
+Artboards are a special type of objects that allows you to divide the canvas into separate areas with different content. Artboards are optional but they come in handy when you’re designing for a certain screen size or device. To create an artboard, use the <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboard tool</a>. In fact, it is the tool that Lunacy enables first when you create a new document. It allows you to create a custom size artboard or to select an option from the list that will appear on the right. This list features presets for popular devices, screen resolutions and social media templates (you can also add your custom presets to this list, see [below](#adding-custom-presets)).
 
 To add an artboard:
 
@@ -246,6 +246,17 @@ Similarly, to move an empty artboard, click anywhere within the artboard and dra
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
 
 Alternatively, you can select the required artboard by clicking its name in the **Objects** panel.
+
+#### [Adding custom presets](#adding-custom-presets)
+
+To add a custom artboard to presets:
+
+1. Select the artboard tool on the toolbar or press `A`. The panel of artboard presets appears on the right.
+2. At the bottom of the panel, click the **Create custom preset** button. Scroll the panel down if you don't see the button.
+3. In the displayed dialog box, define the preset name and its dimensions in pixels.
+4. Click **Save**. The group **Custom** appears in the panel of presets (see the figure below).
+
+![Artboard presets](/public/interface-customartboards.png)
 
 ### [Rulers and guides](#rulers-and-guides)
 
