@@ -149,12 +149,13 @@ To add a gradient fill:
 
 3. Use the gradient control and/or the gradient bar to get the desired effect. The handles on the gradient bar correspond to color points over the object. Actions applicable to all types of gradients:
 
-    * To change the color of a color point click it (or its respective handle on the gradient stripe), and select the required color in the color selection box (4).  
+    * To change the color of a color point click it (or its respective handle on the gradient bar), and select the required color in the color selection box (4).  
     * To add a color to a gradient, just click over the gradient bar  or the gradient control. To adjust the color position move the handles or color points.
     * To delete a color, point the cursor over the respective color point or handle and press `Del`.
 
 4. (optional) To save a gradient to presets, select the preset type (*Global* or *Document*) and click the plus icon.
-5. Close the color picker when you are done.
+5. (optional) To invert a gradient use the button (5) next to the gradient bar.
+6. Close the color picker when you are done.
 
 #### Linear gradients
 
