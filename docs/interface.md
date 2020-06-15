@@ -256,7 +256,7 @@ To add a custom artboard to presets:
 3. In the displayed dialog box, define the preset name and its dimensions in pixels.
 4. Click **Save**. The group **Custom** appears in the panel of presets (see the figure below).
 
-![Artboard presets](/public/interface-customartboards.png)
+![Artboard presets](/public/interface-customartboards1.png)
 
 ### [Rulers and guides](#rulers-and-guides)
 
