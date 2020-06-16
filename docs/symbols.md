@@ -151,7 +151,7 @@ There are two ways to edit a master symbol:
 3. To exit the editor, do one of the following:
     * Click ![Edit master symbol button](public/symbols-editsymbolbtn.png) on the context tool bar.
     * Click anywhere over the dimmed area.
-    * Press `Esc`. 
+    * Press `Esc`.
 
 The changes you make immediately apply to all the symbol instances across the project, except for the instances with respective overrides (see the demo below).
 

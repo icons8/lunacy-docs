@@ -156,11 +156,11 @@ To delete a style category, right-click the category you want to delete and sele
 
 ## Text styles
 
-Working with text styles is almost the same as with [Layer styles](#layer-styles). The only difference is that in addition to such properties as fills, shadows, etc., text styles also feature a set of typography properties that include font size, font family, line spacing and others.
+The only difference between text styles and [layer styles](#layer-styles)  is that in addition to such properties as fills, shadows and blurs, text styles also feature a set of typography properties that include font size, font family, line spacing and others.
 
 ![Text styles](public/text.png)
 
-See also the <a href="https://docs.icons8.com/objects/#text" target="_blank">Objects</a> section for tips on working with text objects.
+See also the <a href="https://docs.icons8.com/text/" target="_blank">Text</a> section for tips on working with text objects.
 
 ## External styles
 

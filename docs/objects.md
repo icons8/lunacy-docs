@@ -34,6 +34,7 @@ In Lunacy you will work with the following types of objects:
 * <a href="https://docs.icons8.com/symbols/" target="_blank">Symbols and symbol instances</a>
 * <a href="https://docs.icons8.com/tools/#icon-tool" target="_blank">Icons</a> 
 * <a href="https://docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspots</a> 
+* <a href="https://docs.icons8.com/tools/#slice-tool" target="_blank">Slices</a> 
 
 For specifics on working with each type of objects, follow the above links. This section provides an overview of basic operations common for all object types.
 

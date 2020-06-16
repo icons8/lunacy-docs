@@ -22,16 +22,23 @@ page_nav:
         url: '/text'
 ---
 
+## Introduction
 
 Styling options that you can apply to objects in Lunacy include:
 
 * Fills (solid, gradient and image fills)
 * Borders
-* Shadows
+* Outer shadows
 * Inner shadows
 * Blurs (Gaussian and background)
 
-All these options appear in the Inspector when you select an object. The details about using each of the options you will find in the sections below. But first of all let us review some common things.
+They appear in the Inspector when you select an object. A combination of styling options applied to an object is called a layer style. You can save layer styles for further use (read <a href="https://docs.icons8.com/layerstyles/" target="_blank">here</a> for details).
+
+You can apply styling options to all <a href="https://docs.icons8.com/objects/#introduction" target="_blank">types of objects</a>, except for technical ones (such as artboards, hotspots and slices). However, the only option applicable to group objects and symbols is the outer shadow.
+
+In addition to the above, text objects feature typography settings, such as font, font size, line spacing, etc. Combined with the common styling options (or without them) they make up <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
+
+The details about using each of the options you will find in the sections below. But first of all let us review some common things.
 
 ## Adding, deleting and managing styling options
 
@@ -260,3 +267,9 @@ In the demo below, we first applied a Gaussian blur to an image, removed it and 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph.png" height="auto"><source src="/public/styling-blurs.mp4" type="video/mp4"></video>
 
 **Note:** Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For the same reason, we limited the maximum blur value to *50*.
+
+## Applying styling option to multiple objects
+
+You can apply styling options to multiple selected objects at the same time. If you see the *Click + to replace mixed content* caption under any of the options, it means that the selected objects have different settings for this option. A click over the plus icon will replace current settings with new ones common for all selected objects. In the figure below, this caption appears under the **Fills** section.
+
+![Applying styling options to multiple objects](public/styling-mult.png)
