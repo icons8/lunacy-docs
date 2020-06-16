@@ -43,7 +43,7 @@ For details and a demo, click <a href="https://docs.icons8.com/symbols/#editing-
 
 Now you can quickly arrange multiple objects into nice grids with equal spacing between rows and columns.
 
-For this, select the objects and click the **Tidy up** button in the Inspector. Then drag the red handles that will appear between the "rows" and "columns". Click the red circle in the center of an object and drag to move it to another grid "cell". For details and a demo, click <a href="https://docs.icons8.com/symbols/#smart-distribute" target="_blank">here</a>.
+For this, select the objects and click the **Tidy up** button in the Inspector. Then drag the red handles that will appear between the "rows" and "columns". Click the red circle in the center of an object and drag to move it to another grid "cell". For details and a demo, click <a href="https://docs.icons8.com/objects/#smart-distribute" target="_blank">here</a>.
 
 ![Smart distribute](/public/objects-smartdistribph.png)
 
