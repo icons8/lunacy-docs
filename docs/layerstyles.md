@@ -156,7 +156,7 @@ To delete a style category, right-click the category you want to delete and sele
 
 ## Text styles
 
-The only difference between text styles and [layer styles](#layer-styles)  is that in addition to such properties as fills, shadows and blurs, text styles also feature a set of typography properties that include font size, font family, line spacing and others.
+The only difference between text styles and [layer styles](#layer-styles)  is that in addition to such properties as fills, shadows and blurs, text styles also feature a set of typography properties that include font size, font family, line spacing and others. All the procedures with text styles are the same as in layer styles.
 
 ![Text styles](public/text.png)
 
