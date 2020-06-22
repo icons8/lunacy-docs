@@ -236,7 +236,7 @@ From top to bottom: outside, center, inside borders
 The advanced border settings include:
 
 * **Caps**. Applicable to open paths only. Use these controls to define the shape of endings of open paths: no endings, round or square (see the demo below).
-* **Folds**. You can these controls to adjust the appearance of border or open path corners: square, rounded, beveled (see the demo below).
+* **Folds**. Use these controls to adjust the appearance of border or open path corners: square, rounded, beveled (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-capsfoldsph.png" height="auto"><source src="/public/styling-capsfolds.mp4" type="video/mp4"></video>
 
