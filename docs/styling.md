@@ -268,7 +268,7 @@ In the demo below, we first applied a Gaussian blur to an image, removed it and 
 
 **Note:** Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For the same reason, we limited the maximum blur value to *50*.
 
-## Applying styling option to multiple objects
+## Applying styling options to multiple objects
 
 You can apply styling options to multiple selected objects at the same time. If you see the *Click + to replace mixed content* caption under any of the options, it means that the selected objects have different settings for this option. A click over the plus icon will replace current settings with new ones common for all selected objects. In the figure below, this caption appears under the **Fills** section.
 
