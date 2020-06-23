@@ -273,3 +273,52 @@ In the demo below, we first applied a Gaussian blur to an image, removed it and 
 You can apply styling options to multiple selected objects at the same time. If you see the *Click + to replace mixed content* caption under any of the options, it means that the selected objects have different settings for this option. A click over the plus icon will replace current settings with new ones common for all selected objects. In the figure below, this caption appears under the **Fills** section.
 
 ![Applying styling options to multiple objects](public/styling-mult.png)
+
+## Suggestions panel
+
+The suggestions panel appears when you select a shape or an open path. It displays suggestions of styling options based on your previous actions and choices. In case you've just started using Lunacy, the panel will provide some preset styles.
+
+Also, the list of suggested options depends on the background: Lunacy excludes options that would be scarcely visible against the current background.
+
+A view of the panel is shown in the figure below.
+
+![Suggestions panel](public/sugg-panelview.png)
+
+It features a set of independently scrollable columns that include:
+
+* **Layer styles**. Each style is a combination of two or more styling options (fills, borders, shadows and blurs).
+* **Fill styles**. A collection of fills.
+* **Border styles**. A collection of border and outline styles.
+* **Corner radius**. Available for rectangles only. Values appear in the ascending order. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
+* **Effect styles**. A collection of inner and outer shadows and blurs. Unlike the other columns, the content of this column does not change.
+* **Background**. Disabled by default. Sets the color of the object overlapped by at least of 50% percent of the surface of the selection. If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
+
+### Changing the position of the panel
+
+If you need change the position of the suggestions panel, click the handle at the top-left corner of the panel and drag it up or down. Lunacy remembers the position of the panel individually for each object.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/sugg-positionph.png" height="auto"><source src="/public/sugg-position.mp4" type="video/mp4"></video>
+
+### Resizing the panel
+
+You can resize the panel to your liking by dragging its lower and right borders. Note that dragging by the right border extends the right-most column, while dragging by the lower-right corner of the panel extends the left-most column of the panel.
+
+To change the size of other columns, hover the cursor between two columns and drag to the right or left when the cursor turns into a double-headed arrow (see the demo below).
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/sugg-resizeph.png" height="auto"><source src="/public/sugg-resize.mp4" type="video/mp4"></video>
+
+### Managing the content of the panel
+
+A right-click over the suggestions panel invokes a context menu that allows you to:
+
+* Pin your favorite items to the top of the list. Pinned items appear with a dark triangle at the lower left corner.
+* Delete items that you no longer need or will never use. For this, use the **Don't show this** again command.
+* Hide/show some of the columns by clearing/selecting the respective option on the menu (see the figure below).
+
+![Managing the content of the panel](public/sugg-menu.png)
+
+### Disabling the panel
+
+To disable the suggestions panel unselect the **Suggestions** option in the **View** menu.
+
+![Context menu](public/sugg-disable.png)
