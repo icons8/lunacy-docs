@@ -274,6 +274,8 @@ You can apply styling options to multiple selected objects at the same time. If 
 
 ![Applying styling options to multiple objects](public/styling-mult.png)
 
+<!---
+
 ## Suggestions panel
 
 The suggestions panel appears when you select a shape or an open path. It displays suggestions of styling options based on your previous actions and choices. In case you've just started using Lunacy, the panel will provide some preset styles.
@@ -322,3 +324,6 @@ A right-click over the suggestions panel invokes a context menu that allows you 
 To disable the suggestions panel unselect the **Suggestions** option in the **View** menu.
 
 ![Context menu](public/sugg-disable.png)
+
+--->
+
