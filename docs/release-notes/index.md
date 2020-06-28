@@ -23,7 +23,7 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
-
+<!--
 
 ## 5.9
 
@@ -41,7 +41,7 @@ You can:
 * Resize the panel and its columns.
 * Move it up or down by dragging the handle in the top-left corner of the panel. Lunacy remembers the position of the panel individually for each object. 
 * Manage the content of the panel. Right-click over the panel to invoke the context menu and see the options.
-* Disable the panel through View > Suggestions.
+* Disable the panel through **View** > **Suggestions**.
 
 The figure below shows views of suggestions panel for a shape and a text.
 
@@ -72,9 +72,9 @@ We've added a set of tools that allows you to quickly add basic GUI controls tha
 ![Tints](/public/rn5_9-guitools1.png)
 
 When you select a control added with any of these tools, you see the suggestions panel that allows you to:
-* Change the type of the control (1st column).
-* Select the style of the control (2nd column).
-* Select the control state (3rd column).
+1. Change the type of the control.
+2. Select the style of the control.
+3. Select the control state.
 
 ![GUI tools](/public/rn5_9-guitools2.png)
 
@@ -119,6 +119,7 @@ Just set the caret inside a word or at the end of the text and apply the require
 * Prototyping issues
 * Undo/Redo issues
 
+-->
 
 ## 5.8
 
