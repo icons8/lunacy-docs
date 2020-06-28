@@ -37,7 +37,7 @@ The figure below shows the location of text-related controls in the Lunacy inter
 1. The **Typography** section. Appears in the Inspector when a text layer is selected. Features all the settings that you might need when working with text. For details, click [here](#typography-settings).
 2. The **Text** menu. Includes all the settings available in the **Typography** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu. For details about converting text to outlines, click [here](#converting-text-to-vector-shapes).
 3. The **Edit object** button. The button appears when you select a text layer. Click this button to start editing the text. Alternatively, just press `Enter`.
-4. In the **Appearance** section you deal with <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable text styles</a>. Also the section features the button that invokes the [floating style panel](#floating-panel).
+4. In the **Appearance** section you deal with <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable text styles</a>.
 5. The **Generate text** button. A click over the button generates a random text.
 6. Another instance of the **Generate text** button. A click over the down arrowhead next to the button invokes the menu with text generation options. For details, click [here](#text-generation-and-text-snippets).
 
@@ -293,21 +293,54 @@ Combinations of layer styling effects and typography settings make up text style
 
 For details about styling properties, read <a href="https://docs.icons8.com/styling/" target="_blank">here</a>.
 
-## [Floating panel](#floating-panel)
+## Suggestions panel
 
-When working with text layers, you can make use of the floating style panel. In this panel you can find your recent text styles and quickly apply the required one to the currently selected layer.
+The suggestions panel appears when you select a text. It displays suggestions of styling options based on your previous actions and choices. In case you've just started using Lunacy, the panel will provide some preset styles.
 
-The panel appears when you add a new text layer. You can also invoke it with the `Ctrl + Space` shortcut or by clicking the floating panel button in the Inspector.
+Also, the list of suggested options depends on the background: Lunacy excludes options that would be scarcely visible against the current background.
 
-![Floating style panel](public/text-floatpanel.png)
+A view of the panel is shown in the figure below.
 
-The panel shows your 5 recent styles and can store up to 21 styles (click the three dots button to see the rest). The latest styles appear first. If you are working with a new document and haven't applied any text styles yet, the panel will display a set of predefined styles.
+![Suggestions panel](public/sugg-panelview.png)
 
-You can select styles from the panel by clicking them. To preview a style, hover the cursor over a style for a moment. If you a keyboard person, use `Tab` to switch between the displayed styles and `Enter` to apply a style.
+It features a set of independently scrollable columns (except for the font size) that include:
 
-![Common layer settings](public/text-switchstyles.gif)
+* **Text styles**. Each style is a combination of two or more typography and styling options (font, font size, shadow, etc.).
+* **Font size**. A collection of recently used font sizes. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
+* **Text color**. A collection of text colors.  If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
+* **Font style**. Includes such options as bold, italic, underline, strikethrough, superscript and subscript.Unlike the other columns, the content of this column does not change.
+* **Font family**. A collection of recently used fonts.
+* **Text Background**. Disabled by default. Sets the color of the object overlapped by at least of 50% percent of the text box. A double-click over any of the suggested colors opens the Color Picker where you can select a color of your choice.
 
-If you make changes to a style selected from the floating panel, they apply only to the currently selected layer and the style itself but they don't affect other layers with this style. Compare this behavior with <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable layer styles</a>.
+### Changing the position of the panel
+
+If you want to change the position of the suggestions panel, click the handle at the top-left corner of the panel and drag it up or down. Lunacy remembers the position of the panel individually for each text object.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/suggtext-positionph.png" height="auto"><source src="/public/suggtext-position.mp4" type="video/mp4"></video>
+
+### Resizing the panel
+
+You can resize the panel to your liking by dragging its lower and right borders. Note that dragging by the right border extends the right-most column, while dragging by the lower-right corner of the panel extends the left-most column of the panel.
+
+To change the size of other columns, hover the cursor between two columns and drag to the right or left when the cursor turns into a double-headed arrow (see the demo below).
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/suggtext-resizeph.png" height="auto"><source src="/public/suggtext-resize.mp4" type="video/mp4"></video>
+
+### Managing the content of the panel
+
+A right-click over the suggestions panel invokes a context menu that allows you to:
+
+* Pin your favorite items to the top of the list. Pinned items appear with a dark triangle at the lower left corner.
+* Delete items that you no longer need or will never use. For this, use the **Don't show this** again command.
+* Hide/show some of the columns by clearing/selecting the respective option on the menu (see the figure below).
+
+![Managing the content of the panel](public/sugg-menu.png)
+
+### Disabling the panel
+
+To disable the suggestions panel unselect the **Suggestions** option in the **View** menu.
+
+![Context menu](public/sugg-disable.png)
 
 ## [Converting text to vector shapes](#converting-text-to-vector-shapes)
 

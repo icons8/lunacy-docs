@@ -297,7 +297,7 @@ It features a set of independently scrollable columns that include:
 
 ### Changing the position of the panel
 
-If you need change the position of the suggestions panel, click the handle at the top-left corner of the panel and drag it up or down. Lunacy remembers the position of the panel individually for each object.
+If you want to change the position of the suggestions panel, click the handle at the top-left corner of the panel and drag it up or down. Lunacy remembers the position of the panel individually for each object.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/sugg-positionph.png" height="auto"><source src="/public/sugg-position.mp4" type="video/mp4"></video>
 
@@ -313,7 +313,7 @@ To change the size of other columns, hover the cursor between two columns and dr
 
 A right-click over the suggestions panel invokes a context menu that allows you to:
 
-* Pin your favorite items to the top of the list. Pinned items appear with a dark triangle at the lower left corner.
+* Pin your favorite items to the top of the list. Pinned items appear with a dark triangle at the lower-right corner.
 * Delete items that you no longer need or will never use. For this, use the **Don't show this** again command.
 * Hide/show some of the columns by clearing/selecting the respective option on the menu (see the figure below).
 
@@ -321,7 +321,7 @@ A right-click over the suggestions panel invokes a context menu that allows you 
 
 ### Disabling the panel
 
-To disable the suggestions panel unselect the **Suggestions** option in the **View** menu.
+To disable the suggestions panel, unselect the **Suggestions** option in the **View** menu.
 
 ![Context menu](public/sugg-disable.png)
 

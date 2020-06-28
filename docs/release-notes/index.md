@@ -23,6 +23,103 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
+
+
+## 5.9
+
+*RELEASED June XX, 2020*
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.8.0.exe)
+
+### New features
+
+#### Suggestions panel
+
+Now when you select a shape, an open path or a text you will see a panel with suggestions of styling options based on your previous actions and choices. In case you've just started using Lunacy, the panel will provide some preset styles.
+You can:
+* Scroll the content of each panel column (except for font size).
+* Resize the panel and its columns.
+* Move it up or down by dragging the handle in the top-left corner of the panel. Lunacy remembers the position of the panel individually for each object. 
+* Manage the content of the panel. Right-click over the panel to invoke the context menu and see the options.
+* Disable the panel through View > Suggestions.
+
+The figure below shows views of suggestions panel for a shape and a text.
+
+![Suggestions panels](/public/rn-suggpanels.png)
+
+For details about using the panels, read <a href="https://docs.icons8.com/styling/#suggestions-panel" target="_blank">here</a> and <a href="https://docs.icons8.com/text/#suggestions-panel" target="_blank">here</a>.
+
+#### Tints
+Tints are a quick and easy way to apply a color to grouped objects and symbol instances. They are particularly useful when you need to adjust the color of a semi-filled object or a complex icon.
+
+The **Tints** section appears in the Inspector only when you select a group object or a symbol.
+
+![Tints](/public/rn5_9-tints.png)
+
+Unlike other styling options, you can apply only one tint to an object.
+
+#### GUI tools
+
+We've added a set of tools that allows you to quickly add basic GUI controls that include:
+
+* Drop-down lists
+* Buttons
+* Text fields
+* Checkboxes
+* Radio buttons and
+* Toggles
+
+![Tints](/public/rn5_9-guitools1.png)
+
+When you select a control added with any of these tools, you see the suggestions panel that allows you to:
+* Change the type of the control (1st column).
+* Select the style of the control (2nd column).
+* Select the control state (3rd column).
+
+![GUI tools](/public/rn5_9-guitools2.png)
+
+To edit the appearnce of a control, use the <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">symbol editor</a>.
+
+#### Symbol tool
+
+The symbol tool allows you to quickly create mockups of interfaces by adding placeholder symbols and then replacing them with required GUI elements.
+
+![Symbol tool](/public/rn5_9-symbtool.png)
+
+* To draw a placholder symbol just select the Symbol tool and drag over the required area. Placeholder symbos appear as pink rectangles with the question mark.
+
+![Placeholder symbols](/public/rn5_9-symbtool2.png)
+
+* To relace a placeholder symbol, select it and use the suggestions panel that will appear.    
+* You can also use use symbols from the Symbols page. For this, enable the tool, then go to the Symbols page and click the required Symbol. The same applies to symbols from UI kits.
+* When the Symbol tool is enabled, you can press the `C` and `Shift+C` hotkeys to switch between the symbols that you've used earlier and quickly add them onto the canvas.
+* If you want your custom symbols to appear on the suggestions panel, you should properly tag them in the Inspector. For this, click ![Tag symbol button](/public/rn5_9-symbtool5.png) in the **Symbol** section of the Inspector and select a proper category.
+
+![Tagging symbols](/public/rn5_9-symbtool4.png)
+
+
+#### Text formatting
+
+Text formatting has become a way easier. You no longer need to select a word or the whole text to make it bold, italicized or whatever.
+
+Just set the caret inside a word or at the end of the text and apply the required formatting. In the latter case, the formating will be applied to the whole text.
+
+### Improvements
+
+* The Icon tool also has its suggestions panel now. Currently it shows your latest 16 icons. The panel does not appear, when you open the Icons Library.
+* Text alignment magnets now also appear upon selection of multiple text objects.
+* Newly-added text objects now inherit the style of the previous text.
+* Now you can edit the layout grid for several artboards at the same time.
+* Now you can tag symbol types for better symbol suggestions.
+
+### Fixed bugs
+
+* Artboard layout issues
+* Resize issues
+* Prototyping issues
+* Undo/Redo issues
+
+
 ## 5.8
 
 _RELEASED June 16, 2020_
