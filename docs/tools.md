@@ -98,8 +98,18 @@ The table below provides an overview of the controls and their shortcuts.
       <td><code>H</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-iconicon.png" alt="Slice tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#icon-tool">Icon tool</a>. Keeps the icons that you've recently use at hand. After you use the tool for the first time, the latest icon appears on the toolbar instead of the tool icon.</td>
+      <td><img src="/public/tools-guiicon.png" alt="GUI tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#icon-tool">GUI tool</a>. A set of tools that allows you to quickly add basic GUI controls.</td>
+      <td><p><code>B</code> - button</p><p><code>D</code> - text input</p><p><code>Y</code> - radio button</p><p><code>F</code> - checkbox</p><p><code>K</code> - toggle</p><p><code>W</code> - dropdown list</p></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tools-symbolicon.png" alt="Symbol tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#icon-tool">Symbol tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder symbols and then replacing them with required GUI elements.</td>
+      <td><code>C</code></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tool-iconicon.png" alt="Icon tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#icon-tool">Icon tool</a>. Keeps the icons that you've recently used at hand. After you use the tool for the first time, the latest icon appears on the toolbar instead of the tool icon.</td>
       <td><code>X</code></td>
     </tr>
     <tr>

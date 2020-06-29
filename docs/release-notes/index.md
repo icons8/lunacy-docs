@@ -78,7 +78,7 @@ When you select a control added with any of these tools, you see the suggestions
 
 ![GUI tools](/public/rn5_9-guitools2.png)
 
-To edit the appearnce of a control, use the <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">symbol editor</a>.
+To edit the appearance of a control, use the <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">symbol editor</a>.
 
 #### Symbol tool
 
@@ -86,11 +86,11 @@ The symbol tool allows you to quickly create mockups of interfaces by adding pla
 
 ![Symbol tool](/public/rn5_9-symbtool.png)
 
-* To draw a placholder symbol just select the Symbol tool and drag over the required area. Placeholder symbos appear as pink rectangles with the question mark.
+* To draw a placeholder symbol just select the Symbol tool and drag over the required area. Placeholder symbols appear as pink rectangles with the question mark.
 
 ![Placeholder symbols](/public/rn5_9-symbtool2.png)
 
-* To relace a placeholder symbol, select it and use the suggestions panel that will appear.    
+* To replace a placeholder symbol, select it and use the suggestions panel that will appear.    
 * You can also use use symbols from the Symbols page. For this, enable the tool, then go to the Symbols page and click the required Symbol. The same applies to symbols from UI kits.
 * When the Symbol tool is enabled, you can press the `C` and `Shift+C` hotkeys to switch between the symbols that you've used earlier and quickly add them onto the canvas.
 * If you want your custom symbols to appear on the suggestions panel, you should properly tag them in the Inspector. For this, click ![Tag symbol button](/public/rn5_9-symbtool5.png) in the **Symbol** section of the Inspector and select a proper category.
@@ -102,7 +102,7 @@ The symbol tool allows you to quickly create mockups of interfaces by adding pla
 
 Text formatting has become a way easier. You no longer need to select a word or the whole text to make it bold, italicized or whatever.
 
-Just set the caret inside a word or at the end of the text and apply the required formatting. In the latter case, the formating will be applied to the whole text.
+Just set the caret inside a word or at the end of the text and apply the required formatting. In the latter case, the formatting will be applied to the whole text.
 
 ### Improvements
 
