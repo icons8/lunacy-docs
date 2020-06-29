@@ -404,9 +404,50 @@ To hide/show hotspots and prototyping links on the canvas, use the **Show protot
 
 For more information about prototyping in Lunacy, click <a href="https://docs.icons8.com/prototyping" target="_blank">here</a>.
 
+
+## GUI tool
+
+Lunacy features a set of tools that allows you to quickly add basic GUI controls that include:
+
+* Drop-down lists
+* Buttons
+* Text fields
+* Checkboxes
+* Radio buttons and
+* Toggles
+
+![GUI tools](public/rn5_9-guitools1.png)
+
+When you select a control added with any of these tools, you see the suggestions panel that allows you to:
+
+1. Change the type of the control.
+2. Select the style of the control.
+3. Select the control state.
+
+![GUI tools](public/rn5_9-guitools2.png)
+
+To edit the appearance of a control, use the <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">symbol editor</a>.
+
+## Symbol tool
+
+The symbol tool allows you to quickly create mockups of interfaces by adding placeholder symbols and then replacing them with required GUI elements.
+
+![Symbol tool](public/rn5_9-symbtool.png)
+
+* To draw a placeholder symbol just select the Symbol tool and drag over the required area. Placeholder symbols appear as pink rectangles with the question mark.
+
+![Placeholder symbols](public/rn5_9-symbtool2.png)
+
+* To replace a placeholder symbol, select it and use the suggestions panel that will appear.
+* You can also use use symbols from the Symbols page. For this, enable the tool, then go to the Symbols page and click the required Symbol. The same applies to symbols from UI kits.
+* When the Symbol tool is enabled, you can press the `C` and `Shift+C` hotkeys to switch between the symbols that you've used earlier and quickly add them onto the canvas.
+* If you want your custom symbols to appear on the suggestions panel, you should properly tag them in the Inspector. For this, click ![Tag symbol button](public/rn5_9-symbtool5.png) in the **Symbol** section of the Inspector and select a proper category.
+
+![Tagging symbols](public/rn5_9-symbtool4.png)
+
 ## Icon tool
 
-The Icon tool serves to simplify your work with icons and keeps the items that you've recently use at hand. A click over the icon tool on the toolbar opens the <a href="https://docs.icons8.com/libraries/#icons" target="_blank">Icons library</a> where you can select the required icon. To invoke a panel with recent icons, just hover the cursor over the icon tool. The maximum number of recent icons is 16.
+The Icon tool serves to simplify your work with icons and keeps the items that you've recently used at hand. A click over the icon tool on the toolbar opens the <a href="https://docs.icons8.com/libraries/#icons" target="_blank">Icons library</a> where you can select the required icon. To invoke a panel with recent icons, just hover the cursor over the icon tool. The maximum number of recent icons is 16.
 
 ![A view of the icon tool](public/tool-icontoolview.png)
 
