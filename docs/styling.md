@@ -282,15 +282,15 @@ Also, the list of suggested options depends on the background: Lunacy excludes o
 
 A view of the panel is shown in the figure below.
 
-![Suggestions panel](public/sugg-panelview.png)
+![Suggestions panel](public/sugg-panelview2.png)
 
 It features a set of independently scrollable columns that include:
 
-* **Layer styles**. Each style is a combination of two or more styling options (fills, borders, shadows and blurs).
-* **Fill styles**. A collection of fills.
-* **Border styles**. A collection of border and outline styles.
-* **Corner radius**. Available for rectangles only. Values appear in the ascending order. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
-* **Effect styles**. A collection of inner and outer shadows and blurs. Unlike the other columns, the content of this column does not change.
+* **Layer styles** (1). Each style is a combination of two or more styling options (fills, borders, shadows and blurs).
+* **Fill styles** (2). A collection of fills.
+* **Border styles** (3). A collection of border and outline styles.
+* **Corner radius** (4). Available for rectangles only. Values appear in the ascending order. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
+* **Effect styles** (5). A collection of inner and outer shadows and blurs. Unlike the other columns, the content of this column does not change.
 * **Background**. Disabled by default. Sets the color of the object overlapped by at least of 50% percent of the surface of the selection. If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
 
 ### Changing the position of the panel
