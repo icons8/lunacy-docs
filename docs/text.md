@@ -301,15 +301,15 @@ Also, the list of suggested options depends on the background: Lunacy excludes o
 
 A view of the panel is shown in the figure below.
 
-![Suggestions panel](public/sugg-panelview.png)
+![Suggestions panel](public/suggtext-view.png)
 
 It features a set of independently scrollable columns (except for the font size) that include:
 
-* **Text styles**. Each style is a combination of two or more typography and styling options (font, font size, shadow, etc.).
-* **Font size**. A collection of recently used font sizes. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
-* **Text color**. A collection of text colors.  If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
-* **Font style**. Includes such options as bold, italic, underline, strikethrough, superscript and subscript.Unlike the other columns, the content of this column does not change.
-* **Font family**. A collection of recently used fonts.
+* **Text styles** (1). Each style is a combination of two or more typography and styling options (font, font size, shadow, etc.).
+* **Font size** (2). A collection of recently used font sizes. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
+* **Text color** (3). A collection of text colors.  If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
+* **Font style** (4). Includes such options as bold, italic, underline, strikethrough, superscript and subscript.Unlike the other columns, the content of this column does not change.
+* **Font family** (5). A collection of recently used fonts.
 * **Text Background**. Disabled by default. Sets the color of the object overlapped by at least of 50% percent of the text box. A double-click over any of the suggested colors opens the Color Picker where you can select a color of your choice.
 
 ### Changing the position of the panel
