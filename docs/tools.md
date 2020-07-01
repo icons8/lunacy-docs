@@ -318,16 +318,31 @@ Finally, you can make use of such styling properties as borders, shadows, inner 
 
 ## Image tool
 
-The Image tool serves for quick adding images from files to your designs. Lunacy supports all the most common image formats like PNG, JPG, JPEG, etc.
+The Image tool serves for quick adding images from files to your designs. Lunacy supports all the popular image formats like PNG, JPG, JPEG, WEBP, BMP, ICO, GIF, SVG. The TIFF format is not supported.
 
 To add an image:
 
 1. Click the tool icon on the toolbar. The **Open** dialog box appears.
 2. In the **Open** dialog box, browse to the required file.
 3. Select the file. You can select multiple files at a time, if you want.
-4. Click over the area where you want to put the image or click and drag to get the required size of the image as shown in the demo below.
+4. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image as shown in the demo below.
 
 ![Adding an image](public/objects_bitmaps.gif)
+
+Also, you can:
+
+* Drag images onto the canvas from your desktop or the Explorer.
+* Copy image files from your desktop or the Explorer and then paste them onto the canvas.
+* Import images from the internet.
+
+To add an image from the internet:
+
+1. In your web browser, right-click over the image. The context menu appears.
+2. On the displayed menu, click **Copy image address** or similar command.
+3. Switch to Lunacy and click the Image tool. The **Open** dialog box appears.
+4. Paste the image URL into the **File name** field.
+5. Click **Open**.
+6. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image.
 
 ## Avatar tool
 
