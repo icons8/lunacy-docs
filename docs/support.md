@@ -24,6 +24,17 @@ page_nav:
 
 ## FAQ
 
+### How can I be sure that I won't lose my work if Lunacy crashes?
+
+We understand how painful and frustrating it can be when you suddenly lose your unsaved progress due to a power outage, application crash or something like that. That is why Lunacy features the Shadow Copy mechanism that keeps track of all changes in your projects and silently saves them to temporary files.
+
+Shadow copies of files that you have never saved appear in the folder of Lunacy temporary files*. When you save a file, the shadow copy of the file moves to the folder where the main file sits. Temporary files are hidden system files and to see them in a folder you should enable the display of such files in the Windows Explorer.
+
+To prevent corruption of the main file, Lunacy first saves changes to the temporary file and only after successful saving replaces the old file with the new one.
+
+{:.image-info}
+\* C:\Users\YourUsername\AppData\Local\Icons8\Lunacy\NewProjects
+
 ### How do I scroll around the workspace?
 
 You can scroll around the workspace in these ways:
