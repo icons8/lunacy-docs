@@ -23,13 +23,12 @@ page_nav:
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
 
-<!--
 
 ## 5.9
 
-*RELEASED June XX, 2020*
+*RELEASED July 03, 2020*
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.8.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.9.0.exe)
 
 ### New features
 
@@ -119,7 +118,6 @@ Just set the caret inside a word or at the end of the text and apply the require
 * Prototyping issues
 * Undo/Redo issues
 
--->
 
 ## 5.8
 
