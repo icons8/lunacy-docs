@@ -75,7 +75,7 @@ When you select a control added with any of these tools, you see the suggestions
 2. Select the style of the control.
 3. Select the control state.
 
-![GUI tools](/public/rn5_9-guitools2.png)
+![GUI tools](/public/rn5_9-guitools3.png)
 
 To edit the appearance of a control, use the <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">symbol editor</a>.
 
