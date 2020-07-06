@@ -43,7 +43,7 @@ How do we earn then? Lunacy is a product of Icons8, the company that runs one of
 
 ![Free](public/icons8_one_free.png) Lunacy is absolutely free.
 
-![Sketch](public/icons8_sketch.png) Lunacy is the only Windows app that can open and save .sketch files.
+![Sketch](public/icons8_sketch.png) Lunacy is the only Windows app that can both open and save .sketch files.
 
 ![Windows](public/icons8_windows8.png) Lunacy is a native Windows app and that is why it works faster than any other similar graphical design app.
 
