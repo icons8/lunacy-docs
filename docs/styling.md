@@ -274,6 +274,32 @@ You can apply styling options to multiple selected objects at the same time. If 
 
 ![Applying styling options to multiple objects](public/styling-mult.png)
 
+## Tints
+
+Tints are a quick and easy way to apply a color to grouped objects and symbol instances. They are particularly useful when you need to adjust the color of a semi-filled object or a complex icon (see the demo below).
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-tintsph.png" height="auto"><source src="/public/styling-tints.mp4" type="video/mp4"></video>
+
+The **Tints** section appears in the Inspector only when you select a group object or a symbol.
+
+Unlike other styling options, you can apply only one tint to an object.
+
+### Tint Overrides
+
+Tint overrides can be handy, for instance, when you are designing tabs or panels with elements that can have different states expressed through different colors.
+
+Note that before using tint overrides you should add default tints.
+
+The demo below shows three instances of the same symbol. We first applied a tint override to an element, then switched to the symbol edit mode and modified the default tint. In the latter case the change applied only to the instances without the override.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tintoverridesph.png" height="auto"><source src="/public/tintoverrides.mp4" type="video/mp4"></video>
+
+When you apply an override, the reset button appears in the **Tint** section of the Inspector. Use this button to remove the override.
+
+![Reset overrides button](public/reset-overridetint.png)
+
+For details about overrides, read <a href="https://docs.icons8.com/symbols/#overrides" target="_blank">here</a>.
+
 ## Suggestions panel
 
 The suggestions panel appears when you select a shape or an open path. It displays suggestions of styling options based on your previous actions and choices. In case you've just started using Lunacy, the panel will provide some preset styles.
