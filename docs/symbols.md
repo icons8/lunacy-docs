@@ -325,6 +325,12 @@ Currently, Lunacy provides the following types of overrides:
 * Text style overrides
 * Hotspot overrides
 
+<!--
+
+* Tint overrides
+
+-->
+
 ## Understanding overrides
 
 This mini tutorial will help you better understand the idea and the power of overrides. Also, you will learn how to use some of the advanced Lunacy features.

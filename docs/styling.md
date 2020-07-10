@@ -284,13 +284,15 @@ The **Tints** section appears in the Inspector only when you select a group obje
 
 Unlike other styling options, you can apply only one tint to an object.
 
+<!--
+
 ### Tint Overrides
 
 Tint overrides can be handy, for instance, when you are designing tabs or panels with elements that can have different states expressed through different colors.
 
 Note that before using tint overrides you should add default tints.
 
-The demo below shows three instances of the same symbol. We first applied a tint override to an element, then switched to the symbol edit mode and modified the default tint. In the latter case the change applied only to the instances without the override.
+The demo below shows three instances of the same symbol. We first applied a tint override to a nested element, then switched to the symbol edit mode and modified the default tint. In the latter case, the change applied only to the instances without the override.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tintoverridesph.png" height="auto"><source src="/public/tintoverrides1.mp4" type="video/mp4"></video>
 
@@ -299,6 +301,9 @@ When you apply an override, the reset button appears in the **Tint** section of 
 ![Reset overrides button](public/reset-overridetint.png)
 
 For details about overrides, read <a href="https://docs.icons8.com/symbols/#overrides" target="_blank">here</a>.
+
+
+-->
 
 ## Suggestions panel
 
