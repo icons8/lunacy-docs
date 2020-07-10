@@ -292,7 +292,7 @@ Note that before using tint overrides you should add default tints.
 
 The demo below shows three instances of the same symbol. We first applied a tint override to an element, then switched to the symbol edit mode and modified the default tint. In the latter case the change applied only to the instances without the override.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tintoverridesph.png" height="auto"><source src="/public/tintoverrides.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tintoverridesph.png" height="auto"><source src="/public/tintoverrides1.mp4" type="video/mp4"></video>
 
 When you apply an override, the reset button appears in the **Tint** section of the Inspector. Use this button to remove the override.
 
