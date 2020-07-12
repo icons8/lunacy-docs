@@ -84,6 +84,8 @@ To edit a text:
 3. Enter a new text or edit the existing one.
 4. When done, press `Esc` to exit the edit mode.
 
+When editing typography settings you don't need to select a word or the whole text to make it bold, italicized or whatever. Just set the caret inside a word or at the end of the text and apply the required formatting. In the latter case, the formatting will be applied to the whole text.
+
 ## [Typography settings](#typography-settings)
 
 When you select a text layer, the **Typography** section appears in the Inspector. The section features the basic typography settings. Also, you can click the settings button at the top left corner of the section to access advanced settings (see the figure below).
