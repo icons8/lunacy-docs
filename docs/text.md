@@ -88,6 +88,8 @@ When editing typography settings you don't need to select a word or the whole te
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-edittipph.png" height="auto"><source src="/public/text-edittip.mp4" type="video/mp4"></video>
 
+See also [Typography settings](#typography-settings) and [Suggestions panel](#suggestions-panel) below.
+
 ## [Typography settings](#typography-settings)
 
 When you select a text layer, the **Typography** section appears in the Inspector. The section features the basic typography settings. Also, you can click the settings button at the top left corner of the section to access advanced settings (see the figure below).
@@ -297,7 +299,7 @@ Combinations of layer styling effects and typography settings make up text style
 
 For details about styling properties, read <a href="https://docs.icons8.com/styling/" target="_blank">here</a>.
 
-## Suggestions panel
+## [Suggestions panel](#suggestions-panel)
 
 The suggestions panel appears when you select a text. It displays suggestions of styling options based on your previous actions and choices. In case you've just started using Lunacy, the panel will provide some preset styles.
 
