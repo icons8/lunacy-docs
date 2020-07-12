@@ -468,10 +468,8 @@ The Icon tool serves to simplify your work with icons and keeps the items that y
 
 Alternatively, to start using the tool, press `X`. When enabled, the tool appears with the latest icon that you've used. Press `X` again to switch to the next recent icon or `Shift + X` to return to the previous one.
 
-Later on, when you enable the icon tool, it appears with the latest icon that you've used.
-
 For your convenience, when you select an icon on the canvas, Lunacy displays the suggestions panel with your recent icons. To replace the selected icon with an icon from the suggestions panel, just click the required icon. The maximum number of displayed recent icons is 16.
 
 ![A view of the icon tool](public/tool-icontoolsugg.png)
 
-**Note**: The color selected in the **Icons** library affects the color of icons in the icon tool.
+**Note**: The color selected in the **Icons** library affects the color of icons in the suggestion panel.
