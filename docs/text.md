@@ -84,7 +84,7 @@ To edit a text:
 3. Enter a new text or edit the existing one.
 4. When done, press `Esc` to exit the edit mode.
 
-When editing typography settings you don't need to select a word or the whole text to make it bold, italicized or whatever. Just set the caret inside a word or at the end of the text and apply the required formatting. In the latter case, the formatting will be applied to the whole text.
+When editing typography settings you don't need to select a word or the whole text to make it bold, italicized or whatever. Just set the caret inside a word or at the end of the text and apply the required setting. In the latter case, the setting will be applied to the whole text.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-edittipph.png" height="auto"><source src="/public/text-edittip.mp4" type="video/mp4"></video>
 
