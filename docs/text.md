@@ -88,7 +88,7 @@ When editing typography settings you don't need to select a word or the whole te
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-edittipph.png" height="auto"><source src="/public/text-edittip.mp4" type="video/mp4"></video>
 
-See also [Typography settings](#typography-settings) and [Suggestions panel](#suggestions-panel) below.
+See also the [Typography settings](#typography-settings) and [Suggestions panel](#suggestions-panel) sections below.
 
 ## [Typography settings](#typography-settings)
 
