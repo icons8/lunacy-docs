@@ -462,12 +462,16 @@ The symbol tool allows you to quickly create mockups of interfaces by adding pla
 
 ## Icon tool
 
-The Icon tool serves to simplify your work with icons and keeps the items that you've recently used at hand. A click over the icon tool on the toolbar opens the <a href="https://docs.icons8.com/libraries/#icons" target="_blank">Icons library</a> where you can select the required icon. To invoke a panel with recent icons, just hover the cursor over the icon tool. The maximum number of recent icons is 16.
+The Icon tool serves to simplify your work with icons and keeps the items that you've recently used at hand. A click over the icon tool on the toolbar opens the <a href="https://docs.icons8.com/libraries/#icons" target="_blank">Icons library</a> where you can select the required icon.
 
-![A view of the icon tool](public/tool-icontoolview.png)
+![A view of the icon tool](public/tool-icontoolview1.png)
 
 Alternatively, to start using the tool, press `X`. When enabled, the tool appears with the latest icon that you've used. Press `X` again to switch to the next recent icon or `Shift + X` to return to the previous one.
 
-To add an icon from the panel of recent icons to the canvas, drag the icon onto the canvas.
+Later on, when you enable the icon tool, it appears with the latest icon that you've used.
+
+For your convenience, when you select an icon on the canvas, Lunacy displays the suggestions panel with your recent icons. To replace the selected icon with an icon from the suggestions panel, just click the required icon. The maximum number of displayed recent icons is 16.
+
+![A view of the icon tool](public/tool-icontoolsugg.png)
 
 **Note**: The color selected in the **Icons** library affects the color of icons in the icon tool.
