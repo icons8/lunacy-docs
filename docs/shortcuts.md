@@ -34,36 +34,36 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Open |`Ctrl` `O` |
-| New |`Ctrl` `N` |
-| Save |`Ctrl` `S` |
-| Save as |`Ctrl` `Shift` `S` |
-| Export |`Ctrl` `E` |
+| Open |`Ctrl+O` |
+| New |`Ctrl+N` |
+| Save |`Ctrl+S` |
+| Save as |`Ctrl+Shift+S` |
+| Export |`Ctrl+E` |
 | About |`F1` |
-| Close Tab |`Ctrl` `W` |
-| Next Tab |`Ctrl` `Tab` |
-| Prev Tab |`Ctrl` `Shift` `Tab` |
-| Exit |`Alt` `F4` or `Ctrl` `Q` |
-| Copy |`Ctrl` `C` |
-| Cut |`Ctrl` `X` |
-| Paste |`Ctrl` `V` |
-| Copy to Cloud |`Ctrl` `C` , `C` |
-| Copy Style |`Ctrl` `Alt` `C` |
-| Paste Style |`Ctrl` `Alt` `V` |
-| Undo |`Ctrl` `Z`  |
-| Redo |`Ctrl` `Y` or `Ctrl` `Shift` `Z` |
-| Show Rulers |`Ctrl` `R` |
-| Show Grid |`Ctrl` `’` |
-| Show Layout Grid |`Ctrl` `\` |
-| Show Guidelines |`Ctrl` `;` |
-| Lock Guidelines |`Ctrl` `Alt` `;` |
-| Collapse All Objects |`Ctrl` `~` |
-| Switch to Objects |`Alt` `1` |
-| Switch to Libraries |`Alt` `2` |
-| Switch to Properties |`Alt` `3` |
-| Switch to Code |`Alt` `4` |
+| Close Tab |`Ctrl+W` |
+| Next Tab |`Ctrl+Tab` |
+| Prev Tab |`Ctrl+Shift+Tab` |
+| Exit |`Alt+F4` or `Ctrl+Q` |
+| Copy |`Ctrl+C` |
+| Cut |`Ctrl+X` |
+| Paste |`Ctrl+V` |
+| Export in PNG to Icons8 Cloud, copy URL to clipboard |`Ctrl+C, C` |
+| Copy Style |`Ctrl+Alt+C` |
+| Paste Style |`Ctrl+Alt+V` |
+| Undo |`Ctrl+Z`  |
+| Redo |`Ctrl+Y` or `Ctrl+Shift+Z` |
+| Show Rulers |`Ctrl+R` |
+| Show Grid |`Ctrl+’` |
+| Show Layout Grid |`Ctrl+\` |
+| Show Guidelines |`Ctrl+;` |
+| Lock Guidelines |`Ctrl+Alt+;` |
+| Collapse the Objects list |`Ctrl+~` |
+| Switch to Objects |`Alt+1` |
+| Switch to Libraries |`Alt+2` |
+| Switch to Properties |`Alt+3` |
+| Switch to Code |`Alt+4` |
 
-## Inserting Objects
+## Tools
 
 
 | Action        | Hotkey(s)     |
@@ -81,8 +81,15 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Artboard |`A` |
 | Hotspot |`H` |
 | Slice |`E` |
-| Draw from Center | `Alt` `Drag` |
-| Draw Lock Aspect |`Shift` `Drag` |
+| Symbol|`C` |
+| Button |`B` |
+| Text Input |`D` |
+| Checkbox |`F` |
+| Radio button |`Y` |
+| Toggle |`K` |
+| Drop-down list |`W` |
+| Draw from center | Hold down `Alt` and drag |
+| Draw preserving aspect ratio | Hold down `Shift` and drag |
 
 ## Selecting Objects
 
@@ -90,130 +97,137 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
 | Select Layer |`Click` |
-| Select All |`Ctrl` `A` |
-| Select All Artboards |`Shift` `Ctrl` `A` |
-| Select in Group |`Ctrl` `Click` |
+| Select All |`Ctrl+A` |
+| Select All artboards (objects beyond artboards are ignored) |`Shift+Ctrl+A` |
+| Select an object within a group |`Ctrl+Click` |
 
 ## Editing Objects
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Shape Edit Mode |`Enter` or `Double click` |
-| Finish Editing |`Escape` |
+| Edit Mode |`Enter` or `Double click` |
+| Finish Editing/Deselect all |`Escape` |
 | Delete Layer |`Backspace` or `Del` |
-| Toggle Mask |`Ctrl` `M` |
-| Flip Horizontaly |`Ctrl` `→` or `Ctrl` `←` |
-| Flip Vertical |`Ctrl` `↑` or `Ctrl` `↓` |
-| Union |`Ctrl` `Shift` `U` |
-| Substract |`Ctrl` `Shift` `P` |
-| Intersect |`Ctrl` `Shift` `I` |
-| Difference |`Ctrl` `Shift` `X` |
-| Align Left |`Ctrl` `Shift` `←` |
-| Align Right |`Ctrl` `Shift` `→` |
-| Align Horizontally |`Ctrl` `Shift` `-` |
-| Align Top |`Ctrl` `Shift` `↑` |
-| Align Bottom |`Ctrl` `Shift` `↓`  |
-| Align Vertically |`Ctrl` `Shift` `\`|
-| Distribute Horizontally |`Ctrl` `Shift` `H` |
-| Distribute Vertically |`Ctrl` `Shift` `V` |
-| Scale objects |`Ctrl` `K` |
+| Toggle Mask |`Ctrl+M` |
+| Flip horizontally |`Ctrl+→` or `Ctrl+←` |
+| Flip vertically |`Ctrl+↑` or `Ctrl+↓` |
+| Union |`Ctrl+Shift+U` |
+| Substract |`Ctrl+Shift+P` |
+| Intersect |`Ctrl+Shift+I` |
+| Difference |`Ctrl+Shift+X` |
+| Align Left |`Alt+A` |
+| Align Right |`Alt+D` |
+| Align Horizontally |`Alt+H` |
+| Align Top |`Alt+W` |
+| Align Bottom |`Alt+S`  |
+| Align Vertically |`Alt+V`|
+| Distribute Horizontally |`Ctrl+Shift+H` |
+| Distribute Vertically |`Ctrl+Shift+V` |
+| Tidy up |`Ctrl+Alt+Shift+T` |
+| Scale objects |`Ctrl+K` |
+| Refresh avatar |`Shift+R` |
 
 ## Text Editing
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Bold |`Ctrl` `B` |
-| Italic  |`Ctrl` `I` |
-| Underline  |`Ctrl` `U` |
-| Increase Font Size |`Ctrl` `Alt` `+` |
-| Decrease Font Size |`Ctrl` `Alt` `–` |
-| Increase Line Height |`Ctrl` `Alt` `>` |
-| Decrease Line Height |`Ctrl` `Alt` `<` |
-| Increase Character Spacing |`Ctrl` `Shift` `>` |
-| Decrease Character Spacing |`Ctrl` `Shift` `<` |
-| Horizontal Align Left |`Ctrl` `Alt` `{` |
-| Horizontal Align Center |`Ctrl` `Alt` `\` |
-| Horizontal Align Right |`Ctrl` `Alt` `}` |
-| Horizontal Align Justify |`Ctrl` `Alt` `J` |
-| Refresh Text Data Generation |`Shift` `R` |
+| Bold |`Ctrl+B` |
+| Italic  |`Ctrl+I` |
+| Underline  |`Ctrl+U` |
+| Increase Font Size |`Ctrl+Alt +` |
+| Decrease Font Size |`Ctrl+Alt –` |
+| Increase Line Spacing |`Ctrl+Alt+>` |
+| Decrease Line Height |`Ctrl+Alt+<` |
+| Increase Character Spacing |`Ctrl+Shift+>` |
+| Decrease Character Spacing |`Ctrl+Shift+<` |
+| Horizontal Align Left |`Ctrl+Alt+{` |
+| Horizontal Align Center |`Ctrl+Alt+\` |
+| Horizontal Align Right |`Ctrl+Alt+}` |
+| Horizontal Align Justify |`Ctrl+Alt+J` |
+| Refresh generated text |`Shift+R` |
 
 ## Text Generation Snippets
 
 
 | Text generation value | Snippet     |
 | ------------- |-------------|
-| Full Name |`#fullname` |
-| First Name  |`#firstname` |
-| Last Name  |`#lastname` |
-| Phone  |`#phone` |
-| Email  |`#email` |
-| Full Address  |`#address` |
-| State  |`#state` |
-| City  |`#city` |
-| Zip Code  |`#zipcode` |
-| Company  |`#company` |
-| Department  |`#department` |
-| Job Title  |`#jobtitle` |
-| Credit Card  |`#credit` |
-| Amount  |`#amount` |
-| Day  |`#day` |
-| Week  |`#week` |
-| Month  |`#month` |
-| Year  |`#year` |
-| 12/31/1999  |`#dateslash` |
-| 31.12.1999  |`#datedot` |
-| December 31, 1999  |`#datefull` |
-| 23:00  |`#time24` |
-| 11:00 PM  |`#time12` |
-| Theme  |`#theme` |
-| Header  |`#header` |
-| Paragraph  |`#paragraph` |
-| Url  |`#url` |
-| User Name  |`#username` |
-| File Name  |`#filename` |
-| Country  |`#country` |
-| Language  |`#language` |
+| Full Name |`;full` or `;fullname` |
+| First Name  |`;fir` or `;firstname` |
+| Last Name  |`;las` or `;lastname` |
+| Phone  |`;ph` or `;phone` |
+| Email  |`;em` or `;email` |
+| Full Address  |`ad` or `address` |
+| State  |`;st` or `state` |
+| City  |`;ci` or `;city` |
+| Zip Code  |`;zip` |
+| Company  |`;com` or `;company` |
+| Department  |`dep` or `;department` |
+| Job Title  |`job` or `;jobtitle` |
+| Credit Card  |`;cr` or `;credit` |
+| Amount  |`;am` or `;amount` |
+| Day  |`;day` |
+| Week  |`;we` or `;week` |
+| Month  |`mo` or `;month` |
+| Year  |`ye` or `;year` |
+| 12/31/1999  |`ds` or `;dateslash` |
+| 31.12.1999  |`dd` or `;datedot` |
+| December 31, 1999  |`df` or `;datefull` |
+| 23:00  |`t24` or `;time24` |
+| 11:00 PM  |`t12` or `;time12` |
+| Theme  |`th` or `;theme` |
+| Header  |`he` or `;header` |
+| Paragraph  |`pa` or `;paragraph` |
+| Url  |`;url` |
+| User Name  |`us` or `;username` |
+| File Name  |`fil` or `;filename` |
+| Country  |`;cou` or `;country` |
+| Language  |`;la` or `;language` |
+
 
 ## Symbols operations
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Create Symbol |`Ctrl` `Alt` `K`  |
-| Edit Symbol  |`Ctrl` `Alt` `E` |
-| Send to Symbols Page  |`Ctrl` `Alt` `M` 
-| Detach from Symbol  |`Ctrl` `Alt` `D` |
-| Reset instance size  |`Ctrl` `Alt` `R` |
+| Create Symbol |`Ctrl+Alt+K`  |
+| Edit Symbol  |`Enter` |
+| Send to Symbols Page  |`Ctrl+Alt+E`|
+| Detach from Symbol  |`Ctrl+Alt+D` |
+| Reset instance size  |`Ctrl+Alt+R` |
+
 
 ## Moving and Resizing Objects
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Distances from Objects |`Alt` |
-| Duplicate |`Alt` `Drag` or `Ctrl` `D` |
-| Move Long X/Y Axis |`Shift` `Drag` |
+| Distance to objects |`Alt` |
+| Duplicate |`Alt+Drag` or `Ctrl+D` |
+| Move along X/Y axis |Hold down `Shift` and drag |
 | Move by 1px |`Arrow keys` |
-| Move by 10px |`Shift` `Arrow keys` |
-| Resize from Center |`Alt` `resize` |
-| Preserve Ratio |`Shift` `resize` |
-| Move Canvas |`Space` `Drag` |
+| Move by 10px |`Shift+Arrow keys` |
+| Resize by 1px |`Ctrl+Arrow keys` |
+| Resize by 10px |`Ctrl+Shift+Arrow keys` |
+| Resize from center |`Alt+resize` |
+| Preserve Ratio |`Shift+resize` |
+| Pan around canvas |Hold down `Space` and drag |
+| Disable snapping while dragging objects |Hold down `Ctrl` and drag|
 
 ## Arranging Objects
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Group Selection |`Ctrl` `G` |
-| Ungroup Selection |`Ctrl` `Shift` `G` |
-| Bring Forward |`Ctrl` `[` |
-| Bring to Front |`Ctrl` `Shift` `[` |
-| Send Backward |`Ctrl` `]` |
-| Send to Back |`Ctrl` `Shift` `]` |
-| Show / Hide |`Ctrl` `H` |
-| Lock / Unlock |`Ctrl` `L` |
+| Group Selection |`Ctrl+G` |
+| Ungroup Selection |`Ctrl+Shift+G` |
+| Bring Forward |`Ctrl+[` |
+| Bring to Front |`Ctrl+Shift+[` |
+| Send Backward |`Ctrl+]` |
+| Send to Back |`Ctrl+Shift]` |
+| Show / Hide |`Ctrl+H` |
+| Lock / Unlock |`Ctrl+L` |
 
 ## Zoom and Focus
 
@@ -221,12 +235,20 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
 | Zoom Tool |`Z` |
-| Zoom |`Ctrl` `Mouse Wheel` |
+| Zoom |`Ctrl+Mouse Wheel` |
 | Zoom In |`Ctrl` `+` or just `+` |
 | Zoom Out |`Ctrl` `-` or just `-`|
-| Zoom to 100% |`Ctrl` `0` |
-| Zoom to All Elements |`Ctrl` `1`|
-| Zoom to Selection |`Ctrl` `2` |
-| Fit Width |`Ctrl` `3` |
-| Fit Height |`Ctrl` `4` |
-| Focus at Search |`Ctrl` `/` or just `/` |
+| Zoom to 100% |`Ctrl+0` |
+| Zoom to All Elements |`Ctrl+1`|
+| Zoom to Selection |`Ctrl+2` |
+| Fit Width |`Ctrl+3` |
+| Fit Height |`Ctrl+4` |
+| Search |`Ctrl+/` or just `/` |
+
+## Plugins
+
+
+| Action        | Hotkey(s)     |
+| ------------- |-------------|
+| Run script |`Ctl+Shift+K` |
+| Run script again |`Ctl+Shift+R` |
