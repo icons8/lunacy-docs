@@ -96,7 +96,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Select Layer |`Click` |
+| Select object |`Click` |
 | Select All |`Ctrl+A` |
 | Select All artboards (objects beyond artboards are ignored) |`Shift+Ctrl+A` |
 | Select an object within a group |`Ctrl+Click` |
@@ -108,7 +108,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | ------------- |-------------|
 | Edit Mode |`Enter` or `Double click` |
 | Finish Editing/Deselect all |`Escape` |
-| Delete Layer |`Backspace` or `Del` |
+| Delete object |`Backspace` or `Del` |
 | Toggle Mask |`Ctrl+M` |
 | Flip horizontally |`Ctrl+→` or `Ctrl+←` |
 | Flip vertically |`Ctrl+↑` or `Ctrl+↓` |
@@ -158,30 +158,30 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Last Name  |`;las` or `;lastname` |
 | Phone  |`;ph` or `;phone` |
 | Email  |`;em` or `;email` |
-| Full Address  |`ad` or `address` |
+| Full Address  |`;ad` or `;address` |
 | State  |`;st` or `state` |
 | City  |`;ci` or `;city` |
 | Zip Code  |`;zip` |
 | Company  |`;com` or `;company` |
-| Department  |`dep` or `;department` |
-| Job Title  |`job` or `;jobtitle` |
+| Department  |`;dep` or `;department` |
+| Job Title  |`;job` or `;jobtitle` |
 | Credit Card  |`;cr` or `;credit` |
 | Amount  |`;am` or `;amount` |
 | Day  |`;day` |
 | Week  |`;we` or `;week` |
-| Month  |`mo` or `;month` |
-| Year  |`ye` or `;year` |
-| 12/31/1999  |`ds` or `;dateslash` |
-| 31.12.1999  |`dd` or `;datedot` |
-| December 31, 1999  |`df` or `;datefull` |
-| 23:00  |`t24` or `;time24` |
-| 11:00 PM  |`t12` or `;time12` |
-| Theme  |`th` or `;theme` |
-| Header  |`he` or `;header` |
-| Paragraph  |`pa` or `;paragraph` |
+| Month  |`;mo` or `;month` |
+| Year  |`;ye` or `;year` |
+| 12/31/1999  |`;ds` or `;dateslash` |
+| 31.12.1999  |`;dd` or `;datedot` |
+| December 31, 1999  |`;df` or `;datefull` |
+| 23:00  |`;t24` or `;time24` |
+| 11:00 PM  |`;t12` or `;time12` |
+| Theme  |`;th` or `;theme` |
+| Header  |`;he` or `;header` |
+| Paragraph  |`;pa` or `;paragraph` |
 | Url  |`;url` |
-| User Name  |`us` or `;username` |
-| File Name  |`fil` or `;filename` |
+| User Name  |`;us` or `;username` |
+| File Name  |`;fil` or `;filename` |
 | Country  |`;cou` or `;country` |
 | Language  |`;la` or `;language` |
 
@@ -204,7 +204,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
 | Distance to objects |`Alt` |
-| Duplicate |`Alt+Drag` or `Ctrl+D` |
+| Duplicate |Hold down`Alt` and drag or `Ctrl+D` |
 | Move along X/Y axis |Hold down `Shift` and drag |
 | Move by 1px |`Arrow keys` |
 | Move by 10px |`Shift+Arrow keys` |
