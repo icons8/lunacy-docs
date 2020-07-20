@@ -139,7 +139,7 @@ The list shows font names and their samples. If a font's name is too long and ap
 
 >**Note**: You might experience a slight delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts will include only those fonts that you have already used.
 
-#### [Missing fonts](#missing-fonts)
+### [Missing fonts](#missing-fonts)
 
 When you open a project received from your team or downloaded from the internet, Lunacy checks if all the required fonts are available on your computer. If some of them are missing but they are available in the Google fonts library, Lunacy will download and apply them, provided that your computer is connected to the internet. But if those fonts are not from the Google library:
 
@@ -314,7 +314,7 @@ It features a set of independently scrollable columns (except for the font size)
 * **Text styles** (1). Each style is a combination of two or more typography and styling options (font, font size, shadow, etc.).
 * **Font size** (2). A collection of recently used font sizes. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
 * **Text color** (3). A collection of text colors.  If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
-* **Font style** (4). Includes such options as bold, italic, underline, strikethrough, superscript and subscript.Unlike the other columns, the content of this column does not change.
+* **Font style** (4). Includes such options as bold, italic, underline, strikethrough, superscript and subscript. Unlike the other columns, the content of this column does not change.
 * **Font family** (5). A collection of recently used fonts.
 * **Text Background**. Disabled by default. Sets the color of the object overlapped by at least of 50% percent of the text box. A double-click over any of the suggested colors opens the Color Picker where you can select a color of your choice.
 
@@ -337,7 +337,7 @@ To change the size of other columns, hover the cursor between two columns and dr
 A right-click over the suggestions panel invokes a context menu that allows you to:
 
 * Pin your favorite items to the top of the list. Pinned items appear with a dark triangle at the lower left corner.
-* Delete items that you no longer need or will never use. For this, use the **Don't show this** again command.
+* Delete items that you no longer need or will never use. For this, use the **Don't show this again** command.
 * Hide/show some of the columns by clearing/selecting the respective option on the menu (see the figure below).
 
 ![Managing the content of the panel](public/sugg-menu.png)

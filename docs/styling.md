@@ -318,10 +318,10 @@ A view of the panel is shown in the figure below.
 It features a set of independently scrollable columns that include:
 
 * **Layer styles** (1). Each style is a combination of two or more styling options (fills, borders, shadows and blurs).
-* **Fill styles** (2). A collection of fills.
+* **Fill styles** (2). A collection of fills. If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
 * **Border styles** (3). A collection of border and outline styles.
-* **Corner radius** (4). Available for rectangles only. Values appear in the ascending order. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
-* **Effect styles** (5). A collection of inner and outer shadows and blurs. Unlike the other columns, the content of this column does not change.
+* **Effect styles** (4). A collection of inner and outer shadows and blurs. Unlike the other columns, the content of this column does not change.
+* **Corner radius** (5). Available for rectangles only. Values appear in the ascending order.
 * **Background**. Disabled by default. Sets the color of the object overlapped by at least of 50% percent of the surface of the selection. If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
 
 ### Changing the position of the panel
@@ -343,7 +343,7 @@ To change the size of other columns, hover the cursor between two columns and dr
 A right-click over the suggestions panel invokes a context menu that allows you to:
 
 * Pin your favorite items to the top of the list. Pinned items appear with a dark triangle at the lower-right corner.
-* Delete items that you no longer need or will never use. For this, use the **Don't show this** again command.
+* Delete items that you no longer need or will never use. For this, use the **Don't show this again** command.
 * Hide/show some of the columns by clearing/selecting the respective option on the menu (see the figure below).
 
 ![Managing the content of the panel](public/sugg-menu.png)
