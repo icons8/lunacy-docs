@@ -335,7 +335,29 @@ Also, you can:
 * Copy image files from your desktop or the Explorer and then paste them onto the canvas.
 * Import images from the internet.
 
-To add an image from the internet:
+There are several ways of adding images from the internet.
+
+**Way 1**
+
+1. In your web browser, right-click over the image. The context menu appears.
+2. On the displayed menu, click **Copy image** or similar command.
+3. Switch to Lunacy and right-click over the canvas.
+4. Click **Paste here** on the context menu.
+
+**Way 2**
+
+1. In your web browser, right-click over the image. The context menu appears.
+2. On the displayed menu, click **Copy image address** or similar command.
+3. Switch to Lunacy and right-click over the canvas.
+4. Click **Paste here** on the context menu. The **Paste as image** dialog box appears.
+5. Click **OK** to paste the image. If you click **Cancel**, Lunacy will paste the image address as text.
+
+The demo below shows the above two methods.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage.mp4" type="video/mp4"></video>
+
+
+**Way 3**
 
 1. In your web browser, right-click over the image. The context menu appears.
 2. On the displayed menu, click **Copy image address** or similar command.
