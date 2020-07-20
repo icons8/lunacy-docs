@@ -352,9 +352,11 @@ There are several ways of adding images from the internet.
 4. Click **Paste here** on the context menu. The **Paste as image** dialog box appears.
 5. Click **OK** to paste the image. If you click **Cancel**, Lunacy will paste the image address as text.
 
+**Note:** The second method works only when a web site provides direct links to images with an image extension at the end (.jpg, .png, .etc.).
+
 The demo below shows the above two methods.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage1.mp4" type="video/mp4"></video>
 
 
 **Way 3**
