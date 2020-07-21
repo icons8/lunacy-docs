@@ -13,6 +13,10 @@ icon: 'activity-history'
 micro_nav: false
 
 page_nav:
+    next:
+        content: Tips and Tricks
+        url: '/tips'
+    
     prev:
         content: Support
         url: '/support'

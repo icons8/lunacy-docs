@@ -81,4 +81,8 @@ grid_navigation:
       excerpt: 'New features and fixes for each version of Lunacy'
       url: '/release-notes'
       icon: 'activity-history'
+    - title: 'Tips and Tricks'
+      excerpt: 'A chapter for those who prefer watching to reading docs'
+      url: '/tips'
+      icon: 'idea'
 ---
