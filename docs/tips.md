@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Tips and Tricks
-description: A chapter for those who prefer watching to reading docs
+description: A chapter for those who do not read docs
 icon: 'idea'
 
 # Micro navigation

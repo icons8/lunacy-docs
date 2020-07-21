@@ -82,7 +82,7 @@ grid_navigation:
       url: '/release-notes'
       icon: 'activity-history'
     - title: 'Tips and Tricks'
-      excerpt: 'A chapter for those who prefer watching to reading docs'
+      excerpt: 'A chapter for those who do not read docs'
       url: '/tips'
       icon: 'idea'
 ---
