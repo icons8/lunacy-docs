@@ -98,7 +98,7 @@ To resize objects, you can use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or 
 If you need to add a random text to your design, simply expand a text block on the canvas and click the “Generate text” button on the Inspector or select the text type in the top Lunacy panel. Use `Shift+R` to refresh the generated text.
 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-textgenph.png" height="auto"><source src="/public/tips-textgen.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-textgenph.png" height="auto"><source src="/public/tips-textgen.mp4" type="video/mp4"></video>
 
 ## Text snippets
 
