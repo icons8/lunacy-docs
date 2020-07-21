@@ -69,9 +69,11 @@ All these is detailed in the sections below. Also, here you will learn how to pr
 
 ## Important notices
 
-Remember that during export Lunacy ignores all guides, square and layout grids, artboard names, as well as prototyping arrows and canvas color (not to be confused with the artboard color). There is now way to include them into export files.
+* Remember that during export Lunacy ignores all guides, square and layout grids, artboard names, as well as prototyping arrows and canvas color (not to be confused with the artboard color). There is now way to include them into export files.
 
-Also, note that if there is at least one artboard in your project, during *export of a project* Lunacy ignores all objects that are beyond artboards, as well as master symbols.
+* Also, note that if there is at least one artboard in your project, during *export of a project* Lunacy ignores all objects that are beyond artboards, as well as master symbols.
+
+* The maximum dimension (height or width) of resulting raster files is limited to 16,000 pixels.
 
 ## Export settings (size, suffix/prefix, format)
 
@@ -119,11 +121,19 @@ When selecting multiple objects you can get the *Click + to replace mixed conten
 
 ## Exporting content of artboards
 
-When exporting the content of artboards, remember about the **Include in export** parameter, which appears in the Inspector upon selection of an artboard. The parameter is enabled by default. If you want to export only the content of the artboard, clear the checkbox before export.
+To import content of an artboard or several artboards:
+
+1. Select the artboard(-s).
+2. In the Inspector, clear the **Include in export** checkbox (see the figure below), if you need only the content and don't want the artboard itself to appear in the export results.  
+3. In the Inspector, scroll down to the export section.
+4. Click the plus icon. Export settings appear.
+5. Define the required size, suffix/prefix and format. Repeat steps 4 and 5 as needed.
+6. Click the **Export Selected** button.
+7. In the displayed dialog box, browse to the target folder and confirm your intent.
+8. Once the procedure is complete, the **Open file location** link appears at the bottom of the Inspector. Click the link to see the resulting file(s).
 
 ![Include in export](public/export-panel4.png)
 
-As for the rest, the procedure is similar to the described above. You can export content of both single and multiple artboards.
 
 ## Exporting content within slices
 
