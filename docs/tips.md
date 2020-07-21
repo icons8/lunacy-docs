@@ -24,7 +24,7 @@ page_nav:
 
 
 
-Lunacy has a lot of small but very useful features that can ease your life or significantly speed up your workflow. This chapter is a collection of tips with short demos that will help take full advantage of Lunacy.
+Lunacy has a lot of small but very useful features that can ease your life or significantly speed up your workflow. This chapter is a collection of tips with short demos that will help you take full advantage of Lunacy.
 
 ## Hiding UI elements
 

@@ -321,7 +321,7 @@ It features a set of independently scrollable columns that include:
 * **Fill styles** (2). A collection of fills. If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
 * **Border styles** (3). A collection of border and outline styles.
 * **Effect styles** (4). A collection of inner and outer shadows and blurs. Unlike the other columns, the content of this column does not change.
-* **Corner radius** (5). Available for rectangles only. Values appear in the ascending order.
+* **Corner radius** (5). Available for rectangles only. Values appear in the ascending order. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
 * **Background**. Disabled by default. Sets the color of the object overlapped by at least of 50% percent of the surface of the selection. If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
 
 ### Changing the position of the panel
