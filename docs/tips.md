@@ -160,4 +160,12 @@ To quickly import an image from a web site to Lunacy, right-click over the image
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-importimageph.png" height="auto"><source src="/public/tips-importimage.mp4" type="video/mp4"></video>
 
 
+## Sharing your designs via Icons8 Cloud
 
+The `Alt+С + C` shortcut allows you to instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away. 
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-altccph.png" height="auto"><source src="/public/tips-altcc.mp4" type="video/mp4"></video>
+
+This option is also available on the context menu. For details, click <a href="https://docs.icons8.com/export/#exporting-to-icons8-cloud" target="_blank">here</a>.
+
+![Alt + C, C](public/export-altcc.png)
