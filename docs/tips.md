@@ -36,23 +36,12 @@ This option is also available on the context menu. For details, click <a href="h
 
 ![Alt + C, C](public/export-altcc.png)
 
-## Hiding UI elements
+## Background removal
 
-* To hide the left panel, click the respective button at the bottom of the toolbar or use the **View** menu.
-* To hide the toolbar, Inspector, rulers and other UI elements, use the **View** menu.
-* To hide all UI elements at once (except for the menu bar), use the `Ctrl+.` shortcut or a respective command on the **View** menu.
+If you need to remove background from an image, you can do it right in Lunacy.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-hideuiph.png" height="auto"><source src="/public/tips-hideui.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-bgremovalph.png" height="auto"><source src="/public/tips-bgremove.mp4" type="video/mp4"></video>
 
-## Changing the position and disabling the suggestions panel
-
-To change the position of the suggestions panel, click the handle at the top-left corner of the panel and drag it up or down. Lunacy remembers the position of the panel individually for each object.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/sugg-positionph.png" height="auto"><source src="/public/sugg-position.mp4" type="video/mp4"></video>
-
-To disable the suggestions panel, unselect the **Suggestions** option in the **View** menu.
-
-![Context menu](public/sugg-disable.png)
 
 ## Text formatting
 
@@ -157,12 +146,6 @@ If you want to resize an object with styling (borders, shadows, etc.), you shoul
 
 In a similar fashion you can scale several objects at a time.
 
-## Background removal
-
-If you need to remove background from an image, you can do it right in Lunacy.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-bgremovalph.png" height="auto"><source src="/public/tips-bgremove.mp4" type="video/mp4"></video>
-
 ## Importing an image from the internet
 
 To quickly import an image from a web site to Lunacy, right-click over the image, then click **Copy image** on the context menu. Switch to Lunacy and paste the image onto the canvas.
@@ -175,3 +158,20 @@ To quickly invert a gradient use the button next to the gradient bar on the Colo
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-invertgradph.png" height="auto"><source src="/public/tips-invertgrad.mp4" type="video/mp4"></video>
 
+## Hiding UI elements
+
+* To hide the left panel, click the respective button at the bottom of the toolbar or use the **View** menu.
+* To hide the toolbar, Inspector, rulers and other UI elements, use the **View** menu.
+* To hide all UI elements at once (except for the menu bar), use the `Ctrl+.` shortcut or a respective command on the **View** menu.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-hideuiph.png" height="auto"><source src="/public/tips-hideui.mp4" type="video/mp4"></video>
+
+## Changing the position and disabling the suggestions panel
+
+To change the position of the suggestions panel, click the handle at the top-left corner of the panel and drag it up or down. Lunacy remembers the position of the panel individually for each object.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/sugg-positionph.png" height="auto"><source src="/public/sugg-position.mp4" type="video/mp4"></video>
+
+To disable the suggestions panel, unselect the **Suggestions** option in the **View** menu.
+
+![Context menu](public/sugg-disable.png)
