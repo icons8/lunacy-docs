@@ -169,7 +169,7 @@ To quickly import an image from a web site to Lunacy, right-click over the image
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-importimageph.png" height="auto"><source src="/public/tips-importimage.mp4" type="video/mp4"></video>
 
-## Inversing gradients
+## Inverting gradients
 
 To quickly invert a gradient use the button next to the gradient bar on the Color Picker.
 
