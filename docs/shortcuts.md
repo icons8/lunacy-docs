@@ -18,8 +18,8 @@ page_nav:
         content: Localization
         url: '/localization'
     prev:
-        content: Prototyping
-        url: '/prototyping'
+        content: Tips and Tricks
+        url: '/tips'
 ---
 
 

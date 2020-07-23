@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Shortcuts
-        url: '/shortcuts'
+        content: Tips and Tricks
+        url: '/tips'
     prev:
         content: Sketch Cloud
         url: '/cloud'

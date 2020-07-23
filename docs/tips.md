@@ -15,10 +15,13 @@ micro_nav: false
 # Page navigation
 page_nav:
     
+    next:
+        content: Shortcuts
+        url: '/shortcuts'
     
     prev:
-        content: Release history
-        url: '/release-notes'
+        content: Prototyping
+        url: '/prototyping'
 ---
 
 
@@ -90,6 +93,12 @@ The next demo shows how you can modify shapes by adjusting their properties in t
 To resize objects, you can use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or `CTRL+Shift + arrow keys` ( by 10 pixels) to resize objects.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-keyresizeph.png" height="auto"><source src="/public/tips-keyresize.mp4" type="video/mp4"></video>
+
+## Adding text to shapes
+
+The next demo shows how you can quickly add text to shapes. This can be of great use when it comes to design of such UI elements as buttons, menus and things alike.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-textbtnsph.png" height="auto"><source src="/public/tips-textbutns.mp4" type="video/mp4"></video>
 
 
 ## Text generation

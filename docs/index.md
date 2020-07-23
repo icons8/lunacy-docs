@@ -64,13 +64,17 @@ grid_navigation:
     - title: 'Prototyping'
       excerpt: Learn how to build prototypes in Lunacy
       url: '/prototyping'
-      icon: 'tree-structure'  
+      icon: 'tree-structure'
+    - title: 'Tips and Tricks'
+      excerpt: 'A chapter for those who do not read docs'
+      url: '/tips'
+      icon: 'idea'
     - title: 'Shortcuts'
       excerpt: Make your workflow faster by learning Lunacy's shortcuts
       url: '/shortcuts'
       icon: 'keyboard'
     - title: 'Localization'
-      excerpt: Help us improve the translation of Lunacy 
+      excerpt: Help us localize Lunacy to your language 
       url: '/localization'
       icon: 'translation'
     - title: 'Support'
@@ -81,8 +85,5 @@ grid_navigation:
       excerpt: 'New features and fixes for each version of Lunacy'
       url: '/release-notes'
       icon: 'activity-history'
-    - title: 'Tips and Tricks'
-      excerpt: 'A chapter for those who do not read docs'
-      url: '/tips'
-      icon: 'idea'
+ 
 ---
