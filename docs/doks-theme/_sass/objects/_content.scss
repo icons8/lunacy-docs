@@ -7,6 +7,12 @@
 	> :first-child {
 		margin-top: 0;
 	}
+	&__desc {
+		margin-bottom: 60px;
+		@media (min-width: $screen-md-min) {
+			margin-bottom: 80px;
+		}
+	}
 }
 
 #content-wrapper {

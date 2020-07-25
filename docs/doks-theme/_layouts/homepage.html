@@ -5,104 +5,53 @@
 	</head>
 	<body class="{{ site.doks.color_theme }}">
 		{% include site-header.html %}
-		<div class="hero-subheader{% if page.grid_navigation %} hero-subheader--before-out{% endif %}">
-				<button class="burger" onclick="openModal()">
-					<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/burger.png"/>
-				</button>
-			<a href="https://icons8.ru/lunacy" class="site-header__logo__mobile">
-				<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/mobile-logo.png">
-			</a><!-- /.site-header__logo -->
+		<section class="main-homepage-section section">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-7 col-lg-12 col-centered" style="float: none">
-						<div class="align-container" data-mh>
-							<div class="align-inner text-centered">
-								{% if page.title %}
-									<h1 class="hero-subheader__title">{{ page.title }}</h1>
-								{% endif %}
-								{% if page.description %}
-									<p class="hero-subheader__desc">{{ page.description }}</p>
-								{% endif %}
-								{% for button in page.buttons %}
-									{% if button.external_url == true %}
-									<a href="{{ button.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--github">
-										{% if button.icon %}<i class="icon icon--{{ button.icon }}"></i>{% endif %}
-										<i class="icon icon--github" style="float: left; margin-left: 0px; margin-right: 16px"></i>
-										{{ button.content }}
-									</a>
-									{% else %}
-									<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ button.url }}" class="btn btn--dark btn--rounded btn--w-icon">
-										{% if button.icon %}<i class="icon icon--{{ button.icon }}"></i>{% endif %}
-										{{ button.content }}
-									</a>
-									{% endif %}
-								{% endfor %}
-							</div><!-- /.align-inner -->
-						</div><!-- /.align-container -->
-					</div><!-- /.col -->
-					{% if page.author.title and page.author.description and page.author.title_url %}
-						<div class="col-md-4 col-md-offset-1 hidden-xs hidden-sm">
-							<div class="align-container" data-mh>
-								<div class="align-inner">
-									<div class="hero-subheader__author">
-										<p class="hero-subheader__author-title">
-											{% if button.external_url == true %}
-											<a href="{{ page.author.title_url }}" class="btn btn--read-more">
-												{{ page.author.title }}
-												<i class="icon icon--arrow-right"></i>
-											</a>
-											{% else %}
-											<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.author.title_url }}" class="btn btn--read-more">
-												{{ page.author.title }}
-												<i class="icon icon--arrow-right"></i>
-											</a>
-											{% endif %}
-										</p><!-- /.hero-subheader__author-title -->
-										<p>{{ page.author.description }}</p>
-									</div><!-- /.hero-subheader__author -->
-								</div><!-- /.align-inner -->
-							</div><!-- /.align-container -->
-						</div><!-- /.col -->
-					{% endif %}
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</div><!-- /.hero-subheader -->
-		{% if page.grid_navigation %}
-			<div class="section section--darker-theme-color-bg" id="grid-wrapper">
-				<div class="container" id="grid">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="nav-grid nav-grid--out">
-								<div class="row">
+					<div class="col-lg-3">
+					  {% include micro-nav.html %}
+					</div>
+					<div class="col-lg-9">
+						{% if page.title %}
+							<h1 class="main-homepage-section__title">{{ page.title }}</h1>
+						{% endif %}
+						{% if page.description %}
+							<p class="main-homepage-section__desc subtitle">{{ page.description }}</p>
+						{% endif %}
+						{% for button in page.buttons %}
+							{% if button.external_url == true %}
+							<a href="{{ button.url }}" class="btn btn--dark btn--big">
+								<i class="icon icon--github"></i>
+								{{ button.content }}
+							</a>
+							{% else %}
+							<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ button.url }}" class="btn btn--dark btn--big">
+								{% if button.icon %}<i class="icon icon--{{ button.icon }}"></i>{% endif %}
+								{{ button.content }}
+							</a>
+							{% endif %}
+							{% if page.grid_navigation %}
+							<div class="section--grid-navigation">
+								<div class="nav-grid">
 									{% for item in page.grid_navigation %}
-										<div class="col-sm-6 col-lg-4 grid-item-container">
-											<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="nav-grid__item">
-												<div class="nav-grid__content">
-													<img src="https://img.icons8.com/windows/96/24282A/{{ item.icon }}.png" class="nav-grid__logo">
-													<h2 class="nav-grid__title">{{ item.title }}</h2>
-													<p>{{ item.excerpt }}</p>
-												</div><!-- /.nav-grid__content -->
-											</a><!-- /.nav-grid__item -->
-										</div><!-- /.col -->
-									{% endfor %}
-								</div><!-- /.row -->
-							</div><!-- /.nav-grid -->
-						</div><!-- /.col -->
-					</div><!-- /.row -->
-				</div><!-- /.container -->
-			</div><!-- /.section -->
-		{% endif %}
-		<button class="close-modal" onclick="closeModal()">
-			<img src="https://img.icons8.com/ios/100/ffffff/delete-sign.png">
-		</button>
-		<div class="burger-modal">
-			<a href="https://icons8.com/lunacy/">Home</a>
-			<a href="https://docs.icons8.com/">Documentation</a>
-			<a href="https://lunatics.icons8.com/">Request Features</a>
-			<a href="https://docs.icons8.com/release-notes/">Release Notes</a>
-			<a href="https://community.icons8.com/c/lunacy/">Forum</a>
-			<a class="big_filled" href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge">Get from Windows Store</a>
-		</div>
-		{% include site-footer.html %}
+											<div class="nav-grid__card">
+												<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="nav-grid__item">
+													<div class="nav-grid__content">
+														<img src="https://img.icons8.com/windows/96/000000/{{ item.icon }}.png" class="nav-grid__logo">
+														<div class="nav-grid__title h5">{{ item.title }}</div>
+														<div class="nav-grid__desc">{{ item.excerpt }}</div>
+													</div>
+												</a>
+											</div>
+										{% endfor %}
+								</div>
+							</div>
+							{% endif %}
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</section>
+	{% include site-footer.html %}
 	</body>
 </html>

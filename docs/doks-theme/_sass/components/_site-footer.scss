@@ -402,3 +402,120 @@
     flex-direction: column;
   }
 }
+
+.footer {
+  background: $color-footer-bg;
+  color: $color-white;
+  font-size: 14px;
+  button{
+    color: $color-white;
+  }
+  .row {
+    &:before, &:after {
+      display: none;
+    }
+  }
+  a {
+    color: rgba($color-white, 0.5) ;
+    font-size: 14px;
+    line-height: 143%;
+    &:hover {
+      color: $color-white;
+      opacity: 1;
+    }
+  }
+  &__top {
+    background: $color-footer-bg-2;
+    padding: 29px 0 29px 40px;
+    @media (min-width: $screen-md-min) {
+       padding: 29px $grid-gutter-width/2;
+    }
+  }
+  &__bottom {
+    padding: 0 $grid-gutter-width/2 30px;
+    @media (min-width: $screen-sm-min) {
+      padding: 70px $grid-gutter-width/2 30px;
+    }
+    .row {
+      max-width: 811px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__copywriting{
+      opacity: 0.5;
+      order: 1;
+      @media (min-width: 650px) {
+        order: 0;
+        margin-right: auto;
+      }      
+    }
+    a {
+      margin-right: 27px;
+      @media (min-width: 650px) {
+        margin-left: 27px;
+        margin-right: 0;
+      } 
+    }
+  }
+}
+
+.footer__middle {
+  padding: 60px $grid-gutter-width/2 49px;
+  @media (min-width: $screen-sm-min) {
+    padding: 60px $grid-gutter-width/2;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-footer {
+    width: 50%;
+    &:nth-child(-n + 2){
+      margin-bottom: 20px;
+    }
+    @media (min-width: $screen-sm-min) {
+      width: 25%;
+      margin-bottom: 0;
+    }
+  }
+  &__col-header{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  a svg:nth-child(1){
+    margin-left: 9px;
+  }
+  a.mark:after{
+    content: '';
+    border-radius: 7px;
+    padding: 2px 5px;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 122%;
+    color: $color-white;
+    display: inline-block;
+    margin-left: 6px;
+  }
+  a.mark--new:after {
+    content: 'New';
+    background: #28B351;
+  }
+  a.mark--upgrade:after {
+    content: 'Upgrade';
+    background: #6866C5;
+  }
+  .social a + a{ 
+    margin-left: 7px;
+  }
+}
+
+.footer__hr {
+  width: 100%;
+  margin: 60px -15px;
+  border-top: 1px solid #fff;
+  opacity: 0.1;
+}

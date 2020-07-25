@@ -4,18 +4,41 @@
 
 /* ----- General ----- */
 .section {
-	padding: 3.75rem 0 (4.75rem - 1.25rem) 0;
-
-	@media (min-width: $screen-sm-min) {
-		padding: 4rem 0 8.5rem 0;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	@media (min-width: $screen-xs-min) {
+		margin-top: 40px;
+	}
+	@media (min-width: $screen-md-min) {
+		margin-top: 84px;
+	}
+	.col-lg-9 {
+		@media (max-width: $screen-md-max) {
+			margin-top: 60px;
+		}
 	}
 }
 
 /* ----- Variations ----- */
-.section--darker-theme-color-bg {
-	background-color: $color-theme-blue;
+
+.main-homepage-section {
+	&__title{
+		margin: 0;
+	}
+	&__desc {
+		margin:20px 0;
+		@media (min-width: $screen-sm-min) {
+			margin: 30px 0;
+		}
+	}
 }
 
-.section--grey {
-	background-color: $color-section-grey;
+.section--grid-navigation {
+	margin-top: 40px;
+	@media (min-width: $screen-sm-min) {
+		margin-top: 60px;
+	}
+	@media (min-width: $screen-md-min) {
+		margin-top: 80px;
+	}
 }

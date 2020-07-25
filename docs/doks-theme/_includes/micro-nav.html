@@ -1,12 +1,26 @@
-<div class="micro-nav">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" class="micro-nav__back">
-					<i class="icon icon--arrow-left"></i>
-					Back to homepage
-				</a><!-- /.micro-nav__back -->
-			</div><!-- /.col -->
-		</div><!-- /.row -->
-	</div><!-- /.container -->
-</div><!-- /.micro-nav -->
+<div class="micro-nav-header menu-disable {% if page.left_menu_off != true and page.layout != 'homepage' %} page-menu {% endif %}">
+	{% if page.left_menu_off != true and page.layout != 'homepage' %}
+		<span>{% if page.left_menu.title %}{{page.left_menu.title}}{% else %}{{page.title}}{% endif %} / </span><span class="js-subheader"></span>
+	{% else %}
+		{% if page.release_note %}
+		<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{page.release_note[0].url}}" class="not-visibly">{{page.release_note[0].title}}</a>
+		{% else %}
+		<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{site.doks.micro_nav[0].url}}" class="not-visibly">{{site.doks.micro_nav[0].title}}</a>
+		{% endif %}
+	{% endif %}
+	<div class="arrow"></div>
+</div>
+<ul id="micro-nav" class="normalize micro-nav {% if page.left_menu_off == true or page.layout == 'homepage' %} micro-nav--homepage {% endif %}">
+	{% unless page.release_note %}
+	{% for item in site.doks.micro_nav %}
+	<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="not-visibly">{{ item.title }}</a></li>
+	{% endfor %}
+	<li class="suggest--github"><a href="https://github.com/icons8/lunacy-docs" class="btn btn--suggest-edit"><i class="icon icon--github"></i>Suggest edits</a></li>
+	{% endunless %}
+	{% if page.release_note %}
+	{% for item in page.release_note %}
+	<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="not-visibly">{{ item.title }}</a></li>
+	{% endfor %}
+	{% endif %}
+</ul>
+

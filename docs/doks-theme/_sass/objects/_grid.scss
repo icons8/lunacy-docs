@@ -17,6 +17,10 @@
 	@media (min-width: $screen-lg-min) {
 		width: $container-lg;
 	}
+
+	@media (min-width: $screen-xl-min) {
+		width: $container-xl;
+	}
 }
 
 /* ----- Fluid container ----- */
@@ -48,4 +52,9 @@
 /* ----- Large grid ----- */
 @media (min-width: $screen-lg-min) {
 	@include make-grid(lg);
+}
+
+/* ----- XL grid ----- */
+@media (min-width: $screen-lg-min) {
+	@include make-grid(xl);
 }
