@@ -465,7 +465,7 @@ When you select a control added with any of these tools, you see the suggestions
 
 ![GUI tools](public/rn5_9-guitools2.png)
 
-To edit the appearance of a control, use the <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">symbol editor</a>.
+To edit the appearance of a control, use the <a href="https://docs.icons8.com/symbols/#editing-main-symbols" target="_blank">symbol editor</a>.
 
 ## Symbol tool
 
