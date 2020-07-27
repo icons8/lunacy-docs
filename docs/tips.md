@@ -151,7 +151,7 @@ Lunacy's eyedropper features a nice zoom option that comes in handy when the tar
 
 If you want to resize an object with styling (borders, shadows, etc.), you should consider the scaling feature. Together with object size, it will accordingly adjust the values of its styling properties. See the demo below and note how the value of the border thickness changes with the object size.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing3.png" height="auto"><source src="/public/object-resizing3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/object-resizing3.png" height="auto"><source src="/public/object-resizing3.mp4" type="video/mp4"></video>
 
 In a similar fashion you can scale several objects at a time.
 

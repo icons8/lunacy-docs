@@ -54,6 +54,7 @@ h1, .h1 {
 
 h2, .h2 {
 	font-weight: 800;
+	font-size: 32px;
 	letter-spacing: -0.03em;
 	@include font-size-h2;
 }
