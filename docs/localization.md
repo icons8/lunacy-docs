@@ -30,7 +30,7 @@ We have a great team of Lunacy enthusiasts helping us with localization of the a
 
 2. To find our project, use the search field or follow the <a href="https://crowdin.com/project/lunacy" target="_blank">direct link</a>.
 
-    
+    {:.is-big}
     ![Lunacy at Crowdin](public/localization_find_crowdin_project1.png)
 
 3. Choose the language you want to contribute to.
