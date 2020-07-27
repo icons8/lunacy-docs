@@ -145,13 +145,13 @@ To disable snapping, hold down `Ctrl` while dragging an object.
 
 Lunacy's eyedropper features a nice zoom option that comes in handy when the target area is small and you need pixel precision. To enable zoom, hover the eyedropper over the target and hold down the left mouse button. Then point the eyedropper to the required pixel and release the mouse button. To exit the zoom mode, press `Esc` or quickly swipe the cursor anywhere away from the current area.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/eyedropper3-placeholder.png" height="auto"><source src="/public/eyedropper3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/eyedropper3-placeholder.png" height="auto"><source src="/public/eyedropper3.mp4" type="video/mp4"></video>
 
 ## Scaling objects
 
 If you want to resize an object with styling (borders, shadows, etc.), you should consider the scaling feature. Together with object size, it will accordingly adjust the values of its styling properties. See the demo below and note how the value of the border thickness changes with the object size.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/object-resizing3.png" height="auto"><source src="/public/object-resizing3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing3.png" height="auto"><source src="/public/object-resizing3.mp4" type="video/mp4"></video>
 
 In a similar fashion you can scale several objects at a time.
 
@@ -171,7 +171,7 @@ To quickly invert a gradient use the button next to the gradient bar on the Colo
 
 * To hide the left panel, click the respective button at the bottom of the toolbar or use the **View** menu.
 * To hide the toolbar, Inspector, rulers and other UI elements, use the **View** menu.
-* To hide all UI elements at once (except for the menu bar), use the `Ctrl+.` shortcut or a respective command on the **View** menu.
+* To hide all UI elements at once (except for the menu bar), use the `Ctrl+.` shortcut or the respective command on the **View** menu.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-hideuiph.png" height="auto"><source src="/public/tips-hideui.mp4" type="video/mp4"></video>
 
