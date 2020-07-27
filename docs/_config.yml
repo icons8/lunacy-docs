@@ -6,20 +6,40 @@ doks:
       url: '/about'
     - title: Interface
       url: '/interface'
-    - title: Editing
-      url: '/editing'
+    - title: Tools
+      url: '/tools'
     - title: 'Objects'
       url: '/objects'
+    - title: 'Editing shapes'
+      url: '/editing'
+    - title: 'Text'
+      url: '/text'
     - title: 'Styling'
       url: '/styling'
+    - title: 'Symbols'
+      url: '/symbols'
+      icon: 'refresh'
+    - title: 'Layer and text styles'
+      url: '/layerstyles/'
+    - title: 'Libraries'
+      url: '/libraries'
     - title: 'Export'
       url: '/export'
+    - title: 'Sketch Cloud'
+      url: '/cloud'
+    - title: 'Prototyping'
+      url: '/prototyping'
+    - title: 'Tips and Tricks'
+      url: '/tips'
     - title: 'Shortcuts'
       url: '/shortcuts'
     - title: 'Localization'
       url: '/localization'
     - title: 'Support'
       url: '/support'
+    - title: 'Release History'
+      url: '/release-notes'
+      
 
     header:
         logo:
