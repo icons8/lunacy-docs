@@ -9,9 +9,6 @@ title: Interface
 description: Get familiar with the Lunacy interface
 icon: 'toggle-off'
 
-# Micro navigation
-micro_nav: false
-
 # Page navigation
 page_nav:
     next:

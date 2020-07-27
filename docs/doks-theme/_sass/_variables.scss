@@ -6,9 +6,12 @@
 // General
 $color-white: #fff !default;
 $color-black: #000 !default;
-$color-dark: #333 !default;
-$color-yellow: #f6d000 !default;
-$red: #F85555;
+$color-blue: #179DE3 !default;
+$color-red: #E95350 !default;
+$color-orange: #F2A45E !default;
+$color-yellow: #F7CC6B !default;
+$color-green: #65B89E !default;
+$color-purple: #6462CD !default;
 
 // Base
 $color-h2-border: #dadada !default;
@@ -18,6 +21,7 @@ $color-definition-list: #8a8a8a !default;
 $color-table-border: rgba(36, 40, 42, 0.1) !default;
 $color-table-header-border: #ececec !default;
 $color-table-header-bg: #f5f5f5 !default;
+$color-main-border: rgba(0, 0, 0, 0.1) !default;
 
 // Code
 $color-code: #24282A !default;
@@ -26,7 +30,7 @@ $color-pre: #f8f8f2 !default;
 $color-pre-border: #3c4654 !default;
 
 // Section
-$color-section-grey: #f5f5f5 !default;
+$color-section-grey: #F8F8F8 !default;
 
 // Callouts
 $color-callout: #f9f9f9 !default;
@@ -36,7 +40,9 @@ $color-callout-warning: #fffae9 !default;
 $color-callout-danger: #ffedeb !default;
 
 // Footer
-$color-footer-bg: #2E2D45 !default;
+$color-footer-bg: #111111 !default;
+$color-footer-bg-2: #222222 !default;
+
 $color-footer-copyright: #bdbdbd !default;
 
 // Social list
@@ -67,30 +73,161 @@ $color-theme-yellow: #FCFDE8 !default;
 @include font('SF Pro Text-Medium', '../fonts/SFProText-Medium');
 
 
-$font-family-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !default;
-$font-family-secondary: 'Montserrat', sans-serif !default;
-$font-family-sfproregular: 'SF Pro Text', sans-serif !default;
-$font-family-sfpromedium: 'SF Pro Text-Medium', sans-serif !default;
-$font-family-monospace: 'Source Code Pro', monospace !default;
+$font-family-primary: "Inter", Helvetica Neue,Segoe UI,Fira Sans,Roboto,Oxygen,Ubuntu,Droid Sans,Arial,sans-serif !default;
+$font-family-sfproregular: "Inter", Helvetica Neue,Segoe UI,Fira Sans,Roboto,Oxygen,Ubuntu,Droid Sans,Arial,sans-serif !default;
+$font-family-sfpromedium: "Inter", Helvetica Neue,Segoe UI,Fira Sans,Roboto,Oxygen,Ubuntu,Droid Sans,Arial,sans-serif !default;
+$font-family-monospace: "Inter", Helvetica Neue,Segoe UI,Fira Sans,Roboto,Oxygen,Ubuntu,Droid Sans,Arial,sans-serif !default;
 
-/* ----- Font sizes ----- */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Thin.woff2') format('woff2'),
+        url('../fonts/Inter-Thin.woff') format('woff'),
+        url('../fonts/Inter-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraLight.woff') format('woff'),
+        url('../fonts/Inter-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff'),
+        url('../fonts/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Black.woff2') format('woff2'),
+        url('../fonts/Inter-Black.woff') format('woff'),
+        url('../fonts/Inter-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff'),
+        url('../fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.woff2') format('woff2'),
+        url('../fonts/Inter-Light.woff') format('woff'),
+        url('../fonts/Inter-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff'),
+        url('../fonts/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff'),
+        url('../fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraBold.woff') format('woff'),
+        url('../fonts/Inter-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* ----- Font sizes and line height ----- */
 // Base
-$font-size-base: 18px !default;
+$font-size-base: 17px !default;
+@mixin font-size-base {
+    font-size: 15px;
+    line-height: 187%;
+    @media (min-width: $screen-sm-min) {
+        font-size: 17px;
+        line-height: 176%;
+    }
+}
 
 // Headings
 $font-size-h1: 2.5em !default;
+@mixin font-size-h1 {
+	font-size: 44px;
+	line-height: 127%;
+	@media (min-width: $screen-sm-min) {
+		font-size: 66px;
+		line-height: 115%;
+	}
+}
 $font-size-h2: 40px !default;
+@mixin font-size-h2 {
+	font-size: 33px;
+	line-height: 121%;
+	@media (min-width: $screen-sm-min) {
+		font-size: 54px;
+		line-height: 111%;
+	}
+}
 $font-size-h3: 24px !default;
+@mixin font-size-h3 {
+	font-size: 21px;
+	line-height: 143%;
+	@media (min-width: $screen-sm-min) {
+		font-size: 32px;
+		line-height: 156%;
+	}
+}
 $font-size-h4: 20px !default;
+@mixin font-size-h4 {
+	font-size: 21px;
+	line-height: 143%;
+}
 $font-size-h5: 1.25em !default;
+@mixin font-size-h5 {
+	font-size: 17px;
+	line-height: 176%;
+}
 $font-size-h6: 1em !default;
 
 // Other
 $font-size-small: 0.75em !default;
 
+
 /* ----- Line heights ----- */
 // Base
-$line-height-base: 1.8em !default;
+$line-height-base: 176% !default;
 
 // Headings
 $line-height-headings: 32px !default;
@@ -105,18 +242,20 @@ $screen-xs-min: 480px !default; // Extra small screens, Phones
 $screen-sm-min: 768px !default; // Small screens, Tablets
 $screen-md-min: 992px !default; // Medium screens, Desktop
 $screen-lg-min: 1200px !default; // Large screens, Wide desktops
+$screen-xl-min: 1440px !default;
 
 // Desktop first
 $screen-xs-max: ($screen-sm-min - 1) !default;
 $screen-sm-max: ($screen-md-min - 1) !default;
 $screen-md-max: ($screen-lg-min - 1) !default;
+$screen-lg-max: ($screen-xs-min - 1) !default;
 
 /* ----- Grid system ----- */
 // Columns
 $grid-columns: 12 !default;
 
 // Gutter
-$grid-gutter-width: 30px !default;
+$grid-gutter-width: 40px !default;
 
 // Container
 $container-tablet: (720px + $grid-gutter-width) !default;
@@ -125,3 +264,7 @@ $container-desktop: (940px + $grid-gutter-width) !default;
 $container-md: $container-desktop !default;
 $container-large-desktop: (1140px + $grid-gutter-width) !default;
 $container-lg: $container-large-desktop !default;
+$container-xl-desktop: (1140px + $grid-gutter-width) !default;
+$container-xl: $container-xl-desktop !default;
+
+

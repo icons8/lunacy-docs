@@ -4,18 +4,118 @@
 
 /* ----- General ----- */
 .btn {
-	@include link-reset;
 	font-family: $font-family-primary;
-	font-weight: 500;
-	font-size: 14px;
-	letter-spacing: 1px;
-	line-height: 24px;
-	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 13px;
+	line-height: 169%;
 	display: inline-block;
-	margin: 0 0 1.25rem 0;
+	padding: 7px 20px;
+	border-radius: 4px;
+	border: 1px solid $color-main-border;
+	color: $color-black;
+	letter-spacing: 0.01em;
+	transition: 0.2s;
+	cursor: pointer;
+	&:hover {
+		border-color: #c7c7c7;
+	  color: inherit;
+	}
+	i{
+		font-size: 16px;
+		vertical-align: sub;
+		margin-right: 7px;
+	}
 }
 
 /* ----- Variations ----- */
+.btn--blue {
+	color: $color-white;
+	background: $color-blue;
+	border: 0;
+	&:hover {
+		color: $color-white;
+		background: #158dcc;
+	}
+}
+.btn--dark {
+	background: $color-black;
+	color: $color-white;
+	border: 0;
+	&:hover {
+		color: $color-white;
+		background: rgba($color-black, 0.9);
+	}
+}
+.btn--big {
+	font-size: 17px;
+	font-weight: 600;
+	padding: 10px 30px;
+	i{
+		font-size: 24px;
+		margin-right: 10px;
+	}
+}
+
+.btn--suggest-edit {
+	background: #f8f8f8;
+	padding: 4px 15px;
+	border: 0;
+	color: rgba($color-black, 0.6);
+	font-weight: 600;
+	i {
+		font-size: 13px;
+		vertical-align: initial;
+	}
+}
+.btn--github {
+	background:$color-black;
+	color: $color-white;
+	padding: 10px 30px;
+	font-size: 17px;
+	font-weight: 600;
+	border: 0;
+}
+.btn--language {
+	display: inline-flex;
+	align-items: center;
+	svg {
+		margin-right: 9px;
+	}
+	path {
+		transition: 0.2s;
+	}
+	&:focus,
+	&:hover{
+		path {
+			fill: $color-black;
+			opacity: 0.8;
+		}
+		
+	}
+	&:active path{
+		fill: $color-black;
+		opacity: 0.8;
+	}
+}
+.btn--back-top {
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 1;
+	font-weight: bold;
+	letter-spacing: 0.09em;
+	cursor: pointer;
+	svg {
+		vertical-align: top;
+		margin-top: 0.1em;
+		margin-right: 4px;
+		line-height: 1;
+	}
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+
 .btn--full-width {
 	display: block;
 	width: 100%;
@@ -25,22 +125,7 @@
 	border-radius: 3px;
 }
 
-.btn--dark {
-	color: $color-black;
-	border: 1px solid #24282A;
-	padding: .8125rem 2.1875rem;
-	transition: color .2s, background-color .2s;
 
-	&:hover,
-	&:focus{
-		color: $color-white;
-		background-color: #24282A;
-	}
-
-	&:active{
-		background-color: #3E4446;
-	}
-}
 
 .btn--github{
 	height: 54px;
@@ -180,7 +265,7 @@
 	letter-spacing: 1.5px;
 	border-style: none;
 	text-decoration: none;
-	background: $red url("/doks-theme/assets/images/layout/winstore.png") no-repeat 22px center;
+	background: $color-red url("/doks-theme/assets/images/layout/winstore.png") no-repeat 22px center;
 	background-size: 22px;
 	padding-left: 26px;
 	line-height: 48px;

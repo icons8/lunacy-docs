@@ -4,30 +4,17 @@
 
 /* ----- General ----- */
 html {
-	font-size: 14px;
 	@include box-sizing(border-box);
+	@include font-size-base;
 	-webkit-tap-highlight-color: transparent;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
-
-	@media (min-width: $screen-sm-min) {
-		font-size: 16px;
-	}
 }
 
 body {
-	color: $color-dark;
+	color: $color-black;
 	font-family: $font-family-primary;
-	font-size: 14px;
-	line-height: 24px;
-	@media (min-width: $screen-sm-min){
-		font-size: 16px;
-	}
-	@media (min-width: $screen-lg-min){
-		font-size: 18px;
-		line-height: 32px;
-	}
 }
 
 /* ----- Everything ----- */
@@ -46,11 +33,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-	font-family: $font-family-secondary;
-	font-weight: 400;
-	line-height: $line-height-headings;
 	margin: 2.5rem 0 .9375rem 0;
-
 	&[id] {
 		position: relative;
 	}
@@ -61,87 +44,77 @@ h6, .h6 {
 }
 
 h1, .h1 {
-	font-size: $font-size-h1;
-	font-weight: 700;
-	line-height: 48px;
+	font-weight: 900;
+	letter-spacing: -0.03em;
+	@media (min-width: $screen-sm-min) {
+		letter-spacing: -0.05em;
+	}
+	@include font-size-h1; 
 }
 
 h2, .h2 {
-	font-size: 24px;
-	font-weight: 700;
-	line-height: 44px;
-	padding-bottom: .5rem;
-	@media (min-width: $screen-sm-min){
-		font-size: 32px;
-	}
-	@media (min-width: $screen-lg-min){
-		font-size: $font-size-h2;
-	}
+	font-weight: 800;
+	letter-spacing: -0.03em;
+	@include font-size-h2;
 }
 
 h3, .h3 {
-	font-size: $font-size-h3;
-	font-weight: 700;
-	line-height: 40px;
+	font-weight: 800;
+	letter-spacing: -0.01em;
+	@include font-size-h3;
 }
 
 h4, .h4 {
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 32px;
-	@media (min-width: $screen-sm-min){
-		font-size: $font-size-h4;
-	}
-	@media (min-width: $screen-lg-min){
-		font-size: $font-size-h4;
-	}
+	font-weight: 800;
+	@include font-size-h4;
 }
 
 h5, .h5 {
-	font-size: $font-size-h5;
-}
-
-h6, .h6 {
-	font-size: $font-size-h6;
-}
-
-/* ----- Inline elements ----- */
-small,
-.text-small {
-	font-size: $font-size-small;
+	font-weight: 600;
+	@include font-size-h5;
 }
 
 /* ----- Paragraphs ----- */
 p {
-	margin: 0 0 1.25rem 0;
-	font-size: 14px;
-	line-height: 24px;
-	@media (min-width: $screen-sm-min){
-		font-size: 16px;
-	}
-	@media (min-width: $screen-lg-min){
+	@include font-size-base;
+	&.subtitle {
+		font-weight: 500;
 		font-size: 18px;
-		line-height: 32px;
+		line-height: 167%;
+		@media (min-width: $screen-sm-min) {
+			font-size: 21px;
+			line-height: 162%;
+		}
 	}
-	&.is-big{
-		img{
-			max-width: 100%;
+	&.big {
+		font-size: 26px;
+		line-height: 154%;
+		font-weight: 600;
+		@media (min-width: $screen-sm-min) {
+			font-size: 32px;
 		}
 	}
 }
 
 /* ----- Hyperlinks ----- */
+
 a {
-	color: #4294FF;
+	color: $color-blue;
 	text-decoration: none;
-	transition: color .2s;
+	transition: .2s;
 	&:focus,
 	&:hover{
-		color: #2477E2;
+		color: rgba(#58bbee, 0.8);
 	}
-
 	&:active{
-		color: #0C61D0;
+		color: darker($color-blue, 6.25%);
+	}
+}
+
+a.not-visibly {
+	color: $color-black;
+	&:hover {
+		opacity: 0.8;
 	}
 }
 
@@ -154,10 +127,7 @@ a {
 
 /* ----- Images ----- */
 img {
-	max-width: 70%;
-	height: auto;
 	vertical-align: middle;
-	border: 1px solid #D1D1D1;
 }
 
 /* ----- Horizontal rules ----- */
@@ -170,12 +140,12 @@ hr {
 /* ----- States ----- */
 ::-moz-selection {
 	background: rgba($color-yellow, .99);
-	color: $color-dark;
+	color: $color-black;
 }
 
 ::selection {
 	background: rgba($color-yellow, .99);
-	color: $color-dark;
+	color: $color-black;
 }
 
 /* ----- Quotes ----- */
@@ -184,7 +154,7 @@ blockquote {
 }
 
 q {
-	color: $color-dark;
+	color: $color-black;
 }
 
 /* ----- Lists ----- */
@@ -192,7 +162,6 @@ ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0 0 1.25rem 0;
-
 	li {
 		position: relative;
 		padding-left: 23px;
@@ -213,6 +182,19 @@ ul {
 			position: absolute;
 			left: 10px;
 		}
+	}
+}
+
+ul.normalize {
+	margin-bottom: 0;
+	li {
+		&:before {
+			content: '';
+			display: none;
+		}
+		list-style: none;
+		margin-bottom: 0;
+		padding: 0;
 	}
 }
 
@@ -319,7 +301,6 @@ button {
 	border: 0;
 	padding: 0;
 	background-color: transparent;
-
 	&:focus {
 		outline: none;
 	}

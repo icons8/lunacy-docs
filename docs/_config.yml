@@ -1,6 +1,26 @@
 doks:
     baseurl:
     color_theme: blue
+    micro_nav:
+    - title: About Lunacy
+      url: '/about'
+    - title: Interface
+      url: '/interface'
+    - title: Editing
+      url: '/editing'
+    - title: 'Objects'
+      url: '/objects'
+    - title: 'Styling'
+      url: '/styling'
+    - title: 'Export'
+      url: '/export'
+    - title: 'Shortcuts'
+      url: '/shortcuts'
+    - title: 'Localization'
+      url: '/localization'
+    - title: 'Support'
+      url: '/support'
+
     header:
         logo:
             text:
@@ -34,4 +54,4 @@ includes_dir: ./doks-theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
 permalink: /:title/
 
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
