@@ -358,6 +358,24 @@ The demo below shows the above two methods.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage1.mp4" type="video/mp4"></video>
 
+{:.image-info}
+№1 Quality: standard, FpS: 29,97, Size: 2545
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage11.mp4" type="video/mp4"></video>
+
+{:.image-info}
+№2 Quality: medium, FpS: 29,97, Size: 2083
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage111.mp4" type="video/mp4"></video>
+
+{:.image-info}
+№3 Quality: medium, FpS: 20, Size: 1724
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage1111.mp4" type="video/mp4"></video>
+
+{:.image-info}
+№4 Quality: medium, FpS: 15, Size: 1581
+
 
 **Way 3**
 
