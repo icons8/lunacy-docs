@@ -282,7 +282,7 @@ In the demo below, we first applied a Gaussian blur to an image, removed it and 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph.png" height="auto"><source src="/public/styling-blurs111.mp4" type="video/mp4"></video>
 
 {:.image-info}
-№4 Quality: medium, FpS: 20, Size: 1699
+№4 Quality: medium, FpS: 15, Size: 1699
 
 **Note:** Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For the same reason, we limited the maximum blur value to *50*.
 
