@@ -125,15 +125,6 @@ Alternatively, you can use the `Ctrl+Shift+O` shortcut.
 
 **Note**: Remember that the text-to-vector operation is demanding in terms of system resources. Attempts to convert large portions of text can seriously slow Lunacy down .
 
-
-<!--
-
-## Adjusting the number of vertices in stars and polygons
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-verticesph.png" height="auto"><source src="/public/tips-vertices.mp4" type="video/mp4"></video>
-
--->
-
 ## Disabling snapping
 
 To disable snapping, hold down `Ctrl` while dragging an object.

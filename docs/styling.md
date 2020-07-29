@@ -264,25 +264,9 @@ To switch between blur types, click the down arrowhead next to a blur name and s
 
 In the demo below, we first applied a Gaussian blur to an image, removed it and then applied a background blur to a rectangle above the image.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph.png" height="auto"><source src="/public/styling-blurs.mp4" type="video/mp4"></video>
-
-{:.image-info}
-№1 Quality: standard, FpS: 29,97, Size: 4138
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph.png" height="auto"><source src="/public/styling-blurs1.mp4" type="video/mp4"></video>
 
-{:.image-info}
-№2 Quality: medium, FpS: 29,97, Size: 2430
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph.png" height="auto"><source src="/public/styling-blurs11.mp4" type="video/mp4"></video>
-
-{:.image-info}
-№3 Quality: medium, FpS: 20, Size: 1957
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph.png" height="auto"><source src="/public/styling-blurs111.mp4" type="video/mp4"></video>
-
-{:.image-info}
-№4 Quality: medium, FpS: 15, Size: 1699
 
 **Note:** Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For the same reason, we limited the maximum blur value to *50*.
 
