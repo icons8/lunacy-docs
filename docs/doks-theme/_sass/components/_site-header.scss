@@ -137,11 +137,11 @@
 	}
 	a:nth-child(2) {
 		order: 1;
-		margin-top: 15px;
+		margin-top: auto;
 		@media (min-width: $screen-md-min) {
 			order: 0;
 			margin-top: 0;
-			margin-right: 10px;
+			// margin-right: 10px;
 		}
 	}
 	a:last-child {
