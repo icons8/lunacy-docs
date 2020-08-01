@@ -486,9 +486,6 @@
     text-transform: uppercase;
     margin-bottom: 20px;
   }
-  a svg:nth-child(1){
-    margin-left: 9px;
-  }
   a.mark:after{
     content: '';
     border-radius: 7px;
@@ -506,12 +503,27 @@
   }
   a.mark--upgrade:after {
     content: 'Upgrade';
-    background: #6866C5;
+    background: #28B351;
   }
-  .social a + a{ 
-    margin-left: 7px;
+  .social {
+    margin: 0 -5px;
+    a {
+      padding: 5px;
+      opacity: 0.8;
+      margin: 0 15px 10px 0;
+      &:last-child {
+        margin: 0;
+      }
+      &:hover {
+        opacity: 1;
+      }
+    }
+    svg {
+      fill: #fff;
+    }
   }
 }
+
 
 .footer__hr {
   width: 100%;

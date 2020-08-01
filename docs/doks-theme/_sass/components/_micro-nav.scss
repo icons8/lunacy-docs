@@ -1,42 +1,4 @@
-/**
- * Micro nav (components/_micro-nav.scss)
- */
 
-/* ----- General ----- */
-// .micro-nav {
-// 	color: $color-white;
-// 	background-color: $color-black;
-// 	padding: .9375rem 0;
-// 	text-align: center;
-
-// 	@media (min-width: $screen-sm-min) {
-// 		text-align: left;
-// 	}
-// }
-
-// /* ----- Back ----- */
-// .micro-nav__back {
-// 	@include link-reset;
-// 	display: inline-block;
-// 	font-weight: 500;
-// 	text-transform: uppercase;
-
-// 	&:hover,
-// 	&:focus,
-// 	&:active {
-// 		.icon {
-// 			@include translate(-.3125rem, 0);
-// 		}
-// 	}
-
-// 	.icon {
-// 		display: inline-block;
-// 		margin-right: .5rem;
-// 		position: relative;
-// 		bottom: -.125rem;
-// 		transition: transform .2s;
-// 	}
-// }
 
 .micro-nav-header {
 	position: relative;
@@ -107,6 +69,8 @@ ul.micro-nav {
 	border-top: 0;
 	width: 100%;
 	border-radius: 0 0 4px 4px;
+	max-height: calc(100vh - 80px);
+	overflow-y: scroll;
 	@media (min-width: $screen-lg-min) {
 		border-radius: 0;
 		border: 0;
