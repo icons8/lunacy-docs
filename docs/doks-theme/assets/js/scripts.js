@@ -185,7 +185,6 @@
 			scrollTop: $( $( this ).attr( 'href' ) ).offset().top
 		}, 1200 );
 
-		return false;
 	} );
 
 	$(".micro-nav-header ").click( function() {
@@ -202,6 +201,11 @@
 			event.preventDefault()
 		}
 	} );
+
+	$('.micro-nav li.active > a').click(function () {
+		event.preventDefault();
+		$(this).next(".submenu").slideToggle();
+	})
 
 	let MicroNavInit = function() {
 		if ($(window).width() > 1199) {
@@ -241,9 +245,11 @@
 				const element = item_submenu[index];
 				element.classList.remove('active')
 			}
-			activeLinkSubMenu = currentActiveLinkSubMenu(document.querySelectorAll("#content h3"), 20)
+			activeLinkSubMenu = currentActiveLinkSubMenu(document.querySelectorAll("#content h3, #content h2:not(.content__title)"), 20)
 			if (activeLinkSubMenu) {
 				document.querySelector(".submenu [href*='#" + activeLinkSubMenu.id + "']").closest("li").classList.add('active')
+				let href = location.protocol + '//' + location.hostname + (location.port ? ":" + location.port : "") + document.location.pathname + "#" + activeLinkSubMenu.id;
+				changeHrefOnScroll(href);
 				document.querySelector(".js-subheader").innerText = document.querySelector(".submenu [href*='#" + activeLinkSubMenu.id + "']").innerText
 			}
 		}
@@ -268,7 +274,7 @@
 }( jQuery ) );
 
 function createNavSubMenu() {
-	let items = document.querySelectorAll("#content h3");
+	let items = document.querySelectorAll("#content h3, #content h2:not(.content__title)");
 	if (items.length < 2) {
 		return "";
 	}
@@ -312,6 +318,11 @@ function getCurrentNavLink() {
 		}
 	}
 }
+
+function changeHrefOnScroll(href) {
+	let stateObj = { id: "100" };
+	window.history.pushState(stateObj, "", href);
+} 
 
 
 function clickSingleA(a)
