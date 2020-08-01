@@ -24,7 +24,7 @@ page_nav:
 
 **Symbols** are reusable objects or groups of objects that make your designs consistent and your life easier.
 
-When working with symbols you should understand the idea of **master symbols** and **symbol instances**. For example, when you are designing a UI, you can create a button symbol (that will be a master symbol) and then add identical buttons (symbol instances) wherever you need them with just a click. If you later decide to change the size, shape or the color of your buttons, you'll need to modify only the master symbol, and the changes will immediately apply to all the instances.
+When working with symbols you should understand the idea of **main symbols** and **symbol instances**. For example, when you are designing a UI, you can create a button symbol (that will be a main symbol) and then add identical buttons (symbol instances) wherever you need them with just a click. If you later decide to change the size, shape or the color of your buttons, you'll need to modify only the main symbol, and the changes will immediately apply to all the instances.
 Moreover, you can also change the text on one or even all instances. That will be an **override**. We will discuss overrides later in this section.
 
 The demo below demonstrates the effect and efficiency of using symbols in designs.
@@ -107,15 +107,15 @@ To unfold/fold the content of all symbol categories, right-click anywhere over t
 
 Also, to quickly find the required symbol, you can type its name in the search field at the top of the **Symbols** panel.
 
-## Masters
+## Main symbols
 
-As it was mentioned earlier, you should keep master symbols on a dedicated page.  In this section, you will learn other details of working with masters.
+As it was mentioned earlier, you should keep main symbols on a dedicated page.  In this section, you will learn other details of working with main symbols.
 
-The first thing you should note is that names of master symbols appear in bold in the **Objects** panel. Also, all symbol names, of both masters and instances, come with the symbol icon (![symbol icon](public/symbolicon.png)) By clicking the name of a master, you can unfold it to see its content.
+The first thing you should note is that names of main symbols appear in bold in the **Objects** panel. Also, all symbol names, of both main symbols and instances, come with the symbol icon (![symbol icon](public/symbolicon.png)) By clicking the name of a main symbol, you can unfold it to see its content.
 
-The figure below shows a view of a primitive master, which includes an automatically added symbol artboard with the name of the symbol at the top and a layered object.
+The figure below shows a view of a primitive main symbol, which includes an automatically added symbol artboard with the name of the symbol at the top and a layered object.
 
-![A view of a master symbol](public/master_unfold.png)
+![A view of a main symbol](public/master_unfold.png)
 
 The intent of symbol artboards is twofold:
 
@@ -130,9 +130,9 @@ You can choose to include or not to include the artboard fill into instances of 
 
 ![A view of a master symbol](public/includeinstance.png)
 
-### Editing master symbols
+### Editing main symbols
 
-There are two ways to edit a master symbol:
+There are two ways to edit a main symbol:
 
 1. In the symbol editor (the quick one).
 2. Directly on the Symbols page.
@@ -143,9 +143,9 @@ There are two ways to edit a master symbol:
 
    OR
 
-   Select an instance of the symbol you want to edit. Then press `Enter` or click the **Edit master symbol** button (![Edit master symbol button](public/symbols-editsymbolbtn.png)) on the context toolbar.
+   Select an instance of the symbol you want to edit. Then press `Enter` or click the **Edit main symbol** button (![Edit master symbol button](public/symbols-editsymbolbtn.png)) on the context toolbar.
    
-   This enables the symbol editor. The master symbol appears over the selected instance. The **Object list** panel displays the list of the symbol components. The rest of the canvas becomes dimmed.
+   This enables the symbol editor. The main symbol appears over the selected instance. The **Object list** panel displays the list of the symbol components. The rest of the canvas becomes dimmed.
 
 2. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
 3. To exit the editor, do one of the following:
@@ -159,7 +159,7 @@ The changes you make immediately apply to all the symbol instances across the pr
 
 **Way 2**
 
-1. Right-click an instance (on the canvas or in the **Objects** list) of the symbol you want to edit and select **Go to Master Symbol** on the context menu. The Symbols page opens with the required symbol selected.
+1. Right-click an instance (on the canvas or in the **Objects** list) of the symbol you want to edit and select **Go to Main Symbol** on the context menu. The Symbols page opens with the required symbol selected.
 
     OR
   
@@ -167,18 +167,18 @@ The changes you make immediately apply to all the symbol instances across the pr
 2. Edit the symbol in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
 3. When you are through with editing:
 
-    * If you used the **Go to Master Symbol** command, click the **Back to instance** button that will appear in the top-left corner of the canvas.
+    * If you used the **Go to Main Symbol** command, click the **Back to instance** button that will appear in the top-left corner of the canvas.
     * If you chose to manually open the Symbols page, just switch to the required page, to continue working with the project.
 
-### Deleting  master symbols
+### Deleting main symbols
 
-To delete a master symbol, you should either do it from the **Library** or from the **Objects** panel.
-Note that deletion of a master turns all its instances into groups.
+To delete a main symbol, you should either do it from the **Library** or from the **Objects** panel.
+Note that deletion of a main symbol turns all its instances into groups.
 
 ## Symbol instances
 
 Instances are copies of symbols that you use across your project.
-In the **Objects** panel, symbols instances are displayed with the symbol icon in front of their names. Their names appear in regular type (while masters are displayed in bold) and have the following name format:
+In the **Objects** panel, symbols instances are displayed with the symbol icon in front of their names. Their names appear in regular type (while main symbols are displayed in bold) and have the following name format:
 
 `<Symbol name> instance`  
 
@@ -271,13 +271,13 @@ The commands are as follows:
       <td><code>Ctrl+Alt+K</code></td>
     </tr>
     <tr>
-      <td>Go to Master Symbol</td>
-      <td>Brings you to the master symbol of the selected instance. To return to the instance from the master, click the <B>Back to instance</B> button that will appear in the top-left corner of the canvas.</td>
+      <td>Go to Main Symbol</td>
+      <td>Brings you to the main symbol of the selected instance. To return to the instance from the main symbol, click the <B>Back to instance</B> button that will appear in the top-left corner of the canvas.</td>
       <td><code>Ctrl+Alt+E</code></td>
     </tr>
     <tr>
       <td>Detach from Symbols</td>
-      <td>When you detach an instance from its master, it becomes a group. All further changes to the master symbol will no longer apply to its ex-instance.</td>
+      <td>When you detach an instance from its main symbol, it becomes a group. All further changes to the main symbol will no longer apply to its ex-instance.</td>
       <td><code>Ctrl+Alt+D</code></td>
     </tr>
     <tr>
@@ -297,7 +297,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Send to Symbols page</td>
-      <td>This command applies only to master symbols and becomes available only when a symbol is not on a dedicated symbols page.</td>
+      <td>This command applies only to main symbols and becomes available only when a symbol is not on a dedicated symbols page.</td>
       <td><code>-</code></td>
     </tr>
     <tr>
@@ -314,7 +314,7 @@ Until now we've been considering  only primitive symbols. But you can also creat
 
 ## [Overrides](#overrides)
 
-Overrides are changes that you can make to a specific symbol instance not affecting the master symbol and other instances of this symbol across the project.
+Overrides are changes that you can make to a specific symbol instance not affecting the main symbol and other instances of this symbol across the project.
 
 Currently, Lunacy provides the following types of overrides:
 

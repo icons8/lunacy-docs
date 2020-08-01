@@ -356,8 +356,7 @@ There are several ways of adding images from the internet.
 
 The demo below shows the above two methods.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage1.mp4" type="video/mp4"></video>
-
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage11.mp4" type="video/mp4"></video>
 
 **Way 3**
 
@@ -465,7 +464,7 @@ When you select a control added with any of these tools, you see the suggestions
 
 ![GUI tools](public/rn5_9-guitools2.png)
 
-To edit the appearance of a control, use the <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">symbol editor</a>.
+To edit the appearance of a control, use the <a href="https://docs.icons8.com/symbols/#editing-main-symbols" target="_blank">symbol editor</a>.
 
 ## Symbol tool
 

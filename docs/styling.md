@@ -264,7 +264,9 @@ To switch between blur types, click the down arrowhead next to a blur name and s
 
 In the demo below, we first applied a Gaussian blur to an image, removed it and then applied a background blur to a rectangle above the image.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph.png" height="auto"><source src="/public/styling-blurs.mp4" type="video/mp4"></video>
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph.png" height="auto"><source src="/public/styling-blurs1.mp4" type="video/mp4"></video>
+
 
 **Note:** Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For the same reason, we limited the maximum blur value to *50*.
 
@@ -292,7 +294,7 @@ Tint overrides can be handy, for instance, when you are designing tabs or panels
 
 Note that before using tint overrides you should add default tints.
 
-The demo below shows three instances of the same symbol. We first applied a tint override to a nested element, then switched to the <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">symbol edit mode</a> and modified the default tint. In the latter case, the change applied only to the instances without the override.
+The demo below shows three instances of the same symbol. We first applied a tint override to a nested element, then switched to the <a href="https://docs.icons8.com/symbols/#editing-main-symbols" target="_blank">symbol edit mode</a> and modified the default tint. In the latter case, the change applied only to the instances without the override.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tintoverridesph2.png" height="auto"><source src="/public/tintoverrides2.mp4" type="video/mp4"></video>
 

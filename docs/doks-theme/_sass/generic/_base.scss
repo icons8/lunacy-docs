@@ -44,7 +44,7 @@ h6, .h6 {
 }
 
 h1, .h1 {
-	font-weight: 900;
+	font-weight: 700;
 	letter-spacing: -0.03em;
 	@media (min-width: $screen-sm-min) {
 		letter-spacing: -0.05em;
@@ -53,19 +53,19 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	font-weight: 800;
+	font-weight: 700;
 	letter-spacing: -0.03em;
 	@include font-size-h2;
 }
 
 h3, .h3 {
-	font-weight: 800;
+	font-weight: 700;
 	letter-spacing: -0.01em;
 	@include font-size-h3;
 }
 
 h4, .h4 {
-	font-weight: 800;
+	font-weight: 700;
 	@include font-size-h4;
 }
 

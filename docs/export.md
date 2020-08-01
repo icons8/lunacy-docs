@@ -65,13 +65,13 @@ Moreover, within one export procedure you can get multiple files of different fo
 
 All these is detailed in the sections below. Also, here you will learn how to print your designs and how to get CSS, XAML and SVG code of your designs.
 
-**Tip:** You can also use Sketch Cloud for saving you projects and sharing them with other people. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>. 
+**Tip:** You can also use Sketch Cloud for saving you projects and sharing them with other people. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.
 
 ## Important notices
 
 * Remember that during export Lunacy ignores all guides, square and layout grids, artboard names, as well as prototyping arrows and canvas color (not to be confused with the artboard color). There is now way to include them into export files.
 
-* Also, note that if there is at least one artboard in your project, during *export of a project* Lunacy ignores all objects that are beyond artboards, as well as master symbols.
+* Also, note that if there is at least one artboard in your project, during *export of a project* Lunacy ignores all objects that are beyond artboards, as well as main symbols.
 
 * The maximum dimension (height or width) of resulting raster files is limited to 16,000 pixels.
 
@@ -177,7 +177,7 @@ The quickest way to export all content of a document page is as follows:
 
 ## Exporting a project
 
-**Note:** To be able to export a project, you should have at least one artboard in it. Also, bear in mind that during export of projects, Lunacy ignores all objects that are beyond artboards, as well as master symbols.
+**Note:** To be able to export a project, you should have at least one artboard in it. Also, bear in mind that during export of projects, Lunacy ignores all objects that are beyond artboards, as well as main symbols.
 
 When exporting a project, Lunacy creates folders whose names correspond to the names of pages in the project. Inside these folders, Lunacy creates separate files for each object available on the respective page. Grouped objects and symbol instances are viewed as single objects.
 
