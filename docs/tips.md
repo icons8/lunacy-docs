@@ -27,11 +27,11 @@ page_nav:
 
 
 
-Lunacy has a lot of small but very useful features that can ease your life or significantly speed up your workflow. This chapter is a collection of tips with short demos that will help you take full advantage of Lunacy.
+Lunacy has a lot of small but very useful features that can ease your life or significantly speed up your workflow. Their descriptions are scattered across many chapters and if you are not accustomed to reading docs from cover to cover, they are likely to go unnoticed. Below you will find a collection of tips with short demos that will help you take full advantage of Lunacy.
 
 ## Sharing your designs via Icons8 Cloud
 
-The `Alt+С + C` shortcut allows you to instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away. 
+The `Alt+С + C` shortcut allows you to instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-altccph.png" height="auto"><source src="/public/tips-altcc.mp4" type="video/mp4"></video>
 
@@ -57,7 +57,6 @@ When editing typography settings you don't need to select a word or the whole te
 The demo below shows how you can copy and paste styling properties between objects.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-copypasteplaceholder.png" height="auto"><source src="/public/objects-copypaste.mp4" type="video/mp4"></video>
-
 
 ## Adjusting values in the Inspector
 
@@ -93,6 +92,25 @@ The next demo shows how you can modify shapes by adjusting their properties in t
 To resize objects, you can use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or `CTRL+Shift + arrow keys` ( by 10 pixels) to resize objects.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-keyresizeph.png" height="auto"><source src="/public/tips-keyresize.mp4" type="video/mp4"></video>
+
+## Text alignment magnets
+
+You can align text within text boxes using the alignment magnets that appear around the text box when you select it. They combine the functions of the [text alignment](#text-alignment-options) and [position alignment](#position-alignment) controls. The demo below shows how this nice feature works.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-magnets.mp4" type="video/mp4"></video>
+
+This also works with multiple ungrouped text boxes.
+
+To disable the display of magnets, go to the **View** menu and uncheck the **Text Alignment Magnets** option.
+
+
+## Resizing text boxes
+
+To quickly resize a text box so that it fits the text, double-click its vertical or horizontal border.
+
+**Note:** A double-click over the right or left border sets the text box to the <a href="https://docs.icons8.com/text/#text-block-resize-options" target="_blank">horizontal resize mode</a> and transforms a multiline text into a single line.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-autoresizeph.png" height="auto"><source src="/public/text-autoresize.mp4" type="video/mp4"></video>
 
 ## Adding text to shapes
 
@@ -138,6 +156,12 @@ Lunacy's eyedropper features a nice zoom option that comes in handy when the tar
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/eyedropper3-placeholder.png" height="auto"><source src="/public/eyedropper3.mp4" type="video/mp4"></video>
 
+## Zoom to selection
+
+To quickly jump to the required object on the canvas, select it in the left panel and press `Ctrl+2` or double-click its outline/icon.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-zoomtoselectionph.png" height="auto"><source src="/public/tips-zoomtoselection.mp4" type="video/mp4"></video>
+
 ## Scaling objects
 
 If you want to resize an object with styling (borders, shadows, etc.), you should consider the scaling feature. Together with object size, it will accordingly adjust the values of its styling properties. See the demo below and note how the value of the border thickness changes with the object size.
@@ -151,6 +175,12 @@ In a similar fashion you can scale several objects at a time.
 To quickly import an image from a web site to Lunacy, right-click over the image, then click **Copy image** on the context menu. Switch to Lunacy and paste the image onto the canvas.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-importimageph.png" height="auto"><source src="/public/tips-importimage.mp4" type="video/mp4"></video>
+
+## Image fills
+
+You can create an image fill by dropping an image from the Lunacy library or your desktop directly on to the object as shown in the demo below. For more information about image fills, click <a href="https://docs.icons8.com/styling/#image-fills" target="_blank">here</a>.  
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-imagefillph.png" height="auto"><source src="/public/styling-imagefill.mp4" type="video/mp4"></video>
 
 ## Inverting gradients
 
