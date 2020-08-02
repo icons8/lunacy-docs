@@ -520,7 +520,7 @@ There are several ways to change values in the numeric fields of the Inspector. 
 * Hover the cursor over the required field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
 * Use math (press `Enter` to submit).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-inspectortipsplaceholder.png" height="auto"><source src="/public/interface-inspectortips.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-inspectortipsplaceholder.png" height="auto"><source src="/public/interface-inspectortips.mp4" type="video/mp4"></video>
 
 ## [The context menu](#the-context-menu)
 
