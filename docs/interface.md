@@ -149,11 +149,11 @@ If the names of objects in the list appear truncated, you can change the width o
 
 The operations that you can perform in the objects list include:
 
-* Selecting objects - to select an object or object group, click its name in the objects list. As you do it, the selection frame appears around the object on the canvas. To select multiple items hold down the `Ctrl` or `Shift` keys and click.
-* Searching for objects - to quickly find the required object start typing its name in the search field above the object list.
-* Arranging objects - you can change the order of objects in the list by dragging them up or down.
-* Hiding objects - you can temporarily hide the selected item from the canvas. You can hide objects, object groups or individual items within object groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide objects by using the `Ctrl+H` shortcut or the respective command on the context menu.
-* Locking objects - by locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
+* **Selecting objects**. To select an object or object group, click its name in the objects list. As you do it, the selection frame appears around the object on the canvas. To select multiple items hold down the `Ctrl` or `Shift` keys and click.
+* **Searching for objects**. To quickly find the required object start typing its name in the search field above the object list.
+* **Arranging objects**. You can change the order of objects in the list by dragging them up or down.
+* **Hiding objects**. You can temporarily hide the selected item from the canvas. You can hide objects, object groups or individual items within object groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide objects by using the `Ctrl+H` shortcut or the respective command on the context menu.
+* **Locking objects**. By locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
 * Other [basic operations](#context-menu) with objects available on the context menu.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist.mp4" type="video/mp4"></video>
@@ -305,7 +305,7 @@ To learn the distance between an object and the borders of the artboard:
   OR
 * Select an object, then hover the cursor over an empty area within the artboard and press and hold `Alt`.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
 
 For precise positioning of objects on the artboard or relative one another, proceed as follows:
 
