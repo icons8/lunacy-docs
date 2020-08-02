@@ -240,7 +240,7 @@ To select an empty artboard, you can click anywhere within the artboard. To sele
 
 Similarly, to move an empty artboard, click anywhere within the artboard and drag it to where you want it. To move an artboard with objects, click the artboard's name and drag.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
 
 Alternatively, you can select the required artboard by clicking its name in the **Objects** panel.
 
