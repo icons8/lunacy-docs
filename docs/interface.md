@@ -132,7 +132,7 @@ To change the position of a page in the list, just drag it up or down to where y
 
 The rest of the operations are accessible through the context menu invoked by a right-click over the required page name.
 
-<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/tool-pagesplaceholder.png" height="auto"><source src="/public/interface-pages.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages.mp4" type="video/mp4"></video>
 
 There is also a special type of a page - the Symbols page. For details, read <a href="https://docs.icons8.com/symbols/#symbols-page" target="_blank">here</a>.
 
@@ -149,14 +149,14 @@ If the names of objects in the list appear truncated, you can change the width o
 
 The operations that you can perform in the objects list include:
 
-* Selecting objects - to select an object or object group, click its name in the objects list. As you do it, the selection frame appears around the object on the canvas. To select multiple items hold down the `Ctrl` or `Shift` keys and click.
-* Searching for objects - to quickly find the required object start typing its name in the search field above the object list.
-* Arranging objects - you can change the order of objects in the list by dragging them up or down.
-* Hiding objects - you can temporarily hide the selected item from the canvas. You can hide objects, object groups or individual items within object groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide objects by using the `Ctrl+H` shortcut or the respective command on the context menu.
-* Locking objects - by locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
+* **Selecting objects**. To select an object or object group, click its name in the objects list. As you do it, the selection frame appears around the object on the canvas. To select multiple items hold down the `Ctrl` or `Shift` keys and click.
+* **Searching for objects**. To quickly find the required object start typing its name in the search field above the object list.
+* **Arranging objects**. You can change the order of objects in the list by dragging them up or down.
+* **Hiding objects**. You can temporarily hide the selected item from the canvas. You can hide objects, object groups or individual items within object groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide objects by using the `Ctrl+H` shortcut or the respective command on the context menu.
+* **Locking objects**. By locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
 * Other [basic operations](#context-menu) with objects available on the context menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist.mp4" type="video/mp4"></video>
 
 To collapse all branches in the object tree use the `Ctrl + ~` shortcut.
 
@@ -240,7 +240,7 @@ To select an empty artboard, you can click anywhere within the artboard. To sele
 
 Similarly, to move an empty artboard, click anywhere within the artboard and drag it to where you want it. To move an artboard with objects, click the artboard's name and drag.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
 
 Alternatively, you can select the required artboard by clicking its name in the **Objects** panel.
 
@@ -305,7 +305,7 @@ To learn the distance between an object and the borders of the artboard:
   OR
 * Select an object, then hover the cursor over an empty area within the artboard and press and hold `Alt`.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
 
 For precise positioning of objects on the artboard or relative one another, proceed as follows:
 
@@ -520,7 +520,7 @@ There are several ways to change values in the numeric fields of the Inspector. 
 * Hover the cursor over the required field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
 * Use math (press `Enter` to submit).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-inspectortipsplaceholder.png" height="auto"><source src="/public/interface-inspectortips.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-inspectortipsplaceholder.png" height="auto"><source src="/public/interface-inspectortips.mp4" type="video/mp4"></video>
 
 ## [The context menu](#the-context-menu)
 

@@ -222,10 +222,10 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | ------------- |-------------|
 | Group Selection |`Ctrl+G` |
 | Ungroup Selection |`Ctrl+Shift+G` |
-| Bring Forward |`Ctrl+[` |
-| Bring to Front |`Ctrl+Shift+[` |
-| Send Backward |`Ctrl+]` |
-| Send to Back |`Ctrl+Shift]` |
+| Bring Forward |`Ctrl+]` |
+| Bring to Front |`Ctrl+Shift+]` |
+| Send Backward |`Ctrl+[` |
+| Send to Back |`Ctrl+Shift+[` |
 | Show / Hide |`Ctrl+H` |
 | Lock / Unlock |`Ctrl+L` |
 

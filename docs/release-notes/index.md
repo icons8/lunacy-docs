@@ -30,6 +30,79 @@ page_nav:
 
 ---
 
+<!-- 
+
+# Version 6
+
+## 6.0
+
+*RELEASED August XX, 2020*
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.9.0.exe)
+
+### New features
+
+#### Support of Sketch plugins (Beta)
+
+Lunacy v.6 brings the support of Sketch plugins. Please note that Lunacy supports only the latest JavaScript version of the <a href="https://developer.sketch.com/reference/api/" target="_blank">Sketch API</a>. Also, with limitations it supports:
+
+* Sketch Utilities (except for polyfill fetch)
+* Some most frequent Objective C Objects
+
+Lunacy does not and will never support:
+
+* Objective C preprocessor
+* OSX Compiled components
+* Access to the Cocoa UI
+
+As of now, there is no way to say for sure whether this or that Sketch plugin downloaded from the internet will work in Lunacy. But we've added is a  special panel where you can download plugins verified and approved by our team. We will regularly update the content of the panel.
+
+Now you can also write and run you own scripts directly in Lunacy and save them as plugins.
+
+If you've written a plugin of your own and want to share it with other users, you can email us a link to the project GitHub page at lunacy@icons8.com.
+
+For details about working with plugins in Lunacy, read <a href="https://docs.icons8.com/plugins/" target="_blank">here</a>.
+
+#### Tint Overrides
+
+In the previous version we added tints. This version comes with tint overrides. They can be handy, for instance, when you are designing tabs or panels with elements that can have different states expressed through different colors.
+
+Note that before using tint overrides you should add default tints.
+
+When you apply an override, the reset button appears in the **Tint** section of the Inspector. Use this button to remove the override.
+
+![Reset overrides button](/public/reset-overridetint.png)
+
+For details and a demo, click <a href="https://docs.icons8.com/styling/#tint-overrides" target="_blank">here</a>.
+
+#### Snap to spacing
+
+We've added another great feature that will help you quickly arrange objects on the canvas.
+
+Now when you have two or more vertically or horizontally distributed objects and you drag another object close to them, Lunacy snaps the object and shows a pink area when the spacing between the object you drag is the same as one of the spacings between the other objects. See the demo below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/snapping-spacingph.png" height="auto"><source src="/public/snapping-spacing1.mp4" type="video/mp4"></video>
+
+To disable snapping, hold down `Ctrl` while dragging.
+
+### Improvements
+
+* The button that allows you to log into your Icons8 account now appears on the action bar in the upper-right corner of the screen.
+* Support of the Sketch artboard state logic: resized state and scrollable prototypes.
+* Now when you delete a master symbol that has instances, Lunacy will ask you to confirm your intent.
+* A new way of switching to the text editing mode: enable the text tool (press `T` or select it on the toolbar) and click over the text that you want to edit.
+* The suggestions panel now also appears when you work with stars, polygons, triangles, lines and arrows, provided that you've created them with respective tools.
+
+
+### Fixed bugs
+
+* The issue with high scrolling speed of the object list scrolled with a touchpad.
+* Prototyping issues.
+* Color picker issues.
+* Vector tool issues.
+
+-->
+
 # Version 5
 
 Version 5 takes Lunacy out of beta (better stability and performance), provides full support for Sketch files, and adds many useful new features.
