@@ -117,7 +117,7 @@ Lunacy provides four types of Boolean operations:
 
 The demo below shows how Boolean operations work.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-booleansplaceholder.png" height="auto"><source src="/public/shapes-booleans.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-booleansplaceholder.png" height="auto"><source src="/public/shapes-booleans.mp4" type="video/mp4"></video>
 
 When you apply a Boolean operation, the selected shapes become a Boolean group. The figure below shows a view of a Boolean group in the **Objects** panel. Note that there is an icon next to one of the shapes. It indicates the type of the Boolean operation currently applied. By clicking this icon you invoke a menu where you can select another operation.
 
@@ -131,12 +131,11 @@ You can select individual shapes within the group through the **Objects** panel 
 
 The flattening operation is another method of creating complex shapes by combining two or more primitives. It is in a way similar to the Boolean union operation, but unlike the latter the result of flattening is a single object that cannot be disassembled. The **Flatten selection** option shares the same drop-down list with the Boolean operations and also is available on the **Object** menu (see the figure below).
 
-{:.is-big}
 ![Boolean group](public/shapes-flatten.png)
 
 The next demo shows how flattening works.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-flattenplaceholder.png" height="auto"><source src="/public/shapes-flat.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-flattenplaceholder.png" height="auto"><source src="/public/shapes-flat.mp4" type="video/mp4"></video>
 
 ## Masks
 
