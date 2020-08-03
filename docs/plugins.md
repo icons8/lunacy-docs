@@ -58,6 +58,8 @@ There are two ways of installing plugins:
 3. In the download section of the **Plugins** panel, click over the required item.
 4. Wait until the plugin appears in the list of installed plugins.
 
+![Installing a plugin](public/plugins-install.png)
+
 **Way 2.**
 
 1. Download the required plugin from the internet. For example, at the <a href="https://www.sketch.com/extensions/" target="_blank">Sketch extensions</a> page.
