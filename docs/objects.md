@@ -187,7 +187,7 @@ The table below provides a description of these options.
 
 The demo below shows how you can copy and paste styling properties between objects.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-copypasteplaceholder.png" height="auto"><source src="/public/objects-copypaste.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-copypasteplaceholder.png" height="auto"><source src="/public/objects-copypaste.mp4" type="video/mp4"></video>
 
 ## Resizing objects
 
@@ -231,7 +231,7 @@ To scale an object:
 
 See the demo below and note how the value of the border thickness changes with the object size.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/object-resizing3.png" height="auto"><source src="/public/object-resizing3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing3.png" height="auto"><source src="/public/object-resizing3.mp4" type="video/mp4"></video>
 
 In a similar fashion you can scale several objects at a time.
 
@@ -348,7 +348,7 @@ To position objects along the Z-axis, use the send/bring commands found on the c
 
 The demo below shows how it works.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-sendbringplaceholder.png" height="auto"><source src="/public/objects-sendbring.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-sendbringplaceholder.png" height="auto"><source src="/public/objects-sendbring.mp4" type="video/mp4"></video>
 
 Also, you can do the same by dragging objects up and down relative one another in the object list.
 
