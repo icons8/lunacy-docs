@@ -73,6 +73,10 @@ grid_navigation:
       excerpt: Make your workflow faster by learning Lunacy's shortcuts
       url: '/shortcuts'
       icon: 'keyboard'
+    - title: 'Plugins'
+      excerpt: Extend Lunacy functionality
+      url: '/plugins'
+      icon: 'plugin'
     - title: 'Localization'
       excerpt: Help us localize Lunacy to your language 
       url: '/localization'

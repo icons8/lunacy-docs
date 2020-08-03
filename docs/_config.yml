@@ -33,6 +33,8 @@ doks:
       url: '/tips'
     - title: 'Shortcuts'
       url: '/shortcuts'
+    - title: 'Plugins'
+      url: '/plugins'
     - title: 'Localization'
       url: '/localization'
     - title: 'Support'

@@ -286,8 +286,6 @@ The **Tints** section appears in the Inspector only when you select a group obje
 
 Unlike other styling options, you can apply only one tint to an object.
 
-<!--
-
 ### Tint Overrides
 
 Tint overrides can be handy, for instance, when you are designing tabs or panels with elements that can have different states expressed through different colors.
@@ -304,8 +302,6 @@ When you apply an override, the reset button appears in the **Tint** section of 
 
 For details about overrides, read <a href="https://docs.icons8.com/symbols/#overrides" target="_blank">here</a>.
 
-
--->
 
 ## Suggestions panel
 
