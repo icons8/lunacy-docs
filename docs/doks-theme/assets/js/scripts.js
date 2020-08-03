@@ -39,6 +39,9 @@
 		getCurrentNavLink().closest("li").classList.add("active");
 		getCurrentNavLink().closest("li").innerHTML += createNavSubMenu();
 	}
+	if (document.querySelector('#micro-nav.release-note ')) {
+		createNavSubMenuReleaseNote(document.querySelectorAll("#content h1, #content h2:not(.content__title)"))
+	}
 	$('#site-header-burger').click(function (){
 		$('#mobile-menu').toggleClass('active')
 		$(this).toggleClass('active')
@@ -183,7 +186,7 @@
 	$jsSmoothScroll.click( function() {
 		$( 'html, body' ).animate( {
 			scrollTop: $( $( this ).attr( 'href' ) ).offset().top
-		}, 1200 );
+		}, 600 );
 
 	} );
 
@@ -201,11 +204,31 @@
 			event.preventDefault()
 		}
 	} );
-
-	$('.micro-nav li.active > a').click(function () {
-		event.preventDefault();
-		$(this).next(".submenu").slideToggle();
-	})
+	if (!document.querySelector('#micro-nav.release-note ')) {
+		$('#micro-nav li.active > a').click(function () {
+			event.preventDefault();
+			$(this).next(".submenu").slideToggle();
+		})
+	} else {
+		$('#micro-nav li > a').click(function (event){
+			if($(this).parent('li').hasClass('active')) {
+				event.preventDefault()
+				$(this).next(".submenu").slideToggle();
+			} else {
+				$( 'html, body' ).animate( {
+					scrollTop: $( $( this ).attr( 'href' ) ).offset().top
+				}, 600 );
+				$(this).next(".submenu").slideToggle();
+				
+			}
+		})
+	}
+	
+	if (document.documentElement.clientHeight - 80  <= document.getElementById('micro-nav').scrollHeight) {
+		new SimpleBar(document.getElementById('micro-nav'))
+	} else if (document.querySelector('#micro-nav.release-note ')) {
+		new SimpleBar(document.getElementById('micro-nav'))
+	}
 
 	let MicroNavInit = function() {
 		if ($(window).width() > 1199) {
@@ -235,11 +258,33 @@
 		}
 	};
 
-	let activeLinkSubMenu = currentActiveLinkSubMenu(document.querySelectorAll("#content h3"), 20)
-
+	let activeLinkSubMenu; 
+	let activeLinkMenu;
+	let bufferActiveLinkMenu;
+	$(document).ready(function() {
+		MicroNavInit()
+		if (!document.querySelector('#micro-nav.release-note ')) {
+			activeLinkSubMenu = currentActiveLinkSubMenu(document.querySelectorAll("#content h3, #content h2:not(.content__title)"), 20)
+		} else {
+			activeLinkMenu =  currentActiveLinkSubMenu(document.querySelectorAll("#content h1"), 20)
+			activeLinkSubMenu = currentActiveLinkSubMenu(document.querySelectorAll("#content h2:not(.content__title)"), 20)
+		}
+		if (activeLinkMenu) {
+			document.querySelector("#micro-nav [href*='#" + activeLinkMenu.id + "']").closest("li").classList.add('active')
+			let href = location.protocol + '//' + location.hostname + (location.port ? ":" + location.port : "") + document.location.pathname + "#" + activeLinkMenu.id;
+			changeHrefOnScroll(href);
+		}
+		if (activeLinkSubMenu) {
+			document.querySelector(".submenu [href*='#" + activeLinkSubMenu.id + "']").closest("li").classList.add('active')
+			let href = location.protocol + '//' + location.hostname + (location.port ? ":" + location.port : "") + document.location.pathname + "#" + activeLinkSubMenu.id;
+			changeHrefOnScroll(href);
+			document.querySelector(".js-subheader").innerText = document.querySelector(".submenu [href*='#" + activeLinkSubMenu.id + "']").innerText
+		}
+		
+	})
 	$( window ).on( 'resize', MicroNavInit );
-	$(window).on("scroll", function() {
-		if (document.querySelector(".submenu")) {
+	$(window).on("scroll", function(e) {
+		if (!document.querySelector('#micro-nav.release-note ') && document.querySelector(".submenu"))  {
 			let item_submenu = document.querySelector(".submenu").querySelectorAll("li");
 			for (let index = 0; index < item_submenu.length; index++) {
 				const element = item_submenu[index];
@@ -252,38 +297,41 @@
 				changeHrefOnScroll(href);
 				document.querySelector(".js-subheader").innerText = document.querySelector(".submenu [href*='#" + activeLinkSubMenu.id + "']").innerText
 			}
+		} else if (document.querySelector('#micro-nav.release-note ')) {
+			let links = document.querySelectorAll('#micro-nav li');
+			for (let index = 0; index < links.length; index++) {
+				const element = links[index];
+				element.classList.remove('active')
+			}
+			activeLinkMenu =  currentActiveLinkSubMenu(document.querySelectorAll("#content h1"), 20)
+			activeLinkSubMenu = currentActiveLinkSubMenu(document.querySelectorAll("#content h2:not(.content__title)"), 20)
+			if (activeLinkSubMenu) {
+				document.querySelector(".submenu [href*='#" + activeLinkSubMenu.id + "']").closest("li").classList.add('active')
+				let href = location.protocol + '//' + location.hostname + (location.port ? ":" + location.port : "") + document.location.pathname + "#" + activeLinkSubMenu.id;
+				changeHrefOnScroll(href);
+				document.querySelector(".js-subheader").innerText = document.querySelector(".submenu [href*='#" + activeLinkSubMenu.id + "']").innerText
+			}
+			if (activeLinkMenu) {
+				document.querySelector("#micro-nav [href*='#" + activeLinkMenu.id + "']").closest("li").classList.add('active')
+			}
 		}
+
 	})
 
-	$(document).ready(function() {
-		MicroNavInit()
-		if (activeLinkSubMenu) {
-			document.querySelector(".submenu [href*='#" + activeLinkSubMenu.id + "']").closest("li").classList.add('active')
-			document.querySelector(".js-subheader").innerText = document.querySelector(".submenu [href*='#" + activeLinkSubMenu.id + "']").innerText
-		}
-		
-		// get current URL path and assign 'active' class
-		var pathname = window.location.pathname;
-		if(pathname === "/release-notes/")
-			$('.site-header__nav > li > a[href="'+pathname+'"]').parent().addClass('active');
-		else{
-			$('.site-header__nav > li > a[href="/"]').parent().addClass('active');
-		}
-	})
 
 }( jQuery ) );
 
 function createNavSubMenu() {
-	let items = document.querySelectorAll("#content h3, #content h2:not(.content__title)");
-	if (items.length < 2) {
-		return "";
-	}
-	let array = []
-	for (let index = 0; index < items.length; index++) {
-		array.push( '<li><a href="#' + items[index].id + '" class="js-smooth-scroll">' + items[index].innerText + '</a></li>' )
-	}
-
-	return '<ul class="submenu">' + array.join('') + '</ul>';
+		let items = document.querySelectorAll("#content h3, #content h2:not(.content__title)");
+		if (items.length < 2) {
+			return "";
+		}
+		let array = []
+		for (let index = 0; index < items.length; index++) {
+			array.push( '<li><a href="#' + items[index].id + '" class="js-smooth-scroll">' + items[index].innerText + '</a></li>' )
+		}
+	
+		return '<ul class="submenu">' + array.join('') + '</ul>';
 }
 
 function currentActiveLinkSubMenu(obj, offset_top = 0) {
@@ -305,8 +353,36 @@ function currentActiveLinkSubMenu(obj, offset_top = 0) {
 	}
 }
 
+function createNavSubMenuReleaseNote(header) {
+	let prevMainHeader;
+	let nextMainHeader;
+	let arr = [];
+	for (let index = 0; index < header.length; index++) {
+		const element = header[index];
+
+		if (element.tagName == "H1" && !prevMainHeader) {
+			prevMainHeader = element;
+			continue
+		}
+
+		if (element.tagName == "H2") {
+			arr.push( '<li><a href="#' + element.id + '" class="js-smooth-scroll">' + element.innerText + '</a></li>' )
+			continue
+		}
+		if (element.tagName == "H1" || index == header.length - 1) {
+			if (arr.length != 0) {
+				document.querySelector("#micro-nav [href*='#" + prevMainHeader.id + "']").closest('li').innerHTML += '<ul class="submenu">' + arr.join('') + '</ul>';
+				// $("#micro-nav [href*='#" + prevMainHeader.id + "']").next('.submenu').slideUp(0);
+				arr.length = 0;
+			}
+			prevMainHeader = element;
+			continue
+		} 
+	}
+}
+
 function getCurrentNavLink() {
-	if(!document.querySelector(".micro-nav-header.page-menu")) {
+	if(!document.querySelector(".micro-nav-header.page-menu") || document.querySelector('#micro-nav.release-note ')) {
 		return false
 	}
 	let array = document.querySelectorAll("#micro-nav li a");
