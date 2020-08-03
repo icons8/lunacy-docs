@@ -280,7 +280,7 @@ You can apply styling options to multiple selected objects at the same time. If 
 
 Tints are a quick and easy way to apply a color to grouped objects and symbol instances. They are particularly useful when you need to adjust the color of a semi-filled object or a complex icon (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-tintsph.png" height="auto"><source src="/public/styling-tints.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-tintsph.png" height="auto"><source src="/public/styling-tints.mp4" type="video/mp4"></video>
 
 The **Tints** section appears in the Inspector only when you select a group object or a symbol.
 
@@ -294,7 +294,7 @@ Note that before using tint overrides you should add default tints.
 
 The demo below shows three instances of the same symbol. We first applied a tint override to a nested element, then switched to the <a href="https://docs.icons8.com/symbols/#editing-main-symbols" target="_blank">symbol edit mode</a> and modified the default tint. In the latter case, the change applied only to the instances without the override.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tintoverridesph2.png" height="auto"><source src="/public/tintoverrides2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tintoverridesph2.png" height="auto"><source src="/public/tintoverrides2.mp4" type="video/mp4"></video>
 
 When you apply an override, the reset button appears in the **Tint** section of the Inspector. Use this button to remove the override.
 
