@@ -70,13 +70,13 @@ ul.micro-nav {
 	width: 100%;
 	border-radius: 0 0 4px 4px;
 	max-height: calc(100vh - 80px);
-	overflow-y: scroll;
 	@media (min-width: $screen-lg-min) {
 		border-radius: 0;
 		border: 0;
 		border-right: 1px solid $color-main-border;
 	}
 	a {
+		display: block;
 		&:hover {
 			color: $color-blue;
 		}
@@ -86,7 +86,7 @@ ul.micro-nav {
   	line-height: 200%;
 		padding: 0px 15px;
 		@media (min-width: $screen-lg-min) {
-			padding: 0 10px 0 0;
+			padding: 0 15px 0 0;
 			font-size: 17px;
 	  	line-height: 176%;
 		}
@@ -116,16 +116,18 @@ ul.micro-nav {
 		position: absolute;
 	}
 }
+
 ul.submenu {
 	font-weight: normal;
 	margin: 10px 0 20px;
 	li {
 		font-size: 14px;
-		padding: 7px 0px 7px 19px;
+		padding: 7px 0;
 		border-left: 1px solid rgba(23, 157, 227, 0.1);
 		transition: 0.2s;
 		a {
 			color: #000000;
+			padding-left: 19px;
 		}
 		& + li {
 			margin-top: 0;
