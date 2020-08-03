@@ -77,6 +77,8 @@ The **Plugins** panel shows the list of currently installed plugins. You can:
 * Uninstall plugins. For this, right-click over the plugin that you no longer need, then click **Delete plugin** on the context menu.
 * Install a plugin from the list of recommended plugins.
 
+![Plugins panel](public/plugins-panel.png)
+
 ## Using plugins
 
 To run a plugin, open the **Plugins** menu and select the required plugin and an action (see the figure below).
