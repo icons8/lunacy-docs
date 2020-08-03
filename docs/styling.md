@@ -106,7 +106,7 @@ It features the following controls:
 8. Use this button to add the currently selected color to **Global** or **Document** presets.
 9. Use this button to switch the panel of presets between the list and grid view. In the list view, you can give names to colors: right-click a color and select **Rename** on the displayed menu (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-pickerph.png" height="auto"><source src="/public/styling-picker.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-pickerph.png" height="auto"><source src="/public/styling-picker.mp4" type="video/mp4"></video>
 
 ## Fills
 
