@@ -233,7 +233,6 @@ The Shape tool allows you to quickly add pre-made shapes that include:
 
 To add a shape, select the required shape on the fly-out menu and then drag and click on the canvas where you want it.
 
-{:.is-big}
 ![Shape tool](public/objects_adding_primitives.gif)
 
 For details about working with shapes, click <a href="https://docs.icons8.com/editing/" target="_blank">here</a>.
@@ -327,6 +326,7 @@ To add an image:
 3. Select the file. You can select multiple files at a time, if you want.
 4. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image as shown in the demo below.
 
+{:.is-big}
 ![Adding an image](public/objects_bitmaps.gif)
 
 Also, you can:
