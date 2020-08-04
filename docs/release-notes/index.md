@@ -30,15 +30,13 @@ page_nav:
 
 ---
 
-<!-- 
-
 # Version 6
 
 ## 6.0
 
-*RELEASED August XX, 2020*
+*RELEASED August 04, 2020*
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.9.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_6.0.0.exe)
 
 ### New features
 
@@ -100,8 +98,6 @@ To disable snapping, hold down `Ctrl` while dragging.
 * Prototyping issues.
 * Color picker issues.
 * Vector tool issues.
-
--->
 
 # Version 5
 
