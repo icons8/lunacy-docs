@@ -327,6 +327,7 @@ To add an image:
 3. Select the file. You can select multiple files at a time, if you want.
 4. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image as shown in the demo below.
 
+{:.is-big}
 ![Adding an image](public/objects_bitmaps.gif)
 
 Also, you can:

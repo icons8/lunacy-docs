@@ -324,12 +324,7 @@ Currently, Lunacy provides the following types of overrides:
 * Layer style overrides
 * Text style overrides
 * Hotspot overrides
-
-<!--
-
 * Tint overrides
-
--->
 
 ## Understanding overrides
 
@@ -468,6 +463,10 @@ Repeat the procedure to override text styles of the phone number and email addre
 ### Hotspot overrides
 
 If your template features a hotspot, you can override its target artboard. Optionally, you can select the none override option to disable the hotspot.
+
+### Tint overrides
+
+For details about tint overrides, read <a href="https://docs.icons8.com/styling/#tint-overrides" target="_blank">here</a>.
 
 ## Duplicating symbols
 
