@@ -130,8 +130,8 @@ The top section of the font family list shows the three fonts that you've recent
 The three buttons at the top of the list allow you to quickly filter the content of the list:
 
 * **All**: Shows the full list of fonts.
-* **System**: Shows the list of fonts installed on your computer.
-* **Google**: shows the list of fonts available in the <a href="https://fonts.google.com/" target="_blank">Google fonts</a> library. You don't need to download them. Lunacy will do it automatically. Lunacy's integration with Google fonts will solve most of you problems with missing fonts (click [here](#missing-fonts) for details).
+* **System**: Shows the list of fonts (TTF/OTF) installed on your computer.
+* **Google**: Shows the list of fonts available in the <a href="https://fonts.google.com/" target="_blank">Google fonts</a> library. You don't need to download them. Lunacy will do it automatically. Lunacy's integration with Google fonts will solve most of you problems with missing fonts (click [here](#missing-fonts) for details).
 
 The list shows font names and their samples. If a font's name is too long and appears truncated, hover a cursor over the name to view the full name. When you hover the cursor over font samples, Lunacy will display their larger previews. Google fonts come without samples until used.  
 
