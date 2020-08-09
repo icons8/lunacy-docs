@@ -37,7 +37,7 @@ doks:
       url: '/plugins'
     - title: 'Localization'
       url: '/localization'
-    - title: 'Support'
+    - title: 'FAQ and our contacts'
       url: '/support'
     - title: 'Release History'
       url: '/release-notes'
