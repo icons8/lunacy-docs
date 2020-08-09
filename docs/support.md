@@ -5,8 +5,8 @@ keywords:
 comments: false
 
 # Hero section
-title: Support
-description: FAQ and our contacts
+title: FAQ and our contacts
+description:
 icon: 'technical-support'
 
 # Micro navigation

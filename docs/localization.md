@@ -15,7 +15,7 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Support
+        content: FAQ and our contacts
         url: '/support'
     prev:
         content: Shortcuts

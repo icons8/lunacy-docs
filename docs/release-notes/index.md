@@ -25,7 +25,7 @@ release_note:
 
 page_nav:
     prev:
-        content: Support
+        content: FAQ and our contacts
         url: '/support'
 
 ---
