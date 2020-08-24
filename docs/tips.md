@@ -89,7 +89,7 @@ The next demo shows how you can modify shapes by adjusting their properties in t
 
 ## Resizing objects using keyboard
 
-To resize objects, you can use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or `CTRL+Shift + arrow keys` ( by 10 pixels) to resize objects.
+To resize objects, you can use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or `CTRL+Shift + arrow keys` ( by 10 pixels).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-keyresizeph.png" height="auto"><source src="/public/tips-keyresize.mp4" type="video/mp4"></video>
 
@@ -178,7 +178,7 @@ To quickly import an image from a web site to Lunacy, right-click over the image
 
 ## Image fills
 
-You can create an image fill by dropping an image from the Lunacy library or your desktop directly on to the object as shown in the demo below. For more information about image fills, click <a href="https://docs.icons8.com/styling/#image-fills" target="_blank">here</a>.  
+You can create an image fill by dropping an image from the Lunacy library or your desktop directly on to an object as shown in the demo below. For more information about image fills, click <a href="https://docs.icons8.com/styling/#image-fills" target="_blank">here</a>.  
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-imagefillph.png" height="auto"><source src="/public/styling-imagefill.mp4" type="video/mp4"></video>
 
