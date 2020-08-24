@@ -32,6 +32,8 @@ page_nav:
 
 # Version 6
 
+<!--
+
 ## 6.1
 
 *RELEASED August XX, 2020*
@@ -93,6 +95,8 @@ Also, you can hold down Shift to get a perfectly vertical, horizontal or 45-degr
 * Prototyping issues
 * Suggestions issues
 * Other minor fixes
+
+-->
 
 ## 6.0
 
