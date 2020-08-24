@@ -126,9 +126,9 @@ Make sure that:
 
 * You have the following components installed:
 
-    * Microsoft Visual C++ 2015 (<a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x64-installer" target="_blank">64-bit version</a>, <a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x86-installer" target="_blank">32-bit version</a> )
+    * Microsoft Visual C++ 2015 (click <a href="https://www.microsoft.com/en-US/download/details.aspx?id=48145" target="_blank">here</a> to download)
 
-    * Microsoft .Net Core 3.10+ (click <a href="https://www.microsoft.com/en-US/download/details.aspx?id=48145" target="_blank">here</a> to download) 
+    * Microsoft .Net Core 3.10+ (<a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x64-installer" target="_blank">64-bit version</a>, <a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x86-installer" target="_blank">32-bit version</a>)
 
     For this, check up the list of installed programs (in Windows, go to **Settings > Apps and Features**, see the figure below).
 
