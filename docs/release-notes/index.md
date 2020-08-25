@@ -19,11 +19,11 @@ release_note:
     - title: Version 4
       url: 'version-4'
     - title: Version 3
-      url: /version-3
+      url: 'version-3'
     - title: Version 2
-      url: /version-2
+      url: 'version-2'
     - title: Version 1
-      url: /version-1
+      url: 'version-1'
 
 page_nav:
     prev:
