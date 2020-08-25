@@ -48,7 +48,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 Lunacy 6.1 comes with a new look of the left panel. It has become easier to switch between the Objects list and the Libraries (Symbols, Styles, Icons, etc.).
 
-To minimize the left panel, click the icon of the currently open section or use a respective shortcut (Alt+1, Alt+2, ... Alt+8).       
+To minimize the left panel, click the icon of the currently open section or use a respective shortcut (`Alt+1`, `Alt+2`, ... `Alt+8`).       
 
 Also, we revised the order of tools on the toolbar.
 
@@ -71,17 +71,17 @@ Also, you can hold down Shift to get a perfectly vertical, horizontal or 45-degr
 
 ### Improvements
 
-* Now you can toggle the suggestions panel using the Ctrl+Space shortcut or the bulb button in the action bar.
+* Now you can toggle the suggestions panel using the `Ctrl+Space` shortcut or the bulb button in the action bar.
 * The ability to globally set icons color and size was removed. Now you can apply colors (tints) to icons individually through the suggestions panel.
 * Now symbol instances can have different states (hovered, pressed, etc.)
 * Added the Swap at Original Size option to the symbol settings in the Inspector. With this option enabled (default), when you swap a symbol, the selected instance will resize to fit the original size of the new symbol.
 * The license pop-up window will no longer disturb you. Now license proposals appear in the suggestions panel.
-* The Code panel tab is no longer available in the Inspector. To display the panel, use the View menu, context menu or the F4 hotkey.
+* The Code panel tab is no longer available in the Inspector. To display the panel, use the View menu, context menu or the `F4` hotkey.
 * Search fields improvements. Now all content filters appear in the search fields.
 * Tips on working in Lunacy now appear in the right panel when no object is selected.
 * Now you can copy-paste text and layer styles between open documents.
 * The Convert to Outlines feature now supports combined glyphs.
-* Now you can rename your projects right on the file tabs panel. Just double-click the project tab, enter a new name and press Enter.
+* Now you can rename your projects right on the file tabs panel. Just double-click the project tab, enter a new name and press `Enter`.
 * IME Text input improvements. Chinese and Korean now work fine. Input in other languages will perform a lot better.
 * New icon for .sketch files association in the Windows Explorer
 * Improved performance of the .sketch file opening and saving procedures.                                      
