@@ -56,7 +56,7 @@ grid_navigation:
     - title: 'Images'
       excerpt: Learn how to work with images in Lunacy
       url: '/images'
-      icon: 'book-shelf'
+      icon: 'full-image'
     - title: 'Export'
       excerpt: All you need to know about export in Lunacy
       url: '/export'
