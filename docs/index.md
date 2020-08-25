@@ -53,6 +53,10 @@ grid_navigation:
       excerpt: How to make use of our built-in icons, photos, images and UI kits
       url: '/libraries'
       icon: 'book-shelf'
+    - title: 'Images'
+      excerpt: Learn how to work with images in Lunacy
+      url: '/images'
+      icon: 'book-shelf'
     - title: 'Export'
       excerpt: All you need to know about export in Lunacy
       url: '/export'

@@ -330,6 +330,10 @@ To add an image:
 {:.is-big}
 ![Adding an image](public/objects_bitmaps.gif)
 
+For details about working with images, read <a href="https://docs.icons8.com/images/" target="_blank">here</a>.
+
+<!--
+
 Also, you can:
 
 * Drag images onto the canvas from your desktop or the Explorer.
@@ -367,6 +371,8 @@ The demo below shows the above two methods.
 4. Paste the image URL into the **File name** field.
 5. Click **Open**.
 6. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image.
+
+-->
 
 ## Avatar tool
 

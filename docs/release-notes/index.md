@@ -10,7 +10,7 @@ description: New features and fixes for each version of Lunacy
 icon: 'activity-history'
 
 # Micro navigation
-left_menu_off: false
+left_menu: 
 release_note:
     - title: Version 6
       url: /version-6

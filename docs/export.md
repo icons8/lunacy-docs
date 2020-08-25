@@ -18,8 +18,8 @@ page_nav:
         content: Sketch Cloud
         url: '/cloud'
     prev:
-        content: Libraries
-        url: '/libraries'
+        content: Images
+        url: '/images'
 ---
 
 

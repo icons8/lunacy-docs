@@ -23,6 +23,8 @@ doks:
       url: '/layerstyles/'
     - title: 'Libraries'
       url: '/libraries'
+    - title: 'Images'
+      url: '/images'
     - title: 'Export'
       url: '/export'
     - title: 'Sketch Cloud'

@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Export
-        url: '/export'
+        content: Images
+        url: '/images'
     prev:
         content: Layer and text styles
         url: '/layerstyles'
