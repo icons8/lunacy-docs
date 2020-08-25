@@ -13,11 +13,11 @@ icon: 'activity-history'
 left_menu_off: false
 release_note:
     - title: Version 6
-      url: '/version-6'
+      url: 'version-6'
     - title: Version 5
-      url: '/version-5'
+      url: 'version-5'
     - title: Version 4
-      url: '/version-4'
+      url: 'version-4'
     - title: Version 3
       url: /version-3
     - title: Version 2
