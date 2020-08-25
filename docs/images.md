@@ -29,7 +29,7 @@ This chapter details, ho to work with raster images. Lunacy supports all the pop
 
 You can:
 
-* Use photos from the Lunacy <a href="https://docs.icons8.com/libraries/#photos-and-masked-photos" target="_blank">library</a>.
+* Add photos from the Lunacy <a href="https://docs.icons8.com/libraries/#photos-and-masked-photos" target="_blank">library</a>.
 * Use the <a href="https://docs.icons8.com/tools/#image-tool" target="_blank">Image tool</a> to add images from your computer.
 * Copy image files from your desktop or the Explorer and then paste them onto the canvas.
 * Drag image files from your desktop or the Explorer and then drop them onto the canvas.
@@ -95,7 +95,7 @@ To crop an image:
 3. Drag the borders of the frame to select the required area.
 4. Press `Enter` or click the **Apply editing** button in the Inspector.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/images-cropph.png" height="auto"><source src="/public/images-crop.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-cropph.png" height="auto"><source src="/public/images-crop.mp4" type="video/mp4"></video>
 
 ## Adjusting image colors
 
@@ -103,7 +103,7 @@ You can make color adjustments to your images using the controls in the **Adjust
 
 These adjustments are non-destructive. You can quickly restore the initial color of an image by clicking the **Reset values** ([Reset values button](public/resetvaluesicon.png)) next to the section header (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/images-adjustph.png
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-adjustph.png
 " height="auto"><source src="/public/images-adjust.mp4" type="video/mp4"></video>
 
 Also, you can adjust color settings of several images at a time.
