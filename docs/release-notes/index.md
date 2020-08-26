@@ -323,7 +323,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Improved SVG import
 - Ability to collapse and expand resizing and appearance inspectors
 - Bigger active zones and smaller size for magnets
-- Ability to autoresize text boxes on the canvas by clicking on the boarders of text box
+- Ability to autoresize text boxes on the canvas by clicking on the boarders of a text box
 
 ### Bug Fix
 - Fixed typography issues

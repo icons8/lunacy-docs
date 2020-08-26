@@ -86,6 +86,9 @@ There are two ways to replace images.
 
 **Tip:** If the green mask does not appear, try to zoom in a bit.
 
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-replaceph.png" height="auto"><source src="/public/images-replace.mp4" type="video/mp4"></video>
+
+
 ## Cropping images
 
 To crop an image:
