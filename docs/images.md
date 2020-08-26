@@ -71,14 +71,6 @@ The demo below shows methods 2 and 3.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage11.mp4" type="video/mp4"></video>
 
-**Way 3**
-
-1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image address** or similar command.
-3. Switch to Lunacy and click the Image tool. The **Open** dialog box appears.
-4. Paste the image URL into the **File name** field.
-5. Click **Open**.
-6. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image.
 
 ## Replacing images
 
