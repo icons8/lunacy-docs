@@ -75,6 +75,9 @@ There are two ways to replace images.
 
 1. Select an image on the canvas.
 2. In the **Image** section of the Inspector, click the **Replace image** button. The **Open** dialog box appears.
+
+    ![Image crop button](public/images-replace.png)
+
 3. Browse to the new image file, select it and click **Open**.
 
 **Tip:** You can also use this method, when you need to replace your current image with an image from the internet. In such a case, just paste the URL of the new image into the **File name** of the **Open** dialog box and click **Open**.
