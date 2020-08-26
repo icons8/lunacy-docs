@@ -39,7 +39,7 @@ There are several ways of adding images from the internet.
 
 **Way 1**
 
-That's is the most reliable method of importing images from the internet.
+That is the most reliable method.
 
 1. In your web browser, right-click over the image. The context menu appears.
 2. On the displayed menu, click **Copy image address** or similar command.
