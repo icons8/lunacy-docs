@@ -67,9 +67,7 @@ When using this method you should understand that you are importing an image dis
 3. Switch to Lunacy and right-click over the canvas.
 4. Click **Paste here** on the context menu.
 
-
-
-The demo below shows the above two methods.
+The demo below shows methods 2 and 3.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage11.mp4" type="video/mp4"></video>
 
