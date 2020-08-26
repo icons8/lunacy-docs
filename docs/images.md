@@ -39,12 +39,18 @@ There are several ways of adding images from the internet.
 
 **Way 1**
 
+That's is the most reliable method of importing images from the internet.
+
 1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image** or similar command.
-3. Switch to Lunacy and right-click over the canvas.
-4. Click **Paste here** on the context menu.
+2. On the displayed menu, click **Copy image address** or similar command.
+3. Switch to Lunacy and click the Image tool. The **Open** dialog box appears.
+4. Paste the image URL into the **File name** field.
+5. Click **Open**.
+6. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image.
 
 **Way 2**
+
+This method works only when a web site provides direct links to images with an image extension at the end (.jpg, .png, .etc.).
 
 1. In your web browser, right-click over the image. The context menu appears.
 2. On the displayed menu, click **Copy image address** or similar command.
@@ -52,7 +58,16 @@ There are several ways of adding images from the internet.
 4. Click **Paste here** on the context menu. The **Paste as image** dialog box appears.
 5. Click **OK** to paste the image. If you click **Cancel**, Lunacy will paste the image address as text.
 
-**Note:** The second method works only when a web site provides direct links to images with an image extension at the end (.jpg, .png, .etc.).
+**Way 3**
+
+When using this method you should understand that you are importing an image displayed in your web browser rather than the original file, so the quality of such an image will be lower.
+
+1. In your web browser, right-click over the image. The context menu appears.
+2. On the displayed menu, click **Copy image** or similar command.
+3. Switch to Lunacy and right-click over the canvas.
+4. Click **Paste here** on the context menu.
+
+
 
 The demo below shows the above two methods.
 
@@ -115,6 +130,8 @@ These adjustments are non-destructive. You can discard all changes and restore t
 Also, you can adjust color settings of several images at the same time.
 
 ## Background removal
+
+**Note:** This feature works fine only with images that feature humans.
 
 To remove background from an image:
 
