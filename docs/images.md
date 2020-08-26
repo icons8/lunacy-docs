@@ -23,7 +23,7 @@ page_nav:
 ---
 
 
-This chapter details, ho to work with raster images. Lunacy supports all the popular image formats like PNG, JPG, JPEG, WEBP, BMP, ICO, GIF, SVG. The TIFF format is not supported.
+This chapter details how to work with raster images. Lunacy supports all the popular image formats like PNG, JPG, JPEG, WEBP, BMP, ICO, GIF, SVG. The TIFF format is not supported.
 
 ## Adding images
 
@@ -80,7 +80,7 @@ There are two ways to replace images.
 
 3. Browse to the new image file, select it and click **Open**.
 
-**Tip:** You can also use this method, when you need to replace your current image with an image from the internet. In such a case, just paste the URL of the new image into the **File name** of the **Open** dialog box and click **Open**.
+**Tip:** You can also use this method, when you need to replace your current image with an image from the internet. In such a case, just paste the URL of the new image into the **File name** field of the **Open** dialog box and click **Open**.
 
 **Way 2**
 
@@ -107,12 +107,12 @@ To crop an image:
 
 You can make color adjustments to your images using the controls in the **Adjust image** section of the Inspector. The section appears only when an image is selected. Just click the `+` button to unfold the panel and move the sliders to adjust hue, saturation, brightness, and contrast.
 
-These adjustments are non-destructive. You can quickly restore the initial color of an image by clicking the **Reset values** ([Reset values button](public/resetvaluesicon.png)) next to the section header (see the demo below).
+These adjustments are non-destructive. You can discard any chages and restore the original image by clicking the **Reset values** (![Reset values button](public/resetvaluesicon.png)) next to the section header (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-adjustph.png
 " height="auto"><source src="/public/images-adjust.mp4" type="video/mp4"></video>
 
-Also, you can adjust color settings of several images at a time.
+Also, you can adjust color settings of several images at the same time.
 
 ## Background removal
 
