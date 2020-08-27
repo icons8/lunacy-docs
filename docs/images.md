@@ -46,6 +46,9 @@ That is the most reliable method.
 3. Switch to Lunacy and click the Image tool. The **Open** dialog box appears.
 4. Paste the image URL into the **File name** field.
 5. Click **Open**.
+
+    ![Importing images from the internet](public/images-import.png)
+
 6. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image.
 
 **Way 2**
@@ -81,7 +84,7 @@ There are two ways to replace images.
 1. Select an image on the canvas.
 2. In the **Image** section of the Inspector, click the **Replace image** button. The **Open** dialog box appears.
 
-    ![Image crop button](public/images-replace.png)
+    ![Replacing images](public/images-replace.png)
 
 3. Browse to the new image file, select it and click **Open**.
 
