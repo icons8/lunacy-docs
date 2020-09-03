@@ -31,7 +31,7 @@ The table below provides an overview of the controls and their shortcuts.
 <table>
   <thead>
     <tr>
-      <th style="width: 60px;">Tool icon</th>
+      <th style="width: 85px;">Tool icon</th>
       <th>Description</th>
       <th>Keyboard shortcut</th>
     </tr>
@@ -488,7 +488,7 @@ The Zoom tool allows you to zoom in the selected object or canvas area. To use t
 2. Click the object you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be).
 3. To zoom out, hold down `Alt` and click or drag over the object or area.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom61.mp4" type="video/mp4"></video>
 
 For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
 

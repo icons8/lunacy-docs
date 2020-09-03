@@ -24,7 +24,7 @@ page_nav:
 The Lunacy interface is intuitive and minimal. It contains only essential controls, so you don’t have to spend much time learning how to interact with it.
 
 {:.is-big}
-![Lunacy interface](public/interface-genview_notext.png)
+![Lunacy interface](public/interface_genview61.png)
 
 The interface consists of the following main elements.
 
@@ -158,7 +158,7 @@ The operations that you can perform in the objects list include:
 * **Locking objects**. By locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
 * Other [basic operations](#context-menu) with objects available on the context menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist61.mp4" type="video/mp4"></video>
 
 To collapse all branches in the object tree use the `Ctrl + ~` shortcut.
 
@@ -263,7 +263,7 @@ Ruler and guides will help you position and align objects on the canvas. In Luna
 
 To create a guide, click anywhere on a ruler and drag the guide onto the canvas to where you need it. Now you can position objects along the guide. Move an object close to the guide and note how it will snap to the guide.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-guides.png" height="auto"><source src="/public/inteface-guides61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-guides.png" height="auto"><source src="/public/inteface-guides61.mp4" type="video/mp4"></video>
 
 To relocate a guide, just drag it to another position. If you don't need a guide, click to select it (hold down `Shift` to select multiple guides) and press `Delete`. Also, you can use the options from the pop-up menu invoked by a right-click over a ruler (see the figure below).
 
@@ -354,7 +354,7 @@ The next demo shows the above three procedures.
 
 The easiest way to zoom to an object in Lunacy is to hold down the `Ctrl` key and rotate the mouse wheel. Similarly, you can hold down `Ctrl` and `Shift` keys. In such a case the speed of zooming will be slower (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomtoobject61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomtoobject61.mp4" type="video/mp4"></video>
 
 For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
 
@@ -373,7 +373,7 @@ The zoom control is found on the right of the file tab panel. To change the zoom
 
 The demo below shows the first two methods.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl61.mp4" type="video/mp4"></video>
 
 Alternatively, you can click the down arrowhead next to the zoom control and select one of the preset values or options on the displayed menu (see the figure below).
 
