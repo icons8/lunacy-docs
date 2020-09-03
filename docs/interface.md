@@ -134,7 +134,7 @@ To change the position of a page in the list, just drag it up or down to where y
 
 The rest of the operations are accessible through the context menu invoked by a right-click over the required page name.
 
-<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages61.mp4" type="video/mp4"></video>
 
 There is also a special type of a page - the Symbols page. For details, read <a href="https://docs.icons8.com/symbols/#symbols-page" target="_blank">here</a>.
 
@@ -371,7 +371,7 @@ The zoom control is found on the right of the file tab panel. To change the zoom
 * Hover the cursor over the zoom control edit field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
 * Click over the edit field of the zoom control and rotate the mouse wheel.
 
-The demo below shows the first two methods.
+The demo below shows all these three methods.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl61.mp4" type="video/mp4"></video>
 
