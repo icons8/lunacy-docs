@@ -50,6 +50,8 @@ The Lunacy icon library exceeds 140 thousand items which is more than enough eve
 
 ![Downloading icons library](public/dnldicn.png)
 
+<!--
+
 When working with icons you can select their:
 
 * Initial size
@@ -57,6 +59,8 @@ When working with icons you can select their:
 * Opacity
 
 ![Working with icons](public/iconssizecolor2.gif)
+
+-->
 
 ## [Photos and masked photos](#photos-and-masked-photos)
 
