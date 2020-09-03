@@ -59,9 +59,14 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Lock Guidelines |`Ctrl+Alt+;` |
 | Collapse the Objects list |`Ctrl+~` |
 | Switch to Objects |`Alt+1` |
-| Switch to Libraries |`Alt+2` |
-| Switch to Properties |`Alt+3` |
-| Switch to Code |`Alt+4` |
+| Switch to Symbols |`Alt+2` |
+| Switch to Styles |`Alt+3` |
+| Switch to Icons |`Alt+4` |
+| Switch to Photos |`Alt+5` |
+| Switch to Illustrations |`Alt+6` |
+| Switch to UI Kits |`Alt+7` |
+| Switch to Plugins |`Alt+8` |
+| Switch to Shortcuts |`Shift+F1` |
 
 ## Tools
 
@@ -72,7 +77,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Text	|`T` |
 | Rectangle |`R`|
 | Rounded Rectangle |`U`|
-| Oval |`O` |
+| Ellipse |`O` |
 | Line |`L` |
 | Pencil Tool |`N` |
 | Pen Tool |`P` |

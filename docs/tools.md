@@ -31,21 +31,76 @@ The table below provides an overview of the controls and their shortcuts.
 <table>
   <thead>
     <tr>
-      <th style="width: 85px;">Tool icon</th>
+      <th style="width: 60px;">Tool icon</th>
       <th>Description</th>
       <th>Keyboard shortcut</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><img src="/public/tool-selecticon.png" alt="Select tool"></td>
+      <td><img src="/public/tool-selecticon61.png" alt="Select tool"></td>
       <td><a href="https://docs.icons8.com/tools/#select-tool">Select tool</a>. Allows you to select, move and resize objects and object groups.</td>
       <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
     </tr>
     <tr>
-      <td><img src="/public/tool-zoomicon.png" alt="Zoom tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#zoom-tool">Zoom tool</a>. Serves for zooming in the selected object or canvas area.</td>
-      <td><code>Z</code></td>
+      <td><img src="/public/tool-artboardicon61.png" alt="Artboard tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#artboard-tool">Artboard tool</a>. Serves for adding artboards onto the canvas. Shares the same fly-out menu with the Hotspot tool.</td>
+      <td><code>A</code></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tool-imageicon61.png" alt="Image tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#image-tool">Image tool</a>.  Serves for adding images to your designs. Shares the same fly-out menu with the Avatar and Slice tools.</td>
+      <td><code>M</code></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tool-texticon61.png" alt="Text tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#text-tool">Text tool</a>. Serves for adding text layers.</td>
+      <td><code>T</code></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tool-penicon61.png" alt="Pen tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#pen-tool">Pen tool</a>. Serves for adding custom vector shapes. Shares the same fly-out menu with the Pencil tool.</td>
+      <td><code>P</code></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tool-pencilicon61.png" alt="Pencil tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#pencil-tool">Pencil tool</a>. Serves for adding freehand shapes. Shares the same fly-out menu with the Pen tool.</td>
+      <td><code>N</code></td>
+    </tr>
+    <tr>
+      <td><p><img src="/public/tool-lineicon61.png" alt="Line tool"></p><p><img src="/public/tool-rectangleicon61.png" alt="Rectangle tool"></p><p><img src="/public/tool-ellipseicon61.png" alt="Ellipse tool"></p><p><img src="/public/tool-tiangleicon61.png" alt="Triangle tool"></p></td>
+      <td><a href="https://docs.icons8.com/tools/#shape-tool">Shape tools</a>. Serve for adding pre-made shapes. The Line tool shares the same fly-out menu with the Arrow. The Rectangle tool shares the same fly-out menu with the Rounded rectangle. The Triangle tool shares the same fly-out menu with the Polygon and Star. Only the most frequently used shapes have shortcuts.</td>
+      <td><p><code>R</code> - rectangle</p><p><code>U</code> - rounded rectangle</p><p><code>O</code> - ellipse</p><p><code>L</code> - line</p></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tool-iconicon61.png" alt="Icon tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#icon-tool">Icon tool</a>. Keeps the icons that you've recently used at hand. After you use the tool for the first time, the latest icon appears on the toolbar instead of the original tool icon.</td>
+      <td><code>X</code></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tool-avataricon61.png" alt="Avatar tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#avatar-tool">Avatar tool</a>. Serves for quickly adding avatars to your designs.</td>
+      <td><code>Q</code></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tools-guiicon61.png" alt="GUI tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#icon-tool">GUI tool</a>. A set of tools that allows you to quickly add basic GUI controls.</td>
+      <td><p><code>B</code> - button</p><p><code>D</code> - text input</p><p><code>Y</code> - radio button</p><p><code>F</code> - checkbox</p><p><code>K</code> - toggle</p><p><code>W</code> - dropdown list</p></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tools-symbolicon61.png" alt="Symbol tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#icon-tool">Symbol tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder symbols and then replacing them with required GUI elements.</td>
+      <td><code>C</code></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tool-hotspoticon61.png" alt="Hotspot tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#hotspot-tool">Hotspot tool</a>. Serves for adding hotspots when working on prototypes.</td>
+      <td><code>H</code></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tool-sliceicon61.png" alt="Slice tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#slice-tool">Slice tool</a>. Serves for quick export of selected areas. Shares the same fly-out menu with the Image and Avatar tools.</td>
+      <td><code>E</code></td>
     </tr>
     <tr>
       <td><img src="/public/tool-eyedropicon.png" alt="Eyedropper tool"></td>
@@ -53,74 +108,9 @@ The table below provides an overview of the controls and their shortcuts.
       <td><code>I</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-texticon.png" alt="Text tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#text-tool">Text tool</a>. Serves for adding text layers.</td>
-      <td><code>T</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-shapeicon.png" alt="Shape tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#shape-tool">Shape tool</a>. Serves for adding pre-made shapes. The icon in the toolbar varies depending on the shape that you added last. Only the most frequently used shapes have shortcuts.</td>
-      <td><p><code>R</code> - rectangle</p><p><code>U</code> - rounded rectangle</p><p><code>O</code> - ellipse</p><p><code>L</code> - line</p></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-penicon.png" alt="Pen tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#pen-tool">Pen tool</a>. Serves for adding custom vector shapes. Shares the same fly-out menu with the Pencil tool.</td>
-      <td><code>P</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-pencilicon.png" alt="Pencil tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#pencil-tool">Pencil tool</a>. Serves for adding freehand shapes. Shares the same fly-out menu with the Pen tool.</td>
-      <td><code>N</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-imageicon.png" alt="Image tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#image-tool">Image tool</a>.  Serves for adding images to your designs. Shares the same fly-out menu with the Avatar and Slice tools.</td>
-      <td><code>M</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-avataricon.png" alt="Avatar tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#avatar-tool">Avatar tool</a>. Serves for quickly adding avatars to your designs. Shares the same fly-out menu with the Image and Slice tools.</td>
-      <td><code>Q</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-sliceicon.png" alt="Slice tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#slice-tool">Slice tool</a>. Serves for quick export of selected areas. Shares the same fly-out menu with the Image and Avatar tools.</td>
-      <td><code>E</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-artboardicon.png" alt="Artboard tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#artboard-tool">Artboard tool</a>. Serves for adding artboards onto the canvas. Shares the same fly-out menu with the Hotspot tool.</td>
-      <td><code>A</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-hotspoticon.png" alt="Hotspot tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#hotspot-tool">Hotspot tool</a>. Serves for adding hotspots when working on prototypes. Shares the same fly-out menu with the Artboard tool.</td>
-      <td><code>H</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tools-guiicon1.png" alt="GUI tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#icon-tool">GUI tool</a>. A set of tools that allows you to quickly add basic GUI controls.</td>
-      <td><p><code>B</code> - button</p><p><code>D</code> - text input</p><p><code>Y</code> - radio button</p><p><code>F</code> - checkbox</p><p><code>K</code> - toggle</p><p><code>W</code> - dropdown list</p></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tools-symbolicon.png" alt="Symbol tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#icon-tool">Symbol tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder symbols and then replacing them with required GUI elements.</td>
-      <td><code>C</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-iconicon.png" alt="Icon tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#icon-tool">Icon tool</a>. Keeps the icons that you've recently used at hand. After you use the tool for the first time, the latest icon appears on the toolbar instead of the tool icon.</td>
-      <td><code>X</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-shortcutsicon.png" alt="Shortcuts button"></td>
-      <td>Shortcuts button. Opens a panel with the full list of Lunacy shortcuts.</td>
-      <td><code>Shift+F1</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-hidesidebaricon3.png" alt="Hide sidebar button"></td>
-      <td>Hide/show sidebar button. Use this button to hide/show the left panel.</td>
-      <td><code>-</code></td>
+      <td><img src="/public/tool-zoomicon.png" alt="Zoom tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#zoom-tool">Zoom tool</a>. Serves for zooming in the selected object or canvas area.</td>
+      <td><code>Z</code></td>
     </tr>
   </tbody>
 </table>
@@ -159,84 +149,84 @@ When you click or drag over a group of objects, you select the group. To select 
 
 >**Tip:** Alternatively, you can select objects through the **Objects** panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects. For details about working with objects, click <a href="https://docs.icons8.com/objects/" target="_blank">here</a>.
 
-## Zoom tool
+## Artboard tool
 
-The Zoom tool allows you to zoom in the selected object or canvas area. To use the tool:
+Artboards are a way to divide the canvas into separate areas with different content. Artboards are optional but they come in handy when you're designing for a certain screen size or device.
 
-1. Select the Zoom tool on the tool bar or press `Z`.
-2. Click the object you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be).
-3. To zoom out, hold down `Alt` and click or drag over the object or area.
+To add an artboard:
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom.mp4" type="video/mp4"></video>
-
-For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
-
-1. Through the menu (**View** > **Pixel grid**).
-2. Deselect all objects on the canvas and clear the **Show pixel grid** checkbox that will appear in the Inspector.
-
-For information about other zooming options in Lunacy, read <a href="https://docs.icons8.com/interface/#zooming-options" target="_blank">here</a>.
-
-## Eyedropper tool
-
-Working with colors is an essential part of a designer's job. The smart eyedropper tool is designed to make this work easy and effective.
-
-To use the eyedropper tool:
-
-1. Select an object to which you are going to apply a color. If you don't select any object, Lunacy applies the color to the workspace.
-2. Click the eyedropper icon on the toolbar or on the color picker panel, or just press `I`. The cursor turns into the eyedropper. Also, the **Colors** panel appears on the left. It features four pallets:
-  
-    * Recent colors
-    * Document colors
-    * Flat colors
-    * Material colors
-
-3. Hover the eyedropper over the color that you want to sample anywhere on the screen and click to apply it.
+1. Select the artboard tool on the toolbar or press `A`.
+2. Click and drag to create a custom size artboard or select an option from the artboard selection panel which will appear on the right (see the figure below).
 
 {:.is-big}
-![Using the eyedropper](public/eye-general.png)
+![Adding an artboard](public/tool-addatrboard.png)
 
-That is typically how all eyedroppers work in similar apps. But Lunacy's eyedropper also features a very nice zoom option that comes in handy when the target area is small and you need pixel precision. To enable zoom, hover the eyedropper over the target and hold down the left mouse button. Then point the eyedropper to the required pixel and release the mouse button. To exit the zoom mode, press `Esc` or quickly swipe the cursor anywhere away from the current area, see the demo below.
+**Tip:** If there are already some objects on the canvas and you decide to put them on an artboard, just drag the artboard tool over these objects.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/eyedropper3-placeholder.png" height="auto"><source src="/public/eyedropper3.mp4" type="video/mp4"></video>
+For details, about using artboards read <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.
 
-### How Lunacy applies color to objects
+## Image tool
 
-Depending on the styling properties of an object, Lunacy applies colors in the following order:
+The Image tool serves for quick adding images from files to your designs. Lunacy supports all the popular image formats like PNG, JPG, JPEG, WEBP, BMP, ICO, GIF, SVG. The TIFF format is not supported.
 
-1. Fill
-2. Border
-3. Shadow
-4. Inner shadow
+To add an image:
 
-So, if an object has a fill and a border, Lunacy updates the fill. If an object has no fill, but has a border and a shadow, Lunacy changes the border color and so on. If an object has several fills/borders/shadows/inner shadows, Lunacy applies the color to the one which sits at the top of the property list in the Inspector. Similar rules apply to text objects where text color has top priority.
-
-To demonstrate all this, in the figure below we applied the colors of the rectangles to the ellipses with different sets of styling properties.
+1. Click the tool icon on the toolbar. The **Open** dialog box appears.
+2. In the **Open** dialog box, browse to the required file.
+3. Select the file. You can select multiple files at a time, if you want.
+4. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image as shown in the demo below.
 
 {:.is-big}
-![Applying colors](public/eye-apply.png)
+![Adding an image](public/objects_bitmaps.gif)
+
+For details about working with images, read <a href="https://docs.icons8.com/images/" target="_blank">here</a>.
+
+<!--
+
+Also, you can:
+
+* Drag images onto the canvas from your desktop or the Explorer.
+* Copy image files from your desktop or the Explorer and then paste them onto the canvas.
+* Import images from the internet.
+
+There are several ways of adding images from the internet.
+
+**Way 1**
+
+1. In your web browser, right-click over the image. The context menu appears.
+2. On the displayed menu, click **Copy image** or similar command.
+3. Switch to Lunacy and right-click over the canvas.
+4. Click **Paste here** on the context menu.
+
+**Way 2**
+
+1. In your web browser, right-click over the image. The context menu appears.
+2. On the displayed menu, click **Copy image address** or similar command.
+3. Switch to Lunacy and right-click over the canvas.
+4. Click **Paste here** on the context menu. The **Paste as image** dialog box appears.
+5. Click **OK** to paste the image. If you click **Cancel**, Lunacy will paste the image address as text.
+
+**Note:** The second method works only when a web site provides direct links to images with an image extension at the end (.jpg, .png, .etc.).
+
+The demo below shows the above two methods.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage11.mp4" type="video/mp4"></video>
+
+**Way 3**
+
+1. In your web browser, right-click over the image. The context menu appears.
+2. On the displayed menu, click **Copy image address** or similar command.
+3. Switch to Lunacy and click the Image tool. The **Open** dialog box appears.
+4. Paste the image URL into the **File name** field.
+5. Click **Open**.
+6. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image.
+
+-->
 
 ## Text tool
 
 The Text tool serves for adding text layers. For details about working with text in Lunacy, click <a href="https://docs.icons8.com/text/" target="_blank">here</a>.
 
-## Shape tool
-
-The Shape tool allows you to quickly add pre-made shapes that include:
-
-* Rectangles
-* Rounded rectangles
-* Ovals
-* Lines
-* Stars
-* Polygons
-* Arrows
-
-To add a shape, select the required shape on the fly-out menu and then drag and click on the canvas where you want it.
-
-{:.is-big}
-![Shape tool](public/objects_adding_primitives.gif)
-
-For details about working with shapes, click <a href="https://docs.icons8.com/editing/" target="_blank">here</a>.
 
 ## Pen tool
 
@@ -316,63 +306,39 @@ Lunacy automatically smooths the paths that you create. But you can also edit pe
 
 Finally, you can make use of such styling properties as borders, shadows, inner shadows and blurs. As for fills, you should remember that the Pencil always draws open paths, even if they appear as closed. You can try to apply fills but in many cases the result can be weird. If you need to close a path, enable the object edit mode and click the **Close path** button which will appear in the Inspector.
 
-## Image tool
+## Shape tools
 
-The Image tool serves for quick adding images from files to your designs. Lunacy supports all the popular image formats like PNG, JPG, JPEG, WEBP, BMP, ICO, GIF, SVG. The TIFF format is not supported.
+The Shape tools allow you to quickly add pre-made shapes that include:
 
-To add an image:
+* Rectangles
+* Rounded rectangles
+* Ovals
+* Lines
+* Stars
+* Polygons
+* Arrows
 
-1. Click the tool icon on the toolbar. The **Open** dialog box appears.
-2. In the **Open** dialog box, browse to the required file.
-3. Select the file. You can select multiple files at a time, if you want.
-4. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image as shown in the demo below.
+To add a shape, select the required shape on the toolbar and then drag and click on the canvas where you want it.
 
 {:.is-big}
-![Adding an image](public/objects_bitmaps.gif)
+![Shape tool](public/objects_adding_primitives.gif)
 
-For details about working with images, read <a href="https://docs.icons8.com/images/" target="_blank">here</a>.
+For details about working with shapes, click <a href="https://docs.icons8.com/editing/" target="_blank">here</a>.
 
-<!--
 
-Also, you can:
+## Icon tool
 
-* Drag images onto the canvas from your desktop or the Explorer.
-* Copy image files from your desktop or the Explorer and then paste them onto the canvas.
-* Import images from the internet.
+The Icon tool serves to simplify your work with icons and keeps the items that you've recently used at hand. A click over the icon tool on the toolbar opens the <a href="https://docs.icons8.com/libraries/#icons" target="_blank">Icons library</a> where you can select the required icon.
 
-There are several ways of adding images from the internet.
+![A view of the icon tool](public/tool-icontoolview1.png)
 
-**Way 1**
+Alternatively, to start using the tool, press `X`. When enabled, the tool appears with the latest icon that you've used. Press `X` again to switch to the next recent icon or `Shift + X` to return to the previous one.
 
-1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image** or similar command.
-3. Switch to Lunacy and right-click over the canvas.
-4. Click **Paste here** on the context menu.
+For your convenience, when you select an icon on the canvas, Lunacy displays the suggestions panel with your recent icons. To replace the selected icon with an icon from the suggestions panel, just click the required icon. The maximum number of displayed recent icons is 16.
 
-**Way 2**
+![A view of the icon tool](public/tool-icontoolsugg.png)
 
-1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image address** or similar command.
-3. Switch to Lunacy and right-click over the canvas.
-4. Click **Paste here** on the context menu. The **Paste as image** dialog box appears.
-5. Click **OK** to paste the image. If you click **Cancel**, Lunacy will paste the image address as text.
-
-**Note:** The second method works only when a web site provides direct links to images with an image extension at the end (.jpg, .png, .etc.).
-
-The demo below shows the above two methods.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage11.mp4" type="video/mp4"></video>
-
-**Way 3**
-
-1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image address** or similar command.
-3. Switch to Lunacy and click the Image tool. The **Open** dialog box appears.
-4. Paste the image URL into the **File name** field.
-5. Click **Open**.
-6. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image.
-
--->
+**Note**: The color selected in the **Icons** library affects the color of icons in the suggestion panel.
 
 ## Avatar tool
 
@@ -396,58 +362,6 @@ To change the image of an avatar, click the refresh button at the top left corne
 >**Tip:** Although avatars appear as circles when you add them to the canvas, in fact they are rounded rectangles. So, you can play with the value of the corner radius, if you wish.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-avatardemo.png" height="auto"><source src="/public/avatardemo.mp4" type="video/mp4"></video>
-
-## Artboard tool
-
-Artboards are a way to divide the canvas into separate areas with different content. Artboards are optional but they come in handy when you're designing for a certain screen size or device.
-
-To add an artboard:
-
-1. Select the artboard tool on the toolbar or press `A`.
-2. Click and drag to create a custom size artboard or select an option from the artboard selection panel which will appear on the right (see the figure below).
-
-{:.is-big}
-![Adding an artboard](public/tool-addatrboard.png)
-
-**Tip:** If there are already some objects on the canvas and you decide to put them on an artboard, just drag the artboard tool over these objects.
-
-For details, about using artboards read <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.  
-
-## Slice tool
-
-The Slice tool allows you to select a specific area on your design and export it to a file.
-
-To make use of the Slice tool:
-
-1. Enable the tool by selecting it on the toolbar or simply press `E`.
-2. Click and drag over the area you want to export. The **Export assets** panel appears in the Inspector.
-3. Define the required export settings.
-4. Click **Export selected**.
-
-To hide/show slices on the canvas, use the **Show slices** button on the top bar.
-
-![Adding a slice](public/tool-slicebtn.png)
-
-To remove a slice from the canvas, select it and press`Del`.
-
-For more information about export in Lunacy, click <a href="https://docs.icons8.com/export" target="_blank">here</a>.
-
-## Hotspot tool
-
-Use the Hotspot tool to create hotspot zones when designing prototypes. To add a hotspot:
-
-1. Enable the tool by selecting it on the toolbar or simply press `H`.
-2. Click and drag over the area you want to have a hotspot.
-
-The demo below shows the procedure of creating a hotspot and setting a target artboard.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-addhotspotplaceholder.png" height="auto"><source src="/public/tool-addhotspot.mp4" type="video/mp4"></video>
-
-To hide/show hotspots and prototyping links on the canvas, use the **Show prototyping** button on the top bar.
-
-![Show/hide prototyping](public/tool-showproto.png)
-
-For more information about prototyping in Lunacy, click <a href="https://docs.icons8.com/prototyping" target="_blank">here</a>.
 
 
 ## GUI tool
@@ -490,16 +404,95 @@ The symbol tool allows you to quickly create mockups of interfaces by adding pla
 
 ![Tagging symbols](public/rn5_9-symbtool4.png)
 
-## Icon tool
+## Hotspot tool
 
-The Icon tool serves to simplify your work with icons and keeps the items that you've recently used at hand. A click over the icon tool on the toolbar opens the <a href="https://docs.icons8.com/libraries/#icons" target="_blank">Icons library</a> where you can select the required icon.
+Use the Hotspot tool to create hotspot zones when designing prototypes. To add a hotspot:
 
-![A view of the icon tool](public/tool-icontoolview1.png)
+1. Enable the tool by selecting it on the toolbar or simply press `H`.
+2. Click and drag over the area you want to have a hotspot.
 
-Alternatively, to start using the tool, press `X`. When enabled, the tool appears with the latest icon that you've used. Press `X` again to switch to the next recent icon or `Shift + X` to return to the previous one.
+The demo below shows the procedure of creating a hotspot and setting a target artboard.
 
-For your convenience, when you select an icon on the canvas, Lunacy displays the suggestions panel with your recent icons. To replace the selected icon with an icon from the suggestions panel, just click the required icon. The maximum number of displayed recent icons is 16.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-addhotspotplaceholder.png" height="auto"><source src="/public/tool-addhotspot.mp4" type="video/mp4"></video>
 
-![A view of the icon tool](public/tool-icontoolsugg.png)
+To hide/show hotspots and prototyping links on the canvas, use the **Show prototyping** button on the top bar.
 
-**Note**: The color selected in the **Icons** library affects the color of icons in the suggestion panel.
+![Show/hide prototyping](public/tool-showproto.png)
+
+For more information about prototyping in Lunacy, click <a href="https://docs.icons8.com/prototyping" target="_blank">here</a>.
+
+
+## Slice tool
+
+The Slice tool allows you to select a specific area on your design and export it to a file.
+
+To make use of the Slice tool:
+
+1. Enable the tool by selecting it on the toolbar or simply press `E`.
+2. Click and drag over the area you want to export. The **Export assets** panel appears in the Inspector.
+3. Define the required export settings.
+4. Click **Export selected**.
+
+To hide/show slices on the canvas, use the **Show slices** button on the top bar.
+
+![Adding a slice](public/tool-slicebtn.png)
+
+To remove a slice from the canvas, select it and press`Del`.
+
+For more information about export in Lunacy, click <a href="https://docs.icons8.com/export" target="_blank">here</a>.
+
+## Eyedropper tool
+
+Working with colors is an essential part of a designer's job. The smart eyedropper tool is designed to make this work easy and effective.
+
+To use the eyedropper tool:
+
+1. Select an object to which you are going to apply a color. If you don't select any object, Lunacy applies the color to the workspace.
+2. Click the eyedropper icon on the toolbar or on the color picker panel, or just press `I`. The cursor turns into the eyedropper. Also, the **Colors** panel appears on the left. It features four pallets:
+  
+    * Recent colors
+    * Document colors
+    * Flat colors
+    * Material colors
+
+3. Hover the eyedropper over the color that you want to sample anywhere on the screen and click to apply it.
+
+{:.is-big}
+![Using the eyedropper](public/eye-general.png)
+
+That is typically how all eyedroppers work in similar apps. But Lunacy's eyedropper also features a very nice zoom option that comes in handy when the target area is small and you need pixel precision. To enable zoom, hover the eyedropper over the target and hold down the left mouse button. Then point the eyedropper to the required pixel and release the mouse button. To exit the zoom mode, press `Esc` or quickly swipe the cursor anywhere away from the current area, see the demo below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/eyedropper3-placeholder.png" height="auto"><source src="/public/eyedropper3.mp4" type="video/mp4"></video>
+
+### How Lunacy applies color to objects
+
+Depending on the styling properties of an object, Lunacy applies colors in the following order:
+
+1. Fill
+2. Border
+3. Shadow
+4. Inner shadow
+
+So, if an object has a fill and a border, Lunacy updates the fill. If an object has no fill, but has a border and a shadow, Lunacy changes the border color and so on. If an object has several fills/borders/shadows/inner shadows, Lunacy applies the color to the one which sits at the top of the property list in the Inspector. Similar rules apply to text objects where text color has top priority.
+
+To demonstrate all this, in the figure below we applied the colors of the rectangles to the ellipses with different sets of styling properties.
+
+{:.is-big}
+![Applying colors](public/eye-apply.png)
+
+## Zoom tool
+
+The Zoom tool allows you to zoom in the selected object or canvas area. To use the tool:
+
+1. Select the Zoom tool on the tool bar or press `Z`.
+2. Click the object you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be).
+3. To zoom out, hold down `Alt` and click or drag over the object or area.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom61.mp4" type="video/mp4"></video>
+
+For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
+
+1. Through the menu (**View** > **Pixel grid**).
+2. Deselect all objects on the canvas and clear the **Show pixel grid** checkbox that will appear in the Inspector.
+
+For information about other zooming options in Lunacy, read <a href="https://docs.icons8.com/interface/#zooming-options" target="_blank">here</a>.

@@ -22,19 +22,19 @@ page_nav:
         url: '/layerstyles'
 ---
 
-One of the cool things in Lunacy is Libraries. Libraries are collections of visual elements that you can add onto your designs in no time. These collections are available on on the **Libraries** tab and include the following:
+One of the cool things in Lunacy is Libraries. Libraries are collections of visual elements that you can add onto your designs in no time. These collections are accessible through the content tabs and include the following:
 
 * Icons
 * Photos
-* Masked photos (photos with removed background)
 * Illustrations
 * UI kits
 
-![A view of the Libraries tab](public/libraries.png)
+![A view of the Libraries tabs](public/libraries61.png)
 
-For your convenience, the items inside libraries are organized in categories. Also, to find the required item, you can use the search field at the top of the library tab. Once you've found the item you like, just click it and drag onto the canvas. That's it!
+For your convenience, the items inside libraries (icons and vector illustrations) are organized by styles categories. Also, to find the required item, you can use the search field at the top of the left panel. Once you've found the item you like, just click it and drag onto the canvas. That's it!
 
-![Adding icons to canvas](public/addicon1.gif)
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/libraries-addingiconsph.png" height="auto"><source src="/public/libraries-addingicons.mp4" type="video/mp4"></video>
+
 
 Now you can work with the item in the same way as with any other similar objects.
 

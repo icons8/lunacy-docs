@@ -28,19 +28,18 @@ The Lunacy interface is intuitive and minimal. It contains only essential contro
 
 The interface consists of the following main elements.
 
-1. The left panel. Features two tabs:
+1. The content tabs. Use them to switch between the:
 
-    * **Objects**: Shows the list of pages in the current document and the list of objects on the selected page. For details, read [below](#the-objects-panel).
-    * **Libraries**: Provides access to the document assets (<a href="https://docs.icons8.com/symbols" target="_blank">symbols</a>, layer and text <a href="https://docs.icons8.com/layerstyles/" target="_blank">styles</a>), built-in <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as built-in and external <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>.
+    * List of objects
+    * Document assets (<a href="https://docs.icons8.com/symbols" target="_blank">symbols</a>, layer and text <a href="https://docs.icons8.com/layerstyles/" target="_blank">styles</a>)
+    * Built-in Lunacy <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://docs.icons8.com/plugins" target="_blank">plugins</a>
+    * List of <a href="https://docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
 
-    You can temporarily hide the left panel by clicking the respective button (![Hide left panel button](public/interface-hidepanelbtn.png)) at the bottom of the toolbar (2). Also, you can do it through the menu (**View** > **Layers panel**).
+2. The left panel. Displays the content of the selected tab (1). You can temporarily hide the panel by clicking the current tab, using respective shortcuts (`Alt+1`...`Alt+8`, `Shift+F1`) or through the menu (**View** > **Left Panel**).
 
 2. The **toolbar**. Features all the primary Lunacy tools. For details about tools, click <a href="https://docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer shortcuts you can toggle off the display of the toolbar through the menu (**View** > **Toolbar**).
 3. The **canvas**. That is your working area. For details, read [below](#the-canvas).
-4. The **Inspector** panel. Features two tabs:
-
-    * **Properties**: Lets you see and adjust the properties of the selected object. The view of the Properties Inspector varies with the type of the selected object. For details, read [below](#the-inspector).
-    * **Code**: Allows you to view and copy the code of the selected object in CSS, XAML and SVG.
+4. The **Inspector** panel. Lets you see and adjust the properties of the selected object. The view of the Properties Inspector varies with the type of the selected object. For details, read [below](#the-inspector).
 5. The **menu bar**. Holds the options and commands related to files, objects, editing, etc.
 6. The **context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected object. Hover the cursor over a tool icon to see a pop-up explaining what the tool does.
 7. The **action bar**. Features a set of buttons related mostly to display options, see the table below.
@@ -54,6 +53,11 @@ The interface consists of the following main elements.
         </tr>
     </thead>
     <tbody>
+        <tr>
+        <td><img src="/public/interface_suggbulbicon.png" alt="Show/Hide suggestions"></td>
+        <td> The <b>Show/Hide suggestions</b> button. Controls the display of the suggestions panel. For details, read <a href="https://docs.icons8.com/styling/#suggestions-panel">here</a> and <a href="https://docs.icons8.com/text/#suggestions-panel">here</a>.</td>
+        <td><code>Ctrl + Space</code></td>
+        </tr>
         <tr>
         <td><img src="/public/interface-rulerbtn.png" alt="Show/Hide rulers button"></td>
         <td> The <b>Show/Hide rulers</b> button. Controls the display of rulers. For details, read <a href="https://docs.icons8.com/interface/#rulers-and-guides">below</a>.</td>
@@ -105,13 +109,11 @@ The interface consists of the following main elements.
 8. The **file tabs panel**. Shows the tabs of currently open files. To switch between the files, just click the respective tab.
 9. The **zoom control**. For details, read [below](#zooming-options).
 
-## [The Objects panel](#the-objects-panel)
+## Document pages
 
-### Document pages
+Each document can include any number of pages. You can keep all you work on a single page or split it into several pages by components, if the project is large. For instance, if you are designing a website, you can opt to keep the desktop and mobile versions on separate pages. Or you can duplicate a page to save a snapshot of your current work and continue working with the copy. In fact, the reasons for having multiple pages in a document are numerous and it is completely up to you to decide what approach to choose. The figure below shows a view of a page list. It appears above the objects list when the **Objects** content tab is selected.
 
-Each document can include any number of pages. You can keep all you work on a single page or split it into several pages by components, if the project is large. For instance, if you are designing a website, you can opt to keep the desktop and mobile versions on separate pages. Or you can duplicate a page to save a snapshot of your current work and continue working with the copy. In fact, the reasons for having multiple pages in a document are numerous and it is completely up to you to decide what approach to choose. The figure below shows a view of a page list.
-
-![A view of a page list](public/interface-pagelist.png)
+![A view of a page list](public/interface-pagelist61.png)
 
 The operations that you can perform with document pages include:
 
@@ -132,20 +134,20 @@ To change the position of a page in the list, just drag it up or down to where y
 
 The rest of the operations are accessible through the context menu invoked by a right-click over the required page name.
 
-<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages61.mp4" type="video/mp4"></video>
 
 There is also a special type of a page - the Symbols page. For details, read <a href="https://docs.icons8.com/symbols/#symbols-page" target="_blank">here</a>.
 
-### Objects list
+## Objects list
 
-The object list shows a tree of objects available on the current page. Lunacy automatically assigns names to objects and object groups as you create them, but you can rename them if you like. The figure below shows a view of an object list.
+The objects list appears in left panel when you click the **Objects** content tab. It shows a tree of objects available on the current page. Lunacy automatically assigns names to objects and object groups as you create them, but you can rename them if you like. The figure below shows a view of an object list.
 
 {:.is-big}
-![A view of an object list](public/interface-objectlist.png)
+![A view of an object list](public/interface-objectlist61.png)
 
 If the names of objects in the list appear truncated, you can change the width of the panel as shown below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-resizeleft.png" height="auto"><source src="/public/interface-resizeleft.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-resizeleft.png" height="auto"><source src="/public/interface-resizeleft61.mp4" type="video/mp4"></video>
 
 The operations that you can perform in the objects list include:
 
@@ -156,7 +158,7 @@ The operations that you can perform in the objects list include:
 * **Locking objects**. By locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
 * Other [basic operations](#context-menu) with objects available on the context menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist61.mp4" type="video/mp4"></video>
 
 To collapse all branches in the object tree use the `Ctrl + ~` shortcut.
 
@@ -174,7 +176,7 @@ Also, you can use the mouse wheel for scrolling the canvas. Just point the curso
 
 Another option to navigate the canvas is to hold down the `Space` key (the cursor will turn into a palm) and drag the canvas to where you need.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-movingcanvas.png" height="auto"><source src="/public/interface-movingcanvas.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-movingcanvas.png" height="auto"><source src="/public/interface-movingcanvas61.mp4" type="video/mp4"></video>
 
 Also, read about the [zooming options](#zooming-options).
 
@@ -188,14 +190,14 @@ To add an artboard:
 2. Click and drag to create a custom size artboard or select an option from the panel on the right (see the figure below).
 
 {:.is-big}
-![Adding an artboard](public/tool-addatrboard.png)
+![Adding an artboard](public/tool-addatrboard61.png)
 
 But even if you started your project without artboards, it is never too late to add them. Just drag the artboard tool over the objects that you want to put on an artboard.
 
 The figure below shows how artboards appear in the **Objects** panel and a view of the Inspector with artboard settings and controls which differ a lot from those available in the [Inspector](#the-inspector) panels of other object types.
 
 {:.is-big}
-![Artboards: Object panel and presets](public/interface-artboardpanels70.png)
+![Artboards: Object panel and presets](public/interface-artboardpanels61.png)
 
 The table below provides a description of Inspector elements displayed for artboards.
 
@@ -261,7 +263,7 @@ Ruler and guides will help you position and align objects on the canvas. In Luna
 
 To create a guide, click anywhere on a ruler and drag the guide onto the canvas to where you need it. Now you can position objects along the guide. Move an object close to the guide and note how it will snap to the guide.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-guides.png" height="auto"><source src="/public/inteface-guides.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-guides.png" height="auto"><source src="/public/inteface-guides61.mp4" type="video/mp4"></video>
 
 To relocate a guide, just drag it to another position. If you don't need a guide, click to select it (hold down `Shift` to select multiple guides) and press `Delete`. Also, you can use the options from the pop-up menu invoked by a right-click over a ruler (see the figure below).
 
@@ -352,7 +354,7 @@ The next demo shows the above three procedures.
 
 The easiest way to zoom to an object in Lunacy is to hold down the `Ctrl` key and rotate the mouse wheel. Similarly, you can hold down `Ctrl` and `Shift` keys. In such a case the speed of zooming will be slower (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomtoobject1358x734.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomtoobject61.mp4" type="video/mp4"></video>
 
 For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
 
@@ -371,7 +373,7 @@ The zoom control is found on the right of the file tab panel. To change the zoom
 
 The demo below shows the first two methods.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl1358x734.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl61.mp4" type="video/mp4"></video>
 
 Alternatively, you can click the down arrowhead next to the zoom control and select one of the preset values or options on the displayed menu (see the figure below).
 
