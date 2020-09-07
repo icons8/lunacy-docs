@@ -52,6 +52,7 @@ Photos and vector images now open way faster. Also, the libraries have got impro
 The Line tool has got coordinates settings in the Inspector. Also,  now the Line tool snaps line origin points to half pixels to draw pixel perfect lines. Like in Sketch.
 
 ![Line tool changes](/public/rn-62linetool.png)
+
 {:.image-info}
 Before v.6.2 (left) and Starting from v.6.2 (right)
 
