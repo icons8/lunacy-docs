@@ -34,6 +34,47 @@ page_nav:
 
 # Version 6
 
+## 6.2
+
+*RELEASED September XX, 2020*
+
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_6.0.0.exe)
+
+### Improvements
+
+#### Photos and Illustrations
+
+Photos and vector images now open way faster. Also, the libraries have got improved filters.
+
+
+#### Line tool
+
+The Line tool has got coordinates settings in the Inspector. Also,  now the Line tool snaps line origin points to half pixels to draw pixel perfect lines. Like in Sketch.
+
+![Line tool changes](/public/rn-62linetool.png)
+{:.image-info}
+Before v.6.2 (left) and Starting from v.6.2 (right)
+
+#### Symbols and styles
+
+Now you can:
+
+* Group and ungroup items in the style and symbol libraries.
+* Detach symbols and styles from UI kits. Detached items become document symbols/styles and appear on the respective tabs. You can detach multiple items at a time.
+* Select several objects with identical styling settings and save their settings as a style.
+* Apply context menu commands to several items selected in the Styles or Symbols libraries. For example, you can copy multiple styles between documents or duplicate several symbols at a time.
+
+![Duplicating multiple symbols](/public/rn-62mulitipleduplicate.png)
+
+### Fixed bugs
+
+* Prototyping and artboard issues
+* Issues with masks
+* Sketch cloud issues
+* Color picker and eyedropper issues
+
+
+
 ## 6.1
 
 *RELEASED September 02, 2020*
