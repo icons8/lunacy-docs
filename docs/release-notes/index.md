@@ -34,6 +34,8 @@ page_nav:
 
 # Version 6
 
+<!--
+
 ## 6.2
 
 *RELEASED September XX, 2020*
@@ -74,6 +76,7 @@ Now you can:
 * Sketch cloud issues
 * Color picker and eyedropper issues
 
+-->
 
 
 ## 6.1
