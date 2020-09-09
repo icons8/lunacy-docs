@@ -63,7 +63,7 @@ Before v.6.2 (left) and Starting from v.6.2 (right)
 Now you can:
 
 * Group and ungroup items in the style and symbol libraries.
-* Detach symbols and styles from UI kits. Detached items become document symbols/styles and appear on the respective tabs. You can detach multiple items at a time.
+* Detach styles from UI kits. Detached items become document styles and appear on the **Styles** tab. You can detach multiple items at a time.
 * Select several objects with identical styling settings and save their settings as a style.
 * Apply context menu commands to several items selected in the Styles or Symbols libraries. For example, you can copy multiple styles between documents or duplicate several symbols at a time.
 
@@ -94,6 +94,11 @@ Lunacy 6.1 comes with a new look of the left panel. It has become easier to swit
 To minimize the left panel, click the icon of the currently open section or use a respective shortcut (`Alt+1`, `Alt+2`, ... `Alt+8`).       
 
 Also, we revised the order of tools on the toolbar.
+
+The demo below presents these and some other changes introduced in v.6.1
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/Lunacy61ph.png" height="auto"><source src="/public/Lunacy61.mp4" type="video/mp4"></video>
+
 
 #### Snapping: Pen
 
