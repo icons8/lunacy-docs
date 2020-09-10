@@ -97,7 +97,7 @@ Also, we revised the order of tools on the toolbar.
 
 The video below presents these and some other changes introduced in v.6.1
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/Lunacy61ph.png" height="auto"><source src="/public/Lunacy61.mp4" type="video/mp4"></video>
+<video autoplay="" controls="controls" muted="" loop="" playsinline="" width="100%" poster="/public/Lunacy61ph.png" height="auto"><source src="/public/Lunacy61.mp4" type="video/mp4"></video>
 
 
 #### Snapping: Pen
