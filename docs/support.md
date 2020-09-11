@@ -105,7 +105,7 @@ Try the following:
 
 If the above steps have no effect:
 
-1. Open the Windows Task manager > Services.
+1. Open the Windows **Task manager** and switch to the **Services** tab.
 2. Stop the Nahimic service (an audio service).
 3. Restart Lunacy.
 
