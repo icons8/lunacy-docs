@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: FAQ and our contacts
+title: FAQ and Сontacts
 description:
 icon: 'technical-support'
 
@@ -91,6 +91,25 @@ The most common reason for Lunacy getting slow are:
 * Large amount of text converted to outlines.
 
    *Workaround:* Avoid converting large blocks of text (sentences or paragraphs) to outlines.
+
+
+### Objects and images on the canvas are stretching and/or flickering on scroll and zoom. How can I fix it?
+
+This is a known issue that typically occurs on Windows 10 computers with Intel CPUs and some latest models of video cards (for instance, GeForce RTX 20 Series).
+ 
+Try the following:
+
+1. Install the latest stable version of drivers for your video card from the manufacturer's website.
+2. Make sure that you have all the latest Windows updates installed.
+3. Install the latest update of the Intel chipset driver from the manufacturer's website.
+
+If the above steps have no effect:
+
+1. Open the Windows Task manager > Services.
+2. Stop the Nahimic service (an audio service).
+3. Restart Lunacy.
+
+If this helps, report the problem to the manufacturers of your video card and motherboard. If not, contact our support team.
 
 ### I found a bug. How can I report it?
 
