@@ -133,7 +133,7 @@ Lunacy is free of viruses or spyware but in some rare cases false positives migh
 
 If you installed Lunacy from the Microsoft Store, you should bear in mind that no app can appear in the Store until checked for malicious code.
 
-If you downloaded Lunacy from our web site and want to be sure, you can upload and check the installer at https://www.virustotal.com/gui/home/upload. It is an acknowledged free online antivirus service.
+If you downloaded Lunacy from our web site and want to be sure, you can upload and check the installer at <a href="https://www.virustotal.com/gui/home/upload" target="_blank">https://www.virustotal.com/gui/home/upload</a>. It is an acknowledged free online antivirus service.
 
 After that, add the Lunacy installer and/or the application itself to the exception list of your antivirus software.
 

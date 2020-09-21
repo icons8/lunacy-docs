@@ -67,6 +67,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Switch to UI Kits |`Alt+7` |
 | Switch to Plugins |`Alt+8` |
 | Switch to Shortcuts |`Shift+F1` |
+| View code |`F4` |
 
 ## Tools
 
@@ -81,7 +82,8 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Line |`L` |
 | Pencil Tool |`N` |
 | Pen Tool |`P` |
-| Place Image |`I` |
+| Eyedropper |`I` |
+| Place Image |`M` |
 | Place Avatar |`Q` |
 | Artboard |`A` |
 | Hotspot |`H` |
@@ -115,8 +117,8 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Finish Editing/Deselect all |`Escape` |
 | Delete object |`Backspace` or `Del` |
 | Toggle Mask |`Ctrl+M` |
-| Flip horizontally |`Ctrl+→` or `Ctrl+←` |
-| Flip vertically |`Ctrl+↑` or `Ctrl+↓` |
+| Flip horizontally |`Shift+H` |
+| Flip vertically |`Shift+V` |
 | Union |`Ctrl+Shift+U` |
 | Substract |`Ctrl+Shift+P` |
 | Intersect |`Ctrl+Shift+I` |
@@ -132,6 +134,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Tidy up |`Ctrl+Alt+Shift+T` |
 | Scale objects |`Ctrl+K` |
 | Refresh avatar |`Shift+R` |
+| Outline stroke |`Ctrl+Shift+O` |
 
 ## Text Editing
 
@@ -241,6 +244,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | ------------- |-------------|
 | Zoom Tool |`Z` |
 | Zoom |`Ctrl+Mouse Wheel` |
+| Soft zoom |`Ctrl+Shift+Mouse Wheel` |
 | Zoom In |`Ctrl` `+` or just `+` |
 | Zoom Out |`Ctrl` `-` or just `-`|
 | Zoom to 100% |`Ctrl+0` |
