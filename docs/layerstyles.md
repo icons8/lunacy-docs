@@ -22,12 +22,12 @@ page_nav:
         url: '/symbols'
 ---
 
-Layer and text styles are predefined sets of layer and text properties that you can reuse in your designs. With the help of styles you can dramatically save your time and make your designs look more professional and consistent.  When you modify a style, Lunacy immediately applies them to all the objects using this style.
+Layer and text styles are predefined sets of object and text properties that you can reuse in your designs. With the help of styles you can dramatically save your time and make your designs look more professional and consistent.  When you modify a style, Lunacy immediately applies them to all the objects using this style.
 
-You will store your custom layer and text styles on the **Libraries** tab.
+You will store your custom layer and text styles on the **Styles** tab.
 
-{:.is-big}
-![A view of the Libraries tab](public/layerdemo1.gif)
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-mainview.png" height="auto"><source src="/public/styles-mainview.mp4" type="video/mp4"></video>
+
 
 ## [Layer styles](#layer-styles)
 
