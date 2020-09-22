@@ -115,7 +115,7 @@ To crop an image:
 
 You can make color adjustments to your images using the controls in the **Adjust image** section of the Inspector. The section appears only when an image is selected. Just click the `+` button to unfold the panel and move the sliders to adjust hue, saturation, brightness, and contrast.
 
-These adjustments are non-destructive. You can discard all changes and restore the original image by clicking the **Reset values** (![Reset values button](public/resetvaluesicon.png)) next to the section header (see the demo below).
+These adjustments are non-destructive. You can discard all changes and restore the original image by clicking the **Reset values** (![Reset values button](public/resetvaluesicon.png)) button next to the section header (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-adjustph.png
 " height="auto"><source src="/public/images-adjust.mp4" type="video/mp4"></video>

@@ -40,7 +40,7 @@ page_nav:
 
 *RELEASED September XX, 2020*
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_6.0.0.exe)
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.1.0.exe) to get the Installer.
 
 ### New features
 
@@ -82,7 +82,7 @@ Lunacy v.6.3 brings in a new redesigned welcome window.
 
 *RELEASED September XX, 2020*
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_6.0.0.exe)
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.1.0.exe) to get the Installer.
 
 ### Improvements
 
@@ -125,7 +125,7 @@ Now you can:
 
 *RELEASED September 02, 2020*
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_6.1.0.exe)
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.1.0.exe) to get the Installer.
 
 ### New features
 
@@ -168,7 +168,7 @@ Also, you can hold down Shift to get a perfectly vertical, horizontal or 45-degr
 * The license pop-up window will no longer disturb you. Now license proposals appear in the suggestions panel.
 * The Code panel tab is no longer available in the Inspector. To display the panel, use the View menu, context menu or the `F4` hotkey.
 * Search fields improvements. Now all content filters appear in the search fields.
-* Tips on working in Lunacy now appear in the right panel when no object is selected.
+* Tips with links to our docs now show up when you hover the cursor over some section names in the Inspector (**Appearance**, **Symbols**, **Tints**, and some other).
 * Now you can copy-paste text and layer styles between open documents.
 * The Convert to Outlines feature now supports combined glyphs.
 * Now you can rename your projects right on the file tabs panel. Just double-click the project tab, enter a new name and press `Enter`.
