@@ -344,9 +344,13 @@ A right-click over the suggestions panel invokes a context menu that allows you 
 
 ### Disabling the panel
 
-To disable the suggestions panel unselect the **Suggestions** option in the **View** menu.
+To disable the suggestions panel, use the `Ctrl+Space` shortcut or click the bulb button on the action bar (see the figure below).
 
-![Context menu](public/sugg-disable.png)
+![Disabling the suggestions panel](public/sugg-disable1.png)
+
+Also, you can unselect the **Suggestions** option in the **View** menu.
+
+![Disabling the suggestions panel](public/sugg-disable.png)
 
 ## [Converting text to vector shapes](#converting-text-to-vector-shapes)
 

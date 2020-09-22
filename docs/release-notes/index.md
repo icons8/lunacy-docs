@@ -137,7 +137,7 @@ To minimize the left panel, click the icon of the currently open section or use 
 
 Also, we revised the order of tools on the toolbar.
 
-The video below presents these and some other changes introduced in v.6.1
+The video below presents these and some other changes introduced in v.6.1.
 
 <video play="no" controls="controls" muted="" loop="" playsinline="" width="100%" poster="/public/rn-61videoph.png" height="auto"><source src="/public/Lunacy61.mp4" type="video/mp4"></video>
 
@@ -161,7 +161,7 @@ Also, you can hold down Shift to get a perfectly vertical, horizontal or 45-degr
 
 ### Improvements
 
-* Now you can toggle the suggestions panel using the `Ctrl+Space` shortcut or the bulb button in the action bar.
+* Now you can toggle the suggestions panel using the `Ctrl+Space` shortcut or the bulb button on the action bar.
 * The ability to globally set icons color and size was removed. Now you can apply colors (tints) to icons individually through the suggestions panel.
 * Now symbol instances can have different states (hovered, pressed, etc.)
 * Added the Swap at Original Size option to the symbol settings in the Inspector. With this option enabled (default), when you swap a symbol, the selected instance will resize to fit the original size of the new symbol.
