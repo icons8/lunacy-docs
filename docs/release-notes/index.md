@@ -76,8 +76,6 @@ Lunacy v.6.3 brings in a new redesigned welcome window.
 
 -->
 
-<!--
-
 ## 6.2
 
 *RELEASED September XX, 2020*
@@ -117,8 +115,6 @@ Now you can:
 * Issues with masks
 * Sketch cloud issues
 * Color picker and eyedropper issues
-
--->
 
 
 ## 6.1
