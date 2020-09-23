@@ -41,7 +41,7 @@ Layer style properties include:
 
 They appear in the Inspector when you select an object.
 
-![Layer properties](public/properties_new.png)
+![Layer properties](public/properties_new1.png)
 
 For details on styling properties, refer to the <a href="https://docs.icons8.com/styling" target="_blank">Styling</a> section of our documentation.
 
@@ -49,15 +49,13 @@ For details on styling properties, refer to the <a href="https://docs.icons8.com
 
 There are two ways of adding layer styles.
 
-**Way 1.** By clicking the plus icon in the **Libraries** panel and defining all the required properties in the Inspector.
+**Way 1.** By clicking the plus icon in the left panel and defining all the required properties in the Inspector.
 
-![Adding a layer style. Way 1](public/addstyle_new.png)
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-waytwoph.png" height="auto"><source src="/public/layerstyles-waytwo.mp4" type="video/mp4"></video>
 
 **Way 2.** By first defining the properties of an object and then saving them as a style.
 
-![Adding a layer style. Way 2](public/addstyle2_new.png)
-
-The new style will appear in the **Libraries** panel.
+The new style will appear in the left panel.
 
 ### Modifying a layer style
 
