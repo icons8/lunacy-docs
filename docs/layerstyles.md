@@ -58,6 +58,21 @@ There are two ways of adding layer styles.
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-waytwoph.png" height="auto"><source src="/public/layerstyles-waytwo.mp4" type="video/mp4"></video>
 
 
+### Applying styles to objects
+
+Click the required object and select the style you want to apply to it from the menu in the Inspector.
+
+![Applying styles](public/applyingstyles_new1.png)
+
+Optionally, after selecting the object you can click the required style in the left panel and then click the replacement icon as shown below.
+
+![Applying styles. Way 2](public/applyingstyles2_new1.png)
+
+You can also apply a style to multiple selected objects at a time (see the demo below).
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-applyph.png" height="auto"><source src="/public/layerstyles-apply.mp4" type="video/mp4"></video>
+
+
 ### Modifying a layer style
 
 There are two ways to modify a style.
@@ -82,17 +97,6 @@ There are two ways to modify a style.
 
 ![Modifying a layer style](public/modifystyle_new2.png)
 
-### Applying styles to objects
-
-Click the required object and select the style you want to apply to it from the menu in the Inspector.
-
-![Applying styles](public/applyingstyles_new.png)
-
-Optionally, after selecting the object you can click the required style in the left panel and then click the replacement icon as shown below.
-
-![Applying styles. Way 2](public/applyingstyles2_new.png)
-
-You can also apply a style to multiple selected objects at a time.
 
 ### Detaching a style
 
