@@ -51,11 +51,12 @@ There are two ways of adding layer styles.
 
 **Way 1.** By clicking the plus icon in the left panel and defining all the required properties in the Inspector.
 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-wayoneph.png" height="auto"><source src="/public/layerstyles-wayone.mp4" type="video/mp4"></video>
+
+**Way 2.** By first defining the properties of an object and then saving them as a style. 
+
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-waytwoph.png" height="auto"><source src="/public/layerstyles-waytwo.mp4" type="video/mp4"></video>
 
-**Way 2.** By first defining the properties of an object and then saving them as a style.
-
-The new style will appear in the left panel.
 
 ### Modifying a layer style
 
