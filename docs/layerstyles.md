@@ -111,7 +111,7 @@ The appearance of the object remains the same, but it is no longer associated wi
 
 It is a good practice to organize styles into categories similar to those shown in the figure below.
 
-![Layer style categories](public/layers-organizing.png)
+![Layer style categories](public/layers-organizing1.png)
 
 To divide your styles into categories, consider the following format of style names:
 
@@ -127,12 +127,12 @@ You don't need to manually create categories and subcategories. Lunacy will show
 
 To rename a style:
 
-1. In the **Library** panel, right-click the style and select **Rename** on the displayed menu or press  `F2`, if you prefer shortcuts.
+1. In the left panel, right-click the style and select **Rename** on the displayed menu or press  `F2`, if you prefer shortcuts.
 2. Type the new name and press `Enter`.
 
 To rename a style category, right-click the category you want to rename and select the respective command on the displayed menu.
 
-Style categories and styles appear in the A-Z order in the **Library** panel.
+Style categories and styles appear in the A-Z order in the left panel.
 
 To unfold/fold the content of all style categories, right-click anywhere over the category list and select **Expand All/Collapse All** on the displayed menu.
 
@@ -147,6 +147,20 @@ To duplicate a style:
     OR
 * Right-click the style in the list and select **Duplicate** on the displayed menu.
 
+Also, you can select and duplicate several styles at a time.
+
+### Copying styles between documents
+
+To copy styles between documents:
+
+1. Select one or several styles in the source document (hold down `Ctrl` or `Shift` to select multiple items).
+2. Right-click and select **Copy style** on the displayed menu.
+3. Switch to the target document.
+4. Open the **Styles** tab.
+5. Right-click over the left panel and select **Paste style** on the displayed menu.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layerstyles-copyph.png" height="auto"><source src="/public/layerstyles-copy.mp4" type="video/mp4"></video>
+
 ### Deleting styles and categories
 
 To delete a style:
@@ -157,6 +171,8 @@ To delete a style:
 * Right-click the style in the list and select **Delete** on the displayed menu.
 
 To delete a style category, right-click the category you want to delete and select the respective command on the displayed menu.
+
+Also, you can select and delete several styles at a time.
 
 ## Text styles
 
