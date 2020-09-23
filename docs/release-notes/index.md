@@ -76,13 +76,11 @@ Lunacy v.6.3 brings in a new redesigned welcome window.
 
 -->
 
-<!--
-
 ## 6.2
 
-*RELEASED September XX, 2020*
+*RELEASED September 23, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.1.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.2.exe) to get the Installer.
 
 ### Improvements
 
@@ -117,8 +115,6 @@ Now you can:
 * Issues with masks
 * Sketch cloud issues
 * Color picker and eyedropper issues
-
--->
 
 
 ## 6.1
