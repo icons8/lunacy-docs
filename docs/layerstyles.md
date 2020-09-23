@@ -79,30 +79,31 @@ There are two ways to modify a style.
 
 **Way 1.**
 
-1. In the **Libraries** panel, click the style you want to modify . The **Edit Layer Style** panel appears on the right.
+1. Swith to the **Styles** tab, then click the style you want to modify. The **Edit Layer Style** panel appears on the right.
 2. Use the panel to make the required changes.
 3. Click the **Save** button below the preview window. To discard all changes that you have made but have not saved yet, use the **Reset** button.
 
-![Modifying a layer style](public/modifystyle_new1.png)
+![Modifying a layer style](public/modifystyle_new11.png)
 
 **Way 2.**
 
 1. Select an object using the style you want to modify.
-2. Make the required changes in the Inspector. When you are done, you will see an asterisk next to the style name in the Inspector. It indicates that changes have been made to the style.
-3. Click the down arrowhead next to the style name and select one of the following options on the menu:
+2. Make the required changes in the Inspector. When you are done, you will see an asterisk (*) next to the style name in the Inspector. It indicates that changes have been made to the style.
 
-    * Update Style: Saves the changes to the existing style.
-    * Create New Layer Style: Saves the changes to a new style.
-    * Reset Style: Discards all changes that you have made.
+    ![Modifying a layer style](public/modifystyle_new22.png)
 
-![Modifying a layer style](public/modifystyle_new2.png)
+3. Use one of the following options:
+
+    * **Create New Layer Style** (1): Saves the changes to a new style.
+    * **Update Style** (2): Saves the changes to the existing style.
+    * **Reset Style** (3) : Discards all changes that you have made.
 
 
 ### Detaching a style
 
-Click the required object and select the **Detach style** command on the menu as shown below.
+Select the required object and click the **Detach style** button shown below.
 
-![Detaching a style](public/detaching.png)
+![Detaching a style](public/detaching1.png)
 
 The appearance of the object remains the same, but it is no longer associated with the style and further changes to the style will not affect the object.
 
