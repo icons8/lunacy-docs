@@ -178,7 +178,7 @@ Also, you can select and delete several styles at a time.
 
 The only difference between text styles and [layer styles](#layer-styles)  is that in addition to such properties as fills, shadows and blurs, text styles also feature a set of typography properties that include font size, font family, line spacing and others. All the procedures with text styles are the same as in layer styles.
 
-![Text styles](public/text.png)
+![Text styles](public/layerstyles-text.png)
 
 See also the <a href="https://docs.icons8.com/text/" target="_blank">Text</a> section for tips on working with text objects.
 
