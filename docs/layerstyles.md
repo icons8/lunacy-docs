@@ -194,7 +194,15 @@ To apply an external style to an object:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layerstyles-externalph.png" height="auto"><source src="/public/layerstyles-external.mp4" type="video/mp4"></video>
 
-You cannot make changes to external styles, but you can use the **Unlink from Library** feature. This feature will add a copy of the style you need to your document assets, i.e. to your layer or text library. After that, you can do whatever you want with the unlinked style as with any other style within your project.
+You cannot make changes to external styles, but you can use the **Unlink from Library** feature. This feature will add a copy of the style you need to your document assets, i.e. to the list of your layer or text styles. After that, you can do whatever you want with the unlinked style as with any other style within your document.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layerstyles-externalunlinkph.png" height="auto"><source src="/public/layerstyles-externalunlink.mp4" type="video/mp4"></video>
+There are two ways to unlink styles:
+
+**Way 1.** Select an object with the style you want to unlink, then click **Unlink from Library** in the Inspector.
+
+**Way 2.** Select a style or several styles in a UI kit, then right-click and select **Unlink from Library** on the context menu.
+
+The demo below shows both these methods.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-externalunlinkph.png" height="auto"><source src="/public/layerstyles-externalunlink.mp4" type="video/mp4"></video>
 
