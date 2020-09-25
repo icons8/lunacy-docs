@@ -282,7 +282,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Detach from Library</td>
-      <td>This command applies only to symbols from external files, i.e. to symbols from UI kits. Detached symbols become document symbols and appear on the **Symbols** tab and the <a href="https://docs.icons8.com/symbols/#symbols-page">symbols page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.</td>
+      <td>This command applies only to symbols from external files, i.e. to symbols from UI kits. Detached symbols become document symbols and appear on the <B>Symbols</B> tab and the <a href="https://docs.icons8.com/symbols/#symbols-page">symbols page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.</td>
       <td><code>-</code></td>
     </tr>
     <tr>
