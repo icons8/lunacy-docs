@@ -194,6 +194,7 @@ The demo below shows how you can copy and paste styling properties between objec
 There are several ways how you can resize objects:
 
 * by dragging selection handles
+* using the keyboard
 * through the Inspector
 * scaling
 
@@ -206,6 +207,12 @@ To resize an object, drag any of its selection handles as shown in the demo belo
 Also, you can hold down `Alt` while dragging to resize the object from its center, rather than from the edge that you are dragging.
 
 The `Alt+Shift+drag` combination is also possible to preserve the object's aspect ratio.
+
+### Resizing an object using the keyboard
+
+Select the object and use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or `CTRL+Shift + arrow keys` ( by 10 pixels).
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-keyresizeph.png" height="auto"><source src="/public/tips-keyresize.mp4" type="video/mp4"></video>
 
 ### Resizing an object through the Inspector
 

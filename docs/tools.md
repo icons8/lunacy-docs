@@ -263,6 +263,8 @@ In the demo below we added some curves to a heart-shaped object built with strai
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools-pentool3placeholder.png" height="auto"><source src="/public/tools-pentool31.mp4" type="video/mp4"></video>
 
+**Tip:** To draw a perfectly horizontal, vertical or 45-degree diagonal path, hold down `Shift` when placing the second point of a segment.
+
 ### Types of points
 
 There are two types of points: the so-called **Straight** (1) and curved points. Curved points appear with handles for building <a href="https://en.wikipedia.org/wiki/Bézier_curve" target="_blank">B&#x00e9;zier curves</a>.

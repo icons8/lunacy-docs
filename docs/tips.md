@@ -75,6 +75,13 @@ Press and hold `Alt` to draw/resize a shape from the center or `Alt+Shift` if yo
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-addingplaceholder.png" height="auto"><source src="/public/objects-adding.mp4" type="video/mp4"></video>
 
+## Drawing horizontal, vertical and 45-degree diagonal lines, arrows and paths
+
+Hold down `Shift` when placing the second point of a segment.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-verticaldiagonalph.png" height="auto"><source src="/public/tips-verticaldiagonal.mp4" type="video/mp4"></video>
+
+
 ## Transforming shapes through the Inspector
 
 The next demo shows how you can modify shapes by adjusting their properties in the Inspector.
