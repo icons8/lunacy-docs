@@ -51,9 +51,9 @@ That is the most common method used in all similar applications. When you use it
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-addingplaceholder.png" height="auto"><source src="/public/objects-adding.mp4" type="video/mp4"></video>
 
-**Note:** To check out the shortcuts available in Lunacy, click the **Keyboard Shortcuts** button at the bottom of the toolbar (this will open the shortcuts panel in Lunacy) or read <a href="https://docs.icons8.com/shortcuts/" target="_blank">here</a>.
+**Note:** To check out the shortcuts available in Lunacy, click the **Keyboard Shortcuts** button at the lower-left corner of the interface (this will open the shortcuts panel in Lunacy) or read <a href="https://docs.icons8.com/shortcuts/" target="_blank">here</a>.
 
-![Adding text](public/objects-kbdshotcuts.png)
+![Adding text](public/objects-kbdshotcuts1.png)
 
 {:.image-info}
 The Keyboard Shortcuts button
