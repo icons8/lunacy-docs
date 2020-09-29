@@ -103,7 +103,8 @@ If you are a Windows 10 user:
 2. Click **Browse**  and browse to the Lunacy.exe file (the default path is C:\Program Files\Lunacy\Lunacy.exe).
 3. Click **Options** and  set **Graphics preference** to *High performance*.
 
-![NVidia settings](faq-windowsgraphics.png)
+
+![Windows graphics settings](faq-windowsgraphics.png)
 
 If you are running an older Windows version, you can try to do the same using your video card control panel. The figure below shows below shows settings of an NVidia card.
 
