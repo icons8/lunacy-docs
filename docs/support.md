@@ -97,7 +97,7 @@ The most common reason for Lunacy getting slow are:
 
 If your computer features a discrete graphics card, you can adjust your graphics settings so that Lunacy will always use the discrete card.
 
-If you are a Windows 10 user:
+The following will work for the majority of Windows 10 computers:
 
 1. Go to **Start > Settings > Display > Graphics settings**.
 2. Click **Browse**  and browse to the Lunacy.exe file (the default path is C:\Program Files\Lunacy\Lunacy.exe).
@@ -109,6 +109,8 @@ If you are a Windows 10 user:
 If you are running an older Windows version, you can try to do the same using your video card control panel. The figure below shows settings of an NVidia card.
 
 ![NVidia settings](public/faq-nvidia.png)
+
+**Note:** These settings won't work in the energy saving mode and with some system configurations.
 
 
 ### Objects and images on the canvas are stretching and/or flickering on scroll and zoom. How can I fix it?
