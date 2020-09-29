@@ -93,6 +93,23 @@ The most common reason for Lunacy getting slow are:
    *Workaround:* Avoid converting large blocks of text (sentences or paragraphs) to outlines.
 
 
+### Is there a way to enhance Lunacy performance by adjusting video card settings?
+
+If your computer features a discrete graphics card, you can adjust your graphics settings so that Lunacy will always use the discrete card.
+
+If you are a Windows 10 user:
+
+1. Go to **Start > Settings > Display > Graphics settings**.
+2. Click **Browse**  and browse to the Lunacy.exe file (the default path is C:\Program Files\Lunacy\Lunacy.exe).
+3. Click **Options** and  set **Graphics preference** to *High performance*.
+
+![NVidia settings](faq-windowsgraphics.png)
+
+If you are running an older Windows version, you can try to do the same using your video card control panel. The figure below shows below shows settings of an NVidia card.
+
+![NVidia settings](public/faq-nvidia.png)
+
+
 ### Objects and images on the canvas are stretching and/or flickering on scroll and zoom. How can I fix it?
 
 This is a known issue that typically occurs on Windows 10 computers with Intel CPUs and some latest models of video cards (for instance, GeForce RTX 20 Series).

@@ -43,7 +43,7 @@ Before we talk about how to work with Cloud files in Lunacy, let's review the ba
 
 ### Cloud panel
 
-**Cloud panel** is where you will find your Cloud documents and perform almost all Cloud-related operations in Lunacy. To open the Cloud panel, click the Cloud icon on the top toolbar. Click the back arrow to return to the Inspector.
+The **Cloud panel** is where you will find your Cloud documents and perform almost all Cloud-related operations in Lunacy. To open the Cloud panel, click the Cloud icon on the top toolbar. Click the back arrow to return to the Inspector.
 
 ![Opening the Cloud panel](public/cloud-panel.gif)
 
