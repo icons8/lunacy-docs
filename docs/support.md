@@ -106,7 +106,7 @@ If you are a Windows 10 user:
 
 ![Windows graphics settings](public/faq-windowsgraphics.png)
 
-If you are running an older Windows version, you can try to do the same using your video card control panel. The figure below shows below shows settings of an NVidia card.
+If you are running an older Windows version, you can try to do the same using your video card control panel. The figure below shows settings of an NVidia card.
 
 ![NVidia settings](public/faq-nvidia.png)
 
