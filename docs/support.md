@@ -104,7 +104,7 @@ If you are a Windows 10 user:
 3. Click **Options** and  set **Graphics preference** to *High performance*.
 
 
-![Windows graphics settings](faq-windowsgraphics.png)
+![Windows graphics settings](public/faq-windowsgraphics.png)
 
 If you are running an older Windows version, you can try to do the same using your video card control panel. The figure below shows below shows settings of an NVidia card.
 
