@@ -85,7 +85,7 @@ grid_navigation:
       excerpt: Help us localize Lunacy to your language 
       url: '/localization'
       icon: 'translation'
-    - title: 'FAQ and our contacts'
+    - title: 'FAQ and Contacts'
       excerpt: ''
       url: '/support'
       icon: 'technical-support'
