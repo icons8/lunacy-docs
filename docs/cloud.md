@@ -91,6 +91,8 @@ To sign into the Sketch Cloud from Lunacy, click the Cloud icon on the top toolb
 
 ![Signing into the Cloud](public/cloud-signin.png)
 
+**Note:** The length of your login/password should not exceed 60 characters.
+
 ## User settings
 
 After successful sign-in, you will see your Cloud username and avatar, as well as the list of your documents and projects if you've already had some in the Cloud.

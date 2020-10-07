@@ -36,9 +36,10 @@ page_nav:
 
 <!--
 
-## 6.3
 
-*RELEASED September XX, 2020*
+## 6.4
+
+*RELEASED October XX, 2020*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.1.0.exe) to get the Installer.
 
@@ -51,6 +52,18 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
     **Note:** You need an internect connection to be able to use this feature.
 * Also, now you can refresh multiple avatars at a time. For this, select several avatars and press `Shift+R` or click **Generate avatar** in the Inspector.
 
+-->
+
+<!--
+
+## 6.3
+
+*RELEASED October XX, 2020*
+
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.1.0.exe) to get the Installer.
+
+### New features
+
 #### Opening and saving files
 
 Now you can use Lunacy to open and save files in SVG and popular image formats (PNG, JPEG, etc.). When saving such a file, Lunacy creates a .sketch copy next to the file so that you can return to editing it later.
@@ -61,18 +74,18 @@ Lunacy v.6.3 brings in a new redesigned welcome window.
 
 ### Improvements
 
+* Rendering performance increased almost twice.
+* Memory usage improvements.
 * Added the support of the Plus Darker and Plus Lighter blend modes.
 * Now you can use the Non-Zero and Even-Odd rules to fill shapes  with overlapping paths.
-* New style of tooltips that appear near bounding boxes when you manipulate an object.
+* A new style of tooltips that appear near bounding boxes when you manipulate an object.
 * The **Reset Size** button now appears below symbol instances whose size differs from that of the main symbol.
 * Removed the nozzle scaling feature due to incompatibility with Sketch.
 
 ### Fixed bugs
 
-* ..........................
-* ..........................
-* ..........................
-* Other minor fixes and improvements
+* Numerous memory leak fixes.
+* Other minor fixes and improvements.
 
 -->
 
