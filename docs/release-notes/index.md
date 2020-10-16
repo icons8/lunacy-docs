@@ -54,7 +54,6 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 -->
 
-<!--
 
 ## 6.3
 
@@ -87,7 +86,6 @@ Lunacy v.6.3 brings in a new redesigned welcome window.
 * Numerous memory leak fixes.
 * Other minor fixes and improvements.
 
--->
 
 ## 6.2
 
