@@ -30,7 +30,7 @@ Moreover, none of those apps allows you to edit a sketch project and save it bac
 
 ![Quote](public/quote2.png)
 
-Born as a viewer of sketch files, Lunacy has developed into a fully-functional design app. <!--It inherits all the best things available in Sketch and brings new unique functionality.--> The idea behind thу app is to let users focus on what's going on on the canvas rather than fussing around the right panel.
+Born as a viewer of sketch files, Lunacy has developed into a fully-functional design app. <!--It inherits all the best things available in Sketch and brings new unique functionality.--> The idea behind the app is to let users focus on what's going on on the canvas rather than fussing around the right panel.
 
 Another important thing about Lunacy is that it is **totally**, **absolutely**, **100% free**. No locked features, no ads.
 
