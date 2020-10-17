@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Lunacy Documentation
-description: Welcome to the official help for Lunacy, Sketch for Windows.
+description: Welcome to the official help for Lunacy, a powerful graphic design software with full support for .sketch files.
 buttons:
     - content: VIEW ON GITHUB
       url: 'https://github.com/icons8/lunacy-docs'
