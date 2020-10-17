@@ -136,7 +136,7 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 ### New features
 
-#### Re-designed left panel
+#### Redesigned left panel
 
 Lunacy 6.1 comes with a new look of the left panel. It has become easier to switch between the Objects list and the Libraries (Symbols, Styles, Icons, etc.).
 
@@ -204,9 +204,9 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 ### New features
 
-#### Support of Sketch plugins (Beta)
+#### Support for Sketch plugins (Beta)
 
-Lunacy v.6 brings the support of Sketch plugins. Please note that Lunacy supports only the latest JavaScript version of the <a href="https://developer.sketch.com/reference/api/" target="_blank">Sketch API</a>. Also, with limitations it supports:
+Lunacy v.6 brings the support for Sketch plugins. Please note that Lunacy supports only the latest JavaScript version of the <a href="https://developer.sketch.com/reference/api/" target="_blank">Sketch API</a>. Also, with limitations it supports:
 
 * Sketch Utilities (except for polyfill fetch)
 * Some most frequent Objective C Objects
