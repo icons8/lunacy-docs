@@ -26,13 +26,13 @@ page_nav:
 
 ### What about a Linux version?
 
-We receive many requests about Lunacy for Linux, but the thing is that Lunacy was created as a Sketch alternative for Windows, so creating something for Linux is not a priority for us, as we would have to basically start from scratch and rewrite the whole interface to make that happen.
+We receive many requests about Lunacy for Linux, but the thing is that Lunacy was created as an editor of .sketch files for Windows, so creating something for Linux is not a priority for us, as we would have to basically start from scratch and rewrite the whole interface to make that happen.
 
 If you wish to contribute, you can join <a href="https://lunatics.icons8.com/ideas/1/version-for-linux" target="_blank">this thread</a>.
 
 ### What about a Mac version?
 
-Lunacy was created as a Sketch alternative for Windows and keeps heading that way, so we don't have plans for the Mac version within the foreseeable future. You can try Sketch instead or leave your suggestion <a href="https://lunatics.icons8.com/" target="_blank">here</a>.
+Lunacy was created as an editor of .sketch files for Windows and keeps heading this way, so we don't have plans for the Mac version within the foreseeable future. You can try Sketch instead or leave your suggestion <a href="https://lunatics.icons8.com/" target="_blank">here</a>.
 
 ### Is it really free?
 
