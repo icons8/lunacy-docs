@@ -54,32 +54,16 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 -->
 
-<!--
-
 ## 6.3.1 Hotfix
 
-*RELEASED October 16, 2020*
+*RELEASED October 26, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.3.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.3.1.exe) to get the Installer.
 
 ### Fixed issues
 
 * A Sketch Cloud authorization issue.
 * The issue with the Lunacy logo size in the Windows Start menu. 
-
-
--->
-
-## 6.3.1
-
-*RELEASED October 16, 2020*
-
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.3.1.exe) to get the Installer.
-
-### Fixed bugs
-
-* App logo size is fixed for a new Windows 10 release
-* Fixed Sketch Cloud Authorization.
 
 ## 6.3
 
