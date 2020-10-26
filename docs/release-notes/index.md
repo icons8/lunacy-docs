@@ -70,6 +70,17 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 -->
 
+## 6.3.1
+
+*RELEASED October 16, 2020*
+
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.3.1.exe) to get the Installer.
+
+### Fixed bugs
+
+* App logo size is fixed for a new Windows 10 release
+* Fixed Sketch Cloud Authorization.
+
 ## 6.3
 
 *RELEASED October 16, 2020*
