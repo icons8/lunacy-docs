@@ -34,7 +34,7 @@ page_nav:
 
 # Version 6
 
-
+<!--
 
 
 ## 6.4
@@ -87,6 +87,7 @@ Another cool feature of this release is the integration with the Icons8 Image Up
 * Typography issues
 * Other minor fixes and improvements
 
+-->
 
 ## 6.3.1 Hotfix
 
