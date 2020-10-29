@@ -51,7 +51,7 @@ In the previous versions, to preview a prototype, you had to upload a document t
 
 Moreover, we added the support of scrollable artboards in prototypes.
 
-To run the prototype previewer, select an artboard you want to start with and click      in the upper-left corner of the interface. A new window will open next to Lunacy.
+To run the prototype previewer, select an artboard you want to start with and click the Play button in the upper-right corner of the interface. A new window will open next to Lunacy.
 
 Also, you can instantly upload your prototypes to our Cloud and share them with other people. Just click the chain link button at the top of the preview window and send the link to your teammate or customer. 
 For details, refer to our documentation at <a href="https://docs.icons8.com/prototyping/" target="_blank">here</a>.
@@ -65,6 +65,10 @@ For details, refer to our documentation at <a href="https://docs.icons8.com/prot
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-newavatarph.png" height="auto"><source src="/public/rn-newavatar.mp4" type="video/mp4"></video>
 
+
+And as a cherry on top, now you can create avatars from any shapes. For this, select a shape, then enable the Avatar tool and click **Generate avatar** in the Inspector.
+
+<video play="no" controls="controls" muted="" loop="" playsinline="" width="100%" poster="/public/rn-newavatar2ph.png" height="auto"><source src="/public/rn-newavatar2.mp4" type="video/mp4"></video>
 
 #### Image Upscaler
 
