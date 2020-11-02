@@ -102,13 +102,15 @@ The figure below shows the controls that appear in the **Prototyping** section w
     * None - sets the zero target.
     * Previous artboard - a click over the object with this option selected will bring you back to the previous view.
 
+    ![Prototyping controls](public/proto-target.png)
+
 5. These controls allow you to choose how the target artboard will show up on the screen during the preview.
 6. Select this checkbox, if you want the selected object to preserve its position when you scroll the screen (for instance, a floating button).
 7. With this checkbox selected, scrollable artboards will preserve their position during preview of the prototype. When you get back to the artboard, it will be in the same position as you've left it.
 
     With the clear checkbox, the artboard will always return to the top.
 
-![Prototyping controls](public/proto-target.png)
+
 
 ## Sharing prototypes
 
