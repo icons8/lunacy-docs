@@ -34,14 +34,11 @@ page_nav:
 
 # Version 6
 
-<!--
-
-
 ## 6.4
 
-*RELEASED October XX, 2020*
+*RELEASED November 02, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.1.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.4.0.exe) to get the Installer.
 
 ### New features
 
@@ -92,7 +89,6 @@ Another cool feature of this release is the integration with the <a href="https:
 * Typography issues
 * Other minor fixes and improvements
 
--->
 
 ## 6.3.1 Hotfix
 
