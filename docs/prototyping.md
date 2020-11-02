@@ -54,7 +54,7 @@ To preview a prototype, select an artboard you want to start with and click ![Pl
 
 In a similar fashion you can link your artboards in the desired navigation sequence and preview your design in action.
 
-## Scrolling prototypes
+## Scrollable prototypes
 
 To create a scrolling prototype, you should select an artboard from Artboard Presets and resize it. Alternatively, you can create a custom preset and then resize it. For details, about artboards presets and custom presets, click <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.
 
@@ -106,6 +106,20 @@ The figure below shows the controls that appear in the **Prototyping** section w
 6. Select this check box, if you want the selected object to preserve its position when you scroll the screen (for instance, a floating button).
 
 ![Prototyping controls](public/proto-target.png)
+
+## Sharing prototypes
+
+You can easily share prototypes with your teammates and customers.
+
+For this:
+
+1. Click ![Play button](public/playbtn.png) in the upper-right corner of the interface. The preview window shows up.
+2. Click the chain link icon at the top of the window.
+
+That's it. The link gets copied to your clipboard and you can send it to your recipients.
+
+![Sharing a prototype](public/proto-sharelink.png)
+
 
 ## Previewing prototypes in Sketch Cloud
 
