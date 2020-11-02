@@ -24,6 +24,7 @@ page_nav:
 
 
 
+<!--
 
 ## Introduction
 
@@ -31,7 +32,11 @@ You can build prototypes to test and polish UX of your designs before sending th
 
 In the current version of Lunacy preview of prototypes takes place in Sketch Cloud. So, to be able to upload and preview your prototypes you will need a Sketch Cloud account.
 
+-->
+
 ## How it works
+
+You can build prototypes to test and polish UX of your designs before sending them to development.
 
 Prototyping is based on artboards. If you are planning to add prototyping to your project, *the use of artboards is a must*.
 
@@ -43,20 +48,18 @@ The easiest way to create a prototype is to add a link between two artboards. Th
 
 That's it. A primitive prototype is ready. To make it a bit more usable, we will repeat the above steps and create a control that will return the user from Artboard 1 to Artboard 2.
 
-To preview a prototype we need to upload it to Sketch Cloud:
+To preview a prototype, select an artboard you want to start with and click ![Play button](public/playbtn.png) in the upper-right corner of the interface. The preview window will show up.
 
-1. Click the Sketch Cloud icon on the action bar. Log into your Cloud account, if necessary.
-2. In the Sketch Cloud panel, click **Upload document**. Wait a bit until Cloud processing is complete.
-3. Select the artboard from which you want to start preview.
-4. Click the play button that will appear at the top bar.
-
-All the above steps are shown in the demo below.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-demoph.png" height="auto"><source src="/public/proto-demo.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-procedureph.png" height="auto"><source src="/public/proto-procedure.mp4" type="video/mp4"></video>
 
 In a similar fashion you can link your artboards in the desired navigation sequence and preview your design in action.
 
-**Note:** When you upload your file to Sketch Cloud, you create a new independent file which *will not* synchronize with its parent that you store on your computer. So, make sure that you edit one and the same file. You can always download the Cloud file to you computer or upload a new version of the local copy to the Cloud. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.
+## Scrolling prototypes
+
+To create a scrolling prototype, you should select an artboard from Artboard Presets and resize it. Alternatively, you can create a custom preset and then resize it. For details, about artboards presets and custom presets, click <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.
+
+Prototypes based on non-preset artboards won't scroll.
+
 
 ## [Hotspots](#hotspots)
 
@@ -103,3 +106,18 @@ The figure below shows the controls that appear in the **Prototyping** section w
 6. Select this check box, if you want the selected object to preserve its position when you scroll the screen (for instance, a floating button).
 
 ![Prototyping controls](public/proto-target.png)
+
+## Previewing prototypes in Sketch Cloud
+
+You can also preview prototypes in Sketch Cloud. For this, you need to upload your document to Sketch Cloud:
+
+1. Click the Sketch Cloud icon on the action bar. Log into your Cloud account, if necessary.
+2. In the Sketch Cloud panel, click **Upload document**. Wait a bit until Cloud processing is complete.
+3. Select the artboard from which you want to start preview.
+4. Click the play button that will appear at the top bar.
+
+All the above steps are shown in the demo below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-demoph.png" height="auto"><source src="/public/proto-demo1.mp4" type="video/mp4"></video>
+
+**Note:** When you upload your file to Sketch Cloud, you create a new independent file which *will not* synchronize with its parent that you store on your computer. So, make sure that you edit one and the same file. You can always download the Cloud file to you computer or upload a new version of the local copy to the Cloud. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.
