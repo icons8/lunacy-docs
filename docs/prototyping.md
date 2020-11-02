@@ -56,7 +56,7 @@ In a similar fashion you can link your artboards in the desired navigation seque
 
 ## Scrollable prototypes
 
-To create a scrolling prototype, you should select an artboard from Artboard Presets and resize it. Alternatively, you can create a custom preset and then resize it. For details, about artboards presets and custom presets, click <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.
+To create a scrollable prototype, you should select an artboard from Artboard Presets and resize it. Alternatively, you can create a custom preset and then resize it. For details, about artboards presets and custom presets, click <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.
 
 Prototypes based on non-preset artboards won't scroll.
 
@@ -92,7 +92,7 @@ To delete a hotspot, select it and press`Del`.
 
 The figure below shows the controls that appear in the **Prototyping** section when you select a linked object or a hotspot.
 
-![Prototyping controls](public/proto-controls.png)
+![Prototyping controls](public/proto-controls1.png)
 
 1. This icon appears only when you select a linked object. A click over the icon creates a hotspot over the object. See the [Hotspots](#hotspots) section above.
 2. The trash can icon. Discards prototyping setting for the selected object/Deletes the selected hotspot.
@@ -102,8 +102,11 @@ The figure below shows the controls that appear in the **Prototyping** section w
     * None - sets the zero target.
     * Previous artboard - a click over the object with this option selected will bring you back to the previous view.
 
-5. These controls allow you to choose how the target artboard will appear on the screen during the preview.
-6. Select this check box, if you want the selected object to preserve its position when you scroll the screen (for instance, a floating button).
+5. These controls allow you to choose how the target artboard will show up on the screen during the preview.
+6. Select this checkbox, if you want the selected object to preserve its position when you scroll the screen (for instance, a floating button).
+7. With this checkbox selected, scrollable artboards will preserve their position during preview of the prototype. When you get back to the artboard, it will be in the same position as you've left it.
+
+    With the clear checkbox, the artboard will always return to the top.
 
 ![Prototyping controls](public/proto-target.png)
 
