@@ -372,7 +372,7 @@ Also, thanks to integration with the <a href="https://generated.photos/" target=
 
 To change the image of an avatar, click the refresh button at the top-left corner of the avatar or select an avatar and press `Shift+R`.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools-refreshavatarph.png" height="auto"><source src="/public/tools-refreshavatar.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-refreshavatarph.png" height="auto"><source src="/public/tools-refreshavatar.mp4" type="video/mp4"></video>
 
 Also, you can refresh multiple avatars at a time. For this, select several avatars and press `Shift+R` or click **Generate avatar** in the Inspector.
 
