@@ -66,7 +66,8 @@ Also, now you can refresh multiple avatars at a time. For this, select several a
 
 And as a cherry on top, now you can create avatars from any shapes. For this, select a shape, then enable the Avatar tool and click **Generate avatar** in the Inspector (see the demo below).
 
-<video play="no" muted="" loop="" playsinline="" width="100%" poster="/public/rn-newavatar2ph.png" height="auto"><source src="/public/rn-newavatar2-1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-newavatar2ph.png" height="auto"><source src="/public/rn-newavatar2-1.mp4" type="video/mp4"></video>
+
 
 #### Image Upscaler
 
