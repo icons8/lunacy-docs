@@ -356,11 +356,9 @@ To add an avatar to your design:
 
 Lunacy remembers the size of the latest avatar you add (at the moment you release the tool). The next time you invoke the tool it will appear with an avatar of that very size.
 
-<!--
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-avatarsizeplaceholder.png" height="auto"><source src="/public/tool-avatarsize.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-avatarsizeplaceholder.png" height="auto"><source src="/public/tool-avatarsize1.mp4" type="video/mp4"></video>
 
--->
 
 The default collection of avatars installed with the app includes five images. You can use them even when your computer has no internet connection. When you're online, you have access to the full collection of avatars.
 
