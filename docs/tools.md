@@ -384,6 +384,21 @@ Moreover, you can create avatars from any shapes. For this, select a shape, then
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-newavatar2ph.png" height="auto"><source src="/public/rn-newavatar2-1.mp4" type="video/mp4"></video>
 
+### Adjusting background in avatars with generated photos
+
+You can change the background in avatars based on generated photos. The procedure is as follows:
+
+1. Select an avatar.
+2. In the **Avatar** section of the Inspector, switch to *Generated photos*.
+3. Enable the **Transparent** toggle.
+4. Set the rest of the options as needed.
+5. Click **Generate avatar**. A new avatar with a transparent background appears on the canvas.
+6. In the **Fills** section of the Inspector, click `+`. This will add a new fill layer above the image.
+7. Drag the new layer below the image layer.
+8. Enable the color picker and set the required background color (see the demo below).
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-avatarbgph.png" height="auto"><source src="/public/tools-avatarbg.mp4" type="video/mp4"></video>
+
 
 ## GUI tool
 
