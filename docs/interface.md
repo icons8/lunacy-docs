@@ -24,25 +24,25 @@ page_nav:
 The Lunacy interface is intuitive and minimal. It contains only essential controls, so you don’t have to spend much time learning how to interact with it.
 
 {:.is-big}
-![Lunacy interface](public/interface_genview61.png)
+![Lunacy interface](public/interface-genview65.png)
 
 The interface consists of the following main elements.
 
 1. The content tabs. Use them to switch between the:
 
     * List of objects
-    * Document assets (<a href="https://docs.icons8.com/symbols" target="_blank">symbols</a>, layer and text <a href="https://docs.icons8.com/layerstyles/" target="_blank">styles</a>)
+    * Document assets (<a href="https://docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://docs.icons8.com/layerstyles/" target="_blank">styles</a>)
     * Built-in Lunacy <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://docs.icons8.com/plugins" target="_blank">plugins</a>
     * List of <a href="https://docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
 
 2. The left panel. Displays the content of the selected tab (1). You can temporarily hide the panel by clicking the current tab, using respective shortcuts (`Alt+1`...`Alt+8`, `Shift+F1`) or through the menu (**View** > **Left Panel**).
 
-2. The **toolbar**. Features all the primary Lunacy tools. For details about tools, click <a href="https://docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer shortcuts you can toggle off the display of the toolbar through the menu (**View** > **Toolbar**).
-3. The **canvas**. That is your working area. For details, read [below](#the-canvas).
-4. The **Inspector** panel. Lets you see and adjust the properties of the selected object. The view of the Properties Inspector varies with the type of the selected object. For details, read [below](#the-inspector).
-5. The **menu bar**. Holds the options and commands related to files, objects, editing, etc.
-6. The **context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected object. Hover the cursor over a tool icon to see a pop-up explaining what the tool does.
-7. The **action bar**. Features a set of buttons related mostly to display options, see the table below.
+3. The **toolbar**. Features all the primary Lunacy tools. For details about tools, click <a href="https://docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer shortcuts you can toggle off the display of the toolbar through the menu (**View** > **Toolbar**).
+4. The **canvas**. That is your working area. For details, read [below](#the-canvas).
+5. The **Inspector** panel. Lets you see and adjust the properties of the selected object. The view of the Properties Inspector varies with the type of the selected object. For details, read [below](#the-inspector).
+6. The **menu bar**. Holds the options and commands related to files, objects, editing, etc.
+7. The **context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected object. Hover the cursor over a tool icon to see a pop-up explaining what the tool does.
+8. The **action bar**. Features a set of buttons related mostly to display options described in the table below. To see the full set of buttons click ![Action bar button](public/interface-openactionbar.png)
     
     <table>
     <thead>
@@ -106,8 +106,9 @@ The interface consists of the following main elements.
     </tbody>
     </table>
 
-8. The **file tabs panel**. Shows the tabs of currently open files. To switch between the files, just click the respective tab.
-9. The **zoom control**. For details, read [below](#zooming-options).
+9. The **file tabs panel**. Shows the tabs of currently open files. To switch between the files, just click the respective tab.
+10. The **zoom control**. For details, read [below](#zooming-options).
+11. The **Play** button. Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://docs.icons8.com/prototyping" target="_blank">here</a>.
 
 ## Document pages
 
@@ -136,7 +137,7 @@ The rest of the operations are accessible through the context menu invoked by a 
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages61.mp4" type="video/mp4"></video>
 
-There is also a special type of a page - the Symbols page. For details, read <a href="https://docs.icons8.com/symbols/#symbols-page" target="_blank">here</a>.
+There is also a special type of a page - the Components page. For details, read <a href="https://docs.icons8.com/components/#components-page" target="_blank">here</a>.
 
 ## Objects list
 

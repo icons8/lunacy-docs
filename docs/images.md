@@ -132,3 +132,11 @@ To remove background from an image:
 2. In the inspector, click the **Remove background** button.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-bgremovalph.png" height="auto"><source src="/public/tips-bgremove.mp4" type="video/mp4"></video>
+
+## Image upscaler
+
+Lunacy is integrated with the <a href="https://icons8.com/upscaler" target="_blank">Icons8 Image Upscaler</a>. When you add an image to your document, Lunacy will offer you to enhance the image using our state-of-the-art AI.
+
+![Lunacy Image upscaler by Icons8](/public/rn-upscaler.png)
+
+**Note:** The feature is available only to users with a paid subscription.

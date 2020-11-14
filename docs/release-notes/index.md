@@ -32,7 +32,46 @@ page_nav:
 
 ---
 
+<!--
+
 # Version 6
+
+## 6.5
+
+*RELEASED November XX, 2020*
+
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.4.0.exe) to get the Installer.
+
+### New features
+
+#### Smooth corners
+
+Now you can create shapes with perfectly smooth corners like in Apple interfaces and products.
+To switch between round (default) and smooth corners, click ![Smooth corner button](/public/smoothcornerbtn.png) next to the corner radius field in the Inspector.                      
+The figure below shows the difference between smooth (red) and rounded (blue) corners.
+
+![Smooth vs Round corners](/public/rn-smoothcorner.png)
+
+#### Export presets
+
+Now you can save your export settings for further use. To open the Export Preset Editor, click the settings button in the Export section of the Inspector, then select  Create preset on the menu.
+The settings menu now also features export presets for iOS and Android.
+
+![Export presets in Lunacy](/public/rn-exportprests.png)
+
+### Improvements
+
+* We renamed Symbols to Components for easier onboarding of Figma, XD and other users.
+* Lunacy API regional split for USA, Europe and China for better connectivity.
+* Improved prototypes upload speed.
+* Ability to Check for Updates from the Main Menu (**Help > Check For Updates**).
+* Some minor UI improvements.
+
+### Fixed bugs
+
+* Numerous minor fixes.
+
+-->
 
 ## 6.4
 
