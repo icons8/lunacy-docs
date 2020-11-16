@@ -185,7 +185,7 @@ Also, you can use the mouse wheel for scrolling the canvas. Just point the curso
 
 Another option to navigate the canvas is to hold down the `Space` key (the cursor will turn into a palm) and drag the canvas to where you need.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-movingcanvas.png" height="auto"><source src="/public/interface-movingcanvas65.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-movingcanvas.png" height="auto"><source src="/public/interface-movingcanvas65.mp4" type="video/mp4"></video>
 
 Also, read about the [zooming options](#zooming-options).
 
@@ -199,7 +199,7 @@ To add an artboard:
 2. Click and drag to create a custom size artboard or select an option from the panel on the right (see the figure below).
 
 {:.is-big}
-![Adding an artboard](public/tool-addatrboard65.png)
+![Adding an artboard](public/tool-addatrboard61.png)
 
 But even if you started your project without artboards, it is never too late to add them. Just drag the artboard tool over the objects that you want to put on an artboard.
 
