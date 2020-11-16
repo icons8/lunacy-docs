@@ -34,6 +34,10 @@ The interface consists of the following main elements.
     * Document assets (<a href="https://docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://docs.icons8.com/layerstyles/" target="_blank">styles</a>)
     * Built-in Lunacy <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://docs.icons8.com/plugins" target="_blank">plugins</a>
     * List of <a href="https://docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
+  
+  To shrink the size of the content tabs panel, drag its right border to the left.
+
+    ![Lunacy interface](public/interface-shrinkcontenttabs.png)
 
 2. The left panel. Displays the content of the selected tab (1). You can temporarily hide the panel by clicking the current tab, using respective shortcuts (`Alt+1`...`Alt+8`, `Shift+F1`) or through the menu (**View** > **Left Panel**).
 
@@ -42,7 +46,7 @@ The interface consists of the following main elements.
 5. The **Inspector** panel. Lets you see and adjust the properties of the selected object. The view of the Properties Inspector varies with the type of the selected object. For details, read [below](#the-inspector).
 6. The **menu bar**. Holds the options and commands related to files, objects, editing, etc.
 7. The **context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected object. Hover the cursor over a tool icon to see a pop-up explaining what the tool does.
-8. The **action bar**. Features a set of buttons related mostly to display options described in the table below. To see the full set of buttons click ![Action bar button](public/interface-openactionbar.png)
+8. The **action bar**. Features a set of buttons related mostly to display options described in the table below. To see the full set of buttons click ![Action bar button](public/interface-openactionbar.png).
     
     <table>
     <thead>
@@ -114,7 +118,7 @@ The interface consists of the following main elements.
 
 Each document can include any number of pages. You can keep all you work on a single page or split it into several pages by components, if the project is large. For instance, if you are designing a website, you can opt to keep the desktop and mobile versions on separate pages. Or you can duplicate a page to save a snapshot of your current work and continue working with the copy. In fact, the reasons for having multiple pages in a document are numerous and it is completely up to you to decide what approach to choose. The figure below shows a view of a page list. It appears above the objects list when the **Objects** content tab is selected.
 
-![A view of a page list](public/interface-pagelist61.png)
+![A view of a page list](public/interface-pagelist65.png)
 
 The operations that you can perform with document pages include:
 
@@ -135,7 +139,7 @@ To change the position of a page in the list, just drag it up or down to where y
 
 The rest of the operations are accessible through the context menu invoked by a right-click over the required page name.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages65.mp4" type="video/mp4"></video>
 
 There is also a special type of a page - the Components page. For details, read <a href="https://docs.icons8.com/components/#components-page" target="_blank">here</a>.
 
@@ -144,11 +148,11 @@ There is also a special type of a page - the Components page. For details, read 
 The objects list appears in left panel when you click the **Objects** content tab. It shows a tree of objects available on the current page. Lunacy automatically assigns names to objects and object groups as you create them, but you can rename them if you like. The figure below shows a view of an object list.
 
 {:.is-big}
-![A view of an object list](public/interface-objectlist61.png)
+![A view of an object list](public/interface-objectlist65.png)
 
 If the names of objects in the list appear truncated, you can change the width of the panel as shown below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-resizeleft.png" height="auto"><source src="/public/interface-resizeleft61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-resizeleft.png" height="auto"><source src="/public/interface-resizeleft65.mp4" type="video/mp4"></video>
 
 The operations that you can perform in the objects list include:
 
@@ -159,7 +163,11 @@ The operations that you can perform in the objects list include:
 * **Locking objects**. By locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
 * Other [basic operations](#context-menu) with objects available on the context menu.
 
+<!--
+
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist61.mp4" type="video/mp4"></video>
+
+-->
 
 To collapse all branches in the object tree use the `Ctrl + ~` shortcut.
 
@@ -177,7 +185,7 @@ Also, you can use the mouse wheel for scrolling the canvas. Just point the curso
 
 Another option to navigate the canvas is to hold down the `Space` key (the cursor will turn into a palm) and drag the canvas to where you need.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-movingcanvas.png" height="auto"><source src="/public/interface-movingcanvas61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-movingcanvas.png" height="auto"><source src="/public/interface-movingcanvas65.mp4" type="video/mp4"></video>
 
 Also, read about the [zooming options](#zooming-options).
 
@@ -191,7 +199,7 @@ To add an artboard:
 2. Click and drag to create a custom size artboard or select an option from the panel on the right (see the figure below).
 
 {:.is-big}
-![Adding an artboard](public/tool-addatrboard61.png)
+![Adding an artboard](public/tool-addatrboard65.png)
 
 But even if you started your project without artboards, it is never too late to add them. Just drag the artboard tool over the objects that you want to put on an artboard.
 
