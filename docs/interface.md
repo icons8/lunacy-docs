@@ -35,9 +35,9 @@ The interface consists of the following main elements.
     * Built-in Lunacy <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://docs.icons8.com/plugins" target="_blank">plugins</a>
     * List of <a href="https://docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
   
-  To shrink the size of the content tabs panel, drag its right border to the left.
+    To shrink the size of the content tabs panel, drag its right border to the left.
 
-  ![Lunacy interface](public/interface-shrinkcontenttabs.png)
+    ![Lunacy interface](public/interface-shrinkcontenttabs.png)
 
 2. The left panel. Displays the content of the selected tab (1). You can temporarily hide the panel by clicking the current tab, using respective shortcuts (`Alt+1`...`Alt+8`, `Shift+F1`) or through the menu (**View** > **Left Panel**).
 
