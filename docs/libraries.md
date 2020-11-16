@@ -89,7 +89,7 @@ Like with [photos](#photos-and-masked-photos), when working with illustrations y
 
 ## UI kits
 
->**Tip:** To better understand the intent and how to use UI kits, we recommend that you first read the <a href="https://docs.icons8.com/symbols" target="_blank">Symbols</a> and <a href="https://docs.icons8.com/layerstyles" target="_blank">Layer and text styles</a> sections of our documentation.
+>**Tip:** To better understand the intent and how to use UI kits, we recommend that you first read the <a href="https://docs.icons8.com/components" target="_blank">Components</a> and <a href="https://docs.icons8.com/layerstyles" target="_blank">Layer and text styles</a> sections of our documentation.
 
 With Lunacy you always have all popular UI kits at hand. They can be of great help when you are working on a project for a specific OS or device. You can quickly find the required components (buttons, menus, colors, etc.) and add them to your design.
 
@@ -104,7 +104,7 @@ Lunacy library includes the following UI kits:
 * Apple iOS
 * Microsoft Web Fluent
 
-In fact, UI kits are external .sketch files with ready-made <a href="https://docs.icons8.com/symbols" target="_blank">symbols</a>, <a href="https://docs.icons8.com/layerstyles/#layer-styles" target="_blank">layer styles</a> and <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
+In fact, UI kits are external .sketch files with ready-made <a href="https://docs.icons8.com/components" target="_blank">components</a>, <a href="https://docs.icons8.com/layerstyles/#layer-styles" target="_blank">layer styles</a> and <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
 
 >**Tip:** If you're working with a large project and feel that your computer is slow, you can disable the UI kits that you don't currently need. This will spare some system resources. You can always enable UI kits later.
 
@@ -118,9 +118,9 @@ To disable/enable UI kits:
 
 ### Custom UI kits
 
-You can create your own kits and save them for further use or share them with other people. For this, you should convert the components (UI elements, colors, typography) that you are going to reuse into symbols, layer and text styles, accordingly.
+You can create your own kits and save them for further use or share them with other people. For this, you should convert the components (UI elements, colors, typography) that you are going to reuse into components, layer and text styles, accordingly.
 
-Also, you can add any other UI kits that you might find on the Internet or get from your team. The only requirement is that those *must* be .sketch files and they *must* include symbols.
+Also, you can add any other UI kits that you might find on the Internet or get from your team. The only requirement is that those *must* be .sketch files and they *must* include components.
 
 To add a custom UI kit to the library:
 
@@ -143,10 +143,10 @@ You can also use the **Show in File Explorer** command, to learn the location of
 
 In general, the workflow with UI kits is as follows:
 
-* In the left panel (on the **Objects** and **Libraries** tabs) you deal with symbols.
+* In the left panel (on the **Objects** and **Libraries** tabs) you deal with components.
 * In the right panel (the Inspector) you make use of layer and text styles.
 
-#### Symbols
+#### Components
 
 To add an item from a UI kit library to your project:
 
@@ -157,10 +157,10 @@ Like with other library items, you can replace the selected item on the canvas w
 
 ![Working with UI kits](public/uikitadd.gif)
 
-On the **Objects** tab, items from a UI kit library appear with the link icon in front of their names (see the figure below). It indicates that the object is an instance of a symbol from an external file. You cannot modify such objects, except for the size and overrides. To get more control over a library item, consider the following commands accessible on the context menu or menus invoked from the menu bar and the Inspector:
+On the **Objects** tab, items from a UI kit library appear with the link icon in front of their names (see the figure below). It indicates that the object is an instance of a component from an external file. You cannot modify such objects, except for the size and overrides. To get more control over a library item, consider the following commands accessible on the context menu or menus invoked from the menu bar and the Inspector:
 
-* **Detach from Symbols**: Converts the selected instance into a layered object.
-* **Detach from Library**: Adds the main symbol of the selected instance to the document assets, i.e. to the symbols page. After you detach a symbol from the library, you can work with it as with all other symbols in your project.
+* **Detach from Components**: Converts the selected instance into a layered object.
+* **Detach from Library**: Adds the main component of the selected instance to the document assets, i.e. to the Components page. After you detach a component from the library, you can work with it as with all other components in your project.
 * **Restore instance size**: Restores the original size of the selected instance.  
 
 {:.is-big}

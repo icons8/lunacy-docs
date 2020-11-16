@@ -71,7 +71,7 @@ All these is detailed in the sections below. Also, here you will learn how to pr
 
 * Remember that during export Lunacy ignores all guides, square and layout grids, artboard names, as well as prototyping arrows and canvas color (not to be confused with the artboard color). There is now way to include them into export files.
 
-* Also, note that if there is at least one artboard in your project, during *export of a project* Lunacy ignores all objects that are beyond artboards, as well as main symbols.
+* Also, note that if there is at least one artboard in your project, during *export of a project* Lunacy ignores all objects that are beyond artboards, as well as main components.
 
 * The maximum dimension (height or width) of resulting raster files is limited to 16,000 pixels.
 
@@ -101,7 +101,7 @@ Lunacy remembers all export settings that you define for each object. So, the ne
 
 ## Exporting single and multiple objects
 
-To export a single object (grouped objects and symbol instances are also viewed as single objects), proceed as follows:
+To export a single object (grouped objects and component instances are also viewed as single objects), proceed as follows:
 
 1. Select the object that you want to export.
 2. In the Inspector, scroll down to the export section.
@@ -177,9 +177,9 @@ The quickest way to export all content of a document page is as follows:
 
 ## Exporting a project
 
-**Note:** To be able to export a project, you should have at least one artboard in it. Also, bear in mind that during export of projects, Lunacy ignores all objects that are beyond artboards, as well as main symbols.
+**Note:** To be able to export a project, you should have at least one artboard in it. Also, bear in mind that during export of projects, Lunacy ignores all objects that are beyond artboards, as well as main components.
 
-When exporting a project, Lunacy creates folders whose names correspond to the names of pages in the project. Inside these folders, Lunacy creates separate files for each object available on the respective page. Grouped objects and symbol instances are viewed as single objects.
+When exporting a project, Lunacy creates folders whose names correspond to the names of pages in the project. Inside these folders, Lunacy creates separate files for each object available on the respective page. Grouped objects and component instances are viewed as single objects.
 
 To export a project:
 
@@ -197,7 +197,7 @@ You can upload your designs to our Cloud and instantly share them with other peo
 
 You can export to cloud:
 
-* Single objects (grouped objects and symbol instances are also viewed as single objects).
+* Single objects (grouped objects and component instances are also viewed as single objects).
 * Entire projects. Note that you won't be able to export projects without artboards and that during export of projects Lunacy ignores objects beyond artboards. The only format available for export of projects is PDF. Lunacy creates a separate page for each artboard in the project.
 
 ### Exporting an object to Icons8 cloud

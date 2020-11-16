@@ -34,7 +34,7 @@ Styling options that you can apply to objects in Lunacy include:
 
 They appear in the Inspector when you select an object. A combination of styling options applied to an object is called a layer style. You can save layer styles for further use (read <a href="https://docs.icons8.com/layerstyles/" target="_blank">here</a> for details).
 
-You can apply styling options to all <a href="https://docs.icons8.com/objects/#introduction" target="_blank">types of objects</a>, except for technical ones (such as artboards, hotspots and slices). However, the only option applicable to group objects and symbols is the outer shadow.
+You can apply styling options to all <a href="https://docs.icons8.com/objects/#introduction" target="_blank">types of objects</a>, except for technical ones (such as artboards, hotspots and slices). However, the only option applicable to group objects and components is the outer shadow.
 
 In addition to the above, text objects feature typography settings, such as font, font size, line spacing, etc. Combined with the common styling options (or without them) they make up <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
 
@@ -278,11 +278,11 @@ You can apply styling options to multiple selected objects at the same time. If 
 
 ## Tints
 
-Tints are a quick and easy way to apply a color to grouped objects and symbol instances. They are particularly useful when you need to adjust the color of a semi-filled object or a complex icon (see the demo below).
+Tints are a quick and easy way to apply a color to grouped objects and component instances. They are particularly useful when you need to adjust the color of a semi-filled object or a complex icon (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-tintsph.png" height="auto"><source src="/public/styling-tints.mp4" type="video/mp4"></video>
 
-The **Tints** section appears in the Inspector only when you select a group object or a symbol.
+The **Tints** section appears in the Inspector only when you select a group object or a component.
 
 Unlike other styling options, you can apply only one tint to an object.
 
@@ -292,7 +292,7 @@ Tint overrides can be handy, for instance, when you are designing tabs or panels
 
 Note that before using tint overrides you should add default tints.
 
-The demo below shows three instances of the same symbol. We first applied a tint override to a nested element, then switched to the <a href="https://docs.icons8.com/symbols/#editing-main-symbols" target="_blank">symbol edit mode</a> and modified the default tint. In the latter case, the change applied only to the instances without the override.
+The demo below shows three instances of the same component. We first applied a tint override to a nested element, then switched to the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">component edit mode</a> and modified the default tint. In the latter case, the change applied only to the instances without the override.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tintoverridesph2.png" height="auto"><source src="/public/tintoverrides2.mp4" type="video/mp4"></video>
 
@@ -300,7 +300,7 @@ When you apply an override, the reset button appears in the **Tint** section of 
 
 ![Reset overrides button](public/reset-overridetint.png)
 
-For details about overrides, read <a href="https://docs.icons8.com/symbols/#overrides" target="_blank">here</a>.
+For details about overrides, read <a href="https://docs.icons8.com/components/#overrides" target="_blank">here</a>.
 
 
 ## Suggestions panel

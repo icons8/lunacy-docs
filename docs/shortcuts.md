@@ -59,7 +59,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Lock Guidelines |`Ctrl+Alt+;` |
 | Collapse the Objects list |`Ctrl+~` |
 | Switch to Objects |`Alt+1` |
-| Switch to Symbols |`Alt+2` |
+| Switch to Components |`Alt+2` |
 | Switch to Styles |`Alt+3` |
 | Switch to Icons |`Alt+4` |
 | Switch to Photos |`Alt+5` |
@@ -88,7 +88,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Artboard |`A` |
 | Hotspot |`H` |
 | Slice |`E` |
-| Symbol|`C` |
+| Component|`C` |
 | Button |`B` |
 | Text Input |`D` |
 | Checkbox |`F` |
@@ -194,15 +194,15 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Language  |`;la` or `;language` |
 
 
-## Symbols operations
+## Operations with Components
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Create Symbol |`Ctrl+Alt+K`  |
-| Edit Symbol  |`Enter` |
-| Send to Symbols Page  |`Ctrl+Alt+E`|
-| Detach from Symbol  |`Ctrl+Alt+D` |
+| Create Component |`Ctrl+Alt+K`  |
+| Edit Component  |`Enter` |
+| Send to Components Page  |`Ctrl+Alt+E`|
+| Detach from Components  |`Ctrl+Alt+D` |
 | Reset instance size  |`Ctrl+Alt+R` |
 
 

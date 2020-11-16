@@ -67,7 +67,7 @@ You can also use hotspots to create links between artboards. These are a special
 
 Also, hotspots come in handy when the size of an element that you want to make clickable or tappable is too small for convenient use. By adding a hotspot you can enlarge interactive area around the object.
 
-Moreover, you can use hotspots as parts of symbols and override their targets as needed.
+Moreover, you can use hotspots as parts of <a href="https://docs.icons8.com/components/" target="_blank">components</a> and override their targets as needed.
 
 To add a hotspot you can:
 

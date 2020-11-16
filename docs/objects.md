@@ -31,7 +31,7 @@ In Lunacy you will work with the following types of objects:
 * <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">Vector objects</a>
 * <a href="https://docs.icons8.com/tools/#shape-tool" target="_blank">Shapes</a>
 * <a href="https://docs.icons8.com/tools/#image-tool" target="_blank">Images</a>
-* <a href="https://docs.icons8.com/symbols/" target="_blank">Symbols and symbol instances</a>
+* <a href="https://docs.icons8.com/components/" target="_blank">Components and component instances</a>
 * <a href="https://docs.icons8.com/tools/#icon-tool" target="_blank">Icons</a> 
 * <a href="https://docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspots</a> 
 * <a href="https://docs.icons8.com/tools/#slice-tool" target="_blank">Slices</a> 
@@ -244,7 +244,7 @@ In a similar fashion you can scale several objects at a time.
 
 ### Resizing constraints
 
-Resizing constraints allow you to determine the behavior of an object upon resizing of a group, symbol or an artboard to which the object belongs. This can be very useful, for example, when you need to design a user interface for different screen sizes or devices.
+Resizing constraints allow you to determine the behavior of an object upon resizing of a group, component or an artboard to which the object belongs. This can be very useful, for example, when you need to design a user interface for different screen sizes or devices.
 
 First of all, if you want objects on an artboart to resize when you adjust the size of the artboard:
 
@@ -259,7 +259,7 @@ Also, you can configure individual resize behavior of each object using the cont
 
 These controls include:
 
-* The **Pin to edge** control. Allows you to pin the object to one or several edges of the artboard or its parent, if the object is a part of a group/symbol. So, when you resize the artboard or the parent, Lunacy won't change the distance between the object and the edges it is pinned to. Click the respective T-shaped buttons to pin the object.
+* The **Pin to edge** control. Allows you to pin the object to one or several edges of the artboard or its parent, if the object is a part of a group/component. So, when you resize the artboard or the parent, Lunacy won't change the distance between the object and the edges it is pinned to. Click the respective T-shaped buttons to pin the object.
 * The **Fix width** and **Fix size** checkboxes. Allow you to restrict the change of the object's width or height upon resizing of the artboard or the parent object.
 
 To better understand how all this works, see the demo below.
