@@ -88,8 +88,8 @@ The table below provides an overview of the controls and their shortcuts.
       <td><p><code>B</code> - button</p><p><code>D</code> - text input</p><p><code>Y</code> - radio button</p><p><code>F</code> - checkbox</p><p><code>K</code> - toggle</p><p><code>W</code> - dropdown list</p></td>
     </tr>
     <tr>
-      <td><img src="/public/tools-symbolicon61.png" alt="Symbol tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#icon-tool">Symbol tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder symbols and then replacing them with required GUI elements.</td>
+      <td><img src="/public/tools-symbolicon61.png" alt="Component tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#icon-tool">Component tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder components and then replacing them with required GUI elements.</td>
       <td><code>C</code></td>
     </tr>
     <tr>
@@ -421,24 +421,24 @@ When you select a control added with any of these tools, you see the suggestions
 
 ![GUI tools](public/rn5_9-guitools2.png)
 
-To edit the appearance of a control, use the <a href="https://docs.icons8.com/symbols/#editing-main-symbols" target="_blank">symbol editor</a>.
+To edit the appearance of a control, use the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">component editor</a>.
 
-## Symbol tool
+## Component tool
 
-The symbol tool allows you to quickly create mockups of interfaces by adding placeholder symbols and then replacing them with required GUI elements.
+The component tool allows you to quickly create mockups of interfaces by adding placeholder components and then replacing them with required GUI elements.
 
-![Symbol tool](public/rn5_9-symbtool.png)
+![Component tool](public/rn5_9-symbtool.png)
 
-* To draw a placeholder symbol just select the Symbol tool and drag over the required area. Placeholder symbols appear as pink rectangles with the question mark.
+* To draw a placeholder component just select the Сomponent tool and drag over the required area. Placeholder components appear as pink rectangles with the question mark.
 
-![Placeholder symbols](public/rn5_9-symbtool2.png)
+![Placeholder components](public/rn5_9-symbtool2.png)
 
-* To replace a placeholder symbol, select it and use the suggestions panel that will appear.
-* You can also use use symbols from the Symbols page. For this, enable the tool, then go to the Symbols page and click the required Symbol. The same applies to symbols from UI kits.
-* When the Symbol tool is enabled, you can press the `C` and `Shift+C` hotkeys to switch between the symbols that you've used earlier and quickly add them onto the canvas.
-* If you want your custom symbols to appear on the suggestions panel, you should properly tag them in the Inspector. For this, click ![Tag symbol button](public/rn5_9-symbtool5.png) in the **Symbol** section of the Inspector and select a proper category.
+* To replace a placeholder component, select it and use the suggestions panel that will appear.
+* You can also use use components from the Components page. For this, enable the tool, then go to the Components page and click the required component. The same applies to components from UI kits.
+* When the Component tool is enabled, you can press the `C` and `Shift+C` hotkeys to switch between the components that you've used earlier and quickly add them onto the canvas.
+* If you want your custom components to appear on the suggestions panel, you should properly tag them in the Inspector. For this, click ![Tag component button](public/rn5_9-symbtool5.png) in the **Component** section of the Inspector and select a proper category.
 
-![Tagging symbols](public/rn5_9-symbtool4.png)
+![Tagging components](public/tools-comptoolassign.png)
 
 ## Hotspot tool
 
