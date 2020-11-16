@@ -206,7 +206,7 @@ But even if you started your project without artboards, it is never too late to 
 The figure below shows how artboards appear in the **Objects** panel and a view of the Inspector with artboard settings and controls which differ a lot from those available in the [Inspector](#the-inspector) panels of other object types.
 
 {:.is-big}
-![Artboards: Object panel and presets](public/interface-artboardpanels61.png)
+![Artboards: Object panel and presets](public/interface-artboardpanels65.png)
 
 The table below provides a description of Inspector elements displayed for artboards.
 
