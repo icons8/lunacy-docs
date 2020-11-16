@@ -37,7 +37,7 @@ The interface consists of the following main elements.
   
   To shrink the size of the content tabs panel, drag its right border to the left.
 
-    ![Lunacy interface](public/interface-shrinkcontenttabs.png)
+  ![Lunacy interface](public/interface-shrinkcontenttabs.png)
 
 2. The left panel. Displays the content of the selected tab (1). You can temporarily hide the panel by clicking the current tab, using respective shortcuts (`Alt+1`...`Alt+8`, `Shift+F1`) or through the menu (**View** > **Left Panel**).
 
