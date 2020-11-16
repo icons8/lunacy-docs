@@ -23,7 +23,12 @@ page_nav:
 
 The Lunacy interface is intuitive and minimal. It contains only essential controls, so you don’t have to spend much time learning how to interact with it.
 
+<!-- 
+
 {:.is-big}
+
+-->
+
 ![Lunacy interface](public/interface-genview65.png)
 
 The interface consists of the following main elements.
