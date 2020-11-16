@@ -164,7 +164,7 @@ On the **Objects** tab, items from a UI kit library appear with the link icon in
 * **Restore instance size**: Restores the original size of the selected instance.  
 
 {:.is-big}
-![Working with UI kits](public/uikitscommands.png)
+![Working with UI kits](public/uikitscommands65.png)
 
 #### Layer and text styles
 
