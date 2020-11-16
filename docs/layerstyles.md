@@ -18,8 +18,8 @@ page_nav:
         content: Libraries
         url: '/libraries'
     prev:
-        content: Symbols
-        url: '/symbols'
+        content: Components
+        url: '/components'
 ---
 
 Layer and text styles are predefined sets of object and text properties that you can reuse in your designs. With the help of styles you can dramatically save your time and make your designs look more professional and consistent.  When you modify a style, Lunacy immediately applies them to all the objects using this style.

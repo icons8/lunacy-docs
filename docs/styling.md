@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Symbols
-        url: '/symbols'
+        content: Components
+        url: '/components'
     prev:
         content: Text
         url: '/text'
