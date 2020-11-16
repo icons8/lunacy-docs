@@ -126,7 +126,7 @@ Also, to quickly find the required component, you can type its name in the searc
 
 As it was mentioned earlier, you should keep main components on a dedicated page.  In this section, you will learn other details of working with main components.
 
-The first thing you should note is that names of main components appear in bold in the **Objects** panel. Also, all component names, of both main component and instances, come with the component icon (![symbol icon](public/symbolicon.png)) By clicking the name of a main component, you can unfold it to see its content.
+The first thing you should note is that names of main components appear in bold in the **Objects** panel. Also, all component names, of both main component and instances, come with the component icon (![Component icon](public/symbolicon.png)) By clicking the name of a main component, you can unfold it to see its content.
 
 The figure below shows a view of a primitive main component, which includes an automatically added component artboard with the name of the component at the top and a layered object.
 
@@ -256,8 +256,8 @@ There are two ways to replace an instance on the canvas.
 The menu features the following sections:
 
 * Commands: Shows the list of component-related commands. Click [here](#component-related-commands) for details.
-* Related: Shows the components that share the same category/subcategory with the selected symbol instance.
-* Categories: Shows the list of available component categories. You can click through the categories and subcategories to find the required component. For your convenience, the category and subcategories to which the selected component instance belong will have a dot next their names (see the gif below). For details about how to organize components, read [here](#organizing-symbols).
+* Related: Shows the components that share the same category/subcategory with the selected component instance.
+* Categories: Shows the list of available component categories. You can click through the categories and subcategories to find the required component. For your convenience, the category and subcategories to which the selected component instance belong will have a dot next their names (see the gif below). For details about how to organize components, read [here](#organizing-components).
 * UI kits: Shows the list of external UI kits from where you can also select a replacement. For details about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
 
 **Tip:** The size of the menu depends on the number of components and component categories in your project. If you don't see the content of the upper or lower menu sections in full, use the scroll.
@@ -304,7 +304,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Detach from Library</td>
-      <td>This command applies only to components from external files, i.e. to components from UI kits. Detached components become document components and appear on the <B>Components</B> tab and the <a href="https://docs.icons8.com/components/#components-page">symbols page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.</td>
+      <td>This command applies only to components from external files, i.e. to components from UI kits. Detached components become document components and appear on the <B>Components</B> tab and the <a href="https://docs.icons8.com/components/#components-page">Components page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.</td>
       <td><code>-</code></td>
     </tr>
     <tr>
