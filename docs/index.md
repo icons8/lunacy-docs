@@ -41,9 +41,9 @@ grid_navigation:
       excerpt: Learn about tools that will help you create your unique style
       url: '/styling'
       icon: 'design'
-    - title: 'Symbols'
-      excerpt: Explore the power of Lunacy by learning how to use symbols
-      url: '/symbols'
+    - title: 'Components'
+      excerpt: Explore the power of Lunacy by learning how to use components
+      url: '/components'
       icon: 'refresh'
     - title: 'Layer and text styles'
       excerpt: Learn how to speed up your work with layer and text styles

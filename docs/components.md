@@ -118,7 +118,7 @@ To view a larger preview of a component, hover the cursor over the component ico
 
 To unfold/fold the content of all component categories, right-click anywhere over the category list and select **Expand All/Collapse All** on the displayed menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-panelph.png" height="auto"><source src="/public/components-panel.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/components-panelph.png" height="auto"><source src="/public/components-panel.mp4" type="video/mp4"></video>
 
 Also, to quickly find the required component, you can type its name in the search field at the top of the **Component** panel.
 
@@ -427,7 +427,7 @@ Add the contact's email:
 
 The gif below demonstrates text overrides described in Steps 2 and 3.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-textoverrideph.png" height="auto"><source src="/public/components-textoverride.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/components-textoverrideph.png" height="auto"><source src="/public/components-textoverride.mp4" type="video/mp4"></video>
 
 
 For details, about text generation and text snippets, click <a href="https://docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">here</a>.
@@ -455,8 +455,12 @@ The procedure is as follows:
 2. In the **Component** section of the Inspector, click the down arrowhead. The menu appears.
 3. In the categories section of the menu, navigate to the required component (see the gif below).
 
+<!--
+
 {:.is-big}
 ![Text override. Step 2](public/symb-tutorial9.gif)
+
+-->
 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-nestedoverrideph.png" height="auto"><source src="/public/components-nestedoverride.mp4" type="video/mp4"></video>
