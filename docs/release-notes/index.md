@@ -36,8 +36,6 @@ page_nav:
 
 # Version 6
 
-<!--
-
 ## 6.5
 
 *RELEASED November XX, 2020*
@@ -73,7 +71,6 @@ The settings menu now also features export presets for iOS and Android.
 
 * Numerous minor fixes.
 
--->
 
 ## 6.4
 
