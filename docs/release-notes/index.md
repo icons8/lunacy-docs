@@ -32,7 +32,7 @@ page_nav:
 
 ---
 
-
+<!--
 
 # Version 6
 
@@ -48,7 +48,7 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 Now you can create shapes with perfectly smooth corners like in Apple interfaces and products.
 To switch between round (default) and smooth corners, click ![Smooth corner button](/public/smoothcornerbtn.png) next to the corner radius field in the Inspector.                      
-The figure below shows the difference between smooth (red) and rounded (blue) corners.
+The figure below shows the difference between smooth (red) and round (blue) corners.
 
 ![Smooth vs Round corners](/public/rn-smoothcorner.png)
 
@@ -71,7 +71,7 @@ The settings menu now also features export presets for iOS and Android.
 
 * Numerous minor fixes.
 
-
+-->
 
 ## 6.4
 
