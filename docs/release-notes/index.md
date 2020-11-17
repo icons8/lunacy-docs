@@ -32,7 +32,7 @@ page_nav:
 
 ---
 
-<!--
+
 
 # Version 6
 
@@ -71,7 +71,7 @@ The settings menu now also features export presets for iOS and Android.
 
 * Numerous minor fixes.
 
--->
+
 
 ## 6.4
 
