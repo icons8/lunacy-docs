@@ -102,7 +102,7 @@ To resize objects, you can use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or 
 
 ## Text alignment magnets
 
-You can align text within text boxes using the alignment magnets that appear around the text box when you select it. They combine the functions of the [text alignment](#text-alignment-options) and [position alignment](#position-alignment) controls. The demo below shows how this nice feature works.
+You can align text within text boxes using the alignment magnets that appear around the text box when you select it. They combine the functions of the text alignment and position alignment controls. The demo below shows how this nice feature works.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-magnets.mp4" type="video/mp4"></video>
 

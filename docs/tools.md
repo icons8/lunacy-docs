@@ -49,7 +49,7 @@ The table below provides an overview of the controls and their shortcuts.
     </tr>
     <tr>
       <td><img src="/public/tool-imageicon61.png" alt="Image tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#image-tool">Image tool</a>.  Serves for adding images to your designs. Shares the same fly-out menu with the Avatar and Slice tools.</td>
+      <td><a href="https://docs.icons8.com/tools/#image-tool">Image tool</a>.  Serves for adding images to your designs.</td>
       <td><code>M</code></td>
     </tr>
     <tr>
@@ -89,7 +89,7 @@ The table below provides an overview of the controls and their shortcuts.
     </tr>
     <tr>
       <td><img src="/public/tools-symbolicon61.png" alt="Component tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#icon-tool">Component tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder components and then replacing them with required GUI elements.</td>
+      <td><a href="https://docs.icons8.com/tools/#component-tool">Component tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder components and then replacing them with required GUI elements.</td>
       <td><code>C</code></td>
     </tr>
     <tr>

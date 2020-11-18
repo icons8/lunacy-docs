@@ -29,7 +29,7 @@ In Lunacy you will work with the following types of objects:
 * <a href="https://docs.icons8.com/interface/#artboards" target="_blank">Artboards</a>
 * <a href="https://docs.icons8.com/text/" target="_blank">Text objects</a>
 * <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">Vector objects</a>
-* <a href="https://docs.icons8.com/tools/#shape-tool" target="_blank">Shapes</a>
+* <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">Shapes</a>
 * <a href="https://docs.icons8.com/tools/#image-tool" target="_blank">Images</a>
 * <a href="https://docs.icons8.com/components/" target="_blank">Components and component instances</a>
 * <a href="https://docs.icons8.com/tools/#icon-tool" target="_blank">Icons</a> 

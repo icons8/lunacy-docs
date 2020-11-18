@@ -27,11 +27,11 @@ page_nav:
 
 If we put aside such specific <a href="https://docs.icons8.com/objects/#introduction" target="_blank">object types</a> as artboards and hotspots, all objects in Lunacy that are not text or rasters are vector shapes.
 
-Lunacy provides a set of pre-made shapes that you can add in no time using the <a href="https://docs.icons8.com/tools/#shape-tool" target="_blank">shape tool</a>. Also, you can make use of the <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">pen</a> and <a href="https://docs.icons8.com/tools/#pencil-tool" target="_blank">pencil</a> tools to create freehand shapes and paths. Among the latter two, we should pay special attention to the pen tool, which allows you to edit vector shapes, both pre-made and freehand.
+Lunacy provides a set of pre-made shapes that you can add in no time using the <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">shape tool</a>. Also, you can make use of the <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">pen</a> and <a href="https://docs.icons8.com/tools/#pencil-tool" target="_blank">pencil</a> tools to create freehand shapes and paths. Among the latter two, we should pay special attention to the pen tool, which allows you to edit vector shapes, both pre-made and freehand.
 
 Another important thing for working with shapes is Boolean operations that allow you to combine shapes of all kinds and create even more fancy shapes whose diversity depends only on your creativity.
 
-This section focuses on how to edit and transform vector shapes. For information about creating pre-made shapes, read <a href="https://docs.icons8.com/tools/#shape-tool" target="_blank">here</a> and <a href="https://docs.icons8.com/objects/#adding-objects" target="_blank">here</a>. For details about creating shapes with the pen tool, read <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">here</a>.
+This section focuses on how to edit and transform vector shapes. For information about creating pre-made shapes, read <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">here</a> and <a href="https://docs.icons8.com/objects/#adding-objects" target="_blank">here</a>. For details about creating shapes with the pen tool, read <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">here</a>.
 
 For information how to apply fills, borders, shadows and blurs, refer to the <a href="https://docs.icons8.com/styling" target="_blank">Styling</a> section.
 
