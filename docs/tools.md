@@ -69,7 +69,7 @@ The table below provides an overview of the controls and their shortcuts.
     </tr>
     <tr>
       <td><p><img src="/public/tool-lineicon61.png" alt="Line tool"></p><p><img src="/public/tool-rectangleicon61.png" alt="Rectangle tool"></p><p><img src="/public/tool-ellipseicon61.png" alt="Ellipse tool"></p><p><img src="/public/tool-tiangleicon61.png" alt="Triangle tool"></p></td>
-      <td><a href="https://docs.icons8.com/tools/#shape-tool">Shape tools</a>. Serve for adding pre-made shapes. The Line tool shares the same fly-out menu with the Arrow. The Rectangle tool shares the same fly-out menu with the Rounded rectangle. The Triangle tool shares the same fly-out menu with the Polygon and Star. Only the most frequently used shapes have shortcuts.</td>
+      <td><a href="https://docs.icons8.com/tools/#shape-tools">Shape tools</a>. Serve for adding pre-made shapes. The Line tool shares the same fly-out menu with the Arrow. The Rectangle tool shares the same fly-out menu with the Rounded rectangle. The Triangle tool shares the same fly-out menu with the Polygon and Star. Only the most frequently used shapes have shortcuts.</td>
       <td><p><code>R</code> - rectangle</p><p><code>U</code> - rounded rectangle</p><p><code>O</code> - ellipse</p><p><code>L</code> - line</p></td>
     </tr>
     <tr>
