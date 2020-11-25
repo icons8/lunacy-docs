@@ -84,7 +84,7 @@ The table below provides an overview of the controls and their shortcuts.
     </tr>
     <tr>
       <td><img src="/public/tools-guiicon61.png" alt="GUI tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#icon-tool">GUI tool</a>. A set of tools that allows you to quickly add basic GUI controls.</td>
+      <td><a href="https://docs.icons8.com/tools/#gui-tool">GUI tool</a>. A set of tools that allows you to quickly add basic GUI controls.</td>
       <td><p><code>B</code> - button</p><p><code>D</code> - text input</p><p><code>Y</code> - radio button</p><p><code>F</code> - checkbox</p><p><code>K</code> - toggle</p><p><code>W</code> - dropdown list</p></td>
     </tr>
     <tr>

@@ -48,8 +48,9 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 #### Fonts Embedding
 
-Now you can embed fonts into documents before sharing them with other people. This ensures that text objects will look exactly as you designed them everywhere even if a computer doesn't have all the right fonts.
-To use this feature, click Text > Fonts embedding on the menu bar. In the displayed dialog box, select the required fonts and click the Embed fonts button.
+Now you can embed fonts into your document before sharing it with other people. This ensures that text objects will look exactly as you designed them everywhere even if a computer doesn't have all the right fonts.
+
+To use this feature, click **Text > Fonts** embedding on the menu bar. In the displayed dialog box, select the required fonts and click the Embed fonts button.
 
 ![Fonts Embedding](/public/rn-fontsembed.png)
 
@@ -60,7 +61,7 @@ To use this feature, click Text > Fonts embedding on the menu bar. In the displa
 
 * Now you can rename Components (ex-Symbols) and Styles right in the Inspector.
 * Minor prototyping improvements.
-* Now the main Lunacy window opens almost twice faster than in the previous verisons.
+* Now the main Lunacy window opens almost twice faster than in the previous versions.
 * Some minor UI improvements.
 
 ### Fixed bugs
@@ -440,7 +441,7 @@ When you select a control added with any of these tools, you see the suggestions
 
 ![GUI tools](/public/rn5_9-guitools3.png)
 
-To edit the appearance of a control, use the <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">symbol editor</a>.
+To edit the appearance of a control, use the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">symbol editor</a>.
 
 #### Symbol tool
 
@@ -496,7 +497,7 @@ You no longer need to switch to the Symbols page to edit masters.  Just select a
 
 ![Edit symbol button](/public/rn5_8-symboleditorbtn.png)
 
-For details and a demo, click <a href="https://docs.icons8.com/symbols/#editing-master-symbols" target="_blank">here</a>.
+For details and a demo, click <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">here</a>.
 
 #### Smart distribute
 
