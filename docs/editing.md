@@ -63,7 +63,7 @@ There are two more ways of changing the corner radius setting for rectangles dra
 
 **Note:** The above methods won't work with rectangles drawn with the Pen tool.
 
-Read also and see the demo in the next subsection. It shows how to edit individual corners in other shapes.
+See also the demo in the [Vector editing](#vector-editing) subsection. It shows how to edit individual corners in other shapes.
 
 ### Smooth corners
 
@@ -74,7 +74,7 @@ The figure below shows the difference between smooth (red) and round (blue) corn
 
 ![Smooth vs Round corners](/public/rn-smoothcorner.png)
 
-## Vector editing
+## [Vector editing](#vector-editing)
 
 **Note**: Before you get down to reading this subsection, we recommend you get acquainted with <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">this</a> article first. It provides the basic information about the structure of vector objects, paths, point types and the usage of the Pen tool.
 
