@@ -36,6 +36,40 @@ page_nav:
 
 # Version 6
 
+<!--
+
+## 6.6
+
+*RELEASED November 17, 2020*
+
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.5.0.exe) to get the Installer.
+
+### New features
+
+#### Fonts Embedding
+
+Now you can embed fonts into documents before sharing them with other people. This ensures that text objects will look exactly as you designed them everywhere even if a computer doesn't have all the right fonts.
+To use this feature, click Text > Fonts embedding on the menu bar. In the displayed dialog box, select the required fonts and click the Embed fonts button.
+
+![Fonts Embedding](/public/rn-fontsembed.png)
+
+
+**Note:** By embedding a font you confirm that you have a proper license that allows you to distribute the font.
+
+### Improvements
+
+* Now you can rename Components (ex-Symbols) and Styles right in the Inspector.
+* Minor prototyping improvements.
+* Now the main Lunacy window opens almost twice faster than in the previous verisons.
+* Some minor UI improvements.
+
+### Fixed bugs
+
+* An issue with Alt codes input
+* Numerous minor fixes.
+
+-->
+
 ## 6.5
 
 *RELEASED November 17, 2020*
@@ -54,7 +88,7 @@ The figure below shows the difference between smooth (red) and round (blue) corn
 
 #### Export presets
 
-Now you can save your export settings for further use. To open the Export Preset Editor, click the settings button in the Export section of the Inspector, then select  Create preset on the menu.
+Now you can save your export settings for further use. To open the **Export Preset Editor**, click the settings button in the **Export** section of the Inspector, then select **Create** preset on the menu.
 The settings menu now also features export presets for iOS and Android.
 
 ![Export presets in Lunacy](/public/rn-exportprests.png)
