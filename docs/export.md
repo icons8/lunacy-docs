@@ -113,6 +113,8 @@ There are two ways of creating export presets.
 2. Click the settings button, then click **Create preset** on the displayed menu. The **Export Preset Editor** appears.
 3. In the **Export Preset Editor**, enter the name of the preset and click **Save**. Now, your custom preset will appear on the export settings menu.
 
+![Export presets in Lunacy](/public/rn-exportprests.png)
+
 **Way 2**
 
 1. In the **Export** section of the Inspector, click the settings button, then click **Create preset** on the displayed menu. The **Export Preset Editor** appears.
