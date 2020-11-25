@@ -65,6 +65,15 @@ There are two more ways of changing the corner radius setting for rectangles dra
 
 Read also and see the demo in the next subsection. It shows how to edit individual corners in other shapes.
 
+### Smooth corners
+
+You can create shapes with perfectly smooth corners like in Apple interfaces and products.
+To switch between round (default) and smooth corners, click ![Smooth corner button](/public/smoothcornerbtn.png) next to the corner radius field in the Inspector.
+
+The figure below shows the difference between smooth (red) and round (blue) corners.
+
+![Smooth vs Round corners](/public/rn-smoothcorner.png)
+
 ## Vector editing
 
 **Note**: Before you get down to reading this subsection, we recommend you get acquainted with <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">this</a> article first. It provides the basic information about the structure of vector objects, paths, point types and the usage of the Pen tool.
