@@ -103,25 +103,26 @@ Lunacy remembers all export settings that you define for each object. So, the ne
 
 You can save your export settings for further use and then quickly select them from the export settings menu as you need them.
 
-![Export presets](public/export-presets.png)
-
 There are two ways of creating export presets.
 
 **Way 1**
-
-1. In the **Export** section of the Inspector, define all the required settings.
-2. Click the settings button, then click **Create preset** on the displayed menu. The **Export Preset Editor** appears.
-3. In the **Export Preset Editor**, enter the name of the preset and click **Save**. Now, your custom preset will appear on the export settings menu.
-
-![Export presets in Lunacy](/public/rn-exportprests.png)
-
-**Way 2**
 
 1. In the **Export** section of the Inspector, click the settings button, then click **Create preset** on the displayed menu. The **Export Preset Editor** appears.
 2. In the **Export Preset Editor**, define all the required settings.
 3. Enter the name of the preset and click **Save**. Now, your custom preset will appear on the export settings menu.
 
-To edit or delete an export preset, hover the cursor over the preset on the export settings menu and click the respective icon (see the figure above). The export settings menu also features default presets for iOS and Android that cannot be altered or deleted.
+
+![Export presets in Lunacy](/public/rn-exportprests.png)
+
+**Way 2**
+
+1. In the **Export** section of the Inspector, define all the required settings.
+2. Click the settings button, then click **Create preset** on the displayed menu. The **Export Preset Editor** appears.
+3. In the **Export Preset Editor**, enter the name of the preset and click **Save**. Now, your custom preset will appear on the export settings menu.
+
+To edit or delete an export preset, hover the cursor over the preset on the export settings menu and click the respective icon (see the figure below). The export settings menu also features default presets for iOS and Android that cannot be altered or deleted.
+
+![Export presets](public/export-presets.png)
 
 ## Exporting single and multiple objects
 
