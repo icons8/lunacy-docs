@@ -85,9 +85,9 @@ The next figure shows how hotspots and linked objects appear in the **Objects** 
 
 ![Hide/Show hotspot button](public/proto-objectlist.png)
 
-To hide/show hotspots and prototyping links on the canvas, use the **Show prototyping** button on the top bar.
+To hide/show hotspots and prototyping links on the canvas, use the **Prototyping** button on the action bar.
 
-![Hide/Show hotspot button](public/tool-showproto.png)
+![Hide/Show hotspot button](public/tool-showproto66.png)
 
 To delete a hotspot, select it and press`Del`.
 
