@@ -56,10 +56,11 @@ In a similar fashion you can link your artboards in the desired navigation seque
 
 ## Scrollable prototypes
 
-To create a scrollable prototype, you should select an artboard from Artboard Presets and resize it. Alternatively, you can create a custom preset and then resize it. For details, about artboards presets and custom presets, click <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.
+To create a scrollable prototype, you should select an artboard from Artboard Presets and resize it **vertically**. Alternatively, you can create a custom preset and then vertically resize it. For details, about artboards presets and custom presets, click <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.
 
-Prototypes based on non-preset artboards won't scroll.
+Resized artboards appear with the word *Resized* in the Inspector as shown in the figure below. Prototypes based on non-resized artboards won't scroll.
 
+![Resized artboard in the Inspector](public/proto-resizedartboard.png)
 
 ## [Hotspots](#hotspots)
 
