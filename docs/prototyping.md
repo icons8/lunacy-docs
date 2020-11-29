@@ -38,7 +38,7 @@ In the current version of Lunacy preview of prototypes takes place in Sketch Clo
 
 You can build prototypes to test and polish UX of your designs before sending them to development.
 
-Prototyping is based on artboards. If you are planning to add prototyping to your project, *the use of artboards is a must*.
+Prototyping is based on artboards. If you are planning to add prototyping to your project, **the use of artboards is a must**.
 
 The easiest way to create a prototype is to add a link between two artboards. The procedure is as follows:
 
@@ -46,7 +46,7 @@ The easiest way to create a prototype is to add a link between two artboards. Th
 2. In the Inspector panel, click + in the **Prototyping** section. A prototyping link appears.
 3. Point the cursor over the second artboard and click to set the link. To define the target artboard you can also use the **Target** dropdown list in the **Prototyping** section (see the demo below).
 
-That's it. A primitive prototype is ready. To make it a bit more usable, we will repeat the above steps and create a control that will return the user from Artboard 1 to Artboard 2.
+That's it. A primitive prototype is ready. To make it a bit more usable, we will repeat the above steps and create a control that will return the user from Artboard 1 to Artboard 2 (see the demo in the next subsection).
 
 ## Previewing prototypes
 
