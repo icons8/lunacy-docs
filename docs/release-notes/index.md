@@ -48,7 +48,7 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 Now you can embed fonts into your document before sharing it with other people. This ensures that text objects will look exactly as you designed them everywhere even if a computer doesn't have all the right fonts.
 
-To use this feature, click **Text > Fonts Embedding** on the menu bar. In the displayed dialog box, select the required fonts and click the Embed fonts button.
+To use this feature, click **Text > Fonts Embedding** on the menu bar. In the displayed dialog box, select the required fonts and click the **Embed fonts** button.
 
 ![Fonts Embedding](/public/rn-fontsembed.png)
 
