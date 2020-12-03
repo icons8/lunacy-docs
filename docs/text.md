@@ -406,7 +406,6 @@ In Lunacy, text snippets are short commands for generation of specific texts. Sn
 
 ![Using snippets](public/text-snippets2.gif)
 
-<!--
 ## Fonts Embedding
 
 You can embed fonts into your document before sharing it with other people. This ensures that text objects will look exactly as you designed them everywhere even if a computer doesn't have all the right fonts.
@@ -418,4 +417,3 @@ To use this feature, click **Text > Fonts Embedding** on the menu bar. In the di
 
 **Note:** By embedding a font you confirm that you have a proper license that allows you to distribute the font.
 
--->

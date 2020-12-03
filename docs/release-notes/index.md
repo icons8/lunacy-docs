@@ -52,7 +52,6 @@ To use this feature, click **Text > Fonts Embedding** on the menu bar. In the di
 
 ![Fonts Embedding](/public/rn-fontsembed.png)
 
-
 **Note:** By embedding a font you confirm that you have a proper license that allows you to distribute the font.
 
 ### Improvements
