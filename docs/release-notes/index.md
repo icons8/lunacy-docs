@@ -36,6 +36,46 @@ page_nav:
 
 # Version 6
 
+<!--
+## 6.7
+*RELEASED December XX, 2020*
+
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.6.0.exe) to get the Installer.
+
+### New features
+
+#### Cutting out rasters
+
+Now you can easily cut out any part of an image almost like in Photoshop or other similar apps. For this, select an image and press Enter to enable the edit mode. Then use one of the selection tools that will show up under the image:
+
+* Scissors
+* Freeform lasso
+* Polygonal lasso
+
+Also, you can use any of the shape tools. For this, enable the image editing mode and select the required shape on the toolbar (see the figure below).
+
+![Cutting out images in Lunacy](/public/images-scissorsdemo2.png)
+
+#### Easier object renaming
+
+Now you can rename objects right on the canvas. For this, right-click an object and select Rename on the diplayed menu or simply press `F2`. A field with the object name will show up. Edit the name and press **Enter** or click anywhere beyond the field when done.
+
+![Renaming objects in Lunacy](/public/objects-renaming67.png)
+
+### Improvements
+
+* Improved design of the Font weight drop-down list
+* Cloud storage improvements
+* Improved canvas FPS rate
+* Reduced canvas input lag
+
+
+### Fixed bugs
+
+* 50+ minor fixes
+
+-->
+
 ## 6.6
 
 *RELEASED December 01, 2020*
