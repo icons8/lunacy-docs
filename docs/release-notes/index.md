@@ -36,7 +36,7 @@ page_nav:
 
 # Version 6
 
-
+<!--
 ## 6.7
 *RELEASED December XX, 2020*
 
@@ -74,7 +74,7 @@ Now you can rename objects right on the canvas. For this, right-click an object 
 
 * 50+ minor fixes
 
-
+-->
 
 ## 6.6
 
