@@ -25,6 +25,7 @@ page_nav:
 
 ## Introduction
 
+
 If we put aside such specific <a href="https://docs.icons8.com/objects/#introduction" target="_blank">object types</a> as artboards and hotspots, all objects in Lunacy that are not text or rasters are vector shapes.
 
 Lunacy provides a set of pre-made shapes that you can add in no time using the <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">shape tools</a>. Also, you can make use of the <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">pen</a> and <a href="https://docs.icons8.com/tools/#pencil-tool" target="_blank">pencil</a> tools to create freehand shapes and paths. Among the latter two, we should pay special attention to the pen tool, which allows you to edit vector shapes, both pre-made and freehand.
