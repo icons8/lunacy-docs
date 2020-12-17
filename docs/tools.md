@@ -147,7 +147,18 @@ When you click or drag over a group of objects, you select the group. To select 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selectltoolgroup1.mp4" type="video/mp4"></video>
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> Alternatively, you can select objects through the <b>Objects</b> panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+For details about working with objects, click <a href="https://docs.icons8.com/objects/" target="_blank">here</a>.
+
+<!--
+
 >**Tip:** Alternatively, you can select objects through the **Objects** panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects. For details about working with objects, click <a href="https://docs.icons8.com/objects/" target="_blank">here</a>.
+
+-->
 
 ## Artboard tool
 
@@ -161,7 +172,16 @@ To add an artboard:
 {:.is-big}
 ![Adding an artboard](public/tool-addatrboard.png)
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> If there are already some objects on the canvas and you decide to put them on an artboard, just drag the artboard tool over these objects.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+<!--
+
 **Tip:** If there are already some objects on the canvas and you decide to put them on an artboard, just drag the artboard tool over these objects.
+
+-->
 
 For details, about using artboards read <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.
 
@@ -263,7 +283,16 @@ In the demo below we added some curves to a heart-shaped object built with strai
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools-pentool3placeholder.png" height="auto"><source src="/public/tools-pentool31.mp4" type="video/mp4"></video>
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> To draw a perfectly horizontal, vertical or 45-degree diagonal path, hold down <code style="background: white">Shift</code> when placing the second point of a segment.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+<!--
+
 **Tip:** To draw a perfectly horizontal, vertical or 45-degree diagonal path, hold down `Shift` when placing the second point of a segment.
+
+-->
 
 ### Types of points
 
