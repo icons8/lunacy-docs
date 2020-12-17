@@ -135,7 +135,16 @@ When you apply a Boolean operation, the selected shapes become a Boolean group. 
 
 You can select individual shapes within the group through the **Objects** panel or on the canvas. If necessary, you can move and resize them on the canvas to modify the resulting shape.
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> There is no special button or menu option to disassemble a Boolean group. But you can do it by dragging shapes out of the group in the <b>Objects</b> list</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+<!--
+
 **Tip:** There is no special button or menu option to disassemble a Boolean group. But you can do it by dragging shapes out of the group in the **Objects** panel.
+
+-->
 
 ## Flattening
 
