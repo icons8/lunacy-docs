@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Localization
-        url: '/localization'
+        content: Plugins
+        url: '/plugins'
     prev:
         content: Tips and Tricks
         url: '/tips'
