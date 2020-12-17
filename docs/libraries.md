@@ -116,7 +116,7 @@ Lunacy library includes the following UI kits:
 In fact, UI kits are external .sketch files with ready-made <a href="https://docs.icons8.com/components" target="_blank">components</a>, <a href="https://docs.icons8.com/layerstyles/#layer-styles" target="_blank">layer styles</a> and <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> If you're working with a large project and feel that your computer is slow, you can disable the UI kits that you don't currently need. This will spare some system resources. You can always enable UI kits later.</p>
+    <p><strong>Tip:</strong> If you're working with a large document and feel that your computer is slow, you can disable the UI kits that you don't currently need. This will spare some system resources. You can always enable UI kits later.</p>
     <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
 </div>
 

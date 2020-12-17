@@ -88,14 +88,33 @@ There are two ways to replace images.
 
 3. Browse to the new image file, select it and click **Open**.
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> You can also use this method, when you need to replace your current image with an image from the internet. In such a case, just paste the URL of the new image into the <b>File name</b> field of the <b>Open</b> dialog box and click <b>Open</b>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+
+<!--
+
 **Tip:** You can also use this method, when you need to replace your current image with an image from the internet. In such a case, just paste the URL of the new image into the **File name** field of the **Open** dialog box and click **Open**.
+
+-->
 
 **Way 2**
 
 1. Drag an image from the library, desktop or Explorer and hover it somewhere near the center of the current image.
 2. Wait a moment until the green mask appears, then release the mouse button.
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> If the green mask does not appear, try to zoom in a bit.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+<!--
+
 **Tip:** If the green mask does not appear, try to zoom in a bit.
+
+-->
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-replaceph.png" height="auto"><source src="/public/images-replace.mp4" type="video/mp4"></video>
 
