@@ -1,6 +1,6 @@
 # Lunacy Documentation
 
-This project is a collaboration to create the documentation for [Lunacy](https://icons8.com/lunacy), Graphic Design Software with build-in assets.
+This project is a collaboration to create the documentation for [Lunacy](https://icons8.com/lunacy), Graphic Design Software with built-in assets.
 
 ## Contribute
 
