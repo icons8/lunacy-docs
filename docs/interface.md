@@ -176,6 +176,10 @@ The operations that you can perform in the objects list include:
 
 To collapse all branches in the object tree use the `Ctrl + ~` shortcut.
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> Some projects, such as design systems, can house hundreds of objects on a single page. To quickly locate the required object on the canvas, find it by typing its name in the search field, select it in the objects list and then press `Ctrl + 2` (Fit to selection).</p>
+</div>
+
 **Tip:** Some projects, such as design systems, can house hundreds of objects on a single page. To quickly locate the required object on the canvas, find it by typing its name in the search field, select it in the objects list and then press `Ctrl + 2` (Fit to selection).
 
 ## [The Canvas](#the-canvas)
