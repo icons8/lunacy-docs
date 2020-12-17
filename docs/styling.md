@@ -205,7 +205,15 @@ To create an image fill:
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-imagefillph1.png" height="auto"><source src="/public/styling-imagefill1.mp4" type="video/mp4"></video>
 
 
-**Tip:** You can also create an image fill by dropping an image from the Lunacy library or your desktop directly on to the object as shown in the demo below. As a matter of fact, what the <a href="https://docs.icons8.com/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.  
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> You can also create an image fill by dropping an image from the Lunacy library or your desktop directly on to the object as shown in the demo below. As a matter of fact, what the <a href="https://docs.icons8.com/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+<!--
+**Tip:** You can also create an image fill by dropping an image from the Lunacy library or your desktop directly on to the object as shown in the demo below. As a matter of fact, what the <a href="https://docs.icons8.com/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.
+
+-->
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-imagefillph.png" height="auto"><source src="/public/styling-imagefill.mp4" type="video/mp4"></video>
 
