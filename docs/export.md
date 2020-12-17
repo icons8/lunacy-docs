@@ -65,7 +65,16 @@ Moreover, within one export procedure you can get multiple files of different fo
 
 All these is detailed in the sections below. Also, here you will learn how to print your designs and how to get CSS, XAML and SVG code of your designs.
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> You can also use Sketch Cloud for saving you projects and sharing them with other people. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+<!--
+
 **Tip:** You can also use Sketch Cloud for saving you projects and sharing them with other people. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.
+
+-->
 
 ## Important notices
 
@@ -235,7 +244,16 @@ You can export to cloud:
 
 ![Exporting an object to the cloud](public/export-panel6.png)
 
+<div class="callout callout--info">
+    <p><strong>Productivity Tip:</strong> The <code style="background: white">Alt+С + C</code> shortcut allows you to instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away. This option is also available on the context menu.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+<!--
 **Productivity Tip:** The `Alt+С + C` shortcut allows you to instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away. This option is also available on the context menu.
+
+-->
+
 
 ![Alt + C, C](public/export-altcc.png)
 
