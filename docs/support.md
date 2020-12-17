@@ -110,8 +110,16 @@ If you are running an older Windows version, you can try to do the same using yo
 
 ![NVidia settings](public/faq-nvidia.png)
 
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> These settings won't work in the energy saving mode and with some system configurations.</p>
+</div>
+
+
+<!--
+
 **Note:** These settings won't work in the energy saving mode and with some system configurations.
 
+-->
 
 ### Objects and images on the canvas are stretching and/or flickering on scroll and zoom. How can I fix it?
 
