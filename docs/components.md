@@ -261,7 +261,7 @@ The menu features the following sections:
 * **UI kits**: Shows the list of external UI kits from where you can also select a replacement. For details about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> The size of the menu depends on the number of components and component categories in your project. If you don't see the content of the upper or lower menu sections in full, use the scroll.</p>
+    <p><strong>Tip:</strong> The size of the menu depends on the number of components and component categories in your document. If you don't see the content of the upper or lower menu sections in full, use the scroll.</p>
     <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
 </div>
 

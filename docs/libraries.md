@@ -89,7 +89,16 @@ Like with [photos](#photos-and-masked-photos), when working with illustrations y
 
 ## UI kits
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> To better understand the intent and how to use UI kits, we recommend that you first read the <a href="https://docs.icons8.com/components" target="_blank">Components</a> and <a href="https://docs.icons8.com/layerstyles" target="_blank">Layer and text styles</a> sections of our documentation.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+<!--
+
 >**Tip:** To better understand the intent and how to use UI kits, we recommend that you first read the <a href="https://docs.icons8.com/components" target="_blank">Components</a> and <a href="https://docs.icons8.com/layerstyles" target="_blank">Layer and text styles</a> sections of our documentation.
+
+-->
 
 With Lunacy you always have all popular UI kits at hand. They can be of great help when you are working on a project for a specific OS or device. You can quickly find the required components (buttons, menus, colors, etc.) and add them to your design.
 
