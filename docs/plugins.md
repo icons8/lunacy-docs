@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
+        content: Localization
+        url: '/localization'
+    prev:
         content: Shortcuts
         url: '/shortcuts'
-    prev:
-        content: Prototyping
-        url: '/prototyping'
 ---
 
 
