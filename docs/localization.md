@@ -53,7 +53,16 @@ We have a great team of Lunacy enthusiasts helping us with localization of the a
 6. Select a string, type your translation and click **Save**.
 7. Repeat Steps 5 and 6 as needed.
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> When necessary, check out screenshots that show where this or that string belongs (click the link above the working area). Also, you might find helpful suggestions from translation memory and other sources. You will see them below the working area.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+</div>
+
+<!--
+
 **Tip:** When necessary, check out screenshots that show where this or that string belongs (click the link above the working area). Also, you might find helpful suggestions from translation memory and other sources. You will see them below the working area.
+
+-->
 
 {:.is-big}
 ![Links to screenshots](public/localization_crowdin_screenshot_link2.png)
