@@ -596,7 +596,7 @@ The table below gives an overview of context menu commands and options common fo
       </tr>
       <tr>
         <td><b>Rename</b></td>
-        <td>Allows you to rename the selection in the object list.</td>
+        <td>Allows you to rename the selection right on the canvas or in the object list.</td>
       </tr>
       <tr>
         <td><b>Copy/Paste</b></td>

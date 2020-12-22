@@ -15,7 +15,7 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: FAQ and Сontacts
+        content: FAQ and Contacts
         url: '/support'
     prev:
         content: Plugins
