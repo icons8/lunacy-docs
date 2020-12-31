@@ -36,11 +36,10 @@ page_nav:
 
 # Version 6
 
-<!--
 ## 6.7
-*RELEASED December XX, 2020*
+*RELEASED December 31, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.6.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.7.0.exe) to get the Installer.
 
 ### New features
 
@@ -74,7 +73,6 @@ Now you can rename objects right on the canvas. For this, right-click an object 
 
 * 50+ minor fixes
 
---> 
 
 ## 6.6
 
