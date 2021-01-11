@@ -124,11 +124,32 @@ There are two ways to replace images.
 To crop an image:
 
 1. Select the image.
-2. Press `Enter` or click ![Image crop button](public/images-cropbtn.png) on the context toolbar. The image crop frame gets enabled.
+2. Press `Enter` or click ![Image crop button](public/images-cropbtn.png) on the context toolbar to enable the edit mode.
 3. Drag the borders of the frame to select the required area.
 4. Press `Enter` or click the **Apply editing** button in the Inspector.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-cropph.png" height="auto"><source src="/public/images-crop.mp4" type="video/mp4"></video>
+
+
+## Cutting out a part of an image
+
+To cut out a part of an image:
+
+1. Select the image.
+2. Press `Enter` to enable the edit mode.
+3. Click one of the selection tools (see the details below) that will show up below the image.
+
+    * ![Scissors tool](public/images-scissorstool.png) - **Scissors**. When using the scissors tool, you can change the shape of the selection border (rectangle, ellipse, triangle, etc.) For this, with the scissors enabled, click the required shape tool on the toolbar (see the figure below).
+
+        ![Scissors tool](public/images-scissorsdemo.png)
+
+    * ![Freehand lasso tool](public/images-lassofreehand.png) - **Freeform Lasso**. Enables you to make freeform selections. Works similarly to the <a href="https://docs.icons8.com/tools/#pencil-tool" target="_blank">Pencil tool</a>. To close the selection border, just release the mouse button.
+    * ![Polygonal lasso tool](public/images-lassopolygon.png) - **Polygon Lasso**. Enables you to make straight-edged selections. Works similarly to the <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">Pen tool</a>. To disable snapping while drawing a selection border, hold down `Ctrl`.
+
+4. Select the area you want to cut out.
+5. Press `Delete` or move the selection to where you want it. In the latter case, Lunacy creates a vector shape with an image fill that corresponds to your selection. Also, Lunacy automatically fills the emptied area with the color prevailing along the selection border.
+
+![Freehand lasso tool](public/images-cutoutresult.png)
 
 ## Adjusting image colors
 
