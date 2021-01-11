@@ -46,6 +46,17 @@ If you need to remove background from an image, you can do it right in Lunacy.
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-bgremovalph.png" height="auto"><source src="/public/tips-bgremove.mp4" type="video/mp4"></video>
 
 
+## Image upscaler
+
+Lunacy is integrated with the <a href="https://icons8.com/upscaler" target="_blank">Icons8 Image Upscaler</a>. When you add an image to your document, Lunacy will offer you to enhance the image using our state-of-the-art AI.
+
+![Lunacy Image upscaler by Icons8](/public/rn-upscaler.png)
+
+<div class="callout callout--info">
+    <p><strong>Note:</strong> The feature is available only to users with a paid subscription.</p>
+</div>
+
+
 ## Text formatting
 
 When editing typography settings you don't need to select a word or the whole text to make it bold, italicized or whatever. Just set the caret inside a word or at the end of the text and apply the required setting. In the latter case, the setting will be applied to the whole text.

@@ -137,7 +137,7 @@ To cut out a part of an image:
 
 1. Select the image.
 2. Press `Enter` to enable the edit mode.
-3. Click one of the selection tools (see the details below) that will show up below the image.
+3. Click one of the selection tools that will show up below the image:
 
     * ![Scissors tool](public/images-scissorstool.png) - **Scissors**. When using the scissors tool, you can change the shape of the selection border (rectangle, ellipse, triangle, etc.) For this, with the scissors enabled, click the required shape tool on the toolbar (see the figure below).
 
@@ -179,4 +179,6 @@ Lunacy is integrated with the <a href="https://icons8.com/upscaler" target="_bla
 
 ![Lunacy Image upscaler by Icons8](/public/rn-upscaler.png)
 
-**Note:** The feature is available only to users with a paid subscription.
+<div class="callout callout--info">
+    <p><strong>Note:</strong> The feature is available only to users with a paid subscription.</p>
+</div>
