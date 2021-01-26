@@ -36,6 +36,7 @@ page_nav:
 
 # Version 6
 
+<!--
 ## 6.8
 *RELEASED February XX, 2021*
 
@@ -84,6 +85,8 @@ To view and manage comments, enable the Comment tool.
 ### Fixed bugs
 
 * 100+ bug fixes
+
+-->
 
 ## 6.7
 *RELEASED December 31, 2020*
