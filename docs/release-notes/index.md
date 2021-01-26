@@ -36,6 +36,55 @@ page_nav:
 
 # Version 6
 
+## 6.8
+*RELEASED February XX, 2021*
+
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.7.0.exe) to get the Installer.
+
+### New features
+
+#### New look and feel
+
+Version 6.8 comes with a new design of the interface. We tried to make the interface clean and lightweight and allow you to focus on your tasks.
+
+Interactions and behavior remain mostly unchanged.
+
+![Redesigned UI in Lunacy 6.8](/public/rn68-newUI.png)
+
+#### Comment tool
+
+We added the Comment tool to allow Lunacy users to keep their notes and to-do lists, as well as to collect feedback from teammates and customers. Currently comments are available only within documents, but there are plans to extend this feature and make it even more powerful.
+
+You can:
+
+* Create, edit and delete comments
+* Reply to comments
+* Mark comments as resolved
+* Filter comments by their status (resolved/all)
+
+To view and manage comments, enable the Comment tool.
+
+![Comment tool](/public/rn68-commenttool.png)
+
+#### New languages
+
+* Bosnian (big thanks to Belmar Begić)
+* Hebrew (big thanks to shay1913_)
+
+### Improvements
+
+* Significant canvas frame-rate boost
+* Symbol swap now saves overrides
+* Now you can open a file containing folder by right-clicking over a file tab and selecting the respective command on the menu
+* Improved value dragging in fields
+* Minor Text tool improvements
+* Minor Avatar tool improvements
+
+
+### Fixed bugs
+
+* 100+ bug fixes
+
 ## 6.7
 *RELEASED December 31, 2020*
 
