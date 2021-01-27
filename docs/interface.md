@@ -308,7 +308,7 @@ To select the size of the grid cell, click the down arrowhead next to the button
 
 #### [Layout grid](#layout-grid)
 
-You can apply layout grids only to [artboards]((#artboards). If you have several artboards on a page, you can toggle on and off the display of layout grids for all or individually for each artboard. Also, each artboard can have its own settings of the layout grid (see the demo below).
+You can apply layout grids only to [artboards](#artboards). If you have several artboards on a page, you can toggle on and off the display of layout grids for all or individually for each artboard. Also, each artboard can have its own settings of the layout grid (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-layoutgridplaceholder.png" height="auto"><source src="/public/interface-layoutgridvid.mp4" type="video/mp4"></video>
 

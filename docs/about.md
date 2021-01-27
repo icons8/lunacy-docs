@@ -24,9 +24,9 @@ page_nav:
 
 Lunacy is a Windows app for graphical design with **full support for .sketch files**. And when we say *full* support, we really mean it.
 
-Yes, there are a few apps in the market that allow you to open .sketch files, but none of them can guarantee at least 80% rendering accuracy. Lunacy guarantees 99%. Irrespective of the the format version! Lunacy readily handles both dusty kits from Sketchappsources and the latest versions of sketch files.
+Yes, there are a few apps in the market that allow you to open .sketch files, but none of them can guarantee at least 80% rendering accuracy. Lunacy guarantees 99%. Irrespective of the format version! Lunacy readily handles both dusty kits from Sketchappsources and the latest versions of sketch files.
 
-Moreover, none of those apps allows you to edit a sketch project and save it back to a .sketch file. Except for Lunacy.
+Moreover, none of those apps allow you to edit a sketch project and save it back to a .sketch file. Except for Lunacy.
 
 ![Quote](public/quote2.png)
 
