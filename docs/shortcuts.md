@@ -74,7 +74,7 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Select Tool |`S` or `V` and `Esc` for Deselect |
+| Select Tool |`V` and `Esc` for Deselect |
 | Text	|`T` |
 | Rectangle |`R`|
 | Rounded Rectangle |`U`|
@@ -88,7 +88,8 @@ You can use keyboard shortcuts to help speed up your design process. Commands ar
 | Artboard |`A` |
 | Hotspot |`H` |
 | Slice |`E` |
-| Component|`C` |
+| Comment|`C` |
+| Component|`S` |
 | Button |`B` |
 | Text Input |`D` |
 | Checkbox |`F` |
