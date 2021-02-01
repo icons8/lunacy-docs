@@ -61,7 +61,7 @@ You can:
 * Create, edit and delete comments
 * Reply to comments
 * Mark comments as resolved
-* Filter comments by their status (resolved/all)
+* Filter comments by their status (unresolved/all)
 
 To view and manage comments, enable the Comment tool.
 

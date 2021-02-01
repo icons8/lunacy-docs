@@ -90,6 +90,11 @@ The table below provides an overview of the controls and their shortcuts.
     <tr>
       <td><img src="/public/tools-symbolicon61.png" alt="Component tool"></td>
       <td><a href="https://docs.icons8.com/tools/#component-tool">Component tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder components and then replacing them with required GUI elements.</td>
+      <td><code>S</code></td>
+    </tr>
+    <tr>
+      <td><img src="/public/tools-commenticon.png" alt="Comment tool"></td>
+      <td><a href="https://docs.icons8.com/tools/#comment-tool">Comment tool</a>. Allows you to keep your notes and to-do lists, as well as to collect feedback from teammates and customers.</td>
       <td><code>C</code></td>
     </tr>
     <tr>
@@ -468,6 +473,44 @@ The component tool allows you to quickly create mockups of interfaces by adding 
 * If you want your custom components to appear on the suggestions panel, you should properly tag them in the Inspector. For this, click ![Tag component button](public/rn5_9-symbtool5.png) in the **Component** section of the Inspector and select a proper category.
 
 ![Tagging components](public/tools-comptoolassign.png)
+
+## Comment tool
+
+You can use the Comment tool to keep your notes and to-do lists, as well as to collect feedback from teammates and customers. Currently comments are available only within documents, but there are plans to extend this feature and make it even more powerful.
+
+You can:
+
+* Create, edit and delete comments
+* Reply to comments
+* Mark comments as resolved
+* Filter comments by their status
+
+To view and manage comments available in a document, click the Comment tool or press `C`. This enables the comment mode:
+
+* The comments available on current page show up on the canvas.
+* The Inspector gets replaced with the **Comments** panel. It shows all the comments available in the document. There you can filter comments by their status (resolved/all). To quickly jump to a comment, click it in the **Comments** panel.
+
+
+{:.is-big}
+![Comments in Lunacy](public/tools-commentview.png)
+
+
+To add a comment to a document:
+
+1. Click the Comment tool or press `C`.
+2. Click over the place on the canvas where you want to put it.
+3. In the displayed dialog box, type your text.
+4. Click **Post** or press `Enter`.
+
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> To write multiline comments, use <code style="background: white">Shift + Enter</code>.</p>
+</div>
+
+To change the location of a comment on the canvas, just drag it to a new place.
+
+To reply to a comment, add your text below the comment and click **Post**.
+
+To edit/delete a comment/reply, click the three dots next to the comment/reply and select the respective command.
 
 ## Hotspot tool
 
