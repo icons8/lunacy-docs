@@ -487,8 +487,8 @@ You can:
 
 To view and manage comments available in a document, click the Comment tool or press `C`. This enables the comment mode:
 
-* The comments available on current page show up on the canvas.
-* The Inspector gets replaced with the **Comments** panel. It shows all the comments available in the document. There you can filter comments by their status (resolved/all). To quickly jump to a comment, click it in the **Comments** panel.
+* The comments available on the current page show up on the canvas.
+* The Inspector gets replaced with the **Comments** panel. It shows all the comments available in the document. There you can filter comments by their status (unresolved/all). To quickly jump to a comment, click it in the **Comments** panel.
 
 
 {:.is-big}
@@ -511,6 +511,8 @@ To change the location of a comment on the canvas, just drag it to a new place.
 To reply to a comment, add your text below the comment and click **Post**.
 
 To edit/delete a comment or a reply, click the three dots next to it and select the respective command (see the figure above).
+
+To mark a comment as resolved, click ![Resolve comment icon](public/comment-resolve.png) in the upper-right corner of the comment dialog box.
 
 ## Hotspot tool
 
