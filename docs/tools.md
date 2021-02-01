@@ -469,7 +469,7 @@ The component tool allows you to quickly create mockups of interfaces by adding 
 
 * To replace a placeholder component, select it and use the suggestions panel that will appear.
 * You can also use use components from the Components page. For this, enable the tool, then go to the Components page and click the required component. The same applies to components from UI kits.
-* When the Component tool is enabled, you can press the `C` and `Shift+C` hotkeys to switch between the components that you've used earlier and quickly add them onto the canvas.
+* When the Component tool is enabled, you can press the `S` and `Shift+S` hotkeys to switch between the components that you've used earlier and quickly add them onto the canvas.
 * If you want your custom components to appear on the suggestions panel, you should properly tag them in the Inspector. For this, click ![Tag component button](public/rn5_9-symbtool5.png) in the **Component** section of the Inspector and select a proper category.
 
 ![Tagging components](public/tools-comptoolassign.png)
@@ -510,7 +510,7 @@ To change the location of a comment on the canvas, just drag it to a new place.
 
 To reply to a comment, add your text below the comment and click **Post**.
 
-To edit/delete a comment/reply, click the three dots next to the comment/reply and select the respective command.
+To edit/delete a comment or a reply, click the three dots next to it and select the respective command (see the figure above).
 
 ## Hotspot tool
 
