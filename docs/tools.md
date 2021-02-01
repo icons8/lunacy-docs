@@ -474,6 +474,9 @@ The component tool allows you to quickly create mockups of interfaces by adding 
 
 ![Tagging components](public/tools-comptoolassign.png)
 
+
+<!--
+
 ## Comment tool
 
 You can use the Comment tool to keep your notes and to-do lists, as well as to collect feedback from teammates and customers. Currently comments are available only within documents, but there are plans to extend this feature and make it even more powerful.
@@ -513,6 +516,9 @@ To reply to a comment, add your text below the comment and click **Post**.
 To edit/delete a comment or a reply, click the three dots next to it and select the respective command (see the figure above).
 
 To mark a comment as resolved, click ![Resolve comment icon](public/comment-resolve.png) in the upper-right corner of the comment dialog box.
+
+-->
+
 
 ## Hotspot tool
 
