@@ -36,11 +36,10 @@ page_nav:
 
 # Version 6
 
-<!--
 ## 6.8
-*RELEASED February XX, 2021*
+*RELEASED February 03, 2021*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.7.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.8.0.exe) to get the Installer.
 
 ### New features
 
@@ -85,8 +84,6 @@ To view and manage comments, enable the Comment tool.
 ### Fixed bugs
 
 * 100+ bug fixes
-
--->
 
 ## 6.7
 *RELEASED December 31, 2020*
