@@ -475,7 +475,6 @@ The component tool allows you to quickly create mockups of interfaces by adding 
 ![Tagging components](public/tools-comptoolassign.png)
 
 
-<!--
 
 ## Comment tool
 
@@ -517,7 +516,7 @@ To edit/delete a comment or a reply, click the three dots next to it and select 
 
 To mark a comment as resolved, click ![Resolve comment icon](public/comment-resolve.png) in the upper-right corner of the comment dialog box.
 
--->
+
 
 
 ## Hotspot tool
