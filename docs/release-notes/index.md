@@ -49,7 +49,7 @@ Version 6.8 comes with a new design of the interface. We tried to make the inter
 
 Interactions and behavior remain mostly unchanged.
 
-![Redesigned UI in Lunacy 6.8](/public/rn68-newUI.png)
+![Redesigned UI in Lunacy 6.8](/public/rn68-newUI1.png)
 
 #### Comment tool
 
