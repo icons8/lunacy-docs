@@ -28,11 +28,11 @@ page_nav:
 
 We receive many requests about Lunacy for Linux, but the thing is that Lunacy was created as an editor of .sketch files for Windows, so creating something for Linux is not a priority for us, as we would have to basically start from scratch and rewrite the whole interface to make that happen.
 
-If you wish to contribute, you can join <a href="https://lunatics.icons8.com/ideas/1/version-for-linux" target="_blank">this thread</a>.
+If you wish to contribute, you can join <a href="https://lunatics.icons8.com/discussion/8/linux-version#latest" target="_blank">this thread</a>.
 
 ### What about a Mac version?
 
-Lunacy was created as an editor of .sketch files for Windows and keeps heading this way, so we don't have plans for the Mac version within the foreseeable future. You can try Sketch instead or leave your suggestion <a href="https://lunatics.icons8.com/" target="_blank">here</a>.
+Lunacy was created as an editor of .sketch files for Windows and keeps heading this way, so we don't have plans for the Mac version within the foreseeable future. You can try Sketch instead or leave your suggestion <a href="https://lunatics.icons8.com/discussion/69/version-for-mac#latest" target="_blank">here</a>.
 
 ### Is it really free?
 
@@ -210,7 +210,7 @@ Short answer: Not at the moment, not all of it.
 
 Long answer: Certainly, that would speed up the development. On the other hand, it will slow it down too. Sometimes, a small team can advance more than a big community, especially in the beginning. We may reconsider it in the future.
 
-If you are willing to contribute, you may want to create the interface for Linux. Check out [this thread](https://lunatics.icons8.com/ideas/1/version-for-linux).
+If you are willing to contribute, you may want to create the interface for Linux. Check out [this thread](https://lunatics.icons8.com/discussion/8/linux-version#latest).
 
 <!--
 
