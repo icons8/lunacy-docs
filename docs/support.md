@@ -210,7 +210,7 @@ Short answer: Not at the moment, not all of it.
 
 Long answer: Certainly, that would speed up the development. On the other hand, it will slow it down too. Sometimes, a small team can advance more than a big community, especially in the beginning. We may reconsider it in the future.
 
-If you are willing to contribute, you may want to create the interface for Linux. Check out [this thread](https://lunatics.icons8.com/discussion/8/linux-version#latest).
+If you are willing to contribute, you may want to create the interface for Linux. Check out <a href="https://lunatics.icons8.com/discussion/8/linux-version#latest" target="_blank">this thread</a>.
 
 <!--
 
