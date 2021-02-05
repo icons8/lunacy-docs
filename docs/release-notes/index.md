@@ -45,15 +45,15 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 #### New look and feel
 
-Version 6.8 comes with a new design of the interface. We tried to make the interface clean and lightweight and allow you to focus on your tasks.
-
-Interactions and behavior remain mostly unchanged.
+Version 6.8 comes with a new UI design. We made the interface clean and lightweight for you to focus on your tasks.
 
 ![Redesigned UI in Lunacy 6.8](/public/rn68-newUI2.png)
 
 #### Comment tool
 
-We added the Comment tool to allow Lunacy users to keep their notes and to-do lists, as well as to collect feedback from teammates and customers. Currently comments are available only within documents, but there are plans to extend this feature and make it even more powerful.
+We added the Comment tool. Now you can keep your notes and to-do lists and discuss your work with your teammates and customers.
+
+Currently, comments work only within documents. But we plan to extend it and make it even more powerful. Feel free to <a href="https://lunatics.icons8.com/categories/improvements_new-proposal" target="_blank">share your ideas</a> on this feature with us. 
 
 You can:
 
