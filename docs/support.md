@@ -47,9 +47,9 @@ Thank you. That is one of our favorite questions. Check out the demos <a href="h
 You can:
 
 * Take an interactive tutorial (in Lunacy, go to **Help > Tutorial**)
-* Watch our <a href="https://icons8.com/articles/tag/lunacy/" target="_blank">video tutorials</a> 
+* Check out <a href="https://icons8.com/articles/tag/lunacy/" target="_blank"> step-by-step tutorials</a> in our blog 
 * Read our <a href="https://docs.icons8.com/" target="_blank">docs</a>
-* Check out our <a href="https://www.youtube.com/channel/UCIp9WVc3HlNF3TGqGvuDsnQ/videos" target="_blank">Youtube channel</a>
+* Subscribe to our <a href="https://www.youtube.com/channel/UCIp9WVc3HlNF3TGqGvuDsnQ/videos" target="_blank">Youtube channel</a>
 
 ### Do I need internet connection to use Lunacy?
 
