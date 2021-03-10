@@ -37,7 +37,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Save |`Ctrl+S` |
 | Save as |`Ctrl+Shift+S` |
 | Export |`Ctrl+E` |
-| About |`F1` |
+| View Docs |`F1` |
 | Close Tab |`Ctrl+W` |
 | Next Tab |`Ctrl+Tab` |
 | Prev Tab |`Ctrl+Shift+Tab` |
@@ -72,14 +72,14 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Select Tool |`V` and `Esc` for Deselect |
+| Select |`V` and `Esc` for Deselect |
 | Text	|`T` |
 | Rectangle |`R`|
 | Rounded Rectangle |`U`|
 | Ellipse |`O` |
 | Line |`L` |
-| Pencil Tool |`N` |
-| Pen Tool |`P` |
+| Pencil |`N` |
+| Pen |`P` |
 | Eyedropper |`I` |
 | Place Image |`M` |
 | Place Avatar |`Q` |
