@@ -23,11 +23,9 @@ page_nav:
 ---
 
 
-You can use keyboard shortcuts in Lunacy to help speed up your design process.
+You can use keyboard shortcuts in Lunacy to speed up your design process.
 
 We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If you are used to these certain combinations, they will likely work in Lunacy as well.
-
-You can use keyboard shortcuts to help speed up your design process. Commands are divided into several sections.
 
 ## General Shortcuts
 
