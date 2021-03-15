@@ -36,6 +36,32 @@ page_nav:
 
 # Version 6
 
+<!--
+
+## 6.9
+*RELEASED March XX, 2021*
+
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.8.0.exe) to get the Installer.
+
+### New features
+
+#### Hot exit
+
+Now when you quit Lunacy, it will immediately close all the open tabs without asking to save changes and restore all those tabs upon the next launch.
+
+Moreover, Lunacy will remember your actions with files, so that you will be able to use the Undo/Redo commands. 
+
+### Improvements
+
+* Significant plugins performance improvements
+* Other minor improvements
+
+### Fixed bugs
+
+* Numerous bug fixes.
+
+-->
+
 ## 6.8
 *RELEASED February 03, 2021*
 
