@@ -37,7 +37,7 @@ page_nav:
 # Version 6
 
 ## 6.9
-*RELEASED March XX, 2021*
+*RELEASED March 17, 2021*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.9.0.exe) to get the Installer.
 
