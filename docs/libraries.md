@@ -24,10 +24,10 @@ page_nav:
 
 One of the cool things in Lunacy is Libraries. Libraries are collections of visual elements that you can add onto your designs in no time. These collections are accessible through the content tabs and include the following:
 
-* Icons
-* Photos
-* Illustrations
-* UI kits
+* [Icons](#icons)
+* [Photos](#photos-and-masked-photos)
+* [Illustrations](#photos)
+* [UI kits](#ui-kits)
 
 ![A view of the Libraries tabs](public/libraries61.png)
 
@@ -44,7 +44,7 @@ To be able to edit photos in high resolution or to convert icons and illustratio
 
 The sections below describe library-specific actions that you can perform with library items.
 
-## Icons
+## [Icons](#icons)
 
 The Lunacy icon library exceeds 140 thousand items which is more than enough even for the choosiest users. After installation your app will feature only free-to-use icons. To have the full library at hand, you should download it.
 
@@ -79,7 +79,7 @@ To **search** the library for images similar to the one you have on the canvas, 
 
 Lunacy will run through its photo library and display the best matches on the library panel.
 
-## Illustrations
+## [Illustrations](#illustrations)
 
 Illustrations is a collection of vector images for awesome web, mobile and UI designs. But if you are on a free plan, you will only be able to use library items as rasters.
 
@@ -87,7 +87,7 @@ Illustrations is a collection of vector images for awesome web, mobile and UI de
 
 Like with [photos](#photos-and-masked-photos), when working with illustrations you can use the **replacement** and **find similar** features.
 
-## UI kits
+## [UI kits](#ui-kits)
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> To better understand the intent and how to use UI kits, we recommend that you first read the <a href="https://docs.icons8.com/components" target="_blank">Components</a> and <a href="https://docs.icons8.com/layerstyles" target="_blank">Layer and text styles</a> sections of our documentation.</p>
