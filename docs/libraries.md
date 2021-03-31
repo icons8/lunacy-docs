@@ -26,7 +26,7 @@ One of the cool things in Lunacy is Libraries. Libraries are collections of visu
 
 * [Icons](#icons)
 * [Photos](#photos-and-masked-photos)
-* [Illustrations](#photos)
+* [Illustrations](#illustrations)
 * [UI kits](#ui-kits)
 
 ![A view of the Libraries tabs](public/libraries61.png)
