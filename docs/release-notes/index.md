@@ -72,7 +72,10 @@ There are two ways to open a cloud document via a link:
 -  Copy the link, then click **File > Open URL From Clipboard**.
 -  Copy the link and press `Ctrl+V` over any document or the **Home Tab**.
 To save a cloud document locally, go to **File > Save as Local Copy**.
-Note: To go on working with a local copy, open it from where you saved it.
+
+**Note:** *To go on working with a local copy, open it from where you saved it.*
+
+
 Local files now appear in the top panel with the document icon (![Document icon](/public/rn70-docicon.png)) before the file name.
 
 
