@@ -49,6 +49,7 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 We replaced the **Welcome Window** with the **Home Tab**.  You can now always access it from the top panel (![Home icon](/public/rn70_homeicon.png)).
 Also, we moved the **Sign in/Sign up** form and the list of **Recent documents** to the **Home Tab**.
 
+
 ![Home tab](/public/rn70-hometab.png)
 
 #### Lunacy Cloud (Beta)
