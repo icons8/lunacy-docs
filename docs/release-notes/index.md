@@ -12,6 +12,8 @@ icon: 'activity-history'
 # Micro navigation
 left_menu_off: false
 release_note:
+    - title: Version 7
+      url: 'version-7'
     - title: Version 6
       url: 'version-6'
     - title: Version 5
@@ -32,12 +34,89 @@ page_nav:
 
 ---
 
+# Version 7
 
+## 7.0
+
+*Release date: May XX, 2021*
+
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.9.0.exe) to get the Installer.
+
+### New features
+
+#### Home Tab
+
+We replaced the **Welcome Window** with the **Home Tab**.  You can now always access it from the top panel (![Home icon](/public/rn70_homeicon.png)).
+Also, we moved the **Sign in/Sign up** form and the list of **Recent documents** to the **Home Tab**.
+
+![Home tab](/public/rn70-hometab.png)
+
+#### Lunacy Cloud (Beta)
+
+We are introducing **Lunacy Cloud** and discontinue the support of Sketch Cloud.
+
+To create a cloud document, click **File** > **New Cloud**.
+
+The list of your documents appears in the **Recent** and **Documents** sections of the **Home Tab**.
+
+You can access your cloud documents from any computer under your Icons8 account.
+
+Also, currently, cloud documents are accessible by anyone with the link. More flexible sharing options will be added in the upcoming versions.
+
+To get a link, click **Share** in the upper-right corner. The link will get copied to your clipboard.
+
+![Home tab](/public/rn70-cloud.png)
+
+There are two ways to open a cloud document via a link:
+
+-  Copy the link, then click **File > Open URL From Clipboard**.
+-  Copy the link and press `Ctrl+V` over any document or the **Home Tab**.
+To save a cloud document locally, go to **File > Save as Local Copy**.
+Note: To go on working with a local copy, open it from where you saved it.
+Local files now appear in the top panel with the document icon (![Document icon](/public/rn70-docicon.png)) before the file name.
+
+
+![Lunacy cloud](/public/rn70-cloud1.png)
+#### Collaboration (Beta)
+
+Collaboration, the most awaited feature by Lunacy fans, is finally here!
+
+Now you can work with the same cloud documents simultaneously with were other users. Just share the link to the document and enjoy the teamwork.
+
+![Lunacy cloud](/public/rn70-collab.png)
+
+For obvious reasons, we could not test all the scenarios and intricacies of multi-user editing without real users. So, let's call it a feature preview. If you encounter any issues, please feel free to report them (**Help > Report a Problem**).
+
+#### Armenian Language
+
+Big thanks to Sargis_k for helping us out with the Armenian localization.
+
+![Lunacy cloud](/public/rn70-armen.png)
+
+
+If you also want to take part in Lunacy localization, click <a href="https://docs.icons8.com/localization/" target="_blank">here</a>.
+
+
+### Improvements
+
+* Now the default font for all text blocks is Inter. Also, now it is the font of our interface. It is a free Google font that can be used on all platforms. Previously it was Segoe UI. But it is authorized only for Windows. Now guess why we did it 😉.
+* New hotkeys for navigation through document pages (**Page up/Page down**) and artboards (**Home/End**).
+* Improved UI for Objects, Styles, Color Picker, Top bar and Main menu.
+* The limit for Gaussian blur is now 10000. The max value of the slider is still 50. But if you need more blur, you can enter the required value manually.
+* Now you always have access to the list of document pages. You no longer have to switch to the Objects tab to navigate through pages.
+* The button on the right end of the search bar now enables you to quickly collapse the object tree.
+* Ability to switch between Lunacy servers for better connectivity (**Help > Region**).
+* Now, if you need more space in the top bar, you can hide the Main menu by clicking the arrow next to the Lunacy logo.
+* Other minor improvements
+
+### Fixed bugs
+
+* Numerous bug fixes.
 
 # Version 6
 
 ## 6.9
-*RELEASED March 17, 2021*
+*Release date: March 17, 2021*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.9.0.exe) to get the Installer.
 
@@ -59,7 +138,7 @@ Moreover, Lunacy will remember your actions with files, so that you will be able
 * Numerous bug fixes.
 
 ## 6.8
-*RELEASED February 03, 2021*
+*Release date: February 03, 2021*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.8.0.exe) to get the Installer.
 
@@ -108,7 +187,7 @@ To view and manage comments, enable the Comment tool.
 * 100+ bug fixes
 
 ## 6.7
-*RELEASED December 31, 2020*
+*Release date: December 31, 2020*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.7.0.exe) to get the Installer.
 
@@ -147,7 +226,7 @@ Now you can rename objects right on the canvas. For this, right-click an object 
 
 ## 6.6
 
-*RELEASED December 01, 2020*
+*Release date: December 01, 2020*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.6.0.exe) to get the Installer.
 
@@ -177,7 +256,7 @@ To use this feature, click **Text > Fonts Embedding** on the menu bar. In the di
 
 ## 6.5
 
-*RELEASED November 17, 2020*
+*Release date: November 17, 2020*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.5.0.exe) to get the Installer.
 
@@ -213,7 +292,7 @@ The settings menu now also features export presets for iOS and Android.
 
 ## 6.4
 
-*RELEASED November 02, 2020*
+*Release date: November 02, 2020*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.4.0.exe) to get the Installer.
 
@@ -281,7 +360,7 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 ## 6.3
 
-*RELEASED October 16, 2020*
+*Release date: October 16, 2020*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.3.0.exe) to get the Installer.
 
@@ -313,7 +392,7 @@ Lunacy v.6.3 brings in a new redesigned welcome window.
 
 ## 6.2
 
-*RELEASED September 23, 2020*
+*Release date: September 23, 2020*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.2.exe) to get the Installer.
 
@@ -354,7 +433,7 @@ Now you can:
 
 ## 6.1
 
-*RELEASED September 02, 2020*
+*Release date: September 02, 2020*
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.1.0.exe) to get the Installer.
 
@@ -422,7 +501,7 @@ Also, you can hold down Shift to get a perfectly vertical, horizontal or 45-degr
 
 ## 6.0
 
-*RELEASED August 04, 2020*
+*Release date: August 04, 2020*
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_6.0.0.exe)
 
@@ -494,7 +573,7 @@ Version 5 takes Lunacy out of beta (better stability and performance), provides 
 
 ## 5.9
 
-*RELEASED July 03, 2020*
+*Release date: July 03, 2020*
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.9.0.exe)
 
@@ -589,7 +668,7 @@ Just set the caret inside a word or at the end of the text and apply the require
 
 ## 5.8
 
-_RELEASED June 16, 2020_
+_Release date: June 16, 2020_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.8.0.exe)
 
@@ -635,7 +714,7 @@ Now you can invert gradients with a single button click in the Color Picker.
 
 
 ## 5.7
-_RELEASED May 28, 2020_  
+_Release date: May 28, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.7.0.exe)
 
@@ -654,7 +733,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed selection issues
 
 ## 5.6.1 hotfix
-_RELEASED May 21, 2020_  
+_Release date: May 21, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.6.1.exe)
 
@@ -663,7 +742,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Resize to fit artboard bug fixed
 
 ## 5.6
-_RELEASED May 18, 2020_  
+_Release date: May 18, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.6.0.exe)
 
@@ -689,7 +768,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed selection issues
 
 ## 5.5
-_RELEASED April 30, 2020_  
+_Release date: April 30, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.5.0.exe)
 
@@ -714,7 +793,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed export issues
 
 ## 5.4
-_RELEASED April 15, 2020_  
+_Release date: April 15, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.4.0.exe)
 
@@ -740,7 +819,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed some effects rendering issues
 
 ## 5.3.1 hotfix
-_RELEASED March 26, 2020_  
+_Release date: March 26, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.3.1.exe)
 
@@ -748,7 +827,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Critical bugs fixed
 
 ## 5.3
-_RELEASED March 25, 2020_  
+_Release date: March 25, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.3.0.exe)
 
@@ -777,7 +856,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed typography issues
 
 ## 5.2
-_RELEASED March 02, 2020_  
+_Release date: March 02, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.2.0.exe)
 
@@ -805,7 +884,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed some minor bugs
 
 ## 5.1.1 hotfix
-_RELEASED February 19, 2020_  
+_Release date: February 19, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.1.1.exe)
 
@@ -813,7 +892,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed crashes
 
 ## 5.1
-_RELEASED February 12, 2020_  
+_Release date: February 12, 2020_  
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.1.0.exe)
 
@@ -846,7 +925,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed some flatten issues
 
 ## 5.0.2 hotfix
-_RELEASED January 28, 2020_
+_Release date: January 28, 2020_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.0.2.exe)
 
@@ -857,7 +936,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed artboard names and layouts
 
 ## 5.0.1 hotfix
-_RELEASED January 25, 2020_
+_Release date: January 25, 2020_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.0.1.exe)
 
@@ -865,7 +944,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Fixed some critical bugs and crashes obtained by crash reports from our users
 
 ## 5.0
-_RELEASED January 24, 2020_
+_Release date: January 24, 2020_
 
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.0.0.exe)
 
