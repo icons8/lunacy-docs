@@ -36,8 +36,6 @@ page_nav:
 
 # Version 7
 
-<!-- 
-
 ## 7.0
 
 *Release date: May XX, 2021*
@@ -119,7 +117,6 @@ If you also want to take part in Lunacy localization, click <a href="https://doc
 
 * Numerous bug fixes
 
--->
 
 # Version 6
 
