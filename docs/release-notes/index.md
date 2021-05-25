@@ -42,7 +42,10 @@ page_nav:
 
 Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_7.0.0.exe) to get the Installer.
 
-### New features
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pz8S9ducEQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### New featussres
 
 #### Home Tab
 
