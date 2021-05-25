@@ -197,7 +197,7 @@ To view and manage comments, enable the Comment tool.
 ## 6.7
 *Release date: December 31, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.7.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.7.0.exe) to get the Installer.
 
 ### New features
 
@@ -236,7 +236,7 @@ Now you can rename objects right on the canvas. For this, right-click an object 
 
 *Release date: December 01, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.6.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.6.0.exe) to get the Installer.
 
 ### New features
 
@@ -266,7 +266,7 @@ To use this feature, click **Text > Fonts Embedding** on the menu bar. In the di
 
 *Release date: November 17, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.5.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.5.0.exe) to get the Installer.
 
 ### New features
 
@@ -302,7 +302,7 @@ The settings menu now also features export presets for iOS and Android.
 
 *Release date: November 02, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.4.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.4.0.exe) to get the Installer.
 
 ### New features
 
@@ -359,7 +359,7 @@ Another cool feature of this release is the integration with the <a href="https:
 
 *RELEASED October 26, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.3.1.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.3.1.exe) to get the Installer.
 
 ### Fixed issues
 
@@ -370,7 +370,7 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 *Release date: October 16, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.3.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.3.0.exe) to get the Installer.
 
 ### New features
 
@@ -402,7 +402,7 @@ Lunacy v.6.3 brings in a new redesigned welcome window.
 
 *Release date: September 23, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.2.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.2.exe) to get the Installer.
 
 ### Improvements
 
@@ -443,7 +443,7 @@ Now you can:
 
 *Release date: September 02, 2020*
 
-Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://desktop.icons8.com/lunacy/LunacySetup_6.1.0.exe) to get the Installer.
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_6.1.0.exe) to get the Installer.
 
 ### New features
 
@@ -511,7 +511,7 @@ Also, you can hold down Shift to get a perfectly vertical, horizontal or 45-degr
 
 *Release date: August 04, 2020*
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_6.0.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_6.0.0.exe)
 
 ### New features
 
@@ -583,7 +583,7 @@ Version 5 takes Lunacy out of beta (better stability and performance), provides 
 
 *Release date: July 03, 2020*
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.9.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.9.0.exe)
 
 ### New features
 
@@ -678,7 +678,7 @@ Just set the caret inside a word or at the end of the text and apply the require
 
 _Release date: June 16, 2020_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.8.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.8.0.exe)
 
 ### New features
 
@@ -724,7 +724,7 @@ Now you can invert gradients with a single button click in the Color Picker.
 ## 5.7
 _Release date: May 28, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.7.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.7.0.exe)
 
 ### Improvements
 - Improved SVG import
@@ -743,7 +743,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.6.1 hotfix
 _Release date: May 21, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.6.1.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.6.1.exe)
 
 ### Bug Fix
 - Symbol creation bug fixed
@@ -752,7 +752,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.6
 _Release date: May 18, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.6.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.6.0.exe)
 
 ### Features
 - Notifications Panel
@@ -778,7 +778,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.5
 _Release date: April 30, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.5.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.5.0.exe)
 
 ### Improvements
 - Panning performance improvements
@@ -803,7 +803,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.4
 _Release date: April 15, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.4.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.4.0.exe)
 
 ### Features
 - Sketch Cloud Libraries
@@ -829,7 +829,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.3.1 hotfix
 _Release date: March 26, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.3.1.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.3.1.exe)
 
 ### Bug Fixes
 - Critical bugs fixed
@@ -837,7 +837,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.3
 _Release date: March 25, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.3.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.3.0.exe)
 
 ### Features
 - Sketch Cloud integration:
@@ -866,7 +866,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.2
 _Release date: March 02, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.2.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.2.0.exe)
 
 ### Features
 - New Rendering Engine (input lag reduced, performance improved)
@@ -894,7 +894,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.1.1 hotfix
 _Release date: February 19, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.1.1.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.1.1.exe)
 
 ### Bug Fixes
 - Fixed crashes
@@ -902,7 +902,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.1
 _Release date: February 12, 2020_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.1.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.1.0.exe)
 
 ### Features
 - AI Background Removal for images
@@ -935,7 +935,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.0.2 hotfix
 _Release date: January 28, 2020_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.0.2.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.0.2.exe)
 
 ### Bug Fixes
 - Fixed text preview quality in the floating style panel
@@ -946,7 +946,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.0.1 hotfix
 _Release date: January 25, 2020_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.0.1.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.0.1.exe)
 
 ### Bug Fixes
 - Fixed some critical bugs and crashes obtained by crash reports from our users
@@ -954,7 +954,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 5.0
 _Release date: January 24, 2020_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_5.0.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_5.0.0.exe)
 
 ### Features
 - What's new information inside Lunacy
@@ -996,7 +996,7 @@ Version 4 comes with GPU rendering support and Icons8 content integration.
 ## 4.9
 _RELEASED December 26, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.9.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.9.0.exe)
 
 ### Features
 - Missing Fonts Replace
@@ -1027,7 +1027,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.8.1 hotfix
 _RELEASED December 10, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.8.1.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.8.1.exe)
 
 ### Bug Fixes
 - Fixed image crop causing app crash
@@ -1036,7 +1036,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.8
 _RELEASED December 9, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.8.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.8.0.exe)
 
 ### Features
 - Image Crop
@@ -1067,7 +1067,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.7
 _RELEASED November 24, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.7.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.7.0.exe)
 
 ### Features
 - Dark Mode
@@ -1098,7 +1098,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.6.1 hotfix
 _RELEASED November 3, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.6.1.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.6.1.exe)
 
 ### Bug Fixes
 - Fixed scroll bars issue and some attached issues
@@ -1106,7 +1106,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.6
 _RELEASED November 1, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.6.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.6.0.exe)
 
 ### Features
 - Sketch Prototyping Format support. You can see, edit and save files with prototyping. Preview is not implemented.
@@ -1126,7 +1126,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.5
 _RELEASED October 23, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.5.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.5.0.exe)
 
 ### Features
 - Image Adjust - ability to change hue/saturation/brightness/contrast of image
@@ -1142,7 +1142,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Ability to close other tabs and close all but this tab via tabs context menu
 - Toolbar UI improvement
 - Ability to override symbol instance to nothing
-- Document palette will be saved inside the project file
+- Document palette will be saved inside the project file
 
 ### Bug Fixes
 - Fixed vectors bounding box size
@@ -1153,7 +1153,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.4.1 hotfix
 _RELEASED October 9, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.4.1.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.4.1.exe)
 
 ### Bug Fixes
 - Fix copy paste and duplicate error
@@ -1161,7 +1161,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.4
 _RELEASED October 8, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.4.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.4.0.exe)
 
 ### Features
 - Tabs - open some projects in a single window
@@ -1186,7 +1186,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.3
 _RELEASED September 25, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.3.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.3.0.exe)
 
 ### Features
 - Pencil Tool
@@ -1208,7 +1208,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.2
 _RELEASED September 12, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.2.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.2.0.exe)
 
 ### Features
 - Symbols Overrides  
@@ -1237,7 +1237,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.1
 _RELEASED August 20, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.1.0.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.1.0.exe)
 
 ### Features
 - UI Kits 
@@ -1294,7 +1294,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.0.3 hotfix
 _RELEASED June 26, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.3.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.0.3.exe)
 
 ### Bug Fixes
 - Fixed all crashes, we have received via report system
@@ -1304,7 +1304,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.0.2 hotfix
 _RELEASED June 19, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.2.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.0.2.exe)
 
 ### Bug Fixes
 - Fixed all crashes, we have received via report system
@@ -1312,7 +1312,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 4.0
 _RELEASED June 17, 2019_
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_4.0.1.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_4.0.1.exe)
 
 ### Features
 - GPU rendering 
@@ -1347,7 +1347,7 @@ One of the substantial improvements introduced in Version 3 was the full-scale e
 ## 3.16
 _RELEASED May 15, 2019_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.16.4.exe)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.16.4.exe)
 
 ### Features
 - [**Integration with icons8 Icons**](https://a.icons8.com/rMVfffrk/5VZTPr/5.png)
@@ -1395,7 +1395,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 3.15.3
 _RELEASED March 7, 2019_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.3.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.3.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.15.3.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.15.3.zip)
 
 ### Bug Fixes
 - Fixed various problems with input fields
@@ -1408,7 +1408,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 3.15
 _RELEASED February 15, 2019_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.15.2.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.15.2.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.15.2.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.15.2.zip)
 
 ### Features
 - Ability to add more settings for the stroke: [**Folds, Caps, Nozzles**](https://a.icons8.com/mwlQoYtb/F3iscZ/image.png)
@@ -1444,7 +1444,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 ## 3.14
 _RELEASED December 21, 2018_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.14.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.14.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.14.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.14.zip)
 
 ### Features
 - The **Grids** is configured for the [workspace](https://a.icons8.com/2TdZnnJc/6Wy1Kf/image.png) and for [artboard separately](https://a.icons8.com/cjiWecVu/1MMsGf/image.png)
@@ -1497,7 +1497,7 @@ Here's the fantastic review of our features. A designer called Kavin Prasath rec
 ## 3.13
 _RELEASED October 26, 2018_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.13.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.13.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.13.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.13.zip)
 
 ### Features
 - Added support for sketch files created in **version 52**
@@ -1525,7 +1525,7 @@ Languages:
 ## 3.12
 _RELEASED October 19, 2018_  
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.12.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.12.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.12.zip)
 
 ### Features
 - Added functionality to work with **Symbols** (beta)
@@ -1563,7 +1563,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 ## 3.11
 
-Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.11.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.11.zip)
+Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.11.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.11.zip)
 
 ### Features
 
@@ -1589,7 +1589,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 ## 3.10
 
-Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.10.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.10.zip)
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.10.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.10.zip)
 
 ### Features
 
@@ -1627,7 +1627,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ## 3.9.1 Hotfix
 
-Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.9.1.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.9.1.zip)
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.9.1.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.9.1.zip)
 
 ### Bug Fixes
 
@@ -1637,7 +1637,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ## 3.9
 
-Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.9.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.9.zip)
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.9.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.9.zip)
 
 ### Features
 
@@ -1670,7 +1670,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ## 3.8
 
-Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.8.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.8.zip)
+Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge), the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.8.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.8.zip)
 
 ### Features
 
@@ -1707,7 +1707,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ## 3.7
 
-Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.7.exe), or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.7.zip)
+Download from the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.7.exe), or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.7.zip)
 
 ### New Features
  
@@ -1730,7 +1730,7 @@ Download from the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.7.
 
 ## 3.6
 
-Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.6.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.6.zip)
+Download the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.6.exe) or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.6.zip)
 
 ### New Features
 
@@ -1751,7 +1751,7 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.6.exe) 
 
 ## 3.5
 
-Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.5.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.5.zip)
+Download the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.5.exe) or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.5.zip)
 
 ### New Features
 
@@ -1769,7 +1769,7 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.5.exe) 
 - Minor bug fixes
 
 ## 3.4
-Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.4.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.4.zip)
+Download the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.4.exe) or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.4.zip)
 
 ### New Features
 
@@ -1783,7 +1783,7 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.4.exe) 
 
 ## 3.3
 
-Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.3.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.3.zip)
+Download the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.3.exe) or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.3.zip)
 
 ### New Features
 
@@ -1809,7 +1809,7 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.3.exe) 
 - Increased color precision when loading and save sketch files
 
 ## 3.2
-Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.2.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.2.zip)
+Download the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.2.exe) or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.2.zip)
 
 ### New Features
 
@@ -1842,7 +1842,7 @@ Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.2.exe) 
 - Art-board grid tuned
 
 ## 3.1
-Download the [Installer](https://desktop.icons8.com/lunacy/LunacySetup_3.1.exe) or [Portable](https://desktop.icons8.com/lunacy/LunacyPortable_3.1.zip)
+Download the [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_3.1.exe) or [Portable](https://lun-eu.icons8.com/s/setup/LunacyPortable_3.1.zip)
 
 ### New Features
 
