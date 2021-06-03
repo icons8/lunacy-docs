@@ -27,8 +27,6 @@ doks:
       url: '/images'
     - title: 'Export'
       url: '/export'
-    - title: 'Sketch Cloud'
-      url: '/cloud'
     - title: 'Prototyping'
       url: '/prototyping'
     - title: 'Tips and Tricks'
