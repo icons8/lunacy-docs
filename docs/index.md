@@ -61,10 +61,6 @@ grid_navigation:
       excerpt: All you need to know about export in Lunacy
       url: '/export'
       icon: 'folder-invoices'
-    - title: 'Sketch Cloud'
-      excerpt: Learn how to work with Sketch Cloud from Lunacy
-      url: '/cloud'
-      icon: 'upload-2'
     - title: 'Prototyping'
       excerpt: Learn how to build prototypes in Lunacy
       url: '/prototyping'
