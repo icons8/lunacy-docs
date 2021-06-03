@@ -59,7 +59,7 @@ How do we earn then? Lunacy is a product of Icons8, the company that runs one of
 
 ![Code](public/icons8_css.png) Lunacy allows you to view and copy CSS, XAML and SVG code of your designs.
 
-![No Internet](public/icons8_wi-fi_off.png) Lunacy is an offline app. If you are not using our Library or Sketch Cloud, you don't need Internet connection.
+![No Internet](public/icons8_wi-fi_off.png) Lunacy is an offline app. If you are not using our Library or Cloud, you don't need Internet connection.
 
 ![Privacy](public/icons8_privacy.png) Lunacy respects privacy. We do not track your activity or analyze your files.
 
