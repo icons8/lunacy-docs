@@ -51,9 +51,13 @@ How do we earn then? Lunacy is a product of Icons8, the company that runs one of
 
 ![Formats](public/icons8_import_file.png) Lunacy works in the .sketch format. Supported export formats are: PNG, JPEG, BMP, TIFF, ICO, WEBP, SVG, PDF. Supported import formats are:  PNG, JPG, JPEG, WEBP, BMP, ICO, GIF, SVG.
 
+<!--
+
 ![Cloud](public/icons8_cloud.png) Lunacy supports Sketch Cloud. So, if you're on PC while the rest of your team are on Macs, it's no longer a problem. You can store, exchange and edit files through Sketch Cloud.
 
-![Cloud](public/icons8_css.png) Lunacy allows you to view and copy CSS, XAML and SVG code of your designs.
+-->
+
+![Code](public/icons8_css.png) Lunacy allows you to view and copy CSS, XAML and SVG code of your designs.
 
 ![No Internet](public/icons8_wi-fi_off.png) Lunacy is an offline app. If you are not using our Library or Sketch Cloud, you don't need Internet connection.
 
