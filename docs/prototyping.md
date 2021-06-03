@@ -18,8 +18,8 @@ page_nav:
         content: Tips and Tricks
         url: '/tips'
     prev:
-        content: Sketch Cloud
-        url: '/cloud'
+        content: Export
+        url: '/export'
 ---
 
 

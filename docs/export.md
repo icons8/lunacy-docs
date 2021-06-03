@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Sketch Cloud
-        url: '/cloud'
+        content: Prototyping
+        url: '/prototyping'
     prev:
         content: Images
         url: '/images'
