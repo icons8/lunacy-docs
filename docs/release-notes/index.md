@@ -88,7 +88,7 @@ Local files now appear in the top panel with the document icon (![Document icon]
 
 Collaboration, the most awaited feature by Lunacy fans, is finally here!
 
-Now you can work with the same cloud documents simultaneously with were other users. Just share the link to the document and enjoy the teamwork.
+Now you can work with the same cloud documents simultaneously with other users. Just share the link to the document and enjoy the teamwork.
 
 ![Lunacy cloud](/public/rn70-collab.png)
 
