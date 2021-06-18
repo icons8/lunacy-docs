@@ -36,6 +36,56 @@ page_nav:
 
 # Version 7
 
+
+## 7.1
+
+*Release date: June XX, 2021*
+
+Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> or click [here](https://lun-eu.icons8.com/s/setup/LunacySetup_7.0.0.exe) to get the Installer.
+
+
+### New features
+
+#### Privacy and share links management
+
+Now you can have three types of cloud documents:
+
+* **Public** - accessible for everyone with the link. Visible in your profile for other users. In one of the upcoming versions, users will be able to view profiles of other users.
+* **Hidden** - accessible for everyone with the link. Hidden from other users in your profile.
+* **Private** - accessible only with personal links that can be used only once. So, every time you want to invite a new user to a private document, you should send a new link. You can always withdraw your private link by clicking **X** next to the username. This will make the link invalid and throw the user out of the document.
+
+![Cloud doc types](/public/rn71-privacy.png)
+
+
+**Note:** *Currently, everyone with a link to your document can edit it. Soon, you will be able to set read-only privileges.*
+
+#### Observer Mode
+
+The Observer Mode enables you to follow the activities of other users on the canvas. For this, click the user's avatar in the top-right corner. You will see a colored frame around the canvas, indicating that you're now in the Observer Mode.
+
+
+![Observer mode](/public/rn71_observermode.png)
+
+To exit the mode, click the user's avatar once again.
+
+**Note:** *You will only be able to view the user's activities on the canvas. You won't be able to see the interactions on the side panels.*
+
+### Improvements
+
+* Now you can set your own images for your avatar and the name that the other users will see during collaboration.
+* Now you can set the default emoji font. For this, go to **View** > **Emoji Style**. Available fonts are: Segoe UI Emoji, Noto Sans Emoji, Apple Color Emoji.
+* Now when a user clicks the link that you shared over a messenger or email, the link opens a page that explains how to use the link and offers to start Lunacy.
+* Ability to delete all files from **Home** > **Deleted** in a single click.
+* Font previews are now displayed in the default font language.
+* Minor Vector Tool improvements.
+* Support of HSL/HSB in the Color Picker.
+* Other minor improvements.
+
+### Fixed bugs
+
+* Numerous bug fixes
+
+
 ## 7.0
 
 *Release date: May 21, 2021*
