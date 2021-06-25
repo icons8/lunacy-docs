@@ -36,7 +36,6 @@ page_nav:
 
 # Version 7
 
-<!--
 ## 7.1
 
 *Release date: June XX, 2021*
@@ -85,7 +84,6 @@ To exit the mode, click the user's avatar once again.
 
 * Numerous bug fixes
 
--->
 
 ## 7.0
 
