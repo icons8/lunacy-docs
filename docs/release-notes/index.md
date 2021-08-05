@@ -232,7 +232,7 @@ To view and manage comments, enable the Comment tool.
 ### Improvements
 
 * Significant canvas frame-rate boost
-* Component swap now saves overrides
+* Symbol swap now saves overrides
 * Now you can open a file containing folder by right-clicking over a file tab and selecting the respective command on the menu
 * Improved value dragging in fields
 * Minor Text tool improvements
