@@ -30,9 +30,9 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## General Shortcuts
 
 
-| Action        | Hotkey(s)     |
-| ------------- |-------------|
-| Open |`Ctrl+O` |
+| Action        | Hotkey(s)     | Mac |
+| ------------- |-------------|-----|
+| Open |`Ctrl+O` | &#8984;O |
 | New |`Ctrl+N` |
 | Save |`Ctrl+S` |
 | Save as |`Ctrl+Shift+S` |
@@ -225,7 +225,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Arranging Objects
 
 
-| Action        | Hotkey(s)     |
+| Action        | Hotkey(s)     | 
 | ------------- |-------------|
 | Group Selection |`Ctrl+G` |
 | Ungroup Selection |`Ctrl+Shift+G` |
