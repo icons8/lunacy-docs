@@ -70,32 +70,32 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Tools
 
 
-| Action        | Hotkey(s)     |
-| ------------- |-------------|
-| Select |`V` and `Esc` for Deselect |
-| Text	|`T` |
-| Rectangle |`R`|
-| Rounded Rectangle |`U`|
-| Ellipse |`O` |
-| Line |`L` |
-| Pencil |`N` |
-| Pen |`P` |
-| Eyedropper |`I` |
-| Place Image |`M` |
-| Place Avatar |`Q` |
-| Artboard |`A` |
-| Hotspot |`H` |
-| Slice |`E` |
-| Comment|`C` |
-| Component|`S` |
-| Button |`B` |
-| Text Input |`D` |
-| Checkbox |`F` |
-| Radio button |`Y` |
-| Toggle |`K` |
-| Drop-down list |`W` |
-| Draw from center | Hold down `Alt` and drag |
-| Draw preserving aspect ratio | Hold down `Shift` and drag |
+| Action        | Hotkey(s)     | Mac |
+| ------------- |-------------|---------|
+| Select |`V` and `Esc` for Deselect | `V` |
+| Text	|`T` | `T` |
+| Rectangle | `R` | `R` |
+| Rounded Rectangle | `U` |  `U` |
+| Ellipse | `O` | `O` |
+| Line |`L` | `L` |
+| Pencil |`N` | `N` |
+| Pen |`P` | `P` |
+| Eyedropper |`I` | `I` |
+| Place Image |`M` |`M` |
+| Place Avatar |`Q` |`Q` |
+| Artboard |`A` |`A` |
+| Hotspot |`H` |`H` |
+| Slice |`E` | `E` |
+| Comment|`C` | `C` |
+| Component|`S` | `S` |
+| Button |`B` | `B` |
+| Text Input |`D` | `D` |
+| Checkbox |`F` | `F` |
+| Radio button |`Y` | `Y` |
+| Toggle |`K` | `K` |
+| Drop-down list |`W` | `W` |
+| Draw from center | Hold down `Alt` and drag | Hold down &#8963; and drag |
+| Draw preserving aspect ratio | Hold down `Shift` and drag | Hold down `Shift` and drag | 
 
 ## Selecting Objects
 
