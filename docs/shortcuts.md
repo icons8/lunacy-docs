@@ -32,7 +32,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 | Action        | Hotkey(s)     | Mac |
 | ------------- |-------------|------------|
-| Open |`Ctrl+O` | `\&#8984;O\` |
+| Open |`Ctrl+O` | `\&\#8984;O` |
 | New |`Ctrl+N` | `&#8984;N` |
 | Save |`Ctrl+S` | `&#8984;S` |
 | Save as |`Ctrl+Shift+S` | `&#8984;Shift+S` |
