@@ -48,7 +48,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Export in PNG to Icons8 Cloud, copy URL to clipboard |`Ctrl+C, C` | &#8997;C,C |
 | Copy Style |`Ctrl+Alt+C` | &#8997;&#8984;C |
 | Paste Style |`Ctrl+Alt+V` | &#8997;&#8984;V |
-| Undo |`Ctrl+Z`  | `&#8984;Z` | &#8984;Z |
+| Undo |`Ctrl+Z`  | &#8984;Z |
 | Redo |`Ctrl+Y` or `Ctrl+Shift+Z` | &#8984;Shift+Z |
 | Show Rulers |`Ctrl+R` | &#8963;R |
 | Show Grid |`Ctrl+’` | &#8963;’ |
