@@ -31,27 +31,27 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 
 | Action        | Hotkey(s)     | Mac |
-| ------------- |-------------|-----|
-| Open |`Ctrl+O` | &#8984;O |
-| New |`Ctrl+N` |
-| Save |`Ctrl+S` |
-| Save as |`Ctrl+Shift+S` |
-| Export |`Ctrl+E` |
-| View Docs |`F1` |
-| Close Tab |`Ctrl+W` |
-| Next Tab |`Ctrl+Tab` |
-| Prev Tab |`Ctrl+Shift+Tab` |
-| Exit |`Alt+F4` or `Ctrl+Q` |
-| Copy |`Ctrl+C` |
-| Cut |`Ctrl+X` |
-| Paste |`Ctrl+V` |
-| Export in PNG to Icons8 Cloud, copy URL to clipboard |`Ctrl+C, C` |
-| Copy Style |`Ctrl+Alt+C` |
-| Paste Style |`Ctrl+Alt+V` |
-| Undo |`Ctrl+Z`  |
-| Redo |`Ctrl+Y` or `Ctrl+Shift+Z` |
-| Show Rulers |`Ctrl+R` |
-| Show Grid |`Ctrl+’` |
+| ------------- |-------------|------------|
+| Open |`Ctrl+O` | `&#8984;O` |
+| New |`Ctrl+N` | `&#8984;N` |
+| Save |`Ctrl+S` | `&#8984;S` |
+| Save as |`Ctrl+Shift+S` | `&#8984;Shift+S` |
+| Export |`Ctrl+E` | `&#8984;E` |
+| View Docs |`F1` | `F1` |
+| Close Tab |`Ctrl+W` | `&#8984;W` |
+| Next Tab |`Ctrl+Tab` |  |
+| Prev Tab |`Ctrl+Shift+Tab` |  |
+| Exit |`Alt+F4` or `Ctrl+Q` | `&#8984;Q` |
+| Copy |`Ctrl+C` | `&#8984;C` |
+| Cut |`Ctrl+X` | `&#8984;X` |
+| Paste |`Ctrl+V` | `&#8984;V` |
+| Export in PNG to Icons8 Cloud, copy URL to clipboard |`Ctrl+C, C` | `&#8997;C,C` |
+| Copy Style |`Ctrl+Alt+C` | `&#8997;&#8984;C` |
+| Paste Style |`Ctrl+Alt+V` | `&#8997;&#8984;V` |
+| Undo |`Ctrl+Z`  | `&#8984;Z` | `&#8984;Z` |
+| Redo |`Ctrl+Y` or `Ctrl+Shift+Z` | `&#8984;Shift+Z` |
+| Show Rulers |`Ctrl+R` | `&#8963;R` |
+| Show Grid |`Ctrl+’` | `&#8963;’`
 | Show Layout Grid |`Ctrl+\` |
 | Show Guidelines |`Ctrl+;` |
 | Lock Guidelines |`Ctrl+Alt+;` |
