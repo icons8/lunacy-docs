@@ -32,8 +32,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 | Action        | Hotkey(s)     | Mac |
 | ------------- |-------------|------------|
-| Open |`Ctrl+O` | &#8984;O |
-| New |`Ctrl+N` | &#8984;N |
+| Open |`Ctrl+O` | `⌘O` |
+| New |`Ctrl+N` | `⌘N` |
 | Save |`Ctrl+S` | &#8984;S |
 | Save as |`Ctrl+Shift+S` | &#8984;Shift+S |
 | Export |`Ctrl+E` | &#8984;E |
@@ -80,7 +80,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Line |`L` | `L` |
 | Pencil |`N` | `N` |
 | Pen |`P` | `P` |
-| Eyedropper |`I` | `I` |
+| Eyedropper |`I` |  `I` |
 | Place Image |`M` |`M` |
 | Place Avatar |`Q` |`Q` |
 | Artboard |`A` |`A` |
