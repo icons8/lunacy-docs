@@ -72,7 +72,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 | Action        | Windows     | Mac |
 | ------------- |-------------|---------|
-| Select |`V` and `Esc` for Deselect | `V` |
+| Select |`V` | `V` |
 | Deselect | `Esc` | `Esc` |
 | Text	|`T` | `T` |
 | Rectangle | `R` | `R` |
