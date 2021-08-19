@@ -30,7 +30,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## General Shortcuts
 
 
-| Action        | Hotkey(s)     | Mac |
+| Action        | Windows     | Mac |
 | ------------- |-------------|------------|
 | Open |`Ctrl+O` | `⌘O` |
 | New |`Ctrl+N` | `⌘N` |
@@ -52,10 +52,10 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Redo |`Ctrl+Y` or `Ctrl+Shift+Z` | `⌘+Z` |
 | Show Rulers |`Ctrl+R` | `⌘Z` |
 | Show Grid |`Ctrl+’` | `⌃'` |
-| Show Layout Grid |`Ctrl+\` | `⌃+\` |
-| Show Guidelines |`Ctrl+;` | `⌃+;` |
+| Show Layout Grid |`Ctrl+\` | `⌃\` |
+| Show Guidelines |`Ctrl+;` | `⌃;` |
 | Lock Guidelines |`Ctrl+Alt+;` |
-| Collapse the Objects list |`Ctrl+~` | `⌃+~` |
+| Collapse the Objects list |`Ctrl+~` | `⌃~` |
 | Switch to Objects |`Alt+1` | `⌥1` |
 | Switch to Components |`Alt+2` | `⌥2` |
 | Switch to Styles |`Alt+3` | `⌥3` |
@@ -70,7 +70,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Tools
 
 
-| Action        | Hotkey(s)     | Mac |
+| Action        | Windows     | Mac |
 | ------------- |-------------|---------|
 | Select |`V` and `Esc` for Deselect | `V` |
 | Deselect | `Esc` | `Esc` |
@@ -101,8 +101,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Selecting Objects
 
 
-| Action        | Hotkey(s)     |
-| ------------- |-------------|
+| Action        | Windows     | Mac |
+| ------------- |-------------|----------|
 | Select object |`Click` | `Click` |
 | Select All |`Ctrl+A` | `⌘A` |
 | Select All artboards (objects beyond artboards are ignored) |`Shift+Ctrl+A` | `⌘Shift+A` |
@@ -111,15 +111,15 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Editing Objects
 
 
-| Action        | Hotkey(s)     |
-| ------------- |-------------|
+| Action        | Windows     | Mac |
+| ------------- |-------------|--------------|
 | Edit Mode |`Enter` or `Double click` | `Enter` or `Double click` |
 | Finish Editing/Deselect all |`Escape` | `Escape`|
 | Delete object | `Backspace` or `Del` | `Backspace` or `Del` |
 | Toggle Mask |`Ctrl+M` | `⌘M` |
 | Flip horizontally |`Shift+H` |`Shift+H` |
 | Flip vertically |`Shift+V` | `Shift+V` |
-| Union |`Ctrl+Shift+U` | `⌘⌥U` | `⌘+⌥+P` |
+| Union |`Ctrl+Shift+U` | `⌘⌥U` |
 | Substract |`Ctrl+Shift+P` | `⌘⌥P` |
 | Intersect |`Ctrl+Shift+I` | `⌘⌥I` |
 | Difference |`Ctrl+Shift+X` | `⌘⌥X` |
@@ -131,16 +131,16 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Align Vertically |`Alt+V`| `⌥V` |
 | Distribute Horizontally |`Ctrl+Shift+H` | `⌃Shift+H` |
 | Distribute Vertically |`Ctrl+Shift+V` | `⌃Shift+V` |
-| Tidy up |`Ctrl+Alt+Shift+T` | `⌃⌥ShiftT` |
-| Scale objects |`Ctrl+K` | `⌃⌥Shift+T` |
+| Tidy up |`Ctrl+Alt+Shift+T` | `⌃⌥Shift+T` |
+| Scale objects |`Ctrl+K` | `⌘K` |
 | Refresh avatar |`Shift+R` | `Shift+R` |
 | Outline stroke |`Ctrl+Shift+O` | `⌘⌥O` |
 
 ## Text Editing
 
 
-| Action        | Hotkey(s)     |
-| ------------- |-------------|
+| Action        | Windows     | Mac |
+| ------------- |-------------|---------|
 | Bold |`Ctrl+B` | `⌘B` |
 | Italic  |`Ctrl+I` | `⌘I` |
 | Underline  |`Ctrl+U` | `⌘U` |
@@ -197,8 +197,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Operations with Components
 
 
-| Action        | Hotkey(s)     |
-| ------------- |-------------|
+| Action        | Windows     | Mac |
+| ------------- |-------------|-------------|
 | Create Component |`Ctrl+Alt+K`  | `⌥⌘K` |
 | Edit Component  |`Enter` | `Enter` |
 | Send to Components Page  |`Ctrl+Alt+E`| `⌥⌘E` |
@@ -210,8 +210,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Moving and Resizing Objects
 
 
-| Action        | Hotkey(s)     |
-| ------------- |-------------|
+| Action        | Windows     | Mac |
+| ------------- |-------------|-----------|
 | Distance to objects |`Alt` | `⌥` |
 | Duplicate |Hold down`Alt` and drag or `Ctrl+D` | Hold down `⌥` and drag or `⌘+D` |
 | Move along X/Y axis |Hold down `Shift` and drag | Hold down `Shift` and drag |
@@ -222,13 +222,13 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Resize from center |`Alt+resize` | `⌥+resize` |
 | Preserve Ratio |`Shift+resize` | `Shift+resize` |
 | Pan around canvas |Hold down `Space` and drag | Hold down `Space` and drag
-| Disable snapping while dragging objects |Hold down `⌘` and drag|
+| Disable snapping while dragging objects |Hold down `Ctrl` and drag| Hold down `⌘` and drag|
 
 ## Arranging Objects
 
 
-| Action        | Hotkey(s)     | 
-| ------------- |-------------|
+| Action        | Windows     | Mac |
+| ------------- |-------------|------------------|
 | Group Selection |`Ctrl+G` | `⌘G` |
 | Ungroup Selection |`Ctrl+Shift+G` | `⌘Shift+G` |
 | Bring Forward |`Ctrl+]` | `⌘]` |
@@ -241,8 +241,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Zoom and Focus
 
 
-| Action        | Hotkey(s)     |
-| ------------- |-------------|
+| Action        | Windows     | Mac |
+| ------------- |-------------|--------------|
 | Zoom Tool |`Z` | `Z` |
 | Zoom |`Ctrl+Mouse Wheel` | `⌘+Mouse Wheel` |
 | Soft zoom |`Ctrl+Shift+Mouse Wheel` | `⌘Shift+Mouse Wheel` |
@@ -258,7 +258,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Plugins
 
 
-| Action        | Hotkey(s)     |
-| ------------- |-------------|
+| Action        | Windows     | Mac |
+| ------------- |-------------|-----------|
 | Run script |`Ctl+Shift+K` | `⌘Shift+K` |
 | Run script again |`Ctl+Shift+R` | `⌘Shift+R` |
