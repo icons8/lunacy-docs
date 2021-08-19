@@ -34,14 +34,14 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | ------------- |-------------|------------|
 | Open |`Ctrl+O` | `⌘O` |
 | New |`Ctrl+N` | `⌘N` |
-| Save |`Ctrl+S` | &#8984;S |
-| Save as |`Ctrl+Shift+S` | &#8984;Shift+S |
-| Export |`Ctrl+E` | &#8984;E |
+| Save |`Ctrl+S` | `⌘S` |
+| Save as |`Ctrl+Shift+S` | `⌘Shift+S` |
+| Export |`Ctrl+E` | `⌘E` |
 | View Docs |`F1` | `F1` |
-| Close Tab |`Ctrl+W` | &#8984;W |
+| Close Tab |`Ctrl+W` | `⌘W` |
 | Next Tab |`Ctrl+Tab` | `⌃Tab` |
 | Prev Tab |`Ctrl+Shift+Tab` | `⌃Shift+Tab`  |
-| Exit |`Alt+F4` or `Ctrl+Q` | &#8984;Q |
+| Exit |`Alt+F4` or `Ctrl+Q` | `⌘Q` |
 | Copy |`Ctrl+C` | &#8984;C |
 | Cut |`Ctrl+X` | &#8984;X |
 | Paste |`Ctrl+V` | &#8984;V |
