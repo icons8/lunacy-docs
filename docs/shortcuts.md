@@ -42,30 +42,30 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Next Tab |`Ctrl+Tab` | `⌃Tab` |
 | Prev Tab |`Ctrl+Shift+Tab` | `⌃Shift+Tab`  |
 | Exit |`Alt+F4` or `Ctrl+Q` | `⌘Q` |
-| Copy |`Ctrl+C` | &#8984;C |
-| Cut |`Ctrl+X` | &#8984;X |
-| Paste |`Ctrl+V` | &#8984;V |
-| Export in PNG to Icons8 Cloud, copy URL to clipboard |`Ctrl+C, C` | &#8997;C,C |
-| Copy Style |`Ctrl+Alt+C` | &#8997;&#8984;C |
-| Paste Style |`Ctrl+Alt+V` | &#8997;&#8984;V |
-| Undo |`Ctrl+Z`  | &#8984;Z |
-| Redo |`Ctrl+Y` or `Ctrl+Shift+Z` | &#8984;Shift+Z |
-| Show Rulers |`Ctrl+R` | &#8963;R |
-| Show Grid |`Ctrl+’` | &#8963;’ |
-| Show Layout Grid |`Ctrl+\` |
-| Show Guidelines |`Ctrl+;` |
+| Copy |`Ctrl+C` | `⌘C` |
+| Cut |`Ctrl+X` | `⌘X` |
+| Paste |`Ctrl+V` | `⌘V` |
+| Export in PNG to Icons8 Cloud, copy URL to clipboard |`Ctrl+C, C` | `⌥C+C` |
+| Copy Style |`Ctrl+Alt+C` | `⌥⌘C` |
+| Paste Style |`Ctrl+Alt+V` | `⌥⌘C` |
+| Undo |`Ctrl+Z`  | `⌘Z` |
+| Redo |`Ctrl+Y` or `Ctrl+Shift+Z` | `⌘+Z` |
+| Show Rulers |`Ctrl+R` | `⌘Z` |
+| Show Grid |`Ctrl+’` | `⌃'` |
+| Show Layout Grid |`Ctrl+\` | `⌃+\` |
+| Show Guidelines |`Ctrl+;` | `⌃+;` |
 | Lock Guidelines |`Ctrl+Alt+;` |
-| Collapse the Objects list |`Ctrl+~` |
-| Switch to Objects |`Alt+1` |
-| Switch to Components |`Alt+2` |
-| Switch to Styles |`Alt+3` |
-| Switch to Icons |`Alt+4` |
-| Switch to Photos |`Alt+5` |
-| Switch to Illustrations |`Alt+6` |
-| Switch to UI Kits |`Alt+7` |
-| Switch to Plugins |`Alt+8` |
-| Switch to Shortcuts |`Shift+F1` |
-| View code |`F4` |
+| Collapse the Objects list |`Ctrl+~` | `⌃+~` |
+| Switch to Objects |`Alt+1` | `⌥1` |
+| Switch to Components |`Alt+2` | `⌥2` |
+| Switch to Styles |`Alt+3` | `⌥3` |
+| Switch to Icons |`Alt+4` | `⌥4` |
+| Switch to Photos |`Alt+5` | `⌥5` |
+| Switch to Illustrations |`Alt+6` | `⌥6` |
+| Switch to UI Kits |`Alt+7` | `⌥7` |
+| Switch to Plugins |`Alt+8` | `⌥8` |
+| Switch to Shortcuts |`Shift+F1` | `Shift+F1` or `⌥+O` | 
+| View code |`F4` | `F4` |
 
 ## Tools
 
@@ -73,6 +73,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Action        | Hotkey(s)     | Mac |
 | ------------- |-------------|---------|
 | Select |`V` and `Esc` for Deselect | `V` |
+| Deselect | `Esc` | `Esc` |
 | Text	|`T` | `T` |
 | Rectangle | `R` | `R` |
 | Rounded Rectangle | `U` |  `U` |
@@ -94,7 +95,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Radio button |`Y` | `Y` |
 | Toggle |`K` | `K` |
 | Drop-down list |`W` | `W` |
-| Draw from center | Hold down `Alt` and drag | Hold down &#8963; and drag |
+| Draw from center | Hold down `Alt` and drag | Hold down `⌥` and drag |
 | Draw preserving aspect ratio | Hold down `Shift` and drag | Hold down `Shift` and drag | 
 
 ## Selecting Objects
@@ -102,58 +103,58 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Select object |`Click` |
-| Select All |`Ctrl+A` |
-| Select All artboards (objects beyond artboards are ignored) |`Shift+Ctrl+A` |
-| Select an object within a group |`Ctrl+Click` |
+| Select object |`Click` | `Click` |
+| Select All |`Ctrl+A` | `⌘A` |
+| Select All artboards (objects beyond artboards are ignored) |`Shift+Ctrl+A` | `⌘Shift+A` |
+| Select an object within a group |`Ctrl+Click` | `⌘Click` |
 
 ## Editing Objects
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Edit Mode |`Enter` or `Double click` |
-| Finish Editing/Deselect all |`Escape` |
-| Delete object |`Backspace` or `Del` |
-| Toggle Mask |`Ctrl+M` |
-| Flip horizontally |`Shift+H` |
-| Flip vertically |`Shift+V` |
-| Union |`Ctrl+Shift+U` |
-| Substract |`Ctrl+Shift+P` |
-| Intersect |`Ctrl+Shift+I` |
-| Difference |`Ctrl+Shift+X` |
-| Align Left |`Alt+A` |
-| Align Right |`Alt+D` |
-| Align Horizontally |`Alt+H` |
-| Align Top |`Alt+W` |
-| Align Bottom |`Alt+S`  |
-| Align Vertically |`Alt+V`|
-| Distribute Horizontally |`Ctrl+Shift+H` |
-| Distribute Vertically |`Ctrl+Shift+V` |
-| Tidy up |`Ctrl+Alt+Shift+T` |
-| Scale objects |`Ctrl+K` |
-| Refresh avatar |`Shift+R` |
-| Outline stroke |`Ctrl+Shift+O` |
+| Edit Mode |`Enter` or `Double click` | `Enter` or `Double click` |
+| Finish Editing/Deselect all |`Escape` | `Escape`|
+| Delete object | `Backspace` or `Del` | `Backspace` or `Del` |
+| Toggle Mask |`Ctrl+M` | `⌘M` |
+| Flip horizontally |`Shift+H` |`Shift+H` |
+| Flip vertically |`Shift+V` | `Shift+V` |
+| Union |`Ctrl+Shift+U` | `⌘⌥U` | `⌘+⌥+P` |
+| Substract |`Ctrl+Shift+P` | `⌘⌥P` |
+| Intersect |`Ctrl+Shift+I` | `⌘⌥I` |
+| Difference |`Ctrl+Shift+X` | `⌘⌥X` |
+| Align Left |`Alt+A` | `⌥A` |
+| Align Right |`Alt+D` | `⌥D` |
+| Align Horizontally |`Alt+H` | `⌥A` |
+| Align Top |`Alt+W` | `⌥W` |
+| Align Bottom |`Alt+S`  | `⌥S` |
+| Align Vertically |`Alt+V`| `⌥V` |
+| Distribute Horizontally |`Ctrl+Shift+H` | `⌃Shift+H` |
+| Distribute Vertically |`Ctrl+Shift+V` | `⌃Shift+V` |
+| Tidy up |`Ctrl+Alt+Shift+T` | `⌃⌥ShiftT` |
+| Scale objects |`Ctrl+K` | `⌃⌥Shift+T` |
+| Refresh avatar |`Shift+R` | `Shift+R` |
+| Outline stroke |`Ctrl+Shift+O` | `⌘⌥O` |
 
 ## Text Editing
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Bold |`Ctrl+B` |
-| Italic  |`Ctrl+I` |
-| Underline  |`Ctrl+U` |
-| Increase Font Size |`Ctrl+Alt +` |
-| Decrease Font Size |`Ctrl+Alt –` |
-| Increase Line Spacing |`Ctrl+Alt+>` |
-| Decrease Line Height |`Ctrl+Alt+<` |
-| Increase Character Spacing |`Ctrl+Shift+>` |
-| Decrease Character Spacing |`Ctrl+Shift+<` |
-| Horizontal Align Left |`Ctrl+Alt+{` |
-| Horizontal Align Center |`Ctrl+Alt+\` |
-| Horizontal Align Right |`Ctrl+Alt+}` |
-| Horizontal Align Justify |`Ctrl+Alt+J` |
-| Refresh generated text |`Shift+R` |
+| Bold |`Ctrl+B` | `⌘B` |
+| Italic  |`Ctrl+I` | `⌘I` |
+| Underline  |`Ctrl+U` | `⌘U` |
+| Increase Font Size |`Ctrl+Alt +` | `⌥⌘+` |
+| Decrease Font Size |`Ctrl+Alt –` | `⌥⌘-` |
+| Increase Line Spacing |`Ctrl+Alt+>` | `⌥⌘>` |
+| Decrease Line Height |`Ctrl+Alt+<` | `⌥⌘<` |
+| Increase Character Spacing |`Ctrl+Shift+>` | `⌘Shift>` |
+| Decrease Character Spacing |`Ctrl+Shift+<` | `⌘Shift<` |
+| Horizontal Align Left |`Ctrl+Alt+{` | `⌥⌘{` |
+| Horizontal Align Center |`Ctrl+Alt+\` | `⌥⌘\`
+| Horizontal Align Right |`Ctrl+Alt+}` | `⌥⌘}` |
+| Horizontal Align Justify |`Ctrl+Alt+J` | `⌥⌘J` |
+| Refresh generated text |`Shift+R` | `Shift+R` |
 
 ## Text Generation Snippets
 
@@ -198,11 +199,12 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Create Component |`Ctrl+Alt+K`  |
-| Edit Component  |`Enter` |
-| Send to Components Page  |`Ctrl+Alt+E`|
-| Detach from Components  |`Ctrl+Alt+D` |
-| Reset instance size  |`Ctrl+Alt+R` |
+| Create Component |`Ctrl+Alt+K`  | `⌥⌘K` |
+| Edit Component  |`Enter` | `Enter` |
+| Send to Components Page  |`Ctrl+Alt+E`| `⌥⌘E` |
+| Detach from Components  |`Ctrl+Alt+D` |  `⌥⌘D` |
+| Reset instance size  |`Ctrl+Alt+R` |  `⌥⌘R` |
+| Create component state | `Ctrl+Alt+S` | `⌥⌘S` |
 
 
 ## Moving and Resizing Objects
@@ -210,53 +212,53 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Distance to objects |`Alt` |
-| Duplicate |Hold down`Alt` and drag or `Ctrl+D` |
-| Move along X/Y axis |Hold down `Shift` and drag |
-| Move by 1px |`Arrow keys` |
-| Move by 10px |`Shift+Arrow keys` |
-| Resize by 1px |`Ctrl+Arrow keys` |
-| Resize by 10px |`Ctrl+Shift+Arrow keys` |
-| Resize from center |`Alt+resize` |
-| Preserve Ratio |`Shift+resize` |
-| Pan around canvas |Hold down `Space` and drag |
-| Disable snapping while dragging objects |Hold down `Ctrl` and drag|
+| Distance to objects |`Alt` | `⌥` |
+| Duplicate |Hold down`Alt` and drag or `Ctrl+D` | Hold down `⌥` and drag or `⌘+D` |
+| Move along X/Y axis |Hold down `Shift` and drag | Hold down `Shift` and drag |
+| Move by 1px |`Arrow keys` | `Arrow keys` |
+| Move by 10px |`Shift+Arrow keys` | `Shift+Arrow keys` | 
+| Resize by 1px |`Ctrl+Arrow keys` | `⌘Arrow Keys` |
+| Resize by 10px |`Ctrl+Shift+Arrow keys` | `⌘Shift+Arrow Keys` |
+| Resize from center |`Alt+resize` | `⌥+resize` |
+| Preserve Ratio |`Shift+resize` | `Shift+resize` |
+| Pan around canvas |Hold down `Space` and drag | Hold down `Space` and drag
+| Disable snapping while dragging objects |Hold down `⌘` and drag|
 
 ## Arranging Objects
 
 
 | Action        | Hotkey(s)     | 
 | ------------- |-------------|
-| Group Selection |`Ctrl+G` |
-| Ungroup Selection |`Ctrl+Shift+G` |
-| Bring Forward |`Ctrl+]` |
-| Bring to Front |`Ctrl+Shift+]` |
-| Send Backward |`Ctrl+[` |
-| Send to Back |`Ctrl+Shift+[` |
-| Show / Hide |`Ctrl+H` |
-| Lock / Unlock |`Ctrl+L` |
+| Group Selection |`Ctrl+G` | `⌘G` |
+| Ungroup Selection |`Ctrl+Shift+G` | `⌘Shift+G` |
+| Bring Forward |`Ctrl+]` | `⌘]` |
+| Bring to Front |`Ctrl+Shift+]` | `⌘Shift+]` |
+| Send Backward |`Ctrl+[` | `⌘[` |
+| Send to Back |`Ctrl+Shift+[` | `⌘Shift+[` |
+| Show / Hide |`Ctrl+H` | `⌘H` |
+| Lock / Unlock |`Ctrl+L` | `⌘L` |
 
 ## Zoom and Focus
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Zoom Tool |`Z` |
-| Zoom |`Ctrl+Mouse Wheel` |
-| Soft zoom |`Ctrl+Shift+Mouse Wheel` |
-| Zoom In |`Ctrl` `+` or just `+` |
-| Zoom Out |`Ctrl` `-` or just `-`|
-| Zoom to 100% |`Ctrl+0` |
-| Zoom to All Elements |`Ctrl+1`|
-| Zoom to Selection |`Ctrl+2` |
-| Fit Width |`Ctrl+3` |
-| Fit Height |`Ctrl+4` |
-| Search |`Ctrl+/` or just `/` |
+| Zoom Tool |`Z` | `Z` |
+| Zoom |`Ctrl+Mouse Wheel` | `⌘+Mouse Wheel` |
+| Soft zoom |`Ctrl+Shift+Mouse Wheel` | `⌘Shift+Mouse Wheel` |
+| Zoom In |`Ctrl` `+` or just `+` | `⌘+` or just `+` |
+| Zoom Out |`Ctrl` `-` or just `-`| `⌘-` or just `-` |
+| Zoom to 100% |`Ctrl+0` | `⌘0` |
+| Zoom to All Elements |`Ctrl+1`| `⌘1` |
+| Zoom to Selection |`Ctrl+2` | `⌘2` |
+| Fit Width |`Ctrl+3` | `⌘3` |
+| Fit Height |`Ctrl+4` | `⌘4` |
+| Search |`Ctrl+/` or just `/` | `⌘/` or just `/` |
 
 ## Plugins
 
 
 | Action        | Hotkey(s)     |
 | ------------- |-------------|
-| Run script |`Ctl+Shift+K` |
-| Run script again |`Ctl+Shift+R` |
+| Run script |`Ctl+Shift+K` | `⌘Shift+K` |
+| Run script again |`Ctl+Shift+R` | `⌘Shift+R` |
