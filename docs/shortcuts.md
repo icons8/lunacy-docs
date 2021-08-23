@@ -201,7 +201,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | ------------- |-------------|-------------|
 | Create Component |`Ctrl+Alt+K`  | `⌥⌘K` |
 | Edit Component  |`Enter` | `Enter` |
-| Send to Components Page  |`Ctrl+Alt+E`| `⌥⌘E` |
+| Send to Components Page  |`Ctrl+Alt+M`| `⌥⌘M` |
+| Go to Main Component  |`Ctrl+Alt+E`| `⌥⌘E` |
 | Detach from Components  |`Ctrl+Alt+D` |  `⌥⌘D` |
 | Reset instance size  |`Ctrl+Alt+R` |  `⌥⌘R` |
 | Create component state | `Ctrl+Alt+S` | `⌥⌘S` |
