@@ -30,7 +30,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## General Shortcuts
 
 
-| Action        | Windows     | Mac |
+| Action        | Windows, Linux     | Mac |
 | ------------- |-------------|------------|
 | Open |`Ctrl+O` | `⌘O` |
 | New |`Ctrl+N` | `⌘N` |
@@ -70,7 +70,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Tools
 
 
-| Action        | Windows     | Mac |
+| Action        | Windows, Linux     | Mac |
 | ------------- |-------------|---------|
 | Select |`V` | `V` |
 | Deselect | `Esc` | `Esc` |
@@ -101,7 +101,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Selecting Objects
 
 
-| Action        | Windows     | Mac |
+| Action        | Windows, Linux     | Mac |
 | ------------- |-------------|----------|
 | Select object |`Click` | `Click` |
 | Select All |`Ctrl+A` | `⌘A` |
@@ -111,7 +111,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Editing Objects
 
 
-| Action        | Windows     | Mac |
+| Action        | Windows, Linux   | Mac |
 | ------------- |-------------|--------------|
 | Edit Mode |`Enter` or `Double click` | `Enter` or `Double click` |
 | Finish Editing/Deselect all |`Escape` | `Escape`|
@@ -139,7 +139,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Text Editing
 
 
-| Action        | Windows     | Mac |
+| Action        | Windows, Linux     | Mac |
 | ------------- |-------------|---------|
 | Bold |`Ctrl+B` | `⌘B` |
 | Italic  |`Ctrl+I` | `⌘I` |
@@ -197,7 +197,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Operations with Components
 
 
-| Action        | Windows     | Mac |
+| Action        | Windows, Linux   | Mac |
 | ------------- |-------------|-------------|
 | Create Component |`Ctrl+Alt+K`  | `⌥⌘K` |
 | Edit Component  |`Enter` | `Enter` |
@@ -211,7 +211,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Moving and Resizing Objects
 
 
-| Action        | Windows     | Mac |
+| Action        | Windows, Linux    | Mac |
 | ------------- |-------------|-----------|
 | Distance to objects |`Alt` | `⌥` |
 | Duplicate |Hold down`Alt` and drag or `Ctrl+D` | Hold down `⌥` and drag or `⌘+D` |
@@ -228,7 +228,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Arranging Objects
 
 
-| Action        | Windows     | Mac |
+| Action        | Windows, Linux    | Mac |
 | ------------- |-------------|------------------|
 | Group Selection |`Ctrl+G` | `⌘G` |
 | Ungroup Selection |`Ctrl+Shift+G` | `⌘Shift+G` |
@@ -242,7 +242,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## Zoom and Focus
 
 
-| Action        | Windows     | Mac |
+| Action        | Windows, Linux   | Mac |
 | ------------- |-------------|--------------|
 | Zoom Tool |`Z` | `Z` |
 | Zoom |`Ctrl+Mouse Wheel` | `⌘+Mouse Wheel` |
@@ -256,10 +256,14 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Fit Height |`Ctrl+4` | `⌘4` |
 | Search |`Ctrl+/` or just `/` | `⌘/` or just `/` |
 
+
+<!--
 ## Plugins
 
 
-| Action        | Windows     | Mac |
+| Action        | Windows, Linux   | Mac |
 | ------------- |-------------|-----------|
 | Run script |`Ctl+Shift+K` | `⌘Shift+K` |
 | Run script again |`Ctl+Shift+R` | `⌘Shift+R` |
+
+-->
