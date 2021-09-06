@@ -49,9 +49,8 @@ Download:
 * <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">AppStore</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
 * [Ubuntu installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
 
-### Lunacy is now cross-platform!
-
 ![Supported platforms](/public/maclinuxwin.png)
+### Lunacy is now cross-platform!
 
 
 Finally, we can answer *YES!* to all those hundreds of questions about Lunacy for Mac and Linux. Now Lunacy runs on all major desktop platforms:
