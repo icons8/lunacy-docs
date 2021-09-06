@@ -44,18 +44,12 @@ page_nav:
 Download:
 
 
-<!--
-* [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) | [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
-* [AppStore](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) | [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
-* [Ubuntu installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
-
--->
 
 * <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
 * <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">AppStore</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
 * [Ubuntu installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
 
-### Lunacy is now CROSS-PLATFORM!!!
+### Lunacy is now cross-platform!
 
 ![Supported platforms](/public/maclinuxwin.png)
 
