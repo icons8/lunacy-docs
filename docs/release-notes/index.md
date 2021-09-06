@@ -34,6 +34,46 @@ page_nav:
 
 ---
 
+
+# Version 8
+
+## 8.0
+
+*Release date: September XX, 2021*
+
+Download:
+
+
+<!--
+* [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) | [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
+* [AppStore](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) | [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
+* [Ubuntu installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
+
+-->
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> | [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">AppStore</a> | [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
+* [Ubuntu installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
+
+### Lunacy is now CROSS-PLATFORM!!!
+
+![Supported platforms](/public/maclinuxwin.png)
+
+
+Finally, we can answer *YES!* to all those hundreds of questions about Lunacy for Mac and Linux. Now Lunacy runs on all major desktop platforms:
+
+* Windows
+* macOS
+* Linux
+
+It means that even more people can install Lunacy and create awesome designs, share their ideas and collaborate in real-time.
+### Notes
+
+* We temporarily removed the support for external plugins.  That was a trade-off we had to make in order to release Mac and Linux versions. We're planning to restore the feature in one of the upcoming releases.
+* We removed suggestions panels. We need to re-think this feature. A new, revamped version will appear soon.
+* And one more thing. If you'd like to have Lunacy on iPad, vote for it <a href="https://lunatics.icons8.com/discussion/204/lunacy-for-ipad#latest" target="_blank">here</a>.
+
+
 # Version 7
 
 ## 7.1
