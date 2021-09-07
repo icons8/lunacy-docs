@@ -34,7 +34,7 @@ page_nav:
 
 ---
 
-
+<!-- НЕ ЗАБЫТЬ ПОМЕНЯТЬ ДАТУ, ССЫЛКИ НА СТОРЫ И ИНСТОЛЛЕРЫ
 # Version 8
 
 ## 8.0
@@ -62,9 +62,11 @@ Finally, we can answer *YES!* to all those hundreds of questions about Lunacy fo
 It means that even more people can install Lunacy and create awesome designs, share their ideas and collaborate in real-time.
 ### Notes
 
-* We temporarily removed the support for external plugins.  That was a trade-off we had to make in order to release Mac and Linux versions. We're planning to restore the feature in one of the upcoming releases.
+* We temporarily removed the support for external plugins.  That was a trade-off we had to make in order to release the Mac and Linux versions. We're planning to restore the feature in one of the upcoming releases.
 * We removed suggestions panels. We need to re-think this feature. A new, revamped version will appear soon.
 * And one more thing. If you'd like to have Lunacy on iPad, vote for it <a href="https://lunatics.icons8.com/discussion/204/lunacy-for-ipad#latest" target="_blank">here</a>.
+
+-->
 
 
 # Version 7
