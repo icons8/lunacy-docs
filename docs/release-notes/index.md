@@ -35,6 +35,10 @@ page_nav:
 ---
 
 <!-- НЕ ЗАБЫТЬ ПОМЕНЯТЬ ДАТУ, ССЫЛКИ НА СТОРЫ И ИНСТОЛЛЕРЫ
+
+!!!! - в разделе micro navigation (скролль выше) - в самый верх добавить две строчки для восьмой версии title и url
+
+
 # Version 8
 
 ## 8.0
@@ -47,7 +51,7 @@ Download:
 
 * <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
 * <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">AppStore</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
-* [Ubuntu installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
+* [Linux installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
 
 ![Supported platforms](/public/maclinuxwin.png)
 ### Lunacy is now cross-platform!
@@ -64,6 +68,7 @@ It means that even more people can install Lunacy and create awesome designs, sh
 
 * We temporarily removed the support for external plugins.  That was a trade-off we had to make in order to release the Mac and Linux versions. We're planning to restore the feature in one of the upcoming releases.
 * We removed suggestions panels. We need to re-think this feature. A new, revamped version will appear soon.
+* There is a known issue with the display of some fonts. We're doing our best to fix it. Workaround: use [v.6.9](https://lun-eu.icons8.com/s/setup/LunacySetup_6.9.0.exe).
 * And one more thing. If you'd like to have Lunacy on iPad, vote for it <a href="https://lunatics.icons8.com/discussion/204/lunacy-for-ipad#latest" target="_blank">here</a>.
 
 -->
