@@ -49,12 +49,12 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Copy Style |`Ctrl+Alt+C` | `⌥ ⌘ C` |
 | Paste Style |`Ctrl+Alt+V` | `⌥ ⌘ C` |
 | Undo |`Ctrl+Z`  | `⌘ Z` |
-| Redo |`Ctrl+Y` or `Ctrl+Shift+Z` | `⌘ Z` |
-| Show Rulers |`Ctrl+R` | `⌘ Z` |
+| Redo |`Ctrl+Y` or `Ctrl+Shift+Z` | `⌘ Shift Z` |
+| Show Rulers |`Ctrl+R` | `⌘ R` |
 | Show Grid |`Ctrl+’` | `⌃ '` |
 | Show Layout Grid |`Ctrl+\` | `⌃ \` |
 | Show Guidelines |`Ctrl+;` | `⌃ ;` |
-| Lock Guidelines |`Ctrl+Alt+;` |
+| Lock Guidelines |`Ctrl+Alt+;` | `⌥ ⌘` |
 | Collapse the Objects list |`Ctrl+~` | `⌃ ~` |
 | Switch to Objects |`Alt+1` | `⌥ 1` |
 | Switch to Components |`Alt+2` | `⌥ 2` |
@@ -134,7 +134,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Tidy up |`Ctrl+Alt+Shift+T` | `⌃ ⌥ Shift T` |
 | Scale objects |`Ctrl+K` | `⌘ K` |
 | Refresh avatar |`Shift+R` | `Shift R` |
-| Outline stroke |`Ctrl+Shift+O` | `⌘ ⌥ O` |
+| Outline stroke |`Ctrl+Shift+O` | `⌘ Shift O` |
 
 ## Text Editing
 
