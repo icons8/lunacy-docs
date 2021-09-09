@@ -31,7 +31,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 
 | Action        | Windows, Linux     | Mac |
-| ------------- |-------------|------------|
+| ------------- |-------------|---------------|
 | Open |`Ctrl+O` | `⌘ O` |
 | New |`Ctrl+N` | `⌘ N` |
 | Save |`Ctrl+S` | `⌘ S` |
@@ -64,7 +64,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Switch to Illustrations |`Alt+6` | `⌥ 6` |
 | Switch to UI Kits |`Alt+7` | `⌥ 7` |
 | Switch to Plugins |`Alt+8` | `⌥ 8` |
-| Switch to Shortcuts |`Shift+F1` |`Shift F1` or `⌥ O` | 
+| Switch to Shortcuts |`Shift+F1` |`Shift F1` or `⌥ O` |
 | View code |`F4` | `F4` |
 
 ## Tools
@@ -102,10 +102,10 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 
 | Action        | Windows, Linux     | Mac |
-| ------------- |-------------|----------|
+| ------------- |-------------|--------------|
 | Select object |`Click` | `Click` |
 | Select All |`Ctrl+A` | `⌘ A` |
-| Select All artboards (objects beyond artboards are ignored) |`Shift+Ctrl+A` |`⌘ Shift A` |
+| Select All artboards (objects beyond artboards are ignored) |`Shift+Ctrl+A` |`⌘ Shift A`|
 | Select an object within a group |`Ctrl+Click` | `⌘ Click` |
 
 ## Editing Objects
