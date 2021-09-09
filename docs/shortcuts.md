@@ -235,8 +235,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Bring Forward |`Ctrl+]` | `⌘ ]` |
 | Send Backward |`Ctrl+[` | `⌘ [` |
 | Send to Back |`Ctrl+Shift+[` | `⌘ Shift [` |
-| Show / Hide |`Ctrl+H` | `⌘ H` |
-| Lock / Unlock |`Ctrl+L` | `⌘ L` |
+| Show / Hide |`Ctrl+H` | `⌘ Shift H` |
+| Lock / Unlock |`Ctrl+L` | `⌘ Shift L` |
 
 ## Zoom and Focus
 
