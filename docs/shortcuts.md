@@ -51,8 +51,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Undo |`Ctrl+Z`  | `⌘ Z` |
 | Redo |`Ctrl+Y` or `Ctrl+Shift+Z` | `⌘ Shift Z` |
 | Show Rulers |`Ctrl+R` | `⌘ R` |
-| Show Grid |`Ctrl+’` | `⌃ '` |
-| Show Layout Grid |`Ctrl+\` | `⌃ \` |
+| Show Grid |`Ctrl+’` | `⌘ '` |
+| Show Layout Grid |`Ctrl+\` | `⌃ G` |
 | Show Guidelines |`Ctrl+;` | `⌃ ;` |
 | Lock Guidelines |`Ctrl+Alt+;` | `⌥ ⌘` |
 | Collapse the Objects list |`Ctrl+~` | `⌃ ~` |
@@ -151,7 +151,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Increase Character Spacing |`Ctrl+Shift+>` | `⌘ Shift >` |
 | Decrease Character Spacing |`Ctrl+Shift+<` | `⌘ Shift <` |
 | Horizontal Align Left |`Ctrl+Alt+{` | `⌥ ⌘ {` |
-| Horizontal Align Center |`Ctrl+Alt+\` | `⌥ ⌘ \`
+| Horizontal Align Center |`Ctrl+Alt+T` | `⌥ ⌘ T`
 | Horizontal Align Right |`Ctrl+Alt+}` | `⌥ ⌘ }` |
 | Horizontal Align Justify |`Ctrl+Alt+J` | `⌥ ⌘ J` |
 | Refresh generated text |`Shift+R` | `Shift R` |
