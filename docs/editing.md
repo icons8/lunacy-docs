@@ -142,7 +142,7 @@ You can select individual shapes within the group through the **Objects** panel 
 
 <!--
 
-**Tip:** There is no special button or menu option to disassemble a Boolean group. But you can do it by dragging shapes out of the group in the **Objects** panel.
+**Tip:** There is no special button or menu option to disassemble a Boolean group. But you can do it by dragging shapes out of the group in the **Objects** panel.  
 
 -->
 
