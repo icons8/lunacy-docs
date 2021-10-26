@@ -29,7 +29,7 @@ The Lunacy interface is intuitive and minimal. It contains only essential contro
 
 -->
 
-![Lunacy interface](public/interface-genview65.png)
+![Lunacy interface](public/interface80.png)
 
 The interface consists of the following main elements.
 
@@ -48,14 +48,16 @@ The interface consists of the following main elements.
 
     ![Lunacy interface](public/interface-shrinkcontenttabs.png)
 
-2. The left panel. Displays the content of the selected tab (1). You can temporarily hide the panel by clicking the current tab, using respective shortcuts (`Alt+1`...`Alt+8`, `Shift+F1`) or through the menu (**View** > **Left Panel**).
+2. The left panel. Displays the content of the selected tab (1). You can temporarily hide the panel by clicking the current tab, using respective shortcuts (`Alt+1`(`⌥ 1`)...`Alt+8`(`⌥ 8`), `Shift+F1`) or through the menu (**View** > **Left Panel**).
 
 3. The **toolbar**. Features all the primary Lunacy tools. For details about tools, click <a href="https://docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer shortcuts you can toggle off the display of the toolbar through the menu (**View** > **Toolbar**).
 4. The **canvas**. That is your working area. For details, read [below](#the-canvas).
 5. The **Inspector** panel. Lets you see and adjust the properties of the selected object. The view of the Properties Inspector varies with the type of the selected object. For details, read [below](#the-inspector).
-6. The **menu bar**. Holds the options and commands related to files, objects, editing, etc.
+6. The **menu bar**. Holds the options and commands related to files, objects, editing, etc. Also, it features the **Home** button that opens the **Home** tab.
 7. The **context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected object. Hover the cursor over a tool icon to see a pop-up explaining what the tool does.
-8. The **action bar**. Features a set of buttons related mostly to display options described in the table below. To see the full set of buttons click ![Action bar button](public/interface-openactionbar.png).
+8. The **file tabs panel**. Shows the tabs of currently open files. To switch between the files, just click the respective tab.
+9. The **Play** button. Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://docs.icons8.com/prototyping" target="_blank">here</a>.
+10. This button opens a menu with options related mostly to display options described in the table below. To see the full set of buttons click ![Action bar button](public/interface-openactionbar.png).
     
     <table>
     <thead>
@@ -109,9 +111,10 @@ The interface consists of the following main elements.
     </tbody>
     </table>
 
-9. The **file tabs panel**. Shows the tabs of currently open files. To switch between the files, just click the respective tab.
-10. The **zoom control**. For details, read [below](#zooming-options).
-11. The **Play** button. Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://docs.icons8.com/prototyping" target="_blank">here</a>.
+
+11. The **zoom control**. For details, read [below](#zooming-options).
+12. The **Dark mode** button. Use it to switch between the light and dark themes.
+
 
 ## Document pages
 
