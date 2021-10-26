@@ -32,7 +32,7 @@ Text is one of the key aspects of almost every design project. This section desc
 
 The figure below shows the location of text-related controls in the Lunacy interface.
 
-![Text-related](public/text-controlsall69.png)
+![Text-related](/public/text-controlsall69.png)
 
 1. The **Text** section. Appears in the Inspector when a text layer is selected. Features all the settings that you might need when working with text. For details, click [here](#text-settings).
 2. The **Text** menu. Includes all the settings available in the **Text** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu. For details about converting text to outlines, click [here](#converting-text-to-vector-shapes).
