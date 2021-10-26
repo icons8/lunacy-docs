@@ -18,8 +18,8 @@ page_nav:
         content: FAQ and Contacts
         url: '/support'
     prev:
-        content: Plugins
-        url: '/plugins'
+        content: Shortcuts
+        url: '/shortcuts'
 ---
 
 We have a great team of Lunacy enthusiasts helping us with localization of the app interface. Big thanks to them for helping other users who are not comfortable with English. If you also wish to contribute to localization of Lunacy to your language, join us at [Crowdin](https://crowdin.com/project/lunacy), a platform for collaborative translation.

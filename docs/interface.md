@@ -15,8 +15,8 @@ page_nav:
         content: Tools
         url: '/tools'
     prev:
-        content: About
-        url: '/about'
+        content: System requirements
+        url: '/sysreq'
 ---
 
 ## Overview
@@ -62,11 +62,6 @@ The interface consists of the following main elements.
         </tr>
     </thead>
     <tbody>
-        <tr>
-        <td><img src="/public/interface_suggbulbicon.png" alt="Show/Hide suggestions"></td>
-        <td> The <b>Show/Hide suggestions</b> button. Controls the display of the suggestions panel. For details, read <a href="https://docs.icons8.com/styling/#suggestions-panel">here</a> and <a href="https://docs.icons8.com/text/#suggestions-panel">here</a>.</td>
-        <td><code>Ctrl + Space</code></td>
-        </tr>
         <tr>
         <td><img src="/public/interface-rulerbtn.png" alt="Show/Hide rulers button"></td>
         <td> The <b>Show/Hide rulers</b> button. Controls the display of rulers. For details, read <a href="https://docs.icons8.com/interface/#rulers-and-guides">below</a>.</td>

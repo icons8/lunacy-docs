@@ -24,6 +24,16 @@ page_nav:
 
 ## FAQ
 
+### Where are the plugins?
+
+We removed the support for external plugins in version 8. That was a trade-off we had to make in order to release Mac and Linux versions. We're planning to restore the feature in one of the upcoming releases.
+
+### Where is the suggestions panels?
+
+We decided to revamp the suggestions panel. The new version will appear in one of the upcoming releases.
+
+
+<!--
 ### What about a Linux version?
 
 We receive many requests about Lunacy for Linux, but the thing is that Lunacy was created as an editor of .sketch files for Windows, so creating something for Linux is not a priority for us, as we would have to basically start from scratch and rewrite the whole interface to make that happen.
@@ -33,6 +43,8 @@ If you wish to contribute, you can join <a href="https://lunatics.icons8.com/dis
 ### What about a Mac version?
 
 Lunacy was created as an editor of .sketch files for Windows and keeps heading this way, so we don't have plans for the Mac version within the foreseeable future. You can try Sketch instead or leave your suggestion <a href="https://lunatics.icons8.com/discussion/69/version-for-mac#latest" target="_blank">here</a>.
+
+-->
 
 ### Is it really free?
 
@@ -55,12 +67,17 @@ You can:
 
 If you are not going to use the content of our <a href="https://docs.icons8.com/libraries" target="_blank">Libraries</a>, Lunacy doesn’t need to be connected to the internet.
 
+Also, without an internet connection you won't be able with cloud-based files. But you can work with local files that you keep on your computer.
+
 ### The content of Lunacy libraries is not loading. Why?
 
 If you are sure that your internet connection is OK, contact us via the feedback form (in Lunacy, go to **Help > Report a problem**).
 
 ### How can I be sure that I won't lose my work if Lunacy crashes?
 
+We understand how painful and frustrating it can be when you suddenly lose your unsaved progress due to a power outage, application crash, or things like that. That is why Lunacy features a mechanism that saves all your actions with local files. You don't even need to save them before closing: in such a case, Lunacy will even remember all undo/redo operations. If Lunacy suddenly crashes, it will re-open the file right where you stopped.
+
+<!--
 We understand how painful and frustrating it can be when you suddenly lose your unsaved progress due to a power outage, application crash or things like that. That is why Lunacy features the Shadow Copy mechanism that keeps track of all changes in your projects and silently saves them to temporary files.
 
 Shadow copies of files that you have never saved appear in the folder of Lunacy temporary files*. When you save a file, the shadow copy of the file moves to the folder where the main file sits. Temporary files are hidden system files and to see them in a folder you should enable the display of such files in the Windows Explorer.
@@ -69,6 +86,8 @@ To prevent corruption of the main file, Lunacy first saves changes to the tempor
 
 {:.image-info}
 \* C:\Users\YourUsername\AppData\Local\Icons8\Lunacy\NewProjects
+
+-->
 
 ### How can I downgrade Lunacy to one of the previous versions?
 
@@ -144,6 +163,8 @@ If this helps, report the problem to the manufacturers of your video card and mo
 
 Contact us via the feedback form (in Lunacy, go to **Help > Report a problem**) and provide the details of the problem for us to reproduce it. If a problem manifests itself only with a specific file, please attach the file to the report. Don't worry about the content of the file, we will delete it after investigation.
 
+<!--
+
 ### What is .Net Core?
 
 .Net Core is a software framework developed by Microsoft. It is required for normal operation of Lunacy starting from version 6.0. 
@@ -155,6 +176,8 @@ To install .Net Core:
 1. If you are running a 64-bit version of Windows, click <a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x64-installer" target="_blank">here</a>. If you are on a 32-bit machine, follow <a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x86-installer" target="_blank">this</a> link.
 2. Download the installer.
 3. Run the installer.
+
+-->
 
 ### Why does my antivirus flag Lunacy as suspicious?
 
@@ -170,8 +193,9 @@ After that, add the Lunacy installer and/or the application itself to the except
 
 Make sure that:
 
-* You have installed all the latest Windows updates and that you are not using an <a href="https://support.microsoft.com/en-us/help/10584/windows-10-stop-receiving-insider-builds" target="_blank">insider build</a>.
+* You have installed all the latest Windows updates and that you are not using an <a href="https://support.microsoft.com/en-us/help/10584/windows-10-stop-receiving-insider-builds" target="_blank">insider build</a>. Lunacy is intended to run on Windows 10 and 11. You can try to run it on Windows 7 and 8, but we do not not guarantee smooth operation of the app on these versions.
 
+<!--
 * You have the following components installed:
 
     * Microsoft Visual C++ 2015 (click <a href="https://www.microsoft.com/en-US/download/details.aspx?id=48145" target="_blank">here</a> to download)
@@ -179,24 +203,13 @@ Make sure that:
     * Microsoft .Net Core 3.10+ (<a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x64-installer" target="_blank">64-bit version</a>, <a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x86-installer" target="_blank">32-bit version</a>)
 
     For this, check up the list of installed programs (in Windows, go to **Settings > Apps and Features**, see the figure below).
+-->
 
 * You are using the latest stable version of the driver for your video card.
 * Your user account has enough rights to run applications. Try to run Lunacy as administrator.
 * Your antivirus is not blocking Lunacy. Disable virus protection and try to launch Lunacy.
 
 ![Installed programs](public/fag-installedsw.png)
-
-### I can't log into Sketch Cloud through Lunacy. Why?
-
-* If you are signing in with Sketch Cloud for the first time, make sure that the length of your username and/or password does not exceed 60 characters.
-* Try to log into Sketch Cloud through its <a href="https://www.sketch.com/signin" target="_blank">website</a>. If these attempts also fail, then the problem is with Sketch Cloud. Wait until the service is restored.
-* Make sure that you are not using proxy for internet connection. The Sketch Cloud API won't work through proxy.
-* Make sure that Lunacy connection to the Sketch Cloud API is not blocked by adding exceptions to the Windows firewall, your antivirus and router.
-
-If the problem persists, contact us via the feedback form (in Lunacy, go to **Help > Report a problem**).
-
-
-
 
 
 <!--
@@ -211,9 +224,8 @@ Short answer: Not at the moment, not all of it.
 
 Long answer: Certainly, that would speed up the development. On the other hand, it will slow it down too. Sometimes, a small team can advance more than a big community, especially in the beginning. We may reconsider it in the future.
 
-If you are willing to contribute, you may want to create the interface for Linux. Check out <a href="https://lunatics.icons8.com/discussion/8/linux-version#latest" target="_blank">this thread</a>.
-
 <!--
+If you are willing to contribute, you may want to create the interface for Linux. Check out <a href="https://lunatics.icons8.com/discussion/8/linux-version#latest" target="_blank">this thread</a>.
 
 ### How do I scroll around the workspace?
 

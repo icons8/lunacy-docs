@@ -4,6 +4,8 @@ doks:
     micro_nav:
     - title: About Lunacy
       url: '/about'
+    - title: System requirements
+      url: '/sysreq'
     - title: Interface
       url: '/interface'
     - title: Tools
@@ -33,8 +35,6 @@ doks:
       url: '/tips'
     - title: 'Shortcuts'
       url: '/shortcuts'
-    - title: 'Plugins'
-      url: '/plugins'
     - title: 'Localization'
       url: '/localization'
     - title: 'FAQ and Сontacts'

@@ -214,12 +214,3 @@ To quickly invert a gradient use the button next to the gradient bar on the Colo
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-hideuiph.png" height="auto"><source src="/public/tips-hideui.mp4" type="video/mp4"></video>
 
-## Changing the position and disabling the suggestions panel
-
-To change the position of the suggestions panel, click the handle at the top-left corner of the panel and drag it up or down. Lunacy remembers the position of the panel individually for each object.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/sugg-positionph.png" height="auto"><source src="/public/sugg-position.mp4" type="video/mp4"></video>
-
-To disable the suggestions panel, unselect the **Suggestions** option in the **View** menu.
-
-![Context menu](public/sugg-disable.png)

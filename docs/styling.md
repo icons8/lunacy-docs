@@ -311,6 +311,8 @@ When you apply an override, the reset button appears in the **Tint** section of 
 For details about overrides, read <a href="https://docs.icons8.com/components/#overrides" target="_blank">here</a>.
 
 
+<!--
+
 ## Suggestions panel
 
 The suggestions panel appears when you select a shape or an open path. It displays suggestions of styling options based on your previous actions and choices. In case you've just started using Lunacy, the panel will provide some preset styles.
@@ -363,3 +365,5 @@ To disable the suggestions panel, use the `Ctrl+Space` shortcut or click the bul
 Also, you can unselect the **Suggestions** option in the **View** menu.
 
 ![Disabling the suggestions panel](public/sugg-disable.png)
+
+-->

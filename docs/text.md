@@ -32,14 +32,14 @@ Text is one of the key aspects of almost every design project. This section desc
 
 The figure below shows the location of text-related controls in the Lunacy interface.
 
-![Text-related](public/text-controlsall.png)
+![Text-related](public/text-controlsall69.png)
 
-1. The **Typography** section. Appears in the Inspector when a text layer is selected. Features all the settings that you might need when working with text. For details, click [here](#typography-settings).
-2. The **Text** menu. Includes all the settings available in the **Typography** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu. For details about converting text to outlines, click [here](#converting-text-to-vector-shapes).
+1. The **Text** section. Appears in the Inspector when a text layer is selected. Features all the settings that you might need when working with text. For details, click [here](#text-settings).
+2. The **Text** menu. Includes all the settings available in the **Text** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu. For details about converting text to outlines, click [here](#converting-text-to-vector-shapes).
 3. The **Edit object** button. The button appears when you select a text layer. Click this button to start editing the text. Alternatively, just press `Enter`.
 4. In the **Appearance** section you deal with <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable text styles</a>.
-5. The **Generate text** button. A click over the button generates a random text.
-6. Another instance of the **Generate text** button. A click over the down arrowhead next to the button invokes the menu with text generation options. For details, click [here](#text-generation-and-text-snippets).
+5. The **Generate text** button. A click over the button generates a random text. A click over the down arrowhead next to the button invokes the menu with text generation options. For details, click [here](#text-generation-and-text-snippets).
+6. The **Advanced options** button. Opens a panel with such text options as letter case, numbered and bulleted lists, etc. For details, click [here](#advanced-text-options).
 
 ## Adding text layers
 
@@ -47,20 +47,20 @@ There are two ways of adding text layers.
 
 **Way 1. Click and type**
 
-1. Select the Text tool from the Shapes and Objects toolbar (or press `T` as a shortcut). The pointer changes to the Text Input tool icon.
+1. Select the Text tool on the toolbar (or press `T`). The pointer changes to the Text Input icon.
 2. Click anywhere on the canvas to insert your text layer. Once you click, a new text layer with the *Type something* placeholder appears.
 3. Start typing to replace the placeholder with the text of your own.
 4. Press `Esc` to exit the edit mode.
 
 Lunacy applies [horizontal resize](#text-block-resize-options) to the text added this way.
 
-![Adding text](public/text-add1.gif)
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-addtext69ph.png" height="auto"><source src="/public/text-addtext69.mp4" type="video/mp4"></video>
 
 **Way 2. Click and drag**
 
-1. Select the Text tool from the Shapes and Objects toolbar (or press `T`as a shortcut). The pointer changes to the Text Input tool icon.
+1. Select the Text tool on the toolbar (or press `T`). The pointer changes to the Text Input icon.
 2. Click on the canvas and hold down the mouse button.
-3. Drag to create a text object of the required size. Lunacy will add a random text to fit the size of the object. If the auto-text exceeds the block size, you can delete the excess or leave it as is. It won't be visible unless the text block is in the edit mode.
+3. Drag to create a text layer of the required size. Lunacy will add a random text to fit the size of the object. If the auto-text exceeds the block size, you can delete the excess or leave it as is. It won't be visible unless the text block is in the edit mode.
 4. Press `Esc` to exit the edit mode. Also, you can use the `Shift + R` shortcut to refresh the auto-generated text.
 
 ## Adding text to shapes
@@ -73,7 +73,7 @@ In Lunacy, when you need to add a text to a shape, you can do it in three simple
 
 As you do it, Lunacy automatically creates a group object with the shape and text layers. This small feature can be of great use when it comes to design of such UI elements as buttons, menus and things alike.
 
-![Adding text to shapes](public/text-addtoshape.gif)
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-toshapeph.png" height="auto"><source src="/public/text-toshape.mp4" type="video/mp4"></video>
 
 ## Editing text
 
@@ -84,32 +84,35 @@ To edit a text:
 3. Enter a new text or edit the existing one.
 4. When done, press `Esc` to exit the edit mode.
 
-When editing typography settings you don't need to select a word or the whole text to make it bold, italicized or whatever. Just set the caret inside a word or at the end of the text and apply the required setting. In the latter case, the setting will be applied to the whole text.
+When editing text settings you don't need to select a word or the whole text to make it bold, italicized or whatever. Just set the caret inside a word or at the end of the text and apply the required setting. In the latter case, the setting will be applied to the whole text.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-edittipph.png" height="auto"><source src="/public/text-edittip.mp4" type="video/mp4"></video>
 
-See also the [Typography settings](#typography-settings) and [Suggestions panel](#suggestions-panel) sections below.
+See also the [Text settings](#text-settings) section below.
 
-## [Typography settings](#typography-settings)
+## [Text settings](#text-settings)
 
-When you select a text layer, the **Typography** section appears in the Inspector. The section features the basic typography settings. Also, you can click the settings button at the top left corner of the section to access advanced settings (see the figure below).
+When you select a text layer, the **Text** section appears in the Inspector. The section features the basic text settings. Also, you can click the settings button at the top left corner of the section to access advanced settings (see the figure below).
 
-Typography settings include:
+Text settings include:
 
 1. Font family
 2. Font weight
-3. Font color picker
-4. Font size picker
-5. Text alignment options
-6. Line, letter and spacing options
-7. Text block resize options
-8. Position alignment options
-9. Letter case options
-10. Underline and strikethrough options
-11. List type options
-12. Superscript and subscript options
+3. Font size picker  
+4. Line spacing
+5. Letter spacing
+6. Font color picker
+7. Paragraph spacing
+8. Text generation options
+9. Text block resize options
+10. Text alignment options
+11. Text position options
+12. Letter case options
+13. Underline and strikethrough options
+14. List type options
+15. Superscript and subscript options
 
-![Typography controls](public/text-controls2.png)
+![Text controls](public/text-controls2-69.png)
 
 For details about each group of settings, read the sections below.
 
@@ -259,11 +262,11 @@ You can also align text within text boxes using the alignment magnets that appea
 
 To disable the display of magnets, go to the **View** menu and uncheck the **Text Alignment Magnets** option.
 
-### Advanced typography options
+### [Advanced text options](#advanced-text-options)
 
-To open the panel of advanced typography options, click the settings button at the top left corner of the **Typography** section.
+To open the panel of advanced text options, click the settings button at the top left corner of the **Text** section.
 
-![Advanced typography options](public/text-advtyp.png).
+![Advanced text options](public/text-advtyp.png).
 
 The panel features the following:
 
@@ -279,7 +282,7 @@ The panel features the following:
 
 ## Common layer effects
 
-In addition to typography settings, you can also apply common, non-text, styling effects to text layers which include:
+In addition to text settings, you can also apply common, non-text, styling effects to text layers which include:
 
 * Fills
 * Borders
@@ -287,18 +290,19 @@ In addition to typography settings, you can also apply common, non-text, styling
 * Inner shadows
 * Blurs
 
-All these settings appear in the Inspector, below the **Typography** section.
+All these settings appear in the Inspector, below the **Text** section.
 
 ![Common layer settings](public/text-allsettings.png).
 
-Combinations of layer styling effects and typography settings make up text styles. You can save text styles to the document assets and <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reuse</a> them across your project. Also,you can find your recent text styles on the floating panel (see below).
+Combinations of layer styling effects and text settings make up text styles. You can save text styles to the document assets and <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reuse</a> them across your project. Also,you can find your recent text styles on the floating panel (see below).
 
->**Note:** When you edit a text whose style includes both typography and common layer settings, Lunacy hides layer styling effects and shows them back once you exit the edit mode. This is for the ease of editing heavily styled texts (see the gif below).
+>**Note:** When you edit a text whose style includes both text and common layer settings, Lunacy hides layer styling effects and shows them back once you exit the edit mode. This is for the ease of editing heavily styled texts (see the gif below).
 
 ![Hiding common layer effects](public/text-effectsno.gif)
 
 For details about styling properties, read <a href="https://docs.icons8.com/styling/" target="_blank">here</a>.
 
+<!--
 ## [Suggestions panel](#suggestions-panel)
 
 The suggestions panel appears when you select a text. It displays suggestions of styling options based on your previous actions and choices. In case you've just started using Lunacy, the panel will provide some preset styles.
@@ -311,7 +315,7 @@ A view of the panel is shown in the figure below.
 
 It features a set of independently scrollable columns (except for the font size) that include:
 
-* **Text styles** (1). Each style is a combination of two or more typography and styling options (font, font size, shadow, etc.).
+* **Text styles** (1). Each style is a combination of two or more text and styling options (font, font size, shadow, etc.).
 * **Font size** (2). A collection of recently used font sizes. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
 * **Text color** (3). A collection of text colors.  If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
 * **Font style** (4). Includes such options as bold, italic, underline, strikethrough, superscript and subscript. Unlike the other columns, the content of this column does not change.
@@ -351,6 +355,8 @@ To disable the suggestions panel, use the `Ctrl+Space` shortcut or click the bul
 Also, you can unselect the **Suggestions** option in the **View** menu.
 
 ![Disabling the suggestions panel](public/sugg-disable.png)
+
+-->
 
 ## [Converting text to vector shapes](#converting-text-to-vector-shapes)
 
