@@ -17,6 +17,10 @@ grid_navigation:
       excerpt: Basic information about Lunacy
       url: '/about'
       icon: 'lunacy'
+    - title: System requirements
+      excerpt: Hardware and software requirements
+      url: '/sysreq'
+      icon: 'system-information'
     - title: Interface
       excerpt: Learn about interface layout and navigation tools
       url: '/interface'
