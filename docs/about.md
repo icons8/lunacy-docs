@@ -67,7 +67,12 @@ You can work both with cloud and local documents. It's up to you to choose. You 
 
 * Accessible from anywhere
 * Up to 10 simultaneous editors
+* Observer mode and other collaboration perks
+
+<!--
 * Comments, observer mode and other collaboration perks
+-->
+
 
 **Local documents**:
 

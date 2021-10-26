@@ -37,7 +37,12 @@ The interface consists of the following main elements.
 
     * List of objects
     * Document assets (<a href="https://docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://docs.icons8.com/layerstyles/" target="_blank">styles</a>)
-    * Built-in Lunacy <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://docs.icons8.com/plugins" target="_blank">plugins</a>
+    * Built-in Lunacy <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>.
+    
+    <!-- and <a href="https://docs.icons8.com/plugins" target="_blank">plugins</a> 
+    -->
+
+
     * List of <a href="https://docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
   
     To shrink the size of the content tabs panel, drag its right border to the left.
