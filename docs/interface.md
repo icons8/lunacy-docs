@@ -62,7 +62,7 @@ The interface consists of the following main elements.
         <tr>
         <th>Button</th>
         <th>Description</th>
-        <th>Keyboard shortcut/Menu option</th>
+        <th>Keyboard shortcut/Menu option &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
         </tr>
     </thead>
     <tbody>
