@@ -57,7 +57,7 @@ The interface consists of the following main elements.
 7. The **context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected object. Hover the cursor over a tool icon to see a pop-up explaining what the tool does.
 8. The **file tabs panel**. Shows the tabs of currently open files. To switch between the files, just click the respective tab.
 9. The **Play** button. Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://docs.icons8.com/prototyping" target="_blank">here</a>.
-10. This button opens a menu with options related mostly to display options described in the table below. To see the full set of buttons click ![Action bar button](public/interface-openactionbar.png).
+10. This button opens a menu with options described in the table below.
     
     <table>
     <thead>
