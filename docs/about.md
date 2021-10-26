@@ -50,6 +50,8 @@ Lunacy comes with built-in graphics:
 
 You can use this content for free if you set a link to Icons8 in your final work. Or you can subscribe to one of our paid plans and forget about linking.
 
+What's more, you can use **built-in UI kits** to quickly design interfaces.
+
 ## AI-powered tools onboard
 
 Inside Lunacy, you will find some handy tools that will save you tons of time:
