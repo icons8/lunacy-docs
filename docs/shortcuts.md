@@ -30,7 +30,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 ## General Shortcuts
 
 
-| Action        | Windows, Linux     | Mac &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| Action        | Windows, Linux     | Mac &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | ------------- |-------------|---------------|
 | Open |`Ctrl+O` | `⌘ O` |
 | New |`Ctrl+N` | `⌘ N` |
