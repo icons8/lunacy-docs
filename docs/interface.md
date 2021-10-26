@@ -69,12 +69,12 @@ The interface consists of the following main elements.
         <tr>
         <td><img src="/public/interface-rulerbtn.png" alt="Show/Hide rulers button"></td>
         <td> The <b>Show/Hide rulers</b> button. Controls the display of rulers. For details, read <a href="https://docs.icons8.com/interface/#rulers-and-guides">below</a>.</td>
-        <td><code>Ctrl + R</code></td>
+        <td><code>Ctrl+R</code>/<code>⌘ R</code></td>
         </tr>
         <tr>
         <td><img src="/public/interface-layoutbtn.png" alt="Show/Hide layout button"></td>
         <td>The <b>Layout</b> button. Controls the display of the layout grid. Available only when there is an artboard on the canvas. For details, read <a href="https://docs.icons8.com/interface/#layout-grid">here</a>.</td>
-        <td><code>Ctrl + \</code></td>
+        <td><code>Ctrl+\</code>/<code>Ctrl+\</code>⌃ G</td>
         </tr>
         <tr>
         <td><img src="/public/interface-prototbtn.png" alt="Show prototyping button"></td>
@@ -89,7 +89,7 @@ The interface consists of the following main elements.
         <tr>
         <td><img src="/public/interface-gridbtn.png" alt="Show grid button"></td>
         <td>The <b>Show grid</b> button. Enables the display of the square grid. For details, read <a href="https://docs.icons8.com/interface/#square-grid">here</a>.</td>
-        <td><code>Ctrl+'</code></td>
+        <td><code>Ctrl+'</code>/<code>Ctrl+'</code>⌘ '</td>
         </tr>
         <tr>
         <td><img src="/public/interface-nightbtn.png" alt="Sketch Cloud Button"></td>
