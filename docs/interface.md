@@ -37,11 +37,10 @@ The interface consists of the following main elements.
 
     * List of objects
     * Document assets (<a href="https://docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://docs.icons8.com/layerstyles/" target="_blank">styles</a>)
-    * Built-in Lunacy <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>.
-    
+    * Built-in Lunacy <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>
+
     <!-- and <a href="https://docs.icons8.com/plugins" target="_blank">plugins</a> 
     -->
-
 
     * List of <a href="https://docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
   
@@ -95,11 +94,6 @@ The interface consists of the following main elements.
         <tr>
         <td><img src="/public/interface-nightbtn.png" alt="Sketch Cloud Button"></td>
         <td>The <b>Enable dark mode</b> button. Turns on/off the night theme in the Lunacy interface.</td>
-        <td><code>-</code></td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-cloudbtn.png" alt="Sketch Cloud Button"></td>
-        <td>The <b>Sketch Cloud</b> button. Opens the Sketch Cloud panel. For details about working with Sketch Cloud in Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.</td>
         <td><code>-</code></td>
         </tr>
         <tr>
