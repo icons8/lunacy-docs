@@ -37,7 +37,7 @@ Lunacy runs on the following operating systems:
 | ------------- |-------------|---------------|
 | RAM |512 MB | 4 GB |
 | Graphics | 512 MB | 4 GB |
-| Save |2-core CPU | 4-core CPU |
+| Processor |2-core CPU | 4-core CPU |
 | Storage | 500 MB of available space, HDD | 1 GB of available space, SSD |
 
 
