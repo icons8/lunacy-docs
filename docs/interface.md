@@ -74,7 +74,7 @@ The interface consists of the following main elements.
         <tr>
         <td><img src="/public/interface-layoutbtn.png" alt="Show/Hide layout button"></td>
         <td>The <b>Layout</b> button. Controls the display of the layout grid. Available only when there is an artboard on the canvas. For details, read <a href="https://docs.icons8.com/interface/#layout-grid">here</a>.</td>
-        <td><code>Ctrl+\</code>/<code>Ctrl+\</code>⌃ G</td>
+        <td><code>Ctrl+\</code>/<code>⌃ G</code></td>
         </tr>
         <tr>
         <td><img src="/public/interface-prototbtn.png" alt="Show prototyping button"></td>
@@ -89,7 +89,7 @@ The interface consists of the following main elements.
         <tr>
         <td><img src="/public/interface-gridbtn.png" alt="Show grid button"></td>
         <td>The <b>Show grid</b> button. Enables the display of the square grid. For details, read <a href="https://docs.icons8.com/interface/#square-grid">here</a>.</td>
-        <td><code>Ctrl+'</code>/<code>Ctrl+'</code>⌘ '</td>
+        <td><code>Ctrl+'</code>/<code>⌘ '</code></td>
         </tr>
         <tr>
         <td><img src="/public/interface-nightbtn.png" alt="Sketch Cloud Button"></td>
@@ -314,14 +314,14 @@ To learn the distance between two objects on the canvas:
 
 1. Select the first object.
 2. Hover the cursor over the other object.
-3. Press and hold `Alt`.
+3. Press and hold `Alt` (`⌥`).
 
 To learn the distance between an object and the borders of the artboard:
 
-* Hover the cursor over the object, then press and hold `Alt`.
+* Hover the cursor over the object, then press and hold `Alt` (`⌥`).
   
   OR
-* Select an object, then hover the cursor over an empty area within the artboard and press and hold `Alt`.
+* Select an object, then hover the cursor over an empty area within the artboard and press and hold `Alt` (`⌥`).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
 
@@ -329,7 +329,7 @@ For precise positioning of objects on the artboard or relative one another, proc
 
 1. Select one of the objects.
 2. Point the cursor over an empty area or over the other object.
-3. Holding down `Alt`, move the selected object using the arrow keys.
+3. Holding down `Alt`(`⌥`), move the selected object using the arrow keys.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure3ph.png" height="auto"><source src="/public/interface-groupmeasure3.mp4" type="video/mp4"></video>
 
@@ -340,26 +340,26 @@ To measure the distance between a grouped object and another object (or grouped 
 To learn the distance between a member of a group and the borders of the group:
 
 1. Point the cursor over the required group member.
-2. Press and hold `Ctrl + Alt`. 
+2. Press and hold `Ctrl + Alt` (`⌘ ⌥`). 
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure1ph.png" height="auto"><source src="/public/interface-groupmeasure1.mp4" type="video/mp4"></video>
 
 To learn the distance between a member of a group and the borders of the artboard:
 
 1. Select the group member.
-2. Press and hold `Alt`.
+2. Press and hold `Alt` (`⌥`).
 3. Point the cursor anywhere beyond other group members.
 
 To learn the distance between a member of a group and another member of the group or another object (group):
 
 1. Select the first group member.
-2. Press and hold `Alt`.
+2. Press and hold `Alt`(`⌥`).
 3. Point the cursor over the second group member/object(group).
 
 To learn the distance between a member of a group and a member of another group:
 
 1. Select the first group member.
-2. Press and hold `Ctrl+Alt`.
+2. Press and hold `Ctrl+Alt` (`⌘ ⌥`).
 3. Point the cursor over the member of the other group.
 
 The next demo shows the above three procedures.
@@ -368,7 +368,7 @@ The next demo shows the above three procedures.
 
 ### Zooming options
 
-The easiest way to zoom to an object in Lunacy is to hold down the `Ctrl` key and rotate the mouse wheel. Similarly, you can hold down `Ctrl` and `Shift` keys. In such a case the speed of zooming will be slower (see the demo below).
+The easiest way to zoom to an object in Lunacy is to hold down the `Ctrl`(`⌘`) key and rotate the mouse wheel. Similarly, you can hold down `Ctrl` and `Shift` (`⌘ Shift`) keys. In such a case the speed of zooming will be slower (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomtoobject61.mp4" type="video/mp4"></video>
 
