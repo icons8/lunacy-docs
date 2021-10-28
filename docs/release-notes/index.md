@@ -42,13 +42,13 @@ page_nav:
 
 *Release date: October 28, 2021*
 
+![Supported platforms](/public/maclinuxwin.png)
+
 Download:
 
 * <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.0.0.0.exe)
 * [MacOS Installer](https://lun-eu.icons8.com/s/setup/Lunacy.dmg)
 * <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux installer](https://lun-eu.icons8.com/s/setup/Lunacy.deb)
-
-![Supported platforms](/public/maclinuxwin.png)
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e6wCzETfb6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
