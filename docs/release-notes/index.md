@@ -12,6 +12,8 @@ icon: 'activity-history'
 # Micro navigation
 left_menu_off: false
 release_note:
+    - title: Version 8
+      url: 'version-8'
     - title: Version 7
       url: 'version-7'
     - title: Version 6
@@ -34,24 +36,19 @@ page_nav:
 
 ---
 
-<!-- НЕ ЗАБЫТЬ ПОМЕНЯТЬ ДАТУ, ССЫЛКИ НА СТОРЫ И ИНСТОЛЛЕРЫ
-
-!!!! - в разделе micro navigation (скролль выше) - в самый верх добавить две строчки для восьмой версии title и url
-
-
 # Version 8
 
 ## 8.0
 
-*Release date: September XX, 2021*
+*Release date: October 28, 2021*
 
 Download:
 
 
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">AppStore</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
-* [Linux installer](https://lun-eu.icons8.com/s/setup/LunacySetup_7.1.0.exe)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.0.0.exe)
+* [MacOS Installer](https://lun-eu.icons8.com/s/setup/Lunacy.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux installer](https://lun-eu.icons8.com/s/setup/Lunacy.deb)
 
 ![Supported platforms](/public/maclinuxwin.png)
 ### Lunacy is now cross-platform!
@@ -70,8 +67,6 @@ It means that even more people can install Lunacy and create awesome designs, sh
 * We removed suggestions panels. We need to re-think this feature. A new, revamped version will appear soon.
 * There is a known issue with the display of some fonts. We're doing our best to fix it. Workaround: use [v.6.9](https://lun-eu.icons8.com/s/setup/LunacySetup_6.9.0.exe).
 * And one more thing. If you'd like to have Lunacy on iPad, vote for it <a href="https://lunatics.icons8.com/discussion/204/lunacy-for-ipad#latest" target="_blank">here</a>.
-
--->
 
 
 # Version 7
