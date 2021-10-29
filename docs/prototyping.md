@@ -113,6 +113,7 @@ The figure below shows the controls that appear in the **Prototyping** section w
 
     With the clear checkbox, the artboard will always return to the top.
 
+<!--
 ## Sharing prototypes
 
 You can easily share prototypes with your teammates and customers.
@@ -126,7 +127,7 @@ That's it. The link gets copied to your clipboard and you can send it to your re
 
 ![Sharing a prototype](public/proto-sharelink.png)
 
-<!--
+
 ## Previewing prototypes in Sketch Cloud
 
 You can also preview prototypes in Sketch Cloud. For this, you need to upload your document to Sketch Cloud:
