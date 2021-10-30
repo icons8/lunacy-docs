@@ -163,7 +163,7 @@ The operations that you can perform in the objects list include:
 * **Arranging objects**. You can change the order of objects in the list by dragging them up or down.
 * **Hiding objects**. You can temporarily hide the selected item from the canvas. You can hide objects, object groups or individual items within object groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide objects by using the `Ctrl+H` shortcut or the respective command on the context menu.
 * **Locking objects**. By locking objects you can protect them from accidental edits. You cannot select a locked object on the canvas. But you still can select it through the objects list and edit its properties in the Inspector. You can also lock grouped objects or individual objects within a group. Select the object in the list and click the padlock icon that will appear next to its name. You can also lock objects by using the `Ctrl+L` shortcut or the respective command on the context menu.
-* Other [basic operations](#context-menu) with objects available on the context menu.
+* Other [basic operations](#the-context-menu) with objects available on the context menu.
 
 <!--
 
