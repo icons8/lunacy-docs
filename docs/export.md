@@ -318,12 +318,12 @@ Lunacy exports the selection to PDF and opens it in your default PDF reader from
 
 ## Code Preview
 
-Lunacy allows you to view and copy CSS, XAML and SVG code for all objects in your document. This feature is ideal for web designers.
+Lunacy allows you to view and copy CSS, XAML and SVG code for all objects in your document. This feature is ideal for UI designers.
 
-1. Select an object and click the **Code** tab in the Inspector.
+1. Select an object and press `F4` or click **View > Code**.
 2. In the displayed panel, click over the name of the required code to view the code. Or click the copy icon to copy the code.
 
-![CSS/XAML/SVG code](public/export-copycode.png)
+![CSS/XAML/SVG code](public/export-copycode1.png)
 
 Alternatively, you can copy code through the context menu (see the figure below)
 
