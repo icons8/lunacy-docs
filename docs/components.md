@@ -282,17 +282,17 @@ To access them,  first select a component instance and then open the menu in the
 
 The commands are as follows:
 
-| Command | Description | Shortcut (Windows, Linux) | Shortcut (macOS) &nbsp;&nbsp;&nbsp;&nbsp; |
+| Command | Description | Shortcut (Windows, Linux) | Shortcut (macOS) |
 | --- | --- | --- | --- |
-| Create Component | Creates a new component. Optionally, you can use the **Create component** button which appears at the top of the window (see the figure above). | `Ctrl+Alt+K` | `⌥ ⌘ K` |
-| Create New Component State | Creates a new [component state](https://docs.icons8.com/components/#component-states). | `Ctrl+Alt+S` | `⌥ ⌘ S` |
+| Create Component | Creates a new component. Optionally, you can use the **Create component** button which appears at the top of the window (see the figure above). | `Ctrl+Alt+K` | `⌥⌘K` |
+| Create New Component State | Creates a new [component state](https://docs.icons8.com/components/#component-states). | `Ctrl+Alt+S` | `⌥⌘S` |
 | Go to Main Component | Brings you to the main component of the selected instance. To return to the instance from the main component, click the **Back to instance** button that will appear in the top-left corner of the canvas. | `Ctrl+Alt+E` | `⌥ ⌘ E` |
-| Detach from Components | When you detach an instance from its main component, it becomes a group. All further changes to the main component will no longer apply to its ex-instance. | `Ctrl+Alt+D` | `⌥ ⌘ D` |
+| Detach from Components | When you detach an instance from its main component, it becomes a group. All further changes to the main component will no longer apply to its ex-instance. | `Ctrl+Alt+D` | `⌥⌘D` |
 | Detach from Library | This command applies only to components from external files, i.e. to components from UI kits. Detached components become document components and appear on the **Components** tab and the [Components page](https://docs.icons8.com/components/#components-page). For more information about UI kits, click [here](https://docs.icons8.com/libraries/#ui-kits). | `-` | `-` |
-| Reset Instance Size | By using this command you can at any moment restore the original size of any component instance. | `Ctrl+Alt+R` | `⌥ ⌘ R` |
+| Reset Instance Size | By using this command you can at any moment restore the original size of any component instance. | `Ctrl+Alt+R` | `⌥⌘R` |
 | Reset Overrides | Use this command to undo all overrides and restore the initial look of an instance. For this, you can also use the reset overrides button that appears in the **Component** section of the Inspector panel, after an override takes place. | `-` | `-` |
 | Send to Component page | This command applies only to main components and becomes available only when a component is not on a dedicated components page. | `-` | `-` |
-| Convert Component to Artboard | This command applies only to main components. It converts the selected main component into an artboard with a group of objects. All the instances of the component convert into groups. | `Ctrl+Shift+Y` | `⌘ Shift Y` |
+| Convert Component to Artboard | This command applies only to main components. It converts the selected main component into an artboard with a group of objects. All the instances of the component convert into groups. | `Ctrl+Shift+Y` | `⌘ShiftY` |
 | Organize Components | A click over this command opens the components panel, where you can organize components as described [here](https://docs.icons8.com/components/#organizing-components). | `-` | `-` |
 
 
