@@ -39,7 +39,7 @@ Lunacy allows you to export your designs into the following formats:
   <tbody>
       <tr>
         <td>Raster</td>
-        <td>PNG, JPEG, BMP, TIFF, ICO, WEBP, GIF</td>
+        <td>PNG, JPEG, ICO, WEBP, GIF</td>
       </tr>
       <tr>
         <td>Vector</td>
