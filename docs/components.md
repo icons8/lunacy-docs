@@ -282,7 +282,7 @@ To access them,  first select a component instance and then open the menu in the
 
 The commands are as follows:
 
-| Command | Description | Shortcut (Windows, Linux) | &nbsp;&nbsp;&nbsp;&nbsp; Shortcut (macOS) &nbsp;&nbsp;&nbsp;&nbsp; |
+| Command | Description | Shortcut (Windows, Linux) | Shortcut (macOS) &nbsp;&nbsp;&nbsp;&nbsp; |
 | --- | --- | --- | --- |
 | Create Component | Creates a new component. Optionally, you can use the **Create component** button which appears at the top of the window (see the figure above). | `Ctrl+Alt+K` | `⌥ ⌘ K` |
 | Create New Component State | Creates a new [component state](https://docs.icons8.com/components/#component-states). | `Ctrl+Alt+S` | `⌥ ⌘ S` |
