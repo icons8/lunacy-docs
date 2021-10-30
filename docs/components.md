@@ -292,7 +292,7 @@ The commands are as follows:
 | Reset Instance Size | By using this command you can at any moment restore the original size of any component instance. | `Ctrl+Alt+R` | `⌥⌘R` |
 | Reset Overrides | Use this command to undo all overrides and restore the initial look of an instance. For this, you can also use the reset overrides button that appears in the **Component** section of the Inspector panel, after an override takes place. | `-` | `-` |
 | Send to Component page | This command applies only to main components and becomes available only when a component is not on a dedicated components page. | `-` | `-` |
-| Convert Component to Artboard | This command applies only to main components. It converts the selected main component into an artboard with a group of objects. All the instances of the component convert into groups. | `Ctrl+Shift+Y` | `⌘Shift Y` |
+| Convert Component to Artboard | This command applies only to main components. It converts the selected main component into an artboard with a group of objects. All the instances of the component convert into groups. | `Ctrl+Shift+Y` | `⌘ShiftY` |
 | Organize Components | A click over this command opens the components panel, where you can organize components as described [here](https://docs.icons8.com/components/#organizing-components). | `-` | `-` |
 
 
