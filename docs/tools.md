@@ -447,6 +447,8 @@ Lunacy features a set of tools that allows you to quickly add basic GUI controls
 
 ![GUI tools](public/rn5_9-guitools1.png)
 
+<!--
+
 When you select a control added with any of these tools, you see the suggestions panel that allows you to:
 
 1. Change the type of the control.
@@ -454,6 +456,8 @@ When you select a control added with any of these tools, you see the suggestions
 3. Select the control state.
 
 ![GUI tools](public/rn5_9-guitools2.png)
+
+-->
 
 To edit the appearance of a control, use the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">component editor</a>.
 
