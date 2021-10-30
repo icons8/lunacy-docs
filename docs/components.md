@@ -282,6 +282,8 @@ To access them,  first select a component instance and then open the menu in the
 
 The commands are as follows:
 
+<!--
+
 | Command | Description | Shortcut (Windows, Linux) | Shortcut (macOS) |
 | --- | --- | --- | --- |
 | Create Component | Creates a new component. Optionally, you can use the **Create component** button which appears at the top of the window (see the figure above). | `Ctrl+Alt+K` | `⌥⌘K` |
@@ -295,17 +297,15 @@ The commands are as follows:
 | Convert Component to Artboard | This command applies only to main components. It converts the selected main component into an artboard with a group of objects. All the instances of the component convert into groups. | `Ctrl+Shift+Y` | `⌘ShiftY` |
 | Organize Components | A click over this command opens the components panel, where you can organize components as described [here](https://docs.icons8.com/components/#organizing-components). | `-` | `-` |
 
-
-
-<!--
-
+-->
 
 <table>
   <thead>
     <tr>
       <th>Command</th>
       <th>Description</th>
-      <th>Keyboard shortcut</th>
+      <th>Shortcut (Windows, Linux)</th>
+      <th style="width: 170px;">Shortcut (macOS)</th>
     </tr>
   </thead>
   <tbody>
@@ -313,56 +313,66 @@ The commands are as follows:
       <td>Create Component</td>
       <td>Creates a new component. Optionally, you can use the <B>Create component</B> button which appears at the top of the window (see the figure above).</td>
       <td><code>Ctrl+Alt+K</code></td>
+      <td><code>⌥ ⌘ K</code></td>
     </tr>
     <tr>
       <td>Create New Component State</td>
       <td>Creates a new <a href="https://docs.icons8.com/components/#component-states">component state</a>.</td>
       <td><code>Ctrl+Alt+S</code></td>
+      <td><code>⌥ ⌘ S</code></td>
     </tr>
     <tr>
       <td>Go to Main Component</td>
       <td>Brings you to the main component of the selected instance. To return to the instance from the main component, click the <B>Back to instance</B> button that will appear in the top-left corner of the canvas.</td>
       <td><code>Ctrl+Alt+E</code></td>
+      <td><code>⌥ ⌘ E</code></td>
     </tr>
     <tr>
       <td>Detach from Components</td>
       <td>When you detach an instance from its main component, it becomes a group. All further changes to the main component will no longer apply to its ex-instance.</td>
       <td><code>Ctrl+Alt+D</code></td>
+      <td><code>⌥ ⌘ D</code></td>
     </tr>
     <tr>
       <td>Detach from Library</td>
       <td>This command applies only to components from external files, i.e. to components from UI kits. Detached components become document components and appear on the <B>Components</B> tab and the <a href="https://docs.icons8.com/components/#components-page">Components page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.</td>
+      <td><code>-</code></td>
       <td><code>-</code></td>
     </tr>
     <tr>
       <td>Reset Instance Size</td>
       <td>By using this command you can at any moment restore the original size of any component instance.</td>
       <td><code>Ctrl+Alt+R</code></td>
+      <td><code>⌥ ⌘ R</code></td>
     </tr>
     <tr>
       <td>Reset Overrides</td>
       <td>Use this command to undo all overrides and restore the initial look of an instance. For this, you can also use the reset overrides button that appears in the <B>Component</B> section of the Inspector panel, after an override takes place.</td>
+      <td><code>-</code></td>
       <td><code>-</code></td>
     </tr>
     <tr>
       <td>Send to Component page</td>
       <td>This command applies only to main components and becomes available only when a component is not on a dedicated components page.</td>
       <td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>Convert Component to Artboard</td>
       <td>This command applies only to main components. It converts the selected main component into an artboard with a group of objects. All the instances of the component convert into groups.</td>
       <td><code>Ctrl+Shift+Y</code></td>
+      <td><code>⌘ Shift Y</code></td>
     </tr>
     <tr>
       <td>Organize Components</td>
       <td>A click over this command opens the components panel, where you can organize components as described <a href="https://docs.icons8.com/components/#organizing-components">here</a>.</td>
       <td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
   </tbody>
 </table>
 
--->
+
 
 ## Nested Components
 
