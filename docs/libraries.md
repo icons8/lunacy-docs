@@ -46,7 +46,7 @@ The sections below describe library-specific actions that you can perform with l
 
 ## [Icons](#icons)
 
-The Lunacy icon library exceeds 140 thousand items which is more than enough even for the choosiest users. After installation your app will feature only free-to-use icons. To have the full library at hand, you should download it.
+The Lunacy icon library includes tons of icons in different styles. After installation your app will feature only free-to-use icons. To have the full library at hand, you should download it.
 
 ![Downloading icons library](public/dnldicn.png)
 
