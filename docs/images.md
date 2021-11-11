@@ -180,5 +180,5 @@ Lunacy is integrated with the <a href="https://icons8.com/upscaler" target="_bla
 ![Lunacy Image upscaler by Icons8](/public/rn-upscaler.png)
 
 <div class="callout callout--info">
-    <p><strong>Note:</strong> The feature is available only to users with a paid subscription.</p>
+    <p><strong>Note:</strong> The feature is available only to users with any paid subscription for Icons8 graphic assets.</p>
 </div>
