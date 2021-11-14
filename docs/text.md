@@ -119,9 +119,7 @@ For details about each group of settings, read the sections below.
 
 ### Font family
 
-The default font in Lunacy is Segoe UI, which is also the default font for many Windows apps.
-
-To select another font:
+The default font in Lunacy is Inter. To select another font:
 
 * If you know the name of the font you need, type it in the text field of the font picker.
 
@@ -232,7 +230,7 @@ In the latter case:
 2. Hold-down the left mouse button and move the mouse up to increase or down to decrease spacing (see the gif below).
 -->
 
-<video autoplay="" muted="" loop="" playsinline="" width="774" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-spacing.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-spacing.mp4" type="video/mp4"></video>
 
 **See also:** <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">Tips on working with the Inspector</a>.
 
@@ -316,7 +314,7 @@ Combinations of layer styling effects and text settings make up text styles. You
 
 ![Hiding common layer effects](public/text-effectsno.gif)
 
-For details about styling properties, read <a href="https://docs.icons8.com/styling/" target="_blank">here</a>.
+More about <a href="https://docs.icons8.com/styling/" target="_blank">styling properties</a>.
 
 <!--
 ## [Suggestions panel](#suggestions-panel)
@@ -383,7 +381,7 @@ For this:
 1. Select a text layer and click **Text** on the menu bar or left-click over a text layer to invoke the context menu.
 2. On the displayed menu, select **Convert to Outlines**. Lunacy will convert letters into a group of vector shapes, which will appear in the **Objects** panel.
 
-Alternatively, you can use the `Ctrl+Shift+O` shortcut.
+Alternatively, you can use the `Ctrl+Shift+O`/`⌘ Shift O` shortcut.
 
 ![Converting text to vectors](public/text-texttovector.gif)
 
