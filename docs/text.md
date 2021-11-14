@@ -54,7 +54,7 @@ Lunacy applies [horizontal resize](#text-block-resize-options) to the text added
 
 **Way 2. Click and drag**
 
-1. Select the Text tool on the toolbar (or press `T`). The pointer changes to <b><sup>+</sup></b>**T**.
+1. Select the Text tool on the toolbar (or press `T`). The pointer changes to `<b><sup>+</sup></b>**T**`.
 2. Click on the canvas and hold down the mouse button.
 3. Drag to create a text layer of the required size. Lunacy will add a random text to fit the size of the object. If the auto-text exceeds the block size, you can delete the excess or leave it as is. It won't be visible unless the text block is in the edit mode.
 4. Press `Esc` to exit the edit mode.
