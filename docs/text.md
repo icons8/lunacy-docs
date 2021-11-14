@@ -24,8 +24,6 @@ page_nav:
 
 
 
-## Text
-
 Text is one of the key aspects of almost every design project. This section describes how to work with text layers in Lunacy.
 
 ## Text-related controls
@@ -54,14 +52,16 @@ There are two ways of adding text layers.
 
 Lunacy applies [horizontal resize](#text-block-resize-options) to the text added this way.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-addtext69ph.png" height="auto"><source src="/public/text-addtext69.mp4" type="video/mp4"></video>
-
 **Way 2. Click and drag**
 
 1. Select the Text tool on the toolbar (or press `T`). The pointer changes to the Text Input icon.
 2. Click on the canvas and hold down the mouse button.
 3. Drag to create a text layer of the required size. Lunacy will add a random text to fit the size of the object. If the auto-text exceeds the block size, you can delete the excess or leave it as is. It won't be visible unless the text block is in the edit mode.
-4. Press `Esc` to exit the edit mode. Also, you can use the `Shift + R` shortcut to refresh the auto-generated text.
+4. Press `Esc` to exit the edit mode.
+
+**Note:** You can use the `Shift + R` shortcut to refresh the auto-generated text.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-addtext69ph.png" height="auto"><source src="/public/text-addtext69.mp4" type="video/mp4"></video>
 
 ## Adding text to shapes
 
@@ -80,7 +80,7 @@ As you do it, Lunacy automatically creates a group object with the shape and tex
 To edit a text:
 
 1. Select the text layer in the **Objects** panel or by clicking it on the canvas.
-2. Press `Enter` or click the **Edit Object** (![missing fonts button](public/text-edittextbtn.png)) button on the top bar to enable the edit mode.
+2. Press `Enter` or click the **Edit Object** `![missing fonts button](public/text-editobjectbtn1.png)` button on the top bar to enable the edit mode.
 3. Enter a new text or edit the existing one.
 4. When done, press `Esc` to exit the edit mode.
 
