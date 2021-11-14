@@ -92,7 +92,9 @@ See also the [Text settings](#text-settings) section below.
 
 ## [Text settings](#text-settings)
 
-When you select a text layer, the **Text** section appears in the Inspector. The section features the basic text settings. Also, you can click the settings button at the top left corner of the section to access advanced settings (see the figure below).
+When you select a text layer, the **Text** section appears in the Inspector. The section features the basic text settings. Also, you can click the settings button at the top left corner of the section to access advanced settings.
+
+![Text controls](public/text-controls2-69.png)
 
 Text settings include:
 
@@ -105,14 +107,13 @@ Text settings include:
 7. Paragraph spacing
 8. Text generation options
 9. Text block resize options
-10. Text alignment options
-11. Text position options
-12. Letter case options
-13. Underline and strikethrough options
-14. List type options
-15. Superscript and subscript options
+10. Text alignment
+11. Text position
+12. Letter cases
+13. Underline and strikethrough
+14. List types
+15. Superscript and subscript
 
-![Text controls](public/text-controls2-69.png)
 
 For details about each group of settings, read the sections below.
 
@@ -134,25 +135,25 @@ The three buttons at the top of the list allow you to quickly filter the content
 
 * **All**: Shows the full list of fonts.
 * **System**: Shows the list of fonts (TTF/OTF) installed on your computer.
-* **Google**: Shows the list of fonts available in the <a href="https://fonts.google.com/" target="_blank">Google fonts</a> library. You don't need to download them. Lunacy will do it automatically. Lunacy's integration with Google fonts will solve most of you problems with missing fonts (click [here](#missing-fonts) for details).
+* **Google**: Shows the list of fonts available in the <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> library. You don't need to download them. Lunacy will do it automatically. Lunacy's integration with Google Fonts will solve most of your [problems with missing fonts](#missing-fonts).
 
 The list shows font names and their samples. If a font's name is too long and appears truncated, hover a cursor over the name to view the full name. When you hover the cursor over font samples, Lunacy will display their larger previews. Google fonts come without samples until used.  
 
 ![Font picker 2](public/text-fontfam.gif)
 
->**Note**: You might experience a slight delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts will include only those fonts that you have already used.
+>**Note**: You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts will include only those fonts that you have already used.
 
 ### [Missing fonts](#missing-fonts)
 
 When you open a project received from your team or downloaded from the internet, Lunacy checks if all the required fonts are available on your computer. If some of them are missing but they are available in the Google fonts library, Lunacy will download and apply them, provided that your computer is connected to the internet. But if those fonts are not from the Google library:
 
-* The default Segoe UI is applied to the text layers with missing fonts.
+* The default Inter is applied to the text layers with missing fonts.
 * Upon selection of these layers, the name of the missing font appears in red in the font picker, as well as in the **Objects** panel.
 * The missing fonts button appears on the top toolbar.
 
 ![Missing fonts 1](public/text-misfontbtn1.png)
 
-A click over the button invokes a dialog box where you can select replacements for the missing fonts (see the figure below).
+A click over the button invokes a dialog box where you can select replacements for the missing fonts.
 
 ![Missing fonts 2](public/text-misfontdialog.png)
 
@@ -160,7 +161,7 @@ A click over the button invokes a dialog box where you can select replacements f
 
 Each font family comes with different sets of weights (also known as font styles), which might include: Regular, Bold, Semibold, Italic, etc.
 
-The text weight control allows you to select the required font weight. If a font has only one weight, the control appears disabled (see the figure below)
+The text weight control allows you to select the required font weight. If a font has only one weight, the control appears disabled:
 
 ![Font weight control](public/text-bold.png)
 
@@ -171,7 +172,12 @@ Also, you can use standard text editor shortcuts:
 
 ### Font color picker
 
-This control is a standard color picker that allows you to choose the required color from the color field or from preset colors, as well as to manually enter the required color code. For more information about using the color picker, click <a href="https://docs.icons8.com/styling/#color-picker" target="_blank">here</a>.
+This control is a standard <a href="https://docs.icons8.com/styling/#color-picker" target="_blank">color picker</a> that lets you choose the required color:
+
+1. From the color field.
+2. From preset colors.
+
+Also, you can manually enter the required color code (3).
 
 ![Font color picker](public/text-colorpicker.png)
 
@@ -181,8 +187,9 @@ Use this control to define the required font size in pixels. You can do it by:
 
 * Selecting the required size from the list.
 * Entering the required value in the edit field.
-* Using the scroll.
-* Using the `Ctrl + Alt + "+"` (increase) and `Ctrl + Alt + "-"` (decrease) shortcuts.
+* Using the <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">mouse wheel</a>.
+* Using the `Ctrl + Alt + "+"`/`⌥ ⌘ +` (increase) and `Ctrl + Alt + "-"`/`⌥ ⌘ -` (decrease) shortcuts.
+
 
 ### Mixed font settings
 
@@ -196,35 +203,42 @@ You can apply different font settings of the same type (fonts, colors, font size
 
 Use these buttons to align and justify the text inside the text box. Optionally, you can use the following shortcuts:
 
-* `Ctrl + Alt + "{"`: Align text to the left.
-* `Ctrl + Alt + "|"`: Center text.
-* `Ctrl + Alt + "}"`: Align text to the right.
-* `Ctrl + Alt + "J"`: Justify.
+* `Ctrl + Alt + {`/`⌥ ⌘ {`: Align text to the left.
+* `Ctrl + Alt + T`/`⌥ ⌘ T`: Center text.
+* `Ctrl + Alt + }`/`⌥ ⌘ }`: Align text to the right.
+* `Ctrl + Alt + J`/`⌥ ⌘ J`: Justify.
 
-### Line, letter and paragraph spacing
+### Line, letter, and paragraph spacing
 
 ![Spacing buttons](public/text-spacing1.png)
 
-Use these settings to adjust line, letter and paragraph spacing. Their default values are set  *x*, *0*, and *0* respectively, where *x* depends on the selected font family, font weight and size.
+Use these settings to adjust line, letter, and paragraph spacing. Their default values are set  *x*, *0*, and *0* respectively, where *x* depends on the selected font family, font weight, and size.
 
 The default line spacing appears in grey. When you change it, the figures in the box turn black. To restore the default value, delete the current value and press `Enter`.
 
 You can change spacing values in the following ways:
 
 * By entering the required values in the edit fields.
-* By using shortcuts:
-  * `Ctrl+Alt+>`/`Ctrl+Alt+<` - increase/decrease line spacing.
-  * `Ctrl+Shift+>`/`Ctrl+Shift+<` - increase/decrease letter spacing.
+* Using shortcuts:
+  * `Ctrl+Alt+>`/`⌥ ⌘ >` or `Ctrl+Alt+<`/`⌥ ⌘ <` — increase or decrease line spacing.
+  * `Ctrl+Shift+>`/`⌘ Shift >` or `Ctrl+Shift+<`/`⌘ Shift <` — increase or decrease letter spacing.
   * There is no shortcut for paragraph spacing.
-* By using the scroll.
-* By using mouse movements.
+* By using the <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">mouse wheel or dragging mouse up and down</a> as shown below.
 
+<!--
 In the latter case:
 
 1. Hover the cursor over an edit field and wait a moment until the cursor turns into a double-headed arrow.
 2. Hold-down the left mouse button and move the mouse up to increase or down to decrease spacing (see the gif below).
+-->
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-spacing.mp4" type="video/mp4"></video>
+
+<!--
 
 ![Using mouse for spacing](public/text-spacing.gif)
+
+-->
 
 ### [Text block resize options](#text-block-resize-options)
 
