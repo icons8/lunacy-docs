@@ -126,7 +126,7 @@ The default font in Lunacy is Inter. To select another font:
   OR
 * Expand the font family list and pick up the one you like.
 
-![Font picker 1](public/text-fontlist.png)
+![Font picker 1](public/text-fontlist-69.png)
 
 The top section of the font family list shows the three fonts that you've recently used.
 The three buttons at the top of the list allow you to quickly filter the content of the list:
@@ -139,7 +139,7 @@ The list shows font names and their samples. If a font's name is too long and ap
 
 ![Font picker 2](public/text-fontfam.gif)
 
->**Note**: You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts will include only those fonts that you have already used.
+**Note**: You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts will include only those fonts that you have already used.
 
 ### [Missing fonts](#missing-fonts)
 
@@ -161,7 +161,7 @@ Each font family comes with different sets of weights (also known as font styles
 
 The text weight control allows you to select the required font weight. If a font has only one weight, the control appears disabled:
 
-![Font weight control](public/text-bold.png)
+![Font weight control](public/text-bold8.png)
 
 Also, you can use standard text editor shortcuts:
 
@@ -177,7 +177,7 @@ This control is a standard <a href="https://docs.icons8.com/styling/#color-picke
 
 Also, you can manually enter the required color code (3).
 
-![Font color picker](public/text-colorpicker.png)
+![Font color picker](public/text-colorpicker8.png)
 
 ### Font size picker
 
