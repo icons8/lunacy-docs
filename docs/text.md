@@ -165,8 +165,9 @@ The text weight control allows you to select the required font weight. If a font
 
 Also, you can use standard text editor shortcuts:
 
-* `Ctrl+B`: Bold
-* `Ctrl+I`: Italic
+* `Ctrl+B`/`⌘ B` — **Bold**
+* `Ctrl+I`/`⌘ I` — *Italic*
+* `Ctrl+U`/`⌘ U` — <u>Underline</u>
 
 ### Font color picker
 
