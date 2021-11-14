@@ -200,12 +200,12 @@ You can apply different font settings of the same type (fonts, colors, font size
 
 ![Alignment buttons](public/text-align.png)
 
-Use these buttons to align and justify the text inside the text box. Optionally, you can use the following shortcuts:
+Use these buttons to align and justify the text inside the text box. Alternatively, you can use the following shortcuts:
 
-* `Ctrl + Alt + {`/`⌥ ⌘ {`: Align text to the left.
-* `Ctrl + Alt + T`/`⌥ ⌘ T`: Center text.
-* `Ctrl + Alt + }`/`⌥ ⌘ }`: Align text to the right.
-* `Ctrl + Alt + J`/`⌥ ⌘ J`: Justify.
+* `Ctrl + Alt + {`/`⌥ ⌘ {` — align text to the left.
+* `Ctrl + Alt + T`/`⌥ ⌘ T`— center text.
+* `Ctrl + Alt + }`/`⌥ ⌘ }` — align text to the right.
+* `Ctrl + Alt + J`/`⌥ ⌘ J` — justify.
 
 ### Line, letter, and paragraph spacing
 
