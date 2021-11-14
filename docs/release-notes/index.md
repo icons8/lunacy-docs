@@ -47,8 +47,8 @@ page_nav:
 Download:
 
 * <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.0.5.0.exe)
-* [MacOS Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.0.5.0.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.0.5.0.deb)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.0.5.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.0.5.0.deb)
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e6wCzETfb6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
