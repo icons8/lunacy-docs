@@ -80,7 +80,7 @@ As you do it, Lunacy automatically creates a group object with the shape and tex
 To edit a text:
 
 1. Select the text layer in the **Objects** panel or by clicking it on the canvas.
-2. Press `Enter` or click the **Edit Object** `![missing fonts button](public/text-editobjectbtn1.png)` button on the top bar to enable the edit mode.
+2. Press `Enter` or click the **Edit Object** (![missing fonts button](public/text-editobjectbtn1.png) button on the top bar to enable the edit mode.
 3. Enter a new text or edit the existing one.
 4. When done, press `Esc` to exit the edit mode.
 
