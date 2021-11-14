@@ -223,7 +223,7 @@ You can change spacing values in the following ways:
   * `Ctrl+Alt+>`/`⌥ ⌘ >` or `Ctrl+Alt+<`/`⌥ ⌘ <` — increase or decrease line spacing.
   * `Ctrl+Shift+>`/`⌘ Shift >` or `Ctrl+Shift+<`/`⌘ Shift <` — increase or decrease letter spacing.
   * There is no shortcut for paragraph spacing.
-* By using the <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">mouse wheel or dragging mouse up and down</a> as shown below.
+* By using the mouse wheel or dragging the mouse up and down as shown below.
 
 <!--
 In the latter case:
@@ -233,6 +233,8 @@ In the latter case:
 -->
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-spacing.mp4" type="video/mp4"></video>
+
+**See also:** <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">Tips on working with the Inspector</a>.
 
 <!--
 
