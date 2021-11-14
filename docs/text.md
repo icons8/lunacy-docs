@@ -232,7 +232,7 @@ In the latter case:
 2. Hold-down the left mouse button and move the mouse up to increase or down to decrease spacing (see the gif below).
 -->
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-spacing.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="774" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-spacing.mp4" type="video/mp4"></video>
 
 **See also:** <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">Tips on working with the Inspector</a>.
 
