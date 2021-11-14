@@ -36,8 +36,8 @@ The figure below shows the location of text-related controls in the Lunacy inter
 2. The **Text** menu. Includes all the settings available in the **Text** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu. For details about converting text to outlines, click [here](#converting-text-to-vector-shapes).
 3. The **Edit object** button. The button appears when you select a text layer. Click this button to start editing the text. Alternatively, just press `Enter`.
 4. In the **Appearance** section you deal with <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable text styles</a>.
-5. The **Generate text** button. A click over the button generates a random text. A click over the down arrowhead next to the button invokes the menu with text generation options. For details, click [here](#text-generation-and-text-snippets).
-6. The **Advanced options** button. Opens a panel with such text options as letter case, numbered and bulleted lists, etc. For details, click [here](#advanced-text-options).
+5. The **Generate text** button. A click over the button generates a random text. A click over the down arrowhead next to the button invokes the menu with [text generation options](#text-generation-and-text-snippets).
+6. The **Advanced options** button. Opens a [panel](#advanced-text-options) with such text options as letter case, numbered and bulleted lists, etc.
 
 ## Adding text layers
 
@@ -54,7 +54,7 @@ Lunacy applies [horizontal resize](#text-block-resize-options) to the text added
 
 **Way 2. Click and drag**
 
-1. Select the Text tool on the toolbar (or press `T`). The pointer changes to the Text Input icon.
+1. Select the Text tool on the toolbar (or press `T`). The pointer changes to <b><sup>+</sup></b>**T**.
 2. Click on the canvas and hold down the mouse button.
 3. Drag to create a text layer of the required size. Lunacy will add a random text to fit the size of the object. If the auto-text exceeds the block size, you can delete the excess or leave it as is. It won't be visible unless the text block is in the edit mode.
 4. Press `Esc` to exit the edit mode.
