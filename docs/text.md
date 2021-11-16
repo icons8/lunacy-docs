@@ -267,7 +267,8 @@ Use these three buttons to adjust the position of text content within the text b
 * Center text horizontally and vertically within the text box.
 * Align text to the bottom border of the text box.
 
-![Position alignment buttons](public/text-aligncell.gif)
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-aligncellph.png" height="auto"><source src="/public/text-aligncell.mp4" type="video/mp4"></video>
+
 
 ### Text alignment magnets
 
