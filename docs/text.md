@@ -33,7 +33,7 @@ The figure below shows the location of text-related controls in the Lunacy inter
 ![Text-related](/public/text-controlsall69.png)
 
 1. The **Text** section. Appears in the Inspector when a text layer is selected. Features all the [settings](#text-settings) that you might need when working with text.
-2. The **Text** menu. Includes all the settings available in the **Text** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu. For details about converting text to outlines, click [here](#converting-text-to-vector-shapes).
+2. The **Text** menu. Includes all the settings available in the **Text** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu and lets you [convert text to vector shapes](#converting-text-to-vector-shapes).
 3. The **Edit object** button. The button appears when you select a text layer. Click this button to start editing the text. Alternatively, just press `Enter`.
 4. In the **Appearance** section you deal with <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable text styles</a>.
 5. The **Generate text** button. A click over the button generates a random text. A click over the down arrowhead next to the button invokes the [menu with text generation options](#text-generation-and-text-snippets).
