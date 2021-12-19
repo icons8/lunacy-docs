@@ -38,9 +38,71 @@ page_nav:
 
 # Version 8
 
-<!--
+
 
 ## 8.1
+
+*Release date: December 28, 2021*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.0.5.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.0.5.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.0.5.0.deb)
+
+### Support for Apple Silicon
+Now Lunacy can run on Macs with Apple Silicon processors.
+You can download the build on our website. Later it will also be available on the App Store.
+
+### Scale tool
+
+We revamped the Scale feature and moved it from the context toolbar to the main toolbar. You no longer need to define the required scale percentage. Simply select an object, click ![Scale too icon](/public/scale-tool.png) on the toolbar (or press `K`) and drag the bounding box.
+
+With the Scale tool selected, you can edit any of the settings (say, width) in the Inspector. Press `Enter`, and Lunacy will scale all the other settings accordingly.
+
+![Using scale tool](/public/rn81-scaletool.png)
+
+
+### View Only and Export Only access to cloud documents
+
+When sharing a cloud document, you can select the access level to the document:
+
+* **Edit** — full access to the document (except for deletion).
+* **Export** — users with this access level cannot edit documents. They can only view and export selected objects or the whole project, and inspect the code of the objects. For instance, you can grant export access to developers.
+* **View** — users with this access level can only view the content of the document.
+
+Also, now you can ban users.
+
+![Setting export-only and view only modes in cloud documents, and banning users](/public/rn81-export-and-view-only.png)
+
+
+### Code and Inspect  panels
+
+We redesigned the **Code** panel for better usability. Also, now it features the **Inspect** panel (`Alt+0` or `⌥+0`) where you can view and copy values for selected objects:
+
+* Dimensions
+* Content of text layers
+* Colors in different color models
+* Styling options (borders, shadows, etc.)
+
+![A view of the Code and Inspect panels](/public/rn81-code-and-inspect-panels.png)
+
+
+### Improvements
+
+* IME now works fine on Windows. The support for IME on Linux and macOS will be added in upcoming versions.
+* Prototype sharing is back.
+* Better SVG export.
+* Improved rendering performance: gigantic files are welcome.
+* GPU rendering for M1 Macs.
+* Linux ARM build is now available.
+* Re-designed log in screen.
+
+
+### Fixed bugs
+
+* Numerous bug fixes.
+
 
 -->
 
@@ -72,7 +134,7 @@ Finally, we can answer *YES!* to all those hundreds of questions about Lunacy fo
 It means that even more people can install Lunacy and create awesome designs, share their ideas and collaborate in real-time.
 ### Notes
 
-* We temporarily removed the support for external plugins.  That was a trade-off we had to make in order to release the Mac and Linux versions. We're planning to restore the feature in one of the upcoming releases.
+* We temporarily removed the support for external plugins. That was a trade-off we had to make in order to release the Mac and Linux versions. We're planning to restore the feature in one of the upcoming releases.
 * We removed suggestions panels. We need to re-think this feature. A new, revamped version will appear soon.
 * There is a known issue with the display of some fonts. We're doing our best to fix it. Workaround: use [v.6.9](https://lun-eu.icons8.com/s/setup/LunacySetup_6.9.0.exe).
 * And one more thing. If you'd like to have Lunacy on iPad, vote for it <a href="https://lunatics.icons8.com/discussion/204/lunacy-for-ipad#latest" target="_blank">here</a>.
@@ -111,7 +173,7 @@ The Observer Mode enables you to follow the activities of other users on the can
 
 To exit the mode, click the user's avatar once again.
 
-**Note:** *You will only be able to view the user's activities on the canvas. You won't be able to see the interactions on the side panels.*
+**Note:** *You will only be able to view the user's activities on the canvas. You won't be able to see the interactions on the side panels.*
 
 ### Improvements
 
