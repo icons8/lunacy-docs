@@ -38,7 +38,7 @@ page_nav:
 
 # Version 8
 
-
+<!--
 
 ## 8.1
 
@@ -58,7 +58,7 @@ You can download the build on our website. Later it will also be available on th
 
 We revamped the Scale feature and moved it from the context toolbar to the main toolbar. You no longer need to define the required scale percentage. Simply select an object, click ![Scale too icon](/public/scale-tool.png) on the toolbar (or press `K`) and drag the bounding box.
 
-With the Scale tool selected, you can edit any of the settings (say, width) in the Inspector. Press `Enter`, and Lunacy will scale all the other settings accordingly.
+With the Scale tool selected, you can edit any of the settings (say, width) in the Inspector. Then press `Enter`, and Lunacy will scale all the other settings accordingly.
 
 ![Using scale tool](/public/rn81-scaletool.png)
 
