@@ -40,7 +40,7 @@ page_nav:
 
 ## 8.1
 
-*Release date: December 28, 2021*
+*Release date: December 23, 2021*
 
 Download:
 
