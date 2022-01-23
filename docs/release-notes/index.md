@@ -97,7 +97,7 @@ To hide comments, click **Comments** once again.
 ![Color and font inspector](/public/cloudproto-rn.png)
 
 
-## Improvements
+### Improvements
 
 * Lunacy interface is now free of dialog boxes.
 * Layer sizes now appear below the bounding box.
