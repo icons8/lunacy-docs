@@ -38,6 +38,74 @@ page_nav:
 
 # Version 8
 
+
+
+## 8.2
+
+*Release date: January XX, 2022*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.1.0.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.1.0.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.1.0.0.deb)
+
+### Color variables
+
+Color variables let you efficiently manage colors in your documents and instantly recolor all the layers using the same color variable. You can apply color variables to fills, borders, and shadows.
+
+In the Inspector, color variables appear as colored circles (![color variable icon](/public/colorvariable_circle.png)), while regular fills, border and shadow colors appear as colored rectangles (![regular fill icon](/public/fill-rectangle.png)).
+
+To create a color variable:
+
+1.	Select a layer.
+2.	Invoke the Color Picker from the Inspector.
+3.	Set the required color.
+4.	Click **Create Color Variable**.
+
+To apply an existing color variable, select a layer, click ![4 dots icon](/public/4dotsicon.png) in the Inspector, then select the required color variable.
+
+To edit a color variable, click over the colored circle in the Inspector, then click ![4 dots icon](/public/settingsicon.png) > **Edit variable**.
+
+To detach a layer from a color variable, select the layer, then click ![4 dots icon](/public/detachicon.png) in the Inspector.
+
+![Color variables in Lunacy](/public/color_variables_rn.png)
+
+### Inspector of selected fonts and colors
+
+Now Lunacy displays all fonts and colors of currently selected layers in the Inspector. This lets you quickly view the font and color properties of a selection and edit them, if necessary.
+
+By clicking ![4 dots icon](/public/showfontorcoloricon1.png) next to color or font you can switch the selection to the layer(-s) using this color/font.
+
+![Color and font inspector](/public/colorfontinspector_rn.png)
+
+### Live updates and comments in cloud prototypes
+
+Cloud prototypes now automatically update as you edit the source cloud file. There’s no need to resend links to reviewers after edits. They will see all the changes in real-time.
+
+Also, now reviewers can exchange comments with the author of the prototype. To enable the comments mode, move the cursor to the top of the browser window and click **Comments** on the toolbar that will show up.
+
+**Note:** *To post or reply to a comment you’ve got to log in first. For this, use the **Log in** button on the toolbar.*
+
+To leave a new comment, enable the comments mode, then click over the area on the prototype that you want to comment.
+
+To reply to a comment, click over it, type your message and click the send icon.
+
+To hide comments, click **Comments** once again.
+
+
+![Color and font inspector](/public/cloudproto-rn.png)
+
+
+## Improvements
+
+* Lunacy interface is now free of dialog boxes.
+* Layer sizes now appear below the bounding box.
+* Live editing of layer and text styles. You no longer need to click **Save** to apply changes.
+* Feedback panel with messaging history.
+* Redesigned user profile page.
+
+
 ## 8.1
 
 *Release date: December 28, 2021*
