@@ -39,6 +39,7 @@ page_nav:
 # Version 8
 
 
+<!--
 
 ## 8.2
 
@@ -105,6 +106,7 @@ To hide comments, click **Comments** once again.
 * Feedback panel with messaging history.
 * Redesigned user profile page.
 
+-->
 
 ## 8.1
 
