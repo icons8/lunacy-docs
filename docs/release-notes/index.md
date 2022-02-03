@@ -38,6 +38,23 @@ page_nav:
 
 # Version 8
 
+## 8.2.1 hotfix
+
+*Release date: February 3, 2022*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.2.1.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.2.1.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.2.1.0.deb)
+
+### Fixes
+
+* Fix of high CPU usage on using Google Fonts.
+* Fix broken local prototypes in Ms Store app build.
+* Fix crash on linux on loading system fonts.
+
+*PS: App Store 8.2 builds are stuck in submission. Stay tuned. We're working on this.*
 
 ## 8.2
 
