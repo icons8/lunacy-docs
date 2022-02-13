@@ -70,13 +70,7 @@ All these is detailed in the sections below. Also, here you will learn how to pr
     <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
 </div>
 
-<!--
 
-
-**Tip:** You can also use Sketch Cloud for saving you projects and sharing them with other people. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.
-
-
--->
 
 ## Important notices
 
