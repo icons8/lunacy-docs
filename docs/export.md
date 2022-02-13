@@ -65,12 +65,6 @@ Moreover, within one export procedure you can get multiple files of different fo
 
 All these is detailed in the sections below. Also, here you will learn how to print your designs and how to get CSS, XAML and SVG code of your designs.
 
-<div class="callout callout--info">
-    <p><strong>Tip:</strong> You can also use Sketch Cloud for saving you projects and sharing them with other people. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
-</div>
-
-
 
 ## Important notices
 
