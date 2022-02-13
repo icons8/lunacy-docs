@@ -72,7 +72,9 @@ All these is detailed in the sections below. Also, here you will learn how to pr
 
 <!--
 
+
 **Tip:** You can also use Sketch Cloud for saving you projects and sharing them with other people. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.
+
 
 -->
 
@@ -227,7 +229,11 @@ To export a project:
 
 You can upload your designs to our Cloud and instantly share them with other people. Once the export procedure is complete, Lunacy returns you a link(s) to the cloud file(s) which you can send to your team or customer.
 
+<!--
+
 >**Note:** Do not confuse Icons8 Cloud and Sketch Cloud. Lunacy also supports the latter, but these are two different clouds. For details about working with Sketch Cloud, read <a href="https://docs.icons8.com/cloud" target="_blank">here</a>.
+
+-->
 
 You can export to cloud:
 
