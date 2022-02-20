@@ -38,6 +38,50 @@ page_nav:
 
 # Version 8
 
+<!--
+
+## 8.3
+
+*Release date: February XX, 2022*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.2.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.2.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.2.0.deb)
+
+### Easier component state management
+
+The Inspector panel now features the **Component** section, so it has become way easier to manage components and their states.
+
+To create a component, select a layer or a group of layers, and click `+` next to the **Component** section. Lunacy will create a component with a default state.
+
+To add a new component state, select a component and click `+` next to any available state. The component edit view will show up. Make the required changes, then press Esc or click over the canvas anywhere beyond the component to exit the edit mode.
+
+To switch between states, select a component, then select the required state in the Inspector.
+
+For other actions, use the respective controls at the bottom of the **Component** section
+
+### Improvements
+
+* Comments are now available only in cloud documents.
+* You can now click through empty pixels in groups and images with transparent backgrounds. It means that it has become easier to select layers under such elements.
+* Now, when you draw artboards and shapes or create a text block, you immediately see the artboards, shapes, and text, not their contours.
+* Lunacy now automatically adjusts the font size depending on the size of a text block. 
+* Now, when you create a text box, Lunacy automatically sets the text color to black or white depending on the background color.
+* We removed the **Zoom** tool and added the **Hand** tool to the toolbar.
+* Now, when you duplicate a main component, Lunacy creates an instance of the component, not a new main component.
+* Now Lunacy synchronizes some of your settings across different devices. These include the theme (dark or light), artboard presets, custom palettes, and other settings.
+* Improved UI for sharing cloud documents.
+* Minor UI and other improvements.
+
+
+### Fixed bugs
+
+* Numerous bug fixes.
+
+-->
+
 ## 8.2.1 hotfix
 
 *Release date: February 3, 2022*
@@ -48,11 +92,11 @@ Download:
 * <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.2.1.dmg)
 * <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.2.1.deb)
 
-### Fixes
+### Fixed issues
 
-* Fix of high CPU usage on using Google Fonts.
-* Fix broken local prototypes in Ms Store app build.
-* Fix crash on linux on loading system fonts.
+* High CPU usage on using Google Fonts.
+* The issue with local prototypes in the MS Store build.
+* Crashes on Linux upon loading system fonts.
 
 *PS: App Store 8.2 builds are stuck in submission. Stay tuned. We're working on this.*
 
