@@ -60,16 +60,18 @@ To add a new component state, select a component and click `+` next to any avail
 
 To switch between states, select a component, then select the required state in the Inspector.
 
-For other actions, use the respective controls at the bottom of the **Component** section
+For other actions, use the respective controls at the bottom of the **Component** section.
+
+![Component state management](/public/rn83-componentstates.png)
 
 ### Improvements
 
 * Comments are now available only in cloud documents.
-* You can now click through empty pixels in groups and images with transparent backgrounds. It means that it has become easier to select layers under such elements.
+* You can now click through empty pixels in bounding boxes. It means that it has become easier to select underlying layers.
 * Now, when you draw artboards and shapes or create a text block, you immediately see the artboards, shapes, and text, not their contours.
 * Lunacy now automatically adjusts the font size depending on the size of a text block. 
 * Now, when you create a text box, Lunacy automatically sets the text color to black or white depending on the background color.
-* We removed the **Zoom** tool and added the **Hand** tool to the toolbar.
+* We removed the **Zoom** tool and added the **Hand** tool (`Z`) to the toolbar.
 * Now, when you duplicate a main component, Lunacy creates an instance of the component, not a new main component.
 * Now Lunacy synchronizes some of your settings across different devices. These include the theme (dark or light), artboard presets, custom palettes, and other settings.
 * Improved UI for sharing cloud documents.
