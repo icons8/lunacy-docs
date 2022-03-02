@@ -38,17 +38,15 @@ page_nav:
 
 # Version 8
 
-<!--
-
 ## 8.3
 
-*Release date: February XX, 2022*
+*Release date: March 2, 2022*
 
 Download:
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.2.0.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.2.0.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.2.0.deb)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.3.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.3.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.3.0.deb)
 
 ### Easier component state management
 
@@ -82,7 +80,6 @@ For other actions, use the respective controls at the bottom of the **Component*
 
 * Numerous bug fixes.
 
--->
 
 ## 8.2.1 hotfix
 
