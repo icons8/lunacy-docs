@@ -38,6 +38,21 @@ page_nav:
 
 # Version 8
 
+## 8.3.1 hotfix
+
+*Release date: February 11, 2022*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.3.1.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.3.1.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.3.1.deb)
+
+### Fixed issues
+
+* Cloud documents access issues fixed
+
+
 ## 8.3
 
 *Release date: March 2, 2022*
@@ -97,7 +112,6 @@ Download:
 * The issue with local prototypes in the MS Store build.
 * Crashes on Linux upon loading system fonts.
 
-*PS: App Store 8.2 builds are stuck in submission. Stay tuned. We're working on this.*
 
 ## 8.2
 
