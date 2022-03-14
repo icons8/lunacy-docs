@@ -61,7 +61,7 @@ Lunacy is integrated with the <a href="https://icons8.com/upscaler" target="_bla
 
 When editing typography settings you don't need to select a word or the whole text to make it bold, italicized or whatever. Just set the caret inside a word or at the end of the text and apply the required setting. In the latter case, the setting will be applied to the whole text.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_formatting_tips.png" height="auto"><source src="/public/text_formatting_tips.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="60%" poster="/public/text_formatting_tips.png" height="auto"><source src="/public/text_formatting_tips.mp4" type="video/mp4"></video>
 
 
 
