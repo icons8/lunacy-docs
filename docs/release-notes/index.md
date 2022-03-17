@@ -38,6 +38,8 @@ page_nav:
 
 # Version 8
 
+<!--
+
 ## 8.4
 
 
@@ -86,7 +88,7 @@ To jump to the target layer, hover the mouse over the linked layer, press down `
 * Shadows and blurs now appear in the Effects section of the Inspector.
 * Auto-fix feature. It tries to fix corrupted .sketch files on opening.
 
-
+-->
 
 ## 8.3.1 hotfix
 
