@@ -84,7 +84,7 @@ To jump to the target layer, hover the mouse over the linked layer, press down `
 
 * Improved comments synchronization between cloud prototypes and the app.
 * Now, Lunacy remembers the latest font color that you used and applies to new text blocks. And only if the color of the background where you place a new text block doesn’t ensure proper readability, Lunacy will use black or white font color.
-* Now, if you enable a shape tool (rectangle, ellipse, triangle, etc.) and click over the canvas, Lunacy creates a shape with the default size of 100x100px and 100px for lines and arrows.
+* Now, if you enable a shape tool (rectangle, ellipse, triangle, etc.) and click over the canvas, Lunacy creates a shape with the default size of 100x100px and 100px for lines and arrows. The default artboard size is 375x812px.
 * Shadows and blurs now appear in the Effects section of the Inspector.
 * Auto-fix feature. It tries to fix corrupted .sketch files on opening.
 
