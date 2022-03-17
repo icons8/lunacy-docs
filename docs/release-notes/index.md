@@ -38,6 +38,55 @@ page_nav:
 
 # Version 8
 
+## 8.4
+
+*Release date: March XX, 2022*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.3.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.3.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.3.0.deb)
+
+### Redesigned context menu
+
+Context menu has become more compact and easier to use. The most popular commands (Copy, Paste, Lock, and other) now appear as buttons. Depending on how the menu shows up on the canvas (down- or upwards), the button bar appears at the top or the bottom of the menu so that it is close to the mouse pointer.
+
+Also, the context menu now features the **Move to Page** option that lets you quickly move layers between document pages.
+
+![Redesigned context menu](/public/rn84contextmenu.png)
+
+### Track viewport mode
+
+Now, you can use the Track Viewport mode in the Layer List to view only the layers that you currently see on the canvas. To enable/disable the mode, click ![Track viewport mode icon](/public/rn84treetrack.png)  in the **Search field** above the Layers List.
+
+![Track viewport mode](/public/rn84trackviewportmode.png)
+
+### Setting hyperlinks to layers
+
+You can now set hyperlinks to any layer in your file and quickly jump to this layer from any place in the document. Even if the linked layer is on the other page of the document. You can use this feature, for example, to ensure navigation in large files.
+
+**How it works:**
+
+1. Right-click the target layer.
+2. In the context menu, click **Copy/Paste as** > **Copy link**.
+3. Select the layer that will lead to the target layer.
+4. Press `F2` (rename) and paste the link instead of the current layer name.
+To jump to the target layer, hover the mouse over the linked layer, press down `Ctrl` (`⌘`) and click. If the linked layer is locked, pressing down `Ctrl` (`⌘`) is not necessary.
+
+![Setting links to layers](/public/rn84links.png)
+
+
+### Improvements
+
+* Improved comments synchronization between cloud prototypes and the app.
+* Now, Lunacy remembers the latest font color that you used and applies to new text blocks. And only if the color of the background where you place a new text block doesn’t ensure proper readability, Lunacy will use black or white font color.
+* Now, if you enable a shape tool (rectangle, ellipse, triangle, etc.) and click over the canvas, Lunacy creates a shape with the default size of 100x100px and 100px for lines and arrows.
+* Shadows and blurs now appear in the Effects section of the Inspector.
+* Auto-fix feature. It tries to fix corrupted .sketch files on opening.
+
+
+
 ## 8.3.1 hotfix
 
 *Release date: February 11, 2022*
