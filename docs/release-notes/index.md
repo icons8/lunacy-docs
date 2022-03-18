@@ -38,18 +38,16 @@ page_nav:
 
 # Version 8
 
-<!--
-
 ## 8.4
 
 
-*Release date: March XX, 2022*
+*Release date: March 18, 2022*
 
 Download:
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.3.0.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.3.0.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.3.0.deb)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.4.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.4.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.4.0.deb)
 
 ### Redesigned context menu
 
@@ -88,7 +86,7 @@ To jump to the target layer, hover the mouse over the linked layer, press down `
 * Shadows and blurs now appear in the Effects section of the Inspector.
 * Auto-fix feature. It tries to fix corrupted .sketch files on opening.
 
--->
+
 
 ## 8.3.1 hotfix
 
@@ -103,6 +101,7 @@ Download:
 ### Fixed issues
 
 * Cloud documents access issues fixed
+
 
 
 ## 8.3
