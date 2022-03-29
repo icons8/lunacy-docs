@@ -38,8 +38,24 @@ page_nav:
 
 # Version 8
 
-## 8.4
 
+## 8.4.1 hotfix
+
+*Release date: March 28, 2022*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.4.1.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.4.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.4.0.deb)
+
+### Fixed issues
+
+* Fixed GPU acceleration on Windows
+
+
+
+## 8.4
 
 *Release date: March 18, 2022*
 
