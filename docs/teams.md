@@ -26,7 +26,7 @@ page_nav:
 
 Teams serve to make it easier for you to manage collaborative files and people who have access to them.
 
-In version 8.5 you'll be able to try out how teams work on a free plan. In upcoming versions, we'll add some paid plans that will provide more opportunities and less limitations.
+In version 8.5, you'll be able to try out how teams work on a free plan. In upcoming versions, we'll add some paid plans that will provide more opportunities and less limitations.
 
 How it works with the free plan:
 
@@ -38,6 +38,10 @@ How it works with the free plan:
 Note that you can still share cloud files with other users as you did it earlier, before we introduced teams.
 
 ## Creating a team
+
+![Creating a team](public/teams-add.png)
+
+
 
 To create a team:
 
@@ -138,7 +142,11 @@ This tab is available only for users with the owner and admin roles. Here you ca
 
 To delete a team, right-click the team name on the left panel of the **Home** tab, then click **Delete** on the menu. Note that this operation is accessible only to the team owner.
 
+
+
+
 Upon deletion:
 * All the documents associated with the team will move to **Home** > **Deleted**.
 * The name of the team appears dimmed in the left menu of the **Home** tab. A right-click over a deleted team invokes the context menu that lets you either permanently delete the team or restore it.
 
+![Context menu over a deleted team](public/teams-delteam.png)
