@@ -58,7 +58,11 @@ The user who created a team is a **team owner**.
 
 To manage a team, switch to the **Home** tab, then click the required team name in the left panel. The team screen appears.
 
-Each team screen features three tabs: [Projects](#projects), [Members](#members), and [Settings](#settings).
+Each team screen features three tabs:
+
+* [Projects](#projects)
+* [Members](#members)
+* [Settings](#settings)
 
 ### [Projects](#projects)
 
@@ -97,7 +101,7 @@ To delete a project:
 
 On this tab, you can:
 
-* Get invite links (1) for new members.
+* Get links to invite new members (1).
 * Manage team members and their roles (2).
 * Delete team members (3).
 
