@@ -129,11 +129,12 @@ The table below shows the differences between user roles.
 | View list of team members |+ | + | + | + | + |
 | View list of projects | + | + |  + | + | + |
 | Create project |+ | + | +  |  |  |
-| Rename project |+ | + | if creator  |  |  |
-| Delete project |+ | + | if creator  |  |  |
+| Rename project |+ | + | +  |  |  |
+| Delete project |+ | + | +  |  |  |
 | View list of documents | + | + |  + | + | + |
 | Create document |+ | + | +  |  |  |
-| Delete document |+ | + | if creator  |  |  |
+| Rename document |+ | + | +  |  |  |
+| Delete document |+ | + | +  |  |  |
 | Leave team |  | + |  + | + | + |
 
 
