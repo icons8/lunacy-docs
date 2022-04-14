@@ -138,6 +138,10 @@ The table below shows the differences between user roles.
 
 This tab is available only for users with the owner and admin roles. Here you can change the team name and avatar.
 
+![Settings tab](public/teams-settings.png)
+
+
+
 ## Deleting a team
 
 To delete a team, right-click the team name on the left panel of the **Home** tab, then click **Delete** on the menu. Note that this operation is accessible only to the team owner.
