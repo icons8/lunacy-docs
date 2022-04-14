@@ -78,7 +78,7 @@ Now you can add files to the project. You can create new files or import existin
 
 The figure below shows a view of the **Projects** tab with three projects.
 
-![Team projects tab](public/teams-prjectstab1.png)
+![Team projects tab](public/teams-prjectstab2.png)
 
 To delete a file from a project:
 
