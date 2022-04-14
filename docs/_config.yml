@@ -29,8 +29,6 @@ doks:
       url: '/images'
     - title: 'Export'
       url: '/export'
-    - title: 'Teams'
-      url: '/teams'
     - title: 'Prototyping'
       url: '/prototyping'
     - title: 'Tips and Tricks'
