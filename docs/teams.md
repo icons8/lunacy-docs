@@ -91,7 +91,11 @@ To delete a project:
 
 ### Members
 
-On this tab, you can get invite links (1) for new members, manage team members and their roles (2), , delete team members (3).
+On this tab, you can:
+
+* Get invite links (1) for new members.
+* Manage team members and their roles (2)
+* Delete team members (3).
 
 ![Team members tab](public/teams-members1.png)
 
@@ -134,5 +138,7 @@ This tab is available only for users with the owner and admin roles. Here you ca
 
 To delete a team, right-click the team name on the left panel of the **Home** tab, then click **Delete** on the menu. Note that this operation is accessible only to the team owner.
 
-Upon deletion all the documents associated with the team will move to **Home** > **Deleted**.
+Upon deletion:
+* All the documents associated with the team will move to **Home** > **Deleted**.
+* The name of the team appears dimmed in the left menu of the **Home** tab. A right-click over a deleted team invokes the context menu that lets you either permanently delete the team or restore it.
 
