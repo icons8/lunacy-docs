@@ -58,9 +58,9 @@ The user who created a team is a **team owner**.
 
 To manage a team, switch to the **Home** tab, then click the required team name in the left panel. The team screen appears.
 
-Each team screen features three tabs: **Projects**, **Members**, and **Settings**.
+Each team screen features three tabs: [Projects](#projects), [Members](#members), and [Settings](#settings).
 
-### Projects
+### [Projects](#projects)
 
 On this tab, you will keep your team files organized in projects. You can think of projects as of folders. To start creating team files, you should have at least one project.
 
@@ -93,12 +93,12 @@ To delete a project:
     <p><strong>Note:</strong> Not all users can delete documents and projects. For details, check out the table below.</p>
 </div>
 
-### Members
+### [Members](#members)
 
 On this tab, you can:
 
 * Get invite links (1) for new members.
-* Manage team members and their roles (2)
+* Manage team members and their roles (2).
 * Delete team members (3).
 
 ![Team members tab](public/teams-members1.png)
@@ -134,7 +134,7 @@ The table below shows the differences between user roles.
 
 
 
-### Settings
+### [Settings](#settings)
 
 This tab is available only for users with the owner and admin roles. Here you can change the team name and avatar.
 
