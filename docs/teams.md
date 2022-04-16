@@ -85,7 +85,7 @@ To delete a documents from a project:
 1. Right-click the documents. The context menu shows up.
 2. On the menu, click **Delete**.
 
-Deleted documentes move to the **Deleted** screen of the **Home** tab. There you can restore or permanently delete documents. 
+Deleted documents move to the **Deleted** screen of the **Home** tab. There you can restore or permanently delete documents. 
 
 
 To delete a project:
