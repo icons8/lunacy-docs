@@ -36,8 +36,47 @@ page_nav:
 
 ---
 
+<!--
+
 # Version 8
 
+## 8.5
+
+*Release date: April XX, 2022*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.4.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.4.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.4.0.deb)
+
+### Teams
+
+Teams serve to make it easier for you to manage collaborative documents and people who have access to them.
+
+![Team projects tab](/public/teams-prjectstab2.png)
+
+In version 8.5, you'll be able to try out how teams work on a free plan. In upcoming versions, we'll add some paid plans that will provide more opportunities and less limitations.
+
+How it works with the free plan:
+
+* To work with teams, you need to sign in to your Icons8 account.
+* You can create one team and invite two more members to the team.Thus, a free team can include up to 3 members. A user can be a member of one free team only.
+* You should use projects to organize team documents. Think of projects as of folders. All the documents within team projects automatically become available to the team members.
+* The total number of documents across all projects of a free team cannot exceed ten.
+
+For details, about teams read <a href="https://docs.icons8.com/teams/" target="_blank">here</a>.
+
+Note that you can still share cloud documents with other users as you did it earlier, before we introduced teams.
+
+
+### Improvements
+
+* Cross-region collaboration. Now you can work with documents created in other server regions.
+* Performance improvements.
+* Support for right-to-left languages in the user interface.
+
+-->
 
 ## 8.4.1 hotfix
 
