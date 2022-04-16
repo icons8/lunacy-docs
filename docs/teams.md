@@ -24,7 +24,7 @@ page_nav:
 
 ## Overview
 
-Teams serve to make it easier for you to manage collaborative files and people who have access to them.
+Teams serve to make it easier for you to manage collaborative documents and people who have access to them.
 
 In version 8.5, you'll be able to try out how teams work on a free plan. In upcoming versions, we'll add some paid plans that will provide more opportunities and less limitations.
 
@@ -32,10 +32,10 @@ How it works with the free plan:
 
 * To work with teams, you need to sign in to your Icons8 account.
 * You can create one team and invite two more members to the team.Thus, a free team can include up to 3 members. A user can be a member of one free team only.
-* You should use projects to organize team files. Think of projects as of folders. All the files within team projects automatically become available to the team members.
-* The total number of files across all projects of a free team cannot exceed ten.
+* You should use projects to organize team documents. Think of projects as of folders. All the documents within team projects automatically become available to the team members.
+* The total number of documents across all projects of a free team cannot exceed ten.
 
-Note that you can still share cloud files with other users as you did it earlier, before we introduced teams.
+Note that you can still share cloud documents with other users as you did it earlier, before we introduced teams.
 
 ## Creating a team
 
@@ -66,7 +66,7 @@ Each team screen features three tabs:
 
 ### [Projects](#projects)
 
-On this tab, you will keep your team files organized in projects. You can think of projects as of folders. To start creating team files, you should have at least one project.
+On this tab, you will keep your team documents organized in projects. You can think of projects as of folders. To start creating team documents, you should have at least one project.
 
 To create a project:
 
@@ -74,22 +74,22 @@ To create a project:
 2. In the top-right corner of the screen, click **New Project**.
 3. Define the project name on the displayed screen.
 
-Now you can add files to the project. You can create new files or import existing .sketch files. For this, use the respective buttons that appear in the top-right corner when you're inside a project.
+Now you can add documents to the project. You can create new documents or import existing .sketch files. For this, use the respective buttons that appear in the top-right corner when you're inside a project.
 
 The figure below shows a view of the **Projects** tab with three projects.
 
 ![Team projects tab](public/teams-prjectstab2.png)
 
-To delete a file from a project:
+To delete a documents from a project:
 
-1. Right-click the file. The context menu shows up.
+1. Right-click the documents. The context menu shows up.
 2. On the menu, click **Delete**.
 
-Deleted files move to the **Deleted** screen of the **Home** tab. There you can restore or permanently delete files. 
+Deleted documentsles move to the **Deleted** screen of the **Home** tab. There you can restore or permanently delete documents. 
 
 
 To delete a project:
-1. Delete all files from the project first.
+1. Delete all documents from the project first.
 2. On the left menu of the **Home** tab, right-click over the project you're going to delete. The context menu shows up.
 3. On the menu, click **Delete**.
 
@@ -107,12 +107,14 @@ On this tab, you can:
 
 ![Team members tab](public/teams-members1.png)
 
-To get an invite link, click **Invite user** in the top-right corner of the screen. The link gets copied to your clipboard. Once a user opens the link, their avatar appears on the **Members** tab and you can assign the required user role:
+To get an invite link, click **Invite user** in the top-right corner of the screen. The link gets copied to your clipboard, and a new record appears in the table of team members. Until the invitee opens opens the link, you'll see the *Invite pending* caption instead of the username.  Use the drop-down list in the **Role** column, to assign the required user role:
 
-* **Viewer** (can view). The role assigned by default to all users joining a team via an invite link. Users with this role can only view the content of team files.
-* **Exporter** (can export). This role is intended for developer handoff. Users with this role can view designs, inspect layer properties in the left panel, and export file content.
-* **Editor** (can edit). Users with this role can create and edit files within the team. But they don't have some administrative privileges.
+* **Viewer** (can view). The role assigned by default to all users joining a team via an invite link. Users with this role can only view the content of team documents.
+* **Developer** (can export). This role is intended for developer handoff. Users with this role can view designs, inspect layer properties in the left panel, and export document content.
+* **Editor** (can edit). Users with this role can create and edit documents within the team. But they don't have some administrative privileges.
 * **Admin**. Team administrators get the extended set of privileges.
+
+Once a user opens the link, their username and avatar appear on the **Members** tab. You can view team members' profiles by right-clicking their avatars.
 
 The table below shows the differences between user roles.
 
@@ -155,7 +157,9 @@ To delete a team, right-click the team name on the left panel of the **Home** ta
 
 
 Upon deletion:
-* All the documents associated with the team will move to **Home** > **Deleted**.
+* All the documents associated with the team move to **Home** > **Deleted**.
+* Team members no longer have access to the documents.
 * The name of the team appears dimmed in the left menu of the **Home** tab. A right-click over a deleted team invokes the context menu that lets you either permanently delete the team or restore it.
+
 
 ![Context menu over a deleted team](public/teams-delteam.png)
