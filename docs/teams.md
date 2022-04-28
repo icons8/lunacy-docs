@@ -39,7 +39,7 @@ Note that you can still share cloud documents with other users as you did it ear
 
 ## Creating a team
 
-![Creating a team](public/teams-add.png)
+![Creating a team](public/teams-add1.png)
 
 
 
@@ -105,7 +105,7 @@ On this tab, you can:
 * Manage team members and their roles (2).
 * Delete team members (3).
 
-![Team members tab](public/teams-members1.png)
+![Team members tab](public/teams-members2.png)
 
 To get an invite link, click **Invite user** in the top-right corner of the screen. The link gets copied to your clipboard, and a new record appears in the table of team members. Until the invitee opens opens the link, you'll see the *Invite pending* caption instead of the username.  Use the drop-down list in the **Role** column, to assign the required user role:
 
@@ -145,7 +145,7 @@ The table below shows the differences between user roles.
 
 This tab is available only for users with the owner and admin roles. Here you can change the team name and avatar.
 
-![Settings tab](public/teams-settings.png)
+![Settings tab](public/teams-settings1.png)
 
 
 
