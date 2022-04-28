@@ -162,4 +162,4 @@ Upon deletion:
 * The name of the team appears dimmed in the left menu of the **Home** tab. A right-click over a deleted team invokes the context menu that lets you either permanently delete the team or restore it.
 
 
-![Context menu over a deleted team](public/teams-delteam.png)
+![Context menu over a deleted team](public/teams-delteam2.png)
