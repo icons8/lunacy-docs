@@ -78,7 +78,7 @@ Now you can add documents to the project. You can create new documents or import
 
 The figure below shows a view of the **Projects** tab with three projects.
 
-![Team projects tab](public/teams-prjectstab2.png)
+![Team projects tab](public/teams-prjectstab3.png)
 
 To delete a documents from a project:
 
