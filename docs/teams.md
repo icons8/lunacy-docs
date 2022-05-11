@@ -76,7 +76,7 @@ To create a project:
 
 Now you can add documents to the project. You can create new documents or import existing .sketch files. For this, use the respective buttons that appear in the top-right corner when you're inside a project.
 
-The figure below shows a view of the **Projects** tab with three projects.
+The figure below shows a view of the **Projects** tab.
 
 ![Team projects tab](public/teams-prjectstab3.png)
 
