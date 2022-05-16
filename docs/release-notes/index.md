@@ -52,7 +52,7 @@ Download:
 
 Teams serve to make it easier for you to manage collaborative documents and people who have access to them.
 
-![Team projects tab](/public/teams-prjectstab2.png)
+![Team projects tab](/public/teams-prjectstab3.png)
 
 In version 8.5, you'll be able to try out how teams work on a free plan. In upcoming versions, we'll add some paid plans that will provide more opportunities and less limitations.
 
