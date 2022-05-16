@@ -40,7 +40,7 @@ page_nav:
 
 ## 8.5
 
-*Release date: May 18, 2022*
+*Release date: May 16, 2022*
 
 Download:
 
