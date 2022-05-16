@@ -69,6 +69,10 @@ grid_navigation:
       excerpt: Learn how to build prototypes in Lunacy
       url: '/prototyping'
       icon: 'tree-structure'
+      - title: 'Teams'
+      excerpt: Learn how to organize teamwork
+      url: '/teams'
+      icon: 'team'
     - title: 'Tips and Tricks'
       excerpt: 'A chapter for those who do not read docs'
       url: '/tips'

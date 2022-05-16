@@ -20,8 +20,8 @@ page_nav:
         url: '/shortcuts'
     
     prev:
-        content: Prototyping
-        url: '/prototyping'
+        content: Teams
+        url: '/teams'
 ---
 
 

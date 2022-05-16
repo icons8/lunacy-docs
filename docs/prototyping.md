@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Tips and Tricks
-        url: '/tips'
+        content: Teams
+        url: '/teams'
     prev:
         content: Export
         url: '/export'

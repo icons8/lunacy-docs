@@ -31,6 +31,8 @@ doks:
       url: '/export'
     - title: 'Prototyping'
       url: '/prototyping'
+    - title: 'Teams'
+      url: '/teams'
     - title: 'Tips and Tricks'
       url: '/tips'
     - title: 'Shortcuts'

@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
+        content: Tips and tricks
+        url: '/tips'
+    prev:
         content: Prototyping
         url: '/prototyping'
-    prev:
-        content: Export
-        url: '/export'
 ---
 
 ## Overview
