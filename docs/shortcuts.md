@@ -45,7 +45,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Copy |`Ctrl+C` | `⌘ C` |
 | Cut |`Ctrl+X` | `⌘ X` |
 | Paste |`Ctrl+V` | `⌘ V` |
-| Export in PNG to Icons8 Cloud, copy URL to clipboard |`Ctrl+C, C` | `⌥ C C` |
+| Export in PNG to Icons8 Cloud, copy URL to clipboard |`Alt+C+С` | `⌥ C C` |
 | Copy Style |`Ctrl+Alt+C` | `⌥ ⌘ C` |
 | Paste Style |`Ctrl+Alt+V` | `⌥ ⌘ C` |
 | Undo |`Ctrl+Z`  | `⌘ Z` |
