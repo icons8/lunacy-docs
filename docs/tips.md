@@ -31,7 +31,7 @@ Lunacy has a lot of small but very useful features that can ease your life or si
 
 ## Sharing your designs via Icons8 Cloud
 
-The `Alt+С + C` shortcut allows you to instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away.
+The `Alt+С + C` (`⌥ C C`) shortcut lets you instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-altccph.png" height="auto"><source src="/public/tips-altcc.mp4" type="video/mp4"></video>
 
