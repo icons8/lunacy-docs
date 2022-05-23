@@ -27,7 +27,7 @@ page_nav:
 Lunacy runs on the following operating systems:
 
 * Windows 10, 11
-* macOS X v.10.12 or later
+* macOS X v.10.14 or later
 * Linux: Debian-based non-Asian versions
 
 
