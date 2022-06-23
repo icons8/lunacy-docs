@@ -112,13 +112,10 @@ The table below provides an overview of the controls and their shortcuts.
       <td><a href="https://docs.icons8.com/tools/#eyedropper-tool">Eyedropper tool</a>. Serves for sampling colors.</td>
       <td><code>I</code></td>
     </tr>
-    <tr>
-      <td><img src="/public/tool-zoomicon.png" alt="Zoom tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#zoom-tool">Zoom tool</a>. Serves for zooming in the selected object or canvas area.</td>
-      <td><code>Z</code></td>
-    </tr>
   </tbody>
 </table>
+
+There is also a [zoom tool](#zoom-tool). It serves for zooming in and out the selected object or canvas area. It does not appear on the toolbar. To enable the zoom tool, hold down `Z`.  
 
 For details about using the tools, read further.
 
@@ -583,29 +580,35 @@ That is typically how all eyedroppers work in similar apps. But Lunacy's eyedrop
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/eyedropper3-placeholder.png" height="auto"><source src="/public/eyedropper3.mp4" type="video/mp4"></video>
 
-### How Lunacy applies color to objects
+### How the eyedropper applies color to layers
 
-Depending on the styling properties of an object, Lunacy applies colors in the following order:
+Depending on the styling properties of a layer, the eyedropper applies colors in the following order:
 
 1. Fill
 2. Border
 3. Shadow
 4. Inner shadow
 
-So, if an object has a fill and a border, Lunacy updates the fill. If an object has no fill, but has a border and a shadow, Lunacy changes the border color and so on. If an object has several fills/borders/shadows/inner shadows, Lunacy applies the color to the one which sits at the top of the property list in the Inspector. Similar rules apply to text objects where text color has top priority.
+So, if a layer has a fill and a border, the eyedropper updates the fill. If an object has no fill, but has a border and a shadow, the eyedropper changes the border color and so on. If an object has several fills (or borders/shadows/inner shadows), the eyedropper applies the color to the one which sits at the top of the property list in the Inspector.
+
+Similar rules apply to text layers where text color has top priority.
+
+<!--
 
 To demonstrate all this, in the figure below we applied the colors of the rectangles to the ellipses with different sets of styling properties.
 
 {:.is-big}
 ![Applying colors](public/eye-apply.png)
 
+
+
 ## Zoom tool
 
-The Zoom tool allows you to zoom in the selected object or canvas area. To use the tool:
+The Zoom tool enables you to zoom in the selected object or canvas area. To use the tool:
 
-1. Select the Zoom tool on the tool bar or press `Z`.
+1. Press and hold `Z`.
 2. Click the object you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be).
-3. To zoom out, hold down `Alt` and click or drag over the object or area.
+3. To zoom out, hold down `Z+Alt` and click or drag over the object or area.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom61.mp4" type="video/mp4"></video>
 
@@ -615,3 +618,5 @@ For your convenience, when the zoom value exceeds 500, Lunacy starts displaying 
 2. Deselect all objects on the canvas and clear the **Show pixel grid** checkbox that will appear in the Inspector.
 
 For information about other zooming options in Lunacy, read <a href="https://docs.icons8.com/interface/#zooming-options" target="_blank">here</a>.
+
+-->

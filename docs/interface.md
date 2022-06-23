@@ -382,6 +382,15 @@ For your convenience, when the zoom value exceeds 500, Lunacy starts displaying 
 
 For information about other zooming options, read below.
 
+#### The Zoom tool
+The Zoom tool enables you to zoom in the selected object or canvas area. To use the tool:
+
+1. Press and hold `Z`.
+2. Click the object you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be).
+3. To zoom out, hold down `Z+Alt` and click or drag over the object or area.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom61.mp4" type="video/mp4"></video>
+
 #### The Zoom control
 
 The zoom control is found on the right of the file tab panel. To change the zoom value, you can:
@@ -446,7 +455,11 @@ The above options are also accessible through the **View** menu, see the figure 
 
 ![Zoom tool](public/tool-zoommenu2.png)
 
+<!--
+
 Also, for zooming and focusing you can use the <a href="https://docs.icons8.com/tools/#zoom-tool" target="_blank">zoom tool</a>.
+
+-->
 
 #### [Show pixels on zoom](#show-pixels-on-zoom)
 
