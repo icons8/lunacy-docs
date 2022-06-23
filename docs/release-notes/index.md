@@ -115,7 +115,7 @@ You no longer need to struggle with the vector tool or tricky Boolean and flatte
 
 ### Sharing your Lunacy profile on the internet
 
-![sharing profile](/public/sharing_profile.png)
+![sharing profile](/public/sharing_profile2.png)
 
 
 Another way to share your portfolio. Your cloud documents now also show up on your profile page in Lunacy with the **Publish**/**Unpublish** button. You can send a link to your Lunacy profile to other people for them to view published files. For this: 
