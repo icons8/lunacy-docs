@@ -53,7 +53,7 @@ Download:
 ### Personal Cloud plan
 
 
-![personal cloud](/public/personal_cloud_plan.png)
+![personal cloud](/public/personal_cloud_plan2.png)
 
 
 We’re introducing a personal cloud subscription that will give you more freedom with cloud documents:
@@ -75,7 +75,7 @@ The statuses of your subscriptions now appear next to your username on the **Hom
 
 ### Version history
 
-![version history](/public/version_history.png)
+![version history](/public/version_history2.png)
 
 We added version history for cloud documents. Lunacy automatically saves file versions after a series of 100 user actions. Or you can save versions manually using the `Ctrl(⌘) + Alt + S` shortcut.
 To view a document version history, go to **File** > **Show version history**. The list of file versions opens in the right panel. Double-click the required version to open it. File versions open as local temporary files that you can save to any folder on your computer and then import back to the Cloud.
@@ -84,7 +84,7 @@ Free users can access up to 30 days of version history. To unlock the full histo
 
 ### Voice comments, stickers, and overall improvement of comments
 
-![voice comments and stickers](/public/rn-comments.png)
+![voice comments and stickers](/public/rn-comments2.png)
 
 * Now you can leave voice comments in cloud documents. For this, enable the comment tool (`C`), click ![microphone](/public/Microphone_Icon.png), say what you want to say, then click ![send](/public/Paper_Plane_Icon.png). And, of course, your computer microphone needs to be on and working.
 * You can now post stickers like *thumb up*, *thumb down*, *+1*, *heart*, and other instead of comments. Stickers show up right on the canvas. There’s no need to open comment bubbles, unless you want to post a reply. To post a sticker, enable the comment tool, click ![sticker icon](/public/sticker_icon.png) icon next to the comment entry field, and select the required sticker. You can also send stickers in replies to comments. 
@@ -94,7 +94,7 @@ Free users can access up to 30 days of version history. To unlock the full histo
 
 ### Pre-made palettes
 
-![palettes](/public/palettes.png)
+![palettes](/public/palettes2.png)
 
 
 When you create a document, Lunacy shows one of pre-set color palettes that you can use in your design. It appears in the right panel when nothing is selected on the canvas. If you don’t like the current palette, click ![refresh icon](/public/reset_icon.png) to choose the one that suits you best.
@@ -103,7 +103,7 @@ Note that palettes appear only in documents created in version 8.6 or higher.
 
 ### Shape cropping
 
-![shape cropping](/public/shape_cropping.png)
+![shape cropping](/public/shape_cropping2.png)
 
 
 You no longer need to struggle with the vector tool or tricky Boolean and flattening operations to get a half-circle or a part of another shape. With the shape cropper, you will do it in a couple of clicks:
