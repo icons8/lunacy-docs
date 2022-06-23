@@ -38,7 +38,7 @@ page_nav:
 
 # Version 8
 
-
+<!--
 
 ## 8.6
 
@@ -135,7 +135,7 @@ To remove documents from your online profile, simply unpublish them. By default,
 * **Better support**. We made some improvements to reduce your wait time for replies to your issue reports. 
 * **Performance improvements**.
 
-
+-->
 
 ## 8.5
 
