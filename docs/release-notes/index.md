@@ -38,6 +38,103 @@ page_nav:
 
 # Version 8
 
+
+## 8.6
+
+*Release date: June XX, 2022*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/LunacySetup_8.5.1.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.5.1.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lun-eu.icons8.com/s/setup/Lunacy_8.5.1.deb)
+
+### Personal Cloud plan
+
+
+![personal cloud](/public/personal_cloud_plan.png)
+
+
+We’re introducing a personal cloud subscription that will give you more freedom with cloud documents:
+
+* Unlimited number of cloud documents.
+* Unlimited number of collaborators instead of 10 on the free plan.
+* Unlimited document version history instead of 30 days on the free plan.
+* Unlimited storage period in the trash bin. 
+
+To subscribe to the Personal Cloud plan, go to **Home** > **Profile** > **Upgrade plan**.
+
+The statuses of your subscriptions now appear next to your username on the **Home** > **Profile page**.
+
+
+<div class="callout callout--warning">
+    <p>Now all deleted cloud documents get archived 30 days after deletion and cannot be restored.</p>
+</div>
+
+
+### Version history
+
+![version history](/public/version_history.png)
+
+We added version history for cloud documents. Lunacy automatically saves file versions after a series of 100 user actions. Or you can save versions manually using the `Ctrl(⌘) + Alt + S` shortcut.
+To view a document version history, go to **File** > **Show version history**. The list of file versions opens in the right panel. Double-click the required version to open it. File versions open as local temporary files that you can save to any folder on your computer and then import back to the Cloud.
+
+Free users can access up to 30 days of version history. To unlock the full history of any existing cloud file, subscribe to a Personal Cloud plan.
+
+### Voice comments, stickers, and overall improvement of comments
+
+![voice comments and stickers](/public/rn-comments.png)
+
+* Now you can leave voice comments in cloud documents. For this, enable the comment tool (`C`), click ![microphone](/public/Microphone_Icon.png), say what you want to say, then click ![send](/public/Paper_Plane_Icon.png). And, of course, your computer microphone needs to be on and working.
+* You can now post stickers like *thumb up*, *thumb down*, *+1*, *heart*, and other instead of comments. Stickers show up right on the canvas. There’s no need to open comment bubbles, unless you want to post a reply. To post a sticker, enable the comment tool, click ![sticker icon](/public/sticker_icon.png) icon next to the comment entry field, and select the required sticker. You can also send stickers in replies to comments. 
+* Now when you click with the comment tool over a certain layer, the added comment gets tied to the layer and moves with the layer, if you want to put it somewhere else on the canvas.
+* By default, comments are always visible on the canvas. To hide comments, click ![view](/public/nine_dots_icon.png) > **Comments** on the top bar.
+* To open/hide the list of all comments in the right panel, click ![send](/public/comments_icon.png) on the top bar.
+
+### Pre-made palettes
+
+![palettes](/public/palettes.png)
+
+
+When you create a document, Lunacy shows one of pre-set color palettes that you can use in your design. It appears in the right panel when nothing is selected on the canvas. If you don’t like the current palette, click ![refresh icon](/public/reset_icon.png) to choose the one that suits you best.
+
+Note that palettes appear only in documents created in version 8.6 or higher.
+
+### Shape cropping
+
+![shape cropping](/public/shape_cropping.png)
+
+
+You no longer need to struggle with the vector tool or tricky Boolean and flattening operations to get a half-circle or a part of another shape. With the shape cropper, you will do it in a couple of clicks:
+
+1. Select the required shape.
+2. Click the scissors icon on the context toolbar.
+3. Drag the borders of the frame to select the required area.
+4. Press `Enter` or click **Apply** editing in the right panel.
+
+### Sharing your Lunacy profile on the internet
+
+![sharing profile](/public/sharing_profile.png)
+
+
+Another way to share your portfolio. Your cloud documents now also show up on your profile page in Lunacy with the **Publish**/**Unpublish** button. You can send a link to your Lunacy profile to other people for them to view published files. For this: 
+
+1. Go to **Home** > **Profile** > ![show more icon](/public/three_dots_button.png) > **Web profile**. Your web profile will open in the browser.
+2. Copy the link to the profile in the address bar.
+3. Send the link by email or an instant messenger.
+
+If the link recipient doesn’t have Lunacy yet, they will be offered to install it.
+
+To remove documents from your online profile, simply unpublish them. By default, all cloud documents are unpublished.
+
+### Improvements
+
+* **Zoom tool is back**. It doesn’t show up on the toolbar, but you can enable it with the `Z` shortcut. To zoom in, hold down `Z` and click. To zoom out, hold down `Z+Alt` and click.
+* **Localization**. The names of layers in the Layer List now come in the language of the interface.
+* **Better support**. We made some improvements to reduce your wait time for replies to your issue reports. 
+* **Performance improvements**.
+
+
 ## 8.5
 
 *Release date: May 16, 2022*
@@ -111,7 +208,7 @@ Also, the context menu now features the **Move to Page** option that lets you qu
 
 ### Track viewport mode
 
-Now, you can use the Track Viewport mode in the Layer List to view only the layers that you currently see on the canvas. To enable/disable the mode, click ![Track viewport mode icon](/public/rn84treetrack.png)  in the **Search field** above the Layers List.
+Now, you can use the Track Viewport mode in the Layer List to view only the layers that you currently see on the canvas. To enable/disable the mode, click ![Track viewport mode icon](/public/rn84treetrack.png) in the **Search field** above the Layers List.
 
 ![Track viewport mode](/public/rn84trackviewportmode.png)
 
