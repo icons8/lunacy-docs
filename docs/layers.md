@@ -62,7 +62,7 @@ The Keyboard Shortcuts button
 
 There are two ways to select layers in Lunacy.
 
-**Way 1. Selecting objects in the Layer List**
+**Way 1. Selecting layers in the Layer List**
 
 To select an Layers through the **Layer List**, just find it in the list of layers and click it. To select multiple layers press down `Shift` or `Ctrl` while clicking.  
 
@@ -103,7 +103,7 @@ If the layer is a part of an artboard, **X** and **Y**  display the coordinates 
 
 ## Grouping layers
 
-You can combine together multiple layers relating to the same design element and then move and resize them as a single object. Also, layer grouping is a way to organize your **Layer List**, which in some projects can include hundreds of items or more. For this, you can create nested layer groups within other groups.
+You can combine together multiple layers relating to the same design element and then move and resize them as a single layer. Also, layer grouping is a way to organize your **Layer List**, which in some projects can include hundreds of items or more. For this, you can create nested layer groups within other groups.
 
 To create a group, select the layers that you want to group and click the **Group** button (![Group button](public/objects-groupbutton.png)) on the context toolbar or press `Ctrl+G`.
 
