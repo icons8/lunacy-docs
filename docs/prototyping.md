@@ -42,7 +42,7 @@ Prototyping is based on artboards. If you are planning to add prototyping to you
 
 The easiest way to create a prototype is to add a link between two artboards. The procedure is as follows:
 
-1. On the first artboard, select an object the user will interact with (say, a button).
+1. On the first artboard, select a layer the user will interact with (say, a button).
 2. In the Inspector panel, click + in the **Prototyping** section. A prototyping link appears.
 3. Point the cursor over the second artboard and click to set the link. To define the target artboard you can also use the **Target** dropdown list in the **Prototyping** section (see the demo below).
 
@@ -66,22 +66,22 @@ Resized artboards appear with the word *Resized* in the Inspector as shown in th
 
 ## [Hotspots](#hotspots)
 
-You can also use hotspots to create links between artboards. These are a special type of objects that allows you to create interactive zones anywhere on artboards.
+You can also use hotspots to create links between artboards. These are a special type of layers that lets you create interactive zones anywhere on artboards.
 
-Also, hotspots come in handy when the size of an element that you want to make clickable or tappable is too small for convenient use. By adding a hotspot you can enlarge interactive area around the object.
+Also, hotspots come in handy when the size of an element that you want to make clickable or tappable is too small for convenient use. By adding a hotspot you can enlarge interactive area around the layer.
 
 Moreover, you can use hotspots as parts of <a href="https://docs.icons8.com/components/" target="_blank">components</a> and override their targets as needed.
 
 To add a hotspot you can:
 
 * Use the <a href="https://docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspot tool</a>.
-* Select a linked object, then click ![Create hotspot icon](public/proto-hotspoticon.png) in the **Prototyping** section of the Inspector. This creates a hotspot of the same size as of the selection frame around the object. You can resize it by dragging handles, if necessary.
+* Select a linked layer, then click ![Create hotspot icon](public/proto-hotspoticon.png) in the **Prototyping** section of the Inspector. This creates a hotspot of the same size as of the selection frame around the layer. You can resize it by dragging handles, if necessary.
 
 The demo below show both these methods.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-hotspotph.png" height="auto"><source src="/public/proto-hotspot.mp4" type="video/mp4"></video>
 
-The next figure shows how hotspots and linked objects appear in the **Objects** panel.
+The next figure shows how hotspots and linked layers appear in the Layer list.
 
 ![Hide/Show hotspot button](public/proto-objectlist.png)
 
@@ -93,22 +93,22 @@ To delete a hotspot, select it and press`Del`.
 
 ## [Prototyping controls](#prototyping-controls)
 
-The figure below shows the controls that appear in the **Prototyping** section when you select a linked object or a hotspot.
+The figure below shows the controls that appear in the **Prototyping** section when you select a linked layer or a hotspot.
 
 ![Prototyping controls](public/proto-controls1.png)
 
-1. This icon appears only when you select a linked object. A click over the icon creates a hotspot over the object. See the [Hotspots](#hotspots) section above.
-2. The trash can icon. Discards prototyping setting for the selected object/Deletes the selected hotspot.
-3. A click over the arrow will bring you to the artboard which is set as target for the selected object.
-4. Use this drop-down list box to set the target artboard for the selected object (see the figure below). It shows the list of all artboards available in the document. If you have several pages in your document, the artboards will be organized by pages. It is OK, if interlinked artboards are on different pages. Also, the list features two more options:
+1. This icon appears only when you select a linked layer. A click over the icon creates a hotspot over the layer. See the [Hotspots](#hotspots) section above.
+2. The trash can icon. Discards prototyping setting for the selected layer/Deletes the selected hotspot.
+3. A click over the arrow will bring you to the artboard which is set as target for the selected layer.
+4. Use this drop-down list box to set the target artboard for the selected layer (see the figure below). It shows the list of all artboards available in the document. If you have several pages in your document, the artboards will be organized by pages. It is OK, if interlinked artboards are on different pages. Also, the list features two more options:
 
     * None - sets the zero target.
-    * Previous artboard - a click over the object with this option selected will bring you back to the previous view.
+    * Previous artboard - a click over the layer with this option selected will bring you back to the previous view.
 
     ![Prototyping controls](public/proto-target.png)
 
 5. These controls allow you to choose how the target artboard will show up on the screen during the preview.
-6. Select this checkbox, if you want the selected object to preserve its position when you scroll the screen (for instance, a floating button).
+6. Select this checkbox, if you want the selected layer to preserve its position when you scroll the screen (for instance, a floating button).
 7. With this checkbox selected, scrollable artboards will preserve their position during preview of the prototype. When you get back to the artboard, it will be in the same position as you've left it.
 
     With the clear checkbox, the artboard will always return to the top.
