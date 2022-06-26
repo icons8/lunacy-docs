@@ -39,7 +39,7 @@ The table below provides an overview of the controls and their shortcuts.
   <tbody>
     <tr>
       <td><img src="/public/tool-selecticon61.png" alt="Select tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#select-tool">Select tool</a>. Allows you to select, move and resize objects and object groups.</td>
+      <td><a href="https://docs.icons8.com/tools/#select-tool">Select tool</a>. Allows you to select, move and resize layers and layer groups.</td>
       <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
     </tr>
     <tr>
@@ -115,7 +115,7 @@ The table below provides an overview of the controls and their shortcuts.
   </tbody>
 </table>
 
-There is also a [zoom tool](#zoom-tool). It serves for zooming in and out the selected object or canvas area. It does not appear on the toolbar. To enable the zoom tool, hold down `Z`.  
+There is also a [zoom tool](#zoom-tool). It serves for zooming in and out the selected layer or canvas area. It does not appear on the toolbar. To enable the zoom tool, hold down `Z`.  
 
 For details about using the tools, read further.
 
@@ -123,38 +123,38 @@ For details about using the tools, read further.
 
 ## Select tool
 
-The Select tool is likely the tool that you will be using most often when working with Lunacy. It is the default tool which gets enabled, if no other tool is active. The Select tool allows you to select, move and resize objects and object groups.
+The Select tool is likely the tool that you will be using most often when working with Lunacy. It is the default tool which gets enabled, if no other tool is active. The Select tool allows you to select, move and resize layers and layer groups.
 
-In general, to select an object, just click over it. As you do it, a selection frame with handles appears around the object, and the object's name gets highlighted in the **Objects** panel. To select multiple objects, hold down the `Shift` key and click the objects you want to select. Alternatively, you can use the click-and-drag method for selecting objects. The demo below shows both methods of selecting objects.
+In general, to select a layer, just click over it. As you do it, a selection frame with handles appears around the layer, and the layer's name gets highlighted in the Layer List. To select multiple layers, hold down the `Shift` key and click the layers you want to select. Alternatively, you can use the click-and-drag method for selecting layers. The demo below shows both methods of selecting layers.
 
-To move the selected object(-s):
+To move the selected layer(-s):
 
-1. Point the cursor over the object or an object within a group (not over the empty space within the selection frame).
+1. Point the cursor over the layer or an layer within a group (not over the empty space within the selection frame).
 2. Move the selection to where you want it.
 
-To resize the selected object(-s) with the Select tool, drag the handles on the selection frame. As in all similar apps, use the `Shift` key and corner handles to preserve the aspect ratio of the  object you resize.
+To resize the selected layer(-s) with the Select tool, drag the handles on the selection frame. As in all similar apps, use the `Shift` key and corner handles to preserve the aspect ratio of the  layer you resize.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selecttool.mp4" type="video/mp4"></video>
 
-### Using the Select tool with grouped objects
+### Using the Select tool with grouped layers
 
-When you click or drag over a group of objects, you select the group. To select a certain object within a group:
+When you click or drag over a group of layers, you select the group. To select a certain layer within a group:
 
-* Hold down the `Ctrl` key and click over the required object.
+* Hold down the `Ctrl` key and click over the required layer.
   
   OR
-* Click to select the group, then double-click to select the object.
+* Click to select the group, then double-click to select the layer.
 
- After you select an object within a group, you can switch to other objects of that group by simply clicking them.
+ After you select a layer within a group, you can switch to other layers of that group by simply clicking them.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selectltoolgroup1.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> Alternatively, you can select objects through the <b>Objects</b> panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects.</p>
+    <p><strong>Tip:</strong> Alternatively, you can select layers through the <b>Layer List</b>. In some cases it may be more convenient. For instance, when handling fully overlapping layers.</p>
     <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
 </div>
 
-For details about working with objects, click <a href="https://docs.icons8.com/objects/" target="_blank">here</a>.
+For details about working with layers, click <a href="https://docs.icons8.com/layers/" target="_blank">here</a>.
 
 <!--
 
@@ -175,7 +175,7 @@ To add an artboard:
 ![Adding an artboard](public/tool-addatrboard.png)
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> If there are already some objects on the canvas and you decide to put them on an artboard, just drag the artboard tool over these objects.</p>
+    <p><strong>Tip:</strong> If there are already some layers on the canvas and you decide to put them on an artboard, just drag the artboard tool over these layers.</p>
     <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
 </div>
 
@@ -277,11 +277,11 @@ Don't worry if the resulting shape is not exactly what you wanted. You can alway
 For this:
 
 1. Select the shape.
-2. Click the **Edit object** button (![Edit object button](public/tools-editobjectbtn.png)) on the context tool bar or press `Enter`, to enable the edit mode.
+2. Click the **Edit Layer** button (![Edit object button](public/tools-editobjectbtn.png)) on the context tool bar or press `Enter`, to enable the edit mode.
 3. Make the required changes.
 4. To exit the edit mode, press `Esc` or click the canvas anywhere beyond the shape.
 
-In the demo below we added some curves to a heart-shaped object built with straight lines. Note how a double-click turns a straight point into a curved (mirrored) point. It works in the opposite way as well. For details about the types of points, read the subsection below.
+In the demo below we added some curves to a heart-shaped layer built with straight lines. Note how a double-click turns a straight point into a curved (mirrored) point. It works in the opposite way as well. For details about the types of points, read the subsection below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools-pentool3placeholder.png" height="auto"><source src="/public/tools-pentool31.mp4" type="video/mp4"></video>
 
@@ -306,7 +306,7 @@ And also, there are three subtypes of curved points. The difference between them
 * **Disconnected points** (3) have entirely independent handles.
 * **Asymmetric points** (4) come with handles that share the same angle but can have different lengths.  
 
-As it was mentioned earlier, to switch between straight and mirror points, you can use double-clicking. To get a disconnected or asymmetric point, use the controls that appear at the top of the Inspector when you draw with the pen or enable the object editing mode. The numbers in the figure below correspond to the numbers in the description of point types.
+As it was mentioned earlier, to switch between straight and mirror points, you can use double-clicking. To get a disconnected or asymmetric point, use the controls that appear at the top of the Inspector when you draw with the pen or enable the layer editing mode. The numbers in the figure below correspond to the numbers in the description of point types.
 
 ![Point type controls](public/tools-curvebuttons.png)
 
@@ -314,7 +314,7 @@ To better understand how it all works, see the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-curvesplaceholder.png" height="auto"><source src="/public/tools-curves.mp4" type="video/mp4"></video>
 
-For more information about editing vector objects, also read <a href="https://docs.icons8.com/editing/#vector-editing" target="_blank">here</a>.
+For more information about editing vector curves, also read <a href="https://docs.icons8.com/editing/#vector-editing" target="_blank">here</a>.
 
 ## Pencil tool
 
@@ -322,9 +322,9 @@ The Pencil is a tool for drawing freehand paths with a stylus or, having some sk
 
 If you are using the mouse, just hold down the left mouse button and draw the required path. Release the button when you are done.
 
-Unlike other tools that switch to the select mode right after you create an object, the Pencil tool allows you to create as many objects as you need. Each Pencil "stroke" adds a new object to the **Objects** panel. You can group them later.
+Unlike other tools that switch to the select mode right after you create an layer, the Pencil tool allows you to create as many layers as you need. Each Pencil "stroke" adds a new layer to the Layer List. You can group them later.
 
-The figure below shows two words *Lunacy* written with the Pencil tool. The top one is written in one stroke, while the bottom one is in a stroke per letter (grouped for convenience). See how they appear in the **Objects** panel.
+The figure below shows two words *Lunacy* written with the Pencil tool. The top one is written in one stroke, while the bottom one is in a stroke per letter (grouped for convenience). See how they appear in the Layer List.
 
 {:.is-big}
 ![Pencil tool](public/pencil-view2.png)
@@ -333,11 +333,11 @@ To exit the Pencil, press `Esc` or click the Select tool. When you exit the Penc
 
 ### Editing paths drawn with the Pencil
 
-Lunacy automatically smooths the paths that you create. But you can also edit pencil-drawn paths like all other vector paths: add, delete and move points, bend segments, etc. To switch to the edit mode, select the required path and press `Enter` or click the **Edit object** button at the top bar. To exit the edit mode, press `Esc` or click anywhere on the canvas beyond the selected object, see the demo below.
+Lunacy automatically smooths the paths that you create. But you can also edit pencil-drawn paths like all other vector paths: add, delete and move points, bend segments, etc. To switch to the edit mode, select the required path and press `Enter` or click the **Edit Layer** button at the top bar. To exit the edit mode, press `Esc` or click anywhere on the canvas beyond the selected layer, see the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/pencil-editplaceholder.png" height="auto"><source src="/public/tool-penciltool.mp4" type="video/mp4"></video>
 
-Finally, you can make use of such styling properties as borders, shadows, inner shadows and blurs. As for fills, you should remember that the Pencil always draws open paths, even if they appear as closed. You can try to apply fills but in many cases the result can be weird. If you need to close a path, enable the object edit mode and click the **Close path** button which will appear in the Inspector.
+Finally, you can make use of such styling properties as borders, shadows, inner shadows and blurs. As for fills, you should remember that the Pencil always draws open paths, even if they appear as closed. You can try to apply fills but in many cases the result can be weird. If you need to close a path, enable the layer edit mode and click the **Close path** button which will appear in the Inspector.
 
 ## Shape tools
 
@@ -464,7 +464,7 @@ The component tool allows you to quickly create mockups of interfaces by adding 
 
 ![Component tool](public/rn5_9-symbtool.png)
 
-* To draw a placeholder component just select the Сomponent tool and drag over the required area. Placeholder components appear as pink rectangles with the question mark.
+* To draw a placeholder component just select the Component tool and drag over the required area. Placeholder components appear as pink rectangles with the question mark.
 
 ![Placeholder components](public/rn5_9-symbtool2.png)
 
@@ -563,7 +563,7 @@ Working with colors is an essential part of a designer's job. The smart eyedropp
 
 To use the eyedropper tool:
 
-1. Select an object to which you are going to apply a color. If you don't select any object, Lunacy applies the color to the workspace.
+1. Select a layer to which you are going to apply a color. If you don't select any layer, the eyedropper applies the color to the workspace.
 2. Click the eyedropper icon on the toolbar or on the color picker panel, or just press `I`. The cursor turns into the eyedropper. Also, the **Colors** panel appears on the left. It features four pallets:
   
     * Recent colors
@@ -589,7 +589,7 @@ Depending on the styling properties of a layer, the eyedropper applies colors in
 3. Shadow
 4. Inner shadow
 
-So, if a layer has a fill and a border, the eyedropper updates the fill. If an object has no fill, but has a border and a shadow, the eyedropper changes the border color and so on. If an object has several fills (or borders/shadows/inner shadows), the eyedropper applies the color to the one which sits at the top of the property list in the Inspector.
+So, if a layer has a fill and a border, the eyedropper updates the fill. If a layer has no fill, but has a border and a shadow, the eyedropper changes the border color and so on. If a layer has several fills (or borders/shadows/inner shadows), the eyedropper applies the color to the one which sits at the top of the property list in the Inspector.
 
 Similar rules apply to text layers where text color has top priority.
 
