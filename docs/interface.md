@@ -150,7 +150,7 @@ There is also a special type of a page - the Components page. For details, read 
 The Layer List appears in left panel when you click the **Layers** content tab. It shows a tree of layers available on the current page. Lunacy automatically assigns names to layers and layer groups as you create them, but you can rename them if you like. The figure below shows a view of a Layer List.
 
 {:.is-big}
-![A view of an object list](public/interface-objectlist65.png)
+![A view of a Layer list](public/interface-objectlist65.png)
 
 If the names of layers in the list appear truncated, you can change the width of the panel as shown below.
 
@@ -179,7 +179,7 @@ To collapse all branches in the Layer List tree use the `Ctrl + ~` shortcut.
 </div>
 
 <!--
-**Tip:** Some projects, such as design systems, can house hundreds of objects on a single page. To quickly locate the required object on the canvas, find it by typing its name in the search field, select it in the objects list and then press `Ctrl + 2` (Fit to selection).
+**Tip:** Some projects, such as design systems, can house hundreds of layers on a single page. To quickly locate the required layer on the canvas, find it by typing its name in the search field, select it in the Layer List and then press `Ctrl + 2` (Fit to selection).
 
 -->
 
@@ -216,7 +216,7 @@ But even if you started your project without artboards, it is never too late to 
 The figure below shows how artboards appear in the **Layer List** and a view of the Inspector with artboard settings and controls which differ a lot from those available in the [Inspector](#the-inspector) panels of other layer types.
 
 {:.is-big}
-![Artboards: Object panel and presets](public/interface-artboardpanels65.png)
+![Artboards: Layer list and presets](public/interface-artboardpanels65.png)
 
 The table below provides a description of Inspector elements displayed for artboards.
 
@@ -598,11 +598,11 @@ The table below gives an overview of context menu commands and options common fo
       </tr>
       <tr>
         <td><b>Lock</b></td>
-        <td>Locks the object from accidental edits. For details, read <a href="https://docs.icons8.com/interface/#layer-list">here</a>.</td>
+        <td>Locks the layer from accidental edits. For details, read <a href="https://docs.icons8.com/interface/#layer-list">here</a>.</td>
       </tr>
       <tr>
         <td><b>Hide</b></td>
-        <td>Temporarily hides the object from the canvas. For details, read <a href="https://docs.icons8.com/interface/#layer-list">here</a>.</td>
+        <td>Temporarily hides the layer from the canvas. For details, read <a href="https://docs.icons8.com/interface/#layer-list">here</a>.</td>
       </tr>
       <tr>
         <td><b>Rename</b></td>
