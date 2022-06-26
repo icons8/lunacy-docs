@@ -26,13 +26,13 @@ page_nav:
 ## Introduction
 
 
-If we put aside such specific <a href="https://docs.icons8.com/objects/#introduction" target="_blank">object types</a> as artboards and hotspots, all objects in Lunacy that are not text or rasters are vector shapes.
+If we put aside such specific <a href="https://docs.icons8.com/layers/#introduction" target="_blank">layer types</a> as artboards and hotspots, all layers in Lunacy that are not text or rasters are vector shapes.
 
 Lunacy provides a set of pre-made shapes that you can add in no time using the <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">shape tools</a>. Also, you can make use of the <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">pen</a> and <a href="https://docs.icons8.com/tools/#pencil-tool" target="_blank">pencil</a> tools to create freehand shapes and paths. Among the latter two, we should pay special attention to the pen tool, which allows you to edit vector shapes, both pre-made and freehand.
 
 Another important thing for working with shapes is Boolean operations that allow you to combine shapes of all kinds and create even more fancy shapes whose diversity depends only on your creativity.
 
-This section focuses on how to edit and transform vector shapes. For information about creating pre-made shapes, read <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">here</a> and <a href="https://docs.icons8.com/objects/#adding-objects" target="_blank">here</a>. For details about creating shapes with the pen tool, read <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">here</a>.
+This section focuses on how to edit and transform vector shapes. For information about creating pre-made shapes, read <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">here</a> and <a href="https://docs.icons8.com/layers/#adding-layers" target="_blank">here</a>. For details about creating shapes with the pen tool, read <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">here</a>.
 
 For information how to apply fills, borders, shadows and blurs, refer to the <a href="https://docs.icons8.com/styling" target="_blank">Styling</a> section.
 
@@ -41,7 +41,7 @@ For information how to apply fills, borders, shadows and blurs, refer to the <a 
 
 The figure below shows the controls in the Inspector that allow you to transform pre-made shapes. 
 
-![Object transformation controls](public/shapes-inspectorcontrols.png)
+![Layer transformation controls](public/shapes-inspectorcontrols.png)
 
 These controls include:
 
@@ -77,13 +77,13 @@ The figure below shows the difference between smooth (red) and round (blue) corn
 
 ## [Vector editing](#vector-editing)
 
-**Note**: Before you get down to reading this subsection, we recommend you get acquainted with <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">this</a> article first. It provides the basic information about the structure of vector objects, paths, point types and the usage of the Pen tool.
+**Note**: Before you get down to reading this subsection, we recommend you get acquainted with <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">this</a> article first. It provides the basic information about the structure of vector layers, paths, point types and the usage of the Pen tool.
 
-To enable the object edit mode, select the shape and then do one of the following:
+To enable the layer edit mode, select the shape and then do one of the following:
 
 * Double-click the shape.
 * Press `Enter`.
-* Click the **Edit object** button (![Edit object button](public/tools-editobjectbtn.png)) on the context toolbar.
+* Click the **Edit Layer** button (![Edit layer button](public/tools-editobjectbtn.png)) on the context toolbar.
 
 As you do it:
 
@@ -92,7 +92,7 @@ As you do it:
 3. The **Edit shape** section appears in the Inspector.
 
 {:.is-big}
-![Edit object button](public/shapes-editmode1.png)
+![Edit Layer button](public/shapes-editmode1.png)
 
 In general, vector editing is all about manipulations with points and bending segments. The basic procedures are as follows:
 
@@ -129,14 +129,14 @@ The demo below shows how Boolean operations work.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-booleansplaceholder.png" height="auto"><source src="/public/shapes-booleans.mp4" type="video/mp4"></video>
 
-When you apply a Boolean operation, the selected shapes become a Boolean group. The figure below shows a view of a Boolean group in the **Objects** panel. Note that there is an icon next to one of the shapes. It indicates the type of the Boolean operation currently applied. By clicking this icon you invoke a menu where you can select another operation.
+When you apply a Boolean operation, the selected shapes become a Boolean group. The figure below shows a view of a Boolean group in the Layer List. Note that there is an icon next to one of the shapes. It indicates the type of the Boolean operation currently applied. By clicking this icon you invoke a menu where you can select another operation.
 
 ![Boolean group](public/shapes-ellipseunion.png)
 
-You can select individual shapes within the group through the **Objects** panel or on the canvas. If necessary, you can move and resize them on the canvas to modify the resulting shape.
+You can select individual shapes within the group through the Layer List or on the canvas. If necessary, you can move and resize them on the canvas to modify the resulting shape.
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> There is no special button or menu option to disassemble a Boolean group. But you can do it by dragging shapes out of the group in the <b>Objects</b> list</p>
+    <p><strong>Tip:</strong> There is no special button or menu option to disassemble a Boolean group. But you can do it by dragging shapes out of the group in the <b>Layers</b> list</p>
     <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
 </div>
 
@@ -148,7 +148,7 @@ You can select individual shapes within the group through the **Objects** panel 
 
 ## Flattening
 
-The flattening operation is another method of creating complex shapes by combining two or more primitives. It is in a way similar to the Boolean union operation, but unlike the latter the result of flattening is a single object that cannot be disassembled. The **Flatten selection** option shares the same drop-down list with the Boolean operations and also is available on the **Object** menu (see the figure below).
+The flattening operation is another method of creating complex shapes by combining two or more primitives. It is in a way similar to the Boolean union operation, but unlike the latter the result of flattening is a single layer that cannot be disassembled. The **Flatten selection** option shares the same drop-down list with the Boolean operations and also is available on the **Layer** menu (see the figure below).
 
 ![Boolean group](public/shapes-flatten.png)
 
@@ -158,28 +158,28 @@ The next demo shows how flattening works.
 
 ## Masks
 
-Masks allow you to use shapes for hiding parts of objects that don't fall within a shape.
+Masks allow you to use shapes for hiding parts of layers that don't fall within a shape.
 
 To create a mask:
 
-1. Add a shape that you will use as a mask over the target object(s).
+1. Add a shape that you will use as a mask over the target layer(s).
 2. Send the mask shape to back. You can skip this step, if you are applying a mask to a photo.
-3. Select the mask shape and the target object(s).
+3. Select the mask shape and the target layer(s).
 4. On the context toolbar, click the **Toggle mask** button (![Toggle mask button](public/shapes-togglemaskbtn.png)) or press `Ctrl+M`. The **Toggle mask** option is also available on the context menu.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-masksplaceholder.png" height="auto"><source src="/public/shapes-masks.mp4" type="video/mp4"></video>
 
-When you apply a mask, Lunacy creates a mask group in the **Objects** list.
+When you apply a mask, Lunacy creates a mask group in the Layer List.
 
 ![A mask group](public/shapes-maskgroup.png)
 
 If it is necessary, you can select the mask shape right within the mask group and move, edit or resize the mask.
 
-To remove a mask, select the mask group in the **Objects** panel or on the canvas and click the **Toggle mask** button (`Ctrl+M`).
+To remove a mask, select the mask group in the Layer List or on the canvas and click the **Toggle mask** button (`Ctrl+M`).
 
 ## Outline stroke
 
-The **Outline stroke** option (`Ctrl+Shift+O`) appears on the context menu and on the **Object** menu when you select a shape with a border. It allows you to convert that border into an independent object. Watch the demo below.
+The **Outline stroke** option (`Ctrl+Shift+O`) appears on the context menu and on the **Layer** menu when you select a shape with a border. It allows you to convert that border into an independent layer. Watch the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-outlinestrokeplaceholder.png" height="auto"><source src="/public/shapes-outlinestroke.mp4" type="video/mp4"></video>
 
@@ -191,8 +191,8 @@ When it is necessary, you can turn vector shapes into rasters.
 
 For this:
 
-1. Select the required object(s).
-2. Right-click over the selection, then click **Rasterize selection** on the context menu. This option is also available on the **Object** menu.
+1. Select the required layer(s).
+2. Right-click over the selection, then click **Rasterize selection** on the context menu. This option is also available on the **Layer** menu.
 
 ![Rasterizing vector shapes](public/shapes-rasterize.png)
 
