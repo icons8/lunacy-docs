@@ -24,7 +24,7 @@ page_nav:
 
 ## Introduction
 
-Styling options that you can apply to objects in Lunacy include:
+Styling options that you can apply to layers in Lunacy include:
 
 * Fills (solid, gradient and image fills)
 * Borders
@@ -32,19 +32,19 @@ Styling options that you can apply to objects in Lunacy include:
 * Inner shadows
 * Blurs (Gaussian and background)
 
-They appear in the Inspector when you select an object. A combination of styling options applied to an object is called a layer style. You can save layer styles for further use (read <a href="https://docs.icons8.com/layerstyles/" target="_blank">here</a> for details).
+They appear in the Inspector when you select layer. A combination of styling options applied to a layer is called a layer style. You can save layer styles for further use (read <a href="https://docs.icons8.com/layerstyles/" target="_blank">here</a> for details).
 
-You can apply styling options to all <a href="https://docs.icons8.com/objects/#introduction" target="_blank">types of objects</a>, except for technical ones (such as artboards, hotspots and slices). However, the only option applicable to group objects and components is the outer shadow.
+You can apply styling options to all <a href="https://docs.icons8.com/layers/#introduction" target="_blank">types of layers</a>, except for technical ones (such as artboards, hotspots and slices). However, the only option applicable to group layers and components is the outer shadow.
 
-In addition to the above, text objects feature typography settings, such as font, font size, line spacing, etc. Combined with the common styling options (or without them) they make up <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
+In addition to the above, text layers feature typography settings, such as font, font size, line spacing, etc. Combined with the common styling options (or without them) they make up <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
 
 The details about using each of the options you will find in the sections below. But first of all let us review some common things.
 
 ## Adding, deleting and managing styling options
 
-To apply a fill, border or any other styling to an object:
+To apply a fill, border or any other styling to a layer:
 
-1. Select the required object.
+1. Select the required layer.
 2. Click the + button next to the respective styling section in the Inspector. A row of controls appears.
 3. Use these controls to define the required styling parameters (see the demo below).
 
@@ -52,7 +52,7 @@ To apply a fill, border or any other styling to an object:
 
 The things that you should know:
 
-* Each object can have multiple styling options of the same type (except for blurs). For instance, you can apply an image fill to an object and a semi-transparent solid fill on top of it. Also, an object can have several borders or shadows. Just click the + icon to add another row of settings.
+* Each layer can have multiple styling options of the same type (except for blurs). For instance, you can apply an image fill to a layer and a semi-transparent solid fill on top of it. Also, a layer can have several borders or shadows. Just click the + icon to add another row of settings.
 
 * You can drag these rows of settings up and down to adjust the position of their instances on the canvas.
 
@@ -60,13 +60,13 @@ The things that you should know:
 
 * To delete a row of settings, select it and click the trash icon.
 
-All these things are shown in the next demo. It presents an object with a single fill and three borders.
+All these things are shown in the next demo. It presents layer with a single fill and three borders.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-commondemoph.png" height="auto"><source src="/public/styling-commondemo.mp4" type="video/mp4"></video>
 
 ## [Color controls](#color-controls)
 
-Color controls appear in all styling sections (except for blurs) and serve for defining the color of the selected object or its borders or shadows.
+Color controls appear in all styling sections (except for blurs) and serve for defining the color of the selected layer or its borders or shadows.
 
 ![Opening the color picker](public/styling-colorctrl.png)
 
@@ -150,11 +150,11 @@ To add a gradient fill:
     * ![Radial gradient button](public/styling-linear.png) - radial
     * ![Angular gradient button](public/styling-angular.png) - angular
 
-    As you do it, the gradient bar (2) with two handles gets displayed in the color picker. Also, you will see a gradient control with two color points (3) over the object. The appearance of the gradient control depends on the selected gradient type. The next figure shows a linear gradient (see also the demos below).
+    As you do it, the gradient bar (2) with two handles gets displayed in the color picker. Also, you will see a gradient control with two color points (3) over the layer. The appearance of the gradient control depends on the selected gradient type. The next figure shows a linear gradient (see also the demos below).
 
     ![Gradient controls](public/styling-colorpickergrad1.png)
 
-3. Use the gradient control and/or the gradient bar to get the desired effect. The handles on the gradient bar correspond to color points over the object. Actions applicable to all types of gradients:
+3. Use the gradient control and/or the gradient bar to get the desired effect. The handles on the gradient bar correspond to color points over the layer. Actions applicable to all types of gradients:
 
     * To change the color of a color point click it (or its respective handle on the gradient bar), and select the required color in the color selection box (4).  
     * To add a color to a gradient, just click over the gradient bar  or the gradient control. To adjust the color position move the handles or color points.
@@ -196,17 +196,17 @@ To create an image fill:
 4. In the displayed dialog box, select the required image on your computer and click **Open**. See also the tip below.
 5. Use the drop-down list below the **Choose image** button to select the fill method:
     
-     * **Fill**. Adjusts the image size to the object's width.
-     * **Fit**. Adjusts the image size  to fit the object's height.
-     * **Stretch**.  Stretches the image for it to fit the object's height and width.
-     * **Tile**. Tiles the image to fit the object. The size of tiles is adjustable (see the demo below).
+     * **Fill**. Adjusts the image size to the layer's width.
+     * **Fit**. Adjusts the image size  to fit the layer's height.
+     * **Stretch**.  Stretches the image for it to fit the layer's height and width.
+     * **Tile**. Tiles the image to fit the layer. The size of tiles is adjustable (see the demo below).
 6. Close the color picker, when you are through.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-imagefillph1.png" height="auto"><source src="/public/styling-imagefill1.mp4" type="video/mp4"></video>
 
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> You can also create an image fill by dropping an image from the Lunacy library or your desktop directly on to the object as shown in the demo below. As a matter of fact, what the <a href="https://docs.icons8.com/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.</p>
+    <p><strong>Tip:</strong> You can also create an image fill by dropping an image from the Lunacy library or your desktop directly on to the layer as shown in the demo below. As a matter of fact, what the <a href="https://docs.icons8.com/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.</p>
     <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
 </div>
 
@@ -255,7 +255,7 @@ The advanced border settings include:
 
 ## Shadows
 
-You can apply both outer and inner shadows to objects. Both these types have the same controls that include color, X and Y offsets, blur and spread. There can be multiple shadows of the same type.
+You can apply both outer and inner shadows to layers. Both these types have the same controls that include color, X and Y offsets, blur and spread. There can be multiple shadows of the same type.
 
 ![Shadows](public/styling-avatarshadow.png)
 
@@ -263,8 +263,8 @@ You can apply both outer and inner shadows to objects. Both these types have the
 
 Lunacy provides two types of blurs:
 
-* **Gaussian** - blurs the selected object.
-* **Background** - blurs the object underneath the selected object. To see the background blur effect, you should delete or hide the fill of the selected object or set its fill opacity to less than 100%. When working with this type of blur, in addition to the blur value you can also adjust the saturation of the blurred object.
+* **Gaussian** - blurs the selected layer.
+* **Background** - blurs the layer underneath the selected layer. To see the background blur effect, you should delete or hide the fill of the selected layer or set its fill opacity to less than 100%. When working with this type of blur, in addition to the blur value you can also adjust the saturation of the blurred layer.
 
 To switch between blur types, click the down arrowhead next to a blur name and select the required option.
 
@@ -278,21 +278,21 @@ In the demo below, we first applied a Gaussian blur to an image, removed it and 
 
 **Note:** Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For this reason, we limited the maximum blur value that you can set using the slider to *50*. However, manually you can set values up to *1,000*.
 
-## Applying styling options to multiple objects
+## Applying styling options to multiple layers
 
-You can apply styling options to multiple selected objects at the same time. If you see the *Click + to replace mixed content* caption under any of the options, it means that the selected objects have different settings for this option. A click over the plus icon will replace current settings with new ones common for all selected objects. In the figure below, this caption appears under the **Fills** section.
+You can apply styling options to multiple selected layers at the same time. If you see the *Click + to replace mixed content* caption under any of the options, it means that the selected layers have different settings for this option. A click over the plus icon will replace current settings with new ones common for all selected layers. In the figure below, this caption appears under the **Fills** section.
 
 ![Applying styling options to multiple objects](public/styling-mult.png)
 
 ## Tints
 
-Tints are a quick and easy way to apply a color to grouped objects and component instances. They are particularly useful when you need to adjust the color of a semi-filled object or a complex icon (see the demo below).
+Tints are a quick and easy way to apply a color to grouped layers and component instances. They are particularly useful when you need to adjust the color of a semi-filled layer or a complex icon (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-tintsph.png" height="auto"><source src="/public/styling-tints.mp4" type="video/mp4"></video>
 
-The **Tints** section appears in the Inspector only when you select a group object or a component.
+The **Tints** section appears in the Inspector only when you select a group layer or a component.
 
-Unlike other styling options, you can apply only one tint to an object.
+Unlike other styling options, you can apply only one tint to an layer.
 
 ### Tint Overrides
 
