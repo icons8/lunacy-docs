@@ -55,8 +55,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Show Layout Grid |`Ctrl+\` | `⌃ G` |
 | Show Guidelines |`Ctrl+;` | `⌃ ;` |
 | Lock Guidelines |`Ctrl+Alt+;` | `⌥ ⌘` |
-| Collapse the Objects list |`Ctrl+~` | `⌃ ~` |
-| Switch to Objects |`Alt+1` | `⌥ 1` |
+| Collapse the Layer list |`Ctrl+~` | `⌃ ~` |
+| Switch to Layers |`Alt+1` | `⌥ 1` |
 | Switch to Components |`Alt+2` | `⌥ 2` |
 | Switch to Styles |`Alt+3` | `⌥ 3` |
 | Switch to Icons |`Alt+4` | `⌥ 4` |
@@ -98,24 +98,24 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Draw from center | Hold down `Alt` and drag | Hold down `⌥` and drag |
 | Draw preserving aspect ratio | Hold down `Shift` and drag | Hold down `Shift` and drag | 
 
-## Selecting Objects
+## Selecting Layers
 
 
 | Action        | Windows, Linux     | Mac |
 | ------------- |-------------|--------------|
-| Select object |`Click` | `Click` |
+| Select layer |`Click` | `Click` |
 | Select All |`Ctrl+A` | `⌘ A` |
-| Select All artboards (objects beyond artboards are ignored) |`Shift+Ctrl+A` |`⌘ Shift A`|
-| Select an object within a group |`Ctrl+Click` | `⌘ Click` |
+| Select All artboards (layers beyond artboards are ignored) |`Shift+Ctrl+A` |`⌘ Shift A`|
+| Select a layer within a group |`Ctrl+Click` | `⌘ Click` |
 
-## Editing Objects
+## Editing layers
 
 
 | Action        | Windows, Linux   | Mac |
 | ------------- |-------------|--------------|
 | Edit Mode |`Enter` or `Double click` | `Enter` or `Double click` |
 | Finish Editing/Deselect all |`Escape` | `Escape`|
-| Delete object | `Backspace` or `Del` | `Backspace` or `Del` |
+| Delete layer | `Backspace` or `Del` | `Backspace` or `Del` |
 | Toggle Mask |`Ctrl+M` | `⌘ M` |
 | Flip horizontally |`Shift+H` |`Shift H` |
 | Flip vertically |`Shift+V` | `Shift V` |
@@ -132,7 +132,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Distribute Horizontally |`Ctrl+Shift+H` | `⌃ Shift H` |
 | Distribute Vertically |`Ctrl+Shift+V` | `⌃ Shift V` |
 | Tidy up |`Ctrl+Alt+Shift+T` | `⌃ ⌥ Shift T` |
-| Scale objects |`Ctrl+K` | `⌘ K` |
+| Scale layers |`Ctrl+K` | `⌘ K` |
 | Refresh avatar |`Shift+R` | `Shift R` |
 | Outline stroke |`Ctrl+Shift+O` | `⌘ Shift O` |
 
@@ -208,12 +208,12 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Create component state | `Ctrl+Alt+S` | `⌥ ⌘ S` |
 
 
-## Moving and Resizing Objects
+## Moving and Resizing layers
 
 
 | Action        | Windows, Linux    | Mac |
 | ------------- |-------------|-----------|
-| Distance to objects |`Alt` | `⌥` |
+| Distance to layers |`Alt` | `⌥` |
 | Duplicate |Hold down`Alt` and drag or `Ctrl+D` | Hold down `⌥` and drag or `⌘ D` |
 | Move along X/Y axis |Hold down `Shift` and drag | Hold down `Shift` and drag |
 | Move by 1px |`Arrow keys` | `Arrow keys` |
@@ -223,9 +223,9 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Resize from center |`Alt+resize` | `⌥ resize` |
 | Preserve Ratio |`Shift+resize` | `Shift resize` |
 | Pan around canvas |Hold down `Space` and drag | Hold down `Space` and drag
-| Disable snapping while dragging objects |Hold down `Ctrl` and drag| Hold down `⌘` and drag|
+| Disable snapping while dragging layers |Hold down `Ctrl` and drag| Hold down `⌘` and drag|
 
-## Arranging Objects
+## Arranging layers
 
 
 | Action        | Windows, Linux    | Mac |
