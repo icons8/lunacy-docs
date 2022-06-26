@@ -236,19 +236,15 @@ Also, read <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-
 
 If you want to resize a layer with styling (borders, shadows, etc.), you should consider the scaling feature. Together with layer size, it will accordingly adjust the values of its styling properties.
 
-To scale an layer:
+To scale a layer:
 
 1. Select the layer.
-2. Click the **Scale** button on the context toolbar or use the `Ctrl+K` shortcut.
-3. In the displayed dialog box, define the scale percentage or enter the desired layer width/height.
-4. Select the point from which scaling will be done (the default setting is *Scale from center*).
-5. Click **OK**.
+2. Click ![Scale too icon](/public/scale-tool.png) on the toolbar (or press `K`) and drag the bounding box.
 
-See the demo below and note how the value of the border thickness changes with the layer size.
+With the Scale tool selected, you can edit any of the settings (say, width) in the Inspector. Then press `Enter`, and Lunacy will scale all the other settings accordingly.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing3.png" height="auto"><source src="/public/object-resizing3.mp4" type="video/mp4"></video>
+![Using scale tool](/public/rn81-scaletool.png)
 
-In a similar fashion you can scale several layers at a time.
 
 ### Resizing constraints
 
