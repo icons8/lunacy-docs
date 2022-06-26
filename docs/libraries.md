@@ -36,7 +36,7 @@ For your convenience, the items inside libraries (icons and vector illustrations
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/libraries-addingiconsph.png" height="auto"><source src="/public/libraries-addingicons.mp4" type="video/mp4"></video>
 
 
-Now you can work with the item in the same way as with any other similar objects.
+Now you can work with the item in the same way as with any other similar layers.
 
 With some limitations you can use all the library items for free. Speaking in plain words, if you are using our app and content for free, please be honest. Your designs *must* include a link to the <a href="https://icons8.com" target="_blank">Icons8 website</a>, otherwise our lawyers get nervous and unhappy.
 
@@ -161,7 +161,7 @@ You can also use the **Show in File Explorer** command, to learn the location of
 
 In general, the workflow with UI kits is as follows:
 
-* In the left panel (on the **Objects** and **Libraries** tabs) you deal with components.
+* In the left panel (on the **Layers** and **Libraries** tabs) you deal with components.
 * In the right panel (the Inspector) you make use of layer and text styles.
 
 #### Components
@@ -175,9 +175,9 @@ Like with other library items, you can replace the selected item on the canvas w
 
 ![Working with UI kits](public/uikitadd.gif)
 
-On the **Objects** tab, items from a UI kit library appear with the link icon in front of their names (see the figure below). It indicates that the object is an instance of a component from an external file. You cannot modify such objects, except for the size and overrides. To get more control over a library item, consider the following commands accessible on the context menu or menus invoked from the menu bar and the Inspector:
+On the **Layers** tab, items from a UI kit library appear with the link icon in front of their names (see the figure below). It indicates that the layer is an instance of a component from an external file. You cannot modify such layers, except for the size and overrides. To get more control over a library item, consider the following commands accessible on the context menu or menus invoked from the menu bar and the Inspector:
 
-* **Detach from Components**: Converts the selected instance into a layered object.
+* **Detach from Components**: Converts the selected instance into a group of layers.
 * **Detach from Library**: Adds the main component of the selected instance to the document assets, i.e. to the Components page. After you detach a component from the library, you can work with it as with all other components in your project.
 * **Restore instance size**: Restores the original size of the selected instance.  
 
