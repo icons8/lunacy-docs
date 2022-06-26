@@ -29,9 +29,9 @@ grid_navigation:
       excerpt: Tools and controls on the Lunacy toolbar
       url: '/tools'
       icon: 'maintenance'
-    - title: 'Objects'
-      excerpt: Learn about basic operations with objects in Lunacy
-      url: '/objects'
+    - title: 'Layers'
+      excerpt: Learn about basic operations with layers in Lunacy
+      url: '/layers'
       icon: 'ungroup-objects'
     - title: 'Editing shapes'
       excerpt: Make sure that you know everything about working with shapes in Lunacy 

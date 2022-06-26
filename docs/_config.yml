@@ -10,8 +10,8 @@ doks:
       url: '/interface'
     - title: Tools
       url: '/tools'
-    - title: 'Objects'
-      url: '/objects'
+    - title: 'Layers'
+      url: '/layers'
     - title: 'Editing shapes'
       url: '/editing'
     - title: 'Text'

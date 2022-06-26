@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Objects
-        url: '/objects'
+        content: Layers
+        url: '/layers'
     prev:
         content: Interface
         url: '/interface'

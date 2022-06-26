@@ -18,8 +18,8 @@ page_nav:
         content: Text
         url: '/text'
     prev:
-        content: Objects
-        url: '/objects'
+        content: Layers
+        url: '/layers'
 ---
 
 
