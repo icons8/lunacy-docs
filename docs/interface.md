@@ -118,7 +118,7 @@ The interface consists of the following main elements.
 
 ## Document pages
 
-Each document can include any number of pages. You can keep all your work on a single page or split it into several pages by components, if the project is large. For instance, if you are designing a website, you can opt to keep the desktop and mobile versions on separate pages. Or you can duplicate a page to save a snapshot of your current work and continue working with the copy. In fact, the reasons for having multiple pages in a document are numerous and it is completely up to you to decide what approach to choose. The figure below shows a view of a page list. It appears above the **Layer List** when the **Layers** content tab is selected.
+Each document can include any number of pages. You can keep all your work on a single page or split it into several pages by components, if the project is large. For instance, if you are designing a website, you can opt to keep the desktop and mobile versions on separate pages. Or you can duplicate a page to save a snapshot of your current work and continue working with the copy. In fact, the reasons for having multiple pages in a document are numerous and it is completely up to you to decide what approach to choose. The figure below shows a view of a page list. It appears above the Layer List when the **Layers** content tab is selected.
 
 ![A view of the page list](public/interface-pagelist65.png)
 
@@ -133,7 +133,7 @@ The operations that you can perform with document pages include:
 
 To add a new page to the document:
 
-1. Click the plus icon above the **Layer List**.
+1. Click the plus icon above the Layer List.
 2. Enter the name of the new page.
 3. Press `Enter`.
 
@@ -213,7 +213,7 @@ To add an artboard:
 
 But even if you started your project without artboards, it is never too late to add them. Just drag the artboard tool over the layers that you want to put on an artboard.
 
-The figure below shows how artboards appear in the **Layer List** and a view of the Inspector with artboard settings and controls which differ a lot from those available in the [Inspector](#the-inspector) panels of other layer types.
+The figure below shows how artboards appear in the Layer List and a view of the Inspector with artboard settings and controls which differ a lot from those available in the [Inspector](#the-inspector) panels of other layer types.
 
 {:.is-big}
 ![Artboards: Layer list and presets](public/interface-artboardpanels65.png)
@@ -263,7 +263,7 @@ Similarly, to move an empty artboard, click anywhere within the artboard and dra
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
 
-Alternatively, you can select the required artboard by clicking its name in the **Layer List**.
+Alternatively, you can select the required artboard by clicking its name in the Layer List.
 
 #### [Adding custom presets](#adding-custom-presets)
 
