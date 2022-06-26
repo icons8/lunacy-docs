@@ -18,8 +18,8 @@ page_nav:
         content: Styling
         url: '/styling'
     prev:
-        content: Objects
-        url: '/objects'
+        content: Layers
+        url: '/layers'
 ---
 
 
@@ -34,7 +34,7 @@ The figure below shows the location of text-related controls in the Lunacy inter
 
 1. The **Text** section. Appears in the Inspector when a text layer is selected. Features all the [settings](#text-settings) that you might need when working with text.
 2. The **Text** menu. Includes all the settings available in the **Text** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu and lets you [convert text to vector shapes](#converting-text-to-vector-shapes).
-3. The **Edit object** button. The button appears when you select a text layer. Click this button to start editing the text. Alternatively, just press `Enter`.
+3. The **Edit Layer** button. The button appears when you select a text layer. Click this button to start editing the text. Alternatively, just press `Enter`.
 4. In the **Appearance** section you deal with <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable text styles</a>.
 5. The **Generate text** button. A click over the button generates a random text. A click over the down arrowhead next to the button invokes the [menu with text generation options](#text-generation-and-text-snippets).
 6. The **Advanced options** button. Opens a [panel](#advanced-text-options) with such text options as letter case, numbered and bulleted lists, etc.
@@ -56,7 +56,7 @@ Lunacy applies [horizontal resize](#text-block-resize-options) to the text added
 
 1. Select the Text tool on the toolbar (or press `T`). The pointer changes to <b><sup>+</sup></b>**T**.
 2. Click on the canvas and hold down the mouse button.
-3. Drag to create a text layer of the required size. Lunacy will add a random text to fit the size of the object. If the auto-text exceeds the block size, you can delete the excess or leave it as is. It won't be visible unless the text block is in the edit mode.
+3. Drag to create a text layer of the required size. Lunacy will add a random text to fit the size of the layer. If the auto-text exceeds the block size, you can delete the excess or leave it as is. It won't be visible unless the text block is in the edit mode.
 4. Press `Esc` to exit the edit mode.
 
 **Note:** You can use the `Shift + R` shortcut to refresh the auto-generated text.
@@ -71,7 +71,7 @@ In Lunacy, when you need to add a text to a shape, you can do it in three simple
 2. Select the text tool or press `T`.
 3. Enter your text.
 
-As you do it, Lunacy automatically creates a group object with the shape and text layers. This small feature can be of great use when it comes to design of such UI elements as buttons, menus and things alike.
+As you do it, Lunacy automatically creates a group layer with the shape and text layers. This small feature can be of great use when it comes to design of such UI elements as buttons, menus and things alike.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-toshapeph.png" height="auto"><source src="/public/text-toshape.mp4" type="video/mp4"></video>
 
@@ -79,8 +79,8 @@ As you do it, Lunacy automatically creates a group object with the shape and tex
 
 To edit a text:
 
-1. Select the text layer in the **Objects** panel or by clicking it on the canvas.
-2. Press `Enter` or click the **Edit Object** ![missing fonts button](public/text-editobjectbtn1.png) button on the top bar to enable the edit mode.
+1. Select the text layer in the Layer List or by clicking it on the canvas.
+2. Press `Enter` or click the **Edit Layer** ![missing fonts button](public/text-editobjectbtn1.png) button on the top bar to enable the edit mode.
 3. Enter a new text or edit the existing one.
 4. When done, press `Esc` to exit the edit mode.
 
@@ -146,7 +146,7 @@ The list shows font names and their samples. If a font's name is too long and ap
 When you open a project received from your team or downloaded from the internet, Lunacy checks if all the required fonts are available on your computer. If some of them are missing but they are available in the Google fonts library, Lunacy will download and apply them, provided that your computer is connected to the internet. But if those fonts are not from the Google library:
 
 * The default Inter is applied to the text layers with missing fonts.
-* Upon selection of these layers, the name of the missing font appears in red in the font picker, as well as in the **Objects** panel.
+* Upon selection of these layers, the name of the missing font appears in red in the font picker, as well as in the Layer list.
 * The missing fonts button appears on the top toolbar.
 
 ![Missing fonts 1](public/text-misfontbtn1.png)
@@ -381,7 +381,7 @@ Lunacy enables you to convert text layers into vector shapes.
 For this:
 
 1. Select a text layer and click **Text** on the menu bar or left-click over a text layer to invoke the context menu.
-2. On the displayed menu, select **Convert to Outlines**. Lunacy will convert letters into a group of vector shapes, which will appear in the **Objects** panel.
+2. On the displayed menu, select **Convert to Outlines**. Lunacy will convert letters into a group of vector shapes, which will appear in the Layer List.
 
 Alternatively, you can use the `Ctrl+Shift+O`/`⌘ Shift O` shortcut.
 
@@ -429,14 +429,14 @@ The **Auto Refresh** option on the menu enables/disables text generation in dupl
 In Lunacy, text snippets are short commands for generation of specific texts. Snippets always begin with a semicolon (;) followed by a full or short form of the command. For instance, to generate an email address, you should type *;email* or *;em*. To generate a credit card number, type *;creditcard* or *;cr*, and so on. You can always look up the list of snippets on the menu with text categories (see the figure in *Way 1*) or in the shortcuts panel.
 
 1. Select the required text block.
-2. Press `Enter` or click the **Edit Object** button on the top bar to enable the edit mode.
+2. Press `Enter` or click the **Edit Layer** button on the top bar to enable the edit mode.
 3. Enter the required snippet and and press `Esc`. Use the `Shift + R` shortcut to refresh generated content, if needed.
 
 ![Using snippets](public/text-snippets2.gif)
 
 ## Fonts Embedding
 
-You can embed fonts into your document before sharing it with other people. This ensures that text objects will look exactly as you designed them everywhere even if a computer doesn't have all the right fonts.
+You can embed fonts into your document before sharing it with other people. This ensures that text layers will look exactly as you designed them everywhere even if a computer doesn't have all the right fonts.
 
 To use this feature, click **Text > Fonts Embedding** on the menu bar. In the displayed dialog box, select the required fonts and click the **Embed fonts** button.
 
