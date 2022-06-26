@@ -22,7 +22,7 @@ page_nav:
         url: '/components'
 ---
 
-Layer and text styles are predefined sets of object and text properties that you can reuse in your designs. With the help of styles you can dramatically save your time and make your designs look more professional and consistent.  When you modify a style, Lunacy immediately applies them to all the objects using this style.
+Layer and text styles are predefined sets of layer and text properties that you can reuse in your designs. With the help of styles you can dramatically save your time and make your designs look more professional and consistent.  When you modify a style, Lunacy immediately applies them to all the layers using this style.
 
 You will store your custom layer and text styles on the **Styles** tab.
 
@@ -39,7 +39,7 @@ Layer style properties include:
 * Inner shadows
 * Blurs
 
-They appear in the Inspector when you select an object.
+They appear in the Inspector when you select a layer.
 
 ![Layer properties](public/properties_new1.png)
 
@@ -53,22 +53,22 @@ There are two ways of adding layer styles.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-wayoneph.png" height="auto"><source src="/public/layerstyles-wayone.mp4" type="video/mp4"></video>
 
-**Way 2.** By first defining the properties of an object and then saving them as a style. 
+**Way 2.** By first defining the properties of a layer and then saving them as a style. 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-waytwoph.png" height="auto"><source src="/public/layerstyles-waytwo.mp4" type="video/mp4"></video>
 
 
-### Applying styles to objects
+### Applying styles to layers
 
-Click the required object and select the style you want to apply to it from the menu in the Inspector.
+Click the required layer and select the style you want to apply to it from the menu in the Inspector.
 
 ![Applying styles](public/applyingstyles_new1.png)
 
-Optionally, after selecting the object you can click the required style in the left panel and then click the replacement icon as shown below.
+Optionally, after selecting the layer you can click the required style in the left panel and then click the replacement icon as shown below.
 
 ![Applying styles. Way 2](public/applyingstyles2_new1.png)
 
-You can also apply a style to multiple selected objects at a time (see the demo below).
+You can also apply a style to multiple selected layer at a time (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-applyph.png" height="auto"><source src="/public/layerstyles-apply.mp4" type="video/mp4"></video>
 
@@ -79,7 +79,7 @@ There are two ways to modify a style.
 
 **Way 1.**
 
-1. Swith to the **Styles** tab, then click the style you want to modify. The **Edit Layer Style** panel appears on the right.
+1. Switch to the **Styles** tab, then click the style you want to modify. The **Edit Layer Style** panel appears on the right.
 2. Use the panel to make the required changes.
 3. Click the **Save** button below the preview window. To discard all changes that you have made but have not saved yet, use the **Reset** button.
 
@@ -87,7 +87,7 @@ There are two ways to modify a style.
 
 **Way 2.**
 
-1. Select an object using the style you want to modify.
+1. Select a layer using the style you want to modify.
 2. Make the required changes in the Inspector. When you are done, you will see an asterisk (*) next to the style name in the Inspector. It indicates that changes have been made to the style.
 
     ![Modifying a layer style](public/modifystyle_new22.png)
@@ -101,11 +101,11 @@ There are two ways to modify a style.
 
 ### Detaching a style
 
-Select the required object and click the **Detach style** button shown below.
+Select the required layer and click the **Detach style** button shown below.
 
 ![Detaching a style](public/detaching1.png)
 
-The appearance of the object remains the same, but it is no longer associated with the style and further changes to the style will not affect the object.
+The appearance of the layer remains the same, but it is no longer associated with the style and further changes to the style will not affect the layer.
 
 ### Organizing styles
 
@@ -180,15 +180,15 @@ The only difference between text styles and [layer styles](#layer-styles)  is th
 
 ![Text styles](public/layerstyles-text.png)
 
-See also the <a href="https://docs.icons8.com/text/" target="_blank">Text</a> section for tips on working with text objects.
+See also the <a href="https://docs.icons8.com/text/" target="_blank">Text</a> section for tips on working with text layers.
 
 ## External styles
 
 You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the **UI Kits** library. For details about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
 
-To apply an external style to an object:
+To apply an external style to a layer:
 
-1. Select the object on the canvas.
+1. Select the layer on the canvas.
 2. In the **Appearance** section of the Inspector, click the down arrowhead to invoke the menu.
 3. In the **UI kits** section of the menu, navigate to the required style.
 
@@ -198,7 +198,7 @@ You cannot make changes to external styles, but you can use the **Unlink from Li
 
 There are two ways to unlink styles:
 
-**Way 1.** Select an object with the style you want to unlink, then click **Unlink from Library** in the Inspector.
+**Way 1.** Select a layer with the style you want to unlink, then click **Unlink from Library** in the Inspector.
 
 **Way 2.** Select a style or several styles in a UI kit, then right-click and select **Unlink from Library** on the context menu.
 
