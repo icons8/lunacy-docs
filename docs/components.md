@@ -22,7 +22,7 @@ page_nav:
         url: '/styling'
 ---
 
-**Components** are reusable objects or groups of objects that make your designs consistent and your life easier.
+**Components** are reusable layers or groups of layers that make your designs consistent and your life easier.
 
 When working with components you should understand the idea of **main components** and **component instances**. For example, when you are designing a UI, you can create a button component (that will be a main component) and then add identical buttons (component instances) wherever you need them with just a click. If you later decide to change the size, shape or the color of your buttons, you'll need to modify only the main component, and the changes will immediately apply to all the instances.
 Moreover, you can also change the text on one or even all instances. That will be an **override**. We will discuss overrides later in this section.
@@ -34,7 +34,7 @@ The demo below demonstrates the effect and efficiency of using components in des
 
 ## [Creating components](#creating-components)
 
-Select an object and perform one of the following actions:
+Select a layer and perform one of the following actions:
 
 * Click the plus icon in the components panel.
 * Click the add component icon on the tool bar at the top of the window.
@@ -57,7 +57,7 @@ You should store all your components on a separate page apart from designs. When
 
 You can opt to select any other page but make sure that the primary intent of such page will be storing components.
 
-For this, right-click the required page in the **Objects** panel an select **Set as Components page** on the displayed menu.
+For this, right-click the required page above the Layer List and select **Set as Components page** on the displayed menu.
 
 ![Selecting another components page](public/symbolspage-set65.png)
 
@@ -89,7 +89,7 @@ To rename a component:
 2. In the **Components** panel, right-click the component and select **Rename** on the displayed menu or use  `F2` as a shortcut.
 3. Enter the new name and click `Enter`.
 
-Also you can also rename components through the **Objects** panel when you are on the **Component** page.
+Also you can also rename components through the Layer List when you are on the **Component** page.
 
 ## [Component states](#component-states)
 
@@ -126,21 +126,21 @@ Also, to quickly find the required component, you can type its name in the searc
 
 As it was mentioned earlier, you should keep main components on a dedicated page.  In this section, you will learn other details of working with main components.
 
-The first thing you should note is that names of main components appear in bold in the **Objects** panel. Also, all component names, of both main component and instances, come with the component icon (![Component icon](public/symbolicon.png)) By clicking the name of a main component, you can unfold it to see its content.
+The first thing you should note is that names of main components appear in bold in the Layer List. Also, all component names, of both main component and instances, come with the component icon (![Component icon](public/symbolicon.png)) By clicking the name of a main component, you can unfold it to see its content.
 
-The figure below shows a view of a primitive main component, which includes an automatically added component artboard with the name of the component at the top and a layered object.
+The figure below shows a view of a primitive main component, which includes an automatically added component artboard with the name of the component at the top and a group of layers.
 
 ![A view of a main component](public/master_unfold65.png)
 
 The intent of component artboards is twofold:
 
 * To provide full compatibility with the native .sketch files.
-* To determine the object behavior during resizing.
+* To determine the layer behavior during resizing.
 
 You can choose to include or not to include the artboard fill into instances of a component. For this:
 
-1. On the **Objects** tab, open the components page.
-2. Click the component name in the list of objects.
+1. On the **Layers** tab, open the components page.
+2. Click the component name in the list of layers.
 3. In the Inspector, enable the artboard fill checkbox.
 4. Select/clear the **Include in instances** checkbox.  
 
@@ -161,9 +161,9 @@ There are two ways to edit a main component:
 
    Select an instance of the component you want to edit. Then press `Enter` or click the **Edit main component** button (![Edit master component button](public/symbols-editsymbolbtn.png)) on the context toolbar.
    
-   This enables the component editor. The main component appears over the selected instance. The **Object list** panel displays the list of the component components. The rest of the canvas becomes dimmed.
+   This enables the component editor. The main component appears over the selected instance. The Layer List displays the list of the component components. The rest of the canvas becomes dimmed.
 
-2. Edit the component in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
+2. Edit the component in the same way as any other layer/layer group. You can change its size, color, text or any other properties using the set of tools in the Inspector.
 3. To exit the editor, do one of the following:
     * Click ![Edit main component button](public/symbols-editsymbolbtn.png) on the context tool bar.
     * Click anywhere over the dimmed area.
@@ -175,12 +175,12 @@ The changes you make immediately apply to all the component instances across the
 
 **Way 2**
 
-1. Right-click an instance (on the canvas or in the **Objects** list) of the component you want to edit and select **Go to Main Component** on the context menu. The **Components** page opens with the required component selected.
+1. Right-click an instance (on the canvas or in the Layer List) of the component you want to edit and select **Go to Main Component** on the context menu. The **Components** page opens with the required component selected.
 
     OR
   
     Go to the [Components page](#components-page), find and select the required component.
-2. Edit the component in the same way as any other object/group object. You can change its size, color, text or any other properties using the set of tools in the Inspector.
+2. Edit the component in the same way as any other layer/layer group. You can change its size, color, text or any other properties using the set of tools in the Inspector.
 3. When you are through with editing:
 
     * If you used the **Go to Main Component** command, click the **Back to instance** button that will appear in the top-left corner of the canvas.
@@ -194,17 +194,17 @@ Note that deletion of a main component turns all its instances into groups.
 ## Component instances
 
 Instances are copies of components that you use across your project.
-In the **Objects** panel, components instances are displayed with the component icon in front of their names. Their names appear in regular type (while main components are displayed in bold) and have the following name format:
+In the Layer List, components instances are displayed with the component icon in front of their names. Their names appear in regular type (while main components are displayed in bold) and have the following name format:
 
 `<Component name> instance`  
 
 Click the name of an instance to extend it. The nodes inside an instance are override nodes, that show the elements that you can modify for this component instance only.  For details about overrides, click [here](#overrides).
 
-The figure below shows a view of a component (top) and the way it appears in the **Objects** panels and a view of an instance of this component (bottom).
+The figure below shows a view of a component (top) and the way it appears in the Layer List and a view of an instance of this component (bottom).
 
 ![A view of a component and its instance](public/symbplusinst65.png)
 
-As you can see, the component node includes the text and the rectangle objects. You can change both these objects:
+As you can see, the component node includes the text and the rectangle layers. You can change both these layers:
 
 * The wording and its properties: font size, color, alignment, etc.
 * The rectangle properties: size, color, shades, etc.
@@ -275,7 +275,7 @@ The menu features the following sections:
 
 The figure below shows menu commands that you can use when working with component instances.
 
-To access them,  first select a component instance and then open the menu in the Inspector or click **Object** on the menu bar at the top of the window. Also, you can right-click the required component instance to invoke the context menu.
+To access them,  first select a component instance and then open the menu in the Inspector or click **Layer** on the menu bar at the top of the window. Also, you can right-click the required component instance to invoke the context menu.
 
 {:.is-big}
 ![Component-related commands](public/components-menucommands.png)
@@ -359,7 +359,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Convert Component to Artboard</td>
-      <td>This command applies only to main components. It converts the selected main component into an artboard with a group of objects. All the instances of the component convert into groups.</td>
+      <td>This command applies only to main components. It converts the selected main component into an artboard with a group of layers. All the instances of the component convert into groups.</td>
       <td><code>Ctrl+Shift+Y</code></td>
       <td><code>⌘ Shift Y</code></td>
     </tr>
@@ -415,7 +415,7 @@ Our template contains two image overrides: the avatar image and the background.
 
 We will replace the avatar first. The procedure is follows:
 
-1. Click over the image override on the canvas or select it in the **Objects** panel.
+1. Click over the image override on the canvas or select it in the Layer List.
 2. In the Inspector, click the **Replace image** button. The **Open** dialog box appears.
 3. In the dialog box, select a new image.
 4. Click the **Open** button.
@@ -439,8 +439,8 @@ To demonstrate text overrides we will change the contact's name and contact data
 
 Change the contact's name:
 
-1. Click over the text override on the canvas or select it in the **Objects** panel.
-2. Press `Enter` or click the **Edit Object** button on the top bar.
+1. Click over the text override on the canvas or select it in the Layer List.
+2. Press `Enter` or click the **Edit Layer** button on the top bar.
 3. Enter the new text.
 4. When done, press `Esc` to exit the edit mode.
 
@@ -452,15 +452,15 @@ In Steps 2 and 3 we will use the text generation and text snippets features.
 
 Add the contact's phone number:
 
-1. Click over the text override on the canvas or select it in the **Objects** panel.
+1. Click over the text override on the canvas or select it in the Layer List.
 2. On the top bar, click the down arrowhead next to the **Generate text** button, then select **People > Phone**. Use the `Shift + R` shortcut to refresh generated content, if needed.
 
 **Step 3.**
 
 Add the contact's email:
 
-1. Click over the next text override on the canvas or select it in the **Objects** panel.
-2. Press `Enter` or click the **Edit Object** button on the top bar to start editing the override.
+1. Click over the next text override on the canvas or select it in the Layer List.
+2. Press `Enter` or click the **Edit Layer** button on the top bar to start editing the override.
 3. Enter *;em* and and press `Esc`. Lunacy will replace the *;em* text snippet with a random email address. Use the `Shift + R` shortcut to refresh generated content, if needed.
 
 The gif below demonstrates text overrides described in Steps 2 and 3.
@@ -478,7 +478,7 @@ Now we'll have a look at how nested components overrides work.
 
 First of all, let's change the icon in front of the contact's email address for a more suitable one. To be able to quickly do it, we have prepared a set of icons that we will use across the project, converted them into components and placed them to the same category. For details about how to organize components, read [here](#organizing-components).
 
-1. Find and select the icon override in the **Objects** panel or select it on the canvas. The **Component** section appears in the Inspector.
+1. Find and select the icon override in the Layer List or select it on the canvas. The **Component** section appears in the Inspector.
 2. In the **Component** section of the Inspector, click the down arrowhead and select the mail icon on the displayed menu.
 
 {:.is-big}
@@ -489,9 +489,9 @@ First of all, let's change the icon in front of the contact's email address for 
 At the bottom of our template we have three buttons: one is in the active state, two others are inactive. Let's show how the button will look when hovered over. For this, we have also created an individual component, which will override the current one.
 The procedure is as follows:
 
-1. Find and select the button override in the **Objects** panel or select it on the canvas. The **Component** section appears in the Inspector.
+1. Find and select the button override in the Layer List or select it on the canvas. The **Component** section appears in the Inspector.
 2. In the **Component** section of the Inspector, click the down arrowhead. The menu appears.
-3. In the categories section of the menu, navigate to the required component (see the gif below).
+3. In the categories section of the menu, navigate to the required component (see the demo below).
 
 <!--
 
@@ -512,7 +512,7 @@ Also, you can hide a nested component from the template by using the **None over
 
 For this:
 
-1. Find and select the nested component in the **Objects** panel or select it on the canvas. The **Component** section appears in the Inspector.
+1. Find and select the nested component in the Layer List or select it on the canvas. The **Component** section appears in the Inspector.
 2. In the **Component** section of the Inspector, click the down arrowhead. The menu appears.
 3. In the upper section of the menu, click **No Component**.
 
@@ -528,7 +528,7 @@ To demonstrate these two types of overrides, let's change the layer style of the
 
 For this:
 
-1. Find and select the override in the **Objects** panel or select it on the canvas.
+1. Find and select the override in the Layer List or select it on the canvas.
 2. Apply the new style from the Inspector or from the **Styles** tab as shown in the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-nestedoverrideph.png" height="auto"><source src="/public/components-stylesoverride.mp4" type="video/mp4"></video>
