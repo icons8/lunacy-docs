@@ -31,7 +31,7 @@ Lunacy has a lot of small but very useful features that can ease your life or si
 
 ## Sharing your designs via Icons8 Cloud
 
-The `Alt+С + C` (`⌥ C C`) shortcut lets you instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the object is already in your clipboard. You can share it right away.
+The `Alt+С + C` (`⌥ C C`) shortcut lets you instantly upload a layer or layer group to Icons8 cloud and get a link to it. Just select the required layer and use the shortcut. That's it! The link to the layer is already in your clipboard. You can share it right away.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-altccph.png" height="auto"><source src="/public/tips-altcc.mp4" type="video/mp4"></video>
 
@@ -67,7 +67,7 @@ When editing typography settings you don't need to select a word or the whole te
 
 ## Copying and pasting styling properties
 
-The demo below shows how you can copy and paste styling properties between objects.
+The demo below shows how you can copy and paste styling properties between layers.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-copypasteplaceholder.png" height="auto"><source src="/public/objects-copypaste.mp4" type="video/mp4"></video>
 
@@ -107,9 +107,9 @@ The next demo shows how you can modify shapes by adjusting their properties in t
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-cronerradplaceholder.png" height="auto"><source src="/public/shapes-cronerrad1.mp4" type="video/mp4"></video>
 
-## Resizing objects using keyboard
+## Resizing layers using keyboard
 
-To resize objects, you can use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or `CTRL+Shift + arrow keys` ( by 10 pixels).
+To resize layers, you can use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or `CTRL+Shift + arrow keys` ( by 10 pixels).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-keyresizeph.png" height="auto"><source src="/public/tips-keyresize.mp4" type="video/mp4"></video>
 
@@ -165,7 +165,7 @@ Alternatively, you can use the `Ctrl+Shift+O` shortcut.
 
 ## Disabling snapping
 
-To disable snapping, hold down `Ctrl` while dragging an object.
+To disable snapping, hold down `Ctrl` while dragging a layer.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-desnapph.png" height="auto"><source src="/public/tips-desnap.mp4" type="video/mp4"></video>
 
@@ -178,17 +178,17 @@ Lunacy's eyedropper features a nice zoom option that comes in handy when the tar
 
 ## Zoom to selection
 
-To quickly jump to the required object on the canvas, select it in the left panel and press `Ctrl+2` or double-click its outline/icon.
+To quickly jump to the required layer on the canvas, select it in the left panel and press `Ctrl+2` or double-click its outline/icon.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-zoomtoselectionph.png" height="auto"><source src="/public/tips-zoomtoselection.mp4" type="video/mp4"></video>
 
-## Scaling objects
+## Scaling
 
-If you want to resize an object with styling (borders, shadows, etc.), you should consider the scaling feature. Together with object size, it will accordingly adjust the values of its styling properties. See the demo below and note how the value of the border thickness changes with the object size.
+If you want to resize a layer together with its styling (borders, shadows, etc.), you should consider the scaling feature. Together with the layer size, it will accordingly adjust the values of its styling properties. See the demo below and note how the value of the border thickness changes with the layer size.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/object-resizing3.png" height="auto"><source src="/public/object-resizing3.mp4" type="video/mp4"></video>
 
-In a similar fashion you can scale several objects at a time.
+In a similar fashion you can scale several layers at a time.
 
 ## Importing an image from the internet
 
@@ -198,7 +198,7 @@ To quickly import an image from a web site to Lunacy, right-click over the image
 
 ## Image fills
 
-You can create an image fill by dropping an image from the Lunacy library or your desktop directly on to an object as shown in the demo below. For more information about image fills, click <a href="https://docs.icons8.com/styling/#image-fills" target="_blank">here</a>.  
+You can create an image fill by dropping an image from the Lunacy library or your desktop directly on to a layer as shown in the demo below. For more information about image fills, click <a href="https://docs.icons8.com/styling/#image-fills" target="_blank">here</a>.  
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-imagefillph.png" height="auto"><source src="/public/styling-imagefill.mp4" type="video/mp4"></video>
 
