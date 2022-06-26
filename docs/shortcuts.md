@@ -253,6 +253,10 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Zoom to Selection |`Ctrl+2` | `⌘ 2` |
 | Fit Width |`Ctrl+3` | `⌘3` |
 | Fit Height |`Ctrl+4` | `⌘4` |
+| Previous page |`Page up` | `Page up` |
+| Next page |`Page down` | `Page down` |
+| Previous artboard |`Home` | `Home` |
+| Next artboard |`End` | `End` |
 | Search |`Ctrl+/` or just `/` | `⌘ /` or just `/` |
 
 
