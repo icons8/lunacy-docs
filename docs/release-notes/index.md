@@ -86,7 +86,7 @@ Free users can access up to 30 days of version history. To unlock the full histo
 
 ![voice comments and stickers](/public/rn-comments2.png)
 
-* Now you can leave voice comments in cloud documents. For this, enable the comment tool (`C`), click ![microphone](/public/Microphone_Icon.png), say what you want to say, then click ![send](/public/Paper_Plane_Icon.png). And, of course, your computer microphone needs to be on and working.
+* Now you can leave voice comments in cloud documents. For this, enable the comment tool (`C`), click ![microphone](/public/Microphone_Icon.png), say what you want to say, then click ![send](/public/Paper_Plane_Icon.png). Make sure you allow Lunacy to access the microphone, otherwise your comments will not be recorded.
 * You can now post stickers like *thumb up*, *thumb down*, *+1*, *heart*, and other instead of comments. Stickers show up right on the canvas. There’s no need to open comment bubbles, unless you want to post a reply. To post a sticker, enable the comment tool, click ![sticker icon](/public/sticker_icon.png) icon next to the comment entry field, and select the required sticker. You can also send stickers in replies to comments. 
 * Now, when you select a layer and then click with the comment tool over it, the added comment gets tied to the layer. If you later decide to move the layer to some other place on the canvas, the comment will move with the layer.
 * By default, comments are always visible on the canvas. To hide comments, click ![view](/public/nine_dots_icon.png) > **Comments** on the top bar.
