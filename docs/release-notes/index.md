@@ -344,9 +344,7 @@ To edit a color variable, click over the colored circle in the Inspector, then c
 
 To detach a layer from a color variable, select the layer, then click ![4 dots icon](/public/detachicon.png) in the Inspector.
 
-
-{:.is-big}
-![Color variables in Lunacy](/public/color_variables_rn1.png)
+![Color variables in Lunacy](/public/color_variables_rn.png)
 
 ### Inspector of selected fonts and colors
 

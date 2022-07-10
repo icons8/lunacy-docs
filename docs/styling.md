@@ -108,6 +108,29 @@ It features the following controls:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-pickerph.png" height="auto"><source src="/public/styling-picker.mp4" type="video/mp4"></video>
 
+## Color variables
+
+Color variables let you efficiently manage colors in your documents and instantly recolor all the layers using the same color variable. You can apply color variables to fills, borders, and shadows.
+
+In the Inspector, color variables appear as colored circles (![color variable icon](/public/colorvariable_circle.png)), while regular fills, border and shadow colors appear as colored rectangles (![regular fill icon](/public/fill-rectangle.png)).
+
+To create a color variable:
+
+1.	Select a layer.
+2.	Invoke the Color Picker from the Inspector.
+3.	Set the required color.
+4.	Click **Create Color Variable**.
+
+To apply an existing color variable, select a layer, click ![4 dots icon](/public/4dotsicon.png) in the Inspector, then select the required color variable.
+
+To edit a color variable, click over the colored circle in the Inspector, then click ![4 dots icon](/public/settingsicon.png) > **Edit variable**.
+
+To detach a layer from a color variable, select the layer, then click ![4 dots icon](/public/detachicon.png) in the Inspector.
+
+
+{:.is-big}
+![Color variables in Lunacy](/public/color_variables_rn1.png)
+
 ## Fills
 
 There are three major types of fills:
@@ -216,6 +239,8 @@ To create an image fill:
 -->
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-imagefillph.png" height="auto"><source src="/public/styling-imagefill.mp4" type="video/mp4"></video>
+
+
 
 ## Borders
 
