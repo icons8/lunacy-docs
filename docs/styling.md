@@ -110,7 +110,7 @@ It features the following controls:
 
 ## Color variables
 
-Color variables let you efficiently manage colors in your documents and instantly recolor all the layers using the same color variable. You can apply color variables to fills, borders, and shadows.
+Color variables let you efficiently manage colors in your documents and instantly recolor all the layers using the same color variable. You can apply color variables to [fills](#fills), [borders](#borders), and [shadows](#shadows).
 
 In the Inspector, color variables appear as colored circles (![color variable icon](/public/colorvariable_circle.png)), while regular fills, border and shadow colors appear as colored rectangles (![regular fill icon](/public/fill-rectangle.png)).
 
@@ -131,7 +131,7 @@ To detach a layer from a color variable, select the layer, then click ![4 dots i
 {:.is-big}
 ![Color variables in Lunacy](/public/color_variables_rn1.png)
 
-## Fills
+## [Fills](#fills)
 
 There are three major types of fills:
 
@@ -242,7 +242,7 @@ To create an image fill:
 
 
 
-## Borders
+## [Borders](#borders)
 
 As the name of this styling section suggests, here you will manage the appearance of borders in shapes. But it is also the place where you will define the color, thickness and other parameters of lines, curves, arrows and other open paths.
 
@@ -278,7 +278,7 @@ The advanced border settings include:
 
 ![Dashed border](public/styling-dashes.png)
 
-## Shadows
+## [Shadows](#shadows)
 
 You can apply both outer and inner shadows to layers. Both these types have the same controls that include color, X and Y offsets, blur and spread. There can be multiple shadows of the same type.
 
