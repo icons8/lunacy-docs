@@ -84,29 +84,36 @@ The last two options do not apply to shadows as they don't have the color text b
 
 To open the color picker, click the color box in the styling section you are working with.
 
-![Opening the color picker](public/styling-colorbox.png)
+![Opening the color picker](public/styling-colorbox2.png)
 
 The figure below shows a view of the color picker invoked from the fills section.
 
-![Color picker](public/styling-colorpicker1.png)
+![Color picker](public/styling-colorpicker2.png)
 
 It features the following controls:
 
 1. Fill type buttons. Available on the fill and border color pickers only.
 2. Color selection box. That is where you will select colors.
-3. Color selection bar. Allows you to quickly navigate through colors.
-4. Opacity controls.
-5. The eyedropper tool. For details about using it, read <a href="https://docs.icons8.com/tools/#eyedropper-tool" target="_blank">here</a>.
-6. The color code box. Displays the code of the currently selected color (HEX or RGB).
-7. The panel of preset colors. To speed up your work with colors, you can save them for further use and select them directly from this panel. There are two types of preset colors:
+3. The eyedropper tool. For details about using it, read <a href="https://docs.icons8.com/tools/#eyedropper-tool" target="_blank">here</a>.
+4. Color selection bar. Allows you to quickly navigate through colors.
+5. Opacity bar.
+6. The color code selector. Displays the code of the currently selected color:
+    * **HEX**
+    * **RGB**
+    * **HSB**
+    * **HSL**
+7. The color code entry field.
+8. The opacity entry field.
+9. This button invokes the color variable editing mode.
+10. The panel of preset colors. To speed up your work with colors, you can save them for further use and select them directly from this panel. There are two types of preset colors:
     * **Global** colors appear on the color picker in all documents.
     * **Document** colors belong only to the current document.
     
     To switch between the panels of global and document colors click the panel name. To delete a preset, right-click over it, then select **Remove** on the displayed menu.
-8. Use this button to add the currently selected color to **Global** or **Document** presets.
-9. Use this button to switch the panel of presets between the list and grid view. In the list view, you can give names to colors: right-click a color and select **Rename** on the displayed menu (see the demo below).
+11. Use this button to switch the panel of presets between the list and grid view. In the list view, you can give names to colors: right-click a color and select **Rename** on the displayed menu (see the demo below).
+12. Use this button to add the currently selected color to **Global** or **Document** presets.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-pickerph.png" height="auto"><source src="/public/styling-picker.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-pickerph1.png" height="auto"><source src="/public/styling-picker1.mp4" type="video/mp4"></video>
 
 ## Color variables
 
