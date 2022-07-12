@@ -68,7 +68,7 @@ All these things are shown in the next demo. It presents layer with a single fil
 
 Color controls appear in all styling sections (except for blurs) and serve for defining the color of the selected layer or its borders or shadows.
 
-![Opening the color picker](public/styling-colorctrl.png)
+![Opening the color picker](public/styling-colorctrl2.png)
 
 You can:
 
@@ -151,7 +151,7 @@ There are three major types of fills:
 
 The figure below shows a view of settings in the **Fills** section.
 
-![Fill controls](public/styling-fills.png)
+![Fill controls](public/styling-fills2.png)
 
 The section features the following controls:
 
@@ -182,7 +182,7 @@ To add a gradient fill:
 
     As you do it, the gradient bar (2) with two handles gets displayed in the color picker. Also, you will see a gradient control with two color points (3) over the layer. The appearance of the gradient control depends on the selected gradient type. The next figure shows a linear gradient (see also the demos below).
 
-    ![Gradient controls](public/styling-colorpickergrad1.png)
+    ![Gradient controls](public/styling-colorpickergrad3.png)
 
 3. Use the gradient control and/or the gradient bar to get the desired effect. The handles on the gradient bar correspond to color points over the layer. Actions applicable to all types of gradients:
 
@@ -255,19 +255,19 @@ As the name of this styling section suggests, here you will manage the appearanc
 
 The figure below shows a view of settings in the **Borders** section.
 
-![Border controls](public/styling-borderctrls.png)
+![Border controls](public/styling-borderctrls2.png)
 
 The section features the following controls:
 
 1. The [color control](#color-controls) for setting border colors. You can apply both solid and gradient fills to borders.
 2. The border position control. Available for closed paths (shapes) only. You can choose between the inside, outside or center (default) of the outline. The difference between these options is shown in the figure below. The only option available for open paths (lines, arrows, curves, etc.) is the *center*.
 3. The borders thickness control. Sets the thickness of a border or an open path in pixels.
-4. This icon opens the advanced border settings (see below).
+4. This icon opens the advanced border settings (see the next section).
 
-![Border position](public/styling-borderdiff.png)
+![Border position](public/styling-borderdiff2.png)
 
 {:.image-info}
-From top to bottom: outside, center, inside borders
+From top to bottom: center, inside and outside borders
 
 ### Advanced border settings
 
