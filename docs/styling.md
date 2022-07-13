@@ -56,7 +56,7 @@ The things that you should know:
 
 * You can drag these rows of settings up and down to adjust the position of their instances on the canvas.
 
-* You can temporarily disable some of the settings, by clicking the eye icon in front of the row.
+* You can temporarily disable some of the settings, by clicking the eye icon.
 
 * To delete a row of settings, select it and click the trash icon.
 
