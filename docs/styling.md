@@ -48,7 +48,7 @@ To apply a fill, border or any other styling to a layer:
 2. Click the + button next to the respective styling section in the Inspector. A row of controls appears.
 3. Use these controls to define the required styling parameters (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-commondemoph1.png" height="auto"><source src="/public/styling-commondemo1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-commondemoph1.png" height="auto"><source src="/public/styling-commondemo2.mp4" type="video/mp4"></video>
 
 The things that you should know:
 
