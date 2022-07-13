@@ -60,7 +60,7 @@ The things that you should know:
 
 * To delete a row of settings, select it and click the trash icon.
 
-All these things are shown in the next demo. It presents layer with a single fill and three borders.
+All these things are shown in the next demo. It presents a layer with a single fill and three borders.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-commondemoph.png" height="auto"><source src="/public/styling-commondemo4.mp4" type="video/mp4"></video>
 
