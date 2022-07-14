@@ -198,7 +198,7 @@ To add a gradient fill:
 
 The demo below shows what you can do when adding a linear gradient.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-lineargradph.png" height="auto"><source src="/public/styling-lineargrad.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-lineargradph.png" height="auto"><source src="/public/styling-lineargrad2.mp4" type="video/mp4"></video>
 
 #### Radial gradients
 
@@ -208,7 +208,7 @@ When you select the radial type, the gradient control becomes a radius of a circ
 * Select the center color point and drag it to reposition the origin of the gradient.
 * Drag the square handles on the edge of the circle to resize or reshape it into an ellipse.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-radialgradph.png" height="auto"><source src="/public/styling-radialgrad2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-radialgradph.png" height="auto"><source src="/public/styling-radialgrad.mp4" type="video/mp4"></video>
 
 #### Angular gradients
 
