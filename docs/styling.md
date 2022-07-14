@@ -78,7 +78,7 @@ You can:
 
 The last two options do not apply to shadows as they don't have the color text box.
 
-![Opening the color picker](public/styling-copycode.png)
+![Copying color code](public/styling-copycode.png)
 
 ## [Color picker](#color-picker)
 
