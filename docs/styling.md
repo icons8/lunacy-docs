@@ -208,13 +208,13 @@ When you select the radial type, the gradient control becomes a radius of a circ
 * Select the center color point and drag it to reposition the origin of the gradient.
 * Drag the square handles on the edge of the circle to resize or reshape it into an ellipse.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-radialgradph.png" height="auto"><source src="/public/styling-radialgrad.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-radialgradph.png" height="auto"><source src="/public/styling-radialgrad3.mp4" type="video/mp4"></video>
 
 #### Angular gradients
 
 When you select the angular type, the gradient control takes the form of a circle with color points sitting on its edge. Drag the points around the circle to get the desired gradient. Add some extra color points, if needed.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-angularph.png" height="auto"><source src="/public/styling-angular.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-angularph.png" height="auto"><source src="/public/styling-angular2.mp4" type="video/mp4"></video>
 
 ### Image fills
 
