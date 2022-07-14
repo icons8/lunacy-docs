@@ -74,11 +74,11 @@ You can:
 
 * Click the color box and use the [color picker](#color-picker).
 * Manually enter or paste the HEX value of the required solid fill.
-* Copy the HEX, RGBA or HLS value of the current solid fill. For this, right-click over the text box and select the required option on the displayed menu as shown in the figure below.
+* Copy the HEX, RGBA, HSB, or HLS value of the current solid fill. For this, right-click over the text box and select the required option on the displayed menu as shown in the figure below.
 
 The last two options do not apply to shadows as they don't have the color text box.
 
-![Copying color code](public/styling-copycode.png)
+![Copying color code](public/styling-copycode2.png)
 
 ## [Color picker](#color-picker)
 
