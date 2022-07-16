@@ -340,9 +340,9 @@ To create a color variable:
 
 To apply an existing color variable, select a layer, click ![4 dots icon](/public/4dotsicon.png) in the Inspector, then select the required color variable.
 
-To edit a color variable, click over the colored circle in the Inspector, then click ![4 dots icon](/public/settingsicon.png) > **Edit variable**.
+To edit a color variable, click over the colored circle in the Inspector, then click ![settings icon](/public/settingsicon.png) > **Edit variable**.
 
-To detach a layer from a color variable, select the layer, then click ![4 dots icon](/public/detachicon.png) in the Inspector.
+To detach a layer from a color variable, select the layer, then click ![detach icon](/public/detachicon.png) in the Inspector.
 
 ![Color variables in Lunacy](/public/color_variables_rn.png)
 
