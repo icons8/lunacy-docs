@@ -280,7 +280,7 @@ The advanced border settings include:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-capsfoldsph1.png" height="auto"><source src="/public/styling-capsfolds1.mp4" type="video/mp4"></video>
 
-* **Heads** and **Tails**. Use these controls to define the appearance of endings of open paths drawn with the Line, Arrow, and Vector tools.
+* **Head** and **Tail**. Use these controls to define the appearance of endings of open paths drawn with the Line, Arrow, and Vector tools.
 
 ![Heads and tails settings](public/styling-arrows.png)
 
@@ -288,13 +288,23 @@ The advanced border settings include:
 
 ![Dashed border](public/styling-dashes1.png)
 
-## [Shadows](#shadows)
+## Effects
 
-You can apply both outer and inner shadows to layers. Both these types have the same controls that include color, X and Y offsets, blur and spread. There can be multiple shadows of the same type.
+Use the **Effects** section of the Inspector when you want to add shadows or blurs:
 
-![Shadows](public/styling-avatarshadow.png)
+1. Click `+` next to the section name.
+2. From the drop-down lost select the required effect.
+3. Click ![settings icon](/public/settingsicon.png) and set the required values.
 
-## Blurs
+![Adding effects](public/styling-effects.png)
+
+### [Shadows](#shadows)
+
+You can apply outer and inner shadows to layers. Both these types have the same controls that include color, X and Y offsets, blur and spread. There can be multiple shadows of the same type.
+
+![Shadows](public/styling-avatarshadow1.png)
+
+### Blurs
 
 Lunacy provides two types of blurs:
 
@@ -308,7 +318,7 @@ To switch between blur types, click the down arrowhead next to a blur name and s
 In the demo below, we first applied a Gaussian blur to an image, removed it and then applied a background blur to a rectangle above the image.
 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph.png" height="auto"><source src="/public/styling-blurs1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph1.png" height="auto"><source src="/public/styling-blurs1.mp4" type="video/mp4"></video>
 
 
 **Note:** Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For this reason, we limited the maximum blur value that you can set using the slider to *50*. However, manually you can set values up to *1,000*.
