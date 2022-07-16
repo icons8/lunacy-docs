@@ -275,15 +275,18 @@ From top to bottom: center, inside and outside borders
 
 The advanced border settings include:
 
-* **Caps**. Use these controls to define the shape of endings of open paths: no endings, round or square (see the demo below). The settings are applicable to paths drawn both the Line, Arrow, and Vector tools.
+* **Caps**. Use these controls to define the shape of endings of open paths: no endings, round or square (see the demo below). The settings are applicable to paths drawn with the Line, Arrow, and Vector tools.
 * **Folds**. Use these controls to adjust the appearance of corners of paths drawn with the Vector tool. Also, they work with arrow heads and tails.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-capsfoldsph1.png" height="auto"><source src="/public/styling-capsfolds1.mp4" type="video/mp4"></video>
 
-* **Nozzles**. Applicable to open paths only. Use this group of controls to set arrowheads.
-* **Dotted line**. Use these controls to create dashed lines and borders. Define the length of dashes and gaps between them in respective text boxes. To restore a solid line/border, set all the values to *0*.
+* **Heads** and **Tails**. Use these controls to define the appearance of endings of open paths drawn with the Line, Arrow, and Vector tools.
 
-![Dashed border](public/styling-dashes.png)
+![Heads and tails settings](public/styling-arrows.png)
+
+* **Dash** and **Gap**. Use these controls to create dashed lines or borders. Define the length of dashes and gaps between them in respective edit boxes. To restore a solid line/border, set all the values to *0*.
+
+![Dashed border](public/styling-dashes1.png)
 
 ## [Shadows](#shadows)
 
