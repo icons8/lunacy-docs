@@ -311,9 +311,13 @@ Lunacy provides two types of blurs:
 * **Gaussian** - blurs the selected layer.
 * **Background** - blurs the layer underneath the selected layer. To see the background blur effect, you should delete or hide the fill of the selected layer or set its fill opacity to less than 100%. When working with this type of blur, in addition to the blur value you can also adjust the saturation of the blurred layer.
 
+<!--
+
 To switch between blur types, click the down arrowhead next to a blur name and select the required option.
 
 ![Switching blur types](public/styling-switchingblur.png)
+
+-->
 
 In the demo below, we first applied a Gaussian blur to an image, removed it and then applied a background blur to a rectangle above the image.
 
