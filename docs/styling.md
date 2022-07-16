@@ -318,10 +318,19 @@ To switch between blur types, click the down arrowhead next to a blur name and s
 In the demo below, we first applied a Gaussian blur to an image, removed it and then applied a background blur to a rectangle above the image.
 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph1.png" height="auto"><source src="/public/styling-blurs1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph1.png" height="auto"><source src="/public/styling-blurs2.mp4" type="video/mp4"></video>
 
+
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For this reason, we limited the maximum blur value that you can set using the slider to *50*. However, manually you can set values up to *1,000*.</p>
+</div>
+
+
+<!--
 
 **Note:** Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For this reason, we limited the maximum blur value that you can set using the slider to *50*. However, manually you can set values up to *1,000*.
+
+-->
 
 ## Applying styling options to multiple layers
 
