@@ -40,7 +40,7 @@ In addition to the above, text layers feature typography settings, such as font,
 
 The details about using each of the options you will find in the sections below. But first of all let us review some common things.
 
-## Adding, deleting and managing styling options
+## Adding, deleting, and managing styling options
 
 To apply a fill, border or any other styling to a layer:
 
@@ -271,14 +271,14 @@ From top to bottom: center, inside and outside borders
 
 ### Advanced border settings
 
-![Advanced border controls](public/styling-borderadvanced.png)
+![Advanced border controls](public/styling-borderadvanced1.png)
 
 The advanced border settings include:
 
-* **Caps**. Applicable to open paths only. Use these controls to define the shape of endings of open paths: no endings, round or square (see the demo below).
-* **Folds**. Use these controls to adjust the appearance of border or open path corners: square, rounded, beveled (see the demo below).
+* **Caps**. Use these controls to define the shape of endings of open paths: no endings, round or square (see the demo below). The settings are applicable to paths drawn both the Line, Arrow, and Vector tools.
+* **Folds**. Use these controls to adjust the appearance of corners of paths drawn with the Vector tool. Also, they work with arrow heads and tails.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-capsfoldsph.png" height="auto"><source src="/public/styling-capsfolds.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-capsfoldsph1.png" height="auto"><source src="/public/styling-capsfolds1.mp4" type="video/mp4"></video>
 
 * **Nozzles**. Applicable to open paths only. Use this group of controls to set arrowheads.
 * **Dotted line**. Use these controls to create dashed lines and borders. Define the length of dashes and gaps between them in respective text boxes. To restore a solid line/border, set all the values to *0*.
