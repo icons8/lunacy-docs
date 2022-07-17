@@ -134,9 +134,7 @@ To edit a color variable, click over the colored circle in the Inspector, then c
 
 To detach a layer from a color variable, select the layer, then click ![4 dots icon](/public/detachicon.png) in the Inspector.
 
-
-{:.is-big}
-![Color variables in Lunacy](/public/color_variables_rn1.png)
+![Color variables in Lunacy](/public/color_variables2.png)
 
 ## [Fills](#fills)
 
@@ -338,11 +336,11 @@ You can apply styling options to multiple selected layers at the same time. If y
 
 Tints are a quick and easy way to apply a color to grouped layers and component instances. They are particularly useful when you need to adjust the color of a semi-filled layer or a complex icon (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-tintsph.png" height="auto"><source src="/public/styling-tints.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-tintsph2.png" height="auto"><source src="/public/styling-tints2.mp4" type="video/mp4"></video>
 
 The **Tints** section appears in the Inspector only when you select a group layer or a component.
 
-Unlike other styling options, you can apply only one tint to an layer.
+Unlike other styling options, you can apply only one tint to a layer.
 
 ### Tint Overrides
 
