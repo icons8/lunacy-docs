@@ -240,12 +240,8 @@ To create an image fill:
     <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
 </div>
 
-<!--
-**Tip:** You can also create an image fill by dropping an image from the Lunacy library or your desktop directly on to the object as shown in the demo below. As a matter of fact, what the <a href="https://docs.icons8.com/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.
 
--->
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-imagefillph.png" height="auto"><source src="/public/styling-imagefill.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-addimagefillph.png" height="auto"><source src="/public/styling-addimagefill.mp4" type="video/mp4"></video>
 
 
 
@@ -326,21 +322,15 @@ In the demo below, we first applied a Gaussian blur to an image, removed it and 
 
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For this reason, we limited the maximum blur value that you can set using the slider to *50*. However, manually you can set values up to *1,000*.</p>
+    <p><strong>Note:</strong> Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For this reason, we limited the maximum blur value that you can set using the slider to <i>50</i>. However, manually you can set values up to <i>1,000</i>.</p>
 </div>
 
-
-<!--
-
-**Note:** Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For this reason, we limited the maximum blur value that you can set using the slider to *50*. However, manually you can set values up to *1,000*.
-
--->
 
 ## Applying styling options to multiple layers
 
 You can apply styling options to multiple selected layers at the same time. If you see the *Click + to replace mixed content* caption under any of the options, it means that the selected layers have different settings for this option. A click over the plus icon will replace current settings with new ones common for all selected layers. In the figure below, this caption appears under the **Fills** section.
 
-![Applying styling options to multiple objects](public/styling-mult.png)
+![Applying styling options to multiple objects](public/styling-mult1.png)
 
 ## Tints
 
