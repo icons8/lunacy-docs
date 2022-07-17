@@ -236,12 +236,12 @@ To create an image fill:
 
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> You can also create an image fill by holding down `Ctrl` (`⌘`) and dropping an image from your desktop or from the Lunacy library on to the layer as shown in the demo below. <br>As a matter of fact, what the <a href="https://docs.icons8.com/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.</p>
+    <p><strong>Tip:</strong> You can also create an image fill by holding down <b>Ctrl</b> (<b>⌘</b>) and dropping an image from your desktop or from the Lunacy library on to the layer as shown in the demo below.</p> <p>As a matter of fact, what the <a href="https://docs.icons8.com/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.</p>
     <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
 </div>
 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-addimagefillph.png" height="auto"><source src="/public/styling-addimagefill.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-addimagefillph.png" height="auto"><source src="/public/styling-addimagefill1.mp4" type="video/mp4"></video>
 
 
 
@@ -293,6 +293,8 @@ Use the **Effects** section of the Inspector when you want to add shadows or blu
 3. Click ![settings icon](/public/settingsicon.png) and set the required values.
 
 ![Adding effects](public/styling-effects.png)
+
+For details about shadows and blurs, read below.
 
 ### [Shadows](#shadows)
 
