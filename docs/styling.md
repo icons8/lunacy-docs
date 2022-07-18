@@ -115,7 +115,7 @@ It features the following controls:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-pickerph1.png" height="auto"><source src="/public/styling-picker1.mp4" type="video/mp4"></video>
 
-## Color variables
+## [Color variables](#color-variables)
 
 Color variables let you efficiently manage colors in your documents and instantly recolor all the layers using the same color variable. You can apply color variables to [fills](#fills), [borders](#borders), and [shadows](#shadows).
 
@@ -154,7 +154,10 @@ The figure below shows a view of settings in the **Fills** section.
 The section features the following controls:
 
 1. The [color control](#color-controls) for setting fills.
-2. The blend mode control. Blend modes determine, in case of multiple fills, how the top fill blends with the fill underneath. Understanding blend modes is mainly a matter of practice and experimenting, but if you need some theory, you can read it <a href="https://en.wikipedia.org/wiki/Blend_modes" target="_blank">here</a>.
+2. The opacity control.
+3. The blend mode control. Blend modes determine, in case of multiple fills, how the top fill blends with the fill underneath. Understanding blend modes is mainly a matter of practice and experimenting, but if you need some theory, you can read it <a href="https://en.wikipedia.org/wiki/Blend_modes" target="_blank">here</a>.
+4. This button opens the panel where you can select between the *<a href="https://en.wikipedia.org/wiki/Nonzero-rule" target="_blank">Non-Zero</a>* and *<a href="https://en.wikipedia.org/wiki/Even–odd_rule" target="_blank">Even-Odd</a>* options for filling overlapping paths.
+5. This button opens a list of [color variables](#color-variables) 
 
 ### Solid fills
 
@@ -258,10 +261,10 @@ The section features the following controls:
 3. The borders thickness control. Sets the thickness of a border or an open path in pixels.
 4. This icon opens the advanced border settings (see the next section).
 
-![Border position](public/styling-borderdiff2.png)
+![Border position](public/styling-borderdiff3.png)
 
 {:.image-info}
-From top to bottom: center, inside and outside borders
+From top to bottom: center, inside, and outside borders
 
 ### Advanced border settings
 
@@ -342,11 +345,14 @@ The **Tints** section appears in the Inspector only when you select a group laye
 
 Unlike other styling options, you can apply only one tint to a layer.
 
-### Tint Overrides
+### Tint overrides
 
 Tint overrides can be handy, for instance, when you are designing tabs or panels with elements that can have different states expressed through different colors.
 
-Note that before using tint overrides you should add default tints.
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> Before using tint overrides you should add default tints.</p>
+</div>
+
 
 The demo below shows three instances of the same component. We first applied a tint override to a nested element, then switched to the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">component edit mode</a> and modified the default tint. In the latter case, the change applied only to the instances without the override.
 
