@@ -157,7 +157,7 @@ The section features the following controls:
 2. The opacity control.
 3. The blend mode control. Blend modes determine, in case of multiple fills, how the top fill blends with the fill underneath. Understanding blend modes is mainly a matter of practice and experimenting, but if you need some theory, you can read it <a href="https://en.wikipedia.org/wiki/Blend_modes" target="_blank">here</a>.
 4. This button opens the panel where you can select between the *<a href="https://en.wikipedia.org/wiki/Nonzero-rule" target="_blank">Non-Zero</a>* and *<a href="https://en.wikipedia.org/wiki/Even–odd_rule" target="_blank">Even-Odd</a>* options for filling overlapping paths.
-5. This button opens a list of [color variables](#color-variables) 
+5. This button opens a list of [color variables](#color-variables).
 
 ### Solid fills
 
