@@ -325,7 +325,7 @@ In the demo below, we first applied a Gaussian blur to an image, removed it and 
 
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For this reason, we limited the maximum blur value that you can set using the slider to <i>50</i>. However, manually you can set values up to <i>1,000</i>.</p>
+    <p><strong>Note:</strong> Blur is quite a demanding effect in terms of computing resources. Avoid excessive use of blurs within a document. For this reason, we limited the maximum blur value that you can set using the slider to <i>50</i>. However, manually you can set values up to <i>10,000</i>.</p>
 </div>
 
 
