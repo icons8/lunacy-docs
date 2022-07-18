@@ -143,7 +143,7 @@ There are three major types of fills:
 1. Solid fills (default).
 2. Gradient fills that can be:
     * Linear
-    * Radial and 
+    * Radial 
     * Angular
 3. Image fills.
 
@@ -350,11 +350,11 @@ Note that before using tint overrides you should add default tints.
 
 The demo below shows three instances of the same component. We first applied a tint override to a nested element, then switched to the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">component edit mode</a> and modified the default tint. In the latter case, the change applied only to the instances without the override.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tintoverridesph2.png" height="auto"><source src="/public/tintoverrides2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tintoverridesph3.png" height="auto"><source src="/public/tintoverrides3.mp4" type="video/mp4"></video>
 
 When you apply an override, the reset button appears in the **Tint** section of the Inspector. Use this button to remove the override.
 
-![Reset overrides button](public/reset-overridetint.png)
+![Reset overrides button](public/reset-overridetint2.png)
 
 For details about overrides, read <a href="https://docs.icons8.com/components/#overrides" target="_blank">here</a>.
 
