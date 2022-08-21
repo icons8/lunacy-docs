@@ -12,8 +12,8 @@ icon: 'toggle-off'
 # Page navigation
 page_nav:
     next:
-        content: Tools
-        url: '/tools'
+        content: Cloud documents
+        url: '/clouddocs'
     prev:
         content: System requirements
         url: '/sysreq'

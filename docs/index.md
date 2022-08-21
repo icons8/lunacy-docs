@@ -24,7 +24,10 @@ grid_navigation:
     - title: Interface
       excerpt: Learn about interface layout and navigation tools
       url: '/interface'
-      icon: 'toggle-off'
+    - title: Cloud documents
+      excerpt: Learn how to work with cloud documents
+      url: '/clouddocs'  
+      icon: 'upload-2'
     - title: Tools
       excerpt: Tools and controls on the Lunacy toolbar
       url: '/tools'

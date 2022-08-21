@@ -18,11 +18,9 @@ page_nav:
         content: Layers
         url: '/layers'
     prev:
-        content: Interface
-        url: '/interface'
+        content: Cloud documents
+        url: '/clouddocs'
 ---
-
-## Introduction
 
 This section is a description of tools and controls on the Lunacy toolbar.
 
