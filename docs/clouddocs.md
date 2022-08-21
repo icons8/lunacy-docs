@@ -51,7 +51,7 @@ To open a cloud document:
 1. Go to the **Home** tab.
 2. In the **Recent** or **Documents** section, find your document and click it.
 
-![Opening a cloud document in Lunacy](/public/openclouddoc.png)
+![Opening a cloud document in Lunacy](/public/openclouddoc1.png)
 
 
 
