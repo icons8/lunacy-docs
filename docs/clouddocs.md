@@ -65,7 +65,7 @@ You can share cloud documents as public or private:
 To share a cloud document:
 
 1. In the upper-right corner of the canvas, click **Share**.
-2. In the displayed panel select the type of the document: *public* or *private*.
+2. In the displayed panel, select the type of the document: *public* or *private*.
 3. In **Anyone with the link**, select what other users can do with the document:
     * **Edit** — full access to the document (except for deletion).
     * **Export** — users with this access level cannot edit documents. They can only view and export selected objects or the whole project, and inspect the code of the objects. For instance, you can grant export access to developers.
@@ -81,14 +81,16 @@ When invited users click over a shared link and access your document, their avat
 
 
 ## [Observer mode](#observer-mode)
-The Observer Mode enables you to follow the activities of other users on the canvas. For this, click the user's avatar in the top-right corner. You will see a colored frame around the canvas, indicating that you're now in the Observer Mode.
+The Observer Mode enables you to follow the activities of other users on the canvas. For this, click the user's avatar in the top-right corner. You will see a colored frame around the canvas indicating that you're now in the Observer Mode.
 
 
 ![Observer mode](/public/rn71_observermode1.png)
 
 To exit the mode, click the user's avatar once again.
 
-**Note:** *You will only be able to view the user's activities on the canvas. You won't be able to see the interactions on the side panels.*
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> You will only be able to view the user's activities on the canvas. You won't be able to see the interactions on the side panels.</p>
+</div>
 
 ## Version history
 
@@ -99,7 +101,7 @@ To view a document version history, go to **File** > **Show version history**. T
 Also, on the history panel, you can:
 
 * Sort out versions by clicking the **All**, **Auto**, and **Manual** buttons at the top of the panel.
-* Rename, open, copy links or delete versions using the respective commands in the context menu (see the figure below). To see the context menu, right-click over the required version.
+* Rename, open, copy links to, or delete versions using the respective commands in the context menu (see the figure below). To see the context menu, right-click over the required version.
 
 ![Viewing version history](/public/viewhistory.png)
 
