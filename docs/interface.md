@@ -29,7 +29,7 @@ The Lunacy interface is intuitive and minimal. It contains only essential contro
 
 -->
 
-![Lunacy interface](https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/61r7kirRVE6WDAz10z-Bdg.svg)
+<embed type="image/svg+xml" alt="Lunacy interface" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/61r7kirRVE6WDAz10z-Bdg.svg"/>
 
 The interface consists of the following main elements.
 
@@ -46,7 +46,7 @@ The interface consists of the following main elements.
   
     To shrink the size of the content tabs panel, drag its right border to the left.
 
-    ![Lunacy interface](https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/w6FvFbJnrkCyueOV8Ei9LQ.svg)
+    <embed type="image/svg+xml" alt="Lunacy interface" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/w6FvFbJnrkCyueOV8Ei9LQ.svg"/>
 
 2. The left panel. Displays the content of the selected tab (1). You can temporarily hide the panel by clicking the current tab, using respective shortcuts (`Alt+1`(`⌥ 1`)...`Alt+8`(`⌥ 8`), `Shift+F1`) or through the menu (**View** > **Left Panel**).
 
