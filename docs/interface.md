@@ -29,7 +29,7 @@ The Lunacy interface is intuitive and minimal. It contains only essential contro
 
 -->
 
-![Lunacy interface](public/interface80.png)
+![Lunacy interface](https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/61r7kirRVE6WDAz10z-Bdg.svg)
 
 The interface consists of the following main elements.
 
