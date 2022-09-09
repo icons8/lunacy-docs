@@ -23,6 +23,7 @@ grid_navigation:
       icon: 'system-information'
     - title: Interface
       excerpt: Learn about interface layout and navigation tools
+      icon: 'toggle-off'
       url: '/interface'
     - title: Cloud documents
       excerpt: Learn how to work with cloud documents
