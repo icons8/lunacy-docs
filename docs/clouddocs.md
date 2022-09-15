@@ -41,7 +41,7 @@ To create a new cloud document, do one of the following things:
 * Use the `Ctrl+Shift+N` (`⌘ Shift N`) shortcut.
 * On the **Home** tab, click **New Cloud Document** (see the figure below).
 
-![Creating a new cloud document in Lunacy](/public/newclouddoc.png)
+<embed type="image/svg+xml" alt="Creating a cloud document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Fv6j2YxF4UeK8FsSKZMV_Q.svg" />
 
 
 ## Opening a cloud document
@@ -51,7 +51,7 @@ To open a cloud document:
 1. Go to the **Home** tab.
 2. In the **Recent** or **Documents** section, find your document and click it.
 
-![Opening a cloud document in Lunacy](/public/openclouddoc1.png)
+<embed type="image/svg+xml" alt="Opening a cloud document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2G4RkUjagk2Dg2TIeBt9Tg.svg" />
 
 
 
@@ -72,11 +72,11 @@ To share a cloud document:
     * **View** — users with this access level can only view the content of the document.
 4. Click **Copy link** and send it to the person you want to share the document with.
 
-![Sharing a cloud document](/public/shareclouddoc.png)
+<embed type="image/svg+xml" alt="Sharing a cloud document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2rN_zzHnCUmG0EB-eepOGA.svg" />
 
 When invited users click over a shared link and access your document, their avatars show up in the **Share** panel. You can individually modify their access level, temporarily ban or delete them from the list. Personal settings override the **Anyone with the link** setting.
 
-![The Share panel](/public/share_panel.png)
+<embed type="image/svg+xml" alt="Sharing a cloud document 2" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fL5EbbvGoUGHjOVeF5Zm9w.svg" />
 
 
 
@@ -84,7 +84,7 @@ When invited users click over a shared link and access your document, their avat
 The Observer Mode enables you to follow the activities of other users on the canvas. For this, click the user's avatar in the top-right corner. You will see a colored frame around the canvas indicating that you're now in the Observer Mode.
 
 
-![Observer mode](/public/rn71_observermode1.png)
+<embed type="image/svg+xml" alt="Observer mode" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/mP2ZW1eSmEK8lKMe470eyQ.svg" />
 
 To exit the mode, click the user's avatar once again.
 
@@ -103,7 +103,7 @@ Also, on the history panel, you can:
 * Sort out versions by clicking the **All**, **Auto**, and **Manual** buttons at the top of the panel.
 * Rename, open, copy links to, or delete versions using the respective commands in the context menu (see the figure below). To see the context menu, right-click over the required version.
 
-![Viewing version history](/public/viewhistory.png)
+<embed type="image/svg+xml" alt="Version history Copy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LRydlraNhkeC4hL0oRTbYQ.svg" />
 
 
 
@@ -121,7 +121,7 @@ To save a cloud document as local:
 2. In the displayed dialog box, define the folder where you want to save the file.
 3. Click **Save**.
 
-![Saving cloud document as local](/public/savingcloudaslocal.png)
+<embed type="image/svg+xml" alt="Saving cloud documents as local .sketch files" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5-CDVkC34EitxNGTmKk5Pw.svg" />
 
 
 ## Deleting a cloud document
@@ -132,7 +132,7 @@ To delete a cloud document:
 2. In the **Recent** or **Documents** section, find your document and right-click over it.
 3. In the context menu, click **Delete**.
 
-![Deleting cloud documents](/public/deleting_cloud_doc1.png)
+<embed type="image/svg+xml" alt="Deleting a cloud document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bPHM48stFE-C2ITaKZMy2g.svg" />
 
 Deleted documents get to the **Deleted** section of the **Home** tab from where you can either restore the document or permanently delete it.
 
