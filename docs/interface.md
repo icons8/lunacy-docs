@@ -120,7 +120,7 @@ The interface consists of the following main elements.
 
 Each document can include any number of pages. You can keep all your work on a single page or split it into several pages by components, if the project is large. For instance, if you are designing a website, you can opt to keep the desktop and mobile versions on separate pages. Or you can duplicate a page to save a snapshot of your current work and continue working with the copy. In fact, the reasons for having multiple pages in a document are numerous and it is completely up to you to decide what approach to choose. The figure below shows a view of a page list. It appears above the Layer List when the **Layers** content tab is selected.
 
-![A view of the page list](public/interface-pagelist65.png)
+<embed type="image/svg+xml" alt="Pages" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/heVy9uNZn0SrsRJAvB2zhg.svg" />
 
 The operations that you can perform with document pages include:
 
@@ -150,7 +150,7 @@ There is also a special type of a page - the Components page. For details, read 
 The Layer List appears in left panel when you click the **Layers** content tab. It shows a tree of layers available on the current page. Lunacy automatically assigns names to layers and layer groups as you create them, but you can rename them if you like. The figure below shows a view of a Layer List.
 
 {:.is-big}
-![A view of a Layer list](public/interface-objectlist65.png)
+<embed type="image/svg+xml" alt="Layers List" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TlrJs4Jv70GRRU_UWxQ1pw.svg" />
 
 If the names of layers in the list appear truncated, you can change the width of the panel as shown below.
 
@@ -209,14 +209,14 @@ To add an artboard:
 2. Click and drag to create a custom size artboard or select an option from the panel on the right (see the figure below).
 
 {:.is-big}
-![Adding an artboard](public/tool-addatrboard61.png)
+<embed type="image/svg+xml" alt="Artboards " src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TRpyYZFvgUyuxKR8MzWR9Q.svg" />
 
 But even if you started your project without artboards, it is never too late to add them. Just drag the artboard tool over the layers that you want to put on an artboard.
 
 The figure below shows how artboards appear in the Layer List and a view of the Inspector with artboard settings and controls which differ a lot from those available in the [Inspector](#the-inspector) panels of other layer types.
 
 {:.is-big}
-![Artboards: Layer list and presets](public/interface-artboardpanels65.png)
+<embed type="image/svg+xml" alt="Artboards Create" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OVBe70GtwUqoerEuoDf3WA.svg" />
 
 The table below provides a description of Inspector elements displayed for artboards.
 
@@ -274,7 +274,7 @@ To add a custom artboard to presets:
 3. In the displayed dialog box, define the preset name and its dimensions in pixels.
 4. Click **Save**. The group **Custom** appears in the panel of presets (see the figure below).
 
-![Artboard presets](/public/interface-customartboards1.png)
+<embed type="image/svg+xml" alt="Custom Preset" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LVbUeACRzUG6RL4YUuUxBw.svg" />
 
 ### [Rulers and guides](#rulers-and-guides)
 
@@ -286,7 +286,7 @@ To create a guide, click anywhere on a ruler and drag the guide onto the canvas 
 
 To relocate a guide, just drag it to another position or select it and use arrow keys to nudge it. If you don't need a guide, click to select it (hold down `Shift` to select multiple guides) and press `Delete`. Also, you can use the options from the pop-up menu invoked by a right-click over a ruler (see the figure below).
 
-![Ruler and guides pop-up menu](public/interface-rulermenu.png)
+<embed type="image/svg+xml" alt="Rulers" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U8yim8DMH0a1ZkV3tKsEfA.svg" />
 
 ### [Grids](#grids)
 
@@ -405,7 +405,7 @@ The demo below shows all these three methods.
 
 Alternatively, you can click the down arrowhead next to the zoom control and select one of the preset values or options on the displayed menu (see the figure below).
 
-![Zoom control](public/interface-zoomcontrol.png)
+<embed type="image/svg+xml" alt="Zoom" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OxheNRo5pkiyNtsF3_IaLQ.svg" />
 
 The table below explains the options on the menu.
 
@@ -453,7 +453,7 @@ The table below explains the options on the menu.
 
 The above options are also accessible through the **View** menu, see the figure below.
 
-![Zoom tool](public/tool-zoommenu2.png)
+<embed type="image/svg+xml" alt="Zoom 2" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ulk_sB-ZfEehRxkxtYuZ4w.svg" />
 
 <!--
 
@@ -465,7 +465,7 @@ Also, for zooming and focusing you can use the <a href="https://docs.icons8.com/
 
 By default, Lunacy displays canvas in the vector mode. It means that all layers (except for rasters) will look perfect on the screen irrespective of the zoom value. But if you need to see individual pixels, you can use the *show pixels on zoom* feature. It enables the display of pixels when the zoom value exceeds 100. The figure below shows a view of the same layer with the feature disabled (left) and enabled (right).
 
-![Vector and pixel modes](public/interface-pixelview.png)
+<embed type="image/svg+xml" alt="Show pixels on Zoom" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/n94M7z7YrUudVeF56mTAdw.svg" />
 
 To toggle on/off the pixel mode, use the **Show pixels on zoom** button (![Show pixels on zoom button](public/interface-pixelbtn.png)) or do it through the menu bar (**View** > **Pixels on Zoom**).
 
@@ -541,7 +541,7 @@ When you select no layer on the canvas, the Inspector shows the following contro
 * **Show pixel grid**: Toggles on/off the display of the pixel grid when the zoom value exceeds 500.
 * **Export project**: Allows you to export the whole project. For details, read <a href="https://docs.icons8.com/export" target="_blank">here</a>.
 
-![A view of Inspector with no layers selected](public/interface-canvasinspector.png)
+<embed type="image/svg+xml" alt="Select no layer on the canvas" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/YJSPtecCHkq9Lh22lNc1sw.svg" />
 
 If you need more space, you can toggle on/off the display of the Inspector panel through the menu bar (**View** > **Inspector**).
 
@@ -560,7 +560,7 @@ There are several ways to change values in the numeric fields of the Inspector. 
 
 The context menu is a pop-up list of commands and options for basic operations with layers. It appears when you right-click a layer on the canvas. The set of items available on the context menu might slightly vary. It depends on the type of layer that you right-click. Also, next to each item, the context menu shows respective shortcuts that you can use when you become more confident with Lunacy (see the figure below).  
 
-![A view of Inspector with no layers selected](public/interface-contextmenu.png)
+<embed type="image/svg+xml" alt="The context menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/wdcgLwXeIkuEy9ev-2y6qA.svg" />
 
 The table below gives an overview of context menu commands and options common for almost all layer types.
 
