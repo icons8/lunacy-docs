@@ -38,6 +38,91 @@ page_nav:
 
 # Version 8
 
+## 8.7
+
+*Release date: September XX, 2022*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_8.6.2.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_8.6.2.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_8.6.2.deb)
+
+### Addressable content
+
+![Addressable content](/public/addressable_content_rn.png)
+
+
+Now you can control the appearance of web pages right from Lunacy. We introduced the concept of addressable content that you can update in the app and then apply the changes to the web page. Addressable content includes:
+
+* Texts
+* Images
+* Layer and text styles
+* Color variables
+
+#### How it works for a web developer
+
+Switching to addressable content might slightly impact your standard practices at the beginning, but will save you lots of time and efforts later on:
+
+* Copy the link to the CSS file in Lunacy and add it to your HTML document. Stick to the CSS styles and color variables in the code.
+* Write a JS script for fetching the JSON file with text content key/value pairs and a function that will output text by key values. Add texts to your HTML document using this function and respective keys. 
+* Add graphic content as PNG/SVG links to our Lunacy cloud (covered by CDN).
+
+That’s it! Now your graphic designers can update the page by themselves.
+
+#### How it works for a graphic designer
+
+After you’ve made changes to any addressable content, go to the **Code** panel (`F4)` and click ![refresh button](/public/refresh_icon.png) next to the CSS file, JSON file, or links to graphic content depending on what you’ve changed.
+
+That’s it! The changes will immediately appear on the web page. 
+
+### Reworked icons
+
+![reworked icons](/public/reworked_icons.png)
+
+
+You no longer have to download the 500+ MB icon pack to start working with icons in Lunacy. Now, they upload in real-time as you scroll the gallery in the right panel. What’s more, now you have access to all the latest icons available at <a href="https://icons8.com/" target="_blank">icons8.com</a>.
+
+### Text generation by text block size
+
+![text generation by text block size](/public/text_generation_by_text_block_size.png)
+
+
+Now you can instantly add meaningful texts without racking your brain. When you create a text block by dragging it over the canvas, Lunacy suggests different types of text content depending on the text block size: time, date, people names, professions, headings, paragraphs, and more. If you’re OK with the suggested text, you can leave it and go on working. If not, simply enter the required copy.
+
+### Refresh of generated data upon duplicating
+
+![Refresh of generated data upon duplicating](/public/refresh_of_generated_data1.png)
+
+
+When you duplicate or copy and paste layers with auto-generated data (texts or avatars), Lunacy replaces current instances with new ones.
+
+To disable the refresh of generated content, in the top menu, go to **Layer > Content Generation** and uncheck the **AutoRefresh** option.
+
+### Repeat grid
+
+![Repeat grid](/public/repeat_grid.png)
+
+When you select two or more layers or layer groups, you’ll see ![repeat grid handle](/public/repeat_grid_handle.png) next to the lower-right corner of the bounding box. By dragging it you can create any grids of similar elements.
+
+If the original elements include auto-generated data, newly created elements will appear with refreshed data, provided that the **AutoRefresh** (see above) option is enabled. This can save you lots of time when designing things like customer testimonials, user cards, and similar UI elements.
+
+### Improvements
+
+* The context menu now supports click-hold. Right-click and navigate to the required menu option holding down the mouse button. Release the button to select the option.
+* You can now use right-click to select locked elements.
+* Now, it is possible to can copy images from Lunacy into other apps through clipboard.
+* The shape tools now inherit the styling of the latest shape of that kind. For example, if you create a red rectangle with a 2 px border and a shadow, the next rectangle you add will get the same fill, border, and shadow.
+* You can now also view document version history by right-clicking a cloud document card on the Home tab.
+* Added the `Ctr(⌘)l+Shift+W` shortcut for closing documents without saving changes.
+* The **Select group’s content on click** checkbox now appears in the right panel when you select a group of layers. With the checkbox selected, you can immediately select the required layer within the group, without any extra clicks or holding down `Ctr(⌘)`. However, to select the whole group in such a case, you’ll have to do it through the Layer Tree. 
+* Added full support for version 91 of the .sketch format.
+We removed the notification panel. All notifications now appear as toasts at the bottom of the screen.
+* Rendering performance improvements.
+* Some aesthetic improvements to prototyping links.
+* Some usability improvements to the tool tips that appear upon hover on the section names in the right panel. They've become less annoying.
+
+
 ## 8.6.2
 
 *Release date: July 22, 2022*
