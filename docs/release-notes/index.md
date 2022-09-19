@@ -64,7 +64,7 @@ Now you can control the appearance of web pages right from Lunacy. We introduced
 
 #### How it works for a web developer
 
-Switching to addressable content might slightly impact your standard practices at the beginning, but will save you lots of time and efforts later on:
+Switching to addressable content might slightly impact your standard practices at the beginning, but will save you lots of time and efforts later on. In the **Export** panel:
 
 * Copy the link to the CSS file in Lunacy and add it to your HTML document. Stick to the CSS styles and color variables in the code.
 * Write a JS script for fetching the JSON file with text content key/value pairs and a function that will output text by key values. Add texts to your HTML document using this function and respective keys. 
@@ -74,7 +74,7 @@ That’s it! Now your graphic designers can update the page by themselves.
 
 #### How it works for a graphic designer
 
-After you’ve made changes to any addressable content, go to the **Code** panel and click ![refresh button](/public/refresh_icon.png) next to the CSS file, JSON file, or links to graphic content depending on what you’ve changed.
+After you’ve made changes to any addressable content, go to the **Export** panel and click ![refresh button](/public/refresh_icon.png) next to the CSS file, JSON file, or links to graphic content depending on what you’ve changed.
 
 That’s it! The changes will immediately appear on the web page. 
 
