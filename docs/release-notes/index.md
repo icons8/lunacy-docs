@@ -50,7 +50,7 @@ Download:
 
 ### Addressable content
 
-![Addressable content](/public/addressable_content1.png)
+![Addressable content](/public/addressable_content.png)
 
 
 Now you can control the appearance of web pages right from Lunacy. We introduced the concept of addressable content that you can update in the app and then apply the changes to the web page. Addressable content includes:
@@ -85,7 +85,7 @@ You no longer have to download the 500+ MB icon pack to start working with icons
 
 ### Text generation by text block size
 
-![text generation by text block size](/public/text_generation_by_text_block_size.png)
+![text generation by text block size](/public/text_generation_by_text_block_size1.png)
 
 
 Now you can instantly add meaningful texts without racking your brain. When you create a text block by dragging it over the canvas, Lunacy suggests different types of text content depending on the text block size: time, date, people names, professions, headings, paragraphs, and more. If you’re OK with the suggested text, you can leave it and go on working. If not, simply enter the required copy.
