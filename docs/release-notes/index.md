@@ -50,7 +50,7 @@ Download:
 
 ### Addressable content
 
-![Addressable content](/public/addressable_content_rn.png)
+![Addressable content](/public/addressable_content1.png)
 
 
 Now you can control the appearance of web pages right from Lunacy. We introduced the concept of addressable content that you can update in the app and then apply the changes to the web page. Addressable content includes:
