@@ -38,6 +38,8 @@ page_nav:
 
 # Version 8
 
+<!--
+
 ## 8.7
 
 *Release date: September XX, 2022*
@@ -72,7 +74,7 @@ That’s it! Now your graphic designers can update the page by themselves.
 
 #### How it works for a graphic designer
 
-After you’ve made changes to any addressable content, go to the **Code** panel (`F4)` and click ![refresh button](/public/refresh_icon.png) next to the CSS file, JSON file, or links to graphic content depending on what you’ve changed.
+After you’ve made changes to any addressable content, go to the **Code** panel and click ![refresh button](/public/refresh_icon.png) next to the CSS file, JSON file, or links to graphic content depending on what you’ve changed.
 
 That’s it! The changes will immediately appear on the web page. 
 
@@ -114,14 +116,15 @@ If the original elements include auto-generated data, newly created elements wil
 * Now, it is possible to can copy images from Lunacy into other apps through clipboard.
 * The shape tools now inherit the styling of the latest shape of that kind. For example, if you create a red rectangle with a 2 px border and a shadow, the next rectangle you add will get the same fill, border, and shadow.
 * You can now also view document version history by right-clicking a cloud document card on the Home tab.
-* Added the `Ctr(⌘)l+Shift+W` shortcut for closing documents without saving changes.
-* The **Select group’s content on click** checkbox now appears in the right panel when you select a group of layers. With the checkbox selected, you can immediately select the required layer within the group, without any extra clicks or holding down `Ctr(⌘)`. However, to select the whole group in such a case, you’ll have to do it through the Layer Tree. 
+* Added the `Ctrl(⌘)+Shift+W` shortcut for closing documents without saving changes.
+* The **Select group’s content on click** checkbox now appears in the right panel when you select a group of layers. With the checkbox selected, you can immediately select the required layer within the group, without any extra clicks or holding down `Ctrl(⌘)`. However, to select the whole group in such a case, you’ll have to do it through the Layer Tree. 
 * Added full support for version 91 of the .sketch format.
 We removed the notification panel. All notifications now appear as toasts at the bottom of the screen.
 * Rendering performance improvements.
 * Some aesthetic improvements to prototyping links.
 * Some usability improvements to the tool tips that appear upon hover on the section names in the right panel. They've become less annoying.
 
+-->
 
 ## 8.6.2
 
