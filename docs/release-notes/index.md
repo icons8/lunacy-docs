@@ -50,7 +50,7 @@ Download:
 
 ### Linked design
 
-![Linked design](/public/addressable_content.png)
+![Linked design](/public/linked_design.png)
 
 
 Now you can control the appearance of web pages right from Lunacy. We introduced the concept of **linked design** that lets you update design in Lunacy and then apply the changes to the web page. This applies to:
