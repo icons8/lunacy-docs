@@ -38,17 +38,15 @@ page_nav:
 
 # Version 8
 
-<!--
-
 ## 8.7
 
-*Release date: September XX, 2022*
+*Release date: September 27, 2022*
 
 Download:
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_8.6.2.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_8.6.2.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_8.6.2.deb)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_8.7.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_8.7.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_8.7.0.deb)
 
 ### Addressable content
 
@@ -124,7 +122,7 @@ We removed the notification panel. All notifications now appear as toasts at the
 * Some aesthetic improvements to prototyping links.
 * Some usability improvements to the tool tips that appear upon hover on the section names in the right panel. They've become less annoying.
 
--->
+
 
 ## 8.6.2
 
