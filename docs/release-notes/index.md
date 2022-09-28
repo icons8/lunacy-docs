@@ -60,6 +60,10 @@ Now you can control the appearance of web pages right from Lunacy. We introduced
 * Layer and text styles
 * Color variables
 
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> This feature works only in cloud documents.</p>
+</div>
+
 #### How it works for a web developer
 
 Switching to addressable content might slightly impact your standard practices at the beginning, but will save you lots of time and efforts later on. In the **Export** panel:
