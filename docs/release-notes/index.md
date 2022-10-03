@@ -80,7 +80,7 @@ After you’ve made changes to your design, go to the **Export** panel and click
 
 That’s it! The changes will immediately appear on the web page. 
 
-### Reworked icons
+### Easier work with icons
 
 ![reworked icons](/public/reworked_icons.png)
 
