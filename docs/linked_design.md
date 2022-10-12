@@ -22,12 +22,6 @@ page_nav:
         url: '/text'
 ---
 
-## Introduction
-### Linked design
-
-![Linked design](/public/linked_design.png)
-
-
 You can control the appearance of web pages right from Lunacy. The feature that we call **linked design** lets you update designs in Lunacy and then apply the changes to the web page. This applies to:
 
 * Texts
@@ -39,7 +33,7 @@ You can control the appearance of web pages right from Lunacy. The feature that 
     <p><strong>Note:</strong> This feature works only in cloud documents.</p>
 </div>
 
-#### How it works for a web developer
+## How it works for a web developer
 
 Switching to linked design might slightly impact your standard practices at the beginning, but will save you lots of time and efforts later on. 
 
@@ -59,8 +53,11 @@ The procedure is as follows:
 
 5. One by one, select the layers/layer groups subject to updates from Lunacy, copy their code in the **Export** panel and paste it to your HTML code.
 
+Here's also a short video explainer:
 
-#### How it works for a graphic designer
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a707KuNnT9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## How it works for a graphic designer
 
 The only difference from your standard flow will be the work with raster images. You should wrap all the raster images subject to updates into layer groups.
 
@@ -79,11 +76,3 @@ When making changes to your design, which is already a live webpage, proceed as 
 <div class="callout callout--warning">
     <p><strong>Notes:</strong></p><p>Do not rename layer and text styles after the design is online</p><p>Do not add new styles, if you don't won't to bother your web developers. Edit your current styles instead.</p>
 </div>
-
-In the **Export** panel:
-
-* Copy the link to the CSS file in Lunacy and add it to your HTML document. Stick to the CSS styles and color variables in the code.
-* Write a JS script for fetching the JSON file with text content key/value pairs and a function that will output text by key values. Add texts to your HTML document using this function and respective keys. 
-* Add graphic content as PNG/SVG links to our Lunacy cloud (covered by CDN).
-
-That’s it! Now your graphic designers can update the page by themselves.
