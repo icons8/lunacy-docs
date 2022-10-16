@@ -22,7 +22,7 @@ page_nav:
         url: '/text'
 ---
 
-You can control the appearance of web pages right from Lunacy. The feature that we call **linked design** lets you update designs in Lunacy and then apply the changes to the web page. This applies to changes in:
+You can control the appearance of web pages right from Lunacy. The feature that we call **linked design** lets you update designs in Lunacy and then apply the changes to the web page. This works with changes in:
 
 * Colors
 * Styling effects (borders, shadows, etc.)
@@ -69,7 +69,7 @@ To make sure that your linked design works properly, mind the following rules:
 * DO NOT add new styles, if you don't won't to bother your web developers. Edit your current styles instead.
 
 
-To apply changes to your design, which is already a live webpage, proceed as follows.
+To apply changes to a live webpage, proceed as follows.
 
 **For non-text layers:**
 
@@ -92,3 +92,5 @@ To apply changes to your design, which is already a live webpage, proceed as fol
     ![Applying text changes to live web page](/public/Linked_design_applying_changes_text.png)
 
     **Tip:** If ![refresh button](/public/refresh_icon.png) appears disabled, click the question mark next to it first.
+
+To see the changes, reload the page by pressing `Ctrl//⌘ ⌥ R`, to make sure that the cached content is cleared.
