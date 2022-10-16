@@ -22,12 +22,14 @@ page_nav:
         url: '/text'
 ---
 
-You can control the appearance of web pages right from Lunacy. The feature that we call **linked design** lets you update designs in Lunacy and then apply the changes to the web page. This applies to:
+You can control the appearance of web pages right from Lunacy. The feature that we call **linked design** lets you update designs in Lunacy and then apply the changes to the web page. This applies to changes in:
 
-* Texts
-* Images
-* Layer and text styles
-* Color variables
+* Colors
+* Styling effects (borders, shadows, etc.)
+* Layer shapes
+* Layer sizes
+* Text and raster content
+
 
 <div class="callout callout--warning">
     <p><strong>Note:</strong> This feature works only in cloud documents.</p>
@@ -59,11 +61,17 @@ Here's also a short video explainer:
 
 ## How it works for a graphic designer
 
-The only difference from your standard flow will be the work with raster images. You should wrap all the raster images subject to updates into layer groups.
+To make sure that your linked design works properly, mind the following rules:
 
-Even if an image is standalone by design, create a dummy vector layer below the image and then group them.
+* The use of <a href="https://docs.icons8.com/layerstyles/" target="_blank">text styles</a> is a MUST.
+* Wrap all the raster images subject to updates into layer groups. Even if an image is standalone by design, create a dummy vector layer below the image and make a group.
+* DO NOT rename layer and text styles after the design is online.
+* DO NOT add new styles, if you don't won't to bother your web developers. Edit your current styles instead.
 
-When making changes to your design, which is already a live webpage, proceed as follows:
+
+To apply changes to your design, which is already a live webpage, proceed as follows.
+
+For non-text layers:
 
 1. Select the altered layer/layer group.
 2. Open the **Export** tab in the right panel.
@@ -71,8 +79,15 @@ When making changes to your design, which is already a live webpage, proceed as 
 
     ![Applying changes to live web page](/public/Linked_design_applying_changes.png)
 
+    **Tip:** If ![refresh button](/public/refresh_icon.png) appears disabled, click the question mark next to it first.
+
 4. Repeat as needed.
 
-<div class="callout callout--warning">
-    <p><strong>Notes:</strong></p><p>Do not rename layer and text styles after the design is online</p><p>Do not add new styles, if you don't won't to bother your web developers. Edit your current styles instead.</p>
-</div>
+For text layers:
+
+1. When you're done with all edits of text layers, deselect all layers on the canvas (press `Esc` or click anywhere over the canvas).
+2. Click ![refresh button](/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
+
+    ![Applying text changes to live web page](/public/Linked_design_applying_changes_text.png)
+
+    **Tip:** If ![refresh button](/public/refresh_icon.png) appears disabled, click the question mark next to it first.
