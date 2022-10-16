@@ -22,7 +22,7 @@ page_nav:
         url: '/text'
 ---
 
-You can control the appearance of web pages right from Lunacy. The feature that we call **linked design** lets you update designs in Lunacy and then apply the changes to the web page. This works with changes in:
+You can control the appearance of web pages right from Lunacy. The feature that we call **linked design** lets you update designs in Lunacy and then apply the changes to the web page. This works with changes to:
 
 * Colors
 * Styling effects (borders, shadows, etc.)
@@ -32,7 +32,7 @@ You can control the appearance of web pages right from Lunacy. The feature that 
 
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> This feature works only in cloud documents.</p>
+    <p><strong>Note:</strong> This feature is available only in cloud documents.</p>
 </div>
 
 ## How it works for a web developer
