@@ -71,11 +71,12 @@ To make sure that your linked design works properly, mind the following rules:
 
 To apply changes to your design, which is already a live webpage, proceed as follows.
 
-For non-text layers:
+**For non-text layers:**
 
 1. Select the altered layer/layer group.
 2. Open the **Export** tab in the right panel.
 3. Click ![refresh button](/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
+
 
     ![Applying changes to live web page](/public/Linked_design_applying_changes.png)
 
@@ -83,7 +84,7 @@ For non-text layers:
 
 4. Repeat as needed.
 
-For text layers:
+**For text layers:**
 
 1. When you're done with all edits of text layers, deselect all layers on the canvas (press `Esc` or click anywhere over the canvas).
 2. Click ![refresh button](/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
