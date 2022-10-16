@@ -93,4 +93,4 @@ To apply changes to a live webpage, proceed as follows.
 
     **Tip:** If ![refresh button](/public/refresh_icon.png) appears disabled, click the question mark next to it first.
 
-To see the changes, reload the page by pressing `Ctrl//⌘ ⌥ R`, to make sure that the cached content is cleared.
+To see the changes, reload the page by pressing `Ctrl + F5`/`⌘ ⌥ R`, to make sure that the cached content is cleared.
