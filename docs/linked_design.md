@@ -35,6 +35,8 @@ You can control the appearance of web pages right from Lunacy. The feature that 
     <p><strong>Note:</strong> This feature is available only in cloud documents.</p>
 </div>
 
+To learn more about the benefits of linked design and possible use cases, check out <a href="https://blog.icons8.com/articles/editing-live-web-pages-from-a-graphic-app-is-no-longer-a-dream/" target="_blank">this article</a>. 
+
 
 ## How it works for a web developer
 
