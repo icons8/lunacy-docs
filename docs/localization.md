@@ -36,11 +36,11 @@ We have a great team of Lunacy enthusiasts helping us with localization of the a
 3. Choose the language you want to contribute to.
 4. Select a file for translation:
 
-    * *Lunacy.Wpf.xlf* - the main file with stings from the Lunacy interface.
+    * *Resources.resx* - the main file with stings from the Lunacy interface.
     * *LunacyMicrosoftStore.csv* - the file with strings that appear on the Lunacy page in Microsoft Store.
 
     {:.is-big}
-    ![Selecting a file for translation](public/localize-selectfile.png)
+    ![Selecting a file for translation](public/localize-selectfile1.png)
 
 
     Files that need translation have progress of less than 100%. Click a filename. The Editor page appears.
