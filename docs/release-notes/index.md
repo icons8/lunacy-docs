@@ -217,7 +217,7 @@ Note that palettes appear only in documents created in version 8.6 or higher.
 You no longer need to struggle with the vector tool or tricky Boolean and flattening operations to get a half-circle or a part of another shape. With the shape cropper, you will do it in a couple of clicks:
 
 1. Select the required shape.
-2. Click ![scissors icon](/public/cut_icon.png) on the context toolbar.
+2. Click ![scissors icon](/public/crop_icon.png) on the context toolbar.
 3. Drag the borders of the frame to select the required area.
 4. Press `Enter` or click **Apply** editing in the right panel.
 
