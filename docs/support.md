@@ -26,22 +26,23 @@ page_nav:
 
 ### In Lunacy v.8.7.2, instead of icons I see the no connection message in the left panel. How can I fix it?
 
-We have fixed this issue in our beta build (8.8.0.xxxx). To install it, go to **Help** > **About** and select the **Check for Beta Updates** checkbox. Then install the update.
+We have fixed this issue in our beta build (8.8.0.xxxx). To install it use the following links:
 
-Alternatively, you can use the following links:
+* <a href="https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe">Windows 32bit</a>
+* <a href="https://lcdn.icons8.com/setup/beta/LunacySetup.exe">Windows 64bit</a>
+* <a href="https://lcdn.icons8.com/setup/beta/Lunacy.pkg">MacOS .pkg</a>
+* <a href="https://lcdn.icons8.com/setup/beta/Lunacy.dmg">MacOS .dmg</a>
+* <a href="https://lcdn.icons8.com/setup/beta/Lunacy.deb">Linux deb64beta</a>
+* <a href="https://lcdn.icons8.com/setup/beta/Lunacy.ARM.deb">Linux debARMbeta</a>
 
-* **Windows 32bit** <a href="https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe">https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe</a>
-* **Windows 64bit** <a href="https://lcdn.icons8.com/setup/beta/LunacySetup.exe">https://lcdn.icons8.com/setup/beta/LunacySetup.exe</a>
-* **MacOS .pkg** <a href="https://lcdn.icons8.com/setup/beta/Lunacy.pkg">https://lcdn.icons8.com/setup/beta/Lunacy.pkg</a>
-* **MacOS .dmg** <a href="https://lcdn.icons8.com/setup/beta/Lunacy.dmg">https://lcdn.icons8.com/setup/beta/Lunacy.dmg</a>
-* **Linux deb64beta** <a href="https://lcdn.icons8.com/setup/beta/Lunacy.deb">https://lcdn.icons8.com/setup/beta/Lunacy.deb</a>
-* **Linux debARMbeta** <a href="https://lcdn.icons8.com/setup/beta/Lunacy.ARM.deb">https://lcdn.icons8.com/setup/beta/Lunacy.ARM.deb</a>
+Later on, if you decide not to update to further beta versions, go to **Help** > **About** and unselect the **Check for Beta Updates** checkbox. 
 
 ### Lunacy does not open the file I previously worked on. How can I fix it?
 
 Try the following:
 
-1. Go to **Help** > **Open App Data Folder**. This will open a folder with Lunacy files.
+1. Install beta of v.8.8 (see the links in the previous section).
+2. Go to **Help** > **Open App Data Folder**. This will open a folder with Lunacy files.
 2. Open the **Documents** folder. It will show subfolders with weird names. These are the files you worked on. For convenience, you can sort them by the **Date modified** column.
 3. Try to remember the date when you last modified the file, and drag-and-drop the subfolders with this modification date onto the canvas. Lunacy will try to restore the file.
 
