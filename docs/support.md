@@ -30,12 +30,12 @@ We have fixed this issue in our beta build (8.8.0.xxxx). To install it, go to **
 
 Alternatively, you can use the following links:
 
-* **Windows 32bit** https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe
-* **Windows 64bit** https://lcdn.icons8.com/setup/beta/LunacySetup.exe
-* **MacOS .pkg** https://lcdn.icons8.com/setup/beta/Lunacy.pkg
-* **MacOS .dmg** https://lcdn.icons8.com/setup/beta/Lunacy.dmg
-* **Linux deb64beta** https://lcdn.icons8.com/setup/beta/Lunacy.deb
-* **Linux debARMbeta** https://lcdn.icons8.com/setup/beta/Lunacy.ARM.deb
+* **Windows 32bit** <a href="https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe">https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe</a>
+* **Windows 64bit** <a href="https://lcdn.icons8.com/setup/beta/LunacySetup.exe">https://lcdn.icons8.com/setup/beta/LunacySetup.exe</a>
+* **MacOS .pkg** <a href="https://lcdn.icons8.com/setup/beta/Lunacy.pkg">https://lcdn.icons8.com/setup/beta/Lunacy.pkg</a>
+* **MacOS .dmg** <a href="https://lcdn.icons8.com/setup/beta/Lunacy.dmg">https://lcdn.icons8.com/setup/beta/Lunacy.dmg</a>
+* **Linux deb64beta** <a href="https://lcdn.icons8.com/setup/beta/Lunacy.deb">https://lcdn.icons8.com/setup/beta/Lunacy.deb</a>
+* **Linux debARMbeta** <a href="https://lcdn.icons8.com/setup/beta/Lunacy.ARM.deb">https://lcdn.icons8.com/setup/beta/Lunacy.ARM.deb</a>
 
 ### Lunacy does not open the file I previously worked on. How can I fix it?
 
