@@ -26,7 +26,7 @@ page_nav:
 
 ### In Lunacy v.8.7.2, instead of icons I see the no connection message in the left panel. How can I fix it?
 
-We have fixed this issue in our beta build (8.8.0.xxxx). To install it use the following links:
+We have fixed this issue in our beta build (8.8.0.xxxx). To install it, use the following links:
 
 * <a href="https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe">Windows 32bit</a>
 * <a href="https://lcdn.icons8.com/setup/beta/LunacySetup.exe">Windows 64bit</a>
@@ -46,7 +46,7 @@ Try the following:
 2. Open the **Documents** folder. It will show subfolders with weird names. These are the files you worked on. For convenience, you can sort them by the **Date modified** column.
 3. Try to remember the date when you last modified the file, and drag-and-drop the subfolders with this modification date onto the canvas. Lunacy will try to restore the file.
 
-If this doesn't help, contact out support via **Help** > **Report a Problem** and attach an archive with the **Documents** folder to the report.
+If this doesn't help, contact our support team via **Help** > **Report a Problem** and attach an archive with the **Documents** folder to the report.
 
 
 ### Where are the plugins?
