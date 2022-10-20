@@ -24,6 +24,30 @@ page_nav:
 
 ## FAQ
 
+### In Lunacy v.8.7.2, instead of icons I see the no connection message in the left panel. How can I fix it?
+
+We have fixed this issue in our beta build (8.8.0.xxxx). To install it, go to **Help** > **About** and select the **Check for Beta Updates** checkbox. Then install the update.
+
+Alternatively, you can use the following links:
+
+* **Windows 32bit** https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe
+* **Windows 64bit** https://lcdn.icons8.com/setup/beta/LunacySetup.exe
+* **MacOS .pkg** https://lcdn.icons8.com/setup/beta/Lunacy.pkg
+* **MacOS .dmg** https://lcdn.icons8.com/setup/beta/Lunacy.dmg
+* **Linux deb64beta** https://lcdn.icons8.com/setup/beta/Lunacy.deb
+* **Linux debARMbeta** https://lcdn.icons8.com/setup/beta/Lunacy.ARM.deb
+
+### Lunacy does not open the file I previously worked on. How can I fix it?
+
+Try the following:
+
+1. Go to **Help** > **Open App Data Folder**. This will open a folder with Lunacy files.
+2. Open the **Documents** folder. It will show subfolders with weird names. These are the files you worked on. For convenience, you can sort them by the **Date modified** column.
+3. Try to remember the date when you last modified the file, and drag-and-drop the subfolders with this modification date onto the canvas. Lunacy will try to restore the file.
+
+If this doesn't help, contact out support via **Help** > **Report a Problem** and attach an archive with the **Documents** folder to the report.
+
+
 ### Where are the plugins?
 
 We removed the support for external plugins in version 8. That was a trade-off we had to make in order to release Mac and Linux versions. We're planning to restore the feature in one of the upcoming releases.
