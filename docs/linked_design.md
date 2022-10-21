@@ -7,7 +7,7 @@ comments: false
 # Hero section
 title: Linked design
 description: Update live webpages right from Lunacy
-icon: 'design'
+icon: 'link'
 
 # Micro navigation
 micro_nav: false
@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Components
-        url: '/components'
+        content: Teams
+        url: '/teams'
     prev:
-        content: Text
-        url: '/text'
+        content: Prototyping
+        url: '/prototyping'
 ---
 
 You can control the appearance of web pages right from Lunacy. The feature that we call **linked design** lets you update designs in Lunacy and then apply the changes to the web page. This works with changes to:
@@ -62,7 +62,7 @@ The procedure is as follows:
 
 Here's also a short video explainer:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a707KuNnT9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l0X-TeBtPDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How it works for a graphic designer
 

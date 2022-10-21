@@ -33,6 +33,8 @@ doks:
       url: '/export'
     - title: 'Prototyping'
       url: '/prototyping'
+    - title: 'Linked design'
+      url: '/linked_design' 
     - title: 'Teams'
       url: '/teams'
     - title: 'Tips and Tricks'

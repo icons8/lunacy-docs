@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Teams
-        url: '/teams'
+        content: Linked design
+        url: '/linked_design'
     prev:
         content: Export
         url: '/export'

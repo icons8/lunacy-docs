@@ -18,8 +18,8 @@ page_nav:
         content: Tips and tricks
         url: '/tips'
     prev:
-        content: Prototyping
-        url: '/prototyping'
+        content: Linked design
+        url: '/linked_design'
 ---
 
 ## Overview

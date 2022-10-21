@@ -146,12 +146,15 @@ If you need to add a random text to your design, simply expand a text block on t
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips-textgenph.png" height="auto"><source src="/public/tips-textgen.mp4" type="video/mp4"></video>
 
+<!--
+
 ## Text snippets
 
 You don't need to think of user names, addresses and stuff of that kind for your designs. Just type the required text snippet and press `Enter`. Use `Shift+R` to refresh the generated text.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-snippetsph.png" height="auto"><source src="/public/tips-snippets.mp4" type="video/mp4"></video>
 
+-->
 
 ## Converting text to vector shapes
 
