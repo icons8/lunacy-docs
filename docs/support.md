@@ -43,8 +43,8 @@ Try the following:
 
 1. Install beta of v.8.8 (see the links in the previous section).
 2. Go to **Help** > **Open App Data Folder**. This will open a folder with Lunacy files.
-2. Open the **Documents** folder. It will show subfolders with weird names. These are the files you worked on. For convenience, you can sort them by the **Date modified** column.
-3. Try to remember the date when you last modified the file, and drag-and-drop the subfolders with this modification date onto the canvas. Lunacy will try to restore the file.
+3. Open the **Documents** folder. It will show subfolders with weird names. These are the files you worked on. For convenience, you can sort them by the **Date modified** column.
+4. Try to remember the date when you last modified the file, and drag-and-drop the subfolders with this modification date onto the canvas. Lunacy will try to restore the file.
 
 If this doesn't help, contact our support team via **Help** > **Report a Problem** and attach an archive with the **Documents** folder to the report.
 
