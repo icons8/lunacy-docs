@@ -140,7 +140,7 @@ To save a document to Sketch Cloud:
 
 If you've been working with a file that you already had on your computer, the local file will close and a new file tab with the Cloud document will appear once the uploading is complete. Cloud documents appear in the Lunacy interface with the Cloud icon in front of their names (see the demo below). Bear in mind that the local file and the Cloud file are two independent files. Changes to the local file will not affect the Cloud one and vice versa.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/cloud-savedocplaceholder.png" height="auto"><source src="/public/cloud-savedoc.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/cloud-savedocplaceholder.png" height="auto"><source src="/lunacy-docs/public/cloud-savedoc.mp4" type="video/mp4"></video>
 
 ## Updating a document in the Cloud
 

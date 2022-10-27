@@ -136,7 +136,7 @@ To delete a cloud document:
 
 Deleted documents get to the **Deleted** section of the **Home** tab from where you can either restore the document or permanently delete it.
 
-![Deleting cloud documents](/public/deleting_cloud_doc.png)
+![Deleting cloud documents](/lunacy-docs/public/deleting_cloud_doc.png)
 
 <div class="callout callout--warning">
     <p><strong>Note:</strong> The maximum storage period of deleted documents for free users is 30 days. Older documents get archived and cannot be restored.</p>

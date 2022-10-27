@@ -29,7 +29,7 @@ Moreover, you can also change the text on one or even all instances. That will b
 
 The demo below demonstrates the effect and efficiency of using components in designs.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symbols-demo65ph.png" height="auto"><source src="/public/symbols-demo65.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/symbols-demo65ph.png" height="auto"><source src="/lunacy-docs/public/symbols-demo65.mp4" type="video/mp4"></video>
 
 
 ## [Creating components](#creating-components)
@@ -118,7 +118,7 @@ To view a larger preview of a component, hover the cursor over the component ico
 
 To unfold/fold the content of all component categories, right-click anywhere over the category list and select **Expand All/Collapse All** on the displayed menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/components-panelph.png" height="auto"><source src="/public/components-panel.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/components-panelph.png" height="auto"><source src="/lunacy-docs/public/components-panel.mp4" type="video/mp4"></video>
 
 Also, to quickly find the required component, you can type its name in the search field at the top of the **Component** panel.
 
@@ -171,7 +171,7 @@ There are two ways to edit a main component:
 
 The changes you make immediately apply to all the component instances across the project (see the demo below), except for the instances with respective overrides.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symbols-editmasterph.png" height="auto"><source src="/public/symbols-editmaster65.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/symbols-editmasterph.png" height="auto"><source src="/lunacy-docs/public/symbols-editmaster65.mp4" type="video/mp4"></video>
 
 **Way 2**
 
@@ -225,7 +225,7 @@ To add an instance to a project page:
 
 Also, you can hold down the `Ctrl` or `Shift` key, select and then drop several component instances on the canvas at a time.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/components-addinstph.png" height="auto"><source src="/public/components-addinst.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/components-addinstph.png" height="auto"><source src="/lunacy-docs/public/components-addinst.mp4" type="video/mp4"></video>
 
 
 ### [Replacing instances](#replacing-instances)
@@ -250,7 +250,7 @@ There are two ways to replace an instance on the canvas.
 2. In the **Component** section of the Inspector panel, click the down arrowhead to unfold the menu.
 3. Use the menu to find and select the replacement component.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/components-replaceinst65-way2ph.png" height="auto"><source src="/public/components-replaceinst65-way2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/components-replaceinst65-way2ph.png" height="auto"><source src="/lunacy-docs/public/components-replaceinst65-way2.mp4" type="video/mp4"></video>
 
 
 The menu features the following sections:
@@ -406,7 +406,7 @@ Let's assume that we are designing a contact UI. We have prepared two templates:
 
 Now, we'll move from the components page to our project page, add one of the templates to the artboard and see the power of components in action.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-tutorialbeginph.png" height="auto"><source src="/public/components-tutorialbegin.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/components-tutorialbeginph.png" height="auto"><source src="/lunacy-docs/public/components-tutorialbegin.mp4" type="video/mp4"></video>
 
 
 ### Image overrides
@@ -428,7 +428,7 @@ Also, you can use the Lunacy photo and image libraries. We will do it for overri
 
 The video below shows both methods of overriding images.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-imageoverrideph.png" height="auto"><source src="/public/components-imageoverride.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/components-imageoverrideph.png" height="auto"><source src="/lunacy-docs/public/components-imageoverride.mp4" type="video/mp4"></video>
 
 
 ### Text overrides
@@ -465,7 +465,7 @@ Add the contact's email:
 
 The gif below demonstrates text overrides described in Steps 2 and 3.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/components-textoverrideph.png" height="auto"><source src="/public/components-textoverride.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/components-textoverrideph.png" height="auto"><source src="/lunacy-docs/public/components-textoverride.mp4" type="video/mp4"></video>
 
 
 For details, about text generation and text snippets, click <a href="https://docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">here</a>.
@@ -501,7 +501,7 @@ The procedure is as follows:
 -->
 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-nestedoverrideph.png" height="auto"><source src="/public/components-nestedoverride.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/components-nestedoverrideph.png" height="auto"><source src="/lunacy-docs/public/components-nestedoverride.mp4" type="video/mp4"></video>
 
 
 As you might notice, at the end we also made a text override.
@@ -531,7 +531,7 @@ For this:
 1. Find and select the override in the Layer List or select it on the canvas.
 2. Apply the new style from the Inspector or from the **Styles** tab as shown in the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-nestedoverrideph.png" height="auto"><source src="/public/components-stylesoverride.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/components-nestedoverrideph.png" height="auto"><source src="/lunacy-docs/public/components-stylesoverride.mp4" type="video/mp4"></video>
 
 
 Repeat the procedure to override text styles of the phone number and email address.

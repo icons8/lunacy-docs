@@ -52,7 +52,7 @@ That's it. A primitive prototype is ready. To make it a bit more usable, we will
 
 To preview a prototype, select an artboard you want to start with and click ![Play button](public/playbtn.png) in the upper-right corner of the interface. The preview window will show up.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-procedureph.png" height="auto"><source src="/public/proto-procedure.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/proto-procedureph.png" height="auto"><source src="/lunacy-docs/public/proto-procedure.mp4" type="video/mp4"></video>
 
 In a similar fashion you can link your artboards in the desired navigation sequence and preview your design in action.
 
@@ -79,7 +79,7 @@ To add a hotspot you can:
 
 The demo below show both these methods.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-hotspotph.png" height="auto"><source src="/public/proto-hotspot.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/proto-hotspotph.png" height="auto"><source src="/lunacy-docs/public/proto-hotspot.mp4" type="video/mp4"></video>
 
 The next figure shows how hotspots and linked layers appear in the Layer list.
 
@@ -139,7 +139,7 @@ You can also preview prototypes in Sketch Cloud. For this, you need to upload yo
 
 All the above steps are shown in the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-demoph.png" height="auto"><source src="/public/proto-demo1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/proto-demoph.png" height="auto"><source src="/lunacy-docs/public/proto-demo1.mp4" type="video/mp4"></video>
 
 **Note:** When you upload your file to Sketch Cloud, you create a new independent file which *will not* synchronize with its parent that you store on your computer. So, make sure that you edit one and the same file. You can always download the Cloud file to you computer or upload a new version of the local copy to the Cloud. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.
 

@@ -51,7 +51,7 @@ These controls include:
 
 The demo below shows these controls in action.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-transform1placeholder.png" height="auto"><source src="/public/shapes-transform1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/shapes-transform1placeholder.png" height="auto"><source src="/lunacy-docs/public/shapes-transform1.mp4" type="video/mp4"></video>
 
 ### Adjusting the corner radius setting for rectangles
 
@@ -60,7 +60,7 @@ There are two more ways of changing the corner radius setting for rectangles dra
 1. Drag the circle handles that appear inside a rectangle when you select it. This will change the radii of all corners. To change the radius of a single corner, hold `Alt` while dragging.
 2. In the **Corner radius** control, enter four values separating them with spaces. This will be the values of the corner radii (starting from the top-left and going clockwise). Press `Enter` to submit.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-cronerradplaceholder1.png" height="auto"><source src="/public/shapes-cronerrad2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/shapes-cronerradplaceholder1.png" height="auto"><source src="/lunacy-docs/public/shapes-cronerrad2.mp4" type="video/mp4"></video>
 
 **Note:** The above methods won't work with rectangles drawn with the Pen tool.
 
@@ -69,11 +69,11 @@ See also the demo in the [Vector editing](#vector-editing) subsection. It shows 
 ### Smooth corners
 
 You can create shapes with perfectly smooth corners like in Apple interfaces and products.
-To switch between round (default) and smooth corners, click ![Smooth corner button](/public/smoothcornerbtn.png) next to the corner radius field in the Inspector.
+To switch between round (default) and smooth corners, click ![Smooth corner button](/lunacy-docs/public/smoothcornerbtn.png) next to the corner radius field in the Inspector.
 
 The figure below shows the difference between smooth (red) and round (blue) corners.
 
-![Smooth vs Round corners](/public/rn-smoothcorner.png)
+![Smooth vs Round corners](/lunacy-docs/public/rn-smoothcorner.png)
 
 ## [Vector editing](#vector-editing)
 
@@ -106,7 +106,7 @@ In general, vector editing is all about manipulations with points and bending se
 
 The next demo shows all the above procedures in action.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-editmode1.png" height="auto"><source src="/public/shapes-vectorediting3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/shapes-editmode1.png" height="auto"><source src="/lunacy-docs/public/shapes-vectorediting3.mp4" type="video/mp4"></video>
 
 ## Boolean Operations
 
@@ -127,7 +127,7 @@ Lunacy provides four types of Boolean operations:
 
 The demo below shows how Boolean operations work.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-booleansplaceholder.png" height="auto"><source src="/public/shapes-booleans.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/shapes-booleansplaceholder.png" height="auto"><source src="/lunacy-docs/public/shapes-booleans.mp4" type="video/mp4"></video>
 
 When you apply a Boolean operation, the selected shapes become a Boolean group. The figure below shows a view of a Boolean group in the Layer List. Note that there is an icon next to one of the shapes. It indicates the type of the Boolean operation currently applied. By clicking this icon you invoke a menu where you can select another operation.
 
@@ -154,7 +154,7 @@ The flattening operation is another method of creating complex shapes by combini
 
 The next demo shows how flattening works.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-flattenplaceholder.png" height="auto"><source src="/public/shapes-flat.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/shapes-flattenplaceholder.png" height="auto"><source src="/lunacy-docs/public/shapes-flat.mp4" type="video/mp4"></video>
 
 ## Masks
 
@@ -167,7 +167,7 @@ To create a mask:
 3. Select the mask shape and the target layer(s).
 4. On the context toolbar, click the **Toggle mask** button (![Toggle mask button](public/shapes-togglemaskbtn.png)) or press `Ctrl+M`. The **Toggle mask** option is also available on the context menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-masksplaceholder.png" height="auto"><source src="/public/shapes-masks.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/shapes-masksplaceholder.png" height="auto"><source src="/lunacy-docs/public/shapes-masks.mp4" type="video/mp4"></video>
 
 When you apply a mask, Lunacy creates a mask group in the Layer List.
 
@@ -181,7 +181,7 @@ To remove a mask, select the mask group in the Layer List or on the canvas and c
 
 The **Outline stroke** option (`Ctrl+Shift+O`) appears on the context menu and on the **Layer** menu when you select a shape with a border. It allows you to convert that border into an independent layer. Watch the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-outlinestrokeplaceholder.png" height="auto"><source src="/public/shapes-outlinestroke.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/shapes-outlinestrokeplaceholder.png" height="auto"><source src="/lunacy-docs/public/shapes-outlinestroke.mp4" type="video/mp4"></video>
 
 ## Rasterizing vector shapes
 
