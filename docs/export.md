@@ -92,7 +92,7 @@ The basic controls in this panel are the following:
 
 You can define as many formats and sizes as you need. For this, just click the plus icon to add a new row of settings.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/export-panelph.png" height="auto"><source src="/public/export-settings.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/export-panelph.png" height="auto"><source src="/lunacy-docs/public/export-settings.mp4" type="video/mp4"></video>
 
 For removing export settings, click the trash can icon.
 
@@ -111,7 +111,7 @@ There are two ways of creating export presets.
 3. Enter the name of the preset and click **Save**. Now, your custom preset will appear on the export settings menu.
 
 
-![Export presets in Lunacy](/public/rn-exportprests.png)
+![Export presets in Lunacy](/lunacy-docs/public/rn-exportprests.png)
 
 **Way 2**
 
@@ -270,7 +270,7 @@ To delete a link from the list, click the trash can icon next to it.
 
 To delete a file from the cloud, right-click the link to the file, then click **Remove this file from Lunacy servers**. After that you can click the link to make sure that it no longer works and then delete the link itself.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/export-historyph.png" height="auto"><source src="/public/export-history.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/export-historyph.png" height="auto"><source src="/lunacy-docs/public/export-history.mp4" type="video/mp4"></video>
 
 **Note:** We in no way read or analyze files that you upload to Icons8 cloud. The guaranteed storage period of uploaded files is 60 days. After that they can be deleted from our servers without prior notice. Removed files cannot be restored. For this reason, please do not consider Icons8 cloud as a long-term storage.
 

@@ -70,7 +70,7 @@ Download:
 
 ### Linked design
 
-![Linked design](/public/linked_design.png)
+![Linked design](/lunacy-docs/public/linked_design.png)
 
 
 Now you can control the appearance of web pages right from Lunacy. We introduced the concept of **linked design** that lets you update design in Lunacy and then apply the changes to the web page. This applies to:
@@ -96,27 +96,27 @@ That’s it! Now your graphic designers can update the page by themselves.
 
 #### How it works for a graphic designer
 
-After you’ve made changes to your design, go to the **Export** panel and click ![refresh button](/public/refresh_icon.png) next to the CSS file, JSON file, or links to graphic content depending on what you’ve changed.
+After you’ve made changes to your design, go to the **Export** panel and click ![refresh button](/lunacy-docs/public/refresh_icon.png) next to the CSS file, JSON file, or links to graphic content depending on what you’ve changed.
 
 That’s it! The changes will immediately appear on the web page. 
 
 ### Easier work with icons
 
-![reworked icons](/public/reworked_icons.png)
+![reworked icons](/lunacy-docs/public/reworked_icons.png)
 
 
 You no longer have to download the 500+ MB icon pack to start working with icons in Lunacy. Now, they upload in real-time as you scroll the gallery in the right panel. What’s more, now you have access to all the latest icons available at <a href="https://icons8.com/" target="_blank">icons8.com</a>.
 
 ### Text generation by text block size
 
-![text generation by text block size](/public/text_generation_by_text_block_size1.png)
+![text generation by text block size](/lunacy-docs/public/text_generation_by_text_block_size1.png)
 
 
 Now you can instantly add meaningful texts without racking your brain. When you create a text block by dragging it over the canvas, Lunacy suggests different types of text content depending on the text block size: time, date, people names, professions, headings, paragraphs, and more. If you’re OK with the suggested text, you can leave it and go on working. If not, simply enter the required copy.
 
 ### Refresh of generated data upon duplicating
 
-![Refresh of generated data upon duplicating](/public/refresh_of_generated_data1.png)
+![Refresh of generated data upon duplicating](/lunacy-docs/public/refresh_of_generated_data1.png)
 
 
 When you duplicate or copy and paste layers with auto-generated data (texts or avatars), Lunacy replaces current instances with new ones.
@@ -125,9 +125,9 @@ To disable the refresh of generated content, in the top menu, go to **Layer > Co
 
 ### Repeat grid
 
-![Repeat grid](/public/repeat_grid.png)
+![Repeat grid](/lunacy-docs/public/repeat_grid.png)
 
-When you select two or more layers or layer groups, you’ll see ![repeat grid handle](/public/repeat_grid_handle.png) next to the lower-right corner of the bounding box. By dragging it you can create any grids of similar elements.
+When you select two or more layers or layer groups, you’ll see ![repeat grid handle](/lunacy-docs/public/repeat_grid_handle.png) next to the lower-right corner of the bounding box. By dragging it you can create any grids of similar elements.
 
 If the original elements include auto-generated data, newly created elements will appear with refreshed data, provided that the **AutoRefresh** (see above) option is enabled. This can save you lots of time when designing things like customer testimonials, user cards, and similar UI elements.
 
@@ -161,7 +161,7 @@ Download:
 ### Personal Cloud plan
 
 
-![personal cloud](/public/personal_cloud_plan2.png)
+![personal cloud](/lunacy-docs/public/personal_cloud_plan2.png)
 
 
 We’re introducing a personal cloud subscription that will give you more freedom with cloud documents:
@@ -183,7 +183,7 @@ The statuses of your subscriptions now appear next to your username on the **Hom
 
 ### Version history
 
-![version history](/public/version_history2.png)
+![version history](/lunacy-docs/public/version_history2.png)
 
 We added version history for cloud documents. Lunacy automatically saves file versions after a series of 100 user actions. Or you can save versions manually using the `Ctrl(⌘) + Alt + S` shortcut.
 To view a document version history, go to **File** > **Show version history**. The list of file versions opens in the right panel. Double-click the required version to open it. File versions open as local temporary files that you can save to any folder on your computer and then import back to the Cloud.
@@ -192,43 +192,43 @@ Free users can access up to 30 days of version history. To unlock the full histo
 
 ### Voice comments, stickers, and overall improvement of comments
 
-![voice comments and stickers](/public/rn-comments2.png)
+![voice comments and stickers](/lunacy-docs/public/rn-comments2.png)
 
-* Now you can leave voice comments in cloud documents. For this, enable the comment tool (`C`), click ![microphone](/public/Microphone_Icon.png), say what you want to say, then click ![send](/public/Paper_Plane_Icon.png). Make sure you allow Lunacy to access the microphone, otherwise your comments will not be recorded.
-* You can now post stickers like *thumb up*, *thumb down*, *+1*, *heart*, and other instead of comments. Stickers show up right on the canvas. There’s no need to open comment bubbles, unless you want to post a reply. To post a sticker, enable the comment tool, click ![sticker icon](/public/sticker_icon.png) icon next to the comment entry field, and select the required sticker. You can also send stickers in replies to comments. 
+* Now you can leave voice comments in cloud documents. For this, enable the comment tool (`C`), click ![microphone](/lunacy-docs/public/Microphone_Icon.png), say what you want to say, then click ![send](/lunacy-docs/public/Paper_Plane_Icon.png). Make sure you allow Lunacy to access the microphone, otherwise your comments will not be recorded.
+* You can now post stickers like *thumb up*, *thumb down*, *+1*, *heart*, and other instead of comments. Stickers show up right on the canvas. There’s no need to open comment bubbles, unless you want to post a reply. To post a sticker, enable the comment tool, click ![sticker icon](/lunacy-docs/public/sticker_icon.png) icon next to the comment entry field, and select the required sticker. You can also send stickers in replies to comments. 
 * Now, when you select a layer and then click with the comment tool over it, the added comment gets tied to the layer. If you later decide to move the layer to some other place on the canvas, the comment will move with the layer.
-* By default, comments are always visible on the canvas. To hide comments, click ![view](/public/nine_dots_icon.png) > **Comments** on the top bar.
-* To open/hide the list of all comments in the right panel, click ![send](/public/comments_icon.png) on the top bar.
+* By default, comments are always visible on the canvas. To hide comments, click ![view](/lunacy-docs/public/nine_dots_icon.png) > **Comments** on the top bar.
+* To open/hide the list of all comments in the right panel, click ![send](/lunacy-docs/public/comments_icon.png) on the top bar.
 
 ### Pre-made palettes
 
-![palettes](/public/palettes2.png)
+![palettes](/lunacy-docs/public/palettes2.png)
 
 
-When you create a document, Lunacy shows one of pre-set color palettes that you can use in your design. It appears in the right panel when nothing is selected on the canvas. If you don’t like the current palette, click ![refresh icon](/public/reset_icon.png) to choose the one that suits you best.
+When you create a document, Lunacy shows one of pre-set color palettes that you can use in your design. It appears in the right panel when nothing is selected on the canvas. If you don’t like the current palette, click ![refresh icon](/lunacy-docs/public/reset_icon.png) to choose the one that suits you best.
 
 Note that palettes appear only in documents created in version 8.6 or higher.
 
 ### Shape cropping
 
-![shape cropping](/public/shape_cropping2.png)
+![shape cropping](/lunacy-docs/public/shape_cropping2.png)
 
 
 You no longer need to struggle with the vector tool or tricky Boolean and flattening operations to get a half-circle or a part of another shape. With the shape cropper, you will do it in a couple of clicks:
 
 1. Select the required shape.
-2. Click ![scissors icon](/public/crop_icon.png) on the context toolbar.
+2. Click ![scissors icon](/lunacy-docs/public/crop_icon.png) on the context toolbar.
 3. Drag the borders of the frame to select the required area.
 4. Press `Enter` or click **Apply** editing in the right panel.
 
 ### Sharing your Lunacy profile on the internet
 
-![sharing profile](/public/sharing_profile2.png)
+![sharing profile](/lunacy-docs/public/sharing_profile2.png)
 
 
 Another way to share your portfolio. Your cloud documents now also show up on your profile page in Lunacy with the **Publish**/**Unpublish** button. You can send a link to your Lunacy profile to other people for them to view published files. For this: 
 
-1. Go to **Home** > **Profile** > ![show more icon](/public/three_dots_button.png) > **Web profile**. Your web profile will open in the browser.
+1. Go to **Home** > **Profile** > ![show more icon](/lunacy-docs/public/three_dots_button.png) > **Web profile**. Your web profile will open in the browser.
 2. Copy the link to the profile in the address bar.
 3. Send the link by email or an instant messenger.
 
@@ -258,7 +258,7 @@ Download:
 
 Teams serve to make it easier for you to manage collaborative documents and people who have access to them.
 
-![Team projects tab](/public/teams-prjectstab3.png)
+![Team projects tab](/lunacy-docs/public/teams-prjectstab3.png)
 
 In version 8.5, you'll be able to try out how teams work on a free plan. In upcoming versions, we'll add some paid plans that will provide more opportunities and less limitations.
 
@@ -313,13 +313,13 @@ Context menu has become more compact and easier to use. The most popular command
 
 Also, the context menu now features the **Move to Page** option that lets you quickly move layers between document pages.
 
-![Redesigned context menu](/public/rn84contextmenu.png)
+![Redesigned context menu](/lunacy-docs/public/rn84contextmenu.png)
 
 ### Track viewport mode
 
-Now, you can use the Track Viewport mode in the Layer List to view only the layers that you currently see on the canvas. To enable/disable the mode, click ![Track viewport mode icon](/public/rn84treetrack.png) in the **Search field** above the Layers List.
+Now, you can use the Track Viewport mode in the Layer List to view only the layers that you currently see on the canvas. To enable/disable the mode, click ![Track viewport mode icon](/lunacy-docs/public/rn84treetrack.png) in the **Search field** above the Layers List.
 
-![Track viewport mode](/public/rn84trackviewportmode.png)
+![Track viewport mode](/lunacy-docs/public/rn84trackviewportmode.png)
 
 ### Setting hyperlinks to layers
 
@@ -333,7 +333,7 @@ You can now set hyperlinks to any layer in your file and quickly jump to this la
 4. Press `F2` (rename) and paste the link instead of the current layer name.
 To jump to the target layer, hover the mouse over the linked layer, press down `Ctrl` (`⌘`) and click. If the linked layer is locked, pressing down `Ctrl` (`⌘`) is not necessary.
 
-![Setting links to layers](/public/rn84links.png)
+![Setting links to layers](/lunacy-docs/public/rn84links.png)
 
 
 ### Improvements
@@ -384,7 +384,7 @@ To switch between states, select a component, then select the required state in 
 
 For other actions, use the respective controls at the bottom of the **Component** section.
 
-![Component state management](/public/rn83-componentstates.png)
+![Component state management](/lunacy-docs/public/rn83-componentstates.png)
 
 ### Improvements
 
@@ -436,7 +436,7 @@ Download:
 
 Color variables let you efficiently manage colors in your documents and instantly recolor all the layers using the same color variable. You can apply color variables to fills, borders, and shadows.
 
-In the Inspector, color variables appear as colored circles (![color variable icon](/public/colorvariable_circle.png)), while regular fills, border and shadow colors appear as colored rectangles (![regular fill icon](/public/fill-rectangle.png)).
+In the Inspector, color variables appear as colored circles (![color variable icon](/lunacy-docs/public/colorvariable_circle.png)), while regular fills, border and shadow colors appear as colored rectangles (![regular fill icon](/lunacy-docs/public/fill-rectangle.png)).
 
 To create a color variable:
 
@@ -445,21 +445,21 @@ To create a color variable:
 3.	Set the required color.
 4.	Click **Create Color Variable**.
 
-To apply an existing color variable, select a layer, click ![4 dots icon](/public/4dotsicon.png) in the Inspector, then select the required color variable.
+To apply an existing color variable, select a layer, click ![4 dots icon](/lunacy-docs/public/4dotsicon.png) in the Inspector, then select the required color variable.
 
-To edit a color variable, click over the colored circle in the Inspector, then click ![settings icon](/public/settingsicon.png) > **Edit variable**.
+To edit a color variable, click over the colored circle in the Inspector, then click ![settings icon](/lunacy-docs/public/settingsicon.png) > **Edit variable**.
 
-To detach a layer from a color variable, select the layer, then click ![detach icon](/public/detachicon.png) in the Inspector.
+To detach a layer from a color variable, select the layer, then click ![detach icon](/lunacy-docs/public/detachicon.png) in the Inspector.
 
-![Color variables in Lunacy](/public/color_variables_rn.png)
+![Color variables in Lunacy](/lunacy-docs/public/color_variables_rn.png)
 
 ### Inspector of selected fonts and colors
 
 Now Lunacy displays all fonts and colors of currently selected layers in the Inspector. This lets you quickly view the font and color properties of a selection and edit them, if necessary.
 
-By clicking ![4 dots icon](/public/showfontorcoloricon1.png) next to color or font you can switch the selection to the layer(-s) using this color/font.
+By clicking ![4 dots icon](/lunacy-docs/public/showfontorcoloricon1.png) next to color or font you can switch the selection to the layer(-s) using this color/font.
 
-![Color and font inspector](/public/colorfontinspector_rn.png)
+![Color and font inspector](/lunacy-docs/public/colorfontinspector_rn.png)
 
 ### Live updates and comments in cloud prototypes
 
@@ -476,7 +476,7 @@ To reply to a comment, click over it, type your message and click the send icon.
 To hide comments, click **Comments** once again.
 
 
-![Color and font inspector](/public/cloudproto-rn.png)
+![Color and font inspector](/lunacy-docs/public/cloudproto-rn.png)
 
 
 ### Improvements
@@ -505,11 +505,11 @@ You can download the build on our website. Later it will also be available on th
 
 ### Scale tool
 
-We revamped the Scale feature and moved it from the context toolbar to the main toolbar. You no longer need to define the required scale percentage. Simply select an object, click ![Scale too icon](/public/scale-tool.png) on the toolbar (or press `K`) and drag the bounding box.
+We revamped the Scale feature and moved it from the context toolbar to the main toolbar. You no longer need to define the required scale percentage. Simply select an object, click ![Scale too icon](/lunacy-docs/public/scale-tool.png) on the toolbar (or press `K`) and drag the bounding box.
 
 With the Scale tool selected, you can edit any of the settings (say, width) in the Inspector. Then press `Enter`, and Lunacy will scale all the other settings accordingly.
 
-![Using scale tool](/public/rn81-scaletool.png)
+![Using scale tool](/lunacy-docs/public/rn81-scaletool.png)
 
 
 ### View Only and Export Only access to cloud documents
@@ -522,7 +522,7 @@ When sharing a cloud document, you can select the access level to the document:
 
 Also, now you can ban users.
 
-![Setting export-only and view only modes in cloud documents, and banning users](/public/rn81-export-and-view-only.png)
+![Setting export-only and view only modes in cloud documents, and banning users](/lunacy-docs/public/rn81-export-and-view-only.png)
 
 
 ### Code and Inspect  panels
@@ -534,7 +534,7 @@ We redesigned the **Code** panel for better usability. Also, now it features the
 * Colors in different color models
 * Styling options (borders, shadows, etc.)
 
-![A view of the Code and Inspect panels](/public/rn81-code-and-inspect-panels.png)
+![A view of the Code and Inspect panels](/lunacy-docs/public/rn81-code-and-inspect-panels.png)
 
 
 ### Improvements
@@ -557,7 +557,7 @@ We redesigned the **Code** panel for better usability. Also, now it features the
 
 *Release date: October 28, 2021*
 
-![Supported platforms](/public/maclinuxwin.png)
+![Supported platforms](/lunacy-docs/public/maclinuxwin.png)
 
 Download:
 
@@ -606,7 +606,7 @@ Now you can have three types of cloud documents:
 * **Hidden** - accessible for everyone with the link. Hidden from other users in your profile.
 * **Private** - accessible only with personal links that can be used only once. So, every time you want to invite a new user to a private document, you should send a new link. You can always withdraw your private link by clicking **X** next to the username. This will make the link invalid and throw the user out of the document.
 
-![Cloud doc types](/public/rn71-privacy.png)
+![Cloud doc types](/lunacy-docs/public/rn71-privacy.png)
 
 
 **Note:** *Currently, everyone with a link to your document can edit it. Soon, you will be able to set read-only privileges.*
@@ -616,7 +616,7 @@ Now you can have three types of cloud documents:
 The Observer Mode enables you to follow the activities of other users on the canvas. For this, click the user's avatar in the top-right corner. You will see a colored frame around the canvas, indicating that you're now in the Observer Mode.
 
 
-![Observer mode](/public/rn71_observermode.png)
+![Observer mode](/lunacy-docs/public/rn71_observermode.png)
 
 To exit the mode, click the user's avatar once again.
 
@@ -651,11 +651,11 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 #### Home Tab
 
-We replaced the **Welcome Window** with the **Home Tab**.  You can now always access it from the top panel (![Home icon](/public/rn70_homeicon.png)).
+We replaced the **Welcome Window** with the **Home Tab**.  You can now always access it from the top panel (![Home icon](/lunacy-docs/public/rn70_homeicon.png)).
 Also, we moved the **Sign in/Sign up** form and the list of **Recent documents** to the **Home Tab** (see the figure below).
 
 
-![Home tab](/public/rn70-hometab.png)
+![Home tab](/lunacy-docs/public/rn70-hometab.png)
 
 #### Lunacy Cloud (Beta)
 
@@ -671,7 +671,7 @@ Also, currently, cloud documents are accessible by anyone with the link. More fl
 
 To get a link, click **Share** in the upper-right corner. The link will get copied to your clipboard.
 
-![Home tab](/public/rn70-cloud.png)
+![Home tab](/lunacy-docs/public/rn70-cloud.png)
 
 There are two ways to open a cloud document via a link:
 
@@ -682,17 +682,17 @@ To save a cloud document locally, go to **File > Save as Local Copy**.
 **Note:** *To go on working with a local copy, open it from where you saved it.*
 
 
-Local files now appear in the top panel with the document icon (![Document icon](/public/rn70-docicon.png)) before the file name.
+Local files now appear in the top panel with the document icon (![Document icon](/lunacy-docs/public/rn70-docicon.png)) before the file name.
 
 
-![Lunacy cloud](/public/rn70-cloud1.png)
+![Lunacy cloud](/lunacy-docs/public/rn70-cloud1.png)
 #### Collaboration (Beta)
 
 Collaboration, the most awaited feature by Lunacy fans, is finally here!
 
 Now you can work with the same cloud documents simultaneously with other users. Just share the link to the document and enjoy the teamwork.
 
-![Lunacy cloud](/public/rn70-collab.png)
+![Lunacy cloud](/lunacy-docs/public/rn70-collab.png)
 
 For obvious reasons, we could not test all the scenarios and intricacies of multi-user editing without real users. So, let's call it a feature preview. If you encounter any issues, please feel free to report them (**Help > Report a Problem**).
 
@@ -700,7 +700,7 @@ For obvious reasons, we could not test all the scenarios and intricacies of mult
 
 Big thanks to Sargis_k for helping us out with the Armenian localization.
 
-![Lunacy cloud](/public/rn70-armen.png)
+![Lunacy cloud](/lunacy-docs/public/rn70-armen.png)
 
 
 If you also want to take part in Lunacy localization, click <a href="https://docs.icons8.com/localization/" target="_blank">here</a>.
@@ -758,7 +758,7 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 
 Version 6.8 comes with a new UI design. We made the interface clean and lightweight for you to focus on your tasks.
 
-![Redesigned UI in Lunacy 6.8](/public/rn68-newUI2.png)
+![Redesigned UI in Lunacy 6.8](/lunacy-docs/public/rn68-newUI2.png)
 
 #### Comment tool
 
@@ -775,7 +775,7 @@ You can:
 
 To view and manage comments, enable the Comment tool.
 
-![Comment tool](/public/rn68-commenttool.png)
+![Comment tool](/lunacy-docs/public/rn68-commenttool.png)
 
 #### New languages
 
@@ -813,13 +813,13 @@ Now you can easily cut out any part of an image almost like in Photoshop or othe
 
 Also, you can use any of the shape tools. For this, enable the image editing mode and select the required shape on the toolbar (see the figure below).
 
-![Cutting out images in Lunacy](/public/images-scissorsdemo2.png)
+![Cutting out images in Lunacy](/lunacy-docs/public/images-scissorsdemo2.png)
 
 #### Easier object renaming
 
 Now you can rename objects right on the canvas. For this, right-click an object and select Rename on the diplayed menu or simply press `F2`. A field with the object name will show up. Edit the name and press **Enter** or click anywhere beyond the field when done.
 
-![Renaming objects in Lunacy](/public/objects-renaming67.png)
+![Renaming objects in Lunacy](/lunacy-docs/public/objects-renaming67.png)
 
 ### Improvements
 
@@ -848,7 +848,7 @@ Now you can embed fonts into your document before sharing it with other people. 
 
 To use this feature, click **Text > Fonts Embedding** on the menu bar. In the displayed dialog box, select the required fonts and click the **Embed fonts** button.
 
-![Fonts Embedding](/public/rn-fontsembed.png)
+![Fonts Embedding](/lunacy-docs/public/rn-fontsembed.png)
 
 **Note:** By embedding a font you confirm that you have a proper license that allows you to distribute the font.
 
@@ -875,17 +875,17 @@ Download from the <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?oci
 #### Smooth corners
 
 Now you can create shapes with perfectly smooth corners like in Apple interfaces and products.
-To switch between round (default) and smooth corners, click ![Smooth corner button](/public/smoothcornerbtn.png) next to the corner radius field in the Inspector.                      
+To switch between round (default) and smooth corners, click ![Smooth corner button](/lunacy-docs/public/smoothcornerbtn.png) next to the corner radius field in the Inspector.                      
 The figure below shows the difference between smooth (red) and round (blue) corners.
 
-![Smooth vs Round corners](/public/rn-smoothcorner.png)
+![Smooth vs Round corners](/lunacy-docs/public/rn-smoothcorner.png)
 
 #### Export presets
 
 Now you can save your export settings for further use. To open the **Export Preset Editor**, click the settings button in the **Export** section of the Inspector, then select **Create** preset on the menu.
 The settings menu now also features export presets for iOS and Android.
 
-![Export presets in Lunacy](/public/rn-exportprests.png)
+![Export presets in Lunacy](/lunacy-docs/public/rn-exportprests.png)
 
 ### Improvements
 
@@ -927,19 +927,19 @@ We integrated the avatar tool with the <a href="https://generated.photos/" targe
 
 Also, now you can refresh multiple avatars at a time. For this, select several avatars and press `Shift+R` or click **Generate avatar** in the Inspector.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-newavatarph.png" height="auto"><source src="/public/rn-newavatar.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/rn-newavatarph.png" height="auto"><source src="/lunacy-docs/public/rn-newavatar.mp4" type="video/mp4"></video>
 
 
 And as a cherry on top, now you can create avatars from any shapes. For this, select a shape, then enable the Avatar tool and click **Generate avatar** in the Inspector (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-newavatar2ph.png" height="auto"><source src="/public/rn-newavatar2-1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/rn-newavatar2ph.png" height="auto"><source src="/lunacy-docs/public/rn-newavatar2-1.mp4" type="video/mp4"></video>
 
 
 #### Image Upscaler
 
 Another cool feature of this release is the integration with the <a href="https://icons8.com/upscaler" target="_blank">Icons8 Image Upscaler</a>. Now, when you resize an image, Lunacy will offer you to enhance the image using our state-of-the-art AI.
 
-![Lunacy Image upscaler by Icons8](/public/rn-upscaler.png)
+![Lunacy Image upscaler by Icons8](/lunacy-docs/public/rn-upscaler.png)
 
 **Note:** The feature is available only to users with a paid subscription.
 
@@ -1017,7 +1017,7 @@ Photos and vector images now open way faster. Also, the libraries have got impro
 
 The Line tool has got coordinates settings in the Inspector. Also,  now the Line tool snaps line origin points to half pixels to draw pixel perfect lines. Like in Sketch.
 
-![Line tool changes](/public/rn-62linetool.png)
+![Line tool changes](/lunacy-docs/public/rn-62linetool.png)
 
 {:.image-info}
 Before v.6.2 (left) and Starting from v.6.2 (right)
@@ -1031,7 +1031,7 @@ Now you can:
 * Select several objects with identical styling settings and save their settings as a style.
 * Apply context menu commands to several items selected in the Styles or Symbols libraries. For example, you can copy multiple styles between documents or duplicate several symbols at a time.
 
-![Duplicating multiple symbols](/public/rn-62mulitipleduplicate.png)
+![Duplicating multiple symbols](/lunacy-docs/public/rn-62mulitipleduplicate.png)
 
 ### Fixed bugs
 
@@ -1059,7 +1059,7 @@ Also, we revised the order of tools on the toolbar.
 
 The video below presents these and some other changes introduced in v.6.1.
 
-<video play="no" controls="controls" muted="" loop="" playsinline="" width="100%" poster="/public/rn-61videoph.png" height="auto"><source src="/public/Lunacy61.mp4" type="video/mp4"></video>
+<video play="no" controls="controls" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/rn-61videoph.png" height="auto"><source src="/lunacy-docs/public/Lunacy61.mp4" type="video/mp4"></video>
 
 
 #### Snapping: Pen
@@ -1070,12 +1070,12 @@ The Pen tool has become a lot easier to use. Now when you draw a path, Lunacy sn
 * guides
 * grids and layouts
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-pensnapph.png" height="auto"><source src="/public/rn-pensnap.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/rn-pensnapph.png" height="auto"><source src="/lunacy-docs/public/rn-pensnap.mp4" type="video/mp4"></video>
 
 #### Snapping: Color Picker
 Now when you adjust a linear or radial gradient by moving a color point, Lunacy snaps the point to the borders and midlines of the shape's bounding box.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-colorsnapph.png" height="auto"><source src="/public/rn-colorsnap.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/rn-colorsnapph.png" height="auto"><source src="/lunacy-docs/public/rn-colorsnap.mp4" type="video/mp4"></video>
 
 Also, you can hold down Shift to get a perfectly vertical, horizontal or 45-degree diagonal gradient.
 
@@ -1146,7 +1146,7 @@ Note that before using tint overrides you should add default tints.
 
 When you apply an override, the reset button appears in the **Tint** section of the Inspector. Use this button to remove the override.
 
-![Reset overrides button](/public/reset-overridetint.png)
+![Reset overrides button](/lunacy-docs/public/reset-overridetint.png)
 
 For details and a demo, click <a href="https://docs.icons8.com/styling/#tint-overrides" target="_blank">here</a>.
 
@@ -1156,7 +1156,7 @@ We've added another great feature that will help you quickly arrange objects on 
 
 Now when you have two or more vertically or horizontally distributed objects and you drag another object close to them, Lunacy snaps the object and shows a pink area when the spacing between the object you drag is the same as one of the spacings between the other objects. See the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/snapping-spacingph.png" height="auto"><source src="/public/snapping-spacing1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/snapping-spacingph.png" height="auto"><source src="/lunacy-docs/public/snapping-spacing1.mp4" type="video/mp4"></video>
 
 To disable snapping, hold down `Ctrl` while dragging.
 
@@ -1201,7 +1201,7 @@ You can:
 
 The figure below shows views of suggestions panel for a shape and a text.
 
-![Suggestions panels](/public/rn-suggpanels.png)
+![Suggestions panels](/lunacy-docs/public/rn-suggpanels.png)
 
 For details about using the panels, read <a href="https://docs.icons8.com/styling/#suggestions-panel" target="_blank">here</a> and <a href="https://docs.icons8.com/text/#suggestions-panel" target="_blank">here</a>.
 
@@ -1210,7 +1210,7 @@ Tints are a quick and easy way to apply a color to grouped objects and symbol in
 
 The **Tints** section appears in the Inspector only when you select a group object or a symbol.
 
-![Tints](/public/rn5_9-tints.png)
+![Tints](/lunacy-docs/public/rn5_9-tints.png)
 
 Unlike other styling options, you can apply only one tint to an object.
 
@@ -1225,14 +1225,14 @@ We've added a set of tools that allows you to quickly add basic GUI controls tha
 * Radio buttons and
 * Toggles
 
-![Tints](/public/rn5_9-guitools1.png)
+![Tints](/lunacy-docs/public/rn5_9-guitools1.png)
 
 When you select a control added with any of these tools, you see the suggestions panel that allows you to:
 1. Change the type of the control.
 2. Select the style of the control.
 3. Select the control state.
 
-![GUI tools](/public/rn5_9-guitools3.png)
+![GUI tools](/lunacy-docs/public/rn5_9-guitools3.png)
 
 To edit the appearance of a control, use the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">symbol editor</a>.
 
@@ -1240,18 +1240,18 @@ To edit the appearance of a control, use the <a href="https://docs.icons8.com/co
 
 The symbol tool allows you to quickly create mockups of interfaces by adding placeholder symbols and then replacing them with required GUI elements.
 
-![Symbol tool](/public/rn5_9-symbtool.png)
+![Symbol tool](/lunacy-docs/public/rn5_9-symbtool.png)
 
 * To draw a placeholder symbol just select the Symbol tool and drag over the required area. Placeholder symbols appear as pink rectangles with the question mark.
 
-![Placeholder symbols](/public/rn5_9-symbtool2.png)
+![Placeholder symbols](/lunacy-docs/public/rn5_9-symbtool2.png)
 
 * To replace a placeholder symbol, select it and use the suggestions panel that will appear.    
 * You can also use use symbols from the Symbols page. For this, enable the tool, then go to the Symbols page and click the required Symbol. The same applies to symbols from UI kits.
 * When the Symbol tool is enabled, you can press the `C` and `Shift+C` hotkeys to switch between the symbols that you've used earlier and quickly add them onto the canvas.
-* If you want your custom symbols to appear on the suggestions panel, you should properly tag them in the Inspector. For this, click ![Tag symbol button](/public/rn5_9-symbtool5.png) in the **Symbol** section of the Inspector and select a proper category.
+* If you want your custom symbols to appear on the suggestions panel, you should properly tag them in the Inspector. For this, click ![Tag symbol button](/lunacy-docs/public/rn5_9-symbtool5.png) in the **Symbol** section of the Inspector and select a proper category.
 
-![Tagging symbols](/public/rn5_9-symbtool4.png)
+![Tagging symbols](/lunacy-docs/public/rn5_9-symbtool4.png)
 
 
 #### Text formatting
@@ -1288,7 +1288,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 
 You no longer need to switch to the Symbols page to edit masters.  Just select an instance of the symbol you want to edit and press `Enter` or click the **Edit symbol** button on the context tool bar.
 
-![Edit symbol button](/public/rn5_8-symboleditorbtn.png)
+![Edit symbol button](/lunacy-docs/public/rn5_8-symboleditorbtn.png)
 
 For details and a demo, click <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">here</a>.
 
@@ -1298,19 +1298,19 @@ Now you can quickly arrange multiple objects into nice grids with equal spacing 
 
 For this, select the objects and click the **Tidy up** button in the Inspector. Then drag the red handles that will appear between the "rows" and "columns". Click the red circle in the center of an object and drag to move it to another grid "cell". For details and a demo, click <a href="https://docs.icons8.com/objects/#smart-distribute" target="_blank">here</a>.
 
-![Smart distribute](/public/objects-smartdistribph.png)
+![Smart distribute](/lunacy-docs/public/objects-smartdistribph.png)
 
 #### Artboard presets
 
 Now you can save your frequently used custom artboards to presets. Enable the Artboard tool and click **Create custom preset** at the bottom of the presets panel.
 
-![Artboard presets](/public/interface-customartboards.png)
+![Artboard presets](/lunacy-docs/public/interface-customartboards.png)
 
 #### Inverse gradients
 
 Now you can invert gradients with a single button click in the Color Picker.
 
-![Artboard presets](/public/rn5_8-invertgrad.png)
+![Artboard presets](/lunacy-docs/public/rn5_8-invertgrad.png)
 
 ### Improvements
 

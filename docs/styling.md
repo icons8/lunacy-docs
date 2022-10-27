@@ -48,7 +48,7 @@ To apply a fill, border or any other styling to a layer:
 2. Click `+` next to the respective styling section in the Inspector. A row of controls appears.
 3. Use these controls to define the required styling parameters (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-commondemoph1.png" height="auto"><source src="/public/styling-commondemo2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/styling-commondemoph1.png" height="auto"><source src="/lunacy-docs/public/styling-commondemo2.mp4" type="video/mp4"></video>
 
 The things that you should know:
 
@@ -62,7 +62,7 @@ The things that you should know:
 
 All these things are shown in the next demo. It presents a layer with a single fill and three borders.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-commondemoph2.png" height="auto"><source src="/public/styling-commondemo4.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/styling-commondemoph2.png" height="auto"><source src="/lunacy-docs/public/styling-commondemo4.mp4" type="video/mp4"></video>
 
 ## [Color controls](#color-controls)
 
@@ -113,13 +113,13 @@ It features the following controls:
 11. Use this button to switch the panel of presets between the list and grid view. In the list view, you can give names to colors: right-click a color and select **Rename** on the displayed menu (see the demo below).
 12. Use this button to add the currently selected color to **Global** or **Document** presets.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-pickerph1.png" height="auto"><source src="/public/styling-picker1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/styling-pickerph1.png" height="auto"><source src="/lunacy-docs/public/styling-picker1.mp4" type="video/mp4"></video>
 
 ## [Color variables](#color-variables)
 
 Color variables let you efficiently manage colors in your documents and instantly recolor all the layers using the same color variable. You can apply color variables to [fills](#fills), [borders](#borders), and [shadows](#shadows).
 
-In the Inspector, color variables appear as colored circles (![color variable icon](/public/colorvariable_circle.png)), while regular fills, border and shadow colors appear as colored rectangles (![regular fill icon](/public/fill-rectangle.png)).
+In the Inspector, color variables appear as colored circles (![color variable icon](/lunacy-docs/public/colorvariable_circle.png)), while regular fills, border and shadow colors appear as colored rectangles (![regular fill icon](/lunacy-docs/public/fill-rectangle.png)).
 
 To create a color variable:
 
@@ -128,13 +128,13 @@ To create a color variable:
 3.	Set the required color.
 4.	Click **Create Color Variable**.
 
-To apply an existing color variable, select a layer, click ![4 dots icon](/public/4dotsicon.png) in the Inspector, then select the required color variable.
+To apply an existing color variable, select a layer, click ![4 dots icon](/lunacy-docs/public/4dotsicon.png) in the Inspector, then select the required color variable.
 
-To edit a color variable, click over the colored circle in the Inspector, then click ![4 dots icon](/public/settingsicon.png) > **Edit variable**.
+To edit a color variable, click over the colored circle in the Inspector, then click ![4 dots icon](/lunacy-docs/public/settingsicon.png) > **Edit variable**.
 
-To detach a layer from a color variable, select the layer, then click ![4 dots icon](/public/detachicon.png) in the Inspector.
+To detach a layer from a color variable, select the layer, then click ![4 dots icon](/lunacy-docs/public/detachicon.png) in the Inspector.
 
-![Color variables in Lunacy](/public/color_variables2.png)
+![Color variables in Lunacy](/lunacy-docs/public/color_variables2.png)
 
 ## [Fills](#fills)
 
@@ -199,7 +199,7 @@ To add a gradient fill:
 
 The demo below shows what you can do when adding a linear gradient.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-lineargradph2.png" height="auto"><source src="/public/styling-lineargrad2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/styling-lineargradph2.png" height="auto"><source src="/lunacy-docs/public/styling-lineargrad2.mp4" type="video/mp4"></video>
 
 #### Radial gradients
 
@@ -209,13 +209,13 @@ When you select the radial type, the gradient control becomes a radius of a circ
 * Select the center color point and drag it to reposition the origin of the gradient.
 * Drag the square handles on the edge of the circle to resize or reshape it into an ellipse.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-radialgradph3.png" height="auto"><source src="/public/styling-radialgrad3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/styling-radialgradph3.png" height="auto"><source src="/lunacy-docs/public/styling-radialgrad3.mp4" type="video/mp4"></video>
 
 #### Angular gradients
 
 When you select the angular type, the gradient control takes the form of a circle with color points sitting on its edge. Drag the points around the circle to get the desired gradient. Add some extra color points, if needed.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-angularph2.png" height="auto"><source src="/public/styling-angular2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/styling-angularph2.png" height="auto"><source src="/lunacy-docs/public/styling-angular2.mp4" type="video/mp4"></video>
 
 ### Image fills
 
@@ -233,7 +233,7 @@ To create an image fill:
      * **Tile**. Tiles the image to fit the layer. The size of tiles is adjustable (see the demo below).
 6. Close the color picker, when you are through.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-imagefillph1.png" height="auto"><source src="/public/styling-imagefill2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/styling-imagefillph1.png" height="auto"><source src="/lunacy-docs/public/styling-imagefill2.mp4" type="video/mp4"></video>
 
 
 <div class="callout callout--info">
@@ -242,7 +242,7 @@ To create an image fill:
 </div>
 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-addimagefillph.png" height="auto"><source src="/public/styling-addimagefill1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/styling-addimagefillph.png" height="auto"><source src="/lunacy-docs/public/styling-addimagefill1.mp4" type="video/mp4"></video>
 
 
 
@@ -275,7 +275,7 @@ The advanced border settings include:
 * **Caps**. Use these controls to define the shape of endings of open paths: no endings, round or square (see the demo below). The settings are applicable to paths drawn with the Line, Arrow, and Vector tools.
 * **Folds**. Use these controls to adjust the appearance of corners of paths drawn with the Vector tool. Also, they work with arrow heads and tails.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-capsfoldsph1.png" height="auto"><source src="/public/styling-capsfolds1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/styling-capsfoldsph1.png" height="auto"><source src="/lunacy-docs/public/styling-capsfolds1.mp4" type="video/mp4"></video>
 
 * **Head** and **Tail**. Use these controls to define the appearance of endings of open paths drawn with the Line, Arrow, and Vector tools.
 
@@ -291,7 +291,7 @@ Use the **Effects** section of the Inspector when you want to add shadows or blu
 
 1. Click `+` next to the section name.
 2. From the drop-down lost select the required effect.
-3. Click ![settings icon](/public/settingsicon.png) and set the required values.
+3. Click ![settings icon](/lunacy-docs/public/settingsicon.png) and set the required values.
 
 ![Adding effects](public/styling-effects.png)
 
@@ -321,7 +321,7 @@ To switch between blur types, click the down arrowhead next to a blur name and s
 In the demo below, we first applied a Gaussian blur to an image, removed it and then applied a background blur to a rectangle above the image.
 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styling-blursph1.png" height="auto"><source src="/public/styling-blurs2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/styling-blursph1.png" height="auto"><source src="/lunacy-docs/public/styling-blurs2.mp4" type="video/mp4"></video>
 
 
 <div class="callout callout--warning">
@@ -339,7 +339,7 @@ You can apply styling options to multiple selected layers at the same time. If y
 
 Tints are a quick and easy way to apply a color to grouped layers and component instances. They are particularly useful when you need to adjust the color of a semi-filled layer or a complex icon (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling-tintsph2.png" height="auto"><source src="/public/styling-tints2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/styling-tintsph2.png" height="auto"><source src="/lunacy-docs/public/styling-tints2.mp4" type="video/mp4"></video>
 
 The **Tints** section appears in the Inspector only when you select a group layer or a component.
 
@@ -356,7 +356,7 @@ Tint overrides can be handy, for instance, when you are designing tabs or panels
 
 The demo below shows three instances of the same component. We first applied a tint override to a nested element, then switched to the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">component edit mode</a> and modified the default tint. In the latter case, the change applied only to the instances without the override.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tintoverridesph3.png" height="auto"><source src="/public/tintoverrides3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tintoverridesph3.png" height="auto"><source src="/lunacy-docs/public/tintoverrides3.mp4" type="video/mp4"></video>
 
 When you apply an override, the reset button appears in the **Tint** section of the Inspector. Use this button to remove the override.
 
@@ -390,7 +390,7 @@ It features a set of independently scrollable columns that include:
 
 If you want to change the position of the suggestions panel, click the handle at the top-left corner of the panel and drag it up or down. Lunacy remembers the position of the panel individually for each object.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/sugg-positionph.png" height="auto"><source src="/public/sugg-position.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/sugg-positionph.png" height="auto"><source src="/lunacy-docs/public/sugg-position.mp4" type="video/mp4"></video>
 
 ### Resizing the panel
 
@@ -398,7 +398,7 @@ You can resize the panel to your liking by dragging its lower and right borders.
 
 To change the size of other columns, hover the cursor between two columns and drag to the right or left when the cursor turns into a double-headed arrow (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/sugg-resizeph.png" height="auto"><source src="/public/sugg-resize.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/sugg-resizeph.png" height="auto"><source src="/lunacy-docs/public/sugg-resize.mp4" type="video/mp4"></video>
 
 ### Managing the content of the panel
 

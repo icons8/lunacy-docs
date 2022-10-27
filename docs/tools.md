@@ -36,77 +36,77 @@ The table below provides an overview of the controls and their shortcuts.
   </thead>
   <tbody>
     <tr>
-      <td><img src="/public/tool-selecticon61.png" alt="Select tool"></td>
+      <td><img src="/lunacy-docs/public/tool-selecticon61.png" alt="Select tool"></td>
       <td><a href="https://docs.icons8.com/tools/#select-tool">Select tool</a>. Allows you to select, move and resize layers and layer groups.</td>
       <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
     </tr>
     <tr>
-      <td><img src="/public/tool-artboardicon61.png" alt="Artboard tool"></td>
+      <td><img src="/lunacy-docs/public/tool-artboardicon61.png" alt="Artboard tool"></td>
       <td><a href="https://docs.icons8.com/tools/#artboard-tool">Artboard tool</a>. Serves for adding artboards onto the canvas. Shares the same fly-out menu with the Hotspot tool.</td>
       <td><code>A</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-imageicon61.png" alt="Image tool"></td>
+      <td><img src="/lunacy-docs/public/tool-imageicon61.png" alt="Image tool"></td>
       <td><a href="https://docs.icons8.com/tools/#image-tool">Image tool</a>.  Serves for adding images to your designs.</td>
       <td><code>M</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-texticon61.png" alt="Text tool"></td>
+      <td><img src="/lunacy-docs/public/tool-texticon61.png" alt="Text tool"></td>
       <td><a href="https://docs.icons8.com/tools/#text-tool">Text tool</a>. Serves for adding text layers.</td>
       <td><code>T</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-penicon61.png" alt="Pen tool"></td>
+      <td><img src="/lunacy-docs/public/tool-penicon61.png" alt="Pen tool"></td>
       <td><a href="https://docs.icons8.com/tools/#pen-tool">Pen tool</a>. Serves for adding custom vector shapes. Shares the same fly-out menu with the Pencil tool.</td>
       <td><code>P</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-pencilicon61.png" alt="Pencil tool"></td>
+      <td><img src="/lunacy-docs/public/tool-pencilicon61.png" alt="Pencil tool"></td>
       <td><a href="https://docs.icons8.com/tools/#pencil-tool">Pencil tool</a>. Serves for adding freehand shapes. Shares the same fly-out menu with the Pen tool.</td>
       <td><code>N</code></td>
     </tr>
     <tr>
-      <td><p><img src="/public/tool-lineicon61.png" alt="Line tool"></p><p><img src="/public/tool-rectangleicon61.png" alt="Rectangle tool"></p><p><img src="/public/tool-ellipseicon61.png" alt="Ellipse tool"></p><p><img src="/public/tool-tiangleicon61.png" alt="Triangle tool"></p></td>
+      <td><p><img src="/lunacy-docs/public/tool-lineicon61.png" alt="Line tool"></p><p><img src="/lunacy-docs/public/tool-rectangleicon61.png" alt="Rectangle tool"></p><p><img src="/lunacy-docs/public/tool-ellipseicon61.png" alt="Ellipse tool"></p><p><img src="/lunacy-docs/public/tool-tiangleicon61.png" alt="Triangle tool"></p></td>
       <td><a href="https://docs.icons8.com/tools/#shape-tools">Shape tools</a>. Serve for adding pre-made shapes. The Line tool shares the same fly-out menu with the Arrow. The Rectangle tool shares the same fly-out menu with the Rounded rectangle. The Triangle tool shares the same fly-out menu with the Polygon and Star. Only the most frequently used shapes have shortcuts.</td>
       <td><p><code>R</code> - rectangle</p><p><code>U</code> - rounded rectangle</p><p><code>O</code> - ellipse</p><p><code>L</code> - line</p></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-iconicon61.png" alt="Icon tool"></td>
+      <td><img src="/lunacy-docs/public/tool-iconicon61.png" alt="Icon tool"></td>
       <td><a href="https://docs.icons8.com/tools/#icon-tool">Icon tool</a>. Keeps the icons that you've recently used at hand. After you use the tool for the first time, the latest icon appears on the toolbar instead of the original tool icon.</td>
       <td><code>X</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-avataricon61.png" alt="Avatar tool"></td>
+      <td><img src="/lunacy-docs/public/tool-avataricon61.png" alt="Avatar tool"></td>
       <td><a href="https://docs.icons8.com/tools/#avatar-tool">Avatar tool</a>. Serves for quickly adding avatars to your designs.</td>
       <td><code>Q</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tools-guiicon61.png" alt="GUI tool"></td>
+      <td><img src="/lunacy-docs/public/tools-guiicon61.png" alt="GUI tool"></td>
       <td><a href="https://docs.icons8.com/tools/#gui-tool">GUI tool</a>. A set of tools that allows you to quickly add basic GUI controls.</td>
       <td><p><code>B</code> - button</p><p><code>D</code> - text input</p><p><code>Y</code> - radio button</p><p><code>F</code> - checkbox</p><p><code>K</code> - toggle</p><p><code>W</code> - dropdown list</p></td>
     </tr>
     <tr>
-      <td><img src="/public/tools-symbolicon61.png" alt="Component tool"></td>
+      <td><img src="/lunacy-docs/public/tools-symbolicon61.png" alt="Component tool"></td>
       <td><a href="https://docs.icons8.com/tools/#component-tool">Component tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder components and then replacing them with required GUI elements.</td>
       <td><code>S</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tools-commenticon.png" alt="Comment tool"></td>
+      <td><img src="/lunacy-docs/public/tools-commenticon.png" alt="Comment tool"></td>
       <td><a href="https://docs.icons8.com/tools/#comment-tool">Comment tool</a>. Allows you to keep your notes and to-do lists, as well as to collect feedback from teammates and customers.</td>
       <td><code>C</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-hotspoticon61.png" alt="Hotspot tool"></td>
+      <td><img src="/lunacy-docs/public/tool-hotspoticon61.png" alt="Hotspot tool"></td>
       <td><a href="https://docs.icons8.com/tools/#hotspot-tool">Hotspot tool</a>. Serves for adding hotspots when working on prototypes.</td>
       <td><code>H</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-sliceicon61.png" alt="Slice tool"></td>
+      <td><img src="/lunacy-docs/public/tool-sliceicon61.png" alt="Slice tool"></td>
       <td><a href="https://docs.icons8.com/tools/#slice-tool">Slice tool</a>. Serves for quick export of selected areas. Shares the same fly-out menu with the Image and Avatar tools.</td>
       <td><code>E</code></td>
     </tr>
     <tr>
-      <td><img src="/public/tool-eyedropicon.png" alt="Eyedropper tool"></td>
+      <td><img src="/lunacy-docs/public/tool-eyedropicon.png" alt="Eyedropper tool"></td>
       <td><a href="https://docs.icons8.com/tools/#eyedropper-tool">Eyedropper tool</a>. Serves for sampling colors.</td>
       <td><code>I</code></td>
     </tr>
@@ -132,7 +132,7 @@ To move the selected layer(-s):
 
 To resize the selected layer(-s) with the Select tool, drag the handles on the selection frame. As in all similar apps, use the `Shift` key and corner handles to preserve the aspect ratio of the  layer you resize.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selecttool.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/tool-selectplaceholder.png" height="auto"><source src="/lunacy-docs/public/tool-selecttool.mp4" type="video/mp4"></video>
 
 ### Using the Select tool with grouped layers
 
@@ -145,7 +145,7 @@ When you click or drag over a group of layers, you select the group. To select a
 
  After you select a layer within a group, you can switch to other layers of that group by simply clicking them.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selectltoolgroup1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/tool-selectplaceholder.png" height="auto"><source src="/lunacy-docs/public/tool-selectltoolgroup1.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> Alternatively, you can select layers through the <b>Layer List</b>. In some cases it may be more convenient. For instance, when handling fully overlapping layers.</p>
@@ -230,7 +230,7 @@ There are several ways of adding images from the internet.
 
 The demo below shows the above two methods.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage11.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/tool-imgeimportph.png" height="auto"><source src="/lunacy-docs/public/tool-importimage11.mp4" type="video/mp4"></video>
 
 **Way 3**
 
@@ -264,11 +264,11 @@ To build a shape that consists of straight lines:
 2. Go on clicking until the shape that you want is ready and close the path by clicking over the point from where you started or clicking the **Close path** button in the Inspector.
 3. Press `Esc` to exit the tool.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-penplaceholder.png" height="auto"><source src="/public/tool-pen.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/tool-penplaceholder.png" height="auto"><source src="/lunacy-docs/public/tool-pen.mp4" type="video/mp4"></video>
 
 To build a shape that includes curves, double-click when setting a point or click and drag a little. You will see two handles near the point. By dragging these handles and changing their length, you determine the shape of the curve. You can even drag the point, if necessary (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-pentool2placholder.png" height="auto"><source src="/public/tools-pentool2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tools-pentool2placholder.png" height="auto"><source src="/lunacy-docs/public/tools-pentool2.mp4" type="video/mp4"></video>
 
 Don't worry if the resulting shape is not exactly what you wanted. You can always refine it by modifying curves and straight lines, moving points, adding new points or deleting unnecessary ones.
 
@@ -281,7 +281,7 @@ For this:
 
 In the demo below we added some curves to a heart-shaped layer built with straight lines. Note how a double-click turns a straight point into a curved (mirrored) point. It works in the opposite way as well. For details about the types of points, read the subsection below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools-pentool3placeholder.png" height="auto"><source src="/public/tools-pentool31.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/tools-pentool3placeholder.png" height="auto"><source src="/lunacy-docs/public/tools-pentool31.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> To draw a perfectly horizontal, vertical or 45-degree diagonal path, hold down <code style="background: white">Shift</code> when placing the second point of a segment.</p>
@@ -310,7 +310,7 @@ As it was mentioned earlier, to switch between straight and mirror points, you c
 
 To better understand how it all works, see the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-curvesplaceholder.png" height="auto"><source src="/public/tools-curves.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tools-curvesplaceholder.png" height="auto"><source src="/lunacy-docs/public/tools-curves.mp4" type="video/mp4"></video>
 
 For more information about editing vector curves, also read <a href="https://docs.icons8.com/editing/#vector-editing" target="_blank">here</a>.
 
@@ -333,7 +333,7 @@ To exit the Pencil, press `Esc` or click the Select tool. When you exit the Penc
 
 Lunacy automatically smooths the paths that you create. But you can also edit pencil-drawn paths like all other vector paths: add, delete and move points, bend segments, etc. To switch to the edit mode, select the required path and press `Enter` or click the **Edit Layer** button at the top bar. To exit the edit mode, press `Esc` or click anywhere on the canvas beyond the selected layer, see the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/pencil-editplaceholder.png" height="auto"><source src="/public/tool-penciltool.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/pencil-editplaceholder.png" height="auto"><source src="/lunacy-docs/public/tool-penciltool.mp4" type="video/mp4"></video>
 
 Finally, you can make use of such styling properties as borders, shadows, inner shadows and blurs. As for fills, you should remember that the Pencil always draws open paths, even if they appear as closed. You can try to apply fills but in many cases the result can be weird. If you need to close a path, enable the layer edit mode and click the **Close path** button which will appear in the Inspector.
 
@@ -386,7 +386,7 @@ To add an avatar to your design:
 Lunacy remembers the size of the latest avatar you add (at the moment you release the tool). The next time you invoke the tool it will appear with an avatar of that very size.
 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tool-avatarsizeplaceholder.png" height="auto"><source src="/public/tool-avatarsize1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tool-avatarsizeplaceholder.png" height="auto"><source src="/lunacy-docs/public/tool-avatarsize1.mp4" type="video/mp4"></video>
 
 
 The default collection of avatars installed with the app includes five images. You can use them even when your computer has no internet connection. When you're online, you have access to the full collection of avatars.
@@ -399,19 +399,19 @@ Also, thanks to integration with the <a href="https://generated.photos/" target=
 
 To change the image of an avatar, select the avatar and click the refresh button at the top-left corner of the avatar or press `Shift+R`.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-refreshavatarph.png" height="auto"><source src="/public/tools-refreshavatar.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tools-refreshavatarph.png" height="auto"><source src="/lunacy-docs/public/tools-refreshavatar.mp4" type="video/mp4"></video>
 
 Also, you can refresh multiple avatars at a time. For this, select several avatars and press `Shift+R` or click **Generate avatar** in the Inspector.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-newavatarph.png" height="auto"><source src="/public/rn-newavatar.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/rn-newavatarph.png" height="auto"><source src="/lunacy-docs/public/rn-newavatar.mp4" type="video/mp4"></video>
 
 Although avatars appear as circles when you add them to the canvas, in fact they are rounded rectangles. So, you can play with the value of the corner radius, if you wish.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-avatardemo.png" height="auto"><source src="/public/avatardemo.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/tool-avatardemo.png" height="auto"><source src="/lunacy-docs/public/avatardemo.mp4" type="video/mp4"></video>
 
 Moreover, you can create avatars from any shapes. For this, select a shape, then enable the Avatar tool and click **Generate avatar** in the Inspector (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-newavatar2ph.png" height="auto"><source src="/public/rn-newavatar2-1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/rn-newavatar2ph.png" height="auto"><source src="/lunacy-docs/public/rn-newavatar2-1.mp4" type="video/mp4"></video>
 
 ### Adjusting background in avatars with generated photos
 
@@ -426,7 +426,7 @@ You can change the background in avatars based on generated photos. The procedur
 7. Drag the new layer below the image layer.
 8. Enable the color picker and set the required background color (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-avatarbgph.png" height="auto"><source src="/public/tools-avatarbg.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tools-avatarbgph.png" height="auto"><source src="/lunacy-docs/public/tools-avatarbg.mp4" type="video/mp4"></video>
 
 
 ## GUI tool
@@ -527,7 +527,7 @@ Use the Hotspot tool to create hotspot zones when designing prototypes. To add a
 
 The demo below shows the procedure of creating a hotspot and setting a target artboard.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-addhotspotplaceholder.png" height="auto"><source src="/public/tool-addhotspot.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/tool-addhotspotplaceholder.png" height="auto"><source src="/lunacy-docs/public/tool-addhotspot.mp4" type="video/mp4"></video>
 
 To hide/show hotspots and prototyping links on the canvas, use the **Show prototyping** button on the top bar.
 
@@ -576,7 +576,7 @@ To use the eyedropper tool:
 
 That is typically how all eyedroppers work in similar apps. But Lunacy's eyedropper also features a very nice zoom option that comes in handy when the target area is small and you need pixel precision. To enable zoom, hover the eyedropper over the target and hold down the left mouse button. Then point the eyedropper to the required pixel and release the mouse button. To exit the zoom mode, press `Esc` or quickly swipe the cursor anywhere away from the current area, see the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/eyedropper3-placeholder.png" height="auto"><source src="/public/eyedropper3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/eyedropper3-placeholder.png" height="auto"><source src="/lunacy-docs/public/eyedropper3.mp4" type="video/mp4"></video>
 
 ### How the eyedropper applies color to layers
 
@@ -608,7 +608,7 @@ The Zoom tool enables you to zoom in the selected object or canvas area. To use 
 2. Click the object you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be).
 3. To zoom out, hold down `Z+Alt` and click or drag over the object or area.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tool-zoomplaceholder.png" height="auto"><source src="/lunacy-docs/public/tool-zoom61.mp4" type="video/mp4"></video>
 
 For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
 

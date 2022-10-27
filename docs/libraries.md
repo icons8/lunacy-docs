@@ -33,7 +33,7 @@ One of the cool things in Lunacy is Libraries. Libraries are collections of visu
 
 For your convenience, the items inside libraries (icons and vector illustrations) are organized by styles categories. Also, to find the required item, you can use the search field at the top of the left panel. Once you've found the item you like, just click it and drag onto the canvas. That's it!
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/libraries-addingiconsph.png" height="auto"><source src="/public/libraries-addingicons.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/libraries-addingiconsph.png" height="auto"><source src="/lunacy-docs/public/libraries-addingicons.mp4" type="video/mp4"></video>
 
 
 Now you can work with the item in the same way as with any other similar layers.

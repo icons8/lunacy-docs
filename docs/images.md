@@ -72,7 +72,7 @@ When using this method you should understand that you are importing an image dis
 
 The demo below shows methods 2 and 3.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage11.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/tool-imgeimportph.png" height="auto"><source src="/lunacy-docs/public/tool-importimage11.mp4" type="video/mp4"></video>
 
 
 ## Replacing images
@@ -116,7 +116,7 @@ There are two ways to replace images.
 
 -->
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-replaceph.png" height="auto"><source src="/public/images-replace.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/images-replaceph.png" height="auto"><source src="/lunacy-docs/public/images-replace.mp4" type="video/mp4"></video>
 
 
 ## Cropping images
@@ -128,7 +128,7 @@ To crop an image:
 3. Drag the borders of the frame to select the required area.
 4. Press `Enter` or click the **Apply editing** button in the Inspector.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-cropph.png" height="auto"><source src="/public/images-crop.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/images-cropph.png" height="auto"><source src="/lunacy-docs/public/images-crop.mp4" type="video/mp4"></video>
 
 
 ## Cutting out a part of an image
@@ -157,8 +157,8 @@ You can make color adjustments to your images using the controls in the **Adjust
 
 These adjustments are non-destructive. You can discard all changes and restore the original image by clicking the **Reset values** (![Reset values button](public/resetvaluesicon.png)) button next to the section header (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-adjustph.png
-" height="auto"><source src="/public/images-adjust.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/images-adjustph.png
+" height="auto"><source src="/lunacy-docs/public/images-adjust.mp4" type="video/mp4"></video>
 
 Also, you can adjust color settings of several images at the same time.
 
@@ -171,13 +171,13 @@ To remove background from an image:
 1. Select the image.
 2. In the inspector, click the **Remove background** button.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-bgremovalph.png" height="auto"><source src="/public/tips-bgremove.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tips-bgremovalph.png" height="auto"><source src="/lunacy-docs/public/tips-bgremove.mp4" type="video/mp4"></video>
 
 ## Image upscaler
 
 Lunacy is integrated with the <a href="https://icons8.com/upscaler" target="_blank">Icons8 Image Upscaler</a>. When you add an image to your document, Lunacy will offer you to enhance the image using our state-of-the-art AI.
 
-![Lunacy Image upscaler by Icons8](/public/rn-upscaler.png)
+![Lunacy Image upscaler by Icons8](/lunacy-docs/public/rn-upscaler.png)
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> The feature is available only to users with any paid subscription for Icons8 graphic assets.</p>

@@ -69,42 +69,42 @@ The interface consists of the following main elements.
     </thead>
     <tbody>
         <tr>
-        <td><img src="/public/interface-rulerbtn.png" alt="Show/Hide rulers button"></td>
+        <td><img src="/lunacy-docs/public/interface-rulerbtn.png" alt="Show/Hide rulers button"></td>
         <td> The <b>Show/Hide rulers</b> button. Controls the display of rulers. For details, read <a href="https://docs.icons8.com/interface/#rulers-and-guides">below</a>.</td>
         <td><code>Ctrl+R</code> (<code>⌘ R</code>)</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-layoutbtn.png" alt="Show/Hide layout button"></td>
+        <td><img src="/lunacy-docs/public/interface-layoutbtn.png" alt="Show/Hide layout button"></td>
         <td>The <b>Layout</b> button. Controls the display of the layout grid. Available only when there is an artboard on the canvas. For details, read <a href="https://docs.icons8.com/interface/#layout-grid">here</a>.</td>
         <td><code>Ctrl+\</code> (<code>⌃ G</code>)</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-prototbtn.png" alt="Show prototyping button"></td>
+        <td><img src="/lunacy-docs/public/interface-prototbtn.png" alt="Show prototyping button"></td>
         <td>The <b>Show prototyping</b> button. Controls the display of <a href="https://docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a> and prototyping arrows.</td>
         <td><b>View > Prototyping</b></td>
         </tr>
         <tr>
-        <td><img src="/public/interface-pixelbtn.png" alt="Show pixels on zoom button"></td>
+        <td><img src="/lunacy-docs/public/interface-pixelbtn.png" alt="Show pixels on zoom button"></td>
         <td>The <b>Show pixels on zoom</b> button. Enables the display of pixels when the zoom value exceeds 100. For details, read  <a href="https://docs.icons8.com/interface/#show-pixels-on-zoom">here</a>.</td>
         <td><b>View > Pixels on Zoom</b></td>
         </tr>
         <tr>
-        <td><img src="/public/interface-gridbtn.png" alt="Show grid button"></td>
+        <td><img src="/lunacy-docs/public/interface-gridbtn.png" alt="Show grid button"></td>
         <td>The <b>Show grid</b> button. Enables the display of the square grid. For details, read <a href="https://docs.icons8.com/interface/#square-grid">here</a>.</td>
         <td><code>Ctrl+'</code> (<code>⌘ '</code>)</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-nightbtn.png" alt="Sketch Cloud Button"></td>
+        <td><img src="/lunacy-docs/public/interface-nightbtn.png" alt="Sketch Cloud Button"></td>
         <td>The <b>Enable dark mode</b> button. Turns on/off the night theme in the Lunacy interface.</td>
         <td><code>-</code></td>
         </tr>
         <tr>
-        <td><img src="/public/interface-misfontbtn.png" alt="Missing fonts button"></td>
+        <td><img src="/lunacy-docs/public/interface-misfontbtn.png" alt="Missing fonts button"></td>
         <td>The <b>Missing fonts</b> button. Appears when the file you are working with includes fonts not installed on your computer. For details, read <a href="https://docs.icons8.com/text/#missing-fonts" target="_blank">here</a>.</td>
         <td><code>-</code></td>
         </tr>
         <tr>
-        <td><img src="/public/interface-notifybtn.png" alt="Notifications button"></td>
+        <td><img src="/lunacy-docs/public/interface-notifybtn.png" alt="Notifications button"></td>
         <td>The <b>Notifications</b> button. Appears when you have a new notification from Lunacy. Opens the panel where you can view and manage Lunacy notifications.</td>
         <td><code>-</code></td>
         </tr>
@@ -141,7 +141,7 @@ To change the position of a page in the list, just drag it up or down to where y
 
 The rest of the operations are accessible through the context menu invoked by a right-click over the required page name.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages65.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-pagesplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-pages65.mp4" type="video/mp4"></video>
 
 There is also a special type of a page - the Components page. For details, read <a href="https://docs.icons8.com/components/#components-page" target="_blank">here</a>.
 
@@ -154,7 +154,7 @@ The Layer List appears in left panel when you click the **Layers** content tab. 
 
 If the names of layers in the list appear truncated, you can change the width of the panel as shown below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-resizeleft.png" height="auto"><source src="/public/interface-resizeleft65.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/lunacy-docs/public/interface-resizeleft.png" height="auto"><source src="/lunacy-docs/public/interface-resizeleft65.mp4" type="video/mp4"></video>
 
 The operations that you can perform in the layers list include:
 
@@ -167,7 +167,7 @@ The operations that you can perform in the layers list include:
 
 <!--
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-objectlistplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-objectlist61.mp4" type="video/mp4"></video>
 
 -->
 
@@ -195,7 +195,7 @@ Also, you can use the mouse wheel for scrolling the canvas. Just point the curso
 
 Another option to navigate the canvas is to hold down the `Space` key (the cursor will turn into a palm) and drag the canvas to where you need.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-movingcanvas.png" height="auto"><source src="/public/interface-movingcanvas65.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-movingcanvas.png" height="auto"><source src="/lunacy-docs/public/interface-movingcanvas65.mp4" type="video/mp4"></video>
 
 Also, read about the [zooming options](#zooming-options).
 
@@ -229,27 +229,27 @@ The table below provides a description of Inspector elements displayed for artbo
   </thead>
   <tbody>
     <tr>
-      <td><img src="/public/interface-artbinspector1.png" alt="Size controls"></td>
+      <td><img src="/lunacy-docs/public/interface-artbinspector1.png" alt="Size controls"></td>
       <td><b>Preset sizes and orientation</b><p>Use these controls to select the size of the artboard from one of the presets and change its orientation. The <b>Resize to Fit</b> button changes the size of an artboard to the size of the selection frame that you get when you select all layers on the given artboard.</p></td>
     </tr>
     <tr>
-      <td><img src="/public/interface-artbinspector2.png" alt="Position and dimension controls"></td>
+      <td><img src="/lunacy-docs/public/interface-artbinspector2.png" alt="Position and dimension controls"></td>
       <td><b>Position and size</b><p>The <b>X</b> and <b>Y</b> controls show and allow you to manage the absolute position of the artboard on the canvas.</p> <p> The <b>W</b> and <b>H</b> controls, show and allow to change the width and height of the layer. Click the links button, if you want to preserve aspect ratio when changing the size of the artboard.</p></td>
     </tr>
     <tr>
-      <td><img src="/public/interface-artbinspector3.png" alt="Adjust content on resize"></td>
+      <td><img src="/lunacy-docs/public/interface-artbinspector3.png" alt="Adjust content on resize"></td>
       <td><b>Adjust content on resize</b><p>With this checkbox selected, when you change the size of the artboard, Lunacy will proportionally change the size of the layers on it. Read also about resizing constraints.</p></td>
     </tr>
     <tr>
-      <td><img src="/public/interface-artbinspector4.png" alt="Artboard background"></td>
+      <td><img src="/lunacy-docs/public/interface-artbinspector4.png" alt="Artboard background"></td>
       <td><b>Artboard background</b><p>Use these controls to change the color and opacity of the artboard. Also, you can clear the <b>Include in export</b> checkbox, if you don't want to include the artboard into export results. In such a case, Lunacy will export only the layers available on the artboard.</p></td>
     </tr>
     <tr>
-      <td><img src="/public/interface-artbinspector5.png" alt="Layout grid settings"></td>
+      <td><img src="/lunacy-docs/public/interface-artbinspector5.png" alt="Layout grid settings"></td>
       <td><b>Layout grid settings</b><p>This group of controls allows you to configure the settings of the layout grid. For details about layout grids, read <a href="https://docs.icons8.com/interface/#layout-grid">here</a>.</p></td>
     </tr>
     <tr>
-      <td><img src="/public/interface-artbinspector6.png" alt="Export controls"></td>
+      <td><img src="/lunacy-docs/public/interface-artbinspector6.png" alt="Export controls"></td>
       <td><b>Export controls</b><p>Allow you to export the artboard and its content. For details about export in Lunacy, click <a href="https://docs.icons8.com/export" target="_blank">here</a>.</p></td>
     </tr>
   </tbody>
@@ -261,7 +261,7 @@ To select an empty artboard, you can click anywhere within the artboard. To sele
 
 Similarly, to move an empty artboard, click anywhere within the artboard and drag it to where you want it. To move an artboard with layers, click the artboard's name and drag.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-moveartplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-moveart.mp4" type="video/mp4"></video>
 
 Alternatively, you can select the required artboard by clicking its name in the Layer List.
 
@@ -282,7 +282,7 @@ Ruler and guides will help you position and align layers on the canvas. In Lunac
 
 To create a guide, click anywhere on a ruler and drag the guide onto the canvas to where you need it. Now you can position layers along the guide. Move a layer close to the guide and note how it will snap to the guide.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-guides.png" height="auto"><source src="/public/inteface-guides61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-guides.png" height="auto"><source src="/lunacy-docs/public/inteface-guides61.mp4" type="video/mp4"></video>
 
 To relocate a guide, just drag it to another position or select it and use arrow keys to nudge it. If you don't need a guide, click to select it (hold down `Shift` to select multiple guides) and press `Delete`. Also, you can use the options from the pop-up menu invoked by a right-click over a ruler (see the figure below).
 
@@ -301,13 +301,13 @@ If there no artboards on the canvas, Lunacy displays the square grid directly on
 
 To select the size of the grid cell, click the down arrowhead next to the button and choose one of the presets or define your custom size.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-sqgridplaceholder.png" height="auto"><source src="/public/interface-sqgrid.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/interface-sqgridplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-sqgrid.mp4" type="video/mp4"></video>
 
 #### [Layout grid](#layout-grid)
 
 You can apply layout grids only to [artboards](#artboards). If you have several artboards on a page, you can toggle on and off the display of layout grids for all or individually for each artboard. Also, each artboard can have its own settings of the layout grid (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-layoutgridplaceholder.png" height="auto"><source src="/public/interface-layoutgridvid.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/interface-layoutgridplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-layoutgridvid.mp4" type="video/mp4"></video>
 
 ### Measuring
 
@@ -326,7 +326,7 @@ To learn the distance between an layer and the borders of the artboard:
   OR
 * Select a layer, then hover the cursor over an empty area within the artboard and press and hold `Alt` (`⌥`).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-measuringplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-measuring.mp4" type="video/mp4"></video>
 
 For precise positioning of layers on the artboard or relative one another, proceed as follows:
 
@@ -334,7 +334,7 @@ For precise positioning of layers on the artboard or relative one another, proce
 2. Point the cursor over an empty area or over the other layer.
 3. Holding down `Alt`(`⌥`), move the selected layer using the arrow keys.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure3ph.png" height="auto"><source src="/public/interface-groupmeasure3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-groupmeasure3ph.png" height="auto"><source src="/lunacy-docs/public/interface-groupmeasure3.mp4" type="video/mp4"></video>
 
 #### Grouped layers
 
@@ -345,7 +345,7 @@ To learn the distance between a member of a group and the borders of the group:
 1. Point the cursor over the required group member.
 2. Press and hold `Ctrl + Alt` (`⌘ ⌥`). 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure1ph.png" height="auto"><source src="/public/interface-groupmeasure1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-groupmeasure1ph.png" height="auto"><source src="/lunacy-docs/public/interface-groupmeasure1.mp4" type="video/mp4"></video>
 
 To learn the distance between a member of a group and the borders of the artboard:
 
@@ -367,13 +367,13 @@ To learn the distance between a member of a group and a member of another group:
 
 The next demo shows the above three procedures.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure2ph.png" height="auto"><source src="/public/interface-groupmeasure2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-groupmeasure2ph.png" height="auto"><source src="/lunacy-docs/public/interface-groupmeasure2.mp4" type="video/mp4"></video>
 
 ### Zooming options
 
 The easiest way to zoom to a layer in Lunacy is to hold down the `Ctrl`(`⌘`) key and rotate the mouse wheel. Similarly, you can hold down `Ctrl` and `Shift` (`⌘ Shift`) keys. In such a case the speed of zooming will be slower (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomtoobject61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-zoomtoobject61.mp4" type="video/mp4"></video>
 
 For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
 
@@ -389,7 +389,7 @@ The Zoom tool enables you to zoom in the selected layer or canvas area. To use t
 2. Click the layer you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be).
 3. To zoom out, hold down `Z+Alt` and click or drag over the layer or area.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tool-zoomplaceholder.png" height="auto"><source src="/lunacy-docs/public/tool-zoom61.mp4" type="video/mp4"></video>
 
 #### The Zoom control
 
@@ -401,7 +401,7 @@ The zoom control is found on the right of the file tab panel. To change the zoom
 
 The demo below shows all these three methods.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-zoomctrl61.mp4" type="video/mp4"></video>
 
 Alternatively, you can click the down arrowhead next to the zoom control and select one of the preset values or options on the displayed menu (see the figure below).
 
@@ -484,7 +484,7 @@ There are two ways to change the color of the canvas:
 2. Select the <a href="https://docs.icons8.com/tools/#eyedropper-tool" target="_blank">eyedropper tool</a>. 
 3. Use the pallets that will appear in the left panel to select the new color.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-canvascolorplaceholder.png" height="auto"><source src="/public/interface-canvascolor1356x730.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/interface-canvascolorplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-canvascolor1356x730.mp4" type="video/mp4"></video>
 
 ## [The Inspector](#the-inspector)
 
@@ -501,35 +501,35 @@ The set of controls and settings displayed in the Inspector varies with the type
     </thead>
     <tbody>
         <tr>
-        <td><img src="/public/interface-alignctrl.png" alt="Alignment and distribution controls"></td>
+        <td><img src="/lunacy-docs/public/interface-alignctrl.png" alt="Alignment and distribution controls"></td>
         <td><b>Alignment and distribution controls</b>. Become available when you select two or more layers.</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-opacity.png" alt="Opacity and blend mode settings"></td>
+        <td><img src="/lunacy-docs/public/interface-opacity.png" alt="Opacity and blend mode settings"></td>
         <td><b>Opacity and blend mode settings</b>. Allow you to set the overall opacity of a layer and its blending mode.</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-positionctrl2.png" alt="Layer properties controls"></td>
+        <td><img src="/lunacy-docs/public/interface-positionctrl2.png" alt="Layer properties controls"></td>
         <td><b>Layer properties controls</b>. Allow you to adjust the position and size of the layer, as well as its rotation angle, corner radius and number of vertices in stars and polygons. The set of displayed controls varies with the selected layer.</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-resizectrl.png" alt="Resizing constraints"></td>
+        <td><img src="/lunacy-docs/public/interface-resizectrl.png" alt="Resizing constraints"></td>
         <td><b>Resizing constraints</b>. Appear when you select two or more layers, a group of layers or a layer on an artboard. Serve to determine the behavior of layers upon resizing.</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-protoctrl.png" alt="Prototyping controls"></td>
+        <td><img src="/lunacy-docs/public/interface-protoctrl.png" alt="Prototyping controls"></td>
         <td>The <b>Prototyping</b> section features the settings related to prototyping.</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-appear.png" alt="Appearance section"></td>
+        <td><img src="/lunacy-docs/public/interface-appear.png" alt="Appearance section"></td>
         <td>The <b>Appearance</b> section allows you to apply <a href="https://docs.icons8.com/layerstyles" target="_blank">styles</a> to the selected layer.</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-stylingctrl.png" alt="Styling options"></td>
+        <td><img src="/lunacy-docs/public/interface-stylingctrl.png" alt="Styling options"></td>
         <td><b>Styling options</b>. For details, read <a href="https://docs.icons8.com/styling" target="_blank">here</a>.</td>
         </tr>
         <tr>
-        <td><img src="/public/interface-exportctrl.png" alt="Export settings"></td>
+        <td><img src="/lunacy-docs/public/interface-exportctrl.png" alt="Export settings"></td>
         <td><b>Export settings</b>. For details, read <a href="https://docs.icons8.com/export" target="_blank">here</a>.</td>
         </tr>
     </tbody>
@@ -554,7 +554,7 @@ There are several ways to change values in the numeric fields of the Inspector. 
 * Hover the cursor over the required field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
 * Use math (press `Enter` to submit).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-inspectortipsplaceholder.png" height="auto"><source src="/public/interface-inspectortips.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-inspectortipsplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-inspectortips.mp4" type="video/mp4"></video>
 
 ## [The context menu](#the-context-menu)
 

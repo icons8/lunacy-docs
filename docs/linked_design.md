@@ -82,22 +82,22 @@ To apply changes to a live webpage, proceed as follows.
 
 1. Select the altered layer/layer group.
 2. Open the **Export** tab in the right panel.
-3. Click ![refresh button](/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
+3. Click ![refresh button](/lunacy-docs/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
 
     <embed type="image/svg+xml" alt="svg 5 Copy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ACYsQrDtUkSZyKE0lL3AtA.svg" /> 
 
-    **Tip:** If ![refresh button](/public/refresh_icon.png) appears disabled, click the question mark next to it first.
+    **Tip:** If ![refresh button](/lunacy-docs/public/refresh_icon.png) appears disabled, click the question mark next to it first.
 
 4. Repeat as needed.
 
 **For text layers:**
 
 1. When you're done with all edits of text layers, deselect all layers on the canvas (press `Esc` or click anywhere over the canvas).
-2. Click ![refresh button](/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
+2. Click ![refresh button](/lunacy-docs/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
 
     <embed type="image/svg+xml" alt="svg 7" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/tdocmRnNoEKC5rox84tqvw.svg" /> 
 
-    **Tip:** If ![refresh button](/public/refresh_icon.png) appears disabled, click the question mark next to it first.
+    **Tip:** If ![refresh button](/lunacy-docs/public/refresh_icon.png) appears disabled, click the question mark next to it first.
 
 ### Viewing changes in the browser
 In the browser, reload the page by pressing `Ctrl + F5`/`⌘ ⌥ R` to make sure that the cached content is cleared.

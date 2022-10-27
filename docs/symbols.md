@@ -29,7 +29,7 @@ Moreover, you can also change the text on one or even all instances. That will b
 
 The demo below demonstrates the effect and efficiency of using symbols in designs.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symb-tutorial14.gif" height="auto"><source src="/public/symbolsdemo3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/symb-tutorial14.gif" height="auto"><source src="/lunacy-docs/public/symbolsdemo3.mp4" type="video/mp4"></video>
 
 ## [Creating symbols](#creating-symbols)
 
@@ -155,7 +155,7 @@ There are two ways to edit a main symbol:
 
 The changes you make immediately apply to all the symbol instances across the project, except for the instances with respective overrides (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symbols-editmasterph.png" height="auto"><source src="/public/symbols-editmaster.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/symbols-editmasterph.png" height="auto"><source src="/lunacy-docs/public/symbols-editmaster.mp4" type="video/mp4"></video>
 
 **Way 2**
 
