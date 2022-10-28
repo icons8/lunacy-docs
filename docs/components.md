@@ -258,11 +258,11 @@ The menu features the following sections:
 * **Commands**: Shows the list of component-related commands. Click [here](#component-related-commands) for details.
 * **Related**: Shows the components that share the same category/subcategory with the selected component instance.
 * **Categories**: Shows the list of available component categories. You can click through the categories and subcategories to find the required component. For your convenience, the category and subcategories to which the selected component instance belong will have a dot next their names (see the gif below). For details about how to organize components, read [here](#organizing-components).
-* **UI kits**: Shows the list of external UI kits from where you can also select a replacement. For details about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
+* **UI kits**: Shows the list of external UI kits from where you can also select a replacement. For details about UI kits, click <a href="https://docs.icons8.com/lunacy-docs/libraries/#ui-kits" target="_blank">here</a>.
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> The size of the menu depends on the number of components and component categories in your document. If you don't see the content of the upper or lower menu sections in full, use the scroll.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 <!--
@@ -287,15 +287,15 @@ The commands are as follows:
 | Command | Description | Shortcut (Windows, Linux) | Shortcut (macOS) |
 | --- | --- | --- | --- |
 | Create Component | Creates a new component. Optionally, you can use the **Create component** button which appears at the top of the window (see the figure above). | `Ctrl+Alt+K` | `⌥⌘K` |
-| Create New Component State | Creates a new [component state](https://docs.icons8.com/components/#component-states). | `Ctrl+Alt+S` | `⌥⌘S` |
+| Create New Component State | Creates a new [component state](https://docs.icons8.com/lunacy-docs/components/#component-states). | `Ctrl+Alt+S` | `⌥⌘S` |
 | Go to Main Component | Brings you to the main component of the selected instance. To return to the instance from the main component, click the **Back to instance** button that will appear in the top-left corner of the canvas. | `Ctrl+Alt+E` | `⌥⌘E` |
 | Detach from Components | When you detach an instance from its main component, it becomes a group. All further changes to the main component will no longer apply to its ex-instance. | `Ctrl+Alt+D` | `⌥⌘D` |
-| Detach from Library | This command applies only to components from external files, i.e. to components from UI kits. Detached components become document components and appear on the **Components** tab and the [Components page](https://docs.icons8.com/components/#components-page). For more information about UI kits, click [here](https://docs.icons8.com/libraries/#ui-kits). | `-` | `-` |
+| Detach from Library | This command applies only to components from external files, i.e. to components from UI kits. Detached components become document components and appear on the **Components** tab and the [Components page](https://docs.icons8.com/lunacy-docs/components/#components-page). For more information about UI kits, click [here](https://docs.icons8.com/lunacy-docs/libraries/#ui-kits). | `-` | `-` |
 | Reset Instance Size | By using this command you can at any moment restore the original size of any component instance. | `Ctrl+Alt+R` | `⌥⌘R` |
 | Reset Overrides | Use this command to undo all overrides and restore the initial look of an instance. For this, you can also use the reset overrides button that appears in the **Component** section of the Inspector panel, after an override takes place. | `-` | `-` |
 | Send to Component page | This command applies only to main components and becomes available only when a component is not on a dedicated components page. | `-` | `-` |
 | Convert Component to Artboard | This command applies only to main components. It converts the selected main component into an artboard with a group of objects. All the instances of the component convert into groups. | `Ctrl+Shift+Y` | `⌘ShiftY` |
-| Organize Components | A click over this command opens the components panel, where you can organize components as described [here](https://docs.icons8.com/components/#organizing-components). | `-` | `-` |
+| Organize Components | A click over this command opens the components panel, where you can organize components as described [here](https://docs.icons8.com/lunacy-docs/components/#organizing-components). | `-` | `-` |
 
 -->
 
@@ -317,7 +317,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Create New Component State</td>
-      <td>Creates a new <a href="https://docs.icons8.com/components/#component-states">component state</a>.</td>
+      <td>Creates a new <a href="https://docs.icons8.com/lunacy-docs/components/#component-states">component state</a>.</td>
       <td><code>Ctrl+Alt+S</code></td>
       <td><code>⌥ ⌘ S</code></td>
     </tr>
@@ -335,7 +335,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Detach from Library</td>
-      <td>This command applies only to components from external files, i.e. to components from UI kits. Detached components become document components and appear on the <B>Components</B> tab and the <a href="https://docs.icons8.com/components/#components-page">Components page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.</td>
+      <td>This command applies only to components from external files, i.e. to components from UI kits. Detached components become document components and appear on the <B>Components</B> tab and the <a href="https://docs.icons8.com/lunacy-docs/components/#components-page">Components page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/lunacy-docs/libraries/#ui-kits" target="_blank">here</a>.</td>
       <td><code>-</code></td>
       <td><code>-</code></td>
     </tr>
@@ -365,7 +365,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Organize Components</td>
-      <td>A click over this command opens the components panel, where you can organize components as described <a href="https://docs.icons8.com/components/#organizing-components">here</a>.</td>
+      <td>A click over this command opens the components panel, where you can organize components as described <a href="https://docs.icons8.com/lunacy-docs/components/#organizing-components">here</a>.</td>
       <td><code>-</code></td>
       <td><code>-</code></td>
     </tr>
@@ -402,7 +402,7 @@ Let's assume that we are designing a contact UI. We have prepared two templates:
 ![A view of the components page](public/symb-tutorial1.png)
 
 
->**Note:** To demonstrate Lunacy capabilities to the maximum, we have also added some layer and text styles. For details about them, click <a href="https://docs.icons8.com/layerstyles/" target="_blank">here</a>.
+>**Note:** To demonstrate Lunacy capabilities to the maximum, we have also added some layer and text styles. For details about them, click <a href="https://docs.icons8.com/lunacy-docs/layerstyles/" target="_blank">here</a>.
 
 Now, we'll move from the components page to our project page, add one of the templates to the artboard and see the power of components in action.
 
@@ -468,7 +468,7 @@ The gif below demonstrates text overrides described in Steps 2 and 3.
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/components-textoverrideph.png" height="auto"><source src="/lunacy-docs/public/components-textoverride.mp4" type="video/mp4"></video>
 
 
-For details, about text generation and text snippets, click <a href="https://docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">here</a>.
+For details, about text generation and text snippets, click <a href="https://docs.icons8.com/lunacy-docs/text/#text-generation-and-text-snippets" target="_blank">here</a>.
 
 ### Nested components overrides
 
@@ -542,7 +542,7 @@ If your template features a hotspot, you can override its target artboard. Optio
 
 ### Tint overrides
 
-For details about tint overrides, read <a href="https://docs.icons8.com/styling/#tint-overrides" target="_blank">here</a>.
+For details about tint overrides, read <a href="https://docs.icons8.com/lunacy-docs/styling/#tint-overrides" target="_blank">here</a>.
 
 ## Duplicating components
 

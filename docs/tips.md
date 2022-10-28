@@ -35,7 +35,7 @@ The `Alt+С + C` (`⌥ C C`) shortcut lets you instantly upload a layer or layer
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/tips-altccph.png" height="auto"><source src="/lunacy-docs/public/tips-altcc.mp4" type="video/mp4"></video>
 
-This option is also available on the context menu. For details, click <a href="https://docs.icons8.com/export/#exporting-to-icons8-cloud" target="_blank">here</a>.
+This option is also available on the context menu. For details, click <a href="https://docs.icons8.com/lunacy-docs/export/#exporting-to-icons8-cloud" target="_blank">here</a>.
 
 ![Alt + C, C](public/export-altcc.png)
 
@@ -128,7 +128,7 @@ To disable the display of magnets, go to the **View** menu and uncheck the **Tex
 
 To quickly resize a text box so that it fits the text, double-click its vertical or horizontal border.
 
-**Note:** A double-click over the right or left border sets the text box to the <a href="https://docs.icons8.com/text/#text-block-resize-options" target="_blank">horizontal resize mode</a> and transforms a multiline text into a single line.
+**Note:** A double-click over the right or left border sets the text box to the <a href="https://docs.icons8.com/lunacy-docs/text/#text-block-resize-options" target="_blank">horizontal resize mode</a> and transforms a multiline text into a single line.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/text-autoresizeph.png" height="auto"><source src="/lunacy-docs/public/text-autoresize.mp4" type="video/mp4"></video>
 
@@ -201,7 +201,7 @@ To quickly import an image from a web site to Lunacy, right-click over the image
 
 ## Image fills
 
-You can create an image fill by dropping an image from the Lunacy library or your desktop directly on to a layer as shown in the demo below. For more information about image fills, click <a href="https://docs.icons8.com/styling/#image-fills" target="_blank">here</a>.  
+You can create an image fill by dropping an image from the Lunacy library or your desktop directly on to a layer as shown in the demo below. For more information about image fills, click <a href="https://docs.icons8.com/lunacy-docs/styling/#image-fills" target="_blank">here</a>.  
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/styling-imagefillph.png" height="auto"><source src="/lunacy-docs/public/styling-imagefill.mp4" type="video/mp4"></video>
 

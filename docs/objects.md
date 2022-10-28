@@ -26,15 +26,15 @@ page_nav:
 
 In Lunacy you will work with the following types of objects:
 
-* <a href="https://docs.icons8.com/interface/#artboards" target="_blank">Artboards</a>
-* <a href="https://docs.icons8.com/text/" target="_blank">Text objects</a>
-* <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">Vector objects</a>
-* <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">Shapes</a>
-* <a href="https://docs.icons8.com/tools/#image-tool" target="_blank">Images</a>
-* <a href="https://docs.icons8.com/components/" target="_blank">Components and component instances</a>
-* <a href="https://docs.icons8.com/tools/#icon-tool" target="_blank">Icons</a> 
-* <a href="https://docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspots</a> 
-* <a href="https://docs.icons8.com/tools/#slice-tool" target="_blank">Slices</a> 
+* <a href="https://docs.icons8.com/lunacy-docs/interface/#artboards" target="_blank">Artboards</a>
+* <a href="https://docs.icons8.com/lunacy-docs/text/" target="_blank">Text objects</a>
+* <a href="https://docs.icons8.com/lunacy-docs/tools/#pen-tool" target="_blank">Vector objects</a>
+* <a href="https://docs.icons8.com/lunacy-docs/tools/#shape-tools" target="_blank">Shapes</a>
+* <a href="https://docs.icons8.com/lunacy-docs/tools/#image-tool" target="_blank">Images</a>
+* <a href="https://docs.icons8.com/lunacy-docs/components/" target="_blank">Components and component instances</a>
+* <a href="https://docs.icons8.com/lunacy-docs/tools/#icon-tool" target="_blank">Icons</a> 
+* <a href="https://docs.icons8.com/lunacy-docs/tools/#hotspot-tool" target="_blank">Hotspots</a> 
+* <a href="https://docs.icons8.com/lunacy-docs/tools/#slice-tool" target="_blank">Slices</a> 
 
 For specifics on working with each type of objects, follow the above links. This section provides an overview of basic operations common for all object types.
 
@@ -42,7 +42,7 @@ For specifics on working with each type of objects, follow the above links. This
 
 To add an object to the canvas:
 
-1. Enable the respective <a href="https://docs.icons8.com/tools" target="_blank">tool</a> on the toolbar or with a shortcut (see the note below).
+1. Enable the respective <a href="https://docs.icons8.com/lunacy-docs/tools" target="_blank">tool</a> on the toolbar or with a shortcut (see the note below).
 2. Click or click and drag over the area where you want to place the object.
 
 If you need to create a regular shape (for example, a circle or a square), hold down `Shift` while dragging.
@@ -51,7 +51,7 @@ That is the most common method used in all similar applications. When you use it
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/objects-addingplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-adding.mp4" type="video/mp4"></video>
 
-**Note:** To check out the shortcuts available in Lunacy, click the **Keyboard Shortcuts** button at the lower-left corner of the interface (this will open the shortcuts panel in Lunacy) or read <a href="https://docs.icons8.com/shortcuts/" target="_blank">here</a>.
+**Note:** To check out the shortcuts available in Lunacy, click the **Keyboard Shortcuts** button at the lower-left corner of the interface (this will open the shortcuts panel in Lunacy) or read <a href="https://docs.icons8.com/lunacy-docs/shortcuts/" target="_blank">here</a>.
 
 ![Adding text](public/objects-kbdshotcuts1.png)
 
@@ -83,7 +83,7 @@ After you select an object within a group, you can switch to other objects of th
 
 To quickly select all objects on the canvas, use the `Ctrl+A` shortcut.
 
-For details about using the select tool and a demo, click <a href="https://docs.icons8.com/tools/#select-tool" target="_blank">here</a>.
+For details about using the select tool and a demo, click <a href="https://docs.icons8.com/lunacy-docs/tools/#select-tool" target="_blank">here</a>.
 
 ## Moving objects
 
@@ -91,13 +91,13 @@ To move an object, just click and drag it. Make sure that the cursor is over the
 
 If you want to restrict movement to the X or Y axis, hold down `Shift` as you drag.
 
-For precise positioning you can use the arrow keys. Each keystroke moves an object by one pixel. Holding down `Shift` increases each step to 10 pixels (see also the <a href="https://docs.icons8.com/interface/#measuring" target="_blank">Measuring</a> section).
+For precise positioning you can use the arrow keys. Each keystroke moves an object by one pixel. Holding down `Shift` increases each step to 10 pixels (see also the <a href="https://docs.icons8.com/lunacy-docs/interface/#measuring" target="_blank">Measuring</a> section).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/objects-movingplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-moving.mp4" type="video/mp4"></video>
 
 Also, to adjust an object's position on the canvas or artboard, you can use the **X** and **Y** controls in the Inspector. If an object is on the canvas, the figures in the **X** and **Y** fields show the absolute coordinates of the object's top-left selection handle.
 
-If the object is a part of an artboard, **X** and **Y**  display the coordinates of the object's top-left selection handle relative to the artboard's top-left corner. See the demo below and the <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">tips</a> on working with numeric fields in the Inspector.
+If the object is a part of an artboard, **X** and **Y**  display the coordinates of the object's top-left selection handle relative to the artboard's top-left corner. See the demo below and the <a href="https://docs.icons8.com/lunacy-docs/interface/#tips-on-working-with-the-inspector" target="_blank">tips</a> on working with numeric fields in the Inspector.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/objects-moving1placeholder.png" height="auto"><source src="/lunacy-docs/public/objects-moving1.mp4" type="video/mp4"></video>
 
@@ -180,7 +180,7 @@ The table below provides a description of these options.
       </tr>
       <tr>
         <td><b>Copy style/Paste style</b></td>
-        <td>These options allow you to copy the <a href="https://docs.icons8.com/styling" target="_blank">styling properties</a> of the selected object and apply them to another object. See the demo below.</td>
+        <td>These options allow you to copy the <a href="https://docs.icons8.com/lunacy-docs/styling" target="_blank">styling properties</a> of the selected object and apply them to another object. See the demo below.</td>
       </tr>
   </tbody>
 </table>
@@ -222,7 +222,7 @@ Select the object and use the **W** (width) and **H** (height) edit fields, when
 
 Click the links button to preserve the object's aspect ratio. With this button enabled, the change of a value in one of the boxes, will result in respective value adjustment in the second box.
 
-Also, read <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">here</a> for some tips on working with numeric fields in the Inspector.
+Also, read <a href="https://docs.icons8.com/lunacy-docs/interface/#tips-on-working-with-the-inspector" target="_blank">here</a> for some tips on working with numeric fields in the Inspector.
 
 ### Scaling objects
 

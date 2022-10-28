@@ -37,77 +37,77 @@ The table below provides an overview of the controls and their shortcuts.
   <tbody>
     <tr>
       <td><img src="/lunacy-docs/public/tool-selecticon61.png" alt="Select tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#select-tool">Select tool</a>. Allows you to select, move and resize layers and layer groups.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#select-tool">Select tool</a>. Allows you to select, move and resize layers and layer groups.</td>
       <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tool-artboardicon61.png" alt="Artboard tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#artboard-tool">Artboard tool</a>. Serves for adding artboards onto the canvas. Shares the same fly-out menu with the Hotspot tool.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#artboard-tool">Artboard tool</a>. Serves for adding artboards onto the canvas. Shares the same fly-out menu with the Hotspot tool.</td>
       <td><code>A</code></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tool-imageicon61.png" alt="Image tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#image-tool">Image tool</a>.  Serves for adding images to your designs.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#image-tool">Image tool</a>.  Serves for adding images to your designs.</td>
       <td><code>M</code></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tool-texticon61.png" alt="Text tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#text-tool">Text tool</a>. Serves for adding text layers.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#text-tool">Text tool</a>. Serves for adding text layers.</td>
       <td><code>T</code></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tool-penicon61.png" alt="Pen tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#pen-tool">Pen tool</a>. Serves for adding custom vector shapes. Shares the same fly-out menu with the Pencil tool.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#pen-tool">Pen tool</a>. Serves for adding custom vector shapes. Shares the same fly-out menu with the Pencil tool.</td>
       <td><code>P</code></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tool-pencilicon61.png" alt="Pencil tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#pencil-tool">Pencil tool</a>. Serves for adding freehand shapes. Shares the same fly-out menu with the Pen tool.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#pencil-tool">Pencil tool</a>. Serves for adding freehand shapes. Shares the same fly-out menu with the Pen tool.</td>
       <td><code>N</code></td>
     </tr>
     <tr>
       <td><p><img src="/lunacy-docs/public/tool-lineicon61.png" alt="Line tool"></p><p><img src="/lunacy-docs/public/tool-rectangleicon61.png" alt="Rectangle tool"></p><p><img src="/lunacy-docs/public/tool-ellipseicon61.png" alt="Ellipse tool"></p><p><img src="/lunacy-docs/public/tool-tiangleicon61.png" alt="Triangle tool"></p></td>
-      <td><a href="https://docs.icons8.com/tools/#shape-tools">Shape tools</a>. Serve for adding pre-made shapes. The Line tool shares the same fly-out menu with the Arrow. The Rectangle tool shares the same fly-out menu with the Rounded rectangle. The Triangle tool shares the same fly-out menu with the Polygon and Star. Only the most frequently used shapes have shortcuts.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#shape-tools">Shape tools</a>. Serve for adding pre-made shapes. The Line tool shares the same fly-out menu with the Arrow. The Rectangle tool shares the same fly-out menu with the Rounded rectangle. The Triangle tool shares the same fly-out menu with the Polygon and Star. Only the most frequently used shapes have shortcuts.</td>
       <td><p><code>R</code> - rectangle</p><p><code>U</code> - rounded rectangle</p><p><code>O</code> - ellipse</p><p><code>L</code> - line</p></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tool-iconicon61.png" alt="Icon tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#icon-tool">Icon tool</a>. Keeps the icons that you've recently used at hand. After you use the tool for the first time, the latest icon appears on the toolbar instead of the original tool icon.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#icon-tool">Icon tool</a>. Keeps the icons that you've recently used at hand. After you use the tool for the first time, the latest icon appears on the toolbar instead of the original tool icon.</td>
       <td><code>X</code></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tool-avataricon61.png" alt="Avatar tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#avatar-tool">Avatar tool</a>. Serves for quickly adding avatars to your designs.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#avatar-tool">Avatar tool</a>. Serves for quickly adding avatars to your designs.</td>
       <td><code>Q</code></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tools-guiicon61.png" alt="GUI tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#gui-tool">GUI tool</a>. A set of tools that allows you to quickly add basic GUI controls.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#gui-tool">GUI tool</a>. A set of tools that allows you to quickly add basic GUI controls.</td>
       <td><p><code>B</code> - button</p><p><code>D</code> - text input</p><p><code>Y</code> - radio button</p><p><code>F</code> - checkbox</p><p><code>K</code> - toggle</p><p><code>W</code> - dropdown list</p></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tools-symbolicon61.png" alt="Component tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#component-tool">Component tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder components and then replacing them with required GUI elements.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#component-tool">Component tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder components and then replacing them with required GUI elements.</td>
       <td><code>S</code></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tools-commenticon.png" alt="Comment tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#comment-tool">Comment tool</a>. Allows you to keep your notes and to-do lists, as well as to collect feedback from teammates and customers.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#comment-tool">Comment tool</a>. Allows you to keep your notes and to-do lists, as well as to collect feedback from teammates and customers.</td>
       <td><code>C</code></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tool-hotspoticon61.png" alt="Hotspot tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#hotspot-tool">Hotspot tool</a>. Serves for adding hotspots when working on prototypes.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#hotspot-tool">Hotspot tool</a>. Serves for adding hotspots when working on prototypes.</td>
       <td><code>H</code></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tool-sliceicon61.png" alt="Slice tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#slice-tool">Slice tool</a>. Serves for quick export of selected areas. Shares the same fly-out menu with the Image and Avatar tools.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#slice-tool">Slice tool</a>. Serves for quick export of selected areas. Shares the same fly-out menu with the Image and Avatar tools.</td>
       <td><code>E</code></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/tool-eyedropicon.png" alt="Eyedropper tool"></td>
-      <td><a href="https://docs.icons8.com/tools/#eyedropper-tool">Eyedropper tool</a>. Serves for sampling colors.</td>
+      <td><a href="https://docs.icons8.com/lunacy-docs/tools/#eyedropper-tool">Eyedropper tool</a>. Serves for sampling colors.</td>
       <td><code>I</code></td>
     </tr>
   </tbody>
@@ -149,14 +149,14 @@ When you click or drag over a group of layers, you select the group. To select a
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> Alternatively, you can select layers through the <b>Layer List</b>. In some cases it may be more convenient. For instance, when handling fully overlapping layers.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
-For details about working with layers, click <a href="https://docs.icons8.com/layers/" target="_blank">here</a>.
+For details about working with layers, click <a href="https://docs.icons8.com/lunacy-docs/layers/" target="_blank">here</a>.
 
 <!--
 
->**Tip:** Alternatively, you can select objects through the **Objects** panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects. For details about working with objects, click <a href="https://docs.icons8.com/objects/" target="_blank">here</a>.
+>**Tip:** Alternatively, you can select objects through the **Objects** panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects. For details about working with objects, click <a href="https://docs.icons8.com/lunacy-docs/objects/" target="_blank">here</a>.
 
 -->
 
@@ -174,7 +174,7 @@ To add an artboard:
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> If there are already some layers on the canvas and you decide to put them on an artboard, just drag the artboard tool over these layers.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 <!--
@@ -183,7 +183,7 @@ To add an artboard:
 
 -->
 
-For details, about using artboards read <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.
+For details, about using artboards read <a href="https://docs.icons8.com/lunacy-docs/interface/#artboards" target="_blank">here</a>.
 
 ## Image tool
 
@@ -199,7 +199,7 @@ To add an image:
 {:.is-big}
 ![Adding an image](public/objects_bitmaps.gif)
 
-For details about working with images, read <a href="https://docs.icons8.com/images/" target="_blank">here</a>.
+For details about working with images, read <a href="https://docs.icons8.com/lunacy-docs/images/" target="_blank">here</a>.
 
 <!--
 
@@ -245,7 +245,7 @@ The demo below shows the above two methods.
 
 ## Text tool
 
-The Text tool serves for adding text layers. For details about working with text in Lunacy, click <a href="https://docs.icons8.com/text/" target="_blank">here</a>.
+The Text tool serves for adding text layers. For details about working with text in Lunacy, click <a href="https://docs.icons8.com/lunacy-docs/text/" target="_blank">here</a>.
 
 
 ## Pen tool
@@ -285,7 +285,7 @@ In the demo below we added some curves to a heart-shaped layer built with straig
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> To draw a perfectly horizontal, vertical or 45-degree diagonal path, hold down <code style="background: white">Shift</code> when placing the second point of a segment.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 <!--
@@ -312,7 +312,7 @@ To better understand how it all works, see the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tools-curvesplaceholder.png" height="auto"><source src="/lunacy-docs/public/tools-curves.mp4" type="video/mp4"></video>
 
-For more information about editing vector curves, also read <a href="https://docs.icons8.com/editing/#vector-editing" target="_blank">here</a>.
+For more information about editing vector curves, also read <a href="https://docs.icons8.com/lunacy-docs/editing/#vector-editing" target="_blank">here</a>.
 
 ## Pencil tool
 
@@ -354,12 +354,12 @@ To add a shape, select the required shape on the toolbar and then drag and click
 {:.is-big}
 ![Shape tool](public/objects_adding_primitives.gif)
 
-For details about working with shapes, click <a href="https://docs.icons8.com/editing/" target="_blank">here</a>.
+For details about working with shapes, click <a href="https://docs.icons8.com/lunacy-docs/editing/" target="_blank">here</a>.
 
 
 ## Icon tool
 
-The Icon tool serves to simplify your work with icons and keeps the items that you've recently used at hand. A click over the icon tool on the toolbar opens the <a href="https://docs.icons8.com/libraries/#icons" target="_blank">Icons library</a> where you can select the required icon.
+The Icon tool serves to simplify your work with icons and keeps the items that you've recently used at hand. A click over the icon tool on the toolbar opens the <a href="https://docs.icons8.com/lunacy-docs/libraries/#icons" target="_blank">Icons library</a> where you can select the required icon.
 
 ![A view of the icon tool](public/tool-icontoolview1.png)
 
@@ -373,7 +373,7 @@ For your convenience, when you select an icon on the canvas, Lunacy displays the
 
 ## Avatar tool
 
-Creating views of user profiles is one of the most common tasks when designing user interfaces. Combined with Lunacy's <a href="https://docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text snippets</a> the avatar tool becomes a real time saver.
+Creating views of user profiles is one of the most common tasks when designing user interfaces. Combined with Lunacy's <a href="https://docs.icons8.com/lunacy-docs/text/#text-generation-and-text-snippets" target="_blank">text snippets</a> the avatar tool becomes a real time saver.
 
 {:.is-big}
 ![Using the avatar tool](public/objects_avatars1.png)
@@ -454,7 +454,7 @@ When you select a control added with any of these tools, you see the suggestions
 
 -->
 
-To edit the appearance of a control, use the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">component editor</a>.
+To edit the appearance of a control, use the <a href="https://docs.icons8.com/lunacy-docs/components/#editing-main-components" target="_blank">component editor</a>.
 
 ## Component tool
 
@@ -533,7 +533,7 @@ To hide/show hotspots and prototyping links on the canvas, use the **Show protot
 
 ![Show/hide prototyping](public/tool-showproto.png)
 
-For more information about prototyping in Lunacy, click <a href="https://docs.icons8.com/prototyping" target="_blank">here</a>.
+For more information about prototyping in Lunacy, click <a href="https://docs.icons8.com/lunacy-docs/prototyping" target="_blank">here</a>.
 
 
 ## Slice tool
@@ -553,7 +553,7 @@ To hide/show slices on the canvas, use the **Show slices** button on the top bar
 
 To remove a slice from the canvas, select it and press`Del`.
 
-For more information about export in Lunacy, click <a href="https://docs.icons8.com/export" target="_blank">here</a>.
+For more information about export in Lunacy, click <a href="https://docs.icons8.com/lunacy-docs/export" target="_blank">here</a>.
 
 ## Eyedropper tool
 
@@ -615,6 +615,6 @@ For your convenience, when the zoom value exceeds 500, Lunacy starts displaying 
 1. Through the menu (**View** > **Pixel grid**).
 2. Deselect all objects on the canvas and clear the **Show pixel grid** checkbox that will appear in the Inspector.
 
-For information about other zooming options in Lunacy, read <a href="https://docs.icons8.com/interface/#zooming-options" target="_blank">here</a>.
+For information about other zooming options in Lunacy, read <a href="https://docs.icons8.com/lunacy-docs/interface/#zooming-options" target="_blank">here</a>.
 
 -->

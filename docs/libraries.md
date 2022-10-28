@@ -90,13 +90,13 @@ Like with [photos](#photos-and-masked-photos), when working with illustrations y
 ## [UI kits](#ui-kits)
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> To better understand the intent and how to use UI kits, we recommend that you first read the <a href="https://docs.icons8.com/components" target="_blank">Components</a> and <a href="https://docs.icons8.com/layerstyles" target="_blank">Layer and text styles</a> sections of our documentation.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p><strong>Tip:</strong> To better understand the intent and how to use UI kits, we recommend that you first read the <a href="https://docs.icons8.com/lunacy-docs/components" target="_blank">Components</a> and <a href="https://docs.icons8.com/lunacy-docs/layerstyles" target="_blank">Layer and text styles</a> sections of our documentation.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 <!--
 
->**Tip:** To better understand the intent and how to use UI kits, we recommend that you first read the <a href="https://docs.icons8.com/components" target="_blank">Components</a> and <a href="https://docs.icons8.com/layerstyles" target="_blank">Layer and text styles</a> sections of our documentation.
+>**Tip:** To better understand the intent and how to use UI kits, we recommend that you first read the <a href="https://docs.icons8.com/lunacy-docs/components" target="_blank">Components</a> and <a href="https://docs.icons8.com/lunacy-docs/layerstyles" target="_blank">Layer and text styles</a> sections of our documentation.
 
 -->
 
@@ -113,11 +113,11 @@ Lunacy library includes the following UI kits:
 * Apple iOS
 * Microsoft Web Fluent
 
-In fact, UI kits are external .sketch files with ready-made <a href="https://docs.icons8.com/components" target="_blank">components</a>, <a href="https://docs.icons8.com/layerstyles/#layer-styles" target="_blank">layer styles</a> and <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
+In fact, UI kits are external .sketch files with ready-made <a href="https://docs.icons8.com/lunacy-docs/components" target="_blank">components</a>, <a href="https://docs.icons8.com/lunacy-docs/layerstyles/#layer-styles" target="_blank">layer styles</a> and <a href="https://docs.icons8.com/lunacy-docs/layerstyles/#text-styles" target="_blank">text styles</a>.
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> If you're working with a large document and feel that your computer is slow, you can disable the UI kits that you don't currently need. This will spare some system resources. You can always enable UI kits later.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 <!--
@@ -186,5 +186,5 @@ On the **Layers** tab, items from a UI kit library appear with the link icon in 
 
 #### Layer and text styles
 
-For more information on how to use layer and text styles from UI kits, read <a href="https://docs.icons8.com/layerstyles/#external-styles" target="_blank">here</a>.
+For more information on how to use layer and text styles from UI kits, read <a href="https://docs.icons8.com/lunacy-docs/layerstyles/#external-styles" target="_blank">here</a>.
 

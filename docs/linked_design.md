@@ -32,7 +32,7 @@ You can control the appearance of web pages right from Lunacy. The feature that 
 * Layer sizes
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> This feature is available only in <a href="https://docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>.</p>
+    <p><strong>Note:</strong> This feature is available only in <a href="https://docs.icons8.com/lunacy-docs/clouddocs/" target="_blank">cloud documents</a>.</p>
 </div>
 
 To learn more about the benefits of linked design and possible use cases, check out <a href="https://blog.icons8.com/articles/editing-live-web-pages-from-a-graphic-app-is-no-longer-a-dream/" target="_blank">this article</a>. 
@@ -70,7 +70,7 @@ Here's also a short video explainer:
 
 To make sure that your linked design works properly, mind the following rules:
 
-* The use of <a href="https://docs.icons8.com/layerstyles/" target="_blank">text styles</a> is a MUST.
+* The use of <a href="https://docs.icons8.com/lunacy-docs/layerstyles/" target="_blank">text styles</a> is a MUST.
 * Raster images subject to updates MUST belong to layer groups. It does not matter if you put all your raster images into a single group or combine them with vector layers in a more logical way. Just remember that *standalone rasters won't update*. If you're not going to update an image, you can leave it ungrouped.
 * DO NOT rename layer and text styles after the design is online. These names are used in the CSS code, so if you modify them, you'll break the links with the current code.
 * For the same reason, DO NOT add new styles, if you don't won't to bother your web developers. Edit your current styles instead.

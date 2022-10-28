@@ -35,7 +35,7 @@ The figure below shows the location of text-related controls in the Lunacy inter
 1. The **Text** section. Appears in the Inspector when a text layer is selected. Features all the [settings](#text-settings) that you might need when working with text.
 2. The **Text** menu. Includes all the settings available in the **Text** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu and lets you [convert text to vector shapes](#converting-text-to-vector-shapes).
 3. The **Edit Layer** button. The button appears when you select a text layer. Click this button to start editing the text. Alternatively, just press `Enter`.
-4. In the **Appearance** section you deal with <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable text styles</a>.
+4. In the **Appearance** section you deal with <a href="https://docs.icons8.com/lunacy-docs/layerstyles/#text-styles" target="_blank">reusable text styles</a>.
 5. The **Generate text** button. A click over the button generates a random text. A click over the down arrowhead next to the button invokes the [menu with text generation options](#text-generation-and-text-snippets).
 6. The **Advanced options** button. Opens a [panel](#advanced-text-options) with such text options as letter case, numbered and bulleted lists, etc.
 
@@ -171,7 +171,7 @@ Also, you can use standard text editor shortcuts:
 
 ### Font color picker
 
-This control is a standard <a href="https://docs.icons8.com/styling/#color-picker" target="_blank">color picker</a> that lets you choose the required color:
+This control is a standard <a href="https://docs.icons8.com/lunacy-docs/styling/#color-picker" target="_blank">color picker</a> that lets you choose the required color:
 
 1. From the color field.
 2. From preset colors.
@@ -186,7 +186,7 @@ Use this control to define the required font size in pixels. You can do it by:
 
 * Selecting the required size from the list.
 * Entering the required value in the edit field.
-* Using the <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">mouse wheel</a>.
+* Using the <a href="https://docs.icons8.com/lunacy-docs/interface/#tips-on-working-with-the-inspector" target="_blank">mouse wheel</a>.
 * Using the `Ctrl + Alt + "+"`/`⌥ ⌘ +` (increase) and `Ctrl + Alt + "-"`/`⌥ ⌘ -` (decrease) shortcuts.
 
 
@@ -233,7 +233,7 @@ In the latter case:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/text-magnetsph.png" height="auto"><source src="/lunacy-docs/public/text-spacing.mp4" type="video/mp4"></video>
 
-**See also:** <a href="https://docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">Tips on working with the Inspector</a>.
+**See also:** <a href="https://docs.icons8.com/lunacy-docs/interface/#tips-on-working-with-the-inspector" target="_blank">Tips on working with the Inspector</a>.
 
 <!--
 
@@ -310,13 +310,13 @@ All these settings appear in the Inspector, below the **Text** section.
 
 ![Common layer settings](public/text-allsettings.png).
 
-Combinations of layer styling effects and text settings make up text styles. You can save text styles to the document assets and <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">reuse</a> them across your project. Also,you can find your recent text styles on the floating panel (see below).
+Combinations of layer styling effects and text settings make up text styles. You can save text styles to the document assets and <a href="https://docs.icons8.com/lunacy-docs/layerstyles/#text-styles" target="_blank">reuse</a> them across your project. Also,you can find your recent text styles on the floating panel (see below).
 
 >**Note:** When you edit a text whose style includes both text and common layer settings, Lunacy hides layer styling effects and shows them back once you exit the edit mode. This is for the ease of editing heavily styled texts (see the gif below).
 
 ![Hiding common layer effects](public/text-effectsno.gif)
 
-More about <a href="https://docs.icons8.com/styling/" target="_blank">styling properties</a>.
+More about <a href="https://docs.icons8.com/lunacy-docs/styling/" target="_blank">styling properties</a>.
 
 <!--
 ## [Suggestions panel](#suggestions-panel)

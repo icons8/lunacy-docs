@@ -77,7 +77,7 @@ Lunacy was created as an editor of .sketch files for Windows and keeps heading t
 
 ### Can I change the radius of a certain corner in a shape?
 
-Thank you. That is one of our favorite questions. Check out the demos <a href="https://docs.icons8.com/editing/#adjusting-the-corner-radius-setting-for-rectangles" target="_blank">here</a>, <a href="https://docs.icons8.com/editing/#vector-editing" target="_blank">here</a> and <a href="https://community.icons8.com/uploads/default/original/1X/718c05c97ebb1fdbd09cd4e9579178e65f2e8afc.mp4" target="_blank">here</a>.
+Thank you. That is one of our favorite questions. Check out the demos <a href="https://docs.icons8.com/lunacy-docs/editing/#adjusting-the-corner-radius-setting-for-rectangles" target="_blank">here</a>, <a href="https://docs.icons8.com/lunacy-docs/editing/#vector-editing" target="_blank">here</a> and <a href="https://community.icons8.com/uploads/default/original/1X/718c05c97ebb1fdbd09cd4e9579178e65f2e8afc.mp4" target="_blank">here</a>.
 
 ### I'm new to Lunacy. Where I can learn how to get started?
 
@@ -85,12 +85,12 @@ You can:
 
 * Take an interactive tutorial (in Lunacy, go to **Help > Tutorial**)
 * Check out <a href="https://icons8.com/articles/tag/lunacy/" target="_blank"> step-by-step tutorials</a> in our blog 
-* Read our <a href="https://docs.icons8.com/" target="_blank">docs</a>
+* Read our <a href="https://docs.icons8.com/lunacy-docs/" target="_blank">docs</a>
 * Subscribe to our <a href="https://www.youtube.com/channel/UCIp9WVc3HlNF3TGqGvuDsnQ/videos" target="_blank">Youtube channel</a>
 
 ### Do I need internet connection to use Lunacy?
 
-If you are not going to use the content of our <a href="https://docs.icons8.com/libraries" target="_blank">Libraries</a>, Lunacy doesn’t need to be connected to the internet.
+If you are not going to use the content of our <a href="https://docs.icons8.com/lunacy-docs/libraries" target="_blank">Libraries</a>, Lunacy doesn’t need to be connected to the internet.
 
 Also, without an internet connection you won't be able with cloud-based files. But you can work with local files that you keep on your computer.
 
@@ -117,7 +117,7 @@ To prevent corruption of the main file, Lunacy first saves changes to the tempor
 ### How can I downgrade Lunacy to one of the previous versions?
 
 1. Uninstall the current version of Lunacy.
-2. Download the required version and install it. The full list of versions with links to installers is <a href="https://docs.icons8.com/release-notes/" target="_blank">here</a>.
+2. Download the required version and install it. The full list of versions with links to installers is <a href="https://docs.icons8.com/lunacy-docs/release-notes/" target="_blank">here</a>.
 
 
 ### Lunacy is slow. How can I fix it?
@@ -132,7 +132,7 @@ The most common reason for Lunacy getting slow are:
     *Workaround:* Avoid excessive usage of shadows and blurs.
 * Too many content-heavy artboards on a single page.
 
-   *Workaround:* Try to move a part of artboards to another <a href="https://docs.icons8.com/interface/#document-pages" target="_blank">document page</a>.
+   *Workaround:* Try to move a part of artboards to another <a href="https://docs.icons8.com/lunacy-docs/interface/#document-pages" target="_blank">document page</a>.
 * Large amount of text converted to outlines.
 
    *Workaround:* Avoid converting large blocks of text (sentences or paragraphs) to outlines.
@@ -278,7 +278,7 @@ The Windows Store version updates silently. If not, check that you [have](https:
 
 If you installed Lunacy with a downloadable installer, it will notify you about the update with an alert in the window title.
 
-Either way, you can check out our [release notes](https://docs.icons8.com/release-notes/).
+Either way, you can check out our [release notes](https://docs.icons8.com/lunacy-docs/release-notes/).
 
 
 -->

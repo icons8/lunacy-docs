@@ -269,7 +269,7 @@ How it works with the free plan:
 * You should use projects to organize team documents. Think of projects as of folders. All the documents within team projects automatically become available to the team members.
 * The total number of documents across all projects of a free team cannot exceed ten.
 
-For details, about teams read <a href="https://docs.icons8.com/teams/" target="_blank">here</a>.
+For details, about teams read <a href="https://docs.icons8.com/lunacy-docs/teams/" target="_blank">here</a>.
 
 Note that you can still share cloud documents with other users as you did it earlier, before we introduced teams.
 
@@ -703,7 +703,7 @@ Big thanks to Sargis_k for helping us out with the Armenian localization.
 ![Lunacy cloud](/lunacy-docs/public/rn70-armen.png)
 
 
-If you also want to take part in Lunacy localization, click <a href="https://docs.icons8.com/localization/" target="_blank">here</a>.
+If you also want to take part in Lunacy localization, click <a href="https://docs.icons8.com/lunacy-docs/localization/" target="_blank">here</a>.
 
 
 ### Improvements
@@ -917,7 +917,7 @@ Moreover, we added the support for scrollable artboards in prototypes.
 To run the prototype previewer, select an artboard you want to start with and click the Play button in the upper-right corner of the interface. A new window will open next to Lunacy.
 
 Also, you can instantly upload your prototypes to our Cloud and share them with other people. Just click the chain link button at the top of the preview window and send the link to your teammate or customer. 
-For details, click <a href="https://docs.icons8.com/prototyping/" target="_blank">here</a>.
+For details, click <a href="https://docs.icons8.com/lunacy-docs/prototyping/" target="_blank">here</a>.
 
 #### Avatar tool
 
@@ -1136,7 +1136,7 @@ Now you can also write and run you own scripts directly in Lunacy and save them 
 
 If you've written a plugin of your own and want to share it with other users, you can email us a link to the project GitHub page at lunacy@icons8.com.
 
-For details about working with plugins in Lunacy, read <a href="https://docs.icons8.com/plugins/" target="_blank">here</a>.
+For details about working with plugins in Lunacy, read <a href="https://docs.icons8.com/lunacy-docs/plugins/" target="_blank">here</a>.
 
 #### Tint Overrides
 
@@ -1148,7 +1148,7 @@ When you apply an override, the reset button appears in the **Tint** section of 
 
 ![Reset overrides button](/lunacy-docs/public/reset-overridetint.png)
 
-For details and a demo, click <a href="https://docs.icons8.com/styling/#tint-overrides" target="_blank">here</a>.
+For details and a demo, click <a href="https://docs.icons8.com/lunacy-docs/styling/#tint-overrides" target="_blank">here</a>.
 
 #### Snap to spacing
 
@@ -1203,7 +1203,7 @@ The figure below shows views of suggestions panel for a shape and a text.
 
 ![Suggestions panels](/lunacy-docs/public/rn-suggpanels.png)
 
-For details about using the panels, read <a href="https://docs.icons8.com/styling/#suggestions-panel" target="_blank">here</a> and <a href="https://docs.icons8.com/text/#suggestions-panel" target="_blank">here</a>.
+For details about using the panels, read <a href="https://docs.icons8.com/lunacy-docs/styling/#suggestions-panel" target="_blank">here</a> and <a href="https://docs.icons8.com/lunacy-docs/text/#suggestions-panel" target="_blank">here</a>.
 
 #### Tints
 Tints are a quick and easy way to apply a color to grouped objects and symbol instances. They are particularly useful when you need to adjust the color of a semi-filled object or a complex icon.
@@ -1234,7 +1234,7 @@ When you select a control added with any of these tools, you see the suggestions
 
 ![GUI tools](/lunacy-docs/public/rn5_9-guitools3.png)
 
-To edit the appearance of a control, use the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">symbol editor</a>.
+To edit the appearance of a control, use the <a href="https://docs.icons8.com/lunacy-docs/components/#editing-main-components" target="_blank">symbol editor</a>.
 
 #### Symbol tool
 
@@ -1290,13 +1290,13 @@ You no longer need to switch to the Symbols page to edit masters.  Just select a
 
 ![Edit symbol button](/lunacy-docs/public/rn5_8-symboleditorbtn.png)
 
-For details and a demo, click <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">here</a>.
+For details and a demo, click <a href="https://docs.icons8.com/lunacy-docs/components/#editing-main-components" target="_blank">here</a>.
 
 #### Smart distribute
 
 Now you can quickly arrange multiple objects into nice grids with equal spacing between rows and columns.
 
-For this, select the objects and click the **Tidy up** button in the Inspector. Then drag the red handles that will appear between the "rows" and "columns". Click the red circle in the center of an object and drag to move it to another grid "cell". For details and a demo, click <a href="https://docs.icons8.com/objects/#smart-distribute" target="_blank">here</a>.
+For this, select the objects and click the **Tidy up** button in the Inspector. Then drag the red handles that will appear between the "rows" and "columns". Click the red circle in the center of an object and drag to move it to another grid "cell". For details and a demo, click <a href="https://docs.icons8.com/lunacy-docs/objects/#smart-distribute" target="_blank">here</a>.
 
 ![Smart distribute](/lunacy-docs/public/objects-smartdistribph.png)
 
@@ -1969,7 +1969,7 @@ Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkk
 - Added update font weights when changing font family
 - Added the ability to apply shortcuts to text without entering edit mode
 - Improved the use of styles in the text on shortcuts Ctrl+B, Ctrl+I
-- [Added new shortcuts for text](http://docs.icons8.com/shortcuts/#text-editing)
+- [Added new shortcuts for text](http://docs.icons8.com/lunacy-docs/shortcuts/#text-editing)
 - Display CSS for several selected objects
 - The ability to apply Paragraph spacing to the selected paragraph in the text
 - While adding objects if an element inside group is selected, new object is created inside the same group
@@ -2113,7 +2113,7 @@ Languages:
 — French  
 — Russian  
 — Ukrainian    
-**[Help us improve the translation of Lunacy for other languages](http://docs.icons8.com/localization/)**  
+**[Help us improve the translation of Lunacy for other languages](http://docs.icons8.com/lunacy-docs/localization/)**  
 ### Improvements
 - Added **Return to Instance** symbol button 
 - Added functionality to change and delete symbols from symbols panel
@@ -2280,7 +2280,7 @@ Download from the [Windows Store](https://www.microsoft.com/store/apps/9pnlmkkpc
 
 ![Vector tool](Images/VectorTool.png)
 
-- [Help!](https://docs.icons8.com) 
+- [Help!](https://docs.icons8.com/lunacy-docs) 
 - Symbols: we’ve just started to provide the basic functionality for saving symbols in output files! Expect the extended set of operations with symbols in the upcoming releases.
 - Added functionality to add, delete, and rename pages.
 - Added vertical alignment for text
