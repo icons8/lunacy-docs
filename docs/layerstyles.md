@@ -43,7 +43,7 @@ They appear in the Inspector when you select a layer.
 
 ![Layer properties](public/properties_new1.png)
 
-For details on styling properties, refer to the <a href="https://docs.icons8.com/styling" target="_blank">Styling</a> section of our documentation.
+For details on styling properties, refer to the <a href="https://docs.icons8.com/lunacy-docs/styling" target="_blank">Styling</a> section of our documentation.
 
 ### Adding a layer style
 
@@ -180,11 +180,11 @@ The only difference between text styles and [layer styles](#layer-styles)  is th
 
 ![Text styles](public/layerstyles-text.png)
 
-See also the <a href="https://docs.icons8.com/text/" target="_blank">Text</a> section for tips on working with text layers.
+See also the <a href="https://docs.icons8.com/lunacy-docs/text/" target="_blank">Text</a> section for tips on working with text layers.
 
 ## External styles
 
-You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the **UI Kits** library. For details about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
+You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the **UI Kits** library. For details about UI kits, click <a href="https://docs.icons8.com/lunacy-docs/libraries/#ui-kits" target="_blank">here</a>.
 
 To apply an external style to a layer:
 

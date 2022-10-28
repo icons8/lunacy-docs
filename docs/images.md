@@ -29,8 +29,8 @@ This chapter details how to work with raster images. Lunacy supports all the pop
 
 You can:
 
-* Add photos from the Lunacy <a href="https://docs.icons8.com/libraries/#photos-and-masked-photos" target="_blank">library</a>.
-* Use the <a href="https://docs.icons8.com/tools/#image-tool" target="_blank">Image tool</a> to add images from your computer.
+* Add photos from the Lunacy <a href="https://docs.icons8.com/lunacy-docs/libraries/#photos-and-masked-photos" target="_blank">library</a>.
+* Use the <a href="https://docs.icons8.com/lunacy-docs/tools/#image-tool" target="_blank">Image tool</a> to add images from your computer.
 * Copy image files from your desktop or the Explorer and then paste them onto the canvas.
 * Drag image files from your desktop or the Explorer and then drop them onto the canvas.
 * Import images from the internet.
@@ -90,7 +90,7 @@ There are two ways to replace images.
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> You can also use this method, when you need to replace your current image with an image from the internet. In such a case, just paste the URL of the new image into the <b>File name</b> field of the <b>Open</b> dialog box and click <b>Open</b>.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 
@@ -107,7 +107,7 @@ There are two ways to replace images.
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> If the green mask does not appear, try to zoom in a bit.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 <!--
@@ -143,8 +143,8 @@ To cut out a part of an image:
 
         ![Scissors tool](public/images-scissorsdemo.png)
 
-    * ![Freehand lasso tool](public/images-lassofreehand.png) - **Freeform Lasso**. Enables you to make freeform selections. Works similarly to the <a href="https://docs.icons8.com/tools/#pencil-tool" target="_blank">Pencil tool</a>. To close the selection border, just release the mouse button.
-    * ![Polygonal lasso tool](public/images-lassopolygon.png) - **Polygon Lasso**. Enables you to make straight-edged selections. Works similarly to the <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">Pen tool</a>. To disable snapping while drawing a selection border, hold down `Ctrl`.
+    * ![Freehand lasso tool](public/images-lassofreehand.png) - **Freeform Lasso**. Enables you to make freeform selections. Works similarly to the <a href="https://docs.icons8.com/lunacy-docs/tools/#pencil-tool" target="_blank">Pencil tool</a>. To close the selection border, just release the mouse button.
+    * ![Polygonal lasso tool](public/images-lassopolygon.png) - **Polygon Lasso**. Enables you to make straight-edged selections. Works similarly to the <a href="https://docs.icons8.com/lunacy-docs/tools/#pen-tool" target="_blank">Pen tool</a>. To disable snapping while drawing a selection border, hold down `Ctrl`.
 
 4. Select the area you want to cut out.
 5. Press `Delete` or move the selection to where you want it. In the latter case, Lunacy creates a vector shape with an image fill that corresponds to your selection. Also, Lunacy automatically fills the emptied area with the color prevailing along the selection border.

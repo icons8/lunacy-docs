@@ -36,13 +36,13 @@ The interface consists of the following main elements.
 1. The content tabs. Use them to switch between the:
 
     * Layer list
-    * Document assets (<a href="https://docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://docs.icons8.com/layerstyles/" target="_blank">styles</a>)
-    * Built-in Lunacy <a href="https://docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>
+    * Document assets (<a href="https://docs.icons8.com/lunacy-docs/components" target="_blank">components</a>, layer and text <a href="https://docs.icons8.com/lunacy-docs/layerstyles/" target="_blank">styles</a>)
+    * Built-in Lunacy <a href="https://docs.icons8.com/lunacy-docs/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://docs.icons8.com/lunacy-docs/libraries/#ui-kits" target="_blank">UI kits</a>
 
-    <!-- and <a href="https://docs.icons8.com/plugins" target="_blank">plugins</a> 
+    <!-- and <a href="https://docs.icons8.com/lunacy-docs/plugins" target="_blank">plugins</a> 
     -->
 
-    * List of <a href="https://docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
+    * List of <a href="https://docs.icons8.com/lunacy-docs/shortcuts" target="_blank">shortcuts</a>
   
     To shrink the size of the content tabs panel, drag its right border to the left.
 
@@ -50,13 +50,13 @@ The interface consists of the following main elements.
 
 2. The left panel. Displays the content of the selected tab (1). You can temporarily hide the panel by clicking the current tab, using respective shortcuts (`Alt+1`(`⌥ 1`)...`Alt+8`(`⌥ 8`), `Shift+F1`) or through the menu (**View** > **Left Panel**).
 
-3. The **toolbar**. Features all the primary Lunacy tools. For details about tools, click <a href="https://docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer shortcuts you can toggle off the display of the toolbar through the menu (**View** > **Toolbar**).
+3. The **toolbar**. Features all the primary Lunacy tools. For details about tools, click <a href="https://docs.icons8.com/lunacy-docs/tools/" target="_blank">here</a>. If you need more space or prefer shortcuts you can toggle off the display of the toolbar through the menu (**View** > **Toolbar**).
 4. The **canvas**. That is your working area. For details, read [below](#the-canvas).
 5. The **Inspector** panel. Lets you see and adjust the properties of the selected layer. The view of the Properties Inspector varies with the type of the selected layer. For details, read [below](#the-inspector).
 6. The **menu bar**. Holds the options and commands related to files, layers, editing, etc. Also, it features the **Home** button that opens the **Home** tab.
 7. The **context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected layer. Hover the cursor over a tool icon to see a pop-up explaining what the tool does.
 8. The **file tabs panel**. Shows the tabs of currently open files. To switch between the files, just click the respective tab.
-9. The **Play** button. Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://docs.icons8.com/prototyping" target="_blank">here</a>.
+9. The **Play** button. Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://docs.icons8.com/lunacy-docs/prototyping" target="_blank">here</a>.
 10. This button opens a menu with options described in the table below.
     
     <table>
@@ -70,27 +70,27 @@ The interface consists of the following main elements.
     <tbody>
         <tr>
         <td><img src="/lunacy-docs/public/interface-rulerbtn.png" alt="Show/Hide rulers button"></td>
-        <td> The <b>Show/Hide rulers</b> button. Controls the display of rulers. For details, read <a href="https://docs.icons8.com/interface/#rulers-and-guides">below</a>.</td>
+        <td> The <b>Show/Hide rulers</b> button. Controls the display of rulers. For details, read <a href="https://docs.icons8.com/lunacy-docs/interface/#rulers-and-guides">below</a>.</td>
         <td><code>Ctrl+R</code> (<code>⌘ R</code>)</td>
         </tr>
         <tr>
         <td><img src="/lunacy-docs/public/interface-layoutbtn.png" alt="Show/Hide layout button"></td>
-        <td>The <b>Layout</b> button. Controls the display of the layout grid. Available only when there is an artboard on the canvas. For details, read <a href="https://docs.icons8.com/interface/#layout-grid">here</a>.</td>
+        <td>The <b>Layout</b> button. Controls the display of the layout grid. Available only when there is an artboard on the canvas. For details, read <a href="https://docs.icons8.com/lunacy-docs/interface/#layout-grid">here</a>.</td>
         <td><code>Ctrl+\</code> (<code>⌃ G</code>)</td>
         </tr>
         <tr>
         <td><img src="/lunacy-docs/public/interface-prototbtn.png" alt="Show prototyping button"></td>
-        <td>The <b>Show prototyping</b> button. Controls the display of <a href="https://docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a> and prototyping arrows.</td>
+        <td>The <b>Show prototyping</b> button. Controls the display of <a href="https://docs.icons8.com/lunacy-docs/tools/#hotspot-tool" target="_blank">hotspots</a> and prototyping arrows.</td>
         <td><b>View > Prototyping</b></td>
         </tr>
         <tr>
         <td><img src="/lunacy-docs/public/interface-pixelbtn.png" alt="Show pixels on zoom button"></td>
-        <td>The <b>Show pixels on zoom</b> button. Enables the display of pixels when the zoom value exceeds 100. For details, read  <a href="https://docs.icons8.com/interface/#show-pixels-on-zoom">here</a>.</td>
+        <td>The <b>Show pixels on zoom</b> button. Enables the display of pixels when the zoom value exceeds 100. For details, read  <a href="https://docs.icons8.com/lunacy-docs/interface/#show-pixels-on-zoom">here</a>.</td>
         <td><b>View > Pixels on Zoom</b></td>
         </tr>
         <tr>
         <td><img src="/lunacy-docs/public/interface-gridbtn.png" alt="Show grid button"></td>
-        <td>The <b>Show grid</b> button. Enables the display of the square grid. For details, read <a href="https://docs.icons8.com/interface/#square-grid">here</a>.</td>
+        <td>The <b>Show grid</b> button. Enables the display of the square grid. For details, read <a href="https://docs.icons8.com/lunacy-docs/interface/#square-grid">here</a>.</td>
         <td><code>Ctrl+'</code> (<code>⌘ '</code>)</td>
         </tr>
         <tr>
@@ -100,7 +100,7 @@ The interface consists of the following main elements.
         </tr>
         <tr>
         <td><img src="/lunacy-docs/public/interface-misfontbtn.png" alt="Missing fonts button"></td>
-        <td>The <b>Missing fonts</b> button. Appears when the file you are working with includes fonts not installed on your computer. For details, read <a href="https://docs.icons8.com/text/#missing-fonts" target="_blank">here</a>.</td>
+        <td>The <b>Missing fonts</b> button. Appears when the file you are working with includes fonts not installed on your computer. For details, read <a href="https://docs.icons8.com/lunacy-docs/text/#missing-fonts" target="_blank">here</a>.</td>
         <td><code>-</code></td>
         </tr>
         <tr>
@@ -143,7 +143,7 @@ The rest of the operations are accessible through the context menu invoked by a 
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/interface-pagesplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-pages65.mp4" type="video/mp4"></video>
 
-There is also a special type of a page - the Components page. For details, read <a href="https://docs.icons8.com/components/#components-page" target="_blank">here</a>.
+There is also a special type of a page - the Components page. For details, read <a href="https://docs.icons8.com/lunacy-docs/components/#components-page" target="_blank">here</a>.
 
 ## Layer list
 
@@ -175,7 +175,7 @@ To collapse all branches in the Layer List tree use the `Ctrl + ~` shortcut.
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> Some projects, such as design systems, can house hundreds of layers on a single page. To quickly locate the required layer on the canvas, find it by typing its name in the search field, select it in the layers list and then press <code style="background: white">Ctrl + 2</code> (Fit to selection).</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 <!--
@@ -201,7 +201,7 @@ Also, read about the [zooming options](#zooming-options).
 
 ### [Artboards](#artboards)
 
-Artboards are a special type of layers that lets you  divide the canvas into separate areas with different content. Artboards are optional but they come in handy when you’re designing for a certain screen size or device. To create an artboard, use the <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboard tool</a>. In fact, it is the tool that Lunacy enables first when you create a new document. It allows you to create a custom size artboard or to select an option from the list that will appear on the right. This list features presets for popular devices, screen resolutions and social media templates (you can also add your custom presets to this list, see [below](#adding-custom-presets)).
+Artboards are a special type of layers that lets you  divide the canvas into separate areas with different content. Artboards are optional but they come in handy when you’re designing for a certain screen size or device. To create an artboard, use the <a href="https://docs.icons8.com/lunacy-docs/tools/#artboard-tool" target="_blank">artboard tool</a>. In fact, it is the tool that Lunacy enables first when you create a new document. It allows you to create a custom size artboard or to select an option from the list that will appear on the right. This list features presets for popular devices, screen resolutions and social media templates (you can also add your custom presets to this list, see [below](#adding-custom-presets)).
 
 To add an artboard:
 
@@ -246,11 +246,11 @@ The table below provides a description of Inspector elements displayed for artbo
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/interface-artbinspector5.png" alt="Layout grid settings"></td>
-      <td><b>Layout grid settings</b><p>This group of controls allows you to configure the settings of the layout grid. For details about layout grids, read <a href="https://docs.icons8.com/interface/#layout-grid">here</a>.</p></td>
+      <td><b>Layout grid settings</b><p>This group of controls allows you to configure the settings of the layout grid. For details about layout grids, read <a href="https://docs.icons8.com/lunacy-docs/interface/#layout-grid">here</a>.</p></td>
     </tr>
     <tr>
       <td><img src="/lunacy-docs/public/interface-artbinspector6.png" alt="Export controls"></td>
-      <td><b>Export controls</b><p>Allow you to export the artboard and its content. For details about export in Lunacy, click <a href="https://docs.icons8.com/export" target="_blank">here</a>.</p></td>
+      <td><b>Export controls</b><p>Allow you to export the artboard and its content. For details about export in Lunacy, click <a href="https://docs.icons8.com/lunacy-docs/export" target="_blank">here</a>.</p></td>
     </tr>
   </tbody>
 </table>
@@ -457,7 +457,7 @@ The above options are also accessible through the **View** menu, see the figure 
 
 <!--
 
-Also, for zooming and focusing you can use the <a href="https://docs.icons8.com/tools/#zoom-tool" target="_blank">zoom tool</a>.
+Also, for zooming and focusing you can use the <a href="https://docs.icons8.com/lunacy-docs/tools/#zoom-tool" target="_blank">zoom tool</a>.
 
 -->
 
@@ -481,14 +481,14 @@ There are two ways to change the color of the canvas:
 **Way 2**
 
 1. Deselect all the layers on the canvas.
-2. Select the <a href="https://docs.icons8.com/tools/#eyedropper-tool" target="_blank">eyedropper tool</a>. 
+2. Select the <a href="https://docs.icons8.com/lunacy-docs/tools/#eyedropper-tool" target="_blank">eyedropper tool</a>. 
 3. Use the pallets that will appear in the left panel to select the new color.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/interface-canvascolorplaceholder.png" height="auto"><source src="/lunacy-docs/public/interface-canvascolor1356x730.mp4" type="video/mp4"></video>
 
 ## [The Inspector](#the-inspector)
 
-The Inspector is the panel that appears on the right of the Lunacy interface. When you create a new document, the first thing you see on the right is not yet the Inspector but the panel of presets of the <a href="https://docs.icons8.com/tools/#artboard-tool" target="_blank">artboard tool</a>. Lunacy enables it by default upon creation of a new document. And only you add an artboard or add and select another layer, the Property Inspector appears.
+The Inspector is the panel that appears on the right of the Lunacy interface. When you create a new document, the first thing you see on the right is not yet the Inspector but the panel of presets of the <a href="https://docs.icons8.com/lunacy-docs/tools/#artboard-tool" target="_blank">artboard tool</a>. Lunacy enables it by default upon creation of a new document. And only you add an artboard or add and select another layer, the Property Inspector appears.
 
 The set of controls and settings displayed in the Inspector varies with the type of layer that you select on the canvas. Below is a description of Inspector elements common for almost all layer types.
 
@@ -522,15 +522,15 @@ The set of controls and settings displayed in the Inspector varies with the type
         </tr>
         <tr>
         <td><img src="/lunacy-docs/public/interface-appear.png" alt="Appearance section"></td>
-        <td>The <b>Appearance</b> section allows you to apply <a href="https://docs.icons8.com/layerstyles" target="_blank">styles</a> to the selected layer.</td>
+        <td>The <b>Appearance</b> section allows you to apply <a href="https://docs.icons8.com/lunacy-docs/layerstyles" target="_blank">styles</a> to the selected layer.</td>
         </tr>
         <tr>
         <td><img src="/lunacy-docs/public/interface-stylingctrl.png" alt="Styling options"></td>
-        <td><b>Styling options</b>. For details, read <a href="https://docs.icons8.com/styling" target="_blank">here</a>.</td>
+        <td><b>Styling options</b>. For details, read <a href="https://docs.icons8.com/lunacy-docs/styling" target="_blank">here</a>.</td>
         </tr>
         <tr>
         <td><img src="/lunacy-docs/public/interface-exportctrl.png" alt="Export settings"></td>
-        <td><b>Export settings</b>. For details, read <a href="https://docs.icons8.com/export" target="_blank">here</a>.</td>
+        <td><b>Export settings</b>. For details, read <a href="https://docs.icons8.com/lunacy-docs/export" target="_blank">here</a>.</td>
         </tr>
     </tbody>
 </table>
@@ -539,7 +539,7 @@ When you select no layer on the canvas, the Inspector shows the following contro
 
 * **Workspace color**: Allows you to change the color of the canvas.
 * **Show pixel grid**: Toggles on/off the display of the pixel grid when the zoom value exceeds 500.
-* **Export project**: Allows you to export the whole project. For details, read <a href="https://docs.icons8.com/export" target="_blank">here</a>.
+* **Export project**: Allows you to export the whole project. For details, read <a href="https://docs.icons8.com/lunacy-docs/export" target="_blank">here</a>.
 
 <embed type="image/svg+xml" alt="Select no layer on the canvas" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/YJSPtecCHkq9Lh22lNc1sw.svg" />
 
@@ -590,7 +590,7 @@ The table below gives an overview of context menu commands and options common fo
       </tr>
       <tr>
         <td><b>Group Selection</b></td>
-        <td>Groups two or more selected layers together. For details about grouping layers, read <a href="https://docs.icons8.com/layers/#grouping-layers" target="_blank">here</a>.</td>
+        <td>Groups two or more selected layers together. For details about grouping layers, read <a href="https://docs.icons8.com/lunacy-docs/layers/#grouping-layers" target="_blank">here</a>.</td>
       </tr>
       <tr>
         <td><b>Ungroup</b></td>
@@ -598,11 +598,11 @@ The table below gives an overview of context menu commands and options common fo
       </tr>
       <tr>
         <td><b>Lock</b></td>
-        <td>Locks the layer from accidental edits. For details, read <a href="https://docs.icons8.com/interface/#layer-list">here</a>.</td>
+        <td>Locks the layer from accidental edits. For details, read <a href="https://docs.icons8.com/lunacy-docs/interface/#layer-list">here</a>.</td>
       </tr>
       <tr>
         <td><b>Hide</b></td>
-        <td>Temporarily hides the layer from the canvas. For details, read <a href="https://docs.icons8.com/interface/#layer-list">here</a>.</td>
+        <td>Temporarily hides the layer from the canvas. For details, read <a href="https://docs.icons8.com/lunacy-docs/interface/#layer-list">here</a>.</td>
       </tr>
       <tr>
         <td><b>Rename</b></td>
@@ -610,11 +610,11 @@ The table below gives an overview of context menu commands and options common fo
       </tr>
       <tr>
         <td><b>Copy/Paste</b></td>
-        <td>Opens a submenu with copying/pasting options. For details, read <a href="https://docs.icons8.com/layers/#copy-and-paste-options" target="_blank">here</a>.</td>
+        <td>Opens a submenu with copying/pasting options. For details, read <a href="https://docs.icons8.com/lunacy-docs/layers/#copy-and-paste-options" target="_blank">here</a>.</td>
       </tr>
       <tr>
         <td><b>Duplicate</b></td>
-        <td>Creates a duplicate of the selected layer. For details, read <a href="https://docs.icons8.com/layers/#duplicating-layers" target="_blank">here</a>.</td>
+        <td>Creates a duplicate of the selected layer. For details, read <a href="https://docs.icons8.com/lunacy-docs/layers/#duplicating-layers" target="_blank">here</a>.</td>
       </tr>
       <tr>
         <td><b>Delete</b></td>

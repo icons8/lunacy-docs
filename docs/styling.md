@@ -32,11 +32,11 @@ Styling options that you can apply to layers in Lunacy include:
 * Inner shadows
 * Blurs (Gaussian and background)
 
-They appear in the Inspector when you select layer. A combination of styling options applied to a layer is called a layer style. You can save layer styles for further use (read <a href="https://docs.icons8.com/layerstyles/" target="_blank">here</a> for details).
+They appear in the Inspector when you select layer. A combination of styling options applied to a layer is called a layer style. You can save layer styles for further use (read <a href="https://docs.icons8.com/lunacy-docs/layerstyles/" target="_blank">here</a> for details).
 
-You can apply styling options to all <a href="https://docs.icons8.com/layers/#introduction" target="_blank">types of layers</a>, except for technical ones (such as artboards, hotspots and slices). However, the only option applicable to group layers and components is the outer shadow.
+You can apply styling options to all <a href="https://docs.icons8.com/lunacy-docs/layers/#introduction" target="_blank">types of layers</a>, except for technical ones (such as artboards, hotspots and slices). However, the only option applicable to group layers and components is the outer shadow.
 
-In addition to the above, text layers feature typography settings, such as font, font size, line spacing, etc. Combined with the common styling options (or without them) they make up <a href="https://docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
+In addition to the above, text layers feature typography settings, such as font, font size, line spacing, etc. Combined with the common styling options (or without them) they make up <a href="https://docs.icons8.com/lunacy-docs/layerstyles/#text-styles" target="_blank">text styles</a>.
 
 The details about using each of the options you will find in the sections below. But first of all let us review some common things.
 
@@ -94,7 +94,7 @@ It features the following controls:
 
 1. Fill type buttons. Available on the fill and border color pickers only.
 2. Color selection box. That is where you will select colors.
-3. The eyedropper tool. For details about using it, read <a href="https://docs.icons8.com/tools/#eyedropper-tool" target="_blank">here</a>.
+3. The eyedropper tool. For details about using it, read <a href="https://docs.icons8.com/lunacy-docs/tools/#eyedropper-tool" target="_blank">here</a>.
 4. Color selection bar. Allows you to quickly navigate through colors.
 5. Opacity bar.
 6. The color code selector. Displays the code of the currently selected color:
@@ -237,8 +237,8 @@ To create an image fill:
 
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> You can also create an image fill by holding down <b>Ctrl</b> (<b>⌘</b>) and dropping an image from your desktop or from the Lunacy library on to the layer as shown in the demo below.</p> <p>As a matter of fact, what the <a href="https://docs.icons8.com/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p><strong>Tip:</strong> You can also create an image fill by holding down <b>Ctrl</b> (<b>⌘</b>) and dropping an image from your desktop or from the Lunacy library on to the layer as shown in the demo below.</p> <p>As a matter of fact, what the <a href="https://docs.icons8.com/lunacy-docs/tools/#avatar-tool" target="_blank">avatar tool</a> does is that it creates rounded rectangles with image fills, where images are random photos of people.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 
@@ -354,7 +354,7 @@ Tint overrides can be handy, for instance, when you are designing tabs or panels
 </div>
 
 
-The demo below shows three instances of the same component. We first applied a tint override to a nested element, then switched to the <a href="https://docs.icons8.com/components/#editing-main-components" target="_blank">component edit mode</a> and modified the default tint. In the latter case, the change applied only to the instances without the override.
+The demo below shows three instances of the same component. We first applied a tint override to a nested element, then switched to the <a href="https://docs.icons8.com/lunacy-docs/components/#editing-main-components" target="_blank">component edit mode</a> and modified the default tint. In the latter case, the change applied only to the instances without the override.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tintoverridesph3.png" height="auto"><source src="/lunacy-docs/public/tintoverrides3.mp4" type="video/mp4"></video>
 
@@ -362,7 +362,7 @@ When you apply an override, the reset button appears in the **Tint** section of 
 
 ![Reset overrides button](public/reset-overridetint2.png)
 
-For details about overrides, read <a href="https://docs.icons8.com/components/#overrides" target="_blank">here</a>.
+For details about overrides, read <a href="https://docs.icons8.com/lunacy-docs/components/#overrides" target="_blank">here</a>.
 
 
 <!--

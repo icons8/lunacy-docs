@@ -26,15 +26,15 @@ page_nav:
 ## Introduction
 
 
-If we put aside such specific <a href="https://docs.icons8.com/layers/#introduction" target="_blank">layer types</a> as artboards and hotspots, all layers in Lunacy that are not text or rasters are vector shapes.
+If we put aside such specific <a href="https://docs.icons8.com/lunacy-docs/layers/#introduction" target="_blank">layer types</a> as artboards and hotspots, all layers in Lunacy that are not text or rasters are vector shapes.
 
-Lunacy provides a set of pre-made shapes that you can add in no time using the <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">shape tools</a>. Also, you can make use of the <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">pen</a> and <a href="https://docs.icons8.com/tools/#pencil-tool" target="_blank">pencil</a> tools to create freehand shapes and paths. Among the latter two, we should pay special attention to the pen tool, which allows you to edit vector shapes, both pre-made and freehand.
+Lunacy provides a set of pre-made shapes that you can add in no time using the <a href="https://docs.icons8.com/lunacy-docs/tools/#shape-tools" target="_blank">shape tools</a>. Also, you can make use of the <a href="https://docs.icons8.com/lunacy-docs/tools/#pen-tool" target="_blank">pen</a> and <a href="https://docs.icons8.com/lunacy-docs/tools/#pencil-tool" target="_blank">pencil</a> tools to create freehand shapes and paths. Among the latter two, we should pay special attention to the pen tool, which allows you to edit vector shapes, both pre-made and freehand.
 
 Another important thing for working with shapes is Boolean operations that allow you to combine shapes of all kinds and create even more fancy shapes whose diversity depends only on your creativity.
 
-This section focuses on how to edit and transform vector shapes. For information about creating pre-made shapes, read <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">here</a> and <a href="https://docs.icons8.com/layers/#adding-layers" target="_blank">here</a>. For details about creating shapes with the pen tool, read <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">here</a>.
+This section focuses on how to edit and transform vector shapes. For information about creating pre-made shapes, read <a href="https://docs.icons8.com/lunacy-docs/tools/#shape-tools" target="_blank">here</a> and <a href="https://docs.icons8.com/lunacy-docs/layers/#adding-layers" target="_blank">here</a>. For details about creating shapes with the pen tool, read <a href="https://docs.icons8.com/lunacy-docs/tools/#pen-tool" target="_blank">here</a>.
 
-For information how to apply fills, borders, shadows and blurs, refer to the <a href="https://docs.icons8.com/styling" target="_blank">Styling</a> section.
+For information how to apply fills, borders, shadows and blurs, refer to the <a href="https://docs.icons8.com/lunacy-docs/styling" target="_blank">Styling</a> section.
 
 
 ## Transforming shapes through the Inspector
@@ -77,7 +77,7 @@ The figure below shows the difference between smooth (red) and round (blue) corn
 
 ## [Vector editing](#vector-editing)
 
-**Note**: Before you get down to reading this subsection, we recommend you get acquainted with <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">this</a> article first. It provides the basic information about the structure of vector layers, paths, point types and the usage of the Pen tool.
+**Note**: Before you get down to reading this subsection, we recommend you get acquainted with <a href="https://docs.icons8.com/lunacy-docs/tools/#pen-tool" target="_blank">this</a> article first. It provides the basic information about the structure of vector layers, paths, point types and the usage of the Pen tool.
 
 To enable the layer edit mode, select the shape and then do one of the following:
 
@@ -137,7 +137,7 @@ You can select individual shapes within the group through the Layer List or on t
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> There is no special button or menu option to disassemble a Boolean group. But you can do it by dragging shapes out of the group in the <b>Layers</b> list</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 <!--
@@ -196,4 +196,4 @@ For this:
 
 ![Rasterizing vector shapes](public/shapes-rasterize.png)
 
-See also <a href="https://docs.icons8.com/interface/#show-pixels-on-zoom" target="_blank">Show pixels on zoom</a>.
+See also <a href="https://docs.icons8.com/lunacy-docs/interface/#show-pixels-on-zoom" target="_blank">Show pixels on zoom</a>.

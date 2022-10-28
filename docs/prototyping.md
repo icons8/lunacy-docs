@@ -58,7 +58,7 @@ In a similar fashion you can link your artboards in the desired navigation seque
 
 ## Scrollable prototypes
 
-To create a scrollable prototype, you should select an artboard from Artboard Presets and resize it **vertically**. Alternatively, you can create a custom preset and then vertically resize it. For details, about artboards presets and custom presets, click <a href="https://docs.icons8.com/interface/#artboards" target="_blank">here</a>.
+To create a scrollable prototype, you should select an artboard from Artboard Presets and resize it **vertically**. Alternatively, you can create a custom preset and then vertically resize it. For details, about artboards presets and custom presets, click <a href="https://docs.icons8.com/lunacy-docs/interface/#artboards" target="_blank">here</a>.
 
 Resized artboards appear with the word *Resized* in the Inspector as shown in the figure below. Prototypes based on non-resized artboards won't scroll.
 
@@ -70,11 +70,11 @@ You can also use hotspots to create links between artboards. These are a special
 
 Also, hotspots come in handy when the size of an element that you want to make clickable or tappable is too small for convenient use. By adding a hotspot you can enlarge interactive area around the layer.
 
-Moreover, you can use hotspots as parts of <a href="https://docs.icons8.com/components/" target="_blank">components</a> and override their targets as needed.
+Moreover, you can use hotspots as parts of <a href="https://docs.icons8.com/lunacy-docs/components/" target="_blank">components</a> and override their targets as needed.
 
 To add a hotspot you can:
 
-* Use the <a href="https://docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspot tool</a>.
+* Use the <a href="https://docs.icons8.com/lunacy-docs/tools/#hotspot-tool" target="_blank">hotspot tool</a>.
 * Select a linked layer, then click ![Create hotspot icon](public/proto-hotspoticon.png) in the **Prototyping** section of the Inspector. This creates a hotspot of the same size as of the selection frame around the layer. You can resize it by dragging handles, if necessary.
 
 The demo below show both these methods.
@@ -141,6 +141,6 @@ All the above steps are shown in the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/proto-demoph.png" height="auto"><source src="/lunacy-docs/public/proto-demo1.mp4" type="video/mp4"></video>
 
-**Note:** When you upload your file to Sketch Cloud, you create a new independent file which *will not* synchronize with its parent that you store on your computer. So, make sure that you edit one and the same file. You can always download the Cloud file to you computer or upload a new version of the local copy to the Cloud. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/cloud/" target="_blank">here</a>.
+**Note:** When you upload your file to Sketch Cloud, you create a new independent file which *will not* synchronize with its parent that you store on your computer. So, make sure that you edit one and the same file. You can always download the Cloud file to you computer or upload a new version of the local copy to the Cloud. For details about working with Sketch Cloud from Lunacy, read <a href="https://docs.icons8.com/lunacy-docs/cloud/" target="_blank">here</a>.
 
 -->
