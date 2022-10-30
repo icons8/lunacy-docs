@@ -113,6 +113,9 @@ Instead, now when you click over the canvas to create a text block or delete eve
 
 <embed type="image/svg+xml" alt="Group 6" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/o0tRI9iMCkiPOMHZVd9jAg.svg" />
 
+<embed type="image/svg+xml" alt="Group 6" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/o0tRI9iMCkiPOMHZVd9jAg.svg" /> 
+
+
 
 Also, text blocks with auto-generated content, similarly to avatars, now come with a refresh icon above the upper-left corner. By clicking it you can choose the text that suits you best.
 
@@ -130,9 +133,7 @@ If you prefer drawing gray rectangles over gray rectangles, remove all the color
 
 Lunacy automatically determines the order of layers (aka z-index) as you drag them. For example, if you drag a larger layer over a smaller one, Lunacy will place the larger layer below the smaller one. You can still use the **Send to back**/**Send to front commands**, but now you will need them way less often.
 
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-autozaxisph.png" height="auto"><source src="/public/rn-autozaxis.mp4" type="video/mp4"></video>
-
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/rn-autozaxisph.png" height="auto"><source src="/lunacy-docs/public/rn-autozaxis.mp4" type="video/mp4"></video>
 
 ### Snapping to artboard presets
 
