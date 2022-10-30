@@ -42,11 +42,11 @@ page_nav:
 
 *Release date: October 30, 2022*
 
-Download:
+Download beta:
 
-* [EXE x64](https://lcdn.icons8.com/setup/beta/LunacySetup.exe), [EXE x32](https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe), [EXE ARM](https://lcdn.icons8.com/setup/beta/LunacySetup_arm64.exe)
-* [DMG](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
-* [DEB](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
+* [EXE x64 beta](https://lcdn.icons8.com/setup/beta/LunacySetup.exe), [EXE x32 beta](https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe), [EXE ARM beta](https://lcdn.icons8.com/setup/beta/LunacySetup_arm64.exe)
+* [DMG beta](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
+* [DEB beta](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
 
 ### Import from Figma
 
