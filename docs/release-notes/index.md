@@ -44,9 +44,9 @@ page_nav:
 
 Download:
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_8.7.2.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_8.7.2.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_8.7.2.deb)
+* [EXE x64](https://lcdn.icons8.com/setup/beta/LunacySetup.exe), [EXE x32](https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe), [EXE ARM](https://lcdn.icons8.com/setup/beta/LunacySetup_arm64.exe)
+* [DMG](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
+* [DEB](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
 
 ### Import from Figma
 
