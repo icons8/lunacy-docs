@@ -110,6 +110,7 @@ For this:
 
 
 
+
 ### Reworked text generation
 
 We removed the text generation control from the text settings in the right panel. Text snippets also no longer work.
