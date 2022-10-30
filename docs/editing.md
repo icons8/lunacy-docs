@@ -26,15 +26,15 @@ page_nav:
 ## Introduction
 
 
-If we put aside such specific <a href="https://docs.icons8.com/layers/#introduction" target="_blank">layer types</a> as artboards and hotspots, all layers in Lunacy that are not text or rasters are vector shapes.
+If we put aside such specific <a href="https://docs.icons8.com/lunacy-docs/layers/#introduction" target="_blank">layer types</a> as artboards and hotspots, all layers in Lunacy that are not text or rasters are vector shapes.
 
-Lunacy provides a set of pre-made shapes that you can add in no time using the <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">shape tools</a>. Also, you can make use of the <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">pen</a> and <a href="https://docs.icons8.com/tools/#pencil-tool" target="_blank">pencil</a> tools to create freehand shapes and paths. Among the latter two, we should pay special attention to the pen tool, which allows you to edit vector shapes, both pre-made and freehand.
+Lunacy provides a set of pre-made shapes that you can add in no time using the <a href="https://docs.icons8.com/lunacy-docs/tools/#shape-tools" target="_blank">shape tools</a>. Also, you can make use of the <a href="https://docs.icons8.com/lunacy-docs/tools/#pen-tool" target="_blank">pen</a> and <a href="https://docs.icons8.com/lunacy-docs/tools/#pencil-tool" target="_blank">pencil</a> tools to create freehand shapes and paths. Among the latter two, we should pay special attention to the pen tool, which allows you to edit vector shapes, both pre-made and freehand.
 
 Another important thing for working with shapes is Boolean operations that allow you to combine shapes of all kinds and create even more fancy shapes whose diversity depends only on your creativity.
 
-This section focuses on how to edit and transform vector shapes. For information about creating pre-made shapes, read <a href="https://docs.icons8.com/tools/#shape-tools" target="_blank">here</a> and <a href="https://docs.icons8.com/layers/#adding-layers" target="_blank">here</a>. For details about creating shapes with the pen tool, read <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">here</a>.
+This section focuses on how to edit and transform vector shapes. For information about creating pre-made shapes, read <a href="https://docs.icons8.com/lunacy-docs/tools/#shape-tools" target="_blank">here</a> and <a href="https://docs.icons8.com/lunacy-docs/layers/#adding-layers" target="_blank">here</a>. For details about creating shapes with the pen tool, read <a href="https://docs.icons8.com/lunacy-docs/tools/#pen-tool" target="_blank">here</a>.
 
-For information how to apply fills, borders, shadows and blurs, refer to the <a href="https://docs.icons8.com/styling" target="_blank">Styling</a> section.
+For information how to apply fills, borders, shadows and blurs, refer to the <a href="https://docs.icons8.com/lunacy-docs/styling" target="_blank">Styling</a> section.
 
 
 ## Transforming shapes through the Inspector
@@ -51,7 +51,7 @@ These controls include:
 
 The demo below shows these controls in action.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-transform1placeholder.png" height="auto"><source src="/public/shapes-transform1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/shapes-transform1placeholder.png" height="auto"><source src="/lunacy-docs/public/shapes-transform1.mp4" type="video/mp4"></video>
 
 ### Adjusting the corner radius setting for rectangles
 
@@ -60,7 +60,7 @@ There are two more ways of changing the corner radius setting for rectangles dra
 1. Drag the circle handles that appear inside a rectangle when you select it. This will change the radii of all corners. To change the radius of a single corner, hold `Alt` while dragging.
 2. In the **Corner radius** control, enter four values separating them with spaces. This will be the values of the corner radii (starting from the top-left and going clockwise). Press `Enter` to submit.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-cronerradplaceholder1.png" height="auto"><source src="/public/shapes-cronerrad2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/shapes-cronerradplaceholder1.png" height="auto"><source src="/lunacy-docs/public/shapes-cronerrad2.mp4" type="video/mp4"></video>
 
 **Note:** The above methods won't work with rectangles drawn with the Pen tool.
 
@@ -69,15 +69,15 @@ See also the demo in the [Vector editing](#vector-editing) subsection. It shows 
 ### Smooth corners
 
 You can create shapes with perfectly smooth corners like in Apple interfaces and products.
-To switch between round (default) and smooth corners, click ![Smooth corner button](/public/smoothcornerbtn.png) next to the corner radius field in the Inspector.
+To switch between round (default) and smooth corners, click ![Smooth corner button](/lunacy-docs/public/smoothcornerbtn.png) next to the corner radius field in the Inspector.
 
 The figure below shows the difference between smooth (red) and round (blue) corners.
 
-![Smooth vs Round corners](/public/rn-smoothcorner.png)
+![Smooth vs Round corners](/lunacy-docs/public/rn-smoothcorner.png)
 
 ## [Vector editing](#vector-editing)
 
-**Note**: Before you get down to reading this subsection, we recommend you get acquainted with <a href="https://docs.icons8.com/tools/#pen-tool" target="_blank">this</a> article first. It provides the basic information about the structure of vector layers, paths, point types and the usage of the Pen tool.
+**Note**: Before you get down to reading this subsection, we recommend you get acquainted with <a href="https://docs.icons8.com/lunacy-docs/tools/#pen-tool" target="_blank">this</a> article first. It provides the basic information about the structure of vector layers, paths, point types and the usage of the Pen tool.
 
 To enable the layer edit mode, select the shape and then do one of the following:
 
@@ -106,7 +106,7 @@ In general, vector editing is all about manipulations with points and bending se
 
 The next demo shows all the above procedures in action.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-editmode1.png" height="auto"><source src="/public/shapes-vectorediting3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/shapes-editmode1.png" height="auto"><source src="/lunacy-docs/public/shapes-vectorediting3.mp4" type="video/mp4"></video>
 
 ## Boolean Operations
 
@@ -127,7 +127,7 @@ Lunacy provides four types of Boolean operations:
 
 The demo below shows how Boolean operations work.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-booleansplaceholder.png" height="auto"><source src="/public/shapes-booleans.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/shapes-booleansplaceholder.png" height="auto"><source src="/lunacy-docs/public/shapes-booleans.mp4" type="video/mp4"></video>
 
 When you apply a Boolean operation, the selected shapes become a Boolean group. The figure below shows a view of a Boolean group in the Layer List. Note that there is an icon next to one of the shapes. It indicates the type of the Boolean operation currently applied. By clicking this icon you invoke a menu where you can select another operation.
 
@@ -137,7 +137,7 @@ You can select individual shapes within the group through the Layer List or on t
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> There is no special button or menu option to disassemble a Boolean group. But you can do it by dragging shapes out of the group in the <b>Layers</b> list</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 <!--
@@ -154,7 +154,7 @@ The flattening operation is another method of creating complex shapes by combini
 
 The next demo shows how flattening works.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/shapes-flattenplaceholder.png" height="auto"><source src="/public/shapes-flat.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/shapes-flattenplaceholder.png" height="auto"><source src="/lunacy-docs/public/shapes-flat.mp4" type="video/mp4"></video>
 
 ## Masks
 
@@ -167,7 +167,7 @@ To create a mask:
 3. Select the mask shape and the target layer(s).
 4. On the context toolbar, click the **Toggle mask** button (![Toggle mask button](public/shapes-togglemaskbtn.png)) or press `Ctrl+M`. The **Toggle mask** option is also available on the context menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-masksplaceholder.png" height="auto"><source src="/public/shapes-masks.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/shapes-masksplaceholder.png" height="auto"><source src="/lunacy-docs/public/shapes-masks.mp4" type="video/mp4"></video>
 
 When you apply a mask, Lunacy creates a mask group in the Layer List.
 
@@ -181,7 +181,7 @@ To remove a mask, select the mask group in the Layer List or on the canvas and c
 
 The **Outline stroke** option (`Ctrl+Shift+O`) appears on the context menu and on the **Layer** menu when you select a shape with a border. It allows you to convert that border into an independent layer. Watch the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/shapes-outlinestrokeplaceholder.png" height="auto"><source src="/public/shapes-outlinestroke.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/shapes-outlinestrokeplaceholder.png" height="auto"><source src="/lunacy-docs/public/shapes-outlinestroke.mp4" type="video/mp4"></video>
 
 ## Rasterizing vector shapes
 
@@ -196,4 +196,4 @@ For this:
 
 ![Rasterizing vector shapes](public/shapes-rasterize.png)
 
-See also <a href="https://docs.icons8.com/interface/#show-pixels-on-zoom" target="_blank">Show pixels on zoom</a>.
+See also <a href="https://docs.icons8.com/lunacy-docs/interface/#show-pixels-on-zoom" target="_blank">Show pixels on zoom</a>.

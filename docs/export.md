@@ -92,7 +92,7 @@ The basic controls in this panel are the following:
 
 You can define as many formats and sizes as you need. For this, just click the plus icon to add a new row of settings.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/export-panelph.png" height="auto"><source src="/public/export-settings.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/export-panelph.png" height="auto"><source src="/lunacy-docs/public/export-settings.mp4" type="video/mp4"></video>
 
 For removing export settings, click the trash can icon.
 
@@ -111,7 +111,7 @@ There are two ways of creating export presets.
 3. Enter the name of the preset and click **Save**. Now, your custom preset will appear on the export settings menu.
 
 
-![Export presets in Lunacy](/public/rn-exportprests.png)
+![Export presets in Lunacy](/lunacy-docs/public/rn-exportprests.png)
 
 **Way 2**
 
@@ -165,7 +165,7 @@ Slices are a special type of layers that allows you to export certain parts of y
 
 To add a slice you can:
 
-* Use the <a href="https://docs.icons8.com/tools/#slice-tool" target="_blank">slice tool</a>.
+* Use the <a href="https://docs.icons8.com/lunacy-docs/tools/#slice-tool" target="_blank">slice tool</a>.
 * Click the slice icon (![Slice icon](public/export-sliceicon.png)) in the export section of the Inspector. The icon appears only when you select a single layer. A click over the icon creates a slice of the same size as of the selection frame around the layer. You can resize it by dragging handles, if necessary.
 
 When you select a slice, two additional parameters appear in the export panel:
@@ -208,7 +208,7 @@ When exporting a project, Lunacy creates folders whose names correspond to the n
 To export a project:
 
 1. Press `Esc` to deselect all layers. The **Export project** section appears in the Inspector.
-2. Define the export settings as described <a href="https://docs.icons8.com/export/#export-settings-size-suffixprefix-format">above</a>.
+2. Define the export settings as described <a href="https://docs.icons8.com/lunacy-docs/export/#export-settings-size-suffixprefix-format">above</a>.
 3. Click **Export Project**.
 4. In the displayed dialog box, browse to the target folder and confirm your intent.
 5. Once the procedure is complete, the **Open file location** link appears at the bottom of the Inspector. Click the link to see the resulting folder(s) and file(s).
@@ -219,7 +219,7 @@ You can upload your designs to our Cloud and instantly share them with other peo
 
 <!--
 
->**Note:** Do not confuse Icons8 Cloud and Sketch Cloud. Lunacy also supports the latter, but these are two different clouds. For details about working with Sketch Cloud, read <a href="https://docs.icons8.com/cloud" target="_blank">here</a>.
+>**Note:** Do not confuse Icons8 Cloud and Sketch Cloud. Lunacy also supports the latter, but these are two different clouds. For details about working with Sketch Cloud, read <a href="https://docs.icons8.com/lunacy-docs/cloud" target="_blank">here</a>.
 
 -->
 
@@ -240,7 +240,7 @@ You can export to cloud:
 
 <div class="callout callout--info">
     <p><strong>Productivity Tip:</strong> The <code style="background: white">Alt+С + C</code> shortcut allows you to instantly upload a layer to Icons8 cloud and get a link to it. Just select the required layer and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away. This option is also available on the context menu.</p>
-    <p>For more tips and tricks, click <a href="https://docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p>For more tips and tricks, click <a href="https://docs.icons8.com/lunacy-docs/tips/" target="_blank">here</a>.</p>
 </div>
 
 <!--
@@ -270,7 +270,7 @@ To delete a link from the list, click the trash can icon next to it.
 
 To delete a file from the cloud, right-click the link to the file, then click **Remove this file from Lunacy servers**. After that you can click the link to make sure that it no longer works and then delete the link itself.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/export-historyph.png" height="auto"><source src="/public/export-history.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/export-historyph.png" height="auto"><source src="/lunacy-docs/public/export-history.mp4" type="video/mp4"></video>
 
 **Note:** We in no way read or analyze files that you upload to Icons8 cloud. The guaranteed storage period of uploaded files is 60 days. After that they can be deleted from our servers without prior notice. Removed files cannot be restored. For this reason, please do not consider Icons8 cloud as a long-term storage.
 

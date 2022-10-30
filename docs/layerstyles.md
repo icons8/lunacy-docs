@@ -26,7 +26,7 @@ Layer and text styles are predefined sets of layer and text properties that you 
 
 You will store your custom layer and text styles on the **Styles** tab.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-mainview.png" height="auto"><source src="/public/styles-mainview.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/layerstyles-mainview.png" height="auto"><source src="/lunacy-docs/public/styles-mainview.mp4" type="video/mp4"></video>
 
 
 ## [Layer styles](#layer-styles)
@@ -43,7 +43,7 @@ They appear in the Inspector when you select a layer.
 
 ![Layer properties](public/properties_new1.png)
 
-For details on styling properties, refer to the <a href="https://docs.icons8.com/styling" target="_blank">Styling</a> section of our documentation.
+For details on styling properties, refer to the <a href="https://docs.icons8.com/lunacy-docs/styling" target="_blank">Styling</a> section of our documentation.
 
 ### Adding a layer style
 
@@ -51,11 +51,11 @@ There are two ways of adding layer styles.
 
 **Way 1.** By clicking the plus icon in the left panel and defining all the required properties in the Inspector.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-wayoneph.png" height="auto"><source src="/public/layerstyles-wayone.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/layerstyles-wayoneph.png" height="auto"><source src="/lunacy-docs/public/layerstyles-wayone.mp4" type="video/mp4"></video>
 
 **Way 2.** By first defining the properties of a layer and then saving them as a style. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-waytwoph.png" height="auto"><source src="/public/layerstyles-waytwo.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/layerstyles-waytwoph.png" height="auto"><source src="/lunacy-docs/public/layerstyles-waytwo.mp4" type="video/mp4"></video>
 
 
 ### Applying styles to layers
@@ -70,7 +70,7 @@ Optionally, after selecting the layer you can click the required style in the le
 
 You can also apply a style to multiple selected layer at a time (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-applyph.png" height="auto"><source src="/public/layerstyles-apply.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/layerstyles-applyph.png" height="auto"><source src="/lunacy-docs/public/layerstyles-apply.mp4" type="video/mp4"></video>
 
 
 ### Modifying a layer style
@@ -159,7 +159,7 @@ To copy styles between documents:
 4. Open the **Styles** tab.
 5. Right-click over the left panel and select **Paste style** on the displayed menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layerstyles-copyph.png" height="auto"><source src="/public/layerstyles-copy.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/layerstyles-copyph.png" height="auto"><source src="/lunacy-docs/public/layerstyles-copy.mp4" type="video/mp4"></video>
 
 ### Deleting styles and categories
 
@@ -180,11 +180,11 @@ The only difference between text styles and [layer styles](#layer-styles)  is th
 
 ![Text styles](public/layerstyles-text.png)
 
-See also the <a href="https://docs.icons8.com/text/" target="_blank">Text</a> section for tips on working with text layers.
+See also the <a href="https://docs.icons8.com/lunacy-docs/text/" target="_blank">Text</a> section for tips on working with text layers.
 
 ## External styles
 
-You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the **UI Kits** library. For details about UI kits, click <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
+You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the **UI Kits** library. For details about UI kits, click <a href="https://docs.icons8.com/lunacy-docs/libraries/#ui-kits" target="_blank">here</a>.
 
 To apply an external style to a layer:
 
@@ -192,7 +192,7 @@ To apply an external style to a layer:
 2. In the **Appearance** section of the Inspector, click the down arrowhead to invoke the menu.
 3. In the **UI kits** section of the menu, navigate to the required style.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layerstyles-externalph.png" height="auto"><source src="/public/layerstyles-external.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/layerstyles-externalph.png" height="auto"><source src="/lunacy-docs/public/layerstyles-external.mp4" type="video/mp4"></video>
 
 You cannot make changes to external styles, but you can use the **Unlink from Library** feature. This feature will add a copy of the style you need to your document assets, i.e. to the list of your layer or text styles. After that, you can do whatever you want with the unlinked style as with any other style within your document.
 
@@ -204,5 +204,5 @@ There are two ways to unlink styles:
 
 The demo below shows both these methods.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-externalunlinkph.png" height="auto"><source src="/public/layerstyles-externalunlink.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/layerstyles-externalunlinkph.png" height="auto"><source src="/lunacy-docs/public/layerstyles-externalunlink.mp4" type="video/mp4"></video>
 

@@ -83,7 +83,7 @@ You cannot edit Cloud versions of documents shared with you.
 
 ### Libraries
 
-**Libraries** are *shared documents* that you can use similarly to what we in Lunacy call <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>. When the owner of the file updates it in the Cloud, the updates become available to everyone who has access to the file. For details, click [here](#working-with-libraries).
+**Libraries** are *shared documents* that you can use similarly to what we in Lunacy call <a href="https://docs.icons8.com/lunacy-docs/libraries/#ui-kits" target="_blank">UI kits</a>. When the owner of the file updates it in the Cloud, the updates become available to everyone who has access to the file. For details, click [here](#working-with-libraries).
 
 ## Signing into Sketch Cloud
 
@@ -140,7 +140,7 @@ To save a document to Sketch Cloud:
 
 If you've been working with a file that you already had on your computer, the local file will close and a new file tab with the Cloud document will appear once the uploading is complete. Cloud documents appear in the Lunacy interface with the Cloud icon in front of their names (see the demo below). Bear in mind that the local file and the Cloud file are two independent files. Changes to the local file will not affect the Cloud one and vice versa.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/cloud-savedocplaceholder.png" height="auto"><source src="/public/cloud-savedoc.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/cloud-savedocplaceholder.png" height="auto"><source src="/lunacy-docs/public/cloud-savedoc.mp4" type="video/mp4"></video>
 
 ## Updating a document in the Cloud
 
@@ -230,7 +230,7 @@ The screenshot below shows a view of the context menu of a shared document with 
 The available options include:
 
 * **Open**: Opens the document in Lunacy (view only).
-* **Add to UI Kits**:  Available for libraries only. Adds the library to the list of <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>. For details, click [here](#working-with-libraries).
+* **Add to UI Kits**:  Available for libraries only. Adds the library to the list of <a href="https://docs.icons8.com/lunacy-docs/libraries/#ui-kits" target="_blank">UI kits</a>. For details, click [here](#working-with-libraries).
 * **Download**: Downloads the document to your computer.
 * **View on Cloud**: Opens the document's Sketch Cloud webpage. There you can leave your comments to the document,
 * **Copy link**: Copies the link to the document to your clipboard.
@@ -239,9 +239,9 @@ The available options include:
 
 ## [Working with libraries](#working-with-libraries)
 
-Libraries are shared documents that can be used as <a href="https://docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>. To provide for this, the owner of the document should enable the **Use as Library** option in the [document settings](#sharing-documents).
+Libraries are shared documents that can be used as <a href="https://docs.icons8.com/lunacy-docs/libraries/#ui-kits" target="_blank">UI kits</a>. To provide for this, the owner of the document should enable the **Use as Library** option in the [document settings](#sharing-documents).
 
->**Note**: You should understand that to be able to use libraries according to their intent, library elements must be saved as <a href="https://docs.icons8.com/components/" target="_blank">components</a>.
+>**Note**: You should understand that to be able to use libraries according to their intent, library elements must be saved as <a href="https://docs.icons8.com/lunacy-docs/components/" target="_blank">components</a>.
 
 Like other Cloud documents, libraries appear in the list of documents in the Cloud panel. You can quickly find them by applying the *Libraries* filter. To add a library to UI kits, click the respective command on the context menu.
 
