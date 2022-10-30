@@ -106,7 +106,8 @@ For this:
 2. In the **Nudge Amount** section of the right panel, specify the required values.
 
 
-<embed type="image/svg+xml" alt="nudge" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/k-r6KGUfZkWWYCgmD9h0Xw.svg" /> 
+<embed type="image/svg+xml" alt="nudge2" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/5UOgqVMTGEeuYaIW7Lq2mA.svg" /> 
+
 
 
 ### Reworked text generation
