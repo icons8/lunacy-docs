@@ -106,7 +106,8 @@ For this:
 2. In the **Nudge Amount** section of the right panel, specify the required values.
 
 
-<embed type="image/svg+xml" alt="Group 3" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/B1bEyRk2YEGCE0bgvWapuw.svg" /> 
+<embed type="image/svg+xml" alt="Group 3 Copy" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/WSi3QpYONUGLIHSR0vKZXg.svg" /> 
+
 
 
 ### Reworked text generation
