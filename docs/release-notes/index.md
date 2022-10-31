@@ -146,7 +146,7 @@ To disable snapping, hold down `Ctrl` (`⌘`) while dragging.
 <embed type="image/svg+xml" alt="Group 7" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/D7EWycxvykihzxdzj_YYJQ.svg" /> 
 
 
-### Czech language
+### Czech language ![Czech flag](/lunacy-docs/public/icons8-czechia-24.png)
 
 Big thanks to *elektronek* and *petr.zachrdla* for helping us out with the Czech localization.
 If you also want to take part in Lunacy localization, click <a href="https://docs.icons8.com/localization/" target="_blank">here</a>.
