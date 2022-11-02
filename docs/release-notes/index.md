@@ -117,7 +117,8 @@ We removed the text generation control from the text settings in the right panel
 Instead, now when you click over the canvas to create a text block or delete everything in an existing text block, you see an auto-text dropdown. You can scroll the list, to select the required option. Or you can just start typing the name of the option you need. For example, if you need a name of a person, or username, or file name, start typing *“name”* and you’ll see all the matching options. Click the one you need to apply.
 
 
-<embed type="image/svg+xml" alt="Group 6 Copy" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/LHiw2zQN_Emis2WxT0QG8g.svg" /> 
+<embed type="image/svg+xml" alt="Group 8" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/r9I6F0cf8UKbhCosuXdJjQ.svg" /> 
+
 
 Also, text blocks with auto-generated content, similarly to avatars, now come with a refresh icon above the upper-left corner. By clicking it you can choose the text that suits you best.
 
