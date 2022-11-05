@@ -47,7 +47,7 @@ When you switch to the **paid plan**, you get:
 * Free Personal Cloud license for the team owner
 
 
-## Creating teams, renaming teams, editing team avatars
+## Creating teams
 
 ![Creating a team](public/teams-add1.png)
 
@@ -61,10 +61,6 @@ To create a team:
 5. Click **Continue**.
 
 The user who created a team is a **team owner**.
-
-To rename a team:
-
-1. On the **Home** tab, 
 
 
 ## Managing teams
