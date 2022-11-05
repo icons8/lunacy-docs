@@ -111,6 +111,8 @@ To show/hide a project name in the left panel, use the **Pin/Unpin** button that
 
 ![Pinning or unpinning a project](public/teams_pin_unpin.png)
 
+![Pinning or unpinning a project](public/teams_pin_unpin1.png)
+
 
 To delete a document from a project:
 
