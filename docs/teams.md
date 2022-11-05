@@ -30,7 +30,7 @@ Teams serve to make it easier for you to manage collaborative documents and peop
 
 ## Free plan vs paid plan
 
-You can try out how teams work on a free plan. When you think you are ready, you can switch to our paid plan.
+You can try out teams on a free plan. When you think you are ready, you can switch to our paid plan.
 
 How it works with the **free plan**:
 
@@ -44,7 +44,7 @@ When you switch to the **paid plan**, you get:
 * Unlimited number of team documents
 * Unlimited version history
 * Unlimited storage period for deleted documents
-* Free Personal Cloud license for the team owner
+* Free *Personal Cloud* license for the team owner
 
 
 ## Creating teams
@@ -62,12 +62,21 @@ To create a team:
 
 The user who created a team is a **team owner**.
 
+By right-clicking a team name in the left panel of the **Home** tab you can invoke the context menu that lets you:
+
+* Rename the team
+* Change the team avatar
+* Upgrade your plan
+* [Delete the team](#deleting-a-team)
+
+![Team context menu](public/teams_context_menu.png)
+
 
 ## Managing teams
 
 To manage a team, switch to the **Home** tab, then click the required team name in the left panel. The team screen appears.
 
-Each team screen features three tabs:
+Each team screen features two tabs:
 
 * [Projects](#projects)
 * [Members](#members)
@@ -121,8 +130,9 @@ To delete a project:
 On this tab, you can:
 
 * Get links to invite new members (1).
-* Manage team members and their roles (2).
-* Delete team members (3).
+* Delete team members (2).
+* Manage team members and their roles (3).
+
 
 ![Team members tab](public/teams-members2.png)
 
@@ -160,7 +170,7 @@ The table below shows the differences between user roles.
 
 
 
-## Deleting a team
+## [Deleting a team](#deleting-a-team)
 
 To delete a team, right-click the team name on the left panel of the **Home** tab, then click **Delete** on the menu. Note that this operation is accessible only to the team owner.
 
