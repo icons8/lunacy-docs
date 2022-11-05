@@ -22,25 +22,34 @@ page_nav:
         url: '/linked_design'
 ---
 
-## Overview
+Teams serve to make it easier for you to manage collaborative documents and people who have access to them. This chapter covers the details of working with teams.
 
-Teams serve to make it easier for you to manage collaborative documents and people who have access to them.
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> To start working with teams, make sure that you're signed into your Icons8 account.</p>
+</div>
 
-In version 8.5, you'll be able to try out how teams work on a free plan. In upcoming versions, we'll add some paid plans that will provide more opportunities and less limitations.
+## Free plan vs paid plan
 
-How it works with the free plan:
+You can try out how teams work on a free plan. When you think you are ready, you can switch to our paid plan.
 
-* To work with teams, you need to sign in to your Icons8 account.
+How it works with the **free plan**:
+
 * You can create one team and invite two more members to the team.Thus, a free team can include up to 3 members. A user can be a member of one free team only.
-* You should use projects to organize team documents. Think of projects as of folders. All the documents within team projects automatically become available to the team members.
-* The total number of documents across all projects of a free team cannot exceed ten.
+* The total number of documents across all projects (including the ones in the trash bin) of a free team cannot exceed ten
+* Document version history is limited to 30 days.
 
-Note that you can still share cloud documents with other users as you did it earlier, before we introduced teams.
+When you switch to the **paid plan**, you get:
 
-## Creating a team
+* As many team members as you need
+* Unlimited number of team documents
+* Unlimited version history
+* Unlimited storage period for deleted documents
+* Free Personal Cloud license for the team owner
+
+
+## Creating teams, renaming teams, editing team avatars
 
 ![Creating a team](public/teams-add1.png)
-
 
 
 To create a team:
@@ -53,6 +62,10 @@ To create a team:
 
 The user who created a team is a **team owner**.
 
+To rename a team:
+
+1. On the **Home** tab, 
+
 
 ## Managing teams
 
@@ -62,27 +75,37 @@ Each team screen features three tabs:
 
 * [Projects](#projects)
 * [Members](#members)
-* [Settings](#settings)
 
 ### [Projects](#projects)
 
 On this tab, you will keep your team documents organized in projects. You can think of projects as of folders. To start creating team documents, you should have at least one project.
 
-To create a project:
+All the documents within team projects automatically become available to the team members.
+
+To **create** a project:
 
 1. Select the required team in the left menu of the **Home** tab. Make sure that the team screen opens on the **Projects** tab.
 2. In the top-right corner of the screen, click **New Project**.
 3. Define the project name on the displayed screen.
 
-Now you can add documents to the project. You can create new documents or import existing .sketch files. For this, use the respective buttons that appear in the top-right corner when you're inside a project.
+Now you can add documents to the project. You can:
+
+* Create new cloud documents.
+* Import existing .sketch files.
+* Import existing documents from Figma.
+
+For this, use the respective buttons that appear at the top of each project.
 
 The figure below shows a view of the **Projects** tab.
 
 ![Team projects tab](public/teams-prjectstab3.png)
 
-To delete a documents from a project:
 
-1. Right-click the documents. The context menu shows up.
+To show/hide a project name in the left panel, use the **Pin/Unpin** button that appears when you hover over the project area in the **Home** tab.
+
+To delete a document from a project:
+
+1. Right-click over the document. The context menu shows up.
 2. On the menu, click **Delete**.
 
 Deleted documents move to the **Deleted** screen of the **Home** tab. There you can restore or permanently delete documents. 
@@ -141,20 +164,9 @@ The table below shows the differences between user roles.
 
 
 
-### [Settings](#settings)
-
-This tab is available only for users with the owner and admin roles. Here you can change the team name and avatar.
-
-![Settings tab](public/teams-settings1.png)
-
-
-
 ## Deleting a team
 
 To delete a team, right-click the team name on the left panel of the **Home** tab, then click **Delete** on the menu. Note that this operation is accessible only to the team owner.
-
-
-
 
 Upon deletion:
 * All the documents associated with the team move to **Home** > **Deleted**.
