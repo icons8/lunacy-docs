@@ -35,7 +35,7 @@ You can try out teams on a free plan. When you think you are ready, you can swit
 How it works with the **free plan**:
 
 * You can create one team and invite two more members to the team.Thus, a free team can include up to 3 members. A user can be a member of one free team only.
-* The total number of documents across all projects (including the ones in the trash bin) of a free team cannot exceed ten
+* The total number of documents across all projects (including the ones in the trash bin) of a free team cannot exceed ten.
 * Document version history is limited to 30 days.
 
 When you switch to the **paid plan**, you get:
@@ -55,7 +55,7 @@ When you switch to the **paid plan**, you get:
 To create a team:
 
 1. Open the **Home** tab.
-2. In the left menu, click **Create New Team**.
+2. In the left panel, click **Create New Team**.
 3. On the displayed screen, type the name of the team, then click **Create team**.
 4. (optional) On the next screen, click **Copy link** to send it to other team members. You can always copy the invite link in the top-right corner **Members** tab of the team page.  
 5. Click **Continue**.
@@ -87,29 +87,35 @@ On this tab, you will keep your team documents organized in projects. You can th
 
 All the documents within team projects automatically become available to the team members.
 
-To **create** a project:
+To create a project:
 
 1. Select the required team in the left menu of the **Home** tab. Make sure that the team screen opens on the **Projects** tab.
 2. In the top-right corner of the screen, click **New Project**.
 3. Define the project name on the displayed screen.
 
+![Creating a new project](public/new_project.png)
+
+
 Now you can add documents to the project. You can:
 
-* Create new cloud documents.
+* Create new cloud documents from scratch.
 * Import existing .sketch files.
 * Import existing documents from Figma.
 
 For this, use the respective buttons that appear at the top of each project.
 
-The figure below shows a view of the **Projects** tab.
+The figure below shows a view of a project with two documents.
 
-![Team projects tab](public/teams-prjectstab3.png)
+![Team projects tab](public/project_screen_view.png)
 
 
-To show/hide a project name in the left panel, use the **Pin/Unpin** button that appears when you hover over the project area in the **Home** tab.
+To show/hide a project name in the left panel, use the **Pin** button in the upper left corner.
 
+<!--
 
 ![Pinning or unpinning a project](public/teams_pin_unpin.png)
+
+-->
 
 To delete a document from a project:
 
