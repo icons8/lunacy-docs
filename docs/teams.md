@@ -38,7 +38,7 @@ How it works with the **free plan**:
 * The total number of documents across all projects (including the ones in the trash bin) of a free team cannot exceed ten.
 * Document version history is limited to 30 days.
 
-When you switch to the **paid plan**, you get:
+ With the **paid plan**, you get:
 
 * As many team members as you need
 * Unlimited number of team documents
@@ -46,6 +46,9 @@ When you switch to the **paid plan**, you get:
 * Unlimited storage period for deleted documents
 * Free *Personal Cloud* license for the team owner
 
+When you decide to switch to the **paid plan**, click over the team name in the left panel, then click **Upgrade** and follow the instructions.
+
+![Upgrading a team plan in Lunacy](public/upgrading_team.png)
 
 ## Creating teams
 
@@ -139,8 +142,8 @@ To delete a project:
 On this tab, you can:
 
 * Get links to invite new members (1).
-* Delete team members (2).
-* Manage team members and their roles (3).
+* Manage team members and their roles (2).
+* Delete team members (3).
 
 
 ![Team members tab](public/team_members3.png)
