@@ -57,7 +57,7 @@ To create a team:
 1. Open the **Home** tab.
 2. In the left panel, click **Create New Team**.
 3. On the displayed screen, type the name of the team, then click **Create team**.
-4. (optional) On the next screen, click **Copy link** to send it to other team members. You can always copy the invite link in the top-right corner **Members** tab of the team page.  
+4. (optional) On the next screen, click **Copy link** to send it to other team members. You can always copy the invite link in the upper-right corner **Members** tab of the team page.  
 5. Click **Continue**.
 
 The user who created a team is a **team owner**.
@@ -90,7 +90,7 @@ All the documents within team projects automatically become available to the tea
 To create a project:
 
 1. Select the required team in the left menu of the **Home** tab. Make sure that the team screen opens on the **Projects** tab.
-2. In the top-right corner of the screen, click **New Project**.
+2. In the upper-right corner of the screen, click **New Project**.
 3. Define the project name on the displayed screen.
 
 ![Creating a new project](public/new_project.png)
@@ -109,7 +109,7 @@ The figure below shows a view of a project with two documents.
 ![Team projects tab](public/project_screen_view.png)
 
 
-To show/hide a project name in the left panel, use the **Pin** button in the upper left corner.
+To show/hide a project name in the left panel, use the **Pin** (![pin](public/pin_icon.png)) button in the upper-right corner.
 
 <!--
 
@@ -143,9 +143,9 @@ On this tab, you can:
 * Manage team members and their roles (3).
 
 
-![Team members tab](public/teams-members2.png)
+![Team members tab](public/team_members3.png)
 
-To get an invite link, click **Invite user** in the top-right corner of the screen. The link gets copied to your clipboard, and a new record appears in the table of team members. Until the invitee opens opens the link, you'll see the *Invite pending* caption instead of the username.  Use the drop-down list in the **Role** column, to assign the required user role:
+To get an invite link, click **Invite user** in the upper-right corner of the screen. The link gets copied to your clipboard, and a new record appears in the table of team members. Until the invitee opens opens the link, you'll see the *Invite pending* caption instead of the username.  Use the drop-down list in the **Role** column, to assign the required user role:
 
 * **Viewer** (can view). The role assigned by default to all users joining a team via an invite link. Users with this role can only view the content of team documents.
 * **Developer** (can export). This role is intended for developer handoff. Users with this role can view designs, inspect layer properties in the left panel, and export document content.
