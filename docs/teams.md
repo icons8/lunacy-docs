@@ -139,8 +139,14 @@ Deleted documents move to the **Deleted** screen of the **Home** tab. There you 
 
 To delete a project:
 1. Delete all documents from the project first.
-2. On the left menu of the **Home** tab, right-click over the project you're going to delete. The context menu shows up.
-3. On the menu, click **Delete**.
+2. Click the **Delete project** button in the upper-right corner.
+    
+    **OR**
+
+    Right-click over the project in the left panel, then click **Delete** on the context menu.
+
+![Deleting a project](public/deleting_project.png)
+
 
 <div class="callout callout--warning">
     <p><strong>Note:</strong> Not all users can delete documents and projects. For details, check out the table below.</p>
@@ -168,10 +174,10 @@ To get an invite link, click **Invite user** in the upper-right corner of the sc
 
 Once a user opens the link, their username and avatar appear on the **Members** tab. You can view team members' profiles by right-clicking their avatars.
 
-The table below shows the differences between user roles.
+The table below shows the differences between the permission sets.
 
 
-|         | Owner    | Admin | Editor | Viewer | Exporter |
+|         | Owner    | Admin | Can edit | Can view | Can export |
 | ------------- |-------------|---------------|-------------|---------------| ---------------|
 | Rename team |+ | + |   |  |  |
 | Change team plan |+ |  |   |  |  |
