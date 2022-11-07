@@ -50,6 +50,10 @@ When you decide to switch to the **paid plan**, click over the team name in the 
 
 ![Upgrading a team plan in Lunacy](public/upgrading_team.png)
 
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> If you are already a member of a free team (not owner) and want to create a team on a paid plan, you've got to leave the free team first.</p>
+</div>
+
 ## Creating teams
 
 ![Creating a team](public/teams-add1.png)
@@ -120,6 +124,11 @@ To show/hide a project name in the left panel, use the **Pin** (![pin](public/pi
 
 -->
 
+To rename a project, use the context menu in the left panel (1) or click over the project name in the main area (2). Also, you can change the project avatar (3).
+
+![Renaming a project and changing project avatar](public/renaming-project.png)
+
+
 To delete a document from a project:
 
 1. Right-click over the document. The context menu shows up.
@@ -137,6 +146,7 @@ To delete a project:
     <p><strong>Note:</strong> Not all users can delete documents and projects. For details, check out the table below.</p>
 </div>
 
+
 ### [Members](#members)
 
 On this tab, you can:
@@ -144,16 +154,17 @@ On this tab, you can:
 * Get links to invite new members (1).
 * Manage team members and their roles (2).
 * Delete team members (3).
+* Copy a link for a pending invite to resend it (4).
 
 
 ![Team members tab](public/team_members3.png)
 
-To get an invite link, click **Invite user** in the upper-right corner of the screen. The link gets copied to your clipboard, and a new record appears in the table of team members. Until the invitee opens opens the link, you'll see the *Invite pending* caption instead of the username.  Use the drop-down list in the **Role** column, to assign the required user role:
+To get an invite link, click **Invite user** in the upper-right corner of the screen. The link gets copied to your clipboard, and a new record appears in the table of team members. Until the invitee opens opens the link, you'll see the *Invite pending* caption instead of the username.  Use the drop-down list in the **Team permissions** column, to assign the required user role:
 
-* **Viewer** (can view). The role assigned by default to all users joining a team via an invite link. Users with this role can only view the content of team documents.
-* **Developer** (can export). This role is intended for developer handoff. Users with this role can view designs, inspect layer properties in the left panel, and export document content.
-* **Editor** (can edit). Users with this role can create and edit documents within the team. But they don't have some administrative privileges.
-* **Admin**. Team administrators get the extended set of privileges.
+* **Can view**. The set of permissions assigned by default to all users joining a team via an invite link. Users with this set of permissions can only view the content of team documents.
+* **Can export**. This set of permissions is intended for developer handoff. Users with this set of permissions can view designs, inspect layer properties in the left panel, and export document content.
+* **Can edit**. Users with this set of permissions can create and edit documents within the team. But they don't have some administrative permissions.
+* **Admin**. Team administrators get the extended set of permissions.
 
 Once a user opens the link, their username and avatar appear on the **Members** tab. You can view team members' profiles by right-clicking their avatars.
 
@@ -192,4 +203,4 @@ Upon deletion:
 * The name of the team appears dimmed in the left menu of the **Home** tab. A right-click over a deleted team invokes the context menu that lets you either permanently delete the team or restore it.
 
 
-![Context menu over a deleted team](public/teams-delteam2.png)
+![Context menu over a deleted team](public/teams-delteam3.png)
