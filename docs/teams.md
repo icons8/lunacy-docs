@@ -46,7 +46,7 @@ How it works with the **free plan**:
 * Unlimited storage period for deleted documents
 * Free *Personal Cloud* license for the team owner
 
-When you decide to switch to the **paid plan**, click over the team name in the left panel, then click **Upgrade** and follow the instructions.
+When you decide to switch to the **paid plan**, click over the team name in the left panel, then click **Upgrade plan** and follow the instructions.
 
 ![Upgrading a team plan in Lunacy](public/upgrading_team.png)
 
