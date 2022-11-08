@@ -11,6 +11,9 @@
 	<div class="arrow"></div>
 </div>
 <ul id="micro-nav" class="normalize micro-nav {% if page.left_menu_off == true or page.layout == 'homepage' %} micro-nav--homepage {% endif %} {% if page.release_note %} release-note {% endif %}">
+	<li>
+		{% include search-bar.html %}
+	</li>
 	{% unless page.release_note %}
 	{% for item in site.doks.micro_nav %}
 	<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="not-visibly">{{ item.title }}</a></li>

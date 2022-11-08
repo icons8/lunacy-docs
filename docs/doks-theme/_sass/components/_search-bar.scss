@@ -1,0 +1,114 @@
+.search {
+    &__container {
+      display: flex;
+      margin-right: 16px;
+      margin-bottom: 16px;
+    }
+    &__button {
+      padding: 12px;
+      font-size: 14px;
+      border-radius: 4px;
+      border: 1px solid rgba(0,0,0,.3);
+      background: none;
+      flex: 1;
+      opacity: .3;
+      text-align: left;
+      cursor: pointer;
+    }
+}
+
+.jquery-modal {
+  &.blocker {
+    z-index: 200;
+    background: rgba(0,0,0,.35);
+  } 
+  .modal {
+    max-width: 50vw;
+    width: 100%;
+    box-shadow: 0 20px 60px -2px rgba(27, 33, 58, 0.4);
+    border-radius: 8px;
+    background: #fff;
+    padding: 0;
+    @media screen and (max-width: 550px) {
+      max-width: 90vw;
+    }
+  }
+}
+
+.search-modal {
+  display: none;
+  .divider {
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+}  
+
+.search-results {
+  display: none;
+  font-size: 14px;
+  &__list {
+    margin: 0;
+    p {
+      font-size: 14px;
+      margin: 0;
+    }
+    li {
+      margin: 0;
+      padding: 0;
+      &::before {
+        content: none;
+      }
+    }
+  }
+  .no-result{
+    color: gray;
+    padding: 0 32px;
+  }
+}
+
+.search-input {
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  padding: 16px 24px 16px 42px;
+  background: url(/doks-theme/assets/images/layout/search.svg) no-repeat left 16px center / 16px;
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.search-result {
+  font-size: 14px;
+
+  a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+  }
+
+  .divider {
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+
+    .api-type-addon {
+      color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .search-result-content {
+    padding: 16px 32px;
+  }
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.03);
+  }
+}

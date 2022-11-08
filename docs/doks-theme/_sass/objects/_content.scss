@@ -13,8 +13,8 @@
 			margin-bottom: 80px;
 		}
 	}
-	video, img {
-		border: 1px solid rgba(0,0,0,0.1);
+	video, img, embed {
+		// border: 1px solid rgba(0,0,0,0.1);
 		max-width: 100%;
 	}
 }
