@@ -1,4 +1,7 @@
+---
+---
 jQuery(function () {
+  const baseUrl = "{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}"
   $.modal.defaults.showClose = false;
 
   var searchIndex; //lunr search index
@@ -9,7 +12,7 @@ jQuery(function () {
       for (const result of results) {
         const item = store[result.ref]
         htmlString += `<li class="search-result">
-            <a href="${item.url}">
+            <a href="${baseUrl + item.url}">
                 <div class="search-result-content">
                     <h3 class="search-result-header">${item.title}</h3>
                     <p class="search-result-description">${item.content.substring(0,150)}...</p>
