@@ -28,7 +28,7 @@ Teams serve to make it easier for you to manage collaborative documents and peop
     <p><strong>Note:</strong> To start working with teams, make sure that you're signed into your Icons8 account.</p>
 </div>
 
-## Free plan vs paid plan
+## [Free plan vs paid plan](#free-plan-vs-paid-plan)
 
 You can try out teams on a free plan. When you think you are ready, you can switch to our paid plan.
 
@@ -51,7 +51,7 @@ When you decide to switch to the **paid plan**, click over the team name in the 
 ![Upgrading a team plan in Lunacy](public/upgrading_team.png)
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> If you are already a member of a free team (not owner) and want to create a team on a paid plan, you've got to leave the free team first.</p>
+    <p><strong>Note:</strong> If you are already a member of a free team (not an owner) and want to create a team on a paid plan, you've got to leave the free team first.</p>
 </div>
 
 ## Creating teams
@@ -73,7 +73,7 @@ By right-clicking a team name in the left panel of the **Home** tab you can invo
 
 * Rename the team
 * Change the team avatar
-* Upgrade your plan
+* [Upgrade your plan](#free-plan-vs-paid-plan)
 * [Delete the team](#deleting-a-team)
 
 ![Team context menu](public/teams_context_menu.png)
