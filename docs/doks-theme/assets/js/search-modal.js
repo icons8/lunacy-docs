@@ -1,8 +1,10 @@
 ---
 ---
 jQuery(function () {
-  const baseUrl = "{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}"
   $.modal.defaults.showClose = false;
+
+  // Retreive baseUrl from jekyull global variable
+  const baseUrl = "{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}"
 
   var searchIndex; //lunr search index
 
