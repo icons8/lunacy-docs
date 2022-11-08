@@ -32,7 +32,7 @@ You can control the appearance of web pages right from Lunacy. The feature that 
 * Layer sizes
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> This feature is available only in <a href="https://docs.icons8.com/lunacy-docs/clouddocs/" target="_blank">cloud documents</a>.</p>
+    <p><strong>Note:</strong> This feature is available only in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>.</p>
 </div>
 
 To learn more about the benefits of linked design and possible use cases, check out <a href="https://blog.icons8.com/articles/editing-live-web-pages-from-a-graphic-app-is-no-longer-a-dream/" target="_blank">this article</a>. 
@@ -70,7 +70,7 @@ Here's also a short video explainer:
 
 To make sure that your linked design works properly, mind the following rules:
 
-* The use of <a href="https://docs.icons8.com/lunacy-docs/layerstyles/" target="_blank">text styles</a> is a MUST.
+* The use of <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">text styles</a> is a MUST.
 * Raster images subject to updates MUST belong to layer groups. It does not matter if you put all your raster images into a single group or combine them with vector layers in a more logical way. Just remember that *standalone rasters won't update*. If you're not going to update an image, you can leave it ungrouped.
 * DO NOT rename layer and text styles after the design is online. These names are used in the CSS code, so if you modify them, you'll break the links with the current code.
 * For the same reason, DO NOT add new styles, if you don't won't to bother your web developers. Edit your current styles instead.
@@ -82,22 +82,22 @@ To apply changes to a live webpage, proceed as follows.
 
 1. Select the altered layer/layer group.
 2. Open the **Export** tab in the right panel.
-3. Click ![refresh button](/lunacy-docs/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
+3. Click ![refresh button](/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
 
     <embed type="image/svg+xml" alt="svg 5 Copy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ACYsQrDtUkSZyKE0lL3AtA.svg" /> 
 
-    **Tip:** If ![refresh button](/lunacy-docs/public/refresh_icon.png) appears disabled, click the question mark next to it first.
+    **Tip:** If ![refresh button](/public/refresh_icon.png) appears disabled, click the question mark next to it first.
 
 4. Repeat as needed.
 
 **For text layers:**
 
 1. When you're done with all edits of text layers, deselect all layers on the canvas (press `Esc` or click anywhere over the canvas).
-2. Click ![refresh button](/lunacy-docs/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
+2. Click ![refresh button](/public/refresh_icon.png) next to the **Linked Design** section. This will apply the changes to the web page.
 
     <embed type="image/svg+xml" alt="svg 7" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/tdocmRnNoEKC5rox84tqvw.svg" /> 
 
-    **Tip:** If ![refresh button](/lunacy-docs/public/refresh_icon.png) appears disabled, click the question mark next to it first.
+    **Tip:** If ![refresh button](/public/refresh_icon.png) appears disabled, click the question mark next to it first.
 
 ### Viewing changes in the browser
 In the browser, reload the page by pressing `Ctrl + F5`/`⌘ ⌥ R` to make sure that the cached content is cleared.

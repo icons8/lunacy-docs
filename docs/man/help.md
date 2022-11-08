@@ -1011,7 +1011,7 @@ You can use keyboard shortcuts in Lunacy to help speed up your design process.
 
 We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If you are used to the certain combinations, probably they will work here.
 
-Full list of shortcuts is available at  [http://docs.icons8.com/lunacy-docs/man/hot-keys](http://docs.icons8.com/lunacy-docs/man/hot-keys). We update this list as we add the new features.
+Full list of shortcuts is available at  [http://docs.icons8.com/man/hot-keys](http://docs.icons8.com/man/hot-keys). We update this list as we add the new features.
 
 
 # Frequently Asked Questions
@@ -1044,7 +1044,7 @@ Q: How would I know when to update Lunacy? Once there are updates, will I have t
 A: Windows Store version updates silently. If not, check if you [have](https://support.microsoft.com/en-gb/help/15081/windows-turn-on-automatic-app-updates) the automatic updates on. We recommend this option. \
 If you installed Lunacy with a downloadable installer, it will notify you about the update with an alert in the window title.
 
-In any case, you can check our [release notes](https://docs.icons8.com/lunacy-docs/release-notes/).
+In any case, you can check our [release notes](https://lunacy.docs.icons8.com/release-notes/).
 
 
 # Contacting Support

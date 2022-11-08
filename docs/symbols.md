@@ -29,7 +29,7 @@ Moreover, you can also change the text on one or even all instances. That will b
 
 The demo below demonstrates the effect and efficiency of using symbols in designs.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/symb-tutorial14.gif" height="auto"><source src="/lunacy-docs/public/symbolsdemo3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symb-tutorial14.gif" height="auto"><source src="/public/symbolsdemo3.mp4" type="video/mp4"></video>
 
 ## [Creating symbols](#creating-symbols)
 
@@ -155,7 +155,7 @@ There are two ways to edit a main symbol:
 
 The changes you make immediately apply to all the symbol instances across the project, except for the instances with respective overrides (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/symbols-editmasterph.png" height="auto"><source src="/lunacy-docs/public/symbols-editmaster.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symbols-editmasterph.png" height="auto"><source src="/public/symbols-editmaster.mp4" type="video/mp4"></video>
 
 **Way 2**
 
@@ -241,7 +241,7 @@ The menu features the following sections:
 * Commands: Shows the list of symbol-related commands. Click [here](#symbol-related-commands) for details.
 * Related: Shows the symbols that share the same category/subcategory with the selected symbol instance.
 * Categories: Shows the list of available symbol categories. You can click through the categories and subcategories to find the required symbol. For your convenience, the category and subcategories to which the selected symbol instance belong will have a dot next their names (see the gif below). For details about how to organize symbols, read [here](#organizing-symbols).
-* UI kits: Shows the list of external UI kits from where you can also select a replacement. For details about UI kits, click <a href="https://docs.icons8.com/lunacy-docs/libraries/#ui-kits" target="_blank">here</a>.
+* UI kits: Shows the list of external UI kits from where you can also select a replacement. For details about UI kits, click <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
 
 **Tip:** The size of the menu depends on the number of symbols and symbol categories in your project. If you don't see the content of the upper or lower menu sections in full, use the scroll.
 
@@ -282,7 +282,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Detach from Library</td>
-      <td>This command applies only to symbols from external files, i.e. to symbols from UI kits. Detached symbols become document symbols and appear on the <B>Symbols</B> tab and the <a href="https://docs.icons8.com/lunacy-docs/symbols/#symbols-page">symbols page</a>. For more information about UI kits, click <a href="https://docs.icons8.com/lunacy-docs/libraries/#ui-kits" target="_blank">here</a>.</td>
+      <td>This command applies only to symbols from external files, i.e. to symbols from UI kits. Detached symbols become document symbols and appear on the <B>Symbols</B> tab and the <a href="https://lunacy.docs.icons8.com/symbols/#symbols-page">symbols page</a>. For more information about UI kits, click <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.</td>
       <td><code>-</code></td>
     </tr>
     <tr>
@@ -302,7 +302,7 @@ The commands are as follows:
     </tr>
     <tr>
       <td>Organize Symbols</td>
-      <td>A click over this command opens the symbols panel on the <B>Libraries</B> tab, where you can organize symbols as described <a href="https://docs.icons8.com/lunacy-docs/symbols/#organizing-symbols">here</a>.</td>
+      <td>A click over this command opens the symbols panel on the <B>Libraries</B> tab, where you can organize symbols as described <a href="https://lunacy.docs.icons8.com/symbols/#organizing-symbols">here</a>.</td>
       <td><code>-</code></td>
     </tr>
   </tbody>
@@ -335,7 +335,7 @@ Let's assume that we are designing a contact UI. We have prepared two templates:
 {:.is-big}
 ![A view of the symbols page](public/symb-tutorial1.png)
 
->**Note:** To demonstrate Lunacy capabilities to the maximum, we have also added some layer and text styles. For details about them, click <a href="https://docs.icons8.com/lunacy-docs/layerstyles/" target="_blank">here</a>.
+>**Note:** To demonstrate Lunacy capabilities to the maximum, we have also added some layer and text styles. For details about them, click <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">here</a>.
 
 Now, we'll move from the symbols page to our project page, add one of the templates to the artboard and let the magic begin.
 
@@ -400,7 +400,7 @@ The gif below demonstrates text overrides described in Steps 2 and 3.
 
 ![Text override. Steps 2 and 3](public/symb-tutorial8.gif)
 
-For details, about text generation and text snippets, click <a href="https://docs.icons8.com/lunacy-docs/text/#text-generation-and-text-snippets" target="_blank">here</a>.
+For details, about text generation and text snippets, click <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">here</a>.
 
 ### Nested symbols overrides
 
@@ -466,7 +466,7 @@ If your template features a hotspot, you can override its target artboard. Optio
 
 ### Tint overrides
 
-For details about tint overrides, read <a href="https://docs.icons8.com/lunacy-docs/styling/#tint-overrides" target="_blank">here</a>.
+For details about tint overrides, read <a href="https://lunacy.docs.icons8.com/styling/#tint-overrides" target="_blank">here</a>.
 
 ## Duplicating symbols
 

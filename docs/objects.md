@@ -26,15 +26,15 @@ page_nav:
 
 In Lunacy you will work with the following types of objects:
 
-* <a href="https://docs.icons8.com/lunacy-docs/interface/#artboards" target="_blank">Artboards</a>
-* <a href="https://docs.icons8.com/lunacy-docs/text/" target="_blank">Text objects</a>
-* <a href="https://docs.icons8.com/lunacy-docs/tools/#pen-tool" target="_blank">Vector objects</a>
-* <a href="https://docs.icons8.com/lunacy-docs/tools/#shape-tools" target="_blank">Shapes</a>
-* <a href="https://docs.icons8.com/lunacy-docs/tools/#image-tool" target="_blank">Images</a>
-* <a href="https://docs.icons8.com/lunacy-docs/components/" target="_blank">Components and component instances</a>
-* <a href="https://docs.icons8.com/lunacy-docs/tools/#icon-tool" target="_blank">Icons</a> 
-* <a href="https://docs.icons8.com/lunacy-docs/tools/#hotspot-tool" target="_blank">Hotspots</a> 
-* <a href="https://docs.icons8.com/lunacy-docs/tools/#slice-tool" target="_blank">Slices</a> 
+* <a href="https://lunacy.docs.icons8.com/interface/#artboards" target="_blank">Artboards</a>
+* <a href="https://lunacy.docs.icons8.com/text/" target="_blank">Text objects</a>
+* <a href="https://lunacy.docs.icons8.com/tools/#pen-tool" target="_blank">Vector objects</a>
+* <a href="https://lunacy.docs.icons8.com/tools/#shape-tools" target="_blank">Shapes</a>
+* <a href="https://lunacy.docs.icons8.com/tools/#image-tool" target="_blank">Images</a>
+* <a href="https://lunacy.docs.icons8.com/components/" target="_blank">Components and component instances</a>
+* <a href="https://lunacy.docs.icons8.com/tools/#icon-tool" target="_blank">Icons</a> 
+* <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspots</a> 
+* <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slices</a> 
 
 For specifics on working with each type of objects, follow the above links. This section provides an overview of basic operations common for all object types.
 
@@ -42,16 +42,16 @@ For specifics on working with each type of objects, follow the above links. This
 
 To add an object to the canvas:
 
-1. Enable the respective <a href="https://docs.icons8.com/lunacy-docs/tools" target="_blank">tool</a> on the toolbar or with a shortcut (see the note below).
+1. Enable the respective <a href="https://lunacy.docs.icons8.com/tools" target="_blank">tool</a> on the toolbar or with a shortcut (see the note below).
 2. Click or click and drag over the area where you want to place the object.
 
 If you need to create a regular shape (for example, a circle or a square), hold down `Shift` while dragging.
 
 That is the most common method used in all similar applications. When you use it, the point from where you start dragging becomes an angle of the shape, if it is a rectangle, or an angle of its selection frame, if it is anything else. If you want the starting point to become the center of the shape, hold down `Alt` while dragging and `Alt + Shift` to get a regular shape (see the demo below).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/objects-addingplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-adding.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-addingplaceholder.png" height="auto"><source src="/public/objects-adding.mp4" type="video/mp4"></video>
 
-**Note:** To check out the shortcuts available in Lunacy, click the **Keyboard Shortcuts** button at the lower-left corner of the interface (this will open the shortcuts panel in Lunacy) or read <a href="https://docs.icons8.com/lunacy-docs/shortcuts/" target="_blank">here</a>.
+**Note:** To check out the shortcuts available in Lunacy, click the **Keyboard Shortcuts** button at the lower-left corner of the interface (this will open the shortcuts panel in Lunacy) or read <a href="https://lunacy.docs.icons8.com/shortcuts/" target="_blank">here</a>.
 
 ![Adding text](public/objects-kbdshotcuts1.png)
 
@@ -83,7 +83,7 @@ After you select an object within a group, you can switch to other objects of th
 
 To quickly select all objects on the canvas, use the `Ctrl+A` shortcut.
 
-For details about using the select tool and a demo, click <a href="https://docs.icons8.com/lunacy-docs/tools/#select-tool" target="_blank">here</a>.
+For details about using the select tool and a demo, click <a href="https://lunacy.docs.icons8.com/tools/#select-tool" target="_blank">here</a>.
 
 ## Moving objects
 
@@ -91,15 +91,15 @@ To move an object, just click and drag it. Make sure that the cursor is over the
 
 If you want to restrict movement to the X or Y axis, hold down `Shift` as you drag.
 
-For precise positioning you can use the arrow keys. Each keystroke moves an object by one pixel. Holding down `Shift` increases each step to 10 pixels (see also the <a href="https://docs.icons8.com/lunacy-docs/interface/#measuring" target="_blank">Measuring</a> section).
+For precise positioning you can use the arrow keys. Each keystroke moves an object by one pixel. Holding down `Shift` increases each step to 10 pixels (see also the <a href="https://lunacy.docs.icons8.com/interface/#measuring" target="_blank">Measuring</a> section).
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/objects-movingplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-moving.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-movingplaceholder.png" height="auto"><source src="/public/objects-moving.mp4" type="video/mp4"></video>
 
 Also, to adjust an object's position on the canvas or artboard, you can use the **X** and **Y** controls in the Inspector. If an object is on the canvas, the figures in the **X** and **Y** fields show the absolute coordinates of the object's top-left selection handle.
 
-If the object is a part of an artboard, **X** and **Y**  display the coordinates of the object's top-left selection handle relative to the artboard's top-left corner. See the demo below and the <a href="https://docs.icons8.com/lunacy-docs/interface/#tips-on-working-with-the-inspector" target="_blank">tips</a> on working with numeric fields in the Inspector.
+If the object is a part of an artboard, **X** and **Y**  display the coordinates of the object's top-left selection handle relative to the artboard's top-left corner. See the demo below and the <a href="https://lunacy.docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">tips</a> on working with numeric fields in the Inspector.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/objects-moving1placeholder.png" height="auto"><source src="/lunacy-docs/public/objects-moving1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-moving1placeholder.png" height="auto"><source src="/public/objects-moving1.mp4" type="video/mp4"></video>
 
 ## Grouping objects
 
@@ -118,7 +118,7 @@ After you select an object within a group, you can switch to other objects of th
 
 You can move objects into or out of a group by dragging them in the **Objects** panel.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/objects-groupingplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-grouping.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-groupingplaceholder.png" height="auto"><source src="/public/objects-grouping.mp4" type="video/mp4"></video>
 
 To ungroup objects, select the group and click the **Ungroup** button (![Ungroup button](public/objects-ungroupbutton.png)) on the context toolbar or press `Ctrl+Shift+G`.
 
@@ -128,7 +128,7 @@ To duplicate an object, select it and press `Ctrl+D`. Alternatively, you can hol
 
 Lunacy remembers the offset of the latest duplicate. So, if you press `Ctrl+D` shortly after you create a duplicate of and object, Lunacy will add another duplicate with the same offset as the previous one (see the demo below). This can be handy for designing patterns or things alike.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/objects-duplicateplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-duplicate.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-duplicateplaceholder.png" height="auto"><source src="/public/objects-duplicate.mp4" type="video/mp4"></video>
 
 And of course, you can use the **Duplicate** command and standard **Copy** and **Paste** options available on the context menu.
 
@@ -180,14 +180,14 @@ The table below provides a description of these options.
       </tr>
       <tr>
         <td><b>Copy style/Paste style</b></td>
-        <td>These options allow you to copy the <a href="https://docs.icons8.com/lunacy-docs/styling" target="_blank">styling properties</a> of the selected object and apply them to another object. See the demo below.</td>
+        <td>These options allow you to copy the <a href="https://lunacy.docs.icons8.com/styling" target="_blank">styling properties</a> of the selected object and apply them to another object. See the demo below.</td>
       </tr>
   </tbody>
 </table>
 
 The demo below shows how you can copy and paste styling properties between objects.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/objects-copypasteplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-copypaste.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-copypasteplaceholder.png" height="auto"><source src="/public/objects-copypaste.mp4" type="video/mp4"></video>
 
 ## Resizing objects
 
@@ -202,7 +202,7 @@ There are several ways how you can resize objects:
 
 To resize an object, drag any of its selection handles as shown in the demo below. Use the handles on the sides, to change the object's height or width. Use the corner handles to adjust the object's height and width at the same time.  Hold down `Shift` while dragging to preserve the object's aspect ratio.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/object-resizing1.png" height="auto"><source src="/lunacy-docs/public/object-resizing1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing1.png" height="auto"><source src="/public/object-resizing1.mp4" type="video/mp4"></video>
 
 Also, you can hold down `Alt` while dragging to resize the object from its center, rather than from the edge that you are dragging.
 
@@ -212,17 +212,17 @@ The `Alt+Shift+drag` combination is also possible to preserve the object's aspec
 
 Select the object and use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or `CTRL+Shift + arrow keys` ( by 10 pixels).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/tips-keyresizeph.png" height="auto"><source src="/lunacy-docs/public/tips-keyresize.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-keyresizeph.png" height="auto"><source src="/public/tips-keyresize.mp4" type="video/mp4"></video>
 
 ### Resizing an object through the Inspector
 
 Select the object and use the **W** (width) and **H** (height) edit fields, when you need to define the exact size of an object.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/object-resizing2.png" height="auto"><source src="/lunacy-docs/public/object-resizing2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing2.png" height="auto"><source src="/public/object-resizing2.mp4" type="video/mp4"></video>
 
 Click the links button to preserve the object's aspect ratio. With this button enabled, the change of a value in one of the boxes, will result in respective value adjustment in the second box.
 
-Also, read <a href="https://docs.icons8.com/lunacy-docs/interface/#tips-on-working-with-the-inspector" target="_blank">here</a> for some tips on working with numeric fields in the Inspector.
+Also, read <a href="https://lunacy.docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">here</a> for some tips on working with numeric fields in the Inspector.
 
 ### Scaling objects
 
@@ -238,7 +238,7 @@ To scale an object:
 
 See the demo below and note how the value of the border thickness changes with the object size.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/object-resizing3.png" height="auto"><source src="/lunacy-docs/public/object-resizing3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing3.png" height="auto"><source src="/public/object-resizing3.mp4" type="video/mp4"></video>
 
 In a similar fashion you can scale several objects at a time.
 
@@ -264,7 +264,7 @@ These controls include:
 
 To better understand how all this works, see the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/objects-constraintsplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-constraints.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-constraintsplaceholder.png" height="auto"><source src="/public/objects-constraints.mp4" type="video/mp4"></video>
 
 ## Aligning and distributing objects
 
@@ -286,42 +286,42 @@ The table below provides a description of the controls.
   </thead>
   <tbody>
     <tr>
-      <td><img src="/lunacy-docs/public/objects-alignleft.png" alt="Align Left"></td>
+      <td><img src="/public/objects-alignleft.png" alt="Align Left"></td>
       <td><b>Align Left</b>. Aligns the selected objects to the left bound of their selection frame.</td>
       <td><code>Shift + Ctrl + &leftarrow;</code></td>
     </tr>
     <tr>
-      <td><img src="/lunacy-docs/public/objects-alignhoriz.png" alt="Align Horizontally"></td>
+      <td><img src="/public/objects-alignhoriz.png" alt="Align Horizontally"></td>
       <td><b>Align Horizontally</b>. Horizontally centers the selected objects.</td>
       <td><code>Ctrl + Shift + -</code></td>
     </tr>
     <tr>
-      <td><img src="/lunacy-docs/public/objects-alignright.png" alt="Align Right"></td>
+      <td><img src="/public/objects-alignright.png" alt="Align Right"></td>
       <td><b>Align Right</b>. Aligns the selected objects to the right bound of their selection frame.</td>
       <td><code>Shift + Ctrl + &rightarrow;</code></td>
     </tr>
     <tr>
-      <td><img src="/lunacy-docs/public/objects-distribvertspac.png" alt="Distribute Vertical Spacing"></td>
+      <td><img src="/public/objects-distribvertspac.png" alt="Distribute Vertical Spacing"></td>
       <td><b>Distribute Vertical Spacing</b>. Evens vertical spacing between the selected objects. Note that the topmost and the lowermost objects in the selection always preserve their original position, while the objects between them adjust their position to ensure equal spacing.</td>
       <td><code>Shift + Ctrl + V</code></td>
     </tr>
     <tr>
-      <td><img src="/lunacy-docs/public/objects-aligntop.png" alt="Align Top"></td>
+      <td><img src="/public/objects-aligntop.png" alt="Align Top"></td>
       <td><b>Align Top</b>. Aligns the selected objects to the top bound of their selection frame.</td>
       <td><code>Shift + Ctrl + &uparrow;</code></td>
     </tr>
     <tr>
-      <td><img src="/lunacy-docs/public/objects-alignvert.png" alt="Align Vertically"></td>
+      <td><img src="/public/objects-alignvert.png" alt="Align Vertically"></td>
       <td><b>Align Vertically</b>. Vertically centers the selected objects.</td>
       <td><code>Ctrl + Shift + |</code></td>
     </tr>
     <tr>
-      <td><img src="/lunacy-docs/public/objects-alignbot.png" alt="Align Bottom"></td>
+      <td><img src="/public/objects-alignbot.png" alt="Align Bottom"></td>
       <td><b>Align Bottom</b>. Aligns the selected objects to the bottom bound of their selection frame.</td>
       <td><code>Shift + Ctrl + &downarrow;</code></td>
     </tr>
     <tr>
-      <td><img src="/lunacy-docs/public/objects-distribhorspac.png" alt="Distribute Vertical Spacing"></td>
+      <td><img src="/public/objects-distribhorspac.png" alt="Distribute Vertical Spacing"></td>
       <td><b>Distribute Horizontal Spacing</b>. Evens horizontal spacing between the selected objects. Note that the rightmost and the leftmost objects in the selection always preserve their original position, while the objects between them adjust their position to ensure equal spacing.</td>
       <td><code>Shift + Ctrl + H</code></td>
     </tr>
@@ -330,7 +330,7 @@ The table below provides a description of the controls.
 
 To better understand how it all works, see the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/lunacy-docs/public/objects-aligndistrpaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-aligndistr.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-aligndistrpaceholder.png" height="auto"><source src="/public/objects-aligndistr.mp4" type="video/mp4"></video>
 
 ### Smart distribute
 
@@ -342,7 +342,7 @@ For this:
 2. Click the **Tidy up** button in the Inspector. The objects get re-arranged,red handles appear between rows and columns of the "grid".
 3. Drag the red handles to adjust the spacing between rows and columns. Click the red circle in the center of an object and drag to move it to another “grid cell”. See the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/objects-smartdistribph.png" height="auto"><source src="/lunacy-docs/public/objects-smartdistr.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-smartdistribph.png" height="auto"><source src="/public/objects-smartdistr.mp4" type="video/mp4"></video>
 
 ## Arranging objects along the Z-axis
 
@@ -355,7 +355,7 @@ To position objects along the Z-axis, use the send/bring commands found on the c
 
 The demo below shows how it works.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/objects-sendbringplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-sendbring.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-sendbringplaceholder.png" height="auto"><source src="/public/objects-sendbring.mp4" type="video/mp4"></video>
 
 Also, you can do the same by dragging objects up and down relative one another in the object list.
 
@@ -380,7 +380,7 @@ To quickly return the object into its initial position:
 
 To flip the selected object, use the **Flip Horizontally** (![Flip horizontally button](public/objects-fliphbtn.png)) and **Flip Vertically** (![Flip horizontally button](public/objects-flipvbtn.png)) buttons that appear on the context toolbar.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/objects-flipplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-flip.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-flipplaceholder.png" height="auto"><source src="/public/objects-flip.mp4" type="video/mp4"></video>
 
 Alternatively, you can use the following shortcuts:
 
@@ -391,4 +391,4 @@ Also, the **Flip Horizontally** and **Flip Vertically** commands are available o
 
 Another way to flip an object is to drag selection handles as shown in the demo below.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/objects-flipplaceholder.png" height="auto"><source src="/lunacy-docs/public/objects-flip2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-flipplaceholder.png" height="auto"><source src="/public/objects-flip2.mp4" type="video/mp4"></video>

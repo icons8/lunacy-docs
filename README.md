@@ -13,5 +13,5 @@ We're looking for your help editing and expanding it. In particular, we'll gladl
 ## Related
 
 * [Lunacy home page](https://icons8.com/lunacy)
-* [Release notes](https://docs.icons8.com/lunacy-docs/release-notes/)
+* [Release notes](https://lunacy.docs.icons8.com/release-notes/)
 * [Suggest feature](http://lunatics.icons8.com)

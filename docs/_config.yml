@@ -1,5 +1,5 @@
 doks:
-    baseurl: /lunacy-docs
+    baseurl: /
     color_theme: blue
     micro_nav:
     - title: About Lunacy
