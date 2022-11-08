@@ -12,6 +12,7 @@
     <None Include="$(MSBuildThisFileDirectory)about.md" />
     <None Include="$(MSBuildThisFileDirectory)CNAME" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\css\style.scss" />
+    <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\css\jquery.modal.min.scss" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\fonts\icons\icons.svg" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\fonts\SFProText-Medium.svg" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\fonts\SFProText-Regular.svg" />
@@ -23,6 +24,7 @@
     <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\js\vendor\bootstrap\scrollspy.min.js" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\js\vendor\jquery.js" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\js\vendor\jquery.min.js" />
+    <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\js\vendor\jquery.modal.min.js" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\js\vendor\matchHeight.js" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\js\vendor\matchHeight.min.js" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\_sass\components\_callout.scss" />
@@ -36,6 +38,7 @@
     <None Include="$(MSBuildThisFileDirectory)doks-theme\_sass\components\_site-header.scss" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\_sass\components\_social-list.scss" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\_sass\components\_title-anchor-link.scss" />
+    <None Include="$(MSBuildThisFileDirectory)doks-theme\_sass\components\_search-bar.scss" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\_sass\generic\_base.scss" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\_sass\generic\_code.scss" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\_sass\generic\_normalize.scss" />

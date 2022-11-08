@@ -397,7 +397,8 @@ function getCurrentNavLink() {
 
 function changeHrefOnScroll(href) {
 	let stateObj = { id: "100" };
-	window.history.pushState(stateObj, "", href);
+	// FIX: overusage window.history
+	// window.history.pushState(stateObj, "", href);
 } 
 
 

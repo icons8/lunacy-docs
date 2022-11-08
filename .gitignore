@@ -263,3 +263,10 @@ __pycache__/
 
 # Some copies for reference
 .docs/index-copy.md
+
+# jekyll
+.jekyll-cache
+_site
+
+# MacOS
+.DS_Store
