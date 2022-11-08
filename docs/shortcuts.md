@@ -156,6 +156,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Horizontal Align Justify |`Ctrl+Alt+J` | `⌥ ⌘ J` |
 | Refresh generated text |`Shift+R` | `Shift R` |
 
+<!--
+
 ## Text Generation Snippets
 
 
@@ -193,6 +195,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Country  |`;cou` or `;country` |
 | Language  |`;la` or `;language` |
 
+-->
 
 ## Operations with Components
 

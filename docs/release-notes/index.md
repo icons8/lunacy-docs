@@ -38,6 +38,145 @@ page_nav:
 
 # Version 8
 
+## 8.8 (Beta)
+
+*Release date: October 30, 2022*
+
+Download beta:
+
+* [EXE x64 beta](https://lcdn.icons8.com/setup/beta/LunacySetup.exe), [EXE x32 beta](https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe), [EXE ARM beta](https://lcdn.icons8.com/setup/beta/LunacySetup_arm64.exe)
+* [DMG beta](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
+* [DEB beta](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
+
+### Import from Figma
+
+Now you can import Figma documents to Lunacy. For this:
+
+1. Go to the **Home** tab.
+2. Click **Import from Figma**. The document import screen opens.
+3. If your Figma document is public, paste the link to it and click **Import**. Otherwise, you’ll also have to define the access token.
+
+{:.is-big}
+<embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/5iItmr9sz0qD-L2Uknzi9g.svg" /> 
+
+
+Lunacy will import your Figma document as a cloud document. If you want, you can save it as local.
+
+### More cloud servers
+
+We’ve increased the number of our servers throughout the world. Now, they are available in:
+
+* Europe
+* North America
+* South America
+* South Africa
+* Australia
+* Japan
+* India
+* China (Hong Kong)
+
+Upon start, Lunacy automatically picks the server with the best latency.
+
+
+<embed type="image/svg+xml" alt="Group 5" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/m_wLv_F4wEmhs1A-QGLgrA.svg" /> 
+
+
+### Team Subscription
+
+Now, you can subscribe to the Lunacy Cloud Team Plan and get:
+
+* Unlimited number of team documents
+* Unlimited version history
+* Unlimited thrash storage period
+* Free personal cloud license for the team owner
+
+For details about teamwork in Lunacy, read <a href="https://docs.icons8.com/lunacy-docs/teams/" target="_blank">here</a>.
+
+
+<embed type="image/svg+xml" alt="Group 2" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/GAnM3wqyBkKUsNwt5c7_kQ.svg" /> 
+
+
+### Custom Nudge Amount
+
+Nudging is moving layers with arrow keys. By default, Lunacy nudges a layer by 1 px when you press an arrow key (small nudge), or by 10 px when you press an arrow key holding down Shift (big nudge). Now, you can define custom values.
+
+For this:
+
+1. Deselect all layers on the canvas (press `Esc` or click over an empty canvas area).
+2. In the **Nudge Amount** section of the right panel, specify the required values.
+
+
+<embed type="image/svg+xml" alt="nudge2" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/5UOgqVMTGEeuYaIW7Lq2mA.svg" /> 
+
+
+
+### Reworked text generation
+
+We removed the text generation control from the text settings in the right panel. Text snippets also no longer work.
+
+Instead, now when you click over the canvas to create a text block or delete everything in an existing text block, you see an auto-text dropdown. You can scroll the list, to select the required option. Or you can just start typing the name of the option you need. For example, if you need a name of a person, or username, or file name, start typing *“name”* and you’ll see all the matching options. Click the one you need to apply.
+
+
+<embed type="image/svg+xml" alt="Group 8" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/r9I6F0cf8UKbhCosuXdJjQ.svg" /> 
+
+
+Also, text blocks with auto-generated content, similarly to avatars, now come with a refresh icon above the upper-left corner. By clicking it you can choose the text that suits you best.
+
+As you might know, Lunacy automatically updates auto-generated content upon duplication. You can disable it in **Layer** > **Content Generation** > **Auto refresh**.
+
+If you need to keep auto refresh working, but want to preserve some layers with generated content unchanged, right click over such a layer and select **Detach from Generated Content** on the context menu. This applies both to text and avatars.
+  
+### Auto shape colors
+
+Drawing gray rectangles over gray rectangles is weird, right? We also think so. Now, when you create new shapes by dragging, Lunacy automatically applies colors from pre-generated document color palette to shapes depending on the shape size and current background. This will help you create mockups at the lightning speed and recolor them in a single click by refreshing the palette.
+
+If you prefer drawing gray rectangles over gray rectangles, remove all the colors from the palette.
+
+### Auto Z-index
+
+Lunacy automatically determines the order of layers (aka z-index) as you drag them. For example, if you drag a larger layer over a smaller one, Lunacy will place the larger layer below the smaller one. You can still use the **Send to back**/**Send to front commands**, but now you will need them way less often.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/lunacy-docs/public/rn-autozaxisph.png" height="auto"><source src="/lunacy-docs/public/rn-autozaxis.mp4" type="video/mp4"></video>
+
+### Snapping to artboard presets
+
+Now when you create an artboard by dragging it over the canvas, you see special markers that will help you quickly create an artboard of a preset size: A4, iPhone 14, Dribble shot, etc. This can be helpful in some cases. Alternatively, you can still use presets from the right panel.
+
+To disable snapping, hold down `Ctrl` (`⌘`) while dragging.
+
+<embed type="image/svg+xml" alt="Group 7" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/D7EWycxvykihzxdzj_YYJQ.svg" /> 
+
+
+### Czech language ![Czech flag](/lunacy-docs/public/icons8-czechia-24.png)
+
+Big thanks to *elektronek* and *petr.zachrdla* for helping us out with the Czech localization.
+If you also want to take part in Lunacy localization, click <a href="https://docs.icons8.com/localization/" target="_blank">here</a>.
+
+### Improvements
+
+* **Improved UX of document pages**. The control for switching between pages became less annoying. It now longer drops down every time you hover the mouse close to the search bar.
+* **Lazy loading of open documents**. Lunacy now loads only the content of the currently open tab. Other open documents load as you switch through the tabs. This will significantly speed up Lunacy loading time upon restart.
+* **Improved Teams section**. We reworked the team section of the **Home** tab for easier document, project, and team member management.
+* **Photos and Illustration tabs**. We improved navigation on these tabs, added categories to photos, removed undraggable style covers from illustrations. Also, all new illustration styles that appear at icons.com now immediately become available in Lunacy.
+* **Pre-cached icons**. Now Lunacy comes with 1,000 pre-cached icons. So, the Icon tool will work even on computers that have never been connected to the internet.
+* **Improved panning**. You can now press the spacebar and drag canvas to where you need at any moment, even when you’re in the middle of drawing a shape. After releasing the spacebar, you can continue with drawing. This can be handy in many cases, especially on small screens.
+* **Improved color management**. In the previous versions, when you wanted to edit the color of a layer with a color variable applied, you had to detach the layer color from variables first. Now, you can do it right away. In the color control, click the colored circle to invoke the Color Picker or type the color code in the edit field. The new color will get detached from color variables automatically.
+* **Improved angular gradients**. Improved angular gradients. You can now rotate them with the **Rotate gradient clockwise** button.
+* **Multiple fills**. Now when you apply the second, third, etc. fill to the same layer, every new fill comes in black (000000) with 20% opacity.
+* **Mass update of generated content**. You can now update generated content (texts and/or avatars) in all selected layers or on a selected artboard using the `Shift + R` shortcut.
+* **Auto-text labels**. Lunacy now shows the type of auto-generated text when you create a text block by dragging.
+* **Recent font sizes**. The font size drop-down list now shows up to five font sizes you’ve recently applied.
+* **Copy-pasting texts to other apps**. You can now copy text content in Lunacy and paste it to any other app.
+* **Google Fonts in CSS**. Lunacy now includes direct links to Google Fonts into the CSS code and CSS files for linked design.
+* **Layer Tree**. Layer Tree search and render/update performance dramatically improved.
+* **New shortcuts for tools**. **R,R** — rounded rectangle; `L,L` — arrow; `O,O` — triangle; `O,O,O` — polygon; `O,O,O,O` — star;  `P,P` — pencil.
+* **Account deletion**. You can now delete your Lunacy account with all cloud data.
+* **Sign in with Apple ID**. You can now set up a Lunacy account with your Apple ID. 
+* **Improved border position control**. We redesigned the icons of the control to make them more intuitive.
+* **Prototyping**. Since updating of prototypes is quite a resource-hungry procedure, we added a control that lets you select whether to update prototypes in real-time or after restart.
+
+
+
 ## 8.7.2 hotfix
 
 *Release date: October 3, 2022*
