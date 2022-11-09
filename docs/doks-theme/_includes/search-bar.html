@@ -22,7 +22,7 @@
       {% for post in site.html_pages %}
         "{{ post.url | slugify }}": {
           "title": "{{ post.title | xml_escape }}",
-          "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+          "content": {{ post.content | markdownify | strip_html | jsonify }},
           "url": "{{ post.url | xml_escape }}"
         }
         {% unless forloop.last %},{% endunless %}
