@@ -29,7 +29,7 @@ You can use comments to keep your notes and to-do lists or discuss designs with 
 
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> The comments feature is available only in cloud documents</p>
+    <p><strong>Notes:</strong></p> <li>The comments feature is available only in cloud documents</li><li>If you're not the owner of a document, to leave or reply to a comment you should be signed in to your Icons8 account.</li>
 </div>
 
 In Lunacy, there are three type of comments:
@@ -37,6 +37,8 @@ In Lunacy, there are three type of comments:
 * Text comments
 * Voice comments
 * Stickers
+
+
 
 ## Adding a text comment
 
@@ -65,6 +67,10 @@ In Lunacy, there are three type of comments:
 3. Click ![stop recording button](/public/stop_voice_comment_icon.png) to stop recording. Use the ![play recording](/public/play_voice_comment_icon.png) button to listen to the record before sending or the ![trash can button](/public/trash_can_icon.png) to delete the record.
 4. Click ![send](/public/Paper_Plane_Icon.png) to send your message or simply press `Enter`.
 
+If you have several microphones, you can switch between them through **Help** > **Microphone**, see the figure below.
+
+![Switching between microphones](/public/comments_micro.png)
+
 
 ## Adding stickers
 
@@ -90,7 +96,45 @@ Also, you can open the Comments panel and view the full list of comments. To ope
 
 In the Comments panel, you can choose between viewing *All* or *Unresolved* comments. If you choose the *Unresolved* option on the panel, this will also hide all the resolved comments on the canvas.
 
-To resolve or unresolve a comment click ![Resolve and unresolve comment button](/public/resolve_comment_icon.png) in the comment bubble or Comment panel.
+To resolve or unresolve a comment click ![Resolve and unresolve comment button](/public/resolve_comment_icon.png) in the comment bubble or Comments panel.
+
+## Replying to comments
+
+To reply to a comment:
+
+1. Click over the comment bubble to open it.
+2. Type you reply or record a voice message and click ![send](/public/Paper_Plane_Icon.png), or post a sticker.
+
+![replying to a comment](/public/replying_comments.png)
+
+
+
+## Editing and deleting comments
+
+To edit or delete a comment:
+
+1. Click over the comment bubble to open it.
+2. Click ![send](/public/show_more_icon.png) and select the required option on the menu.
+
+![deleting a comment](/public/deleting_comments.png)
+
+Note that only comment authors or document owner can delete comments. 
+
+
+
+## Disabling the display of comments
+
+By default, comments are always visible on the canvas. To hide comments, click ![view](/public/nine_dots_icon.png) > **Comments** on the top bar.
+
+To hide the comments from the canvas:
+
+1. On the top bar, click ![view](/public/nine_dots_icon.png).
+2. On the displayed menu, click **Comments**.
+
+![Hiding comments](/public/hiding_comments.png)
+
+
+To enable the display of comments, repeat the above procedure, or simply click ![Comment tool icon](/public/comment_icon.png) on the tool bar, or press `C`. 
 
 
 
