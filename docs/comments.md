@@ -124,9 +124,9 @@ Note that only comment authors or document owner can delete comments.
 
 ## Disabling the display of comments
 
-By default, comments are always visible on the canvas. To hide comments, click ![view](/public/nine_dots_icon.png) > **Comments** on the top bar.
+By default, comments are always visible on the canvas.
 
-To hide the comments from the canvas:
+To hide the comments:
 
 1. On the top bar, click ![view](/public/nine_dots_icon.png).
 2. On the displayed menu, click **Comments**.
