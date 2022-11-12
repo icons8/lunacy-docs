@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Tips and tricks
-        url: '/tips'
+        content: Comments
+        url: '/comments'
     prev:
         content: Linked design
         url: '/linked_design'

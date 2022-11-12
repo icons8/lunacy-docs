@@ -20,8 +20,8 @@ page_nav:
         url: '/shortcuts'
     
     prev:
-        content: Teams
-        url: '/teams'
+        content: Comments
+        url: '/comments'
 ---
 
 

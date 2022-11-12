@@ -23,7 +23,7 @@ page_nav:
 ---
 
 
-You can use comments to keep your notes and to-do lists or discuss designs with your teammates and customers. Here's a short video explainer on how to work with comments in Lunacy. For details, go on reading.
+You can use comments to keep your notes and to-do lists or discuss designs with your teammates and customers. Here's a short demo video showing the work with comments in Lunacy. For details, go on reading.
 
 ![Comments explainer](/public/comments-to-layers-1024.gif)
 

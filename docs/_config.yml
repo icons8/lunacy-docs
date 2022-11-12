@@ -37,6 +37,8 @@ doks:
       url: '/linked_design' 
     - title: 'Teams'
       url: '/teams'
+    - title: 'Comments'
+      url: '/comments'
     - title: 'Tips and Tricks'
       url: '/tips'
     - title: 'Shortcuts'
