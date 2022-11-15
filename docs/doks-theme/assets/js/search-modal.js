@@ -58,8 +58,8 @@ jQuery(function () {
     const term = event.target.value.trim();
     if (term) {
       $("#search-results").show();
-      const results = searchIndex.search(term);
-      displaySearchResults(results, window.store);
+      // const results = searchIndex.search(term);
+      // displaySearchResults(results, window.store);
     }
   });
 });
