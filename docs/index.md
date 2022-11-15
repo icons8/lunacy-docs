@@ -81,6 +81,10 @@ grid_navigation:
       excerpt: Learn how to organize teamwork
       url: '/teams'
       icon: 'team'
+    - title: 'Comments'
+      excerpt: Make notes, provide feedback and share ideas with your teammates
+      url: '/comments'
+      icon: 'comments'
     - title: 'Tips and Tricks'
       excerpt: 'A chapter for those who do not read docs'
       url: '/tips'

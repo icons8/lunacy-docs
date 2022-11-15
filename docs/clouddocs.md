@@ -96,7 +96,13 @@ To exit the mode, click the user's avatar once again.
 
 Lunacy automatically saves document versions after a series of 100 user actions. You can also save versions manually through **File > Save to version history** or using the `Ctrl(⌘) + Alt + S` shortcut.
 
-To view a document version history, go to **File** > **Show version history**. The list of versions opens in the right panel. Double-click the required version to open it. File versions open as local temporary files that you can save to any folder on your computer and then import back to the Cloud.
+There several ways to view a document version history:
+
+* With the open document, go to **File** > **Show version history**.
+* With the open document, right-click over the document tab on the top panel, then select **Show version history** on the context menu.
+* On the **Home** tab, right-click over the document card, then select **Show version history** on the context menu. 
+
+The list of versions opens in the right panel. Hover the cursor over the required version and click ![open version button](public/external_link.png) to open it. File versions open as local temporary files that you can save to any folder on your computer and then import back to the Cloud.
 
 Also, on the history panel, you can:
 
