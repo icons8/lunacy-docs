@@ -68,7 +68,7 @@
 
 .search-input {
   border: none;
-  width: 95%;
+  width: calc(100% - 32px);
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -132,3 +132,6 @@
   }
 }
 
+#search-input-clear {
+  margin-right: 8px;
+}

@@ -124,7 +124,12 @@ jQuery(function () {
   $("#site_search").click(function (event) {
     event.preventDefault();
     this.blur(); // Manually remove focus from clicked link.
+    const box = this.getBoundingClientRect() 
     $("#search-modal").modal();
+    let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+    $("#search-modal").css({'position': 'absolute', 'top': box.y, 'left': !isMobile ? box.x: '5vw'});
+    
+    console.log('box', box)
     try {
       search.start();
     } catch (error) {
