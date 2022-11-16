@@ -72,7 +72,7 @@ jQuery(function () {
       const input = document.createElement("input");
 
       const loadingIndicator = document.createElement("span");
-      loadingIndicator.textContent = "Loading...";
+      loadingIndicator.setAttribute('class', 'loader')
 
       const button = document.createElement("button");
       button.innerHTML =
