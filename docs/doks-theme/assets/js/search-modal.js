@@ -4,10 +4,10 @@ jQuery(function () {
   $.modal.defaults.showClose = false;
 
   const search = instantsearch({
-    indexName: "{{ site.env.ALGOLIA_INDEX }}",
+    indexName: "{{ site.algolia.index_name }}",
     searchClient: algoliasearch(
-      "{{ site.env.ALGOLIA_APP_ID }}",
-      "{{ site.env.ALGOLIA_API_KEY }}"
+      "{{ site.algolia.application_id }}",
+      "{{ site.algolia.search_only_api_key }}"
     ),
   });
 
