@@ -84,6 +84,8 @@ includes_dir: ./doks-theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
 permalink: /:title/
 
-
 plugins:
   - jekyll-dotenv
+
+algolia:
+    application_id: LC1FRYJP72
