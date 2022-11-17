@@ -84,4 +84,7 @@ includes_dir: ./doks-theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
 permalink: /:title/
 
-# theme: jekyll-theme-cayman
+algolia:
+    application_id: E0SRZV1KDE
+    index_name: docs_lunacy
+    search_only_api_key: 3c69946746f91017d9d59e85186f93ea

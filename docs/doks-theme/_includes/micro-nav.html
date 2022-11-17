@@ -11,12 +11,12 @@
 	<div class="arrow"></div>
 </div>
 <ul id="micro-nav" class="normalize micro-nav {% if page.left_menu_off == true or page.layout == 'homepage' %} micro-nav--homepage {% endif %} {% if page.release_note %} release-note {% endif %}">
-	<li>
+	<li id="search-bar-item">
 		{% include search-bar.html %}
 	</li>
 	{% unless page.release_note %}
 	{% for item in site.doks.micro_nav %}
-	<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="not-visibly">{{ item.title }}</a></li>
+	<li class="nav-item"><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="not-visibly">{{ item.title }}</a></li>
 	{% endfor %}
 	<li class="suggest--github"><a href="https://github.com/icons8/lunacy-docs" class="btn btn--suggest-edit"><i class="icon icon--github"></i>Suggest edits</a></li>
 	{% endunless %}

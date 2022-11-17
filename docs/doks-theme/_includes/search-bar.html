@@ -8,24 +8,9 @@
 </div>
 
 <div class="search-modal" id="search-modal">
-    <div class="search-bar">
-        <input class="search-input" type="text" id="search-modal-input" placeholder="Search...">
+    <div class="search-bar" id="search-bar">
     </div>
     <div class="search-results" id="search-results">
-        <hr class="divider">
-        <ul class="search-results__list unstyled" id="search-results-list"></ul>
     </div>
+    <div id="powered-by"></div>
 </div>
-
-<script>
-    window.store = {
-      {% for post in site.html_pages %}
-        "{{ post.url | slugify }}": {
-          "title": "{{ post.title | xml_escape }}",
-          "content": {{ post.content | markdownify | strip_html | jsonify }},
-          "url": "{{ post.url | xml_escape }}"
-        }
-        {% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    };
-</script>
