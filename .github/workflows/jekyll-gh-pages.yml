@@ -32,9 +32,9 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         env:
-          ALGOLIA_INDEX: ${{ secrets.ALGOLIA_INDEX }}
-          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
-          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+          JEKYLL_ALGOLIA_INDEX: ${{ secrets.ALGOLIA_INDEX }}
+          JEKYLL_ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          JEKYLL_ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
         with:
           source: ./docs
           destination: ./_site
