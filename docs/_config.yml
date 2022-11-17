@@ -89,3 +89,4 @@ plugins:
 
 algolia:
     application_id: LC1FRYJP72
+    index_name: dev_icons8
