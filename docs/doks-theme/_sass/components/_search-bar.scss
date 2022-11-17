@@ -44,7 +44,7 @@
 }  
 
 .search-results {
-  display: none;
+  // display: none;
   font-size: 14px;
   &__list {
     margin: 0;
@@ -68,7 +68,7 @@
 
 .search-input {
   border: none;
-  width: 100%;
+  width: calc(100% - 32px);
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -110,5 +110,33 @@
 
   &:hover {
     background: rgba(0, 0, 0, 0.03);
+  }
+
+  mark {
+    background-color: #17a0e354;
+  }
+
+  .post-breadcrumb {
+    color: #424242;
+  }
+}
+
+#powered-by {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px 8px;
+  border-top: 1px solid #dadada;
+
+  .ais-PoweredBy-logo {
+    height: 1rem;
+  }
+}
+
+#search-input-clear {
+  margin-right: 8px;
+  cursor: pointer;
+  img {
+    height: 20px;
+    width: 20px;
   }
 }

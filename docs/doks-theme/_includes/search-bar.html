@@ -8,24 +8,13 @@
 </div>
 
 <div class="search-modal" id="search-modal">
-    <div class="search-bar">
-        <input class="search-input" type="text" id="search-modal-input" placeholder="Search...">
+    <div class="search-bar" id="search-bar">
     </div>
     <div class="search-results" id="search-results">
-        <hr class="divider">
-        <ul class="search-results__list unstyled" id="search-results-list"></ul>
     </div>
+    <div id="powered-by"></div>
 </div>
 
-<script>
-    window.store = {
-      {% for post in site.html_pages %}
-        "{{ post.url | slugify }}": {
-          "title": "{{ post.title | xml_escape }}",
-          "content": {{ post.content | markdownify | strip_html | jsonify }},
-          "url": "{{ post.url | xml_escape }}"
-        }
-        {% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    };
-</script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.14.2/dist/algoliasearch-lite.umd.js" integrity="sha256-dImjLPUsG/6p3+i7gVKBiDM8EemJAhQ0VvkRK2pVsQY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.49.1/dist/instantsearch.production.min.js" integrity="sha256-3s8yn/IU/hV+UjoqczP+9xDS1VXIpMf3QYRUi9XoG0Y=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.4.5/themes/satellite-min.css" integrity="sha256-TehzF/2QvNKhGQrrNpoOb2Ck4iGZ1J/DI4pkd2oUsBc=" crossorigin="anonymous">
