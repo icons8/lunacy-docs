@@ -71,8 +71,11 @@ jQuery(function () {
     if (isFirstRender) {
       const input = document.createElement("input");
 
-      const loadingIndicator = document.createElement("span");
+      const loadingContainer = document.createElement("div");
+      loadingContainer.setAttribute('class', 'loader-container')
+      const loadingIndicator = document.createElement("div");
       loadingIndicator.setAttribute('class', 'loader')
+      loadingContainer.appendChild(loadingIndicator)
 
       const button = document.createElement("button");
       button.innerHTML =
@@ -95,13 +98,13 @@ jQuery(function () {
       });
 
       widgetParams.container.appendChild(input);
-      widgetParams.container.appendChild(loadingIndicator);
       widgetParams.container.appendChild(button);
+      widgetParams.container.appendChild(loadingContainer);
       input.focus();
     }
 
     widgetParams.container.querySelector("input").value = query;
-    widgetParams.container.querySelector("span").hidden = !isSearchStalled;
+    widgetParams.container.querySelector(".loader-container").hidden = !isSearchStalled;
   };
 
   // Create the custom widget

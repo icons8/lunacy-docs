@@ -142,3 +142,14 @@
     width: 20px;
   }
 }
+
+.loader-container:not([hidden]) {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+  .loader {
+    height: 20px;
+    border-width: 2px;
+    width: 20px;
+  }
+}
