@@ -1,4 +1,9 @@
-on: [push]
+name: Build and publish search index
+
+on:
+  push:
+    branches: ['master']
+
 
 jobs:
   build:
@@ -14,6 +19,7 @@ jobs:
           ruby-version: 2.6.x
       - name: Install dependencies and push records
         run: |
+          cd docs
           gem install bundler
           bundle install --jobs 4 --retry 3
           bundle exec jekyll algolia

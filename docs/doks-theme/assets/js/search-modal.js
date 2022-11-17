@@ -129,7 +129,6 @@ jQuery(function () {
     let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
     $("#search-modal").css({'position': 'absolute', 'top': box.y, 'left': !isMobile ? box.x: '5vw'});
     
-    console.log('box', box)
     try {
       search.start();
     } catch (error) {
