@@ -25,3 +25,5 @@ jobs:
           bundle exec jekyll algolia
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+          ALGOLIA_INDEX: ${{ secrets.ALGOLIA_INDEX }}
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
