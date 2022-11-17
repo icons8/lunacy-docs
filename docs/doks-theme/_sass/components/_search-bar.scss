@@ -1,8 +1,10 @@
 .search {
     &__container {
       display: flex;
-      margin-right: 16px;
-      margin-bottom: 16px;
+      @media (min-width: $screen-lg-min) {
+        margin-right: 16px;
+        margin-bottom: 16px;
+      }
     }
     &__button {
       padding: 12px;
@@ -29,7 +31,7 @@
     border-radius: 8px;
     background: #fff;
     padding: 0;
-    @media screen and (max-width: 550px) {
+    @media screen and (max-width: 820px) {
       max-width: 90vw;
     }
   }

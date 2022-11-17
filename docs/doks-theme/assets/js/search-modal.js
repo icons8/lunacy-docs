@@ -126,7 +126,7 @@ jQuery(function () {
     this.blur(); // Manually remove focus from clicked link.
     const box = this.getBoundingClientRect() 
     $("#search-modal").modal();
-    let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+    let isMobile = window.matchMedia("only screen and (max-width: 820px)").matches;
     $("#search-modal").css({'position': 'absolute', 'top': box.y, 'left': !isMobile ? box.x: '5vw'});
     
     try {

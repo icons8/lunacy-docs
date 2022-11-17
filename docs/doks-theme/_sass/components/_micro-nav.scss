@@ -157,7 +157,7 @@ ul.micro-nav li:first-child, .micro-nav--homepage li:nth-child(2) {
 			margin-top: 10px;
 		}
 	}
-	li:first-child  {
+	li:first-child:not(#search-bar-item)  {
 		display: none;
 		@media (min-width: $screen-lg-min) {
 			display: block;
