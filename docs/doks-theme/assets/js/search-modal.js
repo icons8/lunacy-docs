@@ -53,7 +53,7 @@ jQuery(function () {
     }
 
     widgetParams.container.innerHTML = `
-    <hr class="divider">
+      ${hits.length > 0 ? '<hr class="divider">': ''}
       <ul class="search-results__list unstyled" id="search-results-list">
         ${hits
           .map((item) => {
@@ -98,8 +98,8 @@ jQuery(function () {
       });
 
       widgetParams.container.appendChild(input);
-      widgetParams.container.appendChild(button);
       widgetParams.container.appendChild(loadingContainer);
+      widgetParams.container.appendChild(button);
       input.focus();
     }
 

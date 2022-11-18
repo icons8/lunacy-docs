@@ -70,7 +70,7 @@
 
 .search-input {
   border: none;
-  width: calc(100% - 32px);
+  width: 100%;
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
@@ -120,6 +120,7 @@
 
   .post-breadcrumb {
     color: #424242;
+    font-weight: 600;
   }
 }
 
@@ -146,10 +147,15 @@
 .loader-container:not([hidden]) {
   display: flex;
   justify-content: center;
-  padding-bottom: 8px;
+  padding: 0 8px 0 0;
   .loader {
     height: 20px;
     border-width: 2px;
     width: 20px;
   }
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
 }
