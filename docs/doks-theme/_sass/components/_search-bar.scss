@@ -70,7 +70,7 @@
 
 .search-input {
   border: none;
-  width: 100%;
+  width: calc(100% - 32px);
   font-size: 14px;
   line-height: 28px;
   font-weight: 500;
