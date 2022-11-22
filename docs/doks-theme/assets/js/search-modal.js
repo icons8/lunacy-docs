@@ -62,6 +62,10 @@ jQuery(function () {
           .join("")}
       </ul>
     `;
+
+    $(".search-result").click(function() {
+      $.modal.close();
+    });
   };
 
   const renderSearchBox = (renderOptions, isFirstRender) => {
@@ -103,7 +107,7 @@ jQuery(function () {
       input.focus();
     }
 
-    widgetParams.container.querySelector("input").value = query;
+    // widgetParams.container.querySelector("input").value = query;
     widgetParams.container.querySelector(".loader-container").hidden = !isSearchStalled;
   };
 
@@ -141,6 +145,7 @@ jQuery(function () {
   });
 
   $("#search-modal").on($.modal.BEFORE_CLOSE, () => {
+    $('.search-result').unbind('click');
     $("#search-results-list").html("");
   });
 });
