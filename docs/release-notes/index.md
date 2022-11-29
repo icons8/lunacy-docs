@@ -48,6 +48,11 @@ Download beta:
 * [DMG beta](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
 * [DEB beta](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
 
+
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> Due to changes in the Cloud API, cloud documents once opened in v.8.8 won't open in the earlier Lunacy versions.</p>
+</div>
+
 ### Import from Figma
 
 Now you can import Figma documents to Lunacy. For this:
