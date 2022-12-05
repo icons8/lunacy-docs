@@ -181,6 +181,7 @@ If you also want to take part in Lunacy localization, click <a href="https://lun
 * **Prototyping**. Since updating of prototypes is quite a resource-hungry procedure, we added a control that lets you select whether to update prototypes in real-time or after restart.
 
 
+# Version 8
 
 ## 8.7.2 hotfix
 
@@ -200,9 +201,6 @@ Download:
 ### Fixed issues
 
 * Fixed Undo/redo issues in cloud documents
-
-
-# Version 8
 
 ## 8.7
 
