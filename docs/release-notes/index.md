@@ -36,9 +36,9 @@ page_nav:
 
 ---
 
-# Version 8
+# Version 9
 
-## 8.8 (Beta)
+## 9.0 (Beta)
 
 *Release date: October 30, 2022*
 
@@ -201,6 +201,8 @@ Download:
 
 * Fixed Undo/redo issues in cloud documents
 
+
+# Version 8
 
 ## 8.7
 
