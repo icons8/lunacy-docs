@@ -67,7 +67,18 @@ Now you can import Figma documents to Lunacy. For this:
 <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/5iItmr9sz0qD-L2Uknzi9g.svg" /> 
 
 
-Lunacy will import your Figma document as a cloud document. If you want, you can save it as local.
+To properly handle Figma documents, we added lots of new features. Many of them were frequent subjects of your feature requests. For example, artboards are now frames and can be nested. For the full list of changes, check out this <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">article</a>.
+
+
+<!--
+
+### Auto layouts
+
+Another long-awaited feature. With auto-layouts, you can create designs that will adjust to content as you change it. Imagine you edit the text of a button and the button itself expands or shrinks depending on the text size. Or a frame (artboard) that automatically gets longer as you add new elements to it.
+Auto layouts are a very powerful, yet complex, feature with lots of properties. But after you master it, your design flow will get to the next level.
+
+-->
+
 
 ### More cloud servers
 
@@ -154,7 +165,16 @@ Now when you create an artboard by dragging it over the canvas, you see special 
 
 To disable snapping, hold down `Ctrl` (`⌘`) while dragging.
 
-<embed type="image/svg+xml" alt="Group 7" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/D7EWycxvykihzxdzj_YYJQ.svg" /> 
+<embed type="image/svg+xml" alt="Group 7" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/D7EWycxvykihzxdzj_YYJQ.svg" />
+
+### Adjustable UI scale
+
+You can now change the scale of the interface. For this, go to **View > Interface scale**, or you can use the following shortcuts:
+
+* `Ctrl`+`Shift`+`Alt`+`+` / `⌥``Shift``⌘``=` — increase scale
+* `Ctrl`+`Shift`+`Alt`+`+` / `⌥``Shift``⌘``-` — decrease scale
+* `Ctrl`+`Shift`+`Alt`+`0` / `⌥``Shift``⌘``0` — reset scale
+
 
 
 ### Czech language ![Czech flag](/public/icons8-czechia-24.png)
