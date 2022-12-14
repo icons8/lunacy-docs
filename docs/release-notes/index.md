@@ -139,6 +139,9 @@ Drawing gray rectangles over gray rectangles is weird, right? We also think so. 
 
 If you prefer drawing gray rectangles over gray rectangles, remove all the colors from the palette.
 
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-autocolorsph.png" height="auto"><source src="/public/autocolors.mp4" type="video/mp4"></video>
+
+
 ### Auto Z-index
 
 Lunacy automatically determines the order of layers (aka z-index) as you drag them. For example, if you drag a larger layer over a smaller one, Lunacy will place the larger layer below the smaller one. You can still use the **Send to back**/**Send to front commands**, but now you will need them way less often.
