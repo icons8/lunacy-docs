@@ -74,7 +74,10 @@ To properly handle Figma documents, we added lots of new features. Many of them 
 
 ### Auto layouts
 
+<embed type="image/svg+xml" alt="Auto layouts" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/tDi3z5LBckqv-w51qDb-fg.svg" /> 
+
 Another long-awaited feature. With auto-layouts, you can create designs that will adjust to content as you change it. Imagine you edit the text of a button and the button itself expands or shrinks depending on the text size. Or a frame (artboard) that automatically gets longer as you add new elements to it.
+
 Auto layouts are a very powerful, yet complex, feature with lots of properties. But after you master it, your design flow will get to the next level.
 
 -->
@@ -170,11 +173,16 @@ To disable snapping, hold down `Ctrl` (`⌘`) while dragging.
 
 ### Adjustable UI scale
 
+<embed type="image/svg+xml" alt="Adjustable UI scale" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/rKKaqoZi5kiJ3ynv7VMoew.svg" /> 
+
 You can now change the scale of the interface. For this, go to **View > Interface scale**, or you can use the following shortcuts:
 
 * `Ctrl`+`Shift`+`Alt`+`+` / `⌥``Shift``⌘``=` — increase scale
 * `Ctrl`+`Shift`+`Alt`+`+` / `⌥``Shift``⌘``-` — decrease scale
 * `Ctrl`+`Shift`+`Alt`+`0` / `⌥``Shift``⌘``0` — reset scale
+
+
+
 
 
 
