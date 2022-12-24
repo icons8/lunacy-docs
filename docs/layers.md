@@ -26,7 +26,7 @@ page_nav:
 
 In Lunacy you will work with the following types of layers:
 
-* <a href="https://lunacy.docs.icons8.com/interface/#artboards" target="_blank">Artboards</a>
+* <a href="https://lunacy.docs.icons8.com/interface/#frames" target="_blank">Frames</a>
 * <a href="https://lunacy.docs.icons8.com/text/" target="_blank">Text layers</a>
 * <a href="https://lunacy.docs.icons8.com/tools/#pen-tool" target="_blank">Vectors</a>
 * <a href="https://lunacy.docs.icons8.com/tools/#shape-tools" target="_blank">Shapes</a>
@@ -95,9 +95,9 @@ For precise positioning you can use the arrow keys. Each keystroke moves a layer
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-movingplaceholder.png" height="auto"><source src="/public/objects-moving.mp4" type="video/mp4"></video>
 
-Also, to adjust an layer's position on the canvas or artboard, you can use the **X** and **Y** controls in the Inspector. If a layer is on the canvas, the figures in the **X** and **Y** fields show the absolute coordinates of the layers's top-left selection handle.
+Also, to adjust an layer's position on the canvas or frame, you can use the **X** and **Y** controls in the Inspector. If a layer is on the canvas, the figures in the **X** and **Y** fields show the absolute coordinates of the layers's top-left selection handle.
 
-If the layer is a part of an artboard, **X** and **Y**  display the coordinates of the layer's top-left selection handle relative to the artboard's top-left corner. See the demo below and the <a href="https://lunacy.docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">tips</a> on working with numeric fields in the Inspector.
+If the layer is a part of a frame, **X** and **Y**  display the coordinates of the layer's top-left selection handle relative to the frame's top-left corner. See the demo below and the <a href="https://lunacy.docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">tips</a> on working with numeric fields in the Inspector.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-moving1placeholder.png" height="auto"><source src="/public/objects-moving1.mp4" type="video/mp4"></video>
 
@@ -248,11 +248,11 @@ With the Scale tool selected, you can edit any of the settings (say, width) in t
 
 ### Resizing constraints
 
-Resizing constraints allow you to determine the behavior of a layer upon resizing of a group, component or an artboard to which the layer belongs. This can be very useful, for example, when you need to design a user interface for different screen sizes or devices.
+Resizing constraints allow you to determine the behavior of a layer upon resizing of a group, component or a frame to which the layer belongs. This can be very useful, for example, when you need to design a user interface for different screen sizes or devices.
 
-First of all, if you want layers on an artboard to resize when you adjust the size of the artboard:
+First of all, if you want layers on a frame to resize when you adjust the size of the frame:
 
-1. Select the artboard through the **Layer List** or by clicking its name on the canvas. The artboard Inspector panel appears on the right.
+1. Select the frame through the **Layer List** or by clicking its name on the canvas. The frame Inspector panel appears on the right.
 2. In the Inspector, make sure that the **Adjust content on resize** checkbox is selected.
 
 ![The Adjust content on resize checkbox](public/objects-adjustonresize.png)
@@ -263,8 +263,8 @@ Also, you can configure individual resize behavior of each layer using the contr
 
 These controls include:
 
-* The **Pin to edge** control. Allows you to pin the layer to one or several edges of the artboard or its parent, if the layer is a part of a group/component. So, when you resize the artboard or the parent, Lunacy won't change the distance between the layer and the edges it is pinned to. Click the respective T-shaped buttons to pin the layer.
-* The **Fix width** and **Fix size** checkboxes. Allow you to restrict the change of the layer's width or height upon resizing of the artboard or the parent layer.
+* The **Pin to edge** control. Allows you to pin the layer to one or several edges of the frame or its parent, if the layer is a part of a group/component. So, when you resize the frame or the parent, Lunacy won't change the distance between the layer and the edges it is pinned to. Click the respective T-shaped buttons to pin the layer.
+* The **Fix width** and **Fix size** checkboxes. Allow you to restrict the change of the layer's width or height upon resizing of the frame or the parent layer.
 
 To better understand how all this works, see the demo below.
 
@@ -276,7 +276,7 @@ To quickly align and distribute layers on the canvas, use the controls in the to
 
 ![Alignment and distribution buttons](public/objects-alignbtns.png)
 
-They become active only when you select two or more layers anywhere on the canvas, or when you select a single layer on an artboard. In the latter case, Lunacy will align the layer relative to the bounds of the artboard.
+They become active only when you select two or more layers anywhere on the canvas, or when you select a single layer on a frame. In the latter case, Lunacy will align the layer relative to the bounds of the frame.
 
 The table below provides a description of the controls.
 

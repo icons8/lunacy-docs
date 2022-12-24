@@ -51,7 +51,7 @@ Lunacy allows you to export your designs into the following formats:
 You can export:
 
 * Individual or multiple layers (both separately or as a single image)
-* Content of certain artboards (together with the artboards or without them)
+* Content of certain frames (together with the frames or without them)
 * Content within slices
 * Document pages
 * Entire projects
@@ -68,9 +68,9 @@ All these is detailed in the sections below. Also, here you will learn how to pr
 
 ## Important notices
 
-* Remember that during export Lunacy ignores all guides, square and layout grids, artboard names, as well as prototyping arrows and canvas color (not to be confused with the artboard color). There is now way to include them into export files.
+* Remember that during export Lunacy ignores all guides, square and layout grids, frame names, as well as prototyping arrows and canvas color (not to be confused with the frame color). There is now way to include them into export files.
 
-* Also, note that if there is at least one artboard in your project, during *export of a project* Lunacy ignores all layers that are beyond artboards, as well as main components.
+* Also, note that if there is at least one frame in your project, during *export of a project* Lunacy ignores all layers that are beyond frames, as well as main components.
 
 * The maximum dimension (height or width) of resulting raster files is limited to 16,000 pixels.
 
@@ -143,12 +143,12 @@ When selecting multiple layers you can get the *Click + to replace mixed content
 
 ![Exporting multiple layers](public/export-panel3.png)
 
-## Exporting content of artboards
+## Exporting content of frames
 
-To import content of an artboard or several artboards:
+To import content of a frame or several frames:
 
-1. Select the artboard(-s).
-2. In the Inspector, clear the **Include in export** checkbox (see the figure below), if you need only the content and don't want the artboard itself to appear in the export results.  
+1. Select the frame(-s).
+2. In the Inspector, clear the **Include in export** checkbox (see the figure below), if you need only the content and don't want the frame itself to appear in the export results.  
 3. In the Inspector, scroll down to the export section.
 4. Click the plus icon. Export settings appear.
 5. Define the required size, suffix/prefix and format. Repeat steps 4 and 5 as needed.
@@ -201,7 +201,7 @@ The quickest way to export all content of a document page is as follows:
 
 ## Exporting a project
 
-**Note:** To be able to export a project, you should have at least one artboard in it. Also, bear in mind that during export of projects, Lunacy ignores all layers that are beyond artboards, as well as main components.
+**Note:** To be able to export a project, you should have at least one frame in it. Also, bear in mind that during export of projects, Lunacy ignores all layers that are beyond frames, as well as main components.
 
 When exporting a project, Lunacy creates folders whose names correspond to the names of pages in the project. Inside these folders, Lunacy creates separate files for each layer available on the respective page. Grouped layers and component instances are viewed as single layers.
 
@@ -226,7 +226,7 @@ You can upload your designs to our Cloud and instantly share them with other peo
 You can export to cloud:
 
 * Single layers (grouped layers and component instances are also viewed as single layers).
-* Entire projects. Note that you won't be able to export projects without artboards and that during export of projects Lunacy ignores layers beyond artboards. The only format available for export of projects is PDF. Lunacy creates a separate page for each artboard in the project.
+* Entire projects. Note that you won't be able to export projects without frames and that during export of projects Lunacy ignores layers beyond frames. The only format available for export of projects is PDF. Lunacy creates a separate page for each frame in the project.
 
 ### Exporting a layer to Icons8 cloud
 
@@ -288,7 +288,7 @@ Also, you can use the **File > Export** menu option or its `Ctrl + E` shortcut.
   <tbody>
       <tr>
         <td>No layers</td>
-        <td>The content of all available artboards in separate PNG files.</td>
+        <td>The content of all available frames in separate PNG files.</td>
       </tr>
       <tr>
         <td>A single layer</td>
@@ -303,9 +303,9 @@ Also, you can use the **File > Export** menu option or its `Ctrl + E` shortcut.
 
 ## Printing your designs
 
-You can print the content of selected artboards:
+You can print the content of selected frames:
 
-1. Select one or several artboards.
+1. Select one or several frames.
 2. In the **File** menu, click **Print** or use the `Ctrl + P` shortcut.
 
 Lunacy exports the selection to PDF and opens it in your default PDF reader from where you can send the file to the printer.

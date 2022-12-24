@@ -76,7 +76,7 @@ The interface consists of the following main elements.
         </tr>
         <tr>
         <td><img src="/public/interface-layoutbtn.png" alt="Show/Hide layout button"></td>
-        <td>The <b>Layout</b> button. Controls the display of the layout grid. Available only when there is an artboard on the canvas. For details, read <a href="https://lunacy.docs.icons8.com/interface/#layout-grid">here</a>.</td>
+        <td>The <b>Layout</b> button. Controls the display of the layout grid. Available only when there is a frame on the canvas. For details, read <a href="https://lunacy.docs.icons8.com/interface/#layout-grid">here</a>.</td>
         <td><code>Ctrl+\</code> (<code>⌃ G</code>)</td>
         </tr>
         <tr>
@@ -186,7 +186,7 @@ To collapse all branches in the Layer List tree use the `Ctrl + ~` shortcut.
 
 ## [The Canvas](#the-canvas)
 
-The canvas is your working area. It has no boundaries, so you can add layers wherever you want. But if you need to observe certain frames you can add [artboards](#artboards) to the canvas. Also, you can toggle on and off the display of [rulers](#rulers-and-guides) and [grids](#grids) on the canvas.
+The canvas is your working area. It has no boundaries, so you can add layers wherever you want. But if you need to observe certain frames you can add [frames](#frames) to the canvas. Also, you can toggle on and off the display of [rulers](#rulers-and-guides) and [grids](#grids) on the canvas.
 
 ### Moving around the canvas
 
@@ -200,26 +200,26 @@ Another option to navigate the canvas is to hold down the `Space` key (the curso
 
 Also, read about the [zooming options](#zooming-options).
 
-### [Artboards](#artboards)
+### [Frames](#frames)
 
-Artboards are a special type of layers that lets you  divide the canvas into separate areas with different content. Artboards are optional but they come in handy when you’re designing for a certain screen size or device. To create an artboard, use the <a href="https://lunacy.docs.icons8.com/tools/#artboard-tool" target="_blank">artboard tool</a>. In fact, it is the tool that Lunacy enables first when you create a new document. It allows you to create a custom size artboard or to select an option from the list that will appear on the right. This list features presets for popular devices, screen resolutions and social media templates (you can also add your custom presets to this list, see [below](#adding-custom-presets)).
+Frames are a special type of layers that lets you  divide the canvas into separate areas with different content. Frames are optional but they come in handy when you’re designing for a certain screen size or device. To create an frame, use the <a href="https://lunacy.docs.icons8.com/tools/#frame-tool" target="_blank">frame tool</a>. In fact, it is the tool that Lunacy enables first when you create a new document. It allows you to create a custom size frame or to select an option from the list that will appear on the right. This list features presets for popular devices, screen resolutions and social media templates (you can also add your custom presets to this list, see [below](#adding-custom-presets)).
 
-To add an artboard:
+To add a frame:
 
-1. Select the artboard tool on the toolbar or press `A`.
-2. Click and drag to create a custom size artboard or select an option from the panel on the right (see the figure below).
-
-{:.is-big}
-<embed type="image/svg+xml" alt="Artboards " src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TRpyYZFvgUyuxKR8MzWR9Q.svg" />
-
-But even if you started your project without artboards, it is never too late to add them. Just drag the artboard tool over the layers that you want to put on an artboard.
-
-The figure below shows how artboards appear in the Layer List and a view of the Inspector with artboard settings and controls which differ a lot from those available in the [Inspector](#the-inspector) panels of other layer types.
+1. Select the frame tool on the toolbar or press `A`.
+2. Click and drag to create a custom size frame or select an option from the panel on the right (see the figure below).
 
 {:.is-big}
-<embed type="image/svg+xml" alt="Artboards Create" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OVBe70GtwUqoerEuoDf3WA.svg" />
+<embed type="image/svg+xml" alt="Frames" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TRpyYZFvgUyuxKR8MzWR9Q.svg" />
 
-The table below provides a description of Inspector elements displayed for artboards.
+But even if you started your project without frames, it is never too late to add them. Just drag the frame tool over the layers that you want to put on a frame.
+
+The figure below shows how frames appear in the Layer List and a view of the Inspector with frame settings and controls which differ a lot from those available in the [Inspector](#the-inspector) panels of other layer types.
+
+{:.is-big}
+<embed type="image/svg+xml" alt="Frames in Lunacy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OVBe70GtwUqoerEuoDf3WA.svg" />
+
+The table below provides a description of the right panel elements displayed for frames.
 
 <table>
   <thead>
@@ -231,19 +231,19 @@ The table below provides a description of Inspector elements displayed for artbo
   <tbody>
     <tr>
       <td><img src="/public/interface-artbinspector1.png" alt="Size controls"></td>
-      <td><b>Preset sizes and orientation</b><p>Use these controls to select the size of the artboard from one of the presets and change its orientation. The <b>Resize to Fit</b> button changes the size of an artboard to the size of the selection frame that you get when you select all layers on the given artboard.</p></td>
+      <td><b>Preset sizes and orientation</b><p>Use these controls to select the size of the frame from one of the presets and change its orientation. The <b>Resize to Fit</b> button changes the size of a frame to the size of the selection frame that you get when you select all layers on the given frame.</p></td>
     </tr>
     <tr>
       <td><img src="/public/interface-artbinspector2.png" alt="Position and dimension controls"></td>
-      <td><b>Position and size</b><p>The <b>X</b> and <b>Y</b> controls show and allow you to manage the absolute position of the artboard on the canvas.</p> <p> The <b>W</b> and <b>H</b> controls, show and allow to change the width and height of the layer. Click the links button, if you want to preserve aspect ratio when changing the size of the artboard.</p></td>
+      <td><b>Position and size</b><p>The <b>X</b> and <b>Y</b> controls show and allow you to manage the absolute position of the frame on the canvas.</p> <p> The <b>W</b> and <b>H</b> controls, show and allow to change the width and height of the layer. Click the links button, if you want to preserve aspect ratio when changing the size of the frame.</p></td>
     </tr>
     <tr>
       <td><img src="/public/interface-artbinspector3.png" alt="Adjust content on resize"></td>
-      <td><b>Adjust content on resize</b><p>With this checkbox selected, when you change the size of the artboard, Lunacy will proportionally change the size of the layers on it. Read also about resizing constraints.</p></td>
+      <td><b>Adjust content on resize</b><p>With this checkbox selected, when you change the size of the frame, Lunacy will proportionally change the size of the layers on it. Read also about resizing constraints.</p></td>
     </tr>
     <tr>
-      <td><img src="/public/interface-artbinspector4.png" alt="Artboard background"></td>
-      <td><b>Artboard background</b><p>Use these controls to change the color and opacity of the artboard. Also, you can clear the <b>Include in export</b> checkbox, if you don't want to include the artboard into export results. In such a case, Lunacy will export only the layers available on the artboard.</p></td>
+      <td><img src="/public/interface-artbinspector4.png" alt="Frame background"></td>
+      <td><b>Frame background</b><p>Use these controls to change the color and opacity of the frame. Also, you can clear the <b>Include in export</b> checkbox, if you don't want to include the frame into export results. In such a case, Lunacy will export only the layers available on the frame.</p></td>
     </tr>
     <tr>
       <td><img src="/public/interface-artbinspector5.png" alt="Layout grid settings"></td>
@@ -251,26 +251,26 @@ The table below provides a description of Inspector elements displayed for artbo
     </tr>
     <tr>
       <td><img src="/public/interface-artbinspector6.png" alt="Export controls"></td>
-      <td><b>Export controls</b><p>Allow you to export the artboard and its content. For details about export in Lunacy, click <a href="https://lunacy.docs.icons8.com/export" target="_blank">here</a>.</p></td>
+      <td><b>Export controls</b><p>Allow you to export the frame and its content. For details about export in Lunacy, click <a href="https://lunacy.docs.icons8.com/export" target="_blank">here</a>.</p></td>
     </tr>
   </tbody>
 </table>
 
-#### Selecting and moving artboards
+#### Selecting and moving frame
 
-To select an empty artboard, you can click anywhere within the artboard. To select an artboard with layers on it, click the artboard's name.
+To select an empty frame, you can click anywhere within the frame. To select a frame with layers on it, click the frame's name.
 
-Similarly, to move an empty artboard, click anywhere within the artboard and drag it to where you want it. To move an artboard with layers, click the artboard's name and drag.
+Similarly, to move an empty frame, click anywhere within the frame and drag it to where you want it. To move a frame with layers, click the frame's name and drag.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
 
-Alternatively, you can select the required artboard by clicking its name in the Layer List.
+Alternatively, you can select the required frame by clicking its name in the Layer List.
 
 #### [Adding custom presets](#adding-custom-presets)
 
-To add a custom artboard to presets:
+To add a custom frame to presets:
 
-1. Select the artboard tool on the toolbar or press `A`. The panel of artboard presets appears on the right.
+1. Select the frame tool on the toolbar or press `A`. The panel of frame presets appears on the right.
 2. At the bottom of the panel, click the **Create custom preset** button. Scroll the panel down if you don't see the button.
 3. In the displayed dialog box, define the preset name and its dimensions in pixels.
 4. Click **Save**. The group **Custom** appears in the panel of presets (see the figure below).
@@ -295,10 +295,10 @@ There are two types of grids: square grid and layout grids. If necessary, you ca
 
 #### [Square grid](#square-grid)
 
-If there no artboards on the canvas, Lunacy displays the square grid directly on the canvas (to enable it, just click the **Show grid** button on the action bar). Otherwise, you can toggle on/off the display of the grid:
+If there are no frames on the canvas, Lunacy displays the square grid directly on the canvas (to enable it, just click the **Show grid** button on the action bar). Otherwise, you can toggle on/off the display of the grid:
 
-* For all artboards available on the canvas. For this, deselect all artboards and layers on the canvas (click over an empty area on the canvas or press `Esc`) and click the **Show grid** button on the action bar.
-* Individually for each artboard. For this, select the required artboard or an layer on it and click the **Show grid** button on the action bar.
+* For all frames available on the canvas. For this, deselect all frames and layers on the canvas (click over an empty area on the canvas or press `Esc`) and click the **Show grid** button on the action bar.
+* Individually for each frame. For this, select the required frame or a layer on it and click the **Show grid** button on the action bar.
 
 To select the size of the grid cell, click the down arrowhead next to the button and choose one of the presets or define your custom size.
 
@@ -306,7 +306,7 @@ To select the size of the grid cell, click the down arrowhead next to the button
 
 #### [Layout grid](#layout-grid)
 
-You can apply layout grids only to [artboards](#artboards). If you have several artboards on a page, you can toggle on and off the display of layout grids for all or individually for each artboard. Also, each artboard can have its own settings of the layout grid (see the demo below).
+You can apply layout grids only to [frames](#frames). If you have several frames on a page, you can toggle on and off the display of layout grids for all or individually for each frame. Also, each frame can have its own settings of the layout grid (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-layoutgridplaceholder.png" height="auto"><source src="/public/interface-layoutgridvid.mp4" type="video/mp4"></video>
 
@@ -320,16 +320,16 @@ To learn the distance between two layers on the canvas:
 2. Hover the cursor over the other layer.
 3. Press and hold `Alt` (`⌥`).
 
-To learn the distance between an layer and the borders of the artboard:
+To learn the distance between an layer and the bounds of the frame:
 
 * Hover the cursor over the layer, then press and hold `Alt` (`⌥`).
   
   OR
-* Select a layer, then hover the cursor over an empty area within the artboard and press and hold `Alt` (`⌥`).
+* Select a layer, then hover the cursor over an empty area within the frame and press and hold `Alt` (`⌥`).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
 
-For precise positioning of layers on the artboard or relative one another, proceed as follows:
+For precise positioning of layers on the frame or relative one another, proceed as follows:
 
 1. Select one of the layers.
 2. Point the cursor over an empty area or over the other layer.
@@ -339,7 +339,7 @@ For precise positioning of layers on the artboard or relative one another, proce
 
 #### Grouped layers
 
-To measure the distance between a grouped layer and another layer (or grouped layer) or between a grouped layer and the borders of the artboard, proceed as described in the previous subsection.
+To measure the distance between a grouped layer and another layer (or grouped layer) or between a grouped layer and the borders of the frame, proceed as described in the previous subsection.
 
 To learn the distance between a member of a group and the borders of the group:
 
@@ -348,7 +348,7 @@ To learn the distance between a member of a group and the borders of the group:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure1ph.png" height="auto"><source src="/public/interface-groupmeasure1.mp4" type="video/mp4"></video>
 
-To learn the distance between a member of a group and the borders of the artboard:
+To learn the distance between a member of a group and the borders of the frame:
 
 1. Select the group member.
 2. Press and hold `Alt` (`⌥`).
@@ -489,9 +489,9 @@ There are two ways to change the color of the canvas:
 
 ## [The Inspector](#the-inspector)
 
-The Inspector is the panel that appears on the right of the Lunacy interface. When you create a new document, the first thing you see on the right is not yet the Inspector but the panel of presets of the <a href="https://lunacy.docs.icons8.com/tools/#artboard-tool" target="_blank">artboard tool</a>. Lunacy enables it by default upon creation of a new document. And only you add an artboard or add and select another layer, the Property Inspector appears.
+The Inspector is the panel that appears on the right of the Lunacy interface. When you create a new document, the first thing you see on the right is not yet the Inspector but the panel of presets of the <a href="https://lunacy.docs.icons8.com/tools/#frame-tool" target="_blank">frame tool</a>. Lunacy enables it by default upon creation of a new document. And only when you add a frame or add and select another layer, the Property Inspector appears.
 
-The set of controls and settings displayed in the Inspector varies with the type of layer that you select on the canvas. Below is a description of Inspector elements common for almost all layer types.
+The set of controls and settings displayed in the Inspector varies with the type of layer selected on the canvas. Below is a description of Inspector elements common for almost all layer types.
 
 <table>
     <thead>
@@ -515,7 +515,7 @@ The set of controls and settings displayed in the Inspector varies with the type
         </tr>
         <tr>
         <td><img src="/public/interface-resizectrl.png" alt="Resizing constraints"></td>
-        <td><b>Resizing constraints</b>. Appear when you select two or more layers, a group of layers or a layer on an artboard. Serve to determine the behavior of layers upon resizing.</td>
+        <td><b>Resizing constraints</b>. Appear when you select two or more layers, a group of layers or a layer on a frame. Serve to determine the behavior of layers upon resizing.</td>
         </tr>
         <tr>
         <td><img src="/public/interface-protoctrl.png" alt="Prototyping controls"></td>
@@ -624,4 +624,4 @@ The table below gives an overview of context menu commands and options common fo
   </tbody>
 </table>
 
-When you right-click an empty area on the canvas or an artboard, the only command available on the context menu will be **Paste here**. The point where you right-click is the place where Lunacy will place the top-left selection handle of the layer you paste.
+When you right-click an empty area on the canvas or a frame, the only command available on the context menu will be **Paste here**. The point where you right-click is the place where Lunacy will place the top-left selection handle of the layer you paste.

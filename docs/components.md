@@ -128,20 +128,20 @@ As it was mentioned earlier, you should keep main components on a dedicated page
 
 The first thing you should note is that names of main components appear in bold in the Layer List. Also, all component names, of both main component and instances, come with the component icon (![Component icon](public/symbolicon.png)) By clicking the name of a main component, you can unfold it to see its content.
 
-The figure below shows a view of a primitive main component, which includes an automatically added component artboard with the name of the component at the top and a group of layers.
+The figure below shows a view of a primitive main component, which includes an automatically added component frame with the name of the component at the top and a group of layers.
 
 ![A view of a main component](public/master_unfold65.png)
 
-The intent of component artboards is twofold:
+The intent of component frames is twofold:
 
 * To provide full compatibility with the native .sketch files.
 * To determine the layer behavior during resizing.
 
-You can choose to include or not to include the artboard fill into instances of a component. For this:
+You can choose to include or not to include the frame fill into instances of a component. For this:
 
 1. On the **Layers** tab, open the components page.
 2. Click the component name in the list of layers.
-3. In the Inspector, enable the artboard fill checkbox.
+3. In the Inspector, enable the frame fill checkbox.
 4. Select/clear the **Include in instances** checkbox.  
 
 ![A view of a main component](public/includeinstance65.png)
@@ -358,8 +358,8 @@ The commands are as follows:
       <td><code>-</code></td>
     </tr>
     <tr>
-      <td>Convert Component to Artboard</td>
-      <td>This command applies only to main components. It converts the selected main component into an artboard with a group of layers. All the instances of the component convert into groups.</td>
+      <td>Convert Component to Frame</td>
+      <td>This command applies only to main components. It converts the selected main component into a frame with a group of layers. All the instances of the component convert into groups.</td>
       <td><code>Ctrl+Shift+Y</code></td>
       <td><code>⌘ Shift Y</code></td>
     </tr>
@@ -404,7 +404,7 @@ Let's assume that we are designing a contact UI. We have prepared two templates:
 
 >**Note:** To demonstrate Lunacy capabilities to the maximum, we have also added some layer and text styles. For details about them, click <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">here</a>.
 
-Now, we'll move from the components page to our project page, add one of the templates to the artboard and see the power of components in action.
+Now, we'll move from the components page to our project page, add one of the templates to the frame and see the power of components in action.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-tutorialbeginph.png" height="auto"><source src="/public/components-tutorialbegin.mp4" type="video/mp4"></video>
 
@@ -538,7 +538,7 @@ Repeat the procedure to override text styles of the phone number and email addre
 
 ### Hotspot overrides
 
-If your template features a hotspot, you can override its target artboard. Optionally, you can select the none override option to disable the hotspot.
+If your template features a hotspot, you can override its target frame. Optionally, you can select the none override option to disable the hotspot.
 
 ### Tint overrides
 

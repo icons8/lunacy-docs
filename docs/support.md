@@ -130,9 +130,9 @@ The most common reason for Lunacy getting slow are:
 * Too many shadows and blurs.
 
     *Workaround:* Avoid excessive usage of shadows and blurs.
-* Too many content-heavy artboards on a single page.
+* Too much heavy content on a single page.
 
-   *Workaround:* Try to move a part of artboards to another <a href="https://lunacy.docs.icons8.com/interface/#document-pages" target="_blank">document page</a>.
+   *Workaround:* Try to move a part of the content to another <a href="https://lunacy.docs.icons8.com/interface/#document-pages" target="_blank">document page</a>.
 * Large amount of text converted to outlines.
 
    *Workaround:* Avoid converting large blocks of text (sentences or paragraphs) to outlines.

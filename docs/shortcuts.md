@@ -84,7 +84,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Eyedropper |`I` |  `I` |
 | Place Image |`M` |`M` |
 | Place Avatar |`Q` |`Q` |
-| Artboard |`A` |`A` |
+| Frame |`A` |`A` |
 | Hotspot |`H` |`H` |
 | Slice |`E` | `E` |
 | Comment|`C` | `C` |
@@ -105,7 +105,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | ------------- |-------------|--------------|
 | Select layer |`Click` | `Click` |
 | Select All |`Ctrl+A` | `⌘ A` |
-| Select All artboards (layers beyond artboards are ignored) |`Shift+Ctrl+A` |`⌘ Shift A`|
+| Select All frames (layers beyond frames are ignored) |`Shift+Ctrl+A` |`⌘ Shift A`|
 | Select a layer within a group |`Ctrl+Click` | `⌘ Click` |
 
 ## Editing layers
@@ -258,8 +258,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Fit Height |`Ctrl+4` | `⌘4` |
 | Previous page |`Page up` | `Page up` |
 | Next page |`Page down` | `Page down` |
-| Previous artboard |`Home` | `Home` |
-| Next artboard |`End` | `End` |
+| Previous frame |`Home` | `Home` |
+| Next frame |`End` | `End` |
 | Search |`Ctrl+/` or just `/` | `⌘ /` or just `/` |
 
 

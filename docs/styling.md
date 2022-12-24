@@ -34,7 +34,7 @@ Styling options that you can apply to layers in Lunacy include:
 
 They appear in the Inspector when you select layer. A combination of styling options applied to a layer is called a layer style. You can save layer styles for further use (read <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">here</a> for details).
 
-You can apply styling options to all <a href="https://lunacy.docs.icons8.com/layers/#introduction" target="_blank">types of layers</a>, except for technical ones (such as artboards, hotspots and slices). However, the only option applicable to group layers and components is the outer shadow.
+You can apply styling options to all <a href="https://lunacy.docs.icons8.com/layers/#introduction" target="_blank">types of layers</a>, except for technical ones (such as frames, hotspots and slices). However, the only option applicable to group layers and components is the outer shadow.
 
 In addition to the above, text layers feature typography settings, such as font, font size, line spacing, etc. Combined with the common styling options (or without them) they make up <a href="https://lunacy.docs.icons8.com/layerstyles/#text-styles" target="_blank">text styles</a>.
 

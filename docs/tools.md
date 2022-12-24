@@ -41,8 +41,8 @@ The table below provides an overview of the controls and their shortcuts.
       <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
     </tr>
     <tr>
-      <td><img src="/public/tool-artboardicon61.png" alt="Artboard tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#artboard-tool">Artboard tool</a>. Serves for adding artboards onto the canvas. Shares the same fly-out menu with the Hotspot tool.</td>
+      <td><img src="/public/tool-artboardicon61.png" alt="Frame tool"></td>
+      <td><a href="https://lunacy.docs.icons8.com/tools/#frame-tool">Frame tool</a>. Serves for adding frames onto the canvas. Shares the same fly-out menu with the Hotspot tool.</td>
       <td><code>A</code></td>
     </tr>
     <tr>
@@ -160,20 +160,20 @@ For details about working with layers, click <a href="https://lunacy.docs.icons8
 
 -->
 
-## Artboard tool
+## Frame tool
 
-Artboards are a way to divide the canvas into separate areas with different content. Artboards are optional but they come in handy when you're designing for a certain screen size or device.
+Frames are a way to divide the canvas into separate areas with different content. Frames are optional but they come in handy when you're designing for a certain screen size or device.
 
-To add an artboard:
+To add a frame:
 
-1. Select the artboard tool on the toolbar or press `A`.
-2. Click and drag to create a custom size artboard or select an option from the artboard selection panel which will appear on the right (see the figure below).
+1. Select the frame tool on the toolbar or press `A`.
+2. Click and drag to create a custom size frame or select an option from the frame selection panel which will appear on the right (see the figure below).
 
 {:.is-big}
-![Adding an artboard](public/tool-addatrboard.png)
+![Adding an frame](public/tool-addatrboard.png)
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> If there are already some layers on the canvas and you decide to put them on an artboard, just drag the artboard tool over these layers.</p>
+    <p><strong>Tip:</strong> If there are already some layers on the canvas and you decide to put them on a frame, just drag the frame tool over these layers.</p>
     <p>For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
 </div>
 
@@ -183,7 +183,7 @@ To add an artboard:
 
 -->
 
-For details, about using artboards read <a href="https://lunacy.docs.icons8.com/interface/#artboards" target="_blank">here</a>.
+For details, about using frames read <a href="https://lunacy.docs.icons8.com/interface/#frames" target="_blank">here</a>.
 
 ## Image tool
 
@@ -525,7 +525,7 @@ Use the Hotspot tool to create hotspot zones when designing prototypes. To add a
 1. Enable the tool by selecting it on the toolbar or simply press `H`.
 2. Click and drag over the area you want to have a hotspot.
 
-The demo below shows the procedure of creating a hotspot and setting a target artboard.
+The demo below shows the procedure of creating a hotspot and setting a target frame.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-addhotspotplaceholder.png" height="auto"><source src="/public/tool-addhotspot.mp4" type="video/mp4"></video>
 

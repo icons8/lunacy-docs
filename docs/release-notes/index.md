@@ -135,7 +135,7 @@ We removed the text generation control from the text settings in the right panel
 Instead, now when you click over the canvas to create a text block or delete everything in an existing text block, you see an auto-text dropdown. You can scroll the list, to select the required option. Or you can just start typing the name of the option you need. For example, if you need a name of a person, or username, or file name, start typing *“name”* and you’ll see all the matching options. Click the one you need to apply.
 
 
-<embed type="image/svg+xml" alt="Group 8" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/r9I6F0cf8UKbhCosuXdJjQ.svg" /> 
+<embed type="image/svg+xml" alt="Generated text" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/8NeLanh7bEuiLJ4-DCM8eQ.svg" /> 
 
 
 Also, text blocks with auto-generated content, similarly to avatars, now come with a refresh icon above the upper-left corner. By clicking it you can choose the text that suits you best.
@@ -159,13 +159,14 @@ Lunacy automatically determines the order of layers (aka z-index) as you drag th
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-autozaxisph.png" height="auto"><source src="/public/rn-autozaxis.mp4" type="video/mp4"></video>
 
-### Snapping to artboard presets
+### Snapping to frame presets
 
-Now when you create an artboard by dragging it over the canvas, you see special markers that will help you quickly create an artboard of a preset size: A4, iPhone 14, Dribble shot, etc. This can be helpful in some cases. Alternatively, you can still use presets from the right panel.
+Now when you create a frame by dragging it over the canvas, you see special markers that will help you quickly create a frame of a preset size: A4, iPhone 14, Dribbble shot, etc. This can be helpful in some cases. Alternatively, you can still use presets from the right panel.
 
 To disable snapping, hold down `Ctrl` (`⌘`) while dragging.
 
-<embed type="image/svg+xml" alt="Group 7" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/D7EWycxvykihzxdzj_YYJQ.svg" />
+<embed type="image/svg+xml" alt="Frame preset" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/Vm1ejO3JJUeVAA5nbGX3dA.svg" /> 
+
 
 ### Adjustable UI scale
 
@@ -193,7 +194,7 @@ If you also want to take part in Lunacy localization, click <a href="https://lun
 * **Improved color management**. In the previous versions, when you wanted to edit the color of a layer with a color variable applied, you had to detach the layer color from variables first. Now, you can do it right away. In the color control, click the colored circle to invoke the Color Picker or type the color code in the edit field. The new color will get detached from color variables automatically.
 * **Improved angular gradients**. Improved angular gradients. You can now rotate them with the **Rotate gradient clockwise** button.
 * **Multiple fills**. Now when you apply the second, third, etc. fill to the same layer, every new fill comes in black (000000) with 20% opacity.
-* **Mass update of generated content**. You can now update generated content (texts and/or avatars) in all selected layers or on a selected artboard using the `Shift + R` shortcut.
+* **Mass update of generated content**. You can now update generated content (texts and/or avatars) in all selected layers or on a selected frame using the `Shift + R` shortcut.
 * **Auto-text labels**. Lunacy now shows the type of auto-generated text when you create a text block by dragging.
 * **Recent font sizes**. The font size drop-down list now shows up to five font sizes you’ve recently applied.
 * **Copy-pasting texts to other apps**. You can now copy text content in Lunacy and paste it to any other app.
@@ -203,7 +204,7 @@ If you also want to take part in Lunacy localization, click <a href="https://lun
 * **Account deletion**. You can now delete your Lunacy account with all cloud data.
 * **Sign in with Apple ID**. You can now set up a Lunacy account with your Apple ID. 
 * **Improved border position control**. We redesigned the icons of the control to make them more intuitive.
-* **Prototyping**. Since updating of prototypes is quite a resource-hungry procedure, we added a control that lets you select whether to update prototypes in real-time or after restart.
+* **Prototyping**. Updating of prototypes is quite a resource-hungry procedure. For this reason, we added a control that lets you select whether to update prototypes in real-time or after restart.
 
 
 # Version 8

@@ -38,35 +38,35 @@ In the current version of Lunacy preview of prototypes takes place in Sketch Clo
 
 You can build prototypes to test and polish UX of your designs before sending them to development.
 
-Prototyping is based on artboards. If you are planning to add prototyping to your project, **the use of artboards is a must**.
+Prototyping is based on frames. If you are planning to add prototyping to your project, **the use of frames is a must**.
 
-The easiest way to create a prototype is to add a link between two artboards. The procedure is as follows:
+The easiest way to create a prototype is to add a link between two frames. The procedure is as follows:
 
-1. On the first artboard, select a layer the user will interact with (say, a button).
+1. On the first frame, select a layer the user will interact with (say, a button).
 2. In the Inspector panel, click + in the **Prototyping** section. A prototyping link appears.
-3. Point the cursor over the second artboard and click to set the link. To define the target artboard you can also use the **Target** dropdown list in the **Prototyping** section (see the demo below).
+3. Point the cursor over the second frame and click to set the link. To define the target frame you can also use the **Target** dropdown list in the **Prototyping** section (see the demo below).
 
-That's it. A primitive prototype is ready. To make it a bit more usable, we will repeat the above steps and create a control that will return the user from Artboard 1 to Artboard 2 (see the demo in the next subsection).
+That's it. A primitive prototype is ready. To make it a bit more usable, we will repeat the above steps and create a control that will return the user from Frame 1 to Frame 2 (see the demo in the next subsection).
 
 ## Previewing prototypes
 
-To preview a prototype, select an artboard you want to start with and click ![Play button](public/playbtn.png) in the upper-right corner of the interface. The preview window will show up.
+To preview a prototype, select the frame you want to start with and click ![Play button](public/playbtn.png) in the upper-right corner of the interface. The preview window will show up.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-procedureph.png" height="auto"><source src="/public/proto-procedure.mp4" type="video/mp4"></video>
 
-In a similar fashion you can link your artboards in the desired navigation sequence and preview your design in action.
+In a similar fashion you can link your frames in the desired navigation sequence and preview your design in action.
 
 ## Scrollable prototypes
 
-To create a scrollable prototype, you should select an artboard from Artboard Presets and resize it **vertically**. Alternatively, you can create a custom preset and then vertically resize it. For details, about artboards presets and custom presets, click <a href="https://lunacy.docs.icons8.com/interface/#artboards" target="_blank">here</a>.
+To create a scrollable prototype, you should select a frame from Frame Presets and resize it **vertically**. Alternatively, you can create a custom preset and then vertically resize it. For details, about frame presets and custom presets, click <a href="https://lunacy.docs.icons8.com/interface/#frames" target="_blank">here</a>.
 
-Resized artboards appear with the word *Resized* in the Inspector as shown in the figure below. Prototypes based on non-resized artboards won't scroll.
+Resized frames appear with the word *Resized* in the Inspector as shown in the figure below. Prototypes based on non-resized frames won't scroll.
 
-![Resized artboard in the Inspector](public/proto-resizedartboard.png)
+![Resized frame in the Inspector](public/proto-resizedartboard.png)
 
 ## [Hotspots](#hotspots)
 
-You can also use hotspots to create links between artboards. These are a special type of layers that lets you create interactive zones anywhere on artboards.
+You can also use hotspots to create links between frames. These are a special type of layers that lets you create interactive zones anywhere on frames.
 
 Also, hotspots come in handy when the size of an element that you want to make clickable or tappable is too small for convenient use. By adding a hotspot you can enlarge interactive area around the layer.
 
@@ -99,19 +99,19 @@ The figure below shows the controls that appear in the **Prototyping** section w
 
 1. This icon appears only when you select a linked layer. A click over the icon creates a hotspot over the layer. See the [Hotspots](#hotspots) section above.
 2. The trash can icon. Discards prototyping setting for the selected layer/Deletes the selected hotspot.
-3. A click over the arrow will bring you to the artboard which is set as target for the selected layer.
-4. Use this drop-down list box to set the target artboard for the selected layer (see the figure below). It shows the list of all artboards available in the document. If you have several pages in your document, the artboards will be organized by pages. It is OK, if interlinked artboards are on different pages. Also, the list features two more options:
+3. A click over the arrow will bring you to the frame which is set as target for the selected layer.
+4. Use this drop-down list box to set the target frame for the selected layer (see the figure below). It shows the list of all frames available in the document. If you have several pages in your document, the frames will be organized by pages. It is OK, if interlinked frames are on different pages. Also, the list features two more options:
 
     * None - sets the zero target.
-    * Previous artboard - a click over the layer with this option selected will bring you back to the previous view.
+    * Previous frame - a click over the layer with this option selected will bring you back to the previous view.
 
     ![Prototyping controls](public/proto-target.png)
 
-5. These controls allow you to choose how the target artboard will show up on the screen during the preview.
+5. These controls allow you to choose how the target frame will show up on the screen during the preview.
 6. Select this checkbox, if you want the selected layer to preserve its position when you scroll the screen (for instance, a floating button).
-7. With this checkbox selected, scrollable artboards will preserve their position during preview of the prototype. When you get back to the artboard, it will be in the same position as you've left it.
+7. With this checkbox selected, scrollable frames will preserve their position during preview of the prototype. When you get back to the frame, it will be in the same position as you've left it.
 
-    With the clear checkbox, the artboard will always return to the top.
+    With the clear checkbox, the frame will always return to the top.
 
 <!--
 ## Sharing prototypes
