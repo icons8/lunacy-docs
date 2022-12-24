@@ -70,8 +70,6 @@ Now you can import Figma documents to Lunacy. For this:
 To properly handle Figma documents, we added lots of new features. Many of them were frequent subjects of your feature requests. For example, artboards are now frames and can be nested. For the full list of changes, check out this <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">article</a>.
 
 
-<!--
-
 ### Auto layouts
 
 <embed type="image/svg+xml" alt="Auto layouts" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/tDi3z5LBckqv-w51qDb-fg.svg" /> 
@@ -79,8 +77,6 @@ To properly handle Figma documents, we added lots of new features. Many of them 
 Another long-awaited feature. With auto-layouts, you can create designs that will adjust to content as you change it. Imagine you edit the text of a button and the button itself expands or shrinks depending on the text size. Or a frame (artboard) that automatically gets longer as you add new elements to it.
 
 Auto layouts are a very powerful, yet complex, feature with lots of properties. But after you master it, your design flow will get to the next level.
-
--->
 
 
 ### More cloud servers
