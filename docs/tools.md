@@ -41,7 +41,7 @@ The table below provides an overview of the controls and their shortcuts.
       <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
     </tr>
     <tr>
-      <td><img src="/public/tool-artboardicon61.png" alt="Frame tool"></td>
+      <td><img src="/public/tools-frametool.png" alt="Frame tool"></td>
       <td><a href="https://lunacy.docs.icons8.com/tools/#frame-tool">Frame tool</a>. Serves for adding frames onto the canvas. Shares the same fly-out menu with the Hotspot tool.</td>
       <td><code>A</code></td>
     </tr>
