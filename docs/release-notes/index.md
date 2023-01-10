@@ -173,7 +173,7 @@ To disable snapping, hold down `Ctrl` (`⌘`) while dragging.
 
 You can now change the scale of the interface. For this, go to **View > Interface scale**, or you can use the following shortcuts:
 
-* `Ctrl`+`Shift`+`Alt`+`+` / `⌥``Shift``⌘``+` — increase scale
+* `Ctrl`+`Shift`+`Alt`+`+` / `⌥``Shift``⌘``=` — increase scale
 * `Ctrl`+`Shift`+`Alt`+`-` / `⌥``Shift``⌘``-` — decrease scale
 * `Ctrl`+`Shift`+`Alt`+`0` / `⌥``Shift``⌘``0` — reset scale
 
