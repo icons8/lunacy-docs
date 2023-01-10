@@ -46,7 +46,7 @@ The figure below shows the controls in the Inspector that allow you to transform
 These controls include:
 
 1. The **Corner radius** control. Available for most of pre-made shapes, except for ellipses, lines and arrows.
-2. The **Points** control. Available only for stars and poligons.
+2. The **Points** control. Available only for stars and polygons.
 3. The **Ratio** control. Available for stars only. Sets the ratio of star shapes.
 
 The demo below shows these controls in action.

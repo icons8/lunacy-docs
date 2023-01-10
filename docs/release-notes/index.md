@@ -173,18 +173,16 @@ To disable snapping, hold down `Ctrl` (`⌘`) while dragging.
 
 You can now change the scale of the interface. For this, go to **View > Interface scale**, or you can use the following shortcuts:
 
-* `Ctrl`+`Shift`+`Alt`+`+` / `⌥``Shift``⌘``=` — increase scale
-* `Ctrl`+`Shift`+`Alt`+`+` / `⌥``Shift``⌘``-` — decrease scale
+* `Ctrl`+`Shift`+`Alt`+`+` / `⌥``Shift``⌘``+` — increase scale
+* `Ctrl`+`Shift`+`Alt`+`-` / `⌥``Shift``⌘``-` — decrease scale
 * `Ctrl`+`Shift`+`Alt`+`0` / `⌥``Shift``⌘``0` — reset scale
 
 
+### Czech and Vietnamese languages ![Czech flag](/public/icons8-czechia-24.png) ![Vietnamese flag](/public/icons8-vietnam-24.png)
 
+* Big thanks to *elektronek* and *petr.zachrdla* for helping us out with the Czech localization.
+* Kudos to ĐINH HUY HOÀNG for the Vietnamese localization.
 
-
-
-### Czech language ![Czech flag](/public/icons8-czechia-24.png)
-
-Big thanks to *elektronek* and *petr.zachrdla* for helping us out with the Czech localization.
 If you also want to take part in Lunacy localization, click <a href="https://lunacy.docs.icons8.com/localization/" target="_blank">here</a>.
 
 ### Improvements
