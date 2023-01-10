@@ -180,8 +180,8 @@ You can now change the scale of the interface. For this, go to **View > Interfac
 
 ### Czech and Vietnamese languages ![Czech flag](/public/icons8-czechia-24.png) ![Vietnamese flag](/public/icons8-vietnam-24.png)
 
-* Big thanks to *elektronek* and *petr.zachrdla* for helping us out with the Czech localization.
-* Kudos to ĐINH HUY HOÀNG for the Vietnamese localization.
+* Big thanks to *ELEKTRONEK* and *PETR.ZACHRDLA* for helping us out with the Czech localization.
+* Kudos to *ĐINH HUY HOÀNG* for the Vietnamese localization.
 
 If you also want to take part in Lunacy localization, click <a href="https://lunacy.docs.icons8.com/localization/" target="_blank">here</a>.
 
