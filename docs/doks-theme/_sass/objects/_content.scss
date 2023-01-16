@@ -8,10 +8,10 @@
 		margin-top: 0;
 	}
 	&__desc {
-		margin-bottom: 60px;
-		@media (min-width: $screen-md-min) {
-			margin-bottom: 80px;
-		}
+		margin-bottom: 40px;
+		// @media (min-width: $screen-md-min) {
+		// 	margin-bottom: 80px;
+		// }
 	}
 	video, img, embed {
 		// border: 1px solid rgba(0,0,0,0.1);

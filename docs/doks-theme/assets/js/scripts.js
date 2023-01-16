@@ -389,7 +389,7 @@ function getCurrentNavLink() {
 	
 	for (let index = 0; index < array.length; index++) {
 		const element = array[index];
-		if (element.href == document.location.toString().split("/#")[0] || element.href + "/" == document.location) {
+		if (element.href == document.location.toString().split("/#")[0] || element.href == document.location.toString().split("/#")[0] + "/" || element.href + "/" == document.location) {
 			return element
 		}
 	}
