@@ -57,7 +57,7 @@ doks:
             image: true
         nav:
             - item_name: Documentation
-              item_url: /
+              item_url: https://icons8.com/docs
             - item_name: Request Features
               item_url: https://lunatics.icons8.com/
               external_url: true
