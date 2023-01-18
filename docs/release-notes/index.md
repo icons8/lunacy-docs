@@ -74,7 +74,7 @@ To properly handle Figma documents, we added lots of new features. Many of them 
 
 <embed type="image/svg+xml" alt="Auto layouts" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/tDi3z5LBckqv-w51qDb-fg.svg" /> 
 
-Another long-awaited feature. With auto-layouts, you can create designs that will adjust to content as you change it. Imagine you edit the text of a button and the button itself expands or shrinks depending on the text size. Or a frame (artboard) that automatically gets longer as you add new elements to it.
+Another long-awaited feature. With auto layouts, you can create designs that will adjust to content as you change it. Imagine you edit the text of a button and the button itself expands or shrinks depending on the text size. Or a frame (artboard) that automatically gets longer as you add new elements to it.
 
 Auto layouts are a very powerful, yet complex, feature with lots of properties. But after you master it, your design flow will get to the next level.
 
