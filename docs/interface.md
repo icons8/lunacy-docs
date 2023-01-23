@@ -186,7 +186,7 @@ To collapse all branches in the Layer List tree use the `Ctrl + ~` shortcut.
 
 ## [The Canvas](#the-canvas)
 
-The canvas is your working area. It has no boundaries, so you can add layers wherever you want. But if you need to observe certain frames you can add [frames](#frames) to the canvas. Also, you can toggle on and off the display of [rulers](#rulers-and-guides) and [grids](#grids) on the canvas.
+The canvas is your working area. It has no boundaries, so you can add layers wherever you want. If you need to work within certain boundaries, you can add [frames](#frames) to the canvas. Also, you can toggle on and off the display of [rulers](#rulers-and-guides) and [grids](#grids) on the canvas.
 
 ### Moving around the canvas
 
