@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Basics
-description: An overview of Lunacy's basic features and capabilities. 
+description: An overview of Lunacy's basic features and capabilities 
 icon: 'full-image'
 
 # Micro navigation
@@ -64,17 +64,17 @@ There are three tabs at the top of the Inspector: **Design**, **Export**, and **
 The set of controls and settings it displays depends on the type of the selected layer. These Inspector properties are universal for almost all layer types:
 
 | Inspector properties  | Description |   
-|---|---|
-| <embed type="image/svg+xml" alt="alignment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DmwgUeA720CJZI1lz-PJ9w.svg" width="240" />  | **Alignment and distribution controls** appear when you select two or more layers. |
-|  <embed type="image/svg+xml" alt="layer_position_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/s3beB96toEGEkauAALbBGA.svg" width="240" />  |  **Layer size and position.** Change the size of your layers and their position on the canvas. Use the buttons next to the position controls to flip your images and toggle the lock button on and off to preserve aspect ratio when resizing.  Controls vary depending on the selected layer.   |
-| <embed type="image/svg+xml" alt="rotate_corner" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/EWKB-3JAmEWF1tsSA8CWHw.svg" width="240" />  | **Rotation and corner radius.** Rotate your layers and change their corner radius properties. |
-| <embed type="image/svg+xml" alt="component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kv1070nxoEG0xJn6p3EqCQ.svg" width="240" /> |   **Component options.** Click `+` to create a reusable component out of your layer.  Learn more about components <a href="https://lunacy.docs.icons8.com/components" target="_blank">here</a>.  |
-|  <embed type="image/svg+xml" alt="appearance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PKGjyL5hCUi_SQXFpxBVWQ.svg" width="240" />   |   The   **Appearance** section displays the styles applied to your layer (text styles, color styles, effect styles, etc.)  You can add styles from presets, create your own, and detach layers from applied styles. |
-|  <embed type="image/svg+xml" alt="opacity_blend" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jU4eHkw6H0aRu54WtjdtlQ.svg" width="240" />   |   **Opacity and blend mode settings.** Set the overall opacity of a layer and its blending mode.   |
-|  <embed type="image/svg+xml" alt="fills" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fIXEmqXID02zbOWgEcQtOA.svg" width="240" />   |   **Fills.**  Change the color of your layer.  |
-|  <embed type="image/svg+xml" alt="borders" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hCg84E6xQ02xJxqoFK17hg.svg" width="240" />   |   **Borders.**  Add borders to your layers. |
-|  <embed type="image/svg+xml" alt="effects" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/UmOMNRV4XESuD2JDMXvi6Q.svg" width="240" />   |     **Effects.**  Add effects (shadows, blurs) to your layers. |
-|  <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NJc1I6eaxk21Auc91YH7XA.svg" width="240" />   |   **Prototyping.**   Activate prototyping options and turn your static designs into interactive prototypes. Here's <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">how it works</a>. |
+|-----------------------------|-------------------------|
+| <embed type="image/svg+xml" alt="alignment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DmwgUeA720CJZI1lz-PJ9w.svg" width="300" />  | **Alignment and distribution controls** appear when you select two or more layers. |
+|  <embed type="image/svg+xml" alt="layer_position_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/s3beB96toEGEkauAALbBGA.svg" width="300" />  |  **Layer size and position.** Change the size of your layers and their position on the canvas. Use the buttons next to the position controls to flip your images and toggle the lock button on and off to preserve aspect ratio when resizing.  Controls vary depending on the selected layer.   |
+| <embed type="image/svg+xml" alt="rotate_corner" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/EWKB-3JAmEWF1tsSA8CWHw.svg" width="300" />  | **Rotation and corner radius.** Rotate your layers and change their corner radius properties. |
+| <embed type="image/svg+xml" alt="component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kv1070nxoEG0xJn6p3EqCQ.svg" width="300" /> |   **Component options.** Click `+` to create a reusable component out of your layer.  Learn more about components <a href="https://lunacy.docs.icons8.com/components" target="_blank">here</a>.  |
+|  <embed type="image/svg+xml" alt="appearance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PKGjyL5hCUi_SQXFpxBVWQ.svg" width="300" />   |   The   **Appearance** section displays the styles applied to your layer (text styles, color styles, effect styles, etc.)  You can add styles from presets, create your own, and detach layers from applied styles. |
+|  <embed type="image/svg+xml" alt="opacity_blend" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jU4eHkw6H0aRu54WtjdtlQ.svg" width="300" />   |   **Opacity and blend mode settings.** Set the overall opacity of a layer and its blending mode.   |
+|  <embed type="image/svg+xml" alt="fills" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fIXEmqXID02zbOWgEcQtOA.svg" width="300" />   |   **Fills.**  Change the color of your layer.  |
+|  <embed type="image/svg+xml" alt="borders" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hCg84E6xQ02xJxqoFK17hg.svg" width="300" />   |   **Borders.**  Add borders to your layers. |
+|  <embed type="image/svg+xml" alt="effects" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/UmOMNRV4XESuD2JDMXvi6Q.svg" width="300" />   |     **Effects.**  Add effects (shadows, blurs) to your layers. |
+|  <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NJc1I6eaxk21Auc91YH7XA.svg" width="300" />   |   **Prototyping.**   Activate prototyping options and turn your static designs into interactive prototypes. Here's <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">how it works</a>. |
 
 Click on the Export tab to open up export settings for your entire project or click individual/multiple layers to export just them.  For details about export options, read <a href="https://lunacy.docs.icons8.com/export" target="_blank">here</a>. You can also use the Linked Design option to include embed links to Lunacy layers directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">in this section</a>.
 
@@ -124,10 +124,12 @@ To create a frame:
 
 <embed type="image/svg+xml" alt="frame_tool" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2fyYYjfVk0yoeOGZf8fM9A.svg" width=844 /> 
 
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> Snap a custom frame to a preset by dragging the cursor to one of the blue <code>+</code> signs that appear when you are creating a custom frame.</p>
+</div>
 
-Note: Snap a custom frame to a preset by dragging the cursor to one of the blue `+` signs that appear when you are creating a custom frame.
 
-You can gather layers into frames by dragging the frame tool over them. This is how frames appear in the Layer list:
+You can gather layers into frames by drawing a frame over them. This is how frames appear in the Layer list:
 
 <embed type="image/svg+xml" alt="frames_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2DFQ_UkoJE-xNA5RZ63EXA.svg" width=844 /> 
 
@@ -135,14 +137,14 @@ You can gather layers into frames by dragging the frame tool over them. This is 
 Inspector properties for frames are more or less identical to layer properties, except frames don't have appearance and prototyping options. They also have these additional properties:
 
 | Inspector properties  | Description |   
-|---|---|
-|  <embed type="image/svg+xml" alt="frame_preset_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/AQrMrq0BdkG833S3rs16TQ.svg" width="240" /> |  **Frame preset, size, and position.** The same options as for layers — and you can also change your frame size preset.  |
-|  <embed type="image/svg+xml" alt="clip_content" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jz6OnY46_Uy-ATZtsevRLA.svg" width="240" />  |     **Clip content.**  Enable this to hide content outside of the frame boundaries. |
-|   <embed type="image/svg+xml" alt="autolayout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eISP8OqKv0GXUBdKyvBdww.svg" width="240" />  |     **Auto layout.**  Align your design elements with auto layout. With them, your designs will adjust to content changes automatically. Set the distance between elements, between elements and frame boundaries, change distribution options, stacking options, and whether auto layout includes frame borders. |
-|  <embed type="image/svg+xml" alt="frame_color_adjust" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZWhmOvSgV0Wn2tLg80A-Ug.svg" width="240" />    |     **Background color and content behavior.** Change the frame background and choose whether its content changes as you resize it. |
-|  <embed type="image/svg+xml" alt="layout_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9-2Cn2UMuU-1oe_XPYabqQ.svg" width="240" /> |     **Layout grid.**  Add a layout grid to the frame.|
-| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/15ZcB9kEdkmu1y7FAZHefQ.svg" width="240" />  |     **Grid.**  Add a square grid to the frame. |
-|  <embed type="image/svg+xml" alt="selection_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/-zycpFIau0603lT5epFZFQ.svg" width="240" />  |     **Selection properties.**  Shows the colors and fonts used in the layers inside of the frame. |
+|--------|---------|
+|  <embed type="image/svg+xml" alt="frame_preset_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/AQrMrq0BdkG833S3rs16TQ.svg" width="300" /> |  **Frame preset, size, and position.** The same options as for layers — and you can also change your frame size preset.  |
+|  <embed type="image/svg+xml" alt="clip_content" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jz6OnY46_Uy-ATZtsevRLA.svg" width="300" />  |     **Clip content.**  Enable this to hide content outside of the frame boundaries. |
+|   <embed type="image/svg+xml" alt="autolayout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eISP8OqKv0GXUBdKyvBdww.svg" width="300" />  |     **Auto layout.**  Align your design elements with auto layout. With them, your designs will adjust to content changes automatically. Set the distance between elements, between elements and frame boundaries, change distribution options, stacking options, and whether auto layout includes frame borders. |
+|  <embed type="image/svg+xml" alt="frame_color_adjust" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZWhmOvSgV0Wn2tLg80A-Ug.svg" width="300" />    |     **Background color and content behavior.** Change the frame background and choose whether its content changes as you resize it. |
+|  <embed type="image/svg+xml" alt="layout_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9-2Cn2UMuU-1oe_XPYabqQ.svg" width="300" /> |     **Layout grid.**  Add a layout grid to the frame.|
+| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/15ZcB9kEdkmu1y7FAZHefQ.svg" width="300" />  |     **Grid.**  Add a square grid to the frame. |
+|  <embed type="image/svg+xml" alt="selection_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/-zycpFIau0603lT5epFZFQ.svg" width="300" />  |     **Selection properties.**  Shows the colors and fonts used in the layers inside of the frame. |
 
 
 ### Selecting and moving frames 
@@ -374,5 +376,6 @@ These context menu options are universal for almost all layer types:
 | **Create component** | Create a reusable component from the layer. |
 
 
-<div class="callout callout--info"> <p><strong>Note:</strong> When you right-click on an empty area on the canvas or a frame, the only command available on the context menu is <b>Paste here</b>.</div> 
-
+<div class="callout callout--info"> 
+    <p><strong>Note:</strong> When you right-click on an empty area on the canvas or a frame, the only command available on the context menu is <b>Paste here</b>. 
+</div>

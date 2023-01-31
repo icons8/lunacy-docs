@@ -54,11 +54,11 @@ Here are the main elements of the interface:
 
 5. **Inspector**. This panel lets you see and adjust the properties of the selected layer. The view of the Inspector varies depends on the layer type. For details, read [below](#the-inspector).
 
-6. **Menu bar**. Displays the options and commands related to files, layers, editing, etc. It also features the **Home** button, which opens up the **Home** tab.
+6. **Menu bar**. Displays the options and commands related to files, layers, editing, etc. It also features the <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> button, which opens up the [Home tab](#home-tab).
 
 7. **Context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected layer. Hover the cursor over a tool icon to see a pop-up explaining what it does.
 
-8. **Document tabs**. The tabs of currently open files are displayed on the right of the Home button. Click on the tabs to switch between them or press Ctrl+Tab/⌘+Tab and Ctrl+Shift+Tab/⌘+Shift+Tab.
+8. **Document tabs**. The tabs of currently open files are displayed on the right of the Home button. Click on the tabs to switch between them or press `Ctrl+Tab` / `⌘+Tab` and `Ctrl+Shift+Tab` / `⌘+Shift+Tab`.
 
 9. **Play button**. Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">here</a>.
 
@@ -105,7 +105,7 @@ If a layer name doesn't fit in the Layer list, you can change the width of the p
 Using the Layer list, you can:
 
 | Action | Description |
-|-----------|-------------|
+|------------------------------------|--------------------------|
 |   **Select layers**  |    To select a layer or layer group, click its name in the Layer list. A selection frame will appear around the layer. To select multiple items hold down the `Ctrl` / `⌘` or `Shift` keys and click on the layers.    |
 |   **Search for layers**  |    To locate a layer, start typing its name in the search field above the Layer list.    |
 |   **Arrange layers**  |     You can change the order of the layers in the list by dragging them up or down.   |
@@ -118,7 +118,7 @@ Other basic operations with layers are available on the <a href="https://lunacy.
 To collapse all the layers in the Layer list, press `Ctrl + ~` / `⌘ + ~`.
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> Some projects, such as design systems, may have hundreds of layers on a single page. To quickly move to a specific layer, find it by typing its name in the search field, select it in the Layer list, and press <code>Ctrl + 2</code> / <code>⌘ + 2</code> to <strong>Fit to selection</strong>.</p>
+    <p><strong>Tip:</strong> Some projects, such as design systems, may have hundreds of layers on a single page. To quickly move to a specific layer, find it by typing its name in the search field, select it in the Layer list, and press <code>Ctrl + 2</code> / <code>⌘ + 2</code> (Fit to selection).</p>
 </div>
 
 <p>Find more useful Lunacy tips and tricks <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
@@ -199,11 +199,11 @@ The Home tab makes it easy to create, manage, and organize all of your personal 
 To create a new document, use any of the following ways depending on the document type:
 
 | | Local | Cloud |
-|---|---|---|
+|---------------------------------------|-----------------------|----------------------------|
 | **On the Home Tab, click** | New Document | New Cloud Document |
 | **On the menu bar, click** | File > New Document | File > New Cloud Document |
 | **Anywhere in Lunacy, press** | `Ctrl + N` / `⌘ + N` | `Ctrl + Shift + N` / `⌘ + Shift + N` |
-| **Anywhere in Lunacy, click** | **+** on the right of the document tabs at the top of the screen |
+| **Anywhere in Lunacy, click** | `+` on the right of the document tabs at the top of the screen |
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> Find out more about local and cloud documents <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">here</a>.</p>
@@ -336,7 +336,7 @@ Use it as a portfolio of your works:
 
 
 <div class="callout callout--info">
-<p><strong>Note: </strong>If the link recipient doesn’t have Lunacy yet, they will be prompted to install it.</p>
+    <p><strong>Note: </strong>If the link recipient doesn’t have Lunacy yet, they will be prompted to install it.</p>
 </div>
 
 **Subscribe to our plans**
