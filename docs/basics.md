@@ -65,7 +65,7 @@ The **Design** tab is the one you'll interact with the most when working on your
 
 The set of controls and settings it displays depends on the type of the selected layer. These Inspector properties are universal for almost all layer types:
 
-| Inspector properties  | Description |   
+| Inspector properties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Description |   
 |-----------------------------|-------------------------|
 | <embed type="image/svg+xml" alt="alignment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DmwgUeA720CJZI1lz-PJ9w.svg" width="500" />  | **Alignment and distribution controls** appear when you select two or more layers. |
 |  <embed type="image/svg+xml" alt="layer_position_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/s3beB96toEGEkauAALbBGA.svg" width="500" />  |  **Layer size and position.** Change the size of your layers and their position on the canvas. Use the buttons next to the position controls to flip your images and toggle the lock button on and off to preserve aspect ratio when resizing.  Controls vary depending on the selected layer.   |
@@ -138,9 +138,9 @@ You can gather layers into frames by drawing a frame over them. This is how fram
 
 Inspector properties for frames are more or less identical to [layer properties](#inspector-properties), except frames don't have appearance and prototyping options. They also have these additional properties:
 
-| Inspector properties  | Description |   
+| Inspector properties&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Description |   
 |--------|---------|
-|  <embed type="image/svg+xml" alt="frame_preset_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/AQrMrq0BdkG833S3rs16TQ.svg" width="500" /> |  **Frame preset, size, and position.** The same options as for layers — and you can also change your frame size preset.  |
+|  <embed type="image/svg+xml" alt="frame_preset_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/AQrMrq0BdkG833S3rs16TQ.svg" width="500" />  |  **Frame preset, size, and position.** The same options as for layers — and you can also change your frame size preset.  |
 |  <embed type="image/svg+xml" alt="clip_content" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jz6OnY46_Uy-ATZtsevRLA.svg" width="500" />  |     **Clip content.**  Select this checkbox to hide content outside of the frame boundaries. |
 |   <embed type="image/svg+xml" alt="autolayout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eISP8OqKv0GXUBdKyvBdww.svg" width="500" />  |     **Auto layout.**  Align your design elements with auto layout. With them, your designs will adjust to content changes automatically. Set the distance between elements, between elements and frame boundaries, change distribution options, stacking options, and whether auto layout includes frame borders. |
 |  <embed type="image/svg+xml" alt="frame_color_adjust" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZWhmOvSgV0Wn2tLg80A-Ug.svg" width="500" />    |     **Background color and content behavior.** Change the frame background and choose whether its content changes as you resize it. |
@@ -314,7 +314,7 @@ You can also alter zoom options using preset values:
 
 Here are the essential zoom options:
 
-| Operation        | Description   | Windows shortcut      |        Mac shortcut       |
+| Operation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       | Description   | Windows shortcut      |        Mac shortcut       |
 | -------------|-------------|-------------|--------|
 | Zoom in/out | Zooms the canvas in/out. |  	`+/-` / `Ctrl + "+/-"`  |    `⌘ + "+/-"`        |
 | Zoom to 100% | Sets the zoom value to 100%. | `Ctrl + 0` |       `⌘ + 0`       |

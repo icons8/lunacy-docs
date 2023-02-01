@@ -74,8 +74,8 @@ In Lunacy, you can create <a href="https://lunacy.docs.icons8.com/teams/" target
 
 Try out teams on the free plan and unlock additional features once your team outgrows the limits:
 
-|                  | Trial team plan         | Professional team plan            |
-| ---------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------- |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Trial team plan         | Professional team plan            |
+| ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |
 |Cloud document limit| Up to 10 documents across all team projects (including deleted documents) | Unlimited|
 | Document editors/exporters | Up to 3 | Unlimited|
 | Document viewers   | Unlimited    | Unlimited|

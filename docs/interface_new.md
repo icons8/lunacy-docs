@@ -103,13 +103,13 @@ If a layer name doesn't fit in the Layer list, you can change the width of the p
 
 Using the Layer list, you can:
 
-| Action | Description |                 |
-|------------------------------------|--------------------------|--------------------------|
-|   Select layers  |    To select a layer or layer group, click its name in the Layer list. A selection frame will appear around the layer. To select multiple items hold down the `Ctrl` / `⌘` or `Shift` keys and click on the layers.    |
-|   Search for layers  |    To locate a layer, start typing its name in the search field above the Layer list.    |
-|   Arrange layers  |     Change the order of the layers in the list by dragging them up or down. Organize layers as you see fit and position them in the order you want them to be stacked if they're overlapping on the canvas. |
-|  Hide layers   |   To hide layers, layer groups, or individual items inside layer groups, select a layer and click the eye icon next to its name. You can also hide layers by using the `Ctrl + H` / `⌘ + H` shortcut or the corresponding option on the context menu.     |
-|    Lock layers  |     Lock layers, grouped layers, or individual layers within a group to protect them from accidental edits. To do this, select a layer in the Layer list and click the lock icon, press `Ctrl + L` / `⌘ + L`, or use the corresponding option on the context menu. To select locked layers and edit their properties in the Inspector, right-click them on the canvas or select them in the Layer list. |
+|   Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       | Description |
+|---------------------------------------|------------------|
+|   Select layers      |    To select a layer or layer group, click its name in the Layer list. A selection frame will appear around the layer. To select multiple items hold down the `Ctrl` / `⌘` or `Shift` keys and click on the layers.    |
+|   Search for layers                                 |    To locate a layer, start typing its name in the search field above the Layer list.    |
+|   Arrange layers                |     Change the order of the layers in the list by dragging them up or down. Organize layers as you see fit and position them in the order you want them to be stacked if they're overlapping on the canvas. |
+|  Hide layers                    |   To hide layers, layer groups, or individual items inside layer groups, select a layer and click the eye icon next to its name. You can also hide layers by using the `Ctrl + H` / `⌘ + H` shortcut or the corresponding option on the context menu.     |
+|    Lock layers            |     Lock layers, grouped layers, or individual layers within a group to protect them from accidental edits. To do this, select a layer in the Layer list and click the lock icon, press `Ctrl + L` / `⌘ + L`, or use the corresponding option on the context menu. To select locked layers and edit their properties in the Inspector, right-click them on the canvas or select them in the Layer list. |
 
 Other basic operations with layers are available on the <a href="https://lunacy.docs.icons8.com/basics/#the-context-menu" target="_blank">context menu</a>.
 
