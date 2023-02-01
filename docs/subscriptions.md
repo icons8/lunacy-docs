@@ -26,7 +26,7 @@ Lunacy is completely free, both for personal and commercial use. We also have pa
 
 We offer **3 types** of subscriptions: 
 * Graphics subscriptions.
-* Personal cloud plans.
+* A personal cloud plan.
 * Team plans.
 
 
@@ -40,14 +40,14 @@ To get full access to our graphics, you can:
 - Choose an **individual subscription** to bundles of icons, photos, or illustrations. 
 - Subscribe to the **full set** of our graphics. This option includes everything: icons, photos, and illustrations.
 
-With these subscriptions, you can use SVG and high-resolution PNG graphics with no attribution required. 
+With these subscriptions, you can use SVG and high-resolution PNG graphics without link attribution.
 
 Also, any graphics subscription unlocks our AI-powered <a href="https://icons8.com/upscaler" target="_blank">Image Upscaler</a>. Use it to enhance the resolution of your images and enlarge them up to 7680×7680px.
 
 See all of the subscriptions and pricing <a href="https://icons8.com/pricing">here</a>.
 
 
-## Cloud Plans
+## Personal cloud plan
 
 Any Lunacy user can create <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>. You can access them from anywhere with an internet connection, invite users to collaborate on them, and track their version history.
 
@@ -55,7 +55,6 @@ There are **2 plans** to choose from for working with cloud documents:
 
 |            | Free cloud plan        | Personal cloud plan    |
 | ------------------------------------------- | ----- | ---------------------- |
-| **Availability**               | All Lunacy users       | All Lunacy users       |
 | **Cloud document limit**       | Up to 10 (including deleted documents) | Unlimited              |
 | **Document editors/exporters** | Up to 10               | Unlimited              |
 | **Document viewers**           | Unlimited              | Unlimited              |
@@ -77,7 +76,6 @@ Try out teams on the free plan and unlock additional features once your team out
 
 |                  | Trial team plan         | Professional team plan            |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------- |
-| **Availability**        | All Lunacy users    | For teams|
 |**Cloud document limit**| Up to 10 documents across all team projects (including deleted documents) | Unlimited|
 | **Document editors/exporters** | Up to 3 | Unlimited|
 | **Document viewers**   | Unlimited    | Unlimited|

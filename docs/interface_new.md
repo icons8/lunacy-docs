@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Export
-        url: '/export'
+        content: Basics
+        url: '/basics'
     prev:
-        content: Libraries
-        url: '/libraries'
+        content: System requirements
+        url: '/sysreq'
 ---
 
 Lunacy's interface is intuitive and minimal. It won't take long for you to learn how to interact with it.
@@ -38,7 +38,7 @@ Here are the main elements of the interface:
 
     * The Layer list.
     * Document assets (<a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">styles</a>).
-    * Built-in Lunacy <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos, vector images, as well as <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://lunacy.docs.icons8.com/plugins" target="_blank">plugins</a>. 
+    * Built-in <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos, vector images, as well as <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://lunacy.docs.icons8.com/plugins" target="_blank">plugins</a>. 
     * The list of <a href="https://lunacy.docs.icons8.com/shortcuts" target="_blank">shortcuts</a>.
   
     Shrink the width of the content tabs panel by dragging its border to the left:
@@ -48,7 +48,7 @@ Here are the main elements of the interface:
     
 2. **Left panel**. Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View** > **Left Panel** in the menu bar.
 
-3. **Toolbar**. Features the main Lunacy tools. Read more about each tool <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View** > **Toolbar**) in the menu bar.
+3. **Toolbar**. Features all the primary design tools you'll need. Read more about each tool <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View** > **Toolbar**) in the menu bar.
 
 4. **Canvas**. This is your working area. Find out more about it <a href="https://lunacy.docs.icons8.com/basics/#moving-around-the-canvas" target="_blank">here</a>.
 
@@ -64,16 +64,15 @@ Here are the main elements of the interface:
 
 10. **Additional options**. This button opens up a menu with these options:
 
-
-| Button | Description | Windows shortcut / Menu option |  Mac Shortcut / Menu Option|
-|---|---|---|---|
-| <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bkTBcjYY-kyIXxUN9M74Bg.svg" width="42" />  | The Show/Hide rulers button toggles rulers on and off. For details, read below. | `Ctrl + R`  | `⌘ + R` |
-| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="42" />  | The Show grid button enables the display of the square grid. Learn more about grids here. | `Ctrl + '` | `⌘ + '` |
-| <embed type="image/svg+xml" alt="layout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/i0isEF3sxUyjktCmMDT4Jw.svg" width="42" />  | The Layout button controls the display of the layout grid and is available only when there is a frame on the canvas. For details, read here. | `Ctrl + \`  | `⌘ + \` |
-| <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eutHauiFwUuQ4jRcv6LFVQ.svg" width="42" /> | The Show prototyping button controls the display of hotspots and prototyping arrows. | **View**  > **Prototyping**  |  |
-| <embed type="image/svg+xml" alt="slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5tkaoATGgUK2NjnzbPlsTg.svg" width="42" /> | With the Slice tool, you can to select a specific area on your design and export it. | **View** > **Slices**  |   |
-| <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="42" />  | The Pixels on Zoom option shows pixels when the zoom value exceeds 100. | **View** > **Pixels on Zoom** | |
-| <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="42" />  | Toggle the display of document comments in the right panel on and off. | - |  |
+    | Button | Description | Windows and Linux Shortcut / Menu Option |  Mac Shortcut / Menu Option |
+    |---|---|---|---|
+    | <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bkTBcjYY-kyIXxUN9M74Bg.svg" width="24" />  | The Show/Hide rulers button toggles rulers on and off. For details, read below. | `Ctrl + R`  | `⌘ + R` |
+    | <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="24" />  | The Show grid button enables the display of the square grid. Learn more about grids here. | `Ctrl + '` | `⌘ + '` |
+    | <embed type="image/svg+xml" alt="layout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/i0isEF3sxUyjktCmMDT4Jw.svg" width="24" />  | The Layout button controls the display of the layout grid and is available only when there is a frame on the canvas. For details, read here. | `Ctrl + \`  | `⌘ + \` |
+    | <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eutHauiFwUuQ4jRcv6LFVQ.svg" width="24" /> | The Show prototyping button controls the display of hotspots and prototyping arrows. | **View**  > **Prototyping**   |
+    | <embed type="image/svg+xml" alt="slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5tkaoATGgUK2NjnzbPlsTg.svg" width="24" /> | With the Slice tool, you can to select a specific area on your design and export it. | **View** > **Slices**  |
+    | <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The Pixels on Zoom option shows pixels when the zoom value exceeds 100. | **View** > **Pixels on Zoom** |
+    | <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the right panel on and off. | -  |
 
 11. **Zoom control**. For details, read about zooming options [below](#zooming-options).
 12. **Theme switch**. Use it to switch between the light and dark themes.
@@ -83,18 +82,18 @@ Here are the main elements of the interface:
 
 The canvas is your working area. Add layers to it and place them wherever you want. 
 
-If you need to work within certain boundaries, add <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frames</a> to the canvas. To position layers and frames more precisely, you can add rulers, guides, and grids.
+If you need to work within certain boundaries, add <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frames</a> to the canvas. To position layers and frames more precisely, you can add <a href="https://lunacy.docs.icons8.com/basics/#rulers">rulers</a>, <a href="https://lunacy.docs.icons8.com/basics/#guides">guides</a>, and <a href="https://lunacy.docs.icons8.com/basics/#grids">grids</a>.
 
-Read in detail about working with the canvas in the <a href="https://lunacy.docs.icons8.com/basics" target="_blank">basics</a> section.
+Read in detail about working with the canvas in the <a href="https://lunacy.docs.icons8.com/basics" target="_blank">Basics</a> section.
 
 ## [Layer list](#layer-list)
 
-Open it by clicking on the **Layers** content tab. It will display the the layers on the current page:
+Open it by clicking on the **Layers** content tab. It will display the layers on the current page:
 
 <embed type="image/svg+xml" alt="layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PuPEDNTYvEKC5atXX-ylxQ.svg" width="844" /> 
 
 
-Press <embed type="image/svg+xml" alt="smart_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/3uDOUlA760igh6dc4pOLLg.svg" width=16 /> to toggle the **Smart Layer list**, which displays only the layers you currently see on the canvas. It's convenient for tracking and locating lost layers in very large documents.
+Press <embed type="image/svg+xml" alt="smart_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/3uDOUlA760igh6dc4pOLLg.svg" width=16 /> to toggle the **Smart Layer list**, which displays only the layers you currently see on the canvas. It's convenient when you want to see only the layers you're working on in the Layer list.
 
 Lunacy automatically assigns names to new layers and layer groups. You can always rename them if you like. 
 
@@ -104,13 +103,13 @@ If a layer name doesn't fit in the Layer list, you can change the width of the p
 
 Using the Layer list, you can:
 
-| Action | Description |
-|------------------------------------|--------------------------|
-|   **Select layers**  |    To select a layer or layer group, click its name in the Layer list. A selection frame will appear around the layer. To select multiple items hold down the `Ctrl` / `⌘` or `Shift` keys and click on the layers.    |
-|   **Search for layers**  |    To locate a layer, start typing its name in the search field above the Layer list.    |
-|   **Arrange layers**  |     You can change the order of the layers in the list by dragging them up or down.   |
-|  **Hide layers**   |   To hide layers, layer groups, or individual items inside layer groups, select a layer and click the eye icon next to its name. You can also hide layers by using the `Ctrl + H` / `⌘ + H` shortcut or the corresponding option on the context menu.     |
-|    **Lock layers**  |     Lock layers to protect them from accidental edits. You can't interact with a locked layer on the canvas, but you'll still be able to select it in the Layer list and edit its properties in the Inspector. You can also lock grouped layers or individual layers within a group. Select the layer in the list and click the lock icon. You can also lock layers by using the `Ctrl + L` / `⌘ + L` shortcut or the corresponding option on the context menu.  |
+| Action | Description |                 |
+|------------------------------------|--------------------------|--------------------------|
+|   Select layers  |    To select a layer or layer group, click its name in the Layer list. A selection frame will appear around the layer. To select multiple items hold down the `Ctrl` / `⌘` or `Shift` keys and click on the layers.    |
+|   Search for layers  |    To locate a layer, start typing its name in the search field above the Layer list.    |
+|   Arrange layers  |     Change the order of the layers in the list by dragging them up or down. Organize layers as you see fit and position them in the order you want them to be stacked if they're overlapping on the canvas. |
+|  Hide layers   |   To hide layers, layer groups, or individual items inside layer groups, select a layer and click the eye icon next to its name. You can also hide layers by using the `Ctrl + H` / `⌘ + H` shortcut or the corresponding option on the context menu.     |
+|    Lock layers  |     Lock layers, grouped layers, or individual layers within a group to protect them from accidental edits. To do this, select a layer in the Layer list and click the lock icon, press `Ctrl + L` / `⌘ + L`, or use the corresponding option on the context menu. To select locked layers and edit their properties in the Inspector, right-click them on the canvas or select them in the Layer list. |
 
 Other basic operations with layers are available on the <a href="https://lunacy.docs.icons8.com/basics/#the-context-menu" target="_blank">context menu</a>.
 
@@ -165,7 +164,7 @@ The rest of the actions are accessible through the **context menu**, which you c
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages65.mp4" type="video/mp4"></video>
 
-There is also a special type of page — the **Components** page. It stores the reusable components you can create in your designs. Learn more about working with components in Lunacy <a href="https://lunacy.docs.icons8.com/components/#components-page" target="_blank">here</a>.
+There is also a special type of page — the **Components** page. It stores the reusable components you can create in your designs. Learn more about working with components <a href="https://lunacy.docs.icons8.com/components/#components-page" target="_blank">here</a>.
 
 
 ## [Home Tab](#home-tab)
@@ -200,10 +199,10 @@ To create a new document, use any of the following ways depending on the documen
 
 | | Local | Cloud |
 |---------------------------------------|-----------------------|----------------------------|
-| **On the Home Tab, click** | New Document | New Cloud Document |
-| **On the menu bar, click** | File > New Document | File > New Cloud Document |
-| **Anywhere in Lunacy, press** | `Ctrl + N` / `⌘ + N` | `Ctrl + Shift + N` / `⌘ + Shift + N` |
-| **Anywhere in Lunacy, click** | `+` on the right of the document tabs at the top of the screen |
+| On the Home Tab, click | New Document | New Cloud Document |
+| On the menu bar, click | File > New Document | File > New Cloud Document |
+| Anywhere in Lunacy, press | `Ctrl + N` / `⌘ + N` | `Ctrl + Shift + N` / `⌘ + Shift + N` |
+| Anywhere in Lunacy, click | `+` on the right of the document tabs at the top of the screen |
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> Find out more about local and cloud documents <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">here</a>.</p>
@@ -236,7 +235,7 @@ You can import:
 
 ##### Importing local `.sketch` files to cloud
 - In the action bar, click **Import Local**.
-- At the top right corner of a local document, click <img src="/public/movecloud.png" alt="Move to cloud button">.
+- At the top right corner of a local document, click <embed type="image/svg+xml" alt="send_cloud" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hDgRI0Dx_EaYjQ2uo5PrTg.svg" width="16" /> .
 
 ##### Importing Figma documents to `.sketch`
 
@@ -251,10 +250,10 @@ To generate a personal access token in Figma:
 1. Click your profile icon in the file browser and choose **Settings**. 
 2. Scroll down to the **Personal access token** section.
 3. Enter a brief description for the token, and press `Enter`.
+4. Copy the token and return to Lunacy.
+5. Click **Import from Figma** or **File** > **Import from Figma** in the menu bar and enter the file’s share link and the personal access token in the corresponding fields:
 
-Then, click **Import from Figma** or **File** > **Import from Figma** in the menu bar and enter the file’s share link and the personal access token in the corresponding fields.
-
-<embed type="image/svg+xml" alt="import_figma" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fTNhrJIe1kSwsrpR_CeFvQ.svg" width="844" /> 
+    <embed type="image/svg+xml" alt="import_figma" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fTNhrJIe1kSwsrpR_CeFvQ.svg" width="844" /> 
 
 
 
@@ -290,7 +289,7 @@ Use the buttons on the right of the search bar to sort documents and switch view
 
 #### Managing Teams and Projects
 
-In Lunacy, you can create teams for collaborating with others. Create projects inside teams and use them like folders to organize your documents.
+You can create teams for collaborating with others. Create projects inside teams and use them like folders to organize your documents.
 
 
 Find out more about teams and projects <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">here</a>. 
@@ -315,52 +314,52 @@ Once you’re logged in, you will see your **profile page**:
 <embed type="image/svg+xml" alt="profile_page" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/pYEH7WWv9kmU62Zde08e3g.svg" width="844" /> 
 
 
-Here, you can:
+Use this page to:
 
-**Manage your profile information**
+* **Manage your profile information**
 
-Edit your name, profile description, and profile picture. 
-    
-Your profile information shows up here and is visible to people with access to your cloud documents and the members of your team. 
+    Edit your name, profile description, and profile picture. 
+        
+    Your profile information shows up here and is visible to people with access to your cloud documents and the members of your team. 
 
-**Publish documents to your web profile**
+* **Publish documents to your web profile**
 
-Personal cloud documents show up on your account page in the app with a **Publish/Unpublish** button. Click it to add or remove documents from your **web profile**, a public page where you can showcase your designs. 
+    Personal cloud documents show up on your account page in the app with a **Publish/Unpublish** button. Click it to add or remove documents from your **web profile**, a public page where you can showcase your designs. 
 
-Use it as a portfolio of your works:
+    Use it as a portfolio of your works:
 
-1. Click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> at the top right corner of your profile  page.
-2. Select **Web Profile**. This will open your public web profile in the browser.
-3. Copy the link in the address bar.
-4. Share it anywhere you like!
-
-
-<div class="callout callout--info">
-    <p><strong>Note: </strong>If the link recipient doesn’t have Lunacy yet, they will be prompted to install it.</p>
-</div>
-
-**Subscribe to our plans**
-
-Icons8 graphics are free for personal and commercial use as long as you include an attribution link to us. Additionally, SVG files and high-resolution photos are unavailable on the free plan. To get these options and use our graphics without mandatory attribution, consider a paid subscription. 
-
-You can also upgrade to a **cloud** or **team** plan for more freedom with cloud documents, team creation, and document management. 
-
-Read more about the subscriptions we offer <a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">here</a>.
-
-You can also access the list of our graphics subscriptions by **Unlock All Assets** on your profile page, then **See Pricing**.
-
-To see all product and subscription options available to you, as well as your Downloads (assets you’ve previously downloaded), click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> and select **Billing**.
+    1. Click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> at the top right corner of your profile  page.
+    2. Select **Web Profile**. This will open your public web profile in the browser.
+    3. Copy the link in the address bar.
+    4. Share it anywhere you like!
 
 
-**Log out and delete your account**
+    <div class="callout callout--info">
+        <p><strong>Note: </strong>If the link recipient doesn’t have Lunacy yet, they will be prompted to install it.</p>
+    </div>
 
-Exit your account by clicking the **Log out** button at the top right corner of the account page.
+* **Subscribe to our plans**
 
-To delete your account, open the context menu and click **Delete account**.
+    Icons8 graphics are free for personal and commercial use as long as you include an attribution link to us. Additionally, SVG files and high-resolution photos are unavailable on the free plan. To get these options and use our graphics without mandatory attribution, consider a paid subscription. 
 
-<div class="callout callout--warning">
-    <p><strong>Warning:</strong> Account deletion is permanent and completely erases your data. You won’t be able to recover it.</p>
-</div>
+    You can also upgrade to a **cloud** or **team** plan for more freedom with cloud documents, team creation, and document management. 
+
+    Read more about the subscriptions we offer <a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">here</a>.
+
+    You can also access the list of our graphics subscriptions by **Unlock All Assets** on your profile page, then **See Pricing**.
+
+    To see all product and subscription options available to you, as well as your Downloads (assets you’ve previously downloaded), click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> and select **Billing**.
+
+
+* **Log out and delete your account**
+
+    Exit your account by clicking the **Log out** button at the top right corner of the account page.
+
+    To delete your account, open the context menu and click **Delete account**.
+
+    <div class="callout callout--warning">
+        <p><strong>Warning:</strong> Account deletion is permanent and completely erases your data. You won’t be able to recover it.</p>
+    </div>
 
 
 

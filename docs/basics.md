@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Export
-        url: '/export'
+        content: Cloud documents
+        url: '/clouddocs'
     prev:
-        content: Libraries
-        url: '/libraries'
+        content: Interface
+        url: '/interface'
 ---
 
 Learn more about Lunacy's features, interface capabilities, and useful tips and tricks to speed up your design process.
@@ -57,30 +57,32 @@ Find out about other zooming options [below](#zooming-options).
 <embed type="image/svg+xml" alt="canvas_color" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TmFrkSpmxEi2Rb3deQBoLA.svg" width="844" /> 
 
 
-## [Working with the Inspector](#working_with_the_inspector)
+## [Inspector properties](#inspector-properties)
 
-There are three tabs at the top of the Inspector: **Design**, **Export**, and **Code**. THe Design tab is the one you'll interact with the most when working on your designs.
+There are three tabs at the top of the Inspector: **Design**, **Export**, and **Code**. 
+
+The **Design** tab is the one you'll interact with the most when working on your designs.
 
 The set of controls and settings it displays depends on the type of the selected layer. These Inspector properties are universal for almost all layer types:
 
 | Inspector properties  | Description |   
 |-----------------------------|-------------------------|
-| <embed type="image/svg+xml" alt="alignment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DmwgUeA720CJZI1lz-PJ9w.svg" width="300" />  | **Alignment and distribution controls** appear when you select two or more layers. |
-|  <embed type="image/svg+xml" alt="layer_position_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/s3beB96toEGEkauAALbBGA.svg" width="300" />  |  **Layer size and position.** Change the size of your layers and their position on the canvas. Use the buttons next to the position controls to flip your images and toggle the lock button on and off to preserve aspect ratio when resizing.  Controls vary depending on the selected layer.   |
-| <embed type="image/svg+xml" alt="rotate_corner" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/EWKB-3JAmEWF1tsSA8CWHw.svg" width="300" />  | **Rotation and corner radius.** Rotate your layers and change their corner radius properties. |
-| <embed type="image/svg+xml" alt="component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kv1070nxoEG0xJn6p3EqCQ.svg" width="300" /> |   **Component options.** Click `+` to create a reusable component out of your layer.  Learn more about components <a href="https://lunacy.docs.icons8.com/components" target="_blank">here</a>.  |
-|  <embed type="image/svg+xml" alt="appearance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PKGjyL5hCUi_SQXFpxBVWQ.svg" width="300" />   |   The   **Appearance** section displays the styles applied to your layer (text styles, color styles, effect styles, etc.)  You can add styles from presets, create your own, and detach layers from applied styles. |
-|  <embed type="image/svg+xml" alt="opacity_blend" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jU4eHkw6H0aRu54WtjdtlQ.svg" width="300" />   |   **Opacity and blend mode settings.** Set the overall opacity of a layer and its blending mode.   |
-|  <embed type="image/svg+xml" alt="fills" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fIXEmqXID02zbOWgEcQtOA.svg" width="300" />   |   **Fills.**  Change the color of your layer.  |
-|  <embed type="image/svg+xml" alt="borders" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hCg84E6xQ02xJxqoFK17hg.svg" width="300" />   |   **Borders.**  Add borders to your layers. |
-|  <embed type="image/svg+xml" alt="effects" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/UmOMNRV4XESuD2JDMXvi6Q.svg" width="300" />   |     **Effects.**  Add effects (shadows, blurs) to your layers. |
-|  <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NJc1I6eaxk21Auc91YH7XA.svg" width="300" />   |   **Prototyping.**   Activate prototyping options and turn your static designs into interactive prototypes. Here's <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">how it works</a>. |
+| <embed type="image/svg+xml" alt="alignment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DmwgUeA720CJZI1lz-PJ9w.svg" width="380" />  | **Alignment and distribution controls** appear when you select two or more layers. |
+|  <embed type="image/svg+xml" alt="layer_position_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/s3beB96toEGEkauAALbBGA.svg" width="380" />  |  **Layer size and position.** Change the size of your layers and their position on the canvas. Use the buttons next to the position controls to flip your images and toggle the lock button on and off to preserve aspect ratio when resizing.  Controls vary depending on the selected layer.   |
+| <embed type="image/svg+xml" alt="rotate_corner" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/EWKB-3JAmEWF1tsSA8CWHw.svg" width="380" />  | **Rotation and corner radius.** Rotate your layers and change their corner radius properties. |
+| <embed type="image/svg+xml" alt="component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kv1070nxoEG0xJn6p3EqCQ.svg" width="380" /> |   **Component options.** Click `+` to create a reusable component out of your layer.  Learn more about components <a href="https://lunacy.docs.icons8.com/components" target="_blank">here</a>.  |
+|  <embed type="image/svg+xml" alt="appearance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PKGjyL5hCUi_SQXFpxBVWQ.svg" width="380" />   |   The   **Appearance** section displays the styles applied to your layer (text styles, color styles, effect styles, etc.)  You can add styles from presets, create your own, and detach layers from applied styles. |
+|  <embed type="image/svg+xml" alt="opacity_blend" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jU4eHkw6H0aRu54WtjdtlQ.svg" width="380" />   |   **Opacity and blend mode settings.** Set the overall opacity of a layer and its blending mode.   |
+|  <embed type="image/svg+xml" alt="fills" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fIXEmqXID02zbOWgEcQtOA.svg" width="380" />   |   **Fills.**  Change the color of your layer.  |
+|  <embed type="image/svg+xml" alt="borders" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hCg84E6xQ02xJxqoFK17hg.svg" width="380" />   |   **Borders.**  Add borders to your layers. |
+|  <embed type="image/svg+xml" alt="effects" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/UmOMNRV4XESuD2JDMXvi6Q.svg" width="380" />   |     **Effects.**  Add effects (shadows, blurs) to your layers. |
+|  <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NJc1I6eaxk21Auc91YH7XA.svg" width="380" />   |   **Prototyping.**   Activate prototyping options and turn your static designs into interactive prototypes. Here's <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">how it works</a>. |
 
-Click on the Export tab to open up export settings for your entire project or click individual/multiple layers to export just them.  For details about export options, read <a href="https://lunacy.docs.icons8.com/export" target="_blank">here</a>. You can also use the Linked Design option to include embed links to Lunacy layers directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">in this section</a>.
+Click on the **Export** tab to open up export settings for your entire project or click individual/multiple layers to export just them.  For details about export options, read <a href="https://lunacy.docs.icons8.com/export" target="_blank">here</a>. You can also use the Linked Design option to include embed links to Lunacy layers directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">in this section</a>.
 
 The **Code** tab displays the code corresponding to your layers.
 
-### Inspector settings with no selected layers 
+### Inspector properties with no selected layers
 
 When all layers are deselected, the Inspector shows these settings:
 
@@ -122,10 +124,10 @@ To create a frame:
 1. Select the frame tool on the toolbar or press `A`.
 2. Click and drag to add a custom frame or use a preset from the Inspector.
 
-<embed type="image/svg+xml" alt="frame_tool" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2fyYYjfVk0yoeOGZf8fM9A.svg" width=844 /> 
+<embed type="image/svg+xml" alt="frame_tool_presets" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5fuv5gIKSU-PMS4ZWGy5Aw.svg" width="844" /> 
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> Snap a custom frame to a preset by dragging the cursor to one of the blue <code>+</code> signs that appear when you are creating a custom frame.</p>
+    <p><strong>Tip:</strong> When you're creating a frame on the canvas, blue <code>+</code> signs will appear around the borders, indicating pre-existing presets. Drag the corner of the frame you're creating to a <code>+</code> to snap it to a preset (the name of the preset will appear in the Layer list).</p>
 </div>
 
 
@@ -134,26 +136,18 @@ You can gather layers into frames by drawing a frame over them. This is how fram
 <embed type="image/svg+xml" alt="frames_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2DFQ_UkoJE-xNA5RZ63EXA.svg" width=844 /> 
 
 
-Inspector properties for frames are more or less identical to layer properties, except frames don't have appearance and prototyping options. They also have these additional properties:
+Inspector properties for frames are more or less identical to [layer properties](#inspector-properties), except frames don't have appearance and prototyping options. They also have these additional properties:
 
 | Inspector properties  | Description |   
 |--------|---------|
-|  <embed type="image/svg+xml" alt="frame_preset_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/AQrMrq0BdkG833S3rs16TQ.svg" width="300" /> |  **Frame preset, size, and position.** The same options as for layers — and you can also change your frame size preset.  |
-|  <embed type="image/svg+xml" alt="clip_content" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jz6OnY46_Uy-ATZtsevRLA.svg" width="300" />  |     **Clip content.**  Enable this to hide content outside of the frame boundaries. |
-|   <embed type="image/svg+xml" alt="autolayout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eISP8OqKv0GXUBdKyvBdww.svg" width="300" />  |     **Auto layout.**  Align your design elements with auto layout. With them, your designs will adjust to content changes automatically. Set the distance between elements, between elements and frame boundaries, change distribution options, stacking options, and whether auto layout includes frame borders. |
-|  <embed type="image/svg+xml" alt="frame_color_adjust" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZWhmOvSgV0Wn2tLg80A-Ug.svg" width="300" />    |     **Background color and content behavior.** Change the frame background and choose whether its content changes as you resize it. |
-|  <embed type="image/svg+xml" alt="layout_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9-2Cn2UMuU-1oe_XPYabqQ.svg" width="300" /> |     **Layout grid.**  Add a layout grid to the frame.|
-| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/15ZcB9kEdkmu1y7FAZHefQ.svg" width="300" />  |     **Grid.**  Add a square grid to the frame. |
-|  <embed type="image/svg+xml" alt="selection_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/-zycpFIau0603lT5epFZFQ.svg" width="300" />  |     **Selection properties.**  Shows the colors and fonts used in the layers inside of the frame. |
+|  <embed type="image/svg+xml" alt="frame_preset_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/AQrMrq0BdkG833S3rs16TQ.svg" width="380" /> |  **Frame preset, size, and position.** The same options as for layers — and you can also change your frame size preset.  |
+|  <embed type="image/svg+xml" alt="clip_content" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jz6OnY46_Uy-ATZtsevRLA.svg" width="380" />  |     **Clip content.**  Select this checkbox to hide content outside of the frame boundaries. |
+|   <embed type="image/svg+xml" alt="autolayout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eISP8OqKv0GXUBdKyvBdww.svg" width="380" />  |     **Auto layout.**  Align your design elements with auto layout. With them, your designs will adjust to content changes automatically. Set the distance between elements, between elements and frame boundaries, change distribution options, stacking options, and whether auto layout includes frame borders. |
+|  <embed type="image/svg+xml" alt="frame_color_adjust" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZWhmOvSgV0Wn2tLg80A-Ug.svg" width="380" />    |     **Background color and content behavior.** Change the frame background and choose whether its content changes as you resize it. |
+|  <embed type="image/svg+xml" alt="layout_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9-2Cn2UMuU-1oe_XPYabqQ.svg" width="380" /> |     **Layout grid.**  Add a layout grid to the frame.|
+| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/15ZcB9kEdkmu1y7FAZHefQ.svg" width="380" />  |     **Grid.**  Add a square grid to the frame. |
+|  <embed type="image/svg+xml" alt="selection_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/-zycpFIau0603lT5epFZFQ.svg" width="380" />  |     **Selection properties.**  Shows the colors and fonts used in the layers inside of the frame. |
 
-
-### Selecting and moving frames 
-
-To select an empty frame, click anywhere on it. If the frame contains layers, click on its name at the top left corner to select it. You ca then drag it anywhere you want on the canvas.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
-
-You can also select frames in the Layer list.
 
 ### [Adding custom frame presets](#adding-custom-presets)
 
@@ -174,9 +168,13 @@ From now on, the custom frame preset will appear at the bottom of the preset lis
 
 Rulers and guides help to position and align layers. 
 
+### [Rulers](#rulers)
+
 Rulers are enabled by default and use pixels as a measurement unit. They appear at the top and on the left side of the canvas. 
 
- To toggle rulers on and off, use the `Ctrl + R` / `⌘ + R` shortcut or select **View** > **Rulers** on the menu bar.
+To toggle rulers on and off, use the `Ctrl + R` / `⌘ + R` shortcut or select **View** > **Rulers** on the menu bar.
+
+### [Guides](#guides)
 
 To create a guide, click anywhere on a ruler and drag the guide onto the canvas. You can now position layers along the guide. Moving a layer close to it snaps the layer to the guide.
 
@@ -274,16 +272,16 @@ To measure the distance between two layers in different groups:
 
 Here's a handy shortcut list for all of the distance measurement options:
 
-| **Element types**         | **Measurement option**           |
+| Element types         | Measurement option           |
 | -------------------------- | --------------------- | 
-| **Two separate layers**     | Select the first layer, hold down `Alt` / `⌥`, and hover the cursor over the other layer.  |
-| **A layer inside a frame → the frame’s boundaries**        | 1. Hover the cursor over the layer and hold down `Alt` / `⌥`.<br>2. Select the layer, hover the cursor over an empty area within the frame, and hold down `Alt` / `⌥`. |
-| **A grouped layer → individual layer**         | Select the grouped layer, hold down `Alt` / `⌥`, and hover the cursor over the other layer. |
-| **Two layers inside the same group** | Select the first layer in the group, hold down `Alt` / `⌥`, and hover the cursor over the other layer in the group.    |
-| **A grouped layer → frame boundaries**    | Select the first layer in the group, hold down `Alt` / `⌥`, and hover the cursor over an empty area within the frame.            |
-| **A layer inside a group → the group’s boundaries**         | Point the cursor over a grouped layer and hold down `Ctrl + Alt` / `⌘ + ⌥`. |
-| **A layer inside a group → the boundaries of the frame where it’s nested** | Select a grouped layer, hold down `Alt` / `⌥`, and hover the cursor anywhere outside the other grouped layers.                   |
-| **Two layers in different groups**   | Select a grouped layer hold down `Alt` / `⌥`, hover the cursor over a layer in another group.               |
+| Two separate layers     | Select the first layer, hold down `Alt` / `⌥`, and hover the cursor over the other layer.  |
+| A layer inside a frame → the frame’s boundaries        | 1. Hover the cursor over the layer and hold down `Alt` / `⌥`.<br>2. Select the layer, hover the cursor over an empty area within the frame, and hold down `Alt` / `⌥`. |
+| A grouped layer → individual layer         | Select the grouped layer, hold down `Alt` / `⌥`, and hover the cursor over the other layer. |
+| Two layers inside the same group | Select the first layer in the group, hold down `Alt` / `⌥`, and hover the cursor over the other layer in the group.    |
+| A grouped layer → frame boundaries    | Select the first layer in the group, hold down `Alt` / `⌥`, and hover the cursor over an empty area within the frame.            |
+| A layer inside a group → the group’s boundaries         | Point the cursor over a grouped layer and hold down `Ctrl + Alt` / `⌘ + ⌥`. |
+| A layer inside a group → the boundaries of the frame where it’s nested | Select a grouped layer, hold down `Alt` / `⌥`, and hover the cursor anywhere outside the other grouped layers.                   |
+| Two layers in different groups   | Select a grouped layer hold down `Alt` / `⌥`, hover the cursor over a layer in another group.               |
 
 
 
@@ -318,12 +316,12 @@ Here are the essential zoom options:
 
 | Operation        | Description   | Windows shortcut      |        Mac shortcut       |
 | -------------|-------------|-------------|--------|
-| **Zoom in/out** | Zooms the canvas in/out. |  	`+/-` / `Ctrl + "+/-"`  |    `⌘ + "+/-"`        |
-| **Zoom to 100%** | Sets the zoom value to 100%. | `Ctrl + 0` |       `⌘ + 0`       |
-| **Zoom to All Layers** | Shows all the layers on the page. | `Ctrl + 1` | `⌘ + 1`            |
-| **Zoom to Selection** | Zooms in and displays the selected layer in the center of the screen. | `Ctrl + 2`  | `⌘ + 2`            |
-| **Zoom to fit width** | Zooms the canvas so that all horizontally distributed layers fit the screens. | `Ctrl + 3` | `⌘ + 3`          |
-| **Zoom to fit height** | Zooms the canvas so that all vertically distributed layers fit the screen. | `Ctrl + 4`  | `⌘ + 4`        |
+| Zoom in/out | Zooms the canvas in/out. |  	`+/-` / `Ctrl + "+/-"`  |    `⌘ + "+/-"`        |
+| Zoom to 100% | Sets the zoom value to 100%. | `Ctrl + 0` |       `⌘ + 0`       |
+| Zoom to All Layers | Shows all the layers on the page. | `Ctrl + 1` | `⌘ + 1`            |
+| Zoom to Selection | Zooms in and displays the selected layer in the center of the screen. | `Ctrl + 2`  | `⌘ + 2`            |
+| Zoom to fit width | Zooms the canvas so that all horizontally distributed layers fit the screens. | `Ctrl + 3` | `⌘ + 3`          |
+| Zoom to fit height | Zooms the canvas so that all vertically distributed layers fit the screen. | `Ctrl + 4`  | `⌘ + 4`        |
 
 These options are also accessible through the **View** section on the menu bar:
 
@@ -354,28 +352,24 @@ These context menu options are universal for almost all layer types:
 
 | Context menu button | Description | 
 |---|---|
-| **Copy** | Copy the layer. |
-| **Paste here** | Paste an element at the position of the cursor. |
-| **Duplicate**       | Duplicate the selected layer.  |
-| **Lock**            | Protect the layer from accidental edits.   |
-| **Hide**            | Hide the layer from the canvas.     |
-| **Delete**          | Deletes the selected layer.   |
+| <embed type="image/svg+xml" alt="Copy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hgirwJVu70qeG38ARiD5hQ.svg" width="24" />  | Copy the layer. |
+| <embed type="image/svg+xml" alt="Paste here" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/1F3Ipf6wM0qK5Saqv5Co3g.svg" width="24" /> | Paste an element at the position of the cursor. |
+| <embed type="image/svg+xml" alt="Duplicate" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/t-tMVYz1C0iX9YGOrhm_NA.svg" width="24" />      | Duplicate the selected layer.  |
+| <embed type="image/svg+xml" alt="Lock" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/BSGfdkIrBEOLaHjPnybBhw.svg" width="24" />             | Protect the layer from accidental edits.   |
+| <embed type="image/svg+xml" alt="Hide" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kFaGjr3Qu0C8W7_Y_UjOXA.svg" width="24" />             | Hide the layer from the canvas.     |
+| <embed type="image/svg+xml" alt="Delete" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/7XSmNDmTIEu8s16n3TAT8w.svg" width="24" />           | Deletes the selected layer.   |
+| Paste over   | Paste an element over the layer.   |
+| Cut   | Cut the selected layer.   |
+| Rename   | Rename the layer.   |
+| Comment | Comment on the layer. |
+| Copy/Paste as      | Opens a submenu with copy/paste options.      |
+| Move to page      | Move the layer to another page in the document.      |
+| Send to Back    | Move the layer to the bottom of the Layer list.      |
+| Bring Forward   | Move a layer one step higher in the Layer list.   |
+| Group Selection | Group two or more selected layers together. |
+| Ungroup         | Ungroup a selected group of layers.  |
+| Create component | Create a reusable component from the layer. |
 
-| Context menu option     | Description           |
-|-----------------|-----------------------------------------------------|
-| **Paste over**   | Paste an element over the layer.   |
-| **Cut**   | Cut the selected layer.   |
-| **Rename**   | Rename the layer.   |
-| **Comment** | Comment on the layer. |
-| **Copy/Paste as**      | Opens a submenu with copy/paste options.      |
-| **Move to page**      | Move the layer to another page in the document.      |
-| **Send to Back**    | Move the layer to the bottom of the Layer list.      |
-| **Bring Forward**   | Move a layer one step higher in the Layer list.   |
-| **Group Selection** | Group two or more selected layers together. |
-| **Ungroup**         | Ungroup a selected group of layers.  |
-| **Create component** | Create a reusable component from the layer. |
-
-
-<div class="callout callout--info"> 
-    <p><strong>Note:</strong> When you right-click on an empty area on the canvas or a frame, the only command available on the context menu is <b>Paste here</b>. 
+<div class="callout callout--info">
+    <p><strong>Note:</strong> When you right-click on an empty area on the canvas or a frame, the only command available on the context menu is <b>Paste here</b>. </p>
 </div>
