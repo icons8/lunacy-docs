@@ -28,7 +28,7 @@ This section is a brief overview of the app's interface. Get acquainted with the
 
 ## Overview
 
-Here are the main elements of the interface:
+These are the main elements of the interface:
 
 <embed type="image/svg+xml" alt="interface_overview" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ypvO-jnVC0-auFCR779P5w.svg" width="844" /> 
 
@@ -143,7 +143,7 @@ Here's what the **Page list** looks like:
 
 It appears above the Layer list when the **Layers** content tab is selected.
 
-Using the page list, you can:
+Use the Page list to:
 
 * Add pages.
 * Rename pages.

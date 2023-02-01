@@ -51,15 +51,15 @@ See all of the subscriptions and pricing <a href="https://icons8.com/pricing">he
 
 Any Lunacy user can create <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>. You can access them from anywhere with an internet connection, invite users to collaborate on them, and track their version history.
 
-There are **2 plans** to choose from for working with cloud documents:
+Here are the options you unlock with the cloud plan:
 
-|            | Free cloud plan        | Personal cloud plan    |
+|            | Free options        | Personal cloud plan    |
 | ------------------------------------------- | ----- | ---------------------- |
-| **Cloud document limit**       | Up to 10 (including deleted documents) | Unlimited              |
-| **Document editors/exporters** | Up to 10               | Unlimited              |
-| **Document viewers**           | Unlimited              | Unlimited              |
-| **Version history**            | Last 30 days           | Entire version history |
-| **Deleted files**              | Stored for 30 days     | Stored forever         |
+| Cloud document limit       | Up to 10 (including deleted documents) | Unlimited              |
+| Document editors/exporters | Up to 10               | Unlimited              |
+| Document viewers           | Unlimited              | Unlimited              |
+| Version history            | Last 30 days           | Entire version history |
+| Deleted files              | Stored for 30 days     | Stored forever         |
 
 Upgrade your cloud plan directly in Lunacy:
 
@@ -76,12 +76,12 @@ Try out teams on the free plan and unlock additional features once your team out
 
 |                  | Trial team plan         | Professional team plan            |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------- |
-|**Cloud document limit**| Up to 10 documents across all team projects (including deleted documents) | Unlimited|
-| **Document editors/exporters** | Up to 3 | Unlimited|
-| **Document viewers**   | Unlimited    | Unlimited|
-| **Version history**     | Last 30 days           | Entire version history |
-| **Deleted files**      | Stored for 30 days       | Stored forever |
-| **Team member limit**  | Up to 3 (including the team owner)        | Add more members to your team as it grows ($11.99 / user) |
+|Cloud document limit| Up to 10 documents across all team projects (including deleted documents) | Unlimited|
+| Document editors/exporters | Up to 3 | Unlimited|
+| Document viewers   | Unlimited    | Unlimited|
+| Version history     | Last 30 days           | Entire version history |
+| Deleted files      | Stored for 30 days       | Stored forever |
+| Team member limit  | Up to 3 (including the team owner)        | Add more members to your team as it grows ($11.99 / user) |
 
 
 Upgrade your team plan directly in Lunacy:
