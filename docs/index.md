@@ -80,7 +80,7 @@ grid_navigation:
     - title: 'Teams'
       excerpt: Learn how to organize teamwork
       url: '/teams'
-      icon: 'groups'
+      icon: 'conference-call'
     - title: 'Comments'
       excerpt: Make notes, provide feedback and share ideas with your teammates
       url: '/comments'
