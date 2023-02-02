@@ -8,6 +8,8 @@ doks:
       url: '/sysreq'
     - title: Interface
       url: '/interface'
+    - title: Basics
+      url: '/basics'
     - title: Cloud documents
       url: '/clouddocs'
     - title: Tools

@@ -22,9 +22,13 @@ grid_navigation:
       url: '/sysreq'
       icon: 'system-information'
     - title: Interface
-      excerpt: Learn about interface layout and navigation tools
+      excerpt: Explore the Lunacy interface
       icon: 'toggle-off'
       url: '/interface'
+    - title: Basics
+      excerpt: An overview of Lunacy's basic features and capabilities
+      icon: 'web-design'
+      url: '/basics'
     - title: Cloud documents
       excerpt: Learn how to work with cloud documents
       url: '/clouddocs'  

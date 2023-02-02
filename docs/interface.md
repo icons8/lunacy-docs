@@ -6,622 +6,355 @@ comments: false
 
 # Hero section
 title: Interface
-description: Get familiar with the Lunacy interface
-icon: 'toggle-off'
+description: Explore the Lunacy interface
+icon: 'full-image'
+
+# Micro navigation
+micro_nav: false
 
 # Page navigation
 page_nav:
     next:
-        content: Cloud documents
-        url: '/clouddocs'
+        content: Basics
+        url: '/basics'
     prev:
         content: System requirements
         url: '/sysreq'
 ---
 
+Lunacy's interface is intuitive and minimal. It won't take long for you to learn how to interact with it.
+
+This section is a brief overview of the app's interface. Get acquainted with the basics so you can get started with your designs right away.
+
 ## Overview
 
-The Lunacy interface is intuitive and minimal. It contains only essential controls, so you don’t have to spend much time learning how to interact with it.
+These are the main elements of the interface:
 
-<!-- 
+<embed type="image/svg+xml" alt="interface" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/1YaVlvzf9ESoZIvI9_7z4Q.svg" width="844" /> 
 
-{:.is-big}
 
--->
+1. **Сontent tabs**. Use them to switch between:
 
-<embed type="image/svg+xml" alt="Lunacy interface" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/61r7kirRVE6WDAz10z-Bdg.svg"/>
-
-The interface consists of the following main elements.
-
-1. The content tabs. Use them to switch between the:
-
-    * Layer list
-    * Document assets (<a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">styles</a>)
-    * Built-in Lunacy <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos and vector images, as well as collections of <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>
-
-    <!-- and <a href="https://lunacy.docs.icons8.com/plugins" target="_blank">plugins</a> 
-    -->
-
-    * List of <a href="https://lunacy.docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
+    * The Layer list.
+    * Document assets (<a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">styles</a>).
+    * Built-in <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos, vector images, as well as <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://lunacy.docs.icons8.com/plugins" target="_blank">plugins</a>. 
+    * The list of <a href="https://lunacy.docs.icons8.com/shortcuts" target="_blank">shortcuts</a>.
   
-    To shrink the size of the content tabs panel, drag its right border to the left.
+    Shrink the width of the content tabs panel by dragging its border to the left:
 
     ![Adjusting the size of side panel](public/shrink_side_panel.gif)
     
     
-2. The left panel. Displays the content of the selected tab (1). You can temporarily hide the panel by clicking the current tab, using respective shortcuts (`Alt+1`(`⌥ 1`)...`Alt+8`(`⌥ 8`), `Shift+F1`) or through the menu (**View** > **Left Panel**).
+2. **Left panel**. Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View** > **Left Panel** in the menu bar.
 
-3. The **toolbar**. Features all the primary Lunacy tools. For details about tools, click <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer shortcuts you can toggle off the display of the toolbar through the menu (**View** > **Toolbar**).
-4. The **canvas**. That is your working area. For details, read [below](#the-canvas).
-5. The **Inspector** panel. Lets you see and adjust the properties of the selected layer. The view of the Properties Inspector varies with the type of the selected layer. For details, read [below](#the-inspector).
-6. The **menu bar**. Holds the options and commands related to files, layers, editing, etc. Also, it features the **Home** button that opens the **Home** tab.
-7. The **context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected layer. Hover the cursor over a tool icon to see a pop-up explaining what the tool does.
-8. The **file tabs panel**. Shows the tabs of currently open files. To switch between the files, just click the respective tab.
-9. The **Play** button. Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">here</a>.
-10. This button opens a menu with options described in the table below.
-    
-    <table>
-    <thead>
-        <tr>
-        <th>Button</th>
-        <th>Description</th>
-        <th>Keyboard shortcut/Menu option &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-        <td><img src="/public/interface-rulerbtn.png" alt="Show/Hide rulers button"></td>
-        <td> The <b>Show/Hide rulers</b> button. Controls the display of rulers. For details, read <a href="https://lunacy.docs.icons8.com/interface/#rulers-and-guides">below</a>.</td>
-        <td><code>Ctrl+R</code> (<code>⌘ R</code>)</td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-layoutbtn.png" alt="Show/Hide layout button"></td>
-        <td>The <b>Layout</b> button. Controls the display of the layout grid. Available only when there is a frame on the canvas. For details, read <a href="https://lunacy.docs.icons8.com/interface/#layout-grid">here</a>.</td>
-        <td><code>Ctrl+\</code> (<code>⌃ G</code>)</td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-prototbtn.png" alt="Show prototyping button"></td>
-        <td>The <b>Show prototyping</b> button. Controls the display of <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a> and prototyping arrows.</td>
-        <td><b>View > Prototyping</b></td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-pixelbtn.png" alt="Show pixels on zoom button"></td>
-        <td>The <b>Show pixels on zoom</b> button. Enables the display of pixels when the zoom value exceeds 100. For details, read  <a href="https://lunacy.docs.icons8.com/interface/#show-pixels-on-zoom">here</a>.</td>
-        <td><b>View > Pixels on Zoom</b></td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-gridbtn.png" alt="Show grid button"></td>
-        <td>The <b>Show grid</b> button. Enables the display of the square grid. For details, read <a href="https://lunacy.docs.icons8.com/interface/#square-grid">here</a>.</td>
-        <td><code>Ctrl+'</code> (<code>⌘ '</code>)</td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-nightbtn.png" alt="Sketch Cloud Button"></td>
-        <td>The <b>Enable dark mode</b> button. Turns on/off the night theme in the Lunacy interface.</td>
-        <td><code>-</code></td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-misfontbtn.png" alt="Missing fonts button"></td>
-        <td>The <b>Missing fonts</b> button. Appears when the file you are working with includes fonts not installed on your computer. For details, read <a href="https://lunacy.docs.icons8.com/text/#missing-fonts" target="_blank">here</a>.</td>
-        <td><code>-</code></td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-notifybtn.png" alt="Notifications button"></td>
-        <td>The <b>Notifications</b> button. Appears when you have a new notification from Lunacy. Opens the panel where you can view and manage Lunacy notifications.</td>
-        <td><code>-</code></td>
-        </tr>
-    </tbody>
-    </table>
+3. **Toolbar**. Features all the primary design tools you'll need. Read more about each tool <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View** > **Toolbar**) in the menu bar.
+
+4. **Canvas**. This is your working area. Find out more about it <a href="https://lunacy.docs.icons8.com/basics/#moving-around-the-canvas" target="_blank">here</a>.
+
+5. **Inspector**. This panel lets you see and adjust the properties of the selected layer. The view of the Inspector varies depends on the layer type. For details, read [below](#the-inspector).
+
+6. **Menu bar**. Displays the options and commands related to files, layers, editing, etc. It also features the <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> button, which opens up the [Home tab](#home-tab).
+
+7. **Context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected layer. Hover the cursor over a tool icon to see a pop-up explaining what it does.
+
+8. **Document tabs**. The tabs of currently open files are displayed on the right of the Home button. Click on the tabs to switch between them or press `Ctrl+Tab` / `⌘+Tab` and `Ctrl+Shift+Tab` / `⌘+Shift+Tab`.
+
+9. **Play button**. Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">here</a>.
+
+10. **Additional options**. This button opens up a menu with these options:
+
+    | Button | Description | Windows and Linux Shortcut / Menu Option |  Mac Shortcut / Menu Option |
+    |---|---|---|---|
+    | <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bkTBcjYY-kyIXxUN9M74Bg.svg" width="24" />  | The Show/Hide rulers button toggles rulers on and off. For details, read below. | `Ctrl + R`  | `⌘ + R` |
+    | <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="24" />  | The Show grid button enables the display of the square grid. Learn more about grids here. | `Ctrl + '` | `⌘ + '` |
+    | <embed type="image/svg+xml" alt="layout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/i0isEF3sxUyjktCmMDT4Jw.svg" width="24" />  | The Layout button controls the display of the layout grid and is available only when there is a frame on the canvas. For details, read here. | `Ctrl + \`  | `⌘ + \` |
+    | <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eutHauiFwUuQ4jRcv6LFVQ.svg" width="24" /> | The Show prototyping button controls the display of hotspots and prototyping arrows. | **View**  > **Prototyping**   |
+    | <embed type="image/svg+xml" alt="slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5tkaoATGgUK2NjnzbPlsTg.svg" width="24" /> | With the Slice tool, you can to select a specific area on your design and export it. | **View** > **Slices**  |
+    | <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The Pixels on Zoom option shows pixels when the zoom value exceeds 100. | **View** > **Pixels on Zoom** |
+    | <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the right panel on and off. | -  |
+
+11. **Zoom control**. For details, read about zooming options [below](#zooming-options).
+12. **Theme switch**. Use it to switch between the light and dark themes.
 
 
-11. The **zoom control**. For details, read [below](#zooming-options).
-12. The **Dark mode** button. Use it to switch between the light and dark themes.
+## [Canvas](#canvas)
+
+The canvas is your working area. Add layers to it and place them wherever you want. 
+
+If you need to work within certain boundaries, add <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frames</a> to the canvas. To position layers and frames more precisely, you can add <a href="https://lunacy.docs.icons8.com/basics/#rulers">rulers</a>, <a href="https://lunacy.docs.icons8.com/basics/#guides">guides</a>, and <a href="https://lunacy.docs.icons8.com/basics/#grids">grids</a>.
+
+Read in detail about working with the canvas in the <a href="https://lunacy.docs.icons8.com/basics" target="_blank">Basics</a> section.
+
+## [Layer list](#layer-list)
+
+Open it by clicking on the **Layers** content tab. It will display the layers on the current page:
+
+<embed type="image/svg+xml" alt="layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PuPEDNTYvEKC5atXX-ylxQ.svg" width="844" /> 
 
 
-## Document pages
+Press <embed type="image/svg+xml" alt="smart_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/3uDOUlA760igh6dc4pOLLg.svg" width=16 /> to toggle the **Smart Layer list**, which displays only the layers you currently see on the canvas. It's convenient when you want to see only the layers you're working on in the Layer list.
 
-Each document can include any number of pages. You can keep all your work on a single page or split it into several pages by components, if the project is large. For instance, if you are designing a website, you can opt to keep the desktop and mobile versions on separate pages. Or you can duplicate a page to save a snapshot of your current work and continue working with the copy. In fact, the reasons for having multiple pages in a document are numerous and it is completely up to you to decide what approach to choose. The figure below shows a view of a page list. It appears above the Layer List when the **Layers** content tab is selected.
+Lunacy automatically assigns names to new layers and layer groups. You can always rename them if you like. 
 
-<embed type="image/svg+xml" alt="Pages" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/heVy9uNZn0SrsRJAvB2zhg.svg" />
-
-The operations that you can perform with document pages include:
-
-* Adding pages
-* Changing the order of pages
-* Renaming pages
-* Duplicating pages with their content
-* Copying and pasting pages with their content between documents
-* Deleting pages
-
-To add a new page to the document:
-
-1. Click the plus icon above the Layer List.
-2. Enter the name of the new page.
-3. Press `Enter`.
-
-To change the position of a page in the list, just drag it up or down to where you want it.
-
-The rest of the operations are accessible through the context menu invoked by a right-click over the required page name.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages65.mp4" type="video/mp4"></video>
-
-There is also a special type of a page - the Components page. For details, read <a href="https://lunacy.docs.icons8.com/components/#components-page" target="_blank">here</a>.
-
-## Layer list
-
-The Layer List appears in left panel when you click the **Layers** content tab. It shows a tree of layers available on the current page. Lunacy automatically assigns names to layers and layer groups as you create them, but you can rename them if you like. The figure below shows a view of a Layer List.
-
-{:.is-big}
-<embed type="image/svg+xml" alt="Layers List" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TlrJs4Jv70GRRU_UWxQ1pw.svg" />
-
-If the names of layers in the list appear truncated, you can change the width of the panel as shown below.
+If a layer name doesn't fit in the Layer list, you can change the width of the panel this way:
 
 <video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-resizeleft.png" height="auto"><source src="/public/interface-resizeleft65.mp4" type="video/mp4"></video>
 
-The operations that you can perform in the layers list include:
+Using the Layer list, you can:
 
-* **Selecting layers**. To select a layer or layer group, click its name in the Layer List. As you do it, the selection frame appears around the layer on the canvas. To select multiple items hold down the `Ctrl` or `Shift` keys and click.
-* **Searching for layers**. To quickly find the required layer start typing its name in the search field above the Layer List.
-* **Arranging layers**. You can change the order of layers in the list by dragging them up or down.
-* **Hiding layers**. You can temporarily hide the selected item from the canvas. You can hide layers, layer groups or individual items within layer groups. Select the item in the list and click the eye icon that will appear next to its name. You can also hide layers by using the `Ctrl+H` shortcut or the respective command on the context menu.
-* **Locking layers**. By locking layers you can protect them from accidental edits. You cannot select a locked layer on the canvas. But you still can select it through the Layer List and edit its properties in the Inspector. You can also lock grouped layers or individual layers within a group. Select the layer in the list and click the padlock icon that will appear next to its name. You can also lock layers by using the `Ctrl+L` shortcut or the respective command on the context menu.
-* Other [basic operations](#the-context-menu) with layers available on the context menu.
+|   Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       | Description |
+|---------------------------------------|------------------|
+|   Select layers      |    To select a layer or layer group, click its name in the Layer list. A selection frame will appear around the layer. To select multiple items hold down the `Ctrl` / `⌘` or `Shift` keys and click on the layers.    |
+|   Search for layers                                 |    To locate a layer, start typing its name in the search field above the Layer list.    |
+|   Arrange layers                |     Change the order of the layers in the list by dragging them up or down. Organize layers as you see fit and position them in the order you want them to be stacked if they're overlapping on the canvas. |
+|  Hide layers                    |   To hide layers, layer groups, or individual items inside layer groups, select a layer and click the eye icon next to its name. You can also hide layers by using the `Ctrl + H` / `⌘ + H` shortcut or the corresponding option on the context menu.     |
+|    Lock layers            |     Lock layers, grouped layers, or individual layers within a group to protect them from accidental edits. To do this, select a layer in the Layer list and click the lock icon, press `Ctrl + L` / `⌘ + L`, or use the corresponding option on the context menu. To select locked layers and edit their properties in the Inspector, right-click them on the canvas or select them in the Layer list. |
 
-<!--
+Other basic operations with layers are available on the <a href="https://lunacy.docs.icons8.com/basics/#the-context-menu" target="_blank">context menu</a>.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-objectlistplaceholder.png" height="auto"><source src="/public/interface-objectlist61.mp4" type="video/mp4"></video>
 
--->
-
-To collapse all branches in the Layer List tree use the `Ctrl + ~` shortcut.
+To collapse all the layers in the Layer list, press `Ctrl + ~` / `⌘ + ~`.
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> Some projects, such as design systems, can house hundreds of layers on a single page. To quickly locate the required layer on the canvas, find it by typing its name in the search field, select it in the layers list and then press <code style="background: white">Ctrl + 2</code> (Fit to selection).</p>
-    <p>For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p><strong>Tip:</strong> Some projects, such as design systems, may have hundreds of layers on a single page. To quickly move to a specific layer, find it by typing its name in the search field, select it in the Layer list, and press <code>Ctrl + 2</code> / <code>⌘ + 2</code> (Fit to selection).</p>
 </div>
 
-<!--
-**Tip:** Some projects, such as design systems, can house hundreds of layers on a single page. To quickly locate the required layer on the canvas, find it by typing its name in the search field, select it in the Layer List and then press `Ctrl + 2` (Fit to selection).
+<p>Find more useful Lunacy tips and tricks <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
 
--->
 
-## [The Canvas](#the-canvas)
+## [Inspector](#the-inspector)
 
-The canvas is your working area. It has no boundaries, so you can add layers wherever you want. If you need to work within certain boundaries, you can add [frames](#frames) to the canvas. Also, you can toggle on and off the display of [rulers](#rulers-and-guides) and [grids](#grids) on the canvas.
+The **Inspector** is the panel that appears on the right of the Lunacy interface when you select a layer.
 
-### Moving around the canvas
+When you create a new document, the first thing you'll see on the right is a list of <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frame</a> presets. Once you add a frame or layer, the Inspector will open up and display its properties. If you deselect all frames and layers, you will see general workspace settings and options.
 
-If your design takes a lot of space and does not fit the screen, you can use the scroll bars located on the right side and at the bottom of the screen.
+Learn more about the Inspector <a href="https://lunacy.docs.icons8.com/basics/#working_with_the_inspector" target="_blank">here</a>.
 
-Also, you can use the mouse wheel for scrolling the canvas. Just point the cursor anywhere over the canvas and rotate the wheel to scroll vertically. To scroll horizontally, hold down the `Shift` key and rotate the mouse wheel.
+## Document pages
 
-Another option to navigate the canvas is to hold down the `Space` key (the cursor will turn into a palm) and drag the canvas to where you need.
+There can be any number of **pages** in a document. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-movingcanvas.png" height="auto"><source src="/public/interface-movingcanvas65.mp4" type="video/mp4"></video>
+You can keep all your work on a single page or split it between several pages. For instance, when designing a website, you can keep the desktop and mobile versions on separate pages. Additionally, you can duplicate a page to save a version of your current design and experiment with the copy. It's completely up to you to decide which approach to choose. 
 
-Also, read about the [zooming options](#zooming-options).
+Here's what the **Page list** looks like: 
 
-### [Frames](#frames)
+<embed type="image/svg+xml" alt="page_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TgMw_XxCa025DzYKz7eF5Q.svg" width="844" /> 
 
-Frames are a special type of layers that lets you  divide the canvas into separate areas with different content. Frames are optional but they come in handy when you’re designing for a certain screen size or device. To create an frame, use the <a href="https://lunacy.docs.icons8.com/tools/#frame-tool" target="_blank">frame tool</a>. In fact, it is the tool that Lunacy enables first when you create a new document. It allows you to create a custom size frame or to select an option from the list that will appear on the right. This list features presets for popular devices, screen resolutions and social media templates (you can also add your custom presets to this list, see [below](#adding-custom-presets)).
+It appears above the Layer list when the **Layers** content tab is selected.
 
-To add a frame:
+Use the Page list to:
 
-1. Select the frame tool on the toolbar or press `A`.
-2. Click and drag to create a custom size frame or select an option from the panel on the right (see the figure below).
+* Add pages.
+* Rename pages.
+* Change the order of the pages.
+* Duplicate pages (with their content).
+* Copy and paste pages into other documents.
+* Delete pages.
 
-{:.is-big}
-<embed type="image/svg+xml" alt="Frames" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TRpyYZFvgUyuxKR8MzWR9Q.svg" />
+To add a new page to the document:
 
-But even if you started your project without frames, it is never too late to add them. Just drag the frame tool over the layers that you want to put on a frame.
+1. Click the `+` icon above the Layer list.
+2. Name the new page.
+3. Press `Enter`.
 
-The figure below shows how frames appear in the Layer List and a view of the Inspector with frame settings and controls which differ a lot from those available in the [Inspector](#the-inspector) panels of other layer types.
+To change the position of a page in the list, simply drag it to where you want it to be.
 
-{:.is-big}
-<embed type="image/svg+xml" alt="Frames in Lunacy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OVBe70GtwUqoerEuoDf3WA.svg" />
+The rest of the actions are accessible through the **context menu**, which you can access by right-clicking a page name.
 
-The table below provides a description of the right panel elements displayed for frames.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages65.mp4" type="video/mp4"></video>
 
-<table>
-  <thead>
-    <tr>
-      <th style="width: 270px;">Inspector element</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="/public/interface-artbinspector1.png" alt="Size controls"></td>
-      <td><b>Preset sizes and orientation</b><p>Use these controls to select the size of the frame from one of the presets and change its orientation. The <b>Resize to Fit</b> button changes the size of a frame to the size of the selection frame that you get when you select all layers on the given frame.</p></td>
-    </tr>
-    <tr>
-      <td><img src="/public/interface-artbinspector2.png" alt="Position and dimension controls"></td>
-      <td><b>Position and size</b><p>The <b>X</b> and <b>Y</b> controls show and allow you to manage the absolute position of the frame on the canvas.</p> <p> The <b>W</b> and <b>H</b> controls, show and allow to change the width and height of the layer. Click the links button, if you want to preserve aspect ratio when changing the size of the frame.</p></td>
-    </tr>
-    <tr>
-      <td><img src="/public/interface-artbinspector3.png" alt="Adjust content on resize"></td>
-      <td><b>Adjust content on resize</b><p>With this checkbox selected, when you change the size of the frame, Lunacy will proportionally change the size of the layers on it. Read also about resizing constraints.</p></td>
-    </tr>
-    <tr>
-      <td><img src="/public/interface-artbinspector4.png" alt="Frame background"></td>
-      <td><b>Frame background</b><p>Use these controls to change the color and opacity of the frame. Also, you can clear the <b>Include in export</b> checkbox, if you don't want to include the frame into export results. In such a case, Lunacy will export only the layers available on the frame.</p></td>
-    </tr>
-    <tr>
-      <td><img src="/public/interface-artbinspector5.png" alt="Layout grid settings"></td>
-      <td><b>Layout grid settings</b><p>This group of controls allows you to configure the settings of the layout grid. For details about layout grids, read <a href="https://lunacy.docs.icons8.com/interface/#layout-grid">here</a>.</p></td>
-    </tr>
-    <tr>
-      <td><img src="/public/interface-artbinspector6.png" alt="Export controls"></td>
-      <td><b>Export controls</b><p>Allow you to export the frame and its content. For details about export in Lunacy, click <a href="https://lunacy.docs.icons8.com/export" target="_blank">here</a>.</p></td>
-    </tr>
-  </tbody>
-</table>
+There is also a special type of page — the **Components** page. It stores the reusable components you can create in your designs. Learn more about working with components <a href="https://lunacy.docs.icons8.com/components/#components-page" target="_blank">here</a>.
 
-#### Selecting and moving frame
 
-To select an empty frame, you can click anywhere within the frame. To select a frame with layers on it, click the frame's name.
+## [Home Tab](#home-tab)
 
-Similarly, to move an empty frame, click anywhere within the frame and drag it to where you want it. To move a frame with layers, click the frame's name and drag.
+In the **Home** tab, you can manage your:
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-moveartplaceholder.png" height="auto"><source src="/public/interface-moveart.mp4" type="video/mp4"></video>
+* Personal documents (both local and cloud).
+* Teams and team projects.
+* Account and profile information.
 
-Alternatively, you can select the required frame by clicking its name in the Layer List.
+The Home tab opens up when you start Lunacy if you don’t have any previously opened documents in the app. Otherwise, you’ll see your most recently edited document on startup.
 
-#### [Adding custom presets](#adding-custom-presets)
+You can access the Home tab from within a document by clicking <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> on the menu bar.
 
-To add a custom frame to presets:
+These are the main sections of the Home tab:
 
-1. Select the frame tool on the toolbar or press `A`. The panel of frame presets appears on the right.
-2. At the bottom of the panel, click the **Create custom preset** button. Scroll the panel down if you don't see the button.
-3. In the displayed dialog box, define the preset name and its dimensions in pixels.
-4. Click **Save**. The group **Custom** appears in the panel of presets (see the figure below).
+<embed type="image/svg+xml" alt="home_tab_overview" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/14xtg7lgyU2Mz95I2gpRHg.svg" width="844" /> 
 
-<embed type="image/svg+xml" alt="Custom Preset" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LVbUeACRzUG6RL4YUuUxBw.svg" />
 
-### [Rulers and guides](#rulers-and-guides)
+1. **The Sidebar.** Access your account page, navigate through documents, and manage your team projects. At the bottom of the sidebar, you will find links to the onboarding tutorial, Lunacy documentation, and social media.
+2. **Action Bar.** Use it to create, open, and import documents. Switch between grid and list views, and sort documents as you like. Use the Search field to find documents.
+3. **Document Viewer.** This section of the Home tab displays previews of your documents and team projects.
 
-Ruler and guides will help you position and align layers on the canvas. In Lunacy, rulers are enabled by default. They appear at the top and on the left side of the canvas. The default and the only measurement unit is pixels. To toggle the rulers off/on, use the `Ctrl+R` shortcut or do it through the menu bar (**View** > **Rulers**).  
+### Working with Documents
 
-To create a guide, click anywhere on a ruler and drag the guide onto the canvas to where you need it. Now you can position layers along the guide. Move a layer close to the guide and note how it will snap to the guide.
+The Home tab makes it easy to create, manage, and organize all of your personal and team docments. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-guides.png" height="auto"><source src="/public/inteface-guides61.mp4" type="video/mp4"></video>
 
-To relocate a guide, just drag it to another position or select it and use arrow keys to nudge it. If you don't need a guide, click to select it (hold down `Shift` to select multiple guides) and press `Delete`. Also, you can use the options from the pop-up menu invoked by a right-click over a ruler (see the figure below).
+#### Creating documents
 
-<embed type="image/svg+xml" alt="Rulers" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U8yim8DMH0a1ZkV3tKsEfA.svg" />
+To create a new document, use any of the following ways depending on the document type:
 
-### [Grids](#grids)
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Local | Cloud |
+|---------------------------------------|-----------------------|----------------------------|
+| On the Home Tab, click | **New Document** | **New Cloud Document** |
+| On the menu bar, select | **File** > **New Document** | **File** > **New Cloud Document** |
+| Anywhere in Lunacy, press | `Ctrl + N` / `⌘ + N` | `Ctrl + Shift + N` / `⌘ + Shift + N` |
+| Anywhere in Lunacy, click | `+` on the right of the document tabs at the top of the screen |
 
-There are two types of grids: square grid and layout grids. If necessary, you can display both of them at the same time.
+<div class="callout callout--info">
+    <p><strong>Note:</strong> Find out more about local and cloud documents <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">here</a>.</p>
+</div>
 
-#### [Square grid](#square-grid)
 
-If there are no frames on the canvas, Lunacy displays the square grid directly on the canvas (to enable it, just click the **Show grid** button on the action bar). Otherwise, you can toggle on/off the display of the grid:
+#### Opening documents
 
-* For all frames available on the canvas. For this, deselect all frames and layers on the canvas (click over an empty area on the canvas or press `Esc`) and click the **Show grid** button on the action bar.
-* Individually for each frame. For this, select the required frame or a layer on it and click the **Show grid** button on the action bar.
+To open a cloud document, click on its thumbnail on the Home tab. 
 
-To select the size of the grid cell, click the down arrowhead next to the button and choose one of the presets or define your custom size.
+As for other options, use any of these to open local documents:
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-sqgridplaceholder.png" height="auto"><source src="/public/interface-sqgrid.mp4" type="video/mp4"></video>
+* Press `Ctrl + O` / `⌘ + O`.
+* Click the **Open** button on the action bar.
+* Click **File** > **Open** on the menu bar.
 
-#### [Layout grid](#layout-grid)
+Supported formats include `sketch`, `svg`, `png`, `jpg`, `jpeg`, `bmp`, `webp`, `ico`, and `gif`.
 
-You can apply layout grids only to [frames](#frames). If you have several frames on a page, you can toggle on and off the display of layout grids for all or individually for each frame. Also, each frame can have its own settings of the layout grid (see the demo below).
+To open a cloud document shared with you:
+1. Copy the link to the document.
+2. Press `Ctrl + V` / `⌘ + V` anywhere in the app.
+3. Click **File** > **Open URL From Clipboard**.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-layoutgridplaceholder.png" height="auto"><source src="/public/interface-layoutgridvid.mp4" type="video/mp4"></video>
+#### Importing documents
 
-### Measuring
+You can import:
 
-#### Independent layers
+- Local .sketch documents to Lunacy Cloud
+- Figma documents to local .sketch documents (which you can then upload to Lunacy Cloud)
 
-To learn the distance between two layers on the canvas:
+##### Importing local `.sketch` files to cloud
+- In the action bar, click **Import Local**.
+- At the top right corner of a local document, click <embed type="image/svg+xml" alt="send_cloud" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hDgRI0Dx_EaYjQ2uo5PrTg.svg" width="16" /> .
 
-1. Select the first layer.
-2. Hover the cursor over the other layer.
-3. Press and hold `Alt` (`⌥`).
+##### Importing Figma documents to `.sketch`
 
-To learn the distance between an layer and the bounds of the frame:
+1. In Figma, set your file’s sharing options to **Anyone with the link → can view/edit**.
+2. Copy the link to the file.
+3. Use `Ctrl + V` / `⌘ + V` anywhere in the Lunacy app to open it.
 
-* Hover the cursor over the layer, then press and hold `Alt` (`⌥`).
-  
-  OR
-* Select a layer, then hover the cursor over an empty area within the frame and press and hold `Alt` (`⌥`).
+To import private Figma files, you’ll have to enter its share link as well as a **personal access token** generated in Figma for third-party app integrations.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
+To generate a personal access token in Figma:
 
-For precise positioning of layers on the frame or relative one another, proceed as follows:
+1. Click your profile icon in the file browser and choose **Settings**. 
+2. Scroll down to the **Personal access token** section.
+3. Enter a brief description for the token, and press `Enter`.
+4. Copy the token and return to Lunacy.
+5. Click **Import from Figma** or **File** > **Import from Figma** in the menu bar and enter the file’s share link and the personal access token in the corresponding fields:
 
-1. Select one of the layers.
-2. Point the cursor over an empty area or over the other layer.
-3. Holding down `Alt`(`⌥`), move the selected layer using the arrow keys.
+    <embed type="image/svg+xml" alt="import_figma" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fTNhrJIe1kSwsrpR_CeFvQ.svg" width="844" /> 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure3ph.png" height="auto"><source src="/public/interface-groupmeasure3.mp4" type="video/mp4"></video>
 
-#### Grouped layers
+    <div class="callout callout--info">
+    <p><strong>Note:</strong> Some elements, such as component variants and complex vector shapes, may be displayed differently when imported into Lunacy. The article <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">here</a> lists all of the nuances of Figma import.</p>
+</div>
 
-To measure the distance between a grouped layer and another layer (or grouped layer) or between a grouped layer and the borders of the frame, proceed as described in the previous subsection.
 
-To learn the distance between a member of a group and the borders of the group:
+#### Browsing Documents
 
-1. Point the cursor over the required group member.
-2. Press and hold `Ctrl + Alt` (`⌘ ⌥`). 
+In the sidebar, your documents are divided into three categories: 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure1ph.png" height="auto"><source src="/public/interface-groupmeasure1.mp4" type="video/mp4"></video>
+* **Recent**. All of your local and cloud documents, as well as documents shared with you by others.
+* **Documents**. Only your cloud documents.
+* **Deleted**. Deleted cloud documents. 
 
-To learn the distance between a member of a group and the borders of the frame:
 
-1. Select the group member.
-2. Press and hold `Alt` (`⌥`).
-3. Point the cursor anywhere beyond other group members.
+<div class="callout callout--info">
+    <p><strong>Note:</strong> If you’re on the free plan, deleted documents are stored for 30 days, then they are deleted permanently.</p>
+</div>
 
-To learn the distance between a member of a group and another member of the group or another layer (group):
+In any of these sections, you can right-click on a document preview to open the context menu:
 
-1. Select the first group member.
-2. Press and hold `Alt`(`⌥`).
-3. Point the cursor over the second group member/layer(group).
+<embed type="image/svg+xml" alt="doc_context" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2Bo5PpAb9USo1V7RQ5euhA.svg" width="844" /> 
 
-To learn the distance between a member of a group and a member of another group:
 
-1. Select the first group member.
-2. Press and hold `Ctrl+Alt` (`⌘ ⌥`).
-3. Point the cursor over the member of the other group.
+To search for documents by keyword, use the search field in the action bar:
 
-The next demo shows the above three procedures.
+<embed type="image/svg+xml" alt="search" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/oEoeoa1K80yLK4gH2rXwGg.svg" width="844" /> 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure2ph.png" height="auto"><source src="/public/interface-groupmeasure2.mp4" type="video/mp4"></video>
 
-### Zooming options
+Use the buttons on the right of the search bar to sort documents and switch views.
 
-The easiest way to zoom to a layer in Lunacy is to hold down the `Ctrl`(`⌘`) key and rotate the mouse wheel. Similarly, you can hold down `Ctrl` and `Shift` (`⌘ Shift`) keys. In such a case the speed of zooming will be slower (see the demo below).
+#### Managing Teams and Projects
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomtoobject61.mp4" type="video/mp4"></video>
+You can create teams for collaborating with others. Create projects inside teams and use them like folders to organize your documents.
 
-For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
 
-1. Through the menu (**View** > **Pixel grid**).
-2. Deselect all layers on the canvas and clear the **Show pixel grid** checkbox that will appear in the Inspector.
+Find out more about teams and projects <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">here</a>. 
 
-For information about other zooming options, read below.
+### Account and profile
 
-#### The Zoom tool
-The Zoom tool enables you to zoom in the selected layer or canvas area. To use the tool:
+Log in to your account to get full access to our graphics, create teams and projects to collaborate with other people, and share your portfolio online.
 
-1. Press and hold `Z`.
-2. Click the layer you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be).
-3. To zoom out, hold down `Z+Alt` and click or drag over the layer or area.
+#### Logging in to your account
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom61.mp4" type="video/mp4"></video>
+In the Home tab, click Log In at the top of the sidebar. Use your existing Icons8 account or via another service:
 
-#### The Zoom control
+<embed type="image/svg+xml" alt="login_page" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/gTo2LsQ7ekKbbSUFgGBdrw.svg" width="844" /> 
 
-The zoom control is found on the right of the file tab panel. To change the zoom value, you can:
 
-* Enter the zoom value manually in the edit field.
-* Hover the cursor over the zoom control edit field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
-* Click over the edit field of the zoom control and rotate the mouse wheel.
+To create a new account, click **Register**.
 
-The demo below shows all these three methods.
+#### Account Information and Actions
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl61.mp4" type="video/mp4"></video>
+Once you’re logged in, you will see your **profile page**:
 
-Alternatively, you can click the down arrowhead next to the zoom control and select one of the preset values or options on the displayed menu (see the figure below).
+<embed type="image/svg+xml" alt="profile_page" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/pYEH7WWv9kmU62Zde08e3g.svg" width="844" /> 
 
-<embed type="image/svg+xml" alt="Zoom" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OxheNRo5pkiyNtsF3_IaLQ.svg" />
+Use this page to:
+* Manage your profile information
+* Publish documents to your web profile
+* Subscribe to paid plans
+* Log out and delete your account
+    
+##### Managing your profile
 
-The table below explains the options on the menu.
+Edit your name, profile description, and profile picture. 
+        
+Your profile information shows up here and is visible to people with access to your cloud documents, as well as the the members of your team. 
 
-<table>
-  <thead>
-    <tr>
-      <th>Operation</th>
-      <th>Description</th>
-      <th style="width: 160px;">Keyboard shortcut</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Zoom in/out</td>
-      <td>Zooms the canvas in/out.</td>
-      <td><code>+/-</code> or <p><code>Ctrl + "+/-"</code></p></td>
-    </tr>
-    <tr>
-      <td>Zoom to 100%</td>
-      <td>Sets the zoom value to 100%.</td>
-      <td><code>Ctrl + 0</code></td>
-    </tr>
-    <tr>
-      <td>Zoom to All Layers</td>
-      <td>Shows all the layers available on the page.</td>
-      <td><code>Ctrl + 1</code></td>
-    </tr>
-    <tr>
-      <td>Zoom to Selection</td>
-      <td>Zooms in and displays the selected layer in the center of the screen.</td>
-      <td><code>Ctrl + 2</code></td>
-    </tr>
-    <tr>
-      <td>Zoom to fit width</td>
-      <td>Zooms the canvas so that all the horizontally distributed layers fit the screen and you don't have to scroll the screen to the sides.</td>
-      <td><code>Ctrl + 3</code></td>
-    </tr>
-    <tr>
-      <td>Zoom to fit height</td>
-      <td>Zooms the canvas so that all the vertically distributed layers fit the screen and you don't have to scroll the screen up or down.</td>
-      <td><code>Ctrl + 4</code></td>
-    </tr>
-  </tbody>
-</table>
 
-The above options are also accessible through the **View** menu, see the figure below.
+##### Publish documents to your web profile
 
-<embed type="image/svg+xml" alt="Zoom 2" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ulk_sB-ZfEehRxkxtYuZ4w.svg" />
+Personal cloud documents show up on your profile page in the app with a **Publish/Unpublish** button. Click it to add or remove documents from your **web profile**, a public page where you can showcase your designs. 
 
-<!--
+Use it as a portfolio of your works:
+1. Click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> at the top right corner of your profile  page.
+2. Select **Web Profile**. This will open your public web profile in the browser.
+3. Copy the link in the address bar.
+4. Share it anywhere you like!
 
-Also, for zooming and focusing you can use the <a href="https://lunacy.docs.icons8.com/tools/#zoom-tool" target="_blank">zoom tool</a>.
+<div class="callout callout--info">
+    <p><strong>Note: </strong>If the link recipient doesn’t have Lunacy yet, they will be prompted to install it.</p>
+</div>
 
--->
 
-#### [Show pixels on zoom](#show-pixels-on-zoom)
+##### Subscribe to paid plans
 
-By default, Lunacy displays canvas in the vector mode. It means that all layers (except for rasters) will look perfect on the screen irrespective of the zoom value. But if you need to see individual pixels, you can use the *show pixels on zoom* feature. It enables the display of pixels when the zoom value exceeds 100. The figure below shows a view of the same layer with the feature disabled (left) and enabled (right).
+Icons8 graphics are free for personal and commercial use as long as you include an attribution link to us. Additionally, SVG files and high-resolution photos are unavailable on the free plan. To get these options and use our graphics without mandatory attribution, consider a paid subscription. 
 
-<embed type="image/svg+xml" alt="Show pixels on Zoom" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/n94M7z7YrUudVeF56mTAdw.svg" />
+You can also upgrade to a **cloud** or **team** plan for more freedom with cloud documents, team creation, and document management. 
+Read more about the subscriptions we offer <a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">here</a>.
 
-To toggle on/off the pixel mode, use the **Show pixels on zoom** button (![Show pixels on zoom button](public/interface-pixelbtn.png)) or do it through the menu bar (**View** > **Pixels on Zoom**).
+You can also access the list of our graphics subscriptions by **Unlock All Assets** on your profile page, then **See Pricing**.
+To see all product and subscription options available to you, as well as your Downloads (assets you’ve previously downloaded), click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> and select **Billing**.
 
-### Changing the canvas color
 
-There are two ways to change the color of the canvas:
 
-**Way 1**
+##### Log out and delete your account
 
-1. Deselect all the layers on the canvas.
-2. Use the **Workspace color** control that will appear in the Inspector.
-
-**Way 2**
-
-1. Deselect all the layers on the canvas.
-2. Select the <a href="https://lunacy.docs.icons8.com/tools/#eyedropper-tool" target="_blank">eyedropper tool</a>. 
-3. Use the pallets that will appear in the left panel to select the new color.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-canvascolorplaceholder.png" height="auto"><source src="/public/interface-canvascolor1356x730.mp4" type="video/mp4"></video>
-
-## [The Inspector](#the-inspector)
-
-The Inspector is the panel that appears on the right of the Lunacy interface. When you create a new document, the first thing you see on the right is not yet the Inspector but the panel of presets of the <a href="https://lunacy.docs.icons8.com/tools/#frame-tool" target="_blank">frame tool</a>. Lunacy enables it by default upon creation of a new document. And only when you add a frame or add and select another layer, the Property Inspector appears.
-
-The set of controls and settings displayed in the Inspector varies with the type of layer selected on the canvas. Below is a description of Inspector elements common for almost all layer types.
-
-<table>
-    <thead>
-        <tr>
-        <th style="width: 270px;">Inspector element</th>
-        <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-        <td><img src="/public/interface-alignctrl.png" alt="Alignment and distribution controls"></td>
-        <td><b>Alignment and distribution controls</b>. Become available when you select two or more layers.</td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-opacity.png" alt="Opacity and blend mode settings"></td>
-        <td><b>Opacity and blend mode settings</b>. Allow you to set the overall opacity of a layer and its blending mode.</td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-positionctrl2.png" alt="Layer properties controls"></td>
-        <td><b>Layer properties controls</b>. Allow you to adjust the position and size of the layer, as well as its rotation angle, corner radius and number of vertices in stars and polygons. The set of displayed controls varies with the selected layer.</td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-resizectrl.png" alt="Resizing constraints"></td>
-        <td><b>Resizing constraints</b>. Appear when you select two or more layers, a group of layers or a layer on a frame. Serve to determine the behavior of layers upon resizing.</td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-protoctrl.png" alt="Prototyping controls"></td>
-        <td>The <b>Prototyping</b> section features the settings related to prototyping.</td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-appear.png" alt="Appearance section"></td>
-        <td>The <b>Appearance</b> section allows you to apply <a href="https://lunacy.docs.icons8.com/layerstyles" target="_blank">styles</a> to the selected layer.</td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-stylingctrl.png" alt="Styling options"></td>
-        <td><b>Styling options</b>. For details, read <a href="https://lunacy.docs.icons8.com/styling" target="_blank">here</a>.</td>
-        </tr>
-        <tr>
-        <td><img src="/public/interface-exportctrl.png" alt="Export settings"></td>
-        <td><b>Export settings</b>. For details, read <a href="https://lunacy.docs.icons8.com/export" target="_blank">here</a>.</td>
-        </tr>
-    </tbody>
-</table>
-
-When you select no layer on the canvas, the Inspector shows the following controls.
-
-* **Workspace color**: Allows you to change the color of the canvas.
-* **Show pixel grid**: Toggles on/off the display of the pixel grid when the zoom value exceeds 500.
-* **Export project**: Allows you to export the whole project. For details, read <a href="https://lunacy.docs.icons8.com/export" target="_blank">here</a>.
-
-<embed type="image/svg+xml" alt="Select no layer on the canvas" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/YJSPtecCHkq9Lh22lNc1sw.svg" />
-
-If you need more space, you can toggle on/off the display of the Inspector panel through the menu bar (**View** > **Inspector**).
-
-### [Tips on working with the Inspector](#tips-on-working-with-the-inspector)
-
-There are several ways to change values in the numeric fields of the Inspector. You can:
-
-* Enter the new value manually (press `Enter` to submit).
-* Click over the required field and rotate the mouse wheel to gradually increase or decrease the value.
-* Hover the cursor over the required field, wait a moment until the cursor turns into a double-headed arrow and then drag the cursor up or down.
-* Use math (press `Enter` to submit).
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-inspectortipsplaceholder.png" height="auto"><source src="/public/interface-inspectortips.mp4" type="video/mp4"></video>
-
-## [The context menu](#the-context-menu)
-
-The context menu is a pop-up list of commands and options for basic operations with layers. It appears when you right-click a layer on the canvas. The set of items available on the context menu might slightly vary. It depends on the type of layer that you right-click. Also, next to each item, the context menu shows respective shortcuts that you can use when you become more confident with Lunacy (see the figure below).  
-
-<embed type="image/svg+xml" alt="The context menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/wdcgLwXeIkuEy9ev-2y6qA.svg" />
-
-The table below gives an overview of context menu commands and options common for almost all layer types.
-
-<table>
-  <thead>
-      <tr>
-        <th>Menu option</th>
-        <th>Description</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td><b>Bring Forward</b></td>
-        <td>Moves the layer one step up.</td>
-      </tr>
-      <tr>
-        <td><b>Bring to Front</b></td>
-        <td>Moves the layer to the very top.</td>
-      </tr>
-      <tr>
-        <td><b>Send Backward</b></td>
-        <td>Moves the layer one step down.</td>
-      </tr>
-      <tr>
-        <td><b>Send to Back</b></td>
-        <td>Moves the layer to the very bottom.</td>
-      </tr>
-      <tr>
-        <td><b>Group Selection</b></td>
-        <td>Groups two or more selected layers together. For details about grouping layers, read <a href="https://lunacy.docs.icons8.com/layers/#grouping-layers" target="_blank">here</a>.</td>
-      </tr>
-      <tr>
-        <td><b>Ungroup</b></td>
-        <td>Splits the selected group into separate layers.</td>
-      </tr>
-      <tr>
-        <td><b>Lock</b></td>
-        <td>Locks the layer from accidental edits. For details, read <a href="https://lunacy.docs.icons8.com/interface/#layer-list">here</a>.</td>
-      </tr>
-      <tr>
-        <td><b>Hide</b></td>
-        <td>Temporarily hides the layer from the canvas. For details, read <a href="https://lunacy.docs.icons8.com/interface/#layer-list">here</a>.</td>
-      </tr>
-      <tr>
-        <td><b>Rename</b></td>
-        <td>Allows you to rename the selection right on the canvas or in the Layer List.</td>
-      </tr>
-      <tr>
-        <td><b>Copy/Paste</b></td>
-        <td>Opens a submenu with copying/pasting options. For details, read <a href="https://lunacy.docs.icons8.com/layers/#copy-and-paste-options" target="_blank">here</a>.</td>
-      </tr>
-      <tr>
-        <td><b>Duplicate</b></td>
-        <td>Creates a duplicate of the selected layer. For details, read <a href="https://lunacy.docs.icons8.com/layers/#duplicating-layers" target="_blank">here</a>.</td>
-      </tr>
-      <tr>
-        <td><b>Delete</b></td>
-        <td>Deletes the selected layer.</td>
-      </tr>
-  </tbody>
-</table>
-
-When you right-click an empty area on the canvas or a frame, the only command available on the context menu will be **Paste here**. The point where you right-click is the place where Lunacy will place the top-left selection handle of the layer you paste.
+Exit your account by clicking the **Log out** button at the top right corner of the account page.
+To delete your account, open the context menu and click **Delete account**.
+<div class="callout callout--warning">
+    <p><strong>Warning:</strong> Account deletion is permanent and completely erases your data. You won’t be able to recover it.</p>
+</div>

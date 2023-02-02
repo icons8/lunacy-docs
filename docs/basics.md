@@ -7,7 +7,7 @@ comments: false
 # Hero section
 title: Basics
 description: An overview of Lunacy's basic features and capabilities 
-icon: 'full-image'
+icon: 'web-design'
 
 # Micro navigation
 micro_nav: false
