@@ -196,10 +196,10 @@ The Home tab makes it easy to create, manage, and organize all of your personal 
 
 To create a new document, use any of the following ways depending on the document type:
 
-| | Local | Cloud |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Local | Cloud |
 |---------------------------------------|-----------------------|----------------------------|
-| On the Home Tab, click | New Document | New Cloud Document |
-| On the menu bar, click | File > New Document | File > New Cloud Document |
+| On the Home Tab, click | **New Document** | **New Cloud Document** |
+| On the menu bar, select | **File** > **New Document** | **File** > **New Cloud Document** |
 | Anywhere in Lunacy, press | `Ctrl + N` / `⌘ + N` | `Ctrl + Shift + N` / `⌘ + Shift + N` |
 | Anywhere in Lunacy, click | `+` on the right of the document tabs at the top of the screen |
 
@@ -255,8 +255,7 @@ To generate a personal access token in Figma:
     <embed type="image/svg+xml" alt="import_figma" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fTNhrJIe1kSwsrpR_CeFvQ.svg" width="844" /> 
 
 
-
-<div class="callout callout--info">
+    <div class="callout callout--info">
     <p><strong>Note:</strong> Some elements, such as component variants and complex vector shapes, may be displayed differently when imported into Lunacy. The article <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">here</a> lists all of the nuances of Figma import.</p>
 </div>
 
@@ -312,53 +311,50 @@ Once you’re logged in, you will see your **profile page**:
 
 <embed type="image/svg+xml" alt="profile_page" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/pYEH7WWv9kmU62Zde08e3g.svg" width="844" /> 
 
-
 Use this page to:
+* Manage your profile information
+* Publish documents to your web profile
+* Subscribe to paid plans
+* Log out and delete your account
+    
+##### Managing your profile
 
-* **Manage your profile information**
-
-    Edit your name, profile description, and profile picture. 
+Edit your name, profile description, and profile picture. 
         
-    Your profile information shows up here and is visible to people with access to your cloud documents and the members of your team. 
-
-* **Publish documents to your web profile**
-
-    Personal cloud documents show up on your account page in the app with a **Publish/Unpublish** button. Click it to add or remove documents from your **web profile**, a public page where you can showcase your designs. 
-
-    Use it as a portfolio of your works:
-
-    1. Click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> at the top right corner of your profile  page.
-    2. Select **Web Profile**. This will open your public web profile in the browser.
-    3. Copy the link in the address bar.
-    4. Share it anywhere you like!
+Your profile information shows up here and is visible to people with access to your cloud documents, as well as the the members of your team. 
 
 
-    <div class="callout callout--info">
-        <p><strong>Note: </strong>If the link recipient doesn’t have Lunacy yet, they will be prompted to install it.</p>
-    </div>
+##### Publish documents to your web profile
 
-* **Subscribe to our plans**
+Personal cloud documents show up on your profile page in the app with a **Publish/Unpublish** button. Click it to add or remove documents from your **web profile**, a public page where you can showcase your designs. 
 
-    Icons8 graphics are free for personal and commercial use as long as you include an attribution link to us. Additionally, SVG files and high-resolution photos are unavailable on the free plan. To get these options and use our graphics without mandatory attribution, consider a paid subscription. 
+Use it as a portfolio of your works:
+1. Click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> at the top right corner of your profile  page.
+2. Select **Web Profile**. This will open your public web profile in the browser.
+3. Copy the link in the address bar.
+4. Share it anywhere you like!
 
-    You can also upgrade to a **cloud** or **team** plan for more freedom with cloud documents, team creation, and document management. 
-
-    Read more about the subscriptions we offer <a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">here</a>.
-
-    You can also access the list of our graphics subscriptions by **Unlock All Assets** on your profile page, then **See Pricing**.
-
-    To see all product and subscription options available to you, as well as your Downloads (assets you’ve previously downloaded), click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> and select **Billing**.
+<div class="callout callout--info">
+    <p><strong>Note: </strong>If the link recipient doesn’t have Lunacy yet, they will be prompted to install it.</p>
+</div>
 
 
-* **Log out and delete your account**
+##### Subscribe to paid plans
 
-    Exit your account by clicking the **Log out** button at the top right corner of the account page.
+Icons8 graphics are free for personal and commercial use as long as you include an attribution link to us. Additionally, SVG files and high-resolution photos are unavailable on the free plan. To get these options and use our graphics without mandatory attribution, consider a paid subscription. 
 
-    To delete your account, open the context menu and click **Delete account**.
+You can also upgrade to a **cloud** or **team** plan for more freedom with cloud documents, team creation, and document management. 
+Read more about the subscriptions we offer <a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">here</a>.
 
-    <div class="callout callout--warning">
-        <p><strong>Warning:</strong> Account deletion is permanent and completely erases your data. You won’t be able to recover it.</p>
-    </div>
+You can also access the list of our graphics subscriptions by **Unlock All Assets** on your profile page, then **See Pricing**.
+To see all product and subscription options available to you, as well as your Downloads (assets you’ve previously downloaded), click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> and select **Billing**.
 
 
 
+##### Log out and delete your account
+
+Exit your account by clicking the **Log out** button at the top right corner of the account page.
+To delete your account, open the context menu and click **Delete account**.
+<div class="callout callout--warning">
+    <p><strong>Warning:</strong> Account deletion is permanent and completely erases your data. You won’t be able to recover it.</p>
+</div>

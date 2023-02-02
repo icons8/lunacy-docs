@@ -70,7 +70,7 @@ The set of controls and settings it displays depends on the type of the selected
 | <embed type="image/svg+xml" alt="alignment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DmwgUeA720CJZI1lz-PJ9w.svg" width="500" />  | **Alignment and distribution controls** appear when you select two or more layers. |
 |  <embed type="image/svg+xml" alt="layer_position_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/s3beB96toEGEkauAALbBGA.svg" width="500" />  |  **Layer size and position.** Change the size of your layers and their position on the canvas. Use the buttons next to the position controls to flip your images and toggle the lock button on and off to preserve aspect ratio when resizing.  Controls vary depending on the selected layer.   |
 | <embed type="image/svg+xml" alt="rotate_corner" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/EWKB-3JAmEWF1tsSA8CWHw.svg" width="500" />  | **Rotation and corner radius.** Rotate your layers and change their corner radius properties. |
-| <embed type="image/svg+xml" alt="component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kv1070nxoEG0xJn6p3EqCQ.svg" width="500" /> |   **Component options.** Click `+` to create a reusable component out of your layer.  Learn more about components <a href="https://lunacy.docs.icons8.com/components" target="_blank">here</a>.  |
+| <embed type="image/svg+xml" alt="component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kv1070nxoEG0xJn6p3EqCQ.svg" width="500" /> |   **Component options.** Use this section to manage <a href="https://lunacy.docs.icons8.com/components/">components</a>. Create new component states, switch between them, and detach instances from main components.  |
 |  <embed type="image/svg+xml" alt="Group" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/f3W-qBkFpk6jO5KGzhdT1Q.svg" width="500" />     |   The   **Appearance** section displays the styles applied to your layer (text styles, color styles, effect styles, etc.)  You can add styles from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits">UI kits</a>, create your own, and detach layers from applied styles. |
 |  <embed type="image/svg+xml" alt="opacity_blend" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jU4eHkw6H0aRu54WtjdtlQ.svg" width="500" />   |   **Opacity and blend mode settings.** Set the overall opacity of a layer and its blending mode.   |
 |  <embed type="image/svg+xml" alt="fills" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fIXEmqXID02zbOWgEcQtOA.svg" width="500" />   |   **Fills.**  Change the color of your layer.  |
@@ -88,7 +88,7 @@ When all layers are deselected, the Inspector shows these settings:
 
 <embed type="image/svg+xml" alt="inspector_no_layers" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/e7AGem3y7EyT38xi2QO2DA.svg" width="844" /> 
 
-* **Workspace color.**. Change the color of the canvas.
+* **Workspace color.** Change the color of the canvas.
 * **Show pixel grid.** Toggles the pixel grid on/off when the zoom value exceeds 500.
 * **Nudge amount settings.** Nudge layers by moving arrow keys and set custom values for small nudges (using just the arrow keys) and big ones (arrow keys + `Shift`).
 * **Color palette section.** Use it to generate various base color palettes for your documents.
@@ -144,8 +144,8 @@ Inspector properties for frames are more or less identical to [layer properties]
 |  <embed type="image/svg+xml" alt="clip_content" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jz6OnY46_Uy-ATZtsevRLA.svg" width="500" />  |     **Clip content.**  Select this checkbox to hide content outside of the frame boundaries. |
 |   <embed type="image/svg+xml" alt="autolayout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LAixvdKad0ap9XvRcUSRaA.svg" width="500" />   |     **Auto layout.**  Align your design elements with auto layout. With them, your designs will adjust to content changes automatically. Set the distance between elements, between elements and frame boundaries, change distribution options, stacking options, and whether auto layout includes frame borders. |
 |  <embed type="image/svg+xml" alt="frame_color_adjust" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZWhmOvSgV0Wn2tLg80A-Ug.svg" width="500" />    |     **Background color and content behavior.** Change the frame background and choose whether its content changes as you resize it. |
-|  <embed type="image/svg+xml" alt="layout_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9-2Cn2UMuU-1oe_XPYabqQ.svg" width="500" /> |     **Layout grid.**  Add a layout grid to the frame.|
-| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/15ZcB9kEdkmu1y7FAZHefQ.svg" width="500" />  |     **Grid.**  Add a square grid to the frame. |
+|  <embed type="image/svg+xml" alt="layout_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9-2Cn2UMuU-1oe_XPYabqQ.svg" width="500" /> |     **Layout grid.**  Add a [layout grid](#layout-grid) to the frame.|
+| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/15ZcB9kEdkmu1y7FAZHefQ.svg" width="500" />  |     **Grid.**  Add a [square grid](#square-grid) to the frame. |
 |  <embed type="image/svg+xml" alt="selection_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/-zycpFIau0603lT5epFZFQ.svg" width="500" />  |     **Selection properties.**  Shows the colors and fonts used in the layers inside of the frame. |
 
 
@@ -156,7 +156,7 @@ To add a custom frame to the list of presets:
 1. Select the custom frame.
 2. Click the **Create Frame Preset** button in the **Preset size and orientation** section.
 
-<embed type="image/svg+xml" alt="custom_frame" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/oSB3aZSbokmkFORi-TWUtw.svg" width=844 /> 
+    <embed type="image/svg+xml" alt="custom_frame" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/oSB3aZSbokmkFORi-TWUtw.svg" width=844 /> 
 
 
 3. Name the preset and press `Enter`.
@@ -352,12 +352,12 @@ These context menu options are universal for almost all layer types:
 
 | Context menu button | Description | 
 |---|---|
-| <embed type="image/svg+xml" alt="Copy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hgirwJVu70qeG38ARiD5hQ.svg" width="24" />  | Copy the layer. |
-| <embed type="image/svg+xml" alt="Paste here" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/1F3Ipf6wM0qK5Saqv5Co3g.svg" width="24" /> | Paste an element at the position of the cursor. |
-| <embed type="image/svg+xml" alt="Duplicate" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/t-tMVYz1C0iX9YGOrhm_NA.svg" width="32" />      | Duplicate the selected layer.  |
-| <embed type="image/svg+xml" alt="Lock" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/BSGfdkIrBEOLaHjPnybBhw.svg" width="24" />             | Protect the layer from accidental edits.   |
-| <embed type="image/svg+xml" alt="Hide" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kFaGjr3Qu0C8W7_Y_UjOXA.svg" width="32" />             | Hide the layer from the canvas.     |
-| <embed type="image/svg+xml" alt="Delete" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/7XSmNDmTIEu8s16n3TAT8w.svg" width="24" />           | Deletes the selected layer.   |
+| <embed type="image/svg+xml" alt="Copy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hgirwJVu70qeG38ARiD5hQ.svg" width="16" />  | Copy the layer. |
+| <embed type="image/svg+xml" alt="Paste here" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/1F3Ipf6wM0qK5Saqv5Co3g.svg" width="16" /> | Paste an element at the position of the cursor. |
+| <embed type="image/svg+xml" alt="Duplicate" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/t-tMVYz1C0iX9YGOrhm_NA.svg" width="20" />      | Duplicate the selected layer.  |
+| <embed type="image/svg+xml" alt="Lock" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/BSGfdkIrBEOLaHjPnybBhw.svg" width="16" />             | Protect the layer from accidental edits.   |
+| <embed type="image/svg+xml" alt="Hide" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kFaGjr3Qu0C8W7_Y_UjOXA.svg" width="20" />             | Hide the layer from the canvas.     |
+| <embed type="image/svg+xml" alt="Delete" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/7XSmNDmTIEu8s16n3TAT8w.svg" width="16" />           | Deletes the selected layer.   |
 | Paste over   | Paste an element over the layer.   |
 | Cut   | Cut the selected layer.   |
 | Rename   | Rename the layer.   |
