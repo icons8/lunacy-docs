@@ -252,10 +252,10 @@ To generate a personal access token in Figma:
 4. Copy the token and return to Lunacy.
 5. Click **Import from Figma** or **File** > **Import from Figma** in the menu bar and enter the file’s share link and the personal access token in the corresponding fields:
 
-    <embed type="image/svg+xml" alt="import_figma" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fTNhrJIe1kSwsrpR_CeFvQ.svg" width="844" /> 
+<embed type="image/svg+xml" alt="import_figma" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fTNhrJIe1kSwsrpR_CeFvQ.svg" width="844" /> 
 
 
-    <div class="callout callout--info">
+<div class="callout callout--info">
     <p><strong>Note:</strong> Some elements, such as component variants and complex vector shapes, may be displayed differently when imported into Lunacy. The article <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">here</a> lists all of the nuances of Figma import.</p>
 </div>
 
