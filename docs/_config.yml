@@ -47,6 +47,8 @@ doks:
       url: '/shortcuts'
     - title: 'Localization'
       url: '/localization'
+    - title: 'Plans and Pricing'
+      url: '/subscriptions'
     - title: 'FAQ and Сontacts'
       url: '/support'
     - title: 'Release History'

@@ -101,6 +101,10 @@ grid_navigation:
       excerpt: Help us localize Lunacy to your language 
       url: '/localization'
       icon: 'translation'
+    - title: 'Plans and pricing'
+      excerpt: Find out about our subscription options 
+      url: '/subscriptions'
+      icon: 'unlock'
     - title: 'FAQ and Contacts'
       excerpt: ''
       url: '/support'

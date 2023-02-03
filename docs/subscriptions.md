@@ -6,8 +6,8 @@ comments: false
 
 # Hero section
 title: Plans and Pricing
-description: Find out more about our subscription options
-icon: 'full-image'
+description: Find out about our subscription options
+icon: 'unlock'
 
 # Micro navigation
 micro_nav: false
@@ -53,7 +53,7 @@ Any Lunacy user can create <a href="https://lunacy.docs.icons8.com/clouddocs/" t
 
 Here are the options you unlock with the cloud plan:
 
-|            | Free options        | Personal cloud plan    |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Free options        | Personal cloud plan    |
 | ------------------------------------------- | ----- | ---------------------- |
 | Cloud document limit       | Up to 10 (including deleted documents) | Unlimited              |
 | Document editors/exporters | Up to 10               | Unlimited              |
@@ -63,7 +63,7 @@ Here are the options you unlock with the cloud plan:
 
 Upgrade your cloud plan directly in Lunacy:
 
-1. Go to your account page.
+1. On the Home tab, click your account name at the top of the sidebar to go to your account page.
 2. Click the **Upgrade Plan** button at the top right corner.
 3. Choose your preferred billing option. 
 4. Enjoy!
@@ -74,7 +74,7 @@ In Lunacy, you can create <a href="https://lunacy.docs.icons8.com/teams/" target
 
 Try out teams on the free plan and unlock additional features once your team outgrows the limits:
 
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Trial team plan         | Professional team plan            |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Trial team plan         | Professional team plan            |
 | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |
 |Cloud document limit| Up to 10 documents across all team projects (including deleted documents) | Unlimited|
 | Document editors/exporters | Up to 3 | Unlimited|
@@ -86,7 +86,7 @@ Try out teams on the free plan and unlock additional features once your team out
 
 Upgrade your team plan directly in Lunacy:
 
-1. Go to your team page.
+1. On the Home tab, click your team name in the sidebar to go to your team page.
 2. Click the **Upgrade Plan** button at the top right corner.
 3. Enter the required number of team members.
 4. Choose your preferred billing option. 
