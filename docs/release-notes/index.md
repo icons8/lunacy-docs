@@ -46,7 +46,7 @@ page_nav:
 
 Download beta:
 
-* Windows: [EXE x64 beta](https://lcdn.icons8.com/setup/beta/LunacySetup.exe), [EXE x32 beta](https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe), [EXE ARM beta](https://lcdn.icons8.com/setup/beta/LunacySetup_arm64.exe)
+* Windows: [EXE x64 beta](https://lcdn.icons8.com/setup/beta/LunacySetup.exe), [EXE ARM beta](https://lcdn.icons8.com/setup/beta/LunacySetup_arm64.exe)
 * macOS: [DMG beta](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
 * Linux: [DEB beta](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
 
