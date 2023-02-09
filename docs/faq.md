@@ -47,7 +47,7 @@ We also have <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-clo
 
 ### Do I need an internet connection to use Lunacy?
 
-No. You can work on local `.sketch` documents on your computer without an internet connection.
+Not always. You can work on local `.sketch` documents on your computer without an internet connection.
 
 However, you’ll need to be online to access your cloud documents or work with the content in our built-in <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">Libraries</a>.
 

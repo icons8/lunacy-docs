@@ -230,7 +230,7 @@ This section will go over:
 - Constraint options and how they influence the behavior of elements in an auto layout.
 - Resetting component overrides in an auto layout.
 
-### [Changing auto layout elements](#changing-auto-layout-elements)
+### [Resizing auto layout elements](#changing-auto-layout-elements)
 
 Auto layout frames will adapt to changes in child element size based on your settings. 
 
@@ -245,7 +245,7 @@ Here are a few examples of how an auto layout changes depending on the resizing 
 
     <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_changes_2.png" height="auto"><source src="/public/autolayout_changes_2.mp4" type="video/mp4"></video>
 
-    Meanwhile, the frame’s height adapts dynamically when the height of the elements changes:
+    Meanwhile, the frame’s height adapts dynamically when the height of the elements changes.
 
 3. The width and height of the auto layout frame are **Fixed**, so they stay static regardless of the changing width and height of the layers:
 
