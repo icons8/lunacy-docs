@@ -22,10 +22,11 @@ page_nav:
         url: '/styling'
 ---
 
-
 ## Overview
 
 **Auto layout** is a powerful feature you can use to create dynamic designs that adapt to the size of their contents.
+
+
 
 For instance, if you create a labeled button with auto layout, changing the button text will resize the button depending on the width of the text:
 
@@ -33,7 +34,7 @@ For instance, if you create a labeled button with auto layout, changing the butt
 
 The option to enable auto layout appears in the <a href="https://lunacy.docs.icons8.com/basics/#working_with_the_inspector" target="_blank">Inspector</a> whenever you select a frame:
 
-<embed type="image/svg+xml" alt="autolayout_inactive" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eY5XRYyYUki7-MyMV1QUpA.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_inactive" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/HOwoSChcRk6L4sPNb7Tarw.svg" width="844" /> 
 
 
 In Lunacy, you can apply auto layout to:
@@ -47,19 +48,14 @@ In Lunacy, you can apply auto layout to:
 
     To do this, put several frames into a container frame, then add auto layout. You can then define the arrangement of the child frames relative to each other.  
 
-    <div class="callout callout--info">
-        <p><strong>Note:</strong> Resizing the child frames will affect the container frame, but changes to layers inside the child frames won’t impact the container — unless the frames have auto layouts themselves, like in the following case.</p>
-    </div>
+    Resizing the child frames will affect the container frame, but changes to layers inside the child frames won’t impact the container — unless the frames have auto layouts themselves, like in the following case.
 
 - **Several auto layout frames**
     
-    You’ll be able to change auto layout properties for each frame — as well as the container frame they are nested* in.
+    You’ll be able to change auto layout properties for each frame — as well as the container frame they are [nested](#combining-auto-layouts) in.
 
     The overall layout will dynamically respond to changes inside the child frames.
 
-<div class="callout callout--info">
-    <p><strong>* Note:</strong> Nesting auto layout frames is a convenient option for creating complex designs that seamlessly adapt to any changes to individual layers. Learn all about how to combine auto layout frames this way <a href="https://lunacy.docs.icons8.com/autolayout/#combining-auto-layouts">below</a>.</p>
-</div>
 
 For now, let’s cover the basics.
 
@@ -71,7 +67,7 @@ Some things to keep in mind before we get into it:
 
 1. All available auto layout properties are displayed in the Inspector:
 
-    <embed type="image/svg+xml" alt="auto_layout_active" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/dT4dMIt8EUOtCnzmCkg_Zg.svg" width="844" /> 
+    <embed type="image/svg+xml" alt="autolayout_active" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Qy5LRHWankqzXvz53RMD5A.svg" width="844" />  
 
     To view the settings for any auto layout frame, simply select it and refer to this section.
 
@@ -100,12 +96,12 @@ You can also select elements within the frame to change their individual auto la
 - If you select a nested auto layout frame, you’ll see the usual Auto layout section in the Inspector.
 - If you select an ordinary layer, frame, or component inside an auto layout you’ll see its individual properties, which look like this:
 
-<embed type="image/svg+xml" alt="autolayout_individual_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5o5Spa20qE-AcIjvo1QSrA.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_individual" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/QW7uVSlUKUOWW95HBai2tw.svg" width="844" /> 
 
 
 ## [Auto layout properties](#auto-layout-properties)
 
-<embed type="image/svg+xml" alt="autolayout_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/-0uKI9FjT0iW1CMX9CCYKg.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2yCHv5F5wE6QP7hA36In5A.svg" width="844" /> 
 
 ### Resizing options
 Determine how the container frame responds to changes made to layers inside it:
@@ -120,9 +116,7 @@ Vertical orientation arranges elements along the **Y axis**, and horizontal orie
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_orientation.png" height="auto"><source src="/public/autolayout_orientation.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info">
-    <p><strong>* Note:</strong> To combine both these options, you’ll need to nest auto layout frames in a larger frame.</p>
-</div>
+To combine both these options, you’ll need to nest auto layout frames in a larger frame.
 
 
 ### Alignment controls
@@ -130,7 +124,7 @@ Align your layers within the auto layout.
 
 Note that in an auto layout frame, you can’t control the alignment of individual layers, so this section of the Inspector will be grayed out:
 
-<embed type="image/svg+xml" alt="alignment_inactive" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/xijK96Ci_E6igWt3wRrGYA.svg" width="844" /> 
+<embed type="image/svg+xml" alt="alignment_disabled" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/rHp8yw4yF0ysqcTkO8Bn1A.svg" width="844" /> 
 
 Change alignment by: 
 
@@ -159,11 +153,9 @@ Like with element spacing:
 ### Lock/unlock right and bottom padding
 When you change left or top padding, right and bottom padding will mirror the new values. 
 
-To change padding for individual sides, click <embed type="image/svg+xml" alt="locked" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9r2_b8ypjUKmhaDAULXaGQ.svg" width="16" />. 
+To change padding for individual sides, click <embed type="image/svg+xml" alt="unlock_padding" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PpXulR2e9ECMC6HIzjsYIQ.svg" width="16" />. 
 
-<div class="callout callout--info">
-    <p><strong>Note:</strong> If you lock the padding again (click <embed type="image/svg+xml" alt="unlocked" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/6oF1SM54uUez1oG4Dm50rA.svg" width="16" />) after changing values for individual sides, the altered padding values won't revert back to match the opposite side. Enter a matching value on one side of the padding to synchronize the values once more.</p>
-</div>
+If you lock the padding again (click <embed type="image/svg+xml" alt="lock_padding" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Ik9qCzk510aNl1A3Oi-Grw.svg" width="16" />) after changing values for individual sides, the altered padding values won't revert back to match the opposite side. Enter a matching value on one side of the padding to synchronize the values once more.
 
 
 ### Distribution options
@@ -217,9 +209,7 @@ To do this, select a layer to open up its individual Auto layout properties. Her
 
     With [absolute position](#absolute-position) enabled, you can freely move the layer anywhere you want within the auto layout regardless of its general settings. It won’t be affected by any auto layout properties unless you disable it. 
 
-<div class="callout callout--info">
-    <p><strong>Note:</strong> Once a layer has an absolute position, you’ll be able to set constraint options for it. Read in detail about those <a href="https://lunacy.docs.icons8.com/autolayout/#constraint-options">below</a>.</p>
-</div>
+    Once a layer has an absolute position, you’ll be able to set constraint options for it. Read in detail about those [below](#constraint-options).
 
 
 ## [Removing elements from an auto layout](#removing-elements-from-auto-layout)
@@ -266,7 +256,7 @@ Here are a few examples of how an auto layout changes depending on the resizing 
 If you need an element in an auto layout to remain independent from auto layout settings:
 
 1. Select it in the Layer list or on the frame.
-2. Click <embed type="image/svg+xml" alt="absolute_position" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Qrn3aEpOwUKPFIlbhOJ_AQ.svg" width="16" /> in the Inspector. 
+2. Click <embed type="image/svg+xml" alt="absolute_position" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DjX8P_Inw0mpGnhrK_2mXw.svg" width="16" /> in the Inspector. 
 
 The element now has an absolute position. You can move it freely within the auto layout and keep it static regardless of any resizing changes, like in the video below.
 
@@ -277,7 +267,7 @@ Here, we're adding a logo to an article preview card. At first, we just dragged 
 
 To position a layer in any location inside an auto layout:
 
-1. Select the layer and enable absolute position for it by clicking <embed type="image/svg+xml" alt="absolute_position" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Qrn3aEpOwUKPFIlbhOJ_AQ.svg" width="16" />. It will be detached from the auto layout while staying in the frame, and you can then freely move it around the layout.
+1. Select the layer and enable absolute position for it by clicking <embed type="image/svg+xml" alt="absolute_position" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DjX8P_Inw0mpGnhrK_2mXw.svg" width="16" />. It will be detached from the auto layout while staying in the frame, and you can then freely move it around the layout.
 2. Drag the layer wherever you want and leave it be. Now, when you edit anything else in the frame, the layer will be unaffected.
 
 ### [Constraint options](#constraint-options)
@@ -286,7 +276,7 @@ To position a layer in any location inside an auto layout:
 
 Once you set a layer to have an absolute position, the Constraints section will open up in the Inspector:
 
-<embed type="image/svg+xml" alt="autolayout_constraint_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/waaLr-Ma_0GZevvfTChSOA.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_absolute" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/w7Ma3WwkdEa8wQ9Fefwe2Q.svg" width="844" /> 
 
 - The **Pin to Edge** controls pin a layer to one or several edges of the auto layout frame. This means that when you resize the frame, the distance between the layer and the edges it is pinned to will not change.
 - The **Fix width** and **Fix height** checkboxes do just that: fix the width and/or height of an element in the auto layout. Whenever you resize the parent frame, the checked off properties won’t be altered. 
@@ -296,9 +286,9 @@ Once you set a layer to have an absolute position, the Constraints section will 
 
 When working with components and creating their instances, you can reset overrides for component instances. This means that, if you made changes to a component instance, you can reset it to match its main component once more.
 
-When you’re working with an auto layout frame that itself is also a component or contains component instances, you'll have two override buttons (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/49CEooqv1U6WWWTQz7oAbg.svg" width="16" />) in the Inspector. Don’t let them confuse you:
+When you’re working with an auto layout frame that itself is also a component or contains component instances, you'll have two **Reset override** buttons (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" />) in the Inspector. Don’t let them confuse you:
 
-- The Reset overrides (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/49CEooqv1U6WWWTQz7oAbg.svg" width="16" />)  button appears in the Auto layout section when you make changes to the **auto layout properties** of a component. Click it to reset these properties and return them to the defaults of the main component.
+- The **Reset overrides** button appears in the Auto layout section when you make changes to the **auto layout properties** of a component. Click it to reset these properties and return them to the defaults of the main component.
 - The same button appears in the **Component** section when you make changes to the **auto layout properties of a component** and/or to **distinct components in the auto layout** frame. Use it to reset **all overrides** for the component: both the auto layout properties and any individual component changes.
 
 Here’s how it works:
@@ -311,7 +301,7 @@ In the video, there are three component instances nested in a frame that itself 
 2. Changing the padding.
 3. Changing one of the button instances' color.
 
-We then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/49CEooqv1U6WWWTQz7oAbg.svg" width="16" /> in the **Auto layout** section to reset just the auto layout overrides (spacing and padding). We undo this, then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/49CEooqv1U6WWWTQz7oAbg.svg" width="16" /> in the **Components** section to reset all overrides (spacing, padding, **and** the button color.)
+We then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" /> in the **Auto layout** section to reset just the auto layout overrides (spacing and padding). We undo this, then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> in the **Components** section to reset all overrides (spacing, padding, **and** the button color.)
 
 ## [Combining auto layouts](#combining-auto-layouts)
 
@@ -319,7 +309,7 @@ You can combine several auto layouts and nest simple auto layouts to build compl
 
 Here’s an example of how you can combine auto layouts for a simple news website:
 
-<embed type="image/svg+xml" alt="autolayout_nesting" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hmBh764fmkKAeJu4K6ZGVw.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_nesting" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TwiurH2_u0C1ZK5V7G6N4g.svg" width="844" /> 
 
 From the top down:
 
