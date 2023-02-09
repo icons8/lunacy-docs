@@ -78,7 +78,7 @@ After that, make an exception for the Lunacy installer and/or the app in your an
 
 If it is, contact us via our feedback form: 
 
-1. Select Help > **Report a Problem** in the menu bar. 
+1. Select **Help** > **Report a Problem** in the menu bar. 
 2. Describe the problem in detail so we can reproduce it and determine the cause.
 
 <div class="callout callout--info">
@@ -234,4 +234,4 @@ If that doesn’t help:
 2. Stop the `Nahimic` service (an audio service).
 3. Restart Lunacy.
 
-If this helps, report the problem to the manufacturers of your video card and motherboard. If not, contact our support team (**Help** > **Report a Problem**).
+If this works, report the problem to the manufacturers of your video card and motherboard. If not, contact our support team (**Help** > **Report a Problem**).
