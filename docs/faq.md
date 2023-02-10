@@ -130,11 +130,11 @@ One of our most popular questions😉 Check out the demos <a href="https://lunac
 ### Where is the suggestions panel?
 We decided to revamp the suggestions panel. We’ll add the new version to an upcoming release.
 
-## General Problems
+## Questions about possible issues
 
 If you run into an issue with Lunacy, chances are you’ll be able to fix it by yourself. Below is a list of problems that may arise and possible workarounds for them.
 
-### Lunacy doesn’t start
+### Lunacy won't start. What do I do?
 
 There may be several reasons for this. Make sure that:
 
@@ -145,7 +145,7 @@ There may be several reasons for this. Make sure that:
 - Your user account has enough rights to run applications. Try to run Lunacy as an administrator.
 - Lunacy isn’t blocked by your antivirus. Disable virus protection and try to launch Lunacy.
 
-### Lunacy is slow
+### Lunacy is slow. How do I speed it up?
 
 These are the most common reasons for Lunacy running slow:
 
@@ -166,11 +166,11 @@ These are the most common reasons for Lunacy running slow:
 
     *Workaround*: Avoid converting large blocks of text (sentences or paragraphs) to outlines.
 
-### The content in Lunacy libraries is not loading
+### Why is the content in Lunacy libraries not loading?
 
 First, check that your internet connection is OK. If it is, contact us via our feedback form and we’ll quickly fix the issue (**Help** > **Report a Problem**).
 
-### A document is lost, corrupt, or doesn't open
+### A document I was working on is broken and/or won't open. How do I fix it?
 
 To fix this:
 
@@ -194,20 +194,15 @@ If it’s a **cloud** document, you can also open up its version history and res
 
 If the problem persists, contact our support team via **Help** > **Report a Problem** in the menu bar and attach an archive with the Documents folder to the report. If Lunacy crashed when you tried opening the document, attach an archive of the **Logs** folder as well.
 
-
-## Known Issues
-
-This section goes over specific issues and ways to fix or avoid them.
-
-### A local temp file that was never saved as a `.sketch` document is lost
+### A local temp file that was never saved as a `.sketch` document is lost. Where is it?
 
 1. Select **Help** > **Open App Data Folder** in the menu bar.
 2. Open the **Documents** folder and sort the folders there by the **Date modified** column.
 3. Drag and drop the top folders in the list into Lunacy. One of these is your unsaved temp file.
 
-### In Lunacy v.8.7.2, a ‘No connection’ message is displayed in the left panel instead of icons
+### Why is there a ‘No connection’ message in the left panel instead of icons?
 
-We have fixed this issue in our latest beta build. To install it, use the following links:
+An issue in **version 8.7.2**. We have fixed this issue in our latest beta build. To install it, use the following links:
 
 * <a href="https://lcdn.icons8.com/setup/beta/LunacySetup_x86.exe">Windows 32bit</a>
 * <a href="https://lcdn.icons8.com/setup/beta/LunacySetup.exe">Windows 64bit</a>
@@ -218,7 +213,7 @@ We have fixed this issue in our latest beta build. To install it, use the follow
 
 Later on, if you decide not to update to further beta versions, selec **Help** > **About** and clear the **Check for Beta Updates** checkbox.
 
-### Objects and images on the canvas are stretching and/or flickering when scrolling and zooming
+### Why are layers and images on the canvas stretching and flickering when I scroll and zoom?
 
 This is a known issue that typically occurs on Windows 10 computers with Intel CPUs and specific video card models (for example, the GeForce RTX 20 Series).
 
