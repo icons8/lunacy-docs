@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: FAQs
-description: Frequently asked questions about Lunacy in general and the app's features
+description: Frequently asked questions about Lunacy
 icon: 'help'
 
 # Micro navigation
@@ -24,6 +24,8 @@ page_nav:
 
 
 ## General questions
+
+Common questions about the app and its functionality.
 
 ### I’m new to Lunacy. Where do I start?
 
