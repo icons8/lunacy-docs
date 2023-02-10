@@ -57,8 +57,6 @@ In Lunacy, you can apply auto layout to:
     The overall layout will dynamically respond to changes inside the child frames.
 
 
-For now, let’s cover the basics.
-
 ## [Auto layout basics](#auto-layout-basics)
 
 This section goes over the main auto layout operations and properties. You’ll learn how to add, arrange, and remove elements inside an auto layout.

@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: FAQs and Known Issues
-description: Frequently asked questions and a list of known and resolved issues in Lunacy
+description: Frequently asked questions and a list of known issues in Lunacy
 icon: 'help'
 
 # Micro navigation
@@ -170,7 +170,7 @@ These are the most common reasons for Lunacy running slow:
 
 First, check that your internet connection is OK. If it is, contact us via our feedback form and we’ll quickly fix the issue (**Help** > **Report a Problem**).
 
-### A document is corrupt or won’t open
+### A document is lost, corrupt, or doesn't open
 
 To fix this:
 
