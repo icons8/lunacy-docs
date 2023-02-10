@@ -5,8 +5,8 @@ keywords:
 comments: false
 
 # Hero section
-title: FAQs and Known Issues
-description: Frequently asked questions and a list of known issues in Lunacy
+title: FAQs
+description: Frequently asked questions about Lunacy in general and the app's features
 icon: 'help'
 
 # Micro navigation
@@ -23,9 +23,7 @@ page_nav:
 ---
 
 
-## General Questions
-
-Common questions about the app and its functionality.
+## General questions
 
 ### I’m new to Lunacy. Where do I start?
 
@@ -93,7 +91,7 @@ If it is, contact us via our feedback form:
 **Long answer:** We realize this would speed up the development process. However, it would also slow us down in some ways, too. Sometimes, a small team can advance faster than a large community. We may reconsider in the future.
 
 
-## Questions About Features
+## Questions about features
 
 Questions about existing or upcoming Lunacy features.
 
