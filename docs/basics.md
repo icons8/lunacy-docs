@@ -56,6 +56,9 @@ Find out about other zooming options [below](#zooming-options).
 
 <embed type="image/svg+xml" alt="canvas_color" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TmFrkSpmxEi2Rb3deQBoLA.svg" width="844" /> 
 
+Press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> to reset the canvas to the default color.
+
+You can also set the canvas color opacity to 0 so it becomes transparent. You'll see a checkerboard pattern instead of a fill.
 
 ## [Inspector properties](#inspector-properties)
 

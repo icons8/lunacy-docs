@@ -112,12 +112,14 @@ Using the Layer list, you can:
 
 Other basic operations with layers are available on the <a href="https://lunacy.docs.icons8.com/basics/#the-context-menu" target="_blank">context menu</a>.
 
+### Useful tips
 
 To collapse all the layers in the Layer list, press `Ctrl + ~` / `⌘ + ~`.
 
-<div class="callout callout--info">
-    <p><strong>Tip:</strong> Some projects, such as design systems, may have hundreds of layers on a single page. To quickly move to a specific layer, find it by typing its name in the search field, select it in the Layer list, and press <code>Ctrl + 2</code> / <code>⌘ + 2</code> (Fit to selection).</p>
-</div>
+To quickly move to a specific layer in large projects: 
+1. Find it by typing its name in the search field.
+2. Select it in the Layer list.
+3. Press <code>Ctrl + 2</code> / <code>⌘ + 2</code> or double-click the icon in front of the layer name to use the <a href="https://lunacy.docs.icons8.com/tips/#zoom-to-selection" target="_blank">zoom to selection</a> feature.
 
 <p>Find more useful Lunacy tips and tricks <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
 
