@@ -30,7 +30,7 @@ This section is a brief overview of the app's interface. Get acquainted with the
 
 These are the main elements of the interface:
 
-<embed type="image/svg+xml" alt="interface" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/1YaVlvzf9ESoZIvI9_7z4Q.svg" width="844" /> 
+<embed type="image/svg+xml" alt="interface_overview" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/933ThnNbHEu4ffZyf6zlYQ.svg" width="844" /> 
 
 
 1. **Сontent tabs**. Use them to switch between:
