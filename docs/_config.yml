@@ -49,8 +49,10 @@ doks:
       url: '/localization'
     - title: 'Plans and Pricing'
       url: '/subscriptions'
-    - title: 'FAQ and Сontacts'
-      url: '/support'
+    - title: 'FAQs'
+      url: '/faq'
+    - title: 'Contacts'
+      url: '/contact'
     - title: 'Release History'
       url: '/release-notes'
       

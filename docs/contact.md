@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Contacts
-description: Reach out to us on any of these platforms
+description: Reach out to us on any of our platforms
 icon: 'chat-messages--v2'
 
 # Micro navigation
