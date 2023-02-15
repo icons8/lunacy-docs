@@ -52,7 +52,7 @@ In Lunacy, you can apply auto layout to:
 
 - **Several auto layout frames**
     
-    You’ll be able to change auto layout properties for each frame — as well as the container frame they are [nested](#combining-auto-layouts) in.
+    You’ll be able to change auto layout properties for each frame, as well as the container frame they are [nested](#combining-auto-layouts) in.
 
     The overall layout will dynamically respond to changes inside the child frames.
 
@@ -291,11 +291,11 @@ You can add auto layouts to any <a href="https://lunacy.docs.icons8.com/componen
 
 <!-- Read more about how to do this here. -->
 
-Some context:
+**Some context:**
 
-When you make instances of a component, you can make changes to these instances, creating overrides that don't affect the style of the main component. You can easily reset overrides by pressing the **Reset overrides** button (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" />) in the **Component** section of the Inspector. This reverts the instance to match the style of its main component once more.
+When you make instances of a component (i.e. duplicate a component), you can make changes to these instances, creating overrides that don't affect the style of the main component. You can easily reset overrides by pressing the **Reset overrides** button (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" />) in the **Component** section of the Inspector. This reverts the instance to match the style of its main component once more.
 
-However, when you’re working with an auto layout frame that itself is also a component or contains component instances, you'll have two <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> buttons in the Inspector.</p>
+However, when you’re working with an auto layout frame that itself is also a component or contains component instances, you'll have two <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> buttons in the Inspector.
 
 
 Here's how these two types of overrides work:
@@ -311,7 +311,7 @@ In the video, there are three component instances nested in a frame that itself 
 
 1. Changing the element spacing.
 2. Changing the padding.
-3. Changing one of the button instances' color.
+3. Changing the color of one of the button instances.
 
 We then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" /> in the **Auto layout** section to reset just the auto layout overrides (spacing and padding). We undo this, then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> in the **Components** section to reset all overrides (spacing, padding, **and** the button color.)
 
@@ -331,7 +331,7 @@ From the top down:
 4. More vertical auto layouts appear in the middle of the website: **news post previews** follow a strict format consisting of a picture, a title, and a subtitle.
 5. Several **posts in a row** form a 4-post horizontal auto layout.
 
-Auto layouts are even more powerful when paired with reusable <a href="https://lunacy.docs.icons8.com/components/" target="_blank">components</a>. For example, if each news post in the layout is an instance of a component, which itself has an auto layout:
+As we mentioned above, auto layouts are even more powerful when paired with components. For example, if each news post in the layout is an instance of a component, which itself has an auto layout:
 
 <embed type="image/svg+xml" alt="auto_layout_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/H-tOPyzknkykU4PtxvMQmg.svg" width="844" /> 
 
@@ -339,7 +339,6 @@ Auto layouts are even more powerful when paired with reusable <a href="https://l
 Changing the original, or main, component (either its element properties or its auto layout settings) will apply the changes to each instance... instantly:
 
 <embed type="image/svg+xml" alt="auto_layout_components_edit" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/L4XcIvr6uUOSS9PuW_dmhw.svg" width="844" /> 
-
 
 <!-- Read in detail about combining auto layouts and components here. -->
 
