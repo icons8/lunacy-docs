@@ -34,7 +34,7 @@ For instance, if you create a labeled button with auto layout, changing the butt
 
 The option to enable auto layout appears in the <a href="https://lunacy.docs.icons8.com/basics/#working_with_the_inspector" target="_blank">Inspector</a> whenever you select a frame:
 
-<embed type="image/svg+xml" alt="autolayout_inactive" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/HOwoSChcRk6L4sPNb7Tarw.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_inactive" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/YA58uerpykS3l4kmQ2iPmQ.svg" width="844" /> 
 
 
 In Lunacy, you can apply auto layout to:
@@ -61,11 +61,11 @@ In Lunacy, you can apply auto layout to:
 
 This section goes over the main auto layout operations and properties. You’ll learn how to add, arrange, and remove elements inside an auto layout.
 
-Some things to keep in mind before we get into it:
+Some things to keep in mind:
 
 1. All available auto layout properties are displayed in the Inspector:
 
-    <embed type="image/svg+xml" alt="autolayout_active" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Vv7Ka5FXH0iOGJpvEOjkeA.svg" width="844" />  
+    <embed type="image/svg+xml" alt="autolayout_active" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/oPBxm-FrekaMFUrAJ-lwYA.svg" width="844" />  
 
     To view the settings for any auto layout frame, simply select it and refer to this section.
 
@@ -94,12 +94,12 @@ You can also select elements within the frame to change their individual auto la
 - If you select a nested auto layout frame, you’ll see the usual Auto layout section in the Inspector.
 - If you select an ordinary layer or frame inside an auto layout you’ll see its individual properties, which look like this:
 
-<embed type="image/svg+xml" alt="autolayout_individual" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/QW7uVSlUKUOWW95HBai2tw.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_individual" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OKuGC-Rf4U6uZ1qJCfj5kw.svg" width="844" /> 
 
 
 ## [Auto layout properties](#auto-layout-properties)
 
-<embed type="image/svg+xml" alt="autolayout_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/qi8pmmcNNUix9iAVyLcD4g.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LFv-N9G44E2xNXuBicy3Yg.svg" width="844" /> 
 
 ### Resizing options
 Determine how the container frame responds to changes made to layers inside it:
@@ -122,7 +122,7 @@ Align your layers within the auto layout.
 
 Since alignment options will be determined by auto layout settings, this section of the Inspector will be unavailable:
 
-<embed type="image/svg+xml" alt="alignment_disabled" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/rHp8yw4yF0ysqcTkO8Bn1A.svg" width="844" /> 
+<embed type="image/svg+xml" alt="alignment_disabled" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/f0DMpMmXpkCbCQ1xFSXCYg.svg" width="844" /> 
 
 Change alignment by: 
 
@@ -279,7 +279,7 @@ To position a layer in any location inside an auto layout:
 
 Once you set a layer to have an absolute position, the Constraints section will open up in the Inspector:
 
-<embed type="image/svg+xml" alt="autolayout_absolute" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/w7Ma3WwkdEa8wQ9Fefwe2Q.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_constraints" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/pQUddBwtpkKNiqACoq5fKQ.svg" width="844" /> 
 
 - The **Pin to Edge** controls pin a layer to one or several edges of the auto layout frame. This means that when you resize the frame, the distance between the layer and the edges it is pinned to will not change.
 - The **Fix width** and **Fix height** checkboxes do just that: fix the width and/or height of an element in the auto layout. Whenever you resize the parent frame, the checked off properties won’t be altered. 
@@ -321,7 +321,7 @@ You can combine several auto layouts and nest simple auto layouts to build compl
 
 Here’s an example of how you can combine auto layouts for a simple news website:
 
-<embed type="image/svg+xml" alt="autolayout_nesting" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TwiurH2_u0C1ZK5V7G6N4g.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_nesting" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jZBCAJSHrEOXKCEveQFTUA.svg" width="844" /> 
 
 From the top down:
 
@@ -333,12 +333,12 @@ From the top down:
 
 As we mentioned above, auto layouts are even more powerful when paired with components. For example, if each news post in the layout is an instance of a component, which itself has an auto layout:
 
-<embed type="image/svg+xml" alt="auto_layout_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/H-tOPyzknkykU4PtxvMQmg.svg" width="844" /> 
+<embed type="image/svg+xml" alt="auto_layout_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/57IfsXZw7ka7LKTnvNUWug.svg" width="844" /> 
 
 
 Changing the original, or main, component (either its element properties or its auto layout settings) will apply the changes to each instance... instantly:
 
-<embed type="image/svg+xml" alt="auto_layout_components_edit" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/L4XcIvr6uUOSS9PuW_dmhw.svg" width="844" /> 
+<embed type="image/svg+xml" alt="auto_layout_components_edit" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fNthiKa0dUaYZjEjSuP_Hw.svg" width="844" /> 
 
 <!-- Read in detail about combining auto layouts and components here. -->
 
