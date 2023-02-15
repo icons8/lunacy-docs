@@ -65,7 +65,7 @@ Some things to keep in mind before we get into it:
 
 1. All available auto layout properties are displayed in the Inspector:
 
-    <embed type="image/svg+xml" alt="autolayout_active" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Qy5LRHWankqzXvz53RMD5A.svg" width="844" />  
+    <embed type="image/svg+xml" alt="autolayout_active" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Vv7Ka5FXH0iOGJpvEOjkeA.svg" width="844" />  
 
     To view the settings for any auto layout frame, simply select it and refer to this section.
 
@@ -99,7 +99,7 @@ You can also select elements within the frame to change their individual auto la
 
 ## [Auto layout properties](#auto-layout-properties)
 
-<embed type="image/svg+xml" alt="autolayout_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2yCHv5F5wE6QP7hA36In5A.svg" width="844" /> 
+<embed type="image/svg+xml" alt="autolayout_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/qi8pmmcNNUix9iAVyLcD4g.svg" width="844" /> 
 
 ### Resizing options
 Determine how the container frame responds to changes made to layers inside it:
@@ -231,7 +231,7 @@ This section will go over:
 - How changes in individual elements affect the overall auto layout.
 - The absolute position feature and how it excludes elements from auto layouts while keeping them in the frame.
 - Constraint options and how they influence the behavior of elements in an auto layout.
-- Resetting component overrides in an auto layout.
+- Adding and resetting component overrides in an auto layout.
 
 ### [Resizing auto layout elements](#changing-auto-layout-elements)
 
@@ -285,19 +285,18 @@ Once you set a layer to have an absolute position, the Constraints section will 
 - The **Fix width** and **Fix height** checkboxes do just that: fix the width and/or height of an element in the auto layout. Whenever you resize the parent frame, the checked off properties won’t be altered. 
 
 
-### [Resetting overrides](#resetting-overrides)
+### [Auto layout overrides](#resetting-overrides)
 
 You can add auto layouts to any <a href="https://lunacy.docs.icons8.com/components/" target="_blank">component</a>. Combining components with auto layouts brings your workflow to the next level, making it easier to quickly change and update your designs. 
 
 <!-- Read more about how to do this here. -->
 
-<div class="callout callout--info">
+Some context:
 
-<p><strong>Some context:</strong> When you make instances of a component, you can make changes to these instances, creating overrides that don't affect the style of the main component. You can easily reset overrides by pressing <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> in the <strong>Component</strong> section of the Inspector. This reverts the instance to match the style of its main component once more.
+When you make instances of a component, you can make changes to these instances, creating overrides that don't affect the style of the main component. You can easily reset overrides by pressing the **Reset overrides** button (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" />) in the **Component** section of the Inspector. This reverts the instance to match the style of its main component once more.
 
-However, when you’re working with an auto layout frame that itself is also a component or contains component instances, you'll have two <strong>Reset override</strong> buttons (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" />) in the Inspector.</p>
+However, when you’re working with an auto layout frame that itself is also a component or contains component instances, you'll have two <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> buttons in the Inspector.</p>
 
-</div>
 
 Here's how these two types of overrides work:
 
