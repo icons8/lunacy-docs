@@ -313,7 +313,7 @@ In the video, there are three component instances nested in a frame that itself 
 2. Changing the padding.
 3. Changing the color of one of the button instances.
 
-We then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" /> in the **Auto layout** section to reset just the auto layout overrides (spacing and padding). We undo this, then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> in the **Components** section to reset all overrides (spacing, padding, **and** the button color.)
+We then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" /> in the **Auto layout** section to reset just the auto layout overrides (spacing and padding). We undo this, then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> in the **Components** section to reset all overrides (spacing, padding, **and** the button color).
 
 ## [Combining auto layouts](#combining-auto-layouts)
 
