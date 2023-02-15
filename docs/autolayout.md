@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Auto layout
+title: Auto layout (Beta)
 description: Learn how to create dynamic designs with auto layout
 icon: 'document-body'
 
@@ -18,8 +18,8 @@ page_nav:
         content: Components
         url: '/components'
     prev:
-        content: Styling
-        url: '/styling'
+        content: Libraries
+        url: '/libraries'
 ---
 
 ## Overview
@@ -336,7 +336,7 @@ As we mentioned above, auto layouts are even more powerful when paired with comp
 <embed type="image/svg+xml" alt="auto_layout_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/57IfsXZw7ka7LKTnvNUWug.svg" width="844" /> 
 
 
-Changing the original, or main, component (either its element properties or its auto layout settings) will apply the changes to each instance... instantly:
+Changing the original, or main, component (either its element properties or its auto layout settings) will apply the changes to each instance:
 
 <embed type="image/svg+xml" alt="auto_layout_components_edit" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fNthiKa0dUaYZjEjSuP_Hw.svg" width="844" /> 
 

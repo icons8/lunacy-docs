@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Editing shapes
-        url: '/editing'
+        content: Layer and text styles
+        url: '/layerstyles'
     prev:
         content: Tools
         url: '/tools'

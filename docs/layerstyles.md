@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Libraries
-        url: '/libraries'
-    prev:
         content: Components
         url: '/components'
+    prev:
+        content: Layers
+        url: '/layers'
 ---
 
 Layer and text styles are predefined sets of layer and text properties that you can reuse in your designs. With the help of styles you can dramatically save your time and make your designs look more professional and consistent.  When you modify a style, Lunacy immediately applies them to all the layers using this style.

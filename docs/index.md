@@ -53,14 +53,17 @@ grid_navigation:
       excerpt: Learn about tools that will help you create your unique style
       url: '/styling'
       icon: 'design'
+    - title: 'Layer and text styles'
+      excerpt: Learn how to speed up your work with layer and text styles
+      url: '/layerstyles/'
     - title: 'Components'
       excerpt: Explore the power of Lunacy by learning how to use components
       url: '/components'
       icon: 'refresh'
-    - title: 'Layer and text styles'
-      excerpt: Learn how to speed up your work with layer and text styles
-      url: '/layerstyles/'
-      icon: 'rich-text-converter'
+    - title: 'Auto layout'
+      excerpt: Learn how to create dynamic designs with auto layout
+      url: '/autolayout/'
+      icon: 'document-body'
     - title: 'Libraries'
       excerpt: How to make use of our built-in icons, photos, images and UI kits
       url: '/libraries'

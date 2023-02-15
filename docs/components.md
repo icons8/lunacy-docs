@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
+        content: Auto layouts
+        url: '/autolayout'
+    prev:
         content: Layer and text styles
         url: '/layerstyles'
-    prev:
-        content: Styling
-        url: '/styling'
 ---
 
 **Components** are reusable layers or groups of layers that make your designs consistent and your life easier.
