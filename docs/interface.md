@@ -55,14 +55,14 @@ Displays the contents of the selected tab. Toggle the display of the panel on an
 
 Features all the primary design tools you'll need. Read more about each tool <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View** > **Toolbar**) in the menu bar.
 
-The canvas
+### The canvas
 This is your working area. Find out more about it <a href="https://lunacy.docs.icons8.com/basics/#moving-around-the-canvas" target="_blank">here</a>.
 
-The Inspector 
+### The Inspector 
 
 This panel lets you see and adjust the properties of the selected layer. The view of the Inspector varies depends on the layer type. For details, read [below](#the-inspector).
 
-The menu bar
+### The menu bar
 
 Displays the options and commands related to files, layers, editing, etc. It also features the <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> button, which opens up the [Home tab](#home-tab).
 
