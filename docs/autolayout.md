@@ -287,7 +287,7 @@ Once you set a layer to have an absolute position, the Constraints section will 
 
 ### [Auto layout overrides](#resetting-overrides)
 
-You can add auto layouts to any <a href="https://lunacy.docs.icons8.com/components/" target="_blank">component</a>. Combining components with auto layouts brings your workflow to the next level, making it easier to quickly change and update your designs. 
+You can add auto layouts to any <a href="https://lunacy.docs.icons8.com/components/" target="_blank">component</a>. [Combining components with auto layouts](#auto-layouts-and-components) brings your workflow to the next level, making it easier to quickly change and update your designs. 
 
 <!-- Read more about how to do this here. -->
 
@@ -330,6 +330,9 @@ From the top down:
 3. The **left sidebar** is a vertical auto layout.
 4. More vertical auto layouts appear in the middle of the website: **news post previews** follow a strict format consisting of a picture, a title, and a subtitle.
 5. Several **posts in a row** form a 4-post horizontal auto layout.
+
+
+## [Auto layouts and components](#auto-layouts-and-components)
 
 As we mentioned above, auto layouts are even more powerful when paired with components. For example, if each news post in the layout is an instance of a component, which itself has an auto layout:
 
