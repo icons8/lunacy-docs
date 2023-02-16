@@ -295,10 +295,10 @@ You can add auto layouts to any <a href="https://lunacy.docs.icons8.com/componen
 
 When you make instances of a component (i.e. duplicate a component), you can make changes to these instances, creating overrides that don't affect the style of the main component. You can easily reset overrides by pressing the **Reset overrides** button (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" />) in the **Component** section of the Inspector. This reverts the instance to match the style of its main component once more.
 
-However, when you’re working with an auto layout frame that itself is also a component or contains component instances, you'll have two <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> buttons in the Inspector.
+However, when you modify auto layout properties for a component instance, the  <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> button also appears in the Auto layout section of the Inspector.
 
 
-Here's how these two types of overrides work:
+Don't let this confuse you:
 
 - The **Reset overrides** button appears in the Auto layout section when you make changes to the **auto layout properties** of a component. Click it to reset these properties and return them to the defaults of the main component.
 - The same button appears in the **Component** section when you make changes to the **auto layout properties of a component** and/or to **distinct components in the auto layout** frame. Use it to reset **all overrides** for the component: both the auto layout properties and any individual component changes.
