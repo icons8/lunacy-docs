@@ -40,9 +40,10 @@ page_nav:
 
 # Version 9
 
-## 9.0 (Beta)
+<!--
 
-*Release date: October 30, 2022*
+## 9.1 (Beta)
+*Release date: March 1, 2023*
 
 Download beta:
 
@@ -50,10 +51,25 @@ Download beta:
 * macOS: [DMG beta](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
 * Linux: [DEB beta](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
 
-
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> Due to changes in the Cloud API, cloud documents once opened in v.8.8 won't open in the earlier Lunacy versions.</p>
+    <p><strong>Note:</strong> Due to changes in the Cloud API, cloud documents once opened in v.9.1 won't open in the earlier Lunacy versions.</p>
 </div>
+
+1. New Render Engine
+2. Full RTL Support in UI and Text Layers.
+
+-->
+
+## 9.0
+
+*Release date: February 28, 2023*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.deb)
+
 
 ### Import from Figma
 
