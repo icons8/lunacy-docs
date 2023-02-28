@@ -237,7 +237,7 @@ Swap between instances from entirely different components:
 2. Go to the **Components tab**.
 3. Find the required component and click <embed type="image/svg+xml" alt="swap_component Copy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/FwHiX5HVcE23ZwIlDilhyw.svg" width="16" /> next to it:
 
-     <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/swap_components_tab.png" height="auto"><source src="/public/swap_components_tab.mp4" type="video/mp4"></video>
+     <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_tab.png" height="auto"><source src="/public/components_swap_tab.mp4" type="video/mp4"></video>
     
 ## [Managing instances](#managing-instances)
 
@@ -378,7 +378,7 @@ A **tint** is a property you can add to a layer group or component. It’s usefu
 
 Tint overrides are useful for designing tabs or panels with elements that can have different states expressed through different colors.
 
-<div class="callout callout--info"> <p><strong>Note:</strong> You'll need add <strong>default tints</strong> before you can create tint overrides.</p> </div>
+<div class="callout callout--info"> <p><strong>Note:</strong> You'll need add default tints before you can create tint overrides.</p> </div>
 
 The demo below shows three instances of the same component. We applied a tint override to one of them, then moved to the main component and modified the default tint. The change applied only to the instances without the override:
 
