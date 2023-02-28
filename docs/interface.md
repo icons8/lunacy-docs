@@ -32,8 +32,7 @@ These are the main elements of the interface:
 
 <embed type="image/svg+xml" alt="interface_overview" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/933ThnNbHEu4ffZyf6zlYQ.svg" width="844" /> 
 
-
-### Сontent tabs
+**Сontent tabs**
 
 Use them to switch between:
 
@@ -47,38 +46,39 @@ Shrink the width of the content tabs panel by dragging its border to the left:
 ![Adjusting the size of side panel](public/shrink_side_panel.gif)
     
     
-### The left panel 
+**The left panel** 
 
 Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View** > **Left Panel** in the menu bar.
 
-### The toolbar
+**The toolbar**
 
 Features all the primary design tools you'll need. Read more about each tool <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">here</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View** > **Toolbar**) in the menu bar.
 
-### The canvas
+**The canvas**
+
 This is your working area. Find out more about it <a href="https://lunacy.docs.icons8.com/basics/#moving-around-the-canvas" target="_blank">here</a>.
 
-### The Inspector 
+**The Inspector**
 
 This panel lets you see and adjust the properties of the selected layer. The view of the Inspector varies depends on the layer type. For details, read [below](#the-inspector).
 
-### The menu bar
+**The menu bar**
 
 Displays the options and commands related to files, layers, editing, etc. It also features the <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> button, which opens up the [Home tab](#home-tab).
 
-### The context toolbar 
+**The context toolbar**
 
 The set of controls displayed on the context toolbar depends on the type of the currently selected layer. Hover the cursor over a tool icon to see a pop-up explaining what it does.
 
-### Document tabs 
+**Document tabs** 
 
 The tabs of currently open files are displayed on the right of the Home button. Click on the tabs to switch between them or press `Ctrl+Tab` / `⌘+Tab` and `Ctrl+Shift+Tab` / `⌘+Shift+Tab`.
 
-### The Play button 
+**The Play button**
 
 Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">here</a>.
 
-### Additional options
+**Additional options**
 
 This button opens up a menu with these options:
 
@@ -92,11 +92,11 @@ This button opens up a menu with these options:
 | <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The Pixels on Zoom option shows pixels when the zoom value exceeds 100. | **View** > **Pixels on Zoom** |
 | <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the right panel on and off. | `-` |
 
-### The Zoom control 
+**The Zoom control**
 
 Read about zooming options [below](#zooming-options).
 
-### Theme switch 
+**Theme switch**
 
 Use it to switch between the light and dark themes.
 

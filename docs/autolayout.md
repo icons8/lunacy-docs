@@ -52,7 +52,7 @@ In Lunacy, you can apply auto layout to:
 
 - **Several auto layout frames**
     
-    You’ll be able to change auto layout properties for each frame, as well as the container frame they are [nested](#combining-auto-layouts) in.
+    You’ll be able to change auto layout properties for each frame, as well as the container frame they are [nested](#nested-auto-layouts) in.
 
     The overall layout will dynamically respond to changes inside the child frames.
 
@@ -315,9 +315,9 @@ In the video, there are three component instances nested in a frame that itself 
 
 We then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" /> in the **Auto layout** section to reset just the auto layout overrides (spacing and padding). We undo this, then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> in the **Components** section to reset all overrides (spacing, padding, **and** the button color).
 
-## [Combining auto layouts](#combining-auto-layouts)
+## [Nested auto layouts](#nested-auto-layouts)
 
-You can combine several auto layouts and nest simple auto layouts to build complex, responsive interfaces. This way, you’ll be able to select any distinct element of your design and alter its settings so that the overall layout adapts to changes based on the settings you choose.
+You can nest several auto layout frames in more complex auto layouts to design truly responsive interfaces. This way, you’ll be able to select any distinct element of your design and alter its settings so that the overall layout adapts to changes based on the settings you choose.
 
 Here’s an example of how you can combine auto layouts for a simple news website:
 
