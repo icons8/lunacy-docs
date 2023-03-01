@@ -101,7 +101,7 @@ Choose any of the available export formats.
 
 When exporting an `SVG` or `PDF` file, you won’t be able to adjust the export size. It will be 1x by default.
 
-**Publish to web**
+**Publish to Web**
 
 Publish them to **Lunacy Cloud** and get a shareable link to the uploaded designs. Once you publish a layer to the web, the **Cloud Uploads** subsection will appear:
 
@@ -201,11 +201,11 @@ When you select a slice, two additional settings appear in the **Export** sectio
 
 <embed type="image/svg+xml" alt="export_slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NottP8HlE0SSMVVRZs9AYw.svg" width="844" /> 
 
-**Trim Transparent Pixels.**
+**Trim Transparent Pixels**
 
 With this option enabled, Lunacy crops out unnecessary transparent pixels within the slice. This can be useful when you’re creating slices by hand using the Slice tool.
 
-**Background color.**
+**Background**
 
 Defines the background color that appears in place of transparent pixels in the export file.
 
@@ -223,7 +223,7 @@ To show/hide slices on the canvas, select or deselect the **Slices** option in t
 
 To export all of the content in a document page:
 
-1. Use the `Ctrl + A` shortcut to select all layers and frames on the page, **except for locked layers**.
+1. Use the `Ctrl + A` / `⌘ + A` shortcut to select all layers and frames on the page, **except for locked layers**.
 2. Export it just like a layer.
 
 ### Exporting documents
@@ -243,7 +243,8 @@ To export a document:
 2. Click `+` next to **Export Document** in the **Export** tab.
 3. Export it just like a layer.
 
-<div class="callout callout--info"> <p><strong>Note:</strong> The <bold>Suffix/Prefix</bold> and <bold>Publish to web</bold> options are unavailable for document exports. </div>
+The **Suffix/Prefix** and **Publish to Web** options are unavailable for document exports.
+
 
 ### Cloud export
 
@@ -254,20 +255,18 @@ You can upload your designs to Lunacy Cloud and instantly share them with other 
 1. Select the layer you want to export.
 2. Define the **export settings** or use a **preset**.
 3. In the **Export** section of the **right panel**, press the **Publish to Web** button (<embed type="image/svg+xml" alt="export_upload_to_cloud" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/RZuTFd-iZ0mo25jqpPuRGg.svg" width="16" />). 
-4. The Cloud export history list will appear below, displaying all previous uploads, starting from the most recent.
+4. The **Cloud export history** list will appear below, displaying all previous uploads, starting from the most recent.
 5. Click the copy link icon (<embed type="image/svg+xml" alt="export_copy_upload_link" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/GPNevuqpmEmBvILFhVFtyg.svg" width="12" />) next to the uploaded layer and share it:
-    
-<div class="callout callout--info"> <p><strong>Note:</strong> Select a layer or frame and press <code>Alt + С + C</code> / <code>⌥ + С + C</code> to instantly upload it to Lunacy Cloud. Lunacy will automatically copy the link, so all you have to do is paste it anywhere to share it! This option is also available on the context menu. </div>
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/export_copy_cloud.png" height="auto"><source src="/public/export_copy_cloud.mp4" type="video/mp4"></video>
+
+Alternatively, select a layer or frame and press `Alt + С + C` / `⌥ + С + C` to instantly upload it to Lunacy Cloud. Lunacy will automatically copy the link, so all you have to do is paste it anywhere to share it. This option is also available on the context menu.
 
 For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.
 
 #### Cloud export history
 
-Lunacy keeps a history of your cloud uploads. To view it, click the Show all cloud uploads button in the Export section. The list will open up below the Export section:
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/export_copy_cloud.png" height="auto"><source src="/public/export_copy_cloud.mp4" type="video/mp4"></video>
-
-Hover the cursor over a link to see a preview of the file and click the link icon to copy the shareable link. 
+Lunacy keeps a history of your cloud uploads. It opens up whenever you upload a layer to cloud, and you can view it anytime by clicking the **Show all cloud uploads** button in the **Export** section. 
 
 #### Deleting cloud uploads
 
