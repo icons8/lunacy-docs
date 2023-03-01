@@ -49,7 +49,7 @@ Supported formats include:
 
 ### Basic export rules
 
-- **During export, Lunacy ignores:**
+- During export, **Lunacy ignores:**
     - Guides.
     - Square and layout grids.
     - Frame names.
@@ -99,7 +99,7 @@ For any export size larger than **1x**, Lunacy generates a default suffix of `@<
 
 Choose any of the available export formats.
 
-<div class="callout callout--info"> <p><strong>Note:</strong> When exporting an <code>SVG</code> or <code>PDF</code> file, you won’t be able to adjust the export size. It will be <bold>1x</bold> by default.</div>
+<div class="callout callout--info"> <p><strong>Note:</strong> When exporting an <code>SVG</code> or <code>PDF</code> file, you won’t be able to adjust the export size. It will be 1x by default. </div>
 
 **Publish to web**
 
