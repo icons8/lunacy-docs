@@ -59,7 +59,7 @@ Components from the same category or subcategory are called **component states**
 
 You can nest several components in a more complex component. 
 
-This gives you the most freedom and flexibility in editing your designs, and it’s an even more powerful feature when coupled with <a href="https://lunacy.docs.icons8.com/autolayout/#combining-auto-layouts" target="_blank">nested auto layouts</a>. 
+This gives you the most freedom and flexibility in editing your designs, and it’s an even more powerful feature when coupled with <a href="https://lunacy.docs.icons8.com/autolayout/#nested-auto-layouts" target="_blank">nested auto layouts</a>. 
 
 ## [Creating components](creating-components)
 
@@ -312,7 +312,7 @@ To better understand how component overrides work, let’s dive right into pract
 
 Below, we have two profile card UI layouts for a default and dark theme:
 
-<embed type="image/svg+xml" alt="card_ui" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/JifJEcoIU0u9LeeDBM0Sig.svg" width="844" /> 
+<embed type="image/svg+xml" alt="profile_card_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LFtPkxe2EUCYBfuhNOHDSg.svg" width="844"/> 
 
 All the components used in the layout are on the left, and their instances are nested in the profile card frames, which were turned into components themselves. 
 
