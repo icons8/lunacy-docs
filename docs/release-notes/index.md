@@ -66,9 +66,9 @@ Download beta:
 
 Download:
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.0.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.deb)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.0.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.0.deb)
 
 
 ### Import from Figma
