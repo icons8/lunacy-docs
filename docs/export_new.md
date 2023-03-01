@@ -99,7 +99,7 @@ For any export size larger than **1x**, Lunacy generates a default suffix of `@<
 
 Choose any of the available export formats.
 
-<div class="callout callout--info"> <p><strong>Note:</strong> When exporting an <code>SVG</code> or <code>PDF</code> file, you won’t be able to adjust the export size. It will be 1x by default. </div>
+When exporting an `SVG` or `PDF` file, you won’t be able to adjust the export size. It will be 1x by default.
 
 **Publish to web**
 
@@ -177,7 +177,7 @@ To export a layer:
 
 Exporting multiple items is no different. However, when you select multiple layers that already have defined export settings, you will see a Click + to replace mixed content message in the **Export** tab:
 
-<embed type="image/svg+xml" alt="export_several_layers" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Mulz2YadzECPlxNGERfNRw.svg" /> 
+<embed type="image/svg+xml" alt="export_several_layers" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Mulz2YadzECPlxNGERfNRw.svg" width="844" /> 
 
 Click `+` to clear the export settings for all layers and define new ones.
 
