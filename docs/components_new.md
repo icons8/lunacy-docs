@@ -26,7 +26,7 @@ page_nav:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_basics.png" height="auto"><source src="/public/component_basics.mp4" type="video/mp4"></video>
 
-Using components, you can easily create consistent designs and optimize your workflow when working on large projects with repeating or similar elements. 
+Using components, you can easily create consistent designs and optimize your workflow when working on large designs with repeating or similar elements. 
 
 ## [Component basics](component-basics)
 
@@ -181,12 +181,11 @@ To switch through them:
 
 ## Organizing components
 
-As your project grows along with the number of components in it, you'll probably want to organize them so you can quickly find the necessary component when you need it. 
+As your document grows along with the number of components in it, you'll probably want to organize them so you can quickly find the necessary component when you need it. 
 
 We already covered the **Components page**, which is a good start. Dividing your components into categories and subcategories in the **Components tab** is the next step:
 
-<embed type="image/svg+xml" alt="components_tab_categories" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Q_-8fKVPSE2eQ4vk9FFekg.svg" width="844" /> 
-
+<embed type="image/svg+xml" alt="categories_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TDamndg4PkCuDPWyD2wrEQ.svg" width="844" /> 
 
 You can manually place your components in categories in the **left panel** (the **Group** option on the context menu) or use `/` in component names, like this: 
 
