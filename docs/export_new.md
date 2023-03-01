@@ -49,7 +49,7 @@ Supported formats include:
 
 ### Basic export rules
 
-- During export, **Lunacy ignores:**
+- During export, Lunacy **ignores:**
     - Guides.
     - Square and layout grids.
     - Frame names.
@@ -230,7 +230,7 @@ To export all of the content in a document page:
 
 To export a document, there has to be at least one frame inside it. 
 
-Also, keep in mind that when exporting a document, Lunacy ignores:
+Also, keep in mind that when exporting a document, Lunacy **ignores**:
 
 - Layers that are not framed.
 - Main components.
