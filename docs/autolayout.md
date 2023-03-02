@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Auto layout (Beta)
+title: Auto layout 
 description: Learn how to create dynamic designs with auto layout
 icon: 'document-body'
 
@@ -259,7 +259,7 @@ Here are a few examples of how an auto layout changes depending on the resizing 
 If you need an element in an auto layout to remain independent from auto layout settings:
 
 1. Select it in the Layer list or on the frame.
-2. Click <embed type="image/svg+xml" alt="absolute_position" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DjX8P_Inw0mpGnhrK_2mXw.svg" width="16" /> in the Inspector. 
+2. Click <embed type="image/svg+xml" alt="absolute_position" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9c9LFABEHEidPjprrmkUYA.svg" width="16" /> in the Inspector. 
 
 The element now has an absolute position. You can move it freely within the auto layout and keep it static regardless of any resizing changes, like in the video below.
 
