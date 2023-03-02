@@ -129,7 +129,7 @@ For details about teamwork in Lunacy, read <a href="https://lunacy.docs.icons8.c
 <embed type="image/svg+xml" alt="Group 2" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/GAnM3wqyBkKUsNwt5c7_kQ.svg" /> 
 
 
-### Custom Nudge Amount
+### Custom nudge amount
 
 Nudging is moving layers with arrow keys. By default, Lunacy nudges a layer by 1 px when you press an arrow key (small nudge), or by 10 px when you press an arrow key holding down Shift (big nudge). Now, you can define custom values.
 
