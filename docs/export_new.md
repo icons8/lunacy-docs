@@ -74,19 +74,19 @@ With a layer selected, you will see these settings:
 <embed type="image/svg+xml" alt="export_section_layer" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fcCzjZUPCUK2tQ8KtEPPdA.svg" width="844" /> 
 
 
-* **Export size**
+- **Export size**
 
 
     By default, Lunacy exports layers at their original size (**1x**). 
 
     You can change it to any of the preset scales or set your own (e.g., 8x, 10x, or 0.3x).
 
-* **Prefix/Suffix**
+- **Prefix/Suffix**
 
 
     Defines the suffix or prefix of the export's file name. 
 
-    For any export size larger than **1x**, Lunacy generates a default a default `@<size>` suffix, but you can enter your own in the input field (use only letters and numbers).
+    For any export size larger than 1x, Lunacy generates a default a default `@<size>` suffix, but you can enter your own in the input field (use only letters and numbers).
 
 * **Format**
 
