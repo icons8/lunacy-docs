@@ -273,7 +273,7 @@ The **Export** tab already displays the basic CSS properties of your selection a
 
 <embed type="image/svg+xml" alt="export_linked" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/us8UQrMzE0qpgYFHj_byqQ.svg" width="844" /> 
 
-<div class="callout callout--info"> <p><strong>Tip:</strong> Using <b>Linked design</n>, you can export your layouts for use on live websites simply by pasting a link directly from Lunacy into website code. This way, when you update the linked frame in Lunacy, the changes will be instantly reflected on the webpage — no need to bother the developer team. Learn more about this time-saving feature <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">here</a>.</p> </div>
+<div class="callout callout--info"> <p><strong>Tip:</strong> Using <b>Linked design</b>, you can export your layouts for use on live websites simply by pasting a link directly from Lunacy into website code. This way, when you update the linked frame in Lunacy, the changes will be instantly reflected on the webpage — no need to bother the developer team. Learn more about this time-saving feature <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">here</a>.</p> </div>
 
 To see more code properties and options, open the **Code** tab, where you can view and copy the CSS, XAML, and SVG code for any layer in your document:
 
