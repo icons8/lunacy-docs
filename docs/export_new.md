@@ -201,7 +201,7 @@ When you select a slice, two additional settings appear in the **Export** sectio
 * **Trim Transparent Pixels**
 
 
-    With this option enabled, Lunacy crops out unnecessary transparent pixels within the slice. This can be useful when you’re creating slices by hand using the Slice tool.
+    With this option enabled, Lunacy crops out unnecessary transparent pixels within the slice. This can be useful when you’re creating slices by hand using the **Slice** tool.
 
 * **Background**
 
