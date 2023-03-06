@@ -164,7 +164,7 @@ To export a layer:
 
 ### Exporting multiple layers or frames
 
-Exporting multiple items is no different. However, when you select multiple layers that already have defined export settings, you will see a Click + to replace mixed content message in the **Export** tab:
+Exporting multiple items is no different. However, when you select multiple layers that already have defined export settings, you will see a **Click `+` to replace mixed content** message in the **Export** tab:
 
 <embed type="image/svg+xml" alt="export_several_layers" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Mulz2YadzECPlxNGERfNRw.svg" width="844" /> 
 
