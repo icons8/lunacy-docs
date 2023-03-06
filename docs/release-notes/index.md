@@ -95,40 +95,6 @@ Another long-awaited feature. With auto layouts, you can create designs that wil
 Auto layouts are a very powerful, yet complex, feature with lots of properties. But after you master it, your design flow will get to the next level.
 
 
-### More cloud servers
-
-We’ve increased the number of our servers throughout the world. Now, they are available in:
-
-* Europe
-* North America
-* South America
-* South Africa
-* Australia
-* Japan
-* India
-* China (Hong Kong)
-
-Upon start, Lunacy automatically picks the server with the best latency.
-
-
-<embed type="image/svg+xml" alt="Group 5" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/m_wLv_F4wEmhs1A-QGLgrA.svg" /> 
-
-
-### Team Subscription
-
-Now, you can subscribe to the Lunacy Cloud Team Plan and get:
-
-* Unlimited number of team documents
-* Unlimited version history
-* Unlimited thrash storage period
-* Free personal cloud license for the team owner
-
-For details about teamwork in Lunacy, read <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">here</a>.
-
-
-<embed type="image/svg+xml" alt="Group 2" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/GAnM3wqyBkKUsNwt5c7_kQ.svg" /> 
-
-
 ### Custom nudge amount
 
 Nudging is moving layers with arrow keys. By default, Lunacy nudges a layer by 1 px when you press an arrow key (small nudge), or by 10 px when you press an arrow key holding down Shift (big nudge). Now, you can define custom values.
@@ -193,6 +159,38 @@ You can now change the scale of the interface. For this, go to **View > Interfac
 * `Ctrl`+`Shift`+`Alt`+`-` / `⌥``Shift``⌘``-` — decrease scale
 * `Ctrl`+`Shift`+`Alt`+`0` / `⌥``Shift``⌘``0` — reset scale
 
+
+### Professional Team PLan
+
+Now, you can subscribe to the Professional Team PLan and get:
+
+* Unlimited number of team documents
+* Unlimited version history
+* Unlimited thrash storage period
+* Free personal cloud license for the team owner
+
+For details about teamwork in Lunacy, read <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">here</a>.
+
+
+<embed type="image/svg+xml" alt="Group 2" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/GAnM3wqyBkKUsNwt5c7_kQ.svg" />
+
+### More cloud servers
+
+We’ve increased the number of our servers throughout the world. Now, they are available in:
+
+* Europe
+* North America
+* South America
+* South Africa
+* Australia
+* Japan
+* India
+* China (Hong Kong)
+
+Upon start, Lunacy automatically picks the server with the best latency.
+
+
+<embed type="image/svg+xml" alt="Group 5" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/m_wLv_F4wEmhs1A-QGLgrA.svg" />
 
 ### Czech and Vietnamese languages ![Czech flag](/public/icons8-czechia-24.png) ![Vietnamese flag](/public/icons8-vietnam-24.png)
 
