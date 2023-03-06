@@ -76,23 +76,27 @@ With a layer selected, you will see these settings:
 
 * **Export size**
 
+
     By default, Lunacy exports layers at their original size (**1x**). 
 
     You can change it to any of the preset scales or set your own (e.g., 8x, 10x, or 0.3x).
 
 * **Prefix/Suffix**
 
+
     Defines the suffix or prefix of the export's file name. 
 
     For any export size larger than **1x**, Lunacy generates a default a default `@<size>` suffix, but you can enter your own in the input field (use only letters and numbers).
 
-* **Format**
+* **Format*
+
 
     Choose any of the available export formats.
 
     When exporting to `SVG` or `PDF`, you won’t be able to adjust the export size. It will be 1x by default.
 
 * **Publish to Web**
+
 
     Publish any layer to **Lunacy Cloud** and get a shareable link to it. Once you publish a layer to the web, the **Cloud Uploads** subsection will appear:
 
@@ -102,17 +106,21 @@ With a layer selected, you will see these settings:
 
 * **Show all cloud uploads**
 
+
     Click <embed type="image/svg+xml" alt="export_show_uploads" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zJT7IKTmPkmdulIMGf5Zag.svg" width="20" />  next to the **Export** section title to open up the **Cloud Uploads** subsection.
 
 * **Add export option**
+
 
     Click `+` to add another export option. This lets you export the same element in different formats, sizes, and other settings. 
 
 * **Remove export option**
 
+
     Click <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="16" /> next to an export option to remove it.
 
 * **Additional export options**
+
 
     Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="16" /> to open up additional export options. Here, you can:
 
@@ -170,7 +178,7 @@ Exporting multiple items is no different. However, when you select multiple laye
 
 Click `+` to clear the export settings for all layers and define new ones.
 
-You can also choose to export multiple layers or frames as a single image so that they’re all rendered into one file.
+You can also export multiple layers or frames as a single image so that they’re all rendered into one file.
 
 ### Including frame backgrounds in exports
 
@@ -192,9 +200,11 @@ When you select a slice, two additional settings appear in the **Export** sectio
 
 * **Trim Transparent Pixels**
 
+
     With this option enabled, Lunacy crops out unnecessary transparent pixels within the slice. This can be useful when you’re creating slices by hand using the Slice tool.
 
 * **Background**
+
 
     Defines the background color that appears in place of transparent pixels in the export file.
 
@@ -221,8 +231,8 @@ To export a document, there has to be at least one frame inside it.
 
 Also, keep in mind that when exporting a document, Lunacy **ignores**:
 
-- Layers that are not framed.
-- Main components.
+- Layers that are not framed
+- Main components
 
 When exporting documents, Lunacy creates folders with names corresponding to the names of the **document pages**. Inside these folders, Lunacy creates **separate files for each layer** available on the respective page. Grouped layers and component instances are considered single layers.
 
