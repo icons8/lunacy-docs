@@ -88,7 +88,7 @@ With a layer selected, you will see these settings:
 
     For any export size larger than **1x**, Lunacy generates a default a default `@<size>` suffix, but you can enter your own in the input field (use only letters and numbers).
 
-* **Format*
+* **Format**
 
 
     Choose any of the available export formats.
