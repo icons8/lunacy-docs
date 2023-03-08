@@ -160,9 +160,9 @@ You can now change the scale of the interface. For this, go to **View > Interfac
 * `Ctrl`+`Shift`+`Alt`+`0` / `⌥``Shift``⌘``0` — reset scale
 
 
-### Professional Team PLan
+### Professional Team Plan
 
-Now, you can subscribe to the Professional Team PLan and get:
+Now, you can subscribe to the Professional Team Plan and get:
 
 * Unlimited number of team documents
 * Unlimited version history
