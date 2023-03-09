@@ -183,7 +183,7 @@ There is also a special type of page — the **Components** page. It stores the 
 
 ## [Home Tab](#home-tab)
 
-In the **Home** tab, you can manage your:
+In the **Home tab**, you can manage your:
 
 * Personal documents (both local and cloud).
 * Teams and team projects.
@@ -195,7 +195,7 @@ You can access the Home tab from within a document by clicking <embed type="imag
 
 These are the **main sections** of the Home tab:
 
-<embed type="image/svg+xml" alt="home_tab_overview" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/14xtg7lgyU2Mz95I2gpRHg.svg" width="844" /> 
+<embed type="image/svg+xml" alt="home_tab_overview_" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/RPTKRCfSnEeskiEEtP73cg.svg" width="844" /> 
 
 
 1. **The Sidebar.** Access your account page, navigate through documents, and manage your team projects. At the bottom of the sidebar, you will find links to the onboarding tutorial, Lunacy documentation, and social media.
@@ -244,11 +244,11 @@ To **open a cloud document shared with you**:
 
 You can import:
 
-- Local .sketch documents to Lunacy Cloud
-- Figma documents to local .sketch documents (which you can then upload to Lunacy Cloud)
+- Local `.sketch` documents to Lunacy Cloud
+- Figma documents to local `.sketch` documents (which you can then upload to Lunacy Cloud)
 
 ##### Importing local `.sketch` files to cloud
-- In the action bar, click **Import Local**.
+- In the action bar, click **Import to Cloud**.
 - At the top right corner of a local document, click <embed type="image/svg+xml" alt="send_cloud" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hDgRI0Dx_EaYjQ2uo5PrTg.svg" width="16" /> .
 
 ##### Importing Figma documents to `.sketch`
@@ -280,7 +280,7 @@ To **generate a personal access token** in Figma:
 In the sidebar, your documents are divided into three categories: 
 
 * **Recent**. All of your local and cloud documents, as well as documents shared with you by others.
-* **Documents**. Only your cloud documents.
+* **My Cloud**. Your cloud documents.
 * **Deleted**. Deleted cloud documents. 
 
 
@@ -295,7 +295,7 @@ In any of these sections, you can right-click on a document preview to open the 
 
 To **search for documents** by keyword, use the search field in the action bar:
 
-<embed type="image/svg+xml" alt="search" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/oEoeoa1K80yLK4gH2rXwGg.svg" width="844" /> 
+<embed type="image/svg+xml" alt="search_home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bALioCg9eEaKUJr28zHwgg.svg" width="844" /> 
 
 
 Use the buttons on the right of the search bar to **sort documents** and **switch views**.
@@ -315,7 +315,7 @@ Log in to your account to get full access to our graphics, create teams and proj
 
 In the Home tab, click **Log In** at the top of the sidebar. Use your existing Icons8 account or via another service:
 
-<embed type="image/svg+xml" alt="login_page" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/gTo2LsQ7ekKbbSUFgGBdrw.svg" width="844" /> 
+<embed type="image/svg+xml" alt="login_page_home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/JQ21nLcS5UqrU2IcXLCEgg.svg" width="844" /> 
 
 
 To create a new account, click **Register**.
@@ -324,7 +324,7 @@ To create a new account, click **Register**.
 
 Once you’re logged in, you will see your **profile page**:
 
-<embed type="image/svg+xml" alt="profile_page" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/pYEH7WWv9kmU62Zde08e3g.svg" width="844" /> 
+<embed type="image/svg+xml" alt="profile_page_home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kRDaG5owI0WF97WzI1Y9pw.svg" width="844" /> 
 
 Use this page to:
 * Manage your profile information
