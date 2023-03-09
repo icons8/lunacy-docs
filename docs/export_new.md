@@ -98,10 +98,7 @@ With a layer selected, you will see these settings:
 
 * **Remove export option**. Click <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="16" /> next to an export option to remove it.
 
-* **Additional export options**. Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="16" /> to open up additional export options. 
-
-    Here, you can:
-
+* **Additional export options**. Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="16" /> to open up additional export options. Here, you can:
     - Choose a preexisting export preset.
     - Create a custom export preset.
     - Remove all export options.

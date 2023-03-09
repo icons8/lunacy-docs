@@ -117,8 +117,7 @@ Vertical orientation arranges elements along the **Y axis**, and horizontal orie
 To combine both these options, you’ll need to nest auto layout frames in a larger frame.
 
 
-### Alignment controls
-Align your layers within the auto layout. 
+**Alignment controls**. Align your layers within the auto layout. 
 
 Since alignment options will be determined by auto layout settings, this section of the Inspector will be unavailable:
 
