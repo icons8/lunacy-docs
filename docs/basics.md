@@ -122,7 +122,7 @@ To create a frame, use the <a href="https://lunacy.docs.icons8.com/tools/#frame-
     <p><strong>Note:</strong> You can also a <a href="https://lunacy.docs.icons8.com/basics/#adding-custom-presets" target="_blank">add your custom presets</a> to this list.</p>
 </div>
 
-To create a frame:
+To **create a frame**:
 
 1. Select the frame tool on the toolbar or press `A`.
 2. Click and drag to add a custom frame or use a preset from the Inspector.
@@ -270,7 +270,7 @@ To measure the **distance between a layer inside a group and the borders of the 
 To measure the **distance between two layers in different groups**:
 
 1. Select a grouped layer.
-2. Hold down `Alt` / `⌥`.
+2. Hold down `Alt + Shift` / `⌥ + Shift`.
 3. Hover the cursor over a layer in the other group.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/measuring_distances_different_groups.png" height="auto"><source src="/public/measuring_distances_different_groups.mp4" type="video/mp4"></video>

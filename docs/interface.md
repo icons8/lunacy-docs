@@ -125,9 +125,9 @@ Other basic operations with layers are available on the <a href="https://lunacy.
 
 ### Useful tips
 
-To collapse all the layers in the Layer list, press `Ctrl + ~` / `⌘ + ~`.
+To **collapse all layers** in the Layer list, press `Ctrl + ~` / `⌘ + ~`.
 
-To quickly move to a specific layer in large projects: 
+To quickly **move to a specific layer** in large projects: 
 1. Find it by typing its name in the search field.
 2. Select it in the Layer list.
 3. Press <code>Ctrl + 2</code> / <code>⌘ + 2</code> or double-click the icon in front of the layer name to use the <a href="https://lunacy.docs.icons8.com/tips/#zoom-to-selection" target="_blank">zoom to selection</a> feature.
@@ -147,7 +147,9 @@ Learn more about the Inspector <a href="https://lunacy.docs.icons8.com/basics/#w
 
 There can be any number of **pages** in a document. 
 
-You can keep all your work on a single page or split it between several pages. For instance, when designing a website, you can keep the desktop and mobile versions on separate pages. Additionally, you can duplicate a page to save a version of your current design and experiment with the copy. It's completely up to you to decide which approach to choose. 
+You can keep all your work on a single page or split it between several pages. For instance, when designing a website, you can keep the desktop and mobile versions on separate pages. 
+
+Additionally, you can duplicate a page to save a version of your current design and experiment with the copy. It's completely up to you to decide which approach to choose. 
 
 Here's what the **Page list** looks like: 
 
@@ -155,16 +157,16 @@ Here's what the **Page list** looks like:
 
 It appears above the Layer list when the **Layers** content tab is selected.
 
-Use the Page list to:
+Use the **Page list** to:
 
-* Add pages.
-* Rename pages.
-* Change the order of the pages.
-* Duplicate pages (with their content).
-* Copy and paste pages into other documents.
-* Delete pages.
+* Add pages
+* Rename pages
+* Change the order of the pages
+* Duplicate pages (with their content)
+* Copy and paste pages into other documents
+* Delete pages
 
-To add a new page to the document:
+To **add a new page** to the document:
 
 1. Click the `+` icon above the Layer list.
 2. Name the new page.
@@ -191,7 +193,7 @@ The Home tab opens up when you start Lunacy if you don’t have any previously o
 
 You can access the Home tab from within a document by clicking <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> on the menu bar.
 
-These are the main sections of the Home tab:
+These are the **main sections** of the Home tab:
 
 <embed type="image/svg+xml" alt="home_tab_overview" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/14xtg7lgyU2Mz95I2gpRHg.svg" width="844" /> 
 
@@ -207,7 +209,7 @@ The Home tab makes it easy to create, manage, and organize all of your personal 
 
 #### Creating documents
 
-To create a new document, use any of the following ways depending on the document type:
+To **create a new document**, use any of the following ways depending on the document type:
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Local &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Cloud &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |---------------------------------------|-----------------------|----------------------------|
@@ -223,9 +225,9 @@ To create a new document, use any of the following ways depending on the documen
 
 #### Opening documents
 
-To open a cloud document, click on its thumbnail on the Home tab. 
+To **open a cloud document**, click on its thumbnail on the **Home tab**. 
 
-As for other options, use any of these to open local documents:
+As for other options, use any of these to **open local documents**:
 
 * Press `Ctrl + O` / `⌘ + O`.
 * Click the **Open** button on the action bar.
@@ -233,7 +235,7 @@ As for other options, use any of these to open local documents:
 
 Supported formats include `sketch`, `svg`, `png`, `jpg`, `jpeg`, `bmp`, `webp`, `ico`, and `gif`.
 
-To open a cloud document shared with you:
+To **open a cloud document shared with you**:
 1. Copy the link to the document.
 2. Press `Ctrl + V` / `⌘ + V` anywhere in the app.
 3. Click **File** > **Open URL From Clipboard**.
@@ -255,9 +257,9 @@ You can import:
 2. Copy the link to the file.
 3. Use `Ctrl + V` / `⌘ + V` anywhere in the Lunacy app to open it.
 
-To import private Figma files, you’ll have to enter its share link as well as a **personal access token** generated in Figma for third-party app integrations.
+To import **private** Figma files, you’ll have to enter its share link as well as a **personal access token** generated in Figma for third-party app integrations.
 
-To generate a personal access token in Figma:
+To **generate a personal access token** in Figma:
 
 1. Click your profile icon in the file browser and choose **Settings**. 
 2. Scroll down to the **Personal access token** section.
@@ -291,16 +293,16 @@ In any of these sections, you can right-click on a document preview to open the 
 <embed type="image/svg+xml" alt="doc_context" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2Bo5PpAb9USo1V7RQ5euhA.svg" width="844" /> 
 
 
-To search for documents by keyword, use the search field in the action bar:
+To **search for documents** by keyword, use the search field in the action bar:
 
 <embed type="image/svg+xml" alt="search" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/oEoeoa1K80yLK4gH2rXwGg.svg" width="844" /> 
 
 
-Use the buttons on the right of the search bar to sort documents and switch views.
+Use the buttons on the right of the search bar to **sort documents** and **switch views**.
 
 #### Managing teams and projects
 
-You can create teams for collaborating with others. Create projects inside teams and use them like folders to organize your documents.
+You can create **teams** for collaborating with others. Create **projects** inside teams and use them like folders to organize your documents.
 
 
 Find out more about teams and projects <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">here</a>. 
@@ -311,7 +313,7 @@ Log in to your account to get full access to our graphics, create teams and proj
 
 #### Logging in to your account
 
-In the Home tab, click Log In at the top of the sidebar. Use your existing Icons8 account or via another service:
+In the Home tab, click **Log In** at the top of the sidebar. Use your existing Icons8 account or via another service:
 
 <embed type="image/svg+xml" alt="login_page" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/gTo2LsQ7ekKbbSUFgGBdrw.svg" width="844" /> 
 
@@ -357,6 +359,7 @@ Use it as a portfolio of your works:
 Icons8 graphics are free for personal and commercial use as long as you include an attribution link to us. Additionally, SVG files and high-resolution photos are unavailable on the free plan. To get these options and use our graphics without mandatory attribution, consider a paid subscription. 
 
 You can also upgrade to a **cloud** or **team** plan for more freedom with cloud documents, team creation, and document management. 
+
 Read more about the subscriptions we offer <a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">here</a>.
 
 You can also access the list of our graphics subscriptions by **Unlock All Assets** on your profile page, then **See Pricing**.

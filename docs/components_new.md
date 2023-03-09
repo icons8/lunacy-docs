@@ -32,38 +32,28 @@ Using components, you can easily create consistent designs and optimize your wor
 
 These are the basic terms related to components and their functions:
 
-### Main components and component instances
+* **Main component**. The original layer that you convert into a component. 
 
-A **main component** is the original layer that you convert into a component. 
+* **Component instance**. You create a component **instance** any time you duplicate a main component. 
 
-You create a component **instance** any time you duplicate a main component. 
+    When you edit a main component, the changes apply to all of its instances at once.
 
-When you edit a main component, the changes apply to all of its instances at once.
+* **Override**. When you modify an instance, you create an **override**. 
 
-### Override
+    The main component won't be affected, and if you edit it later, the changes won't apply to instances with overrides.
 
-When you modify an instance, you create an **override**. The main component won't be affected, and now when you edit it, the changes won't apply to instances with overrides.
+* **Component page**. A dedicated document page used for storing main components. Lunacy adds it automatically when you create a component.
 
-
-### Component page
-
-A **Components page** is a dedicated document page used for storing main components. Lunacy adds it automatically when you create a component.
+* **Component state**. Components from the same category or subcategory are called **component states**. They define the different styles for one component.
 
 
-### Component state
+* **Nested components**. You can nest several components in a more complex component. 
 
-Components from the same category or subcategory are called **component states**. 
-
-
-### Nested components
-
-You can nest several components in a more complex component. 
-
-This gives you the most freedom and flexibility in editing your designs, and it’s an even more powerful feature when coupled with <a href="https://lunacy.docs.icons8.com/autolayout/#nested-auto-layouts" target="_blank">nested auto layouts</a>. 
+    This gives you the most freedom and flexibility in editing your designs, and it’s an even more powerful feature when coupled with <a href="https://lunacy.docs.icons8.com/autolayout/#nested-auto-layouts" target="_blank">nested auto layouts</a>. 
 
 ## [Creating components](creating-components)
 
-To create a component:
+To **create a component**:
 
 1. Select the layer you want to convert into a component.
 2. Click `+` in the Component section of the right panel or press `Ctrl + Alt + K` (`⌘ + ⌥ + K`).
@@ -120,27 +110,17 @@ When you select a main component, the **Component** section in the right panel d
 
 <embed type="image/svg+xml" alt="main_component_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/xfdP7fynOkuGwQdngTwAGQ.svg" width="844" /> 
 
-**Component type**
+* **Component type**. Select one of the presets to organize your components by type. 
 
-Select one of the presets to organize your components by type. 
+    <div class="callout callout--info"> <p><strong>Note:</strong> This setting currently has no visible effect. It’s reserved for future use in upcoming releases.</p> </div>
 
-<div class="callout callout--info"> <p><strong>Note:</strong> This setting currently has no visible effect. It’s reserved for future use in upcoming releases.</p> </div>
+* **Resizing behavior**. Choose whether to adjust the content of the component when it’s resized.
 
-**Resizing behavior**
+* **Color picker, opacity, and visibility**. Set the component’s background color and show/hide it by pressing the <embed type="image/svg+xml" alt="eye_hide" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Aa8CJl234kaxZXUTplkR4g.svg" width="24" /> / <embed type="image/svg+xml" alt="eye_show" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/y6Qj385WoUu0be9H0CO3lA.svg" width="20" /> icons.
 
-Choose whether to adjust the content of the component when it’s resized.
+* **Include/exclude backgroung in export**. Include/exclude the component’s background when exporting it.
 
-**Color picker, opacity, and visibility**
-
-Set the component’s background color and show/hide it by pressing the <embed type="image/svg+xml" alt="eye_hide" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Aa8CJl234kaxZXUTplkR4g.svg" width="24" /> / <embed type="image/svg+xml" alt="eye_show" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/y6Qj385WoUu0be9H0CO3lA.svg" width="20" /> icons.
-
-**Include/exclude backgroung in export**
-
-Include/exclude the component’s background when exporting it.
-
-**Include in instances**
-
-Include/exclude the component’s background in its instances.
+* **Include in instances**. Include/exclude the component’s background in its instances.
 
 ### [Components page](components-page)
 
@@ -158,7 +138,7 @@ You can create several **states** for a component and switch between them as nee
 To **create a component state**:
 
 1. Select a component instance.
-2. Click `+` in the **Component** section of the **right panel** or press `Ctrl + Alt + P`/``⌘ + ⌥ + K``
+2. Click `+` in the **Component** section of the **right panel** or press `Ctrl + Alt + P` / `⌘ + ⌥ + P`.
 3. Adjust your component for the new state.
 4. Name it.
 5. Click on any empty area on the canvas.
@@ -208,7 +188,7 @@ When you delete a component, all of its instances turn into frames.
 
 ## [Editing components](#editing-components)
 
-You can edit a main component:
+You can **edit a main component**:
 
 - In the **Component editor**.
 - Directly in the **Components page**.
