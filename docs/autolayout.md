@@ -101,100 +101,90 @@ You can also select elements within the frame to change their individual auto la
 
 <embed type="image/svg+xml" alt="autolayout_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LFv-N9G44E2xNXuBicy3Yg.svg" width="844" /> 
 
-### Resizing options
-Determine how the container frame responds to changes made to layers inside it:
+* **Resizing options**. Determine how the container frame responds to changes made to layers inside it:
 
-- Set it to **Hug** if you want the frame to be resized depending on the size of its contents.
-- Set height or width (or both) to **Fixed** if you want the frame to remain unchanged regardless of the size of its contents.
+    - Set it to **Hug** if you want the frame to be resized depending on the size of its contents.
+    - Set height or width (or both) to **Fixed** if you want the frame to remain unchanged regardless of the size of its contents.
 
-### Layout orientation
-Set a **vertical** or **horizontal orientation** for elements in an auto layout. 
+* **Layout orientation**. Set a **vertical** or **horizontal orientation** for elements in an auto layout. 
 
-Vertical orientation arranges elements along the **Y axis**, and horizontal orientation places them on the **X axis**. 
+    Vertical orientation arranges elements along the **Y axis**, and horizontal orientation places them on the **X axis**. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_orientation.png" height="auto"><source src="/public/autolayout_orientation.mp4" type="video/mp4"></video>
+    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_orientation.png" height="auto"><source src="/public/autolayout_orientation.mp4" type="video/mp4"></video>
 
-To combine both these options, you’ll need to nest auto layout frames in a larger frame.
+    To combine both these options, you’ll need to nest auto layout frames in a larger frame.
 
 
-**Alignment controls**. Align your layers within the auto layout. 
+* **Alignment controls**. Align your layers within the auto layout. 
 
-Since alignment options will be determined by auto layout settings, this section of the Inspector will be unavailable:
+    Since alignment options will be determined by auto layout settings, this section of the Inspector will be unavailable:
 
-<embed type="image/svg+xml" alt="alignment_disabled" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/f0DMpMmXpkCbCQ1xFSXCYg.svg" width="844" /> 
+    <embed type="image/svg+xml" alt="alignment_disabled" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/f0DMpMmXpkCbCQ1xFSXCYg.svg" width="844" /> 
 
-Change alignment by: 
+    Change alignment by: 
 
-- Clicking on the sections of the square outline or the lines in the middle.
-- Dragging the alignment blocks to the border you need.
+    - Clicking on the sections of the square outline or the lines in the middle.
+    - Dragging the alignment blocks to the border you need.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_alignment.png" height="auto"><source src="/public/autolayout_alignment.mp4" type="video/mp4"></video>
+    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_alignment.png" height="auto"><source src="/public/autolayout_alignment.mp4" type="video/mp4"></video>
 
-### Element spacing
-Define the spacing between elements in an auto layout by:
+* **Element spacing**. Define the spacing between elements in an auto layout by:
 
-- Entering the values in the **Spacing** fields.
-- Dragging the values in the fields up or down.
-- Selecting the field and moving the mouse wheel (additionally hold down `Shift` to change the values in 10px increments).
-- Selecting the field and using the arrow keys.
+    - Entering the values in the **Spacing** fields.
+    - Dragging the values in the fields up or down.
+    - Selecting the field and moving the mouse wheel (additionally hold down `Shift` to change the values in 10px increments).
+    - Selecting the field and using the arrow keys.
 
+    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_spacing.png" height="auto"><source src="/public/autolayout_spacing.mp4" type="video/mp4"></video>
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_spacing.png" height="auto"><source src="/public/autolayout_spacing.mp4" type="video/mp4"></video>
+* **Padding**. Determine the distance from elements to the borders of the container frame.
 
-### Padding
-Determine the distance from elements to the borders of the container frame.
+    Like with element spacing:
 
-Like with element spacing:
-
-- Enter the values in the **Padding** fields.
-- Drag the values in the fields up or down.
-- Select the field and moving the mouse wheel (additionally hold down `Shift` to change the values in 10px increments).
-- Select the field and using the arrow keys.
+    - Enter the values in the **Padding** fields.
+    - Drag the values in the fields up or down.
+    - Select the field and moving the mouse wheel (additionally hold down `Shift` to change the values in 10px increments).
+    - Select the field and using the arrow keys.
 
 
-### Lock/unlock right and bottom padding
-When you change left or top padding, right and bottom padding will mirror the new values. 
+* **Lock/unlock right and bottom padding**. When you change left or top padding, right and bottom padding will mirror the new values. 
 
-Click <embed type="image/svg+xml" alt="unlock_padding" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PpXulR2e9ECMC6HIzjsYIQ.svg" width="10" /> to change padding for individual sides.
+    Click <embed type="image/svg+xml" alt="unlock_padding" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PpXulR2e9ECMC6HIzjsYIQ.svg" width="10" /> to change padding for individual sides.
 
-If you lock the padding again (click <embed type="image/svg+xml" alt="lock_padding" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Ik9qCzk510aNl1A3Oi-Grw.svg" width="16" />) after changing values for individual sides, the altered padding values won't revert back to match the opposite side. Enter a matching value on one side of the padding to synchronize the values once more.
+    If you lock the padding again (click <embed type="image/svg+xml" alt="lock_padding" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Ik9qCzk510aNl1A3Oi-Grw.svg" width="16" />) after changing values for individual sides, the altered padding values won't revert back to match the opposite side. Enter a matching value on one side of the padding to synchronize the values once more.
 
 
-### Distribution options
-Control the way elements are distributed within the auto layout:
+* **Distribution options**. Control the way elements are distributed within the auto layout:
 
-- With the **Packed** option active, you can freely change the spacing between elements and the padding around them. 
-- **Distribute** creates equal spacing between elements depending on the padding. You will only be able to change padding values, while element spacing will be set automatically.
+    - With the **Packed** option active, you can freely change the spacing between elements and the padding around them. 
+    - **Distribute** creates equal spacing between elements depending on the padding. You will only be able to change padding values, while element spacing will be set automatically.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_distribute.png" height="auto"><source src="/public/autolayout_distribute.mp4" type="video/mp4"></video>
+    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_distribute.png" height="auto"><source src="/public/autolayout_distribute.mp4" type="video/mp4"></video>
 
-### Stacking behavior
-Determine how elements are stacked when spacing between them is negative. 
+* **Stacking behavior**. Determine how elements are stacked when spacing between them is negative. 
 
-This is useful for designing elements that may overlap in a layout: avatar pictures, images, slides, cards, and so on.
+    This is useful for designing elements that may overlap in a layout: avatar pictures, images, slides, cards, and so on.
 
-The default stacking option is **First on top**, meaning that the top layer in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a> will be placed first in a stack. To reverse the order, set this option to **Last on top**:
+    The default stacking option is **First on top**, meaning that the top layer in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a> will be placed first in a stack. To reverse the order, set this option to **Last on top**:
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_stacking.png" height="auto"><source src="/public/autolayout_stacking.mp4" type="video/mp4"></video>
+    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_stacking.png" height="auto"><source src="/public/autolayout_stacking.mp4" type="video/mp4"></video>
 
-### Border inclusion 
-Include or exclude borders from an auto layout. 
+* **Border inclusion**. Include or exclude borders from an auto layout. 
 
-This is useful when, for instance, you have shapes with thick borders in your design: you can set auto layout to apply to just the shapes while ignoring their borders. 
+    This is useful when, for instance, you have shapes with thick borders in your design: you can set auto layout to apply to just the shapes while ignoring their borders. 
 
-If borders are included, they will be considered as parts of the shapes:
+    If borders are included, they will be considered as parts of the shapes:
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_border.png" height="auto"><source src="/public/autolayout_border.mp4" type="video/mp4"></video>
+    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_border.png" height="auto"><source src="/public/autolayout_border.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info">
+    <div class="callout callout--info">
     <p><strong>Note:</strong> This setting only affects the borders of the elements inside the auto layout, not the borders of the container frame.</p>
-</div>
+    </div>
  
 
-### Remove auto layout
-Remove the auto layout from the frame. 
+* **Remove auto layout**. Remove the auto layout from the frame. 
 
-The spacing and padding you applied to the frame using auto layout will remain, but all other auto layout settings will be removed. 
+    The spacing and padding you applied to the frame using auto layout will remain, but all other auto layout settings will be removed. 
 
 ### Individual layer properties
 You can also change the properties of layers within your auto layout.
