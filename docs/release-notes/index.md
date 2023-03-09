@@ -73,7 +73,7 @@ Download:
 
 ### Import from Figma
 
-Now you can import Figma documents to Lunacy. For this:
+You can now import Figma documents to Lunacy. For this:
 
 1. Go to the **Home** tab.
 2. Click **Import from Figma**. The document import screen opens.
@@ -83,7 +83,7 @@ Now you can import Figma documents to Lunacy. For this:
 <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/5iItmr9sz0qD-L2Uknzi9g.svg" /> 
 
 
-To properly handle Figma documents, we added lots of new features. Many of them were frequent subjects of your feature requests. For example, artboards are now frames and can be nested. For the full list of changes, check out this <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">article</a>.
+To properly handle Figma documents, we added lots of new features. Many of them were frequent subjects of your feature requests. For example, artboards are now frames and can be nested. For the full list of changes, check out this article on <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">import from Figma</a>.
 
 
 ### Auto layouts
@@ -97,7 +97,7 @@ Auto layouts are a very powerful, yet complex, feature with lots of properties. 
 
 ### Custom nudge amount
 
-Nudging is moving layers with arrow keys. By default, Lunacy nudges a layer by 1 px when you press an arrow key (small nudge), or by 10 px when you press an arrow key holding down Shift (big nudge). Now, you can define custom values.
+Nudging is moving layers with arrow keys. By default, Lunacy nudges a layer by 1 px when you press an arrow key (small nudge), or by 10 px when you press an arrow key holding down Shift (big nudge). You can now define custom values.
 
 For this:
 
@@ -113,7 +113,7 @@ For this:
 
 We removed the text generation control from the text settings in the right panel. Text snippets also no longer work.
 
-Instead, now when you click over the canvas to create a text block or delete everything in an existing text block, you see an auto-text dropdown. You can scroll the list, to select the required option. Or you can just start typing the name of the option you need. For example, if you need a name of a person, or username, or file name, start typing *“name”* and you’ll see all the matching options. Click the one you need to apply.
+Instead, when you click over the canvas to create a text block or delete everything in an existing text block, you now see an auto-text dropdown. You can scroll the list, to select the required option. Or you can just start typing the name of the option you need. For example, if you need a name of a person, or username, or file name, start typing *“name”* and you’ll see all the matching options. Click the one you need to apply.
 
 
 <embed type="image/svg+xml" alt="Generated text" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/8NeLanh7bEuiLJ4-DCM8eQ.svg" /> 
@@ -127,7 +127,7 @@ If you need to keep auto refresh working, but want to preserve some layers with 
   
 ### Auto shape colors
 
-Drawing gray rectangles over gray rectangles is weird, right? We also think so. Now, when you create new shapes by dragging, Lunacy automatically applies colors from pre-generated document color palette to shapes depending on the shape size and current background. This will help you create mockups at the lightning speed and recolor them in a single click by refreshing the palette.
+Drawing gray rectangles over gray rectangles is weird, right? We also think so. When you create new shapes by dragging, Lunacy now automatically applies colors from pre-generated document color palette to shapes depending on the shape size and current background. This will help you create mockups at the lightning speed and recolor them in a single click by refreshing the palette.
 
 If you prefer drawing gray rectangles over gray rectangles, remove all the colors from the palette.
 
@@ -136,13 +136,13 @@ If you prefer drawing gray rectangles over gray rectangles, remove all the color
 
 ### Auto Z-index
 
-Lunacy automatically determines the order of layers (aka z-index) as you drag them. For example, if you drag a larger layer over a smaller one, Lunacy will place the larger layer below the smaller one. You can still use the **Send to back**/**Send to front commands**, but now you will need them way less often.
+Lunacy automatically determines the order of layers (aka z-index) as you drag them. For example, if you drag a larger layer over a smaller one, Lunacy will place the larger layer below the smaller one. You can still use the **Send to back**/**Send to front commands**, but you will need them way less often.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-autozaxisph.png" height="auto"><source src="/public/rn-autozaxis.mp4" type="video/mp4"></video>
 
 ### Snapping to frame presets
 
-Now when you create a frame by dragging it over the canvas, you see special markers that will help you quickly create a frame of a preset size: A4, iPhone 14, Dribbble shot, etc. This can be helpful in some cases. Alternatively, you can still use presets from the right panel.
+When you create a frame by dragging it over the canvas, you see special markers that will help you quickly create a frame of a preset size: A4, iPhone 14, Dribbble shot, etc. This can be helpful in some cases. Alternatively, you can still use presets from the right panel.
 
 To disable snapping, hold down `Ctrl` (`⌘`) while dragging.
 
@@ -153,30 +153,30 @@ To disable snapping, hold down `Ctrl` (`⌘`) while dragging.
 
 <embed type="image/svg+xml" alt="Adjustable UI scale" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/rKKaqoZi5kiJ3ynv7VMoew.svg" /> 
 
-You can now change the scale of the interface. For this, go to **View > Interface scale**, or you can use the following shortcuts:
+You can now change the scale of the interface. For this, go to **View > Interface scale**, or you use the following shortcuts:
 
 * `Ctrl`+`Shift`+`Alt`+`+` / `⌥``Shift``⌘``=` — increase scale
 * `Ctrl`+`Shift`+`Alt`+`-` / `⌥``Shift``⌘``-` — decrease scale
 * `Ctrl`+`Shift`+`Alt`+`0` / `⌥``Shift``⌘``0` — reset scale
 
 
-### Professional Team PLan
+### Professional Team Plan
 
-Now, you can subscribe to the Professional Team PLan and get:
+Under this plan you will get:
 
 * Unlimited number of team documents
 * Unlimited version history
 * Unlimited thrash storage period
 * Free personal cloud license for the team owner
 
-For details about teamwork in Lunacy, read <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">here</a>.
+More about <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">teams in Lunacy</a>.
 
 
 <embed type="image/svg+xml" alt="Group 2" src="https://cdn-eu.icons8.com/docs/gl51ueShF0iBDEjitVDQmw/GAnM3wqyBkKUsNwt5c7_kQ.svg" />
 
 ### More cloud servers
 
-We’ve increased the number of our servers throughout the world. Now, they are available in:
+We’ve increased the number of our servers throughout the world. They are now available in:
 
 * Europe
 * North America
@@ -201,15 +201,15 @@ If you also want to take part in Lunacy localization, click <a href="https://lun
 
 ### Improvements
 
-* **Improved UX of document pages**. The control for switching between pages became less annoying. It now longer drops down every time you hover the mouse close to the search bar.
+* **Improved UX of document pages**. The control for switching between pages became less annoying. It no longer drops down every time you hover the mouse close to the search bar.
 * **Lazy loading of open documents**. Lunacy now loads only the content of the currently open tab. Other open documents load as you switch through the tabs. This will significantly speed up Lunacy loading time upon restart.
 * **Improved Teams section**. We reworked the team section of the **Home** tab for easier document, project, and team member management.
 * **Photos and Illustration tabs**. We improved navigation on these tabs, added categories to photos, removed undraggable style covers from illustrations. Also, all new illustration styles that appear at icons.com now immediately become available in Lunacy.
-* **Pre-cached icons**. Now Lunacy comes with 1,000 pre-cached icons. So, the Icon tool will work even on computers that have never been connected to the internet.
+* **Pre-cached icons**. Lunacy now comes with 1,000 pre-cached icons. So, the Icon tool will work even on computers that have never been connected to the internet.
 * **Improved panning**. You can now press the spacebar and drag canvas to where you need at any moment, even when you’re in the middle of drawing a shape. After releasing the spacebar, you can continue with drawing. This can be handy in many cases, especially on small screens.
-* **Improved color management**. In the previous versions, when you wanted to edit the color of a layer with a color variable applied, you had to detach the layer color from variables first. Now, you can do it right away. In the color control, click the colored circle to invoke the Color Picker or type the color code in the edit field. The new color will get detached from color variables automatically.
+* **Improved color management**. In the previous versions, when you wanted to edit the color of a layer with a color variable applied, you had to detach the layer color from variables first. You can now do it right away. In the color control, click the colored circle to invoke the Color Picker or type the color code in the edit field. The new color will get detached from color variables automatically.
 * **Improved angular gradients**. Improved angular gradients. You can now rotate them with the **Rotate gradient clockwise** button.
-* **Multiple fills**. Now when you apply the second, third, etc. fill to the same layer, every new fill comes in black (000000) with 20% opacity.
+* **Multiple fills**. When you apply the second, third, etc. fill to the same layer, every new fill now comes in black (000000) with 20% opacity.
 * **Mass update of generated content**. You can now update generated content (texts and/or avatars) in all selected layers or on a selected frame using the `Shift + R` shortcut.
 * **Auto-text labels**. Lunacy now shows the type of auto-generated text when you create a text block by dragging.
 * **Recent font sizes**. The font size drop-down list now shows up to five font sizes you’ve recently applied.
