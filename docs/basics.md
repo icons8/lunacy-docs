@@ -292,10 +292,9 @@ Here's a handy shortcut list for all of the distance measurement options:
 
 ## Zooming options
 
-Use the Zoom tool and the Zoom controls to explore more of Lunacy's zooming options.
+Use the **Zoom tool** and the **Zoom control** to explore more of Lunacy's zooming options.
 
-### The Zoom tool
-The Zoom tool enables you to zoom in to a selected layer or canvas area. To use the tool:
+The **Zoom tool** enables you to zoom in to a selected layer or canvas area. To use the tool:
 
 1. Press and hold `Z`.
 2. Click on a layer or drag over an area on the canvas (the smaller the area, the higher the zoom value).
@@ -303,9 +302,7 @@ The Zoom tool enables you to zoom in to a selected layer or canvas area. To use 
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/zoom_tool_options.png" height="auto"><source src="/public/zoom_tool_options.mp4" type="video/mp4"></video>
 
-### The Zoom control
-
-The zoom control is on the right of the document tabs. To change the zoom value, you can:
+The **zoom control** is on the right of the document tabs. To change the zoom value, you can:
 
 * Manually enter a zoom value.
 * Hover the cursor over the zoom control field, wait a moment until the cursor turns into a double-headed arrow, and drag the cursor up or down.
