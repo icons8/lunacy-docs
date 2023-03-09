@@ -257,7 +257,7 @@ To measure the **distance between a layer inside a group and the group's boundar
 1. Point the cursor over a grouped layer.
 2. Hold down `Ctrl + Alt` / `⌘ + ⌥`. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/measuring_group_element_to_group_border.png" height="auto"><source src="/public/measuring_group_element_to_group_border.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/measuring_group_elements_to_group_border.png" height="auto"><source src="/public/measuring_group_elements_to_group_border.mp4" type="video/mp4"></video>
 
 To measure the **distance between a layer inside a group and the borders of the frame where it's nested**:
 
