@@ -43,8 +43,7 @@ Use them to switch between:
   
 Shrink the width of the content tabs panel by dragging its border to the left:
 
-![Adjusting the size of side panel](public/shrink_side_panel.gif)
-    
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/show_hide_content_tabs.png" height="auto"><source src="/public/show_hide_content_tabs.mp4" type="video/mp4"></video>
     
 **The left panel** 
 
@@ -82,7 +81,7 @@ Starts the prototype previewer. For details about prototyping in Lunacy, read <a
 
 This button opens up a menu with these options:
 
-| Button | Description | Windows and Linux Shortcut / Menu Option |  MacOS Shortcut / Menu Option |
+| Button | Description | Windows and Linux Shortcut / Menu Option &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  MacOS Shortcut / Menu Option |
 |---|---|---|---|
 | <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bkTBcjYY-kyIXxUN9M74Bg.svg" width="24" />  | The Show/Hide rulers button toggles rulers on and off. For details, read below. | `Ctrl + R`  | `⌘ + R` |
 | <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="24" />  | The Show grid button enables the display of the square grid. Learn more about grids here. | `Ctrl + '` | `⌘ + '` |
@@ -122,7 +121,7 @@ Lunacy automatically assigns names to new layers and layer groups. You can alway
 
 If a layer name doesn't fit in the Layer list, you can change the width of the panel this way:
 
-<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/interface-resizeleft.png" height="auto"><source src="/public/interface-resizeleft65.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/resize_layer_list.png" height="auto"><source src="/public/resize_layer_list.mp4" type="video/mp4"></video>
 
 Using the Layer list, you can:
 
@@ -187,7 +186,7 @@ To change the position of a page in the list, simply drag it to where you want i
 
 The rest of the actions are accessible through the **context menu**, which you can access by right-clicking a page name.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-pagesplaceholder.png" height="auto"><source src="/public/interface-pages65.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/page_add_rename.png" height="auto"><source src="/page_add_rename.mp4" type="video/mp4"></video>
 
 There is also a special type of page — the **Components** page. It stores the reusable components you can create in your designs. Learn more about working with components <a href="https://lunacy.docs.icons8.com/components/#components-page" target="_blank">here</a>.
 
@@ -213,7 +212,7 @@ These are the main sections of the Home tab:
 2. **Action Bar.** Use it to create, open, and import documents. Switch between grid and list views, and sort documents as you like. Use the Search field to find documents.
 3. **Document Viewer.** This section of the Home tab displays previews of your documents and team projects.
 
-### Working with Documents
+### Working with documents
 
 The Home tab makes it easy to create, manage, and organize all of your personal and team docments. 
 
@@ -222,7 +221,7 @@ The Home tab makes it easy to create, manage, and organize all of your personal 
 
 To create a new document, use any of the following ways depending on the document type:
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Local | Cloud |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Local &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Cloud &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |---------------------------------------|-----------------------|----------------------------|
 | On the Home Tab, click | **New Document** | **New Cloud Document** |
 | On the menu bar, select | **File** > **New Document** | **File** > **New Cloud Document** |
@@ -286,7 +285,7 @@ To generate a personal access token in Figma:
 </div>
 
 
-#### Browsing Documents
+#### Browsing documents
 
 In the sidebar, your documents are divided into three categories: 
 
@@ -311,7 +310,7 @@ To search for documents by keyword, use the search field in the action bar:
 
 Use the buttons on the right of the search bar to sort documents and switch views.
 
-#### Managing Teams and Projects
+#### Managing teams and projects
 
 You can create teams for collaborating with others. Create projects inside teams and use them like folders to organize your documents.
 
@@ -331,7 +330,7 @@ In the Home tab, click Log In at the top of the sidebar. Use your existing Icons
 
 To create a new account, click **Register**.
 
-#### Account Information and Actions
+#### Account information and actions
 
 Once you’re logged in, you will see your **profile page**:
 

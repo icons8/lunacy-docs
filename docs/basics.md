@@ -34,13 +34,13 @@ You can also point the cursor anywhere over the canvas and use the mouse wheel t
 
 Another way to navigate the canvas is to hold down `Space` to activate the **Hand** tool and drag the canvas to wherever you need.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-movingcanvas.png" height="auto"><source src="/public/interface-movingcanvas65.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/moving_around_canvas.png" height="auto"><source src="/public/moving_around_canvas.mp4" type="video/mp4"></video>
 
 ### Zooming in and out
 
 The easiest way to zoom to a layer in Lunacy is by holding down `Ctrl` / `⌘` and moving the mouse wheel. To zoom in and out slower, additionally hold down `Shift`.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomtoobject61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/zoom_in_canvas.png" height="auto"><source src="/public/zoom_in_canvas.mp4" type="video/mp4"></video>
 
 When the zoom value exceeds 500, Lunacy displays a pixel grid. There are two ways to disable this feature:
 
@@ -107,7 +107,7 @@ To change values in the Inspector input fields:
 * Hover the cursor over a field, wait a moment until the cursor turns into a double-headed arrow, and drag the cursor up or down.
 * Enter an arithmetic operation.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-inspectortipsplaceholder.png" height="auto"><source src="/public/interface-inspectortips.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/changing_values_in_rightpanel.png" height="auto"><source src="/public/changing_values_in_rightpanel.mp4" type="video/mp4"></video>
 
 
 ## [Frames](#frames)
@@ -181,7 +181,7 @@ To toggle rulers on and off, use the `Ctrl + R` / `⌘ + R` shortcut or select *
 
 To create a guide, click anywhere on a ruler and drag the guide onto the canvas. You can now position layers along the guide. Moving a layer close to it snaps the layer to the guide.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-guides.png" height="auto"><source src="/public/inteface-guides61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/guides_on_canvas.png" height="auto"><source src="/public/guides_on_canvas.mp4" type="video/mp4"></video>
 
 To move a guide, drag it to another position or select it and use arrow keys to nudge it. To remove a guide, click it (hold down `Shift` to select multiple guides) and press `Delete`. 
 
@@ -206,7 +206,7 @@ If you have frames on the canvas, use the same button to toggle grids on and off
 
 To set the size of grid cells, enter the desired value in the **Grid size** field.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-sqgridplaceholder.png" height="auto"><source src="/public/interface-sqgrid.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/square_grid.png" height="auto"><source src="/public/square_grid.mp4" type="video/mp4"></video>
 
 #### [Layout grid](#layout-grid)
 
@@ -214,7 +214,7 @@ Layout grids are useful for positioning design elements within your [frame](#fra
 
 Each frame can have its own layout grid settings:
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface-layoutgridplaceholder.png" height="auto"><source src="/public/interface-layoutgridvid.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layout_grid.png" height="auto"><source src="/public/layout_grid.mp4" type="video/mp4"></video>
 
 ## Measuring distances
 
@@ -223,26 +223,26 @@ Lunacy offers a variety of options for measuring distances between elements. The
 
 ### Individual layers
 
-To measure the distance between two separate layers:
+To **measure the distance between two layers**:
 
 1. Select the first layer.
 2. Hold down `Alt` / `⌥`.
 2. Hover the cursor over the other layer.
 
-To measure the distance from a layer within a frame to the frame's boundaries:
+To measure the **distance from a layer within a frame to the frame's boundaries**:
 
 * Hover the cursor over the layer and hold down `Alt` / `⌥`.
 * Select the layer, hover the cursor over an empty area within the frame, and hold down `Alt` / `⌥`.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-measuringplaceholder.png" height="auto"><source src="/public/interface-measuring.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/measuring_distances_using_alt.png" height="auto"><source src="/public/measuring_distances_using_alt.mp4" type="video/mp4"></video>
 
-You can also position layers in a precise location or relative to one another:
+You can also use this function to **position layers in a precise location or relative to one another**:
 
 1. Select one of the layers.
 2. Point the cursor over an empty area or over another layer.
 3. Hold down `Alt`/ `⌥` and move the selected layer using the arrow keys.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure3ph.png" height="auto"><source src="/public/interface-groupmeasure3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/aligning_using_alt.png" height="auto"><source src="/public/aligning_using_alt.mp4" type="video/mp4"></video>
 
 ### Grouped layers
 
@@ -252,26 +252,28 @@ Use the steps described above to measure the distances between:
 * Two layers inside the same group.
 * A grouped layer and the frame boundaries.
 
-To measure the distance between a layer inside a group and the group's boundaries:
+To measure the **distance between a layer inside a group and the group's boundaries**:
 
 1. Point the cursor over a grouped layer.
 2. Hold down `Ctrl + Alt` / `⌘ + ⌥`. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure1ph.png" height="auto"><source src="/public/interface-groupmeasure1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/measuring_group_element_to_group_border.png" height="auto"><source src="/public/measuring_group_element_to_group_border.mp4" type="video/mp4"></video>
 
-To measure the distance between a layer inside a group and the borders of the frame where it's nested:
+To measure the **distance between a layer inside a group and the borders of the frame where it's nested**:
 
 1. Select a grouped layer.
 2. Hold down `Alt` / `⌥`.
 3. Point the cursor anywhere outside the other grouped layers.
 
-To measure the distance between two layers in different groups:
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/measuring_group_elements_to_frame_border.png" height="auto"><source src="/public/measuring_group_elements_to_frame_border.mp4" type="video/mp4"></video>
+
+To measure the **distance between two layers in different groups**:
 
 1. Select a grouped layer.
 2. Hold down `Alt` / `⌥`.
 3. Hover the cursor over a layer in the other group.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-groupmeasure2ph.png" height="auto"><source src="/public/interface-groupmeasure2.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/measuring_distances_different_groups.png" height="auto"><source src="/public/measuring_distances_different_groups.mp4" type="video/mp4"></video>
 
 Here's a handy shortcut list for all of the distance measurement options:
 
@@ -299,7 +301,7 @@ The Zoom tool enables you to zoom in to a selected layer or canvas area. To use 
 2. Click on a layer or drag over an area on the canvas (the smaller the area, the higher the zoom value).
 3. To zoom out, hold down `Z + Alt` / `Z + ⌥` and click or drag over the layer/area.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/zoom_tool_options.png" height="auto"><source src="/public/zoom_tool_options.mp4" type="video/mp4"></video>
 
 ### The Zoom control
 
@@ -309,7 +311,7 @@ The zoom control is on the right of the document tabs. To change the zoom value,
 * Hover the cursor over the zoom control field, wait a moment until the cursor turns into a double-headed arrow, and drag the cursor up or down.
 * Click over the zoom control field and move the mouse wheel.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/interface-zoomtoobjectplaceholder.png" height="auto"><source src="/public/interface-zoomctrl61.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/zoom_control.png" height="auto"><source src="/public/zoom_control.mp4" type="video/mp4"></video>
 
 You can also alter zoom options using preset values:
 

@@ -74,55 +74,33 @@ With a layer selected, you will see these settings:
 <embed type="image/svg+xml" alt="export_section_layer" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fcCzjZUPCUK2tQ8KtEPPdA.svg" width="844" /> 
 
 
-- **Export size**
-
-
-    By default, Lunacy exports layers at their original size (**1x**). 
+- **Export size**. By default, Lunacy exports layers at their original size (**1x**). 
 
     You can change it to any of the preset scales or set your own (e.g., 8x, 10x, or 0.3x).
 
-- **Prefix/Suffix**
-
-
-    Defines the suffix or prefix of the export's file name. 
+- **Prefix/Suffix**. Defines the suffix or prefix of the export's file name. 
 
     For any export size larger than 1x, Lunacy generates a default a default `@<size>` suffix, but you can enter your own in the input field (use only letters and numbers).
 
-* **Format**
-
-
-    Choose any of the available export formats.
+* **Format**. Choose any of the available export formats.
 
     When exporting to `SVG` or `PDF`, you won’t be able to adjust the export size. It will be 1x by default.
 
-* **Publish to Web**
-
-
-    Publish any layer to **Lunacy Cloud** and get a shareable link to it. Once you publish a layer to the web, the **Cloud Uploads** subsection will appear:
+* **Publish to Web**. Publish any layer to **Lunacy Cloud** and get a shareable link to it. Once you publish a layer to the web, the **Cloud Uploads** subsection will appear:
 
     It displays all of the cloud uploads across your documents. For each link, you’ll have the option to copy it or delete the upload from our servers. 
 
     Read more about working with cloud uploads [below](#cloud-export).
 
-* **Show all cloud uploads**
+* **Show all cloud uploads**. Click <embed type="image/svg+xml" alt="export_show_uploads" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zJT7IKTmPkmdulIMGf5Zag.svg" width="20" />  next to the **Export** section title to open up the **Cloud Uploads** subsection.
 
+* **Add export option**. Click `+` to add another export option. This lets you export the same element in different formats, sizes, and other settings. 
 
-    Click <embed type="image/svg+xml" alt="export_show_uploads" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zJT7IKTmPkmdulIMGf5Zag.svg" width="20" />  next to the **Export** section title to open up the **Cloud Uploads** subsection.
+* **Remove export option**. Click <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="16" /> next to an export option to remove it.
 
-* **Add export option**
+* **Additional export options**. Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="16" /> to open up additional export options. 
 
-
-    Click `+` to add another export option. This lets you export the same element in different formats, sizes, and other settings. 
-
-* **Remove export option**
-
-
-    Click <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="16" /> next to an export option to remove it.
-
-* **Additional export options**
-
-
-    Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="16" /> to open up additional export options. Here, you can:
+    Here, you can:
 
     - Choose a preexisting export preset.
     - Create a custom export preset.
@@ -137,7 +115,7 @@ An **export preset** defines specific export settings that you can reuse across 
 
 Presets are especially useful when, for example, you consistently need to export UI prototypes in specific formats and sizes for your clients, you won't need to manually adjust the settings each time you export the designs. 
 
-To create an export preset:
+To **create an export preset**:
 
 - Save current export settings as a preset.
 - Define export settings for the preset in the **Additional settings** menu.
@@ -148,19 +126,19 @@ To create an export preset:
 2. Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="12" /> next to the section title to open up additional options.
 3. Select **Create preset**, name it, and click **Save**.
 
+<embed type="image/svg+xml" alt="export_preset_editor" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/goHqEjhd8kqHbGYRFOxKHw.svg" width="844" /> 
+
 #### Define export settings for a preset
 
-1. Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="12" />  next to the **Export section** title. 
+1. Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="12" /> next to the **Export section** title. 
 2. Select **Create preset**.
 3. Define the export settings, name your preset, and click **Save**. Create as many presets as you need.
 4. You can use the preset for the current and future exports.
 
-<embed type="image/svg+xml" alt="export_preset_editor" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/goHqEjhd8kqHbGYRFOxKHw.svg" width="844" /> 
-
 
 ## Exporting layers
 
-To export a layer:
+To **export a layer**:
 
 1. Select the layer.
 2. Open the **Export** tab and click `+`.
@@ -198,20 +176,14 @@ When you select a slice, two additional settings appear in the **Export** sectio
 
 <embed type="image/svg+xml" alt="export_slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NottP8HlE0SSMVVRZs9AYw.svg" width="844" /> 
 
-* **Trim Transparent Pixels**
+* **Trim Transparent Pixels**. With this option enabled, Lunacy crops out unnecessary transparent pixels within the slice. This can be useful when you’re creating slices by hand using the **Slice** tool.
 
+* **Background**. Defines the background color that appears in place of transparent pixels in the export file.
 
-    With this option enabled, Lunacy crops out unnecessary transparent pixels within the slice. This can be useful when you’re creating slices by hand using the **Slice** tool.
+To **export the content of a slice**:
 
-* **Background**
-
-
-    Defines the background color that appears in place of transparent pixels in the export file.
-
-    To export the content of a slice:
-
-    1. Select one or multiple slices.
-    2. Export it just like a layer, taking into account the **additional settings** for slices.
+1. Select one or multiple slices.
+2. Export it just like a layer, taking into account the **additional settings** for slices.
 
 To show/hide slices on the canvas, select or deselect the **Slices** option in the **Additional options** menu from the top bar:
 
@@ -220,7 +192,7 @@ To show/hide slices on the canvas, select or deselect the **Slices** option in t
 
 ## Exporting document pages
 
-To export all of the content in a document page:
+To export all of the **content in a document page**:
 
 1. Use the `Ctrl + A` / `⌘ + A` shortcut to select all layers and frames on the page, **except for locked layers**.
 2. Export it just like a layer.
@@ -236,7 +208,7 @@ Also, keep in mind that when exporting a document, Lunacy **ignores**:
 
 When exporting documents, Lunacy creates folders with names corresponding to the names of the **document pages**. Inside these folders, Lunacy creates **separate files for each layer** available on the respective page. Grouped layers and component instances are considered single layers.
 
-To export a document:
+To **export a document**:
 
 1. Press `Esc` to deselect all layers. 
 2. Click `+` next to **Export Document** in the **Export** tab.
@@ -273,7 +245,6 @@ To delete a link from the history *and* our cloud servers, click the trashcan ic
 You can also right-click the link and select **Remove this file from Lunacy servers**.
 
 To **delete all cloud uploads**, click <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" /> next to the **Cloud uploads** title.
-
 
 <div class="callout callout--info"> <p><strong>Note:</strong> We do not read or analyze the files that you upload to cloud. The guaranteed storage period of uploaded files is <bold>60 days</bold>. After that, they can be deleted from our servers without prior notice. Deleted files cannot be restored.</p> </div>
 
