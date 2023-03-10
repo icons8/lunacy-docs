@@ -273,7 +273,7 @@ You can add auto layouts to any <a href="https://lunacy.docs.icons8.com/componen
 
 <!-- Read more about how to do this here. -->
 
-**Some context:**
+#### Resetting overrides
 
 When you make instances of a component (i.e. duplicate a component), you can make changes to these instances, creating overrides that don't affect the style of the main component. 
 
