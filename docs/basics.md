@@ -28,24 +28,25 @@ Learn more about Lunacy's features, interface capabilities, and useful tips and 
 
 ### Navigation
 
-If your design is taking up too much space on the canvas, use the scroll bars located on the right and at the bottom of the workspace to navigate it.
-
-You can also point the cursor anywhere over the canvas and use the mouse wheel to scroll vertically. To scroll horizontally, additionally hold down `Shift`.
+If your design is taking up too much space on the canvas, use the mouse wheel to scroll vertically. To scroll horizontally, additionally hold down `Shift`.
 
 Another way to navigate the canvas is to hold down `Space` to activate the **Hand** tool and drag the canvas to wherever you need.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/moving_around_canvas.png" height="auto"><source src="/public/moving_around_canvas.mp4" type="video/mp4"></video>
 
+You can always use the scroll bars on the right and bottom of the workspace, but it's not as convenient as the other options.
+
+
 ### Zooming in and out
 
-The easiest way to zoom to a layer in Lunacy is by holding down `Ctrl` / `⌘` and moving the mouse wheel. To zoom in and out slower, additionally hold down `Shift`.
+The easiest way to **zoom to a layer** in Lunacy is by holding down `Ctrl` / `⌘` and moving the mouse wheel. To zoom in and out slower, additionally hold down `Shift`.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/zoom_in_canvas.png" height="auto"><source src="/public/zoom_in_canvas.mp4" type="video/mp4"></video>
 
-When the zoom value exceeds 500, Lunacy displays a pixel grid. There are two ways to disable this feature:
+When the zoom value exceeds 500, Lunacy displays a **pixel grid**. If you want to disable this feature:
 
 1. In the menu bar, select **View** > **Pixel grid**.
-2. Deselect all layers on the canvas and clear the **Show pixel grid** checkbox in the right panel.
+2. Deselect all layers on the canvas and clear the **Show pixel grid** checkbox in the **right panel**.
 
 Find out about other zooming options [below](#zooming-options).
 
@@ -83,7 +84,7 @@ The set of controls and settings it displays depends on the type of the selected
 
 Click on the **Export** tab to open up export settings for your entire project or click individual/multiple layers to export just them.  For details about export settings, read <a href="https://lunacy.docs.icons8.com/export_new/#export-settings" target="_blank">here</a>. 
 
-You can also use the Linked Design option to include embed links to Lunacy layers directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">in this section</a>.
+You can also use the **Linked Design** option to include embed links to Lunacy layers directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">in this section</a>.
 
 The **Code** tab <a href="https://lunacy.docs.icons8.com/export/#code-preview-and-linked-design" target="_blank">displays the code corresponding</a> to your layers.
 
@@ -98,7 +99,7 @@ When all layers are deselected, the right panel shows these settings:
 * **Nudge amount settings.** Nudge layers by moving arrow keys and set custom values for small nudges (using just the arrow keys) and big ones (arrow keys + `Shift`).
 * **Color palette section.** Use it to generate various base color palettes for your documents.
 
-If you need more space, you can hide the right panel panel by selecting **View** > **right panel** on the menu bar.
+If you need more space, you can hide the right panel panel by selecting **View** > **Right Panel** on the menu bar.
 
 ### Changing values in the right panel
 
@@ -114,11 +115,11 @@ To **change values in the right panel** input fields:
 
 ## [Frames](#frames)
 
-Frames are a special types of layers that work like containers for your designs. 
+**Frames** are a special types of layers that work like containers for your designs. 
 
 Using frames is optional, but they come in handy when you’re designing for a specific screen size or device. 
 
-To create a frame, use the <a href="https://lunacy.docs.icons8.com/tools/#frame-tool" target="_blank">frame tool</a>. You can create a custom size frame or to select a preset from the right panel. This list features presets for popular devices, screen resolutions, and social media templates. 
+Use the <a href="https://lunacy.docs.icons8.com/tools/#frame-tool" target="_blank">frame tool</a> to add frames to the canvas. You can create a custom size frame or to select a preset from the list in the right panel. The list features presets for popular devices, screen resolutions, and social media templates. 
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> You can also a <a href="https://lunacy.docs.icons8.com/basics/#adding-custom-presets" target="_blank">add your custom presets</a> to this list.</p>
@@ -126,8 +127,8 @@ To create a frame, use the <a href="https://lunacy.docs.icons8.com/tools/#frame-
 
 To **create a frame**:
 
-1. Select the frame tool on the toolbar or press `A`.
-2. Click and drag to add a custom frame or use a preset from the right panel.
+1. Select the **frame tool** on the toolbar or press `A`.
+2. Click and drag to add a custom frame or use a **preset** from the right panel.
 
 <embed type="image/svg+xml" alt="frame_tool_presets" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5fuv5gIKSU-PMS4ZWGy5Aw.svg" width="844" /> 
 
@@ -136,12 +137,16 @@ To **create a frame**:
 </div>
 
 
-You can gather layers into frames by drawing a frame over them. This is how frames appear in the Layer list:
+You can also enclose layers inside frames by drawing a frame over them. 
+
+This is how frames appear in the Layer list:
 
 <embed type="image/svg+xml" alt="frames_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2DFQ_UkoJE-xNA5RZ63EXA.svg" width=844 /> 
 
 
-Right panel properties for frames are more or less identical to [layer properties](#right-panel-properties), except frames don't have **Style** and **Prototyping** options. They also have these additional properties:
+Right panel properties for frames are more or less identical to [layer properties](#right-panel-properties), except frames don't have **Style** and **Prototyping** options. 
+
+They also have these additional properties:
 
 | Right panel properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Description |   
 |--------------------------------------------------------------------|--------------------------------------------------------------------|
@@ -156,14 +161,12 @@ Right panel properties for frames are more or less identical to [layer propertie
 
 ### [Adding custom frame presets](#adding-custom-presets)
 
-To add a custom frame to the list of presets:
+To **add a custom frame** to the list of presets:
 
 1. Select the custom frame.
 2. Click the **Create Frame Preset** button in the **Preset size and orientation** section.
 
     <embed type="image/svg+xml" alt="custom_frame" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/oSB3aZSbokmkFORi-TWUtw.svg" width=844 /> 
-
-
 3. Name the preset and press `Enter`.
 
 From now on, the custom frame preset will appear at the bottom of the preset list in the right panel.
@@ -171,7 +174,7 @@ From now on, the custom frame preset will appear at the bottom of the preset lis
 
 ## [Rulers and guides](#rulers-and-guides)
 
-Rulers and guides help to position and align layers. 
+**Rulers** and **guides** help to position and align layers. 
 
 ### [Rulers](#rulers)
 
@@ -195,7 +198,7 @@ You can also open up all of these guide settings by right-clicking over a ruler:
 
 ## [Grids](#grids)
 
-Lunacy has square and layout grids. If needed, you can display both of them at the same time.
+Lunacy has **square** and **layout grids**. If needed, you can display both of them at the same time.
 
 ### [Square grid](#square-grid)
 
@@ -203,8 +206,8 @@ If there are no frames on the canvas, Lunacy displays a square grid. Toggle it o
 
 If you have frames on the canvas, use the same button to toggle grids on and off:
 
-* For each frame. To do this, deselect all frames and layers on the canvas, then press **Show/Hide grid**.
-* For each individual frame. Do the same with a frame or layer selected.
+* **For each frame**. To do this, deselect all frames and layers on the canvas, then press **Show/Hide grid**.
+* **For an individual frame**. Do the same with a frame or layer selected.
 
 To set the size of grid cells, enter the desired value in the **Grid size** field.
 
@@ -220,7 +223,7 @@ Each frame can have its own layout grid settings:
 
 ## Measuring distances
 
-Lunacy offers a variety of options for measuring distances between elements. The measurement option depends on whether a layer is distinct, grouped with other layers, or nested in a frame.
+Lunacy has a variety of options for measuring distances between elements. The measurement option depends on whether a layer is distinct, grouped with other layers, or nested in a frame.
 
 
 ### Individual layers
@@ -345,9 +348,11 @@ You can also toggle this feature on and off in the menu bar by selecting **View*
 
 ## [Context menu](#the-context-menu)
 
-The context menu is a pop-up list of commands and options for basic operations with layers. 
+The **context menu** is a pop-up list of commands and options for basic operations with layers. 
 
-It appears when you right-click on a layer. The items on the menu vary depending on the layer you select. Each context menu option is accompanied by a shortcut you can use to speed up your workflow:
+It appears when you right-click on a layer. The items on the menu vary depending on the layer you select. 
+
+Almost all context menu options have shortcuts you can use to speed up your workflow:
 
 <embed type="image/svg+xml" alt="context_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/HSn_3x7Vhk-8MfiM3MjqkQ.svg" width="844" /> 
 

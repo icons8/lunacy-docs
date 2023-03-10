@@ -26,8 +26,6 @@ page_nav:
 
 **Auto layout** is a powerful feature you can use to create dynamic designs that adapt to the size of their contents.
 
-
-
 For instance, if you create a labeled button with auto layout, changing the button text will resize the button depending on the width of the text:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_button.png" height="auto"><source src="/public/autolayout_button.mp4" type="video/mp4"></video>
@@ -51,11 +49,7 @@ In Lunacy, you can apply auto layout to:
     The overall layout will dynamically respond to changes inside the child frames.
 
 
-## [Auto layout basics](#auto-layout-basics)
-
-This section goes over the main auto layout operations and properties. You’ll learn how to add, arrange, and remove elements inside an auto layout.
-
-Some things to keep in mind:
+### Some things to keep in mind
 
 1. All available auto layout properties are displayed in the right panel:
 
@@ -81,9 +75,9 @@ To **add auto layout** to a frame:
 1. Select the frame.
 2. Click `+` next to **Auto layout** in the right panel.
 
-The Auto layout section will open up, displaying the various properties you can apply to your frame. 
+The Auto layout section will expand, displaying the various properties you can apply to your frame. 
 
-You can also select elements within the frame to change their individual auto layout settings:
+You can also select elements within the frame to **change their individual auto layout settings**:
 
 - If you select a nested auto layout frame, you’ll see the usual Auto layout section in the right panel.
 - If you select an ordinary layer or frame inside an auto layout you’ll see its individual properties, which look like this:
@@ -181,9 +175,11 @@ You can also select elements within the frame to change their individual auto la
     The spacing and padding you applied to the frame using auto layout will remain, but all other auto layout settings will be removed. 
 
 ### Individual layer properties
-You can also change the properties of layers within your auto layout.
+You can also **change the properties of layers** within your auto layout.
 
-To do this, select a layer to open up its individual Auto layout properties. Here, you can:
+To do this, select a layer to open up its individual Auto layout properties. 
+
+Here, you can:
 
 - **Define the layer’s horizontal and vertical resizing behavior.**
     
@@ -209,7 +205,7 @@ To **remove an element from an auto layout** frame:
 
 ## [Changing elements in auto layouts](#changing-elements-in-auto-layout)
 
-This section will go over:
+This section goes over:
 
 - How changes in individual elements affect the overall auto layout.
 - The absolute position feature and how it excludes elements from auto layouts while keeping them in the frame.
@@ -239,27 +235,22 @@ Here are a few examples of how an auto layout changes depending on the resizing 
 
 ### [Absolute position](#absolute-position)
 
-If you need an element in an auto layout to remain independent from auto layout settings:
+To **detach an element from auto layout settings** and move it freely around the frame:
 
-1. Select it in the Layer list or on the frame.
+1. Select it in the **Layer list** or on the canvas.
 2. Click <embed type="image/svg+xml" alt="absolute_position" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9c9LFABEHEidPjprrmkUYA.svg" width="16" /> in the right panel. 
 
-The element now has an absolute position. You can move it freely within the auto layout and keep it static regardless of any resizing changes, like in the video below.
+The element now has an **absolute position**. You can move it freely within the auto layout and keep it static regardless of any resizing changes, like in the video below.
 
 Here, we're adding a logo to an article preview card. At first, we just dragged the logo into the frame. It became part of the auto layout, perfectly aligned along the existing text layers. However, we needed the logo at the top of the card, a bit to the left of the main layout with the texts:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_absolute.png" height="auto"><source src="/public/autolayout_absolute.mp4" type="video/mp4"></video>
 
-To position a layer in any location inside an auto layout:
-
-1. Select the layer and enable absolute position for it by clicking <embed type="image/svg+xml" alt="absolute_position" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DjX8P_Inw0mpGnhrK_2mXw.svg" width="16" />. It will be detached from the auto layout while staying in the frame, and you can then freely move it around the layout.
-2. Drag the layer wherever you want and leave it be. Now, when you edit anything else in the frame, the layer will be unaffected.
-
 ### [Constraint options](#constraint-options)
 
 <a href="https://lunacy.docs.icons8.com/layers/#resizing-constraints" target="_blank">Constraints</a> define resizing behavior for layers in groups or frames. They are also accessible for elements in auto layout frames that are set to absolute position.
 
-Once you set a layer to have an absolute position, the Constraints section will open up in the right panel:
+Once you set a layer to have an absolute position, the **Constraints** section will open up in the right panel:
 
 <embed type="image/svg+xml" alt="autolayout_constraints" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/pQUddBwtpkKNiqACoq5fKQ.svg" width="844" /> 
 
@@ -275,11 +266,11 @@ You can add auto layouts to any <a href="https://lunacy.docs.icons8.com/componen
 
 #### Resetting overrides
 
-When you make instances of a component (i.e. duplicate a component), you can make changes to these instances, creating overrides that don't affect the style of the main component. 
+When you make **instances** of a component (i.e. duplicate a component), you can make changes to these instances, creating overrides that don't affect the style of the main component. 
 
 You can reset all overrides by pressing the **Reset overrides** button (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" />) in the **Component** section of the right panel. This reverts the instance to match the style of its main component once more.
 
-However, when you modify auto layout properties for a component instance, the  <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> button also appears in the Auto layout section of the right panel.
+However, when you modify auto layout properties for a component instance, the  <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" /> button also appears in the **Auto layout** section of the right panel.
 
 
 Don't let this confuse you:
@@ -301,7 +292,7 @@ We then press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn
 
 ## [Nested auto layouts](#nested-auto-layouts)
 
-You can nest several auto layout frames in more complex auto layouts to design truly responsive interfaces. This way, you’ll be able to select any distinct element of your design and alter its settings so that the overall layout adapts to changes based on the settings you choose.
+You can **nest several auto layout frames** in more complex auto layouts to design truly responsive interfaces. This way, you’ll be able to select any distinct element of your design and alter its settings so that the overall layout adapts to changes based on the settings you choose.
 
 Here’s an example of how you can combine auto layouts for a simple news website:
 

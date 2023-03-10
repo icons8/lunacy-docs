@@ -56,7 +56,7 @@ These are the basic terms related to components and their functions:
 To **create a component**:
 
 1. Select the layer you want to convert into a component.
-2. Click `+` in the Component section of the right panel or press `Ctrl + Alt + K` (`⌘ + ⌥ + K`).
+2. Click `+` in the **Component** section of the right panel or press `Ctrl + Alt + K` (`⌘ + ⌥ + K`).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_components_methods.png" height="auto"><source src="/public/creating_components_methods.mp4" type="video/mp4"></video>
 
@@ -64,9 +64,9 @@ You can also select a layer and click <embed type="image/svg+xml" alt="go_to_mai
 
 ### Layers vs. Frames
 
-When you create a component from a layer or group, Lunacy automatically frames it and transfers it to a separate Components page where it’s stored as a main component. An instance of the newly created component remains on the canvas.
+When you create a component from a <a href="https://lunacy.docs.icons8.com/layers/" target="_blank">layer or layer group</a>, Lunacy automatically frames it and transfers it to a separate Components page where it’s stored as a main component. An instance of the newly created component remains on the canvas.
 
-If you create a component out of a frame, it will stay on the canvas as a main component, which you can then copy to create instances.
+If you create a component out of a <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frame</a>, it will stay on the canvas as a main component, which you can then copy to create instances.
 
 The difference is shown here:
 
@@ -86,7 +86,7 @@ Component instance names aren’t bold but have the instance symbol (<embed type
 
 All the components in your document appear in the **Components tab** in the left panel.
 
-To add a component instance to the canvas, drag it from the left panel to where you want to place it:
+To **add a component instance** to the canvas, drag it from the left panel to where you want to place it:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/reusing_components_left_panel.png" height="auto"><source src="/public/reusing_components_left_panel.mp4" type="video/mp4"></video>
 
@@ -149,7 +149,7 @@ A new component will appear near the default main component, defining the new co
 
 Lunacy also changes the name of components when you create new states, automatically placing them into [categories](#organizing-components). You can edit categories anytime in the **Components tab**.
 
-New component states for a distinct component will be displayed in the **right panel** as you select the component’s instances.
+New component states for a distinct component will be displayed in the right panel as you select the component’s instances.
 
 To **switch through component states**:
 
@@ -170,7 +170,7 @@ Componenet categories and subcategories in the **Components tab**:
 
 They also appear in the **Component state** dropdown menu in the right panel.
 
-You can manually place your components in categories in the **left panel** (the **Group** option on the context menu) or use `/` in component names, like this: 
+You can manually place your components in categories in the left panel (the **Group** option on the context menu) or use `/` in component names, like this: 
 
 `Category name / Subcategory name /Component name`. 
 
@@ -224,9 +224,7 @@ Swap between instances from entirely different components:
     
 ## [Managing instances](#managing-instances)
 
-We already covered how to create component instances to the canvas from the **Components tab**.
-
-You can also duplicate or copy/paste instances directly onto the canvas. 
+We already covered how to create component instances to the canvas from the **Components tab**. You can also duplicate or copy/paste instances directly onto the canvas. 
 
 With a main component or instance selected:
 
@@ -264,7 +262,7 @@ Click it to **reset the override** and revert the instance back to the style of 
 
 To reiterate, an override is any edit you make to a component instance. Let's go over them in detail.
 
-Click `▾` next to the title of a component instance in the **Layer list** to expand its contents. You can modify all the layers inside it to apply the changes to **this component instance only**, creating an override:
+Click `▾` next to the title of a component instance in the Layer list to expand its contents. You can modify all the layers inside it to apply the changes to **this component instance only**, creating an override:
 
 <embed type="image/svg+xml" alt="instance_in_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/qtjn2JJXVkixZRrCeXVMiA.svg" width="844" /> 
 
@@ -318,7 +316,9 @@ Now, when you make a component instance, a new avatar is generated automatically
 
 ### Text content and properties
 
-You can easily change the text and/or its properties in the component instance text layers. Use the **Text** section in the right panel to:
+You can easily change the text and/or its properties in the component instance text layers. 
+
+Use the **Text** section in the right panel to:
 
 - Change the **content** of the text layer.
 - Set new **fonts** and **text colors**.

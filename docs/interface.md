@@ -71,7 +71,9 @@ These are the main elements of the interface:
 
     Click on the tabs to switch between them or press `Ctrl + Tab` / `⌘ + Tab` and `Ctrl + Shift + Tab` / `⌘ + Shift + Tab`.
 
-* **The Play button**. Starts the prototype previewer. For details about prototyping in Lunacy, read <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">here</a>.
+* **The Play button**. Starts the prototype previewer. 
+
+    For details about prototyping in Lunacy, read <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">here</a>.
 
 * **Additional options**. This button opens up a menu with these options:
 
@@ -92,7 +94,7 @@ These are the main elements of the interface:
 
 ## [Canvas](#canvas)
 
-The canvas is your working area. Add layers to it and place them wherever you want. 
+The **canvas** is your working area. Add layers to it and place them wherever you want. 
 
 If you need to work within certain boundaries, add <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frames</a> to the canvas. To position layers and frames more precisely, you can add <a href="https://lunacy.docs.icons8.com/basics/#rulers">rulers</a>, <a href="https://lunacy.docs.icons8.com/basics/#guides">guides</a>, and <a href="https://lunacy.docs.icons8.com/basics/#grids">grids</a>.
 
@@ -100,10 +102,9 @@ Read in detail about working with the canvas in the <a href="https://lunacy.docs
 
 ## [Layer list](#layer-list)
 
-Open it by clicking on the **Layers** content tab. It will display the layers on the current page:
+Open the **Layer list** by clicking on the **Layers** content tab. It will display the layers on the current page:
 
 <embed type="image/svg+xml" alt="layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PuPEDNTYvEKC5atXX-ylxQ.svg" width="844" /> 
-
 
 Press <embed type="image/svg+xml" alt="smart_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/3uDOUlA760igh6dc4pOLLg.svg" width=16 /> to toggle the **Smart Layer list**, which displays only the layers you currently see on the canvas. It's convenient when you want to see only the layers you're working on in the Layer list.
 
@@ -113,7 +114,7 @@ If a layer name doesn't fit in the Layer list, you can change the width of the p
 
 <video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/resize_layer_list.png" height="auto"><source src="/public/resize_layer_list.mp4" type="video/mp4"></video>
 
-Using the **Layer list**, you can:
+Using the Layer list, you can:
 
 |   Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       | Description |
 |---------------------------------------|------------------|
@@ -159,7 +160,7 @@ Here's what the **Page list** looks like:
 
 It shows up above the **Layer list** when the **Layers** content tab is selected.
 
-Use the **Page list** to:
+Use the Page list to:
 
 * Add pages
 * Rename pages
@@ -174,7 +175,7 @@ To **add a new page** to the document:
 2. Name the new page.
 3. Press `Enter`.
 
-To change the position of a page in the list, simply drag it to where you want it to be.
+To **change the position of a page** in the list, simply drag it to where you want it to be.
 
 The rest of the actions are accessible through the **context menu**, which you can access by right-clicking a page name.
 
