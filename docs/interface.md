@@ -113,7 +113,7 @@ If a layer name doesn't fit in the Layer list, you can change the width of the p
 
 <video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/resize_layer_list.png" height="auto"><source src="/public/resize_layer_list.mp4" type="video/mp4"></video>
 
-Using the Layer list, you can:
+Using the **Layer list**, you can:
 
 |   Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       | Description |
 |---------------------------------------|------------------|
