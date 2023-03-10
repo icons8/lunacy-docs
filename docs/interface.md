@@ -30,14 +30,14 @@ This section is a brief overview of the app's interface. Get acquainted with the
 
 These are the main elements of the interface:
 
-<embed type="image/svg+xml" alt="interface_overview" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/933ThnNbHEu4ffZyf6zlYQ.svg" width="844" /> 
+<embed type="image/svg+xml" alt="interface_overview" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/1jBfi42THUuARoHsnZnpLQ.svg" width="844" /> 
 
 * **Сontent tabs**. Use them to switch between:
 
-    * The Layer list.
-    * Document assets (<a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">styles</a>).
-    * Built-in <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos, vector images, as well as <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://lunacy.docs.icons8.com/plugins" target="_blank">plugins</a>. 
-    * The list of <a href="https://lunacy.docs.icons8.com/shortcuts" target="_blank">shortcuts</a>.
+    * The Layer list
+    * Document assets (<a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">styles</a>)
+    * Built-in <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos, vector images, as well as <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://lunacy.docs.icons8.com/plugins" target="_blank">plugins</a>
+    * The list of <a href="https://lunacy.docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
 
     Shrink the width of the content tabs panel by dragging its border to the left:
 
@@ -45,7 +45,9 @@ These are the main elements of the interface:
     
 * **The left panel**. Displays the contents of the selected tab. 
 
-    Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View** > **Left Panel** in the menu bar.
+    Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. 
+    
+    You can also use `Shift + F1` or **View** > **Left Panel** in the menu bar.
 
 * **The toolbar**. Features all the primary design tools you'll need. Read more about each tool <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">here</a>. 
 
@@ -53,9 +55,9 @@ These are the main elements of the interface:
 
 * **The canvas**. This is your working area. Find out more about it <a href="https://lunacy.docs.icons8.com/basics/#moving-around-the-canvas" target="_blank">here</a>.
 
-* **The Inspector**. This panel lets you see and adjust the properties of the selected layer. The view of the Inspector varies depends on the layer type. 
+* **The right panel**. This panel lets you see and adjust the properties of the selected layer. The view of the right panel varies depends on the layer type. 
 
-    For details, read [below](#the-inspector).
+    For details, read [below](#the-right-panel).
 
 * **The menu bar**. Displays the options and commands related to files, layers, editing, etc. 
 
@@ -119,7 +121,7 @@ Using the Layer list, you can:
 |   Search for layers                                 |    To locate a layer, start typing its name in the search field above the Layer list.    |
 |   Arrange layers                |     Change the order of the layers in the list by dragging them up or down. Organize layers as you see fit and position them in the order you want them to be stacked if they're overlapping on the canvas. |
 |  Hide layers                    |   To hide layers, layer groups, or individual items inside layer groups, select a layer and click the eye icon next to its name. You can also hide layers by using the `Ctrl + H` / `⌘ + H` shortcut or the corresponding option on the context menu.     |
-|    Lock layers            |     Lock layers, grouped layers, or individual layers within a group to protect them from accidental edits. To do this, select a layer in the Layer list and click the lock icon, press `Ctrl + L` / `⌘ + L`, or use the corresponding option on the context menu. To select locked layers and edit their properties in the Inspector, right-click them on the canvas or select them in the Layer list. |
+|    Lock layers            |     Lock layers, grouped layers, or individual layers within a group to protect them from accidental edits. To do this, select a layer in the Layer list and click the lock icon, press `Ctrl + L` / `⌘ + L`, or use the corresponding option on the context menu. To select locked layers and edit their properties in the right panel, right-click them on the canvas or select them in the Layer list. |
 
 Other basic operations with layers are available on the <a href="https://lunacy.docs.icons8.com/basics/#the-context-menu" target="_blank">context menu</a>.
 
@@ -135,13 +137,13 @@ To quickly **move to a specific layer** in large projects:
 <p>Find more useful Lunacy tips and tricks <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
 
 
-## [Inspector](#the-inspector)
+## [The right panel](#the-right-panel)
 
-The **Inspector** is the panel that appears on the right of the Lunacy interface when you select a layer.
+The **right panel** appears on the right of the Lunacy interface when you select a layer.
 
-When you create a new document, the first thing you'll see on the right is a list of <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frame</a> presets. Once you add a frame or layer, the Inspector will open up and display its properties. If you deselect all frames and layers, you will see general workspace settings and options.
+When you create a new document, the first thing you'll see on the right is a list of <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frame</a> presets. Once you add a frame or layer, the right panel will open up and display its properties. If you deselect all frames and layers, you will see general workspace settings and options.
 
-Learn more about the Inspector <a href="https://lunacy.docs.icons8.com/basics/#working_with_the_inspector" target="_blank">here</a>.
+Learn more about the right panel <a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties" target="_blank">here</a>.
 
 ## Document pages
 
@@ -155,7 +157,7 @@ Here's what the **Page list** looks like:
 
 <embed type="image/svg+xml" alt="page_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TgMw_XxCa025DzYKz7eF5Q.svg" width="844" /> 
 
-It appears above the Layer list when the **Layers** content tab is selected.
+It shows up above the **Layer list** when the **Layers** content tab is selected.
 
 Use the **Page list** to:
 
@@ -225,7 +227,7 @@ To **create a new document**, use any of the following ways depending on the doc
 
 #### Opening documents
 
-To **open a cloud document**, click on its thumbnail on the **Home tab**. 
+To **open a cloud document**, click on its thumbnail on the Home tab. 
 
 As for other options, use any of these to **open local documents**:
 
@@ -244,8 +246,8 @@ To **open a cloud document shared with you**:
 
 You can import:
 
-- Local `.sketch` documents to Lunacy Cloud
-- Figma documents to local `.sketch` documents (which you can then upload to Lunacy Cloud)
+- Local `.sketch` documents to **Lunacy Cloud**
+- **Figma documents** to local `.sketch` documents (which you can then upload to Lunacy Cloud)
 
 ##### Importing local `.sketch` files to cloud
 - In the action bar, click **Import to Cloud**.
@@ -257,7 +259,7 @@ You can import:
 2. Copy the link to the file.
 3. Use `Ctrl + V` / `⌘ + V` anywhere in the Lunacy app to open it.
 
-To import **private** Figma files, you’ll have to enter its share link as well as a **personal access token** generated in Figma for third-party app integrations.
+To import **private** Figma files, you’ll have to enter its link as well as a **personal access token** generated in Figma for third-party app integrations.
 
 To **generate a personal access token** in Figma:
 
@@ -285,7 +287,7 @@ In the sidebar, your documents are divided into three categories:
 
 
 <div class="callout callout--info">
-    <p><strong>Note:</strong> If you’re on the free plan, deleted documents are stored for 30 days, then they are deleted permanently.</p>
+    <p><strong>Note:</strong> If you’re on the <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">free plan</a>, deleted documents are stored for 30 days, then they are deleted permanently.</p>
 </div>
 
 In any of these sections, you can right-click on a document preview to open the context menu:
@@ -356,7 +358,9 @@ Use it as a portfolio of your works:
 
 ##### Subscribe to paid plans
 
-Icons8 graphics are free for personal and commercial use as long as you include an attribution link to us. Additionally, SVG files and high-resolution photos are unavailable on the free plan. To get these options and use our graphics without mandatory attribution, consider a paid subscription. 
+Icons8 graphics are free for personal and commercial use as long as you include an attribution link to us. 
+
+SVG files and high-resolution photos are unavailable on the free plan. To get these options and use our graphics without mandatory attribution, consider a paid graphics subscription. 
 
 You can also upgrade to a **cloud** or **team** plan for more freedom with cloud documents, team creation, and document management. 
 

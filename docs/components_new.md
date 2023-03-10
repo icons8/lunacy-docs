@@ -336,9 +336,9 @@ So, when we were creating component instances, new texts appeared automatically.
 
 In the main component, we used text and color styles to design our layouts. This is a convenient feature for keeping your designs consistent and easily editable. 
 
-Simply switch styles, create new ones, or edit and delete existing styles in the **Appearance** section of the right panel:
+Simply switch styles, create new ones, or edit and delete existing styles in the **Style** section of the right panel:
 
-<embed type="image/svg+xml" alt="appearance_style_dropdown_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/39pQYAxW60aRUKEZS8yvBA.svg" width="844" /> 
+<embed type="image/svg+xml" alt="style_dropdown_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/_1_XLrY8B0WTqyjneVrQaw.svg" width="844" /> 
 
 
 ### Auto layout overrides

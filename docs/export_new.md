@@ -104,7 +104,10 @@ With a layer selected, you will see these settings:
     - Remove all export options.
     - Create a slice to export a part of the selected layer or frame. 
 
-<div class="callout callout--info"> <p><strong>Note:</strong> When nothing is selected, the <b>Export document</b> section opens up. All the settings are the same, except for the <b>Upload to Cloud</b> option, which isn't available.</p> </div>
+<div class="callout callout--info"> <p><strong>Note:</strong> When nothing is selected, the <b>Export document</b> section opens up. All the settings are the same, except for the <b>Upload to Cloud</b> option, which isn't available:</p> </div>
+
+<embed type="image/svg+xml" alt="export_document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/CAQo5B1IL0yAeB7n3QmjZg.svg" width="844" /> 
+
 
 ### Export presets
 
@@ -149,7 +152,7 @@ To **export a layer**:
 
 Exporting multiple items is no different. However, when you select multiple layers that already have defined export settings, you will see a **Click `+` to replace mixed content** message in the **Export** tab:
 
-<embed type="image/svg+xml" alt="export_several_layers" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Mulz2YadzECPlxNGERfNRw.svg" width="844" /> 
+<embed type="image/svg+xml" alt="export_multiple" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/nDYzbp9wBUOP0S0VUhrykg.svg" width="844" /> 
 
 Click `+` to clear the export settings for all layers and define new ones.
 

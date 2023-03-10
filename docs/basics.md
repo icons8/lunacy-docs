@@ -45,14 +45,14 @@ The easiest way to zoom to a layer in Lunacy is by holding down `Ctrl` / `⌘` a
 When the zoom value exceeds 500, Lunacy displays a pixel grid. There are two ways to disable this feature:
 
 1. In the menu bar, select **View** > **Pixel grid**.
-2. Deselect all layers on the canvas and clear the **Show pixel grid** checkbox in the Inspector.
+2. Deselect all layers on the canvas and clear the **Show pixel grid** checkbox in the right panel.
 
 Find out about other zooming options [below](#zooming-options).
 
 ### Changing the canvas color
 
 1. Deselect all layers.
-2. Use the **Workspace color** control in the Inspector.
+2. Use the **Workspace color** control in the right panel.
 
 <embed type="image/svg+xml" alt="canvas_color" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TmFrkSpmxEi2Rb3deQBoLA.svg" width="844" /> 
 
@@ -60,34 +60,36 @@ Press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icon
 
 You can also set the canvas color opacity to 0 so it becomes transparent. You'll see a checkerboard pattern instead of a fill.
 
-## [Inspector properties](#inspector-properties)
+## [Right panel properties](#right-panel-properties)
 
-There are three tabs at the top of the Inspector: **Design**, **Export**, and **Code**. 
+There are three tabs at the top of the right panel: **Design**, **Export**, and **Code**. 
 
 The **Design** tab is the one you'll interact with the most when working on your designs.
 
-The set of controls and settings it displays depends on the type of the selected layer. These Inspector properties are universal for almost all layer types:
+The set of controls and settings it displays depends on the type of the selected layer. These properties are universal for almost all layer types:
 
-| Inspector properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |   
+| Right panel properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |   
 |---------------------------------------------------|-------------------------------------------------------|
 | <embed type="image/svg+xml" alt="alignment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DmwgUeA720CJZI1lz-PJ9w.svg" width="500" />  | **Alignment and distribution controls** appear when you select two or more layers. |
 |  <embed type="image/svg+xml" alt="layer_position_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/s3beB96toEGEkauAALbBGA.svg" width="500" />  |  **Layer size and position.** Change the size of your layers and their position on the canvas. Use the buttons next to the position controls to flip your images and toggle the lock button on and off to preserve aspect ratio when resizing.  Controls vary depending on the selected layer.   |
 | <embed type="image/svg+xml" alt="rotate_corner" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/EWKB-3JAmEWF1tsSA8CWHw.svg" width="500" />  | **Rotation and corner radius.** Rotate your layers and change their corner radius properties. |
 | <embed type="image/svg+xml" alt="component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kv1070nxoEG0xJn6p3EqCQ.svg" width="500" /> |   **Component options.** Use this section to manage <a href="https://lunacy.docs.icons8.com/components/">components</a>. Create new component states, switch between them, and detach instances from main components.  |
-|  <embed type="image/svg+xml" alt="Group" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/f3W-qBkFpk6jO5KGzhdT1Q.svg" width="500" />     |   The   **Appearance** section displays the styles applied to your layer (text styles, color styles, effect styles, etc.)  You can add styles from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits">UI kits</a>, create your own, and detach layers from applied styles. |
+|  <embed type="image/svg+xml" alt="style_section" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/M7sKosLblUis17slSInjjg.svg" width="500" />     |   The   **Style** section displays the styles applied to your layer (text styles, color styles, effect styles, etc.)  You can add styles from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits">UI kits</a>, create your own, and detach layers from applied styles. |
 |  <embed type="image/svg+xml" alt="opacity_blend" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jU4eHkw6H0aRu54WtjdtlQ.svg" width="500" />   |   **Opacity and blend mode settings.** Set the overall opacity of a layer and its blending mode.   |
 |  <embed type="image/svg+xml" alt="fills" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fIXEmqXID02zbOWgEcQtOA.svg" width="500" />   |   **Fills.**  Change the color of your layer.  |
 |  <embed type="image/svg+xml" alt="borders" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hCg84E6xQ02xJxqoFK17hg.svg" width="500" />   |   **Borders.**  Add borders to your layers. |
 |  <embed type="image/svg+xml" alt="effects" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/UmOMNRV4XESuD2JDMXvi6Q.svg" width="500" />   |     **Effects.**  Add effects (shadows, blurs) to your layers. |
 |  <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NJc1I6eaxk21Auc91YH7XA.svg" width="500" />   |   **Prototyping.**   Activate prototyping options and turn your static designs into interactive prototypes. Here's <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">how it works</a>. |
 
-Click on the **Export** tab to open up export settings for your entire project or click individual/multiple layers to export just them.  For details about export options, read <a href="https://lunacy.docs.icons8.com/export" target="_blank">here</a>. You can also use the Linked Design option to include embed links to Lunacy layers directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">in this section</a>.
+Click on the **Export** tab to open up export settings for your entire project or click individual/multiple layers to export just them.  For details about export settings, read <a href="https://lunacy.docs.icons8.com/export_new/#export-settings" target="_blank">here</a>. 
 
-The **Code** tab displays the code corresponding to your layers.
+You can also use the Linked Design option to include embed links to Lunacy layers directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">in this section</a>.
 
-### Inspector properties with no selected layers
+The **Code** tab <a href="https://lunacy.docs.icons8.com/export/#code-preview-and-linked-design" target="_blank">displays the code corresponding</a> to your layers.
 
-When all layers are deselected, the Inspector shows these settings:
+### Right panel properties with no selected layers
+
+When all layers are deselected, the right panel shows these settings:
 
 <embed type="image/svg+xml" alt="inspector_no_layers" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/e7AGem3y7EyT38xi2QO2DA.svg" width="844" /> 
 
@@ -96,11 +98,11 @@ When all layers are deselected, the Inspector shows these settings:
 * **Nudge amount settings.** Nudge layers by moving arrow keys and set custom values for small nudges (using just the arrow keys) and big ones (arrow keys + `Shift`).
 * **Color palette section.** Use it to generate various base color palettes for your documents.
 
-If you need more space, you can hide the Inspector panel by selecting **View** > **Inspector** on the menu bar.
+If you need more space, you can hide the right panel panel by selecting **View** > **right panel** on the menu bar.
 
-### Changing values in the Inspector
+### Changing values in the right panel
 
-To change values in the Inspector input fields:
+To change values in the right panel input fields:
 
 * Type a value manually.
 * Click over a field and use the mouse wheel to gradually increase or decrease the value.
@@ -125,7 +127,7 @@ To create a frame, use the <a href="https://lunacy.docs.icons8.com/tools/#frame-
 To **create a frame**:
 
 1. Select the frame tool on the toolbar or press `A`.
-2. Click and drag to add a custom frame or use a preset from the Inspector.
+2. Click and drag to add a custom frame or use a preset from the right panel.
 
 <embed type="image/svg+xml" alt="frame_tool_presets" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5fuv5gIKSU-PMS4ZWGy5Aw.svg" width="844" /> 
 
@@ -139,9 +141,9 @@ You can gather layers into frames by drawing a frame over them. This is how fram
 <embed type="image/svg+xml" alt="frames_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2DFQ_UkoJE-xNA5RZ63EXA.svg" width=844 /> 
 
 
-Inspector properties for frames are more or less identical to [layer properties](#inspector-properties), except frames don't have appearance and prototyping options. They also have these additional properties:
+Right panel properties for frames are more or less identical to [layer properties](#right-panel-properties), except frames don't have **Style** and **Prototyping** options. They also have these additional properties:
 
-| Inspector properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Description |   
+| Right panel properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Description |   
 |--------------------------------------------------------------------|--------------------------------------------------------------------|
 |  <embed type="image/svg+xml" alt="frame_preset_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/AQrMrq0BdkG833S3rs16TQ.svg" width="500" />  |  **Frame preset, size, and position.** The same options as for layers — and you can also change your frame size preset.  |
 |  <embed type="image/svg+xml" alt="clip_content" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jz6OnY46_Uy-ATZtsevRLA.svg" width="500" />  |     **Clip content.**  Select this checkbox to hide content outside of the frame boundaries. |
@@ -314,7 +316,7 @@ You can also alter zoom options using preset values:
 
 <embed type="image/svg+xml" alt="zoom_control" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/E-VwOWodqUSaWk-_v6o86g.svg" width="844" /> 
 
-Here are the essential zoom options:
+Here are all the essential zoom options and corresponding shortcuts:
 
 | Operation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       | Description   | Windows shortcut      |        Mac shortcut       |
 | -------------|-------------|-------------|--------|
