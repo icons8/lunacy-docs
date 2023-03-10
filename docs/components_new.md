@@ -108,7 +108,7 @@ Right-click a component in the left panel to bring up the context menu with thes
 
 When you select a main component, the **Component** section in the right panel displays these properties:
 
-<embed type="image/svg+xml" alt="main_component_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/xfdP7fynOkuGwQdngTwAGQ.svg" width="844" /> 
+<embed type="image/svg+xml" alt="component_main_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NcGkZHpkfUadWBBYQjj0QA.svg" width="844" /> 
 
 * **Component type**. Select one of the presets to organize your components by type. 
 
@@ -118,7 +118,7 @@ When you select a main component, the **Component** section in the right panel d
 
 * **Color picker, opacity, and visibility**. Set the component’s background color and show/hide it by pressing the <embed type="image/svg+xml" alt="eye_hide" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Aa8CJl234kaxZXUTplkR4g.svg" width="24" /> / <embed type="image/svg+xml" alt="eye_show" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/y6Qj385WoUu0be9H0CO3lA.svg" width="20" /> icons.
 
-* **Include/exclude backgroung in export**. Include/exclude the component’s background when exporting it.
+* **Include background in export**. Include/exclude the component’s background when exporting it.
 
 * **Include in instances**. Include/exclude the component’s background in its instances.
 
@@ -176,7 +176,7 @@ You can manually place your components in categories in the left panel (the **Gr
 
 Here's an example with just the category name and component name:
 
-<embed type="image/svg+xml" alt="button_components_categorized" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ajHWgH1ITESWWYrak4v_jQ.svg" width="844" /> 
+<embed type="image/svg+xml" alt="button_components_categories" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/HwE5IunpnkSNd8NeTlGZ3g.svg" width="844" /> 
 
 Still, the quickest way to categorize your components is to create [component states](#component-states).
 
@@ -235,7 +235,7 @@ With a main component or instance selected:
 
 For a component instance, the **Component** section in the **right panel** will look like this:
 
-<embed type="image/svg+xml" alt="instance_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LGFo8c2jo0KFFP6P3QnFww.svg" width="844" /> 
+<embed type="image/svg+xml" alt="properties_instance_right_panel" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/4kDdeg2MFU2IYfMEmxPp9w.svg" width="844" /> 
 
 **Component state menu**. A dropdown menu displaying the current state of the component. When opened, it shows all other components and UI kits available in the document. 
 
@@ -283,17 +283,17 @@ Here’s a full list of layers and properties you can create overrides for (depe
 - Tints
 - Hotspots
 
-To understand how all of them work, we'll use a more complex UI. Also, instead of making some overrides (like text and image edits) manually, we'll use some of Lunacy's handy time-saving features like <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> and the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a>.
-
 ### Understanding overrides
+
+To understand how all of them work, we'll use a more complex UI. Also, instead of making some overrides (like text and image edits) manually, we'll use some of Lunacy's handy time-saving features like <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> and the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a>.
 
 To better understand how component overrides work, let’s dive right into practice to see the power and versatility of components firsthand.
 
-Below, we have two profile card UI layouts for a default and dark theme:
+Below, we have a profile card UI:
 
-<embed type="image/svg+xml" alt="profile_card_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LFtPkxe2EUCYBfuhNOHDSg.svg" width="844"/> 
+<embed type="image/svg+xml" alt="component_card_ui_elements" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/6BMwQzFTN0iOtpjr70XqOw.svg" width="844"/> 
 
-All the components used in the layout are on the left, and their instances are nested in the profile card frames, which were turned into components themselves. 
+All the components used in the layout are on the left, and their instances are nested in the profile card frame, which is a component itself.
 
 When using complex components such as this one, you can easily change the states of the nested components, manually edit them, or modify all instances by adjusting the main component. 
 

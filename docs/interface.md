@@ -329,7 +329,7 @@ Once you’re logged in, you will see your **profile page**:
 
 <embed type="image/svg+xml" alt="profile_page_home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kRDaG5owI0WF97WzI1Y9pw.svg" width="844" /> 
 
-Use this page to:
+Use it to:
 * Manage your profile information
 * Publish documents to your web profile
 * Subscribe to paid plans

@@ -39,7 +39,7 @@ You can always use the scroll bars on the right and bottom of the workspace, but
 
 ### Zooming in and out
 
-The easiest way to **zoom to a layer** in Lunacy is by holding down `Ctrl` / `⌘` and moving the mouse wheel. To zoom in and out slower, additionally hold down `Shift`.
+The easiest way to **zoom in and out** in Lunacy is by holding down `Ctrl` / `⌘` and moving the mouse wheel. To **zoom slower**, additionally hold down `Shift`.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/zoom_in_canvas.png" height="auto"><source src="/public/zoom_in_canvas.mp4" type="video/mp4"></video>
 
