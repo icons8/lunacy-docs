@@ -34,22 +34,15 @@ These are the basic terms related to components and their functions:
 
 * **Main component**. The original layer that you convert into a component. 
 
-* **Component instance**. You create a component **instance** any time you duplicate a main component. 
+* **Component instance**. You create a component **instance** any time you duplicate a main component. When you edit a main component, the changes apply to all of its instances at once.
 
-    When you edit a main component, the changes apply to all of its instances at once.
-
-* **Override**. When you modify an instance, you create an **override**. 
-
-    The main component won't be affected, and if you edit it later, the changes won't apply to instances with overrides.
+* **Override**. When you modify an instance, you create an **override**. The main component won't be affected, and if you edit it later, the changes won't apply to instances with overrides.
 
 * **Component page**. A dedicated document page used for storing main components. Lunacy adds it automatically when you create a component.
 
 * **Component state**. Components from the same category or subcategory are called **component states**. They define the different styles for one component.
 
-
-* **Nested components**. You can nest several components in a more complex component. 
-
-    This gives you the most freedom and flexibility in editing your designs, and it’s an even more powerful feature when coupled with <a href="https://lunacy.docs.icons8.com/autolayout/#nested-auto-layouts" target="_blank">nested auto layouts</a>. 
+* **Nested components**. You can nest several components in a more complex component. This gives you the most freedom and flexibility in editing your designs, and it’s an even more powerful feature when coupled with <a href="https://lunacy.docs.icons8.com/autolayout/#nested-auto-layouts" target="_blank">nested auto layouts</a>. 
 
 ## [Creating components](creating-components)
 
@@ -78,7 +71,7 @@ Find out more about [component pages](#components-page) below.
 
 <embed type="image/svg+xml" alt="components_instances_in_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/f8iTdn1orUiVLyZVImJClg.svg" width="844" /> 
 
-Main components are bold and colored pink (<embed type="image/svg+xml" alt="color_code_F15085" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/b6VBjbQ0FEaLpb01JY4uEw.svg" width="12" />) in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>, and there’s a component symbol (<embed type="image/svg+xml" alt="go_to_main_component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Cen_pPCa7E62ECNOB7GoKg.svg" width="16" />) in front of their name.
+Main components are bold and colored pink (<embed type="image/svg+xml" alt="color_code_F15085" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/b6VBjbQ0FEaLpb01JY4uEw.svg" width="12" />) in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>, and there’s a component symbol (<embed type="image/svg+xml" alt="main_component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/JApz_Mo2XE6YIoPMoYA3ow.svg" width="16" />) in front of their name.
 
 Component instance names aren’t bold but have the instance symbol (<embed type="image/svg+xml" alt="instance_icon" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/7zBFwNg0JEKWT8fAiIVn9A.svg" width="16" />) and the same pink color. When they’re selected, their properties and options appear in the **Component** section of the right panel.
 
@@ -176,7 +169,7 @@ You can manually place your components in categories in the left panel (the **Gr
 
 Here's an example with just the category name and component name:
 
-<embed type="image/svg+xml" alt="button_components_categories" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/HwE5IunpnkSNd8NeTlGZ3g.svg" width="844" /> 
+<embed type="image/svg+xml" alt="button_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VItNofN-PkGFXHrOt_lQIA.svg" width="844" /> 
 
 Still, the quickest way to categorize your components is to create [component states](#component-states).
 
@@ -214,13 +207,21 @@ You can **edit a main component**:
 
 ## [Swapping components](#swapping-components)
 
-Swap between instances from entirely different components:
+Use the **Components tab** or the **right panel** swap between instances from entirely different components. Simply select an instance you want to replace and use one of the methods below:
 
-1. Select the component instance you want to replace.
-2. Go to the **Components tab**.
-3. Find the required component and click <embed type="image/svg+xml" alt="swap_component Copy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/FwHiX5HVcE23ZwIlDilhyw.svg" width="16" /> next to it:
+**Method 1**: 
 
-     <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_tab.png" height="auto"><source src="/public/components_swap_tab.mp4" type="video/mp4"></video>
+1. Go to the **Components tab**.
+2. Find the required component and click <embed type="image/svg+xml" alt="swap_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/FwHiX5HVcE23ZwIlDilhyw.svg" width="16" /> 
+next to it:
+    <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_tab.png" height="auto"><source src="/public/components_swap_tab.mp4" type="video/mp4"></video>
+
+**Method 2**:
+
+1. Open the **component state menu** in the **Component** section of the right panel.
+2. Select the required category and component state.
+    <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_rightpanel.png" height="auto"><source src="/public/components_swap_rightpanel.mp4" type="video/mp4"></video>
+
     
 ## [Managing instances](#managing-instances)
 
@@ -235,7 +236,7 @@ With a main component or instance selected:
 
 For a component instance, the **Component** section in the **right panel** will look like this:
 
-<embed type="image/svg+xml" alt="properties_instance_right_panel" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/4kDdeg2MFU2IYfMEmxPp9w.svg" width="844" /> 
+<embed type="image/svg+xml" alt="properties_of_instances" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/xdbhhXeUAUSLfRHep-ac5Q.svg" width="844" /> 
 
 **Component state menu**. A dropdown menu displaying the current state of the component. When opened, it shows all other components and UI kits available in the document. 
 
@@ -274,7 +275,7 @@ Below, we have a simple example of a card component consisted of an image (an ov
 
 You can easily reset all of these overrides by pressing <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > in the **Component** section, like in the demo above. 
 
-Here’s a full list of layers and properties you can create overrides for (depending on the layer types it contains):
+Here’s a full list of layers and properties you can create overrides for:
 
 - Fills and images
 - Text content and properties
@@ -285,11 +286,9 @@ Here’s a full list of layers and properties you can create overrides for (depe
 
 ### Understanding overrides
 
-To understand how all of them work, we'll use a more complex UI. Also, instead of making some overrides (like text and image edits) manually, we'll use some of Lunacy's handy time-saving features like <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> and the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a>.
+To understand how all of them work, we'll use more complex examples. Also, instead of making some overrides (like text and image edits) manually, we'll use some of Lunacy's handy time-saving features like <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> and the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a>.
 
-To better understand how component overrides work, let’s dive right into practice to see the power and versatility of components firsthand.
-
-Below, we have a profile card UI:
+Once of the examples we'll use is this profile card UI:
 
 <embed type="image/svg+xml" alt="component_card_ui_elements" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/6BMwQzFTN0iOtpjr70XqOw.svg" width="844"/> 
 
@@ -297,17 +296,15 @@ All the components used in the layout are on the left, and their instances are n
 
 When using complex components such as this one, you can easily change the states of the nested components, manually edit them, or modify all instances by adjusting the main component. 
 
- Let’s go over the overrides we can make in these cards step by step.
-
 ### Fills and images
 
-The two images in the cards are easily editable. The background behind the profile photo is a simple shape with its **Fill** set to **Image**.
+The two images in the card are easily editable. The background behind the profile photo is a simple shape with an **Image** fill.
 
-To change it in an instance, you only need to click it, then click the **color icon** in the **Fill** section and choose an image:
+To change it in an instance, you only need to click it, then select the **color icon** in the **Fill** section and choose an image:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_fill_image.png" height="auto"><source src="/public/component_fill_image.mp4" type="video/mp4"></video>
 
-You can do the same with the profile picture, provided it's a circle with an **Image** fill. To speed up the process, we recommend using Lunacy’s Avatar tool for placeholder profile pictures: simply press `Q` to place a randomly generated avatar picture directly onto the canvas. 
+You can do the same with the profile picture, provided it's a circle with an **Image** fill. To speed up the process, we recommend using Lunacy’s **Avatar tool** for placeholder profile pictures: simply press `Q` to place a randomly generated avatar picture directly onto the canvas. 
 
 Now, when you make a component instance, a new avatar is generated automatically:
 
@@ -328,9 +325,9 @@ Use the **Text** section in the right panel to:
 #### Using generated texts
 In the demo above, along with the avatar, nearly all of the texts changed to randomized placeholders as well. This is because most of the texts in the layout were generated by Lunacy’s text generation feature.
 
-An extensive list of text generation options appears whenever you add a text layer using the text tool (`T`). It creates randomized texts for your layouts so you don’t have to do the work yourself. Read in more detail about it <a href="https://lunacy.docs.icons8.com/tips/#text-generation" target="_blank">here</a>.
+An extensive list of text generation options appears whenever you add a layer using the text tool (`T`). It creates randomized texts for your layouts so you don’t have to do the work yourself. Read in more detail about it <a href="https://lunacy.docs.icons8.com/tips/#text-generation" target="_blank">here</a>.
 
-So, when we were creating component instances, new texts appeared automatically.  
+So, when we were creating component instances in the demo above, new texts appeared automatically.  
 
 ### Layer and text styles
 
@@ -370,6 +367,20 @@ When you apply an override, the <embed type="image/svg+xml" alt="reset_overrides
 ### Hotspot overrides
 
 If there’s a <a href="https://lunacy.docs.icons8.com/prototyping/#hotspots" target="_blank">hotspot</a> in your layout, you can override its target frame.
+
+### None override
+
+You can **hide a nested component** by using the **None override** option.
+
+To do this:
+
+1. Select a nested component.
+2. Open the component state menu in the **Component** section of the right panel. 
+3. Choose **No Component**.
+
+<embed type="image/svg+xml" alt="none_override" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZVDYrY3GQ0SWOR9pg63N4Q.svg" width="844" /> 
+
+Lunacy will override the component with the so-called **none component**. Later on, you can always override the none component with any other component.
 
 ## Components and auto layouts
 
