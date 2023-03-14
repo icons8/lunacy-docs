@@ -28,7 +28,7 @@ Export your designs from Lunacy using the **Export** tab in the **right panel**:
 
 <embed type="image/svg+xml" alt="export_tab" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5Glmgh3KIk63h85RxmQHKg.svg" width="844" /> 
 
-You can export any element from Lunacy:
+You can export nearly any element from Lunacy, including:
 
 - Individual or multiple layers and layer groups (separately or as a single image)
 - Frames (with and without the frame background)
