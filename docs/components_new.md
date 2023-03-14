@@ -132,9 +132,8 @@ To **create a component state**:
 
 1. Select a component instance.
 2. Click `+` in the **Component** section of the **right panel** or press `Ctrl + Alt + P` / `⌘ + ⌥ + P`.
-3. Adjust your component for the new state.
-4. Name it.
-5. Click on any empty area on the canvas.
+3. Adjust your component for the new state and name it.
+4. Click on any empty area on the canvas.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_component_state.png" height="auto"><source src="/public/creating_component_state.mp4" type="video/mp4"></video>
 
@@ -236,7 +235,7 @@ With a main component or instance selected:
 
 For a component instance, the **Component** section in the **right panel** will look like this:
 
-<embed type="image/svg+xml" alt="properties_of_instances" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/xdbhhXeUAUSLfRHep-ac5Q.svg" width="844" /> 
+<embed type="image/svg+xml" alt="rightpanel_instance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zztZgnyr9EqhG8-NFu-_hA.svg" width="844" /> 
 
 **Component state menu**. A dropdown menu displaying the current state of the component. When opened, it shows all other components and UI kits available in the document. 
 
