@@ -165,7 +165,7 @@ Select it if you want the background to be visible in the exported file.
 
 To **add a slice** to the canvas:
 
-* Select the **Slice** tool in the toolbar or press `E`. Your cursor will change to the <embed type="image/svg+xml" alt="slices_icon" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/SpxLsU_cxUWQNc9b-Fo3tg.svg" width="16" /> icon. Click and drag to create a **slice**, which you can adjust to include parts of the elements you want to export.
+* Select the **Slice** tool in the toolbar or press `E`. Your cursor will change to the <embed type="image/svg+xml" alt="slice_tool" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OhVzbUI8FEaPsLz8lm2ulg.svg" width="16" /> icon. Click and drag to create a **slice**, which you can adjust to include parts of the elements you want to export.
 * When defining export options for the element, select **Create slice** in the **Additional export options** menu.
 
 When you select a slice, two additional settings appear in the **Export** section:
