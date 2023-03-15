@@ -43,51 +43,35 @@ These are the main elements of the interface:
 
     <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/show_hide_content_tabs.png" height="auto"><source src="/public/show_hide_content_tabs.mp4" type="video/mp4"></video>
     
-* **The left panel**. Displays the contents of the selected tab. 
+* **The left panel**. Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View** > **Left Panel** in the menu bar.
 
-    Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. 
-    
-    You can also use `Shift + F1` or **View** > **Left Panel** in the menu bar.
+* **The toolbar**. Features all the primary design tools you'll need. Read more <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">about each tool</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View** > **Toolbar**) in the menu bar.
 
-* **The toolbar**. Features all the primary design tools you'll need. Read more about each tool <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">here</a>. 
-
-    If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View** > **Toolbar**) in the menu bar.
-
-* **The canvas**. This is your working area. Find out more about it <a href="https://lunacy.docs.icons8.com/basics/#moving-around-the-canvas" target="_blank">here</a>.
+* **The canvas**. This is your working area. Read in detail about <a href="https://lunacy.docs.icons8.com/basics/#working-with-the-canvas" target="_blank">working with the canvas</a>.
 
 * **The right panel**. This panel lets you see and adjust the properties of the selected layer. The view of the right panel varies depends on the layer type. 
 
-    For details, read [below](#the-right-panel).
+* **The menu bar**. Displays the options and commands related to files, layers, editing, etc. It also features the <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> button, which opens up the [Home tab](#home-tab).
 
-* **The menu bar**. Displays the options and commands related to files, layers, editing, etc. 
+* **The context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected layer. Hover the cursor over a tool icon to see a pop-up explaining what it does.
 
-    It also features the <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> button, which opens up the [Home tab](#home-tab).
+* **Document tabs**. The tabs of currently open files are displayed on the right of the Home button. Click on the tabs to switch between them or press `Ctrl + Tab` / `⌘ + Tab` and `Ctrl + Shift + Tab` / `⌘ + Shift + Tab`.
 
-* **The context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected layer. 
-
-    Hover the cursor over a tool icon to see a pop-up explaining what it does.
-
-* **Document tabs**. The tabs of currently open files are displayed on the right of the Home button. 
-
-    Click on the tabs to switch between them or press `Ctrl + Tab` / `⌘ + Tab` and `Ctrl + Shift + Tab` / `⌘ + Shift + Tab`.
-
-* **The Play button**. Starts the prototype previewer. 
-
-    For details about prototyping in Lunacy, read <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">here</a>.
+* **The Play button**. Starts the prototype previewer. Read more about <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">prototyping in Lunacy</a>.
 
 * **Additional options**. This button opens up a menu with these options:
 
 | Button | Description | Windows and Linux Shortcut / Menu Option &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  MacOS Shortcut / Menu Option |
 |---|---|---|---|
-| <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bkTBcjYY-kyIXxUN9M74Bg.svg" width="24" />  | The Show/Hide rulers button toggles rulers on and off. For details, read below. | `Ctrl + R`  | `⌘ + R` |
-| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="24" />  | The Show grid button enables the display of the square grid. Learn more about grids here. | `Ctrl + '` | `⌘ + '` |
-| <embed type="image/svg+xml" alt="layout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/i0isEF3sxUyjktCmMDT4Jw.svg" width="24" />  | The Layout button controls the display of the layout grid and is available only when there is a frame on the canvas. For details, read here. | `Ctrl + \`  | `⌘ + \` |
-| <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eutHauiFwUuQ4jRcv6LFVQ.svg" width="24" /> | The Show prototyping button controls the display of hotspots and prototyping arrows. | **View**  > **Prototyping**   |
-| <embed type="image/svg+xml" alt="slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5tkaoATGgUK2NjnzbPlsTg.svg" width="24" /> | With the Slice tool, you can to select a specific area on your design and export it. | **View** > **Slices**  |
-| <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The Pixels on Zoom option shows pixels when the zoom value exceeds 100. | **View** > **Pixels on Zoom** |
-| <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the right panel on and off. | `-` |
+| <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bkTBcjYY-kyIXxUN9M74Bg.svg" width="24" />  | The **Show/Hide rulers** button toggles <a href="https://lunacy.docs.icons8.com/basics/#rulers-and-guides" target="_blank">rulers</a> on and off. | `Ctrl + R`  | `⌘ + R` |
+| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="24" />  | The **Show grid** button enables the display of the <a href="https://lunacy.docs.icons8.com/basics/#square-grid" target="_blank">square grid</a>. | `Ctrl + '` | `⌘ + '` |
+| <embed type="image/svg+xml" alt="layout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/i0isEF3sxUyjktCmMDT4Jw.svg" width="24" />  | The **Layout grid** button controls the display of the <a href="https://lunacy.docs.icons8.com/basics/#layout-grid" target="_blank">layout grid</a> and is available only when there is a frame on the canvas. | `Ctrl + \`  | `⌘ + \` |
+| <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eutHauiFwUuQ4jRcv6LFVQ.svg" width="24" /> | The **Show prototyping** button controls the display of hotspots and <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">prototyping</a> arrows. | **View**  > **Prototyping**   |
+| <embed type="image/svg+xml" alt="slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5tkaoATGgUK2NjnzbPlsTg.svg" width="24" /> | With the <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slice</a> tool, you can to select a specific area on your design and export it.| **View** > **Slices**  |
+| <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The **Pixels on Zoom** option shows pixels when the zoom value exceeds 100. | **View** > **Pixels on Zoom** |
+| <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the [right panel](#the-right-panel) on and off. | `-` |
 
-* **The Zoom control**. Read about zooming options [below](#zooming-options).
+* **The Zoom control**. Read about [zooming options](#zooming-options) below.
 
 * **Theme switch**. Use it to switch between the light and dark themes.
 
@@ -135,7 +119,7 @@ To quickly **move to a specific layer** in large projects:
 2. Select it in the Layer list.
 3. Press <code>Ctrl + 2</code> / <code>⌘ + 2</code> or double-click the icon in front of the layer name to use the <a href="https://lunacy.docs.icons8.com/tips/#zoom-to-selection" target="_blank">zoom to selection</a> feature.
 
-<p>Find more useful Lunacy tips and tricks <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
+<p>Find out about <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">more useful tips and tricks</a>.</p>
 
 
 ## [The right panel](#the-right-panel)
@@ -144,7 +128,7 @@ The **right panel** appears on the right of the Lunacy interface when you select
 
 When you create a new document, the first thing you'll see on the right is a list of <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frame</a> presets. Once you add a frame or layer, the right panel will open up and display its properties. If you deselect all frames and layers, you will see general workspace settings and options.
 
-Learn more about the right panel <a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties" target="_blank">here</a>.
+Read more about <a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties" target="_blank">working with the right panel</a>.
 
 ## Document pages
 
@@ -181,7 +165,7 @@ The rest of the actions are accessible through the **context menu**, which you c
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/page_add_rename.png" height="auto"><source src="/page_add_rename.mp4" type="video/mp4"></video>
 
-There is also a special type of page — the **Components** page. It stores the reusable components you can create in your designs. Learn more about working with components <a href="https://lunacy.docs.icons8.com/components/#components-page" target="_blank">here</a>.
+There is also a special type of page — the **Components** page. It stores the reusable components you can create in your designs. Learn more about <a href="https://lunacy.docs.icons8.com/components/#components-page" target="_blank">working with components</a>.
 
 
 ## [Home Tab](#home-tab)
@@ -222,7 +206,7 @@ To **create a new document**, use any of the following ways depending on the doc
 | Anywhere in Lunacy, click | `+` on the right of the document tabs at the top of the screen |
 
 <div class="callout callout--info">
-    <p><strong>Note:</strong> Find out more about local and cloud documents <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">here</a>.</p>
+    <p><strong>Note:</strong> Find out more about <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">local and cloud documents</a>.</p>
 </div>
 
 
@@ -274,7 +258,7 @@ To **generate a personal access token** in Figma:
 
 
 <div class="callout callout--info">
-    <p><strong>Note:</strong> Some elements, such as component variants and complex vector shapes, may be displayed differently when imported into Lunacy. The article <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">here</a> lists all of the nuances of Figma import.</p>
+    <p><strong>Note:</strong> Some elements, such as component variants and complex vector shapes, may be displayed differently when imported into Lunacy. Check out the article with <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">all of the nuances of Figma import</a> for details. </p>
 </div>
 
 
@@ -308,7 +292,7 @@ Use the buttons on the right of the search bar to **sort documents** and **switc
 You can create **teams** for collaborating with others. Create **projects** inside teams and use them like folders to organize your documents.
 
 
-Find out more about teams and projects <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">here</a>. 
+Read more about <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">teams and projects</a>. 
 
 ### Account and profile
 
@@ -365,7 +349,7 @@ SVG files and high-resolution photos are unavailable on the free plan. To get th
 
 You can also upgrade to a **cloud** or **team** plan for more freedom with cloud documents, team creation, and document management. 
 
-Read more about the subscriptions we offer <a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">here</a>.
+Read more about the <a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">subscriptions we offer</a>.
 
 You can also access the list of our graphics subscriptions by **Unlock All Assets** on your profile page, then **See Pricing**.
 To see all product and subscription options available to you, as well as your Downloads (assets you’ve previously downloaded), click <embed type="image/svg+xml" alt="acc_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/lNGoYW9qskKXXlM4ZSXRWA.svg" width="16" /> and select **Billing**.

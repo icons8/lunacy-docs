@@ -24,7 +24,7 @@ page_nav:
 
 Learn more about Lunacy's features, interface capabilities, and useful tips and tricks to speed up your design process.
 
-## Working with the canvas
+## [Working with the canvas](#working-with-the-canvas)
 
 ### Navigation
 
@@ -48,7 +48,7 @@ When the zoom value exceeds 500, Lunacy displays a **pixel grid**. If you want t
 1. In the menu bar, select **View** > **Pixel grid**.
 2. Deselect all layers on the canvas and clear the **Show pixel grid** checkbox in the **right panel**.
 
-Find out about other zooming options [below](#zooming-options).
+Find out about other [zooming options](#zooming-options).
 
 ### Changing the canvas color
 
@@ -82,7 +82,7 @@ The set of controls and settings it displays depends on the type of the selected
 |  <embed type="image/svg+xml" alt="effects" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/UmOMNRV4XESuD2JDMXvi6Q.svg" width="500" />   |     **Effects.**  Add effects (shadows, blurs) to your layers. |
 |  <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NJc1I6eaxk21Auc91YH7XA.svg" width="500" />   |   **Prototyping.**   Activate prototyping options and turn your static designs into interactive prototypes. Here's <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">how it works</a>. |
 
-Click on the **Export** tab to open up export settings for your entire project or click individual/multiple layers to export just them.  For details about export settings, read <a href="https://lunacy.docs.icons8.com/export_new/#export-settings" target="_blank">here</a>. 
+Click on the **Export** tab to open up export settings for your entire project or click individual/multiple layers to export just them.  Read in detail about <a href="https://lunacy.docs.icons8.com/export_new/#export-settings" target="_blank">export settings</a>. 
 
 You can also use the **Linked Design** option to include embed links to Lunacy layers directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">in this section</a>.
 

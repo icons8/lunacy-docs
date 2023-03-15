@@ -221,7 +221,7 @@ You can **upload your designs** to Lunacy Cloud and instantly share them with ot
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/export_copy_cloud.png" height="auto"><source src="/public/export_copy_cloud.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info"> <p><strong>Note:</strong> Alternatively, select a layer or frame and press <code>Alt + С + C</code> / <code>⌥ + С + C</code> to instantly upload it to Lunacy Cloud. Lunacy will automatically copy the link, so all you have to do is paste it anywhere to share it. This option is also available on the context menu. For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p> </div>
+<div class="callout callout--info"> <p><strong>Note:</strong> Alternatively, select a layer or frame and press <code>Alt + С + C</code> / <code>⌥ + С + C</code> to instantly upload it to Lunacy Cloud. Lunacy will automatically copy the link, so all you have to do is paste it anywhere to share it. This option is also available on the context menu. Discover <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">more tips and tricks</a> for a faster workflow.</p> </div> 
 
 ### Cloud export history
 
