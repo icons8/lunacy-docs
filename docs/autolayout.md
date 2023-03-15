@@ -238,7 +238,7 @@ Here are a few examples of how an auto layout changes depending on the resizing 
 To **detach an element from auto layout settings** and move it freely around the frame:
 
 1. Select it in the **Layer list** or on the canvas.
-2. Click <embed type="image/svg+xml" alt="absolute_position" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9c9LFABEHEidPjprrmkUYA.svg" width="16" /> in the right panel. 
+2. Click <embed type="image/svg+xml" alt="absolute_position_" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fgz1fAT4GUa2fJFFWt4kWg.svg" width="16" /> in the right panel. 
 
 The element now has an **absolute position**. You can move it freely within the auto layout and keep it static regardless of any resizing changes, like in the video below.
 

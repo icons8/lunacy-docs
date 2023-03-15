@@ -22,11 +22,11 @@ page_nav:
         url: '/layerstyles'
 ---
 
-**Components** are reusable elements that you can use throughout your design. The main advantage of components is being able to edit several elements at once, like this:
+**Components** are reusable design elements that speed up your workflow and keep your designs consistent. 
+
+The main advantage of using components is that you can edit multiple instances of an element at once. For example, if you need to make a change to a button that appears in several places in your design, you can update the button **component** and the change will apply to all its **instances**:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_basics.png" height="auto"><source src="/public/component_basics.mp4" type="video/mp4"></video>
-
-Using components, you can easily create consistent designs and optimize your workflow when working on large designs with repeating or similar elements. 
 
 ## [Component basics](component-basics)
 
@@ -83,8 +83,6 @@ To **add a component instance** to the canvas, drag it from the left panel to wh
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/reusing_components_left_panel.png" height="auto"><source src="/public/reusing_components_left_panel.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info"> <p><strong>Note:</strong> If you used any components from built-in or manually created <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>, they will also appear in the Components tab.</p> </div>
-
 Right-click a component in the left panel to bring up the context menu with these options:
 
 - Rename component
@@ -94,6 +92,8 @@ Right-click a component in the left panel to bring up the context menu with thes
 - Group
 - Expand all
 - Collapse all
+
+<div class="callout callout--info"> <p><strong>Note:</strong> If you used any components from built-in or manually created <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>, they will also appear in the Components tab.</p> </div>
 
 ## [Managing components](managing-components)
 
@@ -156,7 +156,7 @@ To **switch through component states**:
 
 As your document grows along with the number of components in it, you'll probably want to organize them so you can quickly find the necessary component when you need it. 
 
-Componenet categories and subcategories in the **Components tab**:
+This is how componenet categories and subcategories appear in the **Components tab**:
 
 <embed type="image/svg+xml" alt="categories_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TDamndg4PkCuDPWyD2wrEQ.svg" width="844" /> 
 
@@ -206,7 +206,7 @@ You can **edit a main component**:
 
 ## [Swapping components](#swapping-components)
 
-Use the **Components tab** or the **right panel** swap between instances from entirely different components. Simply select an instance you want to replace and use one of the methods below:
+Use the **Components tab** or the **right panel** swap between instances from entirely different components. Simply select an instance you want to replace and use one of the methods below.
 
 **Method 1**: 
 
@@ -237,7 +237,7 @@ For a component instance, the **Component** section in the **right panel** will 
 
 <embed type="image/svg+xml" alt="rightpanel_instance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zztZgnyr9EqhG8-NFu-_hA.svg" width="844" /> 
 
-**Component state menu**. A dropdown menu displaying the current state of the component. When opened, it shows all other components and UI kits available in the document. 
+**Component state menu**. A dropdown menu displaying the current state of the component. When open, it shows all other components and UI kits available in the document. 
 
 If you didn’t create any component states, this property will read **Default State**. 
 
@@ -287,7 +287,7 @@ Here’s a full list of layers and properties you can create overrides for:
 
 To understand how all of them work, we'll use more complex examples. Also, instead of making some overrides (like text and image edits) manually, we'll use some of Lunacy's handy time-saving features like <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> and the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a>.
 
-Once of the examples we'll use is this profile card UI:
+One of the examples we'll use is this profile card UI:
 
 <embed type="image/svg+xml" alt="component_card_ui_elements" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/6BMwQzFTN0iOtpjr70XqOw.svg" width="844"/> 
 
@@ -355,7 +355,7 @@ A **tint** is a property you can add to a layer group or component. It’s usefu
 
 Tint overrides are useful for designing tabs or panels with elements that can have different states expressed through different colors.
 
-<div class="callout callout--info"> <p><strong>Note:</strong> You'll need add default tints before you can create tint overrides.</p> </div>
+<div class="callout callout--info"> <p><strong>Note:</strong> You'll need to add default tints before you can create tint overrides.</p> </div>
 
 The demo below shows three instances of the same component. We applied a tint override to one of them, then moved to the main component and modified the default tint. The change applied only to the instances without the override:
 
