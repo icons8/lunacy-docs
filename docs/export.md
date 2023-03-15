@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Export
-description: All you need to know about export in Lunacy
+description: Learn all about Lunacy’s export options and settings
 icon: 'folder-invoices'
 
 # Micro navigation
@@ -22,306 +22,239 @@ page_nav:
         url: '/images'
 ---
 
-
-
-
 ## Overview
 
-Lunacy allows you to export your designs into the following formats:
+Export your designs from Lunacy using the **Export** tab in the **right panel**:
 
-<table>
-  <thead>
-      <tr>
-        <th>Format type</th>
-        <th>Supported formats</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td>Raster</td>
-        <td>PNG, JPG, ICO, WEBP, GIF</td>
-      </tr>
-      <tr>
-        <td>Vector</td>
-        <td>SVG, PDF</td>
-      </tr>
-  </tbody>
-</table>
+<embed type="image/svg+xml" alt="export_tab" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5Glmgh3KIk63h85RxmQHKg.svg" width="844" /> 
 
-You can export:
+You can export nearly any element from Lunacy, including:
 
-* Individual or multiple layers (both separately or as a single image)
-* Content of certain frames (together with the frames or without them)
-* Content within slices
-* Document pages
-* Entire projects
+- Individual or multiple layers and layer groups (separately or as a single image)
+- Frames (with and without the frame background)
+- Content within <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">slices</a>
+- Document pages
+- Entire documents
 
-You can save export files to:
+With a single export operation, you can get multiple files of different formats and sizes. 
 
-* Your computer
-* Icons8 cloud
+**Supported formats** include:
 
-Moreover, within one export procedure you can get multiple files of different formats and sizes.
+| Format type | Supported formats                  |
+| ----------- | ---------------------------------- |
+| Raster      | `PNG`, `JPG`, `ICO`, `WEBP`, `GIF` |
+| Vector      | `SVG`, `PDF`                       |
 
-All these is detailed in the sections below. Also, here you will learn how to print your designs and how to get CSS, XAML and SVG code of your designs.
+You can save exported files **to your computer** and also [upload your layers](#cloud-export) to **Lunacy Cloud**, generating a shareable link right to the layer in the document.
 
+## Basic export rules
 
-## Important notices
+- During export, Lunacy **ignores:**
+    - Guides
+    - Square and layout grids
+    - Frame names
+    - Prototyping arrows
+    - Canvas color (not to be confused with frame background color)
+    
+    There is no way to include these elements into exported files.
+    
+- If there is **at least one frame** in your document, when you use the **Export Document** option, Lunacy will ignore all **layers located outside of frames**, as well as **main components**.
+- The **maximum height and width** of resulting raster files is **16,000 pixels**.
 
-* Remember that during export Lunacy ignores all guides, square and layout grids, frame names, as well as prototyping arrows and canvas color (not to be confused with the frame color). There is now way to include them into export files.
+## Export settings
 
-* Also, note that if there is at least one frame in your project, during *export of a project* Lunacy ignores all layers that are beyond frames, as well as main components.
+Open the **Export** tab to export a layer or the entire document: 
 
-* The maximum dimension (height or width) of resulting raster files is limited to 16,000 pixels.
+1. Select a layer (or several) or deselect all layers if you’d like to export the document.
+2. Click `+` next to the **Export**/**Export document** section.
+3. Adjust the export options, then click the **Export Selected**/**Export Document** button.
 
-## Export settings (size, suffix/prefix, format)
+All export options, including advanced export settings, are displayed in the **Export** section. Its appearance depends on what you select on the canvas. 
 
-Almost all export-related controls sit in the Inspector panel. The appearance of the export section depends on what you select on the canvas. For instance, when nothing is selected, you will see **Export project**. When you select an layer or several layers, the export section appears as **Make exportable** (scroll to the bottom of the Inspector, if you don't see it on the screen).
+With a layer selected, you will see these settings:
 
-![Make exportable](public/export-panel1.png)
+<embed type="image/svg+xml" alt="export_section_layer" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fcCzjZUPCUK2tQ8KtEPPdA.svg" width="844" /> 
 
-Click the plus icon. The **Export assets** panel appears.
 
-![Common export settings](public/export-panel.png)
+- **Export size**. By default, Lunacy exports layers at their original size (**1x**). You can change it to any of the preset scales or set your own (e.g., 8x, 10x, or 0.3x).
 
-The basic controls in this panel are the following:
+- **Prefix/Suffix**. Defines the suffix or prefix of the export's file name. For any export size larger than 1x, Lunacy generates a default a default `@<size>` suffix, but you can enter your own in the input field (use only letters and numbers).
 
-* **Size**. By default, Lunacy offers to export the selection or project in its original size (*1x*). But you can select any of the preset values or enter your own. For example, *8x*, *10x* or *0.3x*.
-* **Prefix/Suffix**. This control allows you to define the suffix/prefix (click over the edit field to select, suffix is default) that will be added to the respective file name. Lunacy automatically generates values in the `@<size>` format for all sizes other than *1x*. But you can enter any string of your own in this field (symbols disallowed for file names will be ignored).
-* **Format**. Serves to define the export file format. Note that when you select PDF as a target format, Lunacy always exports layers in their original sizes irrespective of the **Size** setting.
+* **Format**. Choose any of the available export formats. When exporting to `SVG` or `PDF`, you won’t be able to adjust the export size. It will be 1x by default.
 
-You can define as many formats and sizes as you need. For this, just click the plus icon to add a new row of settings.
+* **Publish to Web**. Publish any layer to **Lunacy Cloud** and get a shareable link to it. Read in detail about [working with cloud uploads](#cloud-export).
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/export-panelph.png" height="auto"><source src="/public/export-settings.mp4" type="video/mp4"></video>
+* **Show all cloud uploads**. Click <embed type="image/svg+xml" alt="export_show_uploads" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zJT7IKTmPkmdulIMGf5Zag.svg" width="20" />  next to the **Export** section title to open up the **Cloud Uploads** subsection.
 
-For removing export settings, click the trash can icon.
+* **Add export option**. Click `+` to add another export option. This lets you export the same element in different formats, sizes, and other settings. 
 
-Lunacy remembers all export settings that you define for each layer. So, the next time when you select a layer, the Inspector panel will the display **Export assets** section with your settings instead of the **Make exportable** caption.
+* **Remove export option**. Click <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="16" /> next to an export option to remove it.
 
-### Export presets
+* **Additional export options**. Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="16" /> to open up additional export options. Here, you can:
+    - Choose a preexisting export preset.
+    - Create a custom export preset.
+    - Remove all export options.
+    - Create a slice to export a part of the selected layer or frame. 
 
-You can save your export settings for further use and then quickly select them from the export settings menu as you need them.
+<div class="callout callout--info"> <p><strong>Note:</strong> When nothing is selected, the <b>Export document</b> section opens up. All the settings are the same, except for the <b>Upload to Cloud</b> option, which isn't available.</p> </div>
 
-There are two ways of creating export presets.
+<embed type="image/svg+xml" alt="export_document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/CAQo5B1IL0yAeB7n3QmjZg.svg" width="844" /> 
 
-**Way 1**
 
-1. In the **Export** section of the Inspector, click the settings button, then click **Create preset** on the displayed menu. The **Export Preset Editor** appears.
-2. In the **Export Preset Editor**, define all the required settings.
-3. Enter the name of the preset and click **Save**. Now, your custom preset will appear on the export settings menu.
+## Export presets
 
+An **export preset** defines specific export settings that you can reuse across your documents. You can use built-in presets or create your own.
 
-![Export presets in Lunacy](/public/rn-exportprests.png)
+Presets are especially useful when, for example, you consistently need to export UI prototypes in specific formats and sizes for your clients, you won't need to manually adjust the settings each time you export the designs. 
 
-**Way 2**
+### Creating an export preset
 
-1. In the **Export** section of the Inspector, define all the required settings.
-2. Click the settings button, then click **Create preset** on the displayed menu. The **Export Preset Editor** appears.
-3. In the **Export Preset Editor**, enter the name of the preset and click **Save**. Now, your custom preset will appear on the export settings menu.
+You can do this by:
 
-To edit or delete an export preset, hover the cursor over the preset on the export settings menu and click the respective icon (see the figure below). The export settings menu also features default presets for iOS and Android that cannot be altered or deleted.
+- Saving current export settings as a preset
+- Defining export settings for the preset in the **Additional settings** menu
 
-![Export presets](public/export-presets.png)
+To **save current export settings**:
 
-## Exporting single and multiple layers
+1. Define the required export settings for your design in the **Export** section of the right panel.
+2. Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="12" /> next to the section title to open up additional options.
+3. Select **Create preset**, name it, and click **Save**.
 
-To export a single layer (grouped layers and component instances are also viewed as single layers), proceed as follows:
+<embed type="image/svg+xml" alt="export_preset_editor" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/goHqEjhd8kqHbGYRFOxKHw.svg" width="844" /> 
 
-1. Select the layer that you want to export.
-2. In the Inspector, scroll down to the export section.
-3. Click the plus icon. Export settings appear.
-4. Define the required size, suffix/prefix and format. Repeat steps 3 and 4 as needed.
-5. Click the **Export Selected** button.
-6. In the displayed dialog box, browse to the target folder and confirm your intent. 
-7. Once the procedure is complete, the **Open file location** link appears at the bottom of the Inspector. Click the link to see the resulting file(s).
+To **define export settings for a preset**:
 
-The procedure of exporting multiple layers is almost similar to the previous one. The difference is that you can choose how to export the selected layers: each layer into a separate file or as a single image. Just click the respective button when you are through with export settings.
+1. Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="12" /> next to the **Export section** title. 
+2. Select **Create preset**.
+3. Define the export settings, name your preset, and click **Save**. Create as many presets as you need.
+4. You can use the preset for the current and future exports.
 
-![Exporting multiple layers](public/export-panel2.png)
+## Exporting elements from Lunacy
 
-When selecting multiple layers you can get the *Click + to replace mixed content* caption shown in the figure below. It means that the selected layers have different export settings. By clicking the plus icon you will clear their current settings and define new ones.
+### Exporting single and multiple elements
 
-![Exporting multiple layers](public/export-panel3.png)
+To **export a single element**:
 
-## Exporting content of frames
+1. Select the element (a layer, frame, component, etc.)
+2. Open the **Export** tab and click `+`.
+3. Define the **export settings** or use a **preset**.
+4. Click `+` again to more export options if needed.
+5. Click **Export Selected**.
+6. Choose the export folder.
+7. Once the export is complete, you’ll get an ‘Export completed’ popup with the prompt to open the file location so you can view the resulting exports.
 
-To import content of a frame or several frames:
+To export **multiple elements**:
 
-1. Select the frame(-s).
-2. In the Inspector, clear the **Include in export** checkbox (see the figure below), if you need only the content and don't want the frame itself to appear in the export results.  
-3. In the Inspector, scroll down to the export section.
-4. Click the plus icon. Export settings appear.
-5. Define the required size, suffix/prefix and format. Repeat steps 4 and 5 as needed.
-6. Click the **Export Selected** button.
-7. In the displayed dialog box, browse to the target folder and confirm your intent.
-8. Once the procedure is complete, the **Open file location** link appears at the bottom of the Inspector. Click the link to see the resulting file(s).
+Exporting multiple elements is no different. The **Export as Single Image** checkbox will appear in the settings so you can choose to export selected elements in a single file:
 
-![Include in export](public/export-panel4.png)
+<embed type="image/svg+xml" alt="export_multiple_no_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/-r2x0eNdxkelLGqoSNH6HQ.svg" width="844" /> 
 
+Also, when you select multiple layers or frames that already have defined export settings, you will see a **Click `+` to replace mixed content** message in the **Export** tab. Click `+` to clear the export settings for all elements and define new ones:
 
-## Exporting content within slices
+<embed type="image/svg+xml" alt="export_multiple" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/nDYzbp9wBUOP0S0VUhrykg.svg" width="844" /> 
 
-Slices are a special type of layers that allows you to export certain parts of your designs. You can add a slice to the canvas and quickly export everything that falls within its borders.
+### Including frame backgrounds in exports
 
-To add a slice you can:
+When you set a background for a frame, its properties in the **Design** tab will have the **Include in export** checkbox. 
 
-* Use the <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">slice tool</a>.
-* Click the slice icon (![Slice icon](public/export-sliceicon.png)) in the export section of the Inspector. The icon appears only when you select a single layer. A click over the icon creates a slice of the same size as of the selection frame around the layer. You can resize it by dragging handles, if necessary.
+Select it if you want the background to be visible in the exported file.
 
-When you select a slice, two additional parameters appear in the export panel:
+### Using slices for export
 
-* **Trim Transparent Pixels**. With this parameter enabled Lunacy crops out unnecessary transparent pixels within the slice. This can be handy when you create a slice by hand with the slice tool.
-* **Background color**. Allows you to define the background color that will appear in place of transparent pixels in the export file.
+**Slices** are special layers you can use to export certain parts of your designs.
 
-![Slice settings](public/export-panel5.png)
+To **add a slice** to the canvas:
 
-To hide/show slices on the canvas, use the **Show slices** button on the top bar.
+* Select the **Slice** tool in the toolbar or press `E`. Your cursor will change to the <embed type="image/svg+xml" alt="slice_tool" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OhVzbUI8FEaPsLz8lm2ulg.svg" width="16" /> icon. Click and drag to create a **slice**, which you can adjust to include parts of the elements you want to export.
+* When defining export options for the element, select **Create slice** in the **Additional export options** menu.
 
-![Show/Hide slice button](public/tool-slicebtn.png)
+When you select a slice, two additional settings appear in the **Export** section:
 
-To remove a slice from the canvas, select it and press`Del`.
+<embed type="image/svg+xml" alt="export_slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NottP8HlE0SSMVVRZs9AYw.svg" width="844" /> 
 
-To export the content of a slice:
+* **Trim Transparent Pixels**. With this option enabled, Lunacy crops out unnecessary transparent pixels within the slice. This can be useful when you’re creating slices by hand using the **Slice** tool.
 
-1. Select the slice. You can select multiple slices at a time as well.
-2. In the export section of the Inspector, define the required settings.
-3. Click **Export Selected**.
-4. In the displayed dialog box, browse to the target folder and confirm your intent.
-5. Once the procedure is complete, the **Open file location** link appears at the bottom of the Inspector. Click the link to see the resulting file(s).
+* **Background**. Defines the background color that appears in place of transparent pixels in the export file.
 
-## Exporting a document page
+To **export the content of a slice**:
 
-The quickest way to export all content of a document page is as follows:
+1. Select one or multiple slices.
+2. Export it just like any other element, taking into account the **additional settings** for slices.
 
-1. Use the `Ctrl+A` shortcut to select all layers available on the page.
-2. In the export section of the Inspector, define the required settings.
-3. Click the **Export Selected** or **Export as Single Image** button.
-4. In the displayed dialog box, browse to the target folder and confirm your intent.
-5. Once the procedure is complete, the **Open file location** link appears at the bottom of the Inspector. Click the link to see the resulting file(s).
+To show/hide slices on the canvas, select or deselect the **Slices** option in the **Additional options** menu from the top bar:
 
-## Exporting a project
+<embed type="image/svg+xml" alt="export_slices_enable_disable" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/vbxh7ACcEUKpMIgdJ7ccVA.svg" width="844" /> 
 
-**Note:** To be able to export a project, you should have at least one frame in it. Also, bear in mind that during export of projects, Lunacy ignores all layers that are beyond frames, as well as main components.
+### Exporting document pages
 
-When exporting a project, Lunacy creates folders whose names correspond to the names of pages in the project. Inside these folders, Lunacy creates separate files for each layer available on the respective page. Grouped layers and component instances are viewed as single layers.
+To **export all of the content in a document page**:
 
-To export a project:
+1. Use the `Ctrl + A` / `⌘ + A` shortcut to select all layers and frames on the page, **except for locked layers**.
+2. Export it like any other element.
 
-1. Press `Esc` to deselect all layers. The **Export project** section appears in the Inspector.
-2. Define the export settings as described <a href="https://lunacy.docs.icons8.com/export/#export-settings-size-suffixprefix-format">above</a>.
-3. Click **Export Project**.
-4. In the displayed dialog box, browse to the target folder and confirm your intent.
-5. Once the procedure is complete, the **Open file location** link appears at the bottom of the Inspector. Click the link to see the resulting folder(s) and file(s).
+### Exporting documents
 
-## Exporting to Icons8 Cloud
+There has to be at least one frame inside the document if you want to export it. Also, keep in mind that when exporting a document, Lunacy ignores:
 
-You can upload your designs to our Cloud and instantly share them with other people. Once the export procedure is complete, Lunacy returns you a link(s) to the cloud file(s) which you can send to your team or customer.
+- Layers that are not framed
+- Main components
 
-<!--
+When exporting documents, Lunacy creates folders with names corresponding to the names of the **document pages**. Inside these folders, Lunacy creates **separate files for each layer** available on the respective page. Grouped layers and component instances are considered single layers.
 
->**Note:** Do not confuse Icons8 Cloud and Sketch Cloud. Lunacy also supports the latter, but these are two different clouds. For details about working with Sketch Cloud, read <a href="https://lunacy.docs.icons8.com/cloud" target="_blank">here</a>.
+To **export a document**:
 
--->
+1. Press `Esc` to deselect all layers. 
+2. Click `+` next to **Export Document** in the **Export** tab.
+3. Export it like any other element.
 
-You can export to cloud:
+The **Suffix/Prefix** and **Publish to Web** options are unavailable for document exports.
 
-* Single layers (grouped layers and component instances are also viewed as single layers).
-* Entire projects. Note that you won't be able to export projects without frames and that during export of projects Lunacy ignores layers beyond frames. The only format available for export of projects is PDF. Lunacy creates a separate page for each frame in the project.
 
-### Exporting a layer to Icons8 cloud
+## [Cloud export](#cloud-export)
 
-1. Select the layer that you want to export.
-2. In the export section of the Inspector, click the **Export to Cloud** button. The **Export to Cloud** panel appears.
-3. Define export settings as needed.
-4. Click the **Export layer** button. The link(s) to the export files appears below the button.
-5. Click the copy link icon at the top of the **Links** section as shown in the figure below. This will copy to your clipboard all the resulting links at a time. You can copy individual links as well.
+You can **upload your designs** to Lunacy Cloud and instantly share them with other people:
+1. Select the layer you want to export.
+2. Define the **export settings** or use a **preset**.
+3. In the **Export** section of the **right panel**, press the **Publish to Web** button (<embed type="image/svg+xml" alt="export_upload_to_cloud" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/RZuTFd-iZ0mo25jqpPuRGg.svg" width="24" />). 
+4. The **Cloud export history** list will appear below, displaying all previous uploads, starting from the most recent.
+5. Click the copy link icon (<embed type="image/svg+xml" alt="export_copy_upload_link" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/GPNevuqpmEmBvILFhVFtyg.svg" width="20" />) next to the uploaded layer and share it:
 
-![Exporting a layer to the cloud](public/export-panel6.png)
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/export_copy_cloud.png" height="auto"><source src="/public/export_copy_cloud.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info">
-    <p><strong>Productivity Tip:</strong> The <code style="background: white">Alt+С + C</code> shortcut allows you to instantly upload a layer to Icons8 cloud and get a link to it. Just select the required layer and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away. This option is also available on the context menu.</p>
-    <p>For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
-</div>
+<div class="callout callout--info"> <p><strong>Note:</strong> Alternatively, select a layer or frame and press <code>Alt + С + C</code> / <code>⌥ + С + C</code> to instantly upload it to Lunacy Cloud. Lunacy will automatically copy the link, so all you have to do is paste it anywhere to share it. This option is also available on the context menu. For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p> </div>
 
-<!--
-**Productivity Tip:** The `Alt+С + C` shortcut allows you to instantly upload an object to Icons8 cloud and get a link to it. Just select the required object and use the shortcut. That's it! The link to the export file is already in your clipboard. You can share it right away. This option is also available on the context menu.
+### Cloud export history
 
--->
+Lunacy keeps a history of your cloud uploads. It opens up whenever you upload a layer to cloud, and you can view it anytime by clicking the **Show all cloud uploads** button in the **Export** section. 
 
+### Deleting cloud uploads
 
-![Alt + C, C](public/export-altcc.png)
+To **delete a link** to your desing from the history **and** our cloud servers, click the trashcan icon (<embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" />) next to it:
 
-### Exporting a project to Icons8 cloud
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/export_delete_cloud.png" height="auto"><source src="/public/export_delete_cloud.mp4" type="video/mp4"></video>
 
-1. Press `Esc` to deselect all layers.
-2. In the export section of the Inspector, click the **Export to Cloud** button. The **Export to Cloud** panel appears.
-3. In the **Export to Cloud** panel, click **Export**. The link to the export files appear below the button.
-4. Hover the cursor over the link, then click the respective icon to copy the link to the clipboard.
+Alternatively, right-click the link and select **Remove this file from Lunacy servers**.
 
-![Exporting a project to the cloud](public/export-panel7.png)
+To **delete all cloud uploads**, click <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" /> next to the **Cloud uploads** title.
 
-### Export history
+<div class="callout callout--info"> <p><strong>Note:</strong> We do not read or analyze the files that you upload to cloud. The guaranteed storage period of uploaded files is <bold>60 days</bold>. After that, they can be deleted from our servers without prior notice. Deleted files cannot be restored.</p> </div>
 
-Lunacy keeps the history of your uploads to the cloud. To view it, click **Previous uploads** in the **Export to Cloud** panel.
+## Code preview
 
-Hover the cursor over a link to see a preview of the file.
+The **Export** tab already displays the basic properties of your selection at the top, as well as its **Linked Design** code. 
 
-To delete a link from the list, click the trash can icon next to it.
+<embed type="image/svg+xml" alt="export_linked" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/us8UQrMzE0qpgYFHj_byqQ.svg" width="844" /> 
 
-To delete a file from the cloud, right-click the link to the file, then click **Remove this file from Lunacy servers**. After that you can click the link to make sure that it no longer works and then delete the link itself.
+<div class="callout callout--info"> <p><strong>Tip:</strong> Using <b>Linked design</b>, you can export your layouts for use on live websites simply by pasting a link directly from Lunacy into website code. This way, when you update the linked frame in Lunacy, the changes will be instantly reflected on the webpage — no need to bother the developer team. Learn to use this <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">time-saving feature</a> to your advantage.</p> </div>
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/export-historyph.png" height="auto"><source src="/public/export-history.mp4" type="video/mp4"></video>
+To see more code properties and options, open the **Code** tab, where you can view and copy the CSS, XAML, JSON, and SVG code for any layer in your document:
 
-**Note:** We in no way read or analyze files that you upload to Icons8 cloud. The guaranteed storage period of uploaded files is 60 days. After that they can be deleted from our servers without prior notice. Removed files cannot be restored. For this reason, please do not consider Icons8 cloud as a long-term storage.
+1. Select a layer.
+2. Open the **Code** tab in the **right panel**.
 
-## Other export options
+The tab displays CSS code by default. 
 
-Also, you can use the **File > Export** menu option or its `Ctrl + E` shortcut.
+**Switch the code language** in the dropdown menu at the bottom right corner of the panel:
 
-<table>
-  <thead>
-      <tr>
-        <th>When you select</th>
-        <th>Lunacy exports to the target folder</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td>No layers</td>
-        <td>The content of all available frames in separate PNG files.</td>
-      </tr>
-      <tr>
-        <td>A single layer</td>
-        <td>This layer in any of the supported export formats.</td>
-      </tr>
-      <tr>
-        <td>Multiple layers</td>
-        <td>These layers in separate PNG files.</td>
-      </tr>
-    </tbody>
-</table>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/export_code_panel.png" height="auto"><source src="/public/export_code_panel.mp4" type="video/mp4"></video>
 
-## Printing your designs
-
-You can print the content of selected frames:
-
-1. Select one or several frames.
-2. In the **File** menu, click **Print** or use the `Ctrl + P` shortcut.
-
-Lunacy exports the selection to PDF and opens it in your default PDF reader from where you can send the file to the printer.
-
-## Code Preview
-
-Lunacy allows you to view and copy CSS, XAML and SVG code for all layers in your document. This feature is ideal for UI designers.
-
-1. Select a layer and press `F4` or click **View > Code**.
-2. In the displayed panel, click over the name of the required code to view the code. Or click the copy icon to copy the code.
-
-![CSS/XAML/SVG code](public/export-copycode1.png)
-
-Alternatively, you can copy code through the context menu (see the figure below)
-
-![CSS/XAML/SVG code](public/export-copycodemenu.png)
-
-[//]: # (removed the unique features section - maybe we should recreate it as a set of links)
-[//]: # (# Unique Features)

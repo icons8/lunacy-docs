@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Components
-description: Explore the power of Lunacy by learning how to use components
+description: Increase the speed and productivity of your design workflow with reusable components
 icon: 'refresh'
 
 # Micro navigation
@@ -22,535 +22,399 @@ page_nav:
         url: '/layerstyles'
 ---
 
-**Components** are reusable layers or groups of layers that make your designs consistent and your life easier.
+**Components** are reusable design elements that speed up your workflow and keep your designs consistent. 
 
-When working with components you should understand the idea of **main components** and **component instances**. For example, when you are designing a UI, you can create a button component (that will be a main component) and then add identical buttons (component instances) wherever you need them with just a click. If you later decide to change the size, shape or the color of your buttons, you'll need to modify only the main component, and the changes will immediately apply to all the instances.
-Moreover, you can also change the text on one or even all instances. That will be an **override**. We will discuss overrides later in this section.
+The main advantage of using components is that you can edit multiple instances of an element at once. For example, if you need to make a change to a button that appears in several places in your design, you can update the button **component** and the change will apply to all its **instances**:
 
-The demo below demonstrates the effect and efficiency of using components in designs.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_basics.png" height="auto"><source src="/public/component_basics.mp4" type="video/mp4"></video>
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symbols-demo65ph.png" height="auto"><source src="/public/symbols-demo65.mp4" type="video/mp4"></video>
+## [Component basics](component-basics)
 
+These are the basic terms related to components and their functions:
 
-## [Creating components](#creating-components)
+* **Main component**. The original layer that you convert into a component. 
 
-Select a layer and perform one of the following actions:
+* **Component instance**. You create a component **instance** any time you duplicate a main component. When you edit a main component, the changes apply to all of its instances at once.
 
-* Click the plus icon in the components panel.
-* Click the add component icon on the tool bar at the top of the window.
-* Right-click and select **Create component** on the displayed menu.
-* Press `Ctrl` + `Alt` + `K`, if you prefer shortcuts.
+* **Override**. When you modify an instance, you create an **override**. The main component won't be affected, and if you edit it later, the changes won't apply to instances with overrides.
 
-The **New component** dialog box appears.
+* **Component page**. A dedicated document page used for storing main components. Lunacy adds it automatically when you create a component.
 
-![Creating a component. Step 1](public/addsymbol65.png)
+* **Component state**. Components from the same category or subcategory are called **component states**. They define the different styles for one component.
 
-In the **New component** dialog box, define the name of the component and select the page where you will store your components and click OK.
+* **Nested components**. You can nest several components in a more complex component. This gives you the most freedom and flexibility in editing your designs, and it’s an even more powerful feature when coupled with <a href="https://lunacy.docs.icons8.com/autolayout/#nested-auto-layouts" target="_blank">nested auto layouts</a>. 
 
-![Creating a component. Step 2](public/addsymbol-dialog65.png)
+## [Creating components](creating-components)
 
-## [Components page](#components-page)
+To **create a component**:
 
-You should store all your components on a separate page apart from designs. When you create your first component within a project, Lunacy will offer you to save it to the default page named **Components**. This page will be added to the project automatically.
+1. Select the layer you want to convert into a component.
+2. Click `+` in the **Component** section of the right panel or press `Ctrl + Alt + K` (`⌘ + ⌥ + K`).
 
-![Components page](public/symbolspage65.png)
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_components_methods.png" height="auto"><source src="/public/creating_components_methods.mp4" type="video/mp4"></video>
 
-You can opt to select any other page but make sure that the primary intent of such page will be storing components.
+You can also select a layer and click <embed type="image/svg+xml" alt="go_to_main" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/0yVpQqG2_kmdN0fYegHJ4g.svg" width="16" /> in the context toolbar at the top of the canvas or select the **Create component** option on the context menu.
 
-For this, right-click the required page above the Layer List and select **Set as Components page** on the displayed menu.
+### Layers vs. Frames
 
-![Selecting another components page](public/symbolspage-set65.png)
+When you create a component from a <a href="https://lunacy.docs.icons8.com/layers/" target="_blank">layer or layer group</a>, Lunacy automatically frames it and transfers it to a separate Components page where it’s stored as a main component. An instance of the newly created component remains on the canvas.
 
-From now on, when you add new components, the **New component** dialog box will in the first place offer this page for saving components to.
+If you create a component out of a <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frame</a>, it will stay on the canvas as a main component, which you can then copy to create instances.
 
-## [Organizing components](#organizing-components)
+The difference is shown here:
 
-As your project and the number of components in it grows, you will definitely face the need of organizing components into categories similar to those shown in the figure below.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_frame_layer_difference.png" height="auto"><source src="/public/component_frame_layer_difference.mp4" type="video/mp4"></video>
 
-![Component categories, how to name components](public/orgcomp65.png)
+Find out more about [component pages](#components-page).
 
-To divide your components into categories, consider the following format of component names:
+### Components and instances in the Layer list
 
-`Category name / Subcategory name / Component name`  
+<embed type="image/svg+xml" alt="components_instances_in_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/f8iTdn1orUiVLyZVImJClg.svg" width="844" /> 
 
-For example, to organize your button components, you can give them the following names:
+Main components are bold and colored pink (<embed type="image/svg+xml" alt="color_code_F15085" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/b6VBjbQ0FEaLpb01JY4uEw.svg" width="12" />) in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>, and there’s a component symbol (<embed type="image/svg+xml" alt="main_component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/JApz_Mo2XE6YIoPMoYA3ow.svg" width="16" />) in front of their name.
 
-* Button / Normal
-* Button / Hovered
-* etc.
+Component instance names aren’t bold but have the instance symbol (<embed type="image/svg+xml" alt="instance_icon" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/7zBFwNg0JEKWT8fAiIVn9A.svg" width="16" />) and the same pink color. When they’re selected, their properties and options appear in the **Component** section of the right panel.
 
-![Component categories](public/orgcomp65-2.png)
+## [Reusing components](reusing-components)
 
-You don't need to manually create categories and subcategories. Lunacy will show them automatically based on component names. The number of nesting levels for subcategories is not limited. See also [component states](#component-states).
+All the components in your document appear in the **Components tab** in the left panel.
 
-To rename a component:
+To **add a component instance** to the canvas, drag it from the left panel to where you want to place it:
 
-1. Switch to the **Components** tab on the left.
-2. In the **Components** panel, right-click the component and select **Rename** on the displayed menu or use  `F2` as a shortcut.
-3. Enter the new name and click `Enter`.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/reusing_components_left_panel.png" height="auto"><source src="/public/reusing_components_left_panel.mp4" type="video/mp4"></video>
 
-Also you can also rename components through the Layer List when you are on the **Component** page.
+Right-click a component in the left panel to bring up the context menu with these options:
+
+- Rename component
+- Edit component
+- Delete component
+- Duplicate component
+- Group
+- Expand all
+- Collapse all
+
+<div class="callout callout--info"> <p><strong>Note:</strong> If you used any components from built-in or manually created <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>, they will also appear in the Components tab.</p> </div>
+
+## [Managing components](managing-components)
+
+### [Main component properties](#main-component-properties)
+
+When you select a main component, the **Component** section in the right panel displays these properties:
+
+<embed type="image/svg+xml" alt="component_main_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NcGkZHpkfUadWBBYQjj0QA.svg" width="844" /> 
+
+* **Component type**. Select one of the presets to organize your components by type. 
+
+    <div class="callout callout--info"> <p><strong>Note:</strong> This setting currently has no visible effect. It’s reserved for future use in upcoming releases.</p> </div>
+
+* **Resizing behavior**. Choose whether to adjust the content of the component when it’s resized.
+
+* **Color picker, opacity, and visibility**. Set the component’s background color and show/hide it by pressing the <embed type="image/svg+xml" alt="eye_hide" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Aa8CJl234kaxZXUTplkR4g.svg" width="24" /> / <embed type="image/svg+xml" alt="eye_show" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/y6Qj385WoUu0be9H0CO3lA.svg" width="20" /> icons.
+
+* **Include background in export**. Include/exclude the component’s background when exporting it.
+
+* **Include in instances**. Include/exclude the component’s background in its instances.
+
+### [Components page](components-page)
+
+You can use **Components page** that Lunacy generates automatically to store all of your main components. Alternatively, you can turn any page into a **Components page**:
+
+1. Right-click the page in the **Page list**.
+2. Select **Set as Components Page**.
+
+<div class="callout callout--info"> <p><strong>Note:</strong> If you set one of your pages as a Components page, make sure its primary purpose is to store components. You’ll avoid confusion, and it will be easier to organize all of your design elements.</p> </div>
 
 ## [Component states](#component-states)
 
-Components populating the same category or subcategory are called component states. A typical example, is a toggle element that can be on or off. Or think of a button that can be pressed, hovered, disabled, etc. So, you can create several states of a component and then quickly switch between them through the Inspector as needed.
+You can create several **states** for a component and switch between them as needed in the **right panel**. 
 
-For this:
+To **create a component state**:
 
 1. Select a component instance.
-2. In the **Component** section of the Inspector, click the arrowhead to unfold the menu.
-3. On the menu, select the required component state.
+2. Click `+` in the **Component** section of the **right panel** or press `Ctrl + Alt + P` / `⌘ + ⌥ + P`.
+3. Adjust your component for the new state and name it.
+4. Click on any empty area on the canvas.
 
-![Switching between component states](public/components-states.png)
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_component_state.png" height="auto"><source src="/public/creating_component_state.mp4" type="video/mp4"></video>
 
-See also [replacing instances](#replacing-instances).
+A new component will appear near the default main component, defining the new component state. 
 
-## Viewing components in the Components panel
+Lunacy also changes the name of components when you create new states, automatically placing them into [categories](#organizing-components). You can edit categories anytime in the **Components tab**.
 
-There are two display modes for components in the **Components** panel:
+New component states for a distinct component will be displayed in the right panel as you select the component’s instances.
 
-* List mode: Shows more of your components library structure along with small previews of the components themselves.
-* Grid mode: Shows larger component icons but it is less obvious from the library structure point of view, especially when the number of components in a category is large. It shows all the components from all the subcategories within a category.
+To **switch through component states**:
 
-To switch between the modes, click the **Show as List/Show as Grid** button at the upper-left corner of the **Components** panel.
+1. Select a component instance.
+2. Choose the new component state in the **right panel**.
 
-To view a larger preview of a component, hover the cursor over the component icon for a moment.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/switching-component_state.png" height="auto"><source src="/public/switching-component_state.mp4" type="video/mp4"></video>
 
-To unfold/fold the content of all component categories, right-click anywhere over the category list and select **Expand All/Collapse All** on the displayed menu.
+<div class="callout callout--info"> <p><strong>Note:</strong> Switching component states doesn’t affect overrides. This means that if you change the component state for an instance with overrides, the overrides you created will stay unchanged.</p> </div>
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/components-panelph.png" height="auto"><source src="/public/components-panel.mp4" type="video/mp4"></video>
+## Organizing components
 
-Also, to quickly find the required component, you can type its name in the search field at the top of the **Component** panel.
+As your document grows along with the number of components in it, you'll probably want to organize them so you can quickly find the necessary component when you need it. 
 
-## Main components
+This is how componenet categories and subcategories appear in the **Components tab**:
 
-As it was mentioned earlier, you should keep main components on a dedicated page.  In this section, you will learn other details of working with main components.
+<embed type="image/svg+xml" alt="categories_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TDamndg4PkCuDPWyD2wrEQ.svg" width="844" /> 
 
-The first thing you should note is that names of main components appear in bold in the Layer List. Also, all component names, of both main component and instances, come with the component icon (![Component icon](public/symbolicon.png)) By clicking the name of a main component, you can unfold it to see its content.
+They also appear in the **Component state** dropdown menu in the right panel.
 
-The figure below shows a view of a primitive main component, which includes an automatically added component frame with the name of the component at the top and a group of layers.
+You can manually place your components in categories in the left panel (the **Group** option on the context menu) or use `/` in component names, like this: 
 
-![A view of a main component](public/master_unfold65.png)
+`Category name / Subcategory name /Component name`. 
 
-The intent of component frames is twofold:
+Here's an example with just the category name and component name:
 
-* To provide full compatibility with the native .sketch files.
-* To determine the layer behavior during resizing.
+<embed type="image/svg+xml" alt="button_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VItNofN-PkGFXHrOt_lQIA.svg" width="844" /> 
 
-You can choose to include or not to include the frame fill into instances of a component. For this:
+Still, the quickest way to categorize your components is to create [component states](#component-states).
 
-1. On the **Layers** tab, open the components page.
-2. Click the component name in the list of layers.
-3. In the Inspector, enable the frame fill checkbox.
-4. Select/clear the **Include in instances** checkbox.  
+### Deleting components
 
-![A view of a main component](public/includeinstance65.png)
+Delete main components from the **Components tab** (using the [context menu](#components-tab-context-menu)) or the **Components page** (simply delete the component frame). 
 
-### Editing main components
+When you delete a component, all of its instances turn into frames.
 
-There are two ways to edit a main component:
+## [Editing components](#editing-components)
 
-1. In the component editor (the quick one).
-2. Directly on the Component page.
+You can **edit a main component**:
 
-**Way 1**
+- In the **Component editor**.
+- Directly in the **Components page**.
 
-1. Double-click an instance of the component you want to edit.
+### Making edits in the Component editor
 
-   OR
+1. Select a component instance and press `Enter` or choose **Edit component** in the context menu.
+2. The main component will appear over the selected instance, while the rest of the canvas will be dimmed. The contents of the component will appear in the **Layer list**.
+3. Edit the component.
+4. Click <embed type="image/svg+xml" alt="exit_component_editor" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/CafkdkTnjUyKoai6_Ky0UQ.svg" width="16" /> on the context toolbar, click anywhere over the dimmed area, or press `Esc` to exit the component editor.
 
-   Select an instance of the component you want to edit. Then press `Enter` or click the **Edit main component** button (![Edit master component button](public/symbols-editsymbolbtn.png)) on the context toolbar.
-   
-   This enables the component editor. The main component appears over the selected instance. The Layer List displays the list of the component components. The rest of the canvas becomes dimmed.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_components_1.png" height="auto"><source src="/public/editing_components_1.mp4" type="video/mp4"></video>
 
-2. Edit the component in the same way as any other layer/layer group. You can change its size, color, text or any other properties using the set of tools in the Inspector.
-3. To exit the editor, do one of the following:
-    * Click ![Edit main component button](public/symbols-editsymbolbtn.png) on the context tool bar.
-    * Click anywhere over the dimmed area.
-    * Press `Esc`.
+### Making edits in the Components page
 
-The changes you make immediately apply to all the component instances across the project (see the demo below), except for the instances with respective overrides.
+1. Right-click on an instance and select **Go to Main Component** in the **right panel** or manually switch to the **Components page**.
+2. Edit the required component.
+3. Once you’re done:
+    - If you used the **Go to Main Component** option, click the **Back to instance** button at the top left corner of the canvas.
+    - If you manually opened the Components page, simply switch back to the previous page to continue working with the document.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/symbols-editmasterph.png" height="auto"><source src="/public/symbols-editmaster65.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_components_2.png" height="auto"><source src="/public/editing_components_2.mp4" type="video/mp4"></video>
 
-**Way 2**
+## [Swapping components](#swapping-components)
 
-1. Right-click an instance (on the canvas or in the Layer List) of the component you want to edit and select **Go to Main Component** on the context menu. The **Components** page opens with the required component selected.
+Use the **Components tab** or the **right panel** swap between instances from entirely different components. Simply select an instance you want to replace and use one of the following methods.
 
-    OR
-  
-    Go to the [Components page](#components-page), find and select the required component.
-2. Edit the component in the same way as any other layer/layer group. You can change its size, color, text or any other properties using the set of tools in the Inspector.
-3. When you are through with editing:
+**Method 1**: 
 
-    * If you used the **Go to Main Component** command, click the **Back to instance** button that will appear in the top-left corner of the canvas.
-    * If you chose to manually open the **Components** page, just switch to the required page, to continue working with the project.
+1. Go to the **Components tab**.
+2. Find the required component and click <embed type="image/svg+xml" alt="swap_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/FwHiX5HVcE23ZwIlDilhyw.svg" width="16" /> 
+next to it:
+    <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_tab.png" height="auto"><source src="/public/components_swap_tab.mp4" type="video/mp4"></video>
 
-### Deleting main components
+**Method 2**:
 
-To delete a main component, you should either do it from the **Components** tab or from the **Components** page.
-Note that deletion of a main component turns all its instances into groups.
+1. Open the **component state menu** in the **Component** section of the right panel.
+2. Select the required category and component state.
+    <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_rightpanel.png" height="auto"><source src="/public/components_swap_rightpanel.mp4" type="video/mp4"></video>
 
-## Component instances
+    
+## [Managing instances](#managing-instances)
 
-Instances are copies of components that you use across your project.
-In the Layer List, components instances are displayed with the component icon in front of their names. Their names appear in regular type (while main components are displayed in bold) and have the following name format:
+We already covered how to create component instances to the canvas from the **Components tab**. You can also duplicate or copy/paste instances directly onto the canvas. 
 
-`<Component name> instance`  
+With a main component or instance selected:
 
-Click the name of an instance to extend it. The nodes inside an instance are override nodes, that show the elements that you can modify for this component instance only.  For details about overrides, click [here](#overrides).
+- Press `Ctrl + D` or `Ctrl + C → Ctrl + V`.
+- Hold down `Alt`, then drag to place an instance on the canvas.
 
-The figure below shows a view of a component (top) and the way it appears in the Layer List and a view of an instance of this component (bottom).
+### Component instance properties
 
-![A view of a component and its instance](public/symbplusinst65.png)
+For a component instance, the **Component** section in the **right panel** will look like this:
 
-As you can see, the component node includes the text and the rectangle layers. You can change both these layers:
+<embed type="image/svg+xml" alt="rightpanel_instance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zztZgnyr9EqhG8-NFu-_hA.svg" width="844" /> 
 
-* The wording and its properties: font size, color, alignment, etc.
-* The rectangle properties: size, color, shades, etc.
+**Component state menu**. A dropdown menu displaying the current state of the component. When open, it shows all other components and UI kits available in the document. 
 
-As for the instance, you can change only the wording (that will be an override) but cannot change typography properties.
+If you didn’t create any component states, this property will read **Default State**. 
 
-### Adding instances to the canvas
+**Component states**. Select one of the presets to organize your components by type. Changing this for a component instance will affect its main component and vice versa.
 
-To add an instance to a project page:
+**Detach from component**. Detach the instance from its main component or press `Ctrl + Alt + D` (`⌘ + ⌥ + B`).
 
-1. Switch to the **Components** tab.
-2. Find the required component.
-3. Drag the component to where you want it.
+**Reset instance size**. If you resized the instance, click this button to revert it to the size of the main component.
 
-    OR
+**Go to main component**. Redirects you to the instance's main component.
 
-    Click the **Paste to workspace** icon at the left of the component block, if you are in the list view mode, or just click the component when in the grid view mode. This will add the component instance to the center of the visible canvas.
+**Component type**. See the corresponding [main component property](#main-component-properties).
 
-Also, you can hold down the `Ctrl` or `Shift` key, select and then drop several component instances on the canvas at a time.
+Once you modify an instance, the  <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > button appears in this section, indicating that the instance has an override:
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/components-addinstph.png" height="auto"><source src="/public/components-addinst.mp4" type="video/mp4"></video>
+<embed type="image/svg+xml" alt="instance_reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5lHhTwB-kkq7WL8ZYDn_QQ.svg" width="844" /> 
 
+Click it to **reset the override** and revert the instance back to the style of the main component. 
 
-### [Replacing instances](#replacing-instances)
 
-There are two ways to replace an instance on the canvas.
+## Creating overrides
 
-**Way 1.**
+To reiterate, an override is any edit you make to a component instance. Let's go over them in detail.
 
-1. Select the component instance you want to replace.
-2. Find the new component in the components panel.
-3. If you are in the list view mode, click the replacement icon on the component block.
+Click `▾` next to the title of a component instance in the Layer list to expand its contents. You can modify all the layers inside it to apply the changes to **this component instance only**, creating an override:
 
-    OR
+<embed type="image/svg+xml" alt="instance_in_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/qtjn2JJXVkixZRrCeXVMiA.svg" width="844" /> 
 
-    If you are in the grid view mode, just click the component.
+Some basic overrides you can make are changes to layer color, text, or image content.
 
-![Replacing component instances](public/components-replaceinst65.png)
+Below, we have a simple example of a card component consisted of an image (an oval with an **Image** fill) and a labeled button. We make three types of overrides to the card, changing the **button color**, the **button label**, and the **image**. 
 
-**Way 2**
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_simple_overrides.png" height="auto"><source src="/public/creating_simple_overrides.mp4" type="video/mp4"></video>
 
-1. Select the component instance you want to replace.
-2. In the **Component** section of the Inspector panel, click the down arrowhead to unfold the menu.
-3. Use the menu to find and select the replacement component.
+You can easily reset all of these overrides by pressing <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > in the **Component** section, like in the demo above. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/components-replaceinst65-way2ph.png" height="auto"><source src="/public/components-replaceinst65-way2.mp4" type="video/mp4"></video>
+Here’s a full list of layers and properties you can create overrides for:
 
+- Fills and images
+- Text content and properties
+- Layer and text styles
+- Auto layouts
+- Tints
+- Hotspots
 
-The menu features the following sections:
+### Understanding overrides
 
-* **Commands**: Shows the list of component-related commands. Click [here](#component-related-commands) for details.
-* **Related**: Shows the components that share the same category/subcategory with the selected component instance.
-* **Categories**: Shows the list of available component categories. You can click through the categories and subcategories to find the required component. For your convenience, the category and subcategories to which the selected component instance belong will have a dot next their names (see the gif below). For details about how to organize components, read [here](#organizing-components).
-* **UI kits**: Shows the list of external UI kits from where you can also select a replacement. For details about UI kits, click <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
-
-<div class="callout callout--info">
-    <p><strong>Tip:</strong> The size of the menu depends on the number of components and component categories in your document. If you don't see the content of the upper or lower menu sections in full, use the scroll.</p>
-    <p>For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
-</div>
-
-<!--
-
-**Tip:** The size of the menu depends on the number of components and component categories in your project. If you don't see the content of the upper or lower menu sections in full, use the scroll.
-
--->
-
-## [Component-related commands](#component-related-commands)
-
-The figure below shows menu commands that you can use when working with component instances.
-
-To access them,  first select a component instance and then open the menu in the Inspector or click **Layer** on the menu bar at the top of the window. Also, you can right-click the required component instance to invoke the context menu.
-
-{:.is-big}
-![Component-related commands](public/components-menucommands.png)
-
-The commands are as follows:
-
-<!--
-
-| Command | Description | Shortcut (Windows, Linux) | Shortcut (macOS) |
-| --- | --- | --- | --- |
-| Create Component | Creates a new component. Optionally, you can use the **Create component** button which appears at the top of the window (see the figure above). | `Ctrl+Alt+K` | `⌥⌘K` |
-| Create New Component State | Creates a new [component state](https://lunacy.docs.icons8.com/components/#component-states). | `Ctrl+Alt+S` | `⌥⌘S` |
-| Go to Main Component | Brings you to the main component of the selected instance. To return to the instance from the main component, click the **Back to instance** button that will appear in the top-left corner of the canvas. | `Ctrl+Alt+E` | `⌥⌘E` |
-| Detach from Components | When you detach an instance from its main component, it becomes a group. All further changes to the main component will no longer apply to its ex-instance. | `Ctrl+Alt+D` | `⌥⌘D` |
-| Detach from Library | This command applies only to components from external files, i.e. to components from UI kits. Detached components become document components and appear on the **Components** tab and the [Components page](https://lunacy.docs.icons8.com/components/#components-page). For more information about UI kits, click [here](https://lunacy.docs.icons8.com/libraries/#ui-kits). | `-` | `-` |
-| Reset Instance Size | By using this command you can at any moment restore the original size of any component instance. | `Ctrl+Alt+R` | `⌥⌘R` |
-| Reset Overrides | Use this command to undo all overrides and restore the initial look of an instance. For this, you can also use the reset overrides button that appears in the **Component** section of the Inspector panel, after an override takes place. | `-` | `-` |
-| Send to Component page | This command applies only to main components and becomes available only when a component is not on a dedicated components page. | `-` | `-` |
-| Convert Component to Artboard | This command applies only to main components. It converts the selected main component into an artboard with a group of objects. All the instances of the component convert into groups. | `Ctrl+Shift+Y` | `⌘ShiftY` |
-| Organize Components | A click over this command opens the components panel, where you can organize components as described [here](https://lunacy.docs.icons8.com/components/#organizing-components). | `-` | `-` |
+To understand how all of them work, we'll use more complex examples. Also, instead of making some overrides (like text and image edits) manually, we'll use some of Lunacy's handy time-saving features like <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> and the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a>.
 
--->
+One of the examples we'll use is this profile card UI:
 
-<table>
-  <thead>
-    <tr>
-      <th>Command</th>
-      <th>Description</th>
-      <th>Shortcut (Windows, Linux)</th>
-      <th style="width: 170px;">Shortcut (macOS)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Create Component</td>
-      <td>Creates a new component. Optionally, you can use the <B>Create component</B> button which appears at the top of the window (see the figure above).</td>
-      <td><code>Ctrl+Alt+K</code></td>
-      <td><code>⌥ ⌘ K</code></td>
-    </tr>
-    <tr>
-      <td>Create New Component State</td>
-      <td>Creates a new <a href="https://lunacy.docs.icons8.com/components/#component-states">component state</a>.</td>
-      <td><code>Ctrl+Alt+S</code></td>
-      <td><code>⌥ ⌘ S</code></td>
-    </tr>
-    <tr>
-      <td>Go to Main Component</td>
-      <td>Brings you to the main component of the selected instance. To return to the instance from the main component, click the <B>Back to instance</B> button that will appear in the top-left corner of the canvas.</td>
-      <td><code>Ctrl+Alt+E</code></td>
-      <td><code>⌥ ⌘ E</code></td>
-    </tr>
-    <tr>
-      <td>Detach from Components</td>
-      <td>When you detach an instance from its main component, it becomes a group. All further changes to the main component will no longer apply to its ex-instance.</td>
-      <td><code>Ctrl+Alt+D</code></td>
-      <td><code>⌥ ⌘ D</code></td>
-    </tr>
-    <tr>
-      <td>Detach from Library</td>
-      <td>This command applies only to components from external files, i.e. to components from UI kits. Detached components become document components and appear on the <B>Components</B> tab and the <a href="https://lunacy.docs.icons8.com/components/#components-page">Components page</a>. For more information about UI kits, click <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.</td>
-      <td><code>-</code></td>
-      <td><code>-</code></td>
-    </tr>
-    <tr>
-      <td>Reset Instance Size</td>
-      <td>By using this command you can at any moment restore the original size of any component instance.</td>
-      <td><code>Ctrl+Alt+R</code></td>
-      <td><code>⌥ ⌘ R</code></td>
-    </tr>
-    <tr>
-      <td>Reset Overrides</td>
-      <td>Use this command to undo all overrides and restore the initial look of an instance. For this, you can also use the reset overrides button that appears in the <B>Component</B> section of the Inspector panel, after an override takes place.</td>
-      <td><code>-</code></td>
-      <td><code>-</code></td>
-    </tr>
-    <tr>
-      <td>Send to Component page</td>
-      <td>This command applies only to main components and becomes available only when a component is not on a dedicated components page.</td>
-      <td><code>-</code></td>
-      <td><code>-</code></td>
-    </tr>
-    <tr>
-      <td>Convert Component to Frame</td>
-      <td>This command applies only to main components. It converts the selected main component into a frame with a group of layers. All the instances of the component convert into groups.</td>
-      <td><code>Ctrl+Shift+Y</code></td>
-      <td><code>⌘ Shift Y</code></td>
-    </tr>
-    <tr>
-      <td>Organize Components</td>
-      <td>A click over this command opens the components panel, where you can organize components as described <a href="https://lunacy.docs.icons8.com/components/#organizing-components">here</a>.</td>
-      <td><code>-</code></td>
-      <td><code>-</code></td>
-    </tr>
-  </tbody>
-</table>
+<embed type="image/svg+xml" alt="component_card_ui_elements" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/6BMwQzFTN0iOtpjr70XqOw.svg" width="844"/> 
 
+All the components used in the layout are on the left, and their instances are nested in the profile card frame, which is a component itself.
 
+When using complex components such as this one, you can easily change the states of the nested components, manually edit them, or modify all instances by adjusting the main component. 
 
-## Nested Components
+### Fills and images
 
-Until now we've been considering  only primitive components. But you can also create complex components with other components inside. That will be nested components. And that is nested components that will become real time savers for your projects.
+The two images in the card are easily editable. The background behind the profile photo is a simple shape with an **Image** fill.
 
-## [Overrides](#overrides)
+To change it in an instance, you only need to click it, then select the **color icon** in the **Fill** section and choose an image:
 
-Overrides are changes that you can make to a specific component instance not affecting the main component and other instances of this component across the project.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_fill_image.png" height="auto"><source src="/public/component_fill_image.mp4" type="video/mp4"></video>
 
-Currently, Lunacy provides the following types of overrides:
+You can do the same with the profile picture, provided it's a circle with an **Image** fill. To speed up the process, we recommend using Lunacy’s **Avatar tool** for placeholder profile pictures: simply press `Q` to place a randomly generated avatar picture directly onto the canvas. 
 
-* Image overrides
-* Text overrides
-* Nested component overrides
-* Layer style overrides
-* Text style overrides
-* Hotspot overrides
-* Tint overrides
+Now, when you make a component instance, a new avatar is generated automatically:
 
-## Understanding overrides
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_copying_cards.png" height="auto"><source src="/public/component_copying_cards.mp4" type="video/mp4"></video>
 
-This mini tutorial will help you better understand the idea and the power of overrides. Also, you will learn how to use some of the advanced Lunacy features.
 
-Let's assume that we are designing a contact UI. We have prepared two templates: light and dark. In the figure below, they are on the right. The figure is a screenshot of the components page of the project. These two templates are complex components that include several individual components shown to the left of the templates. Once an individual component becomes a part of a complex component, we call it a nested component.
+### Text content and properties
 
-{:.is-big}
-![A view of the components page](public/symb-tutorial1.png)
+You can easily change the text and/or its properties in the component instance text layers. 
 
+Use the **Text** section in the right panel to:
 
->**Note:** To demonstrate Lunacy capabilities to the maximum, we have also added some layer and text styles. For details about them, click <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">here</a>.
+- Change the **content** of the text layer.
+- Set new **fonts** and **text colors**.
+- Edit **typographic properties**.
+- Alter the text’s **advanced settings**.
 
-Now, we'll move from the components page to our project page, add one of the templates to the frame and see the power of components in action.
+#### Using generated texts
+In the demo above, along with the avatar, nearly all of the texts changed to randomized placeholders as well. This is because most of the texts in the layout were generated by Lunacy’s text generation feature.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-tutorialbeginph.png" height="auto"><source src="/public/components-tutorialbegin.mp4" type="video/mp4"></video>
+An extensive list of text generation options appears whenever you add a layer using the text tool (`T`). It creates randomized texts for your layouts so you don’t have to do the work yourself. Find out more about <a href="https://lunacy.docs.icons8.com/tips/#text-generation" target="_blank">text generation</a>.
 
+So, when we were creating component instances in the demo above, new texts appeared automatically.  
 
-### Image overrides
+### Layer and text styles
 
-Our template contains two image overrides: the avatar image and the background.
+In the main component, we used text and color styles to design our layouts. This is a convenient feature for keeping your designs consistent and easily editable. 
 
-We will replace the avatar first. The procedure is follows:
+Simply switch styles, create new ones, or edit and delete existing styles in the **Style** section of the right panel:
 
-1. Click over the image override on the canvas or select it in the Layer List.
-2. In the Inspector, click the **Replace image** button. The **Open** dialog box appears.
-3. In the dialog box, select a new image.
-4. Click the **Open** button.
+<embed type="image/svg+xml" alt="style_dropdown_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/_1_XLrY8B0WTqyjneVrQaw.svg" width="844" /> 
 
-Also, you can use the Lunacy photo and image libraries. We will do it for overriding the background image:
 
-1. Switch over to the **Photos** tab.
-2. Find the image you like.
-3. Drop the image onto the override.
+### Auto layout overrides
 
-The video below shows both methods of overriding images.
+When you modify auto layout settings in instances, a **Reset overrides** button appears in the **Auto layout** section of the right panel:
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-imageoverrideph.png" height="auto"><source src="/public/components-imageoverride.mp4" type="video/mp4"></video>
+<embed type="image/svg+xml" alt="component_auto_layout_reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/nfoh4DzycUK4PGMjgu8Xrg.svg" width="844" /> 
 
+Use it to reset **only the auto layout overrides** in an instance:
 
-### Text overrides
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_auto_layout_instance.png" height="auto"><source src="/public/component_auto_layout_instance.mp4" type="video/mp4"></video>
 
-To demonstrate text overrides we will change the contact's name and contact data.
-
-**Step 1.**
-
-Change the contact's name:
-
-1. Click over the text override on the canvas or select it in the Layer List.
-2. Press `Enter` or click the **Edit Layer** button on the top bar.
-3. Enter the new text.
-4. When done, press `Esc` to exit the edit mode.
-
-![Text override. Step 1](public/components-textoverride1.png)
-
-In Steps 2 and 3 we will use the text generation and text snippets features.
-
-**Step 2.**
-
-Add the contact's phone number:
-
-1. Click over the text override on the canvas or select it in the Layer List.
-2. On the top bar, click the down arrowhead next to the **Generate text** button, then select **People > Phone**. Use the `Shift + R` shortcut to refresh generated content, if needed.
-
-**Step 3.**
-
-Add the contact's email:
-
-1. Click over the next text override on the canvas or select it in the Layer List.
-2. Press `Enter` or click the **Edit Layer** button on the top bar to start editing the override.
-3. Enter *;em* and and press `Esc`. Lunacy will replace the *;em* text snippet with a random email address. Use the `Shift + R` shortcut to refresh generated content, if needed.
-
-The gif below demonstrates text overrides described in Steps 2 and 3.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/components-textoverrideph.png" height="auto"><source src="/public/components-textoverride.mp4" type="video/mp4"></video>
-
-
-For details, about text generation and text snippets, click <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">here</a>.
-
-### Nested components overrides
-
-Now we'll have a look at how nested components overrides work.
-
-**Step 1.**
-
-First of all, let's change the icon in front of the contact's email address for a more suitable one. To be able to quickly do it, we have prepared a set of icons that we will use across the project, converted them into components and placed them to the same category. For details about how to organize components, read [here](#organizing-components).
-
-1. Find and select the icon override in the Layer List or select it on the canvas. The **Component** section appears in the Inspector.
-2. In the **Component** section of the Inspector, click the down arrowhead and select the mail icon on the displayed menu.
-
-{:.is-big}
-![Nested components override. Step 1](public/components-nestoverridestep1.png)
-
-**Step 2.**
-
-At the bottom of our template we have three buttons: one is in the active state, two others are inactive. Let's show how the button will look when hovered over. For this, we have also created an individual component, which will override the current one.
-The procedure is as follows:
-
-1. Find and select the button override in the Layer List or select it on the canvas. The **Component** section appears in the Inspector.
-2. In the **Component** section of the Inspector, click the down arrowhead. The menu appears.
-3. In the categories section of the menu, navigate to the required component (see the demo below).
-
-<!--
-
-{:.is-big}
-![Text override. Step 2](public/symb-tutorial9.gif)
-
--->
-
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-nestedoverrideph.png" height="auto"><source src="/public/components-nestedoverride.mp4" type="video/mp4"></video>
-
-
-As you might notice, at the end we also made a text override.
-
-#### None override
-
-Also, you can hide a nested component from the template by using the **None override** option.
-
-For this:
-
-1. Find and select the nested component in the Layer List or select it on the canvas. The **Component** section appears in the Inspector.
-2. In the **Component** section of the Inspector, click the down arrowhead. The menu appears.
-3. In the upper section of the menu, click **No Component**.
-
-![None override 1](public/components-noneover.png)
-
-Lunacy will override the component you selected with the so-called *none component*. You can always override the none component with any other component.
-
-![None override 2](public/components-noneover2.png)
-
-### Layer and text style overrides
-
-To demonstrate these two types of overrides, let's change the layer style of the padding and the text style of the contact name.
-
-For this:
-
-1. Find and select the override in the Layer List or select it on the canvas.
-2. Apply the new style from the Inspector or from the **Styles** tab as shown in the demo below.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components-nestedoverrideph.png" height="auto"><source src="/public/components-stylesoverride.mp4" type="video/mp4"></video>
-
-
-Repeat the procedure to override text styles of the phone number and email address.
-
-### Hotspot overrides
-
-If your template features a hotspot, you can override its target frame. Optionally, you can select the none override option to disable the hotspot.
+Press the same button in the **Components** section to **reset all overrides** in the instance, **including** overrides made to the auto layout. Read in more detail about <a href="https://lunacy.docs.icons8.com/autolayout/#auto-layout-overrides" target="_blank">auto layout overrides</a>.
 
 ### Tint overrides
 
-For details about tint overrides, read <a href="https://lunacy.docs.icons8.com/styling/#tint-overrides" target="_blank">here</a>.
+A <a href="https://lunacy.docs.icons8.com/styling/#tints" target="_blank">tint</a> is a property you can add to a layer group or component. It’s useful for adding color to elements with semi-transparent parts or complex icons.
 
-## Duplicating components
+Tint overrides are useful for designing tabs or panels with elements that can have different states expressed through different colors.
 
-You can duplicate your existing components and quickly create new ones based on their parents.
+<div class="callout callout--info"> <p><strong>Note:</strong> You'll need to add default tints before you can create tint overrides.</p> </div>
 
-To duplicate a component:
+The demo below shows three instances of the same component. We applied a tint override to one of them, then moved to the main component and modified the default tint. The change applied only to the instances without the override:
 
-* Select the component in the left panel or on the canvas and press `Ctrl + D`.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_tint_overrides.png" height="auto"><source src="/public/component_tint_overrides.mp4" type="video/mp4"></video>
 
-    OR
-* Right-click the component in the left panel or on the canvas, then select **Duplicate** on the displayed menu.
+When you apply an override, the <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > button appears in the **Tint** section of the right panel. Use it to remove only the tint override.
+
+### Hotspot overrides
+
+If there’s a <a href="https://lunacy.docs.icons8.com/prototyping/#hotspots" target="_blank">hotspot</a> in your layout, you can override its target frame.
+
+### None override
+
+You can **hide a nested component** by using the **None override** option.
+
+To do this:
+
+1. Select a nested component.
+2. Open the component state menu in the **Component** section of the right panel. 
+3. Choose **No Component**.
+
+<embed type="image/svg+xml" alt="none_override" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZVDYrY3GQ0SWOR9pg63N4Q.svg" width="844" /> 
+
+Lunacy will override the component with the so-called **none component**. Later on, you can always override the none component with any other component.
+
+## [Components and auto layouts](#combining-auto-layouts-and-components)
+
+You’ve seen how using components makes the design process faster and much easier. Adding auto layouts to the mix speeds things up even more. 
+
+Creating components with auto layout, then nesting those in larger auto layout frames makes it easy to manage complex designs and quickly update them when needed. 
+
+If any spacing or padding distances seem off or you’re still in drafting mode, using components and auto layouts is the fastest way to test different versions of your designs.
+
+For example, there’s quite a few auto layouts in our profile card examples:
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_auto_layout_main.png" height="auto"><source src="/public/component_auto_layout_main.mp4" type="video/mp4"></video>
+
+
+## Component-related shortcuts and menu options 
+
+To recap, here’s a list of context menu options and shortcuts you can use to work with components, along with corresponding shortcuts, if available.
+
+### Main component options
+
+| Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | Description   | Windows and Linux Shortcut / Menu Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | MacOS Shortcut / Menu Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| -- | -- | ----------------------------- | ----------------------------- |
+| **Create Component**           | Create a new component from a layer. You can also click <embed type="image/svg+xml" alt="go_to_main" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/0yVpQqG2_kmdN0fYegHJ4g.svg" width="16" /> in the context toolbar at the top of the canvas.      | `Ctrl + Alt + K`      | `⌘ + ⌥ + K`    |
+| **Convert Component to Frame** | Right-click a main component and select the option to convert it into a frame. All of its instances will also turn into frames. | `Ctrl + Shift + Y`     | `⌘ + Shift + Y`              |
+
+
+### Component instance options
+
+| Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     | Description    | Windows and Linux Shortcut / Menu Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| MacOS Shortcut / Menu Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
+| -- | -- | ----------------------------- | ----------------------- |
+| **Create New Component State** | Add a new state for the component.                  | `Ctrl + Alt + S`      | `⌘ + ⌥ + S`  |
+| **Go to Main Component**       | Brings you to the main component of the selected instance. To return to the instance from the main component, click the **Back to instance** button that appears at the top-left corner of the canvas.   | `Ctrl + Alt + E`       | `⌘ + ⌥ + E`     |
+| **Detach from Components**     | When you detach an instance from its main component, it becomes a group. All further changes to the main component will no longer apply to the detached instance.  | `Ctrl + Alt + D`            | `⌘ + ⌥ + B`     |
+| **Detach from Library**        | This command only applies to components from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>. Detached components become native to the document and appear on the **Components tab** and the **Components page**. | `-`      | `-`|
+| **Reset Instance Size**        | Restore the original size of any component instance.     | `Ctrl + Alt + R`  | `⌘ + ⌥ + R`        |
+| **Reset Overrides**  | Use this command to undo all overrides and revert the instance to the style of its main component. You can also use the Reset overrides button in the **Component** section of the right panel.   | `-`   | `-`  |
+| **Send to Component page**     | This command only applies to main components and becomes available when a component isn't on the dedicated **Components page**.    | `-`   | `-`         |
+
