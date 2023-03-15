@@ -213,7 +213,7 @@ To set the size of grid cells, enter the desired value in the **Grid size** fiel
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/square_grid.png" height="auto"><source src="/public/square_grid.mp4" type="video/mp4"></video>
 
-#### [Layout grid](#layout-grid)
+### [Layout grid](#layout-grid)
 
 Layout grids are useful for positioning design elements within your [frame](#frames). If you have several frames on a page, you can toggle layout grids on and off for them just like with sqaure grids, using the corresponding button in the right panel.
 

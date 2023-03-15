@@ -89,7 +89,10 @@ You can also select elements within the frame to **change their individual auto 
 
 <embed type="image/svg+xml" alt="autolayout_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LFv-N9G44E2xNXuBicy3Yg.svg" width="844" /> 
 
-* **Resizing options**. Determine how the container frame responds to changes made to layers inside it. Set height or width (or both) **Hug** if you want the frame to be resized depending on the size of its contents. Use the **Fixed** option if you want the frame to remain unchanged regardless of the size of its contents.
+* **Resizing options**. Determine how the container frame responds to changes made to layers inside it:
+
+    * Set height or width (or both) **Hug** if you want the frame to be resized depending on the size of its contents.
+    * Use the **Fixed** option if you want the frame to remain unchanged regardless of the size of its contents.
 
 * **Layout orientation**. Set a **vertical** or **horizontal orientation** for elements in an auto layout. Vertical orientation arranges elements along the **Y axis**, and horizontal orientation places them on the **X axis**. 
 
@@ -293,5 +296,5 @@ Changing the original, or main, component (either its element properties or its 
 
 <embed type="image/svg+xml" alt="auto_layout_components_edit" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fNthiKa0dUaYZjEjSuP_Hw.svg" width="844" /> 
 
-Read in detail about <a href="https://lunacy.docs.icons8.com/components/#combining-auto-layouts-and-components" target="_blank">combining auto layouts with components.</a>.
+Read in detail about <a href="https://lunacy.docs.icons8.com/components/#components-and-auto-layouts" target="_blank">using auto layouts with components</a>.
 

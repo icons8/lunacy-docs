@@ -71,10 +71,9 @@ These are the main elements of the interface:
 | <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The **Pixels on Zoom** option shows pixels when the zoom value exceeds 100. | **View** > **Pixels on Zoom** |
 | <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the [right panel](#the-right-panel) on and off. | `-` |
 
-* **The Zoom control**. Read about [zooming options](#zooming-options) below.
+* **The Zoom control**. Use it to adjust the zoom value. Read in more detail <a href="https://lunacy.docs.icons8.com/basics/#zooming-options" target="_blank">about zooming options</a>.
 
 * **Theme switch**. Use it to switch between the light and dark themes.
-
 
 ## [Canvas](#canvas)
 
@@ -165,7 +164,7 @@ The rest of the actions are accessible through the **context menu**, which you c
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/page_add_rename.png" height="auto"><source src="/page_add_rename.mp4" type="video/mp4"></video>
 
-There is also a special type of page — the **Components** page. It stores the reusable components you can create in your designs. Learn more about <a href="https://lunacy.docs.icons8.com/components/#components-page" target="_blank">working with components</a>.
+There is also a special type of page — the **Components** page. It stores the reusable <a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>. you can create in your designs. 
 
 
 ## [Home Tab](#home-tab)
