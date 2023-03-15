@@ -40,8 +40,6 @@ page_nav:
 
 # Version 9
 
-<!--
-
 ## 9.1 (Beta)
 *Release date: March 1, 2023*
 
@@ -55,10 +53,29 @@ Download beta:
     <p><strong>Note:</strong> Due to changes in the Cloud API, cloud documents once opened in v.9.1 won't open in the earlier Lunacy versions.</p>
 </div>
 
-1. New Render Engine
-2. Full RTL Support in UI and Text Layers.
 
--->
+### Arc editor
+
+With the Arc editor, you can quickly create rings and semirings, design pie charts or other fancy circular elements. Draw an ellipse, and use the handles that show up within the bounding box.
+
+### On-canvas controls for editing stars and polygons 
+Another improvement to save you from digging in the right panel. Adjust the number of vertices, corner radius values, and ratio for stars and polygons by dragging the respective handles right on the canvas.
+
+### RTL and BiDi support
+
+Lunacy became more accessible and user-friendly for people who read and write from right to left. When you select an RTL localization, Lunacy’s interface mirrors itself to provide a true RTL experience. We also significantly improved the work with RTL languages on the canvas, as well as the usage of emojis in such languages.
+
+### New render engine
+
+This version brings a new render engine, which means higher FPS and lower input lags.
+
+### Improvements
+
+* We reduced the number of points used to build smooth corners. Thanks to that, squircles now appear even smoother than before.
+* Numerous auto layout improvements and fixes.
+* Numerous Figma import improvements.
+
+
 
 ## 9.0
 
