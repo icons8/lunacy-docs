@@ -377,7 +377,7 @@ To do this:
 2. Open the component state menu in the **Component** section of the right panel. 
 3. Choose **No Component**.
 
-<embed type="image/svg+xml" alt="none_override" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZVDYrY3GQ0SWOR9pg63N4Q.svg" width="844" /> 
+<embed type="image/svg+xml" alt="override_no_component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/1rNKrYADVkKFezruOa3PvA.svg" width="844" /> 
 
 Lunacy will override the component with the so-called **none component**. Later on, you can always override the none component with any other component.
 
