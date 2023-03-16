@@ -369,7 +369,7 @@ If there’s a <a href="https://lunacy.docs.icons8.com/prototyping/#hotspots" ta
 
 ### None override
 
-You can **hide a nested component** by using the **None override** option.
+You can **hide a nested component** using the **None override** option.
 
 To do this:
 
