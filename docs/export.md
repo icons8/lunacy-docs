@@ -30,10 +30,10 @@ Export your designs from Lunacy using the **Export** tab in the **right panel**:
 
 You can export nearly any element from Lunacy, including:
 
-- Individual or multiple layers and layer groups (separately or as a single image)
-- Frames (with and without the frame background)
+- Individual or multiple <a href="https://lunacy.docs.icons8.com/layers/" target="_blank">layers</a> and layer groups (separately or as a single image)
+- <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">Frames</a> (with and without the frame background)
 - Content within <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">slices</a>
-- Document pages
+- <a href="https://lunacy.docs.icons8.com/interface/#document-pages" target="_blank">Document pages</a>
 - Entire documents
 
 With a single export operation, you can get multiple files of different formats and sizes. 
