@@ -243,7 +243,7 @@ If you didn’t create any component states, this property will read **Default S
 
 **Component states**. Select one of the presets to organize your components by type. Changing this for a component instance will affect its main component and vice versa.
 
-**Detach from component**. Detach the instance from its main component or press `Ctrl + Alt + D` (`⌘ + ⌥ + B`).
+**Detach from component**. Detach the instance from its main component or press `Ctrl + Alt + D` / `⌘ + ⌥ + B`.
 
 **Reset instance size**. If you resized the instance, click this button to revert it to the size of the main component.
 

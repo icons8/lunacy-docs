@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Cloud documents
-description: Learn how to work with cloud documents
+description: Learn how to work with and collaborate on cloud documents
 icon: 'upload-2'
 
 # Micro navigation
@@ -22,128 +22,150 @@ page_nav:
         url: '/interface'
 ---
 
-There are two types of documents in Lunacy: local and cloud.
 
-* **Local documents** live on your computer. You can access and work with them even when you're offline.
-* **Cloud documents** are stored on Icons8 servers. You can access and work with them from any computer that has Lunacy installed and is connected to the internet.
+In Lunacy, you can work with **local** and **cloud** documents. You can tell them apart by the icons next to their title:
 
-Other advantages of using cloud documents include:
+<embed type="image/svg+xml" alt="local-and-cloud-docs-difference" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/wLqQUPtoZUSZkvVmd9UOBg.svg" width="844" /> 
 
-* **Collaboration and file sharing**. You can collaborate with other designers over the same project in real time or demonstrate your work to customers. Also, in the [observer mode](#observer-mode), you can watch what other users are currently doing.
-* **Version history**. Local files don't have it.
-* You can always **save them as local documents**.  
+**Local documents** live on your computer. You can access and edit them even when offline.
 
-## Creating a cloud document
+**Cloud documents** are stored on Icons8 servers. They’re accessible and editable from any computer that has Lunacy installed and is connected to the internet.
 
-To create a new cloud document, do one of the following things:
+Other advantages of cloud documents include:
 
-* In the menu bar, click **File** > **New Cloud Document**.
-* Use the `Ctrl+Shift+N` (`⌘ Shift N`) shortcut.
-* On the **Home** tab, click **New Cloud Document** (see the figure below).
+- **Collaboration and file sharing.** [Collaborate](#sharing-cloud-documents) with other designers over the same project in real time or demonstrate your work to clients. Also, in [observer mode](#observer-mode), you can watch what other users are doing in real time.
+- **Version history.** Track the [different versions](#version-history) of your document. You can save versions manually or use the ones Lunacy saves automatically after every 100 actions. This isn’t available for local documents.
+- You can always [save them as local documents](#saving-cloud-as-local) if you need to.
 
-<embed type="image/svg+xml" alt="Creating a cloud document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Fv6j2YxF4UeK8FsSKZMV_Q.svg" />
+## [Creating a cloud document](#creating-cloud-documents)
 
+To **create a new cloud document**:
 
-## Opening a cloud document
+- In the menu bar, click **File** > **New Cloud Document**.
+- Press `Ctrl + Shift + N` / `⌘ + Shift + N`.
+- On the **Home tab**, click **New Cloud Document**.
 
-To open a cloud document:
+<embed type="image/svg+xml" alt="create-new-cloud-doc" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/VFrq8Z9GGUakaUWIP7vu-g.svg" width="844" /> 
 
-1. Go to the **Home** tab.
-2. In the **Recent** or **Documents** section, find your document and click it.
+## [Opening a cloud document](#opening-cloud-documents)
 
-<embed type="image/svg+xml" alt="Opening a cloud document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2G4RkUjagk2Dg2TIeBt9Tg.svg" />
+To **open a cloud document**:
 
+1. Go to the **Home tab**.
+2. Find your document in the **Recent** or **My Cloud** sections and click it.
 
+## [Sharing a cloud document](#sharing-cloud-documents)
 
-## Sharing a cloud document
+You can share cloud documents using both **public** and **private** links:
 
-You can share cloud documents as public or private:
+- Public documents are accessible to **everyone with the document link**.
+- Private documents are accessible through private **one-time** links only. You’ll have to generate a personal link for every user you want to invite to the document.
 
-* **Public** documents are accessible to everyone with a common link.
-* **Private** documents are accessible through private one-time links only. So, you've got to generate a personal link for every user that you want to invite to your document.
+To **share a cloud document**:
 
-To share a cloud document:
+1. In the upper-right corner of the canvas, hover the cursor over the **Share** button to open the panel with sharing options.
+2. In the dropdown menu on the left, choose whether you want to generate a **private** or **public link**.
+3. Next to **Anyone with the link**, select what other users can do with the document:
+    - **Can edit.** This option grants full access to the document, except they won’t be able to delete it.
+    - **Can export.** Users can view and export selected objects or the entire document, as well as inspect the code of the elements in the document. For instance, you can grant export access to developers.
+    - **Can view.** With this access level, users will be able to view the content in the document and copy elements to their own documents.
+4. Click **Generate and copy link** and share it.
 
-1. In the upper-right corner of the canvas, click **Share**.
-2. In the displayed panel, select the type of the document: *public* or *private*.
-3. In **Anyone with the link**, select what other users can do with the document:
-    * **Edit** — full access to the document (except for deletion).
-    * **Export** — users with this access level cannot edit documents. They can only view and export selected objects or the whole project, and inspect the code of the objects. For instance, you can grant export access to developers.
-    * **View** — users with this access level can only view the content of the document.
-4. Click **Copy link** and send it to the person you want to share the document with.
+When invited users access your document, their avatars show up next to the **Share** button. You can individually modify their access level, temporarily ban, or remove them from the list:
 
-<embed type="image/svg+xml" alt="Sharing a cloud document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2rN_zzHnCUmG0EB-eepOGA.svg" />
+<embed type="image/svg+xml" alt="sharing-link-options" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ZaQMMkQgikGBqPRrB7i_5g.svg" width="844" >
 
-When invited users click over a shared link and access your document, their avatars show up in the **Share** panel. You can individually modify their access level, temporarily ban or delete them from the list. Personal settings override the **Anyone with the link** setting.
+Personal settings override the **Anyone with the link** setting.
 
-<embed type="image/svg+xml" alt="Sharing a cloud document 2" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fL5EbbvGoUGHjOVeF5Zm9w.svg" />
+## [Joining a document shared with you](#joining-shared-documents)
 
+Once you’re invited to the document, open it by copying its link and pressing `Ctrl + V` / `⌘ + V` anywhere in Lunacy. 
 
+Alternatively, you can paste the link into your browser. This will either redirect you to Lunacy or prompt you to install it on your device. 
+
+Documents shared with you appear in the **Recent** section of the **Home tab**, so you’ll be able to access them anytime. 
+
+If you don't need it anymore, you can remove it from the **Recent** section or leave the document entirely by selecting the option on its context menu in the **Home tab**:
+
+<embed type="image/svg+xml" alt="remove-from-recent-leave" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/SIP-2TiC4k-Lx_gPhJhwGg.svg" width="844" /> 
+
+You can also remove yourself from the document in the **Share** panel.
+
+## [Saving cloud documents as local `.sketch` files](#saving-cloud-as-local)
+
+To **save a local version** of a cloud document:
+
+1. In the menu bar, select **File** > **Save as**.
+2. Choose the destination folder and click **Save**.
+
+<embed type="image/svg+xml" alt="save-cloud-docs-as-local" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ifotwEoBBkG8xdA5RB9fsQ.svg" width="844" /> 
+
+## [Deleting a cloud document](#deleting-cloud-document)
+
+To **delete a cloud document**:
+
+1. Go to the **Home tab**.
+2. In the **Recent** or **My Cloud** sections, find your document and right-click it.
+3. Select **Delete** in the context menu.
+
+<embed type="image/svg+xml" alt="delete-document" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Eis6Wbdhz0S9C8Hy-e7PIQ.svg" width="844" >
+
+Deleted documents migrate over to the **Deleted** section of the **Home tab**, where you can either **restore** or **permanently delete** them. 
+
+<embed type="image/svg+xml" alt="delete-document-permanently" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/F1MZnxw8LUiAegL8WRxclA.svg" width="844" >
+
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> On the free plan, deleted documents are stored for <b>30 days</b>. Older documents get archived and cannot be restored. If you need a longer storage period, consider our paid plan options.</p>
+</div>
 
 ## [Observer mode](#observer-mode)
-The Observer Mode enables you to follow the activities of other users on the canvas. For this, click the user's avatar in the top-right corner. You will see a colored frame around the canvas indicating that you're now in the Observer Mode.
 
+Use the **observer mode** to follow the activities of other users on the canvas. 
 
-<embed type="image/svg+xml" alt="Observer mode" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/mP2ZW1eSmEK8lKMe470eyQ.svg" />
+To activate it, simply click the user’s avatar in the top-right corner. You will see a colored frame around the canvas, indicating that you’re now observing the chosen user:
 
-To exit the mode, click the user's avatar once again.
+<embed type="image/svg+xml" alt="lunacy-observer-mode" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/0xaWyWocJUOw5UKaDuJr4Q.svg" width="844" >
 
-<div class="callout callout--warning">
-    <p><strong>Note:</strong> You will only be able to view the user's activities on the canvas. You won't be able to see the interactions on the side panels.</p>
-</div>
-
-## Version history
-
-Lunacy automatically saves document versions after a series of 100 user actions. You can also save versions manually through **File > Save to version history** or using the `Ctrl(⌘) + Alt + S` shortcut.
-
-There several ways to view a document version history:
-
-* With the open document, go to **File** > **Show version history**.
-* With the open document, right-click over the document tab on the top panel, then select **Show version history** on the context menu.
-* On the **Home** tab, right-click over the document card, then select **Show version history** on the context menu. 
-
-The list of versions opens in the right panel. Hover the cursor over the required version and click ![open version button](public/external_link.png) to open it. File versions open as local temporary files that you can save to any folder on your computer and then import back to the Cloud.
-
-Also, on the history panel, you can:
-
-* Sort out versions by clicking the **All**, **Auto**, and **Manual** buttons at the top of the panel.
-* Rename, open, copy links to, or delete versions using the respective commands in the context menu (see the figure below). To see the context menu, right-click over the required version.
-
-<embed type="image/svg+xml" alt="Version history Copy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LRydlraNhkeC4hL0oRTbYQ.svg" />
-
-
-
+Click the user’s avatar again to exit observer mode.
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> Free users can access up to 30 days of version history. To unlock the full history of any existing cloud file, subscribe to a Personal Cloud plan.</p>
+    <p><strong>Note:</strong> You will only be able to view the user's activities on the canvas. You won't be able to see what they do in the side panels.</p>
 </div>
 
+## [Version history](#version-history)
 
-## Saving cloud documents as local .sketch files
+Lunacy automatically saves a version of your cloud document after every 100 actions. 
 
-To save a cloud document as local:
+You can also **save versions manually**:
 
-1. In the menu, click **File > Save as**.
-2. In the displayed dialog box, define the folder where you want to save the file.
-3. Click **Save**.
+- In the menu bar, select **File** > **Save to version history**. 
+- Press `Ctrl + Alt + S` / `⌘ + ⌥ + S`.
 
-<embed type="image/svg+xml" alt="Saving cloud documents as local .sketch files" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5-CDVkC34EitxNGTmKk5Pw.svg" />
+There several ways to **view a document’s version history**:
 
+- With the document open, select **File** > **Show version history** in the menu bar.
+- With the document open, right-click the **document tab** in the top bar, then select **Show version history** on the context menu.
+- On the **Home tab**, right-click the document and select **Show version history** on the context menu.
 
-## Deleting a cloud document
+A panel with the list of document versions will appear on the right side of the interface:
 
-To delete a cloud document:
+<embed type="image/svg+xml" alt="version-history-open" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/cFOJlZBo0U-vi0rNjn3HaQ.svg" width="844" >
 
-1. Go to the **Home** tab.
-2. In the **Recent** or **Documents** section, find your document and right-click over it.
-3. In the context menu, click **Delete**.
+Hover the cursor over the required version and click <embed type="image/svg+xml" alt="open-version-icon" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/txwPfDvwFkq5DadtEM1MTA.svg" width="16" /> to open it. The versions will open as local temporary files that you can save to any folder on your computer and then import back to cloud.
 
-<embed type="image/svg+xml" alt="Deleting a cloud document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bPHM48stFE-C2ITaKZMy2g.svg" />
+You can sort document versions here by the method they were saved: click the **All**, **Auto**, and **Manual** buttons at the top of the panel. 
 
-Deleted documents get to the **Deleted** section of the **Home** tab from where you can either restore the document or permanently delete it.
+For additional options, open the **version history context menu** by right-clicking a version. Using the menu, you can rename, open, copy the link to, or delete document versions:
 
-![Deleting cloud documents](/public/deleting_cloud_doc.png)
+<embed type="image/svg+xml" alt="version-history-context-menu" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/FwCOCpdVmUu8YeY7UKR0hA.svg" width="844" >
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> The maximum storage period of deleted documents for free users is 30 days. Older documents get archived and cannot be restored.</p>
+    <p><strong>Note:</strong> Free users can access up to <b>30</b> days of version history. To unlock the full history of any existing cloud file, subscribe to a <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">Personal Cloud plan</a>.</p>
 </div>
+
+Apart from cloud documents, you can expand your collaboration options with <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">teams</a> and unlock additional features with our <a href="https://lunacy.docs.icons8.com/subscriptions" target="_blank">paid plans</a>.
+
+
+
+
+
