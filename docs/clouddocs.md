@@ -129,7 +129,7 @@ To activate it, simply click the user’s avatar in the top-right corner. You wi
 Click the user’s avatar again to exit observer mode.
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> You will only be able to view the user's activities on the canvas. You won't be able to see what they do in the side panels.</p>
+    <p><strong>Note:</strong> You will only be able to view the user's activities <b>on the canvas</b>. You won't be able to see what they do in the side panels.</p>
 </div>
 
 ## [Version history](#version-history)
@@ -160,7 +160,7 @@ For additional options, open the **version history context menu** by right-click
 <embed type="image/svg+xml" alt="version-history-context-menu" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/FwCOCpdVmUu8YeY7UKR0hA.svg" width="844" >
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> Free users can access up to <b>30</b> days of version history. To unlock the full history of any existing cloud file, subscribe to a <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">Personal Cloud plan</a>.</p>
+    <p><strong>Note:</strong> Free users can access up to <b>30 days</b> of version history. To unlock the full history of any existing cloud file, subscribe to a <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">Personal Cloud plan</a>.</p>
 </div>
 
 Apart from cloud documents, you can expand your collaboration options with <a href="https://lunacy.docs.icons8.com/teams/" target="_blank">teams</a> and unlock additional features with our <a href="https://lunacy.docs.icons8.com/subscriptions" target="_blank">paid plans</a>.
