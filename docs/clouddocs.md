@@ -56,10 +56,10 @@ To **open a cloud document**:
 
 ## [Sharing a cloud document](#sharing-cloud-documents)
 
-You can share cloud documents using both **public** and **private** links:
+You can share cloud documents using both public and private links:
 
-- Public documents are accessible to **everyone with the document link**.
-- Private documents are accessible through private **one-time** links only. You’ll have to generate a personal link for every user you want to invite to the document.
+- **Public documents** are accessible to **everyone with the document link**.
+- **Private documents** are accessible through private **one-time** links only. You’ll have to generate a personal link for every user you want to invite to the document.
 
 To **share a cloud document**:
 
