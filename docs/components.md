@@ -49,7 +49,7 @@ These are the basic terms related to components and their functions:
 To **create a component**:
 
 1. Select the layer you want to convert into a component.
-2. Click `+` in the **Component** section of the right panel or press `Ctrl + Alt + K` (`⌘ + ⌥ + K`).
+2. Click `+` in the **Component** section of the right panel or press `Ctrl + Alt + K` / `⌘ + ⌥ + K`.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_components_methods.png" height="auto"><source src="/public/creating_components_methods.mp4" type="video/mp4"></video>
 

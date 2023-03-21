@@ -76,16 +76,24 @@ This version brings a new render engine, which means higher FPS and lower input 
 * Numerous Figma import improvements.
 
 
+## 9.0.8 hotfix
+_Release date: March 20, 2023_  
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.0.8.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.8.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.8.deb)
+
+### Fixed issues
+- Critical bug fixes
+
 
 ## 9.0
 
 *Release date: February 28, 2023*
 
-Download:
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.0.0.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.0.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.0.deb)
 
 
 ### Import from Figma
@@ -1637,7 +1645,7 @@ _Release date: March 26, 2020_
 Download from the [Microsoft Store](https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge) or the [Installer](https://lcdn.icons8.com/setup/LunacySetup_5.3.1.exe)
 
 ### Bug Fixes
-- Critical bugs fixed
+- Critical bug fixes
 
 ## 5.3
 _Release date: March 25, 2020_  

@@ -127,7 +127,7 @@ Use the <a href="https://lunacy.docs.icons8.com/tools/#frame-tool" target="_blan
 
 To **create a frame**:
 
-1. Select the **frame tool** on the toolbar or press `A`.
+1. Select the **Frame tool** on the toolbar or press `A`.
 2. Click and drag to add a custom frame or use a **preset** from the right panel.
 
 <embed type="image/svg+xml" alt="frame_tool_presets" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5fuv5gIKSU-PMS4ZWGy5Aw.svg" width="844" /> 

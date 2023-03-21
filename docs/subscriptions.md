@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Plans and Pricing
+title: Plans and pricing
 description: Find out about our subscription options
 icon: 'unlock'
 
