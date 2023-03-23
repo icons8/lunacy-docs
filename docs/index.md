@@ -56,6 +56,7 @@ grid_navigation:
     - title: 'Layer and text styles'
       excerpt: Learn how to speed up your work with layer and text styles
       url: '/layerstyles/'
+      icon: 'rich-text-converter'
     - title: 'Components'
       excerpt: Explore the power of Lunacy by learning how to use components
       url: '/components'
