@@ -181,6 +181,8 @@ To **export the content of a slice**:
 1. Select one or multiple slices.
 2. Export it just like any other element, taking into account the **additional settings** for slices.
 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_exporting_a_slice.png" height="auto"><source src="/public/tools_exporting_a_slice.mp4" type="video/mp4"></video>
+
 To show/hide slices on the canvas, select or deselect the **Slices** option in the **Additional options** menu from the top bar:
 
 <embed type="image/svg+xml" alt="export_slices_enable_disable" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/vbxh7ACcEUKpMIgdJ7ccVA.svg" width="844" /> 
