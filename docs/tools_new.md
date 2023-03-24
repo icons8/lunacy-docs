@@ -378,8 +378,8 @@ Lunacy remembers the size of the most recent avatar you add, so the next time yo
 
 To **generate a new avatar**:
 
-- Select an avatar and click the refresh button (<embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="16" />) at the top-left corner of the frame
-- Select one or several avatars and press `Shift + R` or Generate avatar in the right panel
+- Select an avatar and click the refresh button (<embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="24" />) at the top-left corner of the frame.
+- Select one or several avatars and press `Shift + R` or Generate avatar in the right panel.
 
 Although avatars appear as circles when you add them to the canvas, they’re actually rounded rectangles, so you can <a href="https://lunacy.docs.icons8.com/tips/#adjusting-the-corner-radius-setting-for-rectangles" target="_blank">modify their corner radius</a> if you need.
 
