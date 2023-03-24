@@ -32,16 +32,16 @@ Below is a brief description of all available tools, which we will then go over 
 | -- | ------------------------- | -------------------------- |
 |  <embed type="image/svg+xml" alt="select_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/XJmTZpQ6GUKjSTnqKK67BA.svg" width="16" />     | **Select tool.** Use it to select, move, and resize <a href="https://lunacy.docs.icons8.com/layers/" target="_blank">layers</a> on the canvas. | `V` or press `Esc` when an element or another tool is selected.  |
 |    <embed type="image/svg+xml" alt="frame_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/L-UJeydBOkSl1XtJ_06Mfw.svg" width="16" />  | **Frame tool.** Used for creating <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frames</a>. 
-|   <embed type="image/svg+xml" alt="shape_tools" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/mZX7QztLGUC-R8_CAht2cQ.svg" width="160" />     | **Shape tools.** A set of common shapes you can add to the canvas. Each tool has a shortcut, either a single, double, or repeated press of a button.   | `R` — rectangle<br>`R`, `R` — rounded rectangle<br>`L` — line<br>`L`, `L` — arrow<br>`O` — oval<br>`O`, `O` — triangle <br>`O`, `O`, `O` — polygon<br>`O`, `O`, `O`, `O` — star |
+|   <embed type="image/svg+xml" alt="shape_tools" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/mZX7QztLGUC-R8_CAht2cQ.svg" width="320" />     | **Shape tools.** A set of common shapes you can add to the canvas. Each tool has a shortcut, either a single, double, or repeated press of a button.   | `R` — rectangle<br>`R`, `R` — rounded rectangle<br>`L` — line<br>`L`, `L` — arrow<br>`O` — oval<br>`O`, `O` — triangle <br>`O`, `O`, `O` — polygon<br>`O`, `O`, `O`, `O` — star |
 |   <embed type="image/svg+xml" alt="text_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/P69ZzGxWo0upt-S25nVP5g.svg" width="16" />     | **Text tool.** Add text layers to the document. Comes with an on-canvas <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> option.| `T`    |
 |     <embed type="image/svg+xml" alt="pen_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ox33KNr9I0Sby8cSNl1BIg.svg" width="16" />    | **Pen tool.** Used for creating custom vectors or shapes.| `P`    |
 |   <embed type="image/svg+xml" alt="img_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Ow3QgJBiy0KHVu-4_JiYXQ.svg" width="16" />   | **Image tool.** Use it for importing images.      | `M`    |
-|   <embed type="image/svg+xml" alt="gui_tools" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jVG8u-6oukqQkwog6PvoVg.svg" width="140" />      | **GUI tools.** A set of basic interface element components from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> (buttons, checkboxes, radio buttons, and so on) that you can quickly add to your designs.      | `B` — button<br>`D` — text input field<br>`F` — checkbox<br>`Y` — radio button<br>`J` — toggle<br>`W` — dropdown  |
+|   <embed type="image/svg+xml" alt="gui_tools" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jVG8u-6oukqQkwog6PvoVg.svg" width="320" />      | **GUI tools.** A set of basic interface element components from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> (buttons, checkboxes, radio buttons, and so on) that you can quickly add to your designs.      | `B` — button<br>`D` — text input field<br>`F` — checkbox<br>`Y` — radio button<br>`J` — toggle<br>`W` — dropdown  |
 | <embed type="image/svg+xml" alt="icon_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/B0LK2cd1-USlSrOotEB22Q.svg" width="16" />     |  **Icon tool.** Keeps recently used icons at hand.  | `X`    |
 |  <embed type="image/svg+xml" alt="comment_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/P4EDGuPTdkSRCxwgY5ydxw.svg" width="16" />   | **Comment tool.** Activate it to leave <a href="https://lunacy.docs.icons8.com/comments/" target="_blank">comments</a> anywhere on the canvas.| `C`    |
 |   <embed type="image/svg+xml" alt="scale_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/scm-lgqtykigv546NkSUrQ.svg" width="16" /> | **Scale tool.** Proportionally change the size of the elements on the canvas. | `K`    |
 | <embed type="image/svg+xml" alt="eyedropper_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/j1f4Pah3E0-4RKYAG490bw.svg" width="16" /> | **Eyedropper tool.** Use it to sample colors.| `I`    |
-|   <embed type="image/svg+xml" alt="hand_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/aeKlQKB3oUKrkJnxg0MmSg.svg" width="16" />     | **Hand tool.** Used for easily navigating the canvas.   | Hold down `Space` or the `middle mouse button`     |
+|   <embed type="image/svg+xml" alt="hand_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/aeKlQKB3oUKrkJnxg0MmSg.svg" width="16" />     | **Hand tool.** Used for easily navigating the canvas.   | Hold down `Space` or the **middle mouse button**    |
 | <embed type="image/svg+xml" alt="hotspot_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/lW_uQvz74UigFsTCevtrUw.svg" width="16" />    | **Hotspot tool.** Add <a href="https://lunacy.docs.icons8.com/prototyping/#hotspots" target="_blank">hotspots</a> (interactive zones) to your designs when working with prototypes.    | `H`    |
 |   <embed type="image/svg+xml" alt="slice_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/V28c8SJgbUCAuVoMTZDcPA.svg" width="16" />    | **Slice tool.** Specify a region, or <a href="https://lunacy.docs.icons8.com/export/#using-slices-for-export" target="_blank">slice</a>, of the canvas and <a href="https://lunacy.docs.icons8.com/export/" target="_blank">export</a> it. The slice can include parts of frames, several parts of different frames, and so on.  | `E`    |
 |  <embed type="image/svg+xml" alt="pencil_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/FahQcMve1EOAIZSZ_ayN_w.svg" width="16" />    | **Pencil tool.** Used for drawing freehand shapes.      | `P`, `P`       |
@@ -123,8 +123,8 @@ Use these tools to **add standard shapes** onto the canvas:
 
 Select the required shape on the toolbar or use the corresponding keyboard shortcut, then:
 
-- Click on the canvas to place it as a 100 x 100 shape.
-- Click and drag to adjust the shape’s size (works for all shapes except for lines and arrows).
+- Click on the canvas to **place it as a 100 x 100 shape**.
+- Click and drag to **adjust the shape’s size** (works for all shapes except for lines and arrows).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_the_shape_tool.png" height="auto"><source src="/public/tools_the_shape_tool.mp4" type="video/mp4"></video>
 
@@ -505,9 +505,13 @@ Depending on the styling properties of a layer, the eyedropper applies colors in
 3. Shadow
 4. Inner shadow
 
-So, if a layer has a fill and a border, the eyedropper updates the fill. If a layer has no fill, but has a border and a shadow, the eyedropper changes the border color, and so on. If a layer has several fills (or borders/shadows/inner shadows), the eyedropper applies the color the property at the top of the list in the right panel. 
+So, if a layer has a **fill** and a **border**, the eyedropper will update the **fill**. 
 
-Similar rules apply to text layers, where text color has top priority.
+If a layer has no fill, but has a **border** and a **shadow**, the eyedropper changes the **border** color, and so on. 
+
+If a layer has **several fills** (or borders/shadows/inner shadows), the eyedropper applies the color the **property at the top of the list** in the right panel. 
+
+Similar rules apply to text layers, where **text color** has top priority.
 
 **See also:**
 <br>
