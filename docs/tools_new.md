@@ -28,7 +28,7 @@ All of Lunacy’s tools are on the **toolbar** located on the left of the canvas
 
 Below is a brief description of all available tools, which we will then go over in detail. To speed things up, activate the  tools with the corresponding keyboard shortcuts:
 
-| Tool | Description  | Keyboard shortcut  |
+| Tool &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description  | Keyboard shortcut  |
 | -------------------------------------------- | ------------------------- | -------------------------- |
 |  <embed type="image/svg+xml" alt="select_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/XJmTZpQ6GUKjSTnqKK67BA.svg" width="16" />     | **Select tool.** Use it to select, move, and resize <a href="https://lunacy.docs.icons8.com/layers/" target="_blank">layers</a> on the canvas. | `V` or press `Esc` when an element or another tool is selected.  |
 |    <embed type="image/svg+xml" alt="frame_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/L-UJeydBOkSl1XtJ_06Mfw.svg" width="16" />  | **Frame tool.** Used for creating <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frames</a>. 
