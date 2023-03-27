@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: FAQs and Known Issues
-        url: '/faq'
-    prev:
         content: Release History
         url: '/release-notes'
+    prev:
+        content: FAQs
+        url: '/faq'
 ---
 
 Visit our <a href="https://community.icons8.com/" target="_blank">Community Support</a> forum to let us know about any problems you run into with Lunacy. The whole development team is there to help you with any issues that arise.
