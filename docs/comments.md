@@ -138,3 +138,20 @@ To enable the display of comments, repeat the above procedure, or simply click !
 
 
 
+<!--To view and manage comments available in a document, select the **Comment tool** on the toolbar or press `C` to enable comment mode. The comments available on the current page will appear on the canvas.
+
+
+* Click <embed type="image/svg+xml" alt="comment_with_sticker" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/AeLJbQf5CkKOOoegMJrZ6g.svg" width="20" /> to open up a set of **stickers** you can use in place of text comments or as reactions to other users' comments.
+
+* To comment with a **voice recording**, press the <embed type="image/svg+xml" alt="mic_comment" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/LOhQWwzZe0O7aTNFA6FtJg.svg" width="20" /> icon, record your message, then post the comment as usual. Make sure Lunacy has access to your microphone, otherwise, this option will be unavailable.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/comment_text_stickers_voice.png" height="auto"><source src="/public/comment_text_stickers_voice.mp4" type="video/mp4"></video>
+
+More comment actions:
+
+- To **move comments**, drag them over the canvas.
+- Add your text below the comment to **reply** to it, then click **Post**. 
+- To **edit/delete a comment**, click <embed type="image/svg+xml" alt="additional_comment_menu" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/YZjdS-EuukKxEnbjo_yqHw.svg" width="20" /> in the top right corner of the comment dialog box and select the corresponding menu option.
+- Click <embed type="image/svg+xml" alt="resolve_comment" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/OQ52c52fIkqPLsrrx6TTrg.svg" width="24" /> in the top right corner of the comment dialog box to **resolve a comment**.
+
+Clicking the **Comment** button on the top bar will open up the **Comment panel** in place of the right panel, displayng all of the comments available in the document. Here, you can filter comments by their status (unresolved/all).-->

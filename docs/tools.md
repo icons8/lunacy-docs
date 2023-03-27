@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Tools
-description: Learn about tools and controls on the Lunacy toolbar 
+description: Learn about Lunacy’s design tools
 icon: 'maintenance'
 
 # Micro navigation
@@ -22,563 +22,471 @@ page_nav:
         url: '/clouddocs'
 ---
 
-This section is a description of tools and controls on the Lunacy toolbar.
+All of Lunacy’s tools are on the **toolbar** located on the left of the canvas:
 
-The table below provides an overview of the controls and their shortcuts.
+<embed type="image/svg+xml" alt="toolbar_lunacy" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jsBDUBsBcU-MKcR5Qxr1vQ.svg" width="844" /> 
 
-<table>
-  <thead>
-    <tr>
-      <th style="width: 85px;">Tool icon</th>
-      <th>Description</th>
-      <th>Keyboard shortcut</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="/public/tool-selecticon61.png" alt="Select tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#select-tool">Select tool</a>. Allows you to select, move and resize layers and layer groups.</td>
-      <td><code>V</code> or <code>S</code> or just press <code>Esc</code> to exit the current tool.</td>
-    </tr>
-    <tr>
-      <td><img src="/public/tools-frametool.png" alt="Frame tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#frame-tool">Frame tool</a>. Serves for adding frames onto the canvas. Shares the same fly-out menu with the Hotspot tool.</td>
-      <td><code>A</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-imageicon61.png" alt="Image tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#image-tool">Image tool</a>.  Serves for adding images to your designs.</td>
-      <td><code>M</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-texticon61.png" alt="Text tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#text-tool">Text tool</a>. Serves for adding text layers.</td>
-      <td><code>T</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-penicon61.png" alt="Pen tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#pen-tool">Pen tool</a>. Serves for adding custom vector shapes. Shares the same fly-out menu with the Pencil tool.</td>
-      <td><code>P</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-pencilicon61.png" alt="Pencil tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#pencil-tool">Pencil tool</a>. Serves for adding freehand shapes. Shares the same fly-out menu with the Pen tool.</td>
-      <td><code>N</code></td>
-    </tr>
-    <tr>
-      <td><p><img src="/public/tool-lineicon61.png" alt="Line tool"></p><p><img src="/public/tool-rectangleicon61.png" alt="Rectangle tool"></p><p><img src="/public/tool-ellipseicon61.png" alt="Ellipse tool"></p><p><img src="/public/tool-tiangleicon61.png" alt="Triangle tool"></p></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#shape-tools">Shape tools</a>. Serve for adding pre-made shapes. The Line tool shares the same fly-out menu with the Arrow. The Rectangle tool shares the same fly-out menu with the Rounded rectangle. The Triangle tool shares the same fly-out menu with the Polygon and Star. Only the most frequently used shapes have shortcuts.</td>
-      <td><p><code>R</code> - rectangle</p><p><code>U</code> - rounded rectangle</p><p><code>O</code> - ellipse</p><p><code>L</code> - line</p></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-iconicon61.png" alt="Icon tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#icon-tool">Icon tool</a>. Keeps the icons that you've recently used at hand. After you use the tool for the first time, the latest icon appears on the toolbar instead of the original tool icon.</td>
-      <td><code>X</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-avataricon61.png" alt="Avatar tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#avatar-tool">Avatar tool</a>. Serves for quickly adding avatars to your designs.</td>
-      <td><code>Q</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tools-guiicon61.png" alt="GUI tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#gui-tool">GUI tool</a>. A set of tools that allows you to quickly add basic GUI controls.</td>
-      <td><p><code>B</code> - button</p><p><code>D</code> - text input</p><p><code>Y</code> - radio button</p><p><code>F</code> - checkbox</p><p><code>K</code> - toggle</p><p><code>W</code> - dropdown list</p></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tools-symbolicon61.png" alt="Component tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#component-tool">Component tool</a>. Allows you to quickly create mockups of interfaces by adding placeholder components and then replacing them with required GUI elements.</td>
-      <td><code>S</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tools-commenticon.png" alt="Comment tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#comment-tool">Comment tool</a>. Allows you to keep your notes and to-do lists, as well as to collect feedback from teammates and customers.</td>
-      <td><code>C</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-hotspoticon61.png" alt="Hotspot tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool">Hotspot tool</a>. Serves for adding hotspots when working on prototypes.</td>
-      <td><code>H</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-sliceicon61.png" alt="Slice tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#slice-tool">Slice tool</a>. Serves for quick export of selected areas. Shares the same fly-out menu with the Image and Avatar tools.</td>
-      <td><code>E</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/tool-eyedropicon.png" alt="Eyedropper tool"></td>
-      <td><a href="https://lunacy.docs.icons8.com/tools/#eyedropper-tool">Eyedropper tool</a>. Serves for sampling colors.</td>
-      <td><code>I</code></td>
-    </tr>
-  </tbody>
-</table>
+Below is a brief description of all available tools, which we will then go over in detail. To speed things up, activate the  tools with the corresponding keyboard shortcuts:
 
-There is also a [zoom tool](#zoom-tool). It serves for zooming in and out the selected layer or canvas area. It does not appear on the toolbar. To enable the zoom tool, hold down `Z`.  
+| Tool &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description  | Keyboard shortcut  |
+| -------------------------------------------- | ------------------------- | -------------------------- |
+|  <embed type="image/svg+xml" alt="select_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/XJmTZpQ6GUKjSTnqKK67BA.svg" width="28" />     | **Select tool.** Use it to select, move, and resize <a href="https://lunacy.docs.icons8.com/layers/" target="_blank">layers</a> on the canvas. | `V` or press `Esc` when an element or another tool is selected.  |
+|    <embed type="image/svg+xml" alt="frame_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/L-UJeydBOkSl1XtJ_06Mfw.svg" width="28" />  | **Frame tool.** Used for creating <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frames</a>. 
+|   <embed type="image/svg+xml" alt="shape_tools" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/mZX7QztLGUC-R8_CAht2cQ.svg" width="240" />     | **Shape tools.** A set of common shapes you can add to the canvas. Each tool has a shortcut, either a single, double, or repeated press of a button.   | `R` — rectangle<br>`R`, `R` — rounded rectangle<br>`L` — line<br>`L`, `L` — arrow<br>`O` — oval<br>`O`, `O` — triangle <br>`O`, `O`, `O` — polygon<br>`O`, `O`, `O`, `O` — star |
+|   <embed type="image/svg+xml" alt="text_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/P69ZzGxWo0upt-S25nVP5g.svg" width="28" />     | **Text tool.** Add text layers to the document. Comes with an on-canvas <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> option.| `T`    |
+|     <embed type="image/svg+xml" alt="pen_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ox33KNr9I0Sby8cSNl1BIg.svg" width="28" />    | **Pen tool.** Used for creating custom vectors or shapes.| `P`    |
+|   <embed type="image/svg+xml" alt="img_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Ow3QgJBiy0KHVu-4_JiYXQ.svg" width="28" />   | **Image tool.** Use it for importing images.      | `M`    |
+|   <embed type="image/svg+xml" alt="gui_tools" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jVG8u-6oukqQkwog6PvoVg.svg" width="240" />      | **GUI tools.** A set of basic interface element components from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> (buttons, checkboxes, radio buttons, and so on) that you can quickly add to your designs.      | `B` — button<br>`D` — text input field<br>`F` — checkbox<br>`Y` — radio button<br>`J` — toggle<br>`W` — dropdown  |
+| <embed type="image/svg+xml" alt="icon_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/B0LK2cd1-USlSrOotEB22Q.svg" width="28" />     |  **Icon tool.** Keeps recently used icons at hand.  | `X`    |
+|  <embed type="image/svg+xml" alt="comment_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/P4EDGuPTdkSRCxwgY5ydxw.svg" width="28" />   | **Comment tool.** Activate it to leave <a href="https://lunacy.docs.icons8.com/comments/" target="_blank">comments</a> anywhere on the canvas (only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>).| `C`    |
+|   <embed type="image/svg+xml" alt="scale_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/scm-lgqtykigv546NkSUrQ.svg" width="28" /> | **Scale tool.** Proportionally change the size of the elements on the canvas. | `K`    |
+| <embed type="image/svg+xml" alt="eyedropper_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/j1f4Pah3E0-4RKYAG490bw.svg" width="28" /> | **Eyedropper tool.** Use it to sample colors.| `I`    |
+|   <embed type="image/svg+xml" alt="hand_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/aeKlQKB3oUKrkJnxg0MmSg.svg" width="28" />     | **Hand tool.** Used for easily navigating the canvas.   | Hold down `Space` or the **middle mouse button**    |
+| <embed type="image/svg+xml" alt="hotspot_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/lW_uQvz74UigFsTCevtrUw.svg" width="28" />    | **Hotspot tool.** Add <a href="https://lunacy.docs.icons8.com/prototyping/#hotspots" target="_blank">hotspots</a> (interactive zones) to your designs when working with prototypes.    | `H`    |
+|   <embed type="image/svg+xml" alt="slice_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/V28c8SJgbUCAuVoMTZDcPA.svg" width="28" />    | **Slice tool.** Specify a region, or <a href="https://lunacy.docs.icons8.com/export/#using-slices-for-export" target="_blank">slice</a>, of the canvas and <a href="https://lunacy.docs.icons8.com/export/" target="_blank">export</a> it. The slice can include parts of frames, several parts of different frames, and so on.  | `E`    |
+|  <embed type="image/svg+xml" alt="pencil_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/FahQcMve1EOAIZSZ_ayN_w.svg" width="28" />    | **Pencil tool.** Used for drawing freehand shapes.      | `P`, `P`       |
+|  <embed type="image/svg+xml" alt="avatar_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/rUxSy1TC9EWHGcnfCjjHdQ.svg" width="28" />    | **Avatar tool.** Add randomly generated avatars to your designs.     | `Q`    |
+| <embed type="image/svg+xml" alt="component_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/02TX6jrbmUemFRYnGU5Ubg.svg" width="28" />   | **Component tool.** Useful when you’re creating interface mockups: add placeholder components and then replace them with UI elements later.  | `S`    |
 
-For details about using the tools, read further.
+Lunacy also has the **Zoom tool**, though it doesn’t appear on the toolbar. To activate it, hold down `Z`and zoom in and out of a specific area on the canvas. 
 
-**Note:** If you need more space or prefer shortcuts you can toggle off the display of the toolbar through the menu (**View** > **Toolbar**).
+**See also:**
+<br> 
+<a href="https://lunacy.docs.icons8.com/basics/#zooming-options" target="_blank">Zooming options</a>
+
+<div class="callout callout--info">
+    <p><strong>Note:</strong> If you need more space or prefer working with keyboard shortcuts, toggle off the display of the toolbar by selecting <b>View</b> > <b>Toolbar</b> in the menu bar.</p>
+</div>
 
 ## Select tool
 
-The Select tool is likely the tool that you will be using most often when working with Lunacy. It is the default tool which gets enabled, if no other tool is active. The Select tool allows you to select, move and resize layers and layer groups.
+The **Select tool** is active by default when no other tool is in use. 
 
-In general, to select a layer, just click over it. As you do it, a selection frame with handles appears around the layer, and the layer's name gets highlighted in the Layer List. To select multiple layers, hold down the `Shift` key and click the layers you want to select. Alternatively, you can use the click-and-drag method for selecting layers. The demo below shows both methods of selecting layers.
+With it, you can select any layer on the canvas (provided it’s not locked), then move and modify the element as you wish:
 
-To move the selected layer(-s):
+- **Select** a layer by clicking it. A selection frame with handles will enclose the element and its name will be highlighted in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>. Hold down `Shift` and click multiple elements to select all of them. If you need to select every element on the page, press `Shift + A`.
+- **Move** layers by dragging them on the canvas.
+- **Resize** and **rotate** layers using the handles at the coners of the selection frame. 
 
-1. Point the cursor over the layer or an layer within a group (not over the empty space within the selection frame).
-2. Move the selection to where you want it.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_select_tool_basics.png" height="auto"><source src="/public/tools_select_tool_basics.mp4" type="video/mp4"></video>
 
-To resize the selected layer(-s) with the Select tool, drag the handles on the selection frame. As in all similar apps, use the `Shift` key and corner handles to preserve the aspect ratio of the  layer you resize.
+You can also select layers through the **Layer List**. It may be more convenient in some cases, like when you’re dealing with fully overlapping or locked layers. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selecttool.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_select_in_layer_list.png" height="auto"><source src="/public/tools_select_in_layer_list.mp4" type="video/mp4"></video>
 
 ### Using the Select tool with grouped layers
 
-When you click or drag over a group of layers, you select the group. To select a certain layer within a group:
+When you click over a group, you select the entire group.
 
-* Hold down the `Ctrl` key and click over the required layer.
-  
-  OR
-* Click to select the group, then double-click to select the layer.
+To **select a specific layer inside a group**:
 
- After you select a layer within a group, you can switch to other layers of that group by simply clicking them.
+- Click the layer while holding down `Ctrl` / `⌘`.
+- Click to select the group, then double-click to select the required layer.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-selectplaceholder.png" height="auto"><source src="/public/tool-selectltoolgroup1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_select_elements_inside_group.png" height="auto"><source src="/public/tools_select_elements_inside_group.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info">
-    <p><strong>Tip:</strong> Alternatively, you can select layers through the <b>Layer List</b>. In some cases it may be more convenient. For instance, when handling fully overlapping layers.</p>
-    <p>For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
-</div>
-
-For details about working with layers, click <a href="https://lunacy.docs.icons8.com/layers/" target="_blank">here</a>.
-
-<!--
-
->**Tip:** Alternatively, you can select objects through the **Objects** panel. In some cases it may be more convenient. For instance, when handling fully overlapping objects. For details about working with objects, click <a href="https://lunacy.docs.icons8.com/objects/" target="_blank">here</a>.
-
--->
+Then, switch the selection to the other layers in the group by clicking them.
 
 ## Frame tool
 
-Frames are a way to divide the canvas into separate areas with different content. Frames are optional but they come in handy when you're designing for a certain screen size or device.
+**Frames** work like containers for your layers. They’re more flexible than layers in a lot of ways and are especially convenient when you’re designing for a specific device or screen size. 
 
-To add a frame:
+Press `A` to activate the **Frame tool** and drag over the canvas to create a frame:
 
-1. Select the frame tool on the toolbar or press `A`.
-2. Click and drag to create a custom size frame or select an option from the frame selection panel which will appear on the right (see the figure below).
+<embed type="image/svg+xml" alt="frame_tool_create" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EDEaTb4JWUye0bosk0GAJg.svg" width="844" /> 
 
-{:.is-big}
-![Adding an frame](public/tool-addatrboard.png)
+Instead of dragging, you can set the frame size using the **preset list** that appears in the **right panel** or **snap the frame to a preset** by dragging its corner to one of the blue `+` icons that appear when you’re adding a frame:
 
-<div class="callout callout--info">
-    <p><strong>Tip:</strong> If there are already some layers on the canvas and you decide to put them on a frame, just drag the frame tool over these layers.</p>
-    <p>For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
-</div>
-
-<!--
-
-**Tip:** If there are already some objects on the canvas and you decide to put them on an artboard, just drag the artboard tool over these objects.
-
--->
-
-For details, about using frames read <a href="https://lunacy.docs.icons8.com/interface/#frames" target="_blank">here</a>.
-
-## Image tool
-
-The Image tool serves for quick adding images from files to your designs. Lunacy supports all the popular image formats like PNG, JPG, JPEG, WEBP, BMP, ICO, GIF, SVG. The TIFF format is not supported.
-
-To add an image:
-
-1. Click the tool icon on the toolbar. The **Open** dialog box appears.
-2. In the **Open** dialog box, browse to the required file.
-3. Select the file. You can select multiple files at a time, if you want.
-4. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image as shown in the demo below.
-
-{:.is-big}
-![Adding an image](public/objects_bitmaps.gif)
-
-For details about working with images, read <a href="https://lunacy.docs.icons8.com/images/" target="_blank">here</a>.
-
-<!--
-
-Also, you can:
-
-* Drag images onto the canvas from your desktop or the Explorer.
-* Copy image files from your desktop or the Explorer and then paste them onto the canvas.
-* Import images from the internet.
-
-There are several ways of adding images from the internet.
-
-**Way 1**
-
-1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image** or similar command.
-3. Switch to Lunacy and right-click over the canvas.
-4. Click **Paste here** on the context menu.
-
-**Way 2**
-
-1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image address** or similar command.
-3. Switch to Lunacy and right-click over the canvas.
-4. Click **Paste here** on the context menu. The **Paste as image** dialog box appears.
-5. Click **OK** to paste the image. If you click **Cancel**, Lunacy will paste the image address as text.
-
-**Note:** The second method works only when a web site provides direct links to images with an image extension at the end (.jpg, .png, .etc.).
-
-The demo below shows the above two methods.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage11.mp4" type="video/mp4"></video>
-
-**Way 3**
-
-1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image address** or similar command.
-3. Switch to Lunacy and click the Image tool. The **Open** dialog box appears.
-4. Paste the image URL into the **File name** field.
-5. Click **Open**.
-6. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image.
-
--->
-
-## Text tool
-
-The Text tool serves for adding text layers. For details about working with text in Lunacy, click <a href="https://lunacy.docs.icons8.com/text/" target="_blank">here</a>.
-
-
-## Pen tool
-
-The pen is a tool for creating vector shapes. It is used in all similar apps. But if you are a complete novice to design, it might take you some time and practice to master it.
-
-The pen builds shapes by drawing segments between points that you add onto the canvas. Altogether, the segments between interconnected points are called a *path*. Paths that have no end points, which means that all points are connected with two segments, are called *closed paths* or *shapes*.
-
-![Open path vs Shape](public/tools-openclosed.png)
-
-Path segments can be straight lines or curves.
-
-To build a shape that consists of straight lines:
-
-1. Click on the canvas to add the first point, then click where you want to have the second point.
-2. Go on clicking until the shape that you want is ready and close the path by clicking over the point from where you started or clicking the **Close path** button in the Inspector.
-3. Press `Esc` to exit the tool.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-penplaceholder.png" height="auto"><source src="/public/tool-pen.mp4" type="video/mp4"></video>
-
-To build a shape that includes curves, double-click when setting a point or click and drag a little. You will see two handles near the point. By dragging these handles and changing their length, you determine the shape of the curve. You can even drag the point, if necessary (see the demo below).
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-pentool2placholder.png" height="auto"><source src="/public/tools-pentool2.mp4" type="video/mp4"></video>
-
-Don't worry if the resulting shape is not exactly what you wanted. You can always refine it by modifying curves and straight lines, moving points, adding new points or deleting unnecessary ones.
-
-For this:
-
-1. Select the shape.
-2. Click the **Edit Layer** button (![Edit object button](public/tools-editobjectbtn.png)) on the context tool bar or press `Enter`, to enable the edit mode.
-3. Make the required changes.
-4. To exit the edit mode, press `Esc` or click the canvas anywhere beyond the shape.
-
-In the demo below we added some curves to a heart-shaped layer built with straight lines. Note how a double-click turns a straight point into a curved (mirrored) point. It works in the opposite way as well. For details about the types of points, read the subsection below.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools-pentool3placeholder.png" height="auto"><source src="/public/tools-pentool31.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_snap_to_preset.png" height="auto"><source src="/public/tools_snap_to_preset.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> To draw a perfectly horizontal, vertical or 45-degree diagonal path, hold down <code style="background: white">Shift</code> when placing the second point of a segment.</p>
-    <p>For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p><strong>Tip:</strong> You can drag layers into existing frames or draw a frame over several layers to frame them. </p>
 </div>
+ 
 
-<!--
-
-**Tip:** To draw a perfectly horizontal, vertical or 45-degree diagonal path, hold down `Shift` when placing the second point of a segment.
-
--->
-
-### Types of points
-
-There are two types of points: the so-called **Straight** (1) and curved points. Curved points appear with handles for building <a href="https://en.wikipedia.org/wiki/Bézier_curve" target="_blank">B&#x00e9;zier curves</a>.
-
-And also, there are three subtypes of curved points. The difference between them is determined by the handles behavior:
-
-* **Mirrored points** (2) come with identical handles that mirror each other as you drag one of the handles.
-* **Disconnected points** (3) have entirely independent handles.
-* **Asymmetric points** (4) come with handles that share the same angle but can have different lengths.  
-
-As it was mentioned earlier, to switch between straight and mirror points, you can use double-clicking. To get a disconnected or asymmetric point, use the controls that appear at the top of the Inspector when you draw with the pen or enable the layer editing mode. The numbers in the figure below correspond to the numbers in the description of point types.
-
-![Point type controls](public/tools-curvebuttons.png)
-
-To better understand how it all works, see the demo below.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-curvesplaceholder.png" height="auto"><source src="/public/tools-curves.mp4" type="video/mp4"></video>
-
-For more information about editing vector curves, also read <a href="https://lunacy.docs.icons8.com/editing/#vector-editing" target="_blank">here</a>.
-
-## Pencil tool
-
-The Pencil is a tool for drawing freehand paths with a stylus or, having some skill, with the mouse. You will find the Pencil on the same fly-out menu with the Pen tool. Alternatively, you can use `N` as a shortcut.
-
-If you are using the mouse, just hold down the left mouse button and draw the required path. Release the button when you are done.
-
-Unlike other tools that switch to the select mode right after you create an layer, the Pencil tool allows you to create as many layers as you need. Each Pencil "stroke" adds a new layer to the Layer List. You can group them later.
-
-The figure below shows two words *Lunacy* written with the Pencil tool. The top one is written in one stroke, while the bottom one is in a stroke per letter (grouped for convenience). See how they appear in the Layer List.
-
-{:.is-big}
-![Pencil tool](public/pencil-view2.png)
-
-To exit the Pencil, press `Esc` or click the Select tool. When you exit the Pencil, Lunacy selects the latest path that you've added.
-
-### Editing paths drawn with the Pencil
-
-Lunacy automatically smooths the paths that you create. But you can also edit pencil-drawn paths like all other vector paths: add, delete and move points, bend segments, etc. To switch to the edit mode, select the required path and press `Enter` or click the **Edit Layer** button at the top bar. To exit the edit mode, press `Esc` or click anywhere on the canvas beyond the selected layer, see the demo below.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/pencil-editplaceholder.png" height="auto"><source src="/public/tool-penciltool.mp4" type="video/mp4"></video>
-
-Finally, you can make use of such styling properties as borders, shadows, inner shadows and blurs. As for fills, you should remember that the Pencil always draws open paths, even if they appear as closed. You can try to apply fills but in many cases the result can be weird. If you need to close a path, enable the layer edit mode and click the **Close path** button which will appear in the Inspector.
+**See also:**
+<br> 
+<a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">Frames</a>
 
 ## Shape tools
 
-The Shape tools allow you to quickly add pre-made shapes that include:
+Use these tools to **add standard shapes** onto the canvas:
 
-* Rectangles
-* Rounded rectangles
-* Ovals
-* Lines
-* Stars
-* Polygons
-* Arrows
+- Rectangle (`R`)
+- Rounded rectangle (`R`, `R`)
+- Line (`L`)
+- Arrow (`L`, `L`)
+- Oval (`O`)
+- Triangle (`O`, `O`)
+- Polygon (`O`, `O`, `O`)
+- Star (`O`, `O`, `O`, `O`)
 
-To add a shape, select the required shape on the toolbar and then drag and click on the canvas where you want it.
+Select the required shape on the toolbar or use the corresponding keyboard shortcut, then:
 
-{:.is-big}
-![Shape tool](public/objects_adding_primitives.gif)
+- Click on the canvas to **place it as a 100 x 100 shape** (works for all shapes except for lines and arrows).
+- Click and drag to **adjust the shape’s size**.
 
-For details about working with shapes, click <a href="https://lunacy.docs.icons8.com/editing/" target="_blank">here</a>.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_the_shape_tool.png" height="auto"><source src="/public/tools_the_shape_tool.mp4" type="video/mp4"></video>
+
+**See also:**
+<br> 
+<a href="https://lunacy.docs.icons8.com/editing/" target="_blank">Editing shapes</a>
+
+## Text tool
+
+To **add a text layer**, press `T` and click over the area of the canvas where you want to place it. Type your text or use the handy **text generation** options that automatically appear when you create a new text layer:
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_text_type_and_generate.png" height="auto"><source src="/public/tools_text_type_and_generate.mp4" type="video/mp4"></video>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/text/" target="_blank">Text</a>
+<br><a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">Text generation</a>
+
+## Pen tool
+
+The **pen** is a tool for creating vector paths and shapes. Activate it by pressing the **Pen tool** on the toolbar or press `P`.
+
+If you’ve worked in other graphic editors before, use it like the Pen tool in those apps. If you’re new to design, it might take you some time and practice to master it. In this section, we’ll go over the main capabilities of the tool.
+
+The pen builds shapes by drawing segments between the points, or **vertices**, that you add onto the canvas. The segments between interconnected vertices are called **paths**. 
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_creating_vertice_and_path.png" height="auto"><source src="/public/tools_creating_vertice_and_path.mp4" type="video/mp4"></video>
+
+### Types of paths
+
+Paths can be **open** or **closed**:
+
+- An **open path** has a start point and an end point that are not connected. 
+- When the start and end point of a path are connected, i.e. the path starts and ends on the same vertex, it’s called a **closed path**, or a **shape**.
+
+
+<embed type="image/svg+xml" alt="open_closed_paths" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EwUuc_GDdE27etLumx_9Tg.svg" width="844" /> 
+
+
+Path segments can be either **straight** or **curved**.
+
+To **build a shape out of straight lines** (e.g. a triangle):
+
+1. Press `P` to activate the pen. This activates **Edit mode**, and the **Edit shape** section will appear in the **right panel**.
+2. Click over the canvas to place the first point.
+3. Keep clicking to outline the shape that you want. 
+4. Close the path by clicking over the starting point or click the **Close path** in the right panel.
+5. Press `Esc` to exit **Edit mode**.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_creating_triangle.png" height="auto"><source src="/public/tools_creating_triangle.mp4" type="video/mp4"></video>
+
+To **curve a path**, you’ll need to be in **Edit mode** (or don’t exit it while drawing with the Pen tool). 
+
+To **enable Edit mode**, select a vector shape, then:
+
+- Double-click it
+- Press `Enter` 
+- Click the Edit layer icon (`icon`) on the **context toolbar**
+
+To **add a curve**:
+
+- Double click on a point
+- Click and drag anywhere on a path
+
+Two adjacent handles will appear around the point. Drag these handles and change their length to adjust the shape of the curve. You can also move the point around, if necessary:
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_pen_create_shape_with_curves.png" height="auto"><source src="/public/tools_pen_create_shape_with_curves.mp4" type="video/mp4"></video>
+ 
+Don’t worry if the resulting shape isn’t exactly what you wanted. Refine it by modifying curves and straight paths, as well as moving, adding, or deleting points.
+
+To **adjust a shape**:
+
+1. Select it.
+2. Enable **Edit mode**.
+3. Make the required changes.
+4. Press `Esc` or click anywhere on the canvas outside the shape to exit **Edit mode**.
+
+You can also change the **stroke** of the shape, add **fills** (to closed shapes) and **effects** in the **right panel**.
+
+In the demo below, we added some curves to a heart-shaped layer built with straight lines. Note how a double-click turns a straight point into a curved point that is also mirrored (find out about [different types of points](#types-of-points)).
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_adjusting_shape_with_pen.png" height="auto"><source src="/public/tools_adjusting_shape_with_pen.mp4" type="video/mp4"></video>
+
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> To draw a horizontal, vertical, or 45-degree diagonal path, hold down <code>Shift</code> when placing the second point of a segment. </p>
+</div>
+
+
+### [Types of points](#types-of-points)
+
+Points can be either **straight** or **curved**. 
+
+**Curved points** appear with handles when you build <a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve" target="_blank">Bézier curves</a>, and have three subtypes:
+
+- **Mirrored** points come with identical handles that mirror each other as you drag one of the handles.
+- **Disconnected** points have totally independent handles.
+- **Asymmetric** points come with handles that share the same angle but can have different lengths.
+
+<embed type="image/svg+xml" alt="types_of_points" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/N2EKqIYHl0Sv6lODiM61Yg.svg" width="844" /> 
+
+You can `double-click` to **switch between straight and mirrored** points. To **switch to disconnected or asymmetric** points, use the controls that appear at the top of the right panel when you’re using the pen or have **Edit mode** enabled:
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_changing_point_types.png" height="auto"><source src="/public/tools_changing_point_types.mp4" type="video/mp4"></video>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/editing/#vector-editing" target="_blank">Vector editing</a>
+
+## Pencil tool
+
+The **pencil** is a tool for drawing freehand paths. It’s great when you need to quickly sketch something and don't need perfectly refined shapes. That said, using a stylus with a graphic tablet will give you more precision.
+
+The pencil stroke is black and 1px wide by default. You can adjust these properties for pencil-drawn layers in the **right panel**.
+
+To draw with the **Pencil tool**:
+
+1. Press `P` twice or select it on the toolbar.
+2. Hold down the **left mouse button** and draw the required path. 
+3. Release the button when you are done.
+
+Unlike the other tools, the **Pencil tool** doesn't revert back to the **Select tool**. It remains active, so you can create as many layers as you want, with each pencil stroke adding a new layer to the **Layer list**. You can always group them later.
+
+Once you’re done working with the pencil, press `Esc` or switch to another tool.
+
+Here are two examples of a word written in one stroke and letter-by-letter (then grouped for convenience) using the pencil. Notice how they appear in the **Layer list**:
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_pencil_single_multiple.png" height="auto"><source src="/public/tools_pencil_single_multiple.mp4" type="video/mp4"></video>
+
+### Editing paths drawn with the Pencil tool
+
+Lunacy automatically smooths the paths that you create. You can also **edit pencil-drawn paths** like any other vector path:
+
+1. Enable **Edit mode**.
+2. Adjust the paths.
+3. Press `Esc` or click anywhere on the canvas outside the shape once you’re done.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_editing_pencil_paths.png" height="auto"><source src="/public/tools_editing_pencil_paths.mp4" type="video/mp4"></video>
+
+You can also add **borders**, **shadows**, and **blurs** to paths drawn with the pencil. 
+
+As for **fills**, keep in mind that the pencil always draws open paths, even if they appear closed. You can try to apply fills, but in many cases the result is going to look a little weird. If you need to close a path, enable the layer **Edit mode** and click the **Close path** button in the right panel.
+
+## Image tool
+
+Use the **Image tool** to quickly add images from your computer onto the canvas. 
+
+Lunacy supports all popular image formats: `PNG`, `JPG`, `JPEG`, `WEBP`, `BMP`, `ICO`, `GIF`, `SVG`. The `TIFF` format is not supported.
+
+To **add an image** to your design:
+
+1. Press `M` or select the **Image tool** on the toolbar.
+2. In the **Open** dialog box, choose one or multiple image files.
+3. Click over the area where you want to place the image to add the image in its original size. You can also click and drag to set the required image size.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_image_tool_add.png" height="auto"><source src="/public/tools_image_tool_add.mp4" type="video/mp4"></video>
+
+Of course, you can always **drag and drop images** from your files into Lunacy as well. 
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/images/" target="_blank">Images</a>
+
+## GUI tool
+
+The **GUI tool** features a set of basic UI elements that you can add to your designs as components:
+
+- Button (`B`)
+- Text input field (`D`)
+- Checkbox (`F`)
+- Radio button (`Y`)
+- Toggle (`J`)
+- Dropdown menu (`W`)
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_gui_tool.png" height="auto"><source src="/public/tools_gui_tool.mp4" type="video/mp4"></video>
+
+You can <a href="https://lunacy.docs.icons8.com/components/#editing-components" target="_blank">edit the appearance</a> of these components or <a href="https://lunacy.docs.icons8.com/components/" target="_blank">swap them out</a> entirely.
+
+To <a href="https://lunacy.docs.icons8.com/components/#creating-components" target="_blank">create components</a> of your own, use the **Component tool** or turn layers into components via `Ctrl + Alt + K` / `⌘ + ⌥ + K`.
+
+## Component tool
+
+Use the **Component tool** to quickly create draft interface mockups. With it, you can add placeholder components and later replace them with elements from the **GUI tool** or your own components.
+
+To **draw a placeholder component**:
+
+1. Press `S` or select the **Component tool** on the toolbar.
+2. Drag over the area where you want the placeholder component to be.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_component_placeholders.png" height="auto"><source src="/public/tools_component_placeholders.mp4" type="video/mp4"></video>
+
+Placeholder components appear as pink rectangles with a question mark. To place components into these placeholders, select them and <a href="https://lunacy.docs.icons8.com/components/" target="_blank">swap them</a> with components from the **Components tab** in the left panel or the **Component section** in the right panel.
+
+With the **Component tool** enabled, press `S` and `Shift + S` to switch back-and-forth between recently used components and quickly add them to the canvas.
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/components/" target="_blank">Components</a>
 
 
 ## Icon tool
 
-The Icon tool serves to simplify your work with icons and keeps the items that you've recently used at hand. A click over the icon tool on the toolbar opens the <a href="https://lunacy.docs.icons8.com/libraries/#icons" target="_blank">Icons library</a> where you can select the required icon.
+The **Icon tool** simplifies your workflow by keeping recently used icons at hand. To activate it, press `X` or select it on the toolbar. The **Icons** content tab will open up on the left, displaying a variety of icons of different themes and styles:
 
-![A view of the icon tool](public/tool-icontoolview1.png)
+<embed type="image/svg+xml" alt="icons_library" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/m6GPDhlcsEabGp_o39HUNQ.svg" width="844" /> 
 
-Alternatively, to start using the tool, press `X`. When enabled, the tool appears with the latest icon that you've used. Press `X` again to switch to the next recent icon or `Shift + X` to return to the previous one.
+Also, if you’ve already added icons to the document, the latest used one will be hovering near the cursor. 
 
-For your convenience, when you select an icon on the canvas, Lunacy displays the suggestions panel with your recent icons. To replace the selected icon with an icon from the suggestions panel, just click the required icon. The maximum number of displayed recent icons is 16.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_icon_tool.png" height="auto"><source src="/public/tools_icon_tool.mp4" type="video/mp4"></video>
 
-![A view of the icon tool](public/tool-icontoolsugg.png)
-
-**Note**: The color selected in the **Icons** library affects the color of icons in the suggestion panel.
-
-## Avatar tool
-
-Creating views of user profiles is one of the most common tasks when designing user interfaces. Combined with Lunacy's <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text snippets</a> the avatar tool becomes a real time saver.
-
-{:.is-big}
-![Using the avatar tool](public/objects_avatars1.png)
-
-To add an avatar to your design:
-
-1. Click the avatar tool.
-2. Click or click and drag to place the avatar to where you want it.
-
-Lunacy remembers the size of the latest avatar you add (at the moment you release the tool). The next time you invoke the tool it will appear with an avatar of that very size.
-
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tool-avatarsizeplaceholder.png" height="auto"><source src="/public/tool-avatarsize1.mp4" type="video/mp4"></video>
-
-
-The default collection of avatars installed with the app includes five images. You can use them even when your computer has no internet connection. When you're online, you have access to the full collection of avatars.
-
-Also, thanks to integration with the <a href="https://generated.photos/" target="_blank">generated.photos</a> project, you can select between the photos of real-life models (default) and photos of people generated by AI. In the latter case, you can choose the desired gender, age, ethnicity, and hair color of a model. These options appear in the Inspector. When you're done, click **Generate avatar** and enjoy the magic!
-
-![The avatar tool](public/tools-genphotos.png)
-
-**Note:** You need an internet connection to be able to use generated photos.
-
-To change the image of an avatar, select the avatar and click the refresh button at the top-left corner of the avatar or press `Shift+R`.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-refreshavatarph.png" height="auto"><source src="/public/tools-refreshavatar.mp4" type="video/mp4"></video>
-
-Also, you can refresh multiple avatars at a time. For this, select several avatars and press `Shift+R` or click **Generate avatar** in the Inspector.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-newavatarph.png" height="auto"><source src="/public/rn-newavatar.mp4" type="video/mp4"></video>
-
-Although avatars appear as circles when you add them to the canvas, in fact they are rounded rectangles. So, you can play with the value of the corner radius, if you wish.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-avatardemo.png" height="auto"><source src="/public/avatardemo.mp4" type="video/mp4"></video>
-
-Moreover, you can create avatars from any shapes. For this, select a shape, then enable the Avatar tool and click **Generate avatar** in the Inspector (see the demo below).
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-newavatar2ph.png" height="auto"><source src="/public/rn-newavatar2-1.mp4" type="video/mp4"></video>
-
-### Adjusting background in avatars with generated photos
-
-You can change the background in avatars based on generated photos. The procedure is as follows:
-
-1. Select an avatar.
-2. In the **Avatar** section of the Inspector, switch to *Generated photos*.
-3. Enable the **Transparent** toggle.
-4. Set the rest of the options as needed.
-5. Click **Generate avatar**. A new avatar with a transparent background appears on the canvas.
-6. In the **Fills** section of the Inspector, click `+`. This will add a new fill layer above the image.
-7. Drag the new layer below the image layer.
-8. Enable the color picker and set the required background color (see the demo below).
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tools-avatarbgph.png" height="auto"><source src="/public/tools-avatarbg.mp4" type="video/mp4"></video>
-
-
-## GUI tool
-
-Lunacy features a set of tools that allows you to quickly add basic GUI controls that include:
-
-* Drop-down lists
-* Buttons
-* Text fields
-* Checkboxes
-* Radio buttons and
-* Toggles
-
-![GUI tools](public/rn5_9-guitools1.png)
-
-<!--
-
-When you select a control added with any of these tools, you see the suggestions panel that allows you to:
-
-1. Change the type of the control.
-2. Select the style of the control.
-3. Select the control state.
-
-![GUI tools](public/rn5_9-guitools2.png)
-
--->
-
-To edit the appearance of a control, use the <a href="https://lunacy.docs.icons8.com/components/#editing-main-components" target="_blank">component editor</a>.
-
-## Component tool
-
-The component tool allows you to quickly create mockups of interfaces by adding placeholder components and then replacing them with required GUI elements.
-
-![Component tool](public/rn5_9-symbtool.png)
-
-* To draw a placeholder component just select the Component tool and drag over the required area. Placeholder components appear as pink rectangles with the question mark.
-
-![Placeholder components](public/rn5_9-symbtool2.png)
-
-* To replace a placeholder component, select it and use the suggestions panel that will appear.
-* You can also use use components from the Components page. For this, enable the tool, then go to the Components page and click the required component. The same applies to components from UI kits.
-* When the Component tool is enabled, you can press the `S` and `Shift+S` hotkeys to switch between the components that you've used earlier and quickly add them onto the canvas.
-* If you want your custom components to appear on the suggestions panel, you should properly tag them in the Inspector. For this, click ![Tag component button](public/rn5_9-symbtool5.png) in the **Component** section of the Inspector and select a proper category.
-
-![Tagging components](public/tools-comptoolassign.png)
-
-
+Like with the **Component tool**, when the **Icon tool** is active, use `X` and `Shift + X` to switch through recently used icons.
 
 ## Comment tool
 
-You can use the Comment tool to keep your notes and to-do lists, as well as to collect feedback from teammates and customers. Currently comments are available only within documents, but there are plans to extend this feature and make it even more powerful.
+Use the **Comment tool** to leave comments and notes for yourself to view later or to comment on other people’s documents and collect feedback. Commenting is only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>. Apart from text, you can also **comment with stickers or voice recordings**.
 
-You can:
-
-* Create, edit and delete comments
-* Reply to comments
-* Mark comments as resolved
-* Filter comments by their status
-
-To view and manage comments available in a document, click the Comment tool or press `C`. This enables the comment mode:
-
-* The comments available on the current page show up on the canvas.
-* The Inspector gets replaced with the **Comments** panel. It shows all the comments available in the document. There you can filter comments by their status (unresolved/all). To quickly jump to a comment, click it in the **Comments** panel.
-
-
-{:.is-big}
-![Comments in Lunacy](public/tools-commentview.png)
-
-
-To add a comment to a document:
+To **add a comment** to a document:
 
 1. Click the Comment tool or press `C`.
-2. Click over the place on the canvas where you want to put it.
-3. In the displayed dialog box, type your text.
-4. Click **Post** or press `Enter`.
+2. Click over the place on the canvas you want to comment.
+3. Type something in the input field.
+4. Click Post or press `Enter`.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_comment_tool.png" height="auto"><source src="/public/tools_comment_tool.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> To write multiline comments, use <code style="background: white">Shift + Enter</code>.</p>
+    <p><strong>Tip:</strong> To write multiline comments, use <code>Shift + Enter</code>.</p>
 </div>
 
-To change the location of a comment on the canvas, just drag it to a new place.
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/comments/" target="_blank">Comments</a>
 
-To reply to a comment, add your text below the comment and click **Post**.
+## Avatar tool
 
-To edit/delete a comment or a reply, click the three dots next to it and select the respective command (see the figure above).
+Use the **Avatar tool** to generate user avatars, so you don’t have to look for stock photos online. Choose from **real-life models** or **AI-generated people**. Combine it with Lunacy’s <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> feature, and you’ll save a massive amount of time.
 
-To mark a comment as resolved, click ![Resolve comment icon](public/comment-resolve.png) in the upper-right corner of the comment dialog box.
+To **add an avatar** to the canvas:
+
+1. Activate the **Avatar tool** by pressing `Q` or selecting it on the toolbar.
+2. **Click** or **click and drag** on the canvas to place the avatar.
+3. Copy the avatars as many times as you need to get new photos. To change existing avatars:
+    - With a single avatar selected, click the refresh button (<embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="24" />) at the top-left corner of a selected avatar.
+    - With several avatars selected, press `Shift + R` or **Generate avatar** in the **right panel**.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_add_avatars.png" height="auto"><source src="/public/tools_add_avatars.mp4" type="video/mp4"></video>
+
+<div class="callout callout--info">
+    <p><strong>Tips:</strong> The default collection of avatars built into Lunacy includes five images, which you can use <bold>even if you’re offline</bold>. When you’re online, you have access to the full collection of avatars featuring photos of real-life models. </p>
+</div>
+
+Thanks to integration with the <a href="https://generated.photos/" target="_blank">generated.photos</a> project, you can also **create and customize avatars**:
+
+1. With an avatar selected, switch the **Real-life photo** menu to **Generated photo** in the **right panel**. 
+2. Change the model’s gender, ethnicity, facial expression, age, and hair color appear in the corresponding input fields.
+3. When you’re done, click **Generate avatar** and enjoy the magic!
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_generated_avatar_creation.png" height="auto"><source src="/public/tools_generated_avatar_creation.mp4" type="video/mp4"></video>
+
+You can also **change the background in AI-generated avatars**:
+
+1. Select an avatar.
+2. In the **Generated photos** section of the **right panel**, enable the **Transparent** toggle.
+3. Click **Generate avatar**. A new avatar with a transparent background will appear on the canvas.
+4. In the **Fill** section of the **right panel**, click `+`. This will add a new fill layer above the image.
+5. Move the fill below the image layer.
+6. Modify the fill.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_generated_avatar_background.png" height="auto"><source src="/public/tools_generated_avatar_background.mp4" type="video/mp4"></video>
+
+Although avatars appear as circles when you add them to the canvas, they’re actually rounded rectangles, so you can <a href="https://lunacy.docs.icons8.com/tips/#adjusting-the-corner-radius-setting-for-rectangles" target="_blank">modify their corner radius</a> if you need.
+
+Moreover, you can **create avatars from any shape**. To do this, select a shape, then enable the **Avatar tool** and click **Generate avatar** in the **right panel**. This also works with generated photos.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_avatar_from_shapes.png" height="auto"><source src="/public/tools_avatar_from_shapes.mp4" type="video/mp4"></video>
 
 
 
+## Scale tool
 
-## Hotspot tool
+Using the **Scale tool**, you can proportionally resize any of your layers, **except for**:
+- Locked layers 
+- Layers nested in component instances
 
-Use the Hotspot tool to create hotspot zones when designing prototypes. To add a hotspot:
+To activate the **Scale tool**, press `K` or select it on the toolbar. Then, select the element you want to resize and use the bounding box handles to resize it.
 
-1. Enable the tool by selecting it on the toolbar or simply press `H`.
-2. Click and drag over the area you want to have a hotspot.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_scaling_on_canvas.png" height="auto"><source src="/public/tools_scaling_on_canvas.mp4" type="video/mp4"></video>
 
-The demo below shows the procedure of creating a hotspot and setting a target frame.
+The **Scale tool** preserves the aspect ratio and also scales any borders and/or effects applied to the layer. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-addhotspotplaceholder.png" height="auto"><source src="/public/tool-addhotspot.mp4" type="video/mp4"></video>
+With the **Scale tool** enabled, you can set precise values to change the layer size in the right panel, and the tool will scale the layer and its properties accordingly.
 
-To hide/show hotspots and prototyping links on the canvas, use the **Show prototyping** button on the top bar.
-
-![Show/hide prototyping](public/tool-showproto.png)
-
-For more information about prototyping in Lunacy, click <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">here</a>.
-
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_scaling_right_panel.png" height="auto"><source src="/public/tools_scaling_right_panel.mp4" type="video/mp4"></video>
 
 ## Slice tool
 
-The Slice tool allows you to select a specific area on your design and export it to a file.
+With the **Slice tool**, you can select a specific area on your design and export it.
 
-To make use of the Slice tool:
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_exporting_a_slice.png" height="auto"><source src="/public/tools_exporting_a_slice.mp4" type="video/mp4"></video>
 
-1. Enable the tool by selecting it on the toolbar or simply press `E`.
-2. Click and drag over the area you want to export. The **Export assets** panel appears in the Inspector.
-3. Define the required export settings.
-4. Click **Export selected**.
+To **export a slice**:
 
-To hide/show slices on the canvas, use the **Show slices** button on the top bar.
+1. Enable the **Slice tool** by pressing `E` or selecting it on the toolbar.
+2. Click and drag over the area you want to export. 
+3. Open the **Export tab** in the **right panel**.
+4. Define the export settings.
+5. Click **Export selected**.
 
-![Adding a slice](public/tool-slicebtn.png)
+To hide/show slices on the canvas, enable/disable the **Slices** option in the **Additional menu** on the top bar:
 
-To remove a slice from the canvas, select it and press`Del`.
+<embed type="image/svg+xml" alt="slices_show_hide Copy" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jILdw9U_EEOyBH6TJL0Vgg.svg" width="844" /> 
 
-For more information about export in Lunacy, click <a href="https://lunacy.docs.icons8.com/export" target="_blank">here</a>.
+
+To **remove a slice** from the canvas, select it and press `Del`.
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/export/" target="_blank">Export</a>
+
+## Hotspot tool
+
+Use the **Hotspot tool** to create hotspot zones when designing prototypes. With hotspots, you can make any part of your design interactive, as well as expand the interactive area for small elements, making them easier to press.
+
+To **add a hotspot**:
+
+1. Press `H` or select the **Hotspot tool** on the toolbar.
+2. Click and drag over the area where you want to place a hotspot.
+3. Link it to a frame to set up an interactive prototype.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_hotspot_tool.png" height="auto"><source src="/public/tools_hotspot_tool.mp4" type="video/mp4"></video>
+
+To **hide/show hotspots and prototyping links** on the canvas, enable/disable the **Show prototyping** option in the **Additional menu** on the top bar:
+
+<embed type="image/svg+xml" alt="prototyping_show_hide" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/kjIhPF4fKkOEfpSpQkaHBg.svg" width="844" /> 
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">Prototyping</a>  
 
 ## Eyedropper tool
 
-Working with colors is an essential part of a designer's job. The smart eyedropper tool is designed to make this work easy and effective.
+The **Eyedropper tool** samples the colors of the elements in your document.
 
-To use the eyedropper tool:
+To **use the eyedropper tool**:
 
-1. Select a layer to which you are going to apply a color. If you don't select any layer, the eyedropper applies the color to the workspace.
-2. Click the eyedropper icon on the toolbar or on the color picker panel, or just press `I`. The cursor turns into the eyedropper. Also, the **Colors** panel appears on the left. It features four pallets:
-  
-    * Recent colors
-    * Document colors
-    * Flat colors
-    * Material colors
+1. Select a layer you want to recolor. If you don’t select any layer, the eyedropper will apply the new color to the workspace.
+2. Select the **Eyedropper tool** on the toolbar or on the color picker panel, or press `I`. The cursor will turn into the eyedropper, and the **Colors** panel will appear on the left, featuring four pallets:
+    - **Recent colors**
+    - **Material colors**
+    - **Document colors**
+    - **Flat colors**
+3. Hover the eyedropper over the color that you want to sample, either on the canvas or Lunacy’s interface, and click to apply it.
 
-3. Hover the eyedropper over the color that you want to sample anywhere on the screen and click to apply it.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_using_the_eyedropper.png" height="auto"><source src="/public/tools_using_the_eyedropper.mp4" type="video/mp4"></video>
 
-{:.is-big}
-![Using the eyedropper](public/eye-general.png)
+That is typically how all eyedroppers work in similar apps. Lunacy’s eyedropper also features a **zoom option** that comes in handy when you need pixel precision for small target areas. 
 
-That is typically how all eyedroppers work in similar apps. But Lunacy's eyedropper also features a very nice zoom option that comes in handy when the target area is small and you need pixel precision. To enable zoom, hover the eyedropper over the target and hold down the left mouse button. Then point the eyedropper to the required pixel and release the mouse button. To exit the zoom mode, press `Esc` or quickly swipe the cursor anywhere away from the current area, see the demo below.
+To enable it, hover the eyedropper over the target and hold down the left mouse button. Then point the eyedropper to the required pixel and release the mouse button. To exit the zoom mode, press `Esc` or quickly swipe the cursor anywhere away from the current area.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/eyedropper3-placeholder.png" height="auto"><source src="/public/eyedropper3.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_eyedropper_zoom.png" height="auto"><source src="/public/tools_eyedropper_zoom.mp4" type="video/mp4"></video>
 
-### How the eyedropper applies color to layers
+
+### How the eyedropper applies colors to layers
 
 Depending on the styling properties of a layer, the eyedropper applies colors in the following order:
 
@@ -587,34 +495,22 @@ Depending on the styling properties of a layer, the eyedropper applies colors in
 3. Shadow
 4. Inner shadow
 
-So, if a layer has a fill and a border, the eyedropper updates the fill. If a layer has no fill, but has a border and a shadow, the eyedropper changes the border color and so on. If a layer has several fills (or borders/shadows/inner shadows), the eyedropper applies the color to the one which sits at the top of the property list in the Inspector.
+So, if a layer has a **fill** and a **border**, the eyedropper will update the **fill**. 
 
-Similar rules apply to text layers where text color has top priority.
+If a layer has no fill, but has a **border** and a **shadow**, the eyedropper changes the **border** color, and so on. 
 
-<!--
+If a layer has **several fills** (or borders/shadows/inner shadows), the eyedropper applies the color the **property at the top of the list** in the right panel. 
 
-To demonstrate all this, in the figure below we applied the colors of the rectangles to the ellipses with different sets of styling properties.
+Similar rules apply to text layers, where **text color** has top priority.
 
-{:.is-big}
-![Applying colors](public/eye-apply.png)
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/styling" target="_blank">Styling</a>
 
+### Hand tool
 
+The **Hand tool** is useful for navigating the canvas. To activate it, hold down `Space` or the **middle mouse button** and drag. 
 
-## Zoom tool
-
-The Zoom tool enables you to zoom in the selected object or canvas area. To use the tool:
-
-1. Press and hold `Z`.
-2. Click the object you want to zoom in or drag over the required area (the smaller the area is, the higher the resulting zoom value will be).
-3. To zoom out, hold down `Z+Alt` and click or drag over the object or area.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tool-zoomplaceholder.png" height="auto"><source src="/public/tool-zoom61.mp4" type="video/mp4"></video>
-
-For your convenience, when the zoom value exceeds 500, Lunacy starts displaying the pixel grid. There are two ways to disable this feature:
-
-1. Through the menu (**View** > **Pixel grid**).
-2. Deselect all objects on the canvas and clear the **Show pixel grid** checkbox that will appear in the Inspector.
-
-For information about other zooming options in Lunacy, read <a href="https://lunacy.docs.icons8.com/interface/#zooming-options" target="_blank">here</a>.
-
--->
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/basics/#working-with-the-canvas" target="_blank">Working with the canvas</a>
