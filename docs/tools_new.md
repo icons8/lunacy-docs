@@ -204,7 +204,7 @@ To **adjust a shape**:
 
 You can also change the **stroke** of the shape, add **fills** (to closed shapes) and **effects** in the **right panel**.
 
-In the demo below, we added some curves to a heart-shaped layer built with straight lines. Note how a double-click turns a straight point into a curved point that is also mirrored (read about the different types of points below):
+In the demo below, we added some curves to a heart-shaped layer built with straight lines. Note how a double-click turns a straight point into a curved point that is also mirrored (find out about [different types of points](#types-of-points)).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_adjusting_shape_with_pen.png" height="auto"><source src="/public/tools_adjusting_shape_with_pen.mp4" type="video/mp4"></video>
 
@@ -213,7 +213,7 @@ In the demo below, we added some curves to a heart-shaped layer built with strai
 </div>
 
 
-### Types of points
+### [Types of points](#types-of-points)
 
 Points can be either **straight** or **curved**. 
 
@@ -277,7 +277,7 @@ To **add an image** to your design:
 
 1. Press `M` or select the **Image tool** on the toolbar.
 2. In the **Open** dialog box, choose one or multiple image files.
-3. Click over the area where you want to place the image to add the image in its original size. You can also click and drag to set the required image size, like in the demo below.
+3. Click over the area where you want to place the image to add the image in its original size. You can also click and drag to set the required image size.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_image_tool_add.png" height="auto"><source src="/public/tools_image_tool_add.mp4" type="video/mp4"></video>
 
@@ -338,9 +338,7 @@ Like with the **Component tool**, when the **Icon tool** is active, use `X` and 
 
 ## Comment tool
 
-Use the **Comment tool** to leave comments and notes for yourself to view later or to comment on other people’s documents and collect feedback. Commenting is only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>. 
-
-To view and manage comments available in a document, select the **Comment tool** on the toolbar or press `C` to enable comment mode. The comments available on the current page will appear on the canvas.
+Use the **Comment tool** to leave comments and notes for yourself to view later or to comment on other people’s documents and collect feedback. Commenting is only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>. Apart from text, you can also **comment with stickers or voice recordings**.
 
 To **add a comment** to a document:
 
@@ -355,7 +353,8 @@ To **add a comment** to a document:
     <p><strong>Tip:</strong> To write multiline comments, use <code>Shift + Enter</code>.</p>
 </div>
 
-Apart from text, you can also **comment with stickers or voice recordings**:
+<!--To view and manage comments available in a document, select the **Comment tool** on the toolbar or press `C` to enable comment mode. The comments available on the current page will appear on the canvas.
+
 
 * Click <embed type="image/svg+xml" alt="comment_with_sticker" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/AeLJbQf5CkKOOoegMJrZ6g.svg" width="20" /> to open up a set of **stickers** you can use in place of text comments or as reactions to other users' comments.
 
@@ -370,7 +369,7 @@ More comment actions:
 - To **edit/delete a comment**, click <embed type="image/svg+xml" alt="additional_comment_menu" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/YZjdS-EuukKxEnbjo_yqHw.svg" width="20" /> in the top right corner of the comment dialog box and select the corresponding menu option.
 - Click <embed type="image/svg+xml" alt="resolve_comment" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/OQ52c52fIkqPLsrrx6TTrg.svg" width="24" /> in the top right corner of the comment dialog box to **resolve a comment**.
 
-Clicking the **Comment** button on the top bar will open up the **Comment panel** in place of the right panel, displayng all of the comments available in the document. Here, you can filter comments by their status (unresolved/all). 
+Clicking the **Comment** button on the top bar will open up the **Comment panel** in place of the right panel, displayng all of the comments available in the document. Here, you can filter comments by their status (unresolved/all).-->
 
 **See also:**
 <br>
@@ -384,12 +383,19 @@ To **add an avatar** to the canvas:
 
 1. Activate the **Avatar tool** by pressing `Q` or selecting it on the toolbar.
 2. **Click** or **click and drag** on the canvas to place the avatar.
+3. Copy the avatars as many times as you need to get new photos. To change existing avatars:
+    - With a single avatar selected, click the refresh button (<embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="24" />) at the top-left corner of a selected avatar.
+    - With several avatars selected, press `Shift + R` or **Generate avatar** in the **right panel**.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_add_avatars.png" height="auto"><source src="/public/tools_add_avatars.mp4" type="video/mp4"></video>
 
-Thanks to integration with the <a href="https://generated.photos/" target="_blank">generated.photos</a> project, you’ll be able to **modify the avatar using AI**:
+<div class="callout callout--info">
+    <p><strong>Tips:</strong> The default collection of avatars built into Lunacy includes five images, which you can use <bold>even if you’re offline</bold>. When you’re online, you have access to the full collection of avatars featuring photos of real-life models. </p>
+</div>
 
-1. With an avatar selected, change the **Real-life photo** menu to **Generated photo** in the **right panel**. 
+Thanks to integration with the <a href="https://generated.photos/" target="_blank">generated.photos</a> project, you can also **create and customize avatars**:
+
+1. With an avatar selected, switch the **Real-life photo** menu to **Generated photo** in the **right panel**. 
 2. Change the model’s gender, ethnicity, facial expression, age, and hair color appear in the corresponding input fields.
 3. When you’re done, click **Generate avatar** and enjoy the magic!
 
@@ -401,27 +407,18 @@ You can also **change the background in AI-generated avatars**:
 2. In the **Generated photos** section of the **right panel**, enable the **Transparent** toggle.
 3. Click **Generate avatar**. A new avatar with a transparent background will appear on the canvas.
 4. In the **Fill** section of the **right panel**, click `+`. This will add a new fill layer above the image.
-5. Drag it below the image layer.
-6. Modify the fill to your liking.
+5. Move the fill below the image layer.
+6. Modify the fill.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_generated_avatar_background.png" height="auto"><source src="/public/tools_generated_avatar_background.mp4" type="video/mp4"></video>
 
-### Working with built-in avatars
-
-The default collection of avatars built into Lunacy includes five images, which you can use even if you’re offline. When you’re online, you have access to the full collection of avatars featuring photos of real-life models. 
-
-Once you've added a built-in avatar (with **Real-life photo** enabled in the **right panel**), here's how to **generate a new one**:
-
-- Select the avatar and click the refresh button (<embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="24" />) at the top-left corner of the frame.
-- Select one or several avatars and press `Shift + R` or **Generate avatar** in the right panel.
-
 Although avatars appear as circles when you add them to the canvas, they’re actually rounded rectangles, so you can <a href="https://lunacy.docs.icons8.com/tips/#adjusting-the-corner-radius-setting-for-rectangles" target="_blank">modify their corner radius</a> if you need.
 
-Moreover, you can **create avatars from any shape**. To do this, select a shape, then enable the **Avatar tool** and click **Generate avatar** in the **right panel**:
+Moreover, you can **create avatars from any shape**. To do this, select a shape, then enable the **Avatar tool** and click **Generate avatar** in the **right panel**. This also works with generated photos.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_avatar_from_shapes.png" height="auto"><source src="/public/tools_avatar_from_shapes.mp4" type="video/mp4"></video>
 
-Also, Lunacy remembers the size of the most recent avatar you add, so the next time you use the tool, the generated avatar will match the previous size.
+
 
 ## Scale tool
 
@@ -466,7 +463,7 @@ To **remove a slice** from the canvas, select it and press `Del`.
 
 ## Hotspot tool
 
-Use the **Hotspot tool** to create hotspot zones when designing prototypes. **Hotspot zones** are interactive areas on your designs that you can set to lead to another frame in order to build prototypes. 
+Use the **Hotspot tool** to create hotspot zones when designing prototypes. With hotspots, you can make any part of your design interactive, as well as expand the interactive area for small elements, making them easier to press.
 
 To **add a hotspot**:
 
@@ -475,8 +472,6 @@ To **add a hotspot**:
 3. Link it to a frame to set up an interactive prototype.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_hotspot_tool.png" height="auto"><source src="/public/tools_hotspot_tool.mp4" type="video/mp4"></video>
-
-With hotspots, you can make any part of your design interactive, as well as expand the interactive area for small elements, making them easier to press.
 
 To **hide/show hotspots and prototyping links** on the canvas, enable/disable the **Show prototyping** option in the **Additional menu** on the top bar:
 
@@ -504,7 +499,7 @@ To **use the eyedropper tool**:
 
 That is typically how all eyedroppers work in similar apps. Lunacy’s eyedropper also features a **zoom option** that comes in handy when you need pixel precision for small target areas. 
 
-To enable it, hover the eyedropper over the target and hold down the left mouse button. Then point the eyedropper to the required pixel and release the mouse button. To exit the zoom mode, press `Esc` or quickly swipe the cursor anywhere away from the current area, like in the demo below:
+To enable it, hover the eyedropper over the target and hold down the left mouse button. Then point the eyedropper to the required pixel and release the mouse button. To exit the zoom mode, press `Esc` or quickly swipe the cursor anywhere away from the current area.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_eyedropper_zoom.png" height="auto"><source src="/public/tools_eyedropper_zoom.mp4" type="video/mp4"></video>
 

@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: FAQ and Contacts
-        url: '/support'
+        content: FAQs
+        url: '/faq'
     prev:
         content: Localization
         url: '/localization'

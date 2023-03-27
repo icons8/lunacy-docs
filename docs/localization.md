@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: FAQ and Contacts
-        url: '/support'
+        content: Plans and Pricing
+        url: '/subscriptions'
     prev:
         content: Shortcuts
         url: '/shortcuts'

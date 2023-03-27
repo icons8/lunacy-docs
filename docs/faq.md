@@ -16,7 +16,7 @@ micro_nav: false
 page_nav:
     next:
         content: Contacts
-        url: '/contacts'
+        url: '/contact'
     prev:
         content: Plans and Pricing
         url: '/subscriptions'
