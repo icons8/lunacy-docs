@@ -410,7 +410,7 @@ You can also **change the background in AI-generated avatars**:
 
 The default collection of avatars built into Lunacy includes five images, which you can use even if you’re offline. When you’re online, you have access to the full collection of avatars featuring photos of real-life models. 
 
-Once you've added a built-in avatar (with **Real-life photo** enabled in the right panel), here's how you **generate a new one**:
+Once you've added a built-in avatar (with **Real-life photo** enabled in the **right panel**), here's how to **generate a new one**:
 
 - Select the avatar and click the refresh button (<embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="24" />) at the top-left corner of the frame.
 - Select one or several avatars and press `Shift + R` or **Generate avatar** in the right panel.
