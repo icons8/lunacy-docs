@@ -108,11 +108,11 @@ To **delete a cloud document**:
 2. In the **Recent** or **My Cloud** sections, find your document and right-click it.
 3. Select **Delete** in the context menu.
 
-<embed type="image/svg+xml" alt="delete-cloud-document" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/SfcWwKYu8kuwha6yPYZdyw.svg" width="844" >
+<embed type="image/svg+xml" alt="clouddoc_delete" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/zKbfNOZbXEq8PHA9ssJHJA.svg" width="844" >
 
 Deleted documents migrate over to the **Deleted** section of the **Home tab**, where you can either **restore** or **permanently delete** them. Be careful with this option.
 
-<embed type="image/svg+xml" alt="delete-cloud-document-permanently" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/2jm-DbTATEKsWuD-RaD5zQ.svg" width="844" >
+<embed type="image/svg+xml" alt="clouddoc_delete_permanently" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Ajz4y9jAhE-J8vLncNDzPg.svg" width="844" >
 
 <div class="callout callout--warning">
     <p><strong>Note:</strong> On the free plan, deleted documents are stored for <b>30 days</b>. Older documents get archived and cannot be restored. If you need a longer storage period, consider our paid plan options.</p>
