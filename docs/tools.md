@@ -128,7 +128,10 @@ Select the required shape on the toolbar or use the corresponding keyboard short
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_the_shape_tool.png" height="auto"><source src="/public/tools_the_shape_tool.mp4" type="video/mp4"></video>
 
-Hold down `Alt` / `⌥` to **draw or resize a shape from the center**:
+Some more shape tips:
+- To **draw or resize a shape from the center**, hold down `Alt` / `⌥`.
+- To **draw symmetrical shapes**, hold down `Shift` / `Shift`.
+- Hold down both shortcuts to **draw symmetrical shapes from the center**.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_draw_resize_from_center.png" height="auto"><source src="/public/tools_draw_resize_from_center.mp4" type="video/mp4"></video>
 
