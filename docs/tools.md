@@ -24,7 +24,7 @@ page_nav:
 
 All of Lunacy’s tools are on the **toolbar** located on the left of the canvas:
 
-<embed type="image/svg+xml" alt="toolbar_lunacy" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jsBDUBsBcU-MKcR5Qxr1vQ.svg" width="844" /> 
+<embed type="image/svg+xml" alt="lunacy_toolbar" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/BwbqZ9o61kSygOBdLrumOA.svg" width="844" /> 
 
 Below is a brief description of all available tools, which we will then go over in detail. To speed things up, activate the  tools with the corresponding keyboard shortcuts:
 
@@ -128,6 +128,10 @@ Select the required shape on the toolbar or use the corresponding keyboard short
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_the_shape_tool.png" height="auto"><source src="/public/tools_the_shape_tool.mp4" type="video/mp4"></video>
 
+Hold down `Alt` / `⌥` to **draw or resize a shape from the center**:
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_draw_resize_from_center.png" height="auto"><source src="/public/tools_draw_resize_from_center.mp4" type="video/mp4"></video>
+
 **See also:**
 <br> 
 <a href="https://lunacy.docs.icons8.com/editing/" target="_blank">Editing shapes</a>
@@ -139,9 +143,7 @@ To **add a text layer**, press `T` and click over the area of the canvas where y
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_text_type_and_generate.png" height="auto"><source src="/public/tools_text_type_and_generate.mp4" type="video/mp4"></video>
 
 **See also:**
-<br>
-<a href="https://lunacy.docs.icons8.com/text/" target="_blank">Text</a>
-<br><a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">Text generation</a>
+<br><a href="https://lunacy.docs.icons8.com/text/" target="_blank">Text</a><br><a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">Text generation</a>
 
 ## Pen tool
 
