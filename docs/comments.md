@@ -31,9 +31,9 @@ In Lunacy, there are three type of comments:
 * [Voice comments](#recording-voice-comments)
 * [Stickers](#commenting-with-stickers)
 
-All shown in the demo below:
+All shown in the demo below. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_comment_tool.png" height="auto"><source src="/public/tools_comment_tool.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/comment_text_stickers_voice.png" height="auto"><source src="/public/comment_text_stickers_voice.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
     <p><strong>Notes:</strong></p> <li>Comments are only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a></li><li>If you don't own the document, you'll have to log into your Lunacy account to comment on it.</li>
