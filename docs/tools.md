@@ -48,7 +48,7 @@ Below is a brief description of all available tools, which we will then go over 
 |  <embed type="image/svg+xml" alt="avatar_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/rUxSy1TC9EWHGcnfCjjHdQ.svg" width="28" />    | **Avatar tool.** Add randomly generated avatars to your designs.     | `Q`    |
 | <embed type="image/svg+xml" alt="component_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/02TX6jrbmUemFRYnGU5Ubg.svg" width="28" />   | **Component tool.** Useful when you’re creating interface mockups: add placeholder components and then replace them with UI elements later.  | `S`    |
 
-Lunacy also has the **Zoom tool**, though it doesn’t appear on the toolbar. To activate it, hold down `Z`and zoom in and out of a specific area on the canvas. 
+Lunacy also has the **Zoom tool**, though it doesn’t appear on the toolbar. To activate it, hold down `Z` and zoom in and out of a specific area on the canvas. 
 
 **See also:**
 <br> 
@@ -132,6 +132,7 @@ Some more shape tips:
 - To **draw or resize a shape from the center**, hold down `Alt` / `⌥`.
 - To **draw symmetrical shapes**, hold down `Shift` / `Shift`.
 - Hold down both shortcuts to **draw symmetrical shapes from the center**.
+- To **draw a horizontal, vertical, or 45-degree diagonal** line, arrow, or path, hold down `Shift`.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_draw_resize_from_center.png" height="auto"><source src="/public/tools_draw_resize_from_center.mp4" type="video/mp4"></video>
 
@@ -347,10 +348,10 @@ Use the **Comment tool** to leave comments and notes for yourself to view later 
 
 To **add a comment** to a document:
 
-1. Click the Comment tool or press `C`.
+1. Press `C` or select the **Comment tool**.
 2. Click over the place on the canvas you want to comment.
 3. Type something in the input field.
-4. Click Post or press `Enter`.
+4. Click <embed type="image/svg+xml" alt="Sent" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/n8l4ALF8uEizCWAyrGB8oQ.svg" width="20" /> or press `Enter`.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_comment_tool.png" height="auto"><source src="/public/tools_comment_tool.mp4" type="video/mp4"></video>
 
@@ -404,8 +405,6 @@ Although avatars appear as circles when you add them to the canvas, they’re ac
 Moreover, you can **create avatars from any shape**. To do this, select a shape, then enable the **Avatar tool** and click **Generate avatar** in the **right panel**. This also works with generated photos.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_avatar_from_shapes.png" height="auto"><source src="/public/tools_avatar_from_shapes.mp4" type="video/mp4"></video>
-
-
 
 ## Scale tool
 

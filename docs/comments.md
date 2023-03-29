@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Comments
-description: Make notes, provide feedback and share ideas with your teammates
+description: Make notes, provide feedback, and share ideas with your teammates
 icon: 'comments'
 
 # Micro navigation
@@ -23,135 +23,85 @@ page_nav:
 ---
 
 
-You can use comments to keep your notes and to-do lists or discuss designs with your teammates and customers. Here's a short demo video showing the work with comments in Lunacy. For details, go on reading.
-
-![Comments explainer](/public/comments-to-layers-1024.gif)
-
-
-<div class="callout callout--warning">
-    <p><strong>Notes:</strong></p> <li>The comments feature is available only in cloud documents</li><li>If you're not the owner of a document, to leave or reply to a comment you should be signed in to your Icons8 account.</li>
-</div>
+Use comments in your documents to leave notes and to-do lists for yourself or share and receive feedback. 
 
 In Lunacy, there are three type of comments:
 
-* Text comments
-* Voice comments
-* Stickers
+* [Text comments](#adding-a-text-comment)
+* [Voice comments](#adding-a-voice-comment)
+* [Stickers](#adding-stickers)
 
+All shown in the demo below:
 
-
-## Adding a text comment
-
-1. On the toolbar, click ![Comment tool icon](/public/comment_icon.png) or use the `C` shortcut. Then click over the layer or area you want to comment on
-
-    **OR**
-
-    Select a layer you to comment on. Then click ![Comment tool icon](/public/comment_icon.png) on the toolbar or use the `C` shortcut.
-
-2. Type your comment.
-3. Click ![send](/public/Paper_Plane_Icon.png) to send your message or simply press `Enter`.
-
-## Adding a voice comment
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_comment_tool.png" height="auto"><source src="/public/tools_comment_tool.mp4" type="video/mp4"></video>
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> Make sure you allow Lunacy to access the microphone, otherwise your comments will not be recorded.</p>
+    <p><strong>Notes:</strong></p> <li>Comments are only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a></li><li>If you don't own the document, you'll have to log into your Lunacy account to comment on it.</li>
 </div>
 
-1. On the toolbar, click ![Comment tool icon](/public/comment_icon.png) or use the `C` shortcut. Then click over the layer or area you want to comment on
 
-    **OR**
+## [Adding a text comment](#adding-a-text-comment)
 
-    Select a layer you to comment on. Then click ![Comment tool icon](/public/comment_icon.png) on the toolbar or use the `C` shortcut.
+To **add a comment** to a document:
 
-2. In the comment bubble, click ![microphone](/public/Microphone_Icon.png), say what you want to say. 
-3. Click ![stop recording button](/public/stop_voice_comment_icon.png) to stop recording. Use the ![play recording](/public/play_voice_comment_icon.png) button to listen to the record before sending or the ![trash can button](/public/trash_can_icon.png) to delete the record.
-4. Click ![send](/public/Paper_Plane_Icon.png) to send your message or simply press `Enter`.
-
-If you have several microphones, you can switch between them through **Help** > **Microphone**, see the figure below.
-
-![Switching between microphones](/public/comments_micro.png)
+1. Press `C` or select the **Comment tool**.
+2. Click over the place on the canvas you want to comment.
+3. Type something in the input field.
+4. Click <embed type="image/svg+xml" alt="Sent" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/n8l4ALF8uEizCWAyrGB8oQ.svg" width="20" /> or press `Enter`.
 
 
-## Adding stickers
+## [Recording voice comments](#adding-a-voice-comment)
 
-Unlike text and voice comments, stickers (*thumb up*, *thumb down*, *+1*, *heart*, etc.) show up right on the canvas. There’s no need to open comment bubbles to see them. However, stickers that you use in replies to comments will show up only inside the chat.
+To comment with a **voice recording**:
 
-1. On the toolbar, click ![Comment tool icon](/public/comment_icon.png) or use the `C` shortcut. Then click over the layer or area you want to comment on
+1. Next to the usual comment input field, press the <embed type="image/svg+xml" alt="mic_comment" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/LOhQWwzZe0O7aTNFA6FtJg.svg" width="20" /> icon to record your message.
+2. Click <embed type="image/svg+xml" alt="Stop" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/7Ffp0SjyWk6rmlOmWwB_wg.svg" width="20" /> to stop recording. Use the <embed type="image/svg+xml" alt="Play" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HD-TYiNcVEy5Npo_ePOa8w.svg" width="20" /> button to listen to the recording or the <embed type="image/svg+xml" alt="Delete 17" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/mzlutszh_UmV3L0QGqvUfg.svg" width="20" /> to delete it.
+3. Post the comment as usual.
 
-    **OR**
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> Make sure Lunacy has access to your microphone, otherwise, this option will be unavailable.If you have several microphones, you can switch between them through <b>Help</b> > <b>Microphone</b>. </p>
+</div>
 
-    Select a layer you to comment on. Then click ![Comment tool icon](/public/comment_icon.png) on the toolbar or use the `C` shortcut.
+## [Commenting with stickers](#adding-stickers)
 
-2. Click ![sticker icon](/public/sticker_icon.png) icon next to the comment entry field, and select the required sticker
+Unlike text and voice comments, which are visible/playable only once you click on the comment markers to open them, sticker comments show up right on the canvas. 
 
+To **comment with a sticker**:
+1. Next to the usual comment input field, click <embed type="image/svg+xml" alt="comment_with_sticker" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/AeLJbQf5CkKOOoegMJrZ6g.svg" width="20" /> to open up a set of **stickers** you can use in place of text comments or as reactions to other users' comments:
+    <embed type="image/svg+xml" alt="stickers" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/c69wj8CrREWGFYXdLvyqWQ.svg" /> 
+2. Click on a sticker to post the comment.
 
-## Viewing and resolving comments
-
-You can view comments by clicking each comment bubble on the canvas.
-
-Also, you can open the Comments panel and view the full list of comments. To open the Comments panel, Click ![Comments icon on the top panel](/public/comments_toppanel_icon.png) on the Lunacy top bar (see the figure below).
-
-
-![Opening comments panel](/public/opening_comments_panel.png)
-
-In the Comments panel, you can choose between viewing *All* or *Unresolved* comments. If you choose the *Unresolved* option on the panel, this will also hide all the resolved comments on the canvas.
-
-To resolve or unresolve a comment click ![Resolve and unresolve comment button](/public/resolve_comment_icon.png) in the comment bubble or Comments panel.
-
-## Replying to comments
-
-To reply to a comment:
-
-1. Click over the comment bubble to open it.
-2. Type you reply or record a voice message and click ![send](/public/Paper_Plane_Icon.png), or post a sticker.
-
-![replying to a comment](/public/replying_comments.png)
+<div class="callout callout--warning">
+    <p><strong>Note:</strong> Stickers that you use in replies to comments will only show up inside the chat.</p>
+</div>
 
 
-
-## Editing and deleting comments
-
-To edit or delete a comment:
-
-1. Click over the comment bubble to open it.
-2. Click ![send](/public/show_more_icon.png) and select the required option on the menu.
-
-![deleting a comment](/public/deleting_comments.png)
-
-Note that only comment authors or document owner can delete comments. 
-
-
-
-## Disabling the display of comments
+## [Viewing and managing comments](#viewing-and-resolving-comments)
 
 By default, comments are always visible on the canvas.
 
-To hide the comments:
+To hide/show them, enable/disable the the **Comments** option in the **Additional menu** on the top bar:
 
-1. On the top bar, click ![view](/public/nine_dots_icon.png).
-2. On the displayed menu, click **Comments**.
+<embed type="image/svg+xml" alt="comments_show_hide" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_d40yhvrEECrVNiwoWy0xg.svg" width="844"  /> 
 
-![Hiding comments](/public/hiding_comments.png)
+You can view and manage comments in a document by selecting the **Comment tool** on the toolbar or pressing `C` to enable comment mode. All the comments on the current page will be visible on the canvas.
 
+Open and read/listen to comments by clicking the comment markers on the canvas. 
 
-To enable the display of comments, repeat the above procedure, or simply click ![Comment tool icon](/public/comment_icon.png) on the tool bar, or press `C`. 
+Clicking the <embed type="image/svg+xml" alt="Open Comment Panel" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jdF5SN-s4kOlZY1YtiCs3w.svg" width="20" /> button on the **top bar** will open up the **Comment panel** in place of the right panel, displayng all of the comments available in the document. Here, you can filter comments by their status (unresolved/all).
 
+<embed type="image/svg+xml" alt="comments_panel" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ugC2nLPg70OiTrs9oY2NwA.svg" width="844" /> 
 
-
-<!--To view and manage comments available in a document, select the **Comment tool** on the toolbar or press `C` to enable comment mode. The comments available on the current page will appear on the canvas.
-
-
-* Click <embed type="image/svg+xml" alt="comment_with_sticker" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/AeLJbQf5CkKOOoegMJrZ6g.svg" width="20" /> to open up a set of **stickers** you can use in place of text comments or as reactions to other users' comments.
-
-* To comment with a **voice recording**, press the <embed type="image/svg+xml" alt="mic_comment" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/LOhQWwzZe0O7aTNFA6FtJg.svg" width="20" /> icon, record your message, then post the comment as usual. Make sure Lunacy has access to your microphone, otherwise, this option will be unavailable.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/comment_text_stickers_voice.png" height="auto"><source src="/public/comment_text_stickers_voice.mp4" type="video/mp4"></video>
-
-More comment actions:
+### More comment actions
 
 - To **move comments**, drag them over the canvas.
-- Add your text below the comment to **reply** to it, then click **Post**. 
-- To **edit/delete a comment**, click <embed type="image/svg+xml" alt="additional_comment_menu" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/YZjdS-EuukKxEnbjo_yqHw.svg" width="20" /> in the top right corner of the comment dialog box and select the corresponding menu option.
+- Add your text, sticker, or voice message below a comment to **reply** to it, then click <embed type="image/svg+xml" alt="Sent" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/n8l4ALF8uEizCWAyrGB8oQ.svg" width="20" />:
+    <embed type="image/svg+xml" alt="replying_to_comments" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/SEEMktXIDUC3VkXUBJ9BGQ.svg" width="844" /> 
+- To **edit/delete a comment**, click <embed type="image/svg+xml" alt="additional_comment_menu" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/YZjdS-EuukKxEnbjo_yqHw.svg" width="20" /> in the top right corner of the comment dialog box and select the corresponding menu option:
+    <embed type="image/svg+xml" alt="edit_delete_comments" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/js0WCsxwJkqVS3_RP0o8qQ.svg" /> 
 - Click <embed type="image/svg+xml" alt="resolve_comment" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/OQ52c52fIkqPLsrrx6TTrg.svg" width="24" /> in the top right corner of the comment dialog box to **resolve a comment**.
 
-Clicking the **Comment** button on the top bar will open up the **Comment panel** in place of the right panel, displayng all of the comments available in the document. Here, you can filter comments by their status (unresolved/all).-->
+
+
+
+
