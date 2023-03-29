@@ -35,7 +35,7 @@ All shown in the demo below:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_comment_tool.png" height="auto"><source src="/public/tools_comment_tool.mp4" type="video/mp4"></video>
 
-<div class="callout callout--warning">
+<div class="callout callout--info">
     <p><strong>Notes:</strong></p> <li>Comments are only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a></li><li>If you don't own the document, you'll have to log into your Lunacy account to comment on it.</li>
 </div>
 
@@ -59,7 +59,7 @@ To comment with a **voice recording**:
 3. Post the comment as usual.
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> Make sure Lunacy has access to your microphone, otherwise, this option will be unavailable.If you have several microphones, you can switch between them through <b>Help</b> > <b>Microphone</b>. </p>
+    <p><strong>Note:</strong> Make sure Lunacy has access to your microphone, otherwise, this option will be unavailable. If you have several microphones, you can switch between them through <b>Help</b> > <b>Microphone</b>. </p>
 </div>
 
 ## [Commenting with stickers](#adding-stickers)
@@ -71,7 +71,7 @@ To **comment with a sticker**:
     <embed type="image/svg+xml" alt="stickers" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/c69wj8CrREWGFYXdLvyqWQ.svg" /> 
 2. Click on a sticker to post the comment.
 
-<div class="callout callout--warning">
+<div class="callout callout--info">
     <p><strong>Note:</strong> Stickers that you use in replies to comments will only show up inside the chat.</p>
 </div>
 
