@@ -39,7 +39,6 @@ All shown in the demo below:
     <p><strong>Notes:</strong></p> <li>Comments are only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a></li><li>If you don't own the document, you'll have to log into your Lunacy account to comment on it.</li>
 </div>
 
-
 ## [Adding a text comment](#adding-a-text-comment)
 
 To **add a comment** to a document:
@@ -48,7 +47,6 @@ To **add a comment** to a document:
 2. Click over the place on the canvas you want to comment.
 3. Type something in the input field.
 4. Click <embed type="image/svg+xml" alt="Sent" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/n8l4ALF8uEizCWAyrGB8oQ.svg" width="20" /> or press `Enter`.
-
 
 ## [Recording voice comments](#recording-voice-comments)
 
@@ -68,13 +66,13 @@ Unlike text and voice comments, which are visible/playable only once you click o
 
 To **comment with a sticker**:
 1. Next to the usual comment input field, click <embed type="image/svg+xml" alt="comment_with_sticker" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/AeLJbQf5CkKOOoegMJrZ6g.svg" width="20" /> to open up a set of **stickers** you can use in place of text comments or as reactions to other users' comments:
+<br>
     <embed type="image/svg+xml" alt="stickers" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/c69wj8CrREWGFYXdLvyqWQ.svg" /> 
 2. Click on a sticker to post the comment.
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> Stickers that you use in replies to comments will only show up inside the chat.</p>
 </div>
-
 
 ## [Viewing and managing comments](#viewing-and-resolving-comments)
 
