@@ -78,7 +78,7 @@ To **comment with a sticker**:
 
 By default, comments are always visible on the canvas.
 
-To hide them, disable the the **Comments** option in the **Additional menu** on the top bar:
+To hide them, disable the the **Comments** option in the **Additional options** menu on the top bar:
 
 <embed type="image/svg+xml" alt="comments_show_hide" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_d40yhvrEECrVNiwoWy0xg.svg" width="844"  /> 
 

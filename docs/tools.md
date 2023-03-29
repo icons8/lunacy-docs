@@ -436,7 +436,7 @@ To **export a slice**:
 4. Define the export settings.
 5. Click **Export selected**.
 
-To hide/show slices on the canvas, enable/disable the **Slices** option in the **Additional menu** on the top bar:
+To **hide/show slices** on the canvas, enable/disable the **Slices** option in the **Additional options** menu on the top bar:
 
 <embed type="image/svg+xml" alt="slices_show_hide Copy" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jILdw9U_EEOyBH6TJL0Vgg.svg" width="844" /> 
 
@@ -459,7 +459,7 @@ To **add a hotspot**:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_hotspot_tool.png" height="auto"><source src="/public/tools_hotspot_tool.mp4" type="video/mp4"></video>
 
-To **hide/show hotspots and prototyping links** on the canvas, enable/disable the **Show prototyping** option in the **Additional menu** on the top bar:
+To **hide/show hotspots and prototyping links** on the canvas, enable/disable the **Show prototyping** option in the **Additional options** menu on the top bar:
 
 <embed type="image/svg+xml" alt="prototyping_show_hide" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/kjIhPF4fKkOEfpSpQkaHBg.svg" width="844" /> 
 
