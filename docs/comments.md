@@ -28,8 +28,8 @@ Use comments in your documents to leave notes and to-do lists for yourself or sh
 In Lunacy, there are three type of comments:
 
 * [Text comments](#adding-a-text-comment)
-* [Voice comments](#adding-a-voice-comment)
-* [Stickers](#adding-stickers)
+* [Voice comments](#recording-voice-comments)
+* [Stickers](#commenting-with-stickers)
 
 All shown in the demo below:
 
@@ -50,7 +50,7 @@ To **add a comment** to a document:
 4. Click <embed type="image/svg+xml" alt="Sent" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/n8l4ALF8uEizCWAyrGB8oQ.svg" width="20" /> or press `Enter`.
 
 
-## [Recording voice comments](#adding-a-voice-comment)
+## [Recording voice comments](#recording-voice-comments)
 
 To comment with a **voice recording**:
 
@@ -62,7 +62,7 @@ To comment with a **voice recording**:
     <p><strong>Note:</strong> Make sure Lunacy has access to your microphone, otherwise, this option will be unavailable. If you have several microphones, you can switch between them through <b>Help</b> > <b>Microphone</b>. </p>
 </div>
 
-## [Commenting with stickers](#adding-stickers)
+## [Commenting with stickers](#commenting-with-stickers)
 
 Unlike text and voice comments, which are visible/playable only once you click on the comment markers to open them, sticker comments show up right on the canvas. 
 
