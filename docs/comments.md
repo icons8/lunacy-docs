@@ -54,7 +54,7 @@ To comment with a **voice recording**:
 
 1. Next to the usual comment input field, press the <embed type="image/svg+xml" alt="mic_comment" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/LOhQWwzZe0O7aTNFA6FtJg.svg" width="20" /> icon to record your message.
 2. Click <embed type="image/svg+xml" alt="Stop" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/7Ffp0SjyWk6rmlOmWwB_wg.svg" width="20" /> to stop recording. Use the <embed type="image/svg+xml" alt="Play" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HD-TYiNcVEy5Npo_ePOa8w.svg" width="20" /> button to listen to the recording or the <embed type="image/svg+xml" alt="Delete 17" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/mzlutszh_UmV3L0QGqvUfg.svg" width="20" /> to delete it.
-3. Post the comment as usual.
+3. Click <embed type="image/svg+xml" alt="Sent" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/n8l4ALF8uEizCWAyrGB8oQ.svg" width="20" /> or press `Enter`.
 
 <div class="callout callout--warning">
     <p><strong>Note:</strong> Make sure Lunacy has access to your microphone, otherwise, this option will be unavailable. If you have several microphones, you can switch between them through <b>Help</b> > <b>Microphone</b>. </p>
@@ -65,7 +65,7 @@ To comment with a **voice recording**:
 Unlike text and voice comments, which are visible/playable only once you click on the comment markers to open them, sticker comments show up right on the canvas. 
 
 To **comment with a sticker**:
-1. Next to the usual comment input field, click <embed type="image/svg+xml" alt="comment_with_sticker" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/AeLJbQf5CkKOOoegMJrZ6g.svg" width="20" /> to open up a set of **stickers** you can use in place of text comments or as reactions to other users' comments:
+1. Next to the comment input field, click <embed type="image/svg+xml" alt="comment_with_sticker" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/AeLJbQf5CkKOOoegMJrZ6g.svg" width="20" /> to open up a set of **stickers** you can use in place of text comments or as reactions to other users' comments:
 <br>
     <embed type="image/svg+xml" alt="stickers" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/c69wj8CrREWGFYXdLvyqWQ.svg" /> 
 2. Click on a sticker to post the comment.
@@ -78,7 +78,7 @@ To **comment with a sticker**:
 
 By default, comments are always visible on the canvas.
 
-To hide/show them, enable/disable the the **Comments** option in the **Additional menu** on the top bar:
+To hide them, disable the the **Comments** option in the **Additional menu** on the top bar:
 
 <embed type="image/svg+xml" alt="comments_show_hide" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_d40yhvrEECrVNiwoWy0xg.svg" width="844"  /> 
 
@@ -97,7 +97,7 @@ Clicking the <embed type="image/svg+xml" alt="Open Comment Panel" src="https://c
     <embed type="image/svg+xml" alt="replying_to_comments" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/SEEMktXIDUC3VkXUBJ9BGQ.svg" width="844" /> 
 - To **edit/delete a comment**, click <embed type="image/svg+xml" alt="additional_comment_menu" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/YZjdS-EuukKxEnbjo_yqHw.svg" width="20" /> in the top right corner of the comment dialog box and select the corresponding menu option:
     <embed type="image/svg+xml" alt="edit_delete_comments" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/js0WCsxwJkqVS3_RP0o8qQ.svg" /> 
-- Click <embed type="image/svg+xml" alt="resolve_comment" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/OQ52c52fIkqPLsrrx6TTrg.svg" width="24" /> in the top right corner of the comment dialog box to **resolve a comment**.
+- Click <embed type="image/svg+xml" alt="resolve_comment" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/OQ52c52fIkqPLsrrx6TTrg.svg" width="24" /> in the top right corner of the comment dialog box to **resolve a comment** (you can only resolve your own comments at the moment).
 
 
 
