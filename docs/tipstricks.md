@@ -41,6 +41,7 @@ Use <a href="https://lunacy.docs.icons8.com/autolayout/" target="_blank">auto la
 To add an auto layout, select a frame and press `+` in the **Auto layout** section in the right panel. This isn’t only useful for discrete UI elements: you can build entire webpages whose layout adjusts as you adjust auto layout settings or move and resize individual blocks. 
 
 **See also:**
+<br>
 <a href="https://lunacy.docs.icons8.com/autolayout/" target="_blank">Auto layout</a>
 
 ### [Text generation](#text-generation)
@@ -115,7 +116,9 @@ If you're working with pictures that happen to be of low quality, use the smart 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_image_upscaler.png" height="auto"><source src="/public/tips_tricks_image_upscaler.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info"> <p><strong>Note:</strong> This feature is only available with a <a href="https://lunacy.docs.icons8.com/subscriptions/#graphics-subscriptions/" target="_blank">paid subscription</a> to our graphics.</p> </div>
+<div class="callout callout--info">
+    <p><strong>Note:</strong> This feature is only available with a <a href="https://lunacy.docs.icons8.com/subscriptions/#graphics-subscriptions/" target="_blank">paid subscription</a> to our graphics.</p>
+</div>
 
 ### Smart Layer list
 
@@ -145,12 +148,12 @@ Lunacy determines the order of layers (the Z-index) on the canvas depending on t
 
 The <a href="https://lunacy.docs.icons8.com/tools/#gui-tool" target="_blank">GUI tool</a> features a set of basic UI elements you can add to your designs as components. Activate each component by pressing the corresponding shortcut:
 
-* `B` — button
-* `D` — text input field
-* `F` — checkbox
-* `Y` — radio button
-* `J` — toggle
-* `W` — dropdown
+`B` — button
+`D` — text input field
+`F` — checkbox
+`Y` — radio button
+`J` — toggle
+`W` — dropdown
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_gui_tool.png" height="auto"><source src="/public/tips_tricks_gui_tool.mp4" type="video/mp4"></video>
 
@@ -164,7 +167,9 @@ Here's a short explainer on how it works:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l0X-TeBtPDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div class="callout callout--info"> <p><strong>Note:</strong> Linked design is only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>.</div>
+<div class="callout callout--info">
+    <p><strong>Note:</strong> Linked design is only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>.</p>
+</div>
 
 **See also:**
 <br>
@@ -213,7 +218,9 @@ You can create hyperlinks between the layers in your document, even if the layer
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_layer_hyperlinks.png" height="auto"><source src="/public/tips_tricks_layer_hyperlinks.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info"> <p><strong>Note:</strong> If the layer you set as a starting point is locked, just click on it to be redirected..</div>
+<div class="callout callout--info">
+    <p><strong>Note:</strong> If the layer you set as a starting point is locked, just click on it to be redirected.</p>
+</div>
 
 ### Zoom to selection
 
@@ -261,8 +268,10 @@ To quickly resize a text box so that it fits right around the text, double-click
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_text_box_resize.png" height="auto"><source src="/public/tips_tricks_text_box_resize.mp4" type="video/mp4"></video>
 
+<div class="callout callout--info">
+    <p><strong>Note:</strong> A double-click over the right or left border enables <a href="https://lunacy.docs.icons8.com/text/#text-block-resize-options" target="_blank">horizontal resize mode</a> and transforms multiline texts into a single line.</p>
+</div>
 
-<div class="callout callout--info"> <p><strong>Note:</strong> A double-click over the right or left border enables <a href="https://lunacy.docs.icons8.com/text/#text-block-resize-options" target="_blank">horizontal resize mode</a> and transforms multiline texts into a single line.</div>
 
 ### Adding text to shapes
 
@@ -391,7 +400,10 @@ As for stars and polygons, the corner radius handle appears at the highest corne
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_corner_rounding_shapes.png" height="auto"><source src="/public/tips_tricks_corner_rounding_shapes.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info"> <p><strong>Note:</strong> This method only works with shapes created using the <b>Shape tools<b>.</div>
+<div class="callout callout--info">
+    <p><strong>Note:</strong> This method only works with shapes created using the <b>Shape tools<b>.</p>
+</div>
+
 
 You can also round individual corners in the right panel.
 
