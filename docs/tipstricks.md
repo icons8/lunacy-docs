@@ -30,7 +30,7 @@ If you’re not one to read docs from cover to cover, they’ll probably go unno
 
 ## Ultimate time-savers
 
-With some typical features like auto layout alongside Lunacy’s AI-powered design tools, these features will save you a lot of time and effort while you’re working on your designs.
+These features are aimed to optimize the design process and automate routine tasks, saving you a lot of time and effort while you’re working on your designs.
 
 ### Auto layout
 
@@ -40,15 +40,16 @@ Use <a href="https://lunacy.docs.icons8.com/autolayout/" target="_blank">auto la
 
 To add an auto layout, select a frame and press `+` in the **Auto layout** section in the right panel. This isn’t only useful for discrete UI elements: you can build entire webpages whose layout adjusts as you adjust auto layout settings or move and resize individual blocks. 
 
+**See also:**
+<a href="https://lunacy.docs.icons8.com/autolayout/" target="_blank">Auto layout</a>
+
 ### [Text generation](#text-generation)
 
-When you need placeholder texts, there’s no need to leave the app and sift through google for them. Press `T`, click on the canvas to add a text layer, and various <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> options will appear below.
+When you need placeholder texts, there’s no need to leave the app and google them. Press `T`, click on the canvas to add a text layer, and various <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> options will appear below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_text_type_and_generate.png" height="auto"><source src="/public/tips_tricks_text_type_and_generate.mp4" type="video/mp4"></video>
 
-#### Auto font size
-
-Lunacy automatically adjusts the font size depending on the width and height of the text box you’re creating. It guesses whether the text box is for a heading, subheading, or paragraph block. Play around with the feature a bit to get a hang of it. 
+What's more, Lunacy automatically adjusts the font size depending on the width and height of the text box you’re creating. It guesses whether the text box is for a heading, subheading, or paragraph block. Play around with the feature a bit to get a hang of it. 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_font_size.png" height="auto"><source src="/public/tips_tricks_auto_font_size.mp4" type="video/mp4"></video>
 
@@ -64,17 +65,17 @@ Press `Q` to add an avatar, and press <embed type="image/svg+xml" alt="Refresh/N
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_add_avatars.png" height="auto"><source src="/public/tips_tricks_add_avatars.mp4" type="video/mp4"></video>
 
-To generate avatars, change the **Real-life photo** menu in the right panel to **Generated photo.** Adjust features such as gender, age, ethnicity, and emotion in the right panel, click **Generate avatar,** and let AI do its thing.
+To create custom avatars, change the **Real-life photo** menu in the right panel to **Generated photo.** Adjust features such as gender, age, ethnicity, and emotion in the right panel, click **Generate avatar,** and let AI do its thing.
 
-<embed type="image/svg+xml" alt="generated_photo_options" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/mLxvswuhDkKb7EP4TPO07g.svg" width="844" /> 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_generated_avatar_create.png" height="auto"><source src="/public/tips_tricks_generated_avatar_create.mp4" type="video/mp4"></video> 
 
-### Auto refresh
+### [Auto refresh](#auto-refresh)
 
 When you add generated content, like text and avatars, to your designs, duplicating them automatically refreshes the data so you don’t have to change anything manually.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_refresh.png" height="auto"><source src="/public/tips_tricks_auto_refresh.mp4" type="video/mp4"></video>
 
-To disable Auto refresh, deselect the option in the **Layer** > **Generated content** section of the menu bar. 
+To disable **Auto refresh**, select **Detach from Generated Content** in the layer context menu or in the **Layer** > **Content Generation** section of the menu bar. 
 
 ### Repeat grid
 
@@ -82,7 +83,7 @@ When you select two or more layers, drag the <embed type="image/svg+xml" alt="re
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_repeat_grid.png" height="auto"><source src="/public/tips_tricks_repeat_grid.mp4" type="video/mp4"></video>
 
-If the selected elements include generated content, newly created elements will appear with refreshed data (provided the **Auto refresh** option is enabled).
+If the selected elements include generated content, newly created elements will appear with refreshed data (provided the [Auto refresh](#auto-refresh) option is enabled).
 
 ### Icon, illustration, and photo libraries
 
@@ -90,11 +91,13 @@ Browse the **Icons**, **Photos**, and **Illustrations** tabs in the left panel t
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_libraries.png" height="auto"><source src="/public/tips_tricks_libraries.mp4" type="video/mp4"></video>
 
-**Tip:** To use our graphics without attribution, choose one of our <a href="https://lunacy.docs.icons8.com/subscriptions/#graphics-subscriptions" target="_blank">paid subscriptions</a>.
+Tip: You have access to low-res photos, PNG icons, and illustrations for free as long as you include a link to [icons8.com](https://icons8.com/) in your final work. To use high-res photos and editable SVGs without mandatory attribution use our graphics without mandatory attribution, consider our <a href="https://lunacy.docs.icons8.com/subscriptions/#graphics-subscriptions" target="_blank">graphics subscription</a>. By subscribing, you'll be supporting our artists and contributing to Lunacy's further development.
 
 **See also:**
 <br>
 <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">Libraries</a>
+<br>
+<a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">Plans and pricing</a>
 
 ### Background remover
 
@@ -108,41 +111,33 @@ Select an image and click **Remove background** in the right panel to cleanly cu
 
 ### Image upscaler
 
-Enhance image resolution and enlarge image size up to 7680px × 7680px.
+If you're working with pictures that happen to be of low quality, use the smart **Image upscaler** built into Lunacy to enhance the resolution and enlarge image size up to 7680px × 7680px.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_image_upscaler.png" height="auto"><source src="/public/tips_tricks_image_upscaler.mp4" type="video/mp4"></video>
 
-**Note:** This feature is only available with a paid subscription to our graphics.
-
-**See also:**
-<br>
-<a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">Plans and pricing</a>
+<div class="callout callout--info"> <p><strong>Note:</strong> This feature is only available with a <a href="https://lunacy.docs.icons8.com/subscriptions/#graphics-subscriptions/" target="_blank">paid subscription</a> to our graphics.</p> </div>
 
 ### Smart Layer list
 
-Toggle the **Smart Layer list** to only display the layers that you currently see on the canvas. Press <embed type="image/svg+xml" alt="smart_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/3uDOUlA760igh6dc4pOLLg.svg" width=16 /> to switch between the default and Smart Layer list depending on your needs.
+Toggle the **Smart Layer list** to only display the layers that you currently see on the canvas. Press <embed type="image/svg+xml" alt="smart_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/3uDOUlA760igh6dc4pOLLg.svg" width=16 /> to switch between the full and Smart Layer list depending on your needs.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_smart_layers.png" height="auto"><source src="/public/tips_tricks_smart_layers.mp4" type="video/mp4"></video>
 
 This is useful for really large documents with hundreds or even thousands of layers, when you need to focus on just one area of the canvas. 
 
-### Pre-generated color palettes
+### Color palettes and auto shape colors
 
-Every time you create a new document, Lunacy generates a color palette with main, accent, background and text colors. Deselect all layers to see it in the right panel and press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > to generate a new palette. 
+Every time you create a new document, Lunacy generates a palette with document color variables including main, accent, background and text colors. Deselect all layers to see it in the right panel and press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" > to generate a new palette. 
 
-<embed type="image/svg+xml" alt="add_color_palette" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/MR61z3Qu8USo2he1qP1SvA.svg" width="844" /> 
+To change palette colors manually, click on the color circles to open the color picker. Do delete color variables, press <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" />.
 
-To change palette colors manually, click on the color circles to open the color picker. 
-
-### Auto shape colors
-
-Using the document color palette, Lunacy automatically colors shapes depending on their size and predicted purpose (larger shapes have background colors while smaller elements are assigned primary or accent colors).
+Using the document color palette, Lunacy colors [shapes](#shape-shortcuts) automatically depending on their size and predicted purpose (larger shapes have background colors while smaller elements are assigned primary or accent colors).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_shape_colors.png" height="auto"><source src="/public/tips_tricks_auto_shape_colors.mp4" type="video/mp4"></video>
 
 ### Auto Z-index
 
-Lunacy determines the order of layers (the Z-index) on the canvas depending on their size. For example, if you drag a smaller layer (that’s at the bottom of the layer list) over a larger one, Lunacy places the former above the latter. 
+Lunacy determines the order of layers (the Z-index) on the canvas depending on their size. For example, if you drag a smaller layer (that’s at the bottom of the layer list) over a larger one, Lunacy places the small layer on top.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_z_index.png" height="auto"><source src="/public/tips_tricks_auto_z_index.mp4" type="video/mp4"></video>
 
@@ -169,7 +164,7 @@ Here's a short explainer on how it works:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l0X-TeBtPDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Note:** Linked design is only available in cloud documents.
+<div class="callout callout--info"> <p><strong>Note:</strong> Linked design is only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>.</div>
 
 **See also:**
 <br>
@@ -218,11 +213,11 @@ You can create hyperlinks between the layers in your document, even if the layer
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_layer_hyperlinks.png" height="auto"><source src="/public/tips_tricks_layer_hyperlinks.mp4" type="video/mp4"></video>
 
-**Note:** If the layer you set as a starting point is locked, just click on it to be redirected.
+<div class="callout callout--info"> <p><strong>Note:</strong> If the layer you set as a starting point is locked, just click on it to be redirected..</div>
 
 ### Zoom to selection
 
-If you lose a layer on the canvas or need to quickly zoom into a specific element, find it in the Layer list and double-click the icon next to the layer name. 
+If you need to quickly zoom into a specific element, find it in the Layer list and double-click the icon next to the layer name. 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_zoom_to_selection.png" height="auto"><source src="/public/tips_tricks_zoom_to_selection.mp4" type="video/mp4"></video>
 
@@ -258,7 +253,7 @@ You can align text using the alignment magnets that appear around a selected tex
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_text_magnets.png" height="auto"><source src="/public/tips_tricks_text_magnets.mp4" type="video/mp4"></video>
 
-This also works when you select multiple ungrouped text boxes. If you want to hide these magnets, disable the option i **View** > **Text Alignment Magnets** on the menu bar.
+This also works when you select multiple ungrouped text boxes. If you want to hide these magnets, disable the option in **View** > **Text Alignment Magnets** on the menu bar.
 
 ### Resizing text boxes
 
@@ -266,11 +261,12 @@ To quickly resize a text box so that it fits right around the text, double-click
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_text_box_resize.png" height="auto"><source src="/public/tips_tricks_text_box_resize.mp4" type="video/mp4"></video>
 
-**Note:** A double-click over the right or left border enables <a href="https://lunacy.docs.icons8.com/text/#text-block-resize-options" target="_blank">horizontal resize mode</a> and transforms multiline texts into a single line.
+
+<div class="callout callout--info"> <p><strong>Note:</strong> A double-click over the right or left border enables <a href="https://lunacy.docs.icons8.com/text/#text-block-resize-options" target="_blank">horizontal resize mode</a> and transforms multiline texts into a single line.</div>
 
 ### Adding text to shapes
 
-Click anywhere on a shape to create a perfectly centered text layer inside it.
+Select a shape and press `T` to create a perfectly centered text layer inside it.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_text_to_shape.png" height="auto"><source src="/public/tips_tricks_text_to_shape.mp4" type="video/mp4"></video>
 
@@ -340,18 +336,18 @@ Change hue, saturation, contrast, and other image adjustment properties of your 
 
 Lunacy's shape tools are varied and have a lot of editing options you can use to speed up your design workflow. 
 
-### Shape shortcuts
+### [Shape shortcuts](#shape-shortcuts)
 
 Every shape in Lunacy has a corresponding shortcut, so you don’t have to dig into the toolbar to find the shape you need. Here they are:
 
-`R` — rectangle
-`R`, `R` — rounded rectangle
-`L` — line
-`L`, `L` — arrow
-`O` — oval
-`O`, `O` — triangle
-`O`, `O`, `O` — polygon
-`O`, `O`, `O`, `O` — star
+`R` — rectangle<br>
+`R`, `R` — rounded rectangle<br>
+`L` — line<br>
+`L`, `L` — arrow<br>
+`O` — oval<br>
+`O`, `O` — triangle<br>
+`O`, `O`, `O` — polygon<br>
+`O`, `O`, `O`, `O` — star<br>
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_shape_tools.png" height="auto"><source src="/public/tips_tricks_shape_tools.mp4" type="video/mp4"></video>
 
@@ -395,11 +391,16 @@ As for stars and polygons, the corner radius handle appears at the highest corne
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_corner_rounding_shapes.png" height="auto"><source src="/public/tips_tricks_corner_rounding_shapes.mp4" type="video/mp4"></video>
 
-**Note:** This method only works with shapes created using the **Shape tools**. 
+<div class="callout callout--info"> <p><strong>Note:</strong> This method only works with shapes created using the <b>Shape tools<b>.</div>
+
+You can also round individual corners in the right panel.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_corner_rounding_shapes.png" height="auto"><source src="/public/tips_tricks_corner_rounding_shapes.mp4" type="video/mp4"></video>
+
 
 ### Editing stars and polygons on the canvas
 
-If you want to **change the number of corners** in a star or a polygon, you can opt out of using the right panel entirely. Just hover the cursor over the second-highest corner of the shape after you draw it.
+You can **change the number of corners** in a star or a polygon in the right panel, but you can do this right on the canvas. Hover the cursor over the second-highest corner of the shape after you draw it.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_count_shapes.png" height="auto"><source src="/public/tips_tricks_count_shapes.mp4" type="video/mp4"></video>
 
