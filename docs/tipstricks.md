@@ -92,7 +92,9 @@ Browse the **Icons**, **Photos**, and **Illustrations** tabs in the left panel t
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_libraries.png" height="auto"><source src="/public/tips_tricks_libraries.mp4" type="video/mp4"></video>
 
-Tip: You have access to low-res photos, PNG icons, and illustrations for free as long as you include a link to [icons8.com](https://icons8.com/) in your final work. To use high-res photos and editable SVGs without mandatory attribution use our graphics without mandatory attribution, consider our <a href="https://lunacy.docs.icons8.com/subscriptions/#graphics-subscriptions" target="_blank">graphics subscription</a>. By subscribing, you'll be supporting our artists and contributing to Lunacy's further development.
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> You have access to low-res photos, PNG icons, and illustrations for free as long as you include a link to <a href="https://icons8.com/" target="_blank">icons8.com</a> in your final work. To use high-res photos and editable SVGs without mandatory attribution use our graphics without mandatory attribution, consider our <a href="https://lunacy.docs.icons8.com/subscriptions/#graphics-subscriptions" target="_blank">graphics subscription</a>. By subscribing, you'll be supporting our artists and contributing to Lunacy's further development.</p>
+</div>
 
 **See also:**
 <br>
