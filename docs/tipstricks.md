@@ -152,11 +152,11 @@ Lunacy determines the order of layers (the Z-index) on the canvas depending on t
 
 The <a href="https://lunacy.docs.icons8.com/tools/#gui-tool" target="_blank">GUI tool</a> features a set of basic UI elements you can add to your designs as components. Activate each component by pressing the corresponding shortcut:
 
-`B` — button
-`D` — text input field
-`F` — checkbox
-`Y` — radio button
-`J` — toggle
+`B` — button<br>
+`D` — text input field<br>
+`F` — checkbox<br>
+`Y` — radio button<br>
+`J` — toggle<br>
 `W` — dropdown
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_gui_tool.png" height="auto"><source src="/public/tips_tricks_gui_tool.mp4" type="video/mp4"></video>
