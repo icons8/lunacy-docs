@@ -181,7 +181,7 @@ Here's a short explainer on how it works:
 
 ### Sharing your designs via Lunacy Cloud
 
-Press `Alt + С + C` / `⌥ + C + C` to instantly upload a layer or frame to Lunacy Cloud and copy the link to it to the clipboard. This way, you can share your designs straight from the canvas. 
+Press `Alt + С + C` / `⌥ + C + C` to instantly upload a layer to Lunacy Cloud and copy the link to it to the clipboard. This way, you can share your designs straight from the canvas. 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_uploading_layer_to_cloud.png" height="auto"><source src="/public/tips_tricks_uploading_layer_to_cloud.mp4" type="video/mp4"></video>
 
