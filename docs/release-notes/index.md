@@ -75,6 +75,33 @@ This version brings a new render engine, which means higher FPS and lower input 
 * Numerous auto layout improvements and fixes.
 * Numerous Figma import improvements.
 
+## 9.0.9 hotfix
+_Release date: April 6, 2023_  
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.0.9.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.9.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.0.9.deb)
+
+### What's new
+
+**65% price drop** for paid plans:
+
+- The **Personal Cloud plan** now costs $4.99 per month. Includes **unlimited** cloud documents, version history, and deleted document storage.
+- The **Graphics subscription** now costs $9.99 per month. A **full set subscription** to use icons, high-res photos, and illustrations without mandatory attribution.
+
+<div class="callout callout--info">
+    <p><strong>Note:</strong> These prices are only available if you subscribe through the Lunacy app.</p>
+</div>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">Plans and pricing</a>
+
+### Fixed issues
+- Auto layout bug fixes
+- The feedback form now sends messages correctly
 
 ## 9.0.8 hotfix
 _Release date: March 20, 2023_  
