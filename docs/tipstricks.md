@@ -191,7 +191,7 @@ All of your uploads appear in the **Cloud uploads** list. Switch to the **Export
 
 ## Working with layers
 
-Lunacy has several types of <a href="https://lunacy.docs.icons8.com/layers/" target="_blank">layers</a>. With the tips below, you can work with them quickly and efficiently.
+Lunacy has several types of <a href="https://lunacy.docs.icons8.com/layers/" target="_blank">layers</a>. These tips show how to work with them quickly and efficiently.
 
 ### Snapping frames to presets
 
