@@ -136,6 +136,8 @@ Every time you create a new document, Lunacy generates a palette with document c
 
 To change palette colors manually, click on the color circles to open the color picker. Do delete color variables, press <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" />.
 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_color_palettes.png" height="auto"><source src="/public/tips_tricks_color_palettes.mp4" type="video/mp4"></video>
+
 Using the document color palette, Lunacy colors [shapes](#shape-shortcuts) automatically depending on their size and predicted purpose (larger shapes have background colors while smaller elements are assigned primary or accent colors).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_shape_colors.png" height="auto"><source src="/public/tips_tricks_auto_shape_colors.mp4" type="video/mp4"></video>
@@ -180,6 +182,8 @@ Here's a short explainer on how it works:
 ### Sharing your designs via Lunacy Cloud
 
 Press `Alt + С + C` / `⌥ + C + C` to instantly upload a layer or frame to Lunacy Cloud and copy the link to it to the clipboard. This way, you can share your designs straight from the canvas. 
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_uploading_layer_to_cloud.png" height="auto"><source src="/public/tips_tricks_uploading_layer_to_cloud.mp4" type="video/mp4"></video>
 
 All of your uploads appear in the **Cloud uploads** list. Switch to the **Export** tab in the right panel, add an export option, and click <embed type="image/svg+xml" alt="Vector Copy" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/17oPAse7T0eFJikgES01WQ.svg" width="20" /> to open it, copy links to previous uploads, or delete them from Lunacy servers. 
 
@@ -240,9 +244,13 @@ Alternatively, select it in the Layer list and press `Ctrl + 2` / `⌘ + 2`.
 
 Hold down `Shift` when moving layers to restrict their movement along the X or Y axis.
 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_move_along_xy_axis.png" height="auto"><source src="/public/tips_tricks_move_along_xy_axis.mp4" type="video/mp4"></video>
+
 ### Resizing layers with arrow keys
 
 Press `Ctrl` / `⌘` + **arrow keys** to resize layers by 1px or  `Ctrl + Shift` / `⌘ + Shift` + **arrow keys** to resize by 10px.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_resizing_layers_with_arrow_keys.png" height="auto"><source src="/public/tips_tricks_resizing_layers_with_arrow_keys.mp4" type="video/mp4"></video>
 
 ## Working with text
 
@@ -287,23 +295,24 @@ This is useful for designing buttons, menus, and similar UI elements. Don’t fo
 
 When you add a text layer on top of a layer, Lunacy automatically sets a text color that contrasts with the background to save you a couple of clicks. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_text_color.png" height="auto"><source src="/public/tips_tricks_auto_text_color.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_text_colors.png" height="auto"><source src="/public/tips_tricks_auto_text_colors.mp4" type="video/mp4"></video>
 
 ### Fonts embedding
 
 Embed fonts in an exported document so that when you share it with your colleagues or clients, they won’t have to install any fonts that may be missing on their device. Click **Text > Fonts Embedding** on the menu bar and embed all or certain fonts into the document. 
 
-### Converting text to vector shapes
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_fonts_embedding.png" height="auto"><source src="/public/tips_tricks_fonts_embedding.mp4" type="video/mp4"></video>
 
+### Converting text to outlines
 To convert a text layer to vector outlines, select the text layer and:
 
 - Press `Ctrl + Shift + O` / `⌘ + Shift + O`.
 - Select **Outline stroke** on the context menu.
 - Select **Text** > **Convert to Outlines** on the menu bar.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_convert_text_to_outlines.png" height="auto"><source src="/public/tips_tricks_convert_text_to_outlines.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_text_to_outlines.png" height="auto"><source src="/public/tips_tricks_text_to_outlines.mp4" type="video/mp4"></video>
 
-**Note**: Text-to-vector operations are demanding for system resources. Attempts to convert large portions of text may slow Lunacy down.
+**Note**: Text-to-outline operations are demanding for system resources. Attempts to convert large portions of text may slow Lunacy down.
 
 
 ## Working with images
@@ -341,7 +350,7 @@ Change hue, saturation, contrast, and other image adjustment properties of your 
 1. Select an image layer. 
 2. Click `+` next to **Image adjust** in the **right panel**.
 
-<embed type="image/svg+xml" alt="image_adjust" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/AnKTbrNlPkKMv52f05vlYQ.svg" width="844" /> 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_image_adjust.png" height="auto"><source src="/public/tips_tricks_image_adjust.mp4" type="video/mp4"></video>
 
 ## Working with shapes
 
@@ -403,14 +412,12 @@ As for stars and polygons, the corner radius handle appears at the highest corne
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_corner_rounding_shapes.png" height="auto"><source src="/public/tips_tricks_corner_rounding_shapes.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
-    <p><strong>Note:</strong> This method only works with shapes created using the <b>Shape tools<b>.</p>
+    <p><strong>Note:</strong> This method only works with shapes created using the <b>Shape tools</b>.</p>
 </div>
-
 
 You can also round individual corners in the right panel.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_corner_rounding_shapes.png" height="auto"><source src="/public/tips_tricks_corner_rounding_shapes.mp4" type="video/mp4"></video>
-
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_individual_corner_radius.png" height="auto"><source src="/public/tips_tricks_individual_corner_radius.mp4" type="video/mp4"></video>
 
 ### Editing stars and polygons on the canvas
 
@@ -456,9 +463,13 @@ To **change values in the right panel** input fields:
 
 If you don’t want a layer to snap to anything when you move it, hold down `Ctrl` / `⌘`.
 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_disabling_snapping.png" height="auto"><source src="/public/tips_tricks_disabling_snapping.mp4" type="video/mp4"></video>
+
 ### Inverting gradients
 
 To quickly invert a gradient, use the <embed type="image/svg+xml" alt="invert_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/21XTFFf-FUe42vtoJfpY2Q.svg" width="20" /> button next to the gradient bar on the **Color Picker.**
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_inverting_gradient.png" height="auto"><source src="/public/tips_tricks_inverting_gradient.mp4" type="video/mp4"></video>
 
 ### Hiding and minimizing UI elements
 
@@ -466,12 +477,14 @@ To quickly invert a gradient, use the <embed type="image/svg+xml" alt="invert_gr
 - To **hide the toolbar, right panel, rulers,** and any other UI elements, disable them in the **View** section on the **menu bar.**
 - **Hide all UI elements** (except for the menu bar) by pressing `Ctrl + .` / `⌘ + .`.
 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_minimizing_hiding_ui.png" height="auto"><source src="/public/tips_tricks_minimizing_hiding_ui.mp4" type="video/mp4"></video>
+
 ### Adjusting UI scale
 
 You can change the scale of the interface in **View > Interface scale** on the menu bar or by using these shortcuts:
 
-`Ctrl + Shift + Alt + + / ⌥ + Shift + ⌘ + =` — increase scale
+- `Ctrl + Shift + Alt + + / ⌥ + Shift + ⌘ + =` — increase scale
+- `Ctrl + Shift + Alt + - / ⌥ + Shift + ⌘ + -` — decrease scale
+- `Ctrl + Shift + Alt + 0 / ⌥ + Shift + ⌘ + 0` — reset scale
 
-`Ctrl + Shift + Alt + - / ⌥ + Shift + ⌘ + -` — decrease scale
-
-`Ctrl + Shift + Alt + 0 / ⌥ + Shift + ⌘ + 0` — reset scale
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_ui_scale.png" height="auto"><source src="/public/tips_tricks_ui_scale.mp4" type="video/mp4"></video>

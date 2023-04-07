@@ -75,7 +75,7 @@ This version brings a new render engine, which means higher FPS and lower input 
 * Numerous auto layout improvements and fixes.
 * Numerous Figma import improvements.
 
-## 9.0.9 hotfix
+## 9.0.9 Pricing update and fixes 
 _Release date: April 6, 2023_  
 
 Download:
@@ -89,7 +89,7 @@ Download:
 **65% price drop** for paid plans:
 
 - The **Personal Cloud plan** now costs $4.99 per month. Includes **unlimited** cloud documents, version history, and deleted document storage.
-- The **Graphics subscription** now costs $9.99 per month. A **full set subscription** to use icons, high-res photos, and illustrations without mandatory attribution.
+- The **Graphics subscription** now costs $9.99 per month. A **full set subscription** to editable SVG icons and illustrations, as well as high-res photos.
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> These prices are only available if you subscribe through the Lunacy app.</p>
