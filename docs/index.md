@@ -93,7 +93,7 @@ grid_navigation:
       excerpt: Make notes, provide feedback and share ideas with your teammates
       url: '/comments'
       icon: 'comments'
-    - title: 'Tips and Tricks'
+    - title: 'Tips and tricks'
       excerpt: 'A chapter for those who do not read docs'
       url: '/tips'
       icon: 'idea'
