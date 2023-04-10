@@ -43,7 +43,7 @@ doks:
       url: '/teams'
     - title: 'Comments'
       url: '/comments'
-    - title: 'Tips and Tricks'
+    - title: 'Tips and tricks'
       url: '/tips'
     - title: 'Shortcuts'
       url: '/shortcuts'
