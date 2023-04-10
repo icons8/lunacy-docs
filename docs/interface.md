@@ -81,7 +81,7 @@ To adjust the scale of the interface, go to **View** > **Interface scale**, or u
 - `Ctrl + Shift + Alt + - / ⌥ + Shift + ⌘ + -` — decrease scale
 - `Ctrl + Shift + Alt + 0 / ⌥ + Shift + ⌘ + 0` — reset scale
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_ui_scale.png" height="auto"><source src="/public/tips_tricks_ui_scale.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface_adjusting_ui_scale.png" height="auto"><source src="/public/interface_adjusting_ui_scale.mp4" type="video/mp4"></video>
 
 ## [Canvas](#canvas)
 

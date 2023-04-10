@@ -138,7 +138,7 @@ If you have generated content in the elements (like <a href="https://lunacy.docs
 
 Another convenient way to duplicate elements is to use the **Repeat grid** feature. You you select two or more layers, drag the <embed type="image/svg+xml" alt="repeat_grid" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/arkPFiXr3U-oF3BIzB96uQ.svg" width="20" /> near the lower-right corner of the bounding box to duplicate the elements in a grid.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_repeat_grid.png" height="auto"><source src="/public/tips_tricks_repeat_grid.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layers_repeat_grid.png" height="auto"><source src="/public/layers_repeat_grid.mp4" type="video/mp4"></video>
 
 
 ## Copy and Paste options
@@ -355,7 +355,7 @@ For this:
 
 Lunacy automatically determines the order of layers (the Z-index) on the canvas depending on their size. For example, if you drag a smaller layer (that’s at the bottom of the layer list) over a larger one, Lunacy places the small layer on top.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_z_index.png" height="auto"><source src="/public/tips_tricks_auto_z_index.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layers_auto_z_index.png" height="auto"><source src="/public/layers_auto_z_index.mp4" type="video/mp4"></video>
 
 ### Arranging layers using shortcuts and the Layer list
 
@@ -415,7 +415,7 @@ Create hyperlinks between the layers in your document (even if they're on differ
 3. Press `F2` to rename the layer, paste the target layer link from your clipboard, and press `Enter`. 
 4. Hold down `Ctrl` / `⌘` and click the layer you renamed, and you’ll be redirected to the target layer.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_layer_hyperlinks.png" height="auto"><source src="/public/tips_tricks_layer_hyperlinks.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layers_hyperlinks.png" height="auto"><source src="/public/layers_hyperlinks.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> If the layer you set as a starting point is locked, just click on it to be redirected.</p>

@@ -182,7 +182,7 @@ To change palette colors manually, click on the color circles to open the color 
 
 If you want the default shape color to be the usual gray, delete color variables by pressing <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" />.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_color_palettes.png" height="auto"><source src="/public/tips_tricks_color_palettes.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styles_palette_ccolors.png" height="auto"><source src="/public/styles_palette_ccolors.mp4" type="video/mp4"></video>
 
 Using the document color palette, Lunacy colors shapes automatically depending on their size and predicted purpose. Larger shapes have background colors while smaller elements are assigned primary or accent colors.
 
