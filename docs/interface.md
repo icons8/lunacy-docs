@@ -75,6 +75,14 @@ These are the main elements of the interface:
 
 * **Theme switch**. Use it to switch between the light and dark themes.
 
+To adjust the scale of the interface, go to **View** > **Interface scale**, or use these shortcuts:
+
+- `Ctrl + Shift + Alt + + / ⌥ + Shift + ⌘ + =` — increase scale
+- `Ctrl + Shift + Alt + - / ⌥ + Shift + ⌘ + -` — decrease scale
+- `Ctrl + Shift + Alt + 0 / ⌥ + Shift + ⌘ + 0` — reset scale
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_ui_scale.png" height="auto"><source src="/public/tips_tricks_ui_scale.mp4" type="video/mp4"></video>
+
 ## [Canvas](#canvas)
 
 The **canvas** is your working area. Add layers to it and place them wherever you want. 

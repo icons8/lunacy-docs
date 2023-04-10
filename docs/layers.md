@@ -124,21 +124,22 @@ To ungroup layers, select the group and click the **Ungroup** button (![Ungroup 
 
 ## Duplicating layers
 
-To duplicate an layer, select it and press `Ctrl+D`. Alternatively, you can hold down `Alt`, select the layer and drag to where you want to place the duplicate.
+To duplicate an layer, select it and press `Ctrl + D`. Alternatively, you can hold down `Alt`, select the layer and drag to where you want to place the duplicate.
 
-Lunacy remembers the offset of the latest duplicate. So, if you press `Ctrl+D` shortly after you create a duplicate of an layer, Lunacy will add another duplicate with the same offset as the previous one (see the demo below).
-
-
-<!--
-
-This can be handy for designing patterns or things alike.
-
--->
-
+Lunacy remembers the offset of the latest duplicate. So, if you press `Ctrl + D` shortly after you create a duplicate of an layer, Lunacy will add another duplicate with the same offset as the previous one (see the demo below).
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-duplicateplaceholder.png" height="auto"><source src="/public/objects-duplicate.mp4" type="video/mp4"></video>
 
 And of course, you can use the **Duplicate** command and standard **Copy** and **Paste** options available on the context menu.
+
+If you have generated content in the elements (like <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool">avatars</a> or <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets">generated text</a>) you duplicate new generated data will appear in the copies (provided the <a href="https://lunacy.docs.icons8.com/tips/#auto-refresh">Auto refresh</a> option is enabled).
+
+### Repeat grid
+
+Another convenient way to duplicate elements is to use the **Repeat grid** feature. You you select two or more layers, drag the <embed type="image/svg+xml" alt="repeat_grid" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/arkPFiXr3U-oF3BIzB96uQ.svg" width="20" /> near the lower-right corner of the bounding box to duplicate the elements in a grid.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_repeat_grid.png" height="auto"><source src="/public/tips_tricks_repeat_grid.mp4" type="video/mp4"></video>
+
 
 ## Copy and Paste options
 
@@ -350,7 +351,15 @@ For this:
 
 ## Arranging layers along the Z-axis
 
-To position layers along the Z-axis, use the send/bring commands found on the context menu or their respective shortcuts. The commands are as follows:
+### Auto Z-index
+
+Lunacy automatically determines the order of layers (the Z-index) on the canvas depending on their size. For example, if you drag a smaller layer (that’s at the bottom of the layer list) over a larger one, Lunacy places the small layer on top.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_z_index.png" height="auto"><source src="/public/tips_tricks_auto_z_index.mp4" type="video/mp4"></video>
+
+### Arranging layers using shortcuts and the Layer list
+
+To position layers along the Z-axis manually, use the send/bring commands found on the context menu or their respective shortcuts. The commands are as follows:
 
 * Bring Forward (`Ctrl + ]`). Moves the selected layer one step forward.
 * Bring to Front (`Shift + Ctrl + ]`). Places the selected layer to the very front of the stack.
@@ -396,3 +405,18 @@ Also, the **Flip Horizontally** and **Flip Vertically** commands are available o
 Another way to flip a layer is to drag selection handles as shown in the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-flipplaceholder.png" height="auto"><source src="/public/objects-flip2.mp4" type="video/mp4"></video>
+
+## Creating hyperlinks between layers
+
+Create hyperlinks between the layers in your document (even if they're on different pages):
+
+1. Select the target layer and press `Ctrl + L` / `⌘ + L` (or select **Copy/Paste as** > **Copy link** in the context menu).
+2. Select that should lead to the target layer. 
+3. Press `F2` to rename the layer, paste the target layer link from your clipboard, and press `Enter`. 
+4. Hold down `Ctrl` / `⌘` and click the layer you renamed, and you’ll be redirected to the target layer.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_layer_hyperlinks.png" height="auto"><source src="/public/tips_tricks_layer_hyperlinks.mp4" type="video/mp4"></video>
+
+<div class="callout callout--info">
+    <p><strong>Note:</strong> If the layer you set as a starting point is locked, just click on it to be redirected.</p>
+</div>

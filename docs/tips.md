@@ -132,7 +132,7 @@ This is useful for really large documents with hundreds or even thousands of lay
 
 ### Color palettes and auto shape colors
 
-Every time you create a new document, Lunacy generates a palette with document color variables including main, accent, background and text colors. Deselect all layers to see it in the right panel and press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" > to generate a new palette. 
+Every time you create a new document, Lunacy generates a palette with document color variables including main, accent, background, and text colors. Deselect all layers to see it in the right panel and press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" > to generate a new palette. 
 
 To change palette colors manually, click on the color circles to open the color picker. If you want the default shape color to be the usual gray, delete color variables by pressing <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" />.
 

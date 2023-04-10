@@ -174,6 +174,24 @@ To delete a style category, right-click the category you want to delete and sele
 
 Also, you can select and delete several styles at a time.
 
+## Color palettes and auto shape colors
+
+All newly created documents have a color palette which includes document color variables for main, accent, background, and text colors. Deselect all layers to see it in the right panel and press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" > to generate a new palette. 
+
+To change palette colors manually, click on the color circles to open the color picker. 
+
+If you want the default shape color to be the usual gray, delete color variables by pressing <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" />.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_color_palettes.png" height="auto"><source src="/public/tips_tricks_color_palettes.mp4" type="video/mp4"></video>
+
+Using the document color palette, Lunacy colors shapes automatically depending on their size and predicted purpose. Larger shapes have background colors while smaller elements are assigned primary or accent colors.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_shape_colors.png" height="auto"><source src="/public/tips_tricks_auto_shape_colors.mp4" type="video/mp4"></video>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/tools/#shape-tools">Shape tools</a>
+
 ## Text styles
 
 The only difference between text styles and [layer styles](#layer-styles)  is that in addition to such properties as fills, shadows and blurs, text styles also feature a set of typography properties that include font size, font family, line spacing and others. All the procedures with text styles are the same as in layer styles.
