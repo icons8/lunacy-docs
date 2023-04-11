@@ -136,7 +136,7 @@ If you have generated content in the elements (like <a href="https://lunacy.docs
 
 ### Repeat grid
 
-Another convenient way to duplicate elements is to use the **Repeat grid** feature. You you select two or more layers, drag the <embed type="image/svg+xml" alt="repeat_grid" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/arkPFiXr3U-oF3BIzB96uQ.svg" width="20" /> near the lower-right corner of the bounding box to duplicate the elements in a grid.
+Another convenient way to duplicate elements is to use the **Repeat grid** feature. You select two or more layers, drag the <embed type="image/svg+xml" alt="repeat_grid" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/arkPFiXr3U-oF3BIzB96uQ.svg" width="20" /> near the lower-right corner of the bounding box to duplicate the elements in a grid.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layers_repeat_grid.png" height="auto"><source src="/public/layers_repeat_grid.mp4" type="video/mp4"></video>
 
@@ -353,7 +353,7 @@ For this:
 
 ### Auto Z-index
 
-Lunacy automatically determines the order of layers (the Z-index) on the canvas depending on their size. For example, if you drag a smaller layer (that’s at the bottom of the layer list) over a larger one, Lunacy places the small layer on top.
+Lunacy automatically determines the order of layers (the Z-index) on the canvas depending on their size. For example, if you drag a smaller layer (that’s lower in the Layer list) over a larger one, Lunacy places the small layer on top.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layers_auto_z_index.png" height="auto"><source src="/public/layers_auto_z_index.mp4" type="video/mp4"></video>
 
@@ -411,12 +411,8 @@ Another way to flip a layer is to drag selection handles as shown in the demo be
 Create hyperlinks between the layers in your document (even if they're on different pages):
 
 1. Select the target layer and press `Ctrl + L` / `⌘ + L` (or select **Copy/Paste as** > **Copy link** in the context menu).
-2. Select that should lead to the target layer. 
+2.  Select the layer that should lead to the target layer.
 3. Press `F2` to rename the layer, paste the target layer link from your clipboard, and press `Enter`. 
-4. Hold down `Ctrl` / `⌘` and click the layer you renamed, and you’ll be redirected to the target layer.
+4. Hold down `Ctrl` / `⌘` and click the layer you renamed, and you’ll be redirected to the target layer. If the layer is locked, just click on it to be redirected.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layers_hyperlinks.png" height="auto"><source src="/public/layers_hyperlinks.mp4" type="video/mp4"></video>
-
-<div class="callout callout--info">
-    <p><strong>Note:</strong> If the layer you set as a starting point is locked, just click on it to be redirected.</p>
-</div>

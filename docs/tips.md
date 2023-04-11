@@ -226,7 +226,7 @@ Press `K` to enable the <a href="https://lunacy.docs.icons8.com/tools/#scale-too
 You can create hyperlinks between the layers in your document, even if the layers are in different pages. 
 
 1. Select the target layer and press `Ctrl + L` / `⌘ + L` (or select **Copy/Paste as** > **Copy link** in the context menu).
-2. Select that should lead to the target layer. 
+2. Select the layer that should lead to the target layer. 
 3. Press `F2` to rename the layer, paste the target layer link from your clipboard, and press `Enter`. 
 4. Hold down `Ctrl` / `⌘` and click the layer you renamed, and you’ll be redirected to the target layer.
 

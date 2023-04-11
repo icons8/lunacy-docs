@@ -176,15 +176,15 @@ Also, you can select and delete several styles at a time.
 
 ## Color palettes and auto shape colors
 
-All newly created documents have a color palette which includes document color variables for main, accent, background, and text colors. Deselect all layers to see it in the right panel and press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" > to generate a new palette. 
+All newly created documents have a color palette which includes document color variables for main, accent, background, and text colors. Deselect all layers to see the palette in the right panel and press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" > to generate a new palette. 
 
 To change palette colors manually, click on the color circles to open the color picker. 
 
-If you want the default shape color to be the usual gray, delete color variables by pressing <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" />.
+If you want the default shape color to be the usual gray, delete all color variables by pressing <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" />.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styles_palette_ccolors.png" height="auto"><source src="/public/styles_palette_ccolors.mp4" type="video/mp4"></video>
 
-Using the document color palette, Lunacy colors shapes automatically depending on their size and predicted purpose. Larger shapes have background colors while smaller elements are assigned primary or accent colors.
+Using the document color palette, Lunacy applies color to shapes automatically depending on their size and predicted purpose. Larger shapes have background colors while smaller elements are assigned primary or accent colors.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_shape_colors.png" height="auto"><source src="/public/tips_tricks_auto_shape_colors.mp4" type="video/mp4"></video>
 
