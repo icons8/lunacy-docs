@@ -409,6 +409,12 @@ To keep the angle at 90° or 45° when drawing lines, arrows, or paths, hold dow
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_straight_diagonal_lines.png" height="auto"><source src="/public/tips_tricks_straight_diagonal_lines.mp4" type="video/mp4"></video>
 
+### Deleting points and handles
+
+When creating shapes with the **Pen tool** (`P`), hold down `Alt` / `⌥` and click on an unnecessary point to delete it. To hide one of the handles of a <a href="https://lunacy.docs.icons8.com/tools/#types-of-points" target="_blank">disconnected point</a>, drag the tip of the handles towards the point.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_hiding_points_handles.png" height="auto"><source src="/public/tips_tricks_hiding_points_handles.mp4" type="video/mp4"></video>
+
 ### Adjusting a shape’s corner radius
 
 To **round the corners** of a rectangle, drag inwards from the circular handles that appear at the corners of the shape. 

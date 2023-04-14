@@ -176,7 +176,7 @@ To **build a shape out of straight lines** (e.g. a triangle):
 
 1. Press `P` to activate the pen. This activates **Edit mode**, and the **Edit shape** section will appear in the **right panel**.
 2. Click over the canvas to place the first point.
-3. Keep clicking to outline the shape that you want. 
+3. Keep clicking to outline the shape that you want. To **delete a point**, hold down `Alt` / `⌥` and click on the point.
 4. Close the path by clicking over the starting point or click the **Close path** in the right panel.
 5. Press `Esc` to exit **Edit mode**.
 
@@ -188,7 +188,7 @@ To **enable Edit mode**, select a vector shape, then:
 
 - Double-click it
 - Press `Enter` 
-- Click the Edit layer icon (`icon`) on the **context toolbar**
+- Click the Edit layer icon (<embed type="image/svg+xml" alt="pencil_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/FahQcMve1EOAIZSZ_ayN_w.svg" width="28") on the **context toolbar**
 
 To **add a curve**:
 
@@ -234,6 +234,10 @@ Points can be either **straight** or **curved**.
 You can `double-click` to **switch between straight and mirrored** points. To **switch to disconnected or asymmetric** points, use the controls that appear at the top of the right panel when you’re using the pen or have **Edit mode** enabled:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_changing_point_types.png" height="auto"><source src="/public/tools_changing_point_types.mp4" type="video/mp4"></video>
+
+You can also **hide one of the handles of a disconnected point** by dragging the tip of the handle towards the point:
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_hiding_handle.png" height="auto"><source src="/public/tools_hiding_handle.mp4" type="video/mp4"></video>
 
 **See also:**
 <br>
