@@ -77,9 +77,9 @@ These are the main elements of the interface:
 
 To adjust the scale of the interface, go to **View** > **Interface scale**, or use these shortcuts:
 
-- `Ctrl + Shift + Alt + + / ⌥ + Shift + ⌘ + =` — increase scale
-- `Ctrl + Shift + Alt + - / ⌥ + Shift + ⌘ + -` — decrease scale
-- `Ctrl + Shift + Alt + 0 / ⌥ + Shift + ⌘ + 0` — reset scale
+- `Ctrl + Shift + Alt + +` / `⌥ + Shift + ⌘ + =` — increase scale
+- `Ctrl + Shift + Alt + -` / `⌥ + Shift + ⌘ + -` — decrease scale
+- `Ctrl + Shift + Alt + 0` / `⌥ + Shift + ⌘ + 0` — reset scale
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface_adjusting_ui_scale.png" height="auto"><source src="/public/interface_adjusting_ui_scale.mp4" type="video/mp4"></video>
 
