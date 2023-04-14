@@ -176,7 +176,7 @@ To **build a shape out of straight lines** (e.g. a triangle):
 
 1. Press `P` to activate the pen. This activates **Edit mode**, and the **Edit shape** section will appear in the **right panel**.
 2. Click over the canvas to place the first point.
-3. Keep clicking to outline the shape that you want. To **delete a point**, hold down `Alt` / `⌥` and click on the point.
+3. Keep clicking to outline the shape that you want. To **delete a point**, hold down `Alt` / `⌥` and click it.
 4. Close the path by clicking over the starting point or click the **Close path** in the right panel.
 5. Press `Esc` to exit **Edit mode**.
 
