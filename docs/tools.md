@@ -188,7 +188,7 @@ To **enable Edit mode**, select a vector shape, then:
 
 - Double-click it
 - Press `Enter` 
-- Click the Edit layer icon (<embed type="image/svg+xml" alt="pencil_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/FahQcMve1EOAIZSZ_ayN_w.svg" width="28") on the **context toolbar**
+- Click the Edit layer icon (<embed type="image/svg+xml" alt="pencil_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/FahQcMve1EOAIZSZ_ayN_w.svg" width="28" >) on the **context toolbar**
 
 To **add a curve**:
 
