@@ -121,13 +121,7 @@ You can also select elements within the frame to **change their individual auto 
 
     <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_spacing.png" height="auto"><source src="/public/autolayout_spacing.mp4" type="video/mp4"></video>
 
-* **Padding**. Determine the distance from elements to the borders of the container frame. Like with element spacing:
-
-    - Enter the values in the **Padding** fields.
-    - Drag the values in the fields up or down.
-    - Select the field and moving the mouse wheel (additionally hold down `Shift` to change the values in 10px increments).
-    - Select the field and using the arrow keys.
-
+* **Padding**. Determine the distance from elements to the borders of the container frame. Adjust the value in the right panel just like with element spacing. 
 
 * **Lock/unlock right and bottom padding**. When you change left or top padding, right and bottom padding will mirror the new values. Click <embed type="image/svg+xml" alt="unlock_padding" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PpXulR2e9ECMC6HIzjsYIQ.svg" width="10" /> to change padding for individual sides. If you lock the padding again (click <embed type="image/svg+xml" alt="lock_padding" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Ik9qCzk510aNl1A3Oi-Grw.svg" width="16" />) after changing values for individual sides, the altered padding values won't revert back to match the opposite side. Enter a matching value on one side of the padding to synchronize the values once more.
 
