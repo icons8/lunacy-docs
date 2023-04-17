@@ -77,6 +77,7 @@ When you click or drag over a group of layers, you select the group. To select a
 * Hold down the `Ctrl` key and click over the required layer.
   
   OR
+  
 * Click to select the group, then double-click to select the layer.
 
 After you select an layer within a group, you can switch to other layer of that group by simply clicking them.
@@ -84,6 +85,14 @@ After you select an layer within a group, you can switch to other layer of that 
 To quickly select all layers on the canvas, use the `Ctrl+A` shortcut.
 
 For details about using the select tool and a demo, click <a href="https://lunacy.docs.icons8.com/tools/#select-tool" target="_blank">here</a>.
+
+### [Selection fonts and colors](#selection-fonts-colors)
+
+When you select two or more layers, the right panel displays all of the fonts and colors used in those layers in the right panel. This way, you can quickly switch fonts and colors for several layers at a time. 
+
+<embed type="image/svg+xml" alt="selection_fonts_colors" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/SOMTdAZ_10CZcQAHxB9snA.svg" width="844" /> 
+
+Click the target icon (<embed type="image/svg+xml" alt="Vector 2" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/oXeqn7keHUWVaWWBnC9dyg.svg" width="24" />) next to a property to select just the layers using this color/font.
 
 ## Moving layers
 
