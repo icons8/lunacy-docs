@@ -26,12 +26,13 @@ This section describes how to add and modify text layers in Lunacy, and how to u
 
 ## Adding text layers
 
-To **add a text layer**, press `T` or press _ on the toolbar to activate the **Text tool**, then:
+To **add a text layer**, press `T` or press <embed type="image/svg+xml" alt="Union 2" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/hfMjzS0lpUy6zmVsPVMJdg.svg" width="24" /> on the toolbar to activate the **Text tool**, then:
 
 - **Click anywhere on the canvas** to place the text layer. You can either type your own text or use the generated text options that appear in the dropdown menu as you create the layer.
-    
-    **Note:** Lunacy applies horizontal resize mode to the text added this way.
 
+<div class="callout callout--info">
+     <p><strong>Note:</strong> Lunacy applies horizontal resize mode to the text added this way.</p>
+</div>
 
 - **Click and drag** to place a text layer with your custom size. Placeholder texts will appear inside the layer you’re creating, with their font size set automatically.
 
@@ -56,7 +57,7 @@ Lunacy has a wide range of text editing options, all located in their respective
 To **edit a text layer**:
 
 1. Click the layer on the canvas or select it in the **Layer list**.
-2. Press `Enter` or click the **Edit Layer** button (_) on the context toolbar to enable **Edit mode**.
+2. Press `Enter` or click the **Edit Layer** button (<embed type="image/svg+xml" alt="Edit Actions Copy" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/W8DVGUapfk6inOaORt3rPg.svg" width="24" />) on the context toolbar to enable **Edit mode**.
 3. Type a new text or edit the existing one and modify any text properties in the **Text** section of the right panel.
 4. Once you’re done, press `Esc` to exit the edit mode.
 
@@ -70,9 +71,13 @@ Once you add and select a text layer, the **Text** section appears in the right 
 
 <embed type="image/svg+xml" alt="text_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/0tDtN6hqLUOXVjw9ieUjpA.svg" width="844"/> 
 
+<div class="callout callout--info">
+     <p><strong>Note:</strong> If you select several text layers, the <b>Selection fonts and colors</b> section in the right panel will display all the fonts and colors present in the selected layers, so you can adjust these properties for several layers at a time.</p>
+</div>
 
-**Note:** You can apply different font settings of the same type (fonts, colors, font sizes or weights) to a text within a layer. In this case, when this layer is selected, the fields in the right panel will display **Mix**.
-
+<div class="callout callout--info">
+     <p><strong>Note:</strong> You can apply different font settings of the same type (fonts, colors, font sizes or weights) to a text within a layer. In this case, when this layer is selected, the fields in the right panel will display <b>Mix</b>.</p>
+</div>
 
 - **Font list.** To change fonts, click on the font list menu in the **right panel**, then:
     - Type the font family name in the field.
@@ -109,7 +114,8 @@ Once you add and select a text layer, the **Text** section appears in the right 
 
     <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_size.png" height="auto"><source src="/public/text_change_font_size.mp4" type="video/mp4"></video>
     
-    **See also:** 
+    **See also:**
+    <br>
     <a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties" target="_blank">Right panel properties</a>
     
 - **Line, letter, and paragraph spacing.** Use these settings to adjust the spacing between lines, letters, and paragraphs.
@@ -134,13 +140,13 @@ Once you add and select a text layer, the **Text** section appears in the right 
     - Choose a color style from the document colors.
     - Enter a color code manually.
 
-
-    **Tip:** When you add a text layer on top of a layer, Lunacy automatically sets a text color that contrasts with the background to save you a couple of clicks.
+    <div class="callout callout--info">
+     <p><strong>Tip:</strong> When you add a text layer on top of a layer, Lunacy automatically sets a text color that contrasts with the background to save you a couple of clicks.</p> </div>
     
     <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_color.png" height="auto"><source src="/public/text_change_font_color.mp4" type="video/mp4"></video>
 
-
     **See also:** 
+    <br>
     <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
     
 - **Text layer resizing options.** These three buttons determine how text boxes change in size depending on the content:
@@ -181,24 +187,20 @@ Once you add and select a text layer, the **Text** section appears in the right 
     - Center the text within the layer
     
     <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_position.png" height="auto"><source src="/public/text_position.mp4" type="video/mp4"></video>
-### Additional text options
 
-Click _ in the **Text** section of the right panel to access additional text formatting options. They include:
+- **Additional text options**
 
-- **Transform options.** Choose the letter case for your text:
-    - **Aa**: Title Case (All Words Capitalized)
+    Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="24" /> in the **Text** section of the right panel to access additional text formatting options. They include:
+
+    - **Transform options.** Choose the letter case for your text:
+    - **Aa**: Title Case 
     - **AA**: UPPER CASE
     - **aa**: lower case
-- **Decorations.** Apply underline or strikethrough effects.
-- **List type.** Choose from numbered or bullet point list styles.
-- **Features.** Add special features like subscript and superscript to your text.
+    - **Decorations.** Apply underline or strikethrough effects.
+    - **List type.** Choose from numbered or bullet point list styles.
+    - **Features.** Add special features like subscript and superscript to your text.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_additional_options.png" height="auto"><source src="/public/text_additional_options.mp4" type="video/mp4"></video>
-
-**Note:** If you select several text layers, the **Selection fonts and colors** section in the right panel will display all the fonts and colors present in the selected layers, so you can adjust these properties for several layers at a time. 
-
-**See also:**
-<a href="https://lunacy.docs.icons8.com/layers/#selection-fonts-and-colors" target="_blank">Selection fonts and colors</a>
+    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_additional_options.png" height="auto"><source src="/public/text_additional_options.mp4" type="video/mp4"></video>
 
 ## Text generation
 
@@ -217,13 +219,13 @@ When you click and drag to create a custom size text layer, Lunacy automatically
 
 ### Auto refresh
 
-To refresh the generated text, click _ or press `Shift + R`. Also, anytime you copy a layer with generated text, a new generated placeholder will appear in the duplicate.
+To refresh the generated text, click <embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="24" /> or press `Shift + R`. Also, anytime you copy a layer with generated text, a new generated placeholder will appear in the duplicate.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_auto_refresh.png" height="auto"><source src="/public/text_auto_refresh.mp4" type="video/mp4"></video>
 
 This happens due to **Auto Refresh**, which you can turn off by selecting **Detach from Generated Content** in the layer context menu or in the **Layer** > **Content Generation** section of the menu bar.
 
-Combine text generation with other handy Lunacy features, like the Avatar tool and Repeat grid so your design process stays distraction-free:
+Combine text generation with other handy Lunacy features, like the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a> and <a href="https://lunacy.docs.icons8.com/layers/#repeat-grid" target="_blank">Repeat grid</a> so your design process stays distraction-free:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_avatar_text_repeat_grid.png" height="auto"><source src="/public/text_avatar_text_repeat_grid.mp4" type="video/mp4"></video>
 
@@ -247,7 +249,9 @@ You can **convert text into outlines**, so that every letter becomes a vector sh
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_to_outlines.png" height="auto"><source src="/public/text_to_outlines.mp4" type="video/mp4"></video>
 
-**Note:** Keep in mind that text-to-outline operations are demanding for system resources. Attempts to convert large portions of text may slow Lunacy down.
+<div class="callout callout--info">
+     <p><strong>Note:</strong> Keep in mind that text-to-outline operations are demanding for system resources. Attempts to convert large portions of text may slow Lunacy down.</p>
+</div>
 
 ## Text styles and effects
 
@@ -263,12 +267,16 @@ In addition to text settings, you can also apply the usual layer effects to your
 
 You can save combinations of layer effects and text settings as **text styles** which you can reuse across your document. Text styles appear alongside other layer styles in the dropdown menu of the **Style** section in the right panel.
 
-**Note:** When you edit a text layer that includes effects, Lunacy hides layer styling effects and will show them again once you finish and exit **Edit mode**. This makes it easier to edit heavily styled text layers, like the one below.
+<div class="callout callout--info">
+     <p><strong>Note:</strong> When you edit a text layer that includes effects, Lunacy hides layer styling effects and will show them again once you finish and exit <b>Edit mode</b>. This makes it easier to edit heavily styled text layers, like the one below.</p>
+</div>
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_editing_text_with_effects.png" height="auto"><source src="/public/text_editing_text_with_effects.mp4" type="video/mp4"></video>
 
 **See also:**
+<br>
 <a href="https://lunacy.docs.icons8.com/styling/" target="_blank">Styling</a>
+<br>
 <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
 
 ## More text options
@@ -294,7 +302,9 @@ To **embed fonts**:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_fonts_embedding.png" height="auto"><source src="/public/text_fonts_embedding.mp4" type="video/mp4"></video>
 
-**Note:** By embedding a font, you confirm that you have a license allowing you to distribute the font.
+<div class="callout callout--info">
+     <p><strong>Note:</strong> By embedding a font, you confirm that you have a license allowing you to distribute the font.</p>
+</div>
 
 ### Working with emojis
 
