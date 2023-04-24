@@ -76,8 +76,10 @@ After that, make an exception for the Lunacy installer and/or the app in your an
 
 Contact us via our feedback form: 
 
-1. Select **Help** > **Report a Problem** in the menu bar. 
+1. Select **Help** → **Report a Problem** in the menu bar. 
 2. Describe the problem in detail so we can reproduce it and determine the cause.
+
+**Memory dump files** contain useful information about bugs and malfunctions such as crashing and freezing events. Here's how you can <a href="https://lunacy.docs.icons8.com/troubleshooting/" target="_blank">find them on your OS</a>. Attaching them to your report helps our team determine and fix the issue much faster.
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> If a problem appears only in one specific document, please attach it to the report. Your content is safe: we will delete the file from our system after investigation.</p>
@@ -111,11 +113,11 @@ These steps will work for the majority of Windows 10/11 computers:
 2. Click **Browse** and find the `Lunacy.exe` file (default path: `C:\Program Files\Lunacy\Lunacy.exe`).
 3. Click **Options** and set the **Graphics preference** to **High performance**.
 
-<embed type="image/svg+xml" alt="faq_nvidia_2" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TeK7PJ7nzkeY6Vceyl3j3g.svg" width="844" /> 
+![nvidia_settings](public/nvidia_faq_2@2x.png) 
 
 If you are running an older Windows version, you can try to do the same using your video card control panel. Here are the required settings for an NVidia card:
 
-<embed type="image/svg+xml" alt="faq_nvidia_1" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PeNv17daZkCi9SsJJgTFYQ.svg" width="844" /> 
+![nvidia_settings](public/nvidia_faq_1@2x.png) 
 
 
 <div class="callout callout--info">
@@ -168,14 +170,14 @@ These are the most common reasons for Lunacy running slow:
 
 It might just be a problem with your internet connection. First, check it to make sure it's stable.
 
-If it is, contact us via our feedback form and we’ll quickly fix the issue with the Libraries (**Help** > **Report a Problem**).
+If it is, contact us via our feedback form and we’ll quickly fix the issue with the Libraries (**Help** → **Report a Problem**).
 
 ### A document I was working on is broken and/or won't open. How do I fix it?
 
 To fix this:
 
 1. Make sure you have the <a href="https://lunacy.docs.icons8.com/release-notes/" target="_blank">latest version of the app</a> installed.
-2. Select **Help** > **Open App Data Folder** in the menu bar. This will open up a folder with Lunacy files.
+2. Select **Help** → **Open App Data Folder** in the menu bar. This will open up a folder with Lunacy files.
 3. Open the **Documents** folder. It contains subfolders with all of the documents you previously worked on. For convenience, you can sort them by the **Date modified** column.
 4. Try to remember the date when you last modified the document, then drag and drop the subfolders with that modification date onto the canvas. Lunacy will restore the document.
 
@@ -192,11 +194,11 @@ If it’s a **cloud** document, you can also open up its <a href="https://lunacy
 4. Choose the required version and click **FIle** > **Save** in the menu bar to save it as a local `.sketch` file on your device.
 5. <a href="https://lunacy.docs.icons8.com/interface/#importing-local-sketch-files-to-cloud" target="_blank">Import it</a> back into Lunacy Cloud.
 
-If the problem persists, contact our support team (**Help** > **Report a Problem**) and attach an archive with the **Documents** folder to the report. If Lunacy crashed when you tried opening the document, attach an archive of the **Logs** folder as well.
+If the problem persists, contact our support team (**Help** → **Report a Problem**) and attach an archive with the **Documents** folder to the report. If Lunacy crashed when you tried opening the document, attach an archive of the **Logs** folder as well.
 
 ### I lost a local temp file that was never saved as a `.sketch` document. Where is it?
 
-1. Select **Help** > **Open App Data Folder** in the menu bar.
+1. Select **Help** → **Open App Data Folder** in the menu bar.
 2. Open the **Documents** folder and sort the folders there by the **Date modified** column.
 3. Drag and drop the top folders in the list into Lunacy. One of these is your unsaved temp file.
 
@@ -211,7 +213,7 @@ An issue in **version 8.7.2** that we fixed in our latest beta build. Install it
 * <a href="https://lcdn.icons8.com/setup/beta/Lunacy.deb">Linux deb64beta</a>
 * <a href="https://lcdn.icons8.com/setup/beta/Lunacy.ARM.deb">Linux debARMbeta</a>
 
-Later on, if you decide not to update to further beta versions, select **Help** > **About**, then clear the **Check for Beta Updates** checkbox.
+Later on, if you decide not to update to further beta versions, select **Help** → **About**, then clear the **Check for Beta Updates** checkbox.
 
 ### Why are layers and images on the canvas stretching and flickering when I scroll and zoom?
 
@@ -229,4 +231,8 @@ If that doesn’t help:
 2. Stop the `Nahimic` service (an audio service).
 3. Restart Lunacy.
 
-If this works, report the problem to the manufacturers of your video card and motherboard. If not, contact our support team (**Help** > **Report a Problem**).
+If this works, report the problem to the manufacturers of your video card and motherboard. If not, contact our support team (**Help** → **Report a Problem**).
+
+### Advanced troubleshooting
+
+If the issue persists, we may need to investigate memory dump files to pin down the problem. You can <a href="https://lunacy.docs.icons8.com/troubleshooting/" target="_blank">find them on your system</a> and attach them to your bug report: this will make it significantly easier for Lunacy Support to fix your problem.

@@ -24,7 +24,7 @@ page_nav:
 
 All of Lunacy’s tools are on the **toolbar** located on the left of the canvas:
 
-<embed type="image/svg+xml" alt="lunacy_toolbar" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/BwbqZ9o61kSygOBdLrumOA.svg" width="844" /> 
+<embed type="image/svg+xml" alt="lunacy_toolbar Copy" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/on88vuNDlEGTTKZXKd1qTA.svg" width="844" /> 
 
 Below is a brief description of all available tools, which we will then go over in detail. To speed things up, activate the  tools with the corresponding keyboard shortcuts:
 
