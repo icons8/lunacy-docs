@@ -72,10 +72,6 @@ Once you add and select a text layer, the **Text** section appears in the right 
 <embed type="image/svg+xml" alt="text_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/0tDtN6hqLUOXVjw9ieUjpA.svg" width="844"/> 
 
 <div class="callout callout--info">
-     <p><strong>Note:</strong> If you select several text layers, the <b>Selection fonts and colors</b> section in the right panel will display all the fonts and colors present in the selected layers, so you can adjust these properties for several layers at a time.</p>
-</div>
-
-<div class="callout callout--info">
      <p><strong>Note:</strong> You can apply different font settings of the same type (fonts, colors, font sizes or weights) to a text within a layer. In this case, when this layer is selected, the fields in the right panel will display <b>Mix</b>.</p>
 </div>
 
@@ -201,6 +197,15 @@ Once you add and select a text layer, the **Text** section appears in the right 
     - **Features.** Add special features like subscript and superscript to your text.
 
     <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_additional_options.png" height="auto"><source src="/public/text_additional_options.mp4" type="video/mp4"></video>
+
+<div class="callout callout--info">
+     <p><strong>Tip:</strong> If you select several text layers, the <b>Selection fonts and colors</b> section in the right panel will display all the <b>fonts</b> and <b>colors</b> present in the selected layers, so you can adjust these properties for several texts at a time.</p>
+</div>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/layers/#selection-fonts-and-colors" target="_blank">Selection fonts and colors</a>
+
 
 ## Text generation
 

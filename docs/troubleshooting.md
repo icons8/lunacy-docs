@@ -87,11 +87,11 @@ To set your system to always generate full crash dumps:
 
 1. Press `Win + R` to open the **Run** window.
 2. Type `regedit` in the field that appears and press **OK**. The registry editor will open:
-    <embed type="image/svg+xml" alt="registry" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/AZgSvttVkk-UcZra60bZAg.svg" width="844" /> 
+    <embed type="image/svg+xml" alt="registry_windows" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/voKLGnITskm7NduB8OcNUQ.svg" width="844" /> 
 
 3. Go to the folder `Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting\\LocalDumps`. If there’s no such folder, create it.
 4. Add the global parameter `DumpType`, set its type `REG_DWORD` and the value to `2`.
-    <embed type="image/svg+xml" alt="dumptype_parameter" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/0plEfCfGoUGFCVR1LBUSPw.svg" width="844" /> 
+    <embed type="image/svg+xml" alt="registry_parameter" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/xZCAmcDfPEynzqmotstJLA.svg" width="844" /> 
 
 5. Press **OK**.
 
@@ -129,7 +129,7 @@ To open it:
 1. Choose the **Go** menu, in the **Finder**.
 2. The **Library** folder will appear in the menu list. 
 3. Open the **Logs** folder, then the **DiagnosticReports** folder.
-    <embed type="image/svg+xml" alt="diagnostic_reports_mac" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/PietLCm-A02OEV9WGb85Hg.svg" width="844" /> 
+    <embed type="image/svg+xml" alt="mac_diagnostic_reports" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/6jmnh7QL0k2y1WvnJCY5_g.svg" width="844" /> 
 
 4. Sort the files using the **Date modified** column, find the most recent log file saved after the crash occurred, and archive it.
 5. Report the crash to us in any convenient way and attach the archive with the log file.
@@ -153,5 +153,4 @@ When log files don’t show any errors, we may need crash dumps to further narro
 1. Sort the files using the **Date modified** column, find the most recent log file saved after the crash occurred, and archive it.
 2. Report the crash to us in any convenient way and attach the archive with the log file.
 
-**See also:**\
-<br><a href="https://lunacy.docs.icons8.com/" target="_blank">FAQs</a>
+**See also:**<br><a href="https://lunacy.docs.icons8.com/" target="_blank">FAQs</a>
