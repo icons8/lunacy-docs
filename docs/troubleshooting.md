@@ -30,7 +30,9 @@ If that doesn't help, our support team may need additional information about the
 
 #### Reporting issues
 
-You can **report any issue** you run into through our **feedback form**: in Lunacy, select **Help** → **Report an issue**, describe the problem and attach any screenshots, files, or the malfunctioning document. 
+You can **report any issue** you run into through our **feedback form**:
+1. Un Lunacy, select **Help** → **Report an issue**.
+2. Describe the problem and attach any screenshots, files, or the malfunctioning document. 
 
 If Lunacy isn’t opening, leave a post on our <a href="https://community.icons8.com/" target="_blank">Community Support</a> board or reach out to us through <a href="https://lunacy.docs.icons8.com/contact/#our-socials" target="_blank">our socials</a>.
 
