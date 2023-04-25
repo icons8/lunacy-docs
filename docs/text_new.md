@@ -26,7 +26,7 @@ This section describes how to add and modify text layers in Lunacy, and how to u
 
 ## Adding text layers
 
-To **add a text layer**, press `T` or press <embed type="image/svg+xml" alt="Union 2" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/hfMjzS0lpUy6zmVsPVMJdg.svg" width="24" /> on the toolbar to activate the **Text tool**, then:
+To **add a text layer**, press `T` or select <embed type="image/svg+xml" alt="Union 2" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/hfMjzS0lpUy6zmVsPVMJdg.svg" width="12" /> on the toolbar to activate the **Text tool**, then:
 
 - **Click anywhere on the canvas** to place the text layer. You can either type your own text or use the generated text options that appear in the dropdown menu as you create the layer.
 
@@ -46,14 +46,14 @@ Lunacy has a wide range of text editing options, all located in their respective
 
 - **Text layer properties in the right panel.** The **Text** section appears in the right panel whenever you select a text layer. It’s a more convenient way to access all the text options available on the menu bar, including fonts, their weight and size, line and paragraph spacing, advanced text options such as text case, list styling, and others.
 - **Text style menu.** Also located in the right panel. It contains the list of all applicable text styles in the document.
-- **Text options** **on the menu bar.** Open the **Text** tab on the menu bar to access all the text options available in the right panel, as well as the **Fonts embedding** and **Emoji style** options. Read more about embedding fonts and working with emojis below.
+- **Text options** **on the menu bar.** Open the **Text** tab on the menu bar to access all the text options available in the right panel, as well as the **Fonts embedding** and **Emoji style** options. Read more about [embedding fonts](#fonts-embedding) and [working with emojis](#working-with-emojis) below.
 
 ## Editing text
 
 To **edit a text layer**:
 
 1. Click the layer on the canvas or select it in the **Layer list**.
-2. Press `Enter` or click the **Edit Layer** button (<embed type="image/svg+xml" alt="edit_layer" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/7QXug2EMM0OE7EyRtqiBBw.svg" width="24" />) on the context toolbar to enable **Edit mode**.
+2. Press `Enter` or click the **Edit Layer** button (<embed type="image/svg+xml" alt="edit_layer" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/7QXug2EMM0OE7EyRtqiBBw.svg" width="16" />) on the context toolbar to enable **Edit mode**.
 3. Type a new text or edit the existing one and modify any text properties in the **Text** section of the right panel.
 4. Once you’re done, press `Esc` to exit the edit mode.
 
@@ -182,7 +182,7 @@ Once you add and select a text layer, the **Text** section appears in the right 
 
 - **Additional text options**
 
-    Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="24" /> in the **Text** section of the right panel to access additional text formatting options. They include:
+    Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="12" /> in the **Text** section of the right panel to access additional text formatting options. They include:
 
     - **Transform options.** Choose the letter case for your text:
         - **Aa**: Title Case 
@@ -210,6 +210,9 @@ When you need to add placeholder text to your designs, there’s no need to leav
 To use text generation, activate the **Text tool** (`T`) and click on the canvas, then:
 
 - Choose one of the text generation options that appear in the dropdown menu below the cursor.
+
+    OR
+
 - Start typing the desired placeholder option (“name,” “paragraph,” “email,” etc.) and choose from the narrowed list of options. 
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_add_text_select.png" height="auto"><source src="/public/text_add_text_select.mp4" type="video/mp4"></video>
@@ -220,7 +223,7 @@ When you click and drag to create a custom size text layer, Lunacy automatically
 
 ### Auto refresh
 
-To refresh the generated text, click <embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="24" /> or press `Shift + R`. 
+To refresh the generated text, click <embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="16" /> or press `Shift + R`. 
 
 Also, anytime you copy a layer with generated text, a new generated placeholder will appear in the duplicate.
 
@@ -284,7 +287,7 @@ You can **convert text into outlines**, so that every letter becomes a vector sh
 
 ## More text options
 
-### Missing fonts
+### [Missing fonts](#missing-fonts)
 
 When you open a document, Lunacy checks whether all the required fonts are available on your computer. If some of them are missing but they are available in the Google Fonts library, Lunacy will download and apply them, provided your computer is connected to the internet.
 
@@ -294,7 +297,7 @@ Click the missing fonts button to open up a dialog box with options to replace t
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_missing_fonts.png" height="auto"><source src="/public/text_missing_fonts.mp4" type="video/mp4"></video>
 
-### Fonts embedding
+### [Fonts embedding](#fonts-embedding)
 
 You can embed fonts into your document before sharing it with other people to ensure that the text layers will look exactly as you designed them, even on computers without the fonts used in the document.
 
@@ -309,10 +312,13 @@ To **embed fonts**:
      <p><strong>Note:</strong> By embedding a font, you confirm that you have a license allowing you to distribute the font.</p>
 </div>
 
-### Working with emojis
+### [Working with emojis](#working-with-emojis)
 
 You can add emojis to text layers in any convenient way by using the emoji keyboard on your OS or pasting them into the text box. The emoji styles in Lunacy include Apple, Microsoft, and Noto style emojis. 
 
 Switch through them by selecting **Text > Emoji Style** on the menu bar.
 
 <embed type="image/svg+xml" alt="style_of_emojis" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/9xgNwMCTMUKVQ3ABwzuoAA.svg" width="844" /> 
+
+
+
