@@ -185,9 +185,9 @@ Once you add and select a text layer, the **Text** section appears in the right 
     Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="24" /> in the **Text** section of the right panel to access additional text formatting options. They include:
 
     - **Transform options.** Choose the letter case for your text:
-    -   **Aa**: Title Case 
-    -   **AA**: UPPER CASE
-    -   **aa**: lower case
+        - **Aa**: Title Case 
+        - **AA**: UPPER CASE
+        - **aa**: lower case
     - **Decorations.** Apply underline or strikethrough effects.
     - **List type.** Choose from numbered or bullet point list styles.
     - **Features.** Add special features like subscript and superscript to your text.
