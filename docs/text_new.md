@@ -30,17 +30,13 @@ To **add a text layer**, press `T` or press <embed type="image/svg+xml" alt="Uni
 
 - **Click anywhere on the canvas** to place the text layer. You can either type your own text or use the generated text options that appear in the dropdown menu as you create the layer.
 
-<div class="callout callout--info">
-     <p><strong>Note:</strong> Lunacy applies horizontal resize mode to the text added this way.</p>
-</div>
-
 - **Click and drag** to place a text layer with your custom size. Placeholder texts will appear inside the layer you’re creating, with their font size set automatically.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_add_text.png" height="auto"><source src="/public/text_add_text.mp4" type="video/mp4"></video>
 
 Generated text options include names, job titles, emails, countries, headings, paragraphs, and over a dozen more placeholders for you to choose from. 
 
-Read more about working with generated content below.
+Read more about [working with generated text content](#text-generation) below.
 
 ### Text-related menus
 
@@ -57,7 +53,7 @@ Lunacy has a wide range of text editing options, all located in their respective
 To **edit a text layer**:
 
 1. Click the layer on the canvas or select it in the **Layer list**.
-2. Press `Enter` or click the **Edit Layer** button (<embed type="image/svg+xml" alt="Edit Actions Copy" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/W8DVGUapfk6inOaORt3rPg.svg" width="24" />) on the context toolbar to enable **Edit mode**.
+2. Press `Enter` or click the **Edit Layer** button (<embed type="image/svg+xml" alt="edit_layer" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/7QXug2EMM0OE7EyRtqiBBw.svg" width="24" />) on the context toolbar to enable **Edit mode**.
 3. Type a new text or edit the existing one and modify any text properties in the **Text** section of the right panel.
 4. Once you’re done, press `Esc` to exit the edit mode.
 
@@ -72,7 +68,7 @@ Once you add and select a text layer, the **Text** section appears in the right 
 <embed type="image/svg+xml" alt="text_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/0tDtN6hqLUOXVjw9ieUjpA.svg" width="844"/> 
 
 <div class="callout callout--info">
-     <p><strong>Note:</strong> You can apply different font settings of the same type (fonts, colors, font sizes or weights) to a text within a layer. In this case, when this layer is selected, the fields in the right panel will display <b>Mix</b>.</p>
+     <p><strong>Note:</strong> You can apply different font settings of the same type (fonts, font size, color, text size) to a text within a layer. In this case, when this layer is selected, the fields in the right panel will display <b>Mix</b>.</p>
 </div>
 
 - **Font list.** To change fonts, click on the font list menu in the **right panel**, then:
@@ -92,8 +88,8 @@ Once you add and select a text layer, the **Text** section appears in the right 
     
     Lunacy’s integration with Google Fonts solves most problems with missing fonts. Before you apply a Google font for the first time, it appears without a matching sample. Click on a Google font for Lunacy to automatically download and apply it to the selected text layer.
 
-
-    **Note**: You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts only includes the fonts that you have already used.
+    <div class="callout callout--info">
+     <p><strong>Note:</strong> You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts only includes the fonts that you have already used.</p> </div>
     
 - **Font style.** Open the font style dropdown menu to change a text’s styling properties (**Bold**, *Italic*, ***Bold Italic***, etc.) If a font only has one style, this menu will be grayed out.
 
@@ -189,9 +185,9 @@ Once you add and select a text layer, the **Text** section appears in the right 
     Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="24" /> in the **Text** section of the right panel to access additional text formatting options. They include:
 
     - **Transform options.** Choose the letter case for your text:
-    - **Aa**: Title Case 
-    - **AA**: UPPER CASE
-    - **aa**: lower case
+    -   **Aa**: Title Case 
+    -   **AA**: UPPER CASE
+    -   **aa**: lower case
     - **Decorations.** Apply underline or strikethrough effects.
     - **List type.** Choose from numbered or bullet point list styles.
     - **Features.** Add special features like subscript and superscript to your text.
@@ -207,7 +203,7 @@ Once you add and select a text layer, the **Text** section appears in the right 
 <a href="https://lunacy.docs.icons8.com/layers/#selection-fonts-and-colors" target="_blank">Selection fonts and colors</a>
 
 
-## Text generation
+## [Text generation](#text-generation)
 
 When you need to add placeholder text to your designs, there’s no need to leave the app to google them or think of anything yourself: Lunacy does the work for you. Generated texts include names, job titles, various types of contact information, headings and paragraphs, as well as over a dozen more options.
 
@@ -218,13 +214,15 @@ To use text generation, activate the **Text tool** (`T`) and click on the canvas
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_add_text_select.png" height="auto"><source src="/public/text_add_text_select.mp4" type="video/mp4"></video>
 
-When you click and drag to create a custom size text layer, Lunacy automatically fills the layer with placeholder texts. Their font size depends on the width and height of the text box: Lunacy guesses whether you’re creating a heading, paragraph, email field, and so on. You can either leave these texts or go ahead with your own options.
+When you click and drag to create a custom size text layer, Lunacy automatically fills the layer with placeholder texts. **Auto font size** sets the size of the text depending on the width and height of the text box: Lunacy guesses whether you’re creating a heading, paragraph, email field, and so on. You can either leave these texts or go ahead with your own options.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_add_text_drag.png" height="auto"><source src="/public/text_add_text_drag.mp4" type="video/mp4"></video>
 
 ### Auto refresh
 
-To refresh the generated text, click <embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="24" /> or press `Shift + R`. Also, anytime you copy a layer with generated text, a new generated placeholder will appear in the duplicate.
+To refresh the generated text, click <embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="24" /> or press `Shift + R`. 
+
+Also, anytime you copy a layer with generated text, a new generated placeholder will appear in the duplicate.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_auto_refresh.png" height="auto"><source src="/public/text_auto_refresh.mp4" type="video/mp4"></video>
 
@@ -234,33 +232,9 @@ Combine text generation with other handy Lunacy features, like the <a href="http
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_avatar_text_repeat_grid.png" height="auto"><source src="/public/text_avatar_text_repeat_grid.mp4" type="video/mp4"></video>
 
-## Text and shapes
-
-### Adding text to shapes
-
-You can add a perfectly centered text layer to a shape by selecting the shape, then pressing `T` to activate the text tool. Lunacy will group the shape and the resulting text layer. The text you enter in the layer will be in **Fixed size** mode, restricted by the borders.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_to_shape.png" height="auto"><source src="/public/text_to_shape.mp4" type="video/mp4"></video>
-
-This is useful for designing buttons, menus, and similar UI elements, especially when coupled with text generation.
-
-### Converting text to outlines
-
-You can **convert text into outlines**, so that every letter becomes a vector shape:
-
-- Press `Ctrl + Shift + O` / `⌘ + Shift + O`.
-- Select **Outline stroke** on the context menu.
-- Select **Text** > **Convert to Outlines** on the menu bar.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_to_outlines.png" height="auto"><source src="/public/text_to_outlines.mp4" type="video/mp4"></video>
-
-<div class="callout callout--info">
-     <p><strong>Note:</strong> Keep in mind that text-to-outline operations are demanding for system resources. Attempts to convert large portions of text may slow Lunacy down.</p>
-</div>
-
 ## Text styles and effects
 
-In addition to text settings, you can also apply the usual layer effects to your text layers, including:
+In addition to text settings, you can also apply standard layer effects to your text layers, including:
 
 - Fills
 - Borders
@@ -284,17 +258,41 @@ You can save combinations of layer effects and text settings as **text styles** 
 <br>
 <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
 
+## Text and shapes
+
+### Adding text to shapes
+
+You can add a perfectly centered text layer to a shape by selecting the shape, then pressing `T` to activate the text tool. Lunacy will group the shape and the resulting text layer. The text you enter in the layer will be in **Fixed size** mode, restricted by the borders.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_to_shape.png" height="auto"><source src="/public/text_to_shape.mp4" type="video/mp4"></video>
+
+This is useful for designing buttons, menus, and similar UI elements, especially when coupled with [text generation](#text-generation).
+
+### Converting text to outlines
+
+You can **convert text into outlines**, so that every letter becomes a vector shape:
+
+- Press `Ctrl + Shift + O` / `⌘ + Shift + O`.
+- Select **Outline stroke** on the context menu.
+- Select **Text** > **Convert to Outlines** on the menu bar.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_to_outlines.png" height="auto"><source src="/public/text_to_outlines.mp4" type="video/mp4"></video>
+
+<div class="callout callout--info">
+     <p><strong>Note:</strong> Keep in mind that text-to-outline operations are demanding for system resources. Attempts to convert large portions of text may slow Lunacy down.</p>
+</div>
+
 ## More text options
 
 ### Missing fonts
 
 When you open a document, Lunacy checks whether all the required fonts are available on your computer. If some of them are missing but they are available in the Google Fonts library, Lunacy will download and apply them, provided your computer is connected to the internet.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_missing_fonts.png" height="auto"><source src="/public/text_missing_fonts.mp4" type="video/mp4"></video>
-
-If they aren’t part of Google Fonts, the missing fonts button appears on the top bar. Lunacy renders the text layers using the default Inter font, and when you select these layers, the name of the missing font appears in red in the font menu.
+If they aren’t part of Google Fonts, the missing fonts button (<embed type="image/svg+xml" alt="Subtract" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/kNCv3_mGnU2nETcTBVN0dg.svg" width="24" />) appears on the top bar. Lunacy renders the text layers using the default Inter font, and when you select these layers, the name of the missing font appears in red in the font menu.
 
 Click the missing fonts button to open up a dialog box with options to replace the missing fonts with alternatives so you can edit the layers.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_missing_fonts.png" height="auto"><source src="/public/text_missing_fonts.mp4" type="video/mp4"></video>
 
 ### Fonts embedding
 
@@ -313,4 +311,8 @@ To **embed fonts**:
 
 ### Working with emojis
 
-You can add emojis to text layers in any convenient way by using the emoji keyboard on your OS or pasting them into the text box. The emoji styles in Lunacy include Apple, Microsoft, and Noto style emojis. Switch through them by selecting **Text > Emoji Style** on the menu bar.
+You can add emojis to text layers in any convenient way by using the emoji keyboard on your OS or pasting them into the text box. The emoji styles in Lunacy include Apple, Microsoft, and Noto style emojis. 
+
+Switch through them by selecting **Text > Emoji Style** on the menu bar.
+
+<embed type="image/svg+xml" alt="style_of_emojis" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/9xgNwMCTMUKVQ3ABwzuoAA.svg" width="844" /> 
