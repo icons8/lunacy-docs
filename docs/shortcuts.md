@@ -45,9 +45,14 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Copy |`Ctrl + C` | `⌘ + C` |
 | Cut |`Ctrl + X` | `⌘ + X` |
 | Paste |`Ctrl + V` | `⌘ + V` |
+| Create frame | `Ctrl + Alt + G` | `⌘ + ⌥ + G` |
+| Group Selection |`Ctrl + G` | `⌘ + G` |
+| Ungroup Selection / Remove frame|`Ctrl + Shift + G` | `⌘ + Shift + G` |
+| Add auto layout | `Shift + A` | `Shift + A` |
 | Export in PNG to Icons8 Cloud, copy URL to clipboard |`Alt + C + С` | `⌥ +  C + C` |
 | Copy Style |`Ctrl + Alt + C` | `⌥ +  ⌘ + C` |
 | Paste Style |`Ctrl + Alt + V` | `⌥ +  ⌘ + C` |
+| Copy layer hyperlink | `Ctrl + L` | `⌘ + L` |
 | Undo |`Ctrl + Z`  | `⌘ + Z` |
 | Redo |`Ctrl + Y` or `Ctrl + Shift + Z` | `⌘ + Shift + Z` |
 | Show Rulers |`Ctrl + R` | `⌘ + R` |
@@ -137,8 +142,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Align Top |`Alt + W` | `⌥ + W` |
 | Align Bottom |`Alt + S`  | `⌥ + S` |
 | Align Vertically |`Alt + V`| `⌥ + V` |
-| Distribute Horizontally |`Ctrl + Shift + H` | `⌃ + Shift + H` |
-| Distribute Vertically |`Ctrl + Shift + V` | `⌃ + Shift + V` |
+| Distribute Horizontally |`Alt + Shift + H` | `⌃ + Shift + H` |
+| Distribute Vertically |`Alt + Shift + V` | `⌃ + Shift + V` |
 | Tidy up |`Ctrl + Alt + Shift + T` | `⌃ + ⌥ + Shift + T` |
 | Scale layers |`Ctrl + K` | `⌘ + K` |
 | Refresh avatar |`Shift + R` | `Shift + R` |
@@ -241,13 +246,11 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 
 | Action        | Windows, Linux    | Mac |
 | ------------- |-------------|------------------|
-| Group Selection |`Ctrl + G` | `⌘ + G` |
-| Ungroup Selection |`Ctrl + Shift + G` | `⌘ + Shift + G` |
 | Bring Forward |`Ctrl + ]` | `⌘ + ]` |
 | Send Backward |`Ctrl + [` | `⌘ + [` |
 | Send to Back |`Ctrl + Shift + [` | `⌘ + Shift + [` |
-| Show / Hide |`Ctrl + H` | `⌘ +  Shift + H` |
-| Lock / Unlock |`Ctrl + L` | `⌘ +  Shift + L` |
+| Show / Hide |`Ctrl + Shift + H` | `⌘ +  Shift + H` |
+| Lock / Unlock |`Ctrl + Shift + L` | `⌘ +  Shift + L` |
 
 ## Zoom and Focus
 

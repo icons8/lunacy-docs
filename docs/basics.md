@@ -138,8 +138,11 @@ To **create a frame**:
     <p><strong>Tip:</strong> When you're creating a frame on the canvas, blue <code>+</code> signs will appear around the borders, indicating pre-existing presets. Drag the corner of the frame you're creating to a <code>+</code> to snap it to a preset (the name of the preset will appear in the Layer list).</p>
 </div>
 
+You can also **place layers inside frames** by:
+- Selecting one or several layers and pressing `Ctrl + Alt + G` / `⌘ + ⌥ + G`.
+- Drawing a frame over them. 
 
-You can also enclose layers inside frames by drawing a frame over them. 
+To **delete a frame** use the **ungroup** shortcut: `Ctrl + Shift + G` / `⌘ + Shift + G`.
 
 This is how frames appear in the Layer list:
 

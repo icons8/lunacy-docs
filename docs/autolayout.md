@@ -73,16 +73,18 @@ In Lunacy, you can apply auto layout to:
 To **add auto layout** to a frame:
 
 1. Select the frame.
-2. Click `+` next to **Auto layout** in the right panel.
+2. Press `Shift + A` or click `+` next to **Auto layout** in the right panel.
 
-The Auto layout section will expand, displaying the various properties you can apply to your frame. 
+To **place several layers into an auto layout**:
 
-You can also select elements within the frame to **change their individual auto layout settings**:
+1. Select two or more layers.
+2. Press `Shift + A`.
 
-- If you select a nested auto layout frame, you’ll see the usual Auto layout section in the right panel.
-- If you select an ordinary layer or frame inside an auto layout you’ll see its individual properties, which look like this:
+The **Auto layout** section will then display the various properties you can apply to your frame. You can also select elements within the frame to **change their individual auto layout settings**:
 
-<embed type="image/svg+xml" alt="autolayout_individual" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OKuGC-Rf4U6uZ1qJCfj5kw.svg" width="844" /> 
+- If you select a nested auto layout frame, you’ll see the usual **Auto layout** section in the right panel.
+- If you select an ordinary layer or frame inside an auto layout you’ll see its **individual properties**, which look like this:
+    <embed type="image/svg+xml" alt="autolayout_individual" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/OKuGC-Rf4U6uZ1qJCfj5kw.svg" width="844" /> 
 
 
 ## [Auto layout properties](#auto-layout-properties)
@@ -170,10 +172,10 @@ Here, you can:
 
 ## [Removing elements from an auto layout](#removing-elements-from-auto-layout)
 
-To **remove an element from an auto layout** frame:
+To **remove an individual element from an auto layout** frame:
 
 - Click on it and drag it out of the frame. The remaining elements will adapt to the change based on the auto layout properties.
-- Select the element in the Layer list and press `Del`.
+- Select the element in the **Layer list** and press `Del`.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_remove.png" height="auto"><source src="/public/autolayout_remove.mp4" type="video/mp4"></video>
 
