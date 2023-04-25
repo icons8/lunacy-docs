@@ -107,7 +107,7 @@ When you select a main component, the **Component** section in the right panel d
 
 Select one of the presets to organize your components by type. 
 
-    <div class="callout callout--info"> <p><strong>Note:</strong> This setting currently has no visible effect. It’s reserved for future use in upcoming releases.</p> </div>
+<div class="callout callout--info"> <p><strong>Note:</strong> This setting currently has no visible effect. It’s reserved for future use in upcoming releases.</p> </div>
 
 ### Resizing behavior
 
@@ -247,7 +247,7 @@ For a component instance, the **Component** section in the **right panel** will 
 
 <embed type="image/svg+xml" alt="rightpanel_instance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zztZgnyr9EqhG8-NFu-_hA.svg" width="844" /> 
 
-### omponent state menu
+### Component state menu
 
 A dropdown menu displaying the current state of the component. When open, it shows all other components and UI kits available in the document. 
 
