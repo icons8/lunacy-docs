@@ -28,19 +28,19 @@ If that doesn't help, our support team may need additional information about the
 
 ## Important notes
 
-#### Reporting issues
+### Reporting issues
 
 You can **report any issue** you run into through our **feedback form**:
-1. Un Lunacy, select **Help** → **Report an issue**.
+1. Un Lunacy, select **Help → Report an issue**.
 2. Describe the problem and attach any screenshots, files, or the malfunctioning document. 
 
 If Lunacy isn’t opening, leave a post on our <a href="https://community.icons8.com/" target="_blank">Community Support</a> board or reach out to us through <a href="https://lunacy.docs.icons8.com/contact/#our-socials" target="_blank">our socials</a>.
 
-#### Archiving memory dump files
+### Archiving memory dump files
 
 Please **archive all dump files** before you send them to us. They may end up several GBs in size and sending them to a `.zip` archive reduces the size significantly. This also means you can upload and send over the files to us much faster. 
 
-#### Privacy and security
+### Privacy and security
 
 If you’re worried about the safety of any secret or sensitive information contained in memory dump files, avoid uploading the archive to unsafe servers and cloud storages:
 
@@ -48,7 +48,7 @@ If you’re worried about the safety of any secret or sensitive information cont
 2. Send us a **one-time download link** for the file. 
 3. Once our team notifies you that we’ve received the file, feel free to **delete it from the cloud**. 
 
-#### Hardware and other issues
+### Hardware and other issues
 
  Sometimes, a particular issue might persist even after Lunacy Support analyzes several memory dump files. This happens if the problem resulted from a specific driver and/or hardware problem on your computer. 
  
@@ -62,10 +62,10 @@ If you’re worried about the safety of any secret or sensitive information cont
 
 If Lunacy crashes or freezes, the app logs will help us investigate the issue. Before reporting a crash:
 
-1. In Lunacy, select **Help** → **Open App Data Folder** on the menu bar to open up Lunacy’s app data folder. You can also find it using the file path: `C:\\Users\\<user>AppData\\Local\\Icons8\\Lunacy`
+1. In Lunacy, select **Help → Open App Data Folder** on the menu bar to open up Lunacy’s app data folder. You can also find it using the file path: `C:\\Users\\<user>AppData\\Local\\Icons8\\Lunacy`
 2. Open the **Logs** folder.
 3. Sort the files using the **Date modified** column, find the most recent log file saved after the crash occurred, and archive it.
-4. Report the crash to us in any convenient way (for example, through **Help** → **Report a problem**) and attach the archive with the log file.
+4. Report the crash to us in any convenient way (for example, through **Help → Report a problem**) and attach the archive with the log file.
 
 ### Crash Dumps
 
@@ -115,16 +115,16 @@ To **generate a process dump file**:
 
 If Lunacy crashes or freezes on your Mac device, you can help us quickly determine the issue by providing a log file:
 
-1. In Lunacy, select **Help** → **Open App Data Folder** on the menu bar to open up Lunacy’s app data folder. You can also find it using the file path: `/Users/<User>/Library/Containers/com.icons8.Lunacy/Data/.local/share/Icons8/Lunacy`
+1. In Lunacy, select **Help → Open App Data Folder** on the menu bar to open up Lunacy’s app data folder. You can also find it using the file path: `/Users/<User>/Library/Containers/com.icons8.Lunacy/Data/.local/share/Icons8/Lunacy`
 2. Open the **Logs** folder.
 3. Sort the files using the **Date modified** column, find the most recent log file saved after the crash occurred, and archive it.
-4. Report the crash to us in any convenient way (for example, through **Help** → **Report a problem**) and attach the archive with the log file.
+4. Report the crash to us in any convenient way (for example, through **Help → Report a problem**) and attach the archive with the log file.
 
 ### Crash Dumps
 
 When log files don’t show any errors, we may need crash dumps to further narrow down the problem. They are in the `Library` folder by default. 
 
-To open it:
+To **open it**:
 
 1. Choose the **Go** menu, in the **Finder**.
 2. The **Library** folder will appear in the menu list. 
@@ -139,10 +139,10 @@ To open it:
 
 If Lunacy crashes or freezes on your Ubuntu system device, you can help us quickly determine the issue by providing a log file:
 
-1. In Lunacy, select **Help** → **Open App Data Folder** on the menu bar to open up Lunacy’s app data folder. You can also find it using the file path: `/home/user/.local/share/Icons8/Lunacy`
+1. In Lunacy, select **Help → Open App Data Folder** on the menu bar to open up Lunacy’s app data folder. You can also find it using the file path: `/home/user/.local/share/Icons8/Lunacy`
 2. Open the **Logs** folder.
 3. Sort the files using the **Date modified** column, find the most recent log file saved after the crash occurred, and archive it.
-4. Report the crash to us in any convenient way (for example, through **Help** → **Report a problem**) and attach the archive with the log file.
+4. Report the crash to us in any convenient way (for example, through **Help → Report a problem**) and attach the archive with the log file.
 
 ### Crash Dumps
 
