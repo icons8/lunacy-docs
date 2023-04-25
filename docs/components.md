@@ -103,26 +103,26 @@ When you select a main component, the **Component** section in the right panel d
 
 <embed type="image/svg+xml" alt="component_main_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NcGkZHpkfUadWBBYQjj0QA.svg" width="844" /> 
 
-**Component type**
-<br>
+### Component type
+
 Select one of the presets to organize your components by type. 
 
     <div class="callout callout--info"> <p><strong>Note:</strong> This setting currently has no visible effect. It’s reserved for future use in upcoming releases.</p> </div>
 
-**Resizing behavior**
-<br>
+### Resizing behavior
+
 Choose whether to adjust the content of the component when it’s resized.
 
-**Color picker, opacity, and visibility**
-<br>
+### Color picker, opacity, and visibility
+
 Set the component’s background color and show/hide it by pressing the <embed type="image/svg+xml" alt="eye_hide" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Aa8CJl234kaxZXUTplkR4g.svg" width="24" /> / <embed type="image/svg+xml" alt="eye_show" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/y6Qj385WoUu0be9H0CO3lA.svg" width="20" /> icons.
 
-**Include background in export**
-<br>
+### Include background in export
+
 Include/exclude the component’s background when exporting it.
 
-**Include in instances**
-<br>
+### Include in instances
+
 Include/exclude the component’s background in its instances.
 
 ### [Components page](components-page)
@@ -247,30 +247,30 @@ For a component instance, the **Component** section in the **right panel** will 
 
 <embed type="image/svg+xml" alt="rightpanel_instance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zztZgnyr9EqhG8-NFu-_hA.svg" width="844" /> 
 
-**Component state menu**
-<br>
+### omponent state menu
+
 A dropdown menu displaying the current state of the component. When open, it shows all other components and UI kits available in the document. 
 
 If you didn’t create any component states, this property will read **Default State**. 
 
-**Component states**
-<br>
+### Component states
+
 Select one of the presets to organize your components by type. Changing this for a component instance will affect its main component and vice versa.
 
-**Detach from component**
-<br>
+### Detach from component
+
 Detach the instance from its main component or press `Ctrl + Alt + D` / `⌘ + ⌥ + B`.
 
-**Reset instance size**
-<br>
+### Reset instance size
+
 If you resized the instance, click this button to revert it to the size of the main component.
 
-**Go to main component**
-<br>
+### Go to main component
+
 Redirects you to the instance's main component.
 
-**Component type**
-<br>
+### Component type
+
 See the corresponding [main component property](#main-component-properties).
 
 Once you modify an instance, the  <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > button appears in this section, indicating that the instance has an override:

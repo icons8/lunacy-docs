@@ -30,7 +30,7 @@ To **add a text layer**, press `T` or select <embed type="image/svg+xml" alt="Un
 
 - **Click anywhere on the canvas** to place the text layer. You can either type your own text or use the generated text options that appear in the dropdown menu as you create the layer.
 
-    Lunacy applies [horizontal resize mode](#layer-resizing) to text added this way.
+    Lunacy applies [horizontal resize mode](#resizing-options) to text added this way.
     
     OR 
 - **Click and drag** to place a text layer with your custom size. Placeholder texts will appear inside the layer you’re creating, with their font size set automatically.
@@ -74,8 +74,8 @@ Once you add and select a text layer, the **Text** section appears in the right 
      <p><strong>Note:</strong> You can apply different font settings of the same type (fonts, font size, color, text size) to a text within a layer. In this case, when this layer is selected, the fields in the right panel will display <b>Mix</b>.</p>
 </div>
 
-**Font list**
-<br>
+### Font list
+
 To change fonts, click on the font list menu in the **right panel**, then:
 - Type the font family name in the field.
 - Expand the dropdown menu with the list of available fonts, then select one from the list.
@@ -96,8 +96,8 @@ Lunacy’s integration with Google Fonts solves most problems with missing fonts
 <div class="callout callout--info">
 <p><strong>Note:</strong> You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts only includes the fonts that you have already used.</p> </div>
     
-**Font style**
-<br>
+### Font style
+
 Open the font style dropdown menu to change a text’s styling properties (**Bold**, *Italic*, ***Bold Italic***, etc.) If a font only has one style, this menu will be grayed out.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_block_formatting.png" height="auto"><source src="/public/text_block_formatting.mp4" type="video/mp4"></video>
@@ -109,8 +109,8 @@ To change the properties of an individual word, you don’t necessarily have to 
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_individual_word_formatting.png" height="auto"><source src="/public/text_block_formatting.mp4" type="video/mp4"></video>
     
-**Font size**
-<br>
+### Font size
+
 Use this field to **set the font size** or press `Ctrl + Alt + "+"` / `⌥ + ⌘ + "+"` and `Ctrl + Alt + "-"`/`⌥ + ⌘ + "-"` to increase and decrease the font size respectively.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_size.png" height="auto"><source src="/public/text_change_font_size.mp4" type="video/mp4"></video>
@@ -119,8 +119,8 @@ Use this field to **set the font size** or press `Ctrl + Alt + "+"` / `⌥ + ⌘
 <br>
 <a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties" target="_blank">Right panel properties</a>
     
-**Line, letter, and paragraph spacing**
-<br>
+### Line, letter, and paragraph spacing
+
 Use these settings to adjust the spacing between lines, letters, and paragraphs.
 
 The default **line spacing** depends on the selected font, as well as its style and size. It appears grayed out, but you can change the value manually anytime. To **restore the default line spacing value**, delete the current value and press `Enter`.
@@ -138,8 +138,8 @@ You can **change spacing values** by:
     
     <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_line_letter_paragraph_spacing.png" height="auto"><source src="/public/text_line_letter_paragraph_spacing.mp4" type="video/mp4"></video>
             
-**Text color**
-<br>
+### Text color
+
 Use this field to **change the text color**:
 - Click on the color circle to open up the standard color picker.
 - Choose a color style from the document colors.
@@ -154,8 +154,7 @@ Use this field to **change the text color**:
 <br>
 <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
     
-<span id="layer-resizing"><b>Text layer resizing options</b></span>
-<br>
+### [Text layer resizing options](#resizing-options)
 These three buttons determine how text boxes change in size depending on the content:
 
 - **Horizontal resize**: The text box expands horizontally to fit the text content on a single line.
@@ -173,8 +172,8 @@ These three buttons determine how text boxes change in size depending on the con
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_double_click_to_resize.png" height="auto"><source src="/public/text_double_click_to_resize.mp4" type="video/mp4"></video>
         
-**Text alignment**
-<br>
+### Text alignment
+
 Use these buttons to align text inside the text box or use these shortcuts:
 - `Ctrl + Alt + {` / `⌥ + ⌘ + {` — align text to the left
 - `Ctrl + Alt + }` / `⌥ + ⌘ + }` — align text to the right
@@ -191,8 +190,8 @@ You can also align text within text boxes using the **alignment magnets** that a
 If you want to hide the magnets, uncheck the **Text Alignment Magnets** option in the **View** section of the menu bar.
 
 
-**Text position**
-<br>
+### Text position
+
 Adjust the position of text content within the text box:
 - Position text to the top border (default option)
 - Position text to the bottom border
@@ -200,8 +199,7 @@ Adjust the position of text content within the text box:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_position.png" height="auto"><source src="/public/text_position.mp4" type="video/mp4"></video>
 
-**Additional text options**
-<br>
+### Additional text options
 
 Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="12" /> in the **Text** section of the right panel to access additional text formatting options. They include:
 
