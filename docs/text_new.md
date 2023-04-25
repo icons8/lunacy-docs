@@ -30,8 +30,8 @@ To **add a text layer**, press `T` or select <embed type="image/svg+xml" alt="Un
 
 - **Click anywhere on the canvas** to place the text layer. You can either type your own text or use the generated text options that appear in the dropdown menu as you create the layer.
 
-Lunacy applies [horizontal resize mode](#layer-resizing) to text added this way.
-
+    Lunacy applies [horizontal resize mode](#layer-resizing) to text added this way.
+    
     OR 
 - **Click and drag** to place a text layer with your custom size. Placeholder texts will appear inside the layer you’re creating, with their font size set automatically.
 
@@ -157,60 +157,66 @@ Use this field to **change the text color**:
 <span id="layer-resizing"><b>Text layer resizing options</b></span>
 <br>
 These three buttons determine how text boxes change in size depending on the content:
-    - **Horizontal resize**: The text box expands horizontally to fit the text content on a single line.
-    - **Vertical resize**: The text box adjusts vertically to fit the text content, while the width of the text box remains unchanged.
-    - **Fixed size**: In this mode, the size of the text box is fixed and does not adjust to fit the text content.
+
+- **Horizontal resize**: The text box expands horizontally to fit the text content on a single line.
+- **Vertical resize**: The text box adjusts vertically to fit the text content, while the width of the text box remains unchanged.
+- **Fixed size**: In this mode, the size of the text box is fixed and does not adjust to fit the text content.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_resizing_options.png" height="auto"><source src="/public/text_resizing_options.mp4" type="video/mp4"></video>
+
+**Some notes:**
+- If you drag and shrink a text box around a single-line text, the resize mode will adjust automatically. Double-click on it to reset the box to horizontal resize mode and transform the multiline text into a single line again.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_single_line_resizing.png" height="auto"><source src="/public/text_single_line_resizing.mp4" type="video/mp4"></video>
     
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_resizing_options.png" height="auto"><source src="/public/text_resizing_options.mp4" type="video/mp4"></video>
-    
-    **Some notes:**
-    - If you drag and shrink a text box around a single-line text, the resize mode will adjust automatically. Double-click on it to reset the box to horizontal resize mode and transform the multiline text into a single line again.
-    
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_single_line_resizing.png" height="auto"><source src="/public/text_single_line_resizing.mp4" type="video/mp4"></video>
+- If your text box is larger than the text inside it, click on the text box borders to enable auto-resize mode and make the text box fit snugly around the text.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_double_click_to_resize.png" height="auto"><source src="/public/text_double_click_to_resize.mp4" type="video/mp4"></video>
         
-    - If your text box is larger than the text inside it, click on the text box borders to enable auto-resize mode and make the text box fit snugly around the text.
-    
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_double_click_to_resize.png" height="auto"><source src="/public/text_double_click_to_resize.mp4" type="video/mp4"></video>
-        
-- **Text alignment.** Use these buttons to align text inside the text box or use these shortcuts:
-    - `Ctrl + Alt + {` / `⌥ + ⌘ + {` — align text to the left
-    - `Ctrl + Alt + }` / `⌥ + ⌘ + }` — align text to the right
-    - `Ctrl + Alt + T` / `⌥ + ⌘ + T` — center text
-    - `Ctrl + Alt + J` / `⌥ + ⌘ + J` — justify
+**Text alignment**
+<br>
+Use these buttons to align text inside the text box or use these shortcuts:
+- `Ctrl + Alt + {` / `⌥ + ⌘ + {` — align text to the left
+- `Ctrl + Alt + }` / `⌥ + ⌘ + }` — align text to the right
+- `Ctrl + Alt + T` / `⌥ + ⌘ + T` — center text
+- `Ctrl + Alt + J` / `⌥ + ⌘ + J` — justify
 
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_aligning_text.png" height="auto"><source src="/public/text_aligning_text.mp4" type="video/mp4"></video>
-    
-    You can also align text within text boxes using the **alignment magnets** that appear around the text box when you select it. They combine the functions of text alignment and text position so you can position your text right on the canvas.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_aligning_text.png" height="auto"><source src="/public/text_aligning_text.mp4" type="video/mp4"></video>
+
+You can also align text within text boxes using the **alignment magnets** that appear around the text box when you select it. They combine the functions of text alignment and text position so you can position your text right on the canvas.
 
 
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_alignment_magnets.png" height="auto"><source src="/public/text_alignment_magnets.mp4" type="video/mp4"></video>
-    
-    If you want to hide the magnets, uncheck the **Text Alignment Magnets** option in the **View** section of the menu bar.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_alignment_magnets.png" height="auto"><source src="/public/text_alignment_magnets.mp4" type="video/mp4"></video>
+
+If you want to hide the magnets, uncheck the **Text Alignment Magnets** option in the **View** section of the menu bar.
 
 
-- **Text position.** Adjust the position of text content within the text box:
-    - Position text to the top border (default option)
-    - Position text to the bottom border
-    - Center the text within the layer
-    
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_position.png" height="auto"><source src="/public/text_position.mp4" type="video/mp4"></video>
+**Text position**
+<br>
+Adjust the position of text content within the text box:
+- Position text to the top border (default option)
+- Position text to the bottom border
+- Center the text within the layer
 
-- **Additional text options**
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_position.png" height="auto"><source src="/public/text_position.mp4" type="video/mp4"></video>
 
-    Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="12" /> in the **Text** section of the right panel to access additional text formatting options. They include:
+**Additional text options**
+<br>
 
-    - **Transform options.** Choose the letter case for your text:
-        - **Aa**: Title Case 
-        - **AA**: UPPER CASE
-        - **aa**: lower case
-    - **Decorations.** Apply underline or strikethrough effects.
-    - **List type.** Choose from numbered or bullet point list styles.
-    - **Features.** Add special features like subscript and superscript to your text.
+Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="12" /> in the **Text** section of the right panel to access additional text formatting options. They include:
 
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_additional_options.png" height="auto"><source src="/public/text_additional_options.mp4" type="video/mp4"></video>
+- **Transform options.** Choose the letter case for your text:
+    - **Aa**: Title Case 
+    - **AA**: UPPER CASE
+    - **aa**: lower case
+- **Decorations.** Apply underline or strikethrough effects.
+- **List type.** Choose from numbered or bullet point list styles.
+- **Features.** Add special features like subscript and superscript to your text.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_additional_options.png" height="auto"><source src="/public/text_additional_options.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
-     <p><strong>Tip:</strong> If you select several text layers, the <b>Selection fonts and colors</b> section in the right panel will display all the <b>fonts</b> and <b>colors</b> present in the selected layers, so you can adjust these properties for several texts at a time.</p>
+    <p><strong>Tip:</strong> If you select several text layers, the <b>Selection fonts and colors</b> section in the right panel will display all the <b>fonts</b> and <b>colors</b> present in the selected layers, so you can adjust these properties for several texts at a time.</p>
 </div>
 
 **See also:**
