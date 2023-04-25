@@ -30,6 +30,9 @@ To **add a text layer**, press `T` or select <embed type="image/svg+xml" alt="Un
 
 - **Click anywhere on the canvas** to place the text layer. You can either type your own text or use the generated text options that appear in the dropdown menu as you create the layer.
 
+Lunacy applies [horizontal resize mode](#layer-resizing) to text added this way.
+
+    OR 
 - **Click and drag** to place a text layer with your custom size. Placeholder texts will appear inside the layer you’re creating, with their font size set automatically.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_add_text.png" height="auto"><source src="/public/text_add_text.mp4" type="video/mp4"></video>
@@ -71,77 +74,89 @@ Once you add and select a text layer, the **Text** section appears in the right 
      <p><strong>Note:</strong> You can apply different font settings of the same type (fonts, font size, color, text size) to a text within a layer. In this case, when this layer is selected, the fields in the right panel will display <b>Mix</b>.</p>
 </div>
 
-- **Font list.** To change fonts, click on the font list menu in the **right panel**, then:
-    - Type the font family name in the field.
-    - Expand the dropdown menu with the list of available fonts, then select one from the list.
-    
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font.png" height="auto"><source src="/public/text_change_font.mp4" type="video/mp4"></video>
-    
-    The font list displays available fonts and their samples, with your three most recently used fonts displayed at the top. If a font name is too long and seems truncated, hover a cursor over it to view the full name.
+**Font list**
+<br>
+To change fonts, click on the font list menu in the **right panel**, then:
+- Type the font family name in the field.
+- Expand the dropdown menu with the list of available fonts, then select one from the list.
 
-    You can filter fonts using the buttons above the list:
-    - **All**: Shows the full list of available fonts.
-    - **System**: Shows the list of fonts installed on your computer.
-    - **Google**: Shows the list of fonts available in the [Google Fonts](https://fonts.google.com/) library.
-    
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_filtering_font_list.png" height="auto"><source src="/public/text_filtering_font_list.mp4" type="video/mp4"></video>
-    
-    Lunacy’s integration with Google Fonts solves most problems with missing fonts. Before you apply a Google font for the first time, it appears without a matching sample. Click on a Google font for Lunacy to automatically download and apply it to the selected text layer.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font.png" height="auto"><source src="/public/text_change_font.mp4" type="video/mp4"></video>
 
-    <div class="callout callout--info">
-     <p><strong>Note:</strong> You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts only includes the fonts that you have already used.</p> </div>
-    
-- **Font style.** Open the font style dropdown menu to change a text’s styling properties (**Bold**, *Italic*, ***Bold Italic***, etc.) If a font only has one style, this menu will be grayed out.
+The font list displays available fonts and their samples, with your three most recently used fonts displayed at the top. If a font name is too long and seems truncated, hover a cursor over it to view the full name.
 
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_block_formatting.png" height="auto"><source src="/public/text_block_formatting.mp4" type="video/mp4"></video>
+You can filter fonts using the buttons above the list:
+- **All**: Shows the full list of available fonts.
+- **System**: Shows the list of fonts installed on your computer.
+- **Google**: Shows the list of fonts available in the [Google Fonts](https://fonts.google.com/) library.
 
-    To change the properties of an individual word, you don’t necessarily have to select it. Just set the cursor anywhere inside or at the end of a word and change the properties. If you set the cursor at the very end of the text, the formatting options will be applied to the entire text. You can also use standard text editor shortcuts to speed things up:
-    - `Ctrl + B` / `⌘ + B` — **Bold**
-    - `Ctrl + I` / `⌘ + I` — *Italic*
-    - `Ctrl + U` / `⌘ + U` — Underline
-    
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_individual_word_formatting.png" height="auto"><source src="/public/text_block_formatting.mp4" type="video/mp4"></video>
-    
-- **Font size.** Use this field to **set the font size** or press `Ctrl + Alt + "+"` / `⌥ + ⌘ + "+"` and `Ctrl + Alt + "-"`/`⌥ + ⌘ + "-"` to increase and decrease the font size respectively.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_filtering_font_list.png" height="auto"><source src="/public/text_filtering_font_list.mp4" type="video/mp4"></video>
 
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_size.png" height="auto"><source src="/public/text_change_font_size.mp4" type="video/mp4"></video>
-    
-    **See also:**
-    <br>
-    <a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties" target="_blank">Right panel properties</a>
-    
-- **Line, letter, and paragraph spacing.** Use these settings to adjust the spacing between lines, letters, and paragraphs.
+Lunacy’s integration with Google Fonts solves most problems with missing fonts. Before you apply a Google font for the first time, it appears without a matching sample. Click on a Google font for Lunacy to automatically download and apply it to the selected text layer.
 
-    The default **line spacing** depends on the selected font, as well as its style and size. It appears grayed out, but you can change the value manually anytime. To **restore the default line spacing value**, delete the current value and press `Enter`.
+<div class="callout callout--info">
+<p><strong>Note:</strong> You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts only includes the fonts that you have already used.</p> </div>
     
-    The default **letter** and **paragraph spacing** is set to `0`.
+**Font style**
+<br>
+Open the font style dropdown menu to change a text’s styling properties (**Bold**, *Italic*, ***Bold Italic***, etc.) If a font only has one style, this menu will be grayed out.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_block_formatting.png" height="auto"><source src="/public/text_block_formatting.mp4" type="video/mp4"></video>
+
+To change the properties of an individual word, you don’t necessarily have to select it. Just set the cursor anywhere inside or at the end of a word and change the properties. If you set the cursor at the very end of the text, the formatting options will be applied to the entire text. You can also use standard text editor shortcuts to speed things up:
+- `Ctrl + B` / `⌘ + B` — **Bold**
+- `Ctrl + I` / `⌘ + I` — *Italic*
+- `Ctrl + U` / `⌘ + U` — Underline
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_individual_word_formatting.png" height="auto"><source src="/public/text_block_formatting.mp4" type="video/mp4"></video>
     
-    You can **change spacing values** by:
-    - Selecting the required font size from the list.
-    - Entering a value in the input field.
-    - Hovering over the input field and scrolling with the middle mouse button.
-    - Using shortcuts:
-        - `Ctrl + Alt + >` / `⌥ + ⌘ + >` or `Ctrl + Alt + <` / `⌥ + ⌘ + <` — increase or decrease line spacing.
-        - `Ctrl + Shift + >` / `⌘ + Shift + >` or `Ctrl + Shift + <` / `⌘ + Shift + <` — increase or decrease letter spacing.
-        - There is no shortcut for paragraph spacing.
-        
-        <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_line_letter_paragraph_spacing.png" height="auto"><source src="/public/text_line_letter_paragraph_spacing.mp4" type="video/mp4"></video>
+**Font size**
+<br>
+Use this field to **set the font size** or press `Ctrl + Alt + "+"` / `⌥ + ⌘ + "+"` and `Ctrl + Alt + "-"`/`⌥ + ⌘ + "-"` to increase and decrease the font size respectively.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_size.png" height="auto"><source src="/public/text_change_font_size.mp4" type="video/mp4"></video>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties" target="_blank">Right panel properties</a>
+    
+**Line, letter, and paragraph spacing**
+<br>
+Use these settings to adjust the spacing between lines, letters, and paragraphs.
+
+The default **line spacing** depends on the selected font, as well as its style and size. It appears grayed out, but you can change the value manually anytime. To **restore the default line spacing value**, delete the current value and press `Enter`.
+
+The default **letter** and **paragraph spacing** is set to `0`.
+
+You can **change spacing values** by:
+- Selecting the required font size from the list.
+- Entering a value in the input field.
+- Hovering over the input field and scrolling with the middle mouse button.
+- Using shortcuts:
+    - `Ctrl + Alt + >` / `⌥ + ⌘ + >` or `Ctrl + Alt + <` / `⌥ + ⌘ + <` — increase or decrease line spacing.
+    - `Ctrl + Shift + >` / `⌘ + Shift + >` or `Ctrl + Shift + <` / `⌘ + Shift + <` — increase or decrease letter spacing.
+    - There is no shortcut for paragraph spacing.
+    
+    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_line_letter_paragraph_spacing.png" height="auto"><source src="/public/text_line_letter_paragraph_spacing.mp4" type="video/mp4"></video>
             
-- **Text color.** Use this field to **change the text color**:
-    - Click on the color circle to open up the standard color picker.
-    - Choose a color style from the document colors.
-    - Enter a color code manually.
+**Text color**
+<br>
+Use this field to **change the text color**:
+- Click on the color circle to open up the standard color picker.
+- Choose a color style from the document colors.
+- Enter a color code manually.
 
-    <div class="callout callout--info">
-     <p><strong>Tip:</strong> When you add a text layer on top of a layer, Lunacy automatically sets a text color that contrasts with the background to save you a couple of clicks.</p> </div>
-    
-    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_color.png" height="auto"><source src="/public/text_change_font_color.mp4" type="video/mp4"></video>
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> When you add a text layer on top of a layer, Lunacy automatically sets a text color that contrasts with the background to save you a couple of clicks.</p> </div>
 
-    **See also:** 
-    <br>
-    <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_color.png" height="auto"><source src="/public/text_change_font_color.mp4" type="video/mp4"></video>
+
+**See also:** 
+<br>
+<a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
     
-- **Text layer resizing options.** These three buttons determine how text boxes change in size depending on the content:
+<span id="layer-resizing"><b>Text layer resizing options</b></span>
+<br>
+These three buttons determine how text boxes change in size depending on the content:
     - **Horizontal resize**: The text box expands horizontally to fit the text content on a single line.
     - **Vertical resize**: The text box adjusts vertically to fit the text content, while the width of the text box remains unchanged.
     - **Fixed size**: In this mode, the size of the text box is fixed and does not adjust to fit the text content.

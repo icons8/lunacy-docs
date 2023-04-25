@@ -76,25 +76,40 @@ With a layer selected, you will see these settings:
 <embed type="image/svg+xml" alt="export_section_layer" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fcCzjZUPCUK2tQ8KtEPPdA.svg" width="844" /> 
 
 
-- **Export size**. By default, Lunacy exports layers at their original size (**1x**). You can change it to any of the preset scales or set your own (e.g., 8x, 10x, or 0.3x).
+**Export size**
+<br>
+By default, Lunacy exports layers at their original size (**1x**). You can change it to any of the preset scales or set your own (e.g., 8x, 10x, or 0.3x).
 
-- **Prefix/Suffix**. Defines the suffix or prefix of the export's file name. For any export size larger than 1x, Lunacy generates a default a default `@<size>` suffix, but you can enter your own in the input field (use only letters and numbers).
+**Prefix/Suffix**
+<br>
+Defines the suffix or prefix of the export's file name. For any export size larger than 1x, Lunacy generates a default a default `@<size>` suffix, but you can enter your own in the input field (use only letters and numbers).
 
-* **Format**. Choose any of the available export formats. When exporting to `SVG` or `PDF`, you won’t be able to adjust the export size. It will be 1x by default.
+**Format**
+<br>Choose any of the available export formats. When exporting to `SVG` or `PDF`, you won’t be able to adjust the export size. It will be 1x by default.
 
-* **Publish to Web**. Publish any layer to **Lunacy Cloud** and get a shareable link to it. Read in detail about [working with cloud uploads](#cloud-export).
+**Publish to Web**
+<br>
+Publish any layer to **Lunacy Cloud** and get a shareable link to it. Read in detail about [working with cloud uploads](#cloud-export).
 
-* **Show all cloud uploads**. Click <embed type="image/svg+xml" alt="export_show_uploads" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zJT7IKTmPkmdulIMGf5Zag.svg" width="20" />  next to the **Export** section title to open up the **Cloud Uploads** subsection.
+**Show all cloud uploads**
+<br>
+Click <embed type="image/svg+xml" alt="export_show_uploads" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zJT7IKTmPkmdulIMGf5Zag.svg" width="20" />  next to the **Export** section title to open up the **Cloud Uploads** subsection.
 
-* **Add export option**. Click `+` to add another export option. This lets you export the same element in different formats, sizes, and other settings. 
+**Add export option**
+<br>
+Click `+` to add another export option. This lets you export the same element in different formats, sizes, and other settings. 
 
-* **Remove export option**. Click <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="16" /> next to an export option to remove it.
+**Remove export option**
+<br>
+Click <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="16" /> next to an export option to remove it.
 
-* **Additional export options**. Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="16" /> to open up additional export options. Here, you can:
-    - Choose a preexisting export preset.
-    - Create a custom export preset.
-    - Remove all export options.
-    - Create a slice to export a part of the selected layer or frame. 
+**Additional export options**
+<br>
+Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/__EaplTjMEWsdoU7Lq0nSg.svg" width="16" /> to open up additional export options. Here, you can:
+- Choose a preexisting export preset.
+- Create a custom export preset.
+- Remove all export options.
+- Create a slice to export a part of the selected layer or frame. 
 
 <div class="callout callout--info"> <p><strong>Note:</strong> When nothing is selected, the <b>Export document</b> section opens up. All the settings are the same, except for the <b>Upload to Cloud</b> option, which isn't available.</p> </div>
 
