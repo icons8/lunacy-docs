@@ -22,426 +22,322 @@ page_nav:
         url: '/layers'
 ---
 
-
-
-Text is one of the key aspects of almost every design project. This section describes how to work with text layers in Lunacy.
-
-## Text-related controls
-
-The figure below shows the location of text-related controls in the Lunacy interface.
-
-![Text-related](/public/text-controlsall69.png)
-
-1. The **Text** section. Appears in the Inspector when a text layer is selected. Features all the [settings](#text-settings) that you might need when working with text.
-2. The **Text** menu. Includes all the settings available in the **Text** section of the Inspector, plus the **Convert to Outlines** command. This command also appears on the context menu and lets you [convert text to vector shapes](#converting-text-to-vector-shapes).
-3. The **Edit Layer** button. The button appears when you select a text layer. Click this button to start editing the text. Alternatively, just press `Enter`.
-4. In the **Appearance** section you deal with <a href="https://lunacy.docs.icons8.com/layerstyles/#text-styles" target="_blank">reusable text styles</a>.
-5. The **Generate text** button. A click over the button generates a random text. A click over the down arrowhead next to the button invokes the [menu with text generation options](#text-generation-and-text-snippets).
-6. The **Advanced options** button. Opens a [panel](#advanced-text-options) with such text options as letter case, numbered and bulleted lists, etc.
+This section describes how to add and modify text layers in Lunacy, and how to use the built-in placeholder text generation tool.
 
 ## Adding text layers
 
-There are two ways of adding text layers.
+To **add a text layer**, press `T` or select <embed type="image/svg+xml" alt="Union 2" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/hfMjzS0lpUy6zmVsPVMJdg.svg" width="12" /> on the toolbar to activate the **Text tool**, then:
 
-**Way 1. Click and type**
+- **Click anywhere on the canvas** to place the text layer. You can either type your own text or use the generated text options that appear in the dropdown menu as you create the layer.
 
-1. Select the Text tool on the toolbar (or press `T`). The pointer changes to <b><sup>+</sup></b>**T**.
-2. Click anywhere on the canvas to insert your text layer. Once you click, a new text layer with the *Type something* placeholder appears.
-3. Start typing to replace the placeholder with the text of your own.
-4. Press `Esc` to exit the edit mode.
+    Lunacy applies [horizontal resize mode](#resizing-options) to text added this way.
+    
+    OR 
+- **Click and drag** to place a text layer with your custom size. Placeholder texts will appear inside the layer you’re creating, with their font size set automatically.
 
-Lunacy applies [horizontal resize](#text-block-resize-options) to the text added this way.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_add_text.png" height="auto"><source src="/public/text_add_text.mp4" type="video/mp4"></video>
 
-**Way 2. Click and drag**
+Generated text options include names, job titles, emails, countries, headings, paragraphs, and over a dozen more placeholders for you to choose from. 
 
-1. Select the Text tool on the toolbar (or press `T`). The pointer changes to <b><sup>+</sup></b>**T**.
-2. Click on the canvas and hold down the mouse button.
-3. Drag to create a text layer of the required size. Lunacy will add a random text to fit the size of the layer. If the auto-text exceeds the block size, you can delete the excess or leave it as is. It won't be visible unless the text block is in the edit mode.
-4. Press `Esc` to exit the edit mode.
+Read more about [working with generated text content](#text-generation) below.
 
-**Note:** You can use the `Shift + R` shortcut to refresh the auto-generated text.
+### Text-related menus
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-addtext69ph.png" height="auto"><source src="/public/text-addtext69.mp4" type="video/mp4"></video>
+Lunacy has a wide range of text editing options, all located in their respective menus:
 
-## Adding text to shapes
+<embed type="image/svg+xml" alt="text_menus" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HOLOcZijpk2JFp76wTIDyQ.svg" width="844" /> 
 
-In Lunacy, when you need to add a text to a shape, you can do it in three simple steps:
-
-1. Select the required shape.
-2. Select the text tool or press `T`.
-3. Enter your text.
-
-As you do it, Lunacy automatically creates a group layer with the shape and text layers. This small feature can be of great use when it comes to design of such UI elements as buttons, menus and things alike.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-toshapeph.png" height="auto"><source src="/public/text-toshape.mp4" type="video/mp4"></video>
+- **Text layer properties in the right panel.** The **Text** section appears in the right panel whenever you select a text layer. It’s a more convenient way to access all the text options available on the menu bar, including fonts, their weight and size, line and paragraph spacing, advanced text options such as text case, list styling, and others.
+- **Text style menu.** Also located in the right panel. It contains the list of all applicable text styles in the document.
+- **Text options** **on the menu bar.** Open the **Text** tab on the menu bar to access all the text options available in the right panel, as well as the **Fonts embedding** and **Emoji style** options. Read more about [embedding fonts](#fonts-embedding) and [working with emojis](#working-with-emojis) below.
 
 ## Editing text
 
-To edit a text:
+To **edit a text layer**:
 
-1. Select the text layer in the Layer List or by clicking it on the canvas.
-2. Press `Enter` or click the **Edit Layer** ![missing fonts button](public/text-editobjectbtn1.png) button on the top bar to enable the edit mode.
-3. Enter a new text or edit the existing one.
-4. When done, press `Esc` to exit the edit mode.
+1. Click the layer on the canvas or select it in the **Layer list**.
+2. Press `Enter` or click the **Edit Layer** button (<embed type="image/svg+xml" alt="edit_layer" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/7QXug2EMM0OE7EyRtqiBBw.svg" width="16" />) on the context toolbar to enable **Edit mode**.
+3. Type a new text or edit the existing one and modify any text properties in the **Text** section of the right panel.
+4. Once you’re done, press `Esc` to exit the edit mode.
 
-When editing text settings you don't need to select a word or the whole text to make it bold, italicized or whatever. Just set the caret inside a word or at the end of the text and apply the required setting. In the latter case, the setting will be applied to the whole text.
+Editing a layer with generated texts won’t detach it from the generated content. You’ll still be able to refresh it.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-edittipph.png" height="auto"><source src="/public/text-edittip.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_edit_text.png" height="auto"><source src="/public/text_edit_text.mp4" type="video/mp4"></video>
 
-See also the [Text settings](#text-settings) section below.
+## Text settings
 
-## [Text settings](#text-settings)
+Once you add and select a text layer, the **Text** section appears in the right panel, displaying all the available text settings and formatting options:
 
-When you select a text layer, the **Text** section appears in the Inspector. The section features the basic text settings. Also, you can click the settings button at the top left corner of the section to access advanced settings.
+<embed type="image/svg+xml" alt="text_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/0tDtN6hqLUOXVjw9ieUjpA.svg" width="844"/> 
 
-![Text controls](public/text-controls2-69.png)
+<div class="callout callout--info">
+     <p><strong>Note:</strong> You can apply different font settings of the same type (fonts, font size, color, text size) to a text within a layer. In this case, when this layer is selected, the fields in the right panel will display <b>Mix</b>.</p>
+</div>
 
-Text settings include:
+### Font list
 
-1. Font family
-2. Font weight
-3. Font size picker  
-4. Line spacing
-5. Letter spacing
-6. Font color picker
-7. Paragraph spacing
-8. Text generation options
-9. Text block resize options
-10. Text alignment
-11. Text position
-12. Letter cases
-13. Underline and strikethrough
-14. List types
-15. Superscript and subscript
+To change fonts, click on the font list menu in the **right panel**, then:
+- Type the font family name in the field.
+- Expand the dropdown menu with the list of available fonts, then select one from the list.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font.png" height="auto"><source src="/public/text_change_font.mp4" type="video/mp4"></video>
+
+The font list displays available fonts and their samples, with your three most recently used fonts displayed at the top. If a font name is too long and seems truncated, hover a cursor over it to view the full name.
+
+You can filter fonts using the buttons above the list:
+- **All**: Shows the full list of available fonts.
+- **System**: Shows the list of fonts installed on your computer.
+- **Google**: Shows the list of fonts available in the [Google Fonts](https://fonts.google.com/) library.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_filtering_font_list.png" height="auto"><source src="/public/text_filtering_font_list.mp4" type="video/mp4"></video>
+
+Lunacy’s integration with Google Fonts solves most problems with missing fonts. Before you apply a Google font for the first time, it appears without a matching sample. Click on a Google font for Lunacy to automatically download and apply it to the selected text layer.
+
+<div class="callout callout--info">
+<p><strong>Note:</strong> You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts only includes the fonts that you have already used.</p> </div>
+    
+### Font style
+
+Open the font style dropdown menu to change a text’s styling properties (**Bold**, *Italic*, ***Bold Italic***, etc.) If a font only has one style, this menu will be grayed out.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_block_formatting.png" height="auto"><source src="/public/text_block_formatting.mp4" type="video/mp4"></video>
+
+To change the properties of an individual word, you don’t necessarily have to select it. Just set the cursor anywhere inside or at the end of a word and change the properties. If you set the cursor at the very end of the text, the formatting options will be applied to the entire text. You can also use standard text editor shortcuts to speed things up:
+- `Ctrl + B` / `⌘ + B` — **Bold**
+- `Ctrl + I` / `⌘ + I` — *Italic*
+- `Ctrl + U` / `⌘ + U` — Underline
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_individual_word_formatting.png" height="auto"><source src="/public/text_block_formatting.mp4" type="video/mp4"></video>
+    
+### Font size
+
+Use this field to **set the font size** or press `Ctrl + Alt + "+"` / `⌥ + ⌘ + "+"` and `Ctrl + Alt + "-"`/`⌥ + ⌘ + "-"` to increase and decrease the font size respectively.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_size.png" height="auto"><source src="/public/text_change_font_size.mp4" type="video/mp4"></video>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties" target="_blank">Right panel properties</a>
+    
+### Line, letter, and paragraph spacing
+
+Use these settings to adjust the spacing between lines, letters, and paragraphs.
+
+The default **line spacing** depends on the selected font, as well as its style and size. It appears grayed out, but you can change the value manually anytime. To **restore the default line spacing value**, delete the current value and press `Enter`.
+
+The default **letter** and **paragraph spacing** is set to `0`.
+
+You can **change spacing values** by:
+- Selecting the required font size from the list.
+- Entering a value in the input field.
+- Hovering over the input field and scrolling with the middle mouse button.
+- Using shortcuts:
+    - `Ctrl + Alt + >` / `⌥ + ⌘ + >` or `Ctrl + Alt + <` / `⌥ + ⌘ + <` — increase or decrease line spacing.
+    - `Ctrl + Shift + >` / `⌘ + Shift + >` or `Ctrl + Shift + <` / `⌘ + Shift + <` — increase or decrease letter spacing.
+    - There is no shortcut for paragraph spacing.
+    
+    <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_line_letter_paragraph_spacing.png" height="auto"><source src="/public/text_line_letter_paragraph_spacing.mp4" type="video/mp4"></video>
+            
+### Text color
+
+Use this field to **change the text color**:
+- Click on the color circle to open up the standard color picker.
+- Choose a color style from the document colors.
+- Enter a color code manually.
+
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> When you add a text layer on top of a layer, Lunacy automatically sets a text color that contrasts with the background to save you a couple of clicks.</p> </div>
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_color.png" height="auto"><source src="/public/text_change_font_color.mp4" type="video/mp4"></video>
+
+**See also:** 
+<br>
+<a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
+    
+### [Text layer resizing options](#resizing-options)
+These three buttons determine how text boxes change in size depending on the content:
+
+- **Horizontal resize**: The text box expands horizontally to fit the text content on a single line.
+- **Vertical resize**: The text box adjusts vertically to fit the text content, while the width of the text box remains unchanged.
+- **Fixed size**: In this mode, the size of the text box is fixed and does not adjust to fit the text content.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_resizing_options.png" height="auto"><source src="/public/text_resizing_options.mp4" type="video/mp4"></video>
+
+**Some notes:**
+- If you drag and shrink a text box around a single-line text, the resize mode will adjust automatically. Double-click on it to reset the box to horizontal resize mode and transform the multiline text into a single line again.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_single_line_resizing.png" height="auto"><source src="/public/text_single_line_resizing.mp4" type="video/mp4"></video>
+    
+- If your text box is larger than the text inside it, click on the text box borders to enable auto-resize mode and make the text box fit snugly around the text.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_double_click_to_resize.png" height="auto"><source src="/public/text_double_click_to_resize.mp4" type="video/mp4"></video>
+        
+### Text alignment
+
+Use these buttons to align text inside the text box or use these shortcuts:
+- `Ctrl + Alt + {` / `⌥ + ⌘ + {` — align text to the left
+- `Ctrl + Alt + }` / `⌥ + ⌘ + }` — align text to the right
+- `Ctrl + Alt + T` / `⌥ + ⌘ + T` — center text
+- `Ctrl + Alt + J` / `⌥ + ⌘ + J` — justify
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_aligning_text.png" height="auto"><source src="/public/text_aligning_text.mp4" type="video/mp4"></video>
+
+You can also align text within text boxes using the **alignment magnets** that appear around the text box when you select it. They combine the functions of text alignment and text position so you can position your text right on the canvas.
 
 
-For details about each group of settings, read the sections below.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_alignment_magnets.png" height="auto"><source src="/public/text_alignment_magnets.mp4" type="video/mp4"></video>
 
-### Font family
+If you want to hide the magnets, uncheck the **Text Alignment Magnets** option in the **View** section of the menu bar.
 
-The default font in Lunacy is Inter. To select another font:
 
-* If you know the name of the font you need, type it in the text field of the font picker.
+### Text position
 
-  OR
-* Expand the font family list and pick up the one you like.
+Adjust the position of text content within the text box:
+- Position text to the top border (default option)
+- Position text to the bottom border
+- Center the text within the layer
 
-![Font picker 1](public/text-fontlist-69.png)
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_position.png" height="auto"><source src="/public/text_position.mp4" type="video/mp4"></video>
 
-The top section of the font family list shows the three fonts that you've recently used.
-The three buttons at the top of the list allow you to quickly filter the content of the list:
+### Additional text options
 
-* **All**: Shows the full list of fonts.
-* **System**: Shows the list of fonts (TTF/OTF) installed on your computer.
-* **Google**: Shows the list of fonts available in the <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> library. You don't need to download them. Lunacy will do it automatically. Lunacy's integration with Google Fonts will solve most of your [problems with missing fonts](#missing-fonts).
+Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="12" /> in the **Text** section of the right panel to access additional text formatting options. They include:
 
-The list shows font names and their samples. If a font's name is too long and appears truncated, hover a cursor over the name to view the full name. When you hover the cursor over font samples, Lunacy will display their larger previews. Google fonts come without samples until used.  
+- **Transform options.** Choose the letter case for your text:
+    - **Aa**: Title Case 
+    - **AA**: UPPER CASE
+    - **aa**: lower case
+- **Decorations.** Apply underline or strikethrough effects.
+- **List type.** Choose from numbered or bullet point list styles.
+- **Features.** Add special features like subscript and superscript to your text.
 
-![Font picker 2](public/text-fontfam.gif)
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_additional_options.png" height="auto"><source src="/public/text_additional_options.mp4" type="video/mp4"></video>
 
-**Note**: You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts will include only those fonts that you have already used.
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> If you select several text layers, the <b>Selection fonts and colors</b> section in the right panel will display all the <b>fonts</b> and <b>colors</b> present in the selected layers, so you can adjust these properties for several texts at a time.</p>
+</div>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/layers/#selection-fonts-and-colors" target="_blank">Selection fonts and colors</a>
+
+
+## [Text generation](#text-generation)
+
+When you need to add placeholder text to your designs, there’s no need to leave the app to google them or think of anything yourself: Lunacy does the work for you. Generated texts include names, job titles, various types of contact information, headings and paragraphs, as well as over a dozen more options.
+
+To use text generation, activate the **Text tool** (`T`) and click on the canvas, then:
+
+- Choose one of the text generation options that appear in the dropdown menu below the cursor.
+
+    OR
+
+- Start typing the desired placeholder option (“name,” “paragraph,” “email,” etc.) and choose from the narrowed list of options. 
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_add_text_select.png" height="auto"><source src="/public/text_add_text_select.mp4" type="video/mp4"></video>
+
+When you click and drag to create a custom size text layer, Lunacy automatically fills the layer with placeholder texts. **Auto font size** sets the size of the text depending on the width and height of the text box: Lunacy guesses whether you’re creating a heading, paragraph, email field, and so on. You can either leave these texts or go ahead with your own options.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_add_text_drag.png" height="auto"><source src="/public/text_add_text_drag.mp4" type="video/mp4"></video>
+
+### Auto refresh
+
+To refresh the generated text, click <embed type="image/svg+xml" alt="Refresh/Normal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Wrpud5KNLUe9hzSDiwGnew.svg" width="16" /> or press `Shift + R`. 
+
+Also, anytime you copy a layer with generated text, a new generated placeholder will appear in the duplicate.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_auto_refresh.png" height="auto"><source src="/public/text_auto_refresh.mp4" type="video/mp4"></video>
+
+This happens due to **Auto Refresh**, which you can turn off by selecting **Detach from Generated Content** in the layer context menu or in the **Layer** > **Content Generation** section of the menu bar.
+
+Combine text generation with other handy Lunacy features, like the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a> and <a href="https://lunacy.docs.icons8.com/layers/#repeat-grid" target="_blank">Repeat grid</a> so your design process stays distraction-free:
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_avatar_text_repeat_grid.png" height="auto"><source src="/public/text_avatar_text_repeat_grid.mp4" type="video/mp4"></video>
+
+## Text styles and effects
+
+In addition to text settings, you can also apply standard layer effects to your text layers, including:
+
+- Fills
+- Borders
+- Shadows
+- Inner shadows
+- Blurs
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_adding_effects.png" height="auto"><source src="/public/text_adding_effects.mp4" type="video/mp4"></video>
+
+You can save combinations of layer effects and text settings as **text styles** which you can reuse across your document. Text styles appear alongside other layer styles in the dropdown menu of the **Style** section in the right panel.
+
+<div class="callout callout--info">
+     <p><strong>Note:</strong> When you edit a text layer that includes effects, Lunacy hides layer styling effects and will show them again once you finish and exit <b>Edit mode</b>. This makes it easier to edit heavily styled text layers, like the one below.</p>
+</div>
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_editing_text_with_effects.png" height="auto"><source src="/public/text_editing_text_with_effects.mp4" type="video/mp4"></video>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/styling/" target="_blank">Styling</a>
+<br>
+<a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
+
+## Text and shapes
+
+### Adding text to shapes
+
+You can add a perfectly centered text layer to a shape by selecting the shape, then pressing `T` to activate the text tool. Lunacy will group the shape and the resulting text layer. The text you enter in the layer will be in **Fixed size** mode, restricted by the borders.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_to_shape.png" height="auto"><source src="/public/text_to_shape.mp4" type="video/mp4"></video>
+
+This is useful for designing buttons, menus, and similar UI elements, especially when coupled with [text generation](#text-generation).
+
+### Converting text to outlines
+
+You can **convert text into outlines**, so that every letter becomes a vector shape:
+
+- Press `Ctrl + Shift + O` / `⌘ + Shift + O`.
+- Select **Outline stroke** on the context menu.
+- Select **Text** > **Convert to Outlines** on the menu bar.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_to_outlines.png" height="auto"><source src="/public/text_to_outlines.mp4" type="video/mp4"></video>
+
+<div class="callout callout--info">
+     <p><strong>Note:</strong> Keep in mind that text-to-outline operations are demanding for system resources. Attempts to convert large portions of text may slow Lunacy down.</p>
+</div>
+
+## More text options
 
 ### [Missing fonts](#missing-fonts)
 
-When you open a project received from your team or downloaded from the internet, Lunacy checks if all the required fonts are available on your computer. If some of them are missing but they are available in the Google fonts library, Lunacy will download and apply them, provided that your computer is connected to the internet. But if those fonts are not from the Google library:
+When you open a document, Lunacy checks whether all the required fonts are available on your computer. If some of them are missing but they are available in the Google Fonts library, Lunacy will download and apply them, provided your computer is connected to the internet.
 
-* The default Inter is applied to the text layers with missing fonts.
-* Upon selection of these layers, the name of the missing font appears in red in the font picker, as well as in the Layer list.
-* The missing fonts button appears on the top toolbar.
+If they aren’t part of Google Fonts, the missing fonts button (<embed type="image/svg+xml" alt="Subtract" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/kNCv3_mGnU2nETcTBVN0dg.svg" width="24" />) appears on the top bar. Lunacy renders the text layers using the default Inter font, and when you select these layers, the name of the missing font appears in red in the font menu.
 
-![Missing fonts 1](public/text-misfontbtn1.png)
+Click the missing fonts button to open up a dialog box with options to replace the missing fonts with alternatives so you can edit the layers.
 
-A click over the button invokes a dialog box where you can select replacements for the missing fonts.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_missing_fonts.png" height="auto"><source src="/public/text_missing_fonts.mp4" type="video/mp4"></video>
 
-![Missing fonts 2](public/text-misfontdialog.png)
+### [Fonts embedding](#fonts-embedding)
 
-### Font weight
+You can embed fonts into your document before sharing it with other people to ensure that the text layers will look exactly as you designed them, even on computers without the fonts used in the document.
 
-Each font family comes with different sets of weights (also known as font styles), which might include: Regular, Bold, Semibold, Italic, etc.
+To **embed fonts**:
 
-The text weight control allows you to select the required font weight. If a font has only one weight, the control appears disabled:
+1. Go to **Text > Fonts Embedding** on the menu bar.
+2. Select the required fonts and click **Embed fonts**.
 
-![Font weight control](public/text-bold8.png)
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_fonts_embedding.png" height="auto"><source src="/public/text_fonts_embedding.mp4" type="video/mp4"></video>
 
-Also, you can use standard text editor shortcuts:
+<div class="callout callout--info">
+     <p><strong>Note:</strong> By embedding a font, you confirm that you have a license allowing you to distribute the font.</p>
+</div>
 
-* `Ctrl+B`/`⌘ B` — **Bold**
-* `Ctrl+I`/`⌘ I` — *Italic*
-* `Ctrl+U`/`⌘ U` — <u>Underline</u>
+### [Working with emojis](#working-with-emojis)
 
-### Font color picker
+You can add emojis to text layers in any convenient way by using the emoji keyboard on your OS or pasting them into the text box. The emoji styles in Lunacy include Apple, Microsoft, and Noto style emojis. 
 
-This control is a standard <a href="https://lunacy.docs.icons8.com/styling/#color-picker" target="_blank">color picker</a> that lets you choose the required color:
+Switch through them by selecting **Text > Emoji Style** on the menu bar.
 
-1. From the color field.
-2. From preset colors.
+<embed type="image/svg+xml" alt="style_of_emojis" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/9xgNwMCTMUKVQ3ABwzuoAA.svg" width="844" /> 
 
-Also, you can manually enter the required color code (3).
 
-![Font color picker](public/text-colorpicker8.png)
-
-### Font size picker
-
-Use this control to define the required font size in pixels. You can do it by:
-
-* Selecting the required size from the list.
-* Entering the required value in the edit field.
-* Using the <a href="https://lunacy.docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">mouse wheel</a>.
-* Using the `Ctrl + Alt + "+"`/`⌥ ⌘ +` (increase) and `Ctrl + Alt + "-"`/`⌥ ⌘ -` (decrease) shortcuts.
-
-
-### Mixed font settings
-
-![Mixed settings](public/text-mixed.png)
-
-You can apply different font settings of the same type (fonts, colors, font sizes or weights) to a text within a layer. In such a case the respective controls in the Inspector will display *Mix*.
-
-### [Text alignment options](#text-alignment-options)
-
-![Alignment buttons](public/text-align.png)
-
-Use these buttons to align and justify the text inside the text box. Alternatively, you can use the following shortcuts:
-
-* `Ctrl + Alt + {`/`⌥ ⌘ {` — align text to the left.
-* `Ctrl + Alt + T`/`⌥ ⌘ T`— center text.
-* `Ctrl + Alt + }`/`⌥ ⌘ }` — align text to the right.
-* `Ctrl + Alt + J`/`⌥ ⌘ J` — justify.
-
-### Line, letter, and paragraph spacing
-
-![Spacing buttons](public/text-spacing1.png)
-
-Use these settings to adjust line, letter, and paragraph spacing. Their default values are set  *x*, *0*, and *0* respectively, where *x* depends on the selected font family, font weight, and size.
-
-The default line spacing appears in grey. When you change it, the figures in the box turn black. To restore the default value, delete the current value and press `Enter`.
-
-You can change spacing values in the following ways:
-
-* By entering the required values in the edit fields.
-* Using shortcuts:
-  * `Ctrl+Alt+>`/`⌥ ⌘ >` or `Ctrl+Alt+<`/`⌥ ⌘ <` — increase or decrease line spacing.
-  * `Ctrl+Shift+>`/`⌘ Shift >` or `Ctrl+Shift+<`/`⌘ Shift <` — increase or decrease letter spacing.
-  * There is no shortcut for paragraph spacing.
-* By using the mouse wheel or dragging the mouse up and down as shown below.
-
-<!--
-In the latter case:
-
-1. Hover the cursor over an edit field and wait a moment until the cursor turns into a double-headed arrow.
-2. Hold-down the left mouse button and move the mouse up to increase or down to decrease spacing (see the gif below).
--->
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-spacing.mp4" type="video/mp4"></video>
-
-**See also:** <a href="https://lunacy.docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">Tips on working with the Inspector</a>.
-
-<!--
-
-![Using mouse for spacing](public/text-spacing.gif)
-
--->
-
-### [Text block resize options](#text-block-resize-options)
-
-![Resize buttons](public/text-rezisebtn.png)
-
-These three buttons determine the behavior of text boxes depending on the size of the content.
-
-1. **Horizontal resize**: In this mode, the text box expands horizontally as wide as it is required to fit all the content on a single line.
-2. **Vertical resize**: In this mode, the text box adjusts vertically to fit all the content while the width of the box remains unchanged.
-3. **Fixed size**: In this mode, the size of the text box is fixed and, unlike in the above two modes, does not adjust to fit the content.
-
-You might also find handy the auto-resize feature: double-click the borders of a text box to make it fit the text (see the demo below).
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-autoresizeph.png" height="auto"><source src="/public/text-autoresize.mp4" type="video/mp4"></video>
-
-Note that a double-click over the right or left border sets the text box to the *horizontal resize mode* and transforms a multiline text into a single line.
-
-### [Position alignment](#position-alignment)
-
-![Position alignment buttons](public/text-aligncell.png)
-
-Use these three buttons to adjust the position of text content within the text box:
-
-* Align to the top border of the text box (default).
-* Center text horizontally and vertically within the text box.
-* Align text to the bottom border of the text box.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-aligncellph.png" height="auto"><source src="/public/text-aligncell.mp4" type="video/mp4"></video>
-
-
-### Text alignment magnets
-
-You can also align text within text boxes using the alignment magnets that appear around the text box when you select it. They combine the functions of the [text alignment](#text-alignment-options) and [position alignment](#position-alignment) controls. The demo below shows how this nice feature works.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-magnetsph.png" height="auto"><source src="/public/text-magnets.mp4" type="video/mp4"></video>
-
-To disable the display of magnets, go to the **View** menu and uncheck the **Text Alignment Magnets** option.
-
-### [Advanced text options](#advanced-text-options)
-
-To open the panel of advanced text options, click the settings button at the top left corner of the **Text** section.
-
-![Advanced text options](public/text-advtyp.png).
-
-The panel features the following:
-
-* Letter case options:
-
-  * **Aa**: Sentence Case (First Letter Uppercase And The Rest Lowercase).
-  * **AA**: ALL UPPERCASE.
-  * **aa**: all lower case.
-
-* Underline and strikethrough options.
-* Numbered and bulleted lists.
-* Superscript and subscript
-
-## Common layer effects
-
-In addition to text settings, you can also apply common, non-text, styling effects to text layers which include:
-
-* Fills
-* Borders
-* Shadows
-* Inner shadows
-* Blurs
-
-All these settings appear in the Inspector, below the **Text** section.
-
-![Common layer settings](public/text-allsettings.png).
-
-Combinations of layer styling effects and text settings make up text styles. You can save text styles to the document assets and <a href="https://lunacy.docs.icons8.com/layerstyles/#text-styles" target="_blank">reuse</a> them across your project. Also,you can find your recent text styles on the floating panel (see below).
-
->**Note:** When you edit a text whose style includes both text and common layer settings, Lunacy hides layer styling effects and shows them back once you exit the edit mode. This is for the ease of editing heavily styled texts (see the gif below).
-
-![Hiding common layer effects](public/text-effectsno.gif)
-
-More about <a href="https://lunacy.docs.icons8.com/styling/" target="_blank">styling properties</a>.
-
-<!--
-## [Suggestions panel](#suggestions-panel)
-
-The suggestions panel appears when you select a text. It displays suggestions of styling options based on your previous actions and choices. In case you've just started using Lunacy, the panel will provide some preset styles.
-
-Also, the list of suggested options depends on the background: Lunacy excludes options that would be scarcely visible against the current background.
-
-A view of the panel is shown in the figure below.
-
-![Suggestions panel](public/suggtext-view.png)
-
-It features a set of independently scrollable columns (except for the font size) that include:
-
-* **Text styles** (1). Each style is a combination of two or more text and styling options (font, font size, shadow, etc.).
-* **Font size** (2). A collection of recently used font sizes. If you don't see the required value, double-click over any of the values, type the required one and press `Enter` to submit.
-* **Text color** (3). A collection of text colors.  If you don't see the required color, double-click over any of the suggested colors. It opens the Color Picker where you can select a color of your choice.
-* **Font style** (4). Includes such options as bold, italic, underline, strikethrough, superscript and subscript. Unlike the other columns, the content of this column does not change.
-* **Font family** (5). A collection of recently used fonts.
-* **Text Background**. Disabled by default. Sets the color of the object overlapped by at least of 50% percent of the text box. A double-click over any of the suggested colors opens the Color Picker where you can select a color of your choice.
-
-### Changing the position of the panel
-
-If you want to change the position of the suggestions panel, click the handle at the top-left corner of the panel and drag it up or down. Lunacy remembers the position of the panel individually for each text object.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/suggtext-positionph.png" height="auto"><source src="/public/suggtext-position.mp4" type="video/mp4"></video>
-
-### Resizing the panel
-
-You can resize the panel to your liking by dragging its lower and right borders. Note that dragging by the right border extends the right-most column, while dragging by the lower-right corner of the panel extends the left-most column of the panel.
-
-To change the size of other columns, hover the cursor between two columns and drag to the right or left when the cursor turns into a double-headed arrow (see the demo below).
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/suggtext-resizeph.png" height="auto"><source src="/public/suggtext-resize.mp4" type="video/mp4"></video>
-
-### Managing the content of the panel
-
-A right-click over the suggestions panel invokes a context menu that allows you to:
-
-* Pin your favorite items to the top of the list. Pinned items appear with a dark triangle at the lower left corner.
-* Delete items that you no longer need or will never use. For this, use the **Don't show this again** command.
-* Hide/show some of the columns by clearing/selecting the respective option on the menu (see the figure below).
-
-![Managing the content of the panel](public/sugg-menu.png)
-
-### Disabling the panel
-
-To disable the suggestions panel, use the `Ctrl+Space` shortcut or click the bulb button on the action bar (see the figure below).
-
-![Disabling the suggestions panel](public/sugg-disable1.png)
-
-Also, you can unselect the **Suggestions** option in the **View** menu.
-
-![Disabling the suggestions panel](public/sugg-disable.png)
-
--->
-
-## [Converting text to vector shapes](#converting-text-to-vector-shapes)
-
-Lunacy enables you to convert text layers into vector shapes.
-
-For this:
-
-1. Select a text layer and click **Text** on the menu bar or left-click over a text layer to invoke the context menu.
-2. On the displayed menu, select **Convert to Outlines**. Lunacy will convert letters into a group of vector shapes, which will appear in the Layer List.
-
-Alternatively, you can use the `Ctrl+Shift+O`/`⌘ Shift O` shortcut.
-
-![Converting text to vectors](public/text-texttovector.gif)
-
-**Note**: Remember that the text-to-vector operation is demanding in terms of system resources. Attempts to convert large portions of text can seriously slow Lunacy down .
-
-## [Text generation and text snippets](#text-generation-and-text-snippets)
-
-Lunacy has a nice text generation feature that solves the headache of picking up texts for your prototypes. It works both for large text blocks and short text instances such as people names, mail and email addresses, phone numbers, etc.
-
-When you add a text block using the click-and-drag method, Lunacy automatically inserts a random text which fits or slightly exceeds the block size. If you don't like the generated text you can refresh it.
-
-For this:
-
-1. Select the text layer.
-2. Click the **Generate text** button in the Inspector until you get the text that you find acceptable. Alternatively, you can use the `Shift+R` shortcut to refresh the content.
-
-![Generate text buttons](public/text-textgen8.png)
-
-To generate such texts as names, addresses, etc., proceed as follows.
-
-**Way 1. Selecting from the menu**
-
-1. Select the required text block.
-2. In the Inspector, click the down arrowhead next to the **Generate text** button. A menu with text categories appears.
-3. Use the menu to select the required content. If necessary, use the `Shift + R` shortcut or the **Generate text** button to refresh generated content.
-
-![Generate text menu](public/text-textgenmenu8.png)
-
-The **Auto Refresh** option on the menu enables/disables text generation in duplicated text blocks. With this option selected, when you  duplicate a text block with an autogenerated text, the new block will contain a new text.  
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text-refreshph.png" height="auto"><source src="/public/text-refresh.mp4" type="video/mp4"></video>
-
-<!--
-
-![Auto refresh](public/text-autogen2.gif)
-
--->
-
-
-
-**Way 2. Using text snippets**
-
-In Lunacy, text snippets are short commands for generation of specific texts. Snippets always begin with a semicolon (;) followed by a full or short form of the command. For instance, to generate an email address, you should type *;email* or *;em*. To generate a credit card number, type *;creditcard* or *;cr*, and so on. You can always look up the list of snippets on the menu with text categories (see the figure in *Way 1*) or in the shortcuts panel.
-
-1. Select the required text block.
-2. Press `Enter` or click the **Edit Layer** button on the top bar to enable the edit mode.
-3. Enter the required snippet and and press `Esc`. Use the `Shift + R` shortcut to refresh generated content, if needed.
-
-![Using snippets](public/text-snippets2.gif)
-
-## Fonts Embedding
-
-You can embed fonts into your document before sharing it with other people. This ensures that text layers will look exactly as you designed them everywhere even if a computer doesn't have all the right fonts.
-
-To use this feature, click **Text > Fonts Embedding** on the menu bar. In the displayed dialog box, select the required fonts and click the **Embed fonts** button.
-
-![Fonts Embedding](/public/rn-fontsembed.png)
-
-
-**Note:** By embedding a font you confirm that you have a proper license that allows you to distribute the font.
 

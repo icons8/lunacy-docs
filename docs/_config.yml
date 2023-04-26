@@ -53,6 +53,8 @@ doks:
       url: '/subscriptions'
     - title: 'FAQs'
       url: '/faq'
+    - title: 'Troubleshooting'
+      url: '/troubleshooting'
     - title: 'Contacts'
       url: '/contact'
     - title: 'Release History'

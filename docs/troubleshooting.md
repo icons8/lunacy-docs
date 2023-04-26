@@ -22,35 +22,30 @@ page_nav:
         url: '/faq'
 ---
 
-If you run into a problem, check out the list of possible fixes in the <a href="https://lunacy.docs.icons8.com/faq/#questions-about-possible-issues" target="_blank">FAQ page</a>. 
+If you run into a problem with Lunacy, don't panic. First of all, make sure that your OS and video card drivers are up-to-date. Faulty drivers or unstable/insider OS builds can also cause problems. Check out the list of possible fixes for common issues in the <a href="https://lunacy.docs.icons8.com/faq/#questions-about-possible-issues" target="_blank">FAQ page</a>. 
 
-If that doesn't help or your issue isn't listed, you can report the problem to our suppport team through our **feedback form**: 
+If that doesn't help or your problem isn't in the list, you can send an error to our suppport team through our **feedback form**: 
 
 1. In Lunacy, select **Help → Report an issue**. 
 2. Describe the problem and attach any screenshots, files, or the malfunctioning document.
 
-If Lunacy isn’t opening, leave a post on our <a href="https://community.icons8.com/" target="_blank">Community Support</a> board or reach out to us through <a href="https://lunacy.docs.icons8.com/contact/#our-socials" target="_blank">our socials</a>.
+If Lunacy isn’t opening, message us through the support chat on <a href="https://icons8.com/" target="_blank">our website</a>, leave a post on our <a href="https://community.icons8.com/" target="_blank">Community Support</a> board, or reach out to us through <a href="https://lunacy.docs.icons8.com/contact/#our-socials" target="_blank">our socials</a>.
 
 Our support team may need additional information in order to pin down the issue. In the case of a crash or freeze event, memory dump files are extremely helpful. This section goes over how to find them on different operating systems.
 
-## Important notes
+### Important notes
 
-### Archiving memory dump files
+#### Archiving memory dump files
 
 Please **archive all dump files** before you send them to us. They may end up several GBs in size and placing them into a `.zip` archive reduces the size significantly. This also means you can upload and send over the files to us much faster. 
 
-### Privacy and security
+#### Privacy and security
 
 If you’re worried about the safety of any secret or sensitive information contained in memory dump files, avoid uploading the archive to unsafe servers and cloud storages:
 
 1. Make sure to upload them to **trusted, secure cloud storages**.
 2. Send us a **one-time download link** for the file. 
 3. Once our team notifies you that we’ve received the file, feel free to **delete it from the cloud**. 
-
-### Hardware and other issues
-
- Sometimes, a particular issue might persist after Lunacy Support analyzes all relevant memory dump files. Such problems may result from a specific driver and/or hardware problem on your computer, unstable/insider OS builds, and so on. Check out the recommendations for these cases in the <a href="https://lunacy.docs.icons8.com/faq/#lunacy-wont-start-what-do-i-do" target="_blank">FAQ page</a>.
- 
 
 ## Windows
 
@@ -65,13 +60,12 @@ If Lunacy crashes or freezes, the app logs will help us investigate the issue. B
 
 ### Crash Dumps
 
-In some cases, the log files won’t show any errors, but a crash dump will.
-By default, these files are here:  `C:\\Users\\<user>AppData\\Local\\CrashDumps` 
+In some cases, the log files won’t show any errors, but crash dump files will. By default, these files are here:  `C:\\Users\\<user>AppData\\Local\\CrashDumps` 
 
 Just as with the log file:
 
 1. Find the last saved crash dump and archive it.
-2. Attach it to your crash report.
+2. Attach it to your error report.
 
 ### Full Crash Dumps
 
