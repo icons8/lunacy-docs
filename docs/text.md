@@ -28,9 +28,7 @@ This section describes how to add and modify text layers in Lunacy, and how to u
 
 To **add a text layer**, press `T` or select <embed type="image/svg+xml" alt="Union 2" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/hfMjzS0lpUy6zmVsPVMJdg.svg" width="12" /> on the toolbar to activate the **Text tool**, then:
 
-- **Click anywhere on the canvas** to place the text layer. You can either type your own text or use the generated text options that appear in the dropdown menu as you create the layer.
-
-    Lunacy applies [horizontal resize mode](#resizing-options) to text added this way.
+- **Click anywhere on the canvas** to place the text layer. You can either type your own text or use the generated text options that appear in the dropdown menu as you create the layer. Lunacy applies [horizontal resize mode](#resizing-options) to text added this way.
     
     OR 
 - **Click and drag** to place a text layer with your custom size. Placeholder texts will appear inside the layer you’re creating, with their font size set automatically.
@@ -154,7 +152,7 @@ Use this field to **change the text color**:
 <br>
 <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
     
-### [Text layer resizing options](#resizing-options)
+### [Resizing options](#resizing-options)
 These three buttons determine how text boxes change in size depending on the content:
 
 - **Horizontal resize**: The text box expands horizontally to fit the text content on a single line.
