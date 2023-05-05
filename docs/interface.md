@@ -234,7 +234,7 @@ To **create a new document**, use any of the following ways depending on the doc
 | On the Home Tab, click | **New Document** | **New Cloud Document** |
 | On the menu bar, select | **File** > **New Document** | **File** > **New Cloud Document** |
 | Anywhere in Lunacy, press | `Ctrl + N` / `⌘ + N` | `Ctrl + Shift + N` / `⌘ + Shift + N` |
-| Anywhere in Lunacy, click | `+` on the right of the document tabs at the top of the screen |
+| At the top of the screen, click | `+` (on the right of the document tabs) |
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> Find out more about <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">local and cloud documents</a>.</p>
