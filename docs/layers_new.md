@@ -275,7 +275,7 @@ Various copy/paste options are also available on the context menu:
 | Paste over     | - | Pastes the content of the clipboard over the selected layer. |
 | Copy as Text   | - | Only available for text layers. Copies only the text content of the layer, excluding its properties.   |
 | Copy as CSS/SVG/XAML/PNG     | - | These options allow you to copy the code of the selected layer in the required format.   |
-| Copy style/Paste style| `Ctrl + Alt + C` / `⌘ + ⌥ + C` and `Ctrl + Alt + V` / `⌘ + ⌥ + V`     |  These options allow you to copy the style of the selected layer and apply them to another layer. |  
+| Copy style/Paste style| `Ctrl + Alt + C` / `⌘ + ⌥ + C`<br>`Ctrl + Alt + V` / `⌘ + ⌥ + V`     |  These options allow you to copy the style of the selected layer and apply them to another layer. |  
 | Export as PNG to cloud, Copy URL    | `Alt + C` / `⌥ + C` | Exports the selection to the Icons8 cloud and copies the link to your clipboard. You can share the link to your design with other people. |
 
 ### [Arranging layers](#arranging-layers)
