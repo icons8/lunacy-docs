@@ -405,7 +405,7 @@ There are several ways to resize a layer:
 - [Dragging its selection handles](#resizing-by-dragging-selection-handles)
 - [Using arrow keys](#resizing-using-arrow-keys)
 - [Changing right panel properties](#resizing-by-adjusting-right-panel-properties)
-- [Scaling it](#scaling-layers)
+- [With the Scale tool](#scaling-layers)
 
 #### [Resizing by dragging selection handles](#resizing-by-dragging-selection-handles)
 
