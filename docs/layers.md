@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Layers
-description: Learn about basic operations with layers in Lunacy
+description: Learn how to work with different types of layers in Lunacy
 icon: 'ungroup-objects'
 
 # Micro navigation
@@ -22,10 +22,9 @@ page_nav:
         url: '/tools'
 ---
 
-## Introduction
+A **layer** is any element you see on the canvas.
 
-In Lunacy you will work with the following types of layers:
-
+There are several types of layers in Lunacy:
 * <a href="https://lunacy.docs.icons8.com/interface/#frames" target="_blank">Frames</a>
 * <a href="https://lunacy.docs.icons8.com/text/" target="_blank">Text layers</a>
 * <a href="https://lunacy.docs.icons8.com/tools/#pen-tool" target="_blank">Vectors</a>
@@ -36,392 +35,423 @@ In Lunacy you will work with the following types of layers:
 * <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspots</a> 
 * <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slices</a> 
 
-For specifics on working with each type of layers, follow the above links. This section provides an overview of basic operations common for all layer types.
+Follow the links above to learn how to work with specific layers in detail. In this section, we’ll go over the basics: how to create, edit, and organize layers on the canvas and the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>.
 
 ## Adding layers
 
-To add a layer to the canvas:
+**Add layers** to the canvas using the corresponding tools on the toolbar:
 
-1. Enable the respective <a href="https://lunacy.docs.icons8.com/tools" target="_blank">tool</a> on the toolbar or with a shortcut (see the note below).
-2. Click or click and drag over the area where you want to place the layer.
+<embed type="image/svg+xml" alt="lunacy_toolbar Copy" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/on88vuNDlEGTTKZXKd1qTA.svg" width="844" /> 
 
-If you need to create a regular shape (for example, a circle or a square), hold down `Shift` while dragging.
+For most of the tools (except for the <a href="https://lunacy.docs.icons8.com/tools/#select-tool" target="_blank">Select</a>, <a href="https://lunacy.docs.icons8.com/tools/#hand-tool" target="_blank">Hand</a>, <a href="https://lunacy.docs.icons8.com/tools/#eyedropper-tool" target="_blank">Eyedropper</a>, and <a href="https://lunacy.docs.icons8.com/tools/#comment-tool" target="_blank">Comment</a> tools), all you need to do is:
 
-That is the most common method used in all similar applications. When you use it, the point from where you start dragging becomes an angle of the shape, if it is a rectangle, or an angle of its selection frame, if it is anything else. If you want the starting point to become the center of the shape, hold down `Alt` while dragging and `Alt + Shift` to get a regular shape (see the demo below).
+1. Enable them (use shortcuts for a faster workflow). 
+2. **Click** or **click and drag** on the canvas to add the respective layer. 
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-addingplaceholder.png" height="auto"><source src="/public/objects-adding.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_tools_demo.png" height="auto"><source src="/public/layers_tools_demo.mp4" type="video/mp4"></video>
 
-**Note:** To check out the shortcuts available in Lunacy, click the **Keyboard Shortcuts** button at the lower-left corner of the interface (this will open the shortcuts panel in Lunacy) or read <a href="https://lunacy.docs.icons8.com/shortcuts/" target="_blank">here</a>.
+Note the different icons these layers have before their titles in the Layer list.
 
-![Adding text](public/objects-kbdshotcuts1.png)
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/tools" target="_blank">Tools</a>
 
-{:.image-info}
-The Keyboard Shortcuts button
+### [Layer properties](#layer-properties)
 
-## Selecting layers
+The properties displayed in the <a href="https://lunacy.docs.icons8.com/interface/#the-right-panel" target="_blank">right panel</a> when a layer is selected depend on the type of layer. The ones listed below are universal for almost all layer types:
 
-There are two ways to select layers in Lunacy.
+| Right panel properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |   
+|---------------------------------------------------|-------------------------------------------------------|
+| <embed type="image/svg+xml" alt="alignment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DmwgUeA720CJZI1lz-PJ9w.svg" width="500" />  | **Alignment and distribution controls** appear when you select two or more layers. |
+|  <embed type="image/svg+xml" alt="layer_position_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/s3beB96toEGEkauAALbBGA.svg" width="500" />  |  **Layer size and position.** Change the size of your layers and their position on the canvas. Use the buttons next to the position controls to flip your images and toggle the lock button on and off to preserve aspect ratio when resizing.  Controls vary depending on the selected layer.   |
+| <embed type="image/svg+xml" alt="rotate_corner" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/EWKB-3JAmEWF1tsSA8CWHw.svg" width="500" />  | **Rotation and corner radius.** Rotate your layers and change their corner radius properties. |
+| <embed type="image/svg+xml" alt="component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kv1070nxoEG0xJn6p3EqCQ.svg" width="500" /> |   **Component options.** Use this section to manage <a href="https://lunacy.docs.icons8.com/components/">components</a>. Create new component states, switch between them, and detach instances from main components.  |
+|  <embed type="image/svg+xml" alt="style_section" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/M7sKosLblUis17slSInjjg.svg" width="500" />     |   The   **Style** section displays the styles applied to your layer (text styles, color styles, effect styles, etc.)  You can add styles from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits">UI kits</a>, create your own, and detach layers from applied styles. |
+|  <embed type="image/svg+xml" alt="opacity_blend" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jU4eHkw6H0aRu54WtjdtlQ.svg" width="500" />   |   **Opacity and blend mode settings.** Set the overall opacity of a layer and its blending mode.   |
+|  <embed type="image/svg+xml" alt="fills" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fIXEmqXID02zbOWgEcQtOA.svg" width="500" />   |   **Fills.**  Change the color of your layer.  |
+|  <embed type="image/svg+xml" alt="borders" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hCg84E6xQ02xJxqoFK17hg.svg" width="500" />   |   **Borders.**  Add borders to your layers. |
+|  <embed type="image/svg+xml" alt="effects" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/UmOMNRV4XESuD2JDMXvi6Q.svg" width="500" />   |     **Effects.**  Add effects (shadows, blurs) to your layers. |
+|  <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NJc1I6eaxk21Auc91YH7XA.svg" width="500" />   |   **Prototyping.**   Activate prototyping options and turn your static designs into interactive prototypes. Here's <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">how it works</a>. |
+| <embed type="image/svg+xml" alt="selection_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/-zycpFIau0603lT5epFZFQ.svg" width="500" />  |     **Selection properties.**  Shows the colors and fonts used in selected layers. |
 
-**Way 1. Selecting layers in the Layer List**
+### Locking and hiding layers
 
-To select an Layers through the **Layer List**, just find it in the list of layers and click it. To select multiple layers press down `Shift` or `Ctrl` while clicking.  
+**Lock layers** to protect them from accidental edits using the `Ctrl + Shift + L` / `⌘ + Shift + L` shortcuts.
 
-**Way 2. Selecting layers on the canvas**
+To **hide a layer** from the canvas, press `Ctrl + Shift + H` / `⌘ + Shift + H`.
 
-To select a layer, use the select tool which gets enabled when no other tool is active. Just click the layer or click and drag over it.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_lock_hide.png" height="auto"><source src="/public/layers_lock_hide.mp4" type="video/mp4"></video>
 
-To select multiple layers, hold down the `Shift` key and click the layers you want to select. Also, you can click and drag over these layers.
+## [Frames](#frames)
 
-When you click or drag over a group of layers, you select the group. To select a certain layer within a group:
+**Frames** are special types of layers that work like containers for your designs.
 
-* Hold down the `Ctrl` key and click over the required layer.
-  
-  OR
-  
-* Click to select the group, then double-click to select the layer.
+Using frames is optional, but they come in handy when you’re designing for a specific screen size or device, and they are a must for <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">prototyping</a>. 
 
-After you select an layer within a group, you can switch to other layer of that group by simply clicking them.
+This is how frames appear in the **Layer list**:
 
-To quickly select all layers on the canvas, use the `Ctrl+A` shortcut.
+<embed type="image/svg+xml" alt="frames_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2DFQ_UkoJE-xNA5RZ63EXA.svg" width=844 /> 
 
-For details about using the select tool and a demo, click <a href="https://lunacy.docs.icons8.com/tools/#select-tool" target="_blank">here</a>.
+### Adding frames
 
-### [Selection fonts and colors](#selection-fonts-colors)
+To **create a frame**:
 
-When you select two or more layers, the right panel displays all of the fonts and colors used in those layers in the right panel. This way, you can quickly switch fonts and colors for several layers at a time. 
+1. Press `A` or select the **Frame tool** on the toolbar.
+2. **Click and drag** to add a custom frame or **choose a preset** from the right panel. The list features presets for popular devices, screen resolutions, and social media templates.
+
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> When you're creating a frame on the canvas, blue <code>+</code> signs will appear around the borders, indicating pre-existing presets. Drag the corner of the frame you're creating to a <code>+</code> to snap it to a preset (the name of the preset will appear in the Layer list). To hide the + signs, hold down <code>Ctrl</code> / <code>⌘</code>.</p>
+</div>
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_adding_frames.png" height="auto"><source src="/public/layers_adding_frames.mp4" type="video/mp4"></video>
+
+You can place layers inside frames by:
+
+- Selecting one or several layers and pressing `Ctrl + Alt + G` / `⌘ + ⌥ + G`.
+- Drawing a frame over them.
+
+To **remove a frame**, use the ungroup shortcut: `Ctrl + Shift + G` / `⌘ + Shift + G`.
+
+Check out the <a href="https://lunacy.docs.icons8.com/shortcuts/" target="_blank">full list of handy Lunacy shortcuts</a>.
+
+#### Custom presets
+
+You can also a **add custom presets** to this list:
+
+1. Select the custom frame.
+2. Click the **Create Frame Preset** button in the Preset size and orientation section.
+3. Name the preset and press `Enter`.
+
+<embed type="image/svg+xml" alt="custom_frame" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/oSB3aZSbokmkFORi-TWUtw.svg" width=844 />
+
+From now on, the custom frame preset will appear at the bottom of the preset list in the right panel.
+
+### Frame properties
+
+Right panel properties for frames are more or less identical to [layer properties](#layer-properties), except frames don’t have Style and Prototyping options.
+
+They also have these additional properties:
+
+| Right panel properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Description |   
+|--------------------------------------------------------------------|--------------------------------------------------------------------|
+|  <embed type="image/svg+xml" alt="frame_preset_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/AQrMrq0BdkG833S3rs16TQ.svg" width="500" />  |  **Frame preset, size, and position.** The same options as for layers. You can also change your frame size preset.  |
+|  <embed type="image/svg+xml" alt="clip_content" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jz6OnY46_Uy-ATZtsevRLA.svg" width="500" />  |     **Clip content.**  Select this checkbox to hide content outside of the frame boundaries. |
+|   <embed type="image/svg+xml" alt="autolayout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VVkJQG7mZESrsh2vQBoruA.svg" width="500" />   |   **Auto layout.**  A set of parameters for configuring <a href="https://lunacy.docs.icons8.com/autolayout/" target="_blank">auto layouts</a>. |
+|  <embed type="image/svg+xml" alt="frame_color_adjust" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZWhmOvSgV0Wn2tLg80A-Ug.svg" width="500" />    |     **Background color and content behavior.** Change the frame background and choose whether its content changes as you resize it. |
+|  <embed type="image/svg+xml" alt="layout_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9-2Cn2UMuU-1oe_XPYabqQ.svg" width="500" /> |     **Layout grid.**  Add a <a href="https://lunacy.docs.icons8.com/basics/#layout-grid" target="_blank">layout grid</a> to the frame.|
+| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/15ZcB9kEdkmu1y7FAZHefQ.svg" width="500" />  |     **Grid.**  Add a <a href="https://lunacy.docs.icons8.com/basics/#square-grid" target="_blank">square grid</a> to the frame. |
+
+
+## [Working with layers](#working-with-layers)
+
+This section covers basic operations with layers, including [selecting](#selecting-layers), [grouping](#grouping-layers), [duplicating](#duplicating-layers), [arranging](#arranging-layers), [moving](#moving-layers), and [resizing](#resizing-layers) layers.
+
+### [Selecting layers](#selecting-layers)
+
+You can **select layers** in the **Layer list** or directly on the canvas.
+
+To **select a layer on the canvas**, click on it when the **Select tool** (`V`) is active. Hold `Shift` to select several layers. You can also drag to create a selection around one or several layers.
+
+Clicking on a [group of layers](#grouping-layers) selects the entire group. To select individual layers inside it, hold down `Ctrl` / `⌘` as you click, or first click to select the group, then double click to select the layer. Read more about [groups](#grouping-layers) below. 
+
+To **select all layers** on the canvas (except for locked layers), press `Ctrl + A` / `⌘ + A`.
+
+To **select a layer in the Layer list**, find it in the list and click on it.
+
+Hold down `Shift` or `Ctrl` / `⌘` to **select multiple layers**.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_selecting.png" height="auto"><source src="/public/layers_selecting.mp4" type="video/mp4"></video>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/tools/#select-tool" target="_blank">Select tool</a>
+
+#### [Selection fonts and colors](#selection-fonts-and-colors)
+
+When you select two or more layers, the right panel displays all of the **fonts and colors** used in those layers in the right panel. This way, you can quickly switch fonts and colors for several layers at a time.
 
 <embed type="image/svg+xml" alt="selection_fonts_colors" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/SOMTdAZ_10CZcQAHxB9snA.svg" width="844" /> 
 
-Click the target icon (<embed type="image/svg+xml" alt="Vector 2" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/oXeqn7keHUWVaWWBnC9dyg.svg" width="24" />) next to a property to select just the layers using this color/font.
+Click the target icon (<embed type="image/svg+xml" alt="Vector 2" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/oXeqn7keHUWVaWWBnC9dyg.svg" width="16" />) next to a property to select just the layers using this color/font.
 
-## Moving layers
+### [Grouping layers](#grouping-layers)
 
-To move a layer, just click and drag it. Make sure that the cursor is over the layer rather than over the empty space within the layer bounding box.
+You can combine multiple layers together in a **group**. You can then modify the group and resize it along with the elements it contains.
 
-If you want to restrict movement to the X or Y axis, hold down `Shift` as you drag.
+[Frames](#frames) are more versatile, but groups are also a great way to organize the **Layer list**, which can include hundreds of items or more in some projects. You can **nest groups** in other groups or inside frames in whatever way is most convenient to you.
 
-For precise positioning you can use the arrow keys. Each keystroke moves a layer by one pixel. Holding down `Shift` increases each step to 10 pixels (see also the <a href="https://lunacy.docs.icons8.com/interface/#measuring" target="_blank">Measuring</a> section).
+To **create a group**, select two or more layers and press `Ctrl + G` / `⌘ + G` or click the **Group** button (<embed type="image/svg+xml" alt="group_button" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/5r_SYxtNb0W0vCtkeKg73w.svg" width="16"/>) on the **context toolbar** at the top of the canvas.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-movingplaceholder.png" height="auto"><source src="/public/objects-moving.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_grouping.png" height="auto"><source src="/public/layers_grouping.mp4" type="video/mp4"></video>
 
-Also, to adjust an layer's position on the canvas or frame, you can use the **X** and **Y** controls in the Inspector. If a layer is on the canvas, the figures in the **X** and **Y** fields show the absolute coordinates of the layers's top-left selection handle.
+To **select a layer inside** a group:
 
-If the layer is a part of a frame, **X** and **Y**  display the coordinates of the layer's top-left selection handle relative to the frame's top-left corner. See the demo below and the <a href="https://lunacy.docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">tips</a> on working with numeric fields in the Inspector.
+- Hold down the `Ctrl` key and click the required layer.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-moving1placeholder.png" height="auto"><source src="/public/objects-moving1.mp4" type="video/mp4"></video>
+    OR
 
-## Grouping layers
+- Click to select the group, then double click to select the layer.
 
-You can combine together multiple layers relating to the same design element and then move and resize them as a single layer. Also, layer grouping is a way to organize your **Layer List**, which in some projects can include hundreds of items or more. For this, you can create nested layer groups within other groups.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_grouping_selecting.png" height="auto"><source src="/public/layers_grouping_selecting.mp4" type="video/mp4"></video>
 
-To create a group, select the layers that you want to group and click the **Group** button (![Group button](public/objects-groupbutton.png)) on the context toolbar or press `Ctrl+G`.
+After you select a layer within a group, you can switch to other layers of that group simply by clicking them. 
 
-To select a certain layer within the group:
+If needed, you can also enable the **Select group's content on click** option in the right panel, so a click over a group automatically selects the layers inside it.
 
-* Hold down the `Ctrl` key and click over the required layer.
-  
-  OR
-* Click to select the group, then double-click to select the layer.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_select_content_on_click.png" height="auto"><source src="/public/layers_select_content_on_click.mp4" type="video/mp4"></video>
 
-After you select an layer within a group, you can switch to other layers of that group by simply clicking them. Alternatively, you can select layers through the **Layer List**. In some cases it may be more convenient. For instance, when handling fully overlapping layers.
+Alternatively, you can select layers inside groups through the **Layer list**, which may be more convenient in some cases (for example, when handling fully overlapping layers).
 
-You can move layers into or out of a group by dragging them in the **Layer List**.
+You can **move layers into or out of a group** by dragging them in the Layer list.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-groupingplaceholder.png" height="auto"><source src="/public/objects-grouping.mp4" type="video/mp4"></video>
+To **ungroup layers**, select the group and press `Ctrl + Shift + G` / `⌘ + Shift + G` or click the Ungroup (<embed type="image/svg+xml" alt="ungroup_button" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/AGCFPZ8tpUeYoHbgEWlT_Q.svg" width="16" />) button on the **context toolbar**.
 
-To ungroup layers, select the group and click the **Ungroup** button (![Ungroup button](public/objects-ungroupbutton.png)) on the context toolbar or press `Ctrl+Shift+G`.
+### [Duplicating layers](#duplicating-layers)
 
-## Duplicating layers
+To **duplicate a layer**:
 
-To duplicate an layer, select it and press `Ctrl + D`. Alternatively, you can hold down `Alt`, select the layer and drag to where you want to place the duplicate.
+- Select it and press `Ctrl + D` / `⌘ + D`.
+    
+    OR
 
-Lunacy remembers the offset of the latest duplicate. So, if you press `Ctrl + D` shortly after you create a duplicate of an layer, Lunacy will add another duplicate with the same offset as the previous one (see the demo below).
+- Hold down `Alt`, select the layer, and drag to where you want to place the copy.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-duplicateplaceholder.png" height="auto"><source src="/public/objects-duplicate.mp4" type="video/mp4"></video>
 
-And of course, you can use the **Duplicate** command and standard **Copy** and **Paste** options available on the context menu.
+You can also use the standard `Ctrl` / `⌘` + `C` / `V` shortcuts, but in this case, the layer copies will appear right on top of the original.
 
-If you have generated content in the elements (like <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool">avatars</a> or <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets">generated text</a>) you duplicate new generated data will appear in the copies (provided the <a href="https://lunacy.docs.icons8.com/tips/#auto-refresh">Auto refresh</a> option is enabled).
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_copying_duplicating.png" height="auto"><source src="/public/layers_copying_duplicating.mp4" type="video/mp4"></video>
 
-### Repeat grid
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> Lunacy remembers the offset of the latest duplicate. So, if you press <code>Ctrl + D</code> / <code>⌘ + D</code> shortly after you create a duplicate of a layer, Lunacy adds new duplicates with the same offset as the previous one.</p>
+</div>
+
+If copied layers include generated content, like <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">avatars</a> or <a href="https://lunacy.docs.icons8.com/text/#text-generation" target="_blank">generated texts</a>, duplicates will appear with new content (provided the <a href="https://lunacy.docs.icons8.com/text/#auto-refresh" target="_blank">Auto refresh</a> option is enabled).
+
+#### Repeat grid
 
 Another convenient way to duplicate elements is to use the **Repeat grid** feature. You select two or more layers, drag the <embed type="image/svg+xml" alt="repeat_grid" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/arkPFiXr3U-oF3BIzB96uQ.svg" width="20" /> near the lower-right corner of the bounding box to duplicate the elements in a grid.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layers_repeat_grid.png" height="auto"><source src="/public/layers_repeat_grid.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_repeat_grid_demo.png" height="auto"><source src="/public/layers_repeat_grid_demo.mp4" type="video/mp4"></video>
+
+Combining **Repeat grid** with the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a> and <a href="https://lunacy.docs.icons8.com/text/#text-generation" target="_blank">generated texts</a> can save you a lot of time when designing UIs with placeholder elements.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_repeat_grid.png" height="auto"><source src="/public/layers_repeat_grid.mp4" type="video/mp4"></video>
+
+#### Copy/Paste style
+
+You can quickly **copy and paste styling properties** (fills, borders, effects) between layers. 
+
+To **copy the properties of a layer**:
+
+1. Press `Ctrl + Alt + C` / `⌘ + ⌥ + C`. 
+2. Select another layer and press `Ctrl + Alt + V` / `⌘ + ⌥ + V`.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_copy_pasting_style.png" height="auto"><source src="/public/layers_copy_pasting_style.mp4" type="video/mp4"></video>
+
+#### Copy/paste context menu options
+
+Various copy/paste options are also available on the context menu:
+
+| Menu option    | Shortcut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Description   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Copy    | `Ctrl + C` / `⌘ + C`| Copies the selected layer.|
+| Cut     | `Ctrl + X` / `⌘ + X`| Cuts the selected layer and copies it to the clipboard.      |
+| Paste   | `Ctrl + V` / `⌘ + V`| Pastes the content of the clipboard onto the canvas.  |
+| Paste here     |   - | Pastes the content of the clipboard onto the canvas, depending on where the cursor is.   |
+| Paste over     | - | Pastes the content of the clipboard over the selected layer. |
+| Copy as Text   | - | Only available for text layers. Copies only the text content of the layer, excluding its properties.   |
+| Copy as CSS/SVG/XAML/PNG     | - | These options allow you to copy the code of the selected layer in the required format.   |
+| Copy style/Paste style| `Ctrl + Alt + C` / `⌘ + ⌥ + C`<br>`Ctrl + Alt + V` / `⌘ + ⌥ + V`     |  These options allow you to copy the style of the selected layer and apply them to another layer. |  
+| Export as PNG to cloud, Copy URL    | `Alt + C` / `⌥ + C` | Exports the selection to the Icons8 cloud and copies the link to your clipboard. You can share the link to your design with other people. |
+
+### [Arranging layers](#arranging-layers)
+
+#### Auto Z-index
+
+Lunacy automatically determines the order of layers (the Z-index) on the canvas depending on their size. For example, if you drag a smaller layer (that’s at the bottom of the layer list) over a larger one, Lunacy places the small layer on top.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_auto_z_index.png" height="auto"><source src="/public/layers_auto_z_index.mp4" type="video/mp4"></video>
+
+You can **adjust layer order manually** in the **Layer list** and also use shortcuts or context menu commands:
+
+| Context menu command | Description    | Windows/Linux shortcut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | MacOS shortcut  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| -------------------- | ---------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------|
+| Bring forward   | Moves the selected layer one step forward.| `Ctrl + ]`   |  `⌘ + ]`    |
+| Bring to front  | Places the selected layer at the top of the stack, above all other elements. | `Ctrl + Shift + ]`  | `⌘ + Shift + ]` |
+| Send backward   | Moves the selected layer one step backward.    | `Ctrl + [`   |  `⌘ + [`    |
+| Send to back    | Places the selected layer to the bottom of the stack.    | `Ctrl + Shift + [` | `⌘ + Shift + [` |
+
+#### Aligning and distributing layers
+
+To quickly align and distribute layers on the canvas, use the Align and Distribute spacing controls in the top row of the right panel.
+
+<embed type="image/svg+xml" alt="alignment_controls" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_OCR-ofHFkeTMk_2FFX7kw.svg" width="844" /> 
+
+They become active when you select two or more layers on the canvas or when you select a single layer on a frame (in this case, Lunacy will align the layer relative to the borders of the frame).
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_alignment_controls.png" height="auto"><source src="/public/layers_alignment_controls.mp4" type="video/mp4"></video>
+
+| Icon | Description     | Windows/Linux shortcut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | MacOS shortcut &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- | --------------- |
+|   <embed type="image/svg+xml" alt="Layout Align Left" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/6fcQiog8pEehVGrgeaASVQ.svg" />    | **Align left.** Aligns the selected layers to the left of the selection.        | `Ctrl + Shift + ←`     | `⌘ + Shift + ←` |
+|   <embed type="image/svg+xml" alt="Layout Align Horizontal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/100h8edvnUG_1lTv1X1rww.svg" />   | **Align horizontally.** Horizontally centers the selected layers.         | `Ctrl + Shift + -`     | `⌘ + Shift + -` |
+|  <embed type="image/svg+xml" alt="Layout Align Right" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/kJ3usXpiQ0ilqx-uQ-v23g.svg" />    | **Align right.** Aligns the selected layers to the right of the selection.       | `Ctrl + Shift + →`     | `⌘ + Shift + →` |
+|   <embed type="image/svg+xml" alt="Layout Distribute Vertical" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/t7NIJ6VDP0KlGPHyBjCIjQ.svg" />    | **Distribute vertical spacing.** Distributes vertical spacing evenly between the selected layers. The layers at the top and on the bottom of the selection always preserve their original position, while the layers between them adjust their positions so that the spacing between all elements is equal.      | `Ctrl + Shift + V`     | `⌘ + Shift + V` |
+|   <embed type="image/svg+xml" alt="Layout Align Top" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_pCMiljvhEKjpHvXiZIr_w.svg" />    | **Align top.** Aligns the selected layers to the top of the selection.       | `Ctrl + Shift + ↑`     | `⌘ + Shift + ↑` |
+|  <embed type="image/svg+xml" alt="Layout Align Vertical" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/fhNGONVix0e8Kk7a_rqQSQ.svg" />     | **Align vertically.** Vertically centers the selected layers.         | `Ctrl + Shift + |`     | `⌘ + Shift + |` |
+|   <embed type="image/svg+xml" alt="Layout Align Bot" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/8xQfQfteqk6ZDXRBj3oREQ.svg" />    | **Align bottom.** Aligns the selected layers to the bottom of the selection.     | `Ctrl + Shift + ↓`     | `⌘ + Shift + ↓` |
+|   <embed type="image/svg+xml" alt="Layout Distribute Horizontal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/8WhoMWQRXUazCIDiYkG7kQ.svg" />    | **Distribute horizontal spacing.** Distributes horizontal spacing evenly between the selected layers. The layers at the right and left borders of the selection always preserve their original position, while the layers between them adjust their positions so that the spacing between all elements is equal. | `Ctrl + Shift + H`     | `⌘ + Shift + H` |
+
+##### Smart distribute
+
+Use **Smart distribute** to arrange multiple layers into grids with equal spacing between rows and columns. The **Tidy up** button becomes active when you select two or more layers on the canvas and either looks like three straight lines (<embed type="image/svg+xml" alt="Tidy_up_1" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/o2MZGYTQkkaYQTF987Kiig.svg" width="16" />) or a grid (<embed type="image/svg+xml" alt="Tidy_up_2" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/kah22MhN2EqajOQ4ebdYiQ.svg" width="16" />) icon:   
 
 
-## Copy and Paste options
+<embed type="image/svg+xml" alt="tidy_up_button" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/dUQwjuRvAEK7D68xLK4Csg.svg" width="844" /> 
 
-You can simply select a layer and use the standard `Ctrl+C` and `Ctrl+V` combination. This will create a copy of the layer right above the original.
-
-Also, you can make use of other related options available on the context menu.
-
-![Copy and paste options](public/objects-copypaste.png)
-
-The table below provides a description of these options.
-
-<table>
-  <thead>
-      <tr>
-        <th>Menu option</th>
-        <th>Description</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td><b>Copy</b></td>
-        <td>Copies the selection to the clipboard.</td>
-      </tr>
-      <tr>
-        <td><b>Cut</b></td>
-        <td>Cuts the selection from the canvas and copies it to the clipboard.</td>
-      </tr>
-      <tr>
-        <td><b>Paste Here</b></td>
-        <td>Pastes the content of the clipboard onto the canvas. The point where you right-click is the place where Lunacy will place the top-left selection handle of the layer you paste.</td>
-      </tr>
-      <tr>
-        <td><b>Paste Over</b></td>
-        <td>Pastes the content of the clipboard over the selected layer so that the top-left selection handle of the layer that you paste will have the same coordinates as the one of the selected layer.</td>
-      </tr>
-      <tr>
-        <td><b>Export as PNG to cloud, Copy URL</b></td>
-        <td>Exports the selection to the Icons8 cloud and copies the link to your clipboard. You can share this link with other people.</td>
-      </tr>
-      <tr>
-        <td><b>Copy as Text</b></td>
-        <td>Available for the text layers only. Copies the text content, not the layer and its properties.</td>
-      </tr>
-      <tr>
-        <td><b>Copy as SVG/CSS/XAML</b></td>
-        <td>These options allow you to copy the code of the selected layer in the required format.</td>
-      </tr>
-      <tr>
-        <td><b>Copy style/Paste style</b></td>
-        <td>These options allow you to copy the <a href="https://lunacy.docs.icons8.com/styling" target="_blank">styling properties</a> of the selected layer and apply them to another layer. See the demo below.</td>
-      </tr>
-  </tbody>
-</table>
-
-The demo below shows how you can copy and paste styling properties between layers.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-copypasteplaceholder.png" height="auto"><source src="/public/objects-copypaste.mp4" type="video/mp4"></video>
-
-## Resizing layers
-
-There are several ways how you can resize layers:
-
-* by dragging selection handles
-* using the keyboard
-* through the Inspector
-* scaling
-
-### Resizing a layer by dragging selection handles
-
-To resize a layer, drag any of its selection handles as shown in the demo below. Use the handles on the sides, to change the layer's height or width. Use the corner handles to adjust the layer's height and width at the same time.  Hold down `Shift` while dragging to preserve the layer's aspect ratio.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing1.png" height="auto"><source src="/public/object-resizing1.mp4" type="video/mp4"></video>
-
-Also, you can hold down `Alt` while dragging to resize the layer from its center, rather than from the edge that you are dragging.
-
-The `Alt+Shift+drag` combination is also possible to preserve the layer's aspect ratio.
-
-### Resizing an layer using the keyboard
-
-Select the layer and use the shortcuts `CTRL+ arrow keys` (by 1 pixel) or `CTRL+Shift + arrow keys` ( by 10 pixels).
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-keyresizeph.png" height="auto"><source src="/public/tips-keyresize.mp4" type="video/mp4"></video>
-
-### Resizing a layer through the Inspector
-
-Select the layer and use the **W** (width) and **H** (height) edit fields, when you need to define the exact size of an layer.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/object-resizing2.png" height="auto"><source src="/public/object-resizing2.mp4" type="video/mp4"></video>
-
-Click the links button to preserve the layer's aspect ratio. With this button enabled, the change of a value in one of the boxes, will result in respective value adjustment in the second box.
-
-Also, read <a href="https://lunacy.docs.icons8.com/interface/#tips-on-working-with-the-inspector" target="_blank">here</a> for some tips on working with numeric fields in the Inspector.
-
-### Scaling layers
-
-If you want to resize a layer with styling (borders, shadows, etc.), you should consider the scaling feature. Together with layer size, it will accordingly adjust the values of its styling properties.
-
-To scale a layer:
-
-1. Select the layer.
-2. Click ![Scale too icon](/public/scale-tool.png) on the toolbar (or press `K`) and drag the bounding box.
-
-With the Scale tool selected, you can edit any of the settings (say, width) in the Inspector. Then press `Enter`, and Lunacy will scale all the other settings accordingly.
-
-![Using scale tool](/public/rn81-scaletool.png)
-
-
-### Resizing constraints
-
-Resizing constraints allow you to determine the behavior of a layer upon resizing of a group, component or a frame to which the layer belongs. This can be very useful, for example, when you need to design a user interface for different screen sizes or devices.
-
-First of all, if you want layers on a frame to resize when you adjust the size of the frame:
-
-1. Select the frame through the **Layer List** or by clicking its name on the canvas. The frame Inspector panel appears on the right.
-2. In the Inspector, make sure that the **Adjust content on resize** checkbox is selected.
-
-![The Adjust content on resize checkbox](public/objects-adjustonresize.png)
-
-Also, you can configure individual resize behavior of each layer using the controls in the **Resizing** section of the Inspector.
-
-![Resizing controls](public/object-constraints.png)
-
-These controls include:
-
-* The **Pin to edge** control. Allows you to pin the layer to one or several edges of the frame or its parent, if the layer is a part of a group/component. So, when you resize the frame or the parent, Lunacy won't change the distance between the layer and the edges it is pinned to. Click the respective T-shaped buttons to pin the layer.
-* The **Fix width** and **Fix size** checkboxes. Allow you to restrict the change of the layer's width or height upon resizing of the frame or the parent layer.
-
-To better understand how all this works, see the demo below.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-constraintsplaceholder.png" height="auto"><source src="/public/objects-constraints.mp4" type="video/mp4"></video>
-
-## Aligning and distributing layers
-
-To quickly align and distribute layers on the canvas, use the controls in the top row of the Inspector.
-
-![Alignment and distribution buttons](public/objects-alignbtns.png)
-
-They become active only when you select two or more layers anywhere on the canvas, or when you select a single layer on a frame. In the latter case, Lunacy will align the layer relative to the bounds of the frame.
-
-The table below provides a description of the controls.
-
-<table>
-  <thead>
-    <tr>
-      <th>Button</th>
-      <th>Description</th>
-      <th style="width: 130px;">Keyboard shortcut</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="/public/objects-alignleft.png" alt="Align Left"></td>
-      <td><b>Align Left</b>. Aligns the selected layers to the left bound of their selection frame.</td>
-      <td><code>Shift + Ctrl + &leftarrow;</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/objects-alignhoriz.png" alt="Align Horizontally"></td>
-      <td><b>Align Horizontally</b>. Horizontally centers the selected layers.</td>
-      <td><code>Ctrl + Shift + -</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/objects-alignright.png" alt="Align Right"></td>
-      <td><b>Align Right</b>. Aligns the selected layers to the right bound of their selection frame.</td>
-      <td><code>Shift + Ctrl + &rightarrow;</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/objects-distribvertspac.png" alt="Distribute Vertical Spacing"></td>
-      <td><b>Distribute Vertical Spacing</b>. Evens vertical spacing between the selected layers. Note that the topmost and the lowermost layers in the selection always preserve their original position, while the layers between them adjust their position to ensure equal spacing.</td>
-      <td><code>Shift + Ctrl + V</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/objects-aligntop.png" alt="Align Top"></td>
-      <td><b>Align Top</b>. Aligns the selected layers to the top bound of their selection frame.</td>
-      <td><code>Shift + Ctrl + &uparrow;</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/objects-alignvert.png" alt="Align Vertically"></td>
-      <td><b>Align Vertically</b>. Vertically centers the selected layers.</td>
-      <td><code>Ctrl + Shift + |</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/objects-alignbot.png" alt="Align Bottom"></td>
-      <td><b>Align Bottom</b>. Aligns the selected layers to the bottom bound of their selection frame.</td>
-      <td><code>Shift + Ctrl + &downarrow;</code></td>
-    </tr>
-    <tr>
-      <td><img src="/public/objects-distribhorspac.png" alt="Distribute Vertical Spacing"></td>
-      <td><b>Distribute Horizontal Spacing</b>. Evens horizontal spacing between the selected layers. Note that the rightmost and the leftmost layers in the selection always preserve their original position, while the layers between them adjust their position to ensure equal spacing.</td>
-      <td><code>Shift + Ctrl + H</code></td>
-    </tr>
-  </tbody>
-</table>
-
-To better understand how it all works, see the demo below.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/objects-aligndistrpaceholder.png" height="auto"><source src="/public/objects-aligndistr.mp4" type="video/mp4"></video>
-
-### Smart distribute
-
-You can quickly arrange multiple layers into nice grids with equal spacing between rows and columns.
-
-For this:
+To use **Smart distribute**:
 
 1. Select the required layers.
-2. Click the **Tidy up** button in the Inspector. The layers get re-arranged,red handles appear between rows and columns of the "grid".
-3. Drag the red handles to adjust the spacing between rows and columns. Click the red circle in the center of an layers and drag to move it to another “grid cell”. See the demo below.
+2. Click <embed type="image/svg+xml" alt="Vector 2" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/K-hAbTZwSU-b8Xh8WIzrgw.svg" width="16" /> / <embed type="image/svg+xml" alt="Vector 3" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/BvNKlqbncUWbW0Nlg_ZcGQ.svg" width="16" />
+3. Once the layers get organized, pink controls appear in the middle of the layers and between them. Click and drag them to rearrange the layers or adjust the spacing between them.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-smartdistribph.png" height="auto"><source src="/public/objects-smartdistr.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_smart_distribute.png" height="auto"><source src="/public/layers_smart_distribute.mp4" type="video/mp4"></video>
+        
+#### Creating hyperlinks between layers
 
-## Arranging layers along the Z-axis
+You can **create hyperlinks** from one layer to another in your document, even if the layers are on different pages. his can be useful, for example, for simplifying navigation in large documents.
 
-### Auto Z-index
+To do this:
 
-Lunacy automatically determines the order of layers (the Z-index) on the canvas depending on their size. For example, if you drag a smaller layer (that’s lower in the Layer list) over a larger one, Lunacy places the small layer on top.
+1. Select the target layer and press `Ctrl + L` / `⌘ + L` (or select **Copy/Paste as** > **Copy link** on the context menu).
+2. Select the layer that should lead to the target layer.
+3. Press `F2` to rename the layer, paste the target layer link from your clipboard, and press `Enter`.
+4. Hold down `Ctrl` / `⌘` and click the layer you renamed, and you’ll be redirected to the target layer.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layers_auto_z_index.png" height="auto"><source src="/public/layers_auto_z_index.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_hyperlinks.png" height="auto"><source src="/public/layers_hyperlinks.mp4" type="video/mp4"></video>
 
-### Arranging layers using shortcuts and the Layer list
+### [Moving layers](#moving-layers)
 
-To position layers along the Z-axis manually, use the send/bring commands found on the context menu or their respective shortcuts. The commands are as follows:
+To **move a layer**, just click and drag it.
 
-* Bring Forward (`Ctrl + ]`). Moves the selected layer one step forward.
-* Bring to Front (`Shift + Ctrl + ]`). Places the selected layer to the very front of the stack.
-* Send Backward (`Ctrl + [`). Moves the selected layer one step backward.
-* Send to Back (`Shift + Ctrl + [`). Places the selected layer to the very back of the stack.
+If you want to **restrict layer movement to the X or Y axis**, hold down `Shift` while you’re moving the layer.
 
-The demo below shows how it works.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_moving.png" height="auto"><source src="/public/layers_moving.mp4" type="video/mp4"></video>
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-sendbringplaceholder.png" height="auto"><source src="/public/objects-sendbring.mp4" type="video/mp4"></video>
+For precise positioning, use the arrow keys. Each keystroke moves a layer by one pixel. Holding down `Shift` increases each step to 10px.
 
-Also, you can do the same by dragging layers up and down relative one another in the layer list.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_move_arrow_keys.png" height="auto"><source src="/public/layers_move_arrow_keys.mp4" type="video/mp4"></video>
 
-## Rotating layers
+You can also adjust a layer’s position on the canvas or frame using the **X and Y controls in the right panel**:
 
-To rotate an layer:
+- If a layer is on the canvas, the values in the X and Y fields show the absolute coordinates of its top-left selection handle.
+- If a layer is a part of a frame, X and Y display the coordinates of its top-left selection handle relative to the frame’s top-left corner.
 
-1. Select the layer.
-2. Hover the cursor somewhere near any corner selection. Wait a moment until the cursor turns into a bended double-headed arrow, then drag.
-  
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_moving_right_panel.png" height="auto"><source src="/public/layers_moving_right_panel.mp4" type="video/mp4"></video>
+
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> Measuring distances between layers can also help with positioning them more accurately. Simply select a layer, press <code>Alt</code> / <code>⌥</code>, and hover the cursor over another layer to measure the distance between them. Read about all <a href="https://lunacy.docs.icons8.com/basics/#measuring-distances" target="_blank">measurement options</a> in Lunacy in the <a href="https://lunacy.docs.icons8.com/basics/" target="_blank">Basics</a> page.</p>
+</div>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/basics/#changing-values-in-the-right-panel" target="_blank">Changing values in the right panel</a>
+
+#### Rotating layers
+
+To **rotate a layer**, select it, then:
+
+- Hover the cursor somewhere any corner of the bounding box. The cursor will turn into a bent double-headed arrow, which you can drag left or right.
+
     OR
 
-    In the Inspector, enter the required value in the rotation angle field and press `Enter`.
+- Change the value in the rotation angle field in the right panel and press `Enter`.
 
-![Rotating an object](public/objects-rotation1.png)
+To quickly return the layer into its initial position, type `0` in the angle rotation field of the right panel and press `Enter`. You can also hold down `Shift` when rotating the layer to rotate at 90° or 45° angles to quickly get it to its original orientation.
 
-To quickly return the layer into its initial position:
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_rotating_resetting.png" height="auto"><source src="/public/layers_rotating_resetting.mp4" type="video/mp4"></video>
 
-* In the angle rotation field of the Inspector, type *0* and press `Enter` to submit.
+#### Flipping layers
 
-## Flipping layers
+To flip a layer, use the **Flip horizontally** (<embed type="image/svg+xml" alt="flip_horizontal" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_zeiHNxlRkGVVIfMvHuRGw.svg" width="16" />) and **Flip vertically** (<embed type="image/svg+xml" alt="flip_vertical" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/W2egL4YoiEqEbxKd7Psy7A.svg" width="16" />) buttons that appear on the context toolbar (also available in the **Layer** section on the menu bar).
 
-To flip the selected layer, use the **Flip Horizontally** (![Flip horizontally button](public/objects-fliphbtn.png)) and **Flip Vertically** (![Flip horizontally button](public/objects-flipvbtn.png)) buttons that appear on the context toolbar.
+You can also use these shortcuts:
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-flipplaceholder.png" height="auto"><source src="/public/objects-flip.mp4" type="video/mp4"></video>
+- `Ctrl + →` and `Ctrl + ←` / `⌘ + →` and `⌘ + ←` — horizontal flip
+- `Ctrl + ↑` and `Ctrl + ↓` / `⌘ + ↑` and `⌘ + ↓` — vertical flip
 
-Alternatively, you can use the following shortcuts:
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_flipping_buttons_shortcuts.png" height="auto"><source src="/public/layers_flipping_buttons_shortcuts.mp4" type="video/mp4"></video>
 
-* <code>Ctrl + &rightarrow;</code> or <code>Ctrl + &leftarrow;</code>  - horizontal flip.
-* <code>Ctrl + &uparrow;</code> or <code>Ctrl + &downarrow;</code> - vertical flip.
+Another way to flip a layer is to drag selection handles like in the demo below.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_flipping_handles.png" height="auto"><source src="/public/layers_flipping_handles.mp4" type="video/mp4"></video>
 
-Also, the **Flip Horizontally** and **Flip Vertically** commands are available on the **Layer** menu.
+### [Resizing layers](#resizing-layers)
 
-Another way to flip a layer is to drag selection handles as shown in the demo below.
+There are several ways to resize a layer:
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/objects-flipplaceholder.png" height="auto"><source src="/public/objects-flip2.mp4" type="video/mp4"></video>
+- [Dragging its selection handles](#resizing-by-dragging-selection-handles)
+- [Using arrow keys](#resizing-using-arrow-keys)
+- [Changing right panel properties](#resizing-by-adjusting-right-panel-properties)
+- [With the Scale tool](#scaling-layers)
 
-## Creating hyperlinks between layers
+#### [Resizing by dragging selection handles](#resizing-by-dragging-selection-handles)
 
-Create hyperlinks between the layers in your document (even if they're on different pages):
+To **resize a layer**, drag any of its selection handles at the corners to adjust its height and width or drag the sides of the bounding box to resize a layer vertically or horizontally.
 
-1. Select the target layer and press `Ctrl + L` / `⌘ + L` (or select **Copy/Paste as** > **Copy link** in the context menu).
-2.  Select the layer that should lead to the target layer.
-3. Press `F2` to rename the layer, paste the target layer link from your clipboard, and press `Enter`. 
-4. Hold down `Ctrl` / `⌘` and click the layer you renamed, and you’ll be redirected to the target layer. If the layer is locked, just click on it to be redirected.
+Hold down `Shift` while dragging to preserve the layer’s aspect ratio. Also, you can hold down `Alt` / `⌥` while dragging to **resize the layer from the center**, rather than from the edge you are dragging.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layers_hyperlinks.png" height="auto"><source src="/public/layers_hyperlinks.mp4" type="video/mp4"></video>
+The `Alt + Shift + drag` / `⌥ + Shift + drag` shortcut resizes a layer from the center *and* preserves its aspect ratio.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_resizing.png" height="auto"><source src="/public/layers_resizing.mp4" type="video/mp4"></video>
+
+When resizing a frame, if you want the layers on it to adjust to the size of the frame:
+
+1. Select the frame through the **Layer list** or by clicking its name on the canvas.
+2. In the right panel, select the **Adjust content on resize** checkbox.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_adjust_content_on_resize.png" height="auto"><source src="/public/layers_adjust_content_on_resize.mp4" type="video/mp4"></video>
+
+#### [Resizing using arrow keys](#resizing-using-arrow-keys)
+
+Select the layer and use the shortcuts `Ctrl + arrow keys` / `⌘ + arrow keys` to resize by 1px or `Ctrl + Shift + arrow keys` / `⌘ + Shift + arrow keys` to resize by 10px.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_resizing_arrow_keys.png" height="auto"><source src="/public/layers_resizing_arrow_keys.mp4" type="video/mp4"></video>
+
+#### [Resizing by adjusting right panel properties](#resizing-by-adjusting-right-panel-properties)
+
+Select a layer and change the values in the the **W (width)** and **H (height)** fields in the right panel to precisely define its size.
+
+Click the **Lock aspect ratio** button (<embed type="image/svg+xml" alt="lock_aspect_ratio" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/4GvxWU5LIUGH6eaZaP3Vpw.svg" width ="16" />) to preserve the layer’s aspect ratio.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_resizing_right_panel.png" height="auto"><source src="/public/layers_resizing_right_panel.mp4" type="video/mp4"></video>
+
+#### [Scaling layers](#scaling-layers)
+
+Use the **Scale tool** to resize a layer while preserving the aspect ratio and adjusting the size of any borders/effects applied to the layer.
+
+To **scale a layer**:
+1. Select the layer.
+2. Press `K` or select the **Scale tool** (<embed type="image/svg+xml" alt="scale_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/scm-lgqtykigv546NkSUrQ.svg" width="16" />) on the toolbar.
+3. Drag the bounding box to resize it.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_scaling.png" height="auto"><source src="/public/layers_scaling.mp4" type="video/mp4"></video>
+
+When the **Scale tool** is selected, changing layer size values in the right panel will also scale the layer and all its effects proportionally.
+
+#### Resizing constraints
+
+With **resizing constraints**, you can determine the behavior of a layer when resizing a group, component, or frame containing the layer. This can be very useful when you need to design a user interface for different screen sizes or devices.
+
+You can adjust the individual resizing behavior for each layer in the **Constraints** section of the **right panel**:
+- The **Pin to edge** control, which pins the layer to one or several edges of the group/component/frame. So, when you resize the container, Lunacy won’t change the distance between the layer and the edges it is pinned to.
+- The **Fix width** and **Fix size** checkboxes restrict the change of the layer’s width or height so they don’t change as you resize the layer.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_resizing_constraints.png" height="auto"><source src="/public/layers_resizing_constraints.mp4" type="video/mp4"></video>
+
+<div class="callout callout--info">
+    <p><strong>Note:</strong> Resizing constraints aren’t available for layers in an auto layout frame unless the layer has an absolute position.</p>
+</div>
+
+**See also:**
+<br>
+<a href="https://lunacy.docs.icons8.com/autolayout/#resizing-auto-layout-elements">Resizing auto layout elements</a>
