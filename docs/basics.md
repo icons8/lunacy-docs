@@ -114,67 +114,6 @@ To **change values in the right panel** input fields:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/changing_values_in_rightpanel.png" height="auto"><source src="/public/changing_values_in_rightpanel.mp4" type="video/mp4"></video>
 
-
-## [Frames](#frames)
-
-**Frames** are a special types of layers that work like containers for your designs. 
-
-Using frames is optional, but they come in handy when you’re designing for a specific screen size or device. 
-
-Use the <a href="https://lunacy.docs.icons8.com/tools/#frame-tool" target="_blank">frame tool</a> to add frames to the canvas. You can create a custom size frame or to select a preset from the list in the right panel. The list features presets for popular devices, screen resolutions, and social media templates. 
-
-<div class="callout callout--info">
-    <p><strong>Note:</strong> You can also a <a href="https://lunacy.docs.icons8.com/basics/#adding-custom-presets" target="_blank">add your custom presets</a> to this list.</p>
-</div>
-
-To **create a frame**:
-
-1. Select the **Frame tool** on the toolbar or press `A`.
-2. Click and drag to add a custom frame or use a **preset** from the right panel.
-
-<embed type="image/svg+xml" alt="frame_tool_presets" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5fuv5gIKSU-PMS4ZWGy5Aw.svg" width="844" /> 
-
-<div class="callout callout--info">
-    <p><strong>Tip:</strong> When you're creating a frame on the canvas, blue <code>+</code> signs will appear around the borders, indicating pre-existing presets. Drag the corner of the frame you're creating to a <code>+</code> to snap it to a preset (the name of the preset will appear in the Layer list).</p>
-</div>
-
-You can also **place layers inside frames** by:
-- Selecting one or several layers and pressing `Ctrl + Alt + G` / `⌘ + ⌥ + G`.
-- Drawing a frame over them. 
-
-To **delete a frame** use the **ungroup** shortcut: `Ctrl + Shift + G` / `⌘ + Shift + G`.
-
-This is how frames appear in the Layer list:
-
-<embed type="image/svg+xml" alt="frames_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/2DFQ_UkoJE-xNA5RZ63EXA.svg" width=844 /> 
-
-
-Right panel properties for frames are more or less identical to [layer properties](#right-panel-properties), except frames don't have **Style** and **Prototyping** options. 
-
-They also have these additional properties:
-
-| Right panel properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Description |   
-|--------------------------------------------------------------------|--------------------------------------------------------------------|
-|  <embed type="image/svg+xml" alt="frame_preset_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/AQrMrq0BdkG833S3rs16TQ.svg" width="500" />  |  **Frame preset, size, and position.** The same options as for layers — and you can also change your frame size preset.  |
-|  <embed type="image/svg+xml" alt="clip_content" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jz6OnY46_Uy-ATZtsevRLA.svg" width="500" />  |     **Clip content.**  Select this checkbox to hide content outside of the frame boundaries. |
-|   <embed type="image/svg+xml" alt="autolayout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VVkJQG7mZESrsh2vQBoruA.svg" width="500" />   |   **Auto layout.**  Align your design elements with auto layout. With them, your designs will adjust to content changes automatically. Set the distance between elements, between elements and frame boundaries, change distribution options, stacking options, and whether auto layout includes frame borders. |
-|  <embed type="image/svg+xml" alt="frame_color_adjust" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZWhmOvSgV0Wn2tLg80A-Ug.svg" width="500" />    |     **Background color and content behavior.** Change the frame background and choose whether its content changes as you resize it. |
-|  <embed type="image/svg+xml" alt="layout_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9-2Cn2UMuU-1oe_XPYabqQ.svg" width="500" /> |     **Layout grid.**  Add a [layout grid](#layout-grid) to the frame.|
-| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/15ZcB9kEdkmu1y7FAZHefQ.svg" width="500" />  |     **Grid.**  Add a [square grid](#square-grid) to the frame. |
-
-### [Adding custom frame presets](#adding-custom-presets)
-
-To **add a custom frame** to the list of presets:
-
-1. Select the custom frame.
-2. Click the **Create Frame Preset** button in the **Preset size and orientation** section.
-
-    <embed type="image/svg+xml" alt="custom_frame" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/oSB3aZSbokmkFORi-TWUtw.svg" width=844 /> 
-3. Name the preset and press `Enter`.
-
-From now on, the custom frame preset will appear at the bottom of the preset list in the right panel.
-
-
 ## [Rulers and guides](#rulers-and-guides)
 
 **Rulers** and **guides** help to position and align layers. 
@@ -196,8 +135,6 @@ To move a guide, drag it to another position or select it and use arrow keys to 
 You can also open up all of these guide settings by right-clicking over a ruler:
 
 <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZqUEc3AmlEqw1gm3TaeWVQ.svg" width=844 /> 
-
-
 
 ## [Grids](#grids)
 
