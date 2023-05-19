@@ -203,7 +203,8 @@ To **create a mask**:
 1. Add the shape you want to use as a mask to the canvas.
 2. Place it below the layers that will be masked (you can leave it on top if it's a photo).
 3. Select the mask shape and the target layer(s).
-4. On the **context toolbar**, click the **Toggle mask** button (_) or press `Ctrl + M` / `⌘ + M`. The option is also available on the context menu.
+4. On the **context toolbar**, click the **Toggle mask** button (<embed type="image/svg+xml" alt="Toggle mask Actions" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/8uNAx83h7ky5F0iXcwWaxQ.svg" width="24" /> 
+) or press `Ctrl + M` / `⌘ + M`. The option is also available on the context menu.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_shapes_mask.png" height="auto"><source src="/public/editing_shapes_mask.mp4" type="video/mp4"></video>
 
