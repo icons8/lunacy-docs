@@ -81,6 +81,14 @@ For **stars** and **polygons**, drag the handle below the topmost corner of the 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_shapes_polygon_star_rounding.png" height="auto"><source src="/public/editing_shapes_polygon_star_rounding.mp4" type="video/mp4"></video>
 
+### Smooth corner radius
+
+You can create rectangles and frames with perfectly smooth corners like in iOS interfaces.
+
+To **switch between default round and smooth corners**, click <embed type="image/svg+xml" alt="Checkbox button" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EHJ49v8Yo0S0JSrN3k3hcw.svg" width="24" /> next to the corner radius button in the right panel.
+
+<embed type="image/svg+xml" alt="smooth_corner_radius" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/uOkgjIJUBk2x8bZNUnIgig.svg" width="844" /> 
+
 ### Arc editor
 
 With the **Arc editor**, you can quickly create rings and semirings, design pie charts or other fancy circular elements.
@@ -124,14 +132,6 @@ The transform options mirror the on-canvas controls:
 **Start.** Determines the starting point of an arc made from an oval.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_shapes_right_panel.png" height="auto"><source src="/public/editing_shapes_right_panel.mp4" type="video/mp4"></video>
-
-### Smooth corner radius
-
-You can create shapes with perfectly smooth corners like in iOS interfaces.
-
-To **switch between default round and smooth corners**, click <embed type="image/svg+xml" alt="Checkbox button" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EHJ49v8Yo0S0JSrN3k3hcw.svg" width="24" /> next to the corner radius button in the right panel.
-
-<embed type="image/svg+xml" alt="smooth_corner_radius" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/uOkgjIJUBk2x8bZNUnIgig.svg" width="844" /> 
 
 
 ## Vector editing
@@ -205,6 +205,10 @@ To **create a mask**:
 3. Select the mask shape and the target layer(s).
 4. On the **context toolbar**, click the **Toggle mask** button (<embed type="image/svg+xml" alt="Toggle mask Actions" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/8uNAx83h7ky5F0iXcwWaxQ.svg" width="24" /> 
 ) or press `Ctrl + M` / `⌘ + M`. The option is also available on the context menu.
+
+<div class="callout callout--info">
+     <p><strong>Note:</strong> When you're masking a shape with another shape, the layer you want to act as a mask should be placed below the layer that will be masked. If you're masking out part of a photo, however, you can leave the masking shape on top. </p>
+</div>
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_shapes_mask.png" height="auto"><source src="/public/editing_shapes_mask.mp4" type="video/mp4"></video>
 

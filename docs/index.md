@@ -43,7 +43,7 @@ grid_navigation:
       icon: 'ungroup-objects'
     - title: 'Editing shapes'
       excerpt: Make sure that you know everything about working with shapes in Lunacy 
-      url: '/editing'
+      url: '/editing_shapes'
       icon: 'pencil-tip'
     - title: 'Text'
       excerpt: Learn how to work with text in Lunacy

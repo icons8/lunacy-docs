@@ -17,7 +17,7 @@ doks:
     - title: 'Layers'
       url: '/layers'
     - title: 'Editing shapes'
-      url: '/editing'
+      url: '/editing_shapes'
     - title: 'Text'
       url: '/text'
     - title: 'Styling'
