@@ -81,7 +81,7 @@ For **stars** and **polygons**, drag the handle below the topmost corner of the 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_shapes_polygon_star_rounding.png" height="auto"><source src="/public/editing_shapes_polygon_star_rounding.mp4" type="video/mp4"></video>
 
-### Smooth corner radius
+#### Smooth corner radius
 
 You can create rectangles and frames with perfectly smooth corners like in iOS interfaces.
 
