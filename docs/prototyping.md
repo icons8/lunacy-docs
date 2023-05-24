@@ -38,7 +38,7 @@ In the current version of Lunacy preview of prototypes takes place in Sketch Clo
 
 You can build prototypes to test and polish UX of your designs before sending them to development.
 
-Prototyping is based on frames. If you are planning to add prototyping to your project, **the use of frames is a must**.
+Prototyping is based on frames. If you are planning to add prototyping to your project, **the use of <a href="https://lunacy.docs.icons8.com/layers/#frames" target="_blank">frames</a> is a must**.
 
 The easiest way to create a prototype is to add a link between two frames. The procedure is as follows:
 
@@ -74,7 +74,7 @@ Moreover, you can use hotspots as parts of <a href="https://lunacy.docs.icons8.c
 
 To add a hotspot you can:
 
-* Use the <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspot tool</a>.
+* Use the <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspot tool</a>.
 * Select a linked layer, then click ![Create hotspot icon](public/proto-hotspoticon.png) in the **Prototyping** section of the Inspector. This creates a hotspot of the same size as of the selection frame around the layer. You can resize it by dragging handles, if necessary.
 
 The demo below show both these methods.

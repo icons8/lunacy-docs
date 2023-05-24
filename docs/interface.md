@@ -114,12 +114,11 @@ When you need to **hide the interface** partially or entirely:
 - **Hide all UI elements** (except for the menu bar) by pressing `Ctrl + .` / `⌘ + .`. This activates **Presentation mode**, useful for showcasing your designs with no distractions from the interface.
 
 
-
 ## [Canvas](#canvas)
 
 The **canvas** is your working area. Add layers to it and place them wherever you want. 
 
-If you need to work within certain boundaries, add <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frames</a> to the canvas. To position layers and frames more precisely, you can add <a href="https://lunacy.docs.icons8.com/basics/#rulers">rulers</a>, <a href="https://lunacy.docs.icons8.com/basics/#guides">guides</a>, and <a href="https://lunacy.docs.icons8.com/basics/#grids">grids</a>.
+If you need to work within certain boundaries, add <a href="https://lunacy.docs.icons8.com/interface/#frames" target="_blank">frames</a> to the canvas. To position layers and frames more precisely, you can add <a href="https://lunacy.docs.icons8.com/basics/#rulers">rulers</a>, <a href="https://lunacy.docs.icons8.com/basics/#guides">guides</a>, and <a href="https://lunacy.docs.icons8.com/basics/#grids">grids</a>.
 
 Read in detail about working with the canvas in the <a href="https://lunacy.docs.icons8.com/basics" target="_blank">Basics</a> section.
 
