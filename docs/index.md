@@ -14,7 +14,7 @@ buttons:
 # Grid navigation
 grid_navigation:
     - title: About Lunacy
-      excerpt: Basic information about Lunacy
+      excerpt: Introduction to Lunacy
       url: '/about'
       icon: 'lunacy'
     - title: System requirements

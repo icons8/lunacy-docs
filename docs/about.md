@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: About Lunacy
-description: Basic information about Lunacy
+description: Introduction to Lunacy
 icon: 'lunacy'
 
 # Micro navigation
@@ -42,9 +42,9 @@ Lunacy is not demanding on hardware and runs smoothly even on moderate laptops.
 
 Lunacy comes with built-in graphics:
 
-* **Icons**
-* **Photos**
-* **Illustrations**
+* **[Icons](https://lunacy.docs.icons8.com/libraries/#icons)**
+* **[Photos](https://lunacy.docs.icons8.com/libraries/#photos-and-masked-photos)**
+* **[Illustrations](https://lunacy.docs.icons8.com/libraries/#illustrations)**
 
 You can use this content for free if you set a link to Icons8 in your final work. Or you can subscribe to one of our paid plans and forget about linking.
 
