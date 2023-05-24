@@ -497,7 +497,7 @@ To quickly invert a gradient, use the <embed type="image/svg+xml" alt="invert_gr
 
 - **Minimize the left panel** by clicking on the active content tab.
 - To **hide the toolbar, right panel, rulers,** and any other UI elements, disable them in the **View** section on the **menu bar.**
-- **Hide all UI elements** (except for the menu bar) by pressing `Ctrl + .` / `⌘ + .`.
+- **Hide all UI elements** (except for the menu bar) by pressing `Ctrl + .` / `⌘ + .`. This activates **Presentation mode**, useful for showcasing your designs with no distractions from the interface.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_minimizing_hiding_ui.png" height="auto"><source src="/public/tips_tricks_minimizing_hiding_ui.mp4" type="video/mp4"></video>
 

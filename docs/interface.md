@@ -107,6 +107,14 @@ To adjust the scale of the interface, go to **View** > **Interface scale**, or u
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface_adjusting_ui_scale.png" height="auto"><source src="/public/interface_adjusting_ui_scale.mp4" type="video/mp4"></video>
 
+When you need to **hide the interface** partially or entirely:
+
+- **Minimize the left panel** by clicking on the active content tab.
+- **Hide the toolbar, right panel, rulers** and any other UI elements by disabling them in the **View** section on the **menu bar.**
+- **Hide all UI elements** (except for the menu bar) by pressing `Ctrl + .` / `⌘ + .`. This activates **Presentation mode**, useful for showcasing your designs with no distractions from the interface.
+
+
+
 ## [Canvas](#canvas)
 
 The **canvas** is your working area. Add layers to it and place them wherever you want. 
