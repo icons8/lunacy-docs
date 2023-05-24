@@ -85,7 +85,7 @@ For **stars** and **polygons**, drag the handle below the topmost corner of the 
 
 You can create rectangles and frames with perfectly smooth corners like in iOS interfaces.
 
-To **switch between default round and smooth corners**, click <embed type="image/svg+xml" alt="smooth_corners" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/DQW0-LFVuUGjlW_U4pzKmA.svg width="24" /> next to the corner radius button in the right panel.
+To **switch between default round and smooth corners**, click <embed type="image/svg+xml" alt="smooth_corners" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/DQW0-LFVuUGjlW_U4pzKmA.svg" width="20" /> next to the corner radius button in the right panel.
 
 <embed type="image/svg+xml" alt="smooth_corner_radius" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/uOkgjIJUBk2x8bZNUnIgig.svg" width="844" /> 
 
@@ -203,7 +203,7 @@ To **create a mask**:
 1. Add the shape you want to use as a mask to the canvas.
 2. Place it below the layers that will be masked (you can leave it on top if it's a photo).
 3. Select the mask shape and the target layer(s).
-4. On the **context toolbar**, click the **Toggle mask** button (<embed type="image/svg+xml" alt="toggle_masks" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/7jpzF3Z3aUqytnbWOY6_jw.svg" width="24" /> 
+4. On the **context toolbar**, click the **Toggle mask** button (<embed type="image/svg+xml" alt="toggle_masks" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/7jpzF3Z3aUqytnbWOY6_jw.svg" width="20" /> 
 ) or press `Ctrl + M` / `⌘ + M`. The option is also available on the context menu.
 
 <div class="callout callout--info">
