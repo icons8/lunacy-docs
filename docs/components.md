@@ -373,7 +373,7 @@ Press the same button in the **Components** section to **reset all overrides** i
 
 ### Tint overrides
 
-A <a href="https://lunacy.docs.icons8.com/styling/#tints" target="_blank">tint</a> is a property you can add to a layer group or component. It’s useful for adding color to elements with semi-transparent parts or complex icons.
+A <a href="https://lunacy.docs.icons8.com/styling/#tints" target="_blank">tint</a> is a property you can add to a layer group or component instance. It’s useful for adding color to elements with semi-transparent parts or complex icons.
 
 Tint overrides are useful for designing tabs or panels with elements that can have different states expressed through different colors.
 

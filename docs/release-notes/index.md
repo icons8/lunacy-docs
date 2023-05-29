@@ -40,14 +40,14 @@ page_nav:
 
 # Version 9
 
-## 9.1 (Beta)
-*Release date: March 1, 2023*
+## 9.1
+*Release date: May 29, 2023*
 
-Download beta:
+Download:
 
-* Windows: [EXE x64 beta](https://lcdn.icons8.com/setup/beta/LunacySetup.exe), [EXE ARM beta](https://lcdn.icons8.com/setup/beta/LunacySetup_arm64.exe)
-* macOS: [DMG beta](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
-* Linux: [DEB beta](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.1.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.1.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.1.deb)
 
 <div class="callout callout--warning">
     <p><strong>Note:</strong> Due to changes in the Cloud API, cloud documents once opened in v.9.1 won't open in the earlier Lunacy versions.</p>
@@ -75,7 +75,7 @@ This version brings a new render engine, which means higher FPS and lower input 
 * Numerous auto layout improvements and fixes.
 * Numerous Figma import improvements.
 
-## 9.0.9 Pricing update and fixes 
+## 9.0.9 Pricing update and bug fixes 
 _Release date: April 6, 2023_  
 
 Download:
@@ -101,7 +101,7 @@ Download:
 
 ### Fixed issues
 - Auto layout bug fixes
-- The feedback form now sends messages correctly
+- The feedback form now works correctly
 
 ## 9.0.8 hotfix
 _Release date: March 20, 2023_  
