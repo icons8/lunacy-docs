@@ -63,7 +63,7 @@ Lunacy has a wide range of AI-powered tools that will save you valuable time dur
 
 ### Work online and offline
 
-You can work both with cloud and local documents. It's up to you to choose. You can switch between the cloud and local modes whenever you want.
+You can work both with cloud and local documents. Switch between the cloud and local modes whenever you want.
 
 **Cloud documents**:
 
@@ -90,5 +90,6 @@ If you need to continue working on designs you made in Figma, <a href="https://l
 
 ### No limitations
 
-* Thanks to native support for the Sketch format, you can use Lunacy with all major handoff and version control tools like Avocode, Zeplin, Abstract, Simpli, etc.
-* If you need to, you can easily import `.sketch` files to Figma or XD.
+Thanks to native support for the Sketch format, you can use Lunacy with all the major handoff and version control tools like Avocode, Zeplin, Abstract, Simpli.
+
+If you need to, you can easily import `.sketch` files to Figma or XD.
