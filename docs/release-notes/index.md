@@ -43,7 +43,7 @@ page_nav:
 ## 9.1
 *Release date: May 31, 2023*
 
-Download beta:
+Download:
 
 * <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.1.0.exe)
 * <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.1.0.dmg)
