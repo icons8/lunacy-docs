@@ -20,80 +20,75 @@ page_nav:
 ---
 
 
-Lunacy is a next-gen vector graphic software for UI, UX, and web design. It has everything you are used to in other similar apps and goes beyond. Created by designers for designers to focus on the workflow and minimize distractions. No more wasting time surfing the internet for graphics or switching apps to remove backgrounds, or thinking placeholder texts. Lunacy has it all and even more. Faster than Figma, smarter than Sketch!
+Lunacy is a next-gen vector graphic design software for UI/UX and web design. 
 
-#### Free
+### Faster than Figma, smarter than Sketch
 
-As a design tool, Lunacy is absolutely free for personal and commercial use. But if you need more freedom with cloud documents, teams, or want to use built-in graphics without attribution, you can purchase a subscription.
+Created by designers for designers, Lunacy optшmizes your workflow and minimizes distractions. No more wasting time googling suitable icons and photos, switching apps to remove backgrounds, or thinking of placeholder texts. Lunacy takes care of all that, and more.
 
-#### Cross-platform app
+### Free
 
-Lunacy runs on Windows, macOS, and Linux.
+Lunacy is completely free for personal and commercial use.
 
-#### Real-time collaboration
+If you need more freedom with cloud documents, teams, or want to use built-in graphics without link attribution, you can <a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">purchase a subscription</a>.
 
-Users working on different platforms can collaborate over the same design in real-time.
+### Cross-platform
 
-#### Low system requirements
+Lunacy runs on Windows, macOS, and Linux, ensuring compatibility across different operating systems.
 
-Lunacy is not demanding on hardware and runs smoothly even on moderate laptops. 
+### Low system requirements
 
-#### Built-in graphics
+Lunacy isn't demanding on hardware and runs smoothly even on moderate laptops. 
 
-Lunacy comes with built-in graphics:
+### Real-time collaboration
 
-* **Icons**
-* **Photos**
-* **Illustrations**
+Users working on different platforms can collaborate on the same design in real-time.
 
-You can use this content for free if you set a link to Icons8 in your final work. Or you can subscribe to one of our paid plans and forget about linking.
+### Built-in graphics
 
-What's more, you can use **built-in UI kits** to quickly design interfaces.
+Lunacy comes equipped with a variety of built-in graphics, including **icons, photos, and illustrations.**
 
-#### AI-powered tools onboard
+You can use these graphics for free as long as you include a link to Icons8 in your final work. Or you can subscribe to <a href="https://lunacy.docs.icons8.com/subscriptions/#graphics-subscriptions" target="_blank">one of our paid plans</a> and forget about link attribution.
 
-Inside Lunacy, you will find some handy tools that will save you tons of time:
+Lunacy also has **built-in UI kits** to help you design interfaces faster and more efficiently.
 
-* **Background remover** — get rid of photo backgrounds in one click
-* **Image upscaler** — enlarge images and enhance their resolution
-* **Avatar generator** — instantly create user avatars when designing contact lists, chats, testimonial carousels and things alike
-* **Text generator** — forget about lorem ipsum and add meaningful copy to your designs in one click: names, job titles, cities, phone and credit card numbers, and more
+### AI-powered tools 
 
-#### Works online and offline
+Lunacy has a wide range of AI-powered tools that will save you valuable time during the design process:
+
+* **Background remover** — get rid of photo backgrounds in one click.
+* **Image upscaler** — enlarge images and enhance their resolution.
+* **Avatar tool** — instantly create user avatars when designing contact lists, chats, testimonial carousels, and the like.
+* **Text generator** — forget about lorem ipsum and add meaningful copy to your designs in one click: names, job titles, cities, phone and credit card numbers, and more.
+
+### Work online and offline
 
 You can work both with cloud and local documents. It's up to you to choose. You can switch between the cloud and local modes whenever you want.
 
 **Cloud documents**:
 
-* Accessible from anywhere
+* Accessible from any device
 * Up to 10 simultaneous editors
-* Observer mode and other collaboration perks
-
-<!--
-* Comments, observer mode and other collaboration perks
--->
-
+* <a href="https://lunacy.docs.icons8.com/clouddocs/#observer-mode" target="_blank">Observer mode</a>, <a href="https://lunacy.docs.icons8.com/comments/" target="_blank">comments</a>, and other collaboration perks
 
 **Local documents**:
 
-* Privacy: what you save to a local file stays local
-* When you have to work over a low-bandwidth connection or with no internet at all
+* Privacy — whatever you save to a local file stays local
+* Your designs are always available, even on low-bandwidth connections or with no internet at all
 
-#### Minimum learning curve
+### Minimal learning curve
 
-If you have experience with Sketch or Figma, in Lunacy you’ll feel like home.
+If you have experience with Sketch or Figma, you'll feel right at home in Lunacy. The <a href="https://lunacy.docs.icons8.com/interface/" target="_blank">interface</a> and <a href="https://lunacy.docs.icons8.com/basics/" target="_blank">basic features</a> are pretty similar.
 
-#### Full support for Sketch files
+### Full support for Sketch files and Figma import
 
-Lunacy natively works with the Sketch format. You can do whatever you want with .sketch files:
+No need to buy a Mac and/or Sketch license: Lunacy works natively with the Sketch format. 
 
-* Open
-* Edit
-* Save
+You can open, edit, and save them back into the `.sketch` format seamlessly. Lunacy can handle both the dusty kits from Sketchappsources and the latest versions of Sketch files.
 
-No need to buy a Mac and/or Sketch license. Lunacy can handle both dusty kits from Sketchappsources and the latest versions of .sketch files.
+If you need to continue working on designs you made in Figma, <a href="https://lunacy.docs.icons8.com/interface/#importing-documents" target="_blank">import them</a> is as easy as copying the file link, then pressing `Ctrl + V` in Lunacy.
 
-#### No bounds
+### No limitations
 
-* Thanks to the native support for the Sketch format, you can use Lunacy with all major hand-off and version control tools like Avocode, Zeplin, Abstract, Simpli, etc.
-* If it is necessary, you can easily import .sketch files to Figma or XD.
+* Thanks to native support for the Sketch format, you can use Lunacy with all major handoff and version control tools like Avocode, Zeplin, Abstract, Simpli, etc.
+* If you need to, you can easily import `.sketch` files to Figma or XD.
