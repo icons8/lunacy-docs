@@ -56,10 +56,13 @@ Lunacy also has **built-in UI kits** to help you design interfaces faster and mo
 
 Lunacy has a wide range of AI-powered tools that will save you valuable time during the design process:
 
-* **Background remover** — get rid of photo backgrounds in one click.
-* **Image upscaler** — enlarge images and enhance their resolution.
-* **Avatar tool** — instantly create user avatars when designing contact lists, chats, testimonial carousels, and the like.
-* **Text generator** — forget about lorem ipsum and add meaningful copy to your designs in one click: names, job titles, cities, phone and credit card numbers, and more.
+**Background remover** — get rid of photo backgrounds in one click.
+
+**Image upscaler** — enlarge images and enhance their resolution.
+
+**Avatar tool** — instantly create user avatars when designing contact lists, chats, testimonial carousels, and the like.
+
+**Text generator** — forget about lorem ipsum and add meaningful copy to your designs in one click: names, job titles, cities, phone and credit card numbers, and more.
 
 ### Work online and offline
 
