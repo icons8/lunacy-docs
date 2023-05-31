@@ -49,9 +49,9 @@ Download beta:
 * <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.1.0.dmg)
 * <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.1.0.deb)
 
-<div class="callout callout--warning">
+<!--<div class="callout callout--warning">
     <p><strong>Note:</strong> Due to changes in the Cloud API, cloud documents once opened in v.9.1 won't open in the earlier Lunacy versions.</p>
-</div>
+</div>-->
 
 
 ### Arc editor
