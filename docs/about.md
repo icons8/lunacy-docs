@@ -22,29 +22,29 @@ page_nav:
 
 Lunacy is a next-gen vector graphic design software for UI/UX and web design. 
 
-### Faster than Figma, smarter than Sketch
+#### Faster than Figma, smarter than Sketch
 
 Created by designers for designers, Lunacy optшmizes your workflow and minimizes distractions. No more wasting time googling suitable icons and photos, switching apps to remove backgrounds, or thinking of placeholder texts. Lunacy takes care of all that, and more.
 
-### Free
+#### Free
 
 Lunacy is completely free for personal and commercial use.
 
 If you need more freedom with cloud documents, teams, or want to use built-in graphics without link attribution, you can <a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">purchase a subscription</a>.
 
-### Cross-platform
+#### Cross-platform
 
 Lunacy runs on Windows, macOS, and Linux, ensuring compatibility across different operating systems.
 
-### Low system requirements
+#### Low system requirements
 
 Lunacy isn't demanding on hardware and runs smoothly even on moderate laptops. 
 
-### Real-time collaboration
+#### Real-time collaboration
 
 Users working on different platforms can collaborate on the same design in real-time.
 
-### Built-in graphics
+#### Built-in graphics
 
 Lunacy comes equipped with a variety of built-in graphics, including **icons, photos, and illustrations.**
 
@@ -52,7 +52,7 @@ You can use these graphics for free as long as you include a link to Icons8 in y
 
 Lunacy also has **built-in UI kits** to help you design interfaces faster and more efficiently.
 
-### AI-powered tools 
+#### AI-powered tools 
 
 Lunacy has a wide range of AI-powered tools that will save you valuable time during the design process:
 
@@ -64,7 +64,7 @@ Lunacy has a wide range of AI-powered tools that will save you valuable time dur
 
 **Text generator** — forget about lorem ipsum and add meaningful copy to your designs in one click: names, job titles, cities, phone and credit card numbers, and more.
 
-### Work online and offline
+#### Work online and offline
 
 You can work both with cloud and local documents. Switch between the cloud and local modes whenever you want.
 
@@ -79,11 +79,11 @@ You can work both with cloud and local documents. Switch between the cloud and l
 * Privacy — whatever you save to a local file stays local
 * Your designs are always available, even on low-bandwidth connections or with no internet at all
 
-### Minimal learning curve
+#### Minimal learning curve
 
 If you have experience with Sketch or Figma, you'll feel right at home in Lunacy. The <a href="https://lunacy.docs.icons8.com/interface/" target="_blank">interface</a> and <a href="https://lunacy.docs.icons8.com/basics/" target="_blank">basic features</a> are pretty similar.
 
-### Full support for Sketch files and Figma import
+#### Full support for Sketch files and Figma import
 
 No need to buy a Mac and/or Sketch license: Lunacy works natively with the Sketch format. 
 
@@ -91,7 +91,7 @@ You can open, edit, and save them back into the `.sketch` format seamlessly. Lun
 
 If you need to continue working on designs you made in Figma, <a href="https://lunacy.docs.icons8.com/interface/#importing-documents" target="_blank">import them</a> is as easy as copying the file link, then pressing `Ctrl + V` in Lunacy.
 
-### No limitations
+#### No limitations
 
 Thanks to native support for the Sketch format, you can use Lunacy with all the major handoff and version control tools like Avocode, Zeplin, Abstract, Simpli.
 
