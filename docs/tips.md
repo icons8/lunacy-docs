@@ -450,8 +450,6 @@ To **change the ratio** of a star (the distance from its intersection points to 
 
 ## More tips, more tricks
 
-And there's more.
-
 ### Eyedropper zoom
 
 Lunacy’s eyedropper tool is equipped with a zoom option that comes in handy when the target area is small and you need pixel precision. To use it, hover the eyedropper over the target and hold down the left mouse button, then point the eyedropper to the required pixel and release the mouse button:
