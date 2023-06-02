@@ -58,16 +58,25 @@ Download:
 
 With the Arc editor, you can quickly create rings and semirings, design pie charts or other fancy circular elements. Draw an ellipse, and use the handles that show up within the bounding box.
 
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/arc_editor.png" height="auto"><source src="/public/arc_editor.mp4" type="video/mp4"></video>
+
 ### On-canvas controls for editing stars and polygons 
 Another improvement to save you from digging in the right panel. Adjust the number of vertices, corner radius values, and ratio for stars and polygons by dragging the respective handles right on the canvas.
 
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/star_polygon_editor.png" height="auto"><source src="/public/star_polygon_editor.mp4" type="video/mp4"></video>
+
 ### RTL and BiDi support
 
-Lunacy became more accessible and user-friendly for people who read and write from right to left. When you select an RTL localization, Lunacy’s interface mirrors itself to provide a true RTL experience. We also significantly improved the work with RTL languages on the canvas, as well as the usage of emojis in such languages.
+Lunacy became more accessible and user-friendly for people who read and write from right to left. When you select an RTL localization, Lunacy’s interface mirrors itself to provide a true RTL experience. 
+
+<embed type="image/svg+xml" alt="rtl_lunacy_interface" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ioodr6w7BUOcSuic1TTL5Q.svg" width="844" />
+
+We also significantly improved the work with RTL languages on the canvas, as well as the usage of emojis in such languages.
 
 ### New render engine
 
 This version brings a new render engine, which means higher FPS and lower input lags.
+
 
 ### Improvements
 
@@ -119,9 +128,6 @@ Download:
 ## 9.0
 
 *Release date: February 28, 2023*
-
-
-
 
 ### Import from Figma
 
