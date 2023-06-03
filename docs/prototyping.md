@@ -64,6 +64,14 @@ Resized frames appear with the word *Resized* in the Inspector as shown in the f
 
 ![Resized frame in the Inspector](public/proto-resizedartboard.png)
 
+Scroll your protoype up or down using your Keyboard as follows:
+
+1. Click ![Play button](public/playbtn.png) in the upper-right corner of the interface to open the Preview window.
+2. Click on an empty area inside the Preview window.
+3. Press the Up or Down arrow keys to scroll up or down by a small amount.
+4. Press the Page Up or Page Down keys to scroll up or down a page at a time.
+5. Press the Home/End keys to scroll to the beginning or end of the artboard.
+
 ## [Hotspots](#hotspots)
 
 You can also use hotspots to create links between frames. These are a special type of layers that lets you create interactive zones anywhere on frames.
