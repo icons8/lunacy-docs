@@ -211,9 +211,9 @@ To **add a gradient fill**:
 
 1. In the **Fills** section of the right panel, click the color swatch to open up the color picker.
 2. At the top of the color picker, click one of these buttons to select the gradient type:
-    1. <embed type="image/svg+xml" alt="linear_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ucBlC-G4FkGfihMcQeu-hg.svg" width="20" /> linear
-    2. <embed type="image/svg+xml" alt="radial_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/VI1Nwhu1AkyQwtPO8_4wfg.svg" width="20" /> radial
-    3. <embed type="image/svg+xml" alt="angular_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HGQiN9XWlEiogGcbq1rgdA.svg" width="20" /> angular
+    - <embed type="image/svg+xml" alt="linear_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ucBlC-G4FkGfihMcQeu-hg.svg" width="20" /> linear
+    - <embed type="image/svg+xml" alt="radial_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/VI1Nwhu1AkyQwtPO8_4wfg.svg" width="20" /> radial
+    - <embed type="image/svg+xml" alt="angular_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HGQiN9XWlEiogGcbq1rgdA.svg" width="20" /> angular
 3. The gradient bar with two handles will show up in the color picker.
 4. Also, you will see a gradient control with two color points over the layer. The appearance of the gradient control depends on the selected gradient type.
 5. Use the gradient control and/or the gradient bar to get the desired effect. 
@@ -266,7 +266,7 @@ To **create an image fill**:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_image_fill.png" height="auto"><source src="/public/styling_image_fill.mp4" type="video/mp4"></video>
 
-You can also create an image fill by holding down `Ctrl` (`⌘`) and dropping an image from your desktop or the **Photos** library in the left panel onto a layer, like in the demo below.
+You can also quickly replace an image fill by holding down `Ctrl` (`⌘`) and dropping an image from your desktop or the **Photos** library in the left panel onto a layer, like in the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_ctrl_image_replacement.png" height="auto"><source src="/public/styling_ctrl_image_replacement.mp4" type="video/mp4"></video>
 
@@ -325,7 +325,7 @@ Advanced border settings include:
 
 - **Caps.** Define the shape of the caps of open paths: no caps, round, or square. Open paths include those created with the Line, Arrow, or Pen/Pencil tools.
 - **Folds.** Adjust the appearance of the corners for arrows and paths with corners drawn with the Pen/Pencil tool.
-- **Start and End.** Determine the appearance of the ends of open paths drawn with the Line, Arrow, or Pen/Pencil tools.
+- **Start and End.** Determine the appearance of the ends of open paths drawn with the Line, Arrow, or Pen/Pencil tools.<br>
     <embed type="image/svg+xml" alt="start_end" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/dUfYC480VE-0X2q-gX0Y9Q.svg" width="600" /> 
 - **Dash and Gap.** Create dashed lines or borders. Define the length of the dashes and the gaps between them in the corresponding input fields. To turn the border into a solid line, set all the values to 0.
     <embed type="image/svg+xml" alt="dash_gap" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/2wYx6kpGQ0aqmKR0P27Ibg.svg" width="600" /> 
