@@ -211,9 +211,9 @@ To **add a gradient fill**:
 
 1. In the **Fills** section of the right panel, click the color swatch to open up the color picker.
 2. At the top of the color picker, click one of these buttons to select the gradient type:
-    - <embed type="image/svg+xml" alt="linear_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ucBlC-G4FkGfihMcQeu-hg.svg" width="20" /> — linear<br>
-    - <embed type="image/svg+xml" alt="radial_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/VI1Nwhu1AkyQwtPO8_4wfg.svg" width="20" /> — radial<br>
-    - <embed type="image/svg+xml" alt="angular_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HGQiN9XWlEiogGcbq1rgdA.svg" width="20" /> — angular<br>
+- <embed type="image/svg+xml" alt="linear_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ucBlC-G4FkGfihMcQeu-hg.svg" width="20" /> — linear<br>
+- <embed type="image/svg+xml" alt="radial_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/VI1Nwhu1AkyQwtPO8_4wfg.svg" width="20" /> — radial<br>
+- <embed type="image/svg+xml" alt="angular_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HGQiN9XWlEiogGcbq1rgdA.svg" width="20" /> — angular<br>
 3. The gradient bar with two handles will show up in the color picker.
 4. Also, you will see a gradient control with two color points over the layer. The appearance of the gradient control depends on the selected gradient type.
 5. Use the gradient control and/or the gradient bar to get the desired effect. 
@@ -226,7 +226,7 @@ Here’s a list of actions applicable to all types of gradients:
 - To add a color to a gradient, just click over the gradient bar or the gradient control. To adjust the color, move the handles or the color points.
 - To delete a gradient color, point the cursor over the respective color point or handle, then press `Del`.
 - To save a gradient as a color variable, select the variable type (Global or Document) and click `+`.
-- To invert a gradient, use the <embed type="image/svg+xml" alt="gradient_invert" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/fBytx2MklEi3hM8AagymiA.svg" width="20" /> button next to the gradient bar.
+- To invert a gradient, use the <embed type="image/svg+xml" alt="gradient_invert" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HNAsjFFLjkKabeS0xaIeYw.svg" width="20" /> button next to the gradient bar.
 
 ##### Linear gradients
 
