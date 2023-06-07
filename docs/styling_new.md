@@ -37,7 +37,7 @@ You can apply them to all <a href="https://lunacy.docs.icons8.com/layers/#introd
 
 Save time by creating layer styles for individual or multiple styling options. You can easily reuse them across different layers, keeping your designs consistent.
 
-**See also:**
+**See also:**<br>
 <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
 
 ## Adding styling options
