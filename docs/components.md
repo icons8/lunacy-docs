@@ -55,7 +55,7 @@ To **create a component**:
 
 You can also select a layer and click <embed type="image/svg+xml" alt="go_to_main" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/0yVpQqG2_kmdN0fYegHJ4g.svg" width="16" /> in the context toolbar at the top of the canvas or select the **Create component** option on the context menu.
 
-### Layers vs. Frames
+#### Layers vs. Frames
 
 When you create a component from a <a href="https://lunacy.docs.icons8.com/layers/" target="_blank">layer or layer group</a>, Lunacy automatically frames it and transfers it to a separate Components page where it’s stored as a main component. An instance of the newly created component remains on the canvas.
 
@@ -67,7 +67,7 @@ The difference is shown here:
 
 Find out more about [component pages](#components-page).
 
-### Components and instances in the Layer list
+#### Components and instances in the Layer list
 
 <embed type="image/svg+xml" alt="components_instances_in_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/f8iTdn1orUiVLyZVImJClg.svg" width="844" /> 
 
@@ -97,35 +97,35 @@ Right-click a component in the left panel to bring up the context menu with thes
 
 ## [Managing components](managing-components)
 
-### [Main component properties](#main-component-properties)
+#### [Main component properties](#main-component-properties)
 
 When you select a main component, the **Component** section in the right panel displays these properties:
 
 <embed type="image/svg+xml" alt="component_main_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NcGkZHpkfUadWBBYQjj0QA.svg" width="844" /> 
 
-### Component type
+#### Component type
 
 Select one of the presets to organize your components by type. 
 
 <div class="callout callout--info"> <p><strong>Note:</strong> This setting currently has no visible effect. It’s reserved for future use in upcoming releases.</p> </div>
 
-### Resizing behavior
+#### Resizing behavior
 
 Choose whether to adjust the content of the component when it’s resized.
 
-### Color picker, opacity, and visibility
+#### Color picker, opacity, and visibility
 
 Set the component’s background color and show/hide it by pressing the <embed type="image/svg+xml" alt="eye_hide" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Aa8CJl234kaxZXUTplkR4g.svg" width="24" /> / <embed type="image/svg+xml" alt="eye_show" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/y6Qj385WoUu0be9H0CO3lA.svg" width="20" /> icons.
 
-### Include background in export
+#### Include background in export
 
 Include/exclude the component’s background when exporting it.
 
-### Include in instances
+#### Include in instances
 
 Include/exclude the component’s background in its instances.
 
-### [Components page](components-page)
+#### [Components page](components-page)
 
 You can use **Components page** that Lunacy generates automatically to store all of your main components. Alternatively, you can turn any page into a **Components page**:
 
@@ -182,7 +182,7 @@ Here's an example with just the category name and component name:
 
 Still, the quickest way to categorize your components is to create [component states](#component-states).
 
-### Deleting components
+#### Deleting components
 
 Delete main components from the **Components tab** (using the [context menu](#components-tab-context-menu)) or the **Components page** (simply delete the component frame). 
 
@@ -195,7 +195,7 @@ You can **edit a main component**:
 - In the **Component editor**.
 - Directly in the **Components page**.
 
-### Making edits in the Component editor
+#### Making edits in the Component editor
 
 1. Select a component instance and press `Enter` or choose **Edit component** in the context menu.
 2. The main component will appear over the selected instance, while the rest of the canvas will be dimmed. The contents of the component will appear in the **Layer list**.
@@ -204,7 +204,7 @@ You can **edit a main component**:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_components_1.png" height="auto"><source src="/public/editing_components_1.mp4" type="video/mp4"></video>
 
-### Making edits in the Components page
+#### Making edits in the Components page
 
 1. Right-click on an instance and select **Go to Main Component** in the **right panel** or manually switch to the **Components page**.
 2. Edit the required component.
@@ -241,35 +241,35 @@ With a main component or instance selected:
 - Press `Ctrl + D` or `Ctrl + C → Ctrl + V`.
 - Hold down `Alt`, then drag to place an instance on the canvas.
 
-### Component instance properties
+#### Component instance properties
 
 For a component instance, the **Component** section in the **right panel** will look like this:
 
 <embed type="image/svg+xml" alt="rightpanel_instance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zztZgnyr9EqhG8-NFu-_hA.svg" width="844" /> 
 
-### Component state menu
+#### Component state menu
 
 A dropdown menu displaying the current state of the component. When open, it shows all other components and UI kits available in the document. 
 
 If you didn’t create any component states, this property will read **Default State**. 
 
-### Component states
+#### Component states
 
 Select one of the presets to organize your components by type. Changing this for a component instance will affect its main component and vice versa.
 
-### Detach from component
+#### Detach from component
 
 Detach the instance from its main component or press `Ctrl + Alt + D` / `⌘ + ⌥ + B`.
 
-### Reset instance size
+#### Reset instance size
 
 If you resized the instance, click this button to revert it to the size of the main component.
 
-### Go to main component
+#### Go to main component
 
 Redirects you to the instance's main component.
 
-### Component type
+#### Component type
 
 See the corresponding [main component property](#main-component-properties).
 
@@ -305,7 +305,7 @@ Here’s a full list of layers and properties you can create overrides for:
 - Tints
 - Hotspots
 
-### Understanding overrides
+#### Understanding overrides
 
 To understand how all of them work, we'll use more complex examples. Also, instead of making some overrides (like text and image edits) manually, we'll use some of Lunacy's handy time-saving features like <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> and the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a>.
 
@@ -317,7 +317,7 @@ All the components used in the layout are on the left, and their instances are n
 
 When using complex components such as this one, you can easily change the states of the nested components, manually edit them, or modify all instances by adjusting the main component. 
 
-### Fills and images
+#### Fills and images
 
 The two images in the card are easily editable. The background behind the profile photo is a simple shape with an **Image** fill.
 
@@ -332,7 +332,7 @@ Now, when you make a component instance, a new avatar is generated automatically
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_copying_cards.png" height="auto"><source src="/public/component_copying_cards.mp4" type="video/mp4"></video>
 
 
-### Text content and properties
+#### Text content and properties
 
 You can easily change the text and/or its properties in the component instance text layers. 
 
@@ -343,14 +343,14 @@ Use the **Text** section in the right panel to:
 - Edit **typographic properties**.
 - Alter the text’s **advanced settings**.
 
-#### Using generated texts
+##### Using generated texts
 In the demo above, along with the avatar, nearly all of the texts changed to randomized placeholders as well. This is because most of the texts in the layout were generated by Lunacy’s text generation feature.
 
 An extensive list of text generation options appears whenever you add a layer using the text tool (`T`). It creates randomized texts for your layouts so you don’t have to do the work yourself. Find out more about <a href="https://lunacy.docs.icons8.com/tips/#text-generation" target="_blank">text generation</a>.
 
 So, when we were creating component instances in the demo above, new texts appeared automatically.  
 
-### Layer and text styles
+#### Layer and text styles
 
 In the main component, we used text and color styles to design our layouts. This is a convenient feature for keeping your designs consistent and easily editable. 
 
@@ -359,7 +359,7 @@ Simply switch styles, create new ones, or edit and delete existing styles in the
 <embed type="image/svg+xml" alt="style_dropdown_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/_1_XLrY8B0WTqyjneVrQaw.svg" width="844" /> 
 
 
-### Auto layout overrides
+#### Auto layout overrides
 
 When you modify auto layout settings in instances, a **Reset overrides** button appears in the **Auto layout** section of the right panel:
 
@@ -371,7 +371,7 @@ Use it to reset **only the auto layout overrides** in an instance:
 
 Press the same button in the **Components** section to **reset all overrides** in the instance, **including** overrides made to the auto layout. Read in more detail about <a href="https://lunacy.docs.icons8.com/autolayout/#auto-layout-overrides" target="_blank">auto layout overrides</a>.
 
-### Tint overrides
+#### Tint overrides
 
 A <a href="https://lunacy.docs.icons8.com/styling/#tints" target="_blank">tint</a> is a property you can add to a layer group or component instance. It’s useful for adding color to elements with semi-transparent parts or complex icons.
 
@@ -385,11 +385,11 @@ The demo below shows three instances of the same component. We applied a tint ov
 
 When you apply an override, the <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > button appears in the **Tint** section of the right panel. Use it to remove only the tint override.
 
-### Hotspot overrides
+#### Hotspot overrides
 
 If there’s a <a href="https://lunacy.docs.icons8.com/prototyping/#hotspots" target="_blank">hotspot</a> in your layout, you can override its target frame.
 
-### None override
+#### None override
 
 You can **hide a nested component** using the **None override** option.
 
@@ -420,7 +420,7 @@ For example, there’s quite a few auto layouts in our profile card examples:
 
 To recap, here’s a list of context menu options and shortcuts you can use to work with components, along with corresponding shortcuts, if available.
 
-### Main component options
+#### Main component options
 
 | Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | Description   | Windows and Linux Shortcut / Menu Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | MacOS Shortcut / Menu Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | -- | -- | ----------------------------- | ----------------------------- |
@@ -428,7 +428,7 @@ To recap, here’s a list of context menu options and shortcuts you can use to w
 | **Convert Component to Frame** | Right-click a main component and select the option to convert it into a frame. All of its instances will also turn into frames. | `Ctrl + Shift + Y`     | `⌘ + Shift + Y`              |
 
 
-### Component instance options
+#### Component instance options
 
 | Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     | Description    | Windows and Linux Shortcut / Menu Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| MacOS Shortcut / Menu Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
 | -- | -- | ----------------------------- | ----------------------- |
