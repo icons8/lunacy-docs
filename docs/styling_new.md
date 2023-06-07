@@ -226,7 +226,7 @@ Here’s a list of actions applicable to all types of gradients:
 - To add a color to a gradient, just click over the gradient bar or the gradient control. To adjust the color, move the handles or the color points.
 - To delete a gradient color, point the cursor over the respective color point or handle, then press `Del`.
 - To save a gradient as a color variable, select the variable type (Global or Document) and click `+`.
-- To invert a gradient, use the <embed type="image/svg+xml" alt="invert_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/yzA2Bbv6JUOyH04FS-Dbiw.svg" width="20" /> button next to the gradient bar.
+- To invert a gradient, use the <embed type="image/svg+xml" alt="gradient_invert" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/fBytx2MklEi3hM8AagymiA.svg" width="20" /> button next to the gradient bar.
 
 ##### Linear gradients
 
