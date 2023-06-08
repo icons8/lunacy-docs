@@ -68,7 +68,9 @@ To apply styling options to multiple layers, select them and click `+` next to a
 
 <embed type="image/svg+xml" alt="effects_to_multiple_layers" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/sPPKm0BlvkOi4bgdTX9PVw.svg" width="844" /> 
 
-If you see **Click + to replace mixed content** in any of the styling sections in the right panel, it means that the selected layers already have different settings for this option. Click `+` to override the current settings and apply the same styling option to the selected layers.
+If you see **Click + to replace mixed content** in any of the styling sections in the right panel, it means that the selected layers already have different settings for this option. 
+
+Click `+` to override the current settings and apply the same styling option to the selected layers.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_to_multiple_layers.png" height="auto"><source src="/public/styling_to_multiple_layers.mp4" type="video/mp4"></video>
 
@@ -244,11 +246,11 @@ To **add a gradient fill**:
 
 Here’s a list of actions applicable to all types of gradients:
 
-- Change the color of a gradient point by clicking it (or the corresponding gradient bar handle) and selecting the required color.
-- To add a color to a gradient, just click over the gradient bar or the gradient control. To adjust the color, move the handles or the color points.
-- To delete a gradient color, point the cursor over the respective color point or handle, then press `Del`.
-- To save a gradient as a color variable, select the variable type (Global or Document) and click `+`.
-- To invert a gradient, use the <embed type="image/svg+xml" alt="gradient_invert" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HNAsjFFLjkKabeS0xaIeYw.svg" width="20" /> button next to the gradient bar.
+- **Change the color of a gradient point** by clicking it (or the corresponding gradient bar handle) and selecting the required color.
+- To **add a color to a gradient**, just click over the gradient bar or the gradient control. To adjust the color, move the handles or the color points.
+- To **delete a gradient color**, point the cursor over the respective color point or handle, then press `Del`.
+- To **save a gradient as a color preset**, select the variable type (Global or Document) and click `+`.
+- To **invert a gradient**, use the <embed type="image/svg+xml" alt="gradient_invert" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HNAsjFFLjkKabeS0xaIeYw.svg" width="20" /> button next to the gradient bar.
 
 ##### Linear gradients
 
