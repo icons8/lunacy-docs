@@ -112,11 +112,11 @@ The color picker displays these settings:
 
 **Opacity slider.** Slide along the bar to adjust the opacity.
 
-**Color code.** Displays the code of the currently selected color:
-    - HEX
-    - RGB
-    - HSB
-    - HSL
+**Color code.** Displays the code of the currently selected color:<br>
+- HEX
+- RGB
+- HSB
+- HSL
 
 **Color code input field.** Paste HEX, RGBA, HSB, or HLS values here for maximum accuracy.
 
