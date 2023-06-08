@@ -64,9 +64,9 @@ Change the font size by dragging the handle on the bounding box of a layer:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/font_size_editor.png" height="auto"><source src="/public/font_size_editor.mp4" type="video/mp4"></video>
 
-### Advanced privacy settings
+### Advanced privacy settings 
 
-Turn off some or all of these features for a completely private experience.
+Available for <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">premium users</a>. Turn off some or all of these features for a completely private experience.
 
 <embed type="image/svg+xml" alt="privacy_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/L1r9ZlRIVUSeW-7_ve4sDg.svg" width="844" /> 
 

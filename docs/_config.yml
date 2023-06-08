@@ -49,7 +49,7 @@ doks:
       url: '/shortcuts'
     - title: 'Localization'
       url: '/localization'
-    - title: 'Plans and Pricing'
+    - title: 'Plans and pricing'
       url: '/subscriptions'
     - title: 'FAQs'
       url: '/faq'
