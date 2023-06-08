@@ -75,7 +75,7 @@ Available for <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cl
 
 - You can now import **passcode-protected Figma files**.-->
 - **Improved memory usage.** Up to **30% less RAM** used for storing layer data, so huge files now take up less computer resources.
-- Flip operations are now a part of a matrix, so the **Flip** buttons don't have a pressed state anymore.
+- We updated the logic of flip operations, so the **Flip Horizontal/Vertical** buttons don't have pressed states anymore.
 
 ## 9.1
 *Release date: May 31, 2023*
@@ -232,14 +232,14 @@ Drawing gray rectangles over gray rectangles is weird, right? We also think so. 
 
 If you prefer drawing gray rectangles over gray rectangles, remove all the colors from the palette.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-autocolorsph.png" height="auto"><source src="/public/autocolors.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/auto-shape-colors.png" height="auto"><source src="/public/auto-shape-colors.mp4" type="video/mp4"></video>
 
 
 ### Auto Z-index
 
 Lunacy automatically determines the order of layers (aka z-index) as you drag them. For example, if you drag a larger layer over a smaller one, Lunacy will place the larger layer below the smaller one. You can still use the **Send to back**/**Send to front commands**, but you will need them way less often.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/rn-autozaxisph.png" height="auto"><source src="/public/rn-autozaxis.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/auto-z.png" height="auto"><source src="/public/auto-z.mp4" type="video/mp4"></video>
 
 ### Snapping to frame presets
 
