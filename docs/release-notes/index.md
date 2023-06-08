@@ -40,6 +40,31 @@ page_nav:
 
 # Version 9
 
+## 9.2 (Beta)
+*Release date: June 5, 2023*
+
+Download beta:
+
+* Windows: [EXE x64 beta](https://lcdn.icons8.com/setup/beta/LunacySetup.exe), [EXE ARM beta](https://lcdn.icons8.com/setup/beta/LunacySetup_arm64.exe)
+* macOS: [DMG beta](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
+* Linux: [DEB beta](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
+
+### New features
+
+<!--- **Free format.** You can now save your documents as `.free` files. The `.free` format uses up to 10 times less data to define a layer, and it's optimized for huge documents. Its saving and opening times are twice as fast as those of a `.sketch` file.
+- Auto layout **padding edits** via the values in the input fields now depend on the **Nudge Amount**.-->
+
+- On-canvas **Padding** and **Spacing** editors for Auto layout.
+- The **Font size** editor is now also available on the canvas.
+- **Privacy settings** for premium users.
+
+### Improvements
+<!--- `Shift + A` doesn't just add auto layout. It frames selected layers and instantly applies auto layout to them.
+
+- You can now import **passcode-protected Figma files**.-->
+- **Improved memory usage.** Up to 30% less RAM used for storing layer data, so huge files now take up less memory.
+- Flip operations are now a part of a matrix, so the **Flip** buttons don't have a pressed state anymore.
+
 ## 9.1
 *Release date: May 31, 2023*
 
@@ -56,11 +81,12 @@ Download:
 
 ### Arc editor
 
-With the Arc editor, you can quickly create rings and semirings, design pie charts or other fancy circular elements. Draw an ellipse, and use the handles that show up within the bounding box.
+With the **Arc editor**, you can quickly create rings and semirings, design pie charts or other fancy circular elements. Draw an ellipse, and use the handles that show up within the bounding box.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/arc_editor.png" height="auto"><source src="/public/arc_editor.mp4" type="video/mp4"></video>
 
 ### On-canvas controls for editing stars and polygons 
+
 Another improvement to save you from digging in the right panel. Adjust the number of vertices, corner radius values, and ratio for stars and polygons by dragging the respective handles right on the canvas.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/star_polygon_editor.png" height="auto"><source src="/public/star_polygon_editor.mp4" type="video/mp4"></video>
@@ -77,6 +103,11 @@ We also significantly improved the work with RTL languages on the canvas, as wel
 
 This version brings a new render engine, which means higher FPS and lower input lags.
 
+### Dutch language
+
+Big thanks to *Smessaert* for helping us out with the Dutch localization.
+
+If you also want to take part in Lunacy localization, click <a href="https://lunacy.docs.icons8.com/localization/" target="_blank">here</a>.
 
 ### Improvements
 
