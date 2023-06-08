@@ -72,7 +72,7 @@ If you see **Click + to replace mixed content** in any of the styling sections i
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_to_multiple_layers.png" height="auto"><source src="/public/styling_to_multiple_layers.mp4" type="video/mp4"></video>
 
-## Fills
+## [Fills](#fills)
 
 **Fills** define the color of a layer. Fill options are available in all styling sections (except for blurs) and define the color of the selected layer, borders, or shadows. 
 
@@ -122,9 +122,9 @@ The color picker displays these settings:
 
 **Create color variable.** This button opens the color variable editing mode.
 
-**Preset colors.** To speed up your work with colors, you can save them here and select them directly from this panel later. There are two types of preset colors:
-    - **Global** colors appear in the color picker in all documents.
-    - **Document** colors are available in the current document only.
+**Preset colors.** To speed up your work with colors, you can save them here and select them directly from this panel later. There are two types of preset colors:<br>
+- **Global** colors appear in the color picker in all documents.<br>
+- **Document** colors are available in the current document only.
 
 **Global and document presets.** To switch between global and document colors, open the dropdown menu. To delete a color preset, right-click over it, then select **Remove**.
 
@@ -157,13 +157,13 @@ To **apply an existing color variable** to a layer:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_applying_color_variable.png" height="auto"><source src="/public/styling_applying_color_variable.mp4" type="video/mp4"></video>
 
-To **edit a color variable**, open up the color dropdown menu, and click _ to edit the color.
+To **edit a color variable**, open up the color dropdown menu, and click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="20" /> to edit the color.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_edit_variable.png" height="auto"><source src="/public/styling_edit_variable.mp4" type="video/mp4"></video>
 
 With a layer selected, use one of these ways to **detach a layer from a color variable**:
 
-- Change its color.
+- [Change its color](#fills).
 - Click `+` in the right panel to add a new fill and delete the color variable fill.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_detach_variable.png" height="auto"><source src="/public/styling_detach_variable.mp4" type="video/mp4"></video>
@@ -202,13 +202,21 @@ You can set these fills for a layer and adjust them in the **Fill** section of t
 <embed type="image/svg+xml" alt="fill_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/z1-bS8V5Q0yciSJ1pW3kxA.svg" width="844" /> 
 
 **Color picker.** The color swatch matches the color of the selected layer. Click it to open the color picker.
+
 **HEX color code.** Displays the HEX code of a fill. Alternatively, this field shows the name of the color variable applied to the layer. 
+
 **Color variables.** Opens the dropdown menu to view the list of document color variables.
+
 **Fill opacity.** The opacity of the fill. You can also adjust the opacity inside the color picker itself.
+
 **Show/hide fill.** Hides the fill.
+
 **Delete fill.** Removes the fill from the layer.
+
 **Add fill.** Adds another fill on top of the current one. You can move fills around by dragging the leftmost part of a fill up or down.
+
 **Fill properties.** This button opens the panel where you can select between the <a href="https://en.wikipedia.org/wiki/Nonzero-rule" target="_blank">Non-Zero</a> and <a href="https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule" target="_blank">Even-Odd</a> options for filling overlapping paths.
+
 **Blend mode.** Blend mode determines how the fill blends with the layer underneath. Activate it to set the blend mode for a fill (when active, the option will replace the **Hide** and **Delete** buttons) and click it again to hide it. 
 
 <div class="callout callout--info">
@@ -216,10 +224,9 @@ You can set these fills for a layer and adjust them in the **Fill** section of t
 </div>
 
 
-
 #### Solid fills
 
-To **define a solid fill**, use any of the ways described in the section above.
+To **define a solid fill**, use [any of the ways described in the section above](#fills).
 
 #### Gradients
 
@@ -322,14 +329,22 @@ The **Border** section opens up in the right panel when you add a border to an e
 <embed type="image/svg+xml" alt="border_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/67iEFdMtKEqsGm6tLZkmWQ.svg" width="844" /> 
 
 **Color swatch.** The color swatch matches the color of the border. Click it to open the border color picker.
+
 **HEX color code.** Shows the name of a color variable or the HEX code of a fill. Open the dropdown menu to view the list of document color variables.
+
 **Color variables.** Opens the dropdown menu to view the list of document color variables.
+
 **Border position.** You can choose to place borders on the inside, outside, or center (default) of the layer’s bounding box. The only option available for open paths (lines, arrows, curves, etc.) is center.
     <embed type="image/svg+xml" alt="border_position" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jfsfC2XTOke_nYUnftNKjQ.svg" width="600" /> 
+
 **Show/hide border.** Hides the border.
+
 **Borders thickness.** Determines the thickness of a border or an open path.
+
 **Advanced border settings.** More adjustment options for the shape and appearance of a border. Read more about advanced settings for borders below.
+
 **Add border.** Adds another border on top of the current one. You can move borders around by dragging the leftmost part of a border up or down.
+
 **Delete border.** Removes the border from the layer.
 
 ### Advanced border settings
@@ -366,9 +381,8 @@ You can add drop shadows and inner shadows to your layers. Both types have the s
 There are two types of blur effects you can add to layers:
 
 **Gaussian** — blurs the selected layer.
-**Background** — blurs the layer underneath the selected layer. To see the background blur effect, delete or hide the fill of the selected layer or bring its fill opacity below 100%. When using this type of blur, you can also adjust the saturation of the blurred layer.
 
-In the demo below, we first apply a **Gaussian blur** to an image, then remove it and add a background blur to the rectangle above the image.
+**Background** — blurs the layer underneath the selected layer. To see the background blur effect, delete or hide the fill of the selected layer or bring its **fill opacity** below 100%. When using this type of blur, you can also adjust the **saturation** of the blurred layer.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_blur.png" height="auto"><source src="/public/styling_blur.mp4" type="video/mp4"></video>
 
