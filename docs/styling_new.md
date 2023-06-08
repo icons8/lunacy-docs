@@ -290,7 +290,7 @@ To **create an image fill**:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_image_fill.png" height="auto"><source src="/public/styling_image_fill.mp4" type="video/mp4"></video>
 
-You can also quickly replace an image fill by holding down `Ctrl` (`⌘`) and dropping an image from your desktop or the **Photos** library in the left panel onto a layer, like in the demo below.
+You can also quickly replace an image fill by holding down `Ctrl` / `⌘` and dropping an image from your desktop or the **Photos** library in the left panel onto a layer, like in the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_ctrl_image_replacement.png" height="auto"><source src="/public/styling_ctrl_image_replacement.mp4" type="video/mp4"></video>
 
@@ -377,7 +377,7 @@ Open up the **Effects** section in the right panel to add shadows or blurs to yo
 
 ### Shadows
 
-You can add drop shadows and inner shadows to your layers. Both types have the same settings that include color, X and Y offsets, blur, and spread. You can overlay multiple shadows of the same or different types in one layer.
+You can add drop shadows and inner shadows to your layers. Both types have the same settings that include **color**, **X and Y offsets**, **blur**, and **spread**. You can overlay multiple shadows of the same or different types in one layer.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_shadow.png" height="auto"><source src="/public/styling_shadow.mp4" type="video/mp4"></video>
 
