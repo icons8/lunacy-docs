@@ -74,7 +74,7 @@ Turn off some or all of these features for a completely private experience.
 <!--- `Shift + A` doesn't just add auto layout. It frames selected layers and instantly applies auto layout to them.
 
 - You can now import **passcode-protected Figma files**.-->
-- **Improved memory usage.** Up to 30% less RAM used for storing layer data, so huge files now take up less computer resources.
+- **Improved memory usage.** Up to **30% less RAM** used for storing layer data, so huge files now take up less computer resources.
 - Flip operations are now a part of a matrix, so the **Flip** buttons don't have a pressed state anymore.
 
 ## 9.1
