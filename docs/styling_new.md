@@ -35,7 +35,7 @@ These options appear in the right panel whenever you select layer.
 
 You can apply them to all <a href="https://lunacy.docs.icons8.com/layers/#introduction" target="_blank">types of layers</a>, except for <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a>, and <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">slices</a>, though not all layers have all of the styling options available. For example, groups have [tints](#tints) instead of [fills](#fills), and <a href="https://lunacy.docs.icons8.com/components/#managing-instances" target="_blank">component instances</a> have both these options.
 
-Save time by creating layer styles for individual or multiple styling options. You can easily reuse them across different layers, keeping your designs consistent.
+Save time by <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">creating layer styles</a> for individual or multiple styling options. You can easily reuse them across different layers, keeping your designs consistent.
 
 **See also:**<br>
 <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
@@ -58,7 +58,7 @@ To adjust a layer’s appearance, rearrange the order of the styling settings wi
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_moving_fills.png" height="auto"><source src="/public/styling_moving_fills.mp4" type="video/mp4"></video>
 
-You can temporarily hide some of the settings by clicking <embed type="image/svg+xml" alt="eye_hide" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/QgphXanfmEC4xSEHsd4zpQ.svg" width="20" />. To delete a styling setting, click <embed type="image/svg+xml" alt="Delete" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/atwbWW7Xe0W7xOC5ILLNhQ.svg" width="20" />.
+You can temporarily hide some of the settings by clicking <embed type="image/svg+xml" alt="eye_hide" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/QgphXanfmEC4xSEHsd4zpQ.svg" width="24" />. To delete a styling setting, click <embed type="image/svg+xml" alt="Delete" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/atwbWW7Xe0W7xOC5ILLNhQ.svg" width="16" />.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_hide_delete.png" height="auto"><source src="/public/styling_hide_delete.mp4" type="video/mp4"></video>
 
@@ -100,25 +100,37 @@ The color picker displays these settings:
 
 <embed type="image/svg+xml" alt="fill_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/1sUgxgbqe0SwBtKhg63UQw.svg" width="844" /> 
 
-- **Fill type.** Available for the **Fill** and **Border** color pickers only.
-- **Color selection box.** This is where you select the color.
-- **The eyedropper tool.** Click it and use the tool to sample colors from other layers or the interface.
-- **Color selection slider.** Slide along the bar to switch colors.
-- **Opacity slider.** Slide along the bar to adjust the opacity.
-- **Color code.** Displays the code of the currently selected color:
+**Fill type.** Available for the **Fill** and **Border** color pickers only.
+
+**Color selection box.** This is where you select the color.
+
+**The eyedropper tool.** Click it and use the tool to sample colors from other layers or the interface.
+
+**Color selection slider.** Slide along the bar to switch colors.
+
+**Opacity slider.** Slide along the bar to adjust the opacity.
+
+**Color code.** Displays the code of the currently selected color:
     - HEX
     - RGB
     - HSB
     - HSL
-- **Color code input field.** Paste HEX, RGBA, HSB, or HLS values here for maximum accuracy.
-- **The opacity entry field.** Manually enter the opacity percentage.
-- **Create color variable.** This button opens the color variable editing mode.
-- **Preset colors.** To speed up your work with colors, you can save them here and select them directly from this panel later. There are two types of preset colors:
+
+**Color code input field.** Paste HEX, RGBA, HSB, or HLS values here for maximum accuracy.
+
+**The opacity entry field.** Manually enter the opacity percentage.
+
+**Create color variable.** This button opens the color variable editing mode.
+
+**Preset colors.** To speed up your work with colors, you can save them here and select them directly from this panel later. There are two types of preset colors:
     - **Global** colors appear in the color picker in all documents.
     - **Document** colors are available in the current document only.
-- **Global and document presets.** To switch between global and document colors, open the dropdown menu. To delete a color preset, right-click over it, then select **Remove**.
-- **Switch view.** Use this button to switch the presets between list and grid views. In list view, you’ll be able to rename colors: right-click a color, then select **Rename**.
-- **Add color preset.** Use this button to add the currently selected color to **Global** or **Document** presets.
+
+**Global and document presets.** To switch between global and document colors, open the dropdown menu. To delete a color preset, right-click over it, then select **Remove**.
+
+**Switch view.** Use this button to switch the presets between list and grid views. In list view, you’ll be able to rename colors: right-click a color, then select **Rename**.
+
+**Add color preset.** Use this button to add the currently selected color to **Global** or **Document** presets.
 
 ### Color variables
 
@@ -149,7 +161,7 @@ To **edit a color variable**, open up the color dropdown menu, and click _ to ed
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_edit_variable.png" height="auto"><source src="/public/styling_edit_variable.mp4" type="video/mp4"></video>
 
-To **detach a layer from a color variable**, select the layer, then:
+With a layer selected, use one of these ways to **detach a layer from a color variable**:
 
 - Change its color.
 - Click `+` in the right panel to add a new fill and delete the color variable fill.
@@ -170,7 +182,7 @@ To **change palette colors manually**, click on the color swatches to open the c
 
 Using the document color palette, Lunacy applies color to shapes automatically depending on their size and predicted purpose. Larger shapes have background colors while smaller elements are assigned primary or accent colors.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autocolors.png" height="auto"><source src="/public/autocolors.mp4" type="video/mp4"></video> +
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autocolors.png" height="auto"><source src="/public/autocolors.mp4" type="video/mp4"></video>
 
 If you want the default shape color to be the usual gray, **delete all palette colors** by pressing <embed type="image/svg+xml" alt="Delete_button" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/mzlutszh_UmV3L0QGqvUfg.svg" width="20" > next to each one.
 
@@ -189,15 +201,21 @@ You can set these fills for a layer and adjust them in the **Fill** section of t
 
 <embed type="image/svg+xml" alt="fill_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/z1-bS8V5Q0yciSJ1pW3kxA.svg" width="844" /> 
 
-- **Color picker.** The color swatch matches the color of the selected layer. Click it to open the color picker.
-- **HEX color code.** Displays the HEX code of a fill. Alternatively, this field shows the name of the color variable applied to the layer. 
-- **Color variables.** Opens the dropdown menu to view the list of document color variables.
-- **Fill opacity.** The opacity of the fill. You can also adjust the opacity inside the color picker itself.
-- **Show/hide fill.** Hides the fill.
-- **Delete fill.** Removes the fill from the layer.
-- **Add fill.** Adds another fill on top of the current one. You can move fills around by dragging the leftmost part of a fill up or down.
-- **Fill properties.** This button opens the panel where you can select between the Non-Zero and Even-Odd options for filling overlapping paths.
-- **Blend mode.** Blend mode determines how the fill blends with the layer underneath. Activate it to set the blend mode for a fill (when active, the option will replace the Hide and Delete buttons) and click it again to hide it. Understanding blend modes is mainly a matter of practice and experimenting, but here’s a rundown of the theory.
+**Color picker.** The color swatch matches the color of the selected layer. Click it to open the color picker.
+**HEX color code.** Displays the HEX code of a fill. Alternatively, this field shows the name of the color variable applied to the layer. 
+**Color variables.** Opens the dropdown menu to view the list of document color variables.
+**Fill opacity.** The opacity of the fill. You can also adjust the opacity inside the color picker itself.
+**Show/hide fill.** Hides the fill.
+**Delete fill.** Removes the fill from the layer.
+**Add fill.** Adds another fill on top of the current one. You can move fills around by dragging the leftmost part of a fill up or down.
+**Fill properties.** This button opens the panel where you can select between the <a href="https://en.wikipedia.org/wiki/Nonzero-rule" target="_blank">Non-Zero</a> and <a href="https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule" target="_blank">Even-Odd</a> options for filling overlapping paths.
+**Blend mode.** Blend mode determines how the fill blends with the layer underneath. Activate it to set the blend mode for a fill (when active, the option will replace the **Hide** and **Delete** buttons) and click it again to hide it. 
+
+<div class="callout callout--info">
+     <p><strong>Note:</strong> Understanding blend modes is mainly a matter of practice and experimenting, but here’s a <a href="https://en.wikipedia.org/wiki/Blend_modes" target="_blank">rundown of the theory</a>.</p>
+</div>
+
+
 
 #### Solid fills
 
@@ -210,7 +228,7 @@ To **define a solid fill**, use any of the ways described in the section above.
 To **add a gradient fill**:
 
 1. In the **Fills** section of the right panel, click the color swatch to open up the color picker.
-2. At the top of the color picker, click one of these buttons to select the gradient type: <embed type="image/svg+xml" alt="linear_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ucBlC-G4FkGfihMcQeu-hg.svg" width="20"/> — linear, <embed type="image/svg+xml" alt="radial_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/VI1Nwhu1AkyQwtPO8_4wfg.svg" width="20"/> — radial, <embed type="image/svg+xml" alt="angular_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HGQiN9XWlEiogGcbq1rgdA.svg" width="20"/> — angular.
+2. At the top of the color picker, click one of these buttons to select the gradient type: <embed type="image/svg+xml" alt="linear_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ucBlC-G4FkGfihMcQeu-hg.svg" width="20"/> — linear, <embed type="image/svg+xml" alt="radial_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/VI1Nwhu1AkyQwtPO8_4wfg.svg" width="20"/> — radial, <embed type="image/svg+xml" alt="angular_gradient" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/pZ1KZ-MEKU6F_f96xtFiVw.svg" width="20"/> — angular.
 3. The gradient bar with two handles will show up in the color picker.
 4. Also, you will see a gradient control with two color points over the layer. The appearance of the gradient control depends on the selected gradient type.
 5. Use the gradient control and/or the gradient bar to get the desired effect. 
@@ -293,7 +311,7 @@ Overrides to tints added to component instances are useful when you are designin
 
 When you override a tint, the <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/w29IHdVZY06gaocLrc13Dw.svg" width="20" /> button appears in the **Tint** section of the right panel. Clicking it removes only the tint override, while all other overrides stay unchanged.
 
-<a href="https://lunacy.docs.icons8.com/components/#tint-overrides" target="_blank">Read more about tint overrides</a> in the <a href="https://lunacy.docs.icons8.com/components/" target="_blank">Components</a> page.
+Read <a href="https://lunacy.docs.icons8.com/components/#tint-overrides" target="_blank">more about tint overrides</a> in the <a href="https://lunacy.docs.icons8.com/components/" target="_blank">Components</a> page.
 
 ## Borders
 
@@ -303,16 +321,16 @@ The **Border** section opens up in the right panel when you add a border to an e
 
 <embed type="image/svg+xml" alt="border_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/67iEFdMtKEqsGm6tLZkmWQ.svg" width="844" /> 
 
-- **Color swatch.** The color swatch matches the color of the border. Click it to open the border color picker.
-- **HEX color code.** Shows the name of a color variable or the HEX code of a fill. Open the dropdown menu to view the list of document color variables.
-- **Color variables.** Opens the dropdown menu to view the list of document color variables.
-- **Border position.** You can choose to place borders on the inside, outside, or center (default) of the layer’s bounding box. The only option available for open paths (lines, arrows, curves, etc.) is center.
+**Color swatch.** The color swatch matches the color of the border. Click it to open the border color picker.
+**HEX color code.** Shows the name of a color variable or the HEX code of a fill. Open the dropdown menu to view the list of document color variables.
+**Color variables.** Opens the dropdown menu to view the list of document color variables.
+**Border position.** You can choose to place borders on the inside, outside, or center (default) of the layer’s bounding box. The only option available for open paths (lines, arrows, curves, etc.) is center.
     <embed type="image/svg+xml" alt="border_position" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jfsfC2XTOke_nYUnftNKjQ.svg" width="600" /> 
-- **Show/hide border.** Hides the border.
-- **Borders thickness.** Determines the thickness of a border or an open path.
-- **Advanced border settings.** More adjustment options for the shape and appearance of a border. Read more about advanced settings for borders below.
-- **Add border.** Adds another border on top of the current one. You can move borders around by dragging the leftmost part of a border up or down.
-- **Delete border.** Removes the border from the layer.
+**Show/hide border.** Hides the border.
+**Borders thickness.** Determines the thickness of a border or an open path.
+**Advanced border settings.** More adjustment options for the shape and appearance of a border. Read more about advanced settings for borders below.
+**Add border.** Adds another border on top of the current one. You can move borders around by dragging the leftmost part of a border up or down.
+**Delete border.** Removes the border from the layer.
 
 ### Advanced border settings
 
@@ -347,8 +365,8 @@ You can add drop shadows and inner shadows to your layers. Both types have the s
 
 There are two types of blur effects you can add to layers:
 
-- **Gaussian** — blurs the selected layer.
-- **Background** — blurs the layer underneath the selected layer. To see the background blur effect, delete or hide the fill of the selected layer or bring its fill opacity below 100%. When using this type of blur, you can also adjust the saturation of the blurred layer.
+**Gaussian** — blurs the selected layer.
+**Background** — blurs the layer underneath the selected layer. To see the background blur effect, delete or hide the fill of the selected layer or bring its fill opacity below 100%. When using this type of blur, you can also adjust the saturation of the blurred layer.
 
 In the demo below, we first apply a **Gaussian blur** to an image, then remove it and add a background blur to the rectangle above the image.
 

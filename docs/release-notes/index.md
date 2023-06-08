@@ -49,20 +49,32 @@ Download beta:
 * macOS: [DMG beta](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
 * Linux: [DEB beta](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
 
-### New features
-
 <!--- **Free format.** You can now save your documents as `.free` files. The `.free` format uses up to 10 times less data to define a layer, and it's optimized for huge documents. Its saving and opening times are twice as fast as those of a `.sketch` file.
 - Auto layout **padding edits** via the values in the input fields now depend on the **Nudge Amount**.-->
 
-- On-canvas **Padding** and **Spacing** editors for Auto layout.
-- The **Font size** editor is now also available on the canvas.
-- **Privacy settings** for premium users.
+### On-canvas auto layout settings
+
+Adjust padding and spacing for auto layouts right on the canvas. 
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/auto_layout_canvas_editors.png" height="auto"><source src="/public/auto_layout_canvas_editors.mp4" type="video/mp4"></video>
+
+### On-canvas font size editor
+
+Change the font size by dragging the handle on the bounding box of a layer:
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/font_size_editor.png" height="auto"><source src="/public/font_size_editor.mp4" type="video/mp4"></video>
+
+### Advanced privacy settings
+
+Turn off some or all of these features for a completely private experience.
+
+<embed type="image/svg+xml" alt="privacy_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/L1r9ZlRIVUSeW-7_ve4sDg.svg" width="844" /> 
 
 ### Improvements
 <!--- `Shift + A` doesn't just add auto layout. It frames selected layers and instantly applies auto layout to them.
 
 - You can now import **passcode-protected Figma files**.-->
-- **Improved memory usage.** Up to 30% less RAM used for storing layer data, so huge files now take up less memory.
+- **Improved memory usage.** Up to 30% less RAM used for storing layer data, so huge files now take up less computer resources.
 - Flip operations are now a part of a matrix, so the **Flip** buttons don't have a pressed state anymore.
 
 ## 9.1
