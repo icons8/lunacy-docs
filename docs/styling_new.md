@@ -334,8 +334,8 @@ The **Border** section opens up in the right panel when you add a border to an e
 
 **Color variables.** Opens the dropdown menu to view the list of document color variables.
 
-**Border position.** You can choose to place borders on the inside, outside, or center (default) of the layer’s bounding box. The only option available for open paths (lines, arrows, curves, etc.) is center.
-    <embed type="image/svg+xml" alt="border_position" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jfsfC2XTOke_nYUnftNKjQ.svg" width="600" /> 
+**Border position.** You can choose to place borders on the inside, outside, or center (default) of the layer’s bounding box. The only option available for open paths (lines, arrows, curves, etc.) is center.<br>
+<embed type="image/svg+xml" alt="border_position" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jfsfC2XTOke_nYUnftNKjQ.svg" width="844" /> 
 
 **Show/hide border.** Hides the border.
 
@@ -354,11 +354,14 @@ The **Border** section opens up in the right panel when you add a border to an e
 Advanced border settings include:
 
 - **Caps.** Define the shape of the caps of open paths: no caps, round, or square. Open paths include those created with the Line, Arrow, or Pen/Pencil tools.
+
 - **Folds.** Adjust the appearance of the corners for arrows and paths with corners drawn with the Pen/Pencil tool.
+
 - **Start and End.** Determine the appearance of the ends of open paths drawn with the Line, Arrow, or Pen/Pencil tools.<br>
-    <embed type="image/svg+xml" alt="start_end" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/dUfYC480VE-0X2q-gX0Y9Q.svg" width="600" /> 
-- **Dash and Gap.** Create dashed lines or borders. Define the length of the dashes and the gaps between them in the corresponding input fields. To turn the border into a solid line, set all the values to 0.
-    <embed type="image/svg+xml" alt="dash_gap" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/2wYx6kpGQ0aqmKR0P27Ibg.svg" width="600" /> 
+<embed type="image/svg+xml" alt="start_end" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/dUfYC480VE-0X2q-gX0Y9Q.svg" width="844" /> 
+
+- **Dash and Gap.** Create dashed lines or borders. Define the length of the dashes and the gaps between them in the corresponding input fields. To turn the border into a solid line, set all the values to 0.<br>
+<embed type="image/svg+xml" alt="dash_gap" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/2wYx6kpGQ0aqmKR0P27Ibg.svg" width="844" /> 
 
 ## Effects
 
