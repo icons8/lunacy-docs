@@ -182,7 +182,7 @@ To **change palette colors manually**, click on the color swatches to open the c
 
 Using the document color palette, Lunacy applies color to shapes automatically depending on their size and predicted purpose. Larger shapes have background colors while smaller elements are assigned primary or accent colors.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autocolors.png" height="auto"><source src="/public/autocolors.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_auto_shape.png" height="auto"><source src="/public/styling_auto_shape.mp4" type="video/mp4"></video>
 
 If you want the default shape color to be the usual gray, **delete all palette colors** by pressing <embed type="image/svg+xml" alt="Delete_button" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/mzlutszh_UmV3L0QGqvUfg.svg" width="20" > next to each one.
 
