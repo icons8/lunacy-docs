@@ -49,7 +49,7 @@ You can save exported files **to your computer** and also [upload your layers](#
 
 ## Basic export rules
 
-- During export, Lunacy **ignores:**
+1. During export, Lunacy **ignores:**
     - Guides
     - Square and layout grids
     - Frame names
@@ -58,8 +58,8 @@ You can save exported files **to your computer** and also [upload your layers](#
     
     There is no way to include these elements into exported files.
     
-- If there is **at least one frame** in your document, when you use the **Export Document** option, Lunacy will ignore all **layers located outside of frames**, as well as **main components**.
-- The **maximum height and width** of resulting raster files is **16,000 pixels**.
+2.  If there is **at least one frame** in your document, when you use the **Export Document** option, Lunacy will ignore all **layers located outside of frames**, as well as **main components**.
+3. The **maximum height and width** of resulting raster files is **16,000 pixels**.
 
 ## Export settings
 
@@ -114,8 +114,7 @@ Click <embed type="image/svg+xml" alt="additional_settings" src="https://cdn-eu.
 
 <div class="callout callout--info"> <p><strong>Note:</strong> When nothing is selected, the <b>Export document</b> section opens up. All the settings are the same, except for the <b>Upload to Cloud</b> option, which isn't available.</p> </div>
 
-<embed type="image/svg+xml" alt="export_document" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/CAQo5B1IL0yAeB7n3QmjZg.svg" width="844" /> 
-
+<embed type="image/svg+xml" alt="export_document" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_FLjfZSJmUObT0lCpeizDw.svg" width="844" /> 
 
 ## Export presets
 
