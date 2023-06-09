@@ -74,8 +74,21 @@ Available for <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cl
 <!--- `Shift + A` doesn't just add auto layout. It frames selected layers and instantly applies auto layout to them.
 
 - You can now import **passcode-protected Figma files**.-->
-- **Improved memory usage.** Up to **30% less RAM** used for storing layer data, so huge files now take up less computer resources.
+- Improved memory usage. Up to **30% less RAM** used for storing layer data, so huge files now take up less computer resources.
 - We updated the logic of flip operations, so the **Flip Horizontal/Vertical** buttons don't have pressed states anymore.
+
+## 9.1.1 hotfix
+_Release date: June 8, 2023_  
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.1.1.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.1.1.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.1.1.deb)
+
+### Fixed issues
+
+- Linux issues fixed
 
 ## 9.1
 *Release date: May 31, 2023*

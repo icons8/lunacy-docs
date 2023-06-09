@@ -37,7 +37,6 @@ The option to enable auto layout appears in the <a href="https://lunacy.docs.ico
 
 In Lunacy, you can apply auto layout to:
 
-
 - **Layers in individual frames**. Auto layout settings apply to the layers inside the frame. Resizing these layers will affect the size of the frame (unless you specify otherwise).
 
 - **Several frames**. To do this, put several frames into a container frame, then add auto layout. You can then define the arrangement of the child frames relative to each other.  
@@ -91,14 +90,14 @@ The **Auto layout** section will then display the various properties you can app
 
 <embed type="image/svg+xml" alt="autolayout_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LFv-N9G44E2xNXuBicy3Yg.svg" width="844" /> 
 
-### Resizing options
+#### Resizing options
 
 Determine how the container frame responds to changes made to layers inside it:
 
 * Set height or width (or both) **Hug** if you want the frame to be resized depending on the size of its contents.
 * Use the **Fixed** option if you want the frame to remain unchanged regardless of the size of its contents.
 
-### Layout orientation
+#### Layout orientation
 
 Set a **vertical** or **horizontal orientation** for elements in an auto layout. Vertical orientation arranges elements along the **Y axis**, and horizontal orientation places them on the **X axis**. 
 
@@ -107,7 +106,7 @@ Set a **vertical** or **horizontal orientation** for elements in an auto layout.
 To combine both these options, you’ll need to nest auto layout frames in a larger frame.
 
 
-### Alignment controls
+#### Alignment controls
 
 Align your layers within the auto layout. Since alignment options will be determined by auto layout settings, this section of the right panel will be unavailable:
 
@@ -120,7 +119,7 @@ Change alignment by:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_alignment.png" height="auto"><source src="/public/autolayout_alignment.mp4" type="video/mp4"></video>
 
-### Element spacing
+#### Element spacing
 
 Define the spacing between elements in an auto layout by:
 
@@ -131,15 +130,15 @@ Define the spacing between elements in an auto layout by:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_spacing.png" height="auto"><source src="/public/autolayout_spacing.mp4" type="video/mp4"></video>
 
-### Padding
+#### Padding
 
 Determine the distance from elements to the borders of the container frame. Adjust the value in the right panel just like with element spacing. 
 
-### Lock/unlock right and bottom padding
+#### Lock/unlock right and bottom padding
 
 When you change left or top padding, right and bottom padding will mirror the new values. Click <embed type="image/svg+xml" alt="unlock_padding" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PpXulR2e9ECMC6HIzjsYIQ.svg" width="10" /> to change padding for individual sides. If you lock the padding again (click <embed type="image/svg+xml" alt="lock_padding" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Ik9qCzk510aNl1A3Oi-Grw.svg" width="16" />) after changing values for individual sides, the altered padding values won't revert back to match the opposite side. Enter a matching value on one side of the padding to synchronize the values once more.
 
-### Distribution options
+#### Distribution options
 
 Control the way elements are distributed within the auto layout:
 - With the **Packed** option active, you can freely change the spacing between elements and the padding around them. 
@@ -147,13 +146,13 @@ Control the way elements are distributed within the auto layout:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_distribute.png" height="auto"><source src="/public/autolayout_distribute.mp4" type="video/mp4"></video>
 
-### Stacking behavior
+#### Stacking behavior
 
 Determine how elements are stacked when spacing between them is negative. This is useful for designing elements that may overlap in a layout: avatar pictures, images, slides, cards, and so on. The default stacking option is **First on top**, meaning that the top layer in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a> will be placed first in a stack. To reverse the order, set this option to **Last on top**:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_stacking.png" height="auto"><source src="/public/autolayout_stacking.mp4" type="video/mp4"></video>
 
-### Border inclusion
+#### Border inclusion
 
 Include or exclude borders from an auto layout. This is useful when, for instance, you have shapes with thick borders in your design: you can set auto layout to apply to just the shapes while ignoring their borders. If borders are included, they will be considered as parts of the shapes:
 
@@ -163,11 +162,11 @@ Include or exclude borders from an auto layout. This is useful when, for instanc
 <p><strong>Note:</strong> This setting only affects the borders of the elements inside the auto layout, not the borders of the container frame.</p>
 </div>
  
-### Remove auto layout
+#### Remove auto layout
 
 Remove the auto layout from the frame. The spacing and padding you applied to the frame using auto layout will remain, but all other auto layout settings will be removed. 
 
-### Individual layer properties
+#### Individual layer properties
 You can also **change the properties of layers** within your auto layout.
 
 To do this, select a layer to open up its individual Auto layout properties. 

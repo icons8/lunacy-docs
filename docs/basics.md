@@ -26,7 +26,7 @@ Learn more about Lunacy's features, interface capabilities, and useful tips and 
 
 ## [Working with the canvas](#working-with-the-canvas)
 
-### Navigation
+#### Navigation
 
 If your design is taking up too much space on the canvas, use the mouse wheel to scroll vertically. To scroll horizontally, additionally hold down `Shift`.
 
@@ -37,7 +37,7 @@ Another way to navigate the canvas is to hold down `Space` to activate the **Han
 You can always use the scroll bars on the right and bottom of the workspace, but it's not as convenient as the other options.
 
 
-### Zooming in and out
+#### Zooming in and out
 
 The easiest way to **zoom in and out** in Lunacy is by holding down `Ctrl` / `⌘` and moving the mouse wheel. To **zoom slower**, additionally hold down `Shift`.
 
@@ -50,7 +50,7 @@ When the zoom value exceeds 500, Lunacy displays a **pixel grid**. If you want t
 
 Find out about other [zooming options](#zooming-options).
 
-### Changing the canvas color
+#### Changing the canvas color
 
 1. Deselect all layers.
 2. Use the **Workspace color** control in the right panel.
@@ -90,7 +90,7 @@ You can also use the **Linked Design** option to include embed links to Lunacy l
 
 The **Code** tab <a href="https://lunacy.docs.icons8.com/export/#code-preview-and-linked-design" target="_blank">displays the code corresponding</a> to your layers.
 
-### Right panel properties with no selected layers
+#### Right panel properties with no selected layers
 
 When all layers are deselected, the right panel shows these settings:
 
@@ -103,7 +103,7 @@ When all layers are deselected, the right panel shows these settings:
 
 If you need more space, you can hide the right panel panel by selecting **View** > **Right Panel** on the menu bar.
 
-### Changing values in the right panel
+#### Changing values in the right panel
 
 To **change values in the right panel** input fields:
 
@@ -118,13 +118,13 @@ To **change values in the right panel** input fields:
 
 **Rulers** and **guides** help to position and align layers. 
 
-### [Rulers](#rulers)
+#### [Rulers](#rulers)
 
 Rulers are enabled by default and use pixels as a measurement unit. They appear at the top and on the left side of the canvas. 
 
 To toggle rulers on and off, use the `Ctrl + R` / `⌘ + R` shortcut or select **View** > **Rulers** on the menu bar.
 
-### [Guides](#guides)
+#### [Guides](#guides)
 
 To create a guide, click anywhere on a ruler and drag the guide onto the canvas. You can now position layers along the guide. Moving a layer close to it snaps the layer to the guide.
 
@@ -140,7 +140,7 @@ You can also open up all of these guide settings by right-clicking over a ruler:
 
 Lunacy has **square** and **layout grids**. If needed, you can display both of them at the same time.
 
-### [Square grid](#square-grid)
+#### [Square grid](#square-grid)
 
 If there are no frames on the canvas, Lunacy displays a square grid. Toggle it on and off by clicking the **Show/Hide grid** button on the right panel or pressing `Ctrl + '` / `⌘ + '`.
 
@@ -153,7 +153,7 @@ To set the size of grid cells, enter the desired value in the **Grid size** fiel
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/square_grid.png" height="auto"><source src="/public/square_grid.mp4" type="video/mp4"></video>
 
-### [Layout grid](#layout-grid)
+#### [Layout grid](#layout-grid)
 
 Layout grids are useful for positioning design elements within your [frame](#frames). If you have several frames on a page, you can toggle layout grids on and off for them just like with sqaure grids, using the corresponding button in the right panel.
 
@@ -166,7 +166,7 @@ Each frame can have its own layout grid settings:
 Lunacy has a variety of options for measuring distances between elements. The measurement option depends on whether a layer is distinct, grouped with other layers, or nested in a frame.
 
 
-### Individual layers
+#### Individual layers
 
 To **measure the distance between two layers**:
 
@@ -189,7 +189,7 @@ You can also use this function to **position layers in a precise location or rel
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/aligning_using_alt.png" height="auto"><source src="/public/aligning_using_alt.mp4" type="video/mp4"></video>
 
-### Grouped layers
+#### Grouped layers
 
 Use the steps described above to measure the distances between:
 
@@ -275,7 +275,7 @@ These options are also accessible through the **View** section on the menu bar:
 <embed type="image/svg+xml" alt="zoom_to" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/_0flAx2EaESsh5HNYbRCig.svg" width="844"/> 
 
 
-### [Show pixels on zoom](#show-pixels-on-zoom)
+#### [Show pixels on zoom](#show-pixels-on-zoom)
 
 By default, Lunacy displays the canvas in the **vector mode**, which means that all layers (except for rasterized ones) will preserve their quality regardless of the zoom value. If you need to see individual pixels, you can use the **Show pixels on zoom** button. It displays pixels when the zoom value exceeds 100. 
 
