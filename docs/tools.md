@@ -74,7 +74,7 @@ You can also select layers through the **Layer List**. It may be more convenient
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_select_in_layer_list.png" height="auto"><source src="/public/tools_select_in_layer_list.mp4" type="video/mp4"></video>
 
-### Using the Select tool with grouped layers
+#### Using the Select tool with grouped layers
 
 When you click over a group, you select the entire group.
 
@@ -159,7 +159,7 @@ The pen builds shapes by drawing segments between the points, or **vertices**, t
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_creating_vertice_and_path.png" height="auto"><source src="/public/tools_creating_vertice_and_path.mp4" type="video/mp4"></video>
 
-### Types of paths
+#### Types of paths
 
 Paths can be **open** or **closed**:
 
@@ -219,7 +219,7 @@ In the demo below, we added some curves to a heart-shaped layer built with strai
 </div>
 
 
-### [Types of points](#types-of-points)
+#### [Types of points](#types-of-points)
 
 Points can be either **straight** or **curved**. 
 
@@ -263,7 +263,7 @@ Here are two examples of a word written in one stroke and letter-by-letter (then
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_pencil_single_multiple.png" height="auto"><source src="/public/tools_pencil_single_multiple.mp4" type="video/mp4"></video>
 
-### Editing paths drawn with the Pencil tool
+#### Editing paths drawn with the Pencil tool
 
 Lunacy automatically smooths the paths that you create. You can also **edit pencil-drawn paths** like any other vector path:
 
@@ -494,7 +494,7 @@ To enable it, hover the eyedropper over the target and hold down the left mouse 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_eyedropper_zoom.png" height="auto"><source src="/public/tools_eyedropper_zoom.mp4" type="video/mp4"></video>
 
 
-### How the eyedropper applies colors to layers
+#### How the eyedropper applies colors to layers
 
 Depending on the styling properties of a layer, the eyedropper applies colors in the following order:
 
@@ -515,7 +515,7 @@ Similar rules apply to text layers, where **text color** has top priority.
 <br>
 <a href="https://lunacy.docs.icons8.com/styling" target="_blank">Styling</a>
 
-### Hand tool
+## Hand tool
 
 The **Hand tool** is useful for navigating the canvas. To activate it, hold down `Space` or the **middle mouse button** and drag. 
 

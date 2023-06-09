@@ -146,7 +146,7 @@ To **define export settings for a preset**:
 
 ## Exporting elements from Lunacy
 
-### Exporting single and multiple elements
+#### Exporting single and multiple elements
 
 To **export a single element**:
 
@@ -168,13 +168,13 @@ Also, when you select multiple layers or frames that already have defined export
 
 <embed type="image/svg+xml" alt="export_multiple" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/nDYzbp9wBUOP0S0VUhrykg.svg" width="844" /> 
 
-### Including frame backgrounds in exports
+#### Including frame backgrounds in exports
 
 When you set a background for a frame, its properties in the **Design** tab will have the **Include in export** checkbox. 
 
 Select it if you want the background to be visible in the exported file.
 
-### Using slices for export
+#### Using slices for export
 
 **Slices** are special layers you can use to export certain parts of your designs.
 
@@ -202,14 +202,14 @@ To show/hide slices on the canvas, select or deselect the **Slices** option in t
 
 <embed type="image/svg+xml" alt="export_slices_enable_disable" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/vbxh7ACcEUKpMIgdJ7ccVA.svg" width="844" /> 
 
-### Exporting document pages
+#### Exporting document pages
 
 To **export all of the content in a document page**:
 
 1. Use the `Ctrl + A` / `⌘ + A` shortcut to select all layers and frames on the page, **except for locked layers**.
 2. Export it like any other element.
 
-### Exporting documents
+#### Exporting documents
 
 There has to be at least one frame inside the document if you want to export it. Also, keep in mind that when exporting a document, Lunacy ignores:
 

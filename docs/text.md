@@ -72,7 +72,7 @@ Once you add and select a text layer, the **Text** section appears in the right 
      <p><strong>Note:</strong> You can apply different font settings of the same type (fonts, font size, color, text size) to a text within a layer. In this case, when this layer is selected, the fields in the right panel will display <b>Mix</b>.</p>
 </div>
 
-### Font list
+#### Font list
 
 To change fonts, click on the font list menu in the **right panel**, then:
 - Type the font family name in the field.
@@ -94,7 +94,7 @@ Lunacy’s integration with Google Fonts solves most problems with missing fonts
 <div class="callout callout--info">
 <p><strong>Note:</strong> You might experience a slight loading delay when applying a Google font for the first time. Also, if your computer is not connected to the internet, the list of Google fonts only includes the fonts that you have already used.</p> </div>
     
-### Font style
+#### Font style
 
 Open the font style dropdown menu to change a text’s styling properties (**Bold**, *Italic*, ***Bold Italic***, etc.) If a font only has one style, this menu will be grayed out.
 
@@ -107,7 +107,7 @@ To change the properties of an individual word, you don’t necessarily have to 
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_individual_word_formatting.png" height="auto"><source src="/public/text_block_formatting.mp4" type="video/mp4"></video>
     
-### Font size
+#### Font size
 
 Use this field to **set the font size** or press `Ctrl + Alt + "+"` / `⌥ + ⌘ + "+"` and `Ctrl + Alt + "-"`/`⌥ + ⌘ + "-"` to increase and decrease the font size respectively.
 
@@ -117,7 +117,7 @@ Use this field to **set the font size** or press `Ctrl + Alt + "+"` / `⌥ + ⌘
 <br>
 <a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties" target="_blank">Right panel properties</a>
     
-### Line, letter, and paragraph spacing
+#### Line, letter, and paragraph spacing
 
 Use these settings to adjust the spacing between lines, letters, and paragraphs.
 
@@ -136,7 +136,7 @@ You can **change spacing values** by:
     
     <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_line_letter_paragraph_spacing.png" height="auto"><source src="/public/text_line_letter_paragraph_spacing.mp4" type="video/mp4"></video>
             
-### Text color
+#### Text color
 
 Use this field to **change the text color**:
 - Click on the color circle to open up the standard color picker.
@@ -152,7 +152,7 @@ Use this field to **change the text color**:
 <br>
 <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">Layer and text styles</a>
     
-### [Resizing options](#resizing-options)
+#### [Resizing options](#resizing-options)
 These three buttons determine how text boxes change in size depending on the content:
 
 - **Horizontal resize**: The text box expands horizontally to fit the text content on a single line.
@@ -170,7 +170,7 @@ These three buttons determine how text boxes change in size depending on the con
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_double_click_to_resize.png" height="auto"><source src="/public/text_double_click_to_resize.mp4" type="video/mp4"></video>
         
-### Text alignment
+#### Text alignment
 
 Use these buttons to align text inside the text box or use these shortcuts:
 - `Ctrl + Alt + {` / `⌥ + ⌘ + {` — align text to the left
@@ -188,7 +188,7 @@ You can also align text within text boxes using the **alignment magnets** that a
 If you want to hide the magnets, uncheck the **Text Alignment Magnets** option in the **View** section of the menu bar.
 
 
-### Text position
+#### Text position
 
 Adjust the position of text content within the text box:
 - Position text to the top border (default option)
@@ -197,7 +197,7 @@ Adjust the position of text content within the text box:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_position.png" height="auto"><source src="/public/text_position.mp4" type="video/mp4"></video>
 
-### Additional text options
+#### Additional text options
 
 Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="12" /> in the **Text** section of the right panel to access additional text formatting options. They include:
 
@@ -280,7 +280,7 @@ You can save combinations of layer effects and text settings as **text styles** 
 
 ## Text and shapes
 
-### Adding text to shapes
+#### Adding text to shapes
 
 You can add a perfectly centered text layer to a shape by selecting the shape, then pressing `T` to activate the text tool. Lunacy will group the shape and the resulting text layer. The text you enter in the layer will be in **Fixed size** mode, restricted by the borders.
 
@@ -288,7 +288,7 @@ You can add a perfectly centered text layer to a shape by selecting the shape, t
 
 This is useful for designing buttons, menus, and similar UI elements, especially when coupled with [text generation](#text-generation).
 
-### Converting text to outlines
+#### Converting text to outlines
 
 You can **convert text into outlines**, so that every letter becomes a vector shape:
 
@@ -302,9 +302,7 @@ You can **convert text into outlines**, so that every letter becomes a vector sh
      <p><strong>Note:</strong> Keep in mind that text-to-outline operations are demanding for system resources. Attempts to convert large portions of text may slow Lunacy down.</p>
 </div>
 
-## More text options
-
-### [Missing fonts](#missing-fonts)
+## [Missing fonts](#missing-fonts)
 
 When you open a document, Lunacy checks whether all the required fonts are available on your computer. If some of them are missing but they are available in the Google Fonts library, Lunacy will download and apply them, provided your computer is connected to the internet.
 
@@ -314,7 +312,7 @@ Click the missing fonts button to open up a dialog box with options to replace t
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_missing_fonts.png" height="auto"><source src="/public/text_missing_fonts.mp4" type="video/mp4"></video>
 
-### [Fonts embedding](#fonts-embedding)
+## [Fonts embedding](#fonts-embedding)
 
 You can embed fonts into your document before sharing it with other people to ensure that the text layers will look exactly as you designed them, even on computers without the fonts used in the document.
 
@@ -329,7 +327,7 @@ To **embed fonts**:
      <p><strong>Note:</strong> By embedding a font, you confirm that you have a license allowing you to distribute the font.</p>
 </div>
 
-### [Working with emojis](#working-with-emojis)
+## [Using emojis](#working-with-emojis)
 
 You can add emojis to text layers in any convenient way by using the emoji keyboard on your OS or pasting them into the text box. The emoji styles in Lunacy include Apple, Microsoft, and Noto style emojis. 
 
