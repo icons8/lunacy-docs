@@ -187,9 +187,9 @@ When you select a slice, two additional settings appear in the **Export** sectio
 
 <embed type="image/svg+xml" alt="export_slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NottP8HlE0SSMVVRZs9AYw.svg" width="844" /> 
 
-* **Trim Transparent Pixels**. With this option enabled, Lunacy crops out unnecessary transparent pixels within the slice. This can be useful when you’re creating slices by hand using the **Slice** tool.
+**Trim Transparent Pixels**. With this option enabled, Lunacy crops out unnecessary transparent pixels within the slice. This can be useful when you’re creating slices by hand using the **Slice** tool.
 
-* **Background**. Defines the background color that appears in place of transparent pixels in the export file.
+**Background**. Defines the background color that appears in place of transparent pixels in the export file.
 
 To **export the content of a slice**:
 
@@ -211,10 +211,7 @@ To **export all of the content in a document page**:
 
 #### Exporting documents
 
-There has to be at least one frame inside the document if you want to export it. Also, keep in mind that when exporting a document, Lunacy ignores:
-
-- Layers that are not framed
-- Main components
+There has to be at least one frame inside the document if you want to export it. Also, keep in mind that when exporting a document, Lunacy ignores, **layers that are not framed** and **main components**.
 
 When exporting documents, Lunacy creates folders with names corresponding to the names of the **document pages**. Inside these folders, Lunacy creates **separate files for each layer** available on the respective page. Grouped layers and component instances are considered single layers.
 

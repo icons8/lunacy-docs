@@ -48,7 +48,7 @@ In Lunacy, you can apply auto layout to:
     The overall layout will dynamically respond to changes inside the child frames.
 
 
-### Some things to keep in mind
+#### Some things to keep in mind
 
 1. All available auto layout properties are displayed in the right panel:
 

@@ -39,7 +39,7 @@ Generated text options include names, job titles, emails, countries, headings, p
 
 Read more about [working with generated text content](#text-generation) below.
 
-### Text-related menus
+#### Text-related menus
 
 Lunacy has a wide range of text editing options, all located in their respective menus:
 
@@ -256,11 +256,11 @@ Combine text generation with other handy Lunacy features, like the <a href="http
 
 In addition to text settings, you can also apply standard layer effects to your text layers, including:
 
-- Fills
-- Borders
-- Shadows
-- Inner shadows
-- Blurs
+- **Fills**
+- **Borders**
+- **Drop shadows**
+- **Inner shadows**
+- **Blurs**
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_adding_effects.png" height="auto"><source src="/public/text_adding_effects.mp4" type="video/mp4"></video>
 

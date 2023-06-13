@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Styling
+title: Fills, borders, effects
 description: Learn how to work with styling options in Lunacy
 icon: 'design'
 

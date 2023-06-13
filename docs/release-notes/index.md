@@ -66,14 +66,13 @@ Change the font size by dragging the handle on the bounding box of a layer:
 
 ### Advanced privacy settings 
 
-Available for <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">premium users</a>. Turn off some or all of these features for a completely private experience.
+Turn off some or all of these features for a completely private experience. Most of them are only available for <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">premium users</a>, but you can turn off **Google Analytics** and **Google Fonts** without a license.
 
 <embed type="image/svg+xml" alt="privacy_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/L1r9ZlRIVUSeW-7_ve4sDg.svg" width="844" /> 
 
 ### Improvements
-<!--- `Shift + A` doesn't just add auto layout. It frames selected layers and instantly applies auto layout to them.
+<!--- `Shift + A` doesn't just add auto layout. It frames selected layers and instantly applies auto layout to them.-->
 
-- You can now import **passcode-protected Figma files**.-->
 - Improved memory usage. Up to **30% less RAM** used for storing layer data, so huge files now take up less computer resources.
 - We updated the logic of flip operations, so the **Flip Horizontal/Vertical** buttons don't have pressed states anymore.
 
