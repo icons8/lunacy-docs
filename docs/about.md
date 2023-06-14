@@ -24,7 +24,7 @@ Lunacy is a next-gen vector graphic design software for UI/UX and web design.
 
 #### Faster than Figma, smarter than Sketch
 
-Created by designers for designers, Lunacy optшmizes your workflow and minimizes distractions. No more wasting time googling suitable icons and photos, switching apps to remove backgrounds, or thinking of placeholder texts. Lunacy takes care of all that, and more.
+Created by designers for designers, Lunacy optimizes your workflow and minimizes distractions. No more wasting time googling suitable icons and photos, switching apps to remove backgrounds, or thinking of placeholder texts. Lunacy takes care of all that, and more.
 
 #### Free
 
