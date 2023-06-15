@@ -75,6 +75,7 @@ Once you add and select a text layer, the **Text** section appears in the right 
 #### Font list
 
 To change fonts, click on the font list menu in the **right panel**, then:
+
 - Type the font family name in the field.
 - Expand the dropdown menu with the list of available fonts, then select one from the list.
 
@@ -112,6 +113,12 @@ To change the properties of an individual word, you don’t necessarily have to 
 Use this field to **set the font size** or press `Ctrl + Alt + "+"` / `⌥ + ⌘ + "+"` and `Ctrl + Alt + "-"`/`⌥ + ⌘ + "-"` to increase and decrease the font size respectively.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_size.png" height="auto"><source src="/public/text_change_font_size.mp4" type="video/mp4"></video>
+
+##### On-canvas font size editor
+
+You can also change the font size directly on the canvas by dragging the circular handle at the bottom of the text layer bounding box:
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_canvaseditor.png" height="auto"><source src="/public/text_canvaseditor.mp4" type="video/mp4"></video>
 
 **See also:**
 <br>

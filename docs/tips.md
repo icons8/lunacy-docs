@@ -74,6 +74,12 @@ When you select two or more layers, drag the <embed type="image/svg+xml" alt="re
 
 If the selected elements include generated content, newly created elements will appear with refreshed data (provided the [Auto refresh](#auto-refresh) option is enabled).
 
+#### On-canvas font size editor
+
+You can change font size directly on the canvas by dragging the circular handle at the bottom of the text layer bounding box:
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/font_size_editor.png" height="auto"><source src="/public/font_size_editor.mp4" type="video/mp4"></video>
+
 #### Icon, illustration, and photo libraries
 
 Browse the **Icons**, **Photos**, and **Illustrations** tabs in the left panel to use free Icons8 graphics in your designs. Choose from different themes and filter them by keywords. 
@@ -188,7 +194,13 @@ Use <a href="https://lunacy.docs.icons8.com/autolayout/" target="_blank">auto la
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_autolayout.png" height="auto"><source src="/public/tips_tricks_autolayout.mp4" type="video/mp4"></video>
 
-To add an auto layout, select a frame and press `+` in the **Auto layout** section in the right panel. This isn’t only useful for discrete UI elements: you can build entire webpages whose layout adjusts as you adjust auto layout settings or move and resize individual blocks. 
+To add an auto layout, select a frame and press `Shift + A` or click `+` in the **Auto layout** section in the right panel. This isn’t only useful for discrete UI elements: you can build entire webpages whose layout adjusts as you adjust auto layout settings or move and resize individual blocks. 
+
+##### On-canvas controls
+
+You can adjust the spacing and padding in an auto layout right on the canvas by dragging the pink handles between and around the elements.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/auto_layout_canvas_editors.png" height="auto"><source src="/public/auto_layout_canvas_editors.mp4" type="video/mp4"></video>
 
 **See also:**
 <br>

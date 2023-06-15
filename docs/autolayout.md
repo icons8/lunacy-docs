@@ -79,7 +79,19 @@ To **place several layers into an auto layout**:
 1. Select two or more layers.
 2. Press `Shift + A`.
 
-The **Auto layout** section will then display the various properties you can apply to your frame. You can also select elements within the frame to **change their individual auto layout settings**:
+The **Auto layout** section will then display the various [properties](#auto-layout-properties) you can apply to your frame. 
+
+<embed type="image/svg+xml" alt="autolayout_settings_right" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/4PnutYRZi06Cat0B0jBupQ.svg" /> 
+
+#### On-canvas controls
+
+You can adjust the spacing and padding in an auto layout right on the canvas by dragging the pink handles between and around the elements.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/al_canvaseditor.png" height="auto"><source src="/public/al_canvaseditor.mp4" type="video/mp4"></video>
+
+#### Individual auto layout settings
+
+Select elements within the frame to **change their individual auto layout settings**:
 
 - If you select a nested auto layout frame, you’ll see the usual **Auto layout** section in the right panel.
 - If you select an ordinary layer or frame inside an auto layout you’ll see its **individual properties**, which look like this:
