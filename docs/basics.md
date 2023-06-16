@@ -326,6 +326,6 @@ These context menu options are universal for almost all layer types:
 
 Turn off some or all of these features for a completely private experience:
 
-<embed type="image/svg+xml" alt="privacy_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/L1r9ZlRIVUSeW-7_ve4sDg.svg" width="844" /> 
+<embed type="image/svg+xml" alt="privacy_settings_advanced" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/vjjf-gYhsUGP7whMFN7eCw.svg" width="844" />
 
 Most of these settings can only be removed by <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">premium users</a>, but you can turn off **Google Analytics** and **Google Fonts** without a license.
