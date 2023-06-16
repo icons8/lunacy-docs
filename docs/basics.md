@@ -234,7 +234,6 @@ Here's a handy shortcut list for all of the distance measurement options:
 | Two layers in different groups   | Select a grouped layer hold down `Alt` / `⌥`, hover the cursor over a layer in another group.               |
 
 
-
 ## Zooming options
 
 Use the **Zoom tool** and the **Zoom control** to explore more of Lunacy's zooming options.
@@ -243,7 +242,7 @@ The **Zoom tool** enables you to zoom in to a selected layer or canvas area. To 
 
 1. Press and hold `Z`.
 2. Click on a layer or drag over an area on the canvas (the smaller the area, the higher the zoom value).
-3. To zoom out, hold down `Z + Alt` / `Z + ⌥` and click or drag over the layer/area.
+3. To zoom out, hold down `Alt + Z` / `⌥ + Z` and click or drag over the layer/area.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/zoom_tool_options.png" height="auto"><source src="/public/zoom_tool_options.mp4" type="video/mp4"></video>
 
@@ -322,3 +321,11 @@ These context menu options are universal for almost all layer types:
 <div class="callout callout--info">
     <p><strong>Note:</strong> When you right-click on an empty area on the canvas or a frame, the only command available on the context menu is <b>Paste here</b>. </p>
 </div>
+
+## Advanced privacy settings 
+
+Turn off some or all of these features for a completely private experience:
+
+<embed type="image/svg+xml" alt="privacy_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/L1r9ZlRIVUSeW-7_ve4sDg.svg" width="844" /> 
+
+Most of these settings can only be removed by <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">premium users</a>, but you can turn off **Google Analytics** and **Google Fonts** without a license.

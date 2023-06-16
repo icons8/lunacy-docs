@@ -32,52 +32,52 @@ These are the main elements of the interface:
 
 <embed type="image/svg+xml" alt="interface_overview" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/1jBfi42THUuARoHsnZnpLQ.svg" width="844" /> 
 
-**Сontent tabs**
+#### Сontent tabs
 <br>
 Use them to switch between:
 
 * The Layer list
 * Document assets (<a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">styles</a>)
-* Built-in <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos, vector images, as well as <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://lunacy.docs.icons8.com/plugins" target="_blank">plugins</a>
+* Built-in <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos, illustrations, as well as <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://lunacy.docs.icons8.com/plugins" target="_blank">plugins</a>
 * The list of <a href="https://lunacy.docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
 
-Shrink the width of the content tabs panel by dragging its border to the left:
+Shrink the width of the **Content tabs** panel by dragging its border to the left:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/show_hide_content_tabs.png" height="auto"><source src="/public/show_hide_content_tabs.mp4" type="video/mp4"></video>
     
-**The left panel**
+#### The left panel
 <br>
 Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View** > **Left Panel** in the menu bar.
 
-**The toolbar**
+#### The toolbar
 <br>
 Features all the primary design tools you'll need. Read more <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">about each tool</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View** > **Toolbar**) in the menu bar.
 
-**The canvas**
+#### The canvas
 <br>
 This is your working area. Read in detail about <a href="https://lunacy.docs.icons8.com/basics/#working-with-the-canvas" target="_blank">working with the canvas</a>.
 
-**The right panel**
+#### The right panel
 <br>
 This panel lets you see and adjust the properties of the selected layer. The view of the right panel varies depends on the layer type. 
 
-**The menu bar**
+#### The menu bar
 <br>
 Displays the options and commands related to files, layers, editing, etc. It also features the <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> button, which opens up the [Home tab](#home-tab).
 
-**The context toolbar**
+#### Context toolbar
 <br>
 The set of controls displayed on the context toolbar depends on the type of the currently selected layer. Hover the cursor over a tool icon to see a pop-up explaining what it does.
 
-**Document tabs**
+#### Document tabs
 <br>
 The tabs of currently open files are displayed on the right of the Home button. Click on the tabs to switch between them or press `Ctrl + Tab` / `⌘ + Tab` and `Ctrl + Shift + Tab` / `⌘ + Shift + Tab`.
 
-**The Play button** 
+#### Play button
 <br>
 Starts the prototype previewer. Read more about <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">prototyping in Lunacy</a>.
 
-**Additional options** 
+#### Additional options
 <br>
 This button opens up a menu with these options:
 
@@ -91,13 +91,15 @@ This button opens up a menu with these options:
 | <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The **Pixels on Zoom** option shows pixels when the zoom value exceeds 100. | **View** > **Pixels on Zoom** |
 | <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the [right panel](#the-right-panel) on and off. | `-` |
 
-**The Zoom control**
+#### The Zoom control
 <br>
 Use it to adjust the zoom value. Read in more detail <a href="https://lunacy.docs.icons8.com/basics/#zooming-options" target="_blank">about zooming options</a>.
 
-**Theme switch**
+#### Theme switch
 <br>
 Use it to switch between the light and dark themes.
+
+### Interface scale 
 
 To adjust the scale of the interface, go to **View** > **Interface scale**, or use these shortcuts:
 
@@ -148,7 +150,7 @@ Using the Layer list, you can:
 
 Other basic operations with layers are available on the <a href="https://lunacy.docs.icons8.com/basics/#the-context-menu" target="_blank">context menu</a>.
 
-### Useful tips
+#### Useful tips
 
 To **collapse all layers** in the Layer list, press `Ctrl + ~` / `⌘ + ~`.
 
