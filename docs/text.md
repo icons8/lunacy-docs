@@ -114,8 +114,6 @@ Use this field to **set the font size** or press `Ctrl + Alt + "+"` / `⌥ + ⌘
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_change_font_size.png" height="auto"><source src="/public/text_change_font_size.mp4" type="video/mp4"></video>
 
-##### On-canvas font size editor
-
 You can also change the font size directly on the canvas by dragging the circular handle at the bottom of the text layer bounding box:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_canvaseditor.png" height="auto"><source src="/public/text_canvaseditor.mp4" type="video/mp4"></video>

@@ -83,8 +83,6 @@ The **Auto layout** section will then display the various [properties](#auto-lay
 
 <embed type="image/svg+xml" alt="autolayout_settings_right" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/4PnutYRZi06Cat0B0jBupQ.svg" /> 
 
-#### On-canvas controls
-
 You can adjust the spacing and padding in an auto layout right on the canvas by dragging the pink handles between and around the elements.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/al_canvaseditor.png" height="auto"><source src="/public/al_canvaseditor.mp4" type="video/mp4"></video>
