@@ -93,7 +93,7 @@ There are several ways to change the fill color. You can:
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_applying_color.png" height="auto"><source src="/public/styling_applying_color.mp4" type="video/mp4"></video>
 
 
-### Color picker
+#### Color picker
 
 To open the **color picker**, click the color swatch in one of the styling sections in the right panel.
 
@@ -135,7 +135,7 @@ The color picker displays these settings:
 
 **Add color preset.** Use this button to add the currently selected color to **Global** or **Document** presets.
 
-### Color variables
+#### Color variables
 
 With **color variables**, you can efficiently manage colors in your documents and instantly recolor all the layers using the same variable. You can use color variables for fills, borders, and shadows.
 
@@ -171,7 +171,7 @@ With a layer selected, use one of these ways to **detach a layer from a color va
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_detach_variable.png" height="auto"><source src="/public/styling_detach_variable.mp4" type="video/mp4"></video>
 
-### Color palettes and auto shape colors
+#### Color palettes and auto shape colors
 
 All newly created documents have a color palette which includes document color variables for main, accent, background, and text colors.
 
@@ -286,15 +286,16 @@ To **create an image fill**:
 2. In the top bar of the color picker, click <embed type="image/svg+xml" alt="image_fill" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/UaEWmyqIP0iiZAIkJTe_pQ.svg" width="20" />.
 3. Click **Choose image**.
 4. Select an image from on your computer and click **Open**.
-5. Use the drop-down list below the **Choose image** button to select the fill method:
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_image_fill.png" height="auto"><source src="/public/styling_image_fill.mp4" type="video/mp4"></video>
+
+Use the drop-down list below the **Choose image** button to select the fill method:
     - **Fill.** Adjusts the image size to the layer’s width.
     - **Fit.** Adjusts the image size to fit the layer’s height.
     - **Stretch.** Stretches the image to fit the layer’s width and height.
     - **Tile.** Duplicates the image in a tile pattern to fit the layer. The size of tiles is adjustable.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_image_fill.png" height="auto"><source src="/public/styling_image_fill.mp4" type="video/mp4"></video>
-
-You can also quickly replace an image fill by holding down `Ctrl` / `⌘` and dropping an image from your desktop or the **Photos** library in the left panel onto a layer, like in the demo below.
+You can quickly replace an image **or** image fill by holding down `Ctrl` / `⌘` and dropping an image from your desktop or the **Photos** library in the left panel onto a layer, like in the demo below.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_ctrl_image_replacement.png" height="auto"><source src="/public/styling_ctrl_image_replacement.mp4" type="video/mp4"></video>
 
