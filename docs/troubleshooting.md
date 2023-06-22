@@ -22,7 +22,9 @@ page_nav:
         url: '/faq'
 ---
 
-If you run into a problem with Lunacy, don't panic. First of all, make sure that your OS and video card drivers are up-to-date. Faulty drivers or unstable/insider OS builds can also cause problems. Check out the list of possible fixes for common issues in the <a href="https://lunacy.docs.icons8.com/faq/#questions-about-possible-issues" target="_blank">FAQ page</a>. 
+If you run into a problem with Lunacy, don't panic. 
+
+First of all, make sure that your OS and video card drivers are up-to-date. Faulty drivers or unstable/insider OS builds can also cause problems. Check out the list of possible fixes for common issues in the <a href="https://lunacy.docs.icons8.com/faq/#questions-about-possible-issues" target="_blank">FAQ page</a>. 
 
 If that doesn't help or your problem isn't in the list, you can send an error to our suppport team through our **feedback form**: 
 

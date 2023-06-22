@@ -361,8 +361,9 @@ When importing an image into Lunacy using the **Image tool** click and drag to a
 
 #### Image adjust
 
-Change hue, saturation, contrast, and other image adjustment properties of your images. To do this:
+Change the hue, saturation, contrast, and other properties of your images. 
 
+To do this:
 1. Select an image layer. 
 2. Click `+` next to **Image adjust** in the **right panel**.
 
