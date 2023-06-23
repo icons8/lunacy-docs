@@ -71,11 +71,11 @@ To use **images from the Lunacy Photos library**:
 
 There are two ways to **import an image from your browser** via link:
 
-**Method 1.** Right-click the image in your web browser and select **Copy image address** from the context menu. Switch to Lunacy, press `M` for the **Image tool**, then paste the image URL in the file name input field. Finally, click **Open**.
+- Right-click the image in your web browser and select **Copy image address** from the context menu. Switch to Lunacy, press `M` for the **Image tool**, then paste the image URL in the file name input field. Finally, click **Open**.
 
-OR
+    OR
 
-**Method 2.** Right-click the image in your web browser and select **Copy image address** from the context menu. Switch to Lunacy, right click over the canvas, and select **Paste here** from the context menu. Click **OK** in the Paste as image dialog box. If you click **Cancel**, Lunacy will paste the text of the image address.
+- Right-click the image in your web browser and select **Copy image address** from the context menu. Switch to Lunacy, right click over the canvas, and select **Paste here** from the context menu. Click **OK** in the Paste as image dialog box. If you click **Cancel**, Lunacy will paste the text of the image address.
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> This method works only when a web site provides direct links to images with an image extension at the end (<code>.jpg</code>, <code>.png</code>, etc.)</p>
