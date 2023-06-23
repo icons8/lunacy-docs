@@ -28,7 +28,7 @@ page_nav:
 
 Create **teams** optimize your workflow with design files and systems. With teams, you can collaborate with other users and organize your documents into **projects**, which work just like folders.
 
-To start working with teams, <a href="https://lunacy.docs.icons8.com/interface/#account-and-profile" target="_blank">log in to your Icons8 account</a>. You can create and see your teams in the left panel of the Home tab.
+To start working with teams, <a href="https://lunacy.docs.icons8.com/interface/#account-and-profile" target="_blank">log in to your Icons8 account</a>. You can create and see your teams in the left panel of the <a href="https://lunacy.docs.icons8.com/interface/#home-tab" target="_blank">Home tab</a>.
 
 <embed type="image/svg+xml" alt="team" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/KMYx7l4z9kexOjobB_PS-Q.svg" width="844" /> 
 
@@ -36,7 +36,7 @@ This chapter covers the basics of working with teams, collaboration and project 
 
 ## How teams work in Lunacy
 
-Teams are available for all registered users. You can create one team on the trial plan and switch over to the paid team plan whenever you’re ready.
+Teams are available for all registered users. You can create one team on the trial plan and <a href="https://lunacy.docs.icons8.com/subscriptions/#team-plans" target="_blank">switch over to the paid team plan</a> whenever you’re ready.
 
 ### [Trial team plan vs. paid team plan](#trial-vs-paid-teams)
 
@@ -48,6 +48,7 @@ Teams are available for all registered users. You can create one team on the tri
 | Version history     | Last 30 days           | Entire version history |
 | Deleted files      | Stored for 30 days       | Stored forever |
 | Team member limit  | Up to 3 (including the team owner)        | Add more members to your team as it grows (**$4.99 per user/month**) |
+| Other  | -      | A <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">personal cloud license</a> for the **team owner** |
 
 Once you decide to switch to the paid plan, click over the team name in the left panel of the **Home tab.** Click **Upgrade plan** and follow the instructions.
 
