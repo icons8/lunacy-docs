@@ -54,6 +54,9 @@ Once you decide to switch to the paid plan, click over the team name in the lef
     <p><strong>Note:</strong> If you are already a member of a free team (not the owner) and want to create a team with a paid plan, you’ll have to leave the free team first.</p>
 </div>
 
+**See also:**<br>
+<a href="https://lunacy.docs.icons8.com/subscriptions/" target="_blank">Plans and pricing</a>
+
 ## Creating teams
 
 To **create a team**:
