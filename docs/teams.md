@@ -22,10 +22,6 @@ page_nav:
         url: '/linked_design'
 ---
 
-*Learn how to organize teamwork*
-
----
-
 Create **teams** optimize your workflow with design files and systems. With teams, you can collaborate with other users and organize your documents into **projects**, which work just like folders.
 
 To start working with teams, <a href="https://lunacy.docs.icons8.com/interface/#account-and-profile" target="_blank">log in to your Icons8 account</a>. You can create and see your teams in the left panel of the <a href="https://lunacy.docs.icons8.com/interface/#home-tab" target="_blank">Home tab</a>.
@@ -109,7 +105,8 @@ To **show/hide a project name** in the left panel, use the **Pin** (<embed type=
 
 To **rename a project**, use the context menu in the left panel or click over the project name in the main area. To **change the project avatar**, simply click on it.
 
-<img width="2732" height="1472" src="https://lcdn-eu.icons8.com/c/Dko8QE6mZ06fz2gAGGUBbA/508a3099bad4916fe8d4a14d20244661b63a77ac.png" width="844" /> 
+<embed type="image/svg+xml" alt="managing-team" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/9cPfKe6AkUixzwnF4zUQCQ.svg" width = "844" /> 
+
 
 To **delete a document** from a project:
 
