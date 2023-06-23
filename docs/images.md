@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Images
-description: Learn how to work with images in Lunacy
+description: Optimize your work with images in Lunacy
 icon: 'full-image'
 
 # Micro navigation
@@ -22,163 +22,173 @@ page_nav:
         url: '/libraries'
 ---
 
+This section covers how to work with raster images.
 
-This chapter details how to work with raster images. Lunacy supports all the popular image formats like PNG, JPG, JPEG, WEBP, BMP, ICO, GIF, SVG. The TIFF format is not supported.
+Lunacy supports these image formats: `PNG`, `JPG`, `JPEG`, `WEBP`, `BMP`, `ICO`, `GIF`, `SVG`. The `TIFF` format is not supported.
 
-## Adding images
+## [Adding images to the canvas](#adding-images-to-the-canvas)
 
-You can:
+There are several ways to **add images to the canvas**:
 
-* Add photos from the Lunacy <a href="https://lunacy.docs.icons8.com/libraries/#photos-and-masked-photos" target="_blank">library</a>.
-* Use the <a href="https://lunacy.docs.icons8.com/tools/#image-tool" target="_blank">Image tool</a> to add images from your computer.
-* Copy image files from your desktop or the Explorer and then paste them onto the canvas.
-* Drag image files from your desktop or the Explorer and then drop them onto the canvas.
-* Import images from the internet.
+- Using the **Image tool** to add images from your computer
+- Importing images from Lunacy’s **Photos** library
+- **Drag-and-dropping** images from the file explorer
+- **Copying images** from your desktop or browser and paste it onto the canvas
+- **Importing images** from your web browser via link
 
-There are several ways of adding images from the internet.
+### Using the Image tool
 
-**Way 1**
+To add images via the **Image tool**:
 
-That is the most reliable method.
+1. Press `M` or select the **Image tool** on the toolbar.
+2. In the **Open** dialog box, choose one or multiple image files.
+3. Click on the canvas to place the image to add the image in its original size or click and drag to adjust the image size before placing it on the canvas.
 
-1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image address** or similar command.
-3. Switch to Lunacy and click the Image tool. The **Open** dialog box appears.
-4. Paste the image URL into the **File name** field.
-5. Click **Open**.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_image_tool_add.png" height="auto"><source src="/public/tools_image_tool_add.mp4" type="video/mp4"></video>
 
-    ![Importing images from the internet](public/images-import.png)
+### The drag-and-drop method
 
-6. Click over the area where you want to put the image (this will add the image in its original size) or click and drag to get the required size of the image.
+You can always simply **drag and drop images** from your files into Lunacy.
 
-**Way 2**
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/images_drag_and_drop.png" height="auto"><source src="/public/images_drag_and_drop.mp4" type="video/mp4"></video>
 
-This method works only when a web site provides direct links to images with an image extension at the end (.jpg, .png, .etc.).
+Alternatively, you can right-click on an image in your file explorer or browser and select **Copy image**, then simply paste it onto the canvas.
 
-1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image address** or similar command.
-3. Switch to Lunacy and right-click over the canvas.
-4. Click **Paste here** on the context menu. The **Paste as image** dialog box appears.
-5. Click **OK** to paste the image. If you click **Cancel**, Lunacy will paste the image address as text.
+### The Photos library
 
-**Way 3**
+To use **images from the Lunacy Photos library**:
 
-When using this method you should understand that you are importing an image displayed in your web browser rather than the original file, so the quality of such an image will be lower.
+1. Open the **Photos** tab in the left panel.
+2. Choose an image, then **drag and drop** it onto the canvas.
 
-1. In your web browser, right-click over the image. The context menu appears.
-2. On the displayed menu, click **Copy image** or similar command.
-3. Switch to Lunacy and right-click over the canvas.
-4. Click **Paste here** on the context menu.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/images_photo_library.png" height="auto"><source src="/public/images_photo_library.mp4" type="video/mp4"></video>
 
-The demo below shows methods 2 and 3.
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> Use low-res photos, PNG icons, and illustrations for free as long as you include a link to <a href="www.icons8.com" target="_blank">icons8.com</a> in your final work.<br><br>To access <b>high-res photos and editable SVGs</b> without mandatory attribution use our graphics without mandatory attribution, consider our <a href="https://lunacy.docs.icons8.com/subscriptions/#graphics-subscriptions" target="_blank">graphics subscription</a>. By subscribing, you'll be supporting our artists and contributing to Lunacy's further development.</p>
+</div>
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tool-imgeimportph.png" height="auto"><source src="/public/tool-importimage11.mp4" type="video/mp4"></video>
+### Importing images from the browser
 
+There are two ways to **import an image from your browser** via link:
+
+**Method 1.** Right-click the image in your web browser and select **Copy image address** from the context menu. Switch to Lunacy, press `M` for the **Image tool**, then paste the image URL in the file name input field. Finally, click **Open**.
+
+OR
+
+**Method 2.** Right-click the image in your web browser and select **Copy image address** from the context menu. Switch to Lunacy, right click over the canvas, and select **Paste here** from the context menu. Click **OK** in the Paste as image dialog box. If you click **Cancel**, Lunacy will paste the text of the image address.
+
+<div class="callout callout--info">
+    <p><strong>Note:</strong> This method works only when a web site provides direct links to images with an image extension at the end (<code>.jpg</code>, <code>.png</code>, etc.)</p>
+</div>
+
+### Using image fills
+
+You can also **add images directly to your layers** (including shapes, frames, and text layers). They will act as a layer background you can replace or modify anytime.
+
+To **add an Image fill**:
+
+1. Make sure your layer has a fill. If it doesn’t, click `+` next to the **Fill** section of the right panel with a layer selected.
+2. Click on the color swatch in the **Fill** section to open up the color picker.
+3. In the top bar of the color picker, click <embed type="image/svg+xml" alt="image_fill" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/UaEWmyqIP0iiZAIkJTe_pQ.svg" width="20" />.
+4. Select an image from on your computer and click **Open**.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_image_fill.png" height="auto"><source src="/public/styling_image_fill.mp4" type="video/mp4"></video>
+
+Use the drop-down list below the **Choose image** button to select the fill method:
+
+- **Fill**. Adjusts the image size to the layer’s width.
+- **Fit**. Adjusts the image size to fit the layer’s height.
+- **Stretch**. Stretches the image to fit the layer’s width and height.
+- **Tile**. Duplicates the image in a tile pattern to fit the layer. The size of tiles is adjustable.
 
 ## Replacing images
 
-There are two ways to replace images.
+There are two ways you can replace images. 
 
-**Way 1**
+The first is to select an image and click the **Replace image** button in the **Image** section in the right panel. This only works for images [added directly to the canvas](#adding-images-to-the-canvas).
 
-1. Select an image on the canvas.
-2. In the **Image** section of the Inspector, click the **Replace image** button. The **Open** dialog box appears.
+<embed type="image/svg+xml" alt="replace_image" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/--lPgBgoE0KJitXct9sAvw.svg" width="844" /> 
 
-    ![Replacing images](public/images-replace.png)
-
-3. Browse to the new image file, select it and click **Open**.
+To **replace an image fill**, select the layer with the fill, click the swatch in the **Fill** section, then **Choose image**.
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> You can also use this method, when you need to replace your current image with an image from the internet. In such a case, just paste the URL of the new image into the <b>File name</b> field of the <b>Open</b> dialog box and click <b>Open</b>.</p>
-    <p>For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p><strong>Tip:</strong> You can also use these methods when you need to replace your current image with an image from the internet. Just paste the URL of the new image into the <b>File name</b> field of the <b>Open</b> dialog box and click <b>Open</b>.</p>
 </div>
 
+Another quick way to **replace an image or image fill** is by holding down `Ctrl` / `⌘` and drag-and-dropping an image from your desktop or the **Photos** library onto a layer, like in the demo below.
 
-<!--
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_ctrl_image_replacement.png" height="auto"><source src="/public/styling_ctrl_image_replacement.mp4" type="video/mp4"></video>
 
-**Tip:** You can also use this method, when you need to replace your current image with an image from the internet. In such a case, just paste the URL of the new image into the **File name** field of the **Open** dialog box and click **Open**.
+Read the full list of Lunacy’s <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">tips and tricks</a>.
 
--->
+## Editing images
 
-**Way 2**
+### Cropping images
 
-1. Drag an image from the library, desktop or Explorer and hover it somewhere near the center of the current image.
-2. Wait a moment until the green mask appears, then release the mouse button.
+To **crop an image**:
+
+1. Select the image.
+2. Press `Enter` or click <embed type="image/svg+xml" alt="Vector" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/WyS0eXZYh0an2lsuK79VlQ.svg" width="20" /> on the context toolbar to enable **Edit mode**.
+3. Crop the image, then press `Enter` again or click the Apply editing button in the right panel.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images_crop.png" height="auto"><source src="/public/images_crop.mp4" type="video/mp4"></video>
+
+### Image upscaler
+
+Whenever you need to enhance the resolution and quality of an image, use the AI-powered <a href="https://icons8.com/upscaler" target="_blank">Icons8 Image Upscaler</a> built into Lunacy.
+
+<embed type="image/svg+xml" alt="upscaler" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/9f14tl6R60ygAU8MH16xoA.svg" width="844" /> 
+
+When you add an image to your document, the **Upscale image** prompt appears above it. Click it and wait a few seconds as the Upscaler enhances the image.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images_crop.png" height="auto"><source src="/public/images_crop.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
-    <p><strong>Tip:</strong> If the green mask does not appear, try to zoom in a bit.</p>
-    <p>For more tips and tricks, click <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">here</a>.</p>
+    <p><strong>Note:</strong> The feature only is available to users with any paid subscription to Icons8 graphic assets.</p>
 </div>
 
-<!--
-
-**Tip:** If the green mask does not appear, try to zoom in a bit.
-
--->
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-replaceph.png" height="auto"><source src="/public/images-replace.mp4" type="video/mp4"></video>
-
-
-## Cropping images
-
-To crop an image:
-
-1. Select the image.
-2. Press `Enter` or click ![Image crop button](public/images-cropbtn.png) on the context toolbar to enable the edit mode.
-3. Drag the borders of the frame to select the required area.
-4. Press `Enter` or click the **Apply editing** button in the Inspector.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-cropph.png" height="auto"><source src="/public/images-crop.mp4" type="video/mp4"></video>
-
-
-## Cutting out a part of an image
-
-To cut out a part of an image:
-
-1. Select the image.
-2. Press `Enter` to enable the edit mode.
-3. Click one of the selection tools that will show up below the image:
-
-    * ![Scissors tool](public/images-scissorstool.png) - **Scissors**. When using the scissors tool, you can change the shape of the selection border (rectangle, ellipse, triangle, etc.) For this, with the scissors enabled, click the required shape tool on the toolbar (see the figure below).
-
-        ![Scissors tool](public/images-scissorsdemo.png)
-
-    * ![Freehand lasso tool](public/images-lassofreehand.png) - **Freeform Lasso**. Enables you to make freeform selections. Works similarly to the <a href="https://lunacy.docs.icons8.com/tools/#pencil-tool" target="_blank">Pencil tool</a>. To close the selection border, just release the mouse button.
-    * ![Polygonal lasso tool](public/images-lassopolygon.png) - **Polygon Lasso**. Enables you to make straight-edged selections. Works similarly to the <a href="https://lunacy.docs.icons8.com/tools/#pen-tool" target="_blank">Pen tool</a>. To disable snapping while drawing a selection border, hold down `Ctrl`.
-
-4. Select the area you want to cut out.
-5. Press `Delete` or move the selection to where you want it. In the latter case, Lunacy creates a vector shape with an image fill that corresponds to your selection. Also, Lunacy automatically fills the emptied area with the color prevailing along the selection border.
-
-![Freehand lasso tool](public/images-cutoutresult.png)
-
-## Adjusting image colors
-
-You can make color adjustments to your images using the controls in the **Adjust image** section of the Inspector. The section appears only when an image is selected. Just click the `+` button to unfold the panel and move the sliders to adjust hue, saturation, brightness, and contrast.
-
-These adjustments are non-destructive. You can discard all changes and restore the original image by clicking the **Reset values** (![Reset values button](public/resetvaluesicon.png)) button next to the section header (see the demo below).
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images-adjustph.png
-" height="auto"><source src="/public/images-adjust.mp4" type="video/mp4"></video>
-
-Also, you can adjust color settings of several images at the same time.
-
-## Background removal
-
-**Note:** This feature works fine only with images that feature humans.
-
-To remove background from an image:
-
-1. Select the image.
-2. In the inspector, click the **Remove background** button.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/tips-bgremovalph.png" height="auto"><source src="/public/tips-bgremove.mp4" type="video/mp4"></video>
-
-## Image upscaler
-
-Lunacy is integrated with the <a href="https://icons8.com/upscaler" target="_blank">Icons8 Image Upscaler</a>. When you add an image to your document, Lunacy will offer you to enhance the image using our state-of-the-art AI.
-
-![Lunacy Image upscaler by Icons8](/public/rn-upscaler.png)
+### Background remover
 
 <div class="callout callout--info">
-    <p><strong>Note:</strong> The feature is available only to users with any paid subscription for Icons8 graphic assets.</p>
+    <p><strong>Note:</strong> The background remover only works with pictures that feature humans.</p>
 </div>
+
+To **remove a background** from an image:
+
+1. Select the image.
+2. In the right panel, click **Remove background**.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images_background_remover.png" height="auto"><source src="/public/images_background_remover.mp4" type="video/mp4"></video>
+
+### Cutting out a part of an image
+
+You can cut out part of an image so it becomes a new image layer that you can adjust as you like.
+
+To **cut out a part of an image**:
+
+1. Select the image.
+2. Press `Enter` to enable **Edit mode**.
+3. Choose one of the selection tools that show up below the image:
+    - **Scissors**. With scissors, you can make a selection with any shape (rectangle, ellipse, triangle, etc.) by selecting the shape on the toolbar or pressing the corresponding shape shortcut.
+    - **Freeform lasso**. With the freeform lasso, draw freehand selections on parts of the image, just like with the Pencil tool. To close the selection border, just release the mouse button.
+    - **Polygon lasso**. Use the polygonal lasso to make selections using paths, similar to using the Pen tool. To disable snapping while drawing the selection, hold down `Ctrl` / `⌘`.
+4. Once you have an area selected:
+    - Press `Delete` to remove it completely.
+    - Move the selection to where you want it to be. In this case, Lunacy creates a vector shape with an image fill that corresponds to your selection and automatically fills the emptied area with the color that’s prevalent along the selection border.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images_cutout_tool.png" height="auto"><source src="/public/images_cutout_tool.mp4" type="video/mp4"></video>
+
+
+### Image adjustment
+
+Change the hue, saturation, contrast, and other properties of your images.
+
+To do this:
+
+1. Select one or several image layers.
+2. Click `+` next to **Image adjust** in the right panel.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images_adjustments.png" height="auto"><source src="/public/images_adjustments.mp4" type="video/mp4"></video>
+
+These adjustments are all reversible. You can discard all changes and restore the original image by clicking the Reset values (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="20" >) button next to the section header.
+
