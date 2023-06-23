@@ -36,7 +36,7 @@ There are several ways to **add images to the canvas**:
 - **Copying images** from your desktop or browser and paste it onto the canvas
 - **Importing images** from your web browser via link
 
-### Using the Image tool
+#### Using the Image tool
 
 To add images via the **Image tool**:
 
@@ -46,7 +46,7 @@ To add images via the **Image tool**:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tools_image_tool_add.png" height="auto"><source src="/public/tools_image_tool_add.mp4" type="video/mp4"></video>
 
-### The drag-and-drop method
+#### The drag-and-drop method
 
 You can always simply **drag and drop images** from your files into Lunacy.
 
@@ -54,7 +54,7 @@ You can always simply **drag and drop images** from your files into Lunacy.
 
 Alternatively, you can right-click on an image in your file explorer or browser and select **Copy image**, then simply paste it onto the canvas.
 
-### The Photos library
+#### The Photos library
 
 To use **images from the Lunacy Photos library**:
 
@@ -67,7 +67,7 @@ To use **images from the Lunacy Photos library**:
     <p><strong>Tip:</strong> Use low-res photos, PNG icons, and illustrations for free as long as you include a link to <a href="www.icons8.com" target="_blank">icons8.com</a> in your final work.<br><br>To access <b>high-res photos and editable SVGs</b> without mandatory attribution use our graphics without mandatory attribution, consider our <a href="https://lunacy.docs.icons8.com/subscriptions/#graphics-subscriptions" target="_blank">graphics subscription</a>. By subscribing, you'll be supporting our artists and contributing to Lunacy's further development.</p>
 </div>
 
-### Importing images from the browser
+#### Importing images from the browser
 
 There are two ways to **import an image from your browser** via link:
 
@@ -81,7 +81,7 @@ OR
     <p><strong>Note:</strong> This method works only when a web site provides direct links to images with an image extension at the end (<code>.jpg</code>, <code>.png</code>, etc.)</p>
 </div>
 
-### Using image fills
+### Adding image fills
 
 You can also **add images directly to your layers** (including shapes, frames, and text layers). They will act as a layer background you can replace or modify anytime.
 
@@ -149,16 +149,13 @@ When you add an image to your document, the **Upscale image** prompt appears abo
 
 ### Background remover
 
-<div class="callout callout--info">
-    <p><strong>Note:</strong> The background remover only works with pictures that feature humans.</p>
-</div>
-
 To **remove a background** from an image:
 
 1. Select the image.
 2. In the right panel, click **Remove background**.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images_background_remover.png" height="auto"><source src="/public/images_background_remover.mp4" type="video/mp4"></video>
+
 
 ### Cutting out a part of an image
 
