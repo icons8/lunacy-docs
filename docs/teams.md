@@ -22,191 +22,169 @@ page_nav:
         url: '/linked_design'
 ---
 
-Teams serve to make it easier for you to manage collaborative documents and people who have access to them. This chapter covers the details of working with teams.
+*Learn how to organize teamwork*
 
-<div class="callout callout--warning">
-    <p><strong>Note:</strong> To start working with teams, make sure that you're signed into your Icons8 account.</p>
-</div>
+---
 
-## [Free plan vs paid plan](#free-plan-vs-paid-plan)
+Create **teams** optimize your workflow with design files and systems. With teams, you can collaborate with other users and organize your documents into **projects**, which work just like folders.
 
-You can try out teams on a free plan. When you think you are ready, you can switch to our paid plan.
+To start working with teams, <a href="https://lunacy.docs.icons8.com/interface/#account-and-profile" target="_blank">log in to your Icons8 account</a>. You can create and see your teams in the left panel of the Home tab.
 
-How it works with the **free plan**:
+<embed type="image/svg+xml" alt="team" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/KMYx7l4z9kexOjobB_PS-Q.svg" width="844" /> 
 
-* You can create one team and invite two more members to the team.Thus, a free team can include up to 3 members. A user can be a member of one free team only.
-* The total number of documents across all projects (including the ones in the trash bin) of a free team cannot exceed ten.
-* Document version history is limited to 30 days.
+This chapter covers the basics of working with teams, collaboration and project options, and team management.
 
- With the **paid plan**, you get:
+## How teams work in Lunacy
 
-* As many team members as you need
-* Unlimited number of team documents
-* Unlimited version history
-* Unlimited storage period for deleted documents
-* Free *Personal Cloud* license for the team owner
+Teams are available for all registered users. You can create one team on the trial plan and switch over to the paid team plan whenever you’re ready.
 
-When you decide to switch to the **paid plan**, click over the team name in the left panel, then click **Upgrade plan** and follow the instructions.
+### [Trial team plan vs. paid team plan](#trial-vs-paid-teams)
 
-![Upgrading a team plan in Lunacy](public/upgrading_team.png)
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Trial team plan         | Professional team plan            |
+| ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |
+|Cloud document limit| Up to 10 documents across all team projects (including deleted documents) | Unlimited|
+| Document editors/exporters | Up to 3 | Unlimited|
+| Document viewers   | Unlimited    | Unlimited|
+| Version history     | Last 30 days           | Entire version history |
+| Deleted files      | Stored for 30 days       | Stored forever |
+| Team member limit  | Up to 3 (including the team owner)        | Add more members to your team as it grows (**$4.99 per user/month**) |
 
-<div class="callout callout--warning">
-    <p><strong>Note:</strong> If you are already a member of a free team (not an owner) and want to create a team on a paid plan, you've got to leave the free team first.</p>
+Once you decide to switch to the paid plan, click over the team name in the left panel of the **Home tab.** Click **Upgrade plan** and follow the instructions.
+
+<embed type="image/svg+xml" alt="team_upgrade" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/1any0-srKUWOaWwDAgQ2ng.svg" width="844" /> 
+
+<div class="callout callout--info">
+    <p><strong>Note:</strong> If you are already a member of a free team (not the owner) and want to create a team with a paid plan, you’ll have to leave the free team first.</p>
 </div>
 
 ## Creating teams
 
-![Creating a team](public/teams-add1.png)
+To **create a team**:
 
+1. Open the **Home** **tab**.
+2. In the left panel, click **Create New Team**.
+3. Type the name of the team, then click **Create team**.
+4. (optional) On the next screen, click **Copy link** to invite other team members. You can always copy the invite link in the upper-right corner **Members** tab of the team page.
+5. Click **Continue**.
 
-To create a team:
+<embed type="image/svg+xml" alt="create-team" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/eaGv6ZC8rUiMTh7aob2VMg.svg" width="844" /> 
 
-1. Open the **Home** tab.
-2. In the left panel, click **Create New Team**.
-3. On the displayed screen, type the name of the team, then click **Create team**.
-4. (optional) On the next screen, click **Copy link** to send it to other team members. You can always copy the invite link in the upper-right corner **Members** tab of the team page.  
-5. Click **Continue**.
+The user who created the team is the **team owner**.
 
-The user who created a team is a **team owner**.
+Right-click the team name in the left panel to open up the context menu that lets you:
 
-By right-clicking a team name in the left panel of the **Home** tab you can invoke the context menu that lets you:
-
-* Rename the team
-* Change the team avatar
-* [Upgrade your plan](#free-plan-vs-paid-plan)
-* [Delete the team](#deleting-a-team)
-
-![Team context menu](public/teams_context_menu.png)
-
+- Rename the team
+- Change the team avatar
+- [Upgrade your plan]( )
+- [Delete the team]( )
 
 ## Managing teams
 
-To manage a team, switch to the **Home** tab, then click the required team name in the left panel. The team screen appears.
-
-Each team screen features two tabs:
-
-* [Projects](#projects)
-* [Members](#members)
+To **manage your team**, switch to the **Home** **tab**, then click the required team name in the left panel. The team screen will open up, featuring two tabs: [Projects](#projects) and [Members](#members).
 
 ### [Projects](#projects)
 
-On this tab, you will keep your team documents organized in projects. You can think of projects as of folders. To start creating team documents, you should have at least one project.
+To start creating team documents, you’ll need at least one project to organize them. Think of projects as folders for your team’s documents.
 
-All the documents within team projects automatically become available to the team members.
+<embed type="image/svg+xml" alt="project" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/x3oezjCDwECLaS-udoDJTw.svg" width="844" /> 
 
-To create a project:
+All the documents within team projects automatically become available to all team members.
 
-1. Select the required team in the left menu of the **Home** tab. Make sure that the team screen opens on the **Projects** tab.
-2. In the upper-right corner of the screen, click **New Project**.
-3. Define the project name on the displayed screen.
+To **create a project**:
 
-![Creating a new project](public/new_project.png)
+1. Select the required team in the left panel of the **Home** **tab**. Make sure you end up on the **Projects** tab.
+2. At the top right corner of the screen, click **New Project**.
+3. Name your project and press `Enter`.
 
+<embed type="image/svg+xml" alt="creating-project" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/txs4F1_xYEKOBjSbCfVczA.svg" width="844" /> 
 
-Now you can add documents to the project. You can:
+You can now add documents to the project. Using the three prompts at the top of the project page, you can:
 
-* Create new cloud documents from scratch.
-* Import existing .sketch files.
-* Import existing documents from Figma.
+- Create new cloud documents.
+- Import existing .sketch files.
+- Import Figma files.
 
-For this, use the respective buttons that appear at the top of each project.
+To **show/hide a project name** in the left panel, use the **Pin** (<embed type="image/svg+xml" alt="pin_button" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/KxHRtwNdm0i00mSBZ7PF9g.svg" width="20" />) button at the top right corner.
 
-The figure below shows a view of a project with two documents.
+To **rename a project**, use the context menu in the left panel or click over the project name in the main area. To **change the project avatar**, simply click on it.
 
-![Team projects tab](public/project_screen_view.png)
+<img width="2732" height="1472" src="https://lcdn-eu.icons8.com/c/Dko8QE6mZ06fz2gAGGUBbA/508a3099bad4916fe8d4a14d20244661b63a77ac.png" width="844" /> 
 
+To **delete a document** from a project:
 
-To show/hide a project name in the left panel, use the **Pin** (![pin](public/pin_icon.png)) button in the upper-right corner.
+1. Right-click the document to open up the context menu.
+2. Select **Delete**.
 
-<!--
+Deleted documents move to the **Deleted** section of the **Home** **tab**. There, you can restore or permanently delete documents.
 
-![Pinning or unpinning a project](public/teams_pin_unpin.png)
+To **delete a project**:
 
--->
-
-To rename a project, use the context menu in the left panel (1) or click over the project name in the main area (2). Also, you can change the project avatar (3).
-
-![Renaming a project and changing project avatar](public/renaming-project.png)
-
-
-To delete a document from a project:
-
-1. Right-click over the document. The context menu shows up.
-2. On the menu, click **Delete**.
-
-Deleted documents move to the **Deleted** screen of the **Home** tab. There you can restore or permanently delete documents. 
-
-
-To delete a project:
 1. Delete all documents from the project first.
-2. Click the **Delete project** button in the upper-right corner.
+2. Click the **Delete project** button at the top right corner.
     
     **OR**
+    
+    Right-click over the project in the left panel, then click **Delete** on the context menu.
 
-    Right-click over the project in the left panel, then click **Delete** on the context menu.
-
-![Deleting a project](public/deleting_project.png)
-
-
-<div class="callout callout--warning">
-    <p><strong>Note:</strong> Not all users can delete documents and projects. For details, check out the table below.</p>
+<embed type="image/svg+xml" alt="delete-project" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/hlygzdieH0WNPzPMOO9AHw.svg" width="844" /> 
+    
+<div class="callout callout--info">
+    <p><strong>Note:</strong> Not all users can delete documents and projects. Check out the table below for details.</p>
 </div>
 
 
 ### [Members](#members)
 
-On this tab, you can:
+Use the **Members tab** to:
 
-* Get links to invite new members (1).
-* Manage team members and their roles (2).
-* Delete team members (3).
-* Copy a link for a pending invite to resend it (4).
+- Generate invite links for new members.
+- Manage team members and their roles.
+- Delete team members.
+- Copy a link for a pending invite to resend it.
 
+<embed type="image/svg+xml" alt="team-management" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/sQhrXqgQV0q7xaZRBks1OA.svg" width="844" /> 
 
-![Team members tab](public/team_members3.png)
+To create an invite link, click **Invite user** in the upper-right corner of the screen. The link ends up in your clipboard, and a new record appears in the list of team members. Until the invitee opens the link, you’ll see the **Invite pending** caption instead of their username. 
 
-To get an invite link, click **Invite user** in the upper-right corner of the screen. The link gets copied to your clipboard, and a new record appears in the table of team members. Until the invitee opens opens the link, you'll see the *Invite pending* caption instead of the username.  Use the drop-down list in the **Team permissions** column, to assign the required user role:
+Once a user opens the link, their username and avatar will show up on the **Members** tab. You can visit team member profiles by right-clicking their avatars.
 
-* **Can view**. The set of permissions assigned by default to all users joining a team via an invite link. Users with this set of permissions can only view the content of team documents.
-* **Can export**. This set of permissions is intended for developer handoff. Users with this set of permissions can view designs, inspect layer properties in the left panel, and export document content.
-* **Can edit**. Users with this set of permissions can create and edit documents within the team. But they don't have some administrative permissions.
-* **Admin**. Team administrators get the extended set of permissions.
+Use the drop-down list in the **Team permissions** column to assign **user roles** to team members:
 
-Once a user opens the link, their username and avatar appear on the **Members** tab. You can view team members' profiles by right-clicking their avatars.
+- **Can view**. Assigned by default to all users joining a team via an invite link. Users with this set of permissions can only view the content of team documents.
+- **Can export**. This is for developer handoff. Users with this set of permissions can view designs, inspect layer properties, and export document layers.
+- **Can edit**. Users with this role can create and edit team documents, but they lack certain administrative permissions.
+- **Admin**. Team admins can do all of the above, as well as rename the team, change its avatar, assign roles to other members, and delete members from the team.
 
-The table below shows the differences between the permission sets.
+#### [Role permissions](#role-permissions)
 
+|  | Owner | Admin | Can edit | Can view | Can export |
+| --- | --- | --- | --- | --- | --- |
+| Change the team plan | + | - | - | - | - |
+| Delete the team | + | - | - | - | - |
+| Leave the team | - | + | + | + | + |
+| Rename the team | + | + | - | - | - |
+| Change the team avatar | + | + | - | - | - |
+| Assign roles to team members | + | + | - | - | - |
+| Delete members from the team | + | + | - | - | - |
+| Create documents | + | + | + | - | - |
+| Rename documents | + | + | + | - | - |
+| Delete documents | + | + | + | - | - |
+| Create a project | + | + | + | - | - |
+| Rename projects | + | + | + | - | - |
+| Delete projects | + | + | + | - | - |
+| Invite new members (copy invite links) | + | + | + | - | - |
+| View the list of team members | + | + | + | + | + |
+| View the list of projects | + | + | + | + | + |
+| View the list of documents | + | + | + | + | + |
 
-|         | Owner    | Admin | Can edit | Can view | Can export |
-| ------------- |-------------|---------------|-------------|---------------| ---------------|
-| Rename team |+ | + |   |  |  |
-| Change team plan |+ |  |   |  |  |
-| Change team avatar |+ | + |   |  |  |
-| Assign roles to team members |+ | + |   |  |  |
-| Delete team |+ |  |   |  |  |
-| Delete members from team  |+ | + |   |  |  |
-| Invite new members (copy links) |+ | + | +  |  |  |
-| View list of team members |+ | + | + | + | + |
-| View list of projects | + | + |  + | + | + |
-| Create project |+ | + | +  |  |  |
-| Rename project |+ | + | +  |  |  |
-| Delete project |+ | + | +  |  |  |
-| View list of documents | + | + |  + | + | + |
-| Create document |+ | + | +  |  |  |
-| Rename document |+ | + | +  |  |  |
-| Delete document |+ | + | +  |  |  |
-| Leave team |  | + |  + | + | + |
+### Deleting a team
 
+To **delete a team**, right-click the team name on the left panel of the **Home** **tab**, then select **Delete**. Note that only the team owner can delete the team.
 
+Deleting the team means that:
 
-## [Deleting a team](#deleting-a-team)
+- All documents associated with the team move to the **Deleted** section of the **Home tab**.
+- Team members lose access to the documents.
+- The name of the team appears greyed out in the left **Home tab** panel. A right-click over a deleted team opens up the context menu that lets you either permanently delete the team or restore it.
 
-To delete a team, right-click the team name on the left panel of the **Home** tab, then click **Delete** on the menu. Note that this operation is accessible only to the team owner.
-
-Upon deletion:
-* All the documents associated with the team move to **Home** > **Deleted**.
-* Team members no longer have access to the documents.
-* The name of the team appears dimmed in the left menu of the **Home** tab. A right-click over a deleted team invokes the context menu that lets you either permanently delete the team or restore it.
-
-
-![Context menu over a deleted team](public/teams-delteam3.png)
+<embed type="image/svg+xml" alt="deleted-team" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/sMKLT81TTkeHyKlxV_UDQg.svg" width="844" /> 
