@@ -25,7 +25,7 @@ page_nav:
 A **layer** is any element you see on the canvas.
 
 There are several types of layers in Lunacy:
-* <a href="https://lunacy.docs.icons8.com/interface/#frames" target="_blank">Frames</a>
+* <a href="https://lunacy.docs.icons8.com/layers/#frames" target="_blank">Frames</a>
 * <a href="https://lunacy.docs.icons8.com/text/" target="_blank">Text layers</a>
 * <a href="https://lunacy.docs.icons8.com/tools/#pen-tool" target="_blank">Vectors</a>
 * <a href="https://lunacy.docs.icons8.com/tools/#shape-tools" target="_blank">Shapes</a>
