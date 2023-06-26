@@ -30,6 +30,15 @@ For instance, if you create a labeled button with auto layout, changing the butt
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/autolayout_button.png" height="auto"><source src="/public/autolayout_button.mp4" type="video/mp4"></video>
 
+If you're familiar with auto layouts, for example the ones in Figma — auto layouts in Lunacy are pretty much the same. Here's a video explainer of the auto layout workflow in Lunacy:
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=AwcMADxxrH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+If you need more info, all the details about auto layouts are in this section.
+
+
+### The basics
+
 The option to enable auto layout appears in the <a href="https://lunacy.docs.icons8.com/basics/#working_with_the_right-panel" target="_blank">right panel</a> whenever you select a frame:
 
 <embed type="image/svg+xml" alt="autolayout_inactive" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/YA58uerpykS3l4kmQ2iPmQ.svg" width="844" /> 

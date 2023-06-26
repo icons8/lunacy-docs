@@ -48,7 +48,11 @@ Unlock the full set graphics subscription in Lunacy for **$9.99/month**:
 1. Click your account name in Lunacy to go to your profile page.
 2. Press **Unlock All Assets** at the top right of the page.
 
-See all of the subscriptions and pricing options <a href="https://icons8.com/pricing">here</a>. 
+<div class="callout callout--info">
+    <p><strong>Note:</strong> This price is only valid if you subscribe through the Lunacy app.</p>
+</div>
+
+See all of the subscriptions and pricing options for different kinds of assets <a href="https://icons8.com/pricing">here</a>. 
 
 
 ## Personal cloud plan
