@@ -22,7 +22,7 @@ page_nav:
         url: '/prototyping'
 ---
 
-Update the appearance of webpages right from Lunacy. With the **Linked design**, you can adjust your designs on the canvas and apply the changes to a webpage without leaving the app.This works with changes to:
+With the **Linked design** feature, you can adjust your designs in Lunacy and apply the changes to a webpage without leaving the app. This works with changes to:
 
 * Vector content
 * Text and raster content
