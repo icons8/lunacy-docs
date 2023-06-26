@@ -81,7 +81,7 @@ Starts the prototype previewer. Read more about <a href="https://lunacy.docs.ico
 <br>
 This button opens up a menu with these options:
 
-| Button | Description | Windows and Linux Shortcut / Menu Option &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  MacOS Shortcut / Menu Option |
+| Button | Description | Windows and Linux Shortcut / Menu Option  |  MacOS Shortcut / Menu Option |
 |---|---|---|---|
 | <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bkTBcjYY-kyIXxUN9M74Bg.svg" width="24" />  | The **Show/Hide rulers** button toggles <a href="https://lunacy.docs.icons8.com/basics/#rulers-and-guides" target="_blank">rulers</a> on and off. | `Ctrl + R`  | `⌘ + R` |
 | <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="24" />  | The **Show grid** button enables the display of the <a href="https://lunacy.docs.icons8.com/basics/#square-grid" target="_blank">square grid</a>. | `Ctrl + '` | `⌘ + '` |
@@ -140,7 +140,7 @@ If a layer name doesn't fit in the Layer list, you can change the width of the p
 
 Using the Layer list, you can:
 
-|   Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       | Description |
+|   Action    | Description |
 |---------------------------------------|------------------|
 |   Select layers      |    To select a layer or layer group, click its name in the Layer list. A selection frame will appear around the layer. To select multiple items hold down the `Ctrl` / `⌘` or `Shift` keys and click on the layers.    |
 |   Search for layers                                 |    To locate a layer, start typing its name in the search field above the Layer list.    |

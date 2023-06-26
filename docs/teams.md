@@ -36,8 +36,8 @@ Teams are available for all registered users. You can create one team on the tri
 
 ### [Trial team plan vs. paid team plan](#trial-vs-paid-teams)
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Trial team plan         | Professional team plan            |
-| ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |
+| | Trial team plan         | Professional team plan            |
+| ---------------------------- | ----------------------- | -------------------------- |
 |Cloud document limit| Up to 10 documents across all team projects (including deleted documents) | Unlimited|
 | Document editors/exporters | Up to 3 | Unlimited|
 | Document viewers   | Unlimited    | Unlimited|
