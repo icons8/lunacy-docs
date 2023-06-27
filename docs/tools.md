@@ -55,7 +55,7 @@ Lunacy also has the **Zoom tool**, though it doesn’t appear on the toolbar. To
 <a href="https://lunacy.docs.icons8.com/basics/#zooming-options" target="_blank">Zooming options</a>
 
 <div class="callout callout--info">
-    <p><strong>Note:</strong> If you need more space or prefer working with keyboard shortcuts, toggle off the display of the toolbar by selecting <b>View</b> > <b>Toolbar</b> in the menu bar.</p>
+    <p><strong>Note:</strong> If you need more space or prefer working with keyboard shortcuts, toggle off the display of the toolbar by selecting <b>View → Toolbar</b> in the menu bar.</p>
 </div>
 
 ## Select tool

@@ -109,7 +109,7 @@ If your computer has a discrete video card, you can adjust your graphics setting
 
 These steps will work for the majority of Windows 10/11 computers:
 
-1. Go to **Start** > **Settings** > **Display** > **Graphics settings**.
+1. Go to **Start → Settings → Display → Graphics settings**.
 2. Click **Browse** and find the `Lunacy.exe` file (default path: `C:\Program Files\Lunacy\Lunacy.exe`).
 3. Click **Options** and set the **Graphics preference** to **High performance**.
 
@@ -191,7 +191,7 @@ If it’s a **cloud** document, you can also open up its <a href="https://lunacy
 1. On the **Home Tab**, right-click the document’s preview to open up the context menu.
 2. Click **Show Version History**.
 3. Click <embed type="image/svg+xml" alt="version_history_open" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/Hgz3YLF-okWyUSUU5QNtIA.svg" width="16" /> to open the previous versions of the document.
-4. Choose the required version and click **FIle** > **Save** in the menu bar to save it as a local `.sketch` file on your device.
+4. Choose the required version and click **FIle → Save** in the menu bar to save it as a local `.sketch` file on your device.
 5. <a href="https://lunacy.docs.icons8.com/interface/#importing-local-sketch-files-to-cloud" target="_blank">Import it</a> back into Lunacy Cloud.
 
 If the problem persists, contact our support team (**Help** → **Report a Problem**) and attach an archive with the **Documents** folder to the report. If Lunacy crashed when you tried opening the document, attach an archive of the **Logs** folder as well.

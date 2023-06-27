@@ -41,7 +41,7 @@ Other advantages of cloud documents include:
 
 To **create a new cloud document**:
 
-- In the menu bar, click **File** > **New Cloud Document**.
+- In the menu bar, click **File → New Cloud Document**.
 - Press `Ctrl + Shift + N` / `⌘ + Shift + N`.
 - On the **Home tab**, click **New Cloud Document**.
 
@@ -95,7 +95,7 @@ You can also remove yourself from the document in the **Share** panel.
 
 To **save a local version** of a cloud document:
 
-1. In the menu bar, select **File** > **Save as**.
+1. In the menu bar, select **File → Save as**.
 2. Choose the destination folder and click **Save**.
 
 <embed type="image/svg+xml" alt="save-cloud-docs-as-local" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ifotwEoBBkG8xdA5RB9fsQ.svg" width="844" /> 
@@ -138,12 +138,12 @@ Lunacy automatically saves a version of your cloud document after every 100 acti
 
 You can also **save versions manually**:
 
-- In the menu bar, select **File** > **Save to version history**. 
+- In the menu bar, select **File → Save to version history**. 
 - Press `Ctrl + Alt + S` / `⌘ + ⌥ + S`.
 
 There several ways to **view a document’s version history**:
 
-- With the document open, select **File** > **Show version history** in the menu bar.
+- With the document open, select **File → Show version history** in the menu bar.
 - With the document open, right-click the **document tab** in the top bar, then select **Show version history** on the context menu.
 - On the **Home tab**, right-click the document and select **Show version history** on the context menu.
 

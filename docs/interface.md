@@ -47,11 +47,11 @@ Shrink the width of the **Content tabs** panel by dragging its border to the lef
     
 #### The left panel
 <br>
-Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View** > **Left Panel** in the menu bar.
+Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View → Left Panel** in the menu bar.
 
 #### The toolbar
 <br>
-Features all the primary design tools you'll need. Read more <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">about each tool</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View** > **Toolbar**) in the menu bar.
+Features all the primary design tools you'll need. Read more <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">about each tool</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View → Toolbar**) in the menu bar.
 
 #### The canvas
 <br>
@@ -87,8 +87,8 @@ This button opens up a menu with these options:
 | <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="24" />  | The **Show grid** button enables the display of the <a href="https://lunacy.docs.icons8.com/basics/#square-grid" target="_blank">square grid</a>. | `Ctrl + '` | `⌘ + '` |
 | <embed type="image/svg+xml" alt="layout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/i0isEF3sxUyjktCmMDT4Jw.svg" width="24" />  | The **Layout grid** button controls the display of the <a href="https://lunacy.docs.icons8.com/basics/#layout-grid" target="_blank">layout grid</a> and is available only when there is a frame on the canvas. | `Ctrl + \`  | `⌘ + \` |
 | <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eutHauiFwUuQ4jRcv6LFVQ.svg" width="24" /> | The **Show prototyping** button controls the display of hotspots and <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">prototyping</a> arrows. | **View**  > **Prototyping**   |
-| <embed type="image/svg+xml" alt="slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5tkaoATGgUK2NjnzbPlsTg.svg" width="24" /> | With the <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slice</a> tool, you can to select a specific area on your design and export it.| **View** > **Slices**  |
-| <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The **Pixels on Zoom** option shows pixels when the zoom value exceeds 100. | **View** > **Pixels on Zoom** |
+| <embed type="image/svg+xml" alt="slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5tkaoATGgUK2NjnzbPlsTg.svg" width="24" /> | With the <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slice</a> tool, you can to select a specific area on your design and export it.| **View → Slices**  |
+| <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The **Pixels on Zoom** option shows pixels when the zoom value exceeds 100. | **View → Pixels on Zoom** |
 | <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the [right panel](#the-right-panel) on and off. | `-` |
 
 #### The Zoom control
@@ -101,7 +101,7 @@ Use it to switch between the light and dark themes.
 
 ### Interface scale 
 
-To adjust the scale of the interface, go to **View** > **Interface scale**, or use these shortcuts:
+To adjust the scale of the interface, go to **View → Interface scale**, or use these shortcuts:
 
 - `Ctrl + Shift + Alt + +` / `⌥ + Shift + ⌘ + =` — increase scale
 - `Ctrl + Shift + Alt + -` / `⌥ + Shift + ⌘ + -` — decrease scale
@@ -241,7 +241,7 @@ To **create a new document**, use any of the following ways depending on the doc
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Local &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Cloud &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |---------------------------------------|-----------------------|----------------------------|
 | On the Home Tab, click | **New Document** | **New Cloud Document** |
-| On the menu bar, select | **File** > **New Document** | **File** > **New Cloud Document** |
+| On the menu bar, select | **File → New Document** | **File → New Cloud Document** |
 | Anywhere in Lunacy, press | `Ctrl + N` / `⌘ + N` | `Ctrl + Shift + N` / `⌘ + Shift + N` |
 | At the top of the screen, click | `+` (on the right of the document tabs) |
 
@@ -258,14 +258,14 @@ As for other options, use any of these to **open local documents**:
 
 * Press `Ctrl + O` / `⌘ + O`.
 * Click the **Open** button on the action bar.
-* Click **File** > **Open** on the menu bar.
+* Click **File → Open** on the menu bar.
 
 Supported formats include `sketch`, `svg`, `png`, `jpg`, `jpeg`, `bmp`, `webp`, `ico`, and `gif`.
 
 To **open a cloud document shared with you**:
 1. Copy the link to the document.
 2. Press `Ctrl + V` / `⌘ + V` anywhere in the app.
-3. Click **File** > **Open URL From Clipboard**.
+3. Click **File → Open URL From Clipboard**.
 
 #### Importing documents
 
@@ -292,7 +292,7 @@ To **generate a personal access token** in Figma:
 2. Scroll down to the **Personal access token** section.
 3. Enter a brief description for the token, and press `Enter`.
 4. Copy the token and return to Lunacy.
-5. Click **Import from Figma** or **File** > **Import from Figma** in the menu bar and enter the file’s share link and the personal access token in the corresponding fields:
+5. Click **Import from Figma** or **File → Import from Figma** in the menu bar and enter the file’s share link and the personal access token in the corresponding fields:
 
 <embed type="image/svg+xml" alt="import_figma" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fTNhrJIe1kSwsrpR_CeFvQ.svg" width="844" /> 
 

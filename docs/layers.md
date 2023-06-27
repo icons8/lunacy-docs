@@ -323,7 +323,7 @@ You can **create hyperlinks** from one layer to another in your document, even i
 
 To do this:
 
-1. Select the target layer and press `Ctrl + L` / `⌘ + L` (or select **Copy/Paste as** > **Copy link** on the context menu).
+1. Select the target layer and press `Ctrl + L` / `⌘ + L` (or select **Copy/Paste as → Copy link** on the context menu).
 2. Select the layer that should lead to the target layer.
 3. Press `F2` to rename the layer, paste the target layer link from your clipboard, and press `Enter`.
 4. Hold down `Ctrl` / `⌘` and click the layer you renamed, and you’ll be redirected to the target layer.

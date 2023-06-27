@@ -45,7 +45,7 @@ The easiest way to **zoom in and out** in Lunacy is by holding down `Ctrl` / `�
 
 When the zoom value exceeds 500, Lunacy displays a **pixel grid**. If you want to disable this feature:
 
-1. In the menu bar, select **View** > **Pixel grid**.
+1. In the menu bar, select **View → Pixel grid**.
 2. Deselect all layers on the canvas and clear the **Show pixel grid** checkbox in the **right panel**.
 
 Find out about other [zooming options](#zooming-options).
@@ -101,7 +101,7 @@ When all layers are deselected, the right panel shows these settings:
 * **Nudge amount settings.** Nudge layers by moving arrow keys and set custom values for small nudges (using just the arrow keys) and big ones (arrow keys + `Shift`).
 * **Color palette section.** Use it to generate various base color palettes for your documents.
 
-If you need more space, you can hide the right panel panel by selecting **View** > **Right Panel** on the menu bar.
+If you need more space, you can hide the right panel panel by selecting **View → Right Panel** on the menu bar.
 
 #### Changing values in the right panel
 
@@ -122,7 +122,7 @@ To **change values in the right panel** input fields:
 
 Rulers are enabled by default and use pixels as a measurement unit. They appear at the top and on the left side of the canvas. 
 
-To toggle rulers on and off, use the `Ctrl + R` / `⌘ + R` shortcut or select **View** > **Rulers** on the menu bar.
+To toggle rulers on and off, use the `Ctrl + R` / `⌘ + R` shortcut or select **View → Rulers** on the menu bar.
 
 #### [Guides](#guides)
 
@@ -283,7 +283,7 @@ Here is the same layer with the feature disabled (left) and enabled (right):
 <embed type="image/svg+xml" alt="show_pixels" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hjIJYiahiUaGtxr99Y6lGQ.svg" width="844" /> 
 
 
-You can also toggle this feature on and off in the menu bar by selecting **View** > **Pixels on Zoom**.
+You can also toggle this feature on and off in the menu bar by selecting **View → Pixels on Zoom**.
 
 ## [Context menu](#the-context-menu)
 

@@ -64,7 +64,7 @@ When you add generated content, like text and avatars, to your designs, duplicat
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_refresh.png" height="auto"><source src="/public/tips_tricks_auto_refresh.mp4" type="video/mp4"></video>
 
-To disable **Auto refresh**, select **Detach from Generated Content** in the layer context menu or in the **Layer** > **Content Generation** section of the menu bar. 
+To disable **Auto refresh**, select **Detach from Generated Content** in the layer context menu or in the **Layer → Content Generation** section of the menu bar. 
 
 #### Repeat grid
 
@@ -234,7 +234,7 @@ Press `K` to enable the <a href="https://lunacy.docs.icons8.com/tools/#scale-too
 
 You can create hyperlinks between the layers in your document, even if the layers are in different pages. 
 
-1. Select the target layer and press `Ctrl + L` / `⌘ + L` (or select **Copy/Paste as** > **Copy link** in the context menu).
+1. Select the target layer and press `Ctrl + L` / `⌘ + L` (or select **Copy/Paste as → Copy link** in the context menu).
 2. Select the layer that should lead to the target layer. 
 3. Press `F2` to rename the layer, paste the target layer link from your clipboard, and press `Enter`. 
 4. Hold down `Ctrl` / `⌘` and click the layer you renamed, and you’ll be redirected to the target layer.
@@ -287,7 +287,7 @@ You can align text using the alignment magnets that appear around a selected tex
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_text_magnets.png" height="auto"><source src="/public/tips_tricks_text_magnets.mp4" type="video/mp4"></video>
 
-This also works when you select multiple ungrouped text boxes. If you want to hide these magnets, disable the option in **View** > **Text Alignment Magnets** on the menu bar.
+This also works when you select multiple ungrouped text boxes. If you want to hide these magnets, disable the option in **View → Text Alignment Magnets** on the menu bar.
 
 #### Resizing text boxes
 
@@ -316,7 +316,7 @@ When you add a text layer on top of a layer, Lunacy automatically sets a text co
 
 #### Fonts embedding
 
-Embed fonts in an exported document so that when you share it with your colleagues or clients, they won’t have to install any fonts that may be missing on their device. Click **Text > Fonts Embedding** on the menu bar and embed all or certain fonts into the document. 
+Embed fonts in an exported document so that when you share it with your colleagues or clients, they won’t have to install any fonts that may be missing on their device. Click **Text → Fonts Embedding** on the menu bar and embed all or certain fonts into the document. 
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_fonts_embedding.png" height="auto"><source src="/public/tips_tricks_fonts_embedding.mp4" type="video/mp4"></video>
 
@@ -325,7 +325,7 @@ To convert a text layer to vector outlines, select the text layer and:
 
 - Press `Ctrl + Shift + O` / `⌘ + Shift + O`.
 - Select **Outline stroke** on the context menu.
-- Select **Text** > **Convert to Outlines** on the menu bar.
+- Select **Text → Convert to Outlines** on the menu bar.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_text_to_outlines.png" height="auto"><source src="/public/tips_tricks_text_to_outlines.mp4" type="video/mp4"></video>
 
@@ -516,7 +516,7 @@ To quickly invert a gradient, use the <embed type="image/svg+xml" alt="invert_gr
 
 #### Adjusting UI scale
 
-You can change the scale of the interface in **View > Interface scale** on the menu bar or by using these shortcuts:
+You can change the scale of the interface in **View → Interface scale** on the menu bar or by using these shortcuts:
 
 - `Ctrl + Shift + Alt + + / ⌥ + Shift + ⌘ + =` — increase scale
 - `Ctrl + Shift + Alt + - / ⌥ + Shift + ⌘ + -` — decrease scale

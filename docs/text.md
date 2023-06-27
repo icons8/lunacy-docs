@@ -251,7 +251,7 @@ Also, anytime you copy a layer with generated text, a new generated placeholder 
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_auto_refresh.png" height="auto"><source src="/public/text_auto_refresh.mp4" type="video/mp4"></video>
 
-This happens due to **Auto Refresh**, which you can turn off by selecting **Detach from Generated Content** in the layer context menu or in the **Layer** > **Content Generation** section of the menu bar.
+This happens due to **Auto Refresh**, which you can turn off by selecting **Detach from Generated Content** in the layer context menu or in the **Layer → Content Generation** section of the menu bar.
 
 Combine text generation with other handy Lunacy features, like the <a href="https://lunacy.docs.icons8.com/tools/#avatar-tool" target="_blank">Avatar tool</a> and <a href="https://lunacy.docs.icons8.com/layers/#repeat-grid" target="_blank">Repeat grid</a> so your design process stays distraction-free:
 
@@ -299,7 +299,7 @@ You can **convert text into outlines**, so that every letter becomes a vector sh
 
 - Press `Ctrl + Shift + O` / `⌘ + Shift + O`.
 - Select **Outline stroke** on the context menu.
-- Select **Text** > **Convert to Outlines** on the menu bar.
+- Select **Text → Convert to Outlines** on the menu bar.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_to_outlines.png" height="auto"><source src="/public/text_to_outlines.mp4" type="video/mp4"></video>
 
@@ -323,7 +323,7 @@ You can embed fonts into your document before sharing it with other people to en
 
 To **embed fonts**:
 
-1. Go to **Text > Fonts Embedding** on the menu bar.
+1. Go to **Text → Fonts Embedding** on the menu bar.
 2. Select the required fonts and click **Embed fonts**.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/text_fonts_embedding.png" height="auto"><source src="/public/text_fonts_embedding.mp4" type="video/mp4"></video>
@@ -336,7 +336,7 @@ To **embed fonts**:
 
 You can add emojis to text layers in any convenient way by using the emoji keyboard on your OS or pasting them into the text box. The emoji styles in Lunacy include Apple, Microsoft, and Noto style emojis. 
 
-Switch through them by selecting **Text > Emoji Style** on the menu bar.
+Switch through them by selecting **Text → Emoji Style** on the menu bar.
 
 <embed type="image/svg+xml" alt="style_of_emojis" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/9xgNwMCTMUKVQ3ABwzuoAA.svg" width="844" /> 
 

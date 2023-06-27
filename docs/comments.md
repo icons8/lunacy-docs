@@ -57,7 +57,7 @@ To comment with a **voice recording**:
 3. Click <embed type="image/svg+xml" alt="Sent" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/n8l4ALF8uEizCWAyrGB8oQ.svg" width="20" /> or press `Enter`.
 
 <div class="callout callout--warning">
-    <p><strong>Note:</strong> Make sure Lunacy has access to your microphone, otherwise, this option will be unavailable. If you have several microphones, you can switch between them through <b>Help</b> > <b>Microphone</b>. </p>
+    <p><strong>Note:</strong> Make sure Lunacy has access to your microphone, otherwise, this option will be unavailable. If you have several microphones, you can switch between them through <b>Help → Microphone</b>. </p>
 </div>
 
 ## [Commenting with stickers](#commenting-with-stickers)
