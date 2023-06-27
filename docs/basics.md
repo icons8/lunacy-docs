@@ -69,7 +69,7 @@ The **Design** tab is the one you'll interact with the most when working on your
 
 The set of controls and settings it displays depends on the type of the selected layer. These properties are universal for almost all layer types:
 
-| Right panel properties  | Description |   
+| Right panel properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |   
 |---------------------------------------------------|-------------------------------------------------------|
 | <embed type="image/svg+xml" alt="alignment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DmwgUeA720CJZI1lz-PJ9w.svg" width="500" />  | **Alignment and distribution controls** appear when you select two or more layers. |
 |  <embed type="image/svg+xml" alt="layer_position_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/s3beB96toEGEkauAALbBGA.svg" width="500" />  |  **Layer size and position.** Change the size of your layers and their position on the canvas. Use the buttons next to the position controls to flip your images and toggle the lock button on and off to preserve aspect ratio when resizing.  Controls vary depending on the selected layer.   |

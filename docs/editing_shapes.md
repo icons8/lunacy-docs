@@ -156,7 +156,7 @@ In general, vector editing is all about manipulations with points and paths:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_shapes_vector_editing.png" height="auto"><source src="/public/editing_shapes_vector_editing.mp4" type="video/mp4"></video>
 
-## Boolean Operations
+## Boolean operations
 
 Use **Boolean operations** to combine shapes into more complex forms:
 

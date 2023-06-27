@@ -60,7 +60,7 @@ Note the different icons these layers have before their titles in the Layer list
 
 The properties displayed in the <a href="https://lunacy.docs.icons8.com/interface/#the-right-panel" target="_blank">right panel</a> when a layer is selected depend on the type of layer. The ones listed below are universal for almost all layer types:
 
-| Right panel properties  | Description |   
+| Right panel properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |   
 |---------------------------------------------------|-------------------------------------------------------|
 | <embed type="image/svg+xml" alt="alignment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/DmwgUeA720CJZI1lz-PJ9w.svg" width="500" />  | **Alignment and distribution controls** appear when you select two or more layers. |
 |  <embed type="image/svg+xml" alt="layer_position_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/s3beB96toEGEkauAALbBGA.svg" width="500" />  |  **Layer size and position.** Change the size of your layers and their position on the canvas. Use the buttons next to the position controls to flip your images and toggle the lock button on and off to preserve aspect ratio when resizing.  Controls vary depending on the selected layer.   |
@@ -261,7 +261,7 @@ Various copy/paste options are also available on the context menu:
 | Paste over     | - | Pastes the content of the clipboard over the selected layer. |
 | Copy as Text   | - | Only available for text layers. Copies only the text content of the layer, excluding its properties.   |
 | Copy as CSS/SVG/XAML/PNG     | - | These options allow you to copy the code of the selected layer in the required format.   |
-| Copy style/Paste style| `Ctrl + Alt + C` / `⌘ + ⌥ + C`<br>`Ctrl + Alt + V` / `⌘ + ⌥ + V`     |  These options allow you to copy the style of the selected layer and apply them to another layer. |  
+| Copy style/Paste style| `Ctrl + Alt + C` / `⌘ + ⌥ + C`<br><br>`Ctrl + Alt + V` / `⌘ + ⌥ + V`     |  These options allow you to copy the style of the selected layer and apply them to another layer. |  
 | Export as PNG to cloud, Copy URL    | `Alt + C` / `⌥ + C` | Exports the selection to the Icons8 cloud and copies the link to your clipboard. You can share the link to your design with other people. |
 
 ### [Arranging layers](#arranging-layers)

@@ -432,11 +432,11 @@ To recap, here’s a list of context menu options and shortcuts you can use to w
 
 | Option     | Description    | Windows and Linux Shortcut / Menu Option | MacOS Shortcut / Menu Option  |
 | -- | -- | ----------------------------- | ----------------------- |
-| **Create New Component State** | Add a new state for the component.                  | `Ctrl + Alt + S`      | `⌘ + ⌥ + S`  |
-| **Go to Main Component**       | Brings you to the main component of the selected instance. To return to the instance from the main component, click the **Back to instance** button that appears at the top-left corner of the canvas.   | `Ctrl + Alt + E`       | `⌘ + ⌥ + E`     |
-| **Detach from Components**     | When you detach an instance from its main component, it becomes a group. All further changes to the main component will no longer apply to the detached instance.  | `Ctrl + Alt + D`            | `⌘ + ⌥ + B`     |
-| **Detach from Library**        | This command only applies to components from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>. Detached components become native to the document and appear on the **Components tab** and the **Components page**. | `-`      | `-`|
-| **Reset Instance Size**        | Restore the original size of any component instance.     | `Ctrl + Alt + R`  | `⌘ + ⌥ + R`        |
-| **Reset Overrides**  | Use this command to undo all overrides and revert the instance to the style of its main component. You can also use the Reset overrides button in the **Component** section of the right panel.   | `-`   | `-`  |
-| **Send to Component page**     | This command only applies to main components and becomes available when a component isn't on the dedicated **Components page**.    | `-`   | `-`         |
+| Create New Component State | Add a new state for the component.                  | `Ctrl + Alt + S`      | `⌘ + ⌥ + S`  |
+| Go to Main Component     | Brings you to the main component of the selected instance. To return to the instance from the main component, click the **Back to instance** button that appears at the top-left corner of the canvas.   | `Ctrl + Alt + E`       | `⌘ + ⌥ + E`     |
+| Detach from Components     | When you detach an instance from its main component, it becomes a group. All further changes to the main component will no longer apply to the detached instance.  | `Ctrl + Alt + D`            | `⌘ + ⌥ + B`     |
+| Detach from Library      | This command only applies to components from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>. Detached components become native to the document and appear on the **Components tab** and the **Components page**. | `-`      | `-`|
+| Reset Instance Size        | Restore the original size of any component instance.     | `Ctrl + Alt + R`  | `⌘ + ⌥ + R`        |
+| Reset Overrides  | Use this command to undo all overrides and revert the instance to the style of its main component. You can also use the Reset overrides button in the **Component** section of the right panel.   | `-`   | `-`  |
+| Send to Component page     | This command only applies to main components and becomes available when a component isn't on the dedicated **Components page**.    | `-`   | `-`         |
 
