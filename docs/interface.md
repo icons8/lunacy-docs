@@ -47,7 +47,7 @@ Shrink the width of the **Content tabs** panel by dragging its border to the lef
     
 #### The left panel
 <br>
-Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ... `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View → Left Panel** in the menu bar.
+Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ...  `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View → Left Panel** in the menu bar.
 
 #### The toolbar
 <br>
@@ -86,7 +86,7 @@ This button opens up a menu with these options:
 | <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bkTBcjYY-kyIXxUN9M74Bg.svg" width="24" />  | The **Show/Hide rulers** button toggles <a href="https://lunacy.docs.icons8.com/basics/#rulers-and-guides" target="_blank">rulers</a> on and off. | `Ctrl + R`  | `⌘ + R` |
 | <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="24" />  | The **Show grid** button enables the display of the <a href="https://lunacy.docs.icons8.com/basics/#square-grid" target="_blank">square grid</a>. | `Ctrl + '` | `⌘ + '` |
 | <embed type="image/svg+xml" alt="layout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/i0isEF3sxUyjktCmMDT4Jw.svg" width="24" />  | The **Layout grid** button controls the display of the <a href="https://lunacy.docs.icons8.com/basics/#layout-grid" target="_blank">layout grid</a> and is available only when there is a frame on the canvas. | `Ctrl + \`  | `⌘ + \` |
-| <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eutHauiFwUuQ4jRcv6LFVQ.svg" width="24" /> | The **Show prototyping** button controls the display of hotspots and <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">prototyping</a> arrows. | **View**  > **Prototyping**   |
+| <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eutHauiFwUuQ4jRcv6LFVQ.svg" width="24" /> | The **Show prototyping** button controls the display of hotspots and <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">prototyping</a> arrows. | **View → Prototyping**   |
 | <embed type="image/svg+xml" alt="slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5tkaoATGgUK2NjnzbPlsTg.svg" width="24" /> | With the <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slice</a> tool, you can to select a specific area on your design and export it.| **View → Slices**  |
 | <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The **Pixels on Zoom** option shows pixels when the zoom value exceeds 100. | **View → Pixels on Zoom** |
 | <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the [right panel](#the-right-panel) on and off. | `-` |
@@ -238,7 +238,7 @@ The Home tab makes it easy to create, manage, and organize all of your personal 
 
 To **create a new document**, use any of the following ways depending on the document type:
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Local &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Cloud &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|     | Local | Cloud |
 |---------------------------------------|-----------------------|----------------------------|
 | On the Home Tab, click | **New Document** | **New Cloud Document** |
 | On the menu bar, select | **File → New Document** | **File → New Cloud Document** |
