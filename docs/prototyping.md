@@ -24,7 +24,7 @@ page_nav:
 
 You can build **prototypes** to test and polish the UX of your designs before sending them over to development.
 
-Prototyping is based on linking <a href="https://lunacy.docs.icons8.com/layers/#frames" target="_blank">frames</a> and creating interactive zones, or <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a>, on your designs so you can preview how your interface will change based on user actions.
+Prototyping is based on linking <a href="https://lunacy.docs.icons8.com/layers/#frames" target="_blank">frames</a> and creating interactive zones, or <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a>, on your designs so you can preview how your interface behaves based on user actions.
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> If you are planning to add prototyping to your project, the use of frames is a must.</p>
@@ -57,7 +57,7 @@ You can link your frames in any sequence you need to test out the user flow for 
 
 ### Commenting on prototype previews
 
-To **comment on a prototype** right from the browser, log in to your Lunacy account. The **Login** button appears once you hover the cursor at the top of the prototype window to display the top bar.
+To **comment on a prototype** right from the browser, log in to your Lunacy account. The **Log in** button appears once you hover the cursor at the top of the prototype window to display the top bar.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_login.png" height="auto"><source src="/public/prototyping_login.mp4" type="video/mp4"></video>
 
