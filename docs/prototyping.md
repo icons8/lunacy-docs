@@ -53,7 +53,7 @@ To **preview a prototype**, select the frame you want to start with and click th
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_preview.png" height="auto"><source src="/public/prototyping_preview.mp4" type="video/mp4"></video>
 
-You can link your frames in any sequence you need to test out the user flow for your interfaces.
+You can link your frames in any sequence you need to test the user flow for your interfaces.
 
 ### Commenting on prototype previews
 
