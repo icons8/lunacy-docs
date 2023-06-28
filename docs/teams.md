@@ -101,7 +101,7 @@ To **create a project**:
 You can now add documents to the project. Using the three prompts at the top of the project page, you can:
 
 - Create new cloud documents.
-- Import existing .sketch files.
+- Import existing `.sketch` files.
 - Import Figma files.
 
 To **show/hide a project name** in the left panel, use the **Pin** (<embed type="image/svg+xml" alt="pin_button" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/KxHRtwNdm0i00mSBZ7PF9g.svg" width="20" />) button at the top right corner.
@@ -151,10 +151,13 @@ Once a user opens the link, their username and avatar will show up on the **Mem
 
 Use the drop-down list in the **Team permissions** column to assign **user roles** to team members:
 
-- **Can view**. Assigned by default to all users joining a team via an invite link. Users with this set of permissions can only view the content of team documents.
-- **Can export**. This is for developer handoff. Users with this set of permissions can view designs, inspect layer properties, and export document layers.
-- **Can edit**. Users with this role can create and edit team documents, but they lack certain administrative permissions.
-- **Admin**. Team admins can do all of the above, as well as rename the team, change its avatar, assign roles to other members, and delete members from the team.
+**Can view**. Assigned by default to all users joining a team via an invite link. Users with this set of permissions can only view the content of team documents.
+
+**Can export**. This is for developer handoff. Users with this set of permissions can view designs, inspect layer properties, and export document layers.
+
+**Can edit**. Users with this role can create and edit team documents, but they lack certain administrative permissions.
+
+**Admin**. Team admins can do all of the above, as well as rename the team, change its avatar, assign roles to other members, and delete members from the team.
 
 #### [Role permissions](#role-permissions)
 

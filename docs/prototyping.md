@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Prototyping
-description: Learn how to build prototypes in Lunacy
+description: Learn how to create interactive prototypes in Lunacy
 icon: 'tree-structure'
 
 # Micro navigation
@@ -22,125 +22,112 @@ page_nav:
         url: '/export'
 ---
 
+You can build **prototypes** to test and polish the UX of your designs before sending them over to development.
 
+Prototyping is based on linking <a href="https://lunacy.docs.icons8.com/layers/#frames" target="_blank">frames</a> and creating interactive zones, or <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a>, on your designs so you can preview how your interface will change based on user actions.
 
-<!--
+<div class="callout callout--info">
+    <p><strong>Note:</strong> If you are planning to add prototyping to your project, the use of frames is a must.</p>
+</div>
 
-## Introduction
+## Creating a prototype
 
-You can build prototypes to test and polish UX of your designs before sending them to development.
+### [Linking frames](#linking-frames)
 
-In the current version of Lunacy preview of prototypes takes place in Sketch Cloud. So, to be able to upload and preview your prototypes you will need a Sketch Cloud account.
+The easiest way to **create a prototype** is to add a link from one frame to another.
 
--->
+<embed type="image/svg+xml" alt="simple_prototype" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/LJtrxrsh1EuigZ9VgJ_slQ.svg" width="844" /> 
 
-## How it works
+Here’s how it works:
 
-You can build prototypes to test and polish UX of your designs before sending them to development.
+1. On a frame, select a layer for the user to interact with (e.g. a button).
+2. In the right panel, click `+` next to the **Prototyping** section. An arrow-shaped prototyping link will appear.
+3. Point the arrow to the target frame and click or use the **Target** dropdown list in the **Prototyping** section to set the target frame. With that, you have a basic prototype with a layer linked to a frame.
+4. To make it a bit more versatile, we repeat the steps above and create a link from a layer in the second frame to **Frame 1**.
 
-Prototyping is based on frames. If you are planning to add prototyping to your project, **the use of <a href="https://lunacy.docs.icons8.com/layers/#frames" target="_blank">frames</a> is a must**.
-
-The easiest way to create a prototype is to add a link between two frames. The procedure is as follows:
-
-1. On the first frame, select a layer the user will interact with (say, a button).
-2. In the Inspector panel, click + in the **Prototyping** section. A prototyping link appears.
-3. Point the cursor over the second frame and click to set the link. To define the target frame you can also use the **Target** dropdown list in the **Prototyping** section (see the demo below).
-
-That's it. A primitive prototype is ready. To make it a bit more usable, we will repeat the above steps and create a control that will return the user from Frame 1 to Frame 2 (see the demo in the next subsection).
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_linking_frames.png" height="auto"><source src="/public/prototyping_linking_frames.mp4" type="video/mp4"></video>
 
 ## Previewing prototypes
 
-To preview a prototype, select the frame you want to start with and click ![Play button](public/playbtn.png) in the upper-right corner of the interface. The preview window will show up.
+To **preview a prototype**, select the frame you want to start with and click the **Play** button (<embed type="image/svg+xml" alt="Play" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HD-TYiNcVEy5Npo_ePOa8w.svg" width="20" />) at the top right corner of the interface. The preview window will show up in your default browser.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-procedureph.png" height="auto"><source src="/public/proto-procedure.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_preview.png" height="auto"><source src="/public/prototyping_preview.mp4" type="video/mp4"></video>
 
-In a similar fashion you can link your frames in the desired navigation sequence and preview your design in action.
+You can link your frames in any sequence you need to test out the user flow for your interfaces.
 
-## Scrollable prototypes
+### Commenting on prototype previews
 
-To create a scrollable prototype, you should select a frame from Frame Presets and resize it **vertically**. Alternatively, you can create a custom preset and then vertically resize it. For details, about frame presets and custom presets, click <a href="https://lunacy.docs.icons8.com/interface/#frames" target="_blank">here</a>.
+To **comment on a prototype** right from the browser, log in to your Lunacy account. The **Login** button appears once you hover the cursor at the top of the prototype window to display the top bar.
 
-Resized frames appear with the word *Resized* in the Inspector as shown in the figure below. Prototypes based on non-resized frames won't scroll.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_login.png" height="auto"><source src="/public/prototyping_login.mp4" type="video/mp4"></video>
 
-![Resized frame in the Inspector](public/proto-resizedartboard.png)
+To comment, click the **Comment** button on the top bar, leave a comment, then click <embed type="image/svg+xml" alt="Sent" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/n8l4ALF8uEizCWAyrGB8oQ.svg" width="20" /> or press `Shift + Enter` to post it.
 
-## [Hotspots](#hotspots)
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_comment.png" height="auto"><source src="/public/prototyping_comment.mp4" type="video/mp4"></video>
 
-You can also use hotspots to create links between frames. These are a special type of layers that lets you create interactive zones anywhere on frames.
+### Scrollable prototypes
 
-Also, hotspots come in handy when the size of an element that you want to make clickable or tappable is too small for convenient use. By adding a hotspot you can enlarge interactive area around the layer.
+To **create a scrollable prototype**, select a <a href="https://lunacy.docs.icons8.com/layers/#adding-frames" target="_blank">frame presets</a> and resize it vertically. 
 
-Moreover, you can use hotspots as parts of <a href="https://lunacy.docs.icons8.com/components/" target="_blank">components</a> and override their targets as needed.
+Resized frames have the label **Resized** in the right panel:
 
-To add a hotspot you can:
+<embed type="image/svg+xml" alt="resized_frame" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EnFH9_mOfk6clL5HPibl1w.svg" /> 
 
-* Use the <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspot tool</a>.
-* Select a linked layer, then click ![Create hotspot icon](public/proto-hotspoticon.png) in the **Prototyping** section of the Inspector. This creates a hotspot of the same size as of the selection frame around the layer. You can resize it by dragging handles, if necessary.
+<div class="callout callout--info">
+    <p><strong>Note:</strong> You won't be able to scroll prototypes based on non-resized frames.</p>
+</div>
 
-The demo below show both these methods.
+Alternatively, you can <a href="https://lunacy.docs.icons8.com/layers/#custom-presets" target="_blank">create a custom preset</a>, then vertically resize it.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-hotspotph.png" height="auto"><source src="/public/proto-hotspot.mp4" type="video/mp4"></video>
+Preview the prototype as usual and scroll down to test out the interface.
 
-The next figure shows how hotspots and linked layers appear in the Layer list.
+## Hotspots
 
-![Hide/Show hotspot button](public/proto-objectlist.png)
+**Hotspots** are another convenient way to link frames for prototyping. These are special types of layers that acts as an interactive zone anywhere on a frame.
 
-To hide/show hotspots and prototyping links on the canvas, use the **Prototyping** button on the action bar.
+Hotspots come in handy when the size of an element you want to make interactive or tappable is too small for comfortable use. By adding a hotspot, you can enlarge the interactive area around the layer.
 
-![Hide/Show hotspot button](public/tool-showproto66.png)
+You can also use hotspots as parts of components and override their targets as needed.
 
-To delete a hotspot, select it and press`Del`.
+There are two ways to **add a hotspot**:
 
-## [Prototyping controls](#prototyping-controls)
+- Use the <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspot tool</a>.
+- Select a layer linked to a frame, then click **Create separate hotspot layer** (<embed type="image/svg+xml" alt="create_separate_hotspot_layer" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/DEiwZwjBkUWcPuG1ZesTtg.svg" width="20" />) in the **Prototyping** section of the right panel. This creates a hotspot of the same size as the selection frame around the layer. You can resize it as you need by dragging the layer’s bounding box handles.
 
-The figure below shows the controls that appear in the **Prototyping** section when you select a linked layer or a hotspot.
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_hotspots.png" height="auto"><source src="/public/prototyping_hotspots.mp4" type="video/mp4"></video>
 
-![Prototyping controls](public/proto-controls1.png)
+This is how hotspots and linked layers appear in the Layer list:
 
-1. This icon appears only when you select a linked layer. A click over the icon creates a hotspot over the layer. See the [Hotspots](#hotspots) section above.
-2. The trash can icon. Discards prototyping setting for the selected layer/Deletes the selected hotspot.
-3. A click over the arrow will bring you to the frame which is set as target for the selected layer.
-4. Use this drop-down list box to set the target frame for the selected layer (see the figure below). It shows the list of all frames available in the document. If you have several pages in your document, the frames will be organized by pages. It is OK, if interlinked frames are on different pages. Also, the list features two more options:
+<embed type="image/svg+xml" alt="hotspots_in_layer_list" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/KCIGLOOhSUm3ATcGhwPdKw.svg" width="844" /> 
 
-    * None - sets the zero target.
-    * Previous frame - a click over the layer with this option selected will bring you back to the previous view.
+To **hide/show hotspots and prototyping links on the canvas**, enable/disable the **Show prototyping** option in the **Additional options** menu on the top bar:
 
-    ![Prototyping controls](public/proto-target.png)
+<embed type="image/svg+xml" alt="prototyping_show_hide" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/kjIhPF4fKkOEfpSpQkaHBg.svg" width="844" /> 
 
-5. These controls allow you to choose how the target frame will show up on the screen during the preview.
-6. Select this checkbox, if you want the selected layer to preserve its position when you scroll the screen (for instance, a floating button).
-7. With this checkbox selected, scrollable frames will preserve their position during preview of the prototype. When you get back to the frame, it will be in the same position as you've left it.
+To **delete a hotspot**, select it and press `Del`.
 
-    With the clear checkbox, the frame will always return to the top.
+To **see the prototype in action**, you’ll need to preview it.
 
-<!--
-## Sharing prototypes
+## Prototyping settings
 
-You can easily share prototypes with your teammates and customers.
+Here are the settings that appear in the **Prototyping** section of the right panel when you select a layer linked to a frame or a hotspot:
 
-For this:
+<embed type="image/svg+xml" alt="prototype_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/l5X9rZHOmUuYcNPAOfnRkA.svg" width="844" /> 
 
-1. Click ![Play button](public/playbtn.png) in the upper-right corner of the interface. The preview window shows up.
-2. Click the chain link icon at the top of the window.
+**Create separate hotspot layer.** Click it to create a hotspot over the selected layer.
 
-That's it. The link gets copied to your clipboard and you can send it to your recipients.
+**Remove link from layer.** Deletes the prototyping setting for the selected layer or deletes the selected hotspot.
 
-![Sharing a prototype](public/proto-sharelink.png)
+**Target frame.** Displays the current target frame of the selected layer/hotspot. Open it to change the target frame and view all of the frames available in the document. In multi-page documents, the frames in this list are organized by pages (you can link frames that are on different pages).
 
+Apart from the existing frames, the list has two more options:
+- **None** → sets a null target.
+- **Previous frame** → clicking a layer with this target redirects you back to the previous view.
 
-## Previewing prototypes in Sketch Cloud
+**Go to hotspot target.** Clicking this button redirects you to the frame set as the target frame for the selected layer.
 
-You can also preview prototypes in Sketch Cloud. For this, you need to upload your document to Sketch Cloud:
+**Transition animations.** Determine the type of animation for the transitions between frames in the prototype.
 
-1. Click the Sketch Cloud icon on the action bar. Log into your Cloud account, if necessary.
-2. In the Sketch Cloud panel, click **Upload document**. Wait a bit until Cloud processing is complete.
-3. Select the artboard from which you want to start preview.
-4. Click the play button that will appear at the top bar.
+**Fix the frame position on scroll.** Enable this setting if you want the selected layer to preserve its position when you scroll the screen (for instance, a floating button).
 
-All the above steps are shown in the demo below.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/proto-demoph.png" height="auto"><source src="/public/proto-demo1.mp4" type="video/mp4"></video>
-
-**Note:** When you upload your file to Sketch Cloud, you create a new independent file which *will not* synchronize with its parent that you store on your computer. So, make sure that you edit one and the same file. You can always download the Cloud file to you computer or upload a new version of the local copy to the Cloud. For details about working with Sketch Cloud from Lunacy, read <a href="https://lunacy.docs.icons8.com/cloud/" target="_blank">here</a>.
-
--->
+**Maintain scroll position after click.** With this checkbox enabled, scrollable frames preserve their position during the prototype preview. When you get back to the frame, it will be in the same position you left it. With the checkbox cleared, the frame will always return to the top.
