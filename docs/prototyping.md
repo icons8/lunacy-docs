@@ -36,7 +36,7 @@ Prototyping is based on linking <a href="https://lunacy.docs.icons8.com/layers/#
 
 The easiest way to **create a prototype** is to add a link from one frame to another.
 
-<embed type="image/svg+xml" alt="simple_prototype" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/3mVfxmKDUU2MYYUwYy24Vg.svg" width="844" /> 
+<embed type="image/svg+xml" alt="simple_prototype_frames" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/2PcGpD263kmR3w3IBSVKlQ.svg" width="844" /> 
 
 Here’s how it works:
 
