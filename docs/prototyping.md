@@ -36,7 +36,7 @@ Prototyping is based on linking <a href="https://lunacy.docs.icons8.com/layers/#
 
 The easiest way to **create a prototype** is to add a link from one frame to another.
 
-<embed type="image/svg+xml" alt="simple_prototype" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/LJtrxrsh1EuigZ9VgJ_slQ.svg" width="844" /> 
+<embed type="image/svg+xml" alt="simple_prototype" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/3mVfxmKDUU2MYYUwYy24Vg.svg" width="844" /> 
 
 Here’s how it works:
 
@@ -92,7 +92,7 @@ You can also use hotspots as parts of components and override their targets as n
 There are two ways to **add a hotspot**:
 
 - Use the <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspot tool</a>.
-- Select a layer linked to a frame, then click **Create separate hotspot layer** (<embed type="image/svg+xml" alt="create_separate_hotspot_layer" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/DEiwZwjBkUWcPuG1ZesTtg.svg" width="20" />) in the **Prototyping** section of the right panel. This creates a hotspot of the same size as the selection frame around the layer. You can resize it as you need by dragging the layer’s bounding box handles.
+- Select a layer linked to a frame, then click **Create separate hotspot layer** (<embed type="image/svg+xml" alt="create_separate_hotspot_layer" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/SaJ58Eks1Eqd3YhpYbWFkA.svg" width="20" />) in the **Prototyping** section of the right panel. This creates a hotspot of the same size as the selection frame around the layer. You can resize it as you need by dragging the layer’s bounding box handles.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_hotspots.png" height="auto"><source src="/public/prototyping_hotspots.mp4" type="video/mp4"></video>
 
@@ -121,8 +121,8 @@ Here are the settings that appear in the **Prototyping** section of the right pa
 **Target frame.** Displays the current target frame of the selected layer/hotspot. Open it to change the target frame and view all of the frames available in the document. In multi-page documents, the frames in this list are organized by pages (you can link frames that are on different pages).
 
 Apart from the existing frames, the list has two more options:
-- **None** → sets a null target.
-- **Previous frame** → clicking a layer with this target redirects you back to the previous view.
+- *None* → sets a null target.
+- *Previous frame* → clicking a layer with this target redirects you back to the previous view.
 
 **Go to hotspot target.** Clicking this button redirects you to the frame set as the target frame for the selected layer.
 
