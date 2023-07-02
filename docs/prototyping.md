@@ -68,19 +68,19 @@ To comment, click the **Comment** button on the top bar, leave a comment, then c
 ### Scrollable prototypes
 
 <div class="callout callout--info">
-    <p><strong>Note:</strong> Scrollable prototypes work only with frames based on <a href="https://lunacy.docs.icons8.com/layers/#adding-frames" target="_blank">frame presets</a>.</p>
+    <p><strong>Note:</strong> Scrollable prototypes work only with frames based on <a href="https://lunacy.docs.icons8.com/layers/#adding-frames" target="_blank">frame presets</a> (Full HD, iMac, iPhone, etc.).</p>
     <p>If the list of preset frames does not include a frame of the required size, you can <a href="https://lunacy.docs.icons8.com/layers/#custom-presets" target="_blank">create a custom preset</a>.</p>
 </div>
 
 To **create a scrollable prototype**:
 
-1. Create a frame from a preset.
+1. Create a frame using a preset.
 2. Resize the frame vertically. Resized frames have the label **Resized** in the right panel:
 
     <embed type="image/svg+xml" alt="resized_frame" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EnFH9_mOfk6clL5HPibl1w.svg" /> 
 
 3. Fill the frame with content and link it with other frames.
- 
+
 Preview the prototype as usual and scroll down to test out the interface.
 
 ## Hotspots
