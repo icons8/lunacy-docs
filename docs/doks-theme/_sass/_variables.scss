@@ -182,21 +182,21 @@ $font-size-base: 17px !default;
 }
 
 // Headings
-$font-size-h1: 2.5em !default;
+$font-size-h1: 44px !default;
 @mixin font-size-h1 {
 	font-size: 44px;
 	line-height: 127%;
 	@media (min-width: $screen-sm-min) {
-		font-size: 66px;
+		font-size: 54px;
 		line-height: 115%;
 	}
 }
-$font-size-h2: 40px !default;
+$font-size-h2: 48px !default;
 @mixin font-size-h2 {
 	font-size: 33px;
 	line-height: 121%;
 	@media (min-width: $screen-sm-min) {
-		font-size: 54px;
+		font-size: 48px;
 		line-height: 111%;
 	}
 }
@@ -209,14 +209,14 @@ $font-size-h3: 24px !default;
 		line-height: 156%;
 	}
 }
-$font-size-h4: 20px !default;
+$font-size-h4: 22px !default;
 @mixin font-size-h4 {
-	font-size: 21px;
+	font-size: 22px;
 	line-height: 143%;
 }
-$font-size-h5: 1.25em !default;
+$font-size-h5: 18px !default;
 @mixin font-size-h5 {
-	font-size: 17px;
+	font-size: 18px;
 	line-height: 176%;
 }
 $font-size-h6: 1em !default;
