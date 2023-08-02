@@ -60,7 +60,7 @@ Adjust padding and spacing for auto layouts right on the canvas.
 ### Auto layout wrapping
 With wrapping enabled, the content of an auto layout frame will move to the next line as you shrink it.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/al-wrap.png" height="auto"><source src="/public/al-wrap.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/al_wrap.png" height="auto"><source src="/public/al_wrap.mp4" type="video/mp4"></video>
 
 ### On-canvas font size editor
 
@@ -71,6 +71,8 @@ Change the font size by dragging the handle on the bounding box of a layer:
 
 ### Text baseline alignment
 You can now align text layers in auto layout frames by their baselines, not by bounding boxes. Recommended for texts of different fonts and/or sizes.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/al_baseline.png" height="auto"><source src="/public/al-baseline.mp4" type="video/mp4"></video>
 
 
 ### Improvements
