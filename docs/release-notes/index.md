@@ -33,7 +33,7 @@ release_note:
 
 page_nav:
     prev:
-        content: FAQ and Сontacts
+        content: FAQ and Contacts
         url: '/support'
 
 ---
@@ -49,8 +49,6 @@ Download beta:
 * macOS: [DMG beta](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
 * Linux: [DEB beta](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
 
-<!--- **Free format.** You can now save your documents as `.free` files. The `.free` format uses up to 10 times less data to define a layer, and it's optimized for huge documents. Its saving and opening times are twice as fast as those of a `.sketch` file.
-- Auto layout **padding edits** via the values in the input fields now depend on the **Nudge Amount**.-->
 
 ### On-canvas auto layout settings
 
@@ -58,25 +56,38 @@ Adjust padding and spacing for auto layouts right on the canvas.
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/auto_layout_canvas_editors.png" height="auto"><source src="/public/auto_layout_canvas_editors.mp4" type="video/mp4"></video>
 
+
+### Auto layout wrapping
+With wrapping enabled, the content of an auto layout frame will move to the next line as you shrink it.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/al-wrap.png" height="auto"><source src="/public/al-wrap.mp4" type="video/mp4"></video>
+
 ### On-canvas font size editor
 
 Change the font size by dragging the handle on the bounding box of a layer:
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/font_size_editor.png" height="auto"><source src="/public/font_size_editor.mp4" type="video/mp4"></video>
 
-### Advanced privacy settings 
 
-Turn off some or all of these features for a completely private experience:
+### Text baseline alignment
+You can now align text layers in auto layout frames by their baselines, not by bounding boxes. Recommended for texts of different fonts and/or sizes.
 
-<embed type="image/svg+xml" alt="privacy_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/L1r9ZlRIVUSeW-7_ve4sDg.svg" width="844" /> 
-
-All users can disable Google Analytics and Google Fonts, and you can disable the rest of the features <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">with a subscription</a>. 
 
 ### Improvements
-<!--- `Shift + A` doesn't just add auto layout to frames. Press the shortcut to frame selected layers and instantly place them in an auto layout.-->
 
 - Improved memory usage. Up to **30% less RAM** used for storing layer data, so huge files now take up less computer resources.
+- The `Shift + A` shortcut now instantly frames a selection and adds an auto layout to it, so you can skip the `Ctrl + Alt + G` step.
 - We updated the logic of flip operations, so the **Flip Horizontal/Flip Vertical** buttons don't have pressed states anymore.
+- You can now override star ratio, polygon and star vertex count in component instances.
+- The step for changing auto layout paddings and spacings when modified by dragging now depends on the <a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties-with-no-selected-layers" target="_blank">Nudge amount</a> settings. For instance, if the Small nudge is set to 2 and the initial padding is 10, dragging the control will adjust the padding incrementally to 12, 14, 16, and so on, or to 8, 6, 4, 2, and 0. Dragging while holding down `Shift` will apply the Big nudge.
+- We optimized fonts loading speed on startup up to 20 times. But if you now add or replace a font in your system, use **Help > Reload system fonts** to apply the changes without restarting Lunacy.
+- You can now turn off some or all online features in **Help > Privacy**. Google Analytics and Fonts can be disabled by all users. The rest of the options are available only to users with a subscription.
+- Lunacy no longer requests for access to your microphone on the first startup on macOS. It does so only before the first attempt to add an audio comment.
+- You can now hide the left panel by clicking the active tab on the Sidebar (**Layers**, **Components**, **Styles**, etc.).
+- By resizing the Left panel, you can also minimize the Sidebar. And by dragging the Sidebar you can open the Left Panel, if it is hidden.
+
+### Bug fixes
+- Fixed over 300 bugs.
 
 ## 9.1.1 hotfix
 _Release date: June 8, 2023_  
