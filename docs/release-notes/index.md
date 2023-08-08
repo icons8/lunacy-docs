@@ -40,15 +40,14 @@ page_nav:
 
 # Version 9
 
-## 9.2 (Beta)
-*Release date: June 5, 2023*
+## 9.2
+*Release date: August 8, 2023*
 
-Download beta:
+Download:
 
-* Windows: [EXE x64 beta](https://lcdn.icons8.com/setup/beta/LunacySetup.exe), [EXE ARM beta](https://lcdn.icons8.com/setup/beta/LunacySetup_arm64.exe)
-* macOS: [DMG beta](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
-* Linux: [DEB beta](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
-
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.2.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.2.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.2.0.deb)
 
 
 ### New UI with floating panels
@@ -97,6 +96,8 @@ You can now align text layers in auto layout frames by their baselines, not by b
 
 ### Bug fixes
 - Fixed over 300 bugs.
+
+
 
 ## 9.1.1 hotfix
 _Release date: June 8, 2023_  
