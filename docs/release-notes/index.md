@@ -53,7 +53,7 @@ Download:
 ### New UI with floating panels
 Lunacy's new UI with floating panels takes up less space so you can see more of your designs on the canvas.
 
-<embed type="image/svg+xml" alt="new_ui" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/48uZpsKGRUCkqeLIEtNqzg.svg" /> 
+<embed type="image/svg+xml" alt="new_ui Copy" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/r1oFw5Ko6kqE7ZpxdmXbnw.svg" /> 
  
 
 
