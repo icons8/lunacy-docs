@@ -54,6 +54,7 @@ Download:
 Lunacy's new UI with floating panels takes up less space so you can see more of your designs on the canvas.
 
 <embed type="image/svg+xml" alt="new_ui" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/48uZpsKGRUCkqeLIEtNqzg.svg" /> 
+ 
 
 
 ### On-canvas auto layout settings
