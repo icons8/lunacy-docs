@@ -40,6 +40,22 @@ page_nav:
 
 # Version 9
 
+
+## 9.2.1 hotfix
+*Release date: August 17, 2023*
+
+Download:
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.2.1.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.2.1.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.2.1.deb)
+
+### Bug fixes
+- Fixed huge memory consumption.
+- Fixed window flicker on macOS.
+- Fixed around 10 bugs based on a feedback requests.
+  
+
 ## 9.2
 *Release date: August 8, 2023*
 
