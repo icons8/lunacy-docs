@@ -41,6 +41,40 @@ page_nav:
 # Version 9
 
 
+## 9.3 Beta
+*Release date: September XX, 2023*
+
+### Individual borders
+
+Define the thickness of borders individually for each side of a rectangle. To do this: 
+
+1. In the border settings, click ![border settings icon](/public/border_settings_icon.png). You'll see four individual edit boxes.
+2. Use these boxes to adjust the thickness of a border on each side. To remove a border from a side, set its thickness to *0*.
+
+Also, you can now use the ![swap button](/public/invert_arrows_icon.png) button added to the border settings to swap the colors of the fill and border. The button is available for all shapes with solid and gradient fills. Alternatively, use the `Shift + Z` shortcut.
+
+<embed type="image/svg+xml" alt="individual_borders" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/vPwsQZ-2qkm9KuDgZ1N5zA.svg" /> 
+
+
+### Min and max dimensions for frames with auto layout
+
+You can now set min and max width and/or height to auto layout frames. To do this:
+
+1. In the auto layout settings, click ![min-max icon](/public/minmaxicon.png).
+2. Define the required dimensions in the respective fields (see the figure below).
+
+<embed type="image/svg+xml" alt="min_max_layout" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/zzDHXKm_uESewry3sHOtpw.svg" /> 
+
+
+### Improvements
+
+- Images are now treated as fills of rectangle shapes. It makes it much easier to crop and resize images, and to round their corners.
+- Image fill methods now include the Crop option. Use it to move or resize the image, if you want only a certain part of it to be visible within the bounds of the shape.
+- Improved angular gradient editor. You can now change the position of the center and modify the shape of the ellipse.
+- In the Crop mode (`Shift + Enter` or click ![crop icon](/public/crop_icon.png) on the context toolbar), you can now cut out both raster images and vector shapes.
+- By default, new documents you create in Lunacy are now cloud documents.
+
+
 ## 9.2.1 hotfix
 *Release date: August 17, 2023*
 
