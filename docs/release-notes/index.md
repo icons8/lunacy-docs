@@ -43,6 +43,10 @@ page_nav:
 
 ## 9.3 Beta
 
+<!-- Delete next paragraph after the official release -->
+
+To download the beta version, press `F1` and select the **Check for Beta Updates** checkbox.
+
 <!--
 
 *Release date: September XX, 2023*
