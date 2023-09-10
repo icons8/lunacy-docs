@@ -42,7 +42,12 @@ page_nav:
 
 
 ## 9.3 Beta
+
+<!--
+
 *Release date: September XX, 2023*
+
+-->
 
 ### Individual borders
 
