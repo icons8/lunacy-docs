@@ -55,7 +55,7 @@ To download the beta version, press `F1` and select the **Check for Beta Updates
 
 ### Individual borders
 
-Define the thickness of borders individually for each side of a rectangle. To do this: 
+Define the thickness of borders individually for each side of a rectangle or frame. To do this: 
 
 1. In the border settings, click ![border settings icon](/public/border_settings_icon.png). You'll see four individual edit boxes.
 2. Use these boxes to adjust the thickness of a border on each side. To remove a border from a side, set its thickness to *0*.
