@@ -43,6 +43,12 @@ page_nav:
 
 ## 9.3 Beta
 
+Download:
+
+* [Windows](https://lcdn.icons8.com/setup/beta/LunacySetup.exe)
+* [MacOS](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
+* [Linux](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
+
 <!-- Delete next paragraph after the official release -->
 
 To download the beta version, press `F1` and select the **Check for Beta Updates** checkbox.
