@@ -32,7 +32,7 @@ For instance, if you create a labeled button with auto layout, changing the butt
 
 If you're familiar with auto layouts, for example the ones in Figma — auto layouts in Lunacy are pretty much the same. Here's a video explainer of the auto layout workflow in Lunacy:
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=AwcMADxxrH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AwcMADxxrH0?si=7gVI3TqUc3jsAEm_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 If you need more info, all the details about auto layouts are in this section.
 
