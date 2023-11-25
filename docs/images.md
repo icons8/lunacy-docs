@@ -176,16 +176,26 @@ To **cut out a part of an image**:
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images_cutout_tool.png" height="auto"><source src="/public/images_cutout_tool.mp4" type="video/mp4"></video>
 
 
-### Image adjustment
+### Image filters
 
 Change the hue, saturation, contrast, and other properties of your images.
 
 To do this:
 
 1. Select one or several image layers.
-2. Click `+` next to **Image adjust** in the right panel.
+2. Click `+` next to **Image filters** in the right panel.
+3. Drag the sliders to adjust the image.
+
+
+<embed type="image/svg+xml" alt="image_filters" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/rx7xGF-vfE2NY86P4YHjog.svg" /> 
+
+
+<!--
+
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/images_adjustments.png" height="auto"><source src="/public/images_adjustments.mp4" type="video/mp4"></video>
+
+-->
 
 These adjustments are all reversible. You can discard all changes and restore the original image by clicking the Reset values (<embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="20" >) button next to the section header.
 

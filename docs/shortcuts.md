@@ -33,7 +33,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Action        | Windows, Linux &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    | Mac &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | ------------- |-------------|---------------|
 | Open |`Ctrl + O` | `⌘ + O` |
-| New |`Ctrl + N` | `⌘ + N` |
+| New cloud document |`Ctrl + N` | `⌘ + N` |
+| New local document |`Ctrl + Shift + N` | `⌘ + Shift + N` |
 | Save |`Ctrl + S` | `⌘ + S` |
 | Save as |`Ctrl + Shift + S` | `⌘ + Shift + S` |
 | Export |`Ctrl + E` | `⌘ + E` |
@@ -52,11 +53,11 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Export in PNG to Icons8 Cloud, copy URL to clipboard |`Alt + C + С` | `⌥ +  C + C` |
 | Copy Style |`Ctrl + Alt + C` | `⌥ +  ⌘ + C` |
 | Paste Style |`Ctrl + Alt + V` | `⌥ +  ⌘ + C` |
-| Copy layer hyperlink | `Ctrl + L` | `⌘ + L` |
+| Copy link to layer | `Ctrl + L` | `⌘ + L` |
 | Undo |`Ctrl + Z`  | `⌘ + Z` |
 | Redo |`Ctrl + Y` or `Ctrl + Shift + Z` | `⌘ + Shift + Z` |
 | Show Rulers |`Ctrl + R` | `⌘ + R` |
-| Show Grid |`Ctrl + ’` | `⌘ + '` |
+| Show Grid |`Shift + G` | `⌘ + G'` |
 | Show Layout Grid |`Ctrl + \` | `⌃ + G` |
 | Show Guidelines |`Ctrl + ;` | `⌃ + ;` |
 | Lock Guidelines |`Ctrl + Alt + ;` | `⌥ + ⌘ + ;` |
@@ -79,7 +80,7 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | ------------- |-------------|---------|
 | Select |`V` | `V` |
 | Deselect | `Esc` | `Esc` |
-| Frame |`A` |`A` |
+| Frame | `F` or `A` | `F` or `A` |
 | Text	|`T` | `T` |
 | Hand | Hold down `Space` or the **middle mouse button** | Hold down `Space` or the **middle mouse button** |
 | Rectangle | `R` | `R` |
@@ -101,14 +102,18 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Hotspot |`H` |`H` |
 | Slice |`E` | `E` |
 | Comment|`C` | `C` |
+| Like (sticker) |`C, C` | `C, C` |
+| Dislike (sticker)|`C, C, C` | `C, C, C` |
+| Heart (sticker) |`C, C, C, C` | `C, C, C, C` |
+| Question (sticker) | `C, C, C, C, C` | `C, C, C, C, C` |
 | Button |`B` | `B` |
 | Text Input |`D` | `D` |
-| Checkbox |`F` | `F` |
 | Radio button |`Y` | `Y` |
 | Toggle |`J` | `J` |
 | Drop-down list |`W` | `W` |
 | Component|`S` | `S` |
-| Zoom | `Z` | `Z` |
+| Crop |`Shift + Enter` | `Shift + Enter` |
+
 
 
 ## Selecting Layers
@@ -142,8 +147,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Align Top |`Alt + W` | `⌥ + W` |
 | Align Bottom |`Alt + S`  | `⌥ + S` |
 | Align Vertically |`Alt + V`| `⌥ + V` |
-| Distribute Horizontally |`Alt + Shift + H` | `⌃ + Shift + H` |
-| Distribute Vertically |`Alt + Shift + V` | `⌃ + Shift + V` |
+| Distribute Horizontally |`Ctrl + Shift + H` | `⌥ + Shift + H` |
+| Distribute Vertically |`Ctrl + Shift + V` | `⌥ + Shift + V` |
 | Tidy up |`Ctrl + Alt + Shift + T` | `⌃ + ⌥ + Shift + T` |
 | Scale layers |`Ctrl + K` | `⌘ + K` |
 | Refresh avatar |`Shift + R` | `Shift + R` |
@@ -249,8 +254,8 @@ We keep these shortcuts consistent with both Sketch for Mac and Photoshop. If yo
 | Bring Forward |`Ctrl + ]` | `⌘ + ]` |
 | Send Backward |`Ctrl + [` | `⌘ + [` |
 | Send to Back |`Ctrl + Shift + [` | `⌘ + Shift + [` |
-| Show / Hide |`Ctrl + Shift + H` | `⌘ +  Shift + H` |
-| Lock / Unlock |`Ctrl + Shift + L` | `⌘ +  Shift + L` |
+| Show / Hide |`Ctrl + Shift + H` | - |
+| Lock / Unlock |`Ctrl + Shift + L` | - |
 
 ## Zoom and Focus
 
