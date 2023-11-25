@@ -187,7 +187,8 @@ To do this:
 3. Drag the sliders to adjust the image.
 
 
-<embed type="image/svg+xml" alt="image_filters" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/rx7xGF-vfE2NY86P4YHjog.svg" /> 
+<embed type="image/svg+xml" alt="image_filters1" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/g1bNFusqNUyU5XqLxLHBzA.svg" /> 
+
 
 
 <!--
