@@ -22,7 +22,7 @@ page_nav:
         url: '/linked_design'
 ---
 
-Create **teams** optimize your workflow with design files and systems. With teams, you can collaborate with other users and organize your documents into **projects**, which work just like folders.
+Create **teams** to optimize your workflow with design files and systems. With teams, you can collaborate with other users and organize your documents into **projects**, which work just like folders.
 
 To start working with teams, <a href="https://lunacy.docs.icons8.com/interface/#account-and-profile" target="_blank">log in to your Icons8 account</a>. You can create and see your teams in the left panel of the <a href="https://lunacy.docs.icons8.com/interface/#home-tab" target="_blank">Home tab</a>.
 
