@@ -81,13 +81,52 @@ You can now set min and max width and/or height to auto layout frames. To do thi
 <embed type="image/svg+xml" alt="min_max_layout" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/zzDHXKm_uESewry3sHOtpw.svg" /> 
 
 
+### Pen tool: point highlighter
+
+* When the Pen tool is active, you can now view, select, and manipulate any point of any vector object on the canvas.
+
+### Other updates to Pen tool and vector edit mode
+
+In the vector edit mode, you can now: 
+
+* Hold down `Alt` to create a disconnected point.
+* Hold down `Ctrl/⌘` to create an asymmetric point.
+* Use `Alt+click` to delete a point.
+* Drag a point to another place after you created it or on closing a path.
+* Select single-handled points in the right panel.
+* Close paths with two non-straight points.
+* Deselect all selected points with `Esc` and switch between the Select and Pen tools right within the vector edit mode.
+
+### New square and layout grids
+
+* Square and layout grids now appear in the same section of the right panel.
+* You can create several grids of the same type.
+* We added more properties so that you can easily make a grid you want.
+
+### On-canvas font size editor for single-line text layers
+
+Drag the handle at the bottom of single-line text boxes to adjust the font size.
+
+![On-canvas font size editor](/public/fontsizedrag.gif)
+
+
+
 ### Improvements
 
 - Images are now treated as fills of rectangle shapes. It makes it much easier to crop and resize images, and to round their corners.
 - Image fill methods now include the Crop option. Use it to move or resize the image, if you want only a certain part of it to be visible within the bounds of the shape.
 - Improved angular gradient editor. You can now change the position of the center and modify the shape of the ellipse.
+- Gradient points in the color picker now a lot easier to manage.
 - In the Crop mode (`Shift + Enter` or click ![crop icon](/public/crop_icon.png) on the context toolbar), you can now cut out both raster images and vector shapes.
 - By default, new documents you create in Lunacy are now cloud documents.
+- Zoom tool now works by dragging. Hold down `Z` and drag to the right to zoom in, or to the left to zoom out.
+- Canvas now moves smoothly as you zoom it in or out.
+- Better quality tool cursors on macOS.
+- You can now swap fills and borders of a layer.
+- Enhanced rendering: better FPS, especially with heavy shadows.
+- The Select Tool now has two hotkeys: `S` and `V`.
+- The Frame Tool now also have two hotkeys: `F` and `A`.
+- Performance improvements of Figma import.
 
 
 ## 9.2.1 hotfix
