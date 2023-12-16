@@ -81,9 +81,12 @@ You can now set min and max width and/or height to auto layout frames. To do thi
 <embed type="image/svg+xml" alt="min_max_layout" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/zzDHXKm_uESewry3sHOtpw.svg" /> 
 
 
-### Pen tool: point highlighter
+### Pen tool: point highlighter, easier editing
 
-* When the Pen tool is active, you can now view, select, and manipulate any point of any vector object on the canvas.
+When the Pen tool is active, you can now view, select, and manipulate any point of any vector object on the canvas.
+
+![Updated Pen tool](/public/pentool93.gif)
+
 
 ### Other updates to Pen tool and vector edit mode
 
