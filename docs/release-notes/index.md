@@ -93,7 +93,7 @@ When the Pen tool is active, you can now view, select, and manipulate any point 
 In the vector edit mode, you can now: 
 
 * Hold down `Alt` to create a disconnected point.
-* Hold down `Ctrl/⌘` to create an asymmetric point.
+* Hold down `Ctrl`/`⌘` to create an asymmetric point.
 * Use `Alt+click` to delete a point.
 * Drag a point to another place after you created it or on closing a path.
 * Select single-handled points in the right panel.
@@ -117,7 +117,7 @@ Drag the handle at the bottom of single-line text boxes to adjust the font size.
 ### Improvements
 
 - Images are now treated as fills of rectangle shapes. It makes it much easier to crop and resize images, and to round their corners.
-- Image fill methods now include the Crop option. Use it to move or resize the image, if you want only a certain part of it to be visible within the bounds of the shape.
+- Image fill methods now include the *Crop* option. Use it to move or resize the image, if you want only a certain part of it to be visible within the bounds of the shape.
 - Improved angular gradient editor. You can now change the position of the center and modify the shape of the ellipse.
 - Gradient points in the color picker now a lot easier to manage.
 - In the Crop mode (`Shift + Enter` or click ![crop icon](/public/crop_icon.png) on the context toolbar), you can now cut out both raster images and vector shapes.
