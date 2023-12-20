@@ -42,6 +42,7 @@ page_nav:
 
 
 ## 9.3.1
+
 *Release date: December 20, 2023*
 
 Download:
@@ -50,15 +51,6 @@ Download:
 * <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.1.dmg)
 * <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.1.deb)
 
-<!-- Delete next paragraph after the official release -->
-
-To download the beta version, press `F1` and select the **Check for Beta Updates** checkbox.
-
-<!--
-
-*Release date: September XX, 2023*
-
--->
 
 ### Individual borders
 
