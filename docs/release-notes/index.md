@@ -41,13 +41,14 @@ page_nav:
 # Version 9
 
 
-## 9.3 Beta
+## 9.3.1
+*Release date: December 20, 2023*
 
 Download:
 
-* [Windows](https://lcdn.icons8.com/setup/beta/LunacySetup.exe)
-* [MacOS](https://lcdn.icons8.com/setup/beta/Lunacy.dmg)
-* [Linux](https://lcdn.icons8.com/setup/beta/Lunacy.deb)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.3.1.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.1.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.1.deb)
 
 <!-- Delete next paragraph after the official release -->
 
@@ -137,9 +138,9 @@ Drag the handle at the bottom of single-line text boxes to adjust the font size.
 
 Download:
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Installer](https://lcdn.icons8.com/setup/LunacySetup_9.2.1.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.2.1.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Installer](https://lcdn.icons8.com/setup/Lunacy_9.2.1.deb)
+* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.2.1.exe)
+* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.2.1.dmg)
+* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.2.1.deb)
 
 ### Bug fixes
 - Fixed huge memory consumption.
@@ -149,7 +150,6 @@ Download:
 
 ## 9.2
 *Release date: August 8, 2023*
-
 
 ### New UI with floating panels
 Lunacy's new UI with floating panels takes up less space so you can see more of your designs on the canvas.
