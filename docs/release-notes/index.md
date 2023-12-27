@@ -59,11 +59,7 @@ Download:
 
 *Release date: December 20, 2023*
 
-Download:
-
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.3.1.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.1.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.1.deb)
+Download: [Windows](https://lcdn.icons8.com/setup/LunacySetup_9.3.1.exe), [MacOS](https://lcdn.icons8.com/setup/Lunacy_9.3.1.dmg), [Linux](https://lcdn.icons8.com/setup/Lunacy_9.3.1.deb).
 
 
 ### Individual borders
@@ -142,11 +138,7 @@ Drag the handle at the bottom of single-line text boxes to adjust the font size.
 ## 9.2.1 hotfix
 *Release date: August 17, 2023*
 
-Download:
-
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.2.1.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.2.1.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.2.1.deb)
+Download: [Windows](https://lcdn.icons8.com/setup/LunacySetup_9.2.1.exe), [MacOS](https://lcdn.icons8.com/setup/Lunacy_9.2.1.dmg), [Linux](https://lcdn.icons8.com/setup/Lunacy_9.2.1.deb).
 
 ### Bug fixes
 - Fixed huge memory consumption.
