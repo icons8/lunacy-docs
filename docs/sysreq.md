@@ -30,12 +30,14 @@ Lunacy runs on the following operating systems:
 * macOS X v.10.14 or later
 * Linux: Ubuntu-based distributions, Snapcraft-supported operating systems
 
+Lunacy does not support x86 architectures, only x64 or ARM on all operating systems.
+
 
 ## Hardware requirements
 
 |         | Minimum    | Recommended |
 | ------------- |-------------|---------------|
-| RAM |512 MB | 4 GB |
+| RAM |2 GB | 4 GB |
 | Graphics | 512 MB | 4 GB |
 | Processor |2-core CPU | 4-core CPU |
 | Storage | 500 MB of available space, HDD | 1 GB of available space, SSD |
