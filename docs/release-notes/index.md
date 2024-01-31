@@ -50,7 +50,7 @@ page_nav:
 * <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.3.dmg)
 * <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.3.deb)
 
-### Native compilation
+### Faster launch times, lower memory usage
 
 Lunacy now is compiled to the native code for all operating systems. This brings:
 
