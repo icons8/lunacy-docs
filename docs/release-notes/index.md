@@ -54,7 +54,7 @@ page_nav:
 
 Lunacy now is compiled to the native code for all operating systems. This brings:
 
-- Lightning-fast app launch times. Now it is only 1-2 seconds against 6-10 seconds in the previous versions.
+- Lightning-fast app launch times. Now it is only 1-2 seconds compared to 6-10 seconds in the previous versions.
 - A significant decrease of memory usage by up to 300 MB (varies with the CPU architecture).
 - Slightly boosted overall rendering performance
 
