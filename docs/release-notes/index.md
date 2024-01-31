@@ -60,7 +60,7 @@ Lunacy now is compiled to the native code for all operating systems. This brings
 
 ### Better cloud experience
 
-We introduced a new transport protocol. This will help reduce latency when working with cloud documents.
+We switched to a new transport protocol. This will help reduce latency when working with cloud documents.
 
 ### Fixes
 
