@@ -40,6 +40,33 @@ page_nav:
 
 # Version 9
 
+<!--
+
+## 9.4
+
+*Release date: February XX, 2024*
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.3.3.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.3.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.3.deb)
+
+### Native compilation
+
+Lunacy now is compiled to the native code for all operating systems. This brings:
+
+- Lightning-fast app launch times. Now it is only 1-2 seconds against 6-10 seconds in the previous versions.
+-A significant decrease of memory usage by up to 300 MB (varies with the CPU architecture).
+- Slightly boosted overall rendering performance
+
+### Better cloud experience
+
+We introduced a new transport protocol. This will help reduce latency when working with cloud documents.
+
+### Fixes
+
+* Lots of minor fixes and improvements.
+
+-->
 
 ## 9.3.3 Hotfix
 
