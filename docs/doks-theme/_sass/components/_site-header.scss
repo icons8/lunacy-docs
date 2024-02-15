@@ -4,7 +4,7 @@
 
 /* ----- General ----- */
 .site-header {
-	padding: 10px 20px;
+	padding: 12px 24px;
 	font-size: 13px;
 	position: relative;
 
@@ -20,11 +20,18 @@
 
 
 .site-header__logo {
-	width: 84px;
-	margin-right: 48px;
+	display: flex;
+	align-items: center;
+	margin-right: 36px;
 	line-height: 1;
+	font-weight: 800;
+	font-size: 12px;
+	text-transform: uppercase;
+
 	img {
-		width: 100%;
+		width: 18px;
+		height: 18px;
+		margin-right: 10px;
 	}
 }
 
@@ -69,7 +76,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	font-weight: 800;
+	font-weight: 600;
 	flex-direction: column;
 	text-align: left;
 	align-items: flex-start;
@@ -78,11 +85,6 @@
 		flex-direction: row;
 		text-align: center;
 		align-items: center;
-	}
-	li:not(:last-child) {
-		@media (min-width: $screen-md-min) {
-			margin-right: 24px;
-		}
 	}
 	li:last-child {
 		margin-bottom: 35px;
@@ -98,8 +100,9 @@
 			margin-bottom: 0;
 		}
 		a {
-			font-size: 13px;
-			
+			display: flex;
+			font-size: 14px;
+			padding: 0 12px;			
 		}
 	}
 }

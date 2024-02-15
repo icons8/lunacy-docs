@@ -63,18 +63,19 @@ doks:
 
     header:
         logo:
-            text:
-            image: true
+            text: Lunacy
         nav:
             - item_name: Documentation
               item_url: https://icons8.com/docs
-            - item_name: Request Features
+            - item_name: Request features
               item_url: https://lunatics.icons8.com/
               external_url: true
-            - item_name: Release Notes
+            - item_name: Release notes
               item_url: /release-notes/
-            - item_name: Forum
-              item_url: https://community.icons8.com/c/lunacy/
+            - item_name: Features
+              item_url: https://icons8.com/lunacy-features
+            - item_name: Backlog
+              item_url: https://icons8.com/lunacy-backlog
               external_url: true
             
 

@@ -2,13 +2,10 @@
 	<header class="site-header">
 		<div class="container-fluid">
 			<div class="row">
-				{% if site.doks.header.logo.text %}
-					<a href="https://icons8.com/lunacy" class="site-header__logo not-visibly">{{ site.doks.header.logo.text }}</a>
-				{% elsif site.doks.header.logo.image %}
-					<a href="https://icons8.com/lunacy" class="site-header__logo">
+					<a href="https://icons8.com/lunacy" class="site-header__logo not-visibly">
 						<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo.svg">
+						{% if site.doks.header.logo.text %}{{ site.doks.header.logo.text }}{% endif %}
 					</a>
-				{% endif %}
 				<div id="mobile-menu" class="site-header__wrapper">
 					{% if site.doks.header.nav %}
 					<ul class="site-header__nav normalize" data-da>
