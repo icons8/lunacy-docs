@@ -4,9 +4,13 @@
 
 /* ----- General ----- */
 .site-header {
-	padding: 12px 24px;
+	padding: 21px 20px;
 	font-size: 13px;
 	position: relative;
+
+	@media (min-width: $screen-lg-min) {
+		padding: 12px 24px;
+	}
 
 	.row {
 		display: flex;
@@ -102,7 +106,13 @@
 		a {
 			display: flex;
 			font-size: 14px;
-			padding: 0 12px;			
+			padding: 0 12px;	
+			border-radius: 4px;	
+			
+			&:hover {
+				opacity: 1;
+				background-color: $color-transparent-gray;
+			}
 		}
 	}
 }
@@ -156,9 +166,9 @@
 }
 
 .site-header__burger {
-	width: 22px;
+	width: 20px;
 	margin-left: auto;
-	height: 18px;
+	height: 16px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
