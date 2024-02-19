@@ -41,7 +41,7 @@ $color-callout-warning: #fffae9 !default;
 $color-callout-danger: #ffedeb !default;
 
 // Footer
-$color-footer-bg: #111111 !default;
+$color-footer-bg: #edf8fd !default;
 $color-footer-bg-2: #222222 !default;
 
 $color-footer-copyright: #bdbdbd !default;
@@ -220,7 +220,12 @@ $font-size-h5: 18px !default;
 	font-size: 18px;
 	line-height: 176%;
 }
+@mixin font-size-footer {
+    font-size: 13px;
+    line-height: 19.5px;
+}
 $font-size-h6: 1em !default;
+
 
 // Other
 $font-size-small: 0.75em !default;

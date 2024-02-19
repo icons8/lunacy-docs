@@ -77,6 +77,107 @@ doks:
             - item_name: Backlog
               item_url: https://icons8.com/lunacy-backlog
               external_url: true
+    footer:
+        small_nav:
+            - name: Main page
+              url: https://icons8.com
+            - name: Advertising
+              url: https://icons8.com/l/media-kit/
+            - name: Affiliate program
+              url: https://icons8.tapfiliate.com/publisher/signup/icons8-affiliate-program/?via=788828
+        main_nav:
+            - title: Design assets
+              list:
+                  - name: Icons
+                    url: https://icons8.com/icons
+                  - name: Illustrations
+                    url: https://icons8.com/illustrations
+                  - name: Stock photos 
+                    url: https://icons8.com/photos
+                  - name: Royalty-free music
+                    url: https://icons8.com/music
+                  - name: 3D models
+                    url: https://icons8.com/threedio
+                  - name: AI-generated faces
+                    url: https://generated.photos/
+            - title: Apps
+              list:
+                  - name: Lunacy
+                    url: https://icons8.com/lunacy
+                  - name: Pichon
+                    url: https://icons8.com/app/windows-pichon
+                  - name: GoProd 
+                    url: https://icons8.com/goprod
+                  - name: Plugins
+                    url: https://icons8.com/app/figma
+            - title: Request
+              list:
+                  - name: Icon
+                    url: https://icons8.com/icons/request-icon
+                  - name: Illustration
+                    url: https://icons8.com/illustrations/request-illustration
+                  - name: Lunacy feature 
+                    url: https://lunatics.icons8.com/
+            - title: Company
+              list:
+                  - name: About Icons8
+                    url: https://icons8.com/about
+                  - name: Business model
+                    url: https://blog.icons8.com/our-business-model/
+                  - name: Blog
+                    url: https://blog.icons8.com/
+            - title: Online tools
+              list:
+                  - name: Mega Creator
+                    url: https://icons8.com/mega-creator
+                  - name: Smart Upscaler
+                    url: https://icons8.com/upscaler
+                  - name: Background Remover
+                    url: https://icons8.com/bgremover
+                  - name: Face Swapper
+                    url: https://icons8.com/swapper
+                  - name: Face Generator
+                    url: https://generated.photos/face-generator
+                  - name: Human Generator
+                    url: https://generated.photos/human-generator
+                  - name: HeyPhoto
+                    url: https://hey-photo.com/
+                  - name: Iconizer
+                    url: https://icons8.com/iconizer
+            - title: For developers
+              list:
+                  - name: Icons API
+                    url: https://developers.icons8.com/docs/icons
+                  - name: Illustrations API
+                    url: https://developers.icons8.com/docs/vectors
+                  - name: Photos API
+                    url: https://developers.icons8.com/docs/photos
+                  - name: Music API
+                    url: https://developers.icons8.com/docs/music
+                  - name: Smart Upscaler API
+                    url: https://developers.icons8.com/docs/upscaler
+                  - name: Background Remover API
+                    url: https://developers.icons8.com/docs/bgRemover
+                  - name: Omg-Img
+                    url: https://img.icons8.com/
+                  - name: Line Awesome
+                    url: https://icons8.com/line-awesome
+            - title: Support
+              list:
+                  - name: Forum
+                    url: https://community.icons8.com/
+                  - name: FAQ
+                    url: https://intercom.help/icons8-7fb7577e8170/en/
+                  - name: User documentation
+                    url: https://icons8.com/docs
+                  - name: Contact us
+                    url: https://icons8.com/contact
+            - title: Licenses
+              list:
+                  - name: Free license
+                    url: https://icons8.com/license
+                  - name: Paid license
+                    url: https://icons8.com/pricing
             
 
     gtag:
