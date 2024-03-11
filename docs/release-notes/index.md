@@ -40,6 +40,49 @@ page_nav:
 
 # Version 9
 
+<!--
+
+## 9.5.0
+
+*Release date: March XX, 2024*
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.4.2.5022.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.deb)
+
+### FREE format
+
+The default format for saving files in Lunacy is now `.free`, which is almost fully compatible with the features from the Figma and Sketch formats. We designed `.free` to address the issues available in `.sketch` when it comes to very large design files.
+
+From the users' point of view `.free` brings:
+
+- Much lower file sizes, especially of files with thousands of layers, like design systems and similar.
+- Up to 2 times faster saving and opening of files.
+
+We encourage developers to join the `.free` format community and integrate it into their products. The [specification of the free format](https://github.com/icons8/free) is available on GitHub under the MIT license.
+
+Key advantages of `.free`:
+
+- Optimized for large documents.
+- Human-readable JSON.
+- Expandable file structure: a simple archive with JSON files and assets.
+
+
+
+### FAQ
+
+#### Does Lunacy still work with Sketch?
+
+Yes, Lunacy still supports `.sketch` like no other app, except Sketch itself. But for better experience with Lunacy, we recommend you using `.free`.
+
+
+#### Can I convert `.free` to `.sketch` or vice versa?
+
+Yes. You can easily convert between the formats using the **Save as** option.
+
+-->
+
+
 ## 9.4.2
 
 *Release date: February 08, 2024*
@@ -48,7 +91,7 @@ page_nav:
 * <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.dmg)
 * <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.deb)
 
-Fixed macOS minimum OS version requirement from 14.0 to 11.0
+Fixed the bug with the minimum macOS version requirement of 14.0. Now Lunacy runs flawlessly on macOS 11 and higher.
 
 
 ## 9.4
