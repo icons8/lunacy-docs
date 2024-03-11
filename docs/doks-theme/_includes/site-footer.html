@@ -1,126 +1,219 @@
-
 <footer class="footer">
-    <div class="footer__top">
-        <div class="container">
-            <div class="row">
-                <button class="btn--back-top">
-                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.812103 6L8.80383e-07 5.16164L5 4.37114e-07L10 5.16164L9.1879 6L5 1.67671L0.812103 6Z" fill="white"/>
-                    </svg>                    
-                    Back to top
-                </button> 
+    <div class="footer__content">
+        <div class="footer__community">
+            <div class="footer__logo">
+                <span class="icon"><svg width="100%" height="100%">
+                        <use href="#icons-lunacy-logo"></use>
+                    </svg></span>
+                Lunacy
             </div>
+            <div class="footer__media">
+                <a rel="noopener" title="Icons8 Instagram" href="https://www.instagram.com/icons8">
+                    <div class="icon">
+                        <svg width="100%" height="100%">
+                            <use href="#commonIcons-sInstagram"></use>
+                        </svg>
+                    </div>
+                </a><a rel="noopener" title="Icons8 Dribbble" href="https://dribbble.com/icons8">
+                    <div class="icon">
+                        <svg width="100%" height="100%">
+                            <use href="#commonIcons-sDribbble"></use>
+                        </svg>
+                    </div>
+                </a><a rel="noopener" title="Icons8 Twitter" href="https://twitter.com/Icons8_Lunacy">
+                    <div class="icon">
+                        <svg width="100%" height="100%">
+                            <use href="#commonIcons-sTwitter"></use>
+                        </svg>
+                    </div>
+                </a><a rel="noopener" title="Icons8 Facebook" href="https://www.facebook.com/Icons8">
+                    <div class="icon">
+                        <svg width="100%" height="100%">
+                            <use href="#commonIcons-sFacebook"></use>
+                        </svg>
+                    </div>
+                </a><a rel="noopener" title="Icons8 TikTok" href="https://www.tiktok.com/@icons8_creators">
+                    <div class="icon">
+                        <svg width="100%" height="100%">
+                            <use href="#commonIcons-sTiktok"></use>
+                        </svg>
+                    </div>
+                </a><a rel="noopener" title="Icons8 Youtube"
+                    href="https://www.youtube.com/channel/UCRXYx6Qg7kgH0EAqa-Gl0HA">
+                    <div class="icon">
+                        <svg width="100%" height="100%">
+                            <use href="#commonIcons-sYoutube"></use>
+                        </svg>
+                    </div>
+                </a><a rel="noopener" title="Icons8 Linkedin" href="https://www.linkedin.com/company/icons8-llc/">
+                    <div class="icon">
+                        <svg width="100%" height="100%">
+                            <use href="#commonIcons-sLinkedin"></use>
+                        </svg>
+                    </div>
+                </a><a rel="noopener" title="Icons8 Medium" href="https://uxplanet.org/@icons8">
+                    <div class="icon">
+                        <svg width="100%" height="100%">
+                            <use href="#commonIcons-sMedium"></use>
+                        </svg>
+                    </div>
+                </a><a rel="noopener" title="Icons8 Pinterest" href="https://www.pinterest.ru/visualpharm/">
+                    <div class="icon">
+                        <svg width="100%" height="100%">
+                            <use href="#commonIcons-sPinterest"></use>
+                        </svg>
+                    </div>
+                </a><a rel="noopener" title="Icons8 ProductHunt" href="https://www.producthunt.com/products/icons8">
+                    <div class="icon">
+                        <svg width="100%" height="100%">
+                            <use href="#commonIcons-sProductHunt"></use>
+                        </svg>
+                    </div>
+                </a><!--]-->
+            </div>
+            {% if site.doks.footer.small_nav %}
+            <ul>
+                {% for item in site.doks.footer.small_nav %}
+                <li>
+                    <a rel="noopener" href="{{ item.url }}" target="_blank" class="link">{{ item.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            <div class="recaptcha-text hide-sm">
+                Protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a>
+                and the
+                <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+            </div>
+        </div>
+        <div class="footer__grid">
+            {% for item in site.doks.footer.main_nav %}
+            <ul data-header="{{ item.title }}">
+                {% for item in item.list %}
+                <li>
+                    <a target="_blank" href="{{ item.url }}" rel="noopener" class="link">{{ item.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endfor %}
+        </div>
+        <div class="recaptcha-text hide-lg">
+            Protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+            the
+            <a href="https://policies.google.com/terms">Terms of Service</a> apply.
         </div>
     </div>
-    <div class="footer__middle">
-        <div class="container">
-            <div class="row">
-                <div class="col-footer">
-                    <div class="footer__middle__col-header">Design Assets</div>
-                    <ul class="footer__midle__col-ul normalize">
-                        <li><a href="https://icons8.com/icons" class="not-visibly">Icons</a></li>
-                        <li><a href="https://photos.icons8.com/" class="not-visibly">Stock photos</a></li>
-                        <li data-v-6c9aea26=""><a href="https://generated.photos/" data-v-6c9aea26="" class="not-visibly">AI-generated faces</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/illustrations" data-v-6c9aea26="" class="not-visibly">Vector illustrations</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/music" data-v-6c9aea26="" class="not-visibly">Royalty-free music</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/line-awesome" data-v-6c9aea26="" class="not-visibly">Line Awesome</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/emoji" data-v-6c9aea26="" class="not-visibly mark mark--new">Emoji</a></li>
-                    </ul>
+    <div class="footer__meta footer-meta">
+        <div class="footer-meta__advanced">
+            <div class="footer-meta__mark">© 2024 Icons8 LLC</div>
+            <div class="footer-meta__grid">
+                <div class="footer-meta__links">
+                    <a href="https://intercom.help/icons8-7fb7577e8170/en/articles/7228039-privacy-policy"
+                        class="link first">Privacy Policy</a><a href="/terms-and-conditions" class="link">Terms and
+                        Conditions</a>
                 </div>
-                <div class="col-footer">
-                    <div class="footer__middle__col-header">Apps</div>
-                    <ul class="footer__midle__col-ul normalize">
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/lunacy" data-v-6c9aea26="" class="not-visibly">Lunacy</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/app" data-v-6c9aea26="" class="not-visibly">Pichon icons</a></li>
-                        <li data-v-6c9aea26=""><a href="https://photos.icons8.com/creator" data-v-6c9aea26="" class="not-visibly mark mark--new">Photo Creator</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/vector-creator/" data-v-6c9aea26="" class="not-visibly mark mark--new">Vector Creator</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/upscaler" data-v-6c9aea26="" class="not-visibly mark mark--new"> Smart Upscaler</a></li>
-                    </ul>
-                </div>
-                <div class="col-footer">
-                    <div class="footer__middle__col-header">About icons8</div>
-                    <ul class="footer__midle__col-ul normalize">
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/about" data-v-6c9aea26=""  class="not-visibly">In short</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/our-business-model/" data-v-6c9aea26="" class="not-visibly">Business model</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/advertising" data-v-6c9aea26="" class="not-visibly">Advertising</a></li>
-                    </ul>
-                </div>
-                <div class="col-footer">
-                    <div class="footer__middle__col-header">Community</div>
-                    <ul class="footer__midle__col-ul normalize">
-                        <li class="social">
-                            <a href="https://www.pinterest.com/visualpharm/" aria-label="pinterest" class="not-visibly" data-v-6c9aea26=""><svg viewBox="0 0 24 24" width="16" height="16" data-v-6c9aea26=""><path d="M12,2C6.477,2,2,6.477,2,12c0,4.237,2.636,7.855,6.356,9.312c-0.087-0.791-0.167-2.005,0.035-2.868 c0.182-0.78,1.172-4.971,1.172-4.971s-0.299-0.599-0.299-1.484c0-1.391,0.806-2.428,1.809-2.428c0.853,0,1.265,0.641,1.265,1.408 c0,0.858-0.546,2.141-0.828,3.329c-0.236,0.996,0.499,1.807,1.481,1.807c1.777,0,3.143-1.874,3.143-4.579 c0-2.394-1.72-4.068-4.177-4.068c-2.845,0-4.515,2.134-4.515,4.34c0,0.859,0.331,1.781,0.744,2.282 c0.082,0.099,0.093,0.186,0.069,0.287c-0.076,0.316-0.244,0.995-0.277,1.134c-0.043,0.183-0.145,0.222-0.334,0.133 c-1.249-0.582-2.03-2.408-2.03-3.874c0-3.154,2.292-6.052,6.608-6.052c3.469,0,6.165,2.472,6.165,5.776 c0,3.447-2.173,6.22-5.189,6.22c-1.013,0-1.966-0.527-2.292-1.148c0,0-0.502,1.909-0.623,2.378 c-0.226,0.868-0.835,1.958-1.243,2.622C9.975,21.843,10.969,22,12,22c5.522,0,10-4.478,10-10S17.523,2,12,2z" data-v-6c9aea26=""></path></svg></a>
-                            <a href="https://www.linkedin.com/company/icons8-llc" aria-label="linkedin" class="not-visibly" data-v-6c9aea26=""><svg width="14" height="13" viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg" data-v-6c9aea26=""><path d="M3 13V3.85185H0V13H3Z" data-v-6c9aea26=""></path><path d="M1.5 0C0.6 0 0 0.515185 0 1.18926C0 1.86333 0.6 2.40741 1.5 2.40741C2.44 2.40741 3 1.86333 3 1.18926C2.965 0.515185 2.4 0 1.5 0Z" data-v-6c9aea26=""></path><path d="M11 13H14V7.82889C14 5.1663 12.39 3.85185 10.405 3.85185C8.465 3.85185 7.5 5.08444 7.5 5.08444V3.85185H4.5V13H7.5V8.18519C7.5 7.23185 8 6.24 9.21 6.24H9.25C10.5 6.25926 11 7.22222 11 8.18519V13Z" data-v-6c9aea26=""></path></svg></a>
-                            <a href="https://twitter.com/icons_8" aria-label="twitter" class="not-visibly" data-v-6c9aea26=""><svg width="15" height="12" viewBox="0 0 15 12" data-v-6c9aea26=""><path d="M15 1.42a6.42 6.42 0 0 1-1.77.48A3.06 3.06 0 0 0 14.59.22a6.34 6.34 0 0 1-1.96.73 3.1 3.1 0 0 0-2.25-.96A3.06 3.06 0 0 0 7.3 3.03a3.17 3.17 0 0 0 .08.69A8.8 8.8 0 0 1 1.04.55a2.95 2.95 0 0 0-.42 1.53A3.01 3.01 0 0 0 1.99 4.6 3.2 3.2 0 0 1 .6 4.22v.04a3.05 3.05 0 0 0 2.47 2.97 3.12 3.12 0 0 1-.82.1 2.63 2.63 0 0 1-.57-.05 3.08 3.08 0 0 0 2.87 2.11 6.24 6.24 0 0 1-3.82 1.29 6 6 0 0 1-.74-.04A8.8 8.8 0 0 0 4.71 12a8.62 8.62 0 0 0 8.76-8.62l-.01-.4A5.86 5.86 0 0 0 15 1.42" data-v-6c9aea26=""></path></svg></a>
-                            <a href="https://www.facebook.com/Icons8" aria-label="facebook" class="not-visibly" data-v-6c9aea26=""><svg width="6" height="13" viewBox="0 0 6 13" data-v-6c9aea26=""><path d="M4.27 13H1.6V6.5H0V4.34h1.6V3.02c0-1.81.54-3.01 2.64-3.01h1.63v2.16h-.98c-.82 0-.87.4-.87.97v1.2h1.97L5.76 6.5H4.27V13z" data-v-6c9aea26=""></path></svg></a>
-                            <a href="https://dribbble.com/icons8" aria-label="dribbble" class="not-visibly" data-v-6c9aea26=""><svg width="13" height="13" viewBox="0 0 13 13" data-v-6c9aea26=""><path d="M8.45 7.45a7.55 7.55 0 0 1 1.4-.14 8.56 8.56 0 0 1 1.96.25 5.43 5.43 0 0 1-2.56 3.6 19.3 19.3 0 0 0-.8-3.71zm-5.14 3.46a7.98 7.98 0 0 1 4.09-3.2 17.66 17.66 0 0 1 .8 3.94 4.9 4.9 0 0 1-1.71.26 5.7 5.7 0 0 1-3.18-1zM8.09 6.4c-.13-.29-.24-.6-.38-.89a14.02 14.02 0 0 0 3.25-2.06 5.53 5.53 0 0 1 .96 3.04 8.46 8.46 0 0 0-2.07-.29 10 10 0 0 0-1.76.2zm2.16-3.8a11.71 11.71 0 0 1-3 1.91 21.57 21.57 0 0 0-2.16-3.22 5.1 5.1 0 0 1 1.4-.2 5.47 5.47 0 0 1 3.76 1.51zm-4 2.31a12.57 12.57 0 0 1-4.4.78h-.74a5.58 5.58 0 0 1 2.89-4 17.83 17.83 0 0 1 2.25 3.22zM6.49 0a6.5 6.5 0 1 0 6.52 6.49A6.48 6.48 0 0 0 6.49 0zm.56 6.69a8.74 8.74 0 0 0-4.54 3.47 5.08 5.08 0 0 1-1.42-3.4c.27 0 .51.04.76.04a14.2 14.2 0 0 0 4.86-.89 4.85 4.85 0 0 0 .34.78z" data-v-6c9aea26=""></path></svg></a>
-                            <a href="https://uxplanet.org/@icons8" aria-label="medium" class="not-visibly" data-v-6c9aea26=""><svg width="15" height="13" viewBox="0 0 15 13" data-v-6c9aea26=""><path d="M15 12.48a.43.43 0 0 1-.44.48.9.9 0 0 1-.39-.11l-.65-.33-2.88-1.48L15 3.79v8.69zM5.71 8.52V3.81l3.21 6.36-2.88-1.48zM9.49.68l.27-.43a.48.48 0 0 1 .56-.23.35.35 0 0 1 .09.04l4.53 2.31a.01.01 0 0 1 .01.01.07.07 0 0 1 .02.07l-4.51 7.5-.46.76-2.98-5.9zM5 12.48a.44.44 0 0 1-.41.52.63.63 0 0 1-.28-.08L.42 10.93a.86.86 0 0 1-.42-.69V.48A.35.35 0 0 1 .33.07a.42.42 0 0 1 .23.06L.69.2l4.29 2.19a.04.04 0 0 1 .02.02v10.07z" data-v-6c9aea26=""></path></svg></a>
-                        </li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/blog/" data-v-6c9aea26="" class="not-visibly">Blog</a></li>
-                        <li data-v-6c9aea26=""><a href="https://community.icons8.com/" data-v-6c9aea26="" class="not-visibly">Forum</a></li>
-                        <li data-v-6c9aea26=""><a href="https://www.producthunt.com/@icons_8" data-v-6c9aea26="" class="not-visibly">Product Hunt</a></li>
-                    </ul>
-                </div>
-            </div>
-            <hr class="footer__hr">
-            <div class="row">
-                <div class="col-footer">
-                    <div class="footer__middle__col-header">Request</div>
-                    <ul class="footer__midle__col-ul normalize">
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/icons/request-icon" data-v-6c9aea26="" class="not-visibly">Icon</a></li>
-                        <li data-v-6c9aea26=""><a href="https://request.icons8.com/photo-request" data-v-6c9aea26="" class="not-visibly">Photo shoot</a></li>
-                        <li data-v-6c9aea26=""><a href="https://lunatics.icons8.com" data-v-6c9aea26="" class="not-visibly">Lunacy feature</a></li>
-                    </ul>
-                </div>
-                <div class="col-footer">
-                    <div class="footer__middle__col-header">For Developers</div>
-                    <ul class="footer__midle__col-ul normalize">
-                        <li data-v-6c9aea26=""><a href="https://developers.icons8.com/docs/getting-started" data-v-6c9aea26="" class="not-visibly">API documentation</a></li>
-                        <li data-v-6c9aea26=""><a href="https://img.icons8.com" data-v-6c9aea26="" class="not-visibly">Omg-Img</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/line-awesome" data-v-6c9aea26="" class="not-visibly">Line Awesome</a></li>
-                    </ul>
-                </div>
-                <div class="col-footer">
-                    <div class="footer__middle__col-header">Support</div>
-                    <ul class="footer__midle__col-ul normalize">
-                        <li data-v-6c9aea26=""><a href="https://community.icons8.com" data-v-6c9aea26="" class="not-visibly">Forum</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.crisp.help/en/" data-v-6c9aea26="" class="not-visibly">FAQ</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/contact" data-v-6c9aea26="" class="not-visibly">Contact us</a></li>
-                    </ul>
-                </div>
-                <div class="col-footer">
-                    <div class="footer__middle__col-header">Licenses</div>
-                    <ul class="footer__midle__col-ul normalize">
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/license" data-v-6c9aea26="" class="not-visibly">Free license</a></li>
-                        <li data-v-6c9aea26=""><a href="https://icons8.com/pricing" data-v-6c9aea26="" class="not-visibly mark mark--upgrade">Paid license</a></li>
-                    </ul>
-                </div>
+                <div class="footer-meta__cdn">Accelerated by <a href="https://www.cdn77.com/" class="link"
+                        rel="noopener" target="_blank">CDN77</a></div>
             </div>
         </div>
-    </div>
-    <div class="footer__bottom">
-        <div class="container">
-            <div class="row">
-                <span class="footer__bottom__copywriting">© 2018 Icons8 LLC</span>
-                <a href="#" class="not-visibly">Privacy Policy</a>
-                <a href="#" class="not-visibly">Terms and Conditions</a>
-                <a href="#" class="not-visibly">Accelerated by KeyCDN</a>
-                <span class="footer__bottom__link">
-                    
-                </span>
-            </div>
-        </div>
-        
     </div>
 </footer>
 
-<script src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/jquery.min.js"></script>
-<script src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/jquery.modal.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.14.2/dist/algoliasearch-lite.umd.js" integrity="sha256-dImjLPUsG/6p3+i7gVKBiDM8EemJAhQ0VvkRK2pVsQY=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.49.1/dist/instantsearch.production.min.js" integrity="sha256-3s8yn/IU/hV+UjoqczP+9xDS1VXIpMf3QYRUi9XoG0Y=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/bootstrap/affix.min.js"></script>
-<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
-<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
-<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/simplebar.min.js"></script>
-<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/scripts.js"></script>
-<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/search-modal.js"></script>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="position: absolute; width: 0; height: 0">
+    <symbol id="icons-lunacy-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M0 5C0 2.23858 2.23858 0 5 0H19C21.7614 0 24 2.23858 24 5V19C24 21.7614 21.7614 24 19 24H5C2.23858 24 0 21.7614 0 19V5Z"
+            fill="#179DE3"></path>
+        <path
+            d="M0 10.24C0 6.65566 0 4.8635 0.697558 3.49446C1.31115 2.29022 2.29022 1.31115 3.49446 0.697558C4.8635 0 6.65566 0 10.24 0H13.76C17.3443 0 19.1365 0 20.5055 0.697558C21.7098 1.31115 22.6889 2.29022 23.3024 3.49446C24 4.8635 24 6.65566 24 10.24V13.76C24 17.3443 24 19.1365 23.3024 20.5055C22.6889 21.7098 21.7098 22.6889 20.5055 23.3024C19.1365 24 17.3443 24 13.76 24H10.24C6.65566 24 4.8635 24 3.49446 23.3024C2.29022 22.6889 1.31115 21.7098 0.697558 20.5055C0 19.1365 0 17.3443 0 13.76V10.24Z"
+            fill="#179DE3"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M5.6001 5.6001H12.0001V18.4001H5.6001V5.6001ZM12 18.4005L18.4 12.0005V18.4005H12ZM18.4 8.00049C17.2887 7.58808 16.4124 6.71177 16 5.60049C15.5873 6.71123 14.7108 7.58806 13.6 8.00049C14.7109 8.41347 15.587 9.28958 16 10.4005C16.4124 9.28965 17.2893 8.41321 18.4 8.00049Z"
+            fill="white"></path>
+    </symbol>
+    <symbol id="commonIcons-sDribbble" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.5">
+            <path
+                d="M21.25 15.9136C21.25 19.3654 18.4518 22.1636 15 22.1636C11.5482 22.1636 8.75 19.3654 8.75 15.9136C8.75 12.4618 11.5482 9.66357 15 9.66357C18.4518 9.66357 21.25 12.4618 21.25 15.9136Z"
+                stroke="#1D1D1D" stroke-width="1.5"></path>
+            <path d="M12.5 9.91357C12.5 9.91357 17 15.4136 18 21.4136" stroke="#1D1D1D" stroke-width="1.5"></path>
+            <path d="M19.5 11.9136C19.5 11.9136 14.5 15.9136 8.5 16.9136" stroke="#1D1D1D" stroke-width="1.5"></path>
+            <path d="M12 21.4137C12 21.4137 15.5 16.4137 21.5 17.4137" stroke="#1D1D1D" stroke-width="1.5"></path>
+        </g>
+    </symbol>
+    <symbol id="commonIcons-sFacebook" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.5">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 11.4136C8 10.0386 9.12502 8.91357 10.5 8.91357H19.5C20.875 8.91357 22 10.0386 22 11.4136V20.4136C22 21.7886 20.875 22.9136 19.5 22.9136H10.5C9.12502 22.9136 8 21.7886 8 20.4136V11.4136ZM17 17.9137L17.0477 22.9089H15V17.9137L13.4946 17.9089V15.9089L15 15.9137V14.5602C15 12.8769 15.9872 11.9653 17.5017 11.9653C18.2272 11.9653 18.8511 12.0173 19.0334 12.0418V13.8028H17.982C17.1587 13.8028 17 14.1909 17 14.761V15.9137L19.0118 15.9089L18.7561 17.9185L17 17.9137Z"
+                fill="#1D1D1D"></path>
+        </g>
+    </symbol>
+    <symbol id="commonIcons-sInstagram" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M12.0822 8C9.83111 8 8 9.83281 8 12.0845V17.9178C8 20.1689 9.83281 22 12.0845 22H17.9178C20.1689 22 22 20.1672 22 17.9155V12.0822C22 9.83111 20.1672 8 17.9155 8H12.0822ZM19.0833 10.3333C19.4053 10.3333 19.6667 10.5947 19.6667 10.9167C19.6667 11.2387 19.4053 11.5 19.0833 11.5C18.7613 11.5 18.5 11.2387 18.5 10.9167C18.5 10.5947 18.7613 10.3333 19.0833 10.3333ZM15 11.5C16.9303 11.5 18.5 13.0697 18.5 15C18.5 16.9303 16.9303 18.5 15 18.5C13.0697 18.5 11.5 16.9303 11.5 15C11.5 13.0697 13.0697 11.5 15 11.5ZM15 12.6667C14.3812 12.6667 13.7877 12.9125 13.3501 13.3501C12.9125 13.7877 12.6667 14.3812 12.6667 15C12.6667 15.6188 12.9125 16.2123 13.3501 16.6499C13.7877 17.0875 14.3812 17.3333 15 17.3333C15.6188 17.3333 16.2123 17.0875 16.6499 16.6499C17.0875 16.2123 17.3333 15.6188 17.3333 15C17.3333 14.3812 17.0875 13.7877 16.6499 13.3501C16.2123 12.9125 15.6188 12.6667 15 12.6667Z"
+            fill="black" fill-opacity="0.4"></path>
+    </symbol>
+    <symbol id="commonIcons-sLinkedin" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M20.7273 8H9.27273C8.56955 8 8 8.56955 8 9.27273V20.7273C8 21.4305 8.56955 22 9.27273 22H20.7273C21.4305 22 22 21.4305 22 20.7273V9.27273C22 8.56955 21.4305 8 20.7273 8ZM12.4253 19.4545H10.548V13.4142H12.4253V19.4545ZM11.4675 12.5506C10.8624 12.5506 10.373 12.06 10.373 11.4561C10.373 10.8522 10.863 10.3622 11.4675 10.3622C12.0708 10.3622 12.5615 10.8528 12.5615 11.4561C12.5615 12.06 12.0708 12.5506 11.4675 12.5506ZM19.4571 19.4545H17.5811V16.5171C17.5811 15.8165 17.5684 14.9154 16.6055 14.9154C15.6287 14.9154 15.4785 15.6784 15.4785 16.4662V19.4545H13.6025V13.4142H15.4035V14.2395H15.4289C15.6796 13.7648 16.2918 13.264 17.205 13.264C19.1058 13.264 19.4571 14.5151 19.4571 16.1416V19.4545Z"
+            fill="black" fill-opacity="0.4"></path>
+    </symbol>
+    <symbol id="commonIcons-sMedium" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.5">
+            <path
+                d="M8.99747 12.3615C9.01625 12.176 8.94549 11.9926 8.80694 11.8677L7.39561 10.1675V9.91357H11.7778L15.165 17.3421L18.1429 9.91357H22.3205V10.1675L21.1138 11.3245C21.0097 11.4038 20.9581 11.5341 20.9797 11.6631V20.164C20.9581 20.293 21.0097 20.4233 21.1138 20.5026L22.2922 21.6596V21.9136H16.3646V21.6596L17.5854 20.4744C17.7054 20.3545 17.7054 20.3192 17.7054 20.1358V13.2645L14.3111 21.8854H13.8525L9.90073 13.2645V19.0423C9.86778 19.2852 9.94845 19.5298 10.1195 19.7055L11.7072 21.6314V21.8854H7.20508V21.6314L8.79283 19.7055C8.96261 19.5295 9.03858 19.2833 8.99747 19.0423V12.3615Z"
+                fill="#1D1D1D"></path>
+        </g>
+    </symbol>
+    <symbol id="commonIcons-sPinterest" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.5">
+            <path
+                d="M14.931 8.91457C11.103 8.91457 8 12.0176 8 15.8456C8 18.7836 9.828 21.2896 12.406 22.2986C12.347 21.7516 12.29 20.9076 12.431 20.3106C12.556 19.7696 13.244 16.8666 13.244 16.8666C13.244 16.8666 13.038 16.4506 13.038 15.8386C13.038 14.8756 13.597 14.1546 14.291 14.1546C14.882 14.1546 15.169 14.5986 15.169 15.1296C15.169 15.7236 14.791 16.6136 14.594 17.4356C14.428 18.1266 14.938 18.6886 15.619 18.6886C16.85 18.6886 17.797 17.3886 17.797 15.5136C17.797 13.8546 16.603 12.6946 14.903 12.6946C12.931 12.6946 11.775 14.1726 11.775 15.7036C11.775 16.3006 12.003 16.9376 12.291 17.2846C12.347 17.3536 12.357 17.4126 12.338 17.4846C12.285 17.7036 12.169 18.1756 12.144 18.2716C12.113 18.3996 12.044 18.4246 11.913 18.3656C11.047 17.9626 10.507 16.6966 10.507 15.6816C10.507 13.4936 12.094 11.4876 15.085 11.4876C17.488 11.4876 19.357 13.1996 19.357 15.4906C19.357 17.8786 17.851 19.8036 15.76 19.8036C15.057 19.8036 14.398 19.4376 14.172 19.0066C14.172 19.0066 13.825 20.3286 13.741 20.6536C13.585 21.2566 13.163 22.0096 12.879 22.4696C13.529 22.6696 14.216 22.7786 14.932 22.7786C18.76 22.7786 21.863 19.6756 21.863 15.8476C21.863 12.0166 18.76 8.91357 14.932 8.91357L14.931 8.91457Z"
+                fill="#1D1D1D"></path>
+        </g>
+    </symbol>
+    <symbol id="commonIcons-sProductHunt" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+        <path
+            d="M15 8a7 7 0 1 0 0 14 7 7 0 0 0 0-14Zm-2.333 3.495h3.208a2.625 2.625 0 0 1 0 5.25h-1.75V18.5h-1.458v-7.005Zm1.458 1.459v2.333h1.75a1.168 1.168 0 0 0 0-2.333h-1.75Z"
+            fill="#000" fill-opacity=".4"></path>
+    </symbol>
+    <symbol id="commonIcons-sTiktok" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+        <path
+            d="M20.727 8H9.273C8.57 8 8 8.57 8 9.273v11.454C8 21.43 8.57 22 9.273 22h11.454C21.43 22 22 21.43 22 20.727V9.273C22 8.57 21.43 8 20.727 8Zm-.834 6.029a2.718 2.718 0 0 1-2.524-1.216v4.185a3.093 3.093 0 1 1-3.094-3.094c.065 0 .128.006.191.01v1.524c-.063-.007-.125-.019-.19-.019a1.579 1.579 0 0 0 0 3.158c.872 0 1.642-.687 1.642-1.56l.015-7.107h1.457a2.716 2.716 0 0 0 2.503 2.425v1.694Z"
+            fill="#000" fill-opacity=".4"></path>
+    </symbol>
+    <symbol id="commonIcons-sTwitter" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.5">
+            <path
+                d="M23 10.4462C22.4018 10.714 21.7991 10.9125 21.1339 10.9771C21.7991 10.5801 22.3348 9.91073 22.5982 9.18133C21.933 9.57835 21.2679 9.8461 20.5357 9.97998C19.8661 9.31521 19 8.91357 18.067 8.91357C16.2679 8.91357 14.7991 10.3816 14.7991 12.182C14.7991 12.4452 14.7991 12.7129 14.8661 12.9161C11.4286 12.9161 9.07143 10.9125 7.47321 8.91357C7.13839 9.37984 7.00446 9.97998 7.00446 10.5801C7.00446 11.7112 7.60714 12.7129 8.47321 13.3131C7.9375 13.2484 7.40625 13.1146 7.00446 12.9161C7.00446 12.9161 7.00446 12.9161 7.00446 12.9807C7.00446 14.5826 8.13839 15.9122 9.60714 16.1799C9.33929 16.2445 9.07143 16.3138 8.73661 16.3138C8.54018 16.3138 8.33929 16.3138 8.13839 16.2492C8.54018 17.5833 10.4018 19.116 11.8661 19.116C10.7321 19.9793 9.67857 20.7318 7.57143 20.7318C7.30357 20.7318 7.51786 20.7318 7 20.7318C8.46429 21.6643 10.2009 21.9136 12 21.9136C18.067 21.9136 21.3348 16.9139 21.3348 12.5791C21.3348 12.4452 21.3348 12.3159 21.3348 12.182C22 11.7112 22.5357 11.1156 23 10.4462Z"
+                fill="#1D1D1D"></path>
+        </g>
+    </symbol>
+    <symbol id="commonIcons-sYoutube" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M15 8C12.424 8 9.08053 8.64543 9.08053 8.64543L9.07212 8.65505C7.89887 8.84269 7 9.85085 7 11.0769V14.7692V14.7704V18.4615V18.4627C7.00114 19.0483 7.211 19.6143 7.59188 20.059C7.97275 20.5038 8.49971 20.7982 9.07812 20.8894L9.08053 20.893C9.08053 20.893 12.424 21.5397 15 21.5397C17.576 21.5397 20.9195 20.893 20.9195 20.893L20.9207 20.8918C21.4997 20.8008 22.0273 20.5062 22.4084 20.0609C22.7896 19.6156 22.9994 19.0489 23 18.4627V18.4615V14.7704V14.7692V11.0769C22.9991 10.4912 22.7894 9.92489 22.4085 9.47988C22.0276 9.03487 21.5005 8.74028 20.9219 8.64904L20.9195 8.64543C20.9195 8.64543 17.576 8 15 8ZM13.1538 11.9375L18.0769 14.7692L13.1538 17.601V11.9375Z"
+            fill="black" fill-opacity="0.4"></path>
+    </symbol>
+</svg>
+
+<script
+    src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/jquery.min.js"></script>
+<script
+    src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/jquery.modal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.14.2/dist/algoliasearch-lite.umd.js"
+    integrity="sha256-dImjLPUsG/6p3+i7gVKBiDM8EemJAhQ0VvkRK2pVsQY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.49.1/dist/instantsearch.production.min.js"
+    integrity="sha256-3s8yn/IU/hV+UjoqczP+9xDS1VXIpMf3QYRUi9XoG0Y=" crossorigin="anonymous"></script>
+<script type="text/javascript"
+    src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/bootstrap/affix.min.js"></script>
+<script type="text/javascript"
+    src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
+<script type="text/javascript"
+    src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
+<script type="text/javascript"
+    src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/simplebar.min.js"></script>
+<script type="text/javascript"
+    src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/scripts.js"></script>
+<script type="text/javascript"
+    src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/search-modal.js"></script>
