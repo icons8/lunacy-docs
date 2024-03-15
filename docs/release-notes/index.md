@@ -52,7 +52,7 @@ page_nav:
 
 ### FREE format
 
-The default format for saving files in Lunacy is now `.free`, which is almost fully compatible with the features from the Figma and Sketch formats. We designed `.free` to address the issues available in `.sketch` when it comes to very large design files.
+The default file format in Lunacy is now `.free`, which is almost fully compatible with the features from the Figma and Sketch formats. We designed `.free` to address the issues available in `.sketch` when it comes to very large design files.
 
 From the users' point of view `.free` brings:
 
@@ -73,7 +73,7 @@ Key advantages of `.free`:
 
 #### Does Lunacy still work with Sketch?
 
-Yes, Lunacy still supports `.sketch` like no other app, except Sketch itself. But for better experience with Lunacy, we recommend you using `.free`.
+Yes, Lunacy still supports `.sketch` like no other app, except Sketch itself. But for better experience with Lunacy, we recommend using `.free`.
 
 
 #### Can I convert `.free` to `.sketch` or vice versa?
