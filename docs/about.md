@@ -85,9 +85,9 @@ If you have experience with Sketch or Figma, you'll feel right at home in Lunacy
 
 #### Full support for Sketch files and Figma import
 
-No need to buy a Mac and/or Sketch license: Lunacy works natively with the Sketch format. 
+The default file format in Lunacy is [.free](https://github.com/icons8/free).
 
-You can open, edit, and save them back into the `.sketch` format seamlessly. Lunacy can handle both the dusty kits from Sketchappsources and the latest versions of Sketch files.
+However, Lunacy works natively with .sketch files. You can open, edit, and save them back into the `.sketch` format seamlessly. Lunacy can handle both the dusty kits from Sketchappsources and the latest versions of .sketch files.
 
 If you need to continue working on designs you made in Figma, <a href="https://lunacy.docs.icons8.com/interface/#importing-documents" target="_blank">import them</a> is as easy as copying the file link, then pressing `Ctrl + V` in Lunacy.
 
