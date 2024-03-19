@@ -40,15 +40,13 @@ page_nav:
 
 # Version 9
 
-<!--
-
 ## 9.5.0
 
 *Release date: March XX, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.4.2.5022.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.deb)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.5.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.deb)
 
 ### FREE format
 
@@ -80,16 +78,14 @@ Yes, Lunacy still supports `.sketch` like no other app, except Sketch itself. Bu
 
 Yes. You can easily convert between the formats using the **Save as** option.
 
--->
-
 
 ## 9.4.2
 
 *Release date: February 08, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.4.2.5022.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.deb)
+* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.4.2.5022.exe)
+* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.dmg)
+* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.deb)
 
 Fixed the bug with the minimum macOS version requirement of 14.0. Now Lunacy runs flawlessly on macOS 11 and higher.
 
