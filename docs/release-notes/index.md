@@ -40,6 +40,72 @@ page_nav:
 
 # Version 9
 
+<!--
+## 9.6.0
+
+*Release date: April XX, 2024*
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.5.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.deb)
+
+### Get your own Lunacy Cloud
+
+For design teams who want to be sure about the safety of their data, Lunacy now offers two options: **Private Cloud** and **Virtual Private Server** (VPS).
+
+#### Private Cloud
+
+For companies with a strong focus on security. 
+
+**How it works**:
+
+* You deploy your personal Lunacy Cloud on a dedicated server within your corporate network.
+* You configure the teams and control who can edit or view certain documents.
+* You take full care of the server and backups.
+* Your administrator installs the updates after all the required checks.
+
+**What you get**:
+
+* Total control over your design cloud.
+* Happy design and other teams enjoying the perks that cloud collaboration brings.
+* Happy security department since no data gets outside.
+
+#### Virtual Private Server
+
+This is for the teams that don’t feel like sharing a common cloud with the rest of the world but aren't quite ready to manage their own servers. 
+
+**How it works**:
+
+* Our engineers deploy, configure, and update a copy of Lunacy Cloud for you on a virtual private server in any region or jurisdiction.
+* You configure the teams and control who can edit or view certain documents.
+* You make backups of your documents or delegate it to our engineers.
+* Our engineers assist you with any technical matters as needed.
+* Unlike users of privately hosted clouds, you can keep using built-in graphics and Lunacy’s AI tools.
+
+**What you get**:
+
+* Efficient design team working in a modern collaborative design editor.
+* Peace of mind about the security of your design data.
+* Confidence in the health and reliability of your design cloud.
+
+Both solutions, Private Cloud and VPS, come with 24/7 priority support, a personal account manager, and priority feature requests. 
+
+For more information, [contact us](https://icons-8.typeform.com/LunacyPrivacy).
+
+
+### Improvements
+
+* Huge rework of the font subsystem — improved performance and bug fixes.
+* Huge rework of color variables — improved performance and bug fixes.
+
+
+### Bug fixes
+
+* Some fixes for bugs found in autolayout.
+* Several critical fixes for the free format.
+
+-->
+
 ## 9.5.0
 
 *Release date: March 19, 2024*
