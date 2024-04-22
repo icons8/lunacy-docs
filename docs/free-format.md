@@ -21,8 +21,6 @@ page_nav:
     
 ---
 
-## Free Format
-
 FREE is an open source format for vector graphic files designed to be compact, human-readable, back-compatible, and optimized for multithreaded parsing.
 
 A FREE file is a ZIP archive with the following structure:
