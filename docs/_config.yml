@@ -51,7 +51,7 @@ doks:
       url: '/localization'
     - title: 'Plans and pricing'
       url: '/subscriptions'
-    - title: 'FAQs'
+    - title: 'FAQ'
       url: '/faq'
     - title: 'Troubleshooting'
       url: '/troubleshooting'
@@ -59,6 +59,8 @@ doks:
       url: '/contact'
     - title: 'Release History'
       url: '/release-notes'
+    - title: 'Free format'
+      url: '/free-format'
       
 
     header:

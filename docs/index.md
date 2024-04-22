@@ -125,5 +125,9 @@ grid_navigation:
       excerpt: 'New features and fixes for each version of Lunacy'
       url: '/release-notes'
       icon: 'activity-history'
+    - title: 'Free format'
+      excerpt: 'Details of the .free format for developers'
+      url: '/free-format'
+      icon: 'file'
  
 ---
