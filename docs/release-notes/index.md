@@ -42,14 +42,14 @@ page_nav:
 
 # Version 9
 
-<!--
+
 ## 9.6.0
 
 *Release date: April XX, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.5.0.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.deb)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.0.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.0.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.0.deb)
 
 ### Get your own Lunacy Cloud
 
@@ -106,15 +106,14 @@ For more information, [contact us](https://icons-8.typeform.com/LunacyPrivacy).
 * Some fixes for bugs found in autolayout.
 * Several critical fixes for the free format.
 
--->
 
 ## 9.5.0
 
 *Release date: March 19, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.5.0.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.deb)
+* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.5.0.exe)
+* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.dmg)
+* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.deb)
 
 ### FREE format
 
