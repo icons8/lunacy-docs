@@ -45,7 +45,7 @@ page_nav:
 
 ## 9.6.0
 
-*Release date: April XX, 2024*
+*Release date: April 26, 2024*
 
 * <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.0.exe)
 * <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.0.dmg)
