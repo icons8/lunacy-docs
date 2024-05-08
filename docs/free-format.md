@@ -338,11 +338,10 @@ Has all properties of [`Frame`](#Frame), plus:
 * Predefined: [bool](#bool) = `False` - indicates that the component belongs to the Lunacy default component library (see the Component Tool on the Toolbar)
 * ComponentType: [ComponentType](#ComponentType) = `None` - reserved for future use. Will be used for component filters.
 
-<details>
-<summary>Sketch compatibility</summary>
+**Sketch compatibility**
 
 * BackgroundInInstance: [bool](#bool) = `False` - defines whether to include background in component instances.
-</details>
+
 
 ### <a name="Oval"></a>Oval
 An oval is a shape drawn on the canvas with the Oval tool.
@@ -386,11 +385,11 @@ Has all properties of [`Path`](#Path), plus:
 
 * _t: [string](#string) = `TRIANGLE`
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * Equilateral: [bool](#bool) = `False` - if the triangle is equilateral.
-</details>
+
 
 ### <a name="Frame"></a>Frame
 A frame is a special type of layers that serves as a container for other layers or layer groups. Frames are a must for prototypes.
@@ -408,8 +407,8 @@ Has all properties of [`Styled`](#Styled), plus:
 * Rulers: [Rulers](#Rulers) - rulers and guidelines info.
 * Layers: [Layer[]](#Layer) - list of layers on the frame.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * OverlayStyle: [Style](#Style) - style settings for the frame if it acts as an overlay in Sketch prototyping.
 * GroupLayout: [SketchGroupLayout](#SketchGroupLayout) - sketch Layout settings. Not supported in Lunacy, but keeping data for compatibility.
@@ -420,7 +419,7 @@ Has all properties of [`Styled`](#Styled), plus:
 * Background: [Color](#Color) = `ffffffff` - defines the frame background color.
 * BackgroundId: [GUID](#GUID) - defines the background color variable ID.
 * OverlaySettings: [OverlaySettings](#OverlaySettings) - sketch prototyping overlay feature settings.
-</details>
+
 
 ### <a name="Group"></a>Group
 A layer group is two or more layers unified into a single entity that can be manipulated, organized, and treated as a single layer.
@@ -431,12 +430,12 @@ Has all properties of [`Styled`](#Styled), plus:
 * SkipSelect: [bool](#bool) = `False` - when enabled, users can select group items without first selecting the group.
 * Layers: [Layer[]](#Layer) - list of layers within the group.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * SkipConstraints: [bool](#bool) = `False` - serves for constraints compatibility with Sketch. If the file is imported from the Sketch format, the parameter should be set to false to handle constraints properly.
 * GroupLayout: [SketchGroupLayout](#SketchGroupLayout) - sketch group layout. We don't support it but keep it for compatibility
-</details>
+
 
 ### <a name="Instance"></a>Instance
 An instance is a copy of the main component. With instances, you can reuse the same design element in multiple places in your project while retaining a connection to the main component.
@@ -450,12 +449,12 @@ Has all properties of [`Styled`](#Styled), plus:
 * ComponentId: [GUID](#GUID) - unique component identifier.
 * Overrides: [Override[]](#Override) - defines the overrides applied to the instance.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * VerticalSpacing: [float](#float) = `0` - defines vertical spacing.
 * HorizontalSpacing: [float](#float) = `0` - defines horizontal spacing.
-</details>
+
 
 ### <a name="Path"></a>Path
 A vector path determines the outline and form of a vector object. A path is made up of points and segments.
@@ -475,12 +474,12 @@ Has all properties of [`Styled`](#Styled), plus:
 * _t: [string](#string) = `SHAPE`
 * Layers: [Layer[]](#Layer) - list of layers.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * SkipConstraints: [bool](#bool) = `False` - serves for constraints compatibility with Sketch. If the file is imported from the Sketch format, the parameter should be set to false to handle constraints properly.
 * GroupLayout: [SketchGroupLayout](#SketchGroupLayout) - sketch group layout. We don't support it, but keep it for compatibility.
-</details>
+
 
 ### <a name="Text"></a>Text
 Text is a block or line of text on the canvas.
@@ -494,11 +493,11 @@ Has all properties of [`Styled`](#Styled), plus:
 * Behavior: [TextBehavior](#TextBehavior) = `Flexible` - behavior of the text layer size on text value change: flexible, fixed-width, or fixed.
 * ClipContent: [bool](#bool) = `True` - valid for files imported from Figma. Defines whether to truncate text content.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * DrawOnPath: [bool](#bool) = `False` - this property enabled drawing text on path in Sketch.
-</details>
+
 
 ### <a name="Hotspot"></a>Hotspot
 A hotspot is a special type of layers used to define clickable areas on prototypes.
@@ -564,8 +563,8 @@ A layer is any ungrouped element available on the canvas.
 * LayoutGrowStretch: [bool](#bool) = `False` - determines whether a layer should stretch along the parent’s primary axis (auto layout).
 * LayoutFixPos: [bool](#bool) = `False` - enables absolute position for the layer (auto layout).
 
-<details>
-<summary>Lunacy specific</summary>
+
+**Lunacy specific**
 
 * PhotoId: [string](#string) - identifier of a photo from the Lunacy gallery.
 * IllustrationId: [string](#string) - identifier of an illustraion from the Lunacy gallery.
@@ -574,7 +573,7 @@ A layer is any ungrouped element available on the canvas.
 * Data: [DataInfo](#DataInfo) - information about auto generated texts.
 * Upscaled: [bool](#bool) = `False` - if the image has been upscaled in Lunacy.
 * BackgroundRemove: [BackgroundRemovalState](#BackgroundRemovalState) = `None` - background removal procedure info.
-</details>
+
 
 ### <a name="Border"></a>Border
 Defines the appearance of borders.
@@ -609,12 +608,12 @@ Defines the settings of the blur effect.
 * Enabled: [bool](#bool) = `False` - if the blur is enabled.
 * Type: [BlurType](#BlurType) = `Gaussian` - sets the blur type.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * Center: [Point](#Point) = `[0,5,0,5]` - center point of motion blur.
 * MotionAngle: [float](#float) = `0` - angle of motion for motion blur.
-</details>
+
 
 ### <a name="BorderOptions"></a>BorderOptions
 Defines the advanced options of borders, arrows, lines, and paths drawn with the Pen or Pencil tools.
@@ -664,11 +663,11 @@ The document's .json structure.
 * Styles: [SharedStyle[]](#SharedStyle) - styles stored in the document.
 * Pages: [GUID[]](#GUID) - list of document pages.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * ColorSpace: [ColorSpace](#ColorSpace) = `Unmanaged` - сolor scheme the document uses.
-</details>
+
 
 ### <a name="ExportOption"></a>ExportOption
 Export settings.
@@ -708,12 +707,12 @@ Describes color variables from external libraries.
 * LibraryName: [string](#string) - library name.
 * Color: [ColorVariable](#ColorVariable) - value of the color variable.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * ComponentPrivate: [bool](#bool) = `False` - a Sketch flag for private shared color variables.
 * RemoteId: [GUID](#GUID) - color variable ID in the external library.
-</details>
+
 
 ### <a name="ForeignComponent"></a>ForeignComponent
 Describes color components from external libraries.
@@ -724,11 +723,11 @@ Describes color components from external libraries.
 * Original: [Component](#Component) - original state of the component upon import.
 * Component: [Component](#Component) - current state of the component.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * ComponentPrivate: [bool](#bool) = `False` - a Sketch flag for private shared components.
-</details>
+
 
 ### <a name="ForeignSharedStyle"></a>ForeignSharedStyle
 Describes styles from external libraries.
@@ -738,11 +737,11 @@ Describes styles from external libraries.
 * LibraryName: [string](#string) - library name.
 * RemoteID: [GUID](#GUID) - style identifier in the external library.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * ComponentPrivate: [bool](#bool) = `False` - a Sketch flag for private shared styles.
-</details>
+
 
 ### <a name="Gradient"></a>Gradient
 An object that represents a gradient.
@@ -772,11 +771,11 @@ Defines square grid settings for a frame.
 * Color: [Color](#Color) = `00000000` - grid color.
 * Size: [int](#int) = `10` - size of grid cells.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * ThickTimes: [int](#int) = `10` - every N line should be thick.
-</details>
+
 
 ### <a name="ImageFilters"></a>ImageFilters
 Defines filters that can be applied to images.
@@ -853,13 +852,13 @@ Defines overrides for components.
 * Wrap: [bool?](#bool) - if wrapping is enabled.
 * WrapDistribute: [bool?](#bool) - if auto distribute is enabled for wrapped content.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * LegacyColor: [ColorOverride](#ColorOverride) - color override.
 * LegacyTextColor: [TextColorOverride](#TextColorOverride) - text color override.
 * LegacyTextWeight: [TextWeightOverride](#TextWeightOverride) - text weight override.
-</details>
+
 
 ### <a name="Page"></a>Page
 Document page properties.
@@ -907,11 +906,11 @@ An object containing ruler origins and guideline positions.
 * Guides: [int[]](#int) - positions of vertical guidelines on the Horizontal Ruler.
 * VGuides: [int[]](#int) - positions of horizontal guidelines on the Vertical Ruler.
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * Origin: [Point](#Point) = `[0,0]` - ruler origin. Not supported in Lunacy. Sketch Compatibility
-</details>
+
 
 ### <a name="ShadowEffect"></a>ShadowEffect
 Defines the shadow options.
@@ -1350,13 +1349,13 @@ Defines vertex flags.
 * `4` HasCurveFrom
 * `8` HasCurveTo
 
-<details>
-<summary>Sketch compatibility</summary>
+
+**Sketch compatibility**
 
 * `16` RoundedInverted
 * `32` Angled
 * `48` Squared
-</details>
+
 
 ### <a name="VerticalAlignment"></a>VerticalAlignment Enum
 Defines how a set of layers is aligned vertically.
