@@ -46,14 +46,15 @@ page_nav:
 
 *Release date: May 27, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.1.exe) - windows installers are temporarily missing a code sign certificate.
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.1.exe) - Windows installers are temporarily missing a code sign certificate. This may lead to security warnings during installation. We are working to resolve this issue as soon as possible.
 * <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.1.dmg)
 * <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.1.deb)
 
 ### Improvements
- - Insert Text into Shape feature was super annoying, so now it has a new dedicated shortcut Shift+T.
- - All right panel inspectors now with a fixed width.
- - Figma import now handles new urls.
+
+ - To enhance user experience, the shortcut for the Insert Text into Shape feature is now `Shift+T` .
+ - All right panel inspectors now have the same width for a more consistent interface.
+ - Improved Figma import to handle the latest URL format.
 
 
 ## 9.6.0
