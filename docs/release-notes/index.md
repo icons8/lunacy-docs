@@ -52,7 +52,7 @@ page_nav:
 
 ### Improvements
 
- - To enhance user experience, the shortcut for the Insert Text into Shape feature is now `Shift+T` .
+ - To enhance user experience, the shortcut for the Insert Text into Shape feature is now `Shift+T`.
  - All right panel inspectors now have the same width for a more consistent interface.
  - Improved Figma import to handle the latest URL format.
 
