@@ -42,14 +42,27 @@ page_nav:
 
 # Version 9
 
+## 9.6.1
+
+*Release date: May 27, 2024*
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.1.exe) - windows installers are temporarily missing a code sign certificate.
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.1.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.1.deb)
+
+### Improvements
+ - Insert Text into Shape feature was super annoying, so now it has a new dedicated shortcut Shift+T.
+ - All right panel inspectors now with a fixed width.
+ - Figma import now handles new urls.
+
 
 ## 9.6.0
 
 *Release date: April 26, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.0.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.0.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.0.deb)
+* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.0.exe)
+* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.0.dmg)
+* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.0.deb)
 
 ### Get your own Lunacy Cloud
 
