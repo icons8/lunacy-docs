@@ -34,7 +34,7 @@ release_note:
 page_nav:
     next:
         content: Free format
-        url: '/free_format
+        url: '/free-format'
     prev:
         content: FAQ and Contacts
         url: '/support'
