@@ -12,7 +12,7 @@ icon: 'activity-history'
 # Micro navigation
 left_menu_off: false
 release_note:
-    - title: Version 9
+    - title: Release History
       url: 'version-9'
     - title: Version 8
       url: 'version-8'
