@@ -71,7 +71,7 @@ You can now play prototypes directly on the canvas. Press `G` or click ![play](/
 
 If you're working on a cloud document, you can now copy a link to its prototype in the **Share** panel and share it with your client or teammate.
 
-<div class="callout callout--warning">
+<div class="callout callout--info">
     <p><strong>Note:</strong> Actually, this is a teaser of the Lunacy web version. The full web version is coming soon.</p>
 </div>
 
