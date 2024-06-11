@@ -65,7 +65,7 @@ We redesigned the left sidebar to give you more space on the canvas:
 
 #### In-app prototype player
 
-You can now play prototypes directly on the canvas. Press `G` or click ![play](/public/playbtn.png) on the toolbar. In the prototype mode, you can also make tweaks to the design on the fly.
+You can now play prototypes directly on the canvas. Press `G` or click ![play](/public/playbtnblue.png) on the toolbar. In the prototype mode, you can also make tweaks to the design on the fly.
 
 #### Web prototype player
 
