@@ -12,7 +12,9 @@ icon: 'activity-history'
 # Micro navigation
 left_menu_off: false
 release_note:
-    - title: Release History
+    - title: Version 10 Beta
+      url: 'version-10-beta'
+    - title: Version 9
       url: 'version-9'
     - title: Version 8
       url: 'version-8'
@@ -39,6 +41,67 @@ page_nav:
         content: FAQ and Contacts
         url: '/support'
 ---
+
+# Version 10 Beta
+
+## 10.0 Beta
+
+To install the Beta version:
+
+1. In Lunacy, go to **Help** > **About**.
+2. In the displayed window, select the **Check for Beta Udates** checkbox.
+3. Click **Downlad**, then click **Install**.
+
+
+### New features
+
+#### Redesigned left panel
+
+We redesigned the left sidebar to give you more space on the canvas:
+
+* Adjustable panel
+* Vertical toolbar is back
+* New stylish icons for the content tabs
+
+#### In-app prototype player
+
+You can now play prototypes directly on the canvas. Press G or click ![play](/public/playbtn.png) on the toolbar. In the prototype mode, you can also make tweaks to the design on the fly.
+
+#### Web prototype player
+
+If you're working on a cloud document, you can now copy a link to its prototype in the **Share** panel and share it with your client or teammate.
+
+<!--<div class="callout callout--warning">
+    <p><strong>Note:</strong> Actually, this is a teaser of the Lunacy web version. The full web version is coming soon.</p>
+</div>-->
+
+#### Rotate Copies tool
+
+With this tool, you can now create multiple rotated copies of any shape around a central point. Perfect for designing patterns, circular layouts, and symmetrical artwork.
+
+#### Shared libraries
+
+If you're working on a cloud document, you can now connect another Lunacy cloud document to it and use its styles and components as a UI kit. The UI kits that were available in the previous versions are deprecated.
+
+
+### Improvements
+
+* Reworked SVG import and export.
+* New export option: **Export Text as Path**. The option is enabled by default. Disable it to prevent converting text to paths during SVG export.
+* You can now edit x/y positions of control points in the Path Editor.
+* Improved corner radius logic for complex paths.
+* A series of improvements to eliminate issues with undo operations in some cases could not be restored after restarting the app.
+* You can now set percentage values in numeric fields (e.g., 50%, 25%, or even 50%+25).
+* Removed numerical naming for layers in the tree. No more “Group Copy 12 Copy 25345.”
+* The **Invert zoom** option for the scroll wheel is now available in the **View** menu.
+* A double click over a corner radius handle now sets the radius of the shape corners to the value set by the **Big nudge** parameter. `Alt`+`double click` will change the radius of this corner only. `Shift `+`double click` will set the corner radius to the latest value you applied.
+* You can now double-click over a rotation handle to turn a layer 90  degrees clockwise.
+* You can now reorder grid layouts by dragging their settings up and down in the right panel.
+* Improvements to address issues where undo operations were sometimes not restored after restarting the app.
+
+### Bug fixes
+
+* Over 400 bugs fixed.
 
 # Version 9
 
