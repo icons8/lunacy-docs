@@ -50,12 +50,12 @@ To install the Beta version:
 
 1. In Lunacy, go to **Help** > **About**.
 2. In the displayed window, select the **Check for Beta Udates** checkbox.
-3. Click **Downlad**, then click **Install**.
+3. Click **Download**, then click **Install**.
 
 
 ### New features
 
-#### Redesigned left panel
+#### Redesigned left sidebar
 
 We redesigned the left sidebar to give you more space on the canvas:
 
