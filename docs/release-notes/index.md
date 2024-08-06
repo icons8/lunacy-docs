@@ -63,6 +63,8 @@ We redesigned the left sidebar to give you more space on the canvas:
 * Vertical toolbar is back
 * New stylish icons for the content tabs
 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/rnv10_interfaceph.png" height="auto"><source src="/public/rnv10_interface.mp4" type="video/mp4"></video>
+
 #### In-app prototype player
 
 You can now play prototypes directly on the canvas. Press `G` or click ![play](/public/playbtnblue.png) on the toolbar. In the prototype mode, you can also make tweaks to the design on the fly.

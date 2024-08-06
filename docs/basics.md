@@ -61,13 +61,49 @@ Press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icon
 
 You can also set the canvas color opacity to 0 so it becomes transparent. You'll see a checkerboard pattern instead of a fill.
 
-## [Right panel properties](#right-panel-properties)
+## [Layer list](#layer-list)
 
-There are three tabs at the top of the right panel: **Design**, **Export**, and **Code**. 
+Open the **Layer list** by clicking on the **Layers** content tab. It will display the layers on the current page:
 
-The **Design** tab is the one you'll interact with the most when working on your designs.
+<embed type="image/svg+xml" alt="layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PuPEDNTYvEKC5atXX-ylxQ.svg" width="844" /> 
 
-The set of controls and settings it displays depends on the type of the selected layer. These properties are universal for almost all layer types:
+Press <embed type="image/svg+xml" alt="smart_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/3uDOUlA760igh6dc4pOLLg.svg" width=16 /> to toggle the **Smart Layer list**, which displays only the layers you currently see on the canvas. It's convenient when you want to see only the layers you're working on in the Layer list.
+
+Lunacy automatically assigns names to new layers and layer groups. You can always rename them if you like. 
+
+If a layer name doesn't fit in the Layer list, you can change the width of the panel this way:
+
+<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/resize_layer_list.png" height="auto"><source src="/public/resize_layer_list.mp4" type="video/mp4"></video>
+
+Using the Layer list, you can:
+
+|   Action    | Description |
+|---------------------------------------|------------------|
+|   Select layers      |    To select a layer or layer group, click its name in the Layer list. A selection frame will appear around the layer. To select multiple items hold down the `Ctrl` / `⌘` or `Shift` keys and click on the layers.    |
+|   Search for layers                                 |    To locate a layer, start typing its name in the search field above the Layer list.    |
+|   Arrange layers                |     Change the order of the layers in the list by dragging them up or down. Organize layers as you see fit and position them in the order you want them to be stacked if they're overlapping on the canvas. |
+|  Hide layers                    |   To hide layers, layer groups, or individual items inside layer groups, select a layer and click the eye icon next to its name. You can also hide layers by using the `Ctrl + H` / `⌘ + H` shortcut or the corresponding option on the context menu.     |
+|    Lock layers            |     Lock layers, grouped layers, or individual layers within a group to protect them from accidental edits. To do this, select a layer in the Layer list and click the lock icon, press `Ctrl + L` / `⌘ + L`, or use the corresponding option on the context menu. To select locked layers and edit their properties in the right panel, right-click them on the canvas or select them in the Layer list. |
+
+Other basic operations with layers are available on the <a href="https://lunacy.docs.icons8.com/basics/#the-context-menu" target="_blank">context menu</a>.
+
+#### Useful tips
+
+To **collapse all layers** in the Layer list, press `Ctrl + ~` / `⌘ + ~`.
+
+To quickly **move to a specific layer** in large projects: 
+1. Find it by typing its name in the search field.
+2. Select it in the Layer list.
+3. Press <code>Ctrl + 2</code> / <code>⌘ + 2</code> or double-click the icon in front of the layer name to use the <a href="https://lunacy.docs.icons8.com/tips/#zoom-to-selection" target="_blank">zoom to selection</a> feature.
+
+<p>Find out about <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">more useful tips and tricks</a>.</p>
+
+## [Right panel](#right-panel)
+
+There are two tabs at the top of the right panel: **Design** and **Export**. 
+
+### Design tab
+The **Design** tab is the one you'll interact with the most when working on your designs. The set of controls and settings it displays depends on the type of the selected layer. These properties are universal for almost all layer types:
 
 | Right panel properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |   
 |---------------------------------------------------|-------------------------------------------------------|
@@ -83,12 +119,13 @@ The set of controls and settings it displays depends on the type of the selected
 |  <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NJc1I6eaxk21Auc91YH7XA.svg" width="500" />   |   **Prototyping.**   Activate prototyping options and turn your static designs into interactive prototypes. Here's <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">how it works</a>. |
 | <embed type="image/svg+xml" alt="selection_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/-zycpFIau0603lT5epFZFQ.svg" width="500" />  |     **Selection properties.**  Shows the colors and fonts used in selected layers. |
 
+### Export tab
 
-Click on the **Export** tab to open up export settings for your entire project or click individual/multiple layers to export just them.  Read in detail about <a href="https://lunacy.docs.icons8.com/export_new/#export-settings" target="_blank">export settings</a>. 
+Click on the **Export** tab to open up export settings for your entire project or select individual/multiple layers to export just them.  Read in detail about <a href="https://lunacy.docs.icons8.com/export_new/#export-settings" target="_blank">export settings</a>. 
 
-You can also use the **Linked Design** option to include embed links to Lunacy layers directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">in this section</a>.
+Use the **Linked Design** option to include embed links to your designs directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/linked_design/" target="_blank">in this section</a>.
 
-The **Code** tab <a href="https://lunacy.docs.icons8.com/export/#code-preview-and-linked-design" target="_blank">displays the code corresponding</a> to your layers.
+Also, on the **Export** tab, you can see the <a href="https://lunacy.docs.icons8.com/export/#code-preview-and-linked-design" target="_blank">displays the code corresponding</a> to selected layers.
 
 #### Right panel properties with no selected layers
 
@@ -321,6 +358,44 @@ These context menu options are universal for almost all layer types:
 <div class="callout callout--info">
     <p><strong>Note:</strong> When you right-click on an empty area on the canvas or a frame, the only command available on the context menu is <b>Paste here</b>. </p>
 </div>
+
+
+## Document pages
+
+There can be any number of **pages** in a document. 
+
+You can keep all your work on a single page or split it between several pages. For instance, when designing a website, you can keep the desktop and mobile versions on separate pages. 
+
+Additionally, you can duplicate a page to save a version of your current design and experiment with the copy. It's completely up to you to decide which approach to choose. 
+
+Here's what the **Page list** looks like: 
+
+<embed type="image/svg+xml" alt="page_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TgMw_XxCa025DzYKz7eF5Q.svg" width="844" /> 
+
+It shows up above the **Layer list** when the **Layers** content tab is selected.
+
+Use the Page list to:
+
+* Add pages
+* Rename pages
+* Change the order of the pages
+* Duplicate pages (with their content)
+* Copy and paste pages into other documents
+* Delete pages
+
+To **add a new page** to the document:
+
+1. Click the `+` icon above the Layer list.
+2. Name the new page.
+3. Press `Enter`.
+
+To **change the position of a page** in the list, simply drag it to where you want it to be.
+
+The rest of the actions are accessible through the **context menu**, which you can access by right-clicking a page name.
+
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/page_add_rename.png" height="auto"><source src="/page_add_rename.mp4" type="video/mp4"></video>
+
+There is also a special type of page — the **Components** page. It stores the reusable <a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>. you can create in your designs.
 
 ## Advanced privacy settings 
 

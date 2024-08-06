@@ -22,84 +22,52 @@ page_nav:
         url: '/sysreq'
 ---
 
-Lunacy's interface is intuitive and minimal. It won't take long for you to learn how to interact with it.
+Get acquainted with the Lunacy's interface so you can get started with your designs right away. In this section, you will learn about the basic elements of the [main view](#main-view) and how to manage your documents, account, and subscriptions in the [Home tab](#home-tab).
 
-This section is a brief overview of the app's interface. Get acquainted with the basics so you can get started with your designs right away.
-
-## Overview
+## Main view
 
 These are the main elements of the interface:
 
 <embed type="image/svg+xml" alt="interface_overview" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/1jBfi42THUuARoHsnZnpLQ.svg" width="844" /> 
 
-#### Сontent tabs
-<br>
-Use them to switch between:
+* **Сontent tabs**. Use them to switch between:
 
-* The Layer list
-* Document assets (<a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">styles</a>)
-* Built-in <a href="https://lunacy.docs.icons8.com/libraries/" target="_blank">libraries</a> of icons, photos, illustrations, as well as <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> and <a href="https://lunacy.docs.icons8.com/plugins" target="_blank">plugins</a>
-* The list of <a href="https://lunacy.docs.icons8.com/shortcuts" target="_blank">shortcuts</a>
+  * The Layer list
+  * Document assets (<a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>, layer and text <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">styles</a>)
+  * Built-in collections of icons, photos, illustrations
+* **Left panel**. Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ...  `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View → Left Panel** in the menu bar.
+* **Toolbar**. Features all the primary design tools you'll need. Read more <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">about each tool</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View → Toolbar**) in the menu bar.
+* **Canvas**. This is your working area. Read in detail about <a href="https://lunacy.docs.icons8.com/basics/#working-with-the-canvas" target="_blank">working with the canvas</a>.
+* **Right panel**. This panel lets you see and adjust the properties of the selected layer. The view of the right panel varies depends on the layer type. Here you can also choose frame presets, choose color palettes, read comments and export your designs. Read more about <a href="https://lunacy.docs.icons8.com/basics/#right-panel" target="_blank">working with the right panel</a>. 
+* **Menu bar**. Displays the options and commands related to files, layers, editing, etc. It also features the <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> button, which opens up the [Home tab](#home-tab).
+* **Context toolbar**. The set of controls displayed on the context toolbar depends on the type of the currently selected layer. Hover the cursor over a tool icon to see a pop-up explaining what it does.
+* **Document tabs**. The tabs of currently open files are displayed on the right of the Home button. Click on the tabs to switch between documents or press `Ctrl + Tab` / `⌘ + Tab` and `Ctrl + Shift + Tab` / `⌘ + Shift + Tab`.
+* **Play button**. Starts the prototype previewer. Read more about <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">prototyping in Lunacy</a>.
+* **Zoom control**. Use it to adjust the zoom value. Read in more detail <a href="https://lunacy.docs.icons8.com/basics/#zooming-options" target="_blank">about zooming options</a>.
+* **Theme switch**. Use it to switch between the light and dark themes.
+* **Additional options**. This button opens up a menu with these options:
 
-Shrink the width of the **Content tabs** panel by dragging its border to the left:
+  | Button | Description | Windows and Linux Shortcut / Menu Option  |  MacOS Shortcut / Menu Option |
+  |---|---|---|---|
+  | <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bkTBcjYY-kyIXxUN9M74Bg.svg" width="24" />  | The **Show/Hide rulers** button toggles <a href="https://lunacy.docs.icons8.com/basics/#rulers-and-guides" target="_blank">rulers</a> on and off. | `Ctrl + R`  | `⌘ + R` |
+  | <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="24" />  | The **Show grid** button enables the display of the <a href="https://lunacy.docs.icons8.com/basics/#square-grid" target="_blank">square grid</a>. | `Ctrl + '` | `⌘ + '` |
+  | <embed type="image/svg+xml" alt="layout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/i0isEF3sxUyjktCmMDT4Jw.svg" width="24" />  | The **Layout grid** button controls the display of the <a href="https://lunacy.docs.icons8.com/basics/#layout-grid" target="_blank">layout grid</a> and is available only when there is a frame on the canvas. | `Ctrl + \`  | `⌘ + \` |
+  | <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eutHauiFwUuQ4jRcv6LFVQ.svg" width="24" /> | The **Show prototyping** button controls the display of hotspots and <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">prototyping</a> arrows. | **View → Prototyping**   |
+  | <embed type="image/svg+xml" alt="slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5tkaoATGgUK2NjnzbPlsTg.svg" width="24" /> | With the <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slice</a> tool, you can to select a specific area on your design and export it.| **View → Slices**  |
+  | <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The **Pixels on Zoom** option shows pixels when the zoom value exceeds 100. | **View → Pixels on Zoom** |
+  | <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the [right panel](#the-right-panel) on and off. | `-` |
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/show_hide_content_tabs.png" height="auto"><source src="/public/show_hide_content_tabs.mp4" type="video/mp4"></video>
-    
-#### The left panel
-<br>
-Displays the contents of the selected tab. Toggle the display of the panel on and off by pressing the shortcut corresponding to each of the 7 tabs: `Alt + 1` / `⌥ + 1` ...  `Alt + 7` / `⌥ + 7`. You can also use `Shift + F1` or **View → Left Panel** in the menu bar.
 
-#### The toolbar
-<br>
-Features all the primary design tools you'll need. Read more <a href="https://lunacy.docs.icons8.com/tools/" target="_blank">about each tool</a>. If you need more space or prefer to use shortcuts, you can hide the toolbar by clicking (**View → Toolbar**) in the menu bar.
+### Adjusting Lunacy's interface
 
-#### The canvas
-<br>
-This is your working area. Read in detail about <a href="https://lunacy.docs.icons8.com/basics/#working-with-the-canvas" target="_blank">working with the canvas</a>.
+If you need more space, you can adjust the size of the panels or hide the interface elements that you don't need through the **View** menu:
 
-#### The right panel
-<br>
-This panel lets you see and adjust the properties of the selected layer. The view of the right panel varies depends on the layer type. 
+- **Minimize the left panel** by clicking on the active content tab.
+- **Hide the toolbar, right panel, rulers** and any other UI elements by disabling them in the **View** section on the **menu bar.**
+- **Hide all UI elements** (except for the menu bar) by pressing `Ctrl + .` / `⌘ + .`. This activates **Presentation mode**, useful for showcasing your designs with no distractions from the interface.
 
-#### The menu bar
-<br>
-Displays the options and commands related to files, layers, editing, etc. It also features the <embed type="image/svg+xml" alt="home" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/U0XDSMpAf0a3pPx08RsYUA.svg" width="16" /> button, which opens up the [Home tab](#home-tab).
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/adjusting_interfaceph.png" height="auto"><source src="/public/adjusting_interface.mp4" type="video/mp4"></video>
 
-#### Context toolbar
-<br>
-The set of controls displayed on the context toolbar depends on the type of the currently selected layer. Hover the cursor over a tool icon to see a pop-up explaining what it does.
-
-#### Document tabs
-<br>
-The tabs of currently open files are displayed on the right of the Home button. Click on the tabs to switch between them or press `Ctrl + Tab` / `⌘ + Tab` and `Ctrl + Shift + Tab` / `⌘ + Shift + Tab`.
-
-#### Play button
-<br>
-Starts the prototype previewer. Read more about <a href="https://lunacy.docs.icons8.com/prototyping" target="_blank">prototyping in Lunacy</a>.
-
-#### Additional options
-<br>
-This button opens up a menu with these options:
-
-| Button | Description | Windows and Linux Shortcut / Menu Option  |  MacOS Shortcut / Menu Option |
-|---|---|---|---|
-| <embed type="image/svg+xml" alt="ruler_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/bkTBcjYY-kyIXxUN9M74Bg.svg" width="24" />  | The **Show/Hide rulers** button toggles <a href="https://lunacy.docs.icons8.com/basics/#rulers-and-guides" target="_blank">rulers</a> on and off. | `Ctrl + R`  | `⌘ + R` |
-| <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VeNN3bHygkW709kYJw0WBQ.svg" width="24" />  | The **Show grid** button enables the display of the <a href="https://lunacy.docs.icons8.com/basics/#square-grid" target="_blank">square grid</a>. | `Ctrl + '` | `⌘ + '` |
-| <embed type="image/svg+xml" alt="layout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/i0isEF3sxUyjktCmMDT4Jw.svg" width="24" />  | The **Layout grid** button controls the display of the <a href="https://lunacy.docs.icons8.com/basics/#layout-grid" target="_blank">layout grid</a> and is available only when there is a frame on the canvas. | `Ctrl + \`  | `⌘ + \` |
-| <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/eutHauiFwUuQ4jRcv6LFVQ.svg" width="24" /> | The **Show prototyping** button controls the display of hotspots and <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">prototyping</a> arrows. | **View → Prototyping**   |
-| <embed type="image/svg+xml" alt="slices" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5tkaoATGgUK2NjnzbPlsTg.svg" width="24" /> | With the <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slice</a> tool, you can to select a specific area on your design and export it.| **View → Slices**  |
-| <embed type="image/svg+xml" alt="zoom_options" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/X_2I4Sz63kOqcKi5fQ5Hmw.svg" width="24" />  | The **Pixels on Zoom** option shows pixels when the zoom value exceeds 100. | **View → Pixels on Zoom** |
-| <embed type="image/svg+xml" alt="comment" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/LZSDhkDI6EWCctCje5pfpQ.svg" width="24" />  | Toggle the display of document comments in the [right panel](#the-right-panel) on and off. | `-` |
-
-#### The Zoom control
-<br>
-Use it to adjust the zoom value. Read in more detail <a href="https://lunacy.docs.icons8.com/basics/#zooming-options" target="_blank">about zooming options</a>.
-
-#### Theme switch
-<br>
-Use it to switch between the light and dark themes.
-
-### Interface scale 
 
 To adjust the scale of the interface, go to **View → Interface scale**, or use these shortcuts:
 
@@ -109,112 +77,14 @@ To adjust the scale of the interface, go to **View → Interface scale**, or use
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/interface_adjusting_ui_scale.png" height="auto"><source src="/public/interface_adjusting_ui_scale.mp4" type="video/mp4"></video>
 
-When you need to **hide the interface** partially or entirely:
-
-- **Minimize the left panel** by clicking on the active content tab.
-- **Hide the toolbar, right panel, rulers** and any other UI elements by disabling them in the **View** section on the **menu bar.**
-- **Hide all UI elements** (except for the menu bar) by pressing `Ctrl + .` / `⌘ + .`. This activates **Presentation mode**, useful for showcasing your designs with no distractions from the interface.
-
-
-## [Canvas](#canvas)
-
-The **canvas** is your working area. Add layers to it and place them wherever you want. 
-
-If you need to work within certain boundaries, add <a href="https://lunacy.docs.icons8.com/interface/#frames" target="_blank">frames</a> to the canvas. To position layers and frames more precisely, you can add <a href="https://lunacy.docs.icons8.com/basics/#rulers">rulers</a>, <a href="https://lunacy.docs.icons8.com/basics/#guides">guides</a>, and <a href="https://lunacy.docs.icons8.com/basics/#grids">grids</a>.
-
-Read in detail about working with the canvas in the <a href="https://lunacy.docs.icons8.com/basics" target="_blank">Basics</a> section.
-
-## [Layer list](#layer-list)
-
-Open the **Layer list** by clicking on the **Layers** content tab. It will display the layers on the current page:
-
-<embed type="image/svg+xml" alt="layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PuPEDNTYvEKC5atXX-ylxQ.svg" width="844" /> 
-
-Press <embed type="image/svg+xml" alt="smart_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/3uDOUlA760igh6dc4pOLLg.svg" width=16 /> to toggle the **Smart Layer list**, which displays only the layers you currently see on the canvas. It's convenient when you want to see only the layers you're working on in the Layer list.
-
-Lunacy automatically assigns names to new layers and layer groups. You can always rename them if you like. 
-
-If a layer name doesn't fit in the Layer list, you can change the width of the panel this way:
-
-<video autoplay="" muted="" loop="" playsinline="" width="" poster="/public/resize_layer_list.png" height="auto"><source src="/public/resize_layer_list.mp4" type="video/mp4"></video>
-
-Using the Layer list, you can:
-
-|   Action    | Description |
-|---------------------------------------|------------------|
-|   Select layers      |    To select a layer or layer group, click its name in the Layer list. A selection frame will appear around the layer. To select multiple items hold down the `Ctrl` / `⌘` or `Shift` keys and click on the layers.    |
-|   Search for layers                                 |    To locate a layer, start typing its name in the search field above the Layer list.    |
-|   Arrange layers                |     Change the order of the layers in the list by dragging them up or down. Organize layers as you see fit and position them in the order you want them to be stacked if they're overlapping on the canvas. |
-|  Hide layers                    |   To hide layers, layer groups, or individual items inside layer groups, select a layer and click the eye icon next to its name. You can also hide layers by using the `Ctrl + H` / `⌘ + H` shortcut or the corresponding option on the context menu.     |
-|    Lock layers            |     Lock layers, grouped layers, or individual layers within a group to protect them from accidental edits. To do this, select a layer in the Layer list and click the lock icon, press `Ctrl + L` / `⌘ + L`, or use the corresponding option on the context menu. To select locked layers and edit their properties in the right panel, right-click them on the canvas or select them in the Layer list. |
-
-Other basic operations with layers are available on the <a href="https://lunacy.docs.icons8.com/basics/#the-context-menu" target="_blank">context menu</a>.
-
-#### Useful tips
-
-To **collapse all layers** in the Layer list, press `Ctrl + ~` / `⌘ + ~`.
-
-To quickly **move to a specific layer** in large projects: 
-1. Find it by typing its name in the search field.
-2. Select it in the Layer list.
-3. Press <code>Ctrl + 2</code> / <code>⌘ + 2</code> or double-click the icon in front of the layer name to use the <a href="https://lunacy.docs.icons8.com/tips/#zoom-to-selection" target="_blank">zoom to selection</a> feature.
-
-<p>Find out about <a href="https://lunacy.docs.icons8.com/tips/" target="_blank">more useful tips and tricks</a>.</p>
-
-
-## [The right panel](#the-right-panel)
-
-The **right panel** appears on the right of the Lunacy interface when you select a layer.
-
-When you create a new document, the first thing you'll see on the right is a list of <a href="https://lunacy.docs.icons8.com/basics/#frames" target="_blank">frame</a> presets. Once you add a frame or layer, the right panel will open up and display its properties. If you deselect all frames and layers, you will see general workspace settings and options.
-
-Read more about <a href="https://lunacy.docs.icons8.com/basics/#right-panel-properties" target="_blank">working with the right panel</a>.
-
-## Document pages
-
-There can be any number of **pages** in a document. 
-
-You can keep all your work on a single page or split it between several pages. For instance, when designing a website, you can keep the desktop and mobile versions on separate pages. 
-
-Additionally, you can duplicate a page to save a version of your current design and experiment with the copy. It's completely up to you to decide which approach to choose. 
-
-Here's what the **Page list** looks like: 
-
-<embed type="image/svg+xml" alt="page_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TgMw_XxCa025DzYKz7eF5Q.svg" width="844" /> 
-
-It shows up above the **Layer list** when the **Layers** content tab is selected.
-
-Use the Page list to:
-
-* Add pages
-* Rename pages
-* Change the order of the pages
-* Duplicate pages (with their content)
-* Copy and paste pages into other documents
-* Delete pages
-
-To **add a new page** to the document:
-
-1. Click the `+` icon above the Layer list.
-2. Name the new page.
-3. Press `Enter`.
-
-To **change the position of a page** in the list, simply drag it to where you want it to be.
-
-The rest of the actions are accessible through the **context menu**, which you can access by right-clicking a page name.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/page_add_rename.png" height="auto"><source src="/page_add_rename.mp4" type="video/mp4"></video>
-
-There is also a special type of page — the **Components** page. It stores the reusable <a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>. you can create in your designs. 
-
 
 ## [Home Tab](#home-tab)
 
 In the **Home tab**, you can manage your:
 
-* Personal documents (both local and cloud).
-* Teams and team projects.
-* Account and profile information.
+* [Documents](#working-with-documents)
+* [Teams and team projects](#managing-teams-and-projects)
+* [Account and profile information](#account-and-profile)
 
 The Home tab opens up when you start Lunacy if you don’t have any previously opened documents in the app. Otherwise, you’ll see your most recently edited document on startup.
 
@@ -231,7 +101,7 @@ These are the **main sections** of the Home tab:
 
 ### Working with documents
 
-The Home tab makes it easy to create, manage, and organize all of your personal and team docments. 
+The Home tab makes it easy to create, manage, and organize all of your personal and team documents. 
 
 
 #### Creating documents
