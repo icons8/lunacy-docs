@@ -102,7 +102,7 @@ To quickly **move to a specific layer** in large projects:
 
 There are two tabs at the top of the right panel: **Design** and **Export**. 
 
-### Design tab
+#### Design tab
 The **Design** tab is the one you'll interact with the most when working on your designs. The set of controls and settings it displays depends on the type of the selected layer. These properties are universal for almost all layer types:
 
 | Right panel properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |   
@@ -119,7 +119,7 @@ The **Design** tab is the one you'll interact with the most when working on your
 |  <embed type="image/svg+xml" alt="prototyping" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/NJc1I6eaxk21Auc91YH7XA.svg" width="500" />   |   **Prototyping.**   Activate prototyping options and turn your static designs into interactive prototypes. Here's <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">how it works</a>. |
 | <embed type="image/svg+xml" alt="selection_properties" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/-zycpFIau0603lT5epFZFQ.svg" width="500" />  |     **Selection properties.**  Shows the colors and fonts used in selected layers. |
 
-### Export tab
+#### Export tab
 
 Click on the **Export** tab to open up export settings for your entire project or select individual/multiple layers to export just them.  Read in detail about <a href="https://lunacy.docs.icons8.com/export_new/#export-settings" target="_blank">export settings</a>. 
 
