@@ -112,7 +112,7 @@ To **create a new document**, use any of the following ways depending on the doc
 |---------------------------------------|-----------------------|----------------------------|
 | On the Home Tab, click | **New Document** | **New Cloud Document** |
 | On the menu bar, select | **File → New Document** | **File → New Cloud Document** |
-| Anywhere in Lunacy, press | `Ctrl + N` / `⌘ + N` | `Ctrl + Shift + N` / `⌘ + Shift + N` |
+| Anywhere in Lunacy, press | `Ctrl + Shift + N` / `⌘ + Shift + N` | `Ctrl + N` / `⌘ + N` |
 | At the top of the screen, click | `+` (on the right of the document tabs) |
 
 <div class="callout callout--info">

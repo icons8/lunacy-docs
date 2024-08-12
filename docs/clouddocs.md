@@ -110,7 +110,9 @@ To **delete a cloud document**:
 
 <embed type="image/svg+xml" alt="clouddoc_delete" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/zKbfNOZbXEq8PHA9ssJHJA.svg" width="844" >
 
+
 Deleted documents migrate over to the **Deleted** section of the **Home tab**, where you can either **restore** or **permanently delete** them. Be careful with this option.
+
 
 <embed type="image/svg+xml" alt="clouddoc_delete_permanently" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Ajz4y9jAhE-J8vLncNDzPg.svg" width="844" >
 
