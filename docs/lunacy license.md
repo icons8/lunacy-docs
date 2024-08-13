@@ -1,4 +1,6 @@
 
+## End-User License Agreement (EULA) of Lunacy
+
 This End-User License Agreement ("EULA") is a legal agreement between you and Icons8 LLC.
 
 This EULA agreement governs your acquisition and use of our Lunacy software ("Software") directly from Icons8 LLC or indirectly through an Icons8 LLC authorized reseller or distributor (a "Reseller").
