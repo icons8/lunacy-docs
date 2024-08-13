@@ -47,6 +47,8 @@ Below is a brief description of all available tools, which we will then go over 
 |  <embed type="image/svg+xml" alt="pencil_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/FahQcMve1EOAIZSZ_ayN_w.svg" width="28" />    | **Pencil tool.** Used for drawing freehand shapes.      | `P`, `P`       |
 |  <embed type="image/svg+xml" alt="avatar_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/rUxSy1TC9EWHGcnfCjjHdQ.svg" width="28" />    | **Avatar tool.** Add randomly generated avatars to your designs.     | `Q`    |
 | <embed type="image/svg+xml" alt="component_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/02TX6jrbmUemFRYnGU5Ubg.svg" width="28" />   | **Component tool.** Useful when you’re creating interface mockups: add placeholder components and then replace them with UI elements later.  | `S`    |
+| <embed type="image/svg+xml" alt="Copy Rotation" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/vYhxX1OdAUq6KS_Qf0etlQ.svg" width="28" />  | **Rotate copies tool.** Creates multiple rotated copies of any shape around a central point. Perfect for designing patterns, circular layouts, and symmetrical artwork.  | `Ctrl/⌘ + Shift + B`    |
+
 
 Lunacy also has the **Zoom tool**, though it doesn’t appear on the toolbar. To activate it, hold down `Z` and zoom in and out of a specific area on the canvas. 
 
@@ -522,3 +524,15 @@ The **Hand tool** is useful for navigating the canvas. To activate it, hold down
 **See also:**
 <br>
 <a href="https://lunacy.docs.icons8.com/basics/#working-with-the-canvas" target="_blank">Working with the canvas</a>
+
+## Rotate copies tool
+
+This tool enables you to create multiple rotated copies of any shape around a central point in no time. The tool is great for designing patterns, circular layouts, and symmetrical artwork. 
+
+To enable the tool, select a layer and click <embed type="image/svg+xml" alt="Copy Rotation" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/vYhxX1OdAUq6KS_Qf0etlQ.svg" /> on the context toolbar. Or use the `Ctrl/⌘ + Shift + B` shortcut.
+
+Use `+` and `-` to control the number of copies.
+
+When done, click **Apply editing** in the right panel or anywhere on the canvas.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/rotatecopy.png" height="auto"><source src="/public/rotatecopy.mp4" type="video/mp4"></video>
