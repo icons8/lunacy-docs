@@ -1,9 +1,7 @@
 
-# End-User License Agreement (EULA) of Lunacy
-
 This End-User License Agreement ("EULA") is a legal agreement between you and Icons8 LLC.
 
-This EULA agreement governs your acquisition and use of our Lunacy software ("Software") directly from Icons8 LLC or indirectly through a Icons8 LLC authorized reseller or distributor (a "Reseller").
+This EULA agreement governs your acquisition and use of our Lunacy software ("Software") directly from Icons8 LLC or indirectly through an Icons8 LLC authorized reseller or distributor (a "Reseller").
 
 Please read this EULA agreement carefully before completing the installation process and using the Lunacy software. It provides a license to use the Lunacy software and contains warranty information and liability disclaimers.
 
@@ -15,7 +13,7 @@ This EULA agreement shall apply only to the Software supplied by Icons8 LLC here
 
 ## License Grant
 
-Icons8 LLC hereby grants you a personal, non-transferable, non-exclusive licence to use the Lunacy software on your devices in accordance with the terms of this EULA agreement. You can use the Lunacy software for your personal or commercial projects.
+Icons8 LLC hereby grants you a personal, non-transferable, non-exclusive license to use the Lunacy software on your devices in accordance with the terms of this EULA agreement. You can use the Lunacy software for your personal or commercial projects.
 
 You are permitted to load the Lunacy software (for example a PC, laptop, mobile or tablet) under your control. You are responsible for ensuring your device meets the minimum requirements of the Lunacy software.
 
@@ -33,7 +31,7 @@ You are not permitted to:
 
 Icons8 LLC shall at all times retain ownership of the Software as originally downloaded by you and all subsequent downloads of the Software by you. The Software (and the copyright, and other intellectual property rights of whatever nature in the Software, including any modifications made thereto) are and shall remain the property of Icons8 LLC.
 
-Icons8 LLC reserves the right to grant licences to use the Software to third parties.
+Icons8 LLC reserves the right to grant licenses to use the Software to third parties.
 
 ## Termination
 

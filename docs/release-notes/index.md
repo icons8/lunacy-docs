@@ -81,6 +81,8 @@ If you're working on a cloud document, you can now copy a link to its prototype 
 
 With this tool, you can now create multiple rotated copies of any shape around a central point. Perfect for designing patterns, circular layouts, and symmetrical artwork.
 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/rnv10-rotatecopy.png" height="auto"><source src="/public/rnv10_rotatecopy.mp4" type="video/mp4"></video>
+
 #### Shared libraries
 
 If you're working on a cloud document, you can now connect another Lunacy cloud document to it and use its styles and components as a UI kit. The UI kits that were available in the previous versions are deprecated.
