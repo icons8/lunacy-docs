@@ -44,13 +44,13 @@ page_nav:
 
 # Version 10
 
-## 10.0 Beta
+## 10.0.1 
 
-To install the Beta version:
+*Release date: August 27, 2024*
 
-1. In Lunacy, go to **Help** > **About**.
-2. In the displayed window, select the **Check for Beta Udates** checkbox.
-3. Click **Download**, then click **Install**.
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.0.1.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.deb)
 
 
 ### New features
@@ -113,9 +113,9 @@ If you're working on a cloud document, you can now connect another Lunacy cloud 
 
 *Release date: May 27, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.1.exe) - Windows installers are temporarily missing a code sign certificate. This may lead to security warnings during installation. We are working to resolve this issue as soon as possible.
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.1.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.1.deb)
+* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.1.exe) - Windows installers are temporarily missing a code sign certificate. This may lead to security warnings during installation. We are working to resolve this issue as soon as possible.
+* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.1.dmg)
+* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.1.deb)
 
 ### Improvements
 
