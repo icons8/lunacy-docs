@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Lunacy Documentation
-description: Welcome to the official help for Lunacy, a powerful graphic design software with full support for .sketch files.
+description: Welcome to the official Lunacy help page, a powerful graphic design software with full support for .sketch files.
 buttons:
     - content: VIEW ON GITHUB
       url: 'https://github.com/icons8/lunacy-docs'
@@ -60,6 +60,7 @@ grid_navigation:
     - title: 'Components'
       excerpt: Explore the power of Lunacy by learning how to use components
       url: '/components'
+      icon: 'refresh'
     - title: 'Shared libraries'
       excerpt: How to reuse components and styles from other files
       url: '/sharedlibraries'
