@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Auto layouts
-        url: '/autolayout'
+        content: Shared libraries
+        url: '/sharedlibraries'
     prev:
         content: Layer and text styles
         url: '/layerstyles'

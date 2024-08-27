@@ -60,15 +60,18 @@ grid_navigation:
     - title: 'Components'
       excerpt: Explore the power of Lunacy by learning how to use components
       url: '/components'
-      icon: 'refresh'
+    - title: 'Shared libraries'
+      excerpt: How to reuse components and styles from other files
+      url: '/sharedlibraries'
+      icon: 'open-book'
     - title: 'Auto layout'
       excerpt: Learn how to create dynamic designs with auto layout
       url: '/autolayout/'
       icon: 'document-body'
-    - title: 'Libraries'
+    - title: 'Built-in graphics'
       excerpt: How to make use of our built-in icons, photos, images and UI kits
       url: '/libraries'
-      icon: 'book-shelf'
+      icon: 'icons8-new-logo'
     - title: 'Images'
       excerpt: Learn how to work with images in Lunacy
       url: '/images'

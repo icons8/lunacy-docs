@@ -15,11 +15,11 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Components
-        url: '/components'
-    prev:
-        content: Libraries
+        content: Built-in graphics
         url: '/libraries'
+    prev:
+        content: Shared libraries
+        url: '/sharedlibraries'
 ---
 
 ## Overview
