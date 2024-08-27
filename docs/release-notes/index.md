@@ -12,8 +12,8 @@ icon: 'activity-history'
 # Micro navigation
 left_menu_off: false
 release_note:
-    - title: Version 10 Beta
-      url: 'version-10-beta'
+    - title: Version 10
+      url: 'version-10'
     - title: Version 9
       url: 'version-9'
     - title: Version 8

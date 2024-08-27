@@ -533,6 +533,6 @@ To enable the tool, select a layer and click <embed type="image/svg+xml" alt="Co
 
 Use `+` and `-` to control the number of copies.
 
-When done, click **Apply editing** in the right panel or anywhere on the canvas.
+When done, click **Apply editing** in the right panel or click anywhere beyond the shape.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/rotatecopy.png" height="auto"><source src="/public/rotatecopy.mp4" type="video/mp4"></video>
