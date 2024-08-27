@@ -32,7 +32,7 @@ doks:
       icon: 'open-book'
     - title: 'Auto layout'
       url: '/autolayout/'
-    - title: 'Libraries'
+    - title: 'Built-in graphics'
       url: '/libraries'
     - title: 'Images'
       url: '/images'
