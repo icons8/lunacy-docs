@@ -102,6 +102,7 @@ If you're working on a cloud document, you can now connect another Lunacy cloud 
 * You can now double-click over a rotation handle to turn a layer 90  degrees clockwise.
 * You can now reorder grid layouts by dragging their settings up and down in the right panel.
 * Improvements to address issues where undo operations were sometimes not restored after restarting the app.
+* The **Adjust content on resize** frame setting is now deprecated. When resizing a frame, its content will automatically adjust to fit the new size. To resize only the frame and keep its content unchanged, hold down  `Ctrl`/`⌘` while resizing.
 
 ### Bug fixes
 
