@@ -137,7 +137,7 @@ They also have these additional properties:
 |  <embed type="image/svg+xml" alt="frame_preset_size" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/AQrMrq0BdkG833S3rs16TQ.svg" width="500" />  |  **Frame preset, size, and position.** The same options as for layers. You can also change your frame size preset.  |
 |  <embed type="image/svg+xml" alt="clip_content" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/jz6OnY46_Uy-ATZtsevRLA.svg" width="500" />  |     **Clip content.**  Select this checkbox to hide content outside of the frame boundaries. |
 |   <embed type="image/svg+xml" alt="autolayout" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/VVkJQG7mZESrsh2vQBoruA.svg" width="500" />   |   **Auto layout.**  A set of parameters for configuring <a href="https://lunacy.docs.icons8.com/autolayout/" target="_blank">auto layouts</a>. |
-|  <embed type="image/svg+xml" alt="frame_color_adjust" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZWhmOvSgV0Wn2tLg80A-Ug.svg" width="500" />    |     **Background color and content behavior.** Change the frame background and choose whether its content changes as you resize it. |
+|  <embed type="image/svg+xml" alt="frame_color_adjust" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ZWhmOvSgV0Wn2tLg80A-Ug.svg" width="500" />    |     **Background color.** Change the frame color. |
 |  <embed type="image/svg+xml" alt="layout_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/9-2Cn2UMuU-1oe_XPYabqQ.svg" width="500" /> |     **Layout grid.**  Add a <a href="https://lunacy.docs.icons8.com/basics/#layout-grid" target="_blank">layout grid</a> to the frame.|
 | <embed type="image/svg+xml" alt="square_grid" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/15ZcB9kEdkmu1y7FAZHefQ.svg" width="500" />  |     **Grid.**  Add a <a href="https://lunacy.docs.icons8.com/basics/#square-grid" target="_blank">square grid</a> to the frame. |
 
@@ -404,12 +404,7 @@ The `Alt + Shift + drag` / `⌥ + Shift + drag` shortcut resizes a layer from th
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_resizing.png" height="auto"><source src="/public/layers_resizing.mp4" type="video/mp4"></video>
 
-When resizing a frame, if you want the layers on it to adjust to the size of the frame:
-
-1. Select the frame through the **Layer list** or by clicking its name on the canvas.
-2. In the right panel, select the **Adjust content on resize** checkbox.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layers_adjust_content_on_resize.png" height="auto"><source src="/public/layers_adjust_content_on_resize.mp4" type="video/mp4"></video>
+When resizing a frame, its content adjusts to fit the new size. If you want to resize only the frame and keep its content intact, hold down `Ctrl`/`⌘` while resizing.
 
 #### [Resizing using arrow keys](#resizing-using-arrow-keys)
 
