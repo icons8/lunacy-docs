@@ -44,6 +44,45 @@ page_nav:
 
 # Version 10
 
+<!--
+## 10.1.0 
+
+*Release date: September XX, 2024*
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.0.1.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.deb)
+
+
+### New features
+
+#### PDF and AI files import
+
+You can now import PDF and Adobe Illustrator (.ai) files into Lunacy.
+
+#### New select options
+
+New shortcuts for easier layer selection:
+
+- Press `Enter` to select all nested layers one level down.
+- Press `Shift + Enter` to select parent layers.
+- Use `⌘ + Right Click` / `Ctrl + Right Click` to open the layer selection menu.
+
+#### Alpha and luminance masks
+
+You can now change mask type from *vector* to *alpha* or *luminance*.
+
+#### Oblique and simulated bold font styles 
+
+Added *Simulated Bold* and *Oblique* styles for single-weight fonts.
+
+
+### Improvements
+
+* Numerous SVG import improvements.
+
+-->
+
 ## 10.0.1 
 
 *Release date: August 27, 2024*
