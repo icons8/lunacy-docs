@@ -81,7 +81,6 @@ Added *Simulated Bold* and *Oblique* styles for single-weight fonts.
 
 * Numerous SVG import improvements.
 
--->
 
 ## 10.0.1 
 
