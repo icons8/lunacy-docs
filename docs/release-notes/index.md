@@ -44,14 +44,36 @@ page_nav:
 
 # Version 10
 
+## 10.2.0 
+
+*Release date: September 24, 2024*
+
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.2.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.deb)
+
+
+### New features
+
+#### Context Search
+
+Now here is a search in a context menu. You can search for almost any action in the Lunacy.
+In future updates this field will be also used for contextual ai prompt actions.
+
+#### Fixes
+* Fixed save of filex on MacOS
+* Fixed some pdf export issues
+* Fixed SVG import issues
+* Fixed some auto-layout issues
+* Fixed gradient editor issues
 
 ## 10.1.0 
 
 *Release date: September 13, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.1.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.deb)
+* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.1.exe)
+* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.dmg)
+* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.deb)
 
 
 ### New features
