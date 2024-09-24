@@ -55,16 +55,20 @@ page_nav:
 
 ### New features
 
-#### Context Search
+#### Context menu search
 
-Now here is a search in a context menu. You can search for almost any action in the Lunacy.
-In future updates this field will be also used for contextual ai prompt actions.
+You can now quickly find and run almost any command through the context menu.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/contextmenusearch1.png" height="auto"><source src="/public/contextmenusearch1.mp4" type="video/mp4"></video>
+
+In future updates, this field will also be used for contextual AI-related commands.
 
 #### Fixes
-* Fixed save of filex on MacOS
-* Fixed some pdf export issues
+
+* Fixed file saving issues on macOS
+* Fixed several PDF export issues
 * Fixed SVG import issues
-* Fixed some auto-layout issues
+* Fixed various auto-layout issues
 * Fixed gradient editor issues
 
 ## 10.1.0 
