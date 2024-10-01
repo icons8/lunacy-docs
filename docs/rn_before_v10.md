@@ -32,12 +32,9 @@ release_note:
       url: 'version-1'
 
 page_nav:
-    next:
-        content: Free format
-        url: '/free-format'
     prev:
-        content: FAQ and Contacts
-        url: '/support'
+        content: Release History
+        url: '/release-notes'
 ---
 
 # Version 9
