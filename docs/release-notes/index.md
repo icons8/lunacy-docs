@@ -35,7 +35,7 @@ page_nav:
 *Release date: October XX, 2024*
 
 * <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.2.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.dmg)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.dmg)
 * <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.deb)
 
 
@@ -47,22 +47,32 @@ You can now bend text in any way you want:
 
 1. Create a text.
 2. Create a path. Make sure that the path is below the text in the Layer list. Also, make sure that the text box and the bounding box of the path overlap.
-3. With the text selected, click **Text options** on the right panel. Then select the **Text on Path** checkbox.
+3. With the text selected, click ![textoptions](/public/textoptions.png) (**Text options**) on the right panel. Then select the **Text on Path** checkbox.
 4. To move the text along the path, drag the text block horizontally.
-5. (Optional) If you want glyphs to adjust their appearance to the bends, select the **Warp glyphs** checkbox.
+5. (Optional) If you want glyphs to adjust their appearance to the bends, select the **Warp glyphs** checkbox in **Text options**.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/contextmenusearch1.png" height="auto"><source src="/public/contextmenusearch1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/textonpath.png" height="auto"><source src="/public/textonpath.mp4" type="video/mp4"></video>
 
 #### Text truncate and Max lines
 
-You can now truncate overflowing text with an ellipsis (…) when it exceeds the bounds of a text box. This keeps your designs clean and readable without manually resizing text layers.
+You can now truncate overflowing text with an ellipsis (`…`) when it exceeds the bounds of a text box. This keeps your designs clean and readable without manually resizing text layers.
 
 Also, you can use the **Max lines** parameter to define the number of lines before the text truncates. This can be useful when working with auto layouts.
 
+<embed type="image/svg+xml" alt="text_truncate" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Uu0BTJ7BK0WPezodsiisIw.svg" />
 
-#### Fixes
+#### Context menu search
 
-* Numerous bug fixes
+* The context menu search now recognizes both English and your selected interface language.
+* You can now search by the first letters of commands. For example, typing 'cs' or 'c s' will return *Copy Style*.
+
+
+### Fixes
+
+* Fixed a bug with the app interface scaling upon startup.
+* Fixed a bug causing double context menus.
+* Fixed an issue with TouchID authentication via Apple ID.
+* Fixed file saving issues on macOS.
 
 -->
 
