@@ -29,14 +29,13 @@ page_nav:
 
 # Version 10
 
-<!--
 ## 10.3.0 
 
-*Release date: October XX, 2024*
+*Release date: October 4, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.2.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.deb)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.3.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.deb)
 
 
 ### New features
@@ -74,16 +73,14 @@ Also, you can use the **Max lines** parameter to define the number of lines befo
 * Fixed an issue with TouchID authentication via Apple ID.
 * Fixed file saving issues on macOS.
 
--->
-
 
 ## 10.2.0 
 
 *Release date: September 24, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.2.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.deb)
+* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.2.exe)
+* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.dmg)
+* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.deb)
 
 
 ### New features
