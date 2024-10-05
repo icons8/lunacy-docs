@@ -204,6 +204,8 @@ Adjust the position of text content within the text box:
 
 #### Additional text options
 
+##### Formatting
+
 Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EzR_O8DAKkeQ_xZBwCq5rA.svg" width="12" /> in the **Text** section of the right panel to access additional text formatting options. They include:
 
 - **Transform options.** Choose the letter case for your text:
@@ -223,6 +225,28 @@ Click <embed type="image/svg+xml" alt="Group 4" src="https://cdn-eu.icons8.com/d
 **See also:**
 <br>
 <a href="https://lunacy.docs.icons8.com/layers/#selection-fonts-and-colors" target="_blank">Selection fonts and colors</a>
+
+
+##### Text on path
+
+The **Text on path** option enables you to bend text in any way you want:
+
+1. Create a text.
+2. Create a path. Make sure that the path is below the text in the Layer list. Also, make sure that the text box and the bounding box of the path overlap.
+3. With the text selected, click ![textoptions](/public/textoptions.png) on the right panel. Then select the **Text on Path** checkbox.
+4. To move the text along the path, drag the text block horizontally.
+5. (Optional) If you want glyphs to adjust their appearance to the bends, select the **Warp glyphs** checkbox in **Text options**.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/textonpathman.png" height="auto"><source src="/public/textonpathman.mp4" type="video/mp4"></video>
+
+##### Text truncate and Max lines
+
+You can now truncate overflowing text with an ellipsis (`…`) when it exceeds the bounds of a text box. This keeps your designs clean and readable without manually resizing text layers.
+
+Also, you can use the **Max lines** parameter to define the number of lines before the text truncates. This can be useful when working with auto layouts.
+
+<embed type="image/svg+xml" alt="text_truncate" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/zEt-SfNPsk-4GazBzGVEBA.svg" /> 
+
 
 
 ## [Text generation](#text-generation)
