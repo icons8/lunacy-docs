@@ -324,13 +324,10 @@ You can also toggle this feature on and off in the menu bar by selecting **View 
 
 ## [Context menu](#the-context-menu)
 
-The **context menu** is a pop-up list of commands and options for basic operations with layers. 
+The **context menu** appears when you right-click on a layer. The items on the menu vary depending on the layer you select. Almost all context menu options have shortcuts you can use to speed up your workflow.
 
-It appears when you right-click on a layer. The items on the menu vary depending on the layer you select. 
+<embed type="image/svg+xml" alt="contextmenu" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/yDxxG6jz50yulSue63mF-g.svg" /> 
 
-Almost all context menu options have shortcuts you can use to speed up your workflow:
-
-<embed type="image/svg+xml" alt="context_menu" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/HSn_3x7Vhk-8MfiM3MjqkQ.svg" width="844" /> 
 
 
 These context menu options are universal for almost all layer types: 
@@ -355,9 +352,17 @@ These context menu options are universal for almost all layer types:
 | Ungroup         | Ungroup a selected group of layers.  |
 | Create component | Create a reusable component from the layer. |
 
+When you right-click on an empty area on the canvas or a frame, the only option available on the context menu is **Paste here**.
+
+### Context menu search
+
+To quickly find the required menu option, you can use the search field at the top of the context menu. The search recognizes both English and your selected interface language.
+
 <div class="callout callout--info">
-    <p><strong>Note:</strong> When you right-click on an empty area on the canvas or a frame, the only command available on the context menu is <b>Paste here</b>. </p>
+    <p><strong>Tip:</strong> With the context menu search, you can find almost any command or shortcut, even those not related to the selected layer. You can even search by the first letters of commands. For example, typing 'cs' or 'c s' will return <i>Copy style</i>.</p>
 </div>
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/contextmenusearchman.png" height="auto"><source src="/public/contextmenusearchman.mp4" type="video/mp4"></video>
 
 
 ## Document pages

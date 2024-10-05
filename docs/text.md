@@ -241,7 +241,7 @@ The **Text on path** option enables you to bend text in any way you want:
 
 ##### Text truncate and Max lines
 
-You can now truncate overflowing text with an ellipsis (`…`) when it exceeds the bounds of a text box. This keeps your designs clean and readable without manually resizing text layers.
+You can truncate overflowing text with an ellipsis (`…`) when it exceeds the bounds of a text box. This keeps your designs clean and readable without manually resizing text layers.
 
 Also, you can use the **Max lines** parameter to define the number of lines before the text truncates. This can be useful when working with auto layouts.
 
