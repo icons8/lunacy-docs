@@ -29,14 +29,13 @@ page_nav:
 
 # Version 10
 
-<!--
-## 10.4.0 
+## 10.4
 
-*Release date: October 4, 2024*
+*Release date: October 15, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.3.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.deb)
+* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.4.exe)
+* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.dmg)
+* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.deb)
 
 
 ### Improvements
@@ -48,15 +47,14 @@ page_nav:
 
 - Fixed some critical bugs.
 
--->
 
-## 10.3.0 
+## 10.3
 
 *Release date: October 4, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.3.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.deb)
+* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.3.exe)
+* [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.dmg)
+* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.deb)
 
 
 ### New features
@@ -95,7 +93,7 @@ Also, you can use the **Max lines** parameter to define the number of lines befo
 * Fixed file saving issues on macOS.
 
 
-## 10.2.0 
+## 10.2
 
 *Release date: September 24, 2024*
 
@@ -122,7 +120,7 @@ In future updates, this field will also be used for contextual AI-related comman
 * Fixed various auto layout issues
 * Fixed gradient editor issues
 
-## 10.1.0 
+## 10.1
 
 *Release date: September 13, 2024*
 
