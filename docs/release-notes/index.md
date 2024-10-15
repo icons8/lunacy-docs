@@ -33,12 +33,7 @@ page_nav:
 
 *Release date: October 15, 2024*
 
-* <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.4.exe)
-* <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.dmg)
-* <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.deb)
-
-
-### Improvements
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.4.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.deb)
 
 - Auto updates in shared libraries. When someone edits a component or style in the library, the changes automatically become available in all files using that library once you reopen them.
 - Magnets now work not only with text, but also for adjusting alignment in frames with auto layout.
@@ -52,12 +47,7 @@ page_nav:
 
 *Release date: October 4, 2024*
 
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.3.exe)
-* [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.deb)
-
-
-### New features
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.3.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.deb)
 
 #### Text on path
 
@@ -101,9 +91,6 @@ Also, you can use the **Max lines** parameter to define the number of lines befo
 * [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.dmg)
 * [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.deb)
 
-
-### New features
-
 #### Context menu search
 
 You can now quickly find and run almost any command through the context menu.
@@ -124,12 +111,7 @@ In future updates, this field will also be used for contextual AI-related comman
 
 *Release date: September 13, 2024*
 
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.1.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.deb)
-
-
-### New features
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.1.exe) \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.deb)
 
 #### PDF and AI files import
 
@@ -161,12 +143,7 @@ Added *Simulated Bold* and *Oblique* styles for single-weight fonts.
 
 *Release date: August 27, 2024*
 
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.0.1.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.deb)
-
-
-### New features
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.0.1.exe) \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.deb)
 
 #### Redesigned left sidebar
 
