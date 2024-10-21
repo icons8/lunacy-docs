@@ -81,7 +81,7 @@ You can work both with cloud and local documents. Switch between the cloud and l
 
 **Private Cloud**
 
-* For design teams focused on security of their design assets. For details, click <a href="https://lunacy.docs.icons8.com/private_cloud/" target="_blank">here</a>.
+* For teams focused on security of their design assets. For details, click <a href="https://lunacy.docs.icons8.com/private_cloud/" target="_blank">here</a>.
 
 #### Minimal learning curve
 

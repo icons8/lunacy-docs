@@ -37,6 +37,11 @@ Other advantages of cloud documents include:
 - **Version history.** Track the [different versions](#version-history) of your document. You can save versions manually or use the ones Lunacy saves automatically after every 100 actions. This isn’t available for local documents.
 - You can always [save them as local documents](#saving-cloud-as-local) if you need to.
 
+
+<div class="callout callout--info">
+<p><strong>Note:</strong> If your team is concerned about the security of their design assets, consider the <a href="https://lunacy.docs.icons8.com/private_cloud/" target="_blank">Private Cloud</a> option</p>.
+</div>
+
 ## [Creating a cloud document](#creating-cloud-documents)
 
 To **create a new cloud document**:
