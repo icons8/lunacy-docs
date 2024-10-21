@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Tools
-        url: '/tools'
+        content: Private Cloud
+        url: '/private_cloud'
     prev:
         content: Interface
         url: '/interface'

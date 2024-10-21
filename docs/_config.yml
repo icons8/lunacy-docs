@@ -12,6 +12,8 @@ doks:
       url: '/basics'
     - title: Cloud documents
       url: '/clouddocs'
+    - title: Private Cloud
+      url: '/private_cloud'
     - title: Tools
       url: '/tools'
     - title: 'Layers'

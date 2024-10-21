@@ -68,16 +68,20 @@ Lunacy has a wide range of AI-powered tools that will save you valuable time dur
 
 You can work both with cloud and local documents. Switch between the cloud and local modes whenever you want.
 
-**Cloud documents**:
-
-* Accessible from any device
-* Up to 10 simultaneous editors
-* <a href="https://lunacy.docs.icons8.com/clouddocs/#observer-mode" target="_blank">Observer mode</a>, <a href="https://lunacy.docs.icons8.com/comments/" target="_blank">comments</a>, and other collaboration perks
-
 **Local documents**:
 
-* Privacy — whatever you save to a local file stays local
-* Your designs are always available, even on low-bandwidth connections or with no internet at all
+* Privacy — whatever you save to a local file stays local.
+* Your designs are always available, even on low-bandwidth connections or with no internet at all.
+
+**Cloud documents**:
+
+* Accessible from any device.
+* Up to 10 simultaneous editors.
+* <a href="https://lunacy.docs.icons8.com/clouddocs/#observer-mode" target="_blank">Observer mode</a>, <a href="https://lunacy.docs.icons8.com/comments/" target="_blank">comments</a>, and other collaboration perks.
+
+**Private Cloud**
+
+* For design teams focused on security of their design assets. For details, click <a href="https://lunacy.docs.icons8.com/private_cloud/" target="_blank">here</a>.
 
 #### Minimal learning curve
 

@@ -18,8 +18,8 @@ page_nav:
         content: Layers
         url: '/layers'
     prev:
-        content: Cloud documents
-        url: '/clouddocs'
+        content: Private Cloud
+        url: '/private_cloud'
 ---
 
 All of Lunacy’s tools are on the **toolbar** located on the left of the canvas:
