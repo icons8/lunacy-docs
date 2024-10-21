@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Private Cloud
-description: Learn how to work with text in Lunacy
+description: How to collaborate in total privacy
 icon: 'cloud-lock--v2'
 
 # Micro navigation

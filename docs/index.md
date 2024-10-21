@@ -33,6 +33,10 @@ grid_navigation:
       excerpt: Learn how to work with cloud documents
       url: '/clouddocs'  
       icon: 'upload-2'
+    - title: Private Cloud
+      excerpt: How to collaborate in total privacy
+      url: '/private_cloud'  
+      icon: 'cloud-lock--v2'
     - title: Tools
       excerpt: Tools and controls on the Lunacy toolbar
       url: '/tools'
