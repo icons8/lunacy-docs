@@ -39,8 +39,7 @@ Other advantages of cloud documents include:
 
 
 <div class="callout callout--info">
-<p><strong>Note:</strong> If your team is concerned about the security of their design assets, consider the <a href="https://lunacy.docs.icons8.com/private_cloud/" target="_blank">Private Cloud</a> option</p>.
-</div>
+<p><strong>Note:</strong> If your team is concerned about the security of their design assets, consider the <a href="https://lunacy.docs.icons8.com/private_cloud/" target="_blank">Private Cloud</a> option</p>.</div>
 
 ## [Creating a cloud document](#creating-cloud-documents)
 
