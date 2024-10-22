@@ -65,4 +65,4 @@ This option is for the teams that don’t feel like sharing a common cloud with 
 
 Both solutions, Private Cloud on-premises and VPS, come with *24/7 priority support*, a *dedicated customer success manager*, and *priority feature requests*.
 
-Contact us, to [request a demo](https://icons-8.typeform.com/LunacyPrivacy/).
+Contact us, to [request a demo](https://ic8.link/B9oI8).
