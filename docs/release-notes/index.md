@@ -29,11 +29,20 @@ page_nav:
 
 # Version 10
 
+## 10.5
+
+*Release date: October 23, 2024*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.5.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.deb)
+
+TBD...
+
+
 ## 10.4
 
 *Release date: October 15, 2024*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.4.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.4.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.deb)
 
 - Auto updates in shared libraries. When someone edits a component or style in the library, the changes automatically become available in all files using that library once you reopen them.
 - Magnets now work not only with text, but also for adjusting alignment in frames with auto layout.
