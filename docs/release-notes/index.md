@@ -46,6 +46,8 @@ Give them a try and feel free to share your feedback that will help us improve t
 
 Select a frame without auto layout, and let AI assign auto layout properties. The feature works through all nested elements, and can save you a lot of time.
 
+For better results, make sure that layers are grouped into logical elements (buttons, profile cards, etc.).
+
 <embed type="image/svg+xml" alt="AI_autolayout_RN" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/u3qBOZ5-a0SUMH35sLh86w.svg" /> 
 
 
