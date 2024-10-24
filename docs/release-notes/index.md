@@ -35,7 +35,43 @@ page_nav:
 
 <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.5.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.deb)
 
-TBD...
+In this version, we're introducing a preview of a few experimental AI-based features. All the features are accessible through the main and context menus.
+
+Give them a try and feel free to share your feedback that will help us improve them.
+
+<div class="callout callout--info">
+<p><strong>Note:</strong> Free users will have limited attempts to try the AI features. To continue using them, you will need a subscription to Lunacy Cloud.</p></div>
+
+#### AI auto layout
+
+Select a frame without auto layout, and let AI assign auto layout properties. The feature works through all nested elements, and can save you a lot of time.
+
+<embed type="image/svg+xml" alt="AI_autolayout_RN" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/u3qBOZ5-a0SUMH35sLh86w.svg" /> 
+
+
+#### AI layer naming
+
+Automatically assign meaningful names to your layers with the help of AI.
+
+<embed type="image/svg+xml" alt="AI_naming_RN" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/5Mpne2gqQ0G2O7bpGXEpkQ.svg" /> 
+
+
+#### AI text content
+
+You can now use preset and custom prompts to edit text content with the help of AI.
+
+<embed type="image/svg+xml" alt="AI_text_RN" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/lv3bxRDDHUW0C15YcWh6bg.svg" /> 
+
+
+
+### Improvements and fixes
+
+- Improved inner shadow rendering for higher quality.
+- Fixed numerous issues with the Text on Path feature.
+- Fixed SVG export issues.
+
+
+
 
 
 ## 10.4
