@@ -29,44 +29,30 @@ page_nav:
 
 # Version 10
 
-<!--
+## 10.6 Beta
 
-## 10.6
+To install the Beta version:
 
-*Release date: November XX, 2024*
-
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.5.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.deb)
+1. In Lunacy, go to **Help** > **About**.
+2. In the displayed window, select the **Check for Beta Udates** checkbox.
+3. Click **Download**, then click **Install**.
 
 
 ### Color variables
-We've introduced a **Variables** tab in the left panel, where you can now manage color variables. Soon, we’ll be adding other variable types too.
 
-**Creating a color variable**
+We've introduced the **Variables** tab in the left panel, where you can now manage **color variables**. Soon, we’ll be adding other variable types too.
 
-1. Select a layer and open the **Color Picker**.
-2. Choose your desired color, then click **Create Color Variable**.
-3. Enter a name for the variable, or keep the auto-assigned one (you can rename it anytime).
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/colorvariables_ph.png" height="auto"><source src="/public/colorvariables.mp4" type="video/mp4"></video>
 
-**Organizing color variables**
+For details about color variables, click <a href="https://lunacy.docs.icons8.com/variables/" target="_blank">here</a>.
 
-You can organize color variables just like components and styles. To create groups, simply use slashes in the variable names.
-
-**Applying a Color Variable to a Layer**
-
-1. Select the layer you want to style.
-2. Choose the color variable from the color dropdown in the right panel.
-
-**Editing and managing variables**
-
-- To edit a variable, click ![settings icon](/public/settingsicon.png) next to it in the left panel.
-- To delete or rename a variable or group, right-click the variable in the left panel and choose the desired option from the context menu.
 
 ### Improvements and fixes
 
-- Some improvements to the AI Rename feature.
+- Some improvements to the *AI Name Layer* feature.
 - Reworked the code behind the input fields for better user experience.
 
--->
+
 
 ## 10.5
 

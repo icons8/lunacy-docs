@@ -24,6 +24,8 @@ doks:
       url: '/text'
     - title: 'Styling'
       url: '/styling'
+    - title: 'Color variables'
+      url: '/variables'  
     - title: 'Layer and text styles'
       url: '/layerstyles/'
     - title: 'Components'

@@ -15,8 +15,8 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Components
-        url: '/components'
+        content: Color variables
+        url: '/variables'
     prev:
         content: Text
         url: '/text'

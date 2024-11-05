@@ -57,6 +57,10 @@ grid_navigation:
       excerpt: Learn about tools that will help you create your unique style
       url: '/styling'
       icon: 'design'
+    - title: 'Color variables'
+      excerpt: How to create and manage color variables
+      url: '/variables'
+      icon: 'paint-palette'
     - title: 'Layer and text styles'
       excerpt: Learn how to speed up your work with layer and text styles
       url: '/layerstyles/'
