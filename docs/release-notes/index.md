@@ -42,7 +42,7 @@ To install the Beta version:
 
 We've introduced the **Variables** tab in the left panel, where you can now manage **color variables**. Soon, we’ll be adding other variable types too.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/colorvariables_ph.png" height="auto"><source src="/public/colorvariables.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/colorvariables_ph.png" height="auto"><source src="/public/colorvariables_rn.mp4" type="video/mp4"></video>
 
 For details about color variables, click <a href="https://lunacy.docs.icons8.com/variables/" target="_blank">here</a>.
 
