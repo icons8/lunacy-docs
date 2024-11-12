@@ -27,7 +27,7 @@ Color variables are reusable **solid** color presets that help you maintain colo
 
 Color variables can also be organized into groups, similar to <a href="https://lunacy.docs.icons8.com/components/" target="_blank">components</a> and <a href="https://lunacy.docs.icons8.com/layerstyles/" target="_blank">styles</a>, making it simple to switch or edit colors across your design project.
 
-By default, the **Variables** tab is populated with the variables from the document <a href="https://lunacy.docs.icons8.com/layerstyles/#color-palettes-and-auto-shape-colors" target="_blank">palette</a>. However, you're free to delete them, and create your own color variables.
+By default, the **Variables** tab is populated with the variables from the document [palette](#color-palettes-and-auto-shape-colors). However, you're free to delete them, and create your own color variables.
 
 
 ## Creating a color variable
@@ -68,3 +68,18 @@ To create groups:
 <div class="callout callout--info">
     <p><strong>Note:</strong> If a color variable has an auto-assigned name, it will update automatically when you edit the color. If you’ve set a custom name, the name will stay the same. </p>
 </div>
+
+
+## Color palettes and auto shape colors
+
+All newly created documents have a color palette which includes document color variables for main, accent, background, and text colors. Deselect all layers to see the palette in the right panel and press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" > to generate a new palette. 
+
+To change palette colors manually, click on the color circles to open the color picker. 
+
+If you want the default shape color to be the usual gray, delete all color variables by pressing <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" />.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styles_palette_ccolors.png" height="auto"><source src="/public/styles_palette_ccolors.mp4" type="video/mp4"></video>
+
+Using the document color palette, Lunacy applies color to shapes automatically depending on their size and predicted purpose. Larger shapes have background colors while smaller elements are assigned primary or accent colors.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_shape_colors.png" height="auto"><source src="/public/tips_tricks_auto_shape_colors.mp4" type="video/mp4"></video>

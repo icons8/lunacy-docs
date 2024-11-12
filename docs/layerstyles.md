@@ -22,56 +22,27 @@ page_nav:
         url: '/variables'
 ---
 
-Layer and text styles are predefined sets of layer and text properties that you can reuse in your designs. With the help of styles you can dramatically save your time and make your designs look more professional and consistent.  When you modify a style, Lunacy immediately applies them to all the layers using this style.
+Layer and text styles are sets of predefined properties (fills, borders, effects) that you can use to speed up your design workflow and ensure a consistent look throughout your projects. When you update a style, all associated layers automatically reflect the changes.
 
-You will store your custom layer and text styles on the **Styles** tab.
+The only difference between layer and text styles is that the latter also include typography properties like font, size, line spacing, etc.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-mainview.png" height="auto"><source src="/public/styles-mainview.mp4" type="video/mp4"></video>
+You can manage and organize styles in the **Styles** tab.
 
+### Creating styles
 
-## [Layer styles](#layer-styles)
+There are two ways of creating styles.
 
-Layer style properties include:
+**Way 1.** Select a layer with the properties you're likely to reuse and save them as a style.
 
-* Fills
-* Borders
-* Shadows
-* Inner shadows
-* Blurs
+**Way 2.** Click `+` in the **Styles** list and define all the required properties.
 
-They appear in the Inspector when you select a layer.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_styles_ph.png" height="auto"><source src="/public/creating_styles.mp4" type="video/mp4"></video>
 
-![Layer properties](public/properties_new1.png)
+### Applying styles
 
-For details on styling properties, refer to the <a href="https://lunacy.docs.icons8.com/styling" target="_blank">Styling</a> section of our documentation.
+Select the required layer or several layers, then choose the style you want to apply from the right panel.
 
-### Adding a layer style
-
-There are two ways of adding layer styles.
-
-**Way 1.** By clicking the plus icon in the left panel and defining all the required properties in the Inspector.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-wayoneph.png" height="auto"><source src="/public/layerstyles-wayone.mp4" type="video/mp4"></video>
-
-**Way 2.** By first defining the properties of a layer and then saving them as a style. 
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-waytwoph.png" height="auto"><source src="/public/layerstyles-waytwo.mp4" type="video/mp4"></video>
-
-
-### Applying styles to layers
-
-Click the required layer and select the style you want to apply to it from the menu in the Inspector.
-
-![Applying styles](public/applyingstyles_new1.png)
-
-Optionally, after selecting the layer you can click the required style in the left panel and then click the replacement icon as shown below.
-
-![Applying styles. Way 2](public/applyingstyles2_new1.png)
-
-You can also apply a style to multiple selected layer at a time (see the demo below).
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-applyph.png" height="auto"><source src="/public/layerstyles-apply.mp4" type="video/mp4"></video>
-
+Optionally, you can apply styles using the left panel (watch the video above).
 
 ### Modifying a layer style
 
@@ -79,43 +50,44 @@ There are two ways to modify a style.
 
 **Way 1.**
 
-1. Switch to the **Styles** tab, then click the style you want to modify. The **Edit Layer Style** panel appears on the right.
-2. Use the panel to make the required changes.
-3. Click the **Save** button below the preview window. To discard all changes that you have made but have not saved yet, use the **Reset** button.
-
-![Modifying a layer style](public/modifystyle_new11.png)
+1. Switch to the **Styles** tab, then click the style you want to modify
+2. In the displayed panel, make the required changes.
+3. Close the panel to apply changes.
 
 **Way 2.**
 
 1. Select a layer using the style you want to modify.
-2. Make the required changes in the Inspector. When you are done, you will see an asterisk (*) next to the style name in the Inspector. It indicates that changes have been made to the style.
+2. Make the required changes in the right panel. When you are done, you will see an asterisk (*) next to the style name in the right panel. It indicates that changes have been made to the style.
 
-    ![Modifying a layer style](public/modifystyle_new22.png)
+    <embed type="image/svg+xml" alt="editing_style" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/14zxECrRDUSbcciXXjl2PQ.svg" /> 
+
 
 3. Use one of the following options:
 
-    * **Create New Layer Style** (1): Saves the changes to a new style.
-    * **Update Style** (2): Saves the changes to the existing style.
-    * **Reset Style** (3) : Discards all changes that you have made.
+    * **Update Style** (<embed type="image/svg+xml" alt="Checkmark" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/lQA_atI7Bk-0aprvMzlB5w.svg" />): Saves the changes to the existing style.
+    * **Create New Layer Style** (<embed type="image/svg+xml" alt="Plus" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_rTigJIyfUmibMI3iRNl5Q.svg" />): Saves the changes to a new style.
+    * **Reset Style** (<embed type="image/svg+xml" alt="Reset" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/-CkP9OjHL0Kz5Vxza54Eig.svg" />) : Discards all changes that you have made.
 
 
 ### Detaching a style
 
 Select the required layer and click the **Detach style** button shown below.
 
-![Detaching a style](public/detaching1.png)
+<embed type="image/svg+xml" alt="detaching_style" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/9IaLOhrj3kaLEqqUJV4FKw.svg" /> 
+
 
 The appearance of the layer remains the same, but it is no longer associated with the style and further changes to the style will not affect the layer.
 
 ### Organizing styles
 
-It is a good practice to organize styles into categories similar to those shown in the figure below.
+It is a good practice to organize styles into groups similar to those shown in the figure below.
 
-![Layer style categories](public/layers-organizing1.png)
+<embed type="image/svg+xml" alt="organizing_styles" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/H7X3965HHUWrgLYs26FQLA.svg" /> 
 
-To divide your styles into categories, consider the following format of style names:
 
-`Category name / Subcategory name / Style name`  
+To organize your styles into groups, consider the following format of style names:
+
+`Group name / Subgroup name / Style name`  
 
 For example, to organize your styles of backgrounds, you can give them the following names:
 
@@ -123,18 +95,21 @@ For example, to organize your styles of backgrounds, you can give them the follo
 * Backgrounds / Dark
 * etc.
 
-You don't need to manually create categories and subcategories. Lunacy will show them automatically based on style names. The number of nesting levels for subcategories is not limited.
+The number of nesting levels for subgroups is not limited.
 
-To rename a style:
+Another way of organizing styles:
 
-1. In the left panel, right-click the style and select **Rename** on the displayed menu or press  `F2`, if you prefer shortcuts.
+1. Holding down `Shift`, select styles in the left panel.
+2. Right-click.
+3. On the context menu, click **Group**.
+4. Rename the group to the desired name.  
+
+To rename a style or a style group:
+
+1. Double-click over the style/group.
 2. Type the new name and press `Enter`.
 
-To rename a style category, right-click the category you want to rename and select the respective command on the displayed menu.
-
-Style categories and styles appear in the A-Z order in the left panel.
-
-To unfold/fold the content of all style categories, right-click anywhere over the category list and select **Expand All/Collapse All** on the displayed menu.
+Style groups and styles appear in the A-Z order in the left panel.
 
 ### Duplicating styles
 
@@ -159,68 +134,5 @@ To copy styles between documents:
 4. Open the **Styles** tab.
 5. Right-click over the left panel and select **Paste style** on the displayed menu.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layerstyles-copyph.png" height="auto"><source src="/public/layerstyles-copy.mp4" type="video/mp4"></video>
-
-### Deleting styles and categories
-
-To delete a style:
-
-* Click the style in the list and press `Delete`.
-
-    OR
-* Right-click the style in the list and select **Delete** on the displayed menu.
-
-To delete a style category, right-click the category you want to delete and select the respective command on the displayed menu.
-
-Also, you can select and delete several styles at a time.
-
-## Color palettes and auto shape colors
-
-All newly created documents have a color palette which includes document color variables for main, accent, background, and text colors. Deselect all layers to see the palette in the right panel and press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" > to generate a new palette. 
-
-To change palette colors manually, click on the color circles to open the color picker. 
-
-If you want the default shape color to be the usual gray, delete all color variables by pressing <embed type="image/svg+xml" alt="delete_button" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/kZ6IazBibE-dMPVUiDhphA.svg" width="12" />.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/styles_palette_ccolors.png" height="auto"><source src="/public/styles_palette_ccolors.mp4" type="video/mp4"></video>
-
-Using the document color palette, Lunacy applies color to shapes automatically depending on their size and predicted purpose. Larger shapes have background colors while smaller elements are assigned primary or accent colors.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_shape_colors.png" height="auto"><source src="/public/tips_tricks_auto_shape_colors.mp4" type="video/mp4"></video>
-
-**See also:**
-<br>
-<a href="https://lunacy.docs.icons8.com/tools/#shape-tools">Shape tools</a>
-
-## Text styles
-
-The only difference between text styles and [layer styles](#layer-styles)  is that in addition to such properties as fills, shadows and blurs, text styles also feature a set of typography properties that include font size, font family, line spacing and others. All the procedures with text styles are the same as in layer styles.
-
-![Text styles](public/layerstyles-text.png)
-
-See also the <a href="https://lunacy.docs.icons8.com/text/" target="_blank">Text</a> section for tips on working with text layers.
-
-## External styles
-
-You can make use of layer and text styles from UI kits supplied with Lunacy or your own files. In the latter case you should first add this file to the **UI Kits** library. For details about UI kits, click <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">here</a>.
-
-To apply an external style to a layer:
-
-1. Select the layer on the canvas.
-2. In the **Appearance** section of the Inspector, click the down arrowhead to invoke the menu.
-3. In the **UI kits** section of the menu, navigate to the required style.
-
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/layerstyles-externalph.png" height="auto"><source src="/public/layerstyles-external.mp4" type="video/mp4"></video>
-
-You cannot make changes to external styles, but you can use the **Unlink from Library** feature. This feature will add a copy of the style you need to your document assets, i.e. to the list of your layer or text styles. After that, you can do whatever you want with the unlinked style as with any other style within your document.
-
-There are two ways to unlink styles:
-
-**Way 1.** Select a layer with the style you want to unlink, then click **Unlink from Library** in the Inspector.
-
-**Way 2.** Select a style or several styles in a UI kit, then right-click and select **Unlink from Library** on the context menu.
-
-The demo below shows both these methods.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/layerstyles-externalunlinkph.png" height="auto"><source src="/public/layerstyles-externalunlink.mp4" type="video/mp4"></video>
+Also, if you're working with a cloud document, you can consider <a href="https://lunacy.docs.icons8.com/sharedlibraries/" target="_blank">sharing styles</a>.
 
