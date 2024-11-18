@@ -29,13 +29,11 @@ page_nav:
 
 # Version 10
 
-## 10.6 Beta
+## 10.6
 
-To install the Beta version:
+*Release date: November 18, 2024*
 
-1. In Lunacy, go to **Help** > **About**.
-2. In the displayed window, select the **Check for Beta Udates** checkbox.
-3. Click **Download**, then click **Install**.
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.6.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.6.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.6.deb)
 
 
 ### Color variables
@@ -58,7 +56,7 @@ For details about color variables, click <a href="https://lunacy.docs.icons8.com
 
 *Release date: October 23, 2024*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.5.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.5.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.deb)
 
 In this version, we're introducing a preview of a few experimental AI-based features. All the features are accessible through the main and context menus.
 
