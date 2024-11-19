@@ -44,6 +44,8 @@ We've introduced the **Variables** tab in the left panel, where you can now mana
 
 For details about color variables, click <a href="https://lunacy.docs.icons8.com/variables/" target="_blank">here</a>.
 
+<div class="callout callout--info">
+<p><strong>Note:</strong> The color palette also moved to the <b>Variables</b> tab, so now all the color variables are in the same place.</p></div>
 
 ### Improvements and fixes
 
