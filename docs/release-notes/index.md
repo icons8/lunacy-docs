@@ -29,11 +29,24 @@ page_nav:
 
 # Version 10
 
+## 10.7
+
+*Release date: November 23, 2024*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.7.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.7.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.7.deb)
+
+### Improvements and fixes
+
+- Improved hardware compatibility.
+- Fixed critical bug of images loss on each save.
+- Improved startup time on macOS.
+
+
 ## 10.6
 
 *Release date: November 18, 2024*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.6.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.6.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.6.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.6.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.6.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.6.deb)
 
 
 ### Color variables
