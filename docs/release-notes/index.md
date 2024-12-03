@@ -29,11 +29,27 @@ page_nav:
 
 # Version 10
 
+
+## 10.9
+
+*Release date: December 3, 2024*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.9.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.9.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.9.deb)
+
+### Improvements and fixes
+
+- PDF import performance increased. Arrangement of pages to grid, if pages count is more than 8, and all of them have equal size
+- SVG import fixes
+- Effects rendering issues fixed
+- Minor UI improvements
+- Better calculation of boolean operations for masks
+
 ## 10.8
 
 *Release date: November 29, 2024*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.8.0.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.8.0.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.8.0.deb)
+
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.8.0.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.8.0.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.8.0.deb)
 
 ### Improvements and fixes
 
