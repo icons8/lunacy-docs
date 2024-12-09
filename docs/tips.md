@@ -124,6 +124,7 @@ Toggle the **Smart Layer list** to only display the layers that you currently se
 
 This is useful for really large documents with hundreds or even thousands of layers, when you need to focus on just one area of the canvas. 
 
+<!--
 #### Color palettes and auto shape colors
 
 Every time you create a new document, Lunacy generates a palette with document color variables including main, accent, background, and text colors. Deselect all layers to see it in the right panel and press <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg" width="16" > to generate a new palette. 
@@ -135,6 +136,8 @@ To change palette colors manually, click on the color circles to open the color 
 Using the document color palette, Lunacy colors [shapes](#shape-shortcuts) automatically depending on their size and predicted purpose (larger shapes have background colors while smaller elements are assigned primary or accent colors).
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/tips_tricks_auto_shape_colors.png" height="auto"><source src="/public/tips_tricks_auto_shape_colors.mp4" type="video/mp4"></video>
+
+-->
 
 #### Auto Z-index
 
