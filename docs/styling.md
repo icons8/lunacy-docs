@@ -135,6 +135,8 @@ The color picker displays these settings:
 
 **Add color preset.** Use this button to add the currently selected color to **Global** or **Document** presets.
 
+<!--
+
 #### Color variables
 
 With **color variables**, you can efficiently manage colors in your documents and instantly recolor all the layers using the same variable. You can use color variables for fills, borders, and shadows.
@@ -188,6 +190,8 @@ Using the document color palette, Lunacy applies color to shapes automatically d
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/styling_auto_shape.png" height="auto"><source src="/public/styling_auto_shape.mp4" type="video/mp4"></video>
 
 If you want the default shape color to be the usual gray, **delete all palette colors** by pressing <embed type="image/svg+xml" alt="Delete_button" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/mzlutszh_UmV3L0QGqvUfg.svg" width="20" > next to each one.
+
+-->
 
 ### Fill types
 
