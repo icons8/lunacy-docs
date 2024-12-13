@@ -29,12 +29,23 @@ page_nav:
 
 # Version 10
 
+## 10.10
+
+*Release date: December 13, 2024*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.10.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.10.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.10.deb)
+
+### Improvements and fixes
+
+- Huge rendering performance improvement. 60fps in places where was 1-10fps
+- Fix of critical save file issue on macOS
+- App update experience improved on macOS
 
 ## 10.9
 
 *Release date: December 3, 2024*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.9.0.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.9.0.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.9.0.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.9.0.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.9.0.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.9.0.deb)
 
 ### Improvements and fixes
 
