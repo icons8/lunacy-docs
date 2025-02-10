@@ -194,7 +194,6 @@
 "Cmd+Alt+Shift+Num+": "IncreaseAppScale",
 "Cmd+Alt+Shift+Num0": "ResetAppScale",
 "Unused": [
-  "Custom",
   "CopyPrototyping",
   "PastePrototyping",
   "CopyAutoLayout",
