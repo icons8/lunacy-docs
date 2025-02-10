@@ -193,5 +193,21 @@
 "Ctrl+Alt+Shift+T": "Tidy",
 "Ctrl+Alt+Shift+Num-": "DecreaseAppScale",
 "Ctrl+Alt+Shift+Num+": "IncreaseAppScale",
-"Ctrl+Alt+Shift+Num0": "ResetAppScale"
+"Ctrl+Alt+Shift+Num0": "ResetAppScale",
+"Unused": [
+  "Custom",
+  "CopyPrototyping",
+  "PastePrototyping",
+  "CopyAutoLayout",
+  "PasteAutoLayout",
+  "CopyGridLayout",
+  "PasteGridLayout",
+  "DetachComponentFromLibrary",
+  "StrikeThrough",
+  "CheckBoxTool",
+  "RadioButtonTool",
+  "Find",
+  "AddCopy",
+  "RemoveCopy"
+]
 }
