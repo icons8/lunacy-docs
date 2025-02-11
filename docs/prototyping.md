@@ -24,8 +24,6 @@ page_nav:
 
 Prototypes make your design interactive, letting you communicate both aesthetics and user experience.
 
-Prototyping is based on linking <a href="https://lunacy.docs.icons8.com/layers/#frames" target="_blank">frames</a> and creating interactive zones, or <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a>, on your designs so you can preview how your interface behaves based on user actions.
-
 ## Creating a prototype
 
 <div class="callout callout--info">
