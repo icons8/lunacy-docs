@@ -22,48 +22,132 @@ page_nav:
         url: '/export'
 ---
 
-You can build **prototypes** to test and polish the UX of your designs before sending them over to development.
+Prototypes make your design interactive, letting you communicate both aesthetics and user experience.
 
 Prototyping is based on linking <a href="https://lunacy.docs.icons8.com/layers/#frames" target="_blank">frames</a> and creating interactive zones, or <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">hotspots</a>, on your designs so you can preview how your interface behaves based on user actions.
+
+## Creating a prototype
 
 <div class="callout callout--info">
     <p><strong>Note:</strong> If you are planning to add prototyping to your project, the use of frames is a must.</p>
 </div>
 
-## Creating a prototype
+To create a prototype, you typically need three key elements:  
 
-### [Linking frames](#linking-frames)
+- **Hotspot** – an interactive zone that triggers an action. It can be an entire frame or a specific element within a frame, like a button or menu option. You can turn any selected frame or element into a hotspot by pressing `H` or clicking `+` in the Prototyping section of the right panel.  
 
-The easiest way to **create a prototype** is to add a link from one frame to another.
+  You can also create dedicated hotspot layers, which are useful when an element is too small to interact with comfortably. By adding a hotspot layer over it, you can enlarge the clickable area. To do this, select the **Hotspot tool** from the toolbar (or press `H` when nothing is selected) and draw the hotspot layer wherever needed.  
 
-<embed type="image/svg+xml" alt="simple_prototype_frames" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/2PcGpD263kmR3w3IBSVKlQ.svg" width="844" /> 
+- **Connection** – a visual arrow that links the hotspot to its destination, defining the flow of the interaction.  
 
-Here’s how it works:
+- **Destination** – the target frame or a specific location within a frame where the interaction will take the user.  
 
-1. On a frame, select a layer for the user to interact with (e.g. a button).
-2. In the right panel, click `+` next to the **Prototyping** section. An arrow-shaped prototyping link will appear.
-3. Point the arrow to the target frame and click or use the **Target** dropdown list in the **Prototyping** section to set the target frame. With that, you have a basic prototype with a layer linked to a frame.
-4. To make it a bit more versatile, we repeat the steps above and create a link from a layer in the second frame to **Frame 1**.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_linking_frames.png" height="auto"><source src="/public/prototyping_linking_frames.mp4" type="video/mp4"></video>
+The video below shows an example of creating a simple prototype.
 
-## Previewing prototypes
+<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_linking_frames.png" height="auto"><source src="/public/simpleprototypev11.mp4" type="video/mp4"></video>
 
-To **preview a prototype**, select the frame you want to start with and click the **Play** button (<embed type="image/svg+xml" alt="Play" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HD-TYiNcVEy5Npo_ePOa8w.svg" width="20" />) at the top right corner of the interface. The preview window will show up in your default browser.
+What happens in the video:  
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_preview.png" height="auto"><source src="/public/prototyping_preview.mp4" type="video/mp4"></video>
+1. We select **Frame 1**, click `+` in the **Prototyping** section, and link it to **Frame 2**. This makes the entire frame interactive—clicking anywhere on it (default action) navigates to Frame 2.  
+2. In **Frame 2**, we create a **hotspot** over the icon and text block, grouping them into a single interactive zone. We then link this hotspot back to **Frame 1**.  
+3. Pressing `F5` opens the **prototype player**. Clicking anywhere in Frame 1 takes us to Frame 2. If we click outside the interactive zone in Frame 2, the player highlights the clickable area.  
+4. Pressing `Esc` exits the prototype player.  
 
-You can link your frames in any sequence you need to test the user flow for your interfaces.
+The **Prototyping** section offers various settings to help you design more complex prototypes with diverse animations, transitions, and interaction flows.
 
-### Commenting on prototype previews
+## Prototyping settings
 
-To **comment on a prototype** right from the browser, log in to your Lunacy account. The **Log in** button appears once you hover the cursor at the top of the prototype window to display the top bar.
+When setting up an interaction in your prototype, think of it as answering a few key questions:
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_login.png" height="auto"><source src="/public/prototyping_login.mp4" type="video/mp4"></video>
+* **On what event?** (Trigger)
+* **What happens?** (Action)
+* **If it moves, where to?** (Destination)
+* **What does it look like?** (Animation)
+* **What happens if it is scrolled?** (Behavior on scroll)
 
-To comment, click the **Comment** button on the top bar, leave a comment, then click <embed type="image/svg+xml" alt="Sent" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/n8l4ALF8uEizCWAyrGB8oQ.svg" width="20" /> or press `Shift + Enter` to post it.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_comment.png" height="auto"><source src="/public/prototyping_comment.mp4" type="video/mp4"></video>
+The figure below explains the prototyping settings. Experimenting with these options will bring your designs to life with natural interactions.
+
+<embed type="image/svg+xml" alt="prototyping_settingsv11" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/y4w8lTEO4UeyEQCWaUYfmA.svg" /> 
+
+
+### Triggers
+
+Triggers define what starts an interaction in your prototype.
+
+| **Trigger**        | **What it does**                                    | **Example use case**                         |
+|--------------------|--------------------------------------------------|--------------------------------------------|
+| **On click**      | Activates when the user clicks on an element.     | Toggle a dropdown menu when clicking a button. |
+| **On drag**       | Triggers when an element is dragged.              | Swipe between frames.             |
+| **While hovering** | Runs as long as the cursor stays over an element. | Change the color of a button when hovered. (You'll need to have a component with different states to switch between them)|
+| **While pressing**| Active while the user holds down a click or key.  | Show an animation while pressing a button. |
+| **Key**           | Responds to a specific keyboard input.            | Press "Esc" to close a popup window.       |
+| **Mouse enter**   | Fires when the cursor moves over an element.      | Expand a sidebar when the cursor enters its area. |
+| **Mouse leave**   | Fires when the cursor moves away from an element. | Collapse a sidebar when the cursor leaves it. |
+| **Mouse up**      | Triggers when a pressed mouse button is released. | Releasing the mouse dismisses a pop-up window. |
+| **Mouse down**    | Triggers when a mouse button is pressed.          | Pressing a card makes it pop out slightly. |
+| **After delay**   | Runs automatically after a set time.              | Show a notification after a few seconds.   |
+
+### Actions
+The action determines what happens next in the prototype after a trigger.
+
+| **Action type**    | **What it does**                              | **Example use case**                                  |
+|-------------------|----------------------------------|--------------------------------------------------|
+| **Navigate to**   | Moves the user to another frame.          | Clicking a button takes the user to a different screen. |
+| **Scroll to**     | Scrolls to a specific section within the same frame. | Clicking "Back to top" smoothly scrolls to the top of the page. |
+| **Open URL**      | Opens an external link in a browser.       | Clicking a "Learn more" button takes the user to a website. |
+| **Back**         | Returns to the previous screen. This action type requires no links.        | A "Back" button navigates to the last visited frame. |
+| **Open overlay**  | Displays a floating layer over the current screen. | Tapping "Delete" opens a warning. |
+| **Swap overlay**  | Replaces the current overlay with another one. | Switching between different steps of a multi-step form. |
+| **Close overlay** | Hides the currently active overlay.       | Clicking "X" closes  a pop-up window. |
+
+
+### Destinations
+
+The destinations dropdown (<embed type="image/svg+xml" alt="Icon 24" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/eADidnPOo0GeElwzqXhkFg.svg" /> 
+) lists all available frames in the document, including those on other pages. Keeping frame names clear and organized is a good practice, especially in large projects—it will save you time when selecting the right frame.
+
+<div class="callout callout--info">
+    <p><strong>Tip:</strong> Hovering over a frame in the list will automatically zoom to it.</p>
+</div>
+
+### Animations
+
+Animations define how transitions between frames happen, adding fluidity to interactions. Below is a breakdown of the available animation types and their configuration options.
+
+| **Animation type**  | **What it does**                                       | **Example use case**                                    | **Adjustable settings** |
+|--------------------|------------------------------------------------|------------------------------------------------|------------------|
+| **Instant**       | Changes the frame immediately, with no transition. | Best for quick jumps between screens without visual effects. | None |
+| **Dissolve**      | Fades the current frame into the next one.         | Smooth transitions for modals, pop-ups, or scene changes. | - Effects  <br> - Duration |
+| **Move In / Out** | Moves the new frame in or the old frame out from a specified direction. | Creating a slide-in menu or overlay effect. | - Effects  <br> - Direction  <br> - Duration |
+| **Push**         | Shifts the current frame out while bringing in the new one from the same direction. | Mimicking page transitions in mobile apps. | - Effects  <br> - Direction  <br> - Duration |
+| **Slide In / Out** | Slides a frame into or out of view without affecting other elements. | Great for sidebars, notifications, or contextual menus. | - Effects  <br> - Direction  <br> - Duration |
+
+You can preview how an animation will look and feel by hovering over the preview pane in the prototyping settings.
+
+
+#### Animation effects
+
+You can choose between the following animation effects:  
+- **Linear** – moves at a steady pace without acceleration.  
+- **Ease In** – starts slow and gradually speeds up.  
+- **Ease Out** – moves quickly at first, then slows down before stopping.  
+- **Ease In and Out** – combines both effects: begins slowly, accelerates in the middle, and slows down again.
+- **Gentle** – creates a smooth, gradual transition for a soft feel.  
+- **Quick** – moves rapidly for a snappy, responsive effect.  
+- **Slow** – prolongs the transition for a more relaxed motion.  
+- **Bouncy** – adds a playful, spring-like motion to the animation.   
+- **Custom** – opens the Bézier curve editor, allowing you to fine-tune the acceleration and deceleration of an animation.
+
+### **Behavior on scroll**  
+
+These options determine how an element behaves when users scroll the prototype:  
+
+- **Scroll** – the element moves along with the rest of the content as users scroll.  
+- **Fixed** – the element stays in place while the background scrolls (e.g., floating buttons, support chat bubbles).  
+- **Sticky** – the element scrolls normally but becomes fixed once it reaches the top of the prototype.  
+- **Keep Scroll Position** – selecting this checkbox, ensures the prototype maintains the current [scroll position](#scrollable-prototypes) when navigating between screens, preventing it from resetting to the top.  
 
 ### Scrollable prototypes
 
@@ -77,59 +161,45 @@ To **create a scrollable prototype**:
 1. Create a frame using a preset.
 2. Resize the frame vertically. Resized frames have the label **Resized** in the right panel:
 
-    <embed type="image/svg+xml" alt="resized_frame" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/EnFH9_mOfk6clL5HPibl1w.svg" /> 
+    <embed type="image/svg+xml" alt="Rezsized frame" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/GOdSpBpfskmcQGujzSMcPA.svg" /> 
 
 3. Fill the frame with content and link it with other frames.
 
 Preview the prototype as usual and scroll down to test out the interface.
 
-## Hotspots
+## Previewing prototypes
 
-**Hotspots** are another convenient way to link frames for prototyping. These are special types of layers that acts as an interactive zone anywhere on a frame.
+To **preview a prototype**, select the frame you want to start with and click the **Play** button (<embed type="image/svg+xml" alt="Play" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HD-TYiNcVEy5Npo_ePOa8w.svg" width="20" />) at the top right corner of the interface.
 
-Hotspots come in handy when the size of an element you want to make interactive or tappable is too small for comfortable use. By adding a hotspot, you can enlarge the interactive area around the layer.
+If you want to always preview your prototype from a certain frame:
 
-You can also use hotspots as parts of components and override their targets as needed.
+1. Left-click over the frame.
+2. On the context menu, select **Set as Start Point**.
+3. Before running the prototype player, make sure that nothing is selected.
 
-There are two ways to **add a hotspot**:
+<div class="callout callout--info">
+    <p><strong>Note:</strong> Selected frames override start points.</p>
+</div>
 
-- Use the <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspot tool</a>.
-- Select a layer linked to a frame, then click **Create separate hotspot layer** (<embed type="image/svg+xml" alt="create_separate_hotspot_layer" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/SaJ58Eks1Eqd3YhpYbWFkA.svg" width="20" />) in the **Prototyping** section of the right panel. This creates a hotspot of the same size as the selection frame around the layer. You can resize it as you need by dragging the layer’s bounding box handles.
+To exit the prototype player, click <embed type="image/svg+xml" alt="Play" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HD-TYiNcVEy5Npo_ePOa8w.svg" width="20" /> again, or press `Esc`.
 
-<video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/prototyping_hotspots.png" height="auto"><source src="/public/prototyping_hotspots.mp4" type="video/mp4"></video>
 
-This is how hotspots and linked layers appear in the Layer list:
+## Sharing prototype previews
 
-<embed type="image/svg+xml" alt="hotspots_in_layer_list" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/KCIGLOOhSUm3ATcGhwPdKw.svg" width="844" /> 
+<div class="callout callout--info">
+    <p><strong>Note:</strong> This feature is available only in cloud documents. To turn a local document into cloud, click <embed type="image/svg+xml" alt="Upload to cloud" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/mhDIDVDjc0yEpQTt-4nylQ.svg" /> 
+on the top panel.</p>
+</div>
 
-To **hide/show hotspots and prototyping links on the canvas**, enable/disable the **Show prototyping** option in the **Additional options** menu on the top bar:
+To share a prototype on the web:
 
-<embed type="image/svg+xml" alt="prototyping_show_hide" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/kjIhPF4fKkOEfpSpQkaHBg.svg" width="844" /> 
+1. Click <embed type="image/svg+xml" alt="Play" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/HD-TYiNcVEy5Npo_ePOa8w.svg" width="20" /> or press `F5` to start the prototype player.
+2. In the top right corner of the player click **Share**, then click **Copy prototype link** to add the link to your clipboard.
+3. Send the link to your teammate or reviewer.
 
-To **delete a hotspot**, select it and press `Del`.
+<embed type="image/svg+xml" alt="Sharing prototype" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/coRUmvl4DU2CZJWjxg8jCA.svg" /> 
 
-To **see the prototype in action**, you’ll need to preview it.
 
-## Prototyping settings
+People working with the web prototype can leave comments. Before doing this, they will need to log in or sign up.
 
-Here are the settings that appear in the **Prototyping** section of the right panel when you select a layer linked to a frame or a hotspot:
 
-<embed type="image/svg+xml" alt="prototype_settings" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/l5X9rZHOmUuYcNPAOfnRkA.svg" width="844" /> 
-
-**Create separate hotspot layer.** Click it to create a hotspot over the selected layer.
-
-**Remove link from layer.** Deletes the prototyping setting for the selected layer or deletes the selected hotspot.
-
-**Target frame.** Displays the current target frame of the selected layer/hotspot. Open it to change the target frame and view all of the frames available in the document. In multi-page documents, the frames in this list are organized by pages (you can link frames that are on different pages).
-
-Apart from the existing frames, the list has two more options:
-- *None* → sets a null target.
-- *Previous frame* → clicking a layer with this target redirects you back to the previous view.
-
-**Go to hotspot target.** Clicking this button redirects you to the frame set as the target frame for the selected layer.
-
-**Transition animations.** Determine the type of animation for the transitions between frames in the prototype.
-
-**Fix the frame position on scroll.** Enable this setting if you want the selected layer to preserve its position when you scroll the screen (for instance, a floating button).
-
-**Maintain scroll position after click.** With this checkbox enabled, scrollable frames preserve their position during the prototype preview. When you get back to the frame, it will be in the same position you left it. With the checkbox cleared, the frame will always return to the top.
