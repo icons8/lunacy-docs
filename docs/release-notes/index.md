@@ -62,7 +62,7 @@ Quickly unlock all locked layers within a selection using `Ctrl/Cmd+Shift+Alt+L`
 
 ### Deep detach
 
-Detach all nested instances instantly with the `Ctrl/Cmd+Shift+Alt+B` shortcut, or use the **Deep Detach Instances** command from the context menu.
+Quickly detach all nested instances with the `Ctrl/Cmd+Shift+Alt+B` shortcut, or use the **Deep Detach Instances** command from the context menu.
 
 ### Copy-pasting properties
 
