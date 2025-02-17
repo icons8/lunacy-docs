@@ -43,7 +43,7 @@ Teams are available for all registered users. You can create one team on the tri
 | Document viewers   | Unlimited    | Unlimited|
 | Version history     | Last 30 days           | Entire version history |
 | Deleted files      | Stored for 30 days       | Stored forever |
-| Team member limit  | Up to 3 (including the team owner)        | Add more members to your team as it grows (**$4.99 per user/month**) |
+| Team member limit  | Up to 3 (including the team owner)        | Add more members to your team as it grows |
 | Other  | -      | A <a href="https://lunacy.docs.icons8.com/subscriptions/#personal-cloud-plan" target="_blank">personal cloud license</a> for the **team owner** |
 
 Once you decide to switch to the paid plan, click over the team name in the left panel of the **Home tab.** Click **Upgrade plan** and follow the instructions.

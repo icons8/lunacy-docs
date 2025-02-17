@@ -103,8 +103,7 @@ The action determines what happens next in the prototype after a trigger.
 
 ### Destinations
 
-The destinations dropdown (<embed type="image/svg+xml" alt="Icon 24" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/eADidnPOo0GeElwzqXhkFg.svg" /> 
-) lists all available frames in the document, including those on other pages. Keeping frame names clear and organized is a good practice, especially in large projects—it will save you time when selecting the right frame.
+The destinations dropdown (<embed type="image/svg+xml" alt="Icon 24" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/eADidnPOo0GeElwzqXhkFg.svg" />) lists all available frames in the document, including those on other pages. Keeping frame names clear and organized is a good practice, especially in large projects—it will save you time when selecting the right frame.
 
 <div class="callout callout--info">
     <p><strong>Tip:</strong> Hovering over a frame in the list will automatically zoom to it.</p>
