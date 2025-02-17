@@ -27,6 +27,31 @@ page_nav:
         url: '/support'
 ---
 
+
+# Version 11
+
+## 11.0 Beta
+
+To install the beta version, go to **Help** > **About** > **Check for Beta Updates**.
+
+### Advanced prototyping
+
+We added new triggers and animations, so you can now create more complex prototypes. See the full details in the updated <a href="https://lunacy.docs.icons8.com/prototyping/" target="_blank">Prototyping guide</a>.
+
+
+
+### New font picker
+
+We redesigned the font picker to make working with fonts easier. Now you can:
+
+- Mark fonts as favorites for quick access.
+- Filter fonts by Google Fonts, document fonts, or favorites.
+- Filter by language (multiselect).
+- Show only monospaced fonts.
+
+### TIFF Support
+Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversion.
+
 # Version 10
 
 ## 10.11
@@ -37,7 +62,7 @@ page_nav:
 
 ### Improvements and fixes
 
-- Fix of server connection issues
+- Fixed server connection issues.
 
 ## 10.10
 
@@ -47,9 +72,9 @@ page_nav:
 
 ### Improvements and fixes
 
-- Huge rendering performance improvement. 60fps in places where was 1-10fps
-- Fix of critical save file issue on macOS
-- App update experience improved on macOS
+- Major rendering performance boost, achieving 60fps where it was previously 1-10fps.
+- Resolved critical file-saving issue on macOS.
+- Enhanced app update process on macOS for smoother experience.
 
 ## 10.9
 
@@ -59,11 +84,11 @@ page_nav:
 
 ### Improvements and fixes
 
-- PDF import performance increased. Arrangement of pages to grid, if pages count is more than 8, and all of them have equal size
-- SVG import fixes
-- Effects rendering issues fixed
-- Minor UI improvements
-- Better calculation of boolean operations for masks
+- PDF import is now faster. If a document has more than eight pages of equal size, they are arranged in a grid.  
+- Boolean operations for masks are now calculated more accurately.
+- Various minor UI improvements.
+- Effects now render correctly.
+- Fixed SVG import issues.  
 
 ## 10.8
 
@@ -74,9 +99,9 @@ page_nav:
 
 ### Improvements and fixes
 
-- New Pages Selector UI
-- Ability to translate text layer content with AI into any supported language
-- Critical bug fixes
+- New document page selector.
+- Text layers can now be translated into any supported language using AI. 
+- Several critical bugs were fixed.
 
 ## 10.7
 
@@ -87,8 +112,8 @@ page_nav:
 ### Improvements and fixes
 
 - Improved hardware compatibility.
-- Fixed critical bug of images loss on each save.
 - Improved startup time on macOS.
+- A critical bug causing image losses was fixed.
 
 
 ## 10.6
