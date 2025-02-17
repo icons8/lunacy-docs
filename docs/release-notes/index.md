@@ -54,6 +54,30 @@ We redesigned the font picker to make working with fonts easier. Now you can:
 ### TIFF Support
 Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversion.
 
+
+### Deep unlock
+
+Quickly unlock all locked layers within a selection using `Ctrl/Cmd+Shift+Alt+L` shortcut. You can also use the **Deep Unlock Selection** command from the **Layer** menu or on the context menu search.
+
+
+### Deep detach
+
+Detach all nested instances instantly with the `Ctrl/Cmd+Shift+Alt+B` shortcut, or use the **Deep Detach Instances** command from the context menu.
+
+### Copy-pasting properties
+
+Save time by copying and pasting these settings:
+
+* Prototyping
+* Auto layout
+* Layout grids
+
+Find the relevant commands under **Copy as** in the context menu.
+
+### Fixes
+
+- Fixed nearly 200 bugs.
+
 # Version 10
 
 ## 10.11
