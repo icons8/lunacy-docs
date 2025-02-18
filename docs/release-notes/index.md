@@ -51,18 +51,21 @@ We redesigned the font picker to make working with fonts easier. Now you can:
 - Filter by language (multiselect).
 - Show only monospaced fonts.
 
-### TIFF Support
-Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversion.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/favfonts2-ph.png" height="auto"><source src="/public/favfonts2.mp4" type="video/mp4"></video>
+
 
 
 ### Deep unlock
 
 Quickly unlock all locked layers within a selection using `Ctrl/Cmd+Shift+Alt+L` shortcut. You can also use the **Deep Unlock Selection** command from the **Layer** menu or on the context menu search.
 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/deepunlock-ph.png" height="auto"><source src="/public/deepunlock.mp4" type="video/mp4"></video>
+
 
 ### Deep detach
 
-Quickly detach all nested instances with the `Ctrl/Cmd+Shift+Alt+B` shortcut, or use the **Deep Detach Instances** command from the context menu.
+In a similar manner, you can quickly detach all nested instances with the `Ctrl/Cmd+Shift+Alt+B` shortcut, or use the **Deep Detach Instances** command from the context menu.
 
 ### Copy-pasting properties
 
@@ -73,6 +76,12 @@ Save time by copying and pasting these settings:
 * Layout grids
 
 Find the relevant commands under **Copy as** in the context menu.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/copygrid-ph.png" height="auto"><source src="/public/copygrid.mp4" type="video/mp4"></video>
+
+
+### TIFF Support
+Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversion.
 
 ### Fixes
 
