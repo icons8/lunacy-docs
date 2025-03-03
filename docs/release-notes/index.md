@@ -32,9 +32,18 @@ page_nav:
 
 # Version 11
 
-## 11.0 Beta
+
+## 11.1
 
 To install the beta version, go to **Help** > **About** > **Check for Beta Updates**.
+
+### Prototyping overlays
+
+## 11.0
+
+*Release date: March 4, 2025*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.0.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.0.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.0.deb)
 
 ### Advanced prototyping
 
@@ -93,7 +102,7 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 
 *Release date: January 15, 2025*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.11.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.11.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.11.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.11.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.11.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.11.deb)
 
 ### Improvements and fixes
 
