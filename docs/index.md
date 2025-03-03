@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Lunacy Documentation
-description: Welcome to the official Lunacy help page, a powerful graphic design software with full support for .sketch files.
+description: Welcome to the official Lunacy help page, a powerful privacy-focused graphic design software with collaboration.
 buttons:
     - content: VIEW ON GITHUB
       url: 'https://github.com/icons8/lunacy-docs'
