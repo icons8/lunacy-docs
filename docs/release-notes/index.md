@@ -33,11 +33,34 @@ page_nav:
 # Version 11
 
 
-## 11.1
+## 11.1 Beta
 
 To install the beta version, go to **Help** > **About** > **Check for Beta Updates**.
 
-### Prototyping overlays
+### Prototyping overlays  
+
+Added support for overlays in prototypes.  
+
+### Shared libraries  
+
+You can now disable auto-sync for shared libraries and sync them manually when needed. (Manual sync for specific components will be available later.) 
+
+### Pages list enhancements  
+
+You can now add more structure to your document pages using separators. To add a separator, create an empty page named “-” or right-click a page and select **Add Separator** to insert one. 
+
+### Disabling auto Z-index and auto shape colors 
+
+sOptions to disable **Auto Z-Index** and **Auto Shape Colors** were added to the **AI** menu.  
+
+
+### Fixes and improvements  
+- Improved image rendering to fix antialiasing issues.  
+- Fixed drag-and-drop functionality on macOS.  
+- Improved rounding of floating values after certain operations.  
+- Fixed various SVG import issues.  
+- Resolved font loading problems.  
+- Minor memory usage and startup time optimizations.
 
 ## 11.0
 
@@ -89,7 +112,7 @@ Find the relevant commands under **Copy as** in the context menu.
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/copygrid-ph.png" height="auto"><source src="/public/copygrid.mp4" type="video/mp4"></video>
 
 
-### TIFF Support
+### TIFF support
 Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversion.
 
 ### Fixes
