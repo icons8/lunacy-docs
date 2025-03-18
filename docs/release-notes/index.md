@@ -51,7 +51,7 @@ You can now add more structure to your document pages using separators. To add a
 
 ### Disabling auto Z-index and auto shape colors 
 
-sOptions to disable **Auto Z-Index** and **Auto Shape Colors** were added to the **AI** menu.  
+Options to disable **Auto Z-Index** and **Auto Shape Colors** were added to the **AI** menu.  
 
 
 ### Fixes and improvements  
