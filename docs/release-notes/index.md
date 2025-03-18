@@ -45,7 +45,7 @@ Added support for overlays in prototypes.
 
 You can now disable auto-sync for shared libraries and sync them manually when needed. (Manual sync for specific components will be available later.) 
 
-### Pages list enhancements  
+### Page separators
 
 You can now add more structure to your document pages using separators. To add a separator, create an empty page named “-” or right-click a page and select **Add Separator** to insert one. 
 
