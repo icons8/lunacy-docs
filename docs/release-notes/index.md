@@ -37,27 +37,34 @@ page_nav:
 
 To install the beta version, go to **Help** > **About** > **Check for Beta Updates**.
 
-### Prototyping overlays  
+### Prototyping overlays support 
 
 Added support for overlays in prototypes.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/overlaysrn-ph.png" height="auto"><source src="/public/overlaysrn.mp4" type="video/mp4"></video>
 
 
+### Manual sync for shared libraries  
+
+You can now disable auto sync for shared libraries and sync them manually when needed. (Manual sync for specific components will be available later.)
+
+<embed type="image/svg+xml" alt="shared_libraries_disable_sync" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/RViQomadXUeQw4MElJetjQ.svg" /> 
 
 
-
-### Shared libraries  
-
-You can now disable auto-sync for shared libraries and sync them manually when needed. (Manual sync for specific components will be available later.) 
 
 ### Page separators
 
-You can now add more structure to your document pages using separators. To add a separator, create an empty page named “-” or right-click a page and select **Add Separator** to insert one. 
+You can now add more structure to your document pages using separators. To add a separator, create an empty page named “-” or right-click a page and select **Add Separator** to insert one.
 
-### Disabling auto Z-index and auto shape colors 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/page-separators-ph.png" height="auto"><source src="/public/page_separators.mp4" type="video/mp4"></video>
 
-Options to disable **Auto Z-Index** and **Auto Shape Colors** were added to the **AI** menu.  
+
+### Options to disable auto Z-index and auto shape colors 
+
+Options to disable **Auto Z-Index** and **Auto Shape Colors** were added to the **AI** menu.
+
+<embed type="image/svg+xml" alt="Disable_Zindex_shape_colors" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/t2WW6cDWtkKuTW1c3rjiCQ.svg" /> 
+
 
 
 ### Fixes and improvements  

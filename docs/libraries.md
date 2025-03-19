@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Libraries
+title: Built-in graphics
 description: How to make use of our built-in icons, photos, images and UI kits
 icon: 'icons8-new-logo'
 
