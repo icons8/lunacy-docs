@@ -56,7 +56,7 @@ You can now disable auto sync for shared libraries and sync them manually when n
 
 You can now add more structure to your document pages using separators. To add a separator, create an empty page named “-” or right-click a page and select **Add Separator** to insert one.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/page-separators-ph.png" height="auto"><source src="/public/page_separators.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/page-separators-ph.png" height="auto"><source src="/public/page_separators1.mp4" type="video/mp4"></video>
 
 
 ### Options to disable auto Z-index and auto shape colors 
