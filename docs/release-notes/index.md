@@ -41,7 +41,7 @@ To install the beta version, go to **Help** > **About** > **Check for Beta Updat
 
 Added support for overlays in prototypes.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/overlaysrn-ph.png" height="auto"><source src="/public/overlaysrn.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/overlaysrn-ph.png" height="auto"><source src="/public/overlays.mp4" type="video/mp4"></video>
 
 
 ### Manual sync for shared libraries  
