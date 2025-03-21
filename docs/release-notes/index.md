@@ -33,7 +33,11 @@ page_nav:
 # Version 11
 
 
-## 11.1 Beta
+## 11.1
+
+*Release date: March 4, 2025*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.1.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.1.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.1.deb)
 
 To install the beta version, go to **Help** > **About** > **Check for Beta Updates**.
 
@@ -79,7 +83,7 @@ Options to disable **Auto Z-Index** and **Auto Shape Colors** were added to the 
 
 *Release date: March 4, 2025*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.0.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.0.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.0.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.0.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.0.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.0.deb)
 
 ### Advanced prototyping
 
