@@ -33,13 +33,24 @@ page_nav:
 # Version 11
 
 
+## 11.2
+
+*Release date: March 27, 2025*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.2.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.deb)
+
+
+### Fixes and improvements  
+- Added Navigation Buttons to the Prototype Player.
+- Fixed crashes and file access issues on macOS.  
+- Breaking change: now vector masks will not render (to match out competitors). Also masks will render nothing if they have 0 fills.
+
+  
 ## 11.1
 
 *Release date: March 21, 2025*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.1.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.1.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.1.deb)
-
-To install the beta version, go to **Help** > **About** > **Check for Beta Updates**.
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.1.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.1.deb)
 
 ### Prototyping overlays support 
 
