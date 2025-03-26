@@ -27,8 +27,8 @@ page_nav:
 Lunacy runs on the following operating systems:
 
 * Windows 10, 11
-* macOS X v.11 or later
-* Linux: Ubuntu-based distributions, Snapcraft-supported operating systems
+* macOS 12.0 or later
+* Linux: latest Ubuntu-based distributions, Snapcraft-supported operating systems, Flatpak-supported systems.
 
 Lunacy does not support x86 architectures, only x64 or ARM on all operating systems.
 
