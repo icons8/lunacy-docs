@@ -81,12 +81,13 @@ Here's how you can apply changes to a live webpage:
 
 1. Select the altered layer/layer group.
 2. Open the **Export** tab in the right panel.
-3. Click <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" width ="844" > next to the **Linked design** section. This will apply the changes to the webpage.
+3. Click <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > next to the **Linked design** section. This will apply the changes to the webpage.
 
     <embed type="image/svg+xml" alt="svg 5 Copy" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/ACYsQrDtUkSZyKE0lL3AtA.svg" width ="844" /> 
+    
+    
     <div class="callout callout--info">
-
-    <p><strong>Tip:</strong> If the <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > button appears disabled, click the question mark next to it first.</p>
+      <p><strong>Tip:</strong> If the <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > button appears disabled, click the question mark next to it first.</p>
     </div>
 
 4. Do this for all the elements you need to upload.
@@ -96,9 +97,10 @@ Here's how you can apply changes to a live webpage:
 1. When you're done editing all of your text layers, deselect all layers on the canvas (press `Esc` or click anywhere over the canvas).
 2. Click <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > next to the **Linked design** section. This will apply the changes to the webpage.
 
-    <embed type="image/svg+xml" alt="svg 7" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/tdocmRnNoEKC5rox84tqvw.svg" /> 
-    
-    <p><strong>Tip:</strong> If the <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > button appears disabled, click the question mark next to it first.</p>
+    <embed type="image/svg+xml" alt="svg 7" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/tdocmRnNoEKC5rox84tqvw.svg" />
+
+    <div class="callout callout--info">
+      <p><strong>Tip:</strong> If the <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > button appears disabled, click the question mark next to it first.</p>
     </div>
 
 ### Viewing changes in the browser
