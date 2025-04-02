@@ -145,14 +145,17 @@ You can now connect to the dedicated server from the Lunacy app.
 
 Allow connection to the Lunacy License Server from your intranet `https://lu.icons8.com` `116.203.33.165:443`. 
 
-<p><strong>Note:</strong> The Lunacy dedicated server must be connected to the License server for several purposes:
-<ol>
-  <li>Check License information</li>
-  <li>Check Cloud Server updates</li>
-  <li>Check Lunacy updates</li>
-  <li>Ensure 24/7 in-app support</li>
-</ol>
-<p>All data is encrypted and transmitted through a single endpoint, using a single data stream/connection. Updates are downloaded and applied only after the administrator's approval.</p></p>
+<div>
+  <p><strong>Note:</strong> The Lunacy dedicated server must be connected to the License server for several purposes:</p>
+  <ol>
+    <li>Check License information</li>
+    <li>Check Cloud Server updates</li>
+    <li>Check Lunacy updates</li>
+    <li>Ensure 24/7 in-app support</li>
+  </ol>
+  <p>All data is encrypted and transmitted through a single endpoint, using a single data stream/connection. Updates are downloaded and applied only after the administrator's approval.</p>
+</div>
+
 
 
 ## **Connecting Lunacy to the server**
