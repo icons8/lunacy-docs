@@ -169,7 +169,7 @@ If you are currently logged in, log out of your Icons8 account.
 
 Navigate to **Home** > **Log in** > **Dedicated** and enter the following details:
 
-- http:\\[your_ip_address]:5555 OR https://your_domain.com/ (if you’ve configured a domain name)
+- `http:\\[your_ip_address]:5555` OR `https://your_domain.com/` (if you’ve configured a domain name)
 - username configured in the previous step
 - password
 
