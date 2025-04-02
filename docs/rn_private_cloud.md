@@ -20,11 +20,11 @@ release_note:
 
 # Version 1
 
-## 9.6.1
+## 1.0.0.259
 
-*Release date: May 27, 2024*
+*Release date: April 2, 2024*
 
-- Version number now displayed in the admin panel
+- Version number is now displayed in the admin panel
 
 - User actions logging added
 
