@@ -75,15 +75,15 @@ To preserve your file history, open those files in Lunacy 11.2 and save them to 
 We’ve optimized the disk size of Lunacy. Depending on your platform, it now takes up 20–40MB less space.
 
 
-## 11.2.1
+## 11.2.1 Hotfix
 
 *Release date: March 27, 2025*
 
 <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.2.1.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.1.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.1.deb)
 
 
-### Fixes and improvements  
-- Hotfix: revert changes to the masks. Now they are working as before.
+ 
+- Reverted recent changes to masks. They now work as before.
 
 ## 11.2
 
@@ -93,9 +93,9 @@ We’ve optimized the disk size of Lunacy. Depending on your platform, it now ta
 
 
 ### Fixes and improvements  
-- Added Navigation Buttons to the Prototype Player.
+- Added navigation buttons to the Prototype Player.
 - Fixed crashes and file access issues on macOS.  
-- Breaking change: now vector masks will not render (to match out competitors). Also masks will render nothing if they have 0 fills.
+- Vector masks no longer render, aligning with behavior in similar apps. Masks with no fills will also render nothing.
 
   
 ## 11.1
