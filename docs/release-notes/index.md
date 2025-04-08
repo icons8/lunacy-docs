@@ -32,6 +32,48 @@ page_nav:
 
 # Version 11
 
+## 11.3 Beta
+
+*To install the Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.*
+
+### New selection tools
+
+Two new options are now available in the Action Bar:
+
+- **Select Matching Layers** helps you quickly select layers with the same properties.
+
+- **Multi-Edit States** makes it easier to edit multiple components with variations.
+
+### Cloud document management
+
+You can now move cloud documents between personal space, projects, and teams using **Cut** and **Paste** from the context menu.
+
+Also, it’s now possible to search documents within a project or team.
+
+### Home tab updates
+
+We removed the table view from the **Home** tab — it wasn’t popular and hard to maintain. Instead, we added sorting for document tiles in both ascending and descending order.
+
+### Plugin data visibility and cleanup
+
+Some plugins store large amounts of data inside files. To help manage this:
+
+- You can now view this data in the **Export** tab when it's stored on a layer.
+- New commands have been added to the context menu search:
+
+    - **Clear Custom Properties**
+    - **Add Custom Property**
+    - **Deep Clear Custom Properties**
+
+### Legacy Sketch undo stack deprecated
+
+Cloud files that haven’t been opened in 1–2 years may lose up to 50 of their last operations. This is due to the removal of legacy Sketch undo stack support.
+To preserve your file history, open those files in Lunacy 11.2 and save them to version history.
+
+### App size reduced
+
+We’ve optimized the disk size of Lunacy. Depending on your platform, it now takes up 20–40MB less space.
+
 
 ## 11.2.1
 
