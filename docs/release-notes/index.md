@@ -40,21 +40,26 @@ page_nav:
 
 Two new options are now available in the Action Bar:
 
-- **Select Matching Layers** helps you quickly select layers with the same properties.
+- **Select Matching Layers** (<embed type="image/svg+xml" alt="Select Matching Layers" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/BeqBquf35kyy7SV1ydDgnw.svg" /> 
+) helps you quickly select layers with the same properties.
 
-- **Multi-Edit States** makes it easier to edit multiple components with variations.
+- **Multi-Edit States** (<embed type="image/svg+xml" alt="Multi Edit Variants" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/RG8Ivhg7QEKZpjUvJNMXlg.svg" /> 
+) makes it easier to edit components with multiple states.
 
 ### Cloud document management
 
-You can now move cloud documents between personal space, projects, and teams using **Cut** and **Paste** from the context menu.
+It is now possible to search documents within a project or team.
 
-Also, it’s now possible to search documents within a project or team.
+Also, you can now move cloud documents between personal space, projects, and teams using **Cut** and **Paste** from the context menu.
+
+<embed type="image/svg+xml" alt="cut-and-paste_docs" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/5qXugRo4r0qsodXWaU-_xQ.svg" /> 
+
 
 ### Home tab updates
 
 We removed the table view from the **Home** tab — it wasn’t popular and hard to maintain. Instead, we added sorting for document tiles in both ascending and descending order.
 
-### Plugin data visibility and cleanup
+### Managing extra data from imported files
 
 Some plugins store large amounts of data inside files. To help manage this:
 
