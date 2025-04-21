@@ -32,11 +32,20 @@ page_nav:
 
 # Version 11
 
+## 11.4
+
+*Release date: April 21, 2025*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.4.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.4.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.4.deb)
+
+Fixed 10 app crash reasons.
+
+
 ## 11.3
 
 *Release date: April 18, 2025*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.3.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.3.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.3.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.3.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.3.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.3.deb)
 
 ### New selection tools
 
