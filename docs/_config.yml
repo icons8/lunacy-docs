@@ -206,6 +206,7 @@ exclude: [ 'README.md', 'CHANGELOG.md' ]
 permalink: /:title/
 include: [".md"]
 keep_files: [".md"]
+permalink: pretty
 
 algolia:
     application_id: E0SRZV1KDE
