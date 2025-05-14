@@ -202,9 +202,8 @@ sass:
 # Jekyll settings
 layouts_dir: ./doks-theme/_layouts
 includes_dir: ./doks-theme/_includes
-exclude: [ 'README.md', 'CHANGELOG.md' ]
-permalink: /:title/
-keep_files: ["*.md", "**/*.md"]
+exclude: [ 'README.md', 'CHANGELOG.md', 'raw/*.md' ]
+keep_files: [ 'raw/*.md', 'llms.txt' ]
 
 algolia:
     application_id: E0SRZV1KDE
