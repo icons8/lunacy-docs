@@ -15,7 +15,7 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Release History
+        content: Release history
         url: '/release-notes'
     prev:
         content: FAQs
