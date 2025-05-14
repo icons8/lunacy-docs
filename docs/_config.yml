@@ -202,8 +202,19 @@ sass:
 # Jekyll settings
 layouts_dir: ./doks-theme/_layouts
 includes_dir: ./doks-theme/_includes
-exclude: [ 'README.md', 'CHANGELOG.md', 'raw/*.md' ]
-keep_files: [ 'raw/*.md', 'llms.txt' ]
+exclude: [ 'README.md', 'CHANGELOG.md']
+keep_files: [ 'llms.txt' ]
+# Keep raw markdown files
+include:
+  - /raw
+  - /raw/**/*.md
+
+# Specify which files should be treated as static/raw
+defaults:
+  - scope:
+      path: "raw/**/*"
+    values:
+      raw: true
 
 algolia:
     application_id: E0SRZV1KDE
