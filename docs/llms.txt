@@ -14,9 +14,7 @@
 - [Editing shapes](https://lunacy.docs.icons8.com/raw/editing_shapes.md): Make sure that you know everything about working with shapes in Lunacy.
 - [Export](https://lunacy.docs.icons8.com/raw/export.md): Learn all about Lunacy’s export options and settings.
 - [FAQs](https://lunacy.docs.icons8.com/raw/faq.md): Frequently asked questions about Lunacy.
-- [Free format](https://lunacy.docs.icons8.com/raw/free-format.md): Details of the .free format for developers.
 - [Images](https://lunacy.docs.icons8.com/raw/images.md): Optimize your work with images in Lunacy.
-- [Lunacy Documentation](https://lunacy.docs.icons8.com/raw/index.md): Welcome to the official Lunacy help page, a powerful privacy-focused graphic design software with collaboration..
 - [Interface](https://lunacy.docs.icons8.com/raw/interface.md): Explore the Lunacy interface.
 - [Layers](https://lunacy.docs.icons8.com/raw/layers.md): Learn how to work with different types of layers in Lunacy.
 - [Layer and text styles](https://lunacy.docs.icons8.com/raw/layerstyles.md): Learn how to speed up your work with layer and text styles.
@@ -24,8 +22,6 @@
 - [Linked design](https://lunacy.docs.icons8.com/raw/linked_design.md): How to update live webpages directly from Lunacy.
 - [Private Cloud](https://lunacy.docs.icons8.com/raw/private_cloud.md): How to collaborate in total privacy.
 - [Prototyping](https://lunacy.docs.icons8.com/raw/prototyping.md): Learn how to create interactive prototypes in Lunacy.
-- [Release History](https://lunacy.docs.icons8.com/raw/release-notes.md): New features and fixes for each version of Lunacy.
-- [Legacy Release History](https://lunacy.docs.icons8.com/raw/rn_before_v10.md): New features and fixes for each version of Lunacy.
 - [Shared libraries](https://lunacy.docs.icons8.com/raw/sharedlibraries.md): How to reuse components and styles from other files.
 - [Shortcuts](https://lunacy.docs.icons8.com/raw/shortcuts.md): Speed up your workflow with Lunacy's shortcuts.
 - [Fills, borders, effects](https://lunacy.docs.icons8.com/raw/styling.md): Learn how to work with styling options in Lunacy.
@@ -39,6 +35,9 @@
 ## Optional
 
 - [Contacts](https://lunacy.docs.icons8.com/raw/contact.md): Reach out to us on any of our platforms.
+- [Free format](https://lunacy.docs.icons8.com/raw/free-format.md): Details of the .free format for developers.
 - [Localization](https://lunacy.docs.icons8.com/raw/localization.md): Help us localize Lunacy to your language.
+- [Release History](https://lunacy.docs.icons8.com/raw/release-notes.md): New features and fixes for each version of Lunacy.
+- [Legacy Release History](https://lunacy.docs.icons8.com/raw/rn_before_v10.md): New features and fixes for each version of Lunacy.
 - [Plans and pricing](https://lunacy.docs.icons8.com/raw/subscriptions.md): Find out about our subscriptions.
 - [Troubleshooting](https://lunacy.docs.icons8.com/raw/troubleshooting.md): Help Lunacy Support determine the cause of your issue.
