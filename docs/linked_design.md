@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Linked design
-description: Update live webpages right from Lunacy
+description: How to update live webpages directly from Lunacy
 icon: 'link'
 
 # Micro navigation

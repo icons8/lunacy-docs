@@ -18,8 +18,8 @@ page_nav:
         content: Release history
         url: '/release-notes'
     prev:
-        content: FAQs
-        url: '/faq'
+        content: Troubleshooting
+        url: '/troubleshooting'
 ---
 
 Visit our <a href="https://community.icons8.com/" target="_blank">Community Support</a> forum to let us know about any problems you run into with Lunacy. The whole development team is there to help you with any issues that arise.

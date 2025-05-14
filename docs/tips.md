@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Tips and tricks
-description: A section for those who don’t read the docs
+description: Tips and tricks to help you work in Lunacy faster and more effectively
 icon: 'idea'
 
 # Micro navigation

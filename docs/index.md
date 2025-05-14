@@ -94,7 +94,7 @@ grid_navigation:
       url: '/prototyping'
       icon: 'tree-structure'
     - title: 'Linked design'
-      excerpt: Update live webpages right from Lunacy
+      excerpt: How to update live webpages directly from Lunacy
       url: '/linked_design'
       icon: 'link'  
     - title: 'Teams'
@@ -106,7 +106,7 @@ grid_navigation:
       url: '/comments'
       icon: 'comments'
     - title: 'Tips and tricks'
-      excerpt: 'A chapter for those who do not read docs'
+      excerpt: 'Tips and tricks to help you work in Lunacy faster and more effectively'
       url: '/tips'
       icon: 'idea'
     - title: 'Shortcuts'
@@ -133,7 +133,7 @@ grid_navigation:
       excerpt: 'Reach out to us on any of our platforms'
       url: '/contact'
       icon: 'technical-support'
-    - title: 'Release History'
+    - title: 'Release history'
       excerpt: 'New features and fixes for each version of Lunacy'
       url: '/release-notes'
       icon: 'activity-history'

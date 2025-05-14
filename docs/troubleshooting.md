@@ -18,7 +18,7 @@ page_nav:
         content: Contacts
         url: '/contact'
     prev:
-        content: FAQs
+        content: FAQ
         url: '/faq'
 ---
 
@@ -145,4 +145,4 @@ When log files don’t show any errors, we may need crash dumps to further narro
 1. Sort the files using the **Date modified** column, find the most recent log file saved after the crash occurred, and archive it.
 2. Report the crash to us in any convenient way and attach the archive with the log file.
 
-**See also:**<br><a href="https://lunacy.docs.icons8.com/" target="_blank">FAQs</a>
+**See also:**<br><a href="https://lunacy.docs.icons8.com/" target="_blank">FAQ</a>
