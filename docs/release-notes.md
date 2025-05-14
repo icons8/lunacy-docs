@@ -25,8 +25,8 @@ page_nav:
         content: Free format
         url: '/free-format'
     prev:
-        content: FAQ and Contacts
-        url: '/support'
+        content: Contacts
+        url: '/contact'
 ---
 
 

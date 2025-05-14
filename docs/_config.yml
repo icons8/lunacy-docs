@@ -64,7 +64,7 @@ doks:
       url: '/troubleshooting'
     - title: 'Contacts'
       url: '/contact'
-    - title: 'Release History'
+    - title: 'Release history'
       url: '/release-notes'
     - title: 'Free format'
       url: '/free-format'
