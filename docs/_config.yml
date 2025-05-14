@@ -204,14 +204,9 @@ layouts_dir: ./doks-theme/_layouts
 includes_dir: ./doks-theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
 permalink: /:title/
-include: [".md"]
-keep_files: [".md"]
+include: ["*.md"]
+keep_files: ["*.md"]
 permalink: pretty
-defaults:
-  - scope:
-      path: "about.md"
-    values:
-      raw: true
 
 algolia:
     application_id: E0SRZV1KDE
