@@ -10,10 +10,10 @@ A FREE file is a ZIP archive with the following structure:
 - `pages` — folder with JSON files containing layer structure and properties.
 - `images` — folder with raster assets. PNG, JPG, BMP, WEBP, GIF, TIFF, and ICO are supported.
 - `fonts` — folder with fonts embedded into the document, if any.
+- `shared` — folder with JSON files containing structure and properties of components and styles used from shared libraries.
 - `document.json` — file with document info data.
-- `shared.json` — file with objects from shared libraries.
 - `meta.json` — file with app version, file format, last saved by, when, and other info.
-- `preview.png` — a preview of the file.
+- `preview.webp` — a preview of the file.
 
 Lunacy has the support for the Sketch format from the very beginning. Including both opening and saving such files. It's actually a great format with lots of advantages (JSON, everything bundled in a ZIP archive, extensions via UserInfo, a time-proved data structure, and many others) but over time, we've accumulated a long list of drawbacks that have been limiting Lunacy’s growth.
 
@@ -69,17 +69,17 @@ And there are reasons for this:
 * All IDs are specified as full GUIDs, like ``"1FCC7597-95CD-43E9-B264-18E8006C60B1"``, which is great in terms of data integrity but not the most efficient in terms of file size.
 * Overrides have a peculiar format. For some reason, the data from this complex object is crammed into a single serialized string, containing an array of the target layer's IDs, the override type, and occasionally the override object's number:
 
-    ``"42AB34F8-C748-46D5-9373-073296D64ABA/1FCC7597-95CD-43E9-B264-18E8006C60B1_color-1"``
+  ``"42AB34F8-C748-46D5-9373-073296D64ABA/1FCC7597-95CD-43E9-B264-18E8006C60B1_color-1"``
 
-    This approach is inefficient for parsing. Multiple JSON properties would work way better here.
+  This approach is inefficient for parsing. Multiple JSON properties would work way better here.
 
 ## Downsides of the .fig format.
 
-While working on import from Figma, we thoroughly explored the .fig format. It has one huge advantage — it’s binary and therefore extremely efficient in terms of disk space usage. But there are also serious downsides of the format: 
+While working on import from Figma, we thoroughly explored the .fig format. It has one huge advantage — it’s binary and therefore extremely efficient in terms of disk space usage. But there are also serious downsides of the format:
 
 * Not human-readable.
 * Proprietary with no public format specification.
-* No backward compatibility. Every new version can introduce a completely new format if the Figma team deems it necessary. 
+* No backward compatibility. Every new version can introduce a completely new format if the Figma team deems it necessary.
 
 Due to this, supporting the .fig format is costly. It requires at least one experienced full-time developer with reverse engineering expertise dedicated solely to this task. And during Figma updates, sleepless nights may be required to quickly roll out an update to support the new format. Lots of products that previously supported the format have given up.
 
@@ -104,28 +104,28 @@ We didn't rush the development and release of this format. We worked on it for a
 * If a value is default, it is simply omitted from the file, even for complex objects.
 * All GUIDs are written as ShortGUIDs, which are the base64 serialization of the byte data of the GUID. They retain all the GUID data but occupy 39% less space:
 
-    - ``1FCC7597-95CD-43E9-B264-18E8006C60B1`` - 36 characters
+  - ``1FCC7597-95CD-43E9-B264-18E8006C60B1`` - 36 characters
 
-    - ``_w7kV9AThEiBBxn5BtFCBA`` - 22 characters
+  - ``_w7kV9AThEiBBxn5BtFCBA`` - 22 characters
 * The Point data type is specified as an array of two numbers rather than a serialized string, which not only takes up slightly less space but also parses much faster:
 
-    - Sketch format: ``"To": "{367, 566}"`` 
+  - Sketch format: ``"To": "{367, 566}"``
 
-    - FREE format: ``"To": [367, 566]`` - 3 characters shorter
+  - FREE format: ``"To": [367, 566]`` - 3 characters shorter
 * The Size data type is also specified as an array:
 
-    - Sketch format: ``"Width": 367, "Height": 566 ``
+  - Sketch format: ``"Width": 367, "Height": 566 ``
 
-    - FREE format: ``"Size": [367, 566]`` - noticeably shorter
+  - FREE format: ``"Size": [367, 566]`` - noticeably shorter
 * The Matrix data type has two notation options: simple and with rotation.
 
-    ``"Transform": [4, 6]`` - x and y coordinates of an object.
+  ``"Transform": [4, 6]`` - x and y coordinates of an object.
 
-    ``"Transform": [0.9, 0.1, 4, 0.1, 0.9, 6]`` - ScaleX, SkewX, TransX, SkewY, ScaleY, TransY - this matrix includes the values of the following Sketch fields: x, y, rotation, isFlippedHorizontal, and isFlippedVertical. This is significantly more efficient.
+  ``"Transform": [0.9, 0.1, 4, 0.1, 0.9, 6]`` - ScaleX, SkewX, TransX, SkewY, ScaleY, TransY - this matrix includes the values of the following Sketch fields: x, y, rotation, isFlippedHorizontal, and isFlippedVertical. This is significantly more efficient.
 
 * **The key difference**. The Vertex data type, which defines path points, and has several notation options. It's simply an array of numbers and can include up to eight values: ``[x, y, flags, radius, fromX, fromY, toX, toY]``. If the points on the right end of the array have default values, they are omitted. So, if toX, toY, fromX, fromY are all zeros, the array will look like ``[x,y,flags,radius]``. And if flags and radius are zeros, it becomes ``[x, y]``. Compare these two definitions of points of a rectangle, the most frequent element in all documents:
 
-    - Sketch (682 characters)
+  - Sketch (682 characters)
     ```json 
     "points":[
       {"_class":"curvePoint","cornerRadius":0,"cornerStyle":0,"curveFrom":"{0, 0}","curveMode":1,"curveTo":"{0, 0}","hasCurveFrom":false,"hasCurveTo":false,"point":"{0, 0}"},
@@ -133,18 +133,18 @@ We didn't rush the development and release of this format. We worked on it for a
       {"_class":"curvePoint","cornerRadius":0,"cornerStyle":0,"curveFrom":"{1, 1}","curveMode":1,"curveTo":"{1, 1}","hasCurveFrom":false,"hasCurveTo":false,"point":"{1, 1}"},
       {"_class":"curvePoint","cornerRadius":0,"cornerStyle":0,"curveFrom":"{0, 1}","curveMode":1,"curveTo":"{0, 1}","hasCurveFrom":false,"hasCurveTo":false,"point":"{0, 1}"}]
     ```
-    - FREE (34 characters)
+  - FREE (34 characters)
     ```json 
     "points":[[0,0],[1,0],[1,1],[0,1]]
     ```
-    **20 times less in size!** Considering that Vertex is the most frequently encountered data type in the format, and a file may contain millions of them. Sacrificing some human-readability in this specific area, where it's not as crucial as in others, was a well-considered choice.
+  **20 times less in size!** Considering that Vertex is the most frequently encountered data type in the format, and a file may contain millions of them. Sacrificing some human-readability in this specific area, where it's not as crucial as in others, was a well-considered choice.
 * For colors the FREE format uses HEX strings, while Sketch uses a complex object. Given that color is the second most frequently used object after Vertex, reducing its complexity is also highly critical:
 
-    - Sketch: ``{"_class":"color","alpha":1,"blue":0.827451,"green":0.76862746,"red":0.27058825}`` - 80 characters.
+  - Sketch: ``{"_class":"color","alpha":1,"blue":0.827451,"green":0.76862746,"red":0.27058825}`` - 80 characters.
 
-    - FREE: ``“45C4D3”`` - 8 charecters, 10 times less.
+  - FREE: ``“45C4D3”`` - 8 charecters, 10 times less.
 
-    - Also, the color 333333 in the FREE format will go as 3, the color 4455FF — as 45F.
+  - Also, the color 333333 in the FREE format will go as 3, the color 4455FF — as 45F.
 * Simplified, compact, and unbounded overrides. You can override any value. A single override can affect several values. In Sketch, the set of overrides is limited. Each field requires its own override. The number of fields is also limited and strictly defined. Plus parsing of complex strings can impact performance. The FREE format eliminates all these issues.
 
     ```json
@@ -156,7 +156,7 @@ We didn't rush the development and release of this format. We worked on it for a
       "link":"back"
     }] 
     ```
-* ``document.json`` does not include any foreign properties. They are stored in a separate file, named ``foreign.json``. This prevents ``document.json`` from growing to enormous sizes, up to several gigabytes in some cases. Instead, it remains small and quick to parse. Foreign objects are parsed in a separate thread, ensuring it doesn't impact the file's opening speed.
+* ``document.json`` does not include any properties from shared libraries. They are stored in a separate folder, named ``shared``. This prevents ``document.json`` from growing to enormous sizes, up to several gigabytes in some cases. Instead, it remains small and quick to parse. Shared Libraries objects are parsed in a separate threads, ensuring it doesn't impact the file's opening speed.
 * [Currently not implemented, coming soon] If a page size exceeds 20MB, it will be divided into 20MB parts, with the division occurring at the top-level artboards. For example, if a page features top-level artboards of 30MB, 10MB, 5MB, 1MB, and 10MB in size, it will be split into parts of 30MB, 16MB, and 10MB. We've observed that in very large files, there's typically one page that is 5-50 times larger than the others. Consequently, parsing it takes N times longer, monopolizes one execution thread, and significantly slows down the file opening. This approach will allow parallel parsing of large pages across multiple CPU threads, and greatly improve the opening speed of such files.
 
 ## Results
@@ -299,7 +299,7 @@ After fully adapting the new format and polishing it, we plan to develop, test, 
 
 ## Base Types
 
-Free format is NULL-free, NaN-free and Infinity-free - if any of this values are in JSON - it's broken. 
+Free format is NULL-free, NaN-free and Infinity-free - if any of this values are in JSON - it's broken.
 
 * <a name="float"></a>float - 32bit single-precision floating-point number
 * <a name="int"></a>int - 32bit signed integer
@@ -315,22 +315,18 @@ A component is a reusable groups of layers.
 
 Has all properties of [`Frame`](#Frame), plus:
 
-* _t: [string](#string) = `COMPONENT`
+* _t: [string](#string) = `COMPONENT` - object type.
 * ComponentId: [GUID](#GUID) - unique component identifier.
 * Predefined: [bool](#bool) = `False` - indicates that the component belongs to the Lunacy default component library (see the Component Tool on the Toolbar)
 * ComponentType: [ComponentType](#ComponentType) = `None` - reserved for future use. Will be used for component filters.
-
-**Sketch compatibility**
-
-* BackgroundInInstance: [bool](#bool) = `False` - defines whether to include background in component instances.
-
+* FigmaId: [string](#string) - unique Figma Component Id. Used to connect shared libraries and documents imported from figma.
 
 ### <a name="Oval"></a>Oval
 An oval is a shape drawn on the canvas with the Oval tool.
 
 Has all properties of [`Path`](#Path), plus:
 
-* _t: [string](#string) = `OVAL`
+* _t: [string](#string) = `OVAL` - object type.
 * Angle: [float](#float) = `0` - end angle for donuts measured clockwise from the X axis.
 * Ratio: [float](#float) = `0` - inner radius for donuts.
 * StartAngle: [float](#float) = `0` - start angle for donuts measured clockwise from the X axis.
@@ -340,7 +336,7 @@ A polygon is a shape drawn on the canvas with the Polygon tool.
 
 Has all properties of [`Path`](#Path), plus:
 
-* _t: [string](#string) = `POLYGON`
+* _t: [string](#string) = `POLYGON` - object type.
 * Rays: [float](#float) = `0` - defines the number of corners.
 
 ### <a name="Rectangle"></a>Rectangle
@@ -348,7 +344,7 @@ A rectangle is a shape drawn on the canvas with the Rectangle tool.
 
 Has all properties of [`Path`](#Path), plus:
 
-* _t: [string](#string) = `RECT`
+* _t: [string](#string) = `RECT` - object type.
 * SmoothCorners: [bool](#bool) = `False` - if the smooth corners option is enabled. Works only if the rectangle is not edited.
 
 ### <a name="Star"></a>Star
@@ -356,144 +352,124 @@ A star is a shape drawn on the canvas with the Star tool.
 
 Has all properties of [`Path`](#Path), plus:
 
-* _t: [string](#string) = `STAR`
+* _t: [string](#string) = `STAR` - object type.
 * Rays: [float](#float) = `0` - defines the number of rays in a star.
 * Ratio: [float](#float) = `0` - defines the star ratio value.
+
+### <a name="States"></a>States
+Set of a states of the component.
+
+Has all properties of [`Frame`](#Frame), plus:
+
+* _t: [string](#string) = `STATES`
 
 ### <a name="Triangle"></a>Triangle
 A triangle is a shape drawn on the canvas with the Triangle tool.
 
 Has all properties of [`Path`](#Path), plus:
 
-* _t: [string](#string) = `TRIANGLE`
+* _t: [string](#string) = `TRIANGLE` - object type.
 
-
-**Sketch compatibility**
+<details>
+<summary>Sketch compatibility</summary>
 
 * Equilateral: [bool](#bool) = `False` - if the triangle is equilateral.
-
+</details>
 
 ### <a name="Frame"></a>Frame
 A frame is a special type of layers that serves as a container for other layers or layer groups. Frames are a must for prototypes.
 
 Has all properties of [`Styled`](#Styled), plus:
 
-* _t: [string](#string) = `FRAME`
-* CornerRadius: [float[]](#float) = `float[4]` - sets the corner radius of the frame.
-* SmoothCorners: [bool](#bool) = `False` - enables smooth rounded corners like in iOS interfaces.
+* _t: [string](#string) = `FRAME` - object type.
 * ClipContent: [bool](#bool) = `False` - when enabled, hides the content outside the frame boundaries.
 * FlowHome: [bool](#bool) = `False` - sets the frame as a prototype starting point.
 * Viewport: [PrototypeViewport](#PrototypeViewport) - defines the area that should be displayed on a prototype, when the frame is resized to ensure scrolling effect.
 * ResizesContent: [bool](#bool) = `False` - enables adjusting and resizing the frame content as the frame is resized.
-* Layouts: [IGridLayout[]](#IGridLayout) - grid, Row and Column layouts of the frame.
+* Layouts: [LayoutContainerBase[]](#LayoutContainerBase) - grid, Row and Column layouts of the frame.
 * Rulers: [Rulers](#Rulers) - rulers and guidelines info.
 * Layers: [Layer[]](#Layer) - list of layers on the frame.
-
-
-**Sketch compatibility**
-
-* OverlayStyle: [Style](#Style) - style settings for the frame if it acts as an overlay in Sketch prototyping.
-* GroupLayout: [SketchGroupLayout](#SketchGroupLayout) - sketch Layout settings. Not supported in Lunacy, but keeping data for compatibility.
-* BackgroundInExport: [bool](#bool) = `False` - when enabled, the frame background is included into export files.
-* OverlayInteraction: [OverlayBackgroundInteraction](#OverlayBackgroundInteraction) = `None` - overlay interaction for Sketch prototyping.
-* Overlay: [bool](#bool) = `False` - defines whether the frame acts as an overlay in prototyping.
-* HasBackground: [bool](#bool) = `False` - defines whether the frame has background.
-* Background: [Color](#Color) = `ffffffff` - defines the frame background color.
-* BackgroundId: [GUID](#GUID) - defines the background color variable ID.
-* OverlaySettings: [OverlaySettings](#OverlaySettings) - sketch prototyping overlay feature settings.
-
 
 ### <a name="Group"></a>Group
 A layer group is two or more layers unified into a single entity that can be manipulated, organized, and treated as a single layer.
 
 Has all properties of [`Styled`](#Styled), plus:
 
-* _t: [string](#string) = `GROUP`
+* _t: [string](#string) = `GROUP` - object type.
 * SkipSelect: [bool](#bool) = `False` - when enabled, users can select group items without first selecting the group.
 * Layers: [Layer[]](#Layer) - list of layers within the group.
 
-
-**Sketch compatibility**
+<details>
+<summary>Sketch compatibility</summary>
 
 * SkipConstraints: [bool](#bool) = `False` - serves for constraints compatibility with Sketch. If the file is imported from the Sketch format, the parameter should be set to false to handle constraints properly.
-* GroupLayout: [SketchGroupLayout](#SketchGroupLayout) - sketch group layout. We don't support it but keep it for compatibility
-
+</details>
 
 ### <a name="Instance"></a>Instance
 An instance is a copy of the main component. With instances, you can reuse the same design element in multiple places in your project while retaining a connection to the main component.
 
 Has all properties of [`Styled`](#Styled), plus:
 
-* _t: [string](#string) = `INSTANCE`
-* CornerRadius: [float[]](#float) = `float[4]` - sets the corner radius of the instance frame.
-* SmoothCorners: [bool](#bool) = `False` - enables smooth rounded corners like in iOS interfaces.
+* _t: [string](#string) = `INSTANCE` - object type.
 * Scale: [float](#float) = `0` - scale of the instance.
 * ComponentId: [GUID](#GUID) - unique component identifier.
 * Overrides: [Override[]](#Override) - defines the overrides applied to the instance.
-
-
-**Sketch compatibility**
-
-* VerticalSpacing: [float](#float) = `0` - defines vertical spacing.
-* HorizontalSpacing: [float](#float) = `0` - defines horizontal spacing.
-
 
 ### <a name="Path"></a>Path
 A vector path determines the outline and form of a vector object. A path is made up of points and segments.
 
 Has all properties of [`Styled`](#Styled), plus:
 
-* _t: [string](#string) = `PATH`
+* _t: [string](#string) = `PATH` - object type.
 * Edited: [bool](#bool) = `False` - if the shape is edited in the path editor.
 * Open: [bool](#bool) = `False` - indicates whether the path is open.
 * Points: [Vertex[]](#Vertex) - list of path's points.
+
+### <a name="Section"></a>Section
+Root group of layers. Can be a child of a page or another section.
+Does not support rotation, flips, effects.
+
+Has all properties of [`Styled`](#Styled), plus:
+
+* _t: [string](#string) = `SECTION`
+* Layers: [Layer[]](#Layer) - list of layers within the section.
 
 ### <a name="Shape"></a>Shape
 A shape is a rectangle, oval, polygon, triangle, or star drawn with the respective shape tool. You can draw a triangle, rectangle, etc. with the Pen tool, but they won't be treated as shapes.
 
 Has all properties of [`Styled`](#Styled), plus:
 
-* _t: [string](#string) = `SHAPE`
+* _t: [string](#string) = `SHAPE` - object type.
 * Layers: [Layer[]](#Layer) - list of layers.
 
-
-**Sketch compatibility**
+<details>
+<summary>Sketch compatibility</summary>
 
 * SkipConstraints: [bool](#bool) = `False` - serves for constraints compatibility with Sketch. If the file is imported from the Sketch format, the parameter should be set to false to handle constraints properly.
-* GroupLayout: [SketchGroupLayout](#SketchGroupLayout) - sketch group layout. We don't support it, but keep it for compatibility.
-
+</details>
 
 ### <a name="Text"></a>Text
 Text is a block or line of text on the canvas.
 
 Has all properties of [`Styled`](#Styled), plus:
 
-* _t: [string](#string) = `TEXT`
+* _t: [string](#string) = `TEXT` - object type.
 * text: [string](#string) - content of the text layer.
 * TextStyle: [TextStyle](#TextStyle) - style applied to the text.
 * Inlines: [InlineStyle[]](#InlineStyle) - styling options applied to the text within a text block.
 * Behavior: [TextBehavior](#TextBehavior) = `Flexible` - behavior of the text layer size on text value change: flexible, fixed-width, or fixed.
 * ClipContent: [bool](#bool) = `True` - valid for files imported from Figma. Defines whether to truncate text content.
-
-
-**Sketch compatibility**
-
-* DrawOnPath: [bool](#bool) = `False` - this property enabled drawing text on path in Sketch.
-
-
-### <a name="Hotspot"></a>Hotspot
-A hotspot is a special type of layers used to define clickable areas on prototypes.
-
-Has all properties of [`Layer`](#Layer), plus:
-
-* _t: [string](#string) = `HOTSPOT`
+* Truncate: [bool](#bool) = `False` - trim text with triple dots in the end if content overlaps fixed layer size bounds.
+* MaxLines: [byte](#byte) = `0` - count of lines allowed. If the limit is exceeded, the text will be truncated.
+* DrawOnPath: [bool](#bool) = `False` - defines whether text draws on the underlying path.
+* Warp: [bool](#bool) = `False` - defines whether text warps when drawn on the underlying path.
 
 ### <a name="Slice"></a>Slice
 A slice is a special type of layers used for exporting certaing parts of designs.
 
 Has all properties of [`Layer`](#Layer), plus:
 
-* _t: [string](#string) = `SLICE`
+* _t: [string](#string) = `SLICE` - object type.
 * HasBackground: [bool](#bool) = `False` - defines whether the slice includes background.
 * Background: [Color](#Color) = `00000000` - defines the background color.
 * BackgroundId: [GUID?](#GUID) - unique color variable ID.
@@ -504,7 +480,7 @@ A styled layer is a layer that has layer styling options.
 Has all properties of [`Layer`](#Layer), plus:
 
 * StyleId: [GUID](#GUID) - unique style identifier.
-* MiterLimit: [int](#int) = `10` - limit on the ratio of the miter length to the stroke-width used to draw a miter joint. When the limit is exceeded, the joint is converted from miter to beveled.
+* MiterLimit: [float](#float) = `10` - limit on the ratio of the miter length to the stroke-width used to draw a miter joint. When the limit is exceeded, the joint is converted from miter to beveled.
 * Opacity: [float](#float) = `1` - opacity value.
 * BlendMode: [BlendMode](#BlendMode) = `Normal` - blend mode.
 * StartMarker: [Arrowhead](#Arrowhead) = `None` - determines the appearance of the tail of an open path drawn with the Line, Arrow, or Pen/Pencil tool.
@@ -517,11 +493,15 @@ Has all properties of [`Layer`](#Layer), plus:
 * Blur: [BlurEffect](#BlurEffect) - information about blurs.
 * BorderOptions: [BorderOptions](#BorderOptions) - information about border options.
 * ImageFilters: [ImageFilters](#ImageFilters) - filters applied to an image (hue, saturartion, etc.), if any.
+* CornerRadius: [float[]](#float) = `float[4]` - sets the corner radius of the frame/instance/component/states/section.
+* SmoothCorners: [bool](#bool) = `False` - enables smooth rounded corners like in iOS interfaces.
 
 ### <a name="Layer"></a>Layer
 A layer is any ungrouped element available on the canvas.
 
+* _t: [string](#string) = `COMPONENT` - object type.
 * Id: [GUID](#GUID) - unique layer identifier.
+* Name: [string](#string) - defines layer name.
 * NameIsFixed: [bool](#bool) = `False` - name can be auto-generated or user-specified. User-specified fixed names will not be renamed after some operations.
 * BooleanOp: [BoolOp](#BoolOp) = `Union` - defines the boolean operation applied to the layer.
 * Fixed: [bool](#bool) = `False` - if the *Fix position* option is enabled: the layer preserves its position when you scroll a prototype (for instance, a floating button).
@@ -530,13 +510,18 @@ A layer is any ungrouped element available on the canvas.
 * IsTemplate: [bool](#bool) = `False` - defines whether tha layer is marked as a template.
 * Expand: [bool](#bool) = `False` - defines whether the layer is expanded in Layer List.
 * Trim: [bool](#bool) = `False` - when enabled, trims empty pixels in exported images.
+* Export: [ExportOption[]](#ExportOption) - export options of the layer.
+* Constraints: [string](#string) = `LTWH` - defines constraint settings of the layer. String with chars where every char means a flag:
+  L - left, T - top, R - right, B - bottom, W - fix width, H - fix height.
 * Transform: [Matrix](#Matrix) = `Free.Schema.Matrix` - position, rotation and flips of an object, stored in a single 3x2 matrix.
 * Size: [Size](#Size) = `[100,100]` - defines the layer size.
 * LockAspect: [bool](#bool) = `False` - defines whether the layer's aspect ratio should be remain unchanged upon resizing.
 * Mask: [bool](#bool) = `False` - defines whether the layer is used as a mask.
 * BreakMask: [bool](#bool) = `False` - defines if the layer is set to ignore the mask.
+* MaskType: [MaskType](#MaskType) = `Vector` - type of the Mask - Vector, Alpha or Luminance.
 * KeepScroll: [bool](#bool) = `False` - if the *Keep scroll position* option is enabled (prototyping).
-* Animation: [AnimationType](#AnimationType) = `FromRight` - defines the animation type (prototyping).
+* ScrollBehavior: [FlowScrollBehavior](#FlowScrollBehavior) = `Scroll` - defines scroll behavior (prototyping).
+* Flows: [Flow[]](#Flow) - defines flows (prototyping).
 * MinWidth: [float](#float) = `0` - defines the minimum layer width (auto layout).
 * MinHeight: [float](#float) = `0` - defines the minimum layer height (auto layout).
 * MaxWidth: [float](#float) = `0` - defines the maximum layer width (auto layout).
@@ -544,9 +529,10 @@ A layer is any ungrouped element available on the canvas.
 * LayoutStretch: [bool](#bool) = `False` - determines if the layer should stretch along the parent’s counter axis (auto layout).
 * LayoutGrowStretch: [bool](#bool) = `False` - determines whether a layer should stretch along the parent’s primary axis (auto layout).
 * LayoutFixPos: [bool](#bool) = `False` - enables absolute position for the layer (auto layout).
+* Custom: [[string,string]](#[string,string) - key/Value map for custom properties of a layer. Similar to UserInfo is Sketch and PluginData in Figma.
 
-
-**Lunacy specific**
+<details>
+<summary>Lunacy specific</summary>
 
 * PhotoId: [string](#string) - identifier of a photo from the Lunacy gallery.
 * IllustrationId: [string](#string) - identifier of an illustraion from the Lunacy gallery.
@@ -555,19 +541,173 @@ A layer is any ungrouped element available on the canvas.
 * Data: [DataInfo](#DataInfo) - information about auto generated texts.
 * Upscaled: [bool](#bool) = `False` - if the image has been upscaled in Lunacy.
 * BackgroundRemove: [BackgroundRemovalState](#BackgroundRemovalState) = `None` - background removal procedure info.
+</details>
 
+### <a name="BackAction"></a>BackAction
+Action to go to previous frame.
 
-### <a name="Border"></a>Border
-Defines the appearance of borders.
+Has all properties of [`FlowAction`](#FlowAction), plus:
 
-Has all properties of [`Fill`](#Fill), plus:
+* _t: [string](#string) = `BACK` - object type.
+* Animation: [FlowAnimation](#FlowAnimation) = `Free.Schema.FlowAnimation` - action animation.
 
-* Thickness: [Thickness](#Thickness) = `[0,0,0,0]` - defines border thickness.
-* Pos: [BorderPosition](#BorderPosition) = `Center` - defines border position.
+### <a name="CloseOverlayAction"></a>CloseOverlayAction
+Action to close current overlay.
+
+Has all properties of [`FlowAction`](#FlowAction), plus:
+
+* _t: [string](#string) = `CLOSE_OVERLAY` - object type.
+
+### <a name="NavigateToAction"></a>NavigateToAction
+Action to navigate to target frame.
+
+Has all properties of [`FlowAction`](#FlowAction), plus:
+
+* _t: [string](#string) = `NAVIGATE` - object type.
+* Target: [GUID?](#GUID) - id of the target frame.
+* Animation: [FlowAnimation](#FlowAnimation) = `Free.Schema.FlowAnimation` - id of the target layer.
+
+### <a name="OpenOverlayAction"></a>OpenOverlayAction
+Action to open target overlay.
+
+Has all properties of [`FlowAction`](#FlowAction), plus:
+
+* _t: [string](#string) = `OVERLAY` - object type.
+* Target: [GUID?](#GUID) - id of the target overlay.
+* Animation: [FlowAnimation](#FlowAnimation) = `Free.Schema.FlowAnimation` - action animation.
+* Position: [FlowOverlayPosition](#FlowOverlayPosition) = `Centered` - startup location of overlay.
+* Offset: [Vector2](#Vector2) = `<0, 0>` - offset from startup location.
+* CloseByClick: [bool](#bool) = `False` - close by any click.
+* HasBackground: [bool](#bool) = `False` - defines whether the overlay has background.
+* Background: [Color](#Color) = `00000000` - overlay background color.
+
+### <a name="OpenUrlAction"></a>OpenUrlAction
+Action to open URL.
+
+Has all properties of [`FlowAction`](#FlowAction), plus:
+
+* _t: [string](#string) = `URL` - object type.
+* Url: [string](#string) - target URL.
+
+### <a name="ScrollToAction"></a>ScrollToAction
+Action to scroll to target layer.
+
+Has all properties of [`FlowAction`](#FlowAction), plus:
+
+* _t: [string](#string) = `SCROLL` - object type.
+* Target: [GUID?](#GUID) - id of the target layer.
+* Animation: [FlowAnimation](#FlowAnimation) = `Free.Schema.FlowAnimation` - action animation.
+
+### <a name="SwapOverlayAction"></a>SwapOverlayAction
+Action to swap current overlay to target overlay.
+
+Has all properties of [`FlowAction`](#FlowAction), plus:
+
+* _t: [string](#string) = `SWAP_OVERLAY` - object type.
+* Target: [GUID?](#GUID) - id of the target overlay.
+* Animation: [FlowAnimation](#FlowAnimation) = `Free.Schema.FlowAnimation` - action animation.
+
+### <a name="SwitchStateAction"></a>SwitchStateAction
+Action to switch state of a target component instance.
+
+Has all properties of [`FlowAction`](#FlowAction), plus:
+
+* _t: [string](#string) = `SWITCH_STATE` - object type.
+* Target: [GUID?](#GUID) - id of the target instance.
+* Animation: [FlowAnimation](#FlowAnimation) = `Free.Schema.FlowAnimation` - id of the target layer.
+
+### <a name="FlowAction"></a>FlowAction
+Base object of prototyping action.
+
+* _t: [string](#string) = `NAVIGATE` - object type.
+
+### <a name="AfterDelayTrigger"></a>AfterDelayTrigger
+after delay.
+
+Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
+
+* _t: [string](#string) = `DELAY` - object type.
+* Delay: [int](#int) = `0` - delay in ms.
+
+### <a name="ClickTrigger"></a>ClickTrigger
+Mouse click.
+
+Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
+
+* _t: [string](#string) = `CLICK` - object type.
+
+### <a name="DragTrigger"></a>DragTrigger
+Mouse drag.
+
+Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
+
+* _t: [string](#string) = `DRAG` - object type.
+
+### <a name="HoldTrigger"></a>HoldTrigger
+Mouse hold - only while you press and hold a mouse button.
+
+Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
+
+* _t: [string](#string) = `HOLD` - object type.
+
+### <a name="HoverTrigger"></a>HoverTrigger
+Mouse hover - only while mouse pointer is over layer.
+
+Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
+
+* _t: [string](#string) = `HOVER` - object type.
+
+### <a name="KeyPressTrigger"></a>KeyPressTrigger
+Key down.
+
+Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
+
+* Shortcut: [string](#string) - string representing a keyboard shortcut. Examples: TAB, C, Ctrl+Shift+T, Alt+F3, Win+\.
+* Delay: [int](#int) = `0` - delay in ms.
+
+### <a name="MouseDownTrigger"></a>MouseDownTrigger
+Mouse down.
+
+Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
+
+* _t: [string](#string) = `MOUSE_DOWN` - object type.
+* Delay: [int](#int) = `0` - delay in ms.
+
+### <a name="MouseEnterTrigger"></a>MouseEnterTrigger
+Mouse enter.
+
+Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
+
+* _t: [string](#string) = `ENTER` - object type.
+* Delay: [int](#int) = `0` - delay in ms.
+
+### <a name="MouseLeaveTrigger"></a>MouseLeaveTrigger
+Mouse leave.
+
+Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
+
+* _t: [string](#string) = `LEAVE` - object type.
+* Delay: [int](#int) = `0` - delay in ms.
+
+### <a name="MouseUpTrigger"></a>MouseUpTrigger
+Mouse up.
+
+Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
+
+* _t: [string](#string) = `MOUSE_UP` - object type.
+* Delay: [int](#int) = `0` - delay in ms.
+
+### <a name="FlowTrigger"></a>FlowTrigger
+Base object of prototyping trigger.
+
+* _t: [string](#string) = `CLICK` - object type.
 
 ### <a name="AutoLayoutContainer"></a>AutoLayoutContainer
 Defines auto layout settings.
 
+Has all properties of [`LayoutContainerBase`](#LayoutContainerBase), plus:
+
+* _t: [string](#string) = `AUTO` - object type.
 * Orientation: [LayoutOrientation](#LayoutOrientation) = `Horizontal` - layout orientation: horizontal or vertical.
 * Spacing: [float](#float) = `0` - spacing value
 * WrapSpacing: [float](#float) = `0` - spacing between rows of wrapped content.
@@ -582,46 +722,20 @@ Defines auto layout settings.
 * Wrap: [bool](#bool) = `False` - if wrapping is enabled.
 * WrapDistribute: [bool](#bool) = `False` - if auto distribute is enabled for wrapped content.
 
-### <a name="BlurEffect"></a>BlurEffect
-Defines the settings of the blur effect.
+### <a name="Border"></a>Border
+Defines the appearance of borders.
 
-* Saturation: [float](#float) = `1` - saturation. Only for background blur.
-* Radius: [float](#float) = `10` - blur Radius.
-* Enabled: [bool](#bool) = `False` - if the blur is enabled.
-* Type: [BlurType](#BlurType) = `Gaussian` - sets the blur type.
+Has all properties of [`Fill`](#Fill), plus:
 
-
-**Sketch compatibility**
-
-* Center: [Point](#Point) = `[0,5,0,5]` - center point of motion blur.
-* MotionAngle: [float](#float) = `0` - angle of motion for motion blur.
-
-
-### <a name="BorderOptions"></a>BorderOptions
-Defines the advanced options of borders, arrows, lines, and paths drawn with the Pen or Pencil tools.
-
-* IsEnabled: [bool](#bool) = `False` - if an advanced option is enabled.
-* LineCap: [LineCap](#LineCap) = `Butt` - defines the shape of line caps.
-* LineJoin: [LineJoin](#LineJoin) = `Miter` - defines the appearance of line folds.
-* Dash: [float[]](#float) - defines the size of dashes.
-
-### <a name="ColorAsset"></a>ColorAsset
-Colors stored in the document (color picker > dropdown list (global) > document).
-
-* Id: [GUID](#GUID) - unique color asset ID.
-* Name: [string](#string) - color asset name.
-* Color: [Color](#Color) = `00000000` - color value.
-
-### <a name="ColorVariable"></a>ColorVariable
-Color variables stored in the document.
-
-* Id: [GUID](#GUID) - unique color variable ID.
-* Name: [string](#string) - color variable name.
-* Value: [Color](#Color) = `00000000` - color value of the variable.
+* Thickness: [Thickness](#Thickness) = `[0,0,0,0]` - defines border thickness.
+* Pos: [BorderPosition](#BorderPosition) = `Center` - defines border position.
 
 ### <a name="Columns"></a>Columns
 Defines column settings in a layout grid.
 
+Has all properties of [`GridLayoutBase`](#GridLayoutBase), plus:
+
+* _t: [string](#string) = `COLS` - object type.
 * Enabled: [bool](#bool) = `False` - if columnns are enabled.
 * Align: [LayoutHorizontalAlignment](#LayoutHorizontalAlignment) = `Left` - horizontal alignment settings.
 * Offset: [int](#int) = `0` - offset value.
@@ -630,6 +744,58 @@ Defines column settings in a layout grid.
 * Width: [int](#int) = `0` - column width.
 * Color: [Color](#Color) = `00000000` - column color.
 
+### <a name="Grid"></a>Grid
+Defines square grid settings for a frame.
+
+Has all properties of [`GridLayoutBase`](#GridLayoutBase), plus:
+
+* _t: [string](#string) = `GRID` - object type.
+* Enabled: [bool](#bool) = `False` - if the square grid is enabled.
+* Color: [Color](#Color) = `00000000` - grid color.
+* Size: [int](#int) = `10` - size of grid cells.
+
+<details>
+<summary>Sketch compatibility</summary>
+
+* ThickTimes: [int](#int) = `10` - every N line should be thick.
+</details>
+
+### <a name="Rows"></a>Rows
+Defines row settings in a layout grid.
+
+Has all properties of [`GridLayoutBase`](#GridLayoutBase), plus:
+
+* _t: [string](#string) = `ROWS` - object type.
+* Enabled: [bool](#bool) = `False` - if rows are enabled.
+* Align: [LayoutVerticalAlignment](#LayoutVerticalAlignment) = `Top` - vertical alignment settings.
+* Offset: [int](#int) = `0` - offset value.
+* Count: [int](#int) = `0` - number of rows.
+* Gutter: [int](#int) = `0` - gutter value.
+* Width: [int](#int) = `0` - row width.
+* Color: [Color](#Color) = `00000000` - row color.
+
+### <a name="BlurEffect"></a>BlurEffect
+Defines the settings of the blur effect.
+
+* Saturation: [float](#float) = `1` - saturation. Only for background blur.
+* Radius: [float](#float) = `10` - blur Radius.
+* Enabled: [bool](#bool) = `False` - if the blur is enabled.
+* Type: [BlurType](#BlurType) = `Gaussian` - sets the blur type.
+
+### <a name="BorderOptions"></a>BorderOptions
+Defines the advanced options of borders, arrows, lines, and paths drawn with the Pen or Pencil tools.
+
+* LineCap: [LineCap](#LineCap) = `Butt` - defines the shape of line caps.
+* LineJoin: [LineJoin](#LineJoin) = `Miter` - defines the appearance of line folds.
+* Dash: [float[]](#float) - defines the size of dashes.
+
+### <a name="ColorVariable"></a>ColorVariable
+Color variables stored in the document.
+
+* Id: [GUID](#GUID) - unique color variable ID.
+* Name: [string](#string) - color variable name.
+* Value: [Color](#Color) = `00000000` - color value of the variable.
+
 ### <a name="Document"></a>Document
 The document's .json structure.
 
@@ -637,19 +803,16 @@ The document's .json structure.
 * Nudge: [Point](#Point) = `[1,10]` - nudge Amount. X - small nudge. Y = large nudge.
 * FromFigma: [bool](#bool) = `False` - if the document is imported from Figma.
 * CurrentPageIndex: [int](#int) = `0` - index of the currently open page.
-* Images: [string[]](#string) - images stored in the document.
-* Colors: [ColorAsset[]](#ColorAsset) - colors stored in the document (color picker > dropdown list (global) > document).
-* Gradients: [GradientAsset[]](#GradientAsset) - gradients stored in the document (color picker > dropdown list (global) > document).
 * Fonts: [Font[]](#Font) - embedded fonts stored in the document.
 * ColorVariables: [ColorVariable[]](#ColorVariable) - color variables stored in the document.
 * Styles: [SharedStyle[]](#SharedStyle) - styles stored in the document.
 * Pages: [GUID[]](#GUID) - list of document pages.
 
-
-**Sketch compatibility**
+<details>
+<summary>Sketch compatibility</summary>
 
 * ColorSpace: [ColorSpace](#ColorSpace) = `Unmanaged` - сolor scheme the document uses.
-
+</details>
 
 ### <a name="ExportOption"></a>ExportOption
 Export settings.
@@ -673,6 +836,12 @@ Defines the fill applied to a layer.
 * Pattern: [Pattern](#Pattern) - contains pattern fill properties in case the fill is a pattern fill.
 * Gradient: [Gradient](#Gradient) - contains gradient properties in case the fill is a gradient.
 
+### <a name="Flow"></a>Flow
+Prototyping interaction element
+
+* Trigger: [FlowTrigger](#FlowTrigger) - trigger that will fire an action. Examples: CLICK, DRAG, HOLD.
+* Action: [FlowAction](#FlowAction) - action. Examples: NAVIGATE, SCROLL, URL, BACK.
+
 ### <a name="Font"></a>Font
 Embedded fonts stored in the document.
 
@@ -681,64 +850,14 @@ Embedded fonts stored in the document.
 * FileName: [string](#string) - font file name.
 * PostscriptNames: [string[]](#string) - postScript names of the font.
 
-### <a name="ForeignColorVariable"></a>ForeignColorVariable
-Describes color variables from external libraries.
-
-* Id: [GUID](#GUID) - unique variable identifier.
-* LibraryId: [GUID](#GUID) - unique library identifier.
-* LibraryName: [string](#string) - library name.
-* Color: [ColorVariable](#ColorVariable) - value of the color variable.
-
-
-**Sketch compatibility**
-
-* ComponentPrivate: [bool](#bool) = `False` - a Sketch flag for private shared color variables.
-* RemoteId: [GUID](#GUID) - color variable ID in the external library.
-
-
-### <a name="ForeignComponent"></a>ForeignComponent
-Describes color components from external libraries.
-
-* Id: [GUID](#GUID) - unique component identifier.
-* LibraryId: [GUID](#GUID) - unique library identifier.
-* LibraryName: [string](#string) - library name.
-* Original: [Component](#Component) - original state of the component upon import.
-* Component: [Component](#Component) - current state of the component.
-
-
-**Sketch compatibility**
-
-* ComponentPrivate: [bool](#bool) = `False` - a Sketch flag for private shared components.
-
-
-### <a name="ForeignSharedStyle"></a>ForeignSharedStyle
-Describes styles from external libraries.
-
-* Id: [GUID](#GUID) - style identifier in the document.
-* LibraryId: [GUID](#GUID) - unique library identifier.
-* LibraryName: [string](#string) - library name.
-* RemoteID: [GUID](#GUID) - style identifier in the external library.
-
-
-**Sketch compatibility**
-
-* ComponentPrivate: [bool](#bool) = `False` - a Sketch flag for private shared styles.
-
-
 ### <a name="Gradient"></a>Gradient
 An object that represents a gradient.
 
 * Type: [GradientType](#GradientType) = `Linear` - type of the gradient.
-* From: [Point](#Point) = `[0,5,0]` - position of the gradient start point.
-* To: [Point](#Point) = `[0,5,1]` - position of the gradient end point.
+* From: [Point](#Point) = `[0.5,0]` - position of the gradient start point.
+* To: [Point](#Point) = `[0.5,1]` - position of the gradient end point.
 * Side: [Point](#Point) = `[0,0]` - position of the gradient side point. Valid for radial and angular gragients.
 * Stops: [GradientStop[]](#GradientStop) - list of other gradient points.
-
-### <a name="GradientAsset"></a>GradientAsset
-Gradients stored in the document (color picker > dropdown list (global) > document).
-
-* Id: [GUID](#GUID) - unique asset id.
-* Value: [Gradient](#Gradient) - values of gradients.
 
 ### <a name="GradientStop"></a>GradientStop
 A position-color pair representing a gradient stop.
@@ -746,18 +865,11 @@ A position-color pair representing a gradient stop.
 * Pos: [float](#float) = `0` - value between 0 and 1 representing a position along gradient axis.
 * Color: [Color](#Color) = `ffffffff` - color attached to a corresponding position.
 
-### <a name="Grid"></a>Grid
-Defines square grid settings for a frame.
+### <a name="GridLayoutBase"></a>GridLayoutBase
+Defines layout grid settings for a frame.
 
-* Enabled: [bool](#bool) = `False` - if the square grid is enabled.
-* Color: [Color](#Color) = `00000000` - grid color.
-* Size: [int](#int) = `10` - size of grid cells.
-
-
-**Sketch compatibility**
-
-* ThickTimes: [int](#int) = `10` - every N line should be thick.
-
+* _t: [string](#string) - object type.
+* Enabled: [bool](#bool) = `False` - if layout grid is enabled.
 
 ### <a name="ImageFilters"></a>ImageFilters
 Defines filters that can be applied to images.
@@ -774,6 +886,11 @@ Style (bold, italic, etc.) applied to a part of text or single word within a tex
 * Start: [int](#int) = `0` - position where the style starts.
 * Length: [int](#int) = `0` - length of the selection.
 * Style: [TextStyle](#TextStyle) - style applied to the selection.
+
+### <a name="LayoutContainerBase"></a>LayoutContainerBase
+Defines a container layout.
+
+* _t: [string](#string) - object type.
 
 ### <a name="Meta"></a>Meta
 Contains metadata about the document.
@@ -799,7 +916,7 @@ Defines overrides for components.
 * ArcRatio: [float?](#float) - inner radius for donuts.
 * ArcStartAngle: [float?](#float) - start angle for donuts measured clockwise from the X axis.
 * CornerRadius: [float[]](#float) - corner radius value.
-* SmoothCorners: [bool](#bool) = `False` - if smooth corners are enabled.
+* SmoothCorners: [bool?](#bool) - if smooth corners are enabled.
 * StyleId: [GUID?](#GUID) - identifier of the style applied to a layer.
 * Tint: [Color?](#Color) - defines the tint color.
 * TintId: [GUID?](#GUID) - tint identifier.
@@ -833,14 +950,18 @@ Defines overrides for components.
 * GrowStretch: [bool?](#bool) - determines whether a layer should stretch along the parent’s primary axis (auto layout).
 * Wrap: [bool?](#bool) - if wrapping is enabled.
 * WrapDistribute: [bool?](#bool) - if auto distribute is enabled for wrapped content.
+* Truncate: [bool?](#bool) - trim text with triple dots in the end if content overlaps fixed layer size bounds.
+* MaxLines: [byte](#byte) = `0` - count of lines allowed. If the limit is exceeded, the text will be truncated.
+* KeepScroll: [bool?](#bool) - if the *Keep scroll position* option is enabled (prototyping).
+* ScrollBehavior: [FlowScrollBehavior?](#FlowScrollBehavior) - defines scroll behavior (prototyping).
 
-
-**Sketch compatibility**
+<details>
+<summary>Sketch compatibility</summary>
 
 * LegacyColor: [ColorOverride](#ColorOverride) - color override.
 * LegacyTextColor: [TextColorOverride](#TextColorOverride) - text color override.
 * LegacyTextWeight: [TextWeightOverride](#TextWeightOverride) - text weight override.
-
+</details>
 
 ### <a name="Page"></a>Page
 Document page properties.
@@ -871,28 +992,17 @@ This is a frame preset. Also used to determine viewport size for a large frame t
 * Size: [Size](#Size) = `[0,0]` - frame size.
 * LibraryId: [GUID](#GUID) - library identifier.
 
-### <a name="Rows"></a>Rows
-Defines row settings in a layout grid.
-
-* Enabled: [bool](#bool) = `False` - if rows are enabled.
-* Align: [LayoutVerticalAlignment](#LayoutVerticalAlignment) = `Top` - vertical alignment settings.
-* Offset: [int](#int) = `0` - offset value.
-* Count: [int](#int) = `0` - number of rows.
-* Gutter: [int](#int) = `0` - gutter value.
-* Width: [int](#int) = `0` - row width.
-* Color: [Color](#Color) = `00000000` - row color.
-
 ### <a name="Rulers"></a>Rulers
 An object containing ruler origins and guideline positions.
 
 * Guides: [int[]](#int) - positions of vertical guidelines on the Horizontal Ruler.
 * VGuides: [int[]](#int) - positions of horizontal guidelines on the Vertical Ruler.
 
-
-**Sketch compatibility**
+<details>
+<summary>Sketch compatibility</summary>
 
 * Origin: [Point](#Point) = `[0,0]` - ruler origin. Not supported in Lunacy. Sketch Compatibility
-
+</details>
 
 ### <a name="ShadowEffect"></a>ShadowEffect
 Defines the shadow options.
@@ -903,15 +1013,16 @@ Defines the shadow options.
 * ColorId: [GUID?](#GUID) - color variable ID.
 * Spread: [float](#float) = `0` - shadow spread value.
 * Offset: [Point](#Point) = `[0,0]` - how far the shadow is projected in the x and y directions.
-* Opacity: [float](#float) = `0` - shadow opacity.
 * BlendMode: [BlendMode](#BlendMode) = `Normal` - shadow blend mode.
 
-### <a name="Shared"></a>Shared
-Defines entities from shared libraries.
+### <a name="SharedLibrary"></a>SharedLibrary
+Contains components, styles and variables from external library that is used in current document.
+Every file in the shared folder is Shared Library.
 
-* ColorVariables: [ForeignColorVariable[]](#ForeignColorVariable) - color variables from an external library.
-* Styles: [ForeignSharedStyle[]](#ForeignSharedStyle) - styles from an external library.
-* Components: [ForeignComponent[]](#ForeignComponent) - components from an external library.
+* Id: [GUID](#GUID) - unique library document identifier.
+* ColorVariables: [ColorVariable[]](#ColorVariable) - color variables from a shared library.
+* Styles: [SharedStyle[]](#SharedStyle) - styles from a shared library.
+* Components: [Component[]](#Component) - components from a shared library.
 
 ### <a name="SharedStyle"></a>SharedStyle
 Style saved in the document.
@@ -936,6 +1047,8 @@ Defines a set of properties that make up a style.
 * Blur: [BlurEffect](#BlurEffect) - definition of the blur effect applied to a layer.
 * BorderOptions: [BorderOptions](#BorderOptions) - definition of border options.
 * ImageFilters: [ImageFilters](#ImageFilters) - image filters applied to a layer.
+* CornerRadius: [float[]](#float) = `float[4]` - sets the corner radius of the frame/instance/component/states/section.
+* SmoothCorners: [bool](#bool) = `False` - enables smooth rounded corners like in iOS interfaces.
 
 ### <a name="TextStyle"></a>TextStyle
 Defines a set of properties that make up a text style.
@@ -957,17 +1070,6 @@ Defines a set of properties that make up a text style.
 * Strikethrough: [bool](#bool) = `False` - if the strikethrough option is applied to the text.
 * BaselinePos: [BaselinePosition](#BaselinePosition) = `Normal` - text position against the baseline.
 
-### <a name="IGridLayout"></a>IGridLayout
-Defines layout grid settings for a frame.
-
-* _t: [string](#string) = `COLS`
-* Enabled: [bool](#bool) = `False` - if layout grid is enabled.
-
-### <a name="ILayoutContainer"></a>ILayoutContainer
-Defines an auto layout.
-
-* _t: [string](#string) = `AUTO`
-
 ### <a name="Color"></a>Color Struct
 32-bit ARGB unpremultiplied color value.
 
@@ -976,30 +1078,41 @@ Defines an auto layout.
 * Green: [byte](#byte) = `0` - gets the green component of the color.
 * Blue: [byte](#byte) = `0` - gets the blue component of the color.
 
+### <a name="FlowAnimation"></a>FlowAnimation Struct
+Prototyping action animation.
+
+* Enabled: [bool](#bool) = `False` - if animation is enabled.
+* Type: [FlowAnimationType](#FlowAnimationType) = `Instant` - animation type.
+* Effect: [FlowAnimationEffect](#FlowAnimationEffect) = `Linear` - animation effect.
+* Direction: [FlowAnimationDirection](#FlowAnimationDirection) = `Left` - animation direction.
+* Duration: [int](#int) - animation duration in ms.
+* Curve: [Point[]](#Point) - animation curve point array. Array length is always 2. Point values are between 0 and 1.
+
 ### <a name="Matrix"></a>Matrix Struct
 A transformation matrix is standard way in computer graphics to represent translation and rotation.
-            These are the top two rows of a 3x3 matrix. The bottom row of the matrix is assumed to be [0, 0, 1].
-            This is known as an affine transform and is enough to represent translation, rotation, and skew.
-            The identity transform is [1, 0, 0,   0, 1, 0].
-            A translation matrix will typically look like: [1, 0, tx,   0, 1, ty]
-            and a rotation matrix will typically look like: [cos(angle), -sin(angle), 0, sin(angle), cos(angle), 0]
-            If a matrix contains only translation it will be printed like point [0,5]
+These are the top two rows of a 3x3 matrix. The bottom row of the matrix is assumed to be [0, 0, 1].
+This is known as an affine transform and is enough to represent translation, rotation, and skew.
+The identity transform is [1, 0, 0,   0, 1, 0].
+A translation matrix will typically look like: [1, 0, tx,   0, 1, ty]
+and a rotation matrix will typically look like: [cos(angle), -sin(angle), 0, sin(angle), cos(angle), 0]
+If a matrix contains only translation it will be printed like point [0,5]
 
 * ScaleX: [float](#float) - scale by x-coord. Usually should be 1.
-            If it's -1 - the layer is flipped horizontally.
-            If it's some random number - it's a cos(angle).
+  If it's -1 - the layer is flipped horizontally.
+  If it's some random number - it's a cos(angle).
 * SkewX: [float](#float) - skew by x-coord. Usually should be 0.
-            If it's some random number - it's a -sin(angle).
+  If it's some random number - it's a -sin(angle).
 * TransX: [float](#float) - translation by x-coord.
 * SkewY: [float](#float) - skew by y-coord. Usually should be 0.
-            If it's some random number - it's a sin(angle).
+  If it's some random number - it's a sin(angle).
 * ScaleY: [float](#float) - scale by y-coord. Usually should be 1.
-            If it's -1 - the layer is flipped vertically.
-            If it's some random number - it's a cos(angle).
+  If it's -1 - the layer is flipped vertically.
+  If it's some random number - it's a cos(angle).
 * TransY: [float](#float) - translation by y-coord.
 
 ### <a name="Point"></a>Point Struct
 A utility class to represent a point.
+
 * X: [float](#float) - the x coordinate of the point.
 * Y: [float](#float) - the y coordinate of the point.
 
@@ -1027,16 +1140,7 @@ A utility class to represent a vertex.
 * From: [Point](#Point) = `[0,0]` - first control point, curve from.
 * To: [Point](#Point) = `[0,0]` - second control point, curve to.
 * Radius: [float](#float) - corner radius of a vertex point. It's stored in half because we don't need that much precision for corner radius.
-* Flags: [VertexFlags](#VertexFlags) = `None` - vertex flags, including: CurveMode, hasFrom, hasTo, and CornerStyle.
-
-### <a name="AnimationType"></a>AnimationType Enum
-Defines animation types in prototypes.
-
-* `-1` None
-* `0` FromRight
-* `1` FromLeft
-* `2` FromBottom
-* `3` FromTop
+* Mode: [CurveMode](#CurveMode) = `None` - mode of vertex.
 
 ### <a name="Arrowhead"></a>Arrowhead Enum
 Defines the appearance of arrowheads.
@@ -1083,8 +1187,6 @@ Defines the type of blend mode applied to a layer.
 Defines the blur type.
 
 * `0` Gaussian - gaussian blur.
-* `1` Motion - motion blur. Currently not supported. // Sketch Compatibility
-* `2` Zoom - zoom blur. Currently not supported. // Sketch Compatibility
 * `3` Background - background blur.
 
 ### <a name="BoolOp"></a>BoolOp Enum
@@ -1201,10 +1303,12 @@ Types of components. Currently used for filtering only. Some of the types are no
 Defines the types of points on Bézier curves.
 
 * `0` None - undefined.
-* `1` Straight - straight.
-* `2` Mirrored - mirrored.
-* `3` Asymmetric - asymmetric.
-* `4` Disconnected - disconnected.
+* `1` Straight - straight point.
+* `2` Mirrored - mirrored branches.
+* `3` Asymmetric - asymmetric branches.
+* `4` Disconnected - disconnected branches.
+* `4` OnlyFrom - only From branch.
+* `5` OnlyTo - only To branch.
 
 ### <a name="FillType"></a>FillType Enum
 Defines the fill type.
@@ -1212,6 +1316,62 @@ Defines the fill type.
 * `0` Color - solid color fill.
 * `1` Gradient - gradient fill.
 * `4` Pattern - image fill.
+
+### <a name="FlowAnimationDirection"></a>FlowAnimationDirection Enum
+Prototyping action animation direction.
+
+* `0` Left
+* `1` Right
+* `2` Up
+* `3` Down
+* `4` Scroll
+
+### <a name="FlowAnimationEffect"></a>FlowAnimationEffect Enum
+Prototyping action animation effect.
+
+* `0` Linear
+* `1` EaseIn
+* `2` EaseOut
+* `3` EaseInBack
+* `4` EaseOutBack
+* `5` Gentle
+* `6` Quick
+* `7` Slow
+* `8` Bounce
+* `9` Custom
+* `10` CustomSpring
+
+### <a name="FlowAnimationType"></a>FlowAnimationType Enum
+Prototyping action animation type.
+
+* `0` Instant
+* `1` Dissolve
+* `2` SmartAnimate
+* `3` MoveIn
+* `4` MoveOut
+* `5` Push
+* `6` SlideIn
+* `7` SlideOut
+* `8` Scroll
+
+### <a name="FlowOverlayPosition"></a>FlowOverlayPosition Enum
+Prototyping overlay position.
+
+* `0` Centered
+* `1` TopLeft
+* `2` TopCenter
+* `3` TopRight
+* `4` BottomLeft
+* `5` BottomCenter
+* `6` BottomRight
+* `7` Manual
+
+### <a name="FlowScrollBehavior"></a>FlowScrollBehavior Enum
+Prototyping scroll behavior of a layer.
+
+* `0` Scroll - regular behavior of a layer.
+* `1` Fixed - fixed position on scroll.
+* `2` Sticky - stick to the edge on scroll.
 
 ### <a name="GradientType"></a>GradientType Enum
 List of Gradient types.
@@ -1271,6 +1431,13 @@ Defines the type of a text list.
 * `1` Bullet - bulleted list.
 * `2` Numbered - numbered list.
 
+### <a name="MaskType"></a>MaskType Enum
+Type of a mask.
+
+* `0` Vector - this mode indicated that every pixel inside the layer's fill regions will be fully visible in the masked result.
+* `1` Alpha - this mode indicates that the mask layer image's transparency (alpha channel) values should be used as the mask values. This is how masks work in Figma.
+* `2` Luminance - this mode indicates that the luminance values of the mask layer image should be used as the mask values. This is how masks work in SVG.
+
 ### <a name="PathFillType"></a>PathFillType Enum
 Defines the filling options for overlapping paths.
 
@@ -1320,24 +1487,6 @@ Defines how a text is aligned vertically.
 * `0` Top - text is aligned to the top.
 * `1` Middle - text is vertically centered.
 * `2` Bottom - text is aligned to the bottom.
-
-### <a name="VertexFlags"></a>VertexFlags Enum
-Defines vertex flags.
-
-* `0` None
-* `1` Mirrored
-* `2` Asymmetric
-* `3` Disconnected
-* `4` HasCurveFrom
-* `8` HasCurveTo
-
-
-**Sketch compatibility**
-
-* `16` RoundedInverted
-* `32` Angled
-* `48` Squared
-
 
 ### <a name="VerticalAlignment"></a>VerticalAlignment Enum
 Defines how a set of layers is aligned vertically.
@@ -1420,22 +1569,6 @@ Defines color overrides for components. _//Sketch Compatibility_
 * Property: [ColorOverrideType](#ColorOverrideType) = `Unknown` - color override type: none, fill, border, shadow, or inner shadow.
 * Index: [int](#int) = `0` - fill index. Starts from 0.
 
-### <a name="OverlaySettings"></a>OverlaySettings
-Defines overlay settings. _//Sketch Compatibility_
-
-* Offset: [Point](#Point) = `[0,0]`
-* OverlayAnchor: [Point](#Point) = `[0,0]`
-* OverlayType: [OverlayType](#OverlayType) = `0`
-* SourceAnchor: [Point](#Point) = `[0,0]`
-
-### <a name="SketchGroupLayout"></a>SketchGroupLayout
-Sketch Group Layout Properties _//Sketch Compatibility_
-
-* Axis: [GroupLayoutAxis](#GroupLayoutAxis) = `Horizontal` - layout Orientation
-* LayoutAnchor: [GroupLayoutAnchor](#GroupLayoutAnchor) = `Begin` - layout Align
-* MaxSize: [float](#float) = `0` - maximum Container Size
-* MinSize: [float](#float) = `0` - minimum Container Size
-
 ### <a name="TextColorOverride"></a>TextColorOverride
 Defines text color overrides for components. _//Sketch Compatibility_
 
@@ -1467,27 +1600,6 @@ Defines types of color overrides for components. _//Sketch Compatibility_
 * `1` sRGB
 * `2` P3
 
-### <a name="CornerStyle"></a>CornerStyle Enum
-Sketch legacy, not supported in Lunacy _//Sketch Compatibility_
-
-* `0` Rounded
-* `1` RoundedInverted
-* `2` Angled
-* `3` Squared
-
-### <a name="GroupLayoutAnchor"></a>GroupLayoutAnchor Enum
-Layout alignment on axis. For vertical it's: left, center or right. For horizontal: top, middle or bottom. _//Sketch Compatibility_
-
-* `0` Begin
-* `1` Middle
-* `2` End
-
-### <a name="GroupLayoutAxis"></a>GroupLayoutAxis Enum
-Group Layout Orientation _//Sketch Compatibility_
-
-* `0` Horizontal
-* `1` Vertical
-
 ### <a name="NamingScheme"></a>NamingScheme Enum
 Controls the use of suffixes/prefixes in the names of export files. _//Sketch Compatibility_
 
@@ -1495,17 +1607,35 @@ Controls the use of suffixes/prefixes in the names of export files. _//Sketch Co
 * `1` SecondaryPrefix - indicates that the file name comes with a user-defined prefix.
 * `2` PrimaryPrefix - indicates that the file name comes with a user-defined prefix.
 
-### <a name="OverlayBackgroundInteraction"></a>OverlayBackgroundInteraction Enum
-Overlay-background interaction options. _//Sketch Compatibility_
+## Changelog
 
-* `0` None
-* `1` CrossOverlay
-* `2` AllowAll
+### Version 5 - 14.04.2025
 
-### <a name="OverlayType"></a>OverlayType Enum
-Defines overlay types. _//Sketch Compatibility_
+* New layer types: `Section` and `States`.
+* `Hotspot` layer type is removed.
+* We are dropping compatibility for sketch smart layout fields, sketch overlay fields, and sketch instance spacing fields.
+* New `Custom` field for `Layer`. It is for plugin data and for anything that's not specified in a FREE format.
+* `FigmaId` field added to the `Component`.
+* `Component` now can be inside any group/frame/section.
+* `CornerRadius` and `SmoothCorners` fields are now in `Style` and `Styled` layers.
+* Also we are dropping support for `Frame` fields: `HasBackgound`, `Background`, `BackgroundInExport`, `BackgroundInInstance`.
 
-* `1` Screen
-* `2` Layer
+### Version 4 - 20.01.2025
 
+* `Link` property is replaced by `Flows` list of prototyping triggers and actions.
 
+### Version 3 - 25.09.2024
+
+* Preview now in `.webp` format, not `.png`. File name is `preview.webp`.
+* WEBP is now a preferred format for images. New images created in Lunacy will use `.webp`.
+
+### Version 2 - 11.08.2024
+
+* `Shared.json` is removed. Now all shared libraries data have a new efficient structure and can be found inside `shared` folder.
+  Separate file is created for every library source - this will significantly increase document open speed in multithreaded way if document use a lot of components from different shared libraries.
+* Now `SharedStyle`s are not grouped by text/layer category. All in one container. To check if style is text style - check if it has text `TextStyle` property.
+* `Export` optimized to be a simple list of `ExportOption`. Some sketch-related fields removed.
+
+### Version 1 - 19.03.2024
+
+* Initial Version
