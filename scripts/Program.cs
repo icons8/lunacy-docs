@@ -3,6 +3,8 @@ string[] optionalPages = ["contact.md", "localization.md", "troubleshooting.md",
 //clear raw folder
 var rawPath = Path.Combine(rootPath, "docs", "raw");
 var llmsPath = Path.Combine(rootPath, "docs", "llms.txt");
+var llmsFullPath = Path.Combine(rootPath, "docs", "llms-full.txt");
+var fullContent = "";
 var llmsContent = """
 # Lunacy
 
@@ -32,7 +34,10 @@ else
 
 //get md files
 var mdFiles = Directory.GetFiles(rootPath, "*.md", SearchOption.AllDirectories)
-    .Where(x => !x.EndsWith("README.md") && !x.EndsWith("rn_private_cloud.md") && !x.EndsWith("creating_private_cloud.md"))
+    .Where(x => !x.EndsWith("README.md") && 
+                !x.EndsWith("rn_private_cloud.md") &&
+                !x.EndsWith("creating_private_cloud.md"))
+    .OrderBy(x => Path.GetFileName(x))
     .ToArray();
 foreach (var path in mdFiles)
 {
@@ -48,6 +53,14 @@ foreach (var path in mdFiles)
         description = description.Substring(description.IndexOf(':') + 2);
 
         content = content.Substring(endIndex + 4);
+        
+
+        fullContent += "# " + header.Trim() + Environment.NewLine +
+                      "Source: https://lunacy.docs.icons8.com/raw/" + Path.GetFileName(path) + 
+                      Environment.NewLine + Environment.NewLine + 
+                      description.Trim() + Environment.NewLine +
+                      content + Environment.NewLine + Environment.NewLine;
+        
         content = "# " + header + Environment.NewLine + Environment.NewLine + 
                   "> " + description + Environment.NewLine + Environment.NewLine +
                   content;
@@ -72,3 +85,4 @@ foreach (var path in mdFiles)
 }
 
 File.WriteAllText(llmsPath, llmsContent + llmsOptional);
+File.WriteAllText(llmsFullPath, fullContent);

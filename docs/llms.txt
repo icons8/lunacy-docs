@@ -5,40 +5,40 @@
 
 ## Docs
 
-- [Images](https://lunacy.docs.icons8.com/raw/images.md): Optimize your work with images in Lunacy.
-- [Text](https://lunacy.docs.icons8.com/raw/text.md): Learn how to work with text in Lunacy.
+- [About Lunacy](https://lunacy.docs.icons8.com/raw/about.md): Basic information about Lunacy.
 - [Auto layout](https://lunacy.docs.icons8.com/raw/autolayout.md): Learn how to create dynamic designs with auto layout.
-- [Shared libraries](https://lunacy.docs.icons8.com/raw/sharedlibraries.md): How to reuse components and styles from other files.
 - [Basics](https://lunacy.docs.icons8.com/raw/basics.md): An overview of Lunacy's basic features and capabilities.
-- [Release History](https://lunacy.docs.icons8.com/raw/release-notes.md): New features and fixes for each version of Lunacy.
-- [Tips and tricks](https://lunacy.docs.icons8.com/raw/tips.md): Tips and tricks to help you work in Lunacy faster and more effectively.
-- [Free format](https://lunacy.docs.icons8.com/raw/free-format.md): Details of the .free format for developers.
-- [Linked design](https://lunacy.docs.icons8.com/raw/linked_design.md): How to update live webpages directly from Lunacy.
+- [Cloud documents](https://lunacy.docs.icons8.com/raw/clouddocs.md): Learn how to work with and collaborate on cloud documents.
 - [Comments](https://lunacy.docs.icons8.com/raw/comments.md): Make notes, provide feedback, and share ideas with your teammates.
 - [Components](https://lunacy.docs.icons8.com/raw/components.md): Increase the speed and productivity of your design workflow with reusable components.
-- [Prototyping](https://lunacy.docs.icons8.com/raw/prototyping.md): Learn how to create interactive prototypes in Lunacy.
-- [FAQs](https://lunacy.docs.icons8.com/raw/faq.md): Frequently asked questions about Lunacy.
-- [Layers](https://lunacy.docs.icons8.com/raw/layers.md): Learn how to work with different types of layers in Lunacy.
-- [Shortcuts](https://lunacy.docs.icons8.com/raw/shortcuts.md): Speed up your workflow with Lunacy's shortcuts.
-- [Release History](https://lunacy.docs.icons8.com/raw/rn_before_v10.md): New features and fixes for each version of Lunacy.
-- [Lunacy Documentation](https://lunacy.docs.icons8.com/raw/index.md): Welcome to the official Lunacy help page, a powerful privacy-focused graphic design software with collaboration..
-- [Cloud documents](https://lunacy.docs.icons8.com/raw/clouddocs.md): Learn how to work with and collaborate on cloud documents.
 - [Editing shapes](https://lunacy.docs.icons8.com/raw/editing_shapes.md): Make sure that you know everything about working with shapes in Lunacy.
-- [Fills, borders, effects](https://lunacy.docs.icons8.com/raw/styling.md): Learn how to work with styling options in Lunacy.
 - [Export](https://lunacy.docs.icons8.com/raw/export.md): Learn all about Lunacy’s export options and settings.
-- [Built-in graphics](https://lunacy.docs.icons8.com/raw/libraries.md): How to make use of our built-in icons, photos, images and UI kits.
-- [About Lunacy](https://lunacy.docs.icons8.com/raw/about.md): Basic information about Lunacy.
-- [Private Cloud](https://lunacy.docs.icons8.com/raw/private_cloud.md): How to collaborate in total privacy.
-- [Color variables](https://lunacy.docs.icons8.com/raw/variables.md): How to create and manage color variables.
-- [Teams](https://lunacy.docs.icons8.com/raw/teams.md): Learn how to organize teamwork.
+- [FAQs](https://lunacy.docs.icons8.com/raw/faq.md): Frequently asked questions about Lunacy.
+- [Free format](https://lunacy.docs.icons8.com/raw/free-format.md): Details of the .free format for developers.
+- [Images](https://lunacy.docs.icons8.com/raw/images.md): Optimize your work with images in Lunacy.
+- [Lunacy Documentation](https://lunacy.docs.icons8.com/raw/index.md): Welcome to the official Lunacy help page, a powerful privacy-focused graphic design software with collaboration..
 - [Interface](https://lunacy.docs.icons8.com/raw/interface.md): Explore the Lunacy interface.
-- [System requirements](https://lunacy.docs.icons8.com/raw/sysreq.md): Hardware and software requirements.
-- [Tools](https://lunacy.docs.icons8.com/raw/tools.md): Learn about Lunacy’s design tools.
+- [Layers](https://lunacy.docs.icons8.com/raw/layers.md): Learn how to work with different types of layers in Lunacy.
 - [Layer and text styles](https://lunacy.docs.icons8.com/raw/layerstyles.md): Learn how to speed up your work with layer and text styles.
+- [Built-in graphics](https://lunacy.docs.icons8.com/raw/libraries.md): How to make use of our built-in icons, photos, images and UI kits.
+- [Linked design](https://lunacy.docs.icons8.com/raw/linked_design.md): How to update live webpages directly from Lunacy.
+- [Private Cloud](https://lunacy.docs.icons8.com/raw/private_cloud.md): How to collaborate in total privacy.
+- [Prototyping](https://lunacy.docs.icons8.com/raw/prototyping.md): Learn how to create interactive prototypes in Lunacy.
+- [Release History](https://lunacy.docs.icons8.com/raw/release-notes.md): New features and fixes for each version of Lunacy.
+- [Legacy Release History](https://lunacy.docs.icons8.com/raw/rn_before_v10.md): New features and fixes for each version of Lunacy.
+- [Shared libraries](https://lunacy.docs.icons8.com/raw/sharedlibraries.md): How to reuse components and styles from other files.
+- [Shortcuts](https://lunacy.docs.icons8.com/raw/shortcuts.md): Speed up your workflow with Lunacy's shortcuts.
+- [Fills, borders, effects](https://lunacy.docs.icons8.com/raw/styling.md): Learn how to work with styling options in Lunacy.
+- [System requirements](https://lunacy.docs.icons8.com/raw/sysreq.md): Hardware and software requirements.
+- [Teams](https://lunacy.docs.icons8.com/raw/teams.md): Learn how to organize teamwork.
+- [Text](https://lunacy.docs.icons8.com/raw/text.md): Learn how to work with text in Lunacy.
+- [Tips and tricks](https://lunacy.docs.icons8.com/raw/tips.md): Tips and tricks to help you work in Lunacy faster and more effectively.
+- [Tools](https://lunacy.docs.icons8.com/raw/tools.md): Learn about Lunacy’s design tools.
+- [Color variables](https://lunacy.docs.icons8.com/raw/variables.md): How to create and manage color variables.
 
 ## Optional
 
-- [Localization](https://lunacy.docs.icons8.com/raw/localization.md): Help us localize Lunacy to your language.
-- [Troubleshooting](https://lunacy.docs.icons8.com/raw/troubleshooting.md): Help Lunacy Support determine the cause of your issue.
 - [Contacts](https://lunacy.docs.icons8.com/raw/contact.md): Reach out to us on any of our platforms.
+- [Localization](https://lunacy.docs.icons8.com/raw/localization.md): Help us localize Lunacy to your language.
 - [Plans and pricing](https://lunacy.docs.icons8.com/raw/subscriptions.md): Find out about our subscriptions.
+- [Troubleshooting](https://lunacy.docs.icons8.com/raw/troubleshooting.md): Help Lunacy Support determine the cause of your issue.

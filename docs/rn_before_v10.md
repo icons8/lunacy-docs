@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Release History
+title: Legacy Release History
 description: New features and fixes for each version of Lunacy
 icon: 'activity-history'
 

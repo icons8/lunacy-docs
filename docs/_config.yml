@@ -203,7 +203,7 @@ sass:
 layouts_dir: ./doks-theme/_layouts
 includes_dir: ./doks-theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md']
-keep_files: [ 'llms.txt' ]
+keep_files: [ 'llms.txt', 'llms-full.txt' ]
 # Keep raw markdown files
 include:
   - /raw

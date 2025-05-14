@@ -1,4 +1,4 @@
-# Release History
+# Legacy Release History
 
 > New features and fixes for each version of Lunacy
 
