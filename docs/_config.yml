@@ -80,7 +80,7 @@ doks:
               item_url: https://lunatics.icons8.com/
               external_url: true
             - item_name: Release notes
-              item_url: /release-notes/
+              item_url: /release-notes
             - item_name: Features
               item_url: https://icons8.com/lunacy-features
             - item_name: Backlog
