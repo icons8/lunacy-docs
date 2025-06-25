@@ -80,7 +80,7 @@ doks:
               item_url: https://lunatics.icons8.com/
               external_url: true
             - item_name: Release notes
-              item_url: /release-notes/
+              item_url: /release-notes
             - item_name: Features
               item_url: https://icons8.com/lunacy-features
             - item_name: Backlog
@@ -203,6 +203,7 @@ sass:
 layouts_dir: ./doks-theme/_layouts
 includes_dir: ./doks-theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md']
+permalink: /:title/
 keep_files: [ 'llms.txt', 'llms-full.txt' ]
 # Keep raw markdown files
 include:
