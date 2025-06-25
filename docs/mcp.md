@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: LLM Integration
-description: Using Model Context Protocol (MCP)
+description: using Model Context Protocol (MCP)
 icon: 'icons8-new-logo'
 
 # Micro navigation
@@ -15,14 +15,12 @@ micro_nav: false
 # Page navigation
 page_nav:
     next:
-        content: Images
-        url: '/images'
+        content: Shortcuts
+        url: '/shortcuts'
     prev:
-        content: LLM Integration
-        url: '/mcp'
+        content: Tips and tricks
+        url: '/tips'
 ---
-
-# LLM Integration using Model Context Protocol (MCP)
 
 ## What is MCP?
 
