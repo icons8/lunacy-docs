@@ -32,20 +32,26 @@ page_nav:
 
 # Version 11
 
+## 11.5
+
+*Release date: June 26, 2025*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.5.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.5.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.5.deb)
+
+* LLM Integration over MCP.
+* Fixed Icons8 Icons integration.
+
 ## 11.4
 
 *Release date: April 21, 2025*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.4.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.4.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.4.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.4.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.4.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.4.deb)
 
 Fixed 10 app crash reasons.
-
 
 ## 11.3
 
 *Release date: April 18, 2025*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.3.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.3.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.3.deb)
 
 ### New selection tools
 
@@ -95,18 +101,11 @@ We’ve optimized the disk size of Lunacy. Depending on your platform, it now ta
 
 *Release date: March 27, 2025*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.2.1.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.1.deb)
-
-
- 
 - Reverted recent changes to masks. They now work as before.
 
 ## 11.2
 
 *Release date: March 27, 2025*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.2.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.deb)
-
 
 ### Fixes and improvements  
 - Added navigation buttons to the Prototype Player.
@@ -117,8 +116,6 @@ We’ve optimized the disk size of Lunacy. Depending on your platform, it now ta
 ## 11.1
 
 *Release date: March 21, 2025*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.1.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.1.deb)
 
 ### Prototyping overlays support 
 
@@ -161,8 +158,6 @@ Options to disable **Auto Z-Index** and **Auto Shape Colors** were added to the 
 ## 11.0
 
 *Release date: March 4, 2025*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.0.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.0.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.0.deb)
 
 ### Advanced prototyping
 
@@ -221,8 +216,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 
 *Release date: January 15, 2025*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.11.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.11.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.11.deb)
-
 ### Improvements and fixes
 
 - Fixed server connection issues.
@@ -230,8 +223,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 ## 10.10
 
 *Release date: December 13, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.10.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.10.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.10.deb)
 
 ### Improvements and fixes
 
@@ -242,8 +233,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 ## 10.9
 
 *Release date: December 3, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.9.0.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.9.0.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.9.0.deb)
 
 ### Improvements and fixes
 
@@ -257,9 +246,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 
 *Release date: November 29, 2024*
 
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.8.0.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.8.0.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.8.0.deb)
-
 ### Improvements and fixes
 
 - New document page selector.
@@ -269,8 +255,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 ## 10.7
 
 *Release date: November 23, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.7.0.1613.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.7.0.1613.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.7.0.1613.deb)
 
 ### Improvements and fixes
 
@@ -282,9 +266,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 ## 10.6
 
 *Release date: November 18, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.6.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.6.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.6.deb)
-
 
 ### Color variables
 
@@ -307,8 +288,6 @@ For details about color variables, click <a href="https://lunacy.docs.icons8.com
 ## 10.5
 
 *Release date: October 23, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.5.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.deb)
 
 In this version, we're introducing a preview of a few experimental AI-based features. All the features are accessible through the main and context menus.
 
@@ -355,8 +334,6 @@ You can now use preset and custom prompts to edit text content with the help of 
 
 *Release date: October 15, 2024*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.4.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.deb)
-
 - Auto updates in shared libraries. When someone edits a component or style in the library, the changes automatically become available in all files using that library once you reopen them.
 - Magnets now work not only with text, but also for adjusting alignment in frames with auto layout.
 
@@ -368,8 +345,6 @@ You can now use preset and custom prompts to edit text content with the help of 
 ## 10.3
 
 *Release date: October 4, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.3.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.deb)
 
 #### Text on path
 
@@ -433,8 +408,6 @@ In future updates, this field will also be used for contextual AI-related comman
 
 *Release date: September 13, 2024*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.1.exe) \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.deb)
-
 #### PDF and AI files import
 
 You can now import PDF and Adobe Illustrator (.ai) files into Lunacy.
@@ -464,8 +437,6 @@ Added *Simulated Bold* and *Oblique* styles for single-weight fonts.
 ## 10.0.1 
 
 *Release date: August 27, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.0.1.exe) \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.deb)
 
 #### Redesigned left sidebar
 
