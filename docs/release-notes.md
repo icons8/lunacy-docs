@@ -384,10 +384,6 @@ Also, you can use the **Max lines** parameter to define the number of lines befo
 
 *Release date: September 24, 2024*
 
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.2.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.deb)
-
 #### Context menu search
 
 You can now quickly find and run almost any command through the context menu.
