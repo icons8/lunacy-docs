@@ -32,11 +32,20 @@ page_nav:
 
 # Version 11
 
+## 11.6
+
+*Release date: July 2, 2025*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.6.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.deb)
+
+* Now LLM can edit Selection over MCP.
+* Fix of Copy/Paste on Windows.
+
 ## 11.5
 
 *Release date: June 26, 2025*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.5.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.5.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.5.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.5.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.5.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.5.deb)
 
 * LLM Integration over MCP.
 * Fixed Icons8 Icons integration.
