@@ -12,6 +12,8 @@ icon: 'activity-history'
 # Micro navigation
 left_menu_off: false
 release_note:
+    - title: Version 12
+      url: 'version-12'
     - title: Version 11
       url: 'version-11'
     - title: Version 10
@@ -28,6 +30,86 @@ page_nav:
         content: Contacts
         url: '/contact'
 ---
+
+<!--
+
+# Version 12
+
+## 12.0 Beta
+
+*Release date: August X, 2025*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.6.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.deb)
+
+### Sections
+
+We’ve added **sections**, a new layer type that helps you keep related objects together.
+
+You can:
+
+- Name sections
+- Change their fill
+- Drag sections along with their contents across the canvas
+
+To create a section, click <embed type="image/svg+xml" alt="Section_icon" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_rDC1o7Vd0mxeecB4RJcZw.svg" /> 
+ on the toolbar or press `Shift+S`.
+
+To select a section, click its label.
+
+### New styles
+
+In addition to color and layer styles, text and layout grid styles are now available. All the styles can be applied to layers separately.
+
+This improves the usability of styles and fixes lots of Figma compatibility issues.
+
+### Skew
+
+You can now skew layers via **Layer → Add Skew**. Adjustments are available in the right panel.
+
+<p><strong>Note:</strong> Some editors may not fully support skewed layers yet (we’re working on it). If you run into issues, reset the skew, make your edits, then reapply it.</p></div>
+
+### Changes to components
+
+#### Component page has left the building (almost)
+You can now create components on any page.
+
+The Component page is now created only in two cases and only in local files:
+
+- When you copy a component from another file to a local file
+- When you drop on the canvas an element from the GUI tool (button, checkbox, etc.)
+
+#### Enhanced component states UX
+
+You can now create and manage component states right on the canvas (right-panel options are still available).
+
+Under the hood, we've reworked component states for better compatibility with Figma variants, resulting in more accurate Figma imports.
+
+### Import of .fig files
+
+We've deprecated Figma import over API due to its limitations and recurring issues.
+
+Instead, .fig file import ensures higher quality and faster conversion.
+
+### Web version of Lunacy (Alpha)
+
+The web version is coming soon. Follow us on [X](https://x.com/Icons8_Lunacy) (ex-Twitter) to be the first to know when closed testing starts.
+
+### New zooming and panning options
+The zoom control in the top-right corner now includes two new features:
+
+**Pan with Right Click** — pan the canvas by dragging while holding the right mouse button
+
+**Zoom with Wheel** — zoom the canvas using the scroll wheel without needing to hold `Ctrl` or `Cmd`
+
+### Lower RAM usage
+
+We've reworked the render logic to handle large pages more efficiently. Huge pages now load progressively at a controlled pace, letting you navigate smoothly without interruptions.
+
+### Variables rollout underway
+
+We’ve started a long-term process to support Figma’s complex variable system. When importing .fig files, new variables and properties may appear to preserve important data. However, these won’t be functional right away. We’ll gradually implement full support for variables, including themes, groups, theme switching, field binding, and more.
+
+-->
 
 
 # Version 11
