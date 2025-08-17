@@ -56,21 +56,32 @@ To create a section, click <embed type="image/svg+xml" alt="Section_icon" src="h
 
 To select a section, click its label.
 
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/sections_ph.png" height="auto"><source src="/public/sections.mp4" type="video/mp4"></video>
+
 ### New styles
 
-In addition to color and layer styles, text and layout grid styles are now available. All the styles can be applied to layers separately.
+In addition to color and layer styles, text and layout guide styles are now available. All the styles can be applied to layers separately.
 
 This improves the usability of styles and fixes lots of Figma compatibility issues.
 
+<embed type="image/svg+xml" alt="new styles" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/lXHX2rfLOE6SztymAS3eyg.svg" /> 
+
+
 ### Skew
 
-You can now skew layers via **Layer → Add Skew**. Adjustments are available in the right panel.
+You can now skew layers.
+
+1. In the upper menu, click **Layer → Add Skew**.
+2. Use the controls in the right panel, to adjust the skew.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/skew_ph.png" height="auto"><source src="/public/skew.mp4" type="video/mp4"></video>
 
 <p><strong>Note:</strong> Some editors may not fully support skewed layers yet (we’re working on it). If you run into issues, reset the skew, make your edits, then reapply it.</p></div>
 
 ### Changes to components
 
 #### Component page has left the building (almost)
+
 You can now create components on any page.
 
 The Component page is now created only in two cases and only in local files:
@@ -81,6 +92,8 @@ The Component page is now created only in two cases and only in local files:
 #### Enhanced component states UX
 
 You can now create and manage component states right on the canvas (right-panel options are still available).
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/add_component_state_ph.png" height="auto"><source src="/public/add_component_state.mp4" type="video/mp4"></video>
 
 Under the hood, we've reworked component states for better compatibility with Figma variants, resulting in more accurate Figma imports.
 
