@@ -31,15 +31,11 @@ page_nav:
         url: '/contact'
 ---
 
-<!--
-
 # Version 12
 
 ## 12.0 Beta
 
-*Release date: August X, 2025*
-
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.6.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.deb)
+*To install the Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.*
 
 ### Sections
 
@@ -110,9 +106,12 @@ The web version is coming soon. Follow us on [X](https://x.com/Icons8_Lunacy) (e
 ### New zooming and panning options
 The zoom control in the top-right corner now includes two new features:
 
-**Pan with Right Click** — pan the canvas by dragging while holding the right mouse button
+**Right Click Drag Pan** — pan the canvas by dragging while holding the right mouse button
 
-**Zoom with Wheel** — zoom the canvas using the scroll wheel without needing to hold `Ctrl` or `Cmd`
+**Scroll Wheel Zoom** — zoom the canvas using the scroll wheel without needing to hold `Ctrl` or `Cmd`
+
+<embed type="image/svg+xml" alt="new styles" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Mo3KvydXnUqpkv9lHGb-LQ.svg" /> 
+
 
 ### Lower RAM usage
 
@@ -121,8 +120,6 @@ We've reworked the render logic to handle large pages more efficiently. Huge pag
 ### Variables rollout underway
 
 We’ve started a long-term process to support Figma’s complex variable system. When importing .fig files, new variables and properties may appear to preserve important data. However, these won’t be functional right away. We’ll gradually implement full support for variables, including themes, groups, theme switching, field binding, and more.
-
--->
 
 
 # Version 11
