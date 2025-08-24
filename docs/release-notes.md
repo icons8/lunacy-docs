@@ -72,6 +72,7 @@ You can now skew layers.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/skew_ph.png" height="auto"><source src="/public/skew.mp4" type="video/mp4"></video>
 
+<div class="callout callout--info">
 <p><strong>Note:</strong> Some editors may not fully support skewed layers yet (we’re working on it). If you run into issues, reset the skew, make your edits, then reapply it.</p></div>
 
 ### Changes to components
