@@ -81,7 +81,7 @@ You can now skew layers.
 
 You can now create components on any page.
 
-The Component page is now created only in two cases and only in local files:
+The Component page is now created only in two cases:
 
 - When you copy a component from another file to a local file
 - When you drop on the canvas an element from the GUI tool (button, checkbox, etc.)

@@ -28,27 +28,29 @@ The main advantage of using components is that you can edit multiple instances o
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_basics.png" height="auto"><source src="/public/component_basics.mp4" type="video/mp4"></video>
 
+<div class="callout callout--info"> <p><strong>Note:</strong> If a component has multiple states, any changes you make apply only to instances of the same state. Instances of other states will not be affected.</p> </div>
+
 ## [Component basics](component-basics)
 
 These are the basic terms related to components and their functions:
 
-* **Main component**. The original layer that you convert into a component. 
+* **Main component**. The original element that you convert into a component. 
 
 * **Component instance**. You create a component **instance** any time you duplicate a main component. When you edit a main component, the changes apply to all of its instances at once.
 
 * **Override**. When you modify an instance, you create an **override**. The main component won't be affected, and if you edit it later, the changes won't apply to instances with overrides.
 
-* **Component page**. A dedicated document page used for storing main components. Lunacy adds it automatically when you create a component.
+* **Component page**. A dedicated document page used for storing main components. Lunacy adds it automatically.
 
     <div class="callout callout--info">
-    <p><strong>Note:</strong> Starting from v.12, the Component page appears only in two cases and only in local files:</p>
+    <p><strong>Note:</strong> Starting from v.12, the Component page appears only in two cases:</p>
         <ul>
             <li>When you copy a component from another file to a local file</li>
             <li>When you drop on the canvas an element from the GUI tool (button, checkbox, etc.)</li>
         </ul>
     </div>
 
-* **Component state**. Components from the same category or subcategory are called **component states**. They define the different styles for one component.
+* **Component state**. A component can have different variants (Default, Hovered, Pressed, etc.). These variants are called [component states](#component-states).
 
 * **Nested components**. You can nest several components in a more complex component. This gives you the most freedom and flexibility in editing your designs, and it’s an even more powerful feature when coupled with <a href="https://lunacy.docs.icons8.com/autolayout/#nested-auto-layouts" target="_blank">nested auto layouts</a>. 
 
@@ -175,7 +177,7 @@ Lunacy automatically assigns names to states (Default, Hover, Pressed, etc.).
 To **rename a state**:
 
 1. Select the state.
-2. Press F2 and the new state name after the slash (for example, `Button / Hover` > `Button / Disabled`).
+2. Press F2 and type the new state name after the slash (for example, `Button / Hover` > `Button / Disabled`).
 
 **Alternative workflow**
 
@@ -192,7 +194,9 @@ To **switch through component states**:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/swtiching_component_states_ph.png" height="auto"><source src="/public/swtiching_copmonent_states.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info"> <p><strong>Note:</strong> Switching component states doesn’t affect overrides. This means that if you change the component state for an instance with overrides, the overrides you created will stay unchanged.</p> </div>
+<div class="callout callout--info"> <p><strong>Note:</strong> Switching component states doesn’t affect overrides.</p> </div>
+
+<!--
 
 ## Organizing components
 
@@ -214,37 +218,42 @@ Here's an example with just the category name and component name:
 
 Still, the quickest way to categorize your components is to create [component states](#component-states).
 
-#### Deleting components
+-->
 
-Delete main components from the **Components tab** (using the [context menu](#components-tab-context-menu)) or the **Components page** (simply delete the component frame). 
 
-When you delete a component, all of its instances turn into frames.
 
 ## [Editing components](#editing-components)
 
-You can **edit a main component**:
+You can **edit a component**:
 
+- Right on the canvas like any other design element. This is the most straight forward and convenient way to edit components.
 - In the **Component editor**.
-- Directly in the **Components page**.
+- On the **Components page**.
 
 #### Making edits in the Component editor
 
 1. Select a component instance and press `Enter` or choose **Edit component** in the context menu.
-2. The main component will appear over the selected instance, while the rest of the canvas will be dimmed. The contents of the component will appear in the **Layer list**.
-3. Edit the component.
-4. Click <embed type="image/svg+xml" alt="exit_component_editor" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/CafkdkTnjUyKoai6_Ky0UQ.svg" width="16" /> on the context toolbar, click anywhere over the dimmed area, or press `Esc` to exit the component editor.
+2. You'll see a pink frame around the canvas and the contents of the component will appear in the **Layer list**.
+3. Use the right panel to make the required changes.
+4. Click anywhere over the canvas, or press `Esc` to exit the component editor.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_components_1.png" height="auto"><source src="/public/editing_components_1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_editor_ph.png" height="auto"><source src="/public/copmonent_editor.mp4" type="video/mp4"></video>
 
-#### Making edits in the Components page
+#### Making edits on the Components page
 
-1. Right-click on an instance and select **Go to Main Component** in the **right panel** or manually switch to the **Components page**.
+<div class="callout callout--info">
+    <p><strong>Note:</strong> Starting from v.12, the Component page appears only in two cases:</p>
+    <ul>
+      <li>When you copy a component from another file to a local file</li>
+      <li>When you drop on the canvas an element from the GUI tool (button, checkbox, etc.)</li>
+    </ul>
+</div>
+
+1. Right-click on an instance and select **Go to Component** in the **right panel** or manually switch to the **Components page**.
 2. Edit the required component.
 3. Once you’re done:
-    - If you used the **Go to Main Component** option, click the **Back to instance** button at the top left corner of the canvas.
+    - If you used the **Go to Component** option, click the **Back to instance** button at the top left corner of the canvas.
     - If you manually opened the Components page, simply switch back to the previous page to continue working with the document.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_components_2.png" height="auto"><source src="/public/editing_components_2.mp4" type="video/mp4"></video>
 
 ## [Swapping components](#swapping-components)
 
@@ -263,12 +272,19 @@ next to it:
 2. Select the required category and component state.
     <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_rightpanel.png" height="auto"><source src="/public/components_swap_rightpanel.mp4" type="video/mp4"></video>
 
+
+#### Deleting components
+
+Delete components from the **Components tab** (using the [context menu](#components-tab-context-menu)) or the **Components page** (simply delete the component frame). 
+
+When you delete a component, all of its instances turn into frames.
+
     
 ## [Managing instances](#managing-instances)
 
 We already covered how to create component instances to the canvas from the **Components tab**. You can also duplicate or copy/paste instances directly onto the canvas. 
 
-With a main component or instance selected:
+With a component or instance selected:
 
 - Press `Ctrl + D` or `Ctrl + C → Ctrl + V`.
 - Hold down `Alt`, then drag to place an instance on the canvas.
@@ -297,7 +313,7 @@ Detach the instance from its main component or press `Ctrl + Alt + D` / `⌘ + �
 
 If you resized the instance, click this button to revert it to the size of the main component.
 
-#### Go to main component
+#### Go to Component
 
 Redirects you to the instance's main component.
 
@@ -309,7 +325,7 @@ Once you modify an instance, the  <embed type="image/svg+xml" alt="reset_overrid
 
 <embed type="image/svg+xml" alt="instance_reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5lHhTwB-kkq7WL8ZYDn_QQ.svg" width="844" /> 
 
-Click it to **reset the override** and revert the instance back to the style of the main component. 
+Click it to **reset the override** and revert the instance back to the style of the component. 
 
 
 ## Creating overrides
@@ -347,7 +363,7 @@ One of the examples we'll use is this profile card UI:
 
 All the components used in the layout are on the left, and their instances are nested in the profile card frame, which is a component itself.
 
-When using complex components such as this one, you can easily change the states of the nested components, manually edit them, or modify all instances by adjusting the main component. 
+When using complex components such as this one, you can easily change the states of the nested components, manually edit them, or modify all instances by adjusting the component. 
 
 #### Fills and images
 
@@ -384,7 +400,7 @@ So, when we were creating component instances in the demo above, new texts appea
 
 #### Layer and text styles
 
-In the main component, we used text and color styles to design our layouts. This is a convenient feature for keeping your designs consistent and easily editable. 
+In the component, we used text and color styles to design our layouts. This is a convenient feature for keeping your designs consistent and easily editable. 
 
 Simply switch styles, create new ones, or edit and delete existing styles in the **Style** section of the right panel:
 
