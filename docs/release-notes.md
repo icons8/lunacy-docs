@@ -107,11 +107,12 @@ The web version is coming soon. Follow us on [X](https://x.com/Icons8_Lunacy) (e
 ### New zooming and panning options
 The zoom control in the top-right corner now includes two new features:
 
-**Right Click Drag Pan** — pan the canvas by dragging while holding the right mouse button
+**Pan with Right Click** — pan the canvas by dragging while holding the right mouse button
 
-**Scroll Wheel Zoom** — zoom the canvas using the scroll wheel without needing to hold `Ctrl` or `Cmd`
+**Zoom with Scroll Wheel** — zoom the canvas using the scroll wheel without needing to hold `Ctrl` or `Cmd`
 
-<embed type="image/svg+xml" alt="new styles" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Mo3KvydXnUqpkv9lHGb-LQ.svg" /> 
+<embed type="image/svg+xml" alt="new_zooming_options" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Mo3KvydXnUqpkv9lHGb-LQ.svg" /> 
+
 
 
 ### Lower RAM usage

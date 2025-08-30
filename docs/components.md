@@ -40,6 +40,14 @@ These are the basic terms related to components and their functions:
 
 * **Component page**. A dedicated document page used for storing main components. Lunacy adds it automatically when you create a component.
 
+    <div class="callout callout--info">
+    <p><strong>Note:</strong> Starting from v.12, the Component page appears only in two cases and only in local files:</p>
+        <ul>
+            <li>When you copy a component from another file to a local file</li>
+            <li>When you drop on the canvas an element from the GUI tool (button, checkbox, etc.)</li>
+        </ul>
+    </div>
+
 * **Component state**. Components from the same category or subcategory are called **component states**. They define the different styles for one component.
 
 * **Nested components**. You can nest several components in a more complex component. This gives you the most freedom and flexibility in editing your designs, and it’s an even more powerful feature when coupled with <a href="https://lunacy.docs.icons8.com/autolayout/#nested-auto-layouts" target="_blank">nested auto layouts</a>. 
@@ -48,12 +56,12 @@ These are the basic terms related to components and their functions:
 
 To **create a component**:
 
-1. Select the layer you want to convert into a component.
-2. Click `+` in the **Component** section of the right panel or press `Ctrl + Alt + K` / `⌘ + ⌥ + K`.
+1. Select the element you want to convert into a component.
+2. Click <embed type="image/svg+xml" alt="go_to_main" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/0yVpQqG2_kmdN0fYegHJ4g.svg" width="16" /> in the context toolbar at the top of the canvas or press `Ctrl + Alt + K` / `⌘ + ⌥ + K`.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_components_methods.png" height="auto"><source src="/public/creating_components_methods.mp4" type="video/mp4"></video>
+<embed type="image/svg+xml" alt="creating_component" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/hRtUIR33v0uSHlyfeTDbqA.svg" /> 
 
-You can also select a layer and click <embed type="image/svg+xml" alt="go_to_main" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/0yVpQqG2_kmdN0fYegHJ4g.svg" width="16" /> in the context toolbar at the top of the canvas or select the **Create component** option on the context menu.
+<!--
 
 #### Layers vs. Frames
 
@@ -67,11 +75,16 @@ The difference is shown here:
 
 Find out more about [component pages](#components-page).
 
+-->
+
 #### Components and instances in the Layer list
 
-<embed type="image/svg+xml" alt="components_instances_in_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/f8iTdn1orUiVLyZVImJClg.svg" width="844" /> 
+<embed type="image/svg+xml" alt="Components_in_layer_list" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/-kkur9FADkmKjIa6O0cOBg.svg" /> 
 
-Main components are bold and colored pink (<embed type="image/svg+xml" alt="color_code_F15085" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/b6VBjbQ0FEaLpb01JY4uEw.svg" width="12" />) in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>, and there’s a component symbol (<embed type="image/svg+xml" alt="main_component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/JApz_Mo2XE6YIoPMoYA3ow.svg" width="16" />) in front of their name.
+
+Main components are bold and colored pink in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>, and there’s a component symbol (<embed type="image/svg+xml" alt="main_component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/JApz_Mo2XE6YIoPMoYA3ow.svg" width="16" />) in front of their name.
+
+Main components with more than one [state](#component-states) come with a dashed border around the symbol.
 
 Component instance names aren’t bold but have the instance symbol (<embed type="image/svg+xml" alt="instance_icon" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/7zBFwNg0JEKWT8fAiIVn9A.svg" width="16" />) and the same pink color. When they’re selected, their properties and options appear in the **Component** section of the right panel.
 
@@ -79,11 +92,14 @@ Component instance names aren’t bold but have the instance symbol (<embed type
 
 All the components in your document appear in the **Components tab** in the left panel.
 
-To **add a component instance** to the canvas, drag it from the left panel to where you want to place it:
+To **add a component instance** to the canvas, you can:
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/reusing_components_left_panel.png" height="auto"><source src="/public/reusing_components_left_panel.mp4" type="video/mp4"></video>
+- Drag it from the **Components tab** to where you want to place it.
+- Duplicate the existing instance on the canvas.
 
-Right-click a component in the left panel to bring up the context menu with these options:
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/adding_components_ph.png" height="auto"><source src="/public/adding_copmonents.mp4" type="video/mp4"></video>
+
+Right-click a component in the **Components tab** to bring up the context menu with these options:
 
 - Rename component
 - Edit component
@@ -93,7 +109,13 @@ Right-click a component in the left panel to bring up the context menu with thes
 - Expand all
 - Collapse all
 
-<div class="callout callout--info"> <p><strong>Note:</strong> If you used any components from built-in or manually created <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>, they will also appear in the Components tab.</p> </div>
+<embed type="image/svg+xml" alt="components_conext_menu" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/eML-tlBOk0aTrB6E2O7xiA.svg" /> 
+
+
+<div class="callout callout--info"> <p><strong>Note:</strong> If you created any elements using the <a href="https://lunacy.docs.icons8.com/tools/#gui-tool" target="_blank">GUI tool</a>, they will also appear in the <b>Components tab</b> in the group named <b>Web</b>.</p> </div>
+
+
+<!--
 
 ## [Managing components](managing-components)
 
@@ -134,31 +156,41 @@ You can use **Components page** that Lunacy generates automatically to store all
 
 <div class="callout callout--info"> <p><strong>Note:</strong> If you set one of your pages as a Components page, make sure its primary purpose is to store components. You’ll avoid confusion, and it will be easier to organize all of your design elements.</p> </div>
 
+-->
+
 ## [Component states](#component-states)
 
-You can create several **states** for a component and switch between them as needed in the **right panel**. 
+You can create multiple states for a component and switch between them as needed. States let you define variations like *Default*, *Hover*, or *Pressed*.
 
 To **create a component state**:
 
-1. Select a component instance.
-2. Click `+` in the **Component** section of the **right panel** or press `Ctrl + Alt + P` / `⌘ + ⌥ + P`.
-3. Adjust your component for the new state and name it.
-4. Click on any empty area on the canvas.
+1. Select a component.
+2. Click <embed type="image/svg+xml" alt="Add New" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/xeqQWIYNtUePMxnmkm1vMA.svg" /> in the context tool bar or press `Ctrl + Alt + P` / `⌘ + ⌥ + P`. A dashed frame will appear around the component, and the new state will be added below the original.
+3. Make the required changes to the new state.
+4. To create additional states, select the original component or any existing state and click `+` again.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_component_state.png" height="auto"><source src="/public/creating_component_state.mp4" type="video/mp4"></video>
 
-A new component will appear near the default main component, defining the new component state. 
+Lunacy automatically assigns names to states (Default, Hover, Pressed, etc.). 
 
-Lunacy also changes the name of components when you create new states, automatically placing them into [categories](#organizing-components). You can edit categories anytime in the **Components tab**.
+To **rename a state**:
 
-New component states for a distinct component will be displayed in the right panel as you select the component’s instances.
+1. Select the state.
+2. Press F2 and the new state name after the slash (for example, `Button / Hover` > `Button / Disabled`).
+
+**Alternative workflow**
+
+You can also create a new component state from any instance on the canvas.
+
+See both methods in the video below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_states_ph.png" height="auto"><source src="/public/copmonent_states.mp4" type="video/mp4"></video>
 
 To **switch through component states**:
 
 1. Select a component instance.
 2. Choose the new component state in the **right panel**.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/switching-component_state.png" height="auto"><source src="/public/switching-component_state.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/swtiching_component_states_ph.png" height="auto"><source src="/public/swtiching_copmonent_states.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info"> <p><strong>Note:</strong> Switching component states doesn’t affect overrides. This means that if you change the component state for an instance with overrides, the overrides you created will stay unchanged.</p> </div>
 
@@ -166,7 +198,7 @@ To **switch through component states**:
 
 As your document grows along with the number of components in it, you'll probably want to organize them so you can quickly find the necessary component when you need it. 
 
-This is how componenet categories and subcategories appear in the **Components tab**:
+This is how component categories and subcategories appear in the **Components tab**:
 
 <embed type="image/svg+xml" alt="categories_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TDamndg4PkCuDPWyD2wrEQ.svg" width="844" /> 
 
