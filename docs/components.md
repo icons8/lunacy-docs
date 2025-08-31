@@ -86,7 +86,7 @@ Find out more about [component pages](#components-page).
 
 Main components are bold and colored pink in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>, and there’s a component symbol (<embed type="image/svg+xml" alt="main_component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/JApz_Mo2XE6YIoPMoYA3ow.svg" width="16" />) in front of their name.
 
-Main components with more than one [state](#component-states) come with a dashed border around the symbol.
+Сomponents with more than one [state](#component-states) come with a dashed border around the symbol.
 
 Component instance names aren’t bold but have the instance symbol (<embed type="image/svg+xml" alt="instance_icon" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/7zBFwNg0JEKWT8fAiIVn9A.svg" width="16" />) and the same pink color. When they’re selected, their properties and options appear in the **Component** section of the right panel.
 
@@ -226,7 +226,7 @@ Still, the quickest way to categorize your components is to create [component st
 
 You can **edit a component**:
 
-- Right on the canvas like any other design element. This is the most straight forward and convenient way to edit components.
+- Right on the canvas like any other design element. This is the most straightforward and convenient way to edit components.
 - In the **Component editor**.
 - On the **Components page**.
 
@@ -257,20 +257,24 @@ You can **edit a component**:
 
 ## [Swapping components](#swapping-components)
 
-Use the **Components tab** or the **right panel** swap between instances from entirely different components. Simply select an instance you want to replace and use one of the following methods.
+You can swap between instances of different components. Simply select an instance you want to replace and use one of the following methods.
 
 **Method 1**: 
 
 1. Go to the **Components tab**.
 2. Find the required component and click <embed type="image/svg+xml" alt="swap_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/FwHiX5HVcE23ZwIlDilhyw.svg" width="16" /> 
 next to it:
-    <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_tab.png" height="auto"><source src="/public/components_swap_tab.mp4" type="video/mp4"></video>
+
 
 **Method 2**:
 
-1. Open the **component state menu** in the **Component** section of the right panel.
-2. Select the required category and component state.
-    <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_rightpanel.png" height="auto"><source src="/public/components_swap_rightpanel.mp4" type="video/mp4"></video>
+1. In the right panel, open the Component list.
+2. Select the required component (and its state).
+    
+The video below shows both these merthods.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_switching_ph.png" height="auto"><source src="/public/copmonent_switching.mp4" type="video/mp4"></video>
+
 
 
 #### Deleting components
@@ -282,53 +286,31 @@ When you delete a component, all of its instances turn into frames.
     
 ## [Managing instances](#managing-instances)
 
-We already covered how to create component instances to the canvas from the **Components tab**. You can also duplicate or copy/paste instances directly onto the canvas. 
 
-With a component or instance selected:
+### Creating instances
 
-- Press `Ctrl + D` or `Ctrl + C → Ctrl + V`.
-- Hold down `Alt`, then drag to place an instance on the canvas.
+To **add a component instance** to the canvas, you can:
 
-#### Component instance properties
+- Drag it from the **Components tab** to where you want to place it.
+- Duplicate the existing instance on the canvas.
 
-For a component instance, the **Component** section in the **right panel** will look like this:
+See the video in the [Reusing components](#reusing-components) section.
 
-<embed type="image/svg+xml" alt="rightpanel_instance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zztZgnyr9EqhG8-NFu-_hA.svg" width="844" /> 
+### Instance properties
 
-#### Component state menu
+When you select a component instance, the right panel shows an additional section that looks like this:
 
-A dropdown menu displaying the current state of the component. When open, it shows all other components and UI kits available in the document. 
-
-If you didn’t create any component states, this property will read **Default State**. 
-
-#### Component states
-
-Select one of the presets to organize your components by type. Changing this for a component instance will affect its main component and vice versa.
-
-#### Detach from component
-
-Detach the instance from its main component or press `Ctrl + Alt + D` / `⌘ + ⌥ + B`.
-
-#### Reset instance size
-
-If you resized the instance, click this button to revert it to the size of the main component.
-
-#### Go to Component
-
-Redirects you to the instance's main component.
-
-#### Component type
-
-See the corresponding [main component property](#main-component-properties).
-
-Once you modify an instance, the  <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > button appears in this section, indicating that the instance has an override:
-
-<embed type="image/svg+xml" alt="instance_reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5lHhTwB-kkq7WL8ZYDn_QQ.svg" width="844" /> 
-
-Click it to **reset the override** and revert the instance back to the style of the component. 
+<embed type="image/svg+xml" alt="instance_properties" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/smJwPS7NKUexrqNTb-1Sxg.svg" /> 
 
 
-## Creating overrides
+- **Component list**. A dropdown menu displaying the name of the component. When open, it shows all other components available in the document. By choosing items in the list you can [swap components](#swapping-components).
+- **Component states**. Previews of all availalable [component states](#component-states). 
+- **Detach from component**. Use this button (or `Ctrl + Alt + D` / `⌘ + ⌥ + B`) to detach an instance from its component. Once detached, the instance will no longer reflect changes made to the original component.
+- **Go to Component**. This button will bring you to the instance's main component.
+- **Reset overrides**. Use this button to remove all [overrides](#overrides) and restore the instance to the component’s original appearance.
+- **Component type**. This setting currently has no visible effect.
+
+## Overrides
 
 To reiterate, an override is any edit you make to a component instance. Let's go over them in detail.
 
@@ -338,11 +320,11 @@ Click `▾` next to the title of a component instance in the Layer list to expan
 
 Some basic overrides you can make are changes to layer color, text, or image content.
 
-Below, we have a simple example of a card component consisted of an image (an oval with an **Image** fill) and a labeled button. We make three types of overrides to the card, changing the **button color**, the **button label**, and the **image**. 
+Here’s a simple example of a card component made up of an image (an oval with an **Image** fill) and a labeled button. We applied three overrides: changed the **button color**, updated the **button label**, and replaced the **image**.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_simple_overrides.png" height="auto"><source src="/public/creating_simple_overrides.mp4" type="video/mp4"></video>
 
-You can easily reset all of these overrides by pressing <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > in the **Component** section, like in the demo above. 
+You can easily reset all of these overrides by pressing <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > in the instance properties. 
 
 Here’s a full list of layers and properties you can create overrides for:
 
@@ -352,6 +334,8 @@ Here’s a full list of layers and properties you can create overrides for:
 - Auto layouts
 - Tints
 - Hotspots
+
+<!--
 
 #### Understanding overrides
 
@@ -463,6 +447,8 @@ For example, there’s quite a few auto layouts in our profile card examples:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_auto_layout_main.png" height="auto"><source src="/public/component_auto_layout_main.mp4" type="video/mp4"></video>
 
+
+-->
 
 ## Component-related shortcuts and menu options 
 
