@@ -53,7 +53,7 @@ grid_navigation:
       excerpt: Learn how to work with text in Lunacy
       url: '/text'
       icon: 'document'
-    - title: 'Styling'
+    - title: 'Fills, borders, effects'
       excerpt: Learn about tools that will help you create your unique style
       url: '/styling'
       icon: 'design'
@@ -61,8 +61,8 @@ grid_navigation:
       excerpt: How to create and manage color variables
       url: '/variables'
       icon: 'paint-palette'
-    - title: 'Layer and text styles'
-      excerpt: Learn how to speed up your work with layer and text styles
+    - title: 'Styles'
+      excerpt: Learn how to speed up your work with pre-set styles
       url: '/layerstyles/'
       icon: 'rich-text-converter'
     - title: 'Components'

@@ -5,8 +5,8 @@ keywords:
 comments: false
 
 # Hero section
-title: Layer and text styles
-description: Learn how to speed up your work with layer and text styles
+title: Styles
+description: Learn how to speed up your work with styles
 icon: 'rich-text-converter'
 
 # Micro navigation
@@ -22,58 +22,62 @@ page_nav:
         url: '/variables'
 ---
 
-Layer and text styles are sets of predefined properties (fills, borders, effects) that you can use to speed up your design workflow and ensure a consistent look throughout your projects. When you update a style, all associated layers automatically reflect the changes.
+Styles are sets of predefined properties (fills, effects) that you can use to speed up your design workflow and ensure a consistent look throughout your projects. When you edit a style, all associated layers update automatically.
 
-The only difference between layer and text styles is that the latter also include typography properties like font, size, line spacing, etc.
+Lunacy supports the following style types:
+
+- **Color styles** — for fills and borders
+
+- **Effect styles** — for shadows and blurs
+
+- **Text styles** — for fonts, sizes, line spacing, and other text properties
+
+- **Layout grid styles** — for layout guides applied to frames
 
 You can manage and organize styles in the **Styles** tab.
+
+<embed type="image/svg+xml" alt="styles_tab" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/B4vRzcgloEGqyUB7hUGTFg.svg" /> 
+
 
 ### Creating styles
 
 There are two ways of creating styles.
 
-**Way 1.** Select a layer with the properties you're likely to reuse and save them as a style.
+**Way 1.**
+
+1. Select a layer with the properties you're likely to reuse.
+2. Go to the **Styles** tab and click `+` next to the type of style you're going to create.
+3. Type the new new style name and press `Enter` or click anywhere over the canvas.
 
 **Way 2.** Click `+` in the **Styles** list and define all the required properties.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_styles_ph.png" height="auto"><source src="/public/creating_styles.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_stylesv12.png" height="auto"><source src="/public/creating_styles_v12.mp4" type="video/mp4"></video>
+
+
 
 ### Applying styles
 
 Select the required layer or several layers, then choose the style you want to apply from the right panel.
 
-Optionally, you can apply styles using the left panel (watch the video above).
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/applying_styles_v12_ph.png" height="auto"><source src="/public/applying_styles_v12.mp4" type="video/mp4"></video>
 
-### Modifying a layer style
 
-There are two ways to modify a style.
+### Modifying a style
 
-**Way 1.**
-
-1. Switch to the **Styles** tab, then click the style you want to modify
+1. Switch to the **Styles** tab, hover over the style you want to modify, then click <embed type="image/svg+xml" alt="Edit_icon" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ois3SsbaIE-VPWPJ6_gN-w.svg" />. 
 2. In the displayed panel, make the required changes.
 3. Close the panel to apply changes.
 
-**Way 2.**
 
-1. Select a layer using the style you want to modify.
-2. Make the required changes in the right panel. When you are done, you will see an asterisk (*) next to the style name in the right panel. It indicates that changes have been made to the style.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_styles_v12_ph.png" height="auto"><source src="/public/editing_styles_v12.mp4" type="video/mp4"></video>
 
-    <embed type="image/svg+xml" alt="editing_style" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/14zxECrRDUSbcciXXjl2PQ.svg" /> 
-
-
-3. Use one of the following options:
-
-    * **Update Style** (<embed type="image/svg+xml" alt="Checkmark" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/lQA_atI7Bk-0aprvMzlB5w.svg" />): Saves the changes to the existing style.
-    * **Create New Layer Style** (<embed type="image/svg+xml" alt="Plus" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_rTigJIyfUmibMI3iRNl5Q.svg" />): Saves the changes to a new style.
-    * **Reset Style** (<embed type="image/svg+xml" alt="Reset" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/-CkP9OjHL0Kz5Vxza54Eig.svg" />) : Discards all changes that you have made.
 
 
 ### Detaching a style
 
 Select the required layer and click the **Detach style** button shown below.
 
-<embed type="image/svg+xml" alt="detaching_style" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/9IaLOhrj3kaLEqqUJV4FKw.svg" /> 
+<embed type="image/svg+xml" alt="detaching_styles" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/k5f7tarviE6PmC2qMV4jig.svg" /> 
 
 
 The appearance of the layer remains the same, but it is no longer associated with the style and further changes to the style will not affect the layer.
@@ -82,7 +86,7 @@ The appearance of the layer remains the same, but it is no longer associated wit
 
 It is a good practice to organize styles into groups similar to those shown in the figure below.
 
-<embed type="image/svg+xml" alt="organizing_styles" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/H7X3965HHUWrgLYs26FQLA.svg" /> 
+<embed type="image/svg+xml" alt="organizing_stylesv12" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/J2FHVidH90CQnS6vHLPreA.svg" /> 
 
 
 To organize your styles into groups, consider the following format of style names:
