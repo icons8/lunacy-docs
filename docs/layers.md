@@ -33,7 +33,8 @@ There are several types of layers in Lunacy:
 * <a href="https://lunacy.docs.icons8.com/components/" target="_blank">Components and component instances</a>
 * <a href="https://lunacy.docs.icons8.com/tools/#icon-tool" target="_blank">Icons</a> 
 * <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspots</a> 
-* <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slices</a> 
+* <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slices</a>
+* [Sections](#sections)
 
 Follow the links above to learn how to work with specific layers in detail. In this section, we’ll go over the basics: how to create, edit, and organize layers on the canvas and the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>.
 
@@ -450,3 +451,24 @@ You can adjust the individual resizing behavior for each layer in the **Constrai
 **See also:**
 <br>
 <a href="https://lunacy.docs.icons8.com/autolayout/#resizing-auto-layout-elements">Resizing auto layout elements</a>
+
+## Sections
+
+Sections are a special layer type that helps you keep related objects together and organize your canvas. They work like visual containers for grouping content.
+
+With sections, you can:
+
+- Give them custom names for better navigation
+- Set a fill color to distinguish different areas of your design
+- Move sections across the canvas along with all their contents
+- Nest sections inside one another to create a clear hierarchy
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/sections_ph.png" height="auto"><source src="/public/sections.mp4" type="video/mp4"></video>
+
+### Working with sections
+
+- To create a section, click <embed type="image/svg+xml" alt="Section_icon" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_rDC1o7Vd0mxeecB4RJcZw.svg" /> 
+ on the toolbar or press `Shift+S`.
+- To select a section, click its label at the top-left corner.
+- Once selected, you can move or resize the section.
+- All objects inside a section move along with it.
