@@ -93,6 +93,50 @@ Contact us via our feedback form:
 **Long answer:** We realize this would speed up the development process, however, it would also slow us down in some ways, too. Sometimes, a small team can advance faster than a large community. We may reconsider in the future.
 
 
+### How can I install Lunacy Beta on Flatpack
+
+You can install Lunacy either as a stable release or as a beta version via Flatpak. The beta version lets you try new features earlier, but only one version (stable or beta) can be installed at a time.
+
+Both versions share the same application ID: `com.icons8.Lunacy`.
+
+#### Installing Lunacy Beta (from scratch)
+
+1. Add the Flathub Beta repository (if not already added):
+
+    ```bash
+    flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+    ```
+2. Install Lunacy Beta:
+
+    ```bash
+    flatpak install flathub-beta com.icons8.Lunacy
+    ```
+#### Switching from Stable to Beta
+
+1. Uninstall the stable version:
+
+    ```bash
+    flatpak uninstall com.icons8.Lunacy
+    ```
+2. Add the Flathub Beta repository (if not already added):
+
+    ```bash
+    flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+    ```
+3. Install the beta version:
+
+    ```bash
+    flatpak install flathub-beta com.icons8.Lunacy
+    ```    
+    
+#### Running Lunacy
+
+To run Lunacy (both stable and beta), use the same command:
+
+```bash
+flatpak run com.icons8.Lunacy
+```
+
 ## Questions about features
 
 Questions about existing or upcoming Lunacy features.
