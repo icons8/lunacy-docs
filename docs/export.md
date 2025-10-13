@@ -42,7 +42,7 @@ With a single export operation, you can get multiple files of different formats 
 
 | Format type | Supported formats                  |
 | ----------- | ---------------------------------- |
-| Raster      | `PNG`, `JPG`, `ICO`, `WEBP`, `GIF` |
+| Raster      | `PNG`, `JPG`, `ICO`, `WEBP`, `TIFF`, `BMP` |
 | Vector      | `SVG`, `PDF`                       |
 
 You can save exported files **to your computer** and also [upload your layers](#cloud-export) to **Lunacy Cloud**, generating a shareable link right to the layer in the document.
