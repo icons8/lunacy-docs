@@ -60,7 +60,8 @@ You can now create custom plugins for Lunacy in any programming language using t
 
 ### Connectors
 
-You can now use connectors to visually link layers and show relationships or flow. Connectors move with linked objects and can be customized like arrows or lines.
+You can now use connectors (<embed type="image/svg+xml" alt="connector_icon" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/kZ0jItZ2_EWHEuYJdbC8WA.svg" /> or `X`
+) to visually link layers and show relationships or flow. Connectors move with linked objects and can be customized like arrows or lines.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/connectors_ph.png" height="auto"><source src="/public/connectors.mp4" type="video/mp4"></video>
 
@@ -100,7 +101,7 @@ You can now skew layers.
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/skew_ph.png" height="auto"><source src="/public/skew.mp4" type="video/mp4"></video>
 
 <div class="callout callout--info">
-<p><strong>Note:</strong> Some editors may not fully support skewed layers yet (we’re working on it). If you run into issues, reset the skew, make your edits, then reapply it.</p></div>
+<p><strong>Note:</strong> Some shape editors may not fully support skewed layers yet (we’re working on it). If you run into issues, reset the skew, make your edits, then reapply it.</p></div>
 
 ### Improved prototyping
 
@@ -109,6 +110,8 @@ Prototyping has been improved with Smart Animate, Spring animations, and a Flow 
 ### Improved auto layout
 
 Auto layout elements can now be reordered by dragging them directly on the canvas.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/al_swap_ph.png" height="auto"><source src="/public/al_swap.mp4" type="video/mp4"></video>
 
 ### Changes to components
 
