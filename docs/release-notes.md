@@ -37,6 +37,33 @@ page_nav:
 
 *To install the Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.*
 
+
+
+### Lunacy online 
+
+Lunacy now has a full-featured web version available at [lunacyapp.com](https://lunacyapp.com). Teams working with sensitive data can also deploy the web version in closed environments.
+
+### AI Chat
+
+Get inspired or edit your designs with LLMs. Choose between Claude, Gemini, OpenAI, and Grok. No API keys required, free to use, with support for auto layout.
+
+<embed type="image/svg+xml" alt="ai_chat" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ckrn6CUT-E21WRRW1LoHgA.svg" /> 
+
+
+### Improved MCP server
+
+The MCP server has been expanded with additional methods for more advanced integrations.
+
+### Plugins
+
+You can now create custom plugins for Lunacy in any programming language using the MCP API. See the docs and example plugins on our [GitHub](https://github.com/icons8/lunacy-plugins).
+
+### Connectors
+
+You can now use connectors to visually link layers and show relationships or flow. Connectors move with linked objects and can be customized like arrows or lines.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/connectors_ph.png" height="auto"><source src="/public/connectors.mp4" type="video/mp4"></video>
+
 ### Sections
 
 We’ve added **sections**, a new layer type that helps you keep related objects together.
@@ -75,6 +102,14 @@ You can now skew layers.
 <div class="callout callout--info">
 <p><strong>Note:</strong> Some editors may not fully support skewed layers yet (we’re working on it). If you run into issues, reset the skew, make your edits, then reapply it.</p></div>
 
+### Improved prototyping
+
+Prototyping has been improved with Smart Animate, Spring animations, and a Flow List for managing multiple prototype flows.
+
+### Improved auto layout
+
+Auto layout elements can now be reordered by dragging them directly on the canvas.
+
 ### Changes to components
 
 #### Component page has left the building (almost)
@@ -100,10 +135,6 @@ We've deprecated Figma import over API due to its limitations and recurring issu
 
 Instead, .fig file import ensures higher quality and faster conversion.
 
-### Web version of Lunacy (Alpha)
-
-The web version is coming soon. Follow us on [X](https://x.com/Icons8_Lunacy) (ex-Twitter) to be the first to know when closed testing starts.
-
 ### New zooming and panning options
 The zoom control in the top-right corner now includes two new features:
 
@@ -113,15 +144,45 @@ The zoom control in the top-right corner now includes two new features:
 
 <embed type="image/svg+xml" alt="new_zooming_options" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Mo3KvydXnUqpkv9lHGb-LQ.svg" /> 
 
+### Updated Color Picker
 
+We have significantly improved the Color Picker:
+
+- New gradient stop editor.
+- CSS color support.
+- New color spaces including LCH, OKLCH, LAB, OKLAB, and HWB.
+- Image filters and blend modes for fills and borders have been moved to the Color Picker.
+
+### Changes to right panel
+
+- The right panel is now resizable.
+- Comments now show up only when the comment tool is enabled.
+
+
+### Support for Sketch 2025 file format
+
+The Sketch 2025 file format, which includes major updates, is now supported.
 
 ### Lower RAM usage
 
 We've reworked the render logic to handle large pages more efficiently. Huge pages now load progressively at a controlled pace, letting you navigate smoothly without interruptions.
 
+### Updated .FREE format
+
+Lunacy's .free format has been updated, with changes primarily affecting variables.
+
 ### Variables rollout underway
 
 We’ve started a long-term process to support Figma’s complex variable system. When importing .fig files, new variables and properties may appear to preserve important data. However, these won’t be functional right away. We’ll gradually implement full support for variables, including themes, groups, theme switching, field binding, and more.
+
+### Lunacy on Flatpak
+
+Lunacy Beta is now available on Flatpak.
+
+### Fixes and improvements
+
+- Issues affecting cloud collaboration have been resolved.
+- All known instance override issues have been fixed.
 
 
 # Version 11
