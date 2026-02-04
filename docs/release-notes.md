@@ -41,7 +41,7 @@ page_nav:
 
 ### Lunacy online 
 
-Lunacy now has a full-featured web version available at [lunacyapp.com](https://lunacyapp.com). Teams working with sensitive data can also deploy the web version in closed environments.
+Lunacy now has a full-featured web version available at [lunacyapp.com](https://lunacyapp.com). Teams working with sensitive data can also deploy the web version in [closed environments](https://icons8.com/lunacy-dedicated).
 
 ### AI Chat
 
