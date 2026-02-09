@@ -33,10 +33,13 @@ page_nav:
 
 # Version 12
 
-## 12.0 Beta
+## 12.0
 
 *To install the Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.*
 
+*Release date: February 9, 2026*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_12.1.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_12.1.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_12.1.deb) \| [Flatpak](https://flathub.org/en/apps/com.icons8.Lunacy)
 
 
 ### Lunacy online 
@@ -194,7 +197,7 @@ Lunacy Beta is now available on Flatpak.
 
 *Release date: July 2, 2025*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.6.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.6.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.deb)
 
 * Now LLM can edit Selection over MCP.
 * Fix of Copy/Paste on Windows.
