@@ -33,7 +33,7 @@ page_nav:
 
 # Version 12
 
-*To install the Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.*
+*To install the Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.* 
 
 ## 12.0
 
