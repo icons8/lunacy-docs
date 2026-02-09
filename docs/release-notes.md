@@ -33,9 +33,9 @@ page_nav:
 
 # Version 12
 
-## 12.0
-
 *To install the Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.*
+
+## 12.0
 
 *Release date: February 9, 2026*
 
