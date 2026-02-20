@@ -35,11 +35,11 @@ page_nav:
 
 *To install a Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.* 
 
-## 12.0
+## 12
 
 *Release date: February 9, 2026*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_12.2.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_12.2.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_12.2.deb) \| [Flatpak](https://flathub.org/en/apps/com.icons8.Lunacy)
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_12.3.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_12.3.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_12.3.deb) \| [Flatpak](https://flathub.org/en/apps/com.icons8.Lunacy)
 
 
 ### Lunacy online 
