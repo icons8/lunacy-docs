@@ -31,11 +31,23 @@ page_nav:
         url: '/contact'
 ---
 
+
+# Version 13
+
+*Release date: March 3, 2026*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_13.0.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_13.0.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_13.0.deb) \| [Flatpak](https://flathub.org/en/apps/com.icons8.Lunacy)
+
+* **Scroll overflow**. Content that exceeds a frame’s bounds can now be scrolled on prototypes.
+* **Multiple prototype flows**. Create multiple prototype flows with different starting points on a page. Start a flow from the list in the right panel.
+* **Override inspector**. It now appears in the right panel when a component instance with overrides is selected. It helps manage overrides in complex documents such as design systems.
+* **Vertical trim**. Text layers can now trim extra vertical space, improving alignment and layout consistency.
+* **Export file prefixes now create folders**. Using slashes (/) in the prefix will generate corresponding folders during export.
+* **Platform selector**. You can choose the target platform, and the GUI tool will automatically provide matching components. This behavior will be extended to other tools over time.
+* **Stack layout support**. Lunacy now correctly reads and writes Sketch's stack layouts.
+
+
 # Version 12
-
-*To install a Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.* 
-
-## 12
 
 *Release date: February 9, 2026*
 
