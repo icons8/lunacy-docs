@@ -9,10 +9,6 @@
 
 *Release date: May 27, 2024*
 
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.1.exe) - Windows installers are temporarily missing a code sign certificate. This may lead to security warnings during installation. We are working to resolve this issue as soon as possible.
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.1.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.1.deb)
-
 ### Improvements
 
  - To enhance user experience, the shortcut for the Insert Text into Shape feature is now `Shift+T`.
@@ -23,10 +19,6 @@
 ## 9.6.0
 
 *Release date: April 26, 2024*
-
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.6.0.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.0.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.6.0.deb)
 
 ### Get your own Lunacy Cloud
 
@@ -88,10 +80,6 @@ For more information, [contact us](https://icons-8.typeform.com/LunacyPrivacy).
 
 *Release date: March 19, 2024*
 
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.5.0.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.5.0.deb)
-
 ### FREE format
 
 The default file format in Lunacy is now `.free`, which is almost fully compatible with the features from the Figma and Sketch formats. We designed `.free` to address the issues available in `.sketch` when it comes to very large design files.
@@ -127,20 +115,12 @@ Yes. You can easily convert between the formats using the **Save as** option.
 
 *Release date: February 08, 2024*
 
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.4.2.5022.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.2.5022.deb)
-
 Fixed the bug with the minimum macOS version requirement of 14.0. Now Lunacy runs flawlessly on macOS 11 and higher.
 
 
 ## 9.4
 
 *Release date: February 02, 2024*
-
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.4.1.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.1.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.4.1.deb)
 
 ### Faster launch times, lower memory usage
 
@@ -159,12 +139,6 @@ We switched to a new transport protocol. This will help reduce latency when work
 
 *Release date: December 28, 2023*
 
-Download:
-
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_9.3.6.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.6.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_9.3.6.deb)
-
 ### Bug fixes
 - 20 bugs fixed
 
@@ -172,9 +146,6 @@ Download:
 ## 9.3.1
 
 *Release date: December 20, 2023*
-
-Download: [Windows](https://lcdn.icons8.com/setup/LunacySetup_9.3.1.exe), [MacOS](https://lcdn.icons8.com/setup/Lunacy_9.3.1.dmg), [Linux](https://lcdn.icons8.com/setup/Lunacy_9.3.1.deb).
-
 
 ### Individual borders
 
@@ -251,8 +222,6 @@ Drag the handle at the bottom of single-line text boxes to adjust the font size.
 
 ## 9.2.1 hotfix
 *Release date: August 17, 2023*
-
-Download: [Windows](https://lcdn.icons8.com/setup/LunacySetup_9.2.1.exe), [MacOS](https://lcdn.icons8.com/setup/Lunacy_9.2.1.dmg), [Linux](https://lcdn.icons8.com/setup/Lunacy_9.2.1.deb).
 
 ### Bug fixes
 - Fixed huge memory consumption.
@@ -652,8 +621,6 @@ We removed the notification panel. All notifications now appear as toasts at the
 
 *Release date: July 22, 2022*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_8.6.2.exe)
-
 ### Personal Cloud plan
 
 
@@ -744,8 +711,6 @@ To remove documents from your online profile, simply unpublish them. By default,
 
 *Release date: May 16, 2022*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_8.5.0.exe)
-
 ### Teams
 
 Teams serve to make it easier for you to manage collaborative documents and people who have access to them.
@@ -777,8 +742,6 @@ Note that you can still share cloud documents with other users as you did it ear
 
 *Release date: March 28, 2022*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_8.4.1.exe)
-
 ### Fixed issues
 
 * Fixed GPU acceleration on Windows
@@ -788,8 +751,6 @@ Note that you can still share cloud documents with other users as you did it ear
 ## 8.4
 
 *Release date: March 18, 2022*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_8.4.0.exe)
 
 ### Redesigned context menu
 
@@ -844,8 +805,6 @@ To jump to the target layer, hover the mouse over the linked layer, press down `
 
 *Release date: March 2, 2022*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_8.3.0.exe)
-
 ### Easier component state management
 
 The Inspector panel now features the **Component** section, so it has become way easier to manage components and their states.
@@ -893,8 +852,6 @@ For other actions, use the respective controls at the bottom of the **Component*
 ## 8.2
 
 *Release date: January 29, 2022*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_8.2.0.0.exe)
 
 ### Color variables
 
@@ -957,8 +914,6 @@ To hide comments, click **Comments** once again.
 
 *Release date: December 23, 2021*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_8.1.0.0.exe)
-
 ### Support for Apple Silicon
 Now Lunacy can run on Macs with Apple Silicon processors.
 You can download the build on our website. Later it will also be available on the App Store.
@@ -1017,9 +972,6 @@ We redesigned the **Code** panel for better usability. Also, now it features the
 
 *Release date: October 28, 2021*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_8.0.5.exe)
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e6wCzETfb6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -1037,7 +989,7 @@ It means that even more people can install Lunacy and create awesome designs, sh
 
 * We temporarily removed the support for external plugins. That was a trade-off we had to make in order to release the Mac and Linux versions. We're planning to restore the feature in one of the upcoming releases.
 * We removed suggestions panels. We need to re-think this feature. A new, revamped version will appear soon.
-* There is a known issue with the display of some fonts. We're doing our best to fix it. Workaround: use [v.6.9](https://lcdn.icons8.com/setup/LunacySetup_6.9.0.exe).
+* There is a known issue with the display of some fonts. We're doing our best to fix it.
 * And one more thing. If you'd like to have Lunacy on iPad, vote for it <a href="https://lunatics.icons8.com/discussion/204/lunacy-for-ipad#latest" target="_blank">here</a>.
 
 
@@ -1046,9 +998,6 @@ It means that even more people can install Lunacy and create awesome designs, sh
 ## 7.1
 
 *Release date: June 25, 2021*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_7.1.0.exe)
-
 
 ### New features
 
@@ -1095,9 +1044,6 @@ To exit the mode, click the user's avatar once again.
 ## 7.0
 
 *Release date: May 21, 2021*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_7.0.0.exe)
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pz8S9ducEQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -1182,8 +1128,6 @@ If you also want to take part in Lunacy localization, click <a href="https://lun
 ## 6.9
 *Release date: March 17, 2021*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_6.9.0.exe)
-
 ### New features
 
 #### Hot exit
@@ -1203,8 +1147,6 @@ Moreover, Lunacy will remember your actions with files, so that you will be able
 
 ## 6.8
 *Release date: February 03, 2021*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_6.8.0.exe)
 
 ### New features
 
@@ -1252,8 +1194,6 @@ To view and manage comments, enable the Comment tool.
 
 ## 6.7
 *Release date: December 31, 2020*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_6.7.0.exe)
 
 ### New features
 
@@ -1319,8 +1259,6 @@ To use this feature, click **Text > Fonts Embedding** on the menu bar. In the di
 ## 6.5
 
 *Release date: November 17, 2020*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_6.5.0.exe)
 
 ### New features
 
@@ -1554,8 +1492,6 @@ Also, you can hold down Shift to get a perfectly vertical, horizontal or 45-degr
 ## 6.0
 
 *Release date: August 04, 2020*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_6.0.0.exe)
 
 ### New features
 
@@ -1812,8 +1748,6 @@ _Release date: May 18, 2020_
 ## 5.5
 _Release date: April 30, 2020_  
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_5.5.exe)
-
 ### Improvements
 - Panning performance improvements
 - Selection performance improvements
@@ -1861,8 +1795,6 @@ _Release date: April 15, 2020_
 ## 5.3.1 hotfix
 _Release date: March 26, 2020_  
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_5.3.1.exe)
-
 ### Bug Fixes
 - Critical bug fixes
 
@@ -1896,8 +1828,6 @@ _Release date: March 25, 2020_
 ## 5.2
 _Release date: March 02, 2020_  
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_5.2.exe)
-
 ### Features
 - New Rendering Engine (input lag reduced, performance improved)
 - Icon Tool
@@ -1923,8 +1853,6 @@ _Release date: March 02, 2020_
 
 ## 5.1.1 hotfix
 _Release date: February 19, 2020_  
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_5.1.1.exe)
 
 ### Bug Fixes
 - Fixed crashes
@@ -1977,8 +1905,6 @@ _Release date: January 25, 2020_
 
 ## 5.0
 _Release date: January 24, 2020_
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_5.0.exe)
 
 ### Features
 - What's new information inside Lunacy
@@ -2369,7 +2295,7 @@ _RELEASED May 15, 2019_
 - Added possibility to move points of editing object with arrow keys
 - Improved work with zoom field and grid settings
 - Corrected window size and panel state saving
-- Corrected vector tool Esc behaviour 
+- Corrected vector tool Esc behaviour
 
 ### Bug Fixes
 - Fixed the error of exporting objects with long names to a local file

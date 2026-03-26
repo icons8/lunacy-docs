@@ -35,9 +35,7 @@ else
 //get md files
 var mdFiles = Directory.GetFiles(rootPath, "*.md", SearchOption.AllDirectories)
     .Where(x => !x.EndsWith("README.md") && 
-                !x.EndsWith("index.md") &&
-                !x.EndsWith("rn_private_cloud.md") &&
-                !x.EndsWith("creating_private_cloud.md"))
+                !x.EndsWith("index.md"))
     .OrderBy(x => Path.GetFileName(x))
     .ToArray();
 foreach (var path in mdFiles)

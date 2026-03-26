@@ -1053,19 +1053,29 @@ The main advantage of using components is that you can edit multiple instances o
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_basics.png" height="auto"><source src="/public/component_basics.mp4" type="video/mp4"></video>
 
+<div class="callout callout--info"> <p><strong>Note:</strong> If a component has multiple states, any changes you make apply only to instances of the same state. Instances of other states will not be affected.</p> </div>
+
 ## [Component basics](component-basics)
 
 These are the basic terms related to components and their functions:
 
-* **Main component**. The original layer that you convert into a component. 
+* **Main component**. The original element that you convert into a component. 
 
 * **Component instance**. You create a component **instance** any time you duplicate a main component. When you edit a main component, the changes apply to all of its instances at once.
 
 * **Override**. When you modify an instance, you create an **override**. The main component won't be affected, and if you edit it later, the changes won't apply to instances with overrides.
 
-* **Component page**. A dedicated document page used for storing main components. Lunacy adds it automatically when you create a component.
+* **Component page**. A dedicated document page used for storing main components. Lunacy adds it automatically.
 
-* **Component state**. Components from the same category or subcategory are called **component states**. They define the different styles for one component.
+    <div class="callout callout--info">
+    <p><strong>Note:</strong> Starting from v.12, the Component page appears only in two cases:</p>
+        <ul>
+            <li>When you copy a component from another file to a local file</li>
+            <li>When you drop on the canvas an element from the GUI tool (button, checkbox, etc.)</li>
+        </ul>
+    </div>
+
+* **Component state**. A component can have different variants (Default, Hovered, Pressed, etc.). These variants are called [component states](#component-states).
 
 * **Nested components**. You can nest several components in a more complex component. This gives you the most freedom and flexibility in editing your designs, and it’s an even more powerful feature when coupled with <a href="https://lunacy.docs.icons8.com/autolayout/#nested-auto-layouts" target="_blank">nested auto layouts</a>. 
 
@@ -1073,12 +1083,12 @@ These are the basic terms related to components and their functions:
 
 To **create a component**:
 
-1. Select the layer you want to convert into a component.
-2. Click `+` in the **Component** section of the right panel or press `Ctrl + Alt + K` / `⌘ + ⌥ + K`.
+1. Select the element you want to convert into a component.
+2. Click <embed type="image/svg+xml" alt="go_to_main" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/0yVpQqG2_kmdN0fYegHJ4g.svg" width="16" /> in the context toolbar at the top of the canvas or press `Ctrl + Alt + K` / `⌘ + ⌥ + K`.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_components_methods.png" height="auto"><source src="/public/creating_components_methods.mp4" type="video/mp4"></video>
+<embed type="image/svg+xml" alt="creating_component" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/hRtUIR33v0uSHlyfeTDbqA.svg" /> 
 
-You can also select a layer and click <embed type="image/svg+xml" alt="go_to_main" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/0yVpQqG2_kmdN0fYegHJ4g.svg" width="16" /> in the context toolbar at the top of the canvas or select the **Create component** option on the context menu.
+<!--
 
 #### Layers vs. Frames
 
@@ -1092,11 +1102,16 @@ The difference is shown here:
 
 Find out more about [component pages](#components-page).
 
+-->
+
 #### Components and instances in the Layer list
 
-<embed type="image/svg+xml" alt="components_instances_in_layer_list" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/f8iTdn1orUiVLyZVImJClg.svg" width="844" /> 
+<embed type="image/svg+xml" alt="Components_in_layer_list" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/-kkur9FADkmKjIa6O0cOBg.svg" /> 
 
-Main components are bold and colored pink (<embed type="image/svg+xml" alt="color_code_F15085" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/b6VBjbQ0FEaLpb01JY4uEw.svg" width="12" />) in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>, and there’s a component symbol (<embed type="image/svg+xml" alt="main_component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/JApz_Mo2XE6YIoPMoYA3ow.svg" width="16" />) in front of their name.
+
+Main components are bold and colored pink in the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>, and there’s a component symbol (<embed type="image/svg+xml" alt="main_component" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/JApz_Mo2XE6YIoPMoYA3ow.svg" width="16" />) in front of their name.
+
+Сomponents with more than one [state](#component-states) come with a dashed border around the symbol.
 
 Component instance names aren’t bold but have the instance symbol (<embed type="image/svg+xml" alt="instance_icon" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/7zBFwNg0JEKWT8fAiIVn9A.svg" width="16" />) and the same pink color. When they’re selected, their properties and options appear in the **Component** section of the right panel.
 
@@ -1104,11 +1119,14 @@ Component instance names aren’t bold but have the instance symbol (<embed type
 
 All the components in your document appear in the **Components tab** in the left panel.
 
-To **add a component instance** to the canvas, drag it from the left panel to where you want to place it:
+To **add a component instance** to the canvas, you can:
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/reusing_components_left_panel.png" height="auto"><source src="/public/reusing_components_left_panel.mp4" type="video/mp4"></video>
+- Drag it from the **Components tab** to where you want to place it.
+- Duplicate the existing instance on the canvas.
 
-Right-click a component in the left panel to bring up the context menu with these options:
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/adding_components_ph.png" height="auto"><source src="/public/adding_copmonents.mp4" type="video/mp4"></video>
+
+Right-click a component in the **Components tab** to bring up the context menu with these options:
 
 - Rename component
 - Edit component
@@ -1118,7 +1136,13 @@ Right-click a component in the left panel to bring up the context menu with thes
 - Expand all
 - Collapse all
 
-<div class="callout callout--info"> <p><strong>Note:</strong> If you used any components from built-in or manually created <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a>, they will also appear in the Components tab.</p> </div>
+<embed type="image/svg+xml" alt="components_conext_menu" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/eML-tlBOk0aTrB6E2O7xiA.svg" /> 
+
+
+<div class="callout callout--info"> <p><strong>Note:</strong> If you created any elements using the <a href="https://lunacy.docs.icons8.com/tools/#gui-tool" target="_blank">GUI tool</a>, they will also appear in the <b>Components tab</b> in the group named <b>Web</b>.</p> </div>
+
+
+<!--
 
 ## [Managing components](managing-components)
 
@@ -1159,39 +1183,51 @@ You can use **Components page** that Lunacy generates automatically to store all
 
 <div class="callout callout--info"> <p><strong>Note:</strong> If you set one of your pages as a Components page, make sure its primary purpose is to store components. You’ll avoid confusion, and it will be easier to organize all of your design elements.</p> </div>
 
+-->
+
 ## [Component states](#component-states)
 
-You can create several **states** for a component and switch between them as needed in the **right panel**. 
+You can create multiple states for a component and switch between them as needed. States let you define variations like *Default*, *Hover*, or *Pressed*.
 
 To **create a component state**:
 
-1. Select a component instance.
-2. Click `+` in the **Component** section of the **right panel** or press `Ctrl + Alt + P` / `⌘ + ⌥ + P`.
-3. Adjust your component for the new state and name it.
-4. Click on any empty area on the canvas.
+1. Select a component.
+2. Click <embed type="image/svg+xml" alt="Add New" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/xeqQWIYNtUePMxnmkm1vMA.svg" /> in the context tool bar or press `Ctrl + Alt + P` / `⌘ + ⌥ + P`. A dashed frame will appear around the component, and the new state will be added below the original.
+3. Make the required changes to the new state.
+4. To create additional states, select the original component or any existing state and click `+` again.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_component_state.png" height="auto"><source src="/public/creating_component_state.mp4" type="video/mp4"></video>
 
-A new component will appear near the default main component, defining the new component state. 
+Lunacy automatically assigns names to states (Default, Hover, Pressed, etc.). 
 
-Lunacy also changes the name of components when you create new states, automatically placing them into [categories](#organizing-components). You can edit categories anytime in the **Components tab**.
+To **rename a state**:
 
-New component states for a distinct component will be displayed in the right panel as you select the component’s instances.
+1. Select the state.
+2. Press F2 and type the new state name after the slash (for example, `Button / Hover` > `Button / Disabled`).
+
+**Alternative workflow**
+
+You can also create a new component state from any instance on the canvas.
+
+See both methods in the video below.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_states_ph.png" height="auto"><source src="/public/copmonent_states.mp4" type="video/mp4"></video>
 
 To **switch through component states**:
 
 1. Select a component instance.
 2. Choose the new component state in the **right panel**.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/switching-component_state.png" height="auto"><source src="/public/switching-component_state.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/swtiching_component_states_ph.png" height="auto"><source src="/public/swtiching_copmonent_states.mp4" type="video/mp4"></video>
 
-<div class="callout callout--info"> <p><strong>Note:</strong> Switching component states doesn’t affect overrides. This means that if you change the component state for an instance with overrides, the overrides you created will stay unchanged.</p> </div>
+<div class="callout callout--info"> <p><strong>Note:</strong> Switching component states doesn’t affect overrides.</p> </div>
+
+<!--
 
 ## Organizing components
 
 As your document grows along with the number of components in it, you'll probably want to organize them so you can quickly find the necessary component when you need it. 
 
-This is how componenet categories and subcategories appear in the **Components tab**:
+This is how component categories and subcategories appear in the **Components tab**:
 
 <embed type="image/svg+xml" alt="categories_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/TDamndg4PkCuDPWyD2wrEQ.svg" width="844" /> 
 
@@ -1207,105 +1243,99 @@ Here's an example with just the category name and component name:
 
 Still, the quickest way to categorize your components is to create [component states](#component-states).
 
-#### Deleting components
+-->
 
-Delete main components from the **Components tab** (using the [context menu](#components-tab-context-menu)) or the **Components page** (simply delete the component frame). 
 
-When you delete a component, all of its instances turn into frames.
 
 ## [Editing components](#editing-components)
 
-You can **edit a main component**:
+You can **edit a component**:
 
+- Right on the canvas like any other design element. This is the most straightforward and convenient way to edit components.
 - In the **Component editor**.
-- Directly in the **Components page**.
+- On the **Components page**.
 
 #### Making edits in the Component editor
 
 1. Select a component instance and press `Enter` or choose **Edit component** in the context menu.
-2. The main component will appear over the selected instance, while the rest of the canvas will be dimmed. The contents of the component will appear in the **Layer list**.
-3. Edit the component.
-4. Click <embed type="image/svg+xml" alt="exit_component_editor" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/CafkdkTnjUyKoai6_Ky0UQ.svg" width="16" /> on the context toolbar, click anywhere over the dimmed area, or press `Esc` to exit the component editor.
+2. You'll see a pink frame around the canvas and the contents of the component will appear in the **Layer list**.
+3. Use the right panel to make the required changes.
+4. Click anywhere over the canvas, or press `Esc` to exit the component editor.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_components_1.png" height="auto"><source src="/public/editing_components_1.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_editor_ph.png" height="auto"><source src="/public/copmonent_editor.mp4" type="video/mp4"></video>
 
-#### Making edits in the Components page
+#### Making edits on the Components page
 
-1. Right-click on an instance and select **Go to Main Component** in the **right panel** or manually switch to the **Components page**.
+<div class="callout callout--info">
+    <p><strong>Note:</strong> Starting from v.12, the Component page appears only in two cases:</p>
+    <ul>
+      <li>When you copy a component from another file to a local file</li>
+      <li>When you drop on the canvas an element from the GUI tool (button, checkbox, etc.)</li>
+    </ul>
+</div>
+
+1. Right-click on an instance and select **Go to Component** in the **right panel** or manually switch to the **Components page**.
 2. Edit the required component.
 3. Once you’re done:
-    - If you used the **Go to Main Component** option, click the **Back to instance** button at the top left corner of the canvas.
+    - If you used the **Go to Component** option, click the **Back to instance** button at the top left corner of the canvas.
     - If you manually opened the Components page, simply switch back to the previous page to continue working with the document.
-
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_components_2.png" height="auto"><source src="/public/editing_components_2.mp4" type="video/mp4"></video>
 
 ## [Swapping components](#swapping-components)
 
-Use the **Components tab** or the **right panel** swap between instances from entirely different components. Simply select an instance you want to replace and use one of the following methods.
+You can swap between instances of different components. Simply select an instance you want to replace and use one of the following methods.
 
 **Method 1**: 
 
 1. Go to the **Components tab**.
 2. Find the required component and click <embed type="image/svg+xml" alt="swap_components" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/FwHiX5HVcE23ZwIlDilhyw.svg" width="16" /> 
 next to it:
-    <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_tab.png" height="auto"><source src="/public/components_swap_tab.mp4" type="video/mp4"></video>
+
 
 **Method 2**:
 
-1. Open the **component state menu** in the **Component** section of the right panel.
-2. Select the required category and component state.
-    <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/components_swap_rightpanel.png" height="auto"><source src="/public/components_swap_rightpanel.mp4" type="video/mp4"></video>
+1. In the right panel, open the Component list.
+2. Select the required component (and its state).
+    
+The video below shows both these merthods.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_switching_ph.png" height="auto"><source src="/public/copmonent_switching.mp4" type="video/mp4"></video>
+
+
+
+#### Deleting components
+
+Delete components from the **Components tab** (using the [context menu](#components-tab-context-menu)) or the **Components page** (simply delete the component frame). 
+
+When you delete a component, all of its instances turn into frames.
 
     
 ## [Managing instances](#managing-instances)
 
-We already covered how to create component instances to the canvas from the **Components tab**. You can also duplicate or copy/paste instances directly onto the canvas. 
 
-With a main component or instance selected:
+### Creating instances
 
-- Press `Ctrl + D` or `Ctrl + C → Ctrl + V`.
-- Hold down `Alt`, then drag to place an instance on the canvas.
+To **add a component instance** to the canvas, you can:
 
-#### Component instance properties
+- Drag it from the **Components tab** to where you want to place it.
+- Duplicate the existing instance on the canvas.
 
-For a component instance, the **Component** section in the **right panel** will look like this:
+See the video in the [Reusing components](#reusing-components) section.
 
-<embed type="image/svg+xml" alt="rightpanel_instance" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/zztZgnyr9EqhG8-NFu-_hA.svg" width="844" /> 
+### Instance properties
 
-#### Component state menu
+When you select a component instance, the right panel shows an additional section that looks like this:
 
-A dropdown menu displaying the current state of the component. When open, it shows all other components and UI kits available in the document. 
-
-If you didn’t create any component states, this property will read **Default State**. 
-
-#### Component states
-
-Select one of the presets to organize your components by type. Changing this for a component instance will affect its main component and vice versa.
-
-#### Detach from component
-
-Detach the instance from its main component or press `Ctrl + Alt + D` / `⌘ + ⌥ + B`.
-
-#### Reset instance size
-
-If you resized the instance, click this button to revert it to the size of the main component.
-
-#### Go to main component
-
-Redirects you to the instance's main component.
-
-#### Component type
-
-See the corresponding [main component property](#main-component-properties).
-
-Once you modify an instance, the  <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > button appears in this section, indicating that the instance has an override:
-
-<embed type="image/svg+xml" alt="instance_reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/5lHhTwB-kkq7WL8ZYDn_QQ.svg" width="844" /> 
-
-Click it to **reset the override** and revert the instance back to the style of the main component. 
+<embed type="image/svg+xml" alt="instance_properties" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/smJwPS7NKUexrqNTb-1Sxg.svg" /> 
 
 
-## Creating overrides
+- **Component list**. A dropdown menu displaying the name of the component. When open, it shows all other components available in the document. By choosing items in the list you can [swap components](#swapping-components).
+- **Component states**. Previews of all availalable [component states](#component-states). 
+- **Detach from component**. Use this button (or `Ctrl + Alt + D` / `⌘ + ⌥ + B`) to detach an instance from its component. Once detached, the instance will no longer reflect changes made to the original component.
+- **Go to Component**. This button will bring you to the instance's main component.
+- **Reset overrides**. Use this button to remove all [overrides](#overrides) and restore the instance to the component’s original appearance.
+- **Component type**. This setting currently has no visible effect.
+
+## Overrides
 
 To reiterate, an override is any edit you make to a component instance. Let's go over them in detail.
 
@@ -1315,11 +1345,11 @@ Click `▾` next to the title of a component instance in the Layer list to expan
 
 Some basic overrides you can make are changes to layer color, text, or image content.
 
-Below, we have a simple example of a card component consisted of an image (an oval with an **Image** fill) and a labeled button. We make three types of overrides to the card, changing the **button color**, the **button label**, and the **image**. 
+Here’s a simple example of a card component made up of an image (an oval with an **Image** fill) and a labeled button. We applied three overrides: changed the **button color**, updated the **button label**, and replaced the **image**.
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_simple_overrides.png" height="auto"><source src="/public/creating_simple_overrides.mp4" type="video/mp4"></video>
 
-You can easily reset all of these overrides by pressing <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > in the **Component** section, like in the demo above. 
+You can easily reset all of these overrides by pressing <embed type="image/svg+xml" alt="reset_overrides" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/PmMyhR72A0GyShZvh91lgA.svg"  width="16" > in the instance properties. 
 
 Here’s a full list of layers and properties you can create overrides for:
 
@@ -1329,6 +1359,8 @@ Here’s a full list of layers and properties you can create overrides for:
 - Auto layouts
 - Tints
 - Hotspots
+
+<!--
 
 #### Understanding overrides
 
@@ -1340,7 +1372,7 @@ One of the examples we'll use is this profile card UI:
 
 All the components used in the layout are on the left, and their instances are nested in the profile card frame, which is a component itself.
 
-When using complex components such as this one, you can easily change the states of the nested components, manually edit them, or modify all instances by adjusting the main component. 
+When using complex components such as this one, you can easily change the states of the nested components, manually edit them, or modify all instances by adjusting the component. 
 
 #### Fills and images
 
@@ -1377,7 +1409,7 @@ So, when we were creating component instances in the demo above, new texts appea
 
 #### Layer and text styles
 
-In the main component, we used text and color styles to design our layouts. This is a convenient feature for keeping your designs consistent and easily editable. 
+In the component, we used text and color styles to design our layouts. This is a convenient feature for keeping your designs consistent and easily editable. 
 
 Simply switch styles, create new ones, or edit and delete existing styles in the **Style** section of the right panel:
 
@@ -1440,6 +1472,8 @@ For example, there’s quite a few auto layouts in our profile card examples:
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/component_auto_layout_main.png" height="auto"><source src="/public/component_auto_layout_main.mp4" type="video/mp4"></video>
 
+
+-->
 
 ## Component-related shortcuts and menu options 
 
@@ -1726,7 +1760,7 @@ With a single export operation, you can get multiple files of different formats 
 
 | Format type | Supported formats                  |
 | ----------- | ---------------------------------- |
-| Raster      | `PNG`, `JPG`, `ICO`, `WEBP`, `GIF` |
+| Raster      | `PNG`, `JPG`, `ICO`, `WEBP`, `TIFF`, `BMP` |
 | Vector      | `SVG`, `PDF`                       |
 
 You can save exported files **to your computer** and also [upload your layers](#cloud-export) to **Lunacy Cloud**, generating a shareable link right to the layer in the document.
@@ -2033,6 +2067,50 @@ Contact us via our feedback form:
 
 **Long answer:** We realize this would speed up the development process, however, it would also slow us down in some ways, too. Sometimes, a small team can advance faster than a large community. We may reconsider in the future.
 
+
+### How can I install Lunacy Beta on Flatpack
+
+You can install Lunacy either as a stable release or as a beta version via Flatpak. The beta version lets you try new features earlier, but only one version (stable or beta) can be installed at a time.
+
+Both versions share the same application ID: `com.icons8.Lunacy`.
+
+#### Installing Lunacy Beta (from scratch)
+
+1. Add the Flathub Beta repository (if not already added):
+
+    ```bash
+    flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+    ```
+2. Install Lunacy Beta:
+
+    ```bash
+    flatpak install flathub-beta com.icons8.Lunacy
+    ```
+#### Switching from Stable to Beta
+
+1. Uninstall the stable version:
+
+    ```bash
+    flatpak uninstall com.icons8.Lunacy
+    ```
+2. Add the Flathub Beta repository (if not already added):
+
+    ```bash
+    flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+    ```
+3. Install the beta version:
+
+    ```bash
+    flatpak install flathub-beta com.icons8.Lunacy
+    ```    
+    
+#### Running Lunacy
+
+To run Lunacy (both stable and beta), use the same command:
+
+```bash
+flatpak run com.icons8.Lunacy
+```
 
 ## Questions about features
 
@@ -2635,7 +2713,8 @@ There are several types of layers in Lunacy:
 * <a href="https://lunacy.docs.icons8.com/components/" target="_blank">Components and component instances</a>
 * <a href="https://lunacy.docs.icons8.com/tools/#icon-tool" target="_blank">Icons</a> 
 * <a href="https://lunacy.docs.icons8.com/tools/#hotspot-tool" target="_blank">Hotspots</a> 
-* <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slices</a> 
+* <a href="https://lunacy.docs.icons8.com/tools/#slice-tool" target="_blank">Slices</a>
+* [Sections](#sections)
 
 Follow the links above to learn how to work with specific layers in detail. In this section, we’ll go over the basics: how to create, edit, and organize layers on the canvas and the <a href="https://lunacy.docs.icons8.com/interface/#layer-list" target="_blank">Layer list</a>.
 
@@ -3053,63 +3132,88 @@ You can adjust the individual resizing behavior for each layer in the **Constrai
 <br>
 <a href="https://lunacy.docs.icons8.com/autolayout/#resizing-auto-layout-elements">Resizing auto layout elements</a>
 
-# Layer and text styles
+## Sections
+
+Sections are a special layer type that helps you keep related objects together and organize your canvas. They work like visual containers for grouping content.
+
+With sections, you can:
+
+- Give them custom names for better navigation
+- Set a fill color to distinguish different areas of your design
+- Move sections across the canvas along with all their contents
+- Nest sections inside one another to create a clear hierarchy
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/sections_ph.png" height="auto"><source src="/public/sections.mp4" type="video/mp4"></video>
+
+### Working with sections
+
+- To create a section, click <embed type="image/svg+xml" alt="Section_icon" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_rDC1o7Vd0mxeecB4RJcZw.svg" /> 
+ on the toolbar or press `Shift+S`.
+- To select a section, click its label at the top-left corner.
+- Once selected, you can move or resize the section.
+- All objects inside a section move along with it.
+
+# Styles
 Source: https://lunacy.docs.icons8.com/raw/layerstyles.md
 
-Learn how to speed up your work with layer and text styles
+Learn how to speed up your work with styles
 
-Layer and text styles are sets of predefined properties (fills, borders, effects) that you can use to speed up your design workflow and ensure a consistent look throughout your projects. When you update a style, all associated layers automatically reflect the changes.
+Styles are sets of predefined properties (fills, effects) that you can use to speed up your design workflow and ensure a consistent look throughout your projects. When you edit a style, all associated layers update automatically.
 
-The only difference between layer and text styles is that the latter also include typography properties like font, size, line spacing, etc.
+Lunacy supports the following style types:
+
+- **Color styles** — for fills and borders
+
+- **Effect styles** — for shadows and blurs
+
+- **Text styles** — for fonts, sizes, line spacing, and other text properties
+
+- **Layout grid styles** — for layout guides applied to frames
 
 You can manage and organize styles in the **Styles** tab.
+
+<embed type="image/svg+xml" alt="styles_tab" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/B4vRzcgloEGqyUB7hUGTFg.svg" /> 
+
 
 ### Creating styles
 
 There are two ways of creating styles.
 
-**Way 1.** Select a layer with the properties you're likely to reuse and save them as a style.
+**Way 1.**
+
+1. Select a layer with the properties you're likely to reuse.
+2. Go to the **Styles** tab and click `+` next to the type of style you're going to create.
+3. Type the new new style name and press `Enter` or click anywhere over the canvas.
 
 **Way 2.** Click `+` in the **Styles** list and define all the required properties.
 
-<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_styles_ph.png" height="auto"><source src="/public/creating_styles.mp4" type="video/mp4"></video>
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/creating_stylesv12.png" height="auto"><source src="/public/creating_styles_v12.mp4" type="video/mp4"></video>
+
+
 
 ### Applying styles
 
 Select the required layer or several layers, then choose the style you want to apply from the right panel.
 
-Optionally, you can apply styles using the left panel (watch the video above).
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/applying_styles_v12_ph.png" height="auto"><source src="/public/applying_styles_v12.mp4" type="video/mp4"></video>
 
-### Modifying a layer style
 
-There are two ways to modify a style.
+### Modifying a style
 
-**Way 1.**
-
-1. Switch to the **Styles** tab, then click the style you want to modify
+1. Switch to the **Styles** tab, hover over the style you want to modify, then click <embed type="image/svg+xml" alt="Edit_icon" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ois3SsbaIE-VPWPJ6_gN-w.svg" />. 
 2. In the displayed panel, make the required changes.
 3. Close the panel to apply changes.
 
-**Way 2.**
 
-1. Select a layer using the style you want to modify.
-2. Make the required changes in the right panel. When you are done, you will see an asterisk (*) next to the style name in the right panel. It indicates that changes have been made to the style.
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_styles_v12_ph.png" height="auto"><source src="/public/editing_styles_v12.mp4" type="video/mp4"></video>
 
-    <embed type="image/svg+xml" alt="editing_style" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/14zxECrRDUSbcciXXjl2PQ.svg" /> 
-
-
-3. Use one of the following options:
-
-    * **Update Style** (<embed type="image/svg+xml" alt="Checkmark" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/lQA_atI7Bk-0aprvMzlB5w.svg" />): Saves the changes to the existing style.
-    * **Create New Layer Style** (<embed type="image/svg+xml" alt="Plus" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_rTigJIyfUmibMI3iRNl5Q.svg" />): Saves the changes to a new style.
-    * **Reset Style** (<embed type="image/svg+xml" alt="Reset" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/-CkP9OjHL0Kz5Vxza54Eig.svg" />) : Discards all changes that you have made.
 
 
 ### Detaching a style
 
 Select the required layer and click the **Detach style** button shown below.
 
-<embed type="image/svg+xml" alt="detaching_style" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/9IaLOhrj3kaLEqqUJV4FKw.svg" /> 
+<embed type="image/svg+xml" alt="detaching_styles" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/k5f7tarviE6PmC2qMV4jig.svg" /> 
 
 
 The appearance of the layer remains the same, but it is no longer associated with the style and further changes to the style will not affect the layer.
@@ -3118,7 +3222,7 @@ The appearance of the layer remains the same, but it is no longer associated wit
 
 It is a good practice to organize styles into groups similar to those shown in the figure below.
 
-<embed type="image/svg+xml" alt="organizing_styles" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/H7X3965HHUWrgLYs26FQLA.svg" /> 
+<embed type="image/svg+xml" alt="organizing_stylesv12" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/J2FHVidH90CQnS6vHLPreA.svg" /> 
 
 
 To organize your styles into groups, consider the following format of style names:
@@ -3324,6 +3428,104 @@ Here's how you can apply changes to a live webpage:
 ### Viewing changes in the browser
 
 In your browser, reload the page by pressing `Ctrl + F5`/ `⌘ ⌥ R` to make sure that any cached content is cleared.
+
+# LLM Integration
+Source: https://lunacy.docs.icons8.com/raw/mcp.md
+
+using Model Context Protocol (MCP)
+
+## What is MCP?
+
+The Model Context Protocol (MCP) is an open standard that enables AI assistants to securely connect with external data sources and tools. It provides a standardized way for AI models to access and interact with various applications, databases, and services while maintaining security and user control.
+
+MCP acts as a bridge between AI assistants like Claude and your local applications, allowing them to work together seamlessly. Instead of manually copying and pasting information between applications, MCP enables direct communication and data exchange.
+
+## How MCP Works in Lunacy
+
+Lunacy implements MCP through a local server that runs alongside your Lunacy application. This server provides secure access to your Lunacy projects, allowing AI assistants to:
+
+* Access information about selected objects in your designs
+* Retrieve color variables from your design system
+* Get details about components and their properties
+* Access images and other design assets
+
+The MCP server launches automatically when enabled and runs locally on your machine, ensuring your design data remains secure and private.
+
+## Enabling MCP in Lunacy
+
+To start using MCP with Lunacy:
+
+
+1. Open Lunacy
+2. Navigate to the main menu
+3. Select **AI → Model Context Protocol → MCP Server Enabled**
+4. The MCP server will start running locally and be ready to accept connections
+
+## Connecting Claude to Lunacy's MCP Server
+
+To connect Claude Desktop to your Lunacy MCP server:
+
+### Step 1: Install Claude Desktop
+
+Download and install Claude Desktop from <https://claude.ai/download>
+
+### Step 2: Get MCP Configuration
+
+In Lunacy, you have two options:
+
+**Option A: Full Configuration (Recommended for new setups)**
+
+* Go to **AI → Model Context Protocol → Copy MCP Servers File**
+* This copies a complete JSON configuration file
+
+**Option B: Single Server Entry (For existing MCP setups)**
+
+* Go to **AI → Model Context Protocol → Copy MCP Server Entry**
+* This copies just the Lunacy server configuration line
+
+### Step 3: Configure Claude Desktop
+
+
+1. Open Claude Desktop
+2. Open the Settings menu (press Ctrl+, on Windows or Cmd+, on macOS)
+3. Navigate to the **Developer** tab
+4. Click **Edit Config** - this will open your file manager with the `claude_desktop_config.json` file highlighted
+5. Open the highlighted `claude_desktop_config.json` file in any text editor
+6. If using Option A: Replace the entire file contents with the copied JSON configuration
+7. If using Option B: Add the copied server entry to your existing `mcpServers` section, maintaining valid JSON structure
+8. Save the file and restart Claude Desktop completely
+
+Once configured, Claude will be able to interact directly with your Lunacy projects and access design information in real-time.
+
+## Creative Use Cases
+
+The real power of MCP integration comes from combining Lunacy's design data with other MCP servers to create seamless, automated workflows:
+
+**AI-Powered Design-to-Code Pipeline** Select a complex dashboard layout in Lunacy and ask Claude to generate a complete React application with TypeScript, including component structure, state management, API integration points, and even mock data that matches your design specifications. Claude can analyze your color variables and component hierarchy to create a fully functional prototype.
+
+**Intelligent Design System Documentation** Combine Lunacy MCP with file system access to automatically generate comprehensive design system documentation. Claude can analyze your components, extract design patterns, document usage guidelines, and create markdown files with embedded design tokens and component examples - all while maintaining your existing folder structure.
+
+**Cross-Platform Design Consistency** Use multiple MCP servers to ensure design consistency across platforms. Claude can compare your Lunacy designs with existing mobile apps (via screenshots), web implementations (via web scraping), and documentation (via file system access) to identify inconsistencies and suggest improvements.
+
+**Automated Asset Optimization Workflow** Connect Lunacy with file system and image processing MCP servers. Claude can analyze your selected designs, export optimized assets in multiple formats, automatically organize them into proper folder structures, and even generate the corresponding CSS sprites or icon fonts.
+
+**Dynamic Content-Aware Design** Combine Lunacy data with database or API MCP servers to create designs that adapt to real content. Claude can analyze your layout components, fetch actual data from your systems, and suggest design modifications based on content length, image aspect ratios, or data complexity.
+
+**Smart Design Review and Feedback** Use Lunacy MCP with communication tools (Slack, email) and project management systems. Claude can analyze your selected designs, compare them against design guidelines, generate detailed review reports, and automatically distribute them to stakeholders with embedded design previews and actionable feedback.
+
+**Intelligent Brand Compliance Checking** Connect Lunacy with document analysis MCP servers to automatically verify brand guideline compliance. Claude can analyze your designs against brand documentation, check color usage, typography consistency, spacing rules, and generate compliance reports with specific recommendations.
+
+**Automated Handoff Documentation** Combine Lunacy data with development tools MCP servers to create comprehensive developer handoffs. Claude can generate technical specifications, component props documentation, animation guidelines, responsive behavior notes, and integration instructions - all tailored to your specific tech stack.
+
+## Benefits of MCP Integration
+
+* **Seamless Workflow**: No need to manually export or copy design information
+* **Real-time Access**: Claude always works with your current project state
+* **Enhanced Productivity**: Get instant analysis and suggestions for your designs
+* **Secure Connection**: All data remains local and private
+* **Context-Aware Assistance**: Claude understands your specific design context
+
+The MCP integration transforms how you work with AI assistance in your design process, making it more efficient and contextually relevant to your actual projects.
 
 # Private Cloud
 Source: https://lunacy.docs.icons8.com/raw/private_cloud.md
@@ -5336,7 +5538,7 @@ Below is a brief description of all available tools, which we will then go over 
 |   <embed type="image/svg+xml" alt="text_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/P69ZzGxWo0upt-S25nVP5g.svg" width="28" />     | **Text tool.** Add text layers to the document. Comes with an on-canvas <a href="https://lunacy.docs.icons8.com/text/#text-generation-and-text-snippets" target="_blank">text generation</a> option.| `T`    |
 |     <embed type="image/svg+xml" alt="pen_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ox33KNr9I0Sby8cSNl1BIg.svg" width="28" />    | **Pen tool.** Used for creating custom vectors or shapes.| `P`    |
 |   <embed type="image/svg+xml" alt="img_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Ow3QgJBiy0KHVu-4_JiYXQ.svg" width="28" />   | **Image tool.** Use it for importing images.      | `M`    |
-|   <embed type="image/svg+xml" alt="gui_tools" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jVG8u-6oukqQkwog6PvoVg.svg" width="240" />      | **GUI tools.** A set of basic interface element components from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> (buttons, checkboxes, radio buttons, and so on) that you can quickly add to your designs.      | `B` — button<br>`D` — text input field<br>`F` — checkbox<br>`Y` — radio button<br>`J` — toggle<br>`W` — dropdown  |
+|   <embed type="image/svg+xml" alt="gui_tools" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/jVG8u-6oukqQkwog6PvoVg.svg" width="240" />      | **GUI tool.** A set of basic interface element components from <a href="https://lunacy.docs.icons8.com/libraries/#ui-kits" target="_blank">UI kits</a> (buttons, checkboxes, radio buttons, and so on) that you can quickly add to your designs.      | `B` — button<br>`D` — text input field<br>`F` — checkbox<br>`Y` — radio button<br>`J` — toggle<br>`W` — dropdown  |
 | <embed type="image/svg+xml" alt="icon_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/B0LK2cd1-USlSrOotEB22Q.svg" width="28" />     |  **Icon tool.** Keeps recently used icons at hand.  | `X`    |
 |  <embed type="image/svg+xml" alt="comment_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/P4EDGuPTdkSRCxwgY5ydxw.svg" width="28" />   | **Comment tool.** Activate it to leave <a href="https://lunacy.docs.icons8.com/comments/" target="_blank">comments</a> anywhere on the canvas (only available in <a href="https://lunacy.docs.icons8.com/clouddocs/" target="_blank">cloud documents</a>).| `C`    |
 |   <embed type="image/svg+xml" alt="scale_tool" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/scm-lgqtykigv546NkSUrQ.svg" width="28" /> | **Scale tool.** Proportionally change the size of the elements on the canvas. | `K`    |

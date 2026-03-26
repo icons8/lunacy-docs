@@ -4,22 +4,208 @@
 
 
 
+# Version 13
+
+*Release date: March 3, 2026*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_13.0.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_13.0.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_13.0.deb) \| [Flatpak](https://flathub.org/en/apps/com.icons8.Lunacy)
+
+* **Scroll overflow**. Content that exceeds a frame’s bounds can now be scrolled on prototypes.
+* **Multiple prototype flows**. Create multiple prototype flows with different starting points on a page. Start a flow from the list in the right panel.
+* **Override inspector**. It now appears in the right panel when a component instance with overrides is selected. It helps manage overrides in complex documents such as design systems.
+* **Vertical trim**. Text layers can now trim extra vertical space, improving alignment and layout consistency.
+* **Export file prefixes now create folders**. Using slashes (/) in the prefix will generate corresponding folders during export.
+* **Platform selector**. You can choose the target platform, and the GUI tool will automatically provide matching components. This behavior will be extended to other tools over time.
+* **Stack layout support**. Lunacy now correctly reads and writes Sketch's stack layouts.
+
+
+# Version 12
+
+*Release date: February 9, 2026*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_12.3.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_12.3.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_12.3.deb) \| [Flatpak](https://flathub.org/en/apps/com.icons8.Lunacy)
+
+
+### Lunacy online 
+
+Lunacy now has a full-featured web version available at [lunacyapp.com](https://lunacyapp.com). Teams working with sensitive data can also deploy the web version in [closed environments](https://icons8.com/lunacy-dedicated).
+
+### AI Chat
+
+Get inspired or edit your designs with LLMs. Choose between Claude, Gemini, OpenAI, and Grok. No API keys required, free to use, with support for auto layout.
+
+<embed type="image/svg+xml" alt="ai_chat" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/ckrn6CUT-E21WRRW1LoHgA.svg" /> 
+
+
+### Improved MCP server
+
+The MCP server has been expanded with additional methods for more advanced integrations.
+
+### Plugins
+
+You can now create custom plugins for Lunacy in any programming language using the MCP API. See the docs and example plugins on our [GitHub](https://github.com/icons8/lunacy-plugins).
+
+### Connectors
+
+You can now use connectors (<embed type="image/svg+xml" alt="connector_icon" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/kZ0jItZ2_EWHEuYJdbC8WA.svg" /> or `X`
+) to visually link layers and show relationships or flow. Connectors move with linked objects and can be customized like arrows or lines.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/connectors_ph.png" height="auto"><source src="/public/connectors.mp4" type="video/mp4"></video>
+
+### Sections
+
+We’ve added **sections**, a new layer type that helps you keep related objects together.
+
+You can:
+
+- Name sections
+- Change their fill
+- Drag sections along with their contents across the canvas
+
+To create a section, click <embed type="image/svg+xml" alt="Section_icon" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/_rDC1o7Vd0mxeecB4RJcZw.svg" /> 
+ on the toolbar or press `Shift+S`.
+
+To select a section, click its label.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/sections_ph.png" height="auto"><source src="/public/sections.mp4" type="video/mp4"></video>
+
+### New styles
+
+In addition to color and layer styles, text and layout guide styles are now available. All the styles can be applied to layers separately.
+
+This improves the usability of styles and fixes lots of Figma compatibility issues.
+
+<embed type="image/svg+xml" alt="new styles" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/lXHX2rfLOE6SztymAS3eyg.svg" /> 
+
+
+### Skew
+
+You can now skew layers.
+
+1. In the upper menu, click **Layer → Add Skew**.
+2. Use the controls in the right panel, to adjust the skew.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/skew_ph.png" height="auto"><source src="/public/skew.mp4" type="video/mp4"></video>
+
+<div class="callout callout--info">
+<p><strong>Note:</strong> Some shape editors may not fully support skewed layers yet (we’re working on it). If you run into issues, reset the skew, make your edits, then reapply it.</p></div>
+
+### Improved prototyping
+
+Prototyping has been improved with Smart Animate, Spring animations, and a Flow List for managing multiple prototype flows.
+
+### Improved auto layout
+
+Auto layout elements can now be reordered by dragging them directly on the canvas.
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/al_swap_ph.png" height="auto"><source src="/public/al_swap.mp4" type="video/mp4"></video>
+
+### Changes to components
+
+#### Component page has left the building (almost)
+
+You can now create components on any page.
+
+The Component page is now created only in two cases:
+
+- When you copy a component from another file to a local file
+- When you drop on the canvas an element from the GUI tool (button, checkbox, etc.)
+
+#### Enhanced component states UX
+
+You can now create and manage component states right on the canvas (right-panel options are still available).
+
+<video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/add_component_state_ph.png" height="auto"><source src="/public/add_component_state.mp4" type="video/mp4"></video>
+
+Under the hood, we've reworked component states for better compatibility with Figma variants, resulting in more accurate Figma imports.
+
+### Import of .fig files
+
+We've deprecated Figma import over API due to its limitations and recurring issues.
+
+Instead, .fig file import ensures higher quality and faster conversion.
+
+### New zooming and panning options
+The zoom control in the top-right corner now includes two new features:
+
+**Pan with Right Click** — pan the canvas by dragging while holding the right mouse button
+
+**Zoom with Scroll Wheel** — zoom the canvas using the scroll wheel without needing to hold `Ctrl` or `Cmd`
+
+<embed type="image/svg+xml" alt="new_zooming_options" src="https://cdn-eu.icons8.com/docs/Dko8QE6mZ06fz2gAGGUBbA/Mo3KvydXnUqpkv9lHGb-LQ.svg" /> 
+
+### Updated Color Picker
+
+We have significantly improved the Color Picker:
+
+- New gradient stop editor.
+- CSS color support.
+- New color spaces including LCH, OKLCH, LAB, OKLAB, and HWB.
+- Image filters and blend modes for fills and borders have been moved to the Color Picker.
+
+### Changes to right panel
+
+- The right panel is now resizable.
+- Comments now show up only when the comment tool is enabled.
+
+
+### Support for Sketch 2025 file format
+
+The Sketch 2025 file format, which includes major updates, is now supported.
+
+### Lower RAM usage
+
+We've reworked the render logic to handle large pages more efficiently. Huge pages now load progressively at a controlled pace, letting you navigate smoothly without interruptions.
+
+### Updated .FREE format
+
+Lunacy's .free format has been updated, with changes primarily affecting variables.
+
+### Variables rollout underway
+
+We’ve started a long-term process to support Figma’s complex variable system. When importing .fig files, new variables and properties may appear to preserve important data. However, these won’t be functional right away. We’ll gradually implement full support for variables, including themes, groups, theme switching, field binding, and more.
+
+### Lunacy on Flatpak
+
+Lunacy Beta is now available on Flatpak.
+
+### Fixes and improvements
+
+- Issues affecting cloud collaboration have been resolved.
+- All known instance override issues have been fixed.
+
+
 # Version 11
+
+## 11.6
+
+*Release date: July 2, 2025*
+
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.6.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.6.deb)
+
+* Now LLM can edit Selection over MCP.
+* Fix of Copy/Paste on Windows.
+
+## 11.5
+
+*Release date: June 26, 2025*
+
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.5.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.5.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.5.deb)
+
+* LLM Integration over MCP.
+* Fixed Icons8 Icons integration.
 
 ## 11.4
 
 *Release date: April 21, 2025*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.4.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.4.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.4.deb)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.4.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.4.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.4.deb)
 
 Fixed 10 app crash reasons.
-
 
 ## 11.3
 
 *Release date: April 18, 2025*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.3.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.3.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.3.deb)
 
 ### New selection tools
 
@@ -69,18 +255,11 @@ We’ve optimized the disk size of Lunacy. Depending on your platform, it now ta
 
 *Release date: March 27, 2025*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.2.1.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.1.deb)
-
-
- 
 - Reverted recent changes to masks. They now work as before.
 
 ## 11.2
 
 *Release date: March 27, 2025*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.2.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.2.deb)
-
 
 ### Fixes and improvements  
 - Added navigation buttons to the Prototype Player.
@@ -91,8 +270,6 @@ We’ve optimized the disk size of Lunacy. Depending on your platform, it now ta
 ## 11.1
 
 *Release date: March 21, 2025*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.1.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.1.deb)
 
 ### Prototyping overlays support 
 
@@ -135,8 +312,6 @@ Options to disable **Auto Z-Index** and **Auto Shape Colors** were added to the 
 ## 11.0
 
 *Release date: March 4, 2025*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_11.0.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_11.0.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_11.0.deb)
 
 ### Advanced prototyping
 
@@ -195,8 +370,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 
 *Release date: January 15, 2025*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.11.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.11.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.11.deb)
-
 ### Improvements and fixes
 
 - Fixed server connection issues.
@@ -204,8 +377,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 ## 10.10
 
 *Release date: December 13, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.10.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.10.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.10.deb)
 
 ### Improvements and fixes
 
@@ -216,8 +387,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 ## 10.9
 
 *Release date: December 3, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.9.0.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.9.0.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.9.0.deb)
 
 ### Improvements and fixes
 
@@ -231,9 +400,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 
 *Release date: November 29, 2024*
 
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.8.0.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.8.0.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.8.0.deb)
-
 ### Improvements and fixes
 
 - New document page selector.
@@ -243,8 +409,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 ## 10.7
 
 *Release date: November 23, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.7.0.1613.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.7.0.1613.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.7.0.1613.deb)
 
 ### Improvements and fixes
 
@@ -256,9 +420,6 @@ Lunacy now supports TIFF files. Import, edit, and export TIFFs without conversio
 ## 10.6
 
 *Release date: November 18, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.6.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.6.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.6.deb)
-
 
 ### Color variables
 
@@ -281,8 +442,6 @@ For details about color variables, click <a href="https://lunacy.docs.icons8.com
 ## 10.5
 
 *Release date: October 23, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.5.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.5.deb)
 
 In this version, we're introducing a preview of a few experimental AI-based features. All the features are accessible through the main and context menus.
 
@@ -329,8 +488,6 @@ You can now use preset and custom prompts to edit text content with the help of 
 
 *Release date: October 15, 2024*
 
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.4.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.4.deb)
-
 - Auto updates in shared libraries. When someone edits a component or style in the library, the changes automatically become available in all files using that library once you reopen them.
 - Magnets now work not only with text, but also for adjusting alignment in frames with auto layout.
 
@@ -342,8 +499,6 @@ You can now use preset and custom prompts to edit text content with the help of 
 ## 10.3
 
 *Release date: October 4, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.3.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.3.deb)
 
 #### Text on path
 
@@ -383,10 +538,6 @@ Also, you can use the **Max lines** parameter to define the number of lines befo
 
 *Release date: September 24, 2024*
 
-* [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.2.exe)
-* [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.dmg)
-* [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.2.deb)
-
 #### Context menu search
 
 You can now quickly find and run almost any command through the context menu.
@@ -406,8 +557,6 @@ In future updates, this field will also be used for contextual AI-related comman
 ## 10.1
 
 *Release date: September 13, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.1.exe) \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.1.deb)
 
 #### PDF and AI files import
 
@@ -438,8 +587,6 @@ Added *Simulated Bold* and *Oblique* styles for single-weight fonts.
 ## 10.0.1 
 
 *Release date: August 27, 2024*
-
-[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_10.0.1.exe) \| [MacOS Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_10.0.1.deb)
 
 #### Redesigned left sidebar
 
