@@ -87,13 +87,13 @@ You can work both with cloud and local documents. Switch between the cloud and l
 
 If you have experience with Sketch or Figma, you'll feel right at home in Lunacy. The <a href="https://lunacy.docs.icons8.com/interface/" target="_blank">interface</a> and <a href="https://lunacy.docs.icons8.com/basics/" target="_blank">basic features</a> are pretty similar.
 
-#### Full support for Sketch files and Figma import
+#### Support for .sketch and .fig files
 
 The default file format in Lunacy is [.free](https://github.com/icons8/free).
 
-However, Lunacy works natively with .sketch files. You can open, edit, and save them back into the `.sketch` format seamlessly. Lunacy can handle both the dusty kits from Sketchappsources and the latest versions of .sketch files.
+Lunacy works natively with `.sketch` files. You can open, edit, and save them back in the same format without extra steps. It handles everything from dusty kits from Sketchappsources to the latest versions.
 
-If you need to continue working on designs you made in Figma, <a href="https://lunacy.docs.icons8.com/interface/#importing-documents" target="_blank">import them</a> is as easy as copying the file link, then pressing `Ctrl + V` in Lunacy.
+You can also keep working on your Figma designs. Lunacy opens `.fig` files just as easily.
 
 #### No limitations
 

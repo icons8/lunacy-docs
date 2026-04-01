@@ -122,54 +122,20 @@ To **create a new document**, use any of the following ways depending on the doc
 
 #### Opening documents
 
-To **open a cloud document**, click on its thumbnail on the Home tab. 
-
-As for other options, use any of these to **open local documents**:
-
-* Press `Ctrl + O` / `⌘ + O`.
-* Click the **Open** button on the action bar.
-* Click **File → Open** on the menu bar.
-
-Supported formats include `sketch`, `svg`, `png`, `jpg`, `jpeg`, `bmp`, `webp`, `ico`, and `gif`.
+To **open a cloud document**, click on its thumbnail on the Home tab.
 
 To **open a cloud document shared with you**:
 1. Copy the link to the document.
 2. Press `Ctrl + V` / `⌘ + V` anywhere in the app.
 3. Click **File → Open URL From Clipboard**.
 
-#### Importing documents
+To **open local documents**, use any of the following options:
 
-You can import:
+* Press `Ctrl + O` / `⌘ + O`.
+* Click the **Open** button on the action bar.
+* Click **File → Open** on the menu bar.
 
-- Local `.sketch` documents to **Lunacy Cloud**
-- **Figma documents** to local `.sketch` documents (which you can then upload to Lunacy Cloud)
-
-##### Importing local `.sketch` files to cloud
-- In the action bar, click **Import to Cloud**.
-- At the top right corner of a local document, click <embed type="image/svg+xml" alt="send_cloud" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hDgRI0Dx_EaYjQ2uo5PrTg.svg" width="16" /> .
-
-##### Importing Figma documents to `.sketch`
-
-1. In Figma, set your file’s sharing options to **Anyone with the link → can view/edit**.
-2. Copy the link to the file.
-3. Use `Ctrl + V` / `⌘ + V` anywhere in the Lunacy app to open it.
-
-To import **private** Figma files, you’ll have to enter its link as well as a **personal access token** generated in Figma for third-party app integrations.
-
-To **generate a personal access token** in Figma:
-
-1. Click your profile icon in the file browser and choose **Settings**. 
-2. Scroll down to the **Personal access token** section.
-3. Enter a brief description for the token, and press `Enter`.
-4. Copy the token and return to Lunacy.
-5. Click **Import from Figma** or **File → Import from Figma** in the menu bar and enter the file’s share link and the personal access token in the corresponding fields:
-
-<embed type="image/svg+xml" alt="import_figma" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fTNhrJIe1kSwsrpR_CeFvQ.svg" width="844" /> 
-
-
-<div class="callout callout--info">
-    <p><strong>Note:</strong> Some elements, such as component variants and complex vector shapes, may be displayed differently when imported into Lunacy. Check out the article with <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">all of the nuances of Figma import</a> for details. </p>
-</div>
+Supported formats include `fig`, `sketch`, `svg`, `png`, `jpg`, `jpeg`, `bmp`, `webp`, `ico`, and `gif`.
 
 
 #### Browsing documents
