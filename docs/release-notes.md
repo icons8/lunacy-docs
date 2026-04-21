@@ -12,6 +12,10 @@ icon: 'activity-history'
 # Micro navigation
 left_menu_off: false
 release_note:
+    - title: Version 14
+      url: 'version-14'
+    - title: Version 13
+      url: 'version-13'
     - title: Version 12
       url: 'version-12'
     - title: Version 11
@@ -31,6 +35,19 @@ page_nav:
         url: '/contact'
 ---
 
+
+# Version 14 Beta
+
+To install a Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.
+
+- **Templates tab**. Curated templates by Icons8 for social media covers, posts, and more.
+- **New effects**. Use Diamond gradient, Zoom Blur, and Motion Blur to enhance your designs.
+- **Export popup**. Open it with `Cmd/Ctrl+Shift+E` to review all export presets for selected objects and include only what you need.
+- **Improved snapping**. Added snapping to auto layout wrap, frame padding, and frame bounds, along with improved vector snapping.
+- **Prototyping improvement**.  You can now select multiple objects and assign the same target to all of them through the inspector.
+- **Faster asset panels**. Components, Styles, and Variables trees no longer lag, even with very large lists.
+- Improved rendering performance.
+- Over 100 bug fixes.
 
 # Version 13
 
