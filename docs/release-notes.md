@@ -36,9 +36,11 @@ page_nav:
 ---
 
 
-# Version 14 Beta
+# Version 14
 
-To install a Beta version, go to **Help** > **About** and select the **Check for Beta Updates** checkbox.
+*Release date: April 29, 2026*
+
+<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_14.0.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_14.0.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_14.0.deb) \| [Flatpak](https://flathub.org/en/apps/com.icons8.Lunacy)
 
 - **Templates tab**. Curated templates by Icons8 for social media covers, posts, and more.
 - **New effects**. Use Diamond gradient, Zoom Blur, and Motion Blur to enhance your designs.
@@ -46,6 +48,7 @@ To install a Beta version, go to **Help** > **About** and select the **Check for
 - **Improved snapping**. Added snapping to auto layout wrap, frame padding, and frame bounds, along with improved vector snapping.
 - **Prototyping improvement**.  You can now select multiple objects and assign the same target to all of them through the inspector.
 - **Faster asset panels**. Components, Styles, and Variables trees no longer lag, even with very large lists.
+- **Divide selection**. New operation to split shapes at intersections into pieces.
 - Improved rendering performance.
 - Over 100 bug fixes.
 
@@ -53,7 +56,7 @@ To install a Beta version, go to **Help** > **About** and select the **Check for
 
 *Release date: March 3, 2026*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_13.0.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_13.0.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_13.0.deb) \| [Flatpak](https://flathub.org/en/apps/com.icons8.Lunacy)
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_13.0.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_13.0.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_13.0.deb)
 
 * **Scroll overflow**. Content that exceeds a frame’s bounds can now be scrolled on prototypes.
 * **Multiple prototype flows**. Create multiple prototype flows with different starting points on a page. Start a flow from the list in the right panel.
@@ -68,8 +71,7 @@ To install a Beta version, go to **Help** > **About** and select the **Check for
 
 *Release date: February 9, 2026*
 
-<a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_12.3.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_12.3.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_12.3.deb) \| [Flatpak](https://flathub.org/en/apps/com.icons8.Lunacy)
-
+[Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_12.3.exe) \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_12.3.dmg) \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_12.3.deb)
 
 ### Lunacy online 
 
