@@ -12,8 +12,8 @@ icon: 'activity-history'
 # Micro navigation
 left_menu_off: false
 release_note:
-    - title: Version 14.1
-      url: 'version-141'
+    - title: Version 14
+      url: 'version-14'
     - title: Version 13
       url: 'version-13'
     - title: Version 12
@@ -36,9 +36,9 @@ page_nav:
 ---
 
 
-# Version 14.1
+# Version 14
 
-*Release date: May 8, 2026*
+*Release date: April 29, 2026*
 
 <a href="https://www.microsoft.com/store/apps/9pnlmkkpcljj?ocid=badge" target="_blank">Microsoft Store</a> \| [Windows Installer](https://lcdn.icons8.com/setup/LunacySetup_14.1.exe) \| <a href="https://apps.apple.com/app/id1582493835" target="_blank">App Store</a> \| [macOS Installer](https://lcdn.icons8.com/setup/Lunacy_14.1.dmg) \| <a href="https://snapcraft.io/lunacy" target="_blank">Snapcraft</a> \| [Linux Installer](https://lcdn.icons8.com/setup/Lunacy_14.1.deb) \| [Flatpak](https://flathub.org/en/apps/com.icons8.Lunacy)
 
