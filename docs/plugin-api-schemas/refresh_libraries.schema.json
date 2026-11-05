@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /v2/refresh_libraries request",
+  "$comment": "Preview Automation API v2 parser contract, documented 2026-11-05. Runtime permissions, revisions, value rules and work limits are checked separately.",
+  "type": "object",
+  "properties": {
+    "libraries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "libraryId": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "libraryId",
+          "version"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "expectedRevision": {
+      "type": "string"
+    },
+    "requestId": {
+      "type": "string"
+    },
+    "documentHandle": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "expectedRevision",
+    "requestId",
+    "documentHandle"
+  ],
+  "additionalProperties": false
+}

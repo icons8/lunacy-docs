@@ -382,7 +382,7 @@ To **change the ratio** of a star (the distance from its intersection points to 
 
 **See also:**
 <br>
-<a href="https://lunacy.docs.icons8.com/raw/editing.md">Editing shapes</a>
+<a href="https://lunacy.docs.icons8.com/editing/">Editing shapes</a>
 
 #### Image fills
 

@@ -1,97 +1,140 @@
-# LLM Integration
+# MCP
 
-> using Model Context Protocol (MCP)
-
-
-## What is MCP?
-
-The Model Context Protocol (MCP) is an open standard that enables AI assistants to securely connect with external data sources and tools. It provides a standardized way for AI models to access and interact with various applications, databases, and services while maintaining security and user control.
-
-MCP acts as a bridge between AI assistants like Claude and your local applications, allowing them to work together seamlessly. Instead of manually copying and pasting information between applications, MCP enables direct communication and data exchange.
-
-## How MCP Works in Lunacy
-
-Lunacy implements MCP through a local server that runs alongside your Lunacy application. This server provides secure access to your Lunacy projects, allowing AI assistants to:
-
-* Access information about selected objects in your designs
-* Retrieve color variables from your design system
-* Get details about components and their properties
-* Access images and other design assets
-
-The MCP server launches automatically when enabled and runs locally on your machine, ensuring your design data remains secure and private.
-
-## Enabling MCP in Lunacy
-
-To start using MCP with Lunacy:
+> Connect an AI client to Lunacy through Model Context Protocol
 
 
-1. Open Lunacy
-2. Navigate to the main menu
-3. Select **AI → Model Context Protocol → MCP Server Enabled**
-4. The MCP server will start running locally and be ready to accept connections
+## What MCP does
 
-## Connecting Claude to Lunacy's MCP Server
+Lunacy's Model Context Protocol server lets an external AI client inspect and edit the open editor. The client starts a local stdio process, and that process calls the running application's local Automation API. The GUI must be running for document operations.
 
-To connect Claude Desktop to your Lunacy MCP server:
+The current grouped catalog contains 11 tools. It covers document/page management, reusable assets, layer geometry, images/export, history, and help. It shares the same production editing operations as [plugins](https://lunacy.docs.icons8.com/raw/plugins.md) and the built-in [AI Chat](https://lunacy.docs.icons8.com/raw/ai-chat.md).
 
-### Step 1: Install Claude Desktop
+### Availability
 
-Download and install Claude Desktop from <https://claude.ai/download>
+The 11-tool catalog described here requires a build that includes the grouped automation update. Other released builds can expose a different inventory. Check your client's `tools/list`, then read `session.get` for the running application's native operations, binding locations and limits. A tool's presence does not grant permission to edit a document or library.
 
-### Step 2: Get MCP Configuration
+The 26 underlying HTTP v2 methods are documented in the [complete API reference](https://lunacy.docs.icons8.com/raw/plugin-api-v2.md). That reference also provides the exact action fields used inside grouped requests.
 
-In Lunacy, you have two options:
+## Connect a client
 
-**Option A: Full Configuration (Recommended for new setups)**
+1. Open Lunacy and a document you intend to work with.
+2. Enable **AI → Model Context Protocol → Enable MCP Server**. Wording can vary with the UI language.
+3. Use **Copy MCP Server Entry** to get a configuration entry for your installation. **Copy MCP Servers File** produces a complete configuration object for a new client setup.
+4. Add the copied entry to your MCP client's configuration. Preserve other server entries and the surrounding configuration.
+5. Restart or reconnect that client and refresh its tool inventory.
+6. Ask it to read the session and list documents before editing.
 
-* Go to **AI → Model Context Protocol → Copy MCP Servers File**
-* This copies a complete JSON configuration file
+Use the generated configuration because executable paths and launch commands differ between regular, Store, and Flatpak packages. A regular installation uses the application executable with `-mcp`; the stdio helper is distinct from the GUI window. Advanced `--host` and `--port` arguments select the Automation API endpoint used by the helper. They do not create another editor document session or grant access to a remote account.
 
-**Option B: Single Server Entry (For existing MCP setups)**
+Any client that supports this stdio MCP server can be configured using its own server-entry format. Exact configuration-file locations and restart behavior belong to that client, rather than to Lunacy.
 
-* Go to **AI → Model Context Protocol → Copy MCP Server Entry**
-* This copies just the Lunacy server configuration line
+The transport is local. The selected AI client or provider can still receive the document data, tool responses, and screenshots used for the conversation. Review that client's settings before sharing sensitive work.
 
-### Step 3: Configure Claude Desktop
+## The 11 tools
 
+Each call has one `request` object and an `operation` discriminator. Dotted names below are shorthand for a tool plus `request.operation`; `components.search` is not a separate tool name.
 
-1. Open Claude Desktop
-2. Open the Settings menu (press Ctrl+, on Windows or Cmd+, on macOS)
-3. Navigate to the **Developer** tab
-4. Click **Edit Config** - this will open your file manager with the `claude_desktop_config.json` file highlighted
-5. Open the highlighted `claude_desktop_config.json` file in any text editor
-6. If using Option A: Replace the entire file contents with the copied JSON configuration
-7. If using Option B: Add the copied server entry to your existing `mcpServers` section, maintaining valid JSON structure
-8. Save the file and restart Claude Desktop completely
+| Tool | Operations |
+| --- | --- |
+| `session` | `get`, `request_status`, `toast` |
+| `documents` | `list`, `activate`, `create`, `open`, `rename`, `reorder`, `save`, `close` |
+| `pages` | `list`, `activate`, `apply` |
+| `components` | `search`, `get`, `usage`, `apply`, `content` |
+| `styles` | `search`, `get`, `usage`, `apply` |
+| `variables` | `search`, `get`, `usage`, `apply` |
+| `libraries` | `list`, `connect`, `disconnect`, `import`, `refresh` |
+| `layers` | `selected`, `get`, `area`, `viewport`, `context`, `set_selected`, `create`, `update`, `create_svg`, `replace_svg`, `delete`, `duplicate` |
+| `images` | `get`, `screenshot_ids`, `screenshot_viewport`, `screenshot_area`, `export`, `insert` |
+| `history` | `list`, `undo`, `redo` |
+| `documentation` | `topic`, `free_format`, `prompt` |
 
-Once configured, Claude will be able to interact directly with your Lunacy projects and access design information in real-time.
+FREE and SVG modes expose the same groups and both geometry formats. The alternate command-line mode is `-mcp_svg`; FREE mode also exposes its prompt endpoints. Do not assume that an inventory cached from an older build is current.
 
-## Creative Use Cases
+## First calls
 
-The real power of MCP integration comes from combining Lunacy's design data with other MCP servers to create seamless, automated workflows:
+Call `session` with:
 
-**AI-Powered Design-to-Code Pipeline** Select a complex dashboard layout in Lunacy and ask Claude to generate a complete React application with TypeScript, including component structure, state management, API integration points, and even mock data that matches your design specifications. Claude can analyze your color variables and component hierarchy to create a fully functional prototype.
+```json
+{"request":{"operation":"get"}}
+```
 
-**Intelligent Design System Documentation** Combine Lunacy MCP with file system access to automatically generate comprehensive design system documentation. Claude can analyze your components, extract design patterns, document usage guidelines, and create markdown files with embedded design tokens and component examples - all while maintaining your existing folder structure.
+Then call `documents`:
 
-**Cross-Platform Design Consistency** Use multiple MCP servers to ensure design consistency across platforms. Claude can compare your Lunacy designs with existing mobile apps (via screenshots), web implementations (via web scraping), and documentation (via file system access) to identify inconsistencies and suggest improvements.
+```json
+{"request":{"operation":"list"}}
+```
 
-**Automated Asset Optimization Workflow** Connect Lunacy with file system and image processing MCP servers. Claude can analyze your selected designs, export optimized assets in multiple formats, automatically organize them into proper folder structures, and even generate the corresponding CSS sprites or icon fonts.
+Choose a readable/editable document from `data.items`. Its `documentHandle` identifies one live instance, `documentId` is its persisted identity, and `tabId` is its visible tab. They are not interchangeable. Closing and reopening a document invalidates the previous handle.
 
-**Dynamic Content-Aware Design** Combine Lunacy data with database or API MCP servers to create designs that adapt to real content. Claude can analyze your layout components, fetch actual data from your systems, and suggest design modifications based on content length, image aspect ratios, or data complexity.
+Search for reusable components:
 
-**Smart Design Review and Feedback** Use Lunacy MCP with communication tools (Slack, email) and project management systems. Claude can analyze your selected designs, compare them against design guidelines, generate detailed review reports, and automatically distribute them to stakeholders with embedded design previews and actionable feedback.
+```json
+{"request":{"operation":"search","documentHandle":"<live-handle>","query":"Button"}}
+```
 
-**Intelligent Brand Compliance Checking** Connect Lunacy with document analysis MCP servers to automatically verify brand guideline compliance. Claude can analyze your designs against brand documentation, check color usage, typography consistency, spacing rules, and generate compliance reports with specific recommendations.
+Pass that request to `components`. Use the returned asset references with its `get` and `usage` operations. `styles` and `variables` use the same discovery pattern. Searches default to that domain's asset kinds; optional `kinds` can narrow it but cannot select another domain.
 
-**Automated Handoff Documentation** Combine Lunacy data with development tools MCP servers to create comprehensive developer handoffs. Claude can generate technical specifications, component props documentation, animation guidelines, responsive behavior notes, and integration instructions - all tailored to your specific tech stack.
+Use `layers.context` with explicit `layerIds` or `selection:true` to inspect the relevant effective styles, variables, themes, and bindings. Selection is read from the named document; switching the active tab is not a substitute for targeting a handle.
 
-## Benefits of MCP Integration
+## Apply a typed batch
 
-* **Seamless Workflow**: No need to manually export or copy design information
-* **Real-time Access**: Claude always works with your current project state
-* **Enhanced Productivity**: Get instant analysis and suggestions for your designs
-* **Secure Connection**: All data remains local and private
-* **Context-Aware Assistance**: Claude understands your specific design context
+Call `variables` with this request after replacing the placeholders:
 
-The MCP integration transforms how you work with AI assistance in your design process, making it more efficient and contextually relevant to your actual projects.
+```json
+{
+  "request": {
+    "operation": "apply",
+    "documentHandle": "<live-handle>",
+    "expectedRevision": "<current-revision>",
+    "requestId": "<unique-request-id>",
+    "validateOnly": true,
+    "changes": [
+      {"action":"createCollection","clientId":"brand","name":"Brand","defaultThemeName":"Light"}
+    ]
+  }
+}
+```
+
+Validation does not edit the document or produce live IDs. Commit with a fresh request ID and the current revision. Use returned `clientIds`/created IDs in later requests; a `clientRef` only references a preceding compatible creation in that same ordered batch.
+
+A committed domain or page batch is one undo operation. A genuine equal-value no-op creates no history. Cross-domain work uses separate calls in variable, style, then component order, taking the returned revision after each commit.
+
+The request schemas are closed unions: the fields required for `apply` differ from those for `search` or `get`. Unknown operations, unrelated fields, unsupported action tags, and mixed ID selectors are errors. Change lists are typed JSON arrays, not strings containing JSON.
+
+## Layers, screenshots, and files
+
+Use existing layer IDs when modifying geometry. `layers.create` creates new objects; `layers.update` edits existing ones. `layers.set_selected` uses replacement semantics, and `layers.replace_svg` replaces one identified layer's content. Read the relevant contract before replacing a subtree.
+
+Legacy FREE geometry remains a string in `layersJson` or `objectsJson`. The outer grouped request and typed asset changes remain JSON objects. Use `layers.create_svg` for SVG markup with optional position and parent.
+
+For a visual check, choose an `images` screenshot operation. Images retain their MIME type and binary content; exports can return embedded binary resources. `layers.get`, `components.content`, screenshot-by-ID, and export requests use `ids` in the grouped schema; typed asset-detail operations such as `components.get` use `assets`.
+
+Read `documentation.free_format` only when authoring unfamiliar FREE geometry or appearance fields. The [complete FREE specification](https://lunacy.docs.icons8.com/raw/free-format.md) is available without loading it for every metadata or tab operation.
+
+## Documents, pages, and libraries
+
+Use `documents` for lifecycle and `pages` for page navigation or an ordered page-edit batch. Opening may reuse an existing matching tab. Listing tabs does not implicitly load every document. Native file operations require normal filesystem access; a client cannot grant that access by supplying a path.
+
+Saving reports the actual native destination or cloud synchronization state. Close defaults to `ifUnsaved:"fail"`. Loaded tabs require the expected current handle/revision for close; unloaded or failed tabs support metadata-only close under the fail policy. Save/discard require an explicit policy.
+
+Imported library assets are read-only. Edit a source through its separately opened editable document. Connect/disconnect require an editable cloud target; local documents can inspect/import explicitly available assets. Import uses an observed source version, and refresh reports per-library results. Disconnect does not delete imported consumers. Publishing remains a separate application workflow.
+
+## Results and recovery
+
+Operations backed by v2 return a JSON envelope in text content. `ok:true` includes typed `data` and available target/revision metadata. `ok:false` includes a stable `error.code`; failed v2 calls also set MCP `isError:true`. Legacy geometry/history operations retain their text/binary response forms.
+
+After a lost response, retry the same target/request ID and payload, or query `session.request_status`. Its result is `pending`, `completed`, or `unknown`. A changed payload under the same retained ID fails with `RequestConflict`. After `unknown`, reread before choosing a new ID.
+
+Replay retention is bounded to 256 entries, 16 MiB of retained response bytes, and one hour. It ends after eviction or server restart. A new request ID can repeat a create, import, save, or discard.
+
+On `RevisionConflict`, reread and rebuild the intended change. On `Busy`, allow the reported work to finish. On unsupported bindings, inspect capabilities and representation prerequisites; do not silently target a different layer or document.
+
+## Limits and reference mapping
+
+Typical v2 limits are 50 results by default, 200 per page, 100 detail references, 100 changes, and 2 MiB JSON. Additional graph, context, layout, and alias limits come from the session. Image insertion keeps the native 200 MiB binary upload limit with bounded base64 overhead. Use cursors only for the same query and revision. Library metadata follows the native service pagination; a page is not a permanent snapshot of the account catalog.
+
+The session's operation descriptors name underlying HTTP routes. To use a route body from the [API reference](https://lunacy.docs.icons8.com/raw/plugin-api-v2.md), add its grouped operation and put the body inside `request`. For example, `/v2/apply_component_changes` maps to `components.apply`; `get_design_context` maps to `layers.context`; `get_request_status` maps to `session.request_status`.
+
+The old standalone MCP names are no longer advertised by the grouped build. Refresh the client inventory after updating. Existing HTTP endpoints remain available to plugins.
+
+See the [repository API article](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/API_V2_REFERENCE.md) and [workflow examples](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/AUTOMATION_WORKFLOWS.md) for complete method/action payloads.

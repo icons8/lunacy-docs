@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /v2/close_document request",
+  "$comment": "Preview Automation API v2 parser contract, documented 2026-11-05. Runtime permissions, revisions, value rules and work limits are checked separately.",
+  "type": "object",
+  "properties": {
+    "documentHandle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "expectedRevision": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tabId": {
+      "type": "string"
+    },
+    "ifUnsaved": {
+      "type": "string"
+    },
+    "destination": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "overwrite": {
+      "type": "boolean"
+    },
+    "allowDialog": {
+      "type": "boolean"
+    },
+    "requestId": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "tabId",
+    "requestId"
+  ],
+  "additionalProperties": false
+}

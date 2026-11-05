@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /v2/get_design_system_assets request",
+  "$comment": "Preview Automation API v2 parser contract, documented 2026-11-05. Runtime permissions, revisions, value rules and work limits are checked separately.",
+  "type": "object",
+  "properties": {
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "component",
+              "style",
+              "collection",
+              "theme",
+              "variable"
+            ]
+          },
+          "id": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string",
+            "enum": [
+              "local",
+              "imported",
+              "connectedLibrary",
+              "availableLibrary"
+            ]
+          },
+          "libraryId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sourceId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "collectionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "kind",
+          "id",
+          "scope"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "componentDepth": {
+      "type": "integer"
+    },
+    "documentHandle": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "documentHandle"
+  ],
+  "additionalProperties": false
+}

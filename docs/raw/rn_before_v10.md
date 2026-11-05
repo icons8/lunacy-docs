@@ -1670,7 +1670,7 @@ For details and a demo, click <a href="https://lunacy.docs.icons8.com/raw/compon
 
 Now you can quickly arrange multiple objects into nice grids with equal spacing between rows and columns.
 
-For this, select the objects and click the **Tidy up** button in the Inspector. Then drag the red handles that will appear between the "rows" and "columns". Click the red circle in the center of an object and drag to move it to another grid "cell". For details and a demo, click <a href="https://lunacy.docs.icons8.com/raw/objects.md#smart-distribute" target="_blank">here</a>.
+For this, select the objects and click the **Tidy up** button in the Inspector. Then drag the red handles that will appear between the "rows" and "columns". Click the red circle in the center of an object and drag to move it to another grid "cell". For details and a demo, click <a href="https://lunacy.docs.icons8.com/objects/#smart-distribute" target="_blank">here</a>.
 
 ![Smart distribute](/public/objects-smartdistribph.png)
 
@@ -2576,7 +2576,7 @@ _RELEASED October 19, 2018_
 
 ![Vector tool](Images/VectorTool.png)
 
-- [Help!](https://lunacy.docs.icons8.com/raw/lunacy-docs) 
+- [Help!](https://lunacy.docs.icons8.com/lunacy-docs) 
 - Symbols: we’ve just started to provide the basic functionality for saving symbols in output files! Expect the extended set of operations with symbols in the upcoming releases.
 - Added functionality to add, delete, and rename pages.
 - Added vertical alignment for text
@@ -2610,7 +2610,7 @@ _RELEASED October 19, 2018_
 - You can rearrange the gradient stops now
 - Corner radius thumbs for rectangles
 - Text transformation support: upper case, lower case, normal
-- Export projects to [Sketch the Ripper](https:.md/icons8.com/articles/sketch-ripper-free-tool-rip-sketch-file-contents/)
+- Export projects to [Sketch the Ripper](https://icons8.com/articles/sketch-ripper-free-tool-rip-sketch-file-contents/)
 - Zoom to area tool
 
 ### Improvements

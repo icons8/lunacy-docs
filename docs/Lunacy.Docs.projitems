@@ -9,6 +9,15 @@
     <Import_RootNamespace>Lunacy.Docs</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)plugins.md" />
+    <None Include="$(MSBuildThisFileDirectory)mcp.md" />
+    <None Include="$(MSBuildThisFileDirectory)ai-chat.md" />
+    <None Include="$(MSBuildThisFileDirectory)plugin-api.md" />
+    <None Include="$(MSBuildThisFileDirectory)plugin-api-v2.md" />
+    <None Include="$(MSBuildThisFileDirectory)plugin-ui.md" />
+    <None Include="$(MSBuildThisFileDirectory)plugin-workflows.md" />
+    <None Include="$(MSBuildThisFileDirectory)free-format.md" />
+    <None Include="$(MSBuildThisFileDirectory)plugin-api-schemas\**\*" />
     <None Include="$(MSBuildThisFileDirectory)about.md" />
     <None Include="$(MSBuildThisFileDirectory)CNAME" />
     <None Include="$(MSBuildThisFileDirectory)doks-theme\assets\css\style.scss" />
