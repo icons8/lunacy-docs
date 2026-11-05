@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /v2/create_document request",
+  "$comment": "Preview Automation API v2 parser contract, documented 2026-11-05. Runtime permissions, revisions, value rules and work limits are checked separately.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "cloudDestination": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "teamId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        },
+        "projectId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        }
+      },
+      "additionalProperties": false
+    },
+    "requestId": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "requestId"
+  ],
+  "additionalProperties": false
+}

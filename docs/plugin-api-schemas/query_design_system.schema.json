@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /v2/query_design_system request",
+  "$comment": "Preview Automation API v2 parser contract, documented 2026-11-05. Runtime permissions, revisions, value rules and work limits are checked separately.",
+  "type": "object",
+  "properties": {
+    "kinds": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "component",
+          "style",
+          "collection",
+          "theme",
+          "variable"
+        ]
+      }
+    },
+    "query": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scopes": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "local",
+          "imported",
+          "connectedLibrary",
+          "availableLibrary"
+        ]
+      }
+    },
+    "collectionId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "styleType": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "color",
+        "text",
+        "effect",
+        "guide",
+        null
+      ]
+    },
+    "libraryIds": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "limit": {
+      "type": "integer"
+    },
+    "cursor": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "documentHandle": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "documentHandle"
+  ],
+  "additionalProperties": false
+}

@@ -102,7 +102,7 @@ The **Design** tab is the one you'll interact with the most when working on your
 
 #### Export tab
 
-Click on the **Export** tab to open up export settings for your entire project or select individual/multiple layers to export just them.  Read in detail about <a href="https://lunacy.docs.icons8.com/raw/export_new.md#export-settings" target="_blank">export settings</a>. 
+Click on the **Export** tab to open up export settings for your entire project or select individual/multiple layers to export just them.  Read in detail about <a href="https://lunacy.docs.icons8.com/export_new/#export-settings" target="_blank">export settings</a>. 
 
 Use the **Linked Design** option to include embed links to your designs directly into website code: when you update them in Lunacy, they'll be automatically updated on your website. Learn more about linked design <a href="https://lunacy.docs.icons8.com/raw/linked_design.md" target="_blank">in this section</a>.
 
@@ -381,7 +381,7 @@ The rest of the actions are accessible through the **context menu**, which you c
 
 <video autoplay="" muted="" loop="" playsinline="" width="auto" poster="/public/page_add_rename.png" height="auto"><source src="/page_add_rename.mp4" type="video/mp4"></video>
 
-There is also a special type of page — the **Components** page. It stores the reusable <a href="https://lunacy.docs.icons8.com/raw/components" target="_blank">components<.mda>. you can create in your designs.
+There is also a special type of page — the **Components** page. It stores the reusable <a href="https://lunacy.docs.icons8.com/components" target="_blank">components</a>. you can create in your designs.
 
 ## Advanced privacy settings 
 

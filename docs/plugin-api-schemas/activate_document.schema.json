@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /v2/activate_document request",
+  "$comment": "Preview Automation API v2 parser contract, documented 2026-11-05. Runtime permissions, revisions, value rules and work limits are checked separately.",
+  "type": "object",
+  "properties": {
+    "tabId": {
+      "type": "string"
+    },
+    "requestId": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "tabId",
+    "requestId"
+  ],
+  "additionalProperties": false
+}

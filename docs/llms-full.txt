@@ -71,19 +71,132 @@ You can work both with cloud and local documents. Switch between the cloud and l
 
 If you have experience with Sketch or Figma, you'll feel right at home in Lunacy. The <a href="https://lunacy.docs.icons8.com/interface/" target="_blank">interface</a> and <a href="https://lunacy.docs.icons8.com/basics/" target="_blank">basic features</a> are pretty similar.
 
-#### Full support for Sketch files and Figma import
+#### Support for .sketch and .fig files
 
 The default file format in Lunacy is [.free](https://github.com/icons8/free).
 
-However, Lunacy works natively with .sketch files. You can open, edit, and save them back into the `.sketch` format seamlessly. Lunacy can handle both the dusty kits from Sketchappsources and the latest versions of .sketch files.
+Lunacy works natively with `.sketch` files. You can open, edit, and save them back in the same format without extra steps. It handles everything from dusty kits from Sketchappsources to the latest versions.
 
-If you need to continue working on designs you made in Figma, <a href="https://lunacy.docs.icons8.com/interface/#importing-documents" target="_blank">import them</a> is as easy as copying the file link, then pressing `Ctrl + V` in Lunacy.
+You can also keep working on your Figma designs. Lunacy opens `.fig` files just as easily.
 
 #### No limitations
 
 Thanks to native support for the Sketch format, you can use Lunacy with all the major handoff and version control tools like Avocode, Zeplin, Abstract, Simpli.
 
 If you need to, you can easily import `.sketch` files to Figma or XD.
+
+
+# AI Chat
+Source: https://lunacy.docs.icons8.com/raw/ai-chat.md
+
+Use an AI assistant inside Lunacy to inspect and edit your designs
+
+## What AI Chat can do
+
+AI Chat is Lunacy's built-in conversation panel. In a build with the grouped automation update, it uses the same 11 domain tools as [MCP](https://lunacy.docs.icons8.com/mcp/): components, styles, variables, documents, pages, libraries, layers, images, history, session, and documentation. The model can inspect existing designs, propose changes, execute native operations, and read the results.
+
+The grouped catalog requires a matching build. Older releases can expose a smaller set of chat functions. The public references on this site describe the current development API, checked on November 5, 2026; do not assume every released build includes it.
+
+Chat also has its own web-fetch, question, and todo tools, plus optional skills. Those helpers are separate from the 11 shared automation groups.
+
+## Set up a provider
+
+1. Ensure AI Chat is enabled in Lunacy's Privacy settings, then open the chat panel.
+2. Open the panel's settings.
+3. Enter your provider's OpenAI-compatible base URL and API key, when that provider requires one.
+4. Apply the connection settings and check the connection status.
+5. Choose a main model. A separate small model can be used for secondary tasks; if appropriate, select the same model for both.
+6. Start a conversation attached to the document you want to edit.
+
+Use the base URL required by your provider. Lunacy's client sends chat-completions requests; a model name or API key from another endpoint does not by itself make that endpoint compatible. The chosen model must support streaming tool calls to perform editor operations. To analyze screenshots, it must also support image input.
+
+Changing base URL or token creates unapplied settings until you use Apply. Model selection and reasoning options depend on the models exposed by the configured provider. A failed connection check or empty model list needs to be resolved before expecting document automation to work.
+
+AI Chat uses application handlers directly inside Lunacy. It does not require you to enable the external MCP listener or configure another desktop AI client.
+
+## Ask for a bounded task
+
+Good requests identify the document area, intended result, and what should be preserved. For example:
+
+- “Inspect this dialog and list the components and variables it already uses.”
+- “Create a reusable primary button from these layers, retaining the existing colors and typography.”
+- “Add a dark theme to the existing brand collection and show how the selected frame changes.”
+- “Update the heading style in this document, then show a screenshot of the affected area.”
+- “Create a second page for the mobile design and keep the current desktop page.”
+
+For destructive work, be explicit about deleting, detaching, overwriting files, or discarding unsaved changes. Otherwise the assistant should inspect and validate first and preserve unrelated content.
+
+The assistant can ask a short batch of questions when essential information is missing. It can also maintain a todo list during a larger change. A conversation response alone is not evidence that an operation succeeded: the tool result and document state are the relevant outcomes.
+
+## How document targeting works
+
+A conversation has an attached document identity. If another tab becomes active, the assistant's context identifies that difference rather than presenting the other tab as the chat's document.
+
+New typed operations require a live `documentHandle`. The assistant discovers it from the session and tab list. A persisted document ID, visible tab ID, and live handle are different identifiers. Mutations also require the current revision and a unique request ID.
+
+Legacy layer, image, and history calls without a supplied handle use the chat's attached document. If that document is no longer available, the call fails instead of redirecting to the active tab. An explicitly supplied handle can intentionally target another accessible document.
+
+Closing/reopening a document expires its old live handle. The assistant must rediscover it before editing. When a revision is stale, it should reread current state and rebuild the intended edit rather than repeatedly resubmitting the old revision.
+
+## Inspect, reuse, validate, apply
+
+The normal editing workflow is:
+
+1. Read the session, find the intended document, and inspect its selected layers or explicit IDs.
+2. Search existing components, styles, collections, themes, and variables.
+3. Read relevant definitions and usages instead of creating duplicates with matching names.
+4. Validate a complex typed batch with `validateOnly:true`.
+5. Commit with a fresh request ID and current revision.
+6. Read back the changed assets/context and obtain a screenshot when appearance matters.
+
+Components, styles, and variables each use one tool with search/read/usage/apply operations. Typed apply batches keep native undo behavior: one successful committed batch is one undo operation; an equal-value no-op creates no history. Dependent domains use separate calls in variable, style, then component order.
+
+The assistant should preserve existing layer IDs when editing geometry. Replacing an object with a new ID can break component, prototype, or selection references.
+
+## Themes, inheritance, and libraries
+
+Collection theme selection is an inspector preview. A layer's selected theme controls its canvas evaluation; otherwise the collection default applies. Those are distinct operations, so a changed preview does not necessarily mean the canvas should change.
+
+Component instances can inherit values from their source or own explicit overrides. Some generated text/property edits require a native override representation. Unsupported edits should produce a clear error or lead to inspecting the source, not silently freezing unrelated inherited properties.
+
+Imported library definitions remain read-only. To edit one, open its source as an editable document and target that source. Connecting, importing, refreshing, or using an asset does not grant publishing rights. Persistent library connections apply to editable cloud targets; local documents can inspect/import explicitly available assets.
+
+## Images, files, and help
+
+You can attach supported images or text files as context. Image descriptions do not grant arbitrary filesystem access: use the provided attachments and native file-access workflow.
+
+Screenshot and image results from automation retain their image bytes in tool history. PNG, JPEG, WebP and GIF results can reach a vision-capable model as image input. Other exports remain stored file data rather than screenshot input. A provider that only accepts text cannot visually verify a screenshot merely because the image tool succeeded.
+
+The assistant can request focused help for components, styles, variables, documents, and libraries. The complete [FREE format reference](https://lunacy.docs.icons8.com/free-format/) is fetched on demand for unfamiliar geometry fields, rather than inserted into every conversation request.
+
+## Save, undo, and interrupted work
+
+Use native undo/redo to review or revert committed document changes. Undo is different from cancelling a model request that may already have submitted an operation.
+
+If delivery is uncertain, the assistant can query request status or retry the same retained ID and payload. Once status is `unknown`, it should inspect the current document before choosing another ID. A fresh ID could repeat the operation.
+
+Local save reports the actual written destination and saved revision. Cloud synchronization distinguishes pending/sent work from durable server completion. An unsaved document closes under the default fail policy only when the contract allows it; saving or discarding requires an explicit policy.
+
+## Data and access
+
+The selected provider receives the conversation, attached content, requested document data and supported screenshots used in the model request. Direct in-process tool execution does not make the model provider local. Your provider's endpoint and account settings determine where that model request goes.
+
+The assistant still uses Lunacy's document access, read-only, filesystem-grant and library-permission checks. It cannot manufacture a live handle for an unavailable document or use a deleted variable as a live binding.
+
+## Troubleshooting
+
+| Symptom | What to check |
+| --- | --- |
+| Provider connection fails | Base URL, key, network access, and whether the endpoint implements the expected chat interface. |
+| Models are missing | Apply connection settings, confirm the provider's model list is available, and select a valid model. |
+| The assistant answers without editing | The selected model must support tool calls and the installed build must expose the needed tools. |
+| Screenshot cannot be analyzed | Use a vision-capable model and a supported raster output. |
+| `RevisionConflict` | Reread the target and use its current revision. |
+| `Busy` | Wait for the relevant operation, text layout, or native work to finish. |
+| File access denied | Grant access through the normal application open/save workflow. |
+| A generated binding/override is unsupported | Inspect the target's native representation or edit the accessible source asset. |
+
+The [MCP tool catalog](https://lunacy.docs.icons8.com/mcp/) explains the shared operation names. For exact request fields and developer examples, use the [complete Plugin API v2 reference](https://lunacy.docs.icons8.com/plugin-api-v2/) and the [repository workflow article](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/AUTOMATION_WORKFLOWS.md).
 
 
 # Auto layout
@@ -2546,54 +2659,20 @@ To **create a new document**, use any of the following ways depending on the doc
 
 #### Opening documents
 
-To **open a cloud document**, click on its thumbnail on the Home tab. 
-
-As for other options, use any of these to **open local documents**:
-
-* Press `Ctrl + O` / `⌘ + O`.
-* Click the **Open** button on the action bar.
-* Click **File → Open** on the menu bar.
-
-Supported formats include `sketch`, `svg`, `png`, `jpg`, `jpeg`, `bmp`, `webp`, `ico`, and `gif`.
+To **open a cloud document**, click on its thumbnail on the Home tab.
 
 To **open a cloud document shared with you**:
 1. Copy the link to the document.
 2. Press `Ctrl + V` / `⌘ + V` anywhere in the app.
 3. Click **File → Open URL From Clipboard**.
 
-#### Importing documents
+To **open local documents**, use any of the following options:
 
-You can import:
+* Press `Ctrl + O` / `⌘ + O`.
+* Click the **Open** button on the action bar.
+* Click **File → Open** on the menu bar.
 
-- Local `.sketch` documents to **Lunacy Cloud**
-- **Figma documents** to local `.sketch` documents (which you can then upload to Lunacy Cloud)
-
-##### Importing local `.sketch` files to cloud
-- In the action bar, click **Import to Cloud**.
-- At the top right corner of a local document, click <embed type="image/svg+xml" alt="send_cloud" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/hDgRI0Dx_EaYjQ2uo5PrTg.svg" width="16" /> .
-
-##### Importing Figma documents to `.sketch`
-
-1. In Figma, set your file’s sharing options to **Anyone with the link → can view/edit**.
-2. Copy the link to the file.
-3. Use `Ctrl + V` / `⌘ + V` anywhere in the Lunacy app to open it.
-
-To import **private** Figma files, you’ll have to enter its link as well as a **personal access token** generated in Figma for third-party app integrations.
-
-To **generate a personal access token** in Figma:
-
-1. Click your profile icon in the file browser and choose **Settings**. 
-2. Scroll down to the **Personal access token** section.
-3. Enter a brief description for the token, and press `Enter`.
-4. Copy the token and return to Lunacy.
-5. Click **Import from Figma** or **File → Import from Figma** in the menu bar and enter the file’s share link and the personal access token in the corresponding fields:
-
-<embed type="image/svg+xml" alt="import_figma" src="https://cdn-eu.icons8.com/docs/M9n6bSgrBEaWHOHZwLkY3A/fTNhrJIe1kSwsrpR_CeFvQ.svg" width="844" /> 
-
-
-<div class="callout callout--info">
-    <p><strong>Note:</strong> Some elements, such as component variants and complex vector shapes, may be displayed differently when imported into Lunacy. Check out the article with <a href="https://blog.icons8.com/articles/figma-import-in-lunacy/" target="_blank">all of the nuances of Figma import</a> for details. </p>
-</div>
+Supported formats include `fig`, `sketch`, `svg`, `png`, `jpg`, `jpeg`, `bmp`, `webp`, `ico`, and `gif`.
 
 
 #### Browsing documents
@@ -3429,103 +3508,3621 @@ Here's how you can apply changes to a live webpage:
 
 In your browser, reload the page by pressing `Ctrl + F5`/ `⌘ ⌥ R` to make sure that any cached content is cleared.
 
-# LLM Integration
+# MCP
 Source: https://lunacy.docs.icons8.com/raw/mcp.md
 
-using Model Context Protocol (MCP)
+Connect an AI client to Lunacy through Model Context Protocol
 
-## What is MCP?
+## What MCP does
 
-The Model Context Protocol (MCP) is an open standard that enables AI assistants to securely connect with external data sources and tools. It provides a standardized way for AI models to access and interact with various applications, databases, and services while maintaining security and user control.
+Lunacy's Model Context Protocol server lets an external AI client inspect and edit the open editor. The client starts a local stdio process, and that process calls the running application's local Automation API. The GUI must be running for document operations.
 
-MCP acts as a bridge between AI assistants like Claude and your local applications, allowing them to work together seamlessly. Instead of manually copying and pasting information between applications, MCP enables direct communication and data exchange.
+The current grouped catalog contains 11 tools. It covers document/page management, reusable assets, layer geometry, images/export, history, and help. It shares the same production editing operations as [plugins](https://lunacy.docs.icons8.com/plugins/) and the built-in [AI Chat](https://lunacy.docs.icons8.com/ai-chat/).
 
-## How MCP Works in Lunacy
+### Availability
 
-Lunacy implements MCP through a local server that runs alongside your Lunacy application. This server provides secure access to your Lunacy projects, allowing AI assistants to:
+The 11-tool catalog described here requires a build that includes the grouped automation update. Other released builds can expose a different inventory. Check your client's `tools/list`, then read `session.get` for the running application's native operations, binding locations and limits. A tool's presence does not grant permission to edit a document or library.
 
-* Access information about selected objects in your designs
-* Retrieve color variables from your design system
-* Get details about components and their properties
-* Access images and other design assets
+The 26 underlying HTTP v2 methods are documented in the [complete API reference](https://lunacy.docs.icons8.com/plugin-api-v2/). That reference also provides the exact action fields used inside grouped requests.
 
-The MCP server launches automatically when enabled and runs locally on your machine, ensuring your design data remains secure and private.
+## Connect a client
 
-## Enabling MCP in Lunacy
+1. Open Lunacy and a document you intend to work with.
+2. Enable **AI → Model Context Protocol → Enable MCP Server**. Wording can vary with the UI language.
+3. Use **Copy MCP Server Entry** to get a configuration entry for your installation. **Copy MCP Servers File** produces a complete configuration object for a new client setup.
+4. Add the copied entry to your MCP client's configuration. Preserve other server entries and the surrounding configuration.
+5. Restart or reconnect that client and refresh its tool inventory.
+6. Ask it to read the session and list documents before editing.
 
-To start using MCP with Lunacy:
+Use the generated configuration because executable paths and launch commands differ between regular, Store, and Flatpak packages. A regular installation uses the application executable with `-mcp`; the stdio helper is distinct from the GUI window. Advanced `--host` and `--port` arguments select the Automation API endpoint used by the helper. They do not create another editor document session or grant access to a remote account.
+
+Any client that supports this stdio MCP server can be configured using its own server-entry format. Exact configuration-file locations and restart behavior belong to that client, rather than to Lunacy.
+
+The transport is local. The selected AI client or provider can still receive the document data, tool responses, and screenshots used for the conversation. Review that client's settings before sharing sensitive work.
+
+## The 11 tools
+
+Each call has one `request` object and an `operation` discriminator. Dotted names below are shorthand for a tool plus `request.operation`; `components.search` is not a separate tool name.
+
+| Tool | Operations |
+| --- | --- |
+| `session` | `get`, `request_status`, `toast` |
+| `documents` | `list`, `activate`, `create`, `open`, `rename`, `reorder`, `save`, `close` |
+| `pages` | `list`, `activate`, `apply` |
+| `components` | `search`, `get`, `usage`, `apply`, `content` |
+| `styles` | `search`, `get`, `usage`, `apply` |
+| `variables` | `search`, `get`, `usage`, `apply` |
+| `libraries` | `list`, `connect`, `disconnect`, `import`, `refresh` |
+| `layers` | `selected`, `get`, `area`, `viewport`, `context`, `set_selected`, `create`, `update`, `create_svg`, `replace_svg`, `delete`, `duplicate` |
+| `images` | `get`, `screenshot_ids`, `screenshot_viewport`, `screenshot_area`, `export`, `insert` |
+| `history` | `list`, `undo`, `redo` |
+| `documentation` | `topic`, `free_format`, `prompt` |
+
+FREE and SVG modes expose the same groups and both geometry formats. The alternate command-line mode is `-mcp_svg`; FREE mode also exposes its prompt endpoints. Do not assume that an inventory cached from an older build is current.
+
+## First calls
+
+Call `session` with:
+
+```json
+{"request":{"operation":"get"}}
+```
+
+Then call `documents`:
+
+```json
+{"request":{"operation":"list"}}
+```
+
+Choose a readable/editable document from `data.items`. Its `documentHandle` identifies one live instance, `documentId` is its persisted identity, and `tabId` is its visible tab. They are not interchangeable. Closing and reopening a document invalidates the previous handle.
+
+Search for reusable components:
+
+```json
+{"request":{"operation":"search","documentHandle":"<live-handle>","query":"Button"}}
+```
+
+Pass that request to `components`. Use the returned asset references with its `get` and `usage` operations. `styles` and `variables` use the same discovery pattern. Searches default to that domain's asset kinds; optional `kinds` can narrow it but cannot select another domain.
+
+Use `layers.context` with explicit `layerIds` or `selection:true` to inspect the relevant effective styles, variables, themes, and bindings. Selection is read from the named document; switching the active tab is not a substitute for targeting a handle.
+
+## Apply a typed batch
+
+Call `variables` with this request after replacing the placeholders:
+
+```json
+{
+  "request": {
+    "operation": "apply",
+    "documentHandle": "<live-handle>",
+    "expectedRevision": "<current-revision>",
+    "requestId": "<unique-request-id>",
+    "validateOnly": true,
+    "changes": [
+      {"action":"createCollection","clientId":"brand","name":"Brand","defaultThemeName":"Light"}
+    ]
+  }
+}
+```
+
+Validation does not edit the document or produce live IDs. Commit with a fresh request ID and the current revision. Use returned `clientIds`/created IDs in later requests; a `clientRef` only references a preceding compatible creation in that same ordered batch.
+
+A committed domain or page batch is one undo operation. A genuine equal-value no-op creates no history. Cross-domain work uses separate calls in variable, style, then component order, taking the returned revision after each commit.
+
+The request schemas are closed unions: the fields required for `apply` differ from those for `search` or `get`. Unknown operations, unrelated fields, unsupported action tags, and mixed ID selectors are errors. Change lists are typed JSON arrays, not strings containing JSON.
+
+## Layers, screenshots, and files
+
+Use existing layer IDs when modifying geometry. `layers.create` creates new objects; `layers.update` edits existing ones. `layers.set_selected` uses replacement semantics, and `layers.replace_svg` replaces one identified layer's content. Read the relevant contract before replacing a subtree.
+
+Legacy FREE geometry remains a string in `layersJson` or `objectsJson`. The outer grouped request and typed asset changes remain JSON objects. Use `layers.create_svg` for SVG markup with optional position and parent.
+
+For a visual check, choose an `images` screenshot operation. Images retain their MIME type and binary content; exports can return embedded binary resources. `layers.get`, `components.content`, screenshot-by-ID, and export requests use `ids` in the grouped schema; typed asset-detail operations such as `components.get` use `assets`.
+
+Read `documentation.free_format` only when authoring unfamiliar FREE geometry or appearance fields. The [complete FREE specification](https://lunacy.docs.icons8.com/free-format/) is available without loading it for every metadata or tab operation.
+
+## Documents, pages, and libraries
+
+Use `documents` for lifecycle and `pages` for page navigation or an ordered page-edit batch. Opening may reuse an existing matching tab. Listing tabs does not implicitly load every document. Native file operations require normal filesystem access; a client cannot grant that access by supplying a path.
+
+Saving reports the actual native destination or cloud synchronization state. Close defaults to `ifUnsaved:"fail"`. Loaded tabs require the expected current handle/revision for close; unloaded or failed tabs support metadata-only close under the fail policy. Save/discard require an explicit policy.
+
+Imported library assets are read-only. Edit a source through its separately opened editable document. Connect/disconnect require an editable cloud target; local documents can inspect/import explicitly available assets. Import uses an observed source version, and refresh reports per-library results. Disconnect does not delete imported consumers. Publishing remains a separate application workflow.
+
+## Results and recovery
+
+Operations backed by v2 return a JSON envelope in text content. `ok:true` includes typed `data` and available target/revision metadata. `ok:false` includes a stable `error.code`; failed v2 calls also set MCP `isError:true`. Legacy geometry/history operations retain their text/binary response forms.
+
+After a lost response, retry the same target/request ID and payload, or query `session.request_status`. Its result is `pending`, `completed`, or `unknown`. A changed payload under the same retained ID fails with `RequestConflict`. After `unknown`, reread before choosing a new ID.
+
+Replay retention is bounded to 256 entries, 16 MiB of retained response bytes, and one hour. It ends after eviction or server restart. A new request ID can repeat a create, import, save, or discard.
+
+On `RevisionConflict`, reread and rebuild the intended change. On `Busy`, allow the reported work to finish. On unsupported bindings, inspect capabilities and representation prerequisites; do not silently target a different layer or document.
+
+## Limits and reference mapping
+
+Typical v2 limits are 50 results by default, 200 per page, 100 detail references, 100 changes, and 2 MiB JSON. Additional graph, context, layout, and alias limits come from the session. Image insertion keeps the native 200 MiB binary upload limit with bounded base64 overhead. Use cursors only for the same query and revision. Library metadata follows the native service pagination; a page is not a permanent snapshot of the account catalog.
+
+The session's operation descriptors name underlying HTTP routes. To use a route body from the [API reference](https://lunacy.docs.icons8.com/plugin-api-v2/), add its grouped operation and put the body inside `request`. For example, `/v2/apply_component_changes` maps to `components.apply`; `get_design_context` maps to `layers.context`; `get_request_status` maps to `session.request_status`.
+
+The old standalone MCP names are no longer advertised by the grouped build. Refresh the client inventory after updating. Existing HTTP endpoints remain available to plugins.
+
+See the [repository API article](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/API_V2_REFERENCE.md) and [workflow examples](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/AUTOMATION_WORKFLOWS.md) for complete method/action payloads.
 
 
-1. Open Lunacy
-2. Navigate to the main menu
-3. Select **AI → Model Context Protocol → MCP Server Enabled**
-4. The MCP server will start running locally and be ready to accept connections
+# Plugin API v2 reference
+Source: https://lunacy.docs.icons8.com/raw/plugin-api-v2.md
 
-## Connecting Claude to Lunacy's MCP Server
+All typed document, component, style, variable and library methods and schemas
 
-To connect Claude Desktop to your Lunacy MCP server:
+This complete reference is synchronized from the [lunacy-plugins article](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/API_V2_REFERENCE.md) at commit `7b82b781`, checked on November 5, 2026. See [Plugins](https://lunacy.docs.icons8.com/plugins/) for installation and manifests.
 
-### Step 1: Install Claude Desktop
+> Availability: preview API. Use a matching Lunacy build that advertises these operations through `/v2/get_session`; older installed releases may not include them. Snapshot checked on 2026-11-05.
 
-Download and install Claude Desktop from <https://claude.ai/download>
+This reference documents direct HTTP calls from plugins. MCP and the built-in AI Chat group the same operations into 11 tools, but a plugin sends the HTTP body directly: do not add the MCP `request.operation` wrapper. Legacy layer, image, export, event and UI contracts remain available in the [legacy API reference](https://lunacy.docs.icons8.com/plugin-api/) and [UI guide](https://lunacy.docs.icons8.com/plugin-ui/). Start with the [worked workflows](https://lunacy.docs.icons8.com/plugin-workflows/).
 
-### Step 2: Get MCP Configuration
+## Transport and availability
 
-In Lunacy, you have two options:
+The usual base URL is `http://localhost:31415`; use the address configured by the running application. All 26 methods below accept POST JSON. `get_session` also accepts GET. Request and response property names are camelCase; enum/discriminator values are strings. JSON member order does not matter. Unknown fields, unknown actions, numeric enums and malformed typed references are rejected. A valid parser schema does not grant permissions or establish a valid model operation.
 
-**Option A: Full Configuration (Recommended for new setups)**
+Fetch `/v2/get_session` first. Its `operations` describes actual registered HTTP operations/actions, `bindings` lists available property/type/target combinations, and `limits` reports budgets. If a route is unavailable, report that capability requirement instead of falling back to an unrelated active document. Plugins do not need to implement MCP.
 
-* Go to **AI → Model Context Protocol → Copy MCP Servers File**
-* This copies a complete JSON configuration file
+## Identities and common request fields
 
-**Option B: Single Server Entry (For existing MCP setups)**
+| Field/identity | Meaning |
+| --- | --- |
+| `sessionId` | This running server session. Replay and handles end when the server restarts. |
+| `tabId` | One visible tab; discover it with `list_documents`. |
+| `documentHandle` | One live ready document instance. It is not the persisted ID. Closing/reopening expires the old handle. |
+| `documentId` / `versionId` | Persisted/cloud identities used for locating/opening documents. They cannot replace a live handle. |
+| `pageId` | A page belonging to the explicit target document. |
+| `expectedRevision` | Current opaque revision from a recent read. Content edits, undo/redo, collaboration and synchronization can invalidate it. Navigation does not advance it. |
+| `requestId` | Client-generated 1–128 character identity for a mutation/lifecycle call. Use a fresh UUID for each new operation. |
+| `clientId` | Optional creation label local to one ordered batch; returned `clientIds` map it to actual resource IDs. |
+| `clientRef` | Refers only to a preceding compatible creation in that same batch. |
 
-* Go to **AI → Model Context Protocol → Copy MCP Server Entry**
-* This copies just the Lunacy server configuration line
+Model selectors are exactly `{"id":"<returned-id>"}` or `{"clientRef":"<earlier-client-id>"}`. Do not combine them, invent resource IDs, use a name as identity, or use forward/deleted references. IDs are opaque strings and should be passed back unchanged.
 
-### Step 3: Configure Claude Desktop
+A document mutation requires `documentHandle`, `expectedRevision`, and `requestId`. Lifecycle calls use their documented tab/locator selectors and request ID. Apply/page batches use 1–100 non-null `changes`; `validateOnly:true` prepares/validates without editing, creating live resources or adding history. Commit later with a fresh request ID and current revision. One changed domain batch creates one normal undo item; a genuine no-op creates none. Cross-domain dependencies use separate requests in variable, style, then component order.
+
+## Responses, errors and replay
+
+```json
+{"ok":true,"requestId":"<request-id>","documentHandle":"<handle>","revision":"<revision>","data":{},"warnings":[]}
+```
+
+```json
+{"ok":false,"requestId":"<request-id>","error":{"code":"RevisionConflict","message":"<explanation>","path":"<optional-field>","operationIndex":0},"warnings":[]}
+```
+
+Optional metadata and null fields can be omitted. Success has typed `data`; failure has `error`, not a successful data payload. Always inspect `ok`, per-item errors and `warnings`. HTTP statuses are 400 for invalid input; 403 for access/read-only restrictions; 404 for unavailable targets; 409 for stale/conflicting/busy state; 413 for limits; 503 for unavailable dependencies; 500 for unexpected/save failures. Errors use stable codes, including `InvalidArgument`, `InvalidId`, `DocumentNotFound`, `DocumentClosed`, `DocumentNotReady`, `PageNotFound`, `AssetNotFound`, `ReadOnly`, `PermissionDenied`, `RevisionConflict`, `RequestConflict`, `Busy`, `UnsupportedOperation`, `UnsupportedBinding`, `TypeMismatch`, `AliasCycle`, `RecursiveComponent`, `ResourceInUse`, `UnsavedChanges`, `PathRequired`, `DestinationExists`, `SaveFailed`, `NetworkUnavailable`, `LibraryUnavailable`, `LimitExceeded`, `Cancelled`, and `InternalError`.
+
+After a lost response, retry the identical target/request ID/payload to retrieve the original retained result and created IDs. The replay check precedes the old revision guard. Reusing the request ID for a different payload is `RequestConflict`. `get_request_status` returns pending, completed with the retained result, or unknown. Replay is bounded to 256 entries, 16 MiB of completed bytes and one hour; eviction/restart ends it. After unknown, reread content before a new operation, which can otherwise duplicate a creation, save, import or discard. A failed batch is rolled back before publication; an uncertain network outcome still needs status recovery.
+
+On `RevisionConflict`, reread/rebuild. On `Busy`, wait for native work to finish before retrying. Permission/network/library failures are not permission to sign in, publish, bypass sandbox access, edit remote definitions or silently target another document.
+
+## Methods
+
+The field tables distinguish **JSON-required** fields from domain constraints. A field that is optional in the parser can still need a nonempty value for a usable call; the behavior paragraphs and full schemas describe its context. Defaults shown below are native request defaults, not newly generated live values. Nested request objects appear after the methods.
+
+| HTTP path | Successful data |
+| --- | --- |
+| [`POST /v2/get_session`](#get_session) | Session data |
+| [`POST /v2/list_documents`](#list_documents) | {items: `DocumentInfo[]`} |
+| [`POST /v2/activate_document`](#activate_document) | DocumentResult |
+| [`POST /v2/list_pages`](#list_pages) | {items: `PageInfo[]`, nextCursor?} |
+| [`POST /v2/query_design_system`](#query_design_system) | {items: `AssetSummary[]`, nextCursor?} |
+| [`POST /v2/get_design_system_assets`](#get_design_system_assets) | {items: `AssetDetail[]`} |
+| [`POST /v2/get_asset_usage`](#get_asset_usage) | {items: `AssetUsage[]`, nextCursor?} |
+| [`POST /v2/get_design_context`](#get_design_context) | {layers: `LayerContext[]`, assets: `AssetDefinition[]`} |
+| [`POST /v2/apply_component_changes`](#apply_component_changes) | BatchResult |
+| [`POST /v2/apply_style_changes`](#apply_style_changes) | BatchResult |
+| [`POST /v2/apply_variable_changes`](#apply_variable_changes) | BatchResult |
+| [`POST /v2/get_request_status`](#get_request_status) | {status: "pending" \| "completed" \| "unknown", result?: originalEnvelope} |
+| [`POST /v2/get_automation_documentation`](#get_automation_documentation) | {topic, content} |
+| [`POST /v2/activate_page`](#activate_page) | DocumentResult |
+| [`POST /v2/manage_pages`](#manage_pages) | BatchResult |
+| [`POST /v2/create_document`](#create_document) | DocumentResult |
+| [`POST /v2/open_document`](#open_document) | DocumentResult |
+| [`POST /v2/rename_document`](#rename_document) | DocumentResult |
+| [`POST /v2/reorder_tabs`](#reorder_tabs) | DocumentResult with tabIds |
+| [`POST /v2/save_document`](#save_document) | DocumentResult |
+| [`POST /v2/close_document`](#close_document) | DocumentResult with closed |
+| [`POST /v2/list_libraries`](#list_libraries) | {items: `LibraryInfo[]`, nextCursor?} |
+| [`POST /v2/connect_library`](#connect_library) | {library?: LibraryInfo, changed} |
+| [`POST /v2/disconnect_library`](#disconnect_library) | {library?: LibraryInfo, changed} |
+| [`POST /v2/import_library_assets`](#import_library_assets) | {assets: `AssetMapping[]`, changes: BatchResult, sourceVersion} |
+| [`POST /v2/refresh_libraries`](#refresh_libraries) | {items: `LibraryRefreshItem[]`} |
+
+### get_session
+
+`POST /v2/get_session` or `GET /v2/get_session`
+
+Inspect the active server session, supported HTTP operation/action descriptors, binding combinations and limits. GET is also supported. A missing route means the installed build does not expose this API.
+
+Body: `{}`.
+
+Data: **Session data**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/get_session.schema.json).
+
+### list_documents
+
+`POST /v2/list_documents`
+
+List visible loaded and unloaded tabs without loading each document. Only ready readable documents have live handles. Hidden library source loads are not visible editable targets.
+
+Body: `{}`.
+
+Data: **{items: `DocumentInfo[]`}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/list_documents.schema.json).
+
+### activate_document
+
+`POST /v2/activate_document`
+
+Activate the specified tab and await its document load. tabId comes from list_documents. Return the live handle/readiness; do not replace a failed load with a different active document.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `tabId` | string | yes | — |
+| `requestId` | string | yes | — |
+
+Data: **DocumentResult**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/activate_document.schema.json).
+
+### list_pages
+
+`POST /v2/list_pages`
+
+List the target document’s pages. Use the returned page IDs for navigation and placement. Pagination binds its query and revision.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `limit` | integer | no | `50` |
+| `cursor` | string / null | no | — |
+| `documentHandle` | string | yes | — |
+
+Data: **{items: `PageInfo[]`, nextCursor?}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/list_pages.schema.json).
+
+### query_design_system
+
+`POST /v2/query_design_system`
+
+Search reusable assets by name/filter and scope. kinds: component, style, collection, theme, variable. scopes: local, imported, connectedLibrary, availableLibrary. External scopes use explicit libraryIds discovered for this account. Search names, then mutate returned IDs.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `kinds` | array / null | no | — |
+| `query` | string / null | no | — |
+| `scopes` | array / null | no | — |
+| `collectionId` | string / null | no | — |
+| `styleType` | `"color"` / `"text"` / `"effect"` / `"guide"` / `null` | no | — |
+| `libraryIds` | array / null | no | — |
+| `limit` | integer | no | `50` |
+| `cursor` | string / null | no | — |
+| `documentHandle` | string | yes | — |
+
+Data: **{items: `AssetSummary[]`, nextCursor?}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/query_design_system.schema.json).
+
+### get_design_system_assets
+
+`POST /v2/get_design_system_assets`
+
+Inspect 1–100 typed references. Each result retains its input asset and either a definition or an item error; inspect item errors even when the envelope is successful. componentDepth defaults to 0; bounded component content may be requested up to the reported limit.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `assets` | array of object | no | — |
+| `componentDepth` | integer | no | `0` |
+| `documentHandle` | string | yes | — |
+
+Data: **{items: `AssetDetail[]`}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/get_design_system_assets.schema.json).
+
+### get_asset_usage
+
+`POST /v2/get_asset_usage`
+
+Inspect direct and inherited consumers, aliases and property locations of one typed asset. Do not count generated copies as separately editable definitions. Follow nextCursor.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `asset` | object | no | — |
+| `limit` | integer | no | `50` |
+| `cursor` | string / null | no | — |
+| `documentHandle` | string | yes | — |
+
+Data: **{items: `AssetUsage[]`, nextCursor?}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/get_asset_usage.schema.json).
+
+### get_design_context
+
+`POST /v2/get_design_context`
+
+Pass exactly one of nonempty layerIds or selection:true. Read effective bindings, themes, component property values and used definitions in this explicit document. An optional pageId further qualifies the target.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `layerIds` | array / null | no | — |
+| `selection` | boolean / null | no | — |
+| `pageId` | string / null | no | — |
+| `documentHandle` | string | yes | — |
+
+Data: **{layers: `LayerContext[]`, assets: `AssetDefinition[]`}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/get_design_context.schema.json).
+
+### apply_component_changes
+
+`POST /v2/apply_component_changes`
+
+Validate or commit one ordered component/instance/state/property batch. Full action fields and native restrictions appear below. One changed commit creates one normal undo operation.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `validateOnly` | boolean | no | `false` |
+| `changes` | array of typed union | yes | — |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **BatchResult**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/apply_component_changes.schema.json).
+
+### apply_style_changes
+
+`POST /v2/apply_style_changes`
+
+Validate or commit one ordered batch over color, text, effect or guide styles. Supports definition edits, apply and detach, subject to native target/override rules.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `validateOnly` | boolean | no | `false` |
+| `changes` | array of typed union | yes | — |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **BatchResult**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/apply_style_changes.schema.json).
+
+### apply_variable_changes
+
+`POST /v2/apply_variable_changes`
+
+Validate or commit one ordered batch over collections, themes, typed variables, aliases and native bindings. Read bindings from get_session before selecting a property/target combination.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `validateOnly` | boolean | no | `false` |
+| `changes` | array of typed union | yes | — |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **BatchResult**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/apply_variable_changes.schema.json).
+
+### get_request_status
+
+`POST /v2/get_request_status`
+
+Recover the same requestId in the original target scope: documentHandle, tabId, or neither for a session operation. Do not provide contradictory scopes. Retention is bounded; unknown does not prove that the original operation failed.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `requestId` | string | yes | — |
+| `documentHandle` | string / null | no | — |
+| `tabId` | string / null | no | — |
+
+Data: **{status: "pending" | "completed" | "unknown", result?: originalEnvelope}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/get_request_status.schema.json).
+
+### get_automation_documentation
+
+`POST /v2/get_automation_documentation`
+
+Read focused runtime help. topic defaults to overview; overview aliases common. Topics: common, components, styles, variables, documents, libraries. Available without an open document.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `topic` | string | no | `"overview"` |
+
+Data: **{topic, content}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/get_automation_documentation.schema.json).
+
+### activate_page
+
+`POST /v2/activate_page`
+
+Navigate explicitly to a page in the target document. It requires the current revision and request ID but does not add a content revision or undo item.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `pageId` | string | yes | — |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **DocumentResult**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/activate_page.schema.json).
+
+### manage_pages
+
+`POST /v2/manage_pages`
+
+Validate or commit 1–100 ordered page changes. Components-page roles and the last-page invariant are enforced before commit. One changed batch has one undo item.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `validateOnly` | boolean | no | `false` |
+| `changes` | array of typed union | yes | — |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **BatchResult**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/manage_pages.schema.json).
+
+### create_document
+
+`POST /v2/create_document`
+
+Create and await a ready document. Without cloudDestination the result is local. Cloud creation needs an explicitly authorized destination and normal account permissions. Optional name follows the native document naming rules.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `name` | string / null | no | — |
+| `cloudDestination` | object / null | no | — |
+| `requestId` | string | yes | — |
+
+Data: **DocumentResult**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/create_document.schema.json).
+
+### open_document
+
+`POST /v2/open_document`
+
+Provide exactly one locator: localPath or cloud. The cloud locator has documentId and optional versionId. Await native loading; reuse a matching visible document/version/path. A local path needs native filesystem access; opening a version can produce a read-only target.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `localPath` | string / null | no | — |
+| `cloud` | object / null | no | — |
+| `requestId` | string | yes | — |
+
+Data: **DocumentResult**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/open_document.schema.json).
+
+### rename_document
+
+`POST /v2/rename_document`
+
+Rename through the document manager, retaining document identity. name must be a valid nonempty native document name. Inspect the returned name/path/save metadata.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `name` | string | yes | — |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **DocumentResult**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/rename_document.schema.json).
+
+### reorder_tabs
+
+`POST /v2/reorder_tabs`
+
+Supply the exact complete set of currently visible tabIds in the desired order, without duplicates. Does not change document content.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `tabIds` | array of string | yes | — |
+| `requestId` | string | yes | — |
+
+Data: **DocumentResult with tabIds**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/reorder_tabs.schema.json).
+
+### save_document
+
+`POST /v2/save_document`
+
+Await a native local save or actual cloud-send result. Untitled/imported/template files need destination unless allowDialog:true explicitly permits a dialog. overwrite defaults to false. Read destination, savedRevision and synchronization state; a sent/queued change is not a separate durable-storage guarantee.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `destination` | string / null | no | — |
+| `overwrite` | boolean | no | `false` |
+| `allowDialog` | boolean | no | `false` |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **DocumentResult**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/save_document.schema.json).
+
+### close_document
+
+`POST /v2/close_document`
+
+tabId is always required. Every loaded-tab close requires its current documentHandle and expectedRevision. ifUnsaved defaults to fail; save or discard is explicit. Unloaded/failed tabs support metadata-only close with fail. A failed/cancelled save keeps the tab/recovery work. Use the same request ID to recover a lost close response.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `documentHandle` | string / null | no | — |
+| `expectedRevision` | string / null | no | — |
+| `tabId` | string | yes | — |
+| `ifUnsaved` | string | no | `"fail"` |
+| `destination` | string / null | no | — |
+| `overwrite` | boolean | no | `false` |
+| `allowDialog` | boolean | no | `false` |
+| `requestId` | string | yes | — |
+
+Data: **DocumentResult with closed**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/close_document.schema.json).
+
+### list_libraries
+
+`POST /v2/list_libraries`
+
+scope defaults to connected; available lists authorized account metadata without downloading every source. Editable cloud targets support persistent connections. A local target’s connected list is empty but it can inspect/import available assets. Metadata version may be null; obtain a loaded semantic sourceVersion through asset discovery before import.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `scope` | string | no | `"connected"` |
+| `limit` | integer | no | `50` |
+| `cursor` | string / null | no | — |
+| `documentHandle` | string | yes | — |
+
+Data: **{items: `LibraryInfo[]`, nextCursor?}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/list_libraries.schema.json).
+
+### connect_library
+
+`POST /v2/connect_library`
+
+Connect a discovered cloud source to an editable cloud target. The locator kind is cloud; id/endpoint must identify a pair discovered through existing authorized connections. Arbitrary endpoint URLs, local locators and self-connection are rejected. A local target cannot create persistent connections.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `library` | object | no | — |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **{library?: LibraryInfo, changed}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/connect_library.schema.json).
+
+### disconnect_library
+
+`POST /v2/disconnect_library`
+
+Await native disassociation from the editable cloud target. libraryId is an observed source ID. Existing imported definitions/consumers remain; this is not delete or deep detach.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `libraryId` | string | no | — |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **{library?: LibraryInfo, changed}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/disconnect_library.schema.json).
+
+### import_library_assets
+
+`POST /v2/import_library_assets`
+
+Import 1–100 explicit discovered asset references using libraryId and its observed semantic sourceVersion. Dependencies are prepared and the target changes in one undo operation. validateOnly defaults to false. Existing imported IDs are reused; a new asset does not implicitly refresh already imported dependencies.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `libraryId` | string | no | — |
+| `sourceVersion` | string | no | — |
+| `assets` | array of object | no | — |
+| `validateOnly` | boolean | no | `false` |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **{assets: `AssetMapping[]`, changes: BatchResult, sourceVersion}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/import_library_assets.schema.json).
+
+### refresh_libraries
+
+`POST /v2/refresh_libraries`
+
+Refresh 1–100 unique explicit libraryId/version pairs. Each completed library is atomic; earlier successful libraries remain committed if a later one fails. Preserve IDs and supported overrides. Read per-item errors/results before retrying. Missing source assets are not automatically deleted.
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `libraries` | array of object | no | — |
+| `expectedRevision` | string | yes | — |
+| `requestId` | string | yes | — |
+| `documentHandle` | string | yes | — |
+
+Data: **{items: `LibraryRefreshItem[]`}**. [Full request JSON Schema](https://lunacy.docs.icons8.com/plugin-api-schemas/refresh_libraries.schema.json).
+
+## Batch action fields
+
+Put the following objects in their endpoint’s `changes` array. `action` is the required string discriminator. Each variant rejects undeclared properties. References, appearances and binding/property values are described in the nested types and semantic rules below.
+
+### Component action: createFromLayers
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"createFromLayers"` | yes | — |
+| `clientId` | string / null | no | — |
+| `layerIds` | array of string | yes | — |
+| `name` | string / null | no | — |
+| `placement` | object / null | no | — |
+
+### Component action: updateDefinition
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"updateDefinition"` | yes | — |
+| `component` | resource selector (exactly one variant) | yes | — |
+| `patch` | JSON value | yes | — |
+
+### Component action: rename
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"rename"` | yes | — |
+| `component` | resource selector (exactly one variant) | yes | — |
+| `name` | string | yes | — |
+
+### Component action: delete
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"delete"` | yes | — |
+| `component` | resource selector (exactly one variant) | yes | — |
+| `policy` | string | no | `"rejectIfUsed"` |
+
+### Component action: combineStates
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"combineStates"` | yes | — |
+| `clientId` | string / null | no | — |
+| `components` | array of JSON value | yes | — |
+| `name` | string / null | no | — |
+
+### Component action: createState
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"createState"` | yes | — |
+| `clientId` | string / null | no | — |
+| `component` | resource selector (exactly one variant) | yes | — |
+| `name` | string | yes | — |
+
+### Component action: renameState
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"renameState"` | yes | — |
+| `state` | resource selector (exactly one variant) | yes | — |
+| `name` | string | yes | — |
+
+### Component action: deleteState
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"deleteState"` | yes | — |
+| `state` | resource selector (exactly one variant) | yes | — |
+| `replacement` | resource selector (exactly one variant) | no | — |
+| `policy` | string | no | `"rejectIfUsed"` |
+
+### Component action: moveToComponentsPage
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"moveToComponentsPage"` | yes | — |
+| `components` | array of JSON value | yes | — |
+
+### Component action: createProperty
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"createProperty"` | yes | — |
+| `clientId` | string / null | no | — |
+| `component` | resource selector (exactly one variant) | yes | — |
+| `property` | typed union | yes | — |
+
+### Component action: updateProperty
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"updateProperty"` | yes | — |
+| `component` | resource selector (exactly one variant) | yes | — |
+| `property` | resource selector (exactly one variant) | yes | — |
+| `name` | string / null | no | — |
+| `initialValue` | typed union | no | — |
+| `allowedComponents` | array / null | no | — |
+| `allowedStates` | array / null | no | — |
+
+### Component action: deleteProperty
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"deleteProperty"` | yes | — |
+| `component` | resource selector (exactly one variant) | yes | — |
+| `property` | resource selector (exactly one variant) | yes | — |
+
+### Component action: createInstances
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"createInstances"` | yes | — |
+| `component` | resource selector (exactly one variant) | yes | — |
+| `instances` | array of object | yes | — |
+
+### Component action: swapInstances
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"swapInstances"` | yes | — |
+| `instances` | array of JSON value | yes | — |
+| `component` | resource selector (exactly one variant) | yes | — |
+
+### Component action: setInstanceProperties
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"setInstanceProperties"` | yes | — |
+| `instances` | array of JSON value | yes | — |
+| `properties` | array of object | yes | — |
+
+### Component action: removeOverrides
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"removeOverrides"` | yes | — |
+| `instances` | array of JSON value | yes | — |
+| `properties` | array / null | no | — |
+
+### Component action: detachInstances
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"detachInstances"` | yes | — |
+| `instances` | array of JSON value | yes | — |
+
+### Component action: deepDetachInstances
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"deepDetachInstances"` | yes | — |
+| `instances` | array of JSON value | yes | — |
+
+### Style action: create
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"create"` | yes | — |
+| `clientId` | string / null | no | — |
+| `name` | string | yes | — |
+| `type` | `"color"` / `"text"` / `"effect"` / `"guide"` | yes | — |
+| `value` | JSON value | yes | — |
+
+### Style action: createFromLayer
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"createFromLayer"` | yes | — |
+| `clientId` | string / null | no | — |
+| `name` | string | yes | — |
+| `type` | `"color"` / `"text"` / `"effect"` / `"guide"` | yes | — |
+| `layerId` | string | no | — |
+| `slot` | string / null | no | — |
+| `range` | object / null | no | — |
+
+### Style action: update
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"update"` | yes | — |
+| `style` | resource selector (exactly one variant) | yes | — |
+| `patch` | JSON value | yes | — |
+
+### Style action: rename
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"rename"` | yes | — |
+| `style` | resource selector (exactly one variant) | yes | — |
+| `name` | string | yes | — |
+
+### Style action: delete
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"delete"` | yes | — |
+| `style` | resource selector (exactly one variant) | yes | — |
+| `policy` | string | no | `"rejectIfUsed"` |
+
+### Style action: apply
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"apply"` | yes | — |
+| `style` | resource selector (exactly one variant) | yes | — |
+| `targets` | array of object | yes | — |
+
+### Style action: detach
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"detach"` | yes | — |
+| `targets` | array of object | yes | — |
+
+### Variable action: createCollection
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"createCollection"` | yes | — |
+| `clientId` | string / null | no | — |
+| `name` | string | yes | — |
+| `defaultThemeName` | string | no | `"Default"` |
+| `defaultThemeClientId` | string / null | no | — |
+
+### Variable action: renameCollection
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"renameCollection"` | yes | — |
+| `collection` | resource selector (exactly one variant) | yes | — |
+| `name` | string | yes | — |
+
+### Variable action: deleteCollection
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"deleteCollection"` | yes | — |
+| `collection` | resource selector (exactly one variant) | yes | — |
+
+### Variable action: createTheme
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"createTheme"` | yes | — |
+| `clientId` | string / null | no | — |
+| `collection` | resource selector (exactly one variant) | yes | — |
+| `name` | string | yes | — |
+| `sourceTheme` | resource selector (exactly one variant) | yes | — |
+
+### Variable action: renameTheme
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"renameTheme"` | yes | — |
+| `collection` | resource selector (exactly one variant) | yes | — |
+| `theme` | resource selector (exactly one variant) | yes | — |
+| `name` | string | yes | — |
+
+### Variable action: deleteTheme
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"deleteTheme"` | yes | — |
+| `collection` | resource selector (exactly one variant) | yes | — |
+| `theme` | resource selector (exactly one variant) | yes | — |
+
+### Variable action: selectCollectionTheme
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"selectCollectionTheme"` | yes | — |
+| `collection` | resource selector (exactly one variant) | yes | — |
+| `theme` | resource selector (exactly one variant) | yes | — |
+
+### Variable action: setLayerTheme
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"setLayerTheme"` | yes | — |
+| `layerIds` | array of string | yes | — |
+| `collection` | resource selector (exactly one variant) | yes | — |
+| `theme` | resource selector (exactly one variant) | yes | — |
+
+### Variable action: clearLayerTheme
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"clearLayerTheme"` | yes | — |
+| `layerIds` | array of string | yes | — |
+| `collection` | resource selector (exactly one variant) | yes | — |
+
+### Variable action: createVariable
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"createVariable"` | yes | — |
+| `clientId` | string / null | no | — |
+| `collection` | resource selector (exactly one variant) | yes | — |
+| `name` | string | yes | — |
+| `type` | `"color"` / `"float"` / `"bool"` / `"text"` | yes | — |
+| `values` | array of object | yes | — |
+
+### Variable action: renameVariable
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"renameVariable"` | yes | — |
+| `variable` | resource selector (exactly one variant) | yes | — |
+| `name` | string | yes | — |
+
+### Variable action: setValues
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"setValues"` | yes | — |
+| `variable` | resource selector (exactly one variant) | yes | — |
+| `values` | array of object | yes | — |
+
+### Variable action: deleteVariable
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"deleteVariable"` | yes | — |
+| `variable` | resource selector (exactly one variant) | yes | — |
+
+### Variable action: bind
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"bind"` | yes | — |
+| `target` | object | yes | — |
+| `location` | object | yes | — |
+| `variable` | resource selector (exactly one variant) | yes | — |
+
+### Variable action: unbind
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"unbind"` | yes | — |
+| `target` | object | yes | — |
+| `location` | object | yes | — |
+
+### Page action: create
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"create"` | yes | — |
+| `clientId` | string / null | no | — |
+| `name` | string | yes | — |
+| `index` | integer / null | no | — |
+
+### Page action: rename
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"rename"` | yes | — |
+| `page` | resource selector (exactly one variant) | yes | — |
+| `name` | string | yes | — |
+
+### Page action: reorder
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"reorder"` | yes | — |
+| `page` | resource selector (exactly one variant) | yes | — |
+| `index` | integer | yes | — |
+
+### Page action: duplicate
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"duplicate"` | yes | — |
+| `clientId` | string / null | no | — |
+| `page` | resource selector (exactly one variant) | yes | — |
+| `name` | string / null | no | — |
+| `index` | integer / null | no | — |
+
+### Page action: delete
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `action` | `"delete"` | yes | — |
+| `page` | resource selector (exactly one variant) | yes | — |
+| `policy` | string | no | `"rejectIfNotEmpty"` |
+
+## Nested request types
+
+### Asset reference
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `kind` | `"component"` / `"style"` / `"collection"` / `"theme"` / `"variable"` | yes | — |
+| `id` | string | yes | — |
+| `scope` | `"local"` / `"imported"` / `"connectedLibrary"` / `"availableLibrary"` | yes | — |
+| `libraryId` | string / null | no | — |
+| `sourceId` | string / null | no | — |
+| `collectionId` | string / null | no | — |
+
+### Cloud destination
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `teamId` | string / null | no | `null` |
+| `projectId` | string / null | no | `null` |
+
+### Cloud locator
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `documentId` | string | yes | — |
+| `versionId` | string / null | no | `null` |
+
+### Library locator
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `id` | string | no | — |
+| `kind` | string | no | `"cloud"` |
+| `localPath` | string / null | no | — |
+| `endpoint` | string / null | no | — |
+
+### Library version
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `libraryId` | string | yes | — |
+| `version` | string | yes | — |
+
+### Placement
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `pageId` | string / null | no | — |
+| `parentId` | string / null | no | — |
+| `index` | integer / null | no | — |
+| `x` | number / null | no | — |
+| `y` | number / null | no | — |
+
+### Instance placement
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `clientId` | string / null | no | — |
+| `placement` | object | no | — |
+
+### Style target
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `layerId` | string | no | — |
+| `slot` | string | no | `"fills"` |
+| `range` | object / null | no | — |
+
+### Text range
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `start` | integer | no | — |
+| `length` | integer | no | — |
+
+### Theme value
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `theme` | resource selector (exactly one variant) | yes | — |
+| `value` | typed union | yes | — |
+
+### Binding target
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `kind` | string | yes | — |
+| `resource` | resource selector (exactly one variant) | yes | — |
+
+### Binding location
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `property` | string | yes | — |
+| `index` | integer / null | no | — |
+| `stopIndex` | integer / null | no | — |
+| `start` | integer / null | no | — |
+| `length` | integer / null | no | — |
+
+### Instance property assignment
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `property` | resource selector (exactly one variant) | yes | — |
+| `value` | typed union | yes | — |
+
+### Component property definition
+
+#### bool
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `type` | `"bool"` | yes | — |
+| `initialValue` | boolean | yes | — |
+| `name` | string | yes | — |
+
+#### text
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `type` | `"text"` | yes | — |
+| `initialValue` | string | yes | — |
+| `name` | string | yes | — |
+
+#### swap
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `type` | `"swap"` | yes | — |
+| `initialValue` | resource selector (exactly one variant) | yes | — |
+| `allowedValues` | array of JSON value | no | — |
+| `name` | string | yes | — |
+
+#### slot
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `type` | `"slot"` | yes | — |
+| `initialValue` | resource selector (exactly one variant) | yes | — |
+| `allowedValues` | array of JSON value | no | — |
+| `name` | string | yes | — |
+
+#### state
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `type` | `"state"` | yes | — |
+| `initialValue` | string | yes | — |
+| `allowedValues` | array of string | no | — |
+| `name` | string | yes | — |
+
+### Component property value
+
+#### bool
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `kind` | `"bool"` | yes | — |
+| `value` | boolean | yes | — |
+
+#### text
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `kind` | `"text"` | yes | — |
+| `value` | string | yes | — |
+
+#### component
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `kind` | `"component"` | yes | — |
+| `component` | resource selector (exactly one variant) | yes | — |
+
+#### state
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `kind` | `"state"` | yes | — |
+| `value` | string | yes | — |
+
+### Variable value
+
+#### literal
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `kind` | `"literal"` | yes | — |
+| `value` | JSON value | yes | — |
+
+#### alias
+
+| Field | JSON type | JSON-required | Default / notes |
+| --- | --- | --- | --- |
+| `kind` | `"alias"` | yes | — |
+| `variable` | resource selector (exactly one variant) | yes | — |
+
+## Native semantics and constraints
+
+### Discovery and references
+
+An asset reference has `kind`, `id`, `scope`, and applicable library/source/collection IDs. Kinds are `component`, `style`, `collection`, `theme`, and `variable`. Scopes are `local`, `imported`, `connectedLibrary`, and `availableLibrary`. Return complete references unchanged rather than reconstructing origins from names. A component's `componentId` and source `layerId` are distinct identities. Use discovery after creation when an operation needs a different identity kind.
+
+Search and usage results are paginated; `limit` defaults to 50 and is bounded to 1–200. Cursors are opaque, tied to their query/target/revision and applicable source snapshot. A changed target/source can invalidate them. Restart the query after a cursor conflict. Do not treat an available-library metadata continuation as a global point-in-time snapshot: the native endpoint has no ETag/global snapshot, and equal update timestamps across a page boundary can omit metadata entries. This does not weaken source validation for an explicitly opened library.
+
+`get_design_system_assets` returns a definition or an item-specific error for each input reference. Component content is deliberately bounded by `componentDepth` and work budgets. Missing, dead or inaccessible references are not live assets merely because a name or in-memory object remains.
+
+### Components and instances
+
+`createFromLayers` converts explicit existing source layers, preserving existing child IDs. Placement names an explicit page/parent when relocation is needed. `createInstances` requires explicit placements; no active selection is inferred. A `clientId` on an instance placement maps that creation into the batch's `clientIds` result.
+
+`updateDefinition.patch` updates the existing source and explicitly identified direct children. Supported fields are:
+
+```text
+name size width height pos transform opacity blendMode hidden locked
+lockAspect clipContent breakMask mask smoothCorners cornerRadius thickness
+linePos lineCap lineJoin dash fill fills border borders shadows innerShadows
+blur tint fillsId bordersId effectsId gridsId textStyleId
+text fontSize kerning paragraphSpacing align valign lineHeight underline
+strikethrough rtl casing binds layers
+```
+
+Each `layers` patch entry identifies an existing direct child by `id`; it cannot replace, add, remove or reorder siblings. IDs, layer types, component identities, state/property metadata, versions and library ownership cannot be overwritten. Patches cannot introduce new external image/font resources. Appearance leaves use the existing FREE representations.
+
+Component property definitions are discriminated by `type`: `bool`, `text`, `swap`, `slot`, or `state`. Values are discriminated by `kind`: `bool`, `text`, `component`, or `state`. Swap/slot defaults are component selectors; state defaults identify one state. An explicit literal default can replace a variable-backed default even when the fallback literal is unchanged; a rename preserves that binding.
+
+A property definition does not guess a source-node binding from its name. A later definition patch may use `binds` entries with numeric `field` and an actual property/value reference:
+
+| Numeric field | Supported binding |
+| --- | --- |
+| `1` | Visibility: an owned bool property `ref`, a literal `bool`, or live bool variable `boolId`. |
+| `58` | Text: an owned text property `ref`, literal `text`, or live text variable `textId`; target must be text. |
+| `100` | Component source: an owned swap/slot property `ref`; target must be a source instance. |
+
+Here `ref`, `boolId`, and `textId` contain actual IDs. A raw FREE appearance fragment does not turn arbitrary strings into typed batch `clientRef` selectors. Use `apply_variable_changes` for other native variable binding locations. State properties select through `setInstanceProperties` rather than a guessed source-node bind.
+
+`combineStates` requires compatible sibling components and migrates property definitions to the shared owner. `createState` turns a standalone definition into a state group when needed. State names can encode multiple dimensions joined with `+`. `deleteState` preserves at least one state; its default policy is `rejectIfUsed`, while `replaceInstances` requires an explicit sibling replacement. Deleting a component defaults to `rejectIfUsed`; `detachInstances` is explicit.
+
+`removeOverrides.properties` accepts the native categories below. Omit the list to remove supported overrides as a whole; `"all"` is not a category. Size reset also resets instance scale.
+
+```text
+size nestedComponent instanceSettings themes prototypingComponent text
+layoutGuideStyle image flows tint color textColor textWeight cornerRadius
+fills borders thickness linePos dash lineCap lineJoin effects blending
+inlines exportOptions lock visibility clipContent smoothCorners startArrowhead
+endArrowhead layoutOrientation layoutSpacing layoutPadding layoutAlign layoutSizing
+layoutTextBaseline layoutIncludeBorders layoutReverseZIndex layoutStretch arc
+layoutWrap layoutWrapDistribute layoutWrapSpacing lockAspect starRatio vertexCount
+layoutMinMax imageFilters textBehavior layoutGuides textTruncate textMaxLines
+scrollBehavior keepScroll name fillStyle borderStyle effectStyle textStyle
+textVerticalTrim scrollOverflow binds
+```
+
+`detachInstances` materializes one level as frames while retaining nested instances. `deepDetachInstances` materializes the nested instance tree.
+
+Source graph preparation observes the ordered batch. Every prefix that eagerly rebuilds instances must be acyclic, even if a later action would break the cycle. Order materialization and deletion around retained dependencies, or split the work and inspect resulting consumers first. Deleting a source retained by shallow materialization can return `ResourceInUse`; it never silently skips consumers. Swap compatibility follows native source name/type/sibling policy rather than position alone.
+
+Imported definitions are read-only; local instances of imported definitions can use supported operations. Locked/generated targets and operations requiring unsupported comment relocation are rejected. Text/font/layout work must finish before publication; active text editing or an overlapping refresh can return `Busy`. These methods do not select layers, switch drawing tools, zoom, or open rename panels.
+
+### Styles
+
+Types are `color`, `text`, `effect`, and `guide`. `value` and `patch` use the FREE appearance fields appropriate to that kind, such as `{"fill":"0A84FF"}` for a color style. Updates keep IDs, untouched properties, variable references and linked consumers. Use `rename` rather than an appearance patch to change a name. `createFromLayer.slot` can be omitted for the native slot implied by the style type.
+
+| Style kind | Target slot | Eligible target |
+| --- | --- | --- |
+| `color` | `fills` or `borders` | Native style-bearing layer; supported text fills can include a range. |
+| `text` | `text` | Text layer. |
+| `effect` | `effects` | Eligible native layer. |
+| `guide` | `guides` | Frame. |
+
+A target has explicit `layerId`; its parser default slot is `fills`, so provide the appropriate slot for other kinds. Ranges use `start`/`length` in UTF-16 positions and must not split a character. Other slots do not accept ranges.
+
+`delete` defaults to `rejectIfUsed`; `detachConsumers` materializes supported effective appearance. `detach` materializes the explicit targets. Whole generated text style operations can use native overrides; partial generated ranges require a matching existing full inline override. A detach that would freeze unrelated inherited fields can be unsupported. Numeric scaled effects can be materialized where native geometry can preserve them, while incompatible scaled variable-bound effects are rejected. Imported style definitions cannot be edited directly.
+
+### Variables, aliases and bindings
+
+Types are `color`, `float`, `bool`, and `text`. Literal values are respectively FREE color strings, finite JSON numbers, JSON booleans, and strings. For example:
+
+```json
+{"kind":"literal","value":"0A84FF"}
+```
+
+```json
+{"kind":"alias","variable":{"id":"<same-type-variable-id>"}}
+```
+
+Aliases are typed references, not strings containing IDs. Values belong to explicit themes in the variable's collection. `createTheme` clones a required source theme. Native collection/theme/default-role rules, alias type rules and graph cycle checks apply to the planned batch.
+
+`selectCollectionTheme` changes the inspector's collection preview. `setLayerTheme` changes the evaluated layer theme and inheritance below that layer. `clearLayerTheme` restores inheritance. Without an explicit layer theme, the collection's default theme controls evaluated canvas values. Changing an inspector preview alone does not mean the canvas switched theme.
+
+Use the actual `get_session.bindings` descriptor for each `target.kind`, variable type and `location.property`. Binding targets include eligible layers and appropriate style resources; examples of advertised locations include:
+
+| Property family | Variable types / qualifier |
+| --- | --- |
+| `opacity`, width/height/min/max sizes, side thickness | `float`; eligible layer. |
+| Corner radius properties | `float`; corner-radius-capable layer. |
+| Padding and horizontal/vertical spacing | `float`; auto-layout layer. |
+| `visibility` | `bool`; eligible layer. |
+| `text` | `text` or `float`; text layer. |
+| `fontSize`, `lineHeight`, `letterSpacing`, `paragraphSpacing` | `float`; text layer/style, with supported ranges. |
+| `fontFamily` | `text`; text layer/style, with supported ranges. |
+| `fontStyle` | `text` or `float`; text layer/style, with supported ranges. |
+| `fontVariations` | `float`; indexed font axis and supported range. |
+| `fills.color`, `borders.color`, `tint.color` | `color`; appropriate indexed paint and target. |
+| `fills.stops.color`, `borders.stops.color` | `color`; paint index plus gradient stop index; ranges only where advertised. |
+| Shadow/inner-shadow `.color`, `.radius`, `.x`, `.y`, `.spread` | Color or float as appropriate; indexed effect on eligible layer/effect style. |
+| `blur.radius` and advertised glass-effect properties | `float`; eligible layer/effect style. |
+| `guides.size`, `.offset`, `.count`, `.gutter`, `.width`, `.height` | `float`; indexed native guide on frame/guide style. |
+| `background.color` | `color`; ordinary slice. |
+
+Not every location is valid on every target. Generated properties require a representable native override: scalar/selective paint bindings preserve unrelated inheritance; ranged generated text, selective gradient-stop/numeric-effect/guide edits can require an existing full override. Generated slice bindings are unsupported. Ordinary fields inherited from a linked style require detaching that style explicitly or editing its source first.
+
+Unbinding preserves the current effective or cached value in the target's theme context; it does not resolve a dead variable. Native zero sentinels remain valid, such as automatic line height and unbounded maximum width/height. Deletion follows native dead-reference/save behavior, without a separate API persistence policy.
+
+### Pages and document lifecycle
+
+Page actions are ordered and undoable. Default delete policy is `rejectIfNotEmpty`; explicit `deleteContents` still preserves the last page and components-page roles. A duplication can specify a name/index and preserves relevant content/source ownership through native copy behavior. Page navigation uses `activate_page`; listing does not load every tab.
+
+A loaded document close always carries the current handle/revision, even for `ifUnsaved:"fail"`. `ifUnsaved:"save"` and `"discard"` are explicit decisions; unloaded/failed tabs support only the documented metadata close path. An ungranted local path can return `PermissionDenied`; a plugin does not bypass native file access. User-granted normal open/save flows can authorize the needed destination. `allowDialog` defaults to false.
+
+Local save completion identifies the actual destination and saved revision. Imported source identity and native save destination can differ. Cloud results distinguish actual native pending/sent synchronization state; a clean flag or queued save alone is not proof of server durability. Read the complete result before closing or claiming persistence.
+
+### Libraries
+
+Available/connected library data uses the current authorized account and its existing endpoint connections. The API does not sign in, publish, create a new connection model or grant edit access to a borrowed source. Persistent connect/disconnect operations require an editable cloud target. A local target can discover/import available sources, but its connected list is empty.
+
+Use a locator discovered by `list_libraries`; `kind:"cloud"` is the supported connection kind. An optional `endpoint` must match the discovered source/connection pair, not an arbitrary URL. A document cannot connect to itself. Connecting does not publish. Disconnecting preserves consumers and imported definitions.
+
+A metadata `version:null` is not an import token. An explicit source asset query opens the authorized source and returns its semantic `sourceVersion`. Import uses that token, complete source references, target revision and a fresh request ID. The source library identity plus source asset ID determines reuse; names do not. Import prepares nested components/state owners, styles, aliases, collections/themes and image dependencies before target registration. Repeated unchanged import is a no-op. A new asset does not refresh an already imported dependency; refresh explicitly.
+
+Source access/version, account/endpoint identity, target lifetime/editability and revision are rechecked after asynchronous preparation and immediately before local commit. Refresh is atomic per library, not one global network transaction. Earlier completed items remain completed if a later one fails. Removed source assets are not automatically deleted locally. Inspect each refresh item's `error`, `observedVersion`, `appliedVersion` and `changed` fields.
+
+The server connection request is the association commit point. Cancellation or revision changes after it do not trigger a compensating disconnect. An uncertain network response needs relationship/status inspection before a new request ID. Cleanup after a successful local import/refresh is reported as warnings rather than masking the committed result as a failure.
+
+## Successful data shapes
+
+These shapes are inside `data`, alongside the envelope's available target/revision metadata. Optional or irrelevant fields can be absent/null. An item-level error can coexist with a successful outer read/refresh result.
+
+### Session data
+
+| Field | Shape |
+| --- | --- |
+| `apiVersion` | `"2"` |
+| `sessionId` | Opaque running session ID. |
+| `activeTabId`, `activeDocumentHandle` | Optional current navigation metadata. |
+| `limits` | Named numeric budgets; see below. |
+| `operations` | Array of `{tool, actions: string[], description}` using underlying HTTP operation names. |
+| `bindings` | Array of `{property, variableTypes: string[], targetKinds: string[], supportsIndex, supportsRange}`. |
+
+### DocumentInfo and save state
+
+`DocumentInfo` contains `tabId`, optional `documentHandle`, `documentId`, `versionId`, `revision`, `name`, `state`, `isActive`, `canRead`, `canEdit`, `canSave`, and `save`.
+
+`save` contains `kind` (local/cloud context), optional `destination` and `sourcePath`, `isDirty`, `hasPendingChanges`, and `synchronization`. Read the returned native state instead of inferring durable completion from one flag. A tab can be unloaded or failed and have no live readable handle.
+
+`DocumentResult` contains relevant optional `document`, `initialPageId`, `activePageId`, `savedRevision`, `destination`, `closed`, and `tabIds`. Creation returns the ready document and initial page; saves report destination/saved revision; close reports `closed`; reordering reports the actual order.
+
+`PageInfo` is `{id, name, order, isSelected, isComponentsPage}`.
+
+### BatchResult
+
+```json
+{
+  "created":["<id>"],
+  "updated":[],
+  "deleted":[],
+  "clientIds":{"brand":"<id>"},
+  "changed":true,
+  "validatedOnly":false
+}
+```
+
+Validation predictions are not live resource IDs. A meaningful ordered batch can commit even when an early creation is later deleted; a true equal-value no-op does not create history.
+
+### AssetSummary, definition and usage
+
+`AssetSummary` contains `asset` (complete typed reference), `name`, optional `layerId`, `componentId`, `styleType`, `variableType`, `collectionId`, `sourceVersion`, and `supportedActions`.
+
+`AssetDetail` is `{asset, definition?, error?}`. Its definition contains `summary` and the applicable `variable`, `collection`, `theme`, `component`, or `style` payload:
+
+| Definition | Fields |
+| --- | --- |
+| Variable | `type`, `collectionId`, `values:[{themeId,value}]`, where value is a literal or alias union. |
+| Collection | `defaultThemeId`, `selectedThemeId`, `themes:[{id,name,collectionId}]`. |
+| Theme | `id`, `name`, `collectionId`. |
+| Component | `layerId`, `componentId`, optional `pageId`, `properties`, `stateIds`, optional `stateGroupId`, `defaultStateId`, `states`, optional bounded FREE `content`. |
+| Component property | `id`, `name`, `type`, `initialValue`, optional `allowedValues`, `initialVariable`. |
+| Component state | `layerId`, `componentId`, `name`, `isDefault`, and dimension `values` dictionary. |
+| Style | FREE appearance JSON for the native style kind. |
+
+`AssetUsage` contains `consumerKind`, `consumerId`, optional `layerId`, `pageId`, `name`, `location`, `isInherited`, optional `sourceLayerId`, `themeId`, and `propertyId`. Location uses the same property/index/stop/range coordinates as binding requests. Treat inherited consumers as context, not new independent definitions.
+
+### LayerContext
+
+Each context contains `layerId`, `name`, `type`, optional `pageId`, asset references, `bindings`, `propertyBindings`, `instanceProperties`, effective `themes` dictionary and `warnings`.
+
+- Resolved variable binding: `{location, variable, themeId?, effectiveValue, isOverride}`.
+- Component source binding: `{componentId, propertyId, location, effectiveValue, isOverride, storedVariable?}`.
+- Instance property: `{componentId, propertyId, name, type, value, isOverride, storedVariable?}`.
+
+The accompanying top-level `assets` array contains definitions used by those layers. Effective values and stored bindings are different facts; an unresolved/dead binding can produce a warning.
+
+### Library data
+
+| Shape | Fields |
+| --- | --- |
+| `LibraryInfo` | `locator`, `name`, `state`, `canRead`, `isConnected`, optional `version`. State distinguishes native connected/disconnected/loading/failed/inaccessible conditions. |
+| `AssetMapping` | `{source: AssetReference, local: AssetReference}`. |
+| Import result | `assets` mappings, `changes: BatchResult`, applied `sourceVersion`. |
+| `LibraryRefreshItem` | `libraryId`, `observedVersion`, optional `appliedVersion`, `changed`, optional `error`. |
+
+### Status and documentation
+
+`get_request_status` data is `{status, result?}`; `result` is the original retained envelope for a completed request. `get_automation_documentation` data is `{topic, content}` with focused text.
+
+## Limits and recovery budgets
+
+| Budget | Current limit |
+| --- | --- |
+| Default/max paged results | 50 / 200 |
+| Detail references / changes / explicit import or refresh entries | 100 each |
+| Typed HTTP request JSON | 2 MiB |
+| Discovery response data | 2 MiB |
+| Replay entries / completed bytes / retention | 256 / 16 MiB / one hour |
+| Component inspection | Depth 8, 4,096 nodes |
+| Layer context | 100 roots, 4,096 visited nodes and bindings |
+| Prepared text | 1,000 text layers, 1,000,000 aggregate UTF-16 characters |
+| Prepared component graph | 1,024 components, depth 128, 8 layout passes |
+| Variable consumers | 1,000,000 candidates, 10,000 consumer layers |
+| Library source reads | At most 8 explicit libraries; at most 2 native metadata pages per available-list request |
+| Library source fingerprint serialization | 16 MiB plus graph/value work bounds |
+| Prepared library images | 4,096 unique images; 16 MiB aggregate encoded input; 16,777,216 decoded pixels; 30-second window |
+
+The running session is authoritative for advertised limits; additional bounded graph/depth/layout work checks can reject a complex request. `LimitExceeded` means reduce the actual work, not only the number of top-level changes. Keep retries bounded and preserve already completed per-library outcomes. Legacy image upload retains its separate 200 MiB binary budget; it is not a typed v2 import request.
+
+## Legacy targeting and format boundary
+
+Legacy endpoints keep their original raw array/string/wrapper request bodies and response forms. `X-Lunacy-Document-Handle` can explicitly target applicable legacy document routes. Use `X-Lunacy-Page-Id` only for page-scoped reads/placement/captures, such as viewport/area, new layers/SVG and image insertion. Unsupported or contradictory headers fail. Do not place these headers in a shared client's mutable defaults when requests can run concurrently; add them to each request. V2 requests carry selectors in their JSON bodies.
+
+The saved `.free` document contract is maintained in [icons8/free](https://github.com/icons8/free). API envelopes, handles, revisions, replay entries, chat history and internal undo records are not public FREE archive fields. Matching preview builds may write FREE metadata version 12 to retain generated border/effect/text/guide style links; the published upstream main specification can still describe an earlier version. Consult the published [README/changelog](https://github.com/icons8/free/blob/main/README.md) for that normative release and the separately labeled [FREE 12 proposal](https://github.com/icons8/free/pull/4) for pending additions. Do not present the proposal as merged or assume an older reader preserves new links on resave.
 
 
-1. Open Claude Desktop
-2. Open the Settings menu (press Ctrl+, on Windows or Cmd+, on macOS)
-3. Navigate to the **Developer** tab
-4. Click **Edit Config** - this will open your file manager with the `claude_desktop_config.json` file highlighted
-5. Open the highlighted `claude_desktop_config.json` file in any text editor
-6. If using Option A: Replace the entire file contents with the copied JSON configuration
-7. If using Option B: Add the copied server entry to your existing `mcpServers` section, maintaining valid JSON structure
-8. Save the file and restart Claude Desktop completely
+# Plugin API reference
+Source: https://lunacy.docs.icons8.com/raw/plugin-api.md
 
-Once configured, Claude will be able to interact directly with your Lunacy projects and access design information in real-time.
+Complete legacy HTTP, WebSocket event and plugin UI contracts
 
-## Creative Use Cases
+This complete reference is synchronized from the [lunacy-plugins article](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/API_REFERENCE.md) at commit `7b82b781`, checked on November 5, 2026. See [Plugins](https://lunacy.docs.icons8.com/plugins/) for installation and manifests.
 
-The real power of MCP integration comes from combining Lunacy's design data with other MCP servers to create seamless, automated workflows:
+This page documents the legacy layer/image/export API and plugin WebSocket/UI contracts. The new document, component, style, variable and library operations have a separate [Automation API v2 reference](https://lunacy.docs.icons8.com/plugin-api-v2/), [complete request schemas](https://lunacy.docs.icons8.com/plugin-api-schemas/), and [worked workflows](https://lunacy.docs.icons8.com/plugin-workflows/).
 
-**AI-Powered Design-to-Code Pipeline** Select a complex dashboard layout in Lunacy and ask Claude to generate a complete React application with TypeScript, including component structure, state management, API integration points, and even mock data that matches your design specifications. Claude can analyze your color variables and component hierarchy to create a fully functional prototype.
+The v2 additions require a matching preview build. Probe `/v2/get_session`; do not assume a published release contains every documented operation. Existing plugin process, manifest, event and UI contracts continue to apply.
 
-**Intelligent Design System Documentation** Combine Lunacy MCP with file system access to automatically generate comprehensive design system documentation. Claude can analyze your components, extract design patterns, document usage guidelines, and create markdown files with embedded design tokens and component examples - all while maintaining your existing folder structure.
+## Connection and response formats
 
-**Cross-Platform Design Consistency** Use multiple MCP servers to ensure design consistency across platforms. Claude can compare your Lunacy designs with existing mobile apps (via screenshots), web implementations (via web scraping), and documentation (via file system access) to identify inconsistencies and suggest improvements.
+The default HTTP address is `http://localhost:31415`. The plugin WebSocket server starts at `ws://localhost:31416`. Each server can choose a later available port independently; use the running application's actual ports. An installed valid plugin starts the local automation service automatically. For standalone development, **AI → Model Context Protocol → MCP server enabled** can enable it without a plugin. See the [development guide](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/PLUGIN_DEVELOPMENT_GUIDE.md) for manifests and lifecycle modes.
 
-**Automated Asset Optimization Workflow** Connect Lunacy with file system and image processing MCP servers. Claude can analyze your selected designs, export optimized assets in multiple formats, automatically organize them into proper folder structures, and even generate the corresponding CSS sprites or icon fonts.
+Legacy endpoints return different formats: FREE JSON text, plain text, structured JSON, SVG or binary bytes. There is no universal legacy success/error envelope. Many string-based tools return a plain-text operation failure even with HTTP 200. Inspect the documented body as well as status. JSON text may arrive with `text/plain`; do not assume `response.json()` works for every endpoint. UI operations have their own `success` property; only `/v2/*` uses the v2 `ok` envelope.
 
-**Dynamic Content-Aware Design** Combine Lunacy data with database or API MCP servers to create designs that adapt to real content. Claude can analyze your layout components, fetch actual data from your systems, and suggest design modifications based on content length, image aspect ratios, or data complexity.
+Use `application/json` for JSON bodies, except the plain-text undo count and binary image upload below. Layer/asset IDs are opaque. Preserve the spelling and identity kind returned by the relevant route.
 
-**Smart Design Review and Feedback** Use Lunacy MCP with communication tools (Slack, email) and project management systems. Claude can analyze your selected designs, compare them against design guidelines, generate detailed review reports, and automatically distribute them to stakeholders with embedded design previews and actionable feedback.
+## Explicit document targets
 
-**Intelligent Brand Compliance Checking** Connect Lunacy with document analysis MCP servers to automatically verify brand guideline compliance. Claude can analyze your designs against brand documentation, check color usage, typography consistency, spacing rules, and generate compliance reports with specific recommendations.
+On a matching v2 build, discover `documentHandle` with `/v2/list_documents`. For legacy routes supporting explicit document/page targeting, pass these headers on the individual request:
 
-**Automated Handoff Documentation** Combine Lunacy data with development tools MCP servers to create comprehensive developer handoffs. Claude can generate technical specifications, component props documentation, animation guidelines, responsive behavior notes, and integration instructions - all tailored to your specific tech stack.
+```http
+X-Lunacy-Document-Handle: <live-document-handle>
+X-Lunacy-Page-Id: <page-id>
+```
 
-## Benefits of MCP Integration
+The page header further qualifies an eligible request; it is not navigation. A page must belong to the target document. Viewport/selection operations retain native constraints. Unsupported header/route combinations are rejected. Do not silently retry against the active tab or put changing targets in shared global client headers. Older builds without these additions retain active-document behavior.
 
-* **Seamless Workflow**: No need to manually export or copy design information
-* **Real-time Access**: Claude always works with your current project state
-* **Enhanced Productivity**: Get instant analysis and suggestions for your designs
-* **Secure Connection**: All data remains local and private
-* **Context-Aware Assistance**: Claude understands your specific design context
+These headers do not give legacy writes v2 request IDs, revision guards or replay semantics. Use the corresponding v2 operation when those guarantees are needed. A stale/closed/read-only/unavailable target fails explicitly. See the [workflow example](https://lunacy.docs.icons8.com/plugin-workflows/#combine-v2-with-legacy-layer-export-and-ui-calls).
 
-The MCP integration transforms how you work with AI assistance in your design process, making it more efficient and contextually relevant to your actual projects.
+## Layer and viewport reads
+
+| Route | Body | Successful body |
+| --- | --- | --- |
+| `GET /getselected` | None | FREE object for one selected layer, array for multiple, `{}` for no selection. |
+| `POST /getlayersbyids` | JSON array of layer ID strings. | FREE object/array; a missing target can return text. |
+| `POST /getcomponents` | JSON array of component ID strings. | Matching source definitions as FREE object/array; `{}` when none. Not an unfiltered catalog query. |
+| `POST /getlayersinarea` | `{x,y,width,height,maxDepth?}`. | FREE layer data in the canvas rectangle. `maxDepth` defaults to `1`. |
+| `POST /getlayersdata` | `{layerIds:[...]}`. | SVG with layer metadata. This route uses full GUID layer IDs. |
+| `GET /getviewportinfo` | None | Text: `Viewport: x=..., y=..., width=..., height=...`. |
+
+Coordinates use native canvas space; area fields are integers. Exported layers follow the [public FREE specification](https://github.com/icons8/free/blob/main/README.md). Handle object/array/empty cases rather than assuming every result is an array.
+
+```bash
+curl -X POST http://localhost:31415/getlayersbyids \
+  -H 'Content-Type: application/json' -d '["<returned-layer-id>"]'
+```
+
+For reusable-asset search and complete component definitions, prefer `/v2/query_design_system` then `/v2/get_design_system_assets`. These distinguish component IDs from source-layer IDs and include individual asset errors.
+
+## Layer writes
+
+| Route | Body | Behavior |
+| --- | --- | --- |
+| `POST /setselected` | Direct FREE object or array. | Edits/replaces supplied existing selected layers. Requires a nonempty current selection and IDs belonging to it. Does not select arbitrary IDs; `[]` does not clear selection. |
+| `POST /updatelayers` | Direct FREE object or array. | Updates existing layers by their IDs. |
+| `POST /createlayers` | `{layersJson:"<serialized FREE JSON>",parentId?}`. | Creates content under an eligible parent, or native page root when omitted. |
+| `POST /createlayersfromsvg` | `{svg:"<svg>...</svg>",x?,y?,parentId?}`. | Creates from SVG; `x` and `y` default to `0`. |
+| `POST /updatelayerfromsvg` | `{layerId,svg}`. | Updates eligible layer content through native SVG import. |
+| `POST /deletelayers` | JSON array of layer ID strings. | Deletes the specified eligible layers. |
+| `POST /duplicatelayers` | `{layerIds:[...],offsetX?,offsetY?,componentsToInstances?}`. | Duplicates layers; offsets default to `10`, component-to-instance conversion to `true`. |
+
+Except duplication, these writes return native success/error text. Duplication returns `{duplicatedLayerIds:[...],message:"..."}`; inspect IDs and message. It can return no duplicated IDs on failure. Native editability, generated-node, resource and parent constraints still apply.
+
+For `/setselected` and `/updatelayers`, send the layer JSON directly:
+
+```json
+[{"_t":"RECT","id":"<existing-layer-id>","name":"Updated shape"}]
+```
+
+Only `/createlayers` uses `layersJson`, whose value is a **string**, not an array:
+
+```json
+{
+  "parentId": "<frame-layer-id>",
+  "layersJson": "[{\"_t\":\"RECT\",\"name\":\"New shape\",\"size\":[120,80],\"fill\":\"0A84FF\"}]"
+}
+```
+
+Read exported content and the normative [FREE specification](https://github.com/icons8/free) for property types, transforms and ID encodings. Layer APIs cannot bypass typed v2 rules for imported definitions, aliases, styles or component properties.
+
+## Images and screenshots
+
+| Route | Body | Successful body |
+| --- | --- | --- |
+| `POST /getimage` | `{imageId,format?}`. | Image bytes with `Content-Type`; missing image returns 404. |
+| `POST /getscreenshotbyid` | JSON array of layer ID strings. | Binary screenshot. |
+| `POST /getscreenshotviewport` | None. | Binary screenshot of an eligible current viewport. |
+| `POST /getscreenshotarea` | `{x,y,width,height}`. | Binary screenshot of the canvas rectangle. |
+| `POST /insertimage` | Raw image bytes, not JSON/base64. | Native insertion result text. |
+
+Screenshot response headers, when applicable:
+
+| Header | Meaning |
+| --- | --- |
+| `X-Screenshot-AbsoluteX`, `X-Screenshot-AbsoluteY` | Canvas-space origin. |
+| `X-Screenshot-Width`, `X-Screenshot-Height` | Dimensions. |
+| `X-Screenshot-Timestamp` | Capture timestamp. |
+| `X-Screenshot-Error` | Failure description. |
+
+Inspect status, error header and `Content-Type` before treating a response as image bytes:
+
+```bash
+curl -X POST http://localhost:31415/getscreenshotarea \
+  -H 'Content-Type: application/json' \
+  -d '{"x":0,"y":0,"width":640,"height":480}' --output screenshot.png
+```
+
+Image upload headers:
+
+| Header | Meaning |
+| --- | --- |
+| `X-Image-Position-X`, `X-Image-Position-Y` | Insertion coordinates. |
+| `X-Image-File-Name` | Filename, including extension. |
+| `X-Image-Parent-Id` | Optional eligible parent ID. |
+
+```bash
+curl -X POST http://localhost:31415/insertimage \
+  -H 'Content-Type: image/png' \
+  -H 'X-Image-Position-X: 40' -H 'X-Image-Position-Y: 40' \
+  -H 'X-Image-File-Name: picture.png' --data-binary @picture.png
+```
+
+Legacy image upload has a 200 MiB limit. Native decoding/access rules still apply. This is separate from v2 prepared-library-image budgets.
+
+## Export
+
+`POST /export` fields:
+
+| Field | Type | Default |
+| --- | --- | --- |
+| `layerIds` | Array of explicit layer ID strings. | Supply targets. |
+| `format` | String: `PNG`, `SVG`, `PDF`, `JPG`, `WEBP`, `TIFF`, `ICO`. | `PNG`. |
+| `scale` | Number. | `1`. |
+| `mergeObjects` | Boolean. | `false`. |
+
+The response is an array of `{layerId,fileName,contentType,data}`. `data` is a **base64 string** containing file bytes, not an array of integers:
+
+```javascript
+const response = await fetch(`${baseUrl}/export`, {
+  method: 'POST', headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ layerIds, format: 'PNG', scale: 1, mergeObjects: false })
+});
+if (!response.ok) {
+  throw new Error(`Export failed: HTTP ${response.status}`);
+}
+const results = await response.json();
+for (const result of results) {
+  const bytes = Buffer.from(result.data, 'base64');
+  console.log(result.fileName, result.contentType, bytes.length);
+}
+```
+
+This Node.js 18+ fragment assumes previously defined `baseUrl`/`layerIds`. Validate/choose an output filename before writing decoded bytes. Export returns data; it does not write a file to a destination supplied in this request.
+
+## Undo, redo and toast notifications
+
+`POST /getundostack` takes a positive integer as a **plain-text body**, for example `20`, and returns native history text. It is not GET and does not take a JSON options object. `POST /undo` and `POST /redo` take no body and return text.
+
+```bash
+curl -X POST http://localhost:31415/getundostack -H 'Content-Type: text/plain' --data '20'
+```
+
+`POST /showtoast` fields:
+
+| Field | Type | Default |
+| --- | --- | --- |
+| `text` | String. | Supply a message. |
+| `iconType` | Byte. | `0`. |
+| `priority` | Byte. | `5`. |
+| `durationSeconds` | 16-bit integer. | `7`. |
+| `isContinuable` | Boolean. | `true`. |
+| `isSkippable` | Boolean. | `false`. |
+| `isAttention` | Boolean. | `false`. |
+
+Icons: `0` None, `1` Copy, `2` CheckDone, `3` Document, `4` Warning, `5` Update, `6` Love, `7` Human, `8` Trash, `9` Smile, `10` CloudDisconnect, `11` Message, `12` Copyright, `13` Stars. A success/check toast uses `2`.
+
+```json
+{"text":"Plugin finished","iconType":2,"durationSeconds":4}
+```
+
+## Plugin UI HTTP API
+
+All four routes use POST. UI values are strings, including checkbox/number/slider values; parse them explicitly.
+
+| Route | JSON body | Response |
+| --- | --- | --- |
+| `/registerui` | `{pluginId,title,fields:[...]}`. | `{success:true,message:"UI registered successfully"}`. |
+| `/getpluginuivalues` | JSON string, e.g. `"my-plugin"`. | Object mapping field IDs to strings, or `{}`. |
+| `/unregisterui` | JSON string, e.g. `"my-plugin"`. | `{success,message}`; false when not found. |
+| `/updateuifields` | `{pluginId,updates:{fieldId:"value"}}`. | `{success,message}`; inspect `success` for unknown UI/empty updates. |
+
+Fields support `id`, `type`, `label`, and optional `description`, `placeholder`, `value`, `options`, `min`, `max`, `step`, `multiline`. Values/options are strings; min/max/step are numbers; multiline is boolean. Canonical field types: `text`, `number`, `select`, `checkbox`, `separator`, `button`, `slider`, `linkButton`, `label`.
+
+```json
+{
+  "pluginId":"my-plugin","title":"Export helper",
+  "fields":[
+    {"id":"scale","type":"number","label":"Scale","value":"1","min":0.1,"max":4,"step":0.1},
+    {"id":"export","type":"button","label":"Export"}
+  ]
+}
+```
+
+Register after the WebSocket `plugin_initialized` handshake and repeat after reconnecting. See the [UI tutorial](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/QUICK_START_UI.md), [UI guide](https://lunacy.docs.icons8.com/plugin-ui/), and [service example](https://github.com/icons8/lunacy-plugins/tree/7b82b78118e2c66a474f3d556b171903af12bcbc/featured-plugins/bitmap-to-vector-plugin).
+
+## WebSocket events
+
+Declare required event groups in the manifest's `events` array. Use service mode for background listeners. Connect to the actual WebSocket port and identify the plugin:
+
+```json
+{"type":"plugin_register","pluginId":"my-plugin"}
+```
+
+Wait for `plugin_initialized` before registering UI. Reconnect with bounded backoff, identify/register again, and rebuild cached state. Events include `type` and UTC `timestamp`; optional fields can be absent/null. UI messages use camelCase fields. The older selection/undo/document/window fields use the explicit snake_case names below.
+
+### Selection
+
+```json
+{
+  "type":"selection","timestamp":"2026-11-05T10:00:00Z",
+  "selected_layers":[{"id":"<layer-id>","name":"Button"}]
+}
+```
+
+`selected_layers` is an array of `{id,name}`; it is empty when selection clears. There are no `layer_ids` or `layer_count` fields. Read full layer data through HTTP when needed.
+
+### Undo/history
+
+```json
+{
+  "type":"undo","timestamp":"2026-11-05T10:00:00Z","operation_type":"created",
+  "operation_description":"<native-operation-name>",
+  "affected_layers":[{"id":"<layer-id>","name":"Button","type":"<native-layer-type>"}]
+}
+```
+
+`operation_type` is `created`, `undo`, or `redo`. Description/layers are optional; non-layer operations need not supply layer entries. Native operation/layer descriptions are descriptive values, not a stable command vocabulary.
+
+### Documents
+
+```json
+{
+  "type":"document","timestamp":"2026-11-05T10:00:00Z","document_type":"activated",
+  "document_id":"<persisted-document-id>","document_name":"Design","document_path":null
+}
+```
+
+`document_type` can be `opening`, `opened`, `closing`, `closed`, `activated`, `deactivated`. ID/name/path are optional. Persisted `document_id` is not a v2 live handle; reread `/v2/list_documents` before targeting. Events do not replace revision/status checks.
+
+### Window
+
+```json
+{"type":"window","timestamp":"2026-11-05T10:00:00Z","event_type":"focused"}
+```
+
+`event_type`: `focused`, `unfocused`, `state_changed`, `closing`. State changes can include `window_state` with the native state name.
+
+### UI events
+
+`plugin_initialized` contains the common event fields. `show_ui` and `close_ui` also include `pluginId`. Field events identify a field and its string value:
+
+```json
+{
+  "type":"ui_field_event","timestamp":"2026-11-05T10:00:00Z",
+  "pluginId":"my-plugin","fieldId":"scale","eventType":"value_change","value":"2"
+}
+```
+
+`eventType` is `value_change` or `click`; `value` may be absent/null for a button. Filter by your plugin ID. UI show/close messages are distinct from document lifecycle events.
+
+## Errors and work budgets
+
+HTTP 400 indicates invalid HTTP/JSON input, 404 an unavailable route/resource, 405 an unsupported method, 500 an unexpected error. Explicit-target failures can also return 403/409 and text beginning with a stable automation error code. Preserve status/body for diagnosis. Do not assume a v2 `{ok,error}` envelope or universal legacy `{error,message,code}` object.
+
+Native work, decoding, export, plugin command timeouts and v2 request/model limits have separate budgets. There is no promise of unlimited work or a fixed requests-per-second quota. Batch reads, debounce events, avoid overlapping writes and inspect `/v2/get_session.data.limits` where supported.
+
+## FREE data and version compatibility
+
+The saved/exported `.free` archive contract is maintained in [icons8/free](https://github.com/icons8/free), with its normative [specification/changelog](https://github.com/icons8/free/blob/main/README.md). Read exported values instead of guessing geometry/color encodings.
+
+Matching preview builds may write FREE version 12 for extra generated style links. Its [upstream proposal](https://github.com/icons8/free/pull/4) is pending separately from published `main`; do not assume an older release preserves those links. HTTP envelopes, handles, revisions, replay, internal history and chat state are not public FREE document fields.
+
+
+# Plugin UI guide
+Source: https://lunacy.docs.icons8.com/raw/plugin-ui.md
+
+Build plugin dialogs with native fields, values and lifecycle events
+
+This complete reference is synchronized from the [lunacy-plugins article](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/PLUGIN_UI_GUIDE.md) at commit `7b82b781`, checked on November 5, 2026. See [Plugins](https://lunacy.docs.icons8.com/plugins/) for installation and manifests.
+
+Complete guide to creating user interfaces for Lunacy plugins, including toast notifications,
+dynamic UI forms, and external applications.
+
+The UI protocol remains compatible with the new preview [Automation API v2](https://lunacy.docs.icons8.com/plugin-api-v2/).
+Use its [workflows](https://lunacy.docs.icons8.com/plugin-workflows/) for document, component, style and variable
+operations behind your UI. The [legacy reference](https://lunacy.docs.icons8.com/plugin-api/#plugin-ui-http-api)
+summarizes exact UI request/response and event shapes. UI values are strings; check
+the `success` property of UI responses as well as HTTP status, and re-register after
+each WebSocket handshake/reconnect.
+
+## Table of Contents
+
+- [Toast Notifications](#toast-notifications)
+- [Dynamic UI System](#dynamic-ui-system)
+  - [Overview](#overview)
+  - [Lifecycle](#lifecycle)
+  - [API Endpoints](#api-endpoints)
+  - [WebSocket Events](#websocket-events)
+  - [Field Types](#field-types)
+  - [Complete Examples](#complete-examples)
+  - [Common Pitfalls](#common-pitfalls)
+- [External UI](#external-ui)
+- [Best Practices](#best-practices)
+
+---
+
+## Toast Notifications
+
+Display status messages inside Lunacy without creating a full UI dialog.
+
+### Basic Usage
+
+```javascript
+await axios.post('http://localhost:31415/showtoast', {
+  text: 'Export complete!',
+  iconType: 2
+});
+```
+
+### Icon Types
+
+| Type | Icon | Use Case |
+|------|------|----------|
+| 0 | None | Neutral message |
+| 1 | Copy | Copy operation |
+| 2 | CheckDone | Completed successfully |
+| 3 | Document | Document-related |
+| 4 | Warning | Warning/Error |
+| 5 | Update | Loading/In progress |
+| 6 | Love | Favorites/Like |
+| 7 | Human | User-related |
+| 8 | Trash | Delete operation |
+| 9 | Smile | Positive feedback |
+| 10 | CloudDisconnect | Sync/Connection issues |
+| 11 | Message | Notifications |
+| 12 | Copyright | License/Copyright |
+| 13 | Stars | Featured/Special |
+
+### Toast Options
+
+```javascript
+await axios.post('http://localhost:31415/showtoast', {
+  text: 'Processing...',
+  iconType: 5,
+  priority: 5,
+  durationSeconds: 7,
+  isContinuable: true,
+  isSkippable: false,
+  isAttention: false
+});
+```
+
+**Fields:**
+
+- `text` (string, required) - Message to display
+- `iconType` (number) - Icon type from table above (default: 0)
+- `priority` (number) - Priority level, higher shows first (default: 5)
+- `durationSeconds` (number) - Display duration in seconds (default: 7)
+- `isContinuable` (boolean) - Can be paused on hover (default: true)
+- `isSkippable` (boolean) - Can be skipped by newer toasts (default: false)
+- `isAttention` (boolean) - Attention-grabbing toast (default: false)
+
+### Progress Updates
+
+Show progress during long operations:
+
+```javascript
+for (let i = 0; i < layers.length; i++) {
+  await axios.post('http://localhost:31415/showtoast', {
+    text: `Processing ${i + 1} of ${layers.length}...`,
+    iconType: 5,
+    isContinuable: true
+  });
+  await processLayer(layers[i]);
+}
+
+await axios.post('http://localhost:31415/showtoast', {
+  text: 'Complete!',
+  iconType: 2
+});
+```
+
+---
+
+## Dynamic UI System
+
+Plugin registers UI definition via API, Lunacy renders interactive dialog.
+
+### Overview
+
+**Architecture:**
+
+```
+Plugin → POST /registerui → Lunacy displays dialog
+Plugin ← WebSocket events ← User interacts with UI
+Plugin → POST /getpluginuivalues → Get user input
+Plugin → POST /unregisterui → Close dialog
+```
+
+**Key Components:**
+
+- **Service plugins** - MUST use WebSocket for UI lifecycle events
+- **Utility plugins** - Can use WebSocket or polling (WebSocket recommended)
+- **Field types** - 9 field types available (text, number, slider, etc.)
+- **Events** - Real-time notifications when UI is opened/closed/interacted
+
+---
+
+## Lifecycle
+
+```
+┌──────────────┐                    ┌──────────────┐
+│   Plugin     │                    │   Lunacy     │
+└──────┬───────┘                    └──────┬───────┘
+       │                                   │
+       │ 1. WebSocket connect              │
+       ├──────────────────────────────────►│
+       │                                   │
+       │ 2. plugin_register                │
+       ├──────────────────────────────────►│
+       │                                   │
+       │ 3. plugin_initialized             │
+       │◄──────────────────────────────────┤
+       │                                   │
+       │ 4. POST /registerui               │
+       ├──────────────────────────────────►│
+       │                                   │ UI registered
+       │                           User opens plugin UI
+       │                                   │
+       │ 5. show_ui event                  │
+       │◄──────────────────────────────────┤
+       │                                   │
+       │ (optional) POST /updateuifields   │
+       ├──────────────────────────────────►│
+       │                                   │ Fields updated
+       │                           User clicks Apply/OK
+       │                                   │
+       │ 6. ui_field_event (click)         │
+       │◄──────────────────────────────────┤
+       │                                   │
+       │ 7. POST /getpluginuivalues        │
+       ├──────────────────────────────────►│
+       │                                   │
+       │ { field values }                  │
+       │◄──────────────────────────────────┤
+       │                                   │
+       │ 8. Process values                 │
+       │                           User closes dialog
+       │                                   │
+       │ 9. close_ui event                 │
+       │◄──────────────────────────────────┤
+       │                                   │
+       │ 10. POST /unregisterui            │
+       ├──────────────────────────────────►│
+       │                                   │ UI closed
+```
+
+**Important Notes:**
+
+1. **Register UI only AFTER `plugin_initialized` event**
+2. **Always unregister UI** when done (cleanup)
+3. **Listen to `show_ui`/`close_ui` events** for proper lifecycle handling
+4. **Parse all values** - they come as strings
+
+---
+
+## API Endpoints
+
+### POST /registerui
+
+Register plugin UI definition.
+
+**Request:**
+
+```json
+{
+  "pluginId": "my-plugin",
+  "title": "Plugin Settings",
+  "fields": [
+    {
+      "id": "format",
+      "type": "select",
+      "label": "Format",
+      "value": "PNG",
+      "options": ["PNG", "JPEG", "SVG"],
+      "description": "Export format"
+    },
+    {
+      "id": "quality",
+      "type": "slider",
+      "label": "Quality",
+      "value": "80",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "description": "Export quality (0-100%)"
+    }
+  ]
+}
+```
+
+**Response:** `200 OK` with `{"success":true,"message":"UI registered successfully"}`.
+
+### POST /getpluginuivalues
+
+Retrieve current field values from UI.
+
+**Request Body:**
+
+```json
+"my-plugin"
+```
+
+**Response:**
+
+```json
+{
+  "format": "PNG",
+  "quality": "80"
+}
+```
+
+**Note:** All values returned as strings - parse numbers/booleans!
+
+### POST /updateuifields
+
+Update field values programmatically while UI is open.
+
+**Request:**
+
+```json
+{
+  "pluginId": "my-plugin",
+  "updates": {
+    "format": "JPEG",
+    "quality": "95"
+  }
+}
+```
+
+**Response:**
+
+```json
+{
+  "success": true,
+  "message": "UI fields updated successfully"
+}
+```
+
+**Use Cases:**
+
+- Apply presets (change all fields at once)
+- Sync dependent fields automatically
+- Reset preset to "Custom" when user changes value
+- Calculate optimal values based on selection
+
+### POST /unregisterui
+
+Clean up and close UI.
+
+**Request:**
+
+```json
+"my-plugin"
+```
+
+**Response:** `200 OK` with a `success`/`message` object. `success:false` means the plugin UI was not found.
+
+---
+
+## WebSocket Events
+
+### Connection
+
+```javascript
+const ws = new WebSocket('ws://localhost:31416');
+```
+
+### Plugin Registration
+
+**Send after connecting (required):**
+
+```json
+{
+  "type": "plugin_register",
+  "pluginId": "my-plugin"
+}
+```
+
+**Lunacy responds with:**
+
+```json
+{
+  "type": "plugin_initialized",
+  "timestamp": "2025-01-20T12:34:56.789Z"
+}
+```
+
+**⚠️ CRITICAL:** Only call `/registerui` AFTER receiving `plugin_initialized`!
+
+### UI Lifecycle Events
+
+**show_ui** - Dialog opened by user:
+
+```json
+{
+  "type": "show_ui",
+  "pluginId": "my-plugin",
+  "timestamp": "2025-01-20T12:34:56.789Z"
+}
+```
+
+**close_ui** - Dialog closed by user:
+
+```json
+{
+  "type": "close_ui",
+  "pluginId": "my-plugin",
+  "timestamp": "2025-01-20T12:34:56.789Z"
+}
+```
+
+**ui_field_event** - User interacted with field:
+
+Button click:
+
+```json
+{
+  "type": "ui_field_event",
+  "pluginId": "my-plugin",
+  "fieldId": "apply",
+  "eventType": "click",
+  "timestamp": "2025-01-20T12:34:56.789Z"
+}
+```
+
+Value change:
+
+```json
+{
+  "type": "ui_field_event",
+  "pluginId": "my-plugin",
+  "fieldId": "preset",
+  "eventType": "value_change",
+  "value": "High Quality",
+  "timestamp": "2025-01-20T12:34:56.789Z"
+}
+```
+
+**Event Types:**
+
+- `"click"` - Button clicks
+- `"value_change"` - Field value changes (text, number, slider, checkbox, select)
+
+---
+
+## Field Types
+
+### text
+
+Single-line or multi-line text input.
+
+```json
+{
+  "id": "filename",
+  "type": "text",
+  "label": "File Name",
+  "value": "export",
+  "placeholder": "Enter file name",
+  "description": "Output file name without extension",
+  "multiline": false
+}
+```
+
+**Properties:**
+
+- `id` (string, required)
+- `type` = "text"
+- `label` (string, required)
+- `value` (string) - Initial value
+- `placeholder` (string) - Placeholder text
+- `description` (string) - Tooltip on hover
+- `multiline` (boolean) - Enable textarea (default: false)
+
+**Returns:** String
+
+---
+
+### number
+
+Numeric input with constraints, supports math expressions.
+
+```json
+{
+  "id": "count",
+  "type": "number",
+  "label": "Count",
+  "value": "10",
+  "min": 1,
+  "max": 100,
+  "step": 1,
+  "description": "Number of copies"
+}
+```
+
+**Properties:**
+
+- `id` (string, required)
+- `type` = "number"
+- `label` (string, required)
+- `value` (string) - Initial value as string
+- `min` (number) - Minimum value
+- `max` (number) - Maximum value
+- `step` (number) - Increment step
+- `description` (string) - Tooltip on hover
+
+**Features:**
+
+- Supports decimal precision (up to 10 places)
+- Allows math expressions: "10*2", "50/4"
+- Enforces min/max boundaries
+
+**Returns:** String (parse with `parseInt()` or `parseFloat()`)
+
+**When to use:** Exact numeric input without visual feedback needed.
+
+---
+
+### slider
+
+Combined slider + numeric input for visual parameter adjustment.
+
+```json
+{
+  "id": "opacity",
+  "type": "slider",
+  "label": "Opacity",
+  "value": "100",
+  "min": 0,
+  "max": 100,
+  "step": 5,
+  "description": "Layer opacity (0-100%)"
+}
+```
+
+**Properties:**
+
+- `id` (string, required)
+- `type` = "slider"
+- `label` (string, required)
+- `value` (string) - Initial value as string
+- `min` (number, required) - Minimum value
+- `max` (number, required) - Maximum value
+- `step` (number) - Increment step
+- `description` (string) - Tooltip on hover
+
+**Behavior:**
+
+- Dual control: Slider (left) + NumericBox (right)
+- Both controls stay synchronized
+- Slider provides visual feedback
+- NumericBox allows precise input with math expressions
+
+**Returns:** String (parse with `parseFloat()`)
+
+**When to use:** Parameters that benefit from visual feedback (opacity, thresholds, quality).
+
+---
+
+### checkbox
+
+Boolean checkbox.
+
+```json
+{
+  "id": "includeHidden",
+  "type": "checkbox",
+  "label": "Include Hidden Layers",
+  "value": "false",
+  "description": "Process hidden layers"
+}
+```
+
+**Properties:**
+
+- `id` (string, required)
+- `type` = "checkbox"
+- `label` (string, required)
+- `value` (string) - "true" or "false"
+- `description` (string) - Tooltip on hover
+
+**Returns:** String "true" or "false" (check with `=== 'true'`)
+
+---
+
+### select
+
+Dropdown menu with predefined options.
+
+```json
+{
+  "id": "format",
+  "type": "select",
+  "label": "Format",
+  "value": "PNG",
+  "options": ["PNG", "JPEG", "SVG", "PDF"],
+  "description": "Export format"
+}
+```
+
+**Properties:**
+
+- `id` (string, required)
+- `type` = "select"
+- `label` (string, required)
+- `value` (string) - Initially selected option
+- `options` (`string[]`, required) - Available options
+- `description` (string) - Tooltip on hover
+
+**Returns:** String (selected option)
+
+---
+
+### button
+
+Clickable button that sends events.
+
+```json
+{
+  "id": "apply",
+  "type": "button",
+  "label": "Apply Changes",
+  "description": "Apply settings and close"
+}
+```
+
+**Properties:**
+
+- `id` (string, required)
+- `type` = "button"
+- `label` (string, required) - Button text
+- `description` (string) - Tooltip on hover
+
+**Behavior:** On click → sends `ui_field_event` with `eventType: "click"`
+
+**No return value** - listen for WebSocket event
+
+---
+
+### linkButton
+
+Hyperlink-styled button that opens URLs.
+
+```json
+{
+  "id": "docs",
+  "type": "linkButton",
+  "label": "View Documentation",
+  "value": "https://github.com/user/plugin#readme",
+  "description": "Open plugin documentation"
+}
+```
+
+**Properties:**
+
+- `id` (string, required)
+- `type` = "linkButton"
+- `label` (string, required) - Link text
+- `value` (string) - URL to open
+- `description` (string) - Tooltip on hover
+
+**Behavior:**
+
+- Opens URL in default browser
+- No event sent to plugin (handled by Lunacy)
+- URL is automatically decoded
+
+**When to use:** Documentation links, repository URLs, donation pages.
+
+---
+
+### label
+
+Read-only static text display.
+
+```json
+{
+  "type": "label",
+  "value": "Plugin v1.2.3 | Engine v0.6.4",
+  "description": "Current versions"
+}
+```
+
+**Properties:**
+
+- `type` = "label"
+- `value` (string) - Text to display
+- `description` (string) - Tooltip on hover
+- `id` not required (not interactive)
+
+**Behavior:**
+
+- Static, non-editable text
+- Automatic text wrapping
+- Adapts to light/dark theme
+
+**When to use:** Version info, warnings, descriptions, static context.
+
+**Multi-line example:**
+
+```json
+{
+  "type": "label",
+  "value": "⚠️ High precision settings may take longer to process.\nRecommended for final output only."
+}
+```
+
+---
+
+### separator
+
+Visual separator (horizontal line).
+
+```json
+{
+  "type": "separator",
+  "label": "Advanced Options"
+}
+```
+
+**Properties:**
+
+- `type` = "separator"
+- `label` (string, optional) - Section title
+- `id` not required
+
+**When to use:** Group related fields visually.
+
+---
+
+## Complete Examples
+
+### Service Plugin with UI (Node.js)
+
+```javascript
+const axios = require('axios');
+const WebSocket = require('ws');
+
+const API = 'http://localhost:31415';
+const WS_URL = 'ws://localhost:31416';
+const PLUGIN_ID = 'my-plugin';
+
+let ws;
+
+async function registerUi() {
+  await axios.post(`${API}/registerui`, {
+    pluginId: PLUGIN_ID,
+    title: 'Export Settings',
+    fields: [
+      {
+        id: 'preset',
+        type: 'select',
+        label: 'Preset',
+        value: 'Standard',
+        options: ['Draft', 'Standard', 'High Quality'],
+        description: 'Quality preset'
+      },
+      {
+        type: 'separator',
+        label: 'Export Options'
+      },
+      {
+        id: 'format',
+        type: 'select',
+        label: 'Format',
+        value: 'PNG',
+        options: ['PNG', 'JPEG', 'SVG']
+      },
+      {
+        id: 'quality',
+        type: 'slider',
+        label: 'Quality',
+        value: '80',
+        min: 0,
+        max: 100,
+        step: 5
+      },
+      {
+        type: 'separator'
+      },
+      {
+        id: 'apply',
+        type: 'button',
+        label: 'Export'
+      }
+    ]
+  });
+  console.log('✓ UI registered');
+}
+
+async function unregisterUi() {
+  try {
+    await axios.post(`${API}/unregisterui`, PLUGIN_ID);
+    console.log('✓ UI unregistered');
+  } catch (error) {
+    console.error('Failed to unregister UI:', error.message);
+  }
+}
+
+async function getFieldValues() {
+  try {
+    const response = await axios.post(`${API}/getpluginuivalues`, PLUGIN_ID);
+    return response.data;
+  } catch (error) {
+    console.error('Failed to get values:', error.message);
+    return {};
+  }
+}
+
+async function applyPreset(presetName) {
+  const presets = {
+    'Draft': { quality: '50' },
+    'Standard': { quality: '80' },
+    'High Quality': { quality: '95' }
+  };
+  
+  const preset = presets[presetName];
+  if (preset) {
+    await axios.post(`${API}/updateuifields`, {
+      pluginId: PLUGIN_ID,
+      updates: preset
+    });
+  }
+}
+
+async function performExport(values) {
+  const format = values.format;
+  const quality = parseFloat(values.quality);
+  
+  console.log(`Exporting as ${format} with quality ${quality}...`);
+  
+  await axios.post(`${API}/showtoast`, {
+    text: `Exporting as ${format}...`,
+    iconType: 5
+  });
+  
+  // Export logic here...
+  
+  await axios.post(`${API}/showtoast`, {
+    text: 'Export complete!',
+    iconType: 2
+  });
+}
+
+function onMessage(message) {
+  try {
+    const event = JSON.parse(message);
+    
+    if (event.type === 'plugin_initialized') {
+      console.log('✓ Plugin initialized');
+      registerUi();
+    }
+    else if (event.type === 'show_ui' && event.pluginId === PLUGIN_ID) {
+      console.log('✓ UI opened by user');
+    }
+    else if (event.type === 'close_ui' && event.pluginId === PLUGIN_ID) {
+      console.log('✓ UI closed by user');
+    }
+    else if (event.type === 'ui_field_event' && event.pluginId === PLUGIN_ID) {
+      const fieldId = event.fieldId;
+      const eventType = event.eventType;
+      
+      if (fieldId === 'preset' && eventType === 'value_change') {
+        console.log(`Preset changed to: ${event.value}`);
+        applyPreset(event.value);
+      }
+      else if (fieldId === 'apply' && eventType === 'click') {
+        console.log('Apply clicked - getting values...');
+        getFieldValues().then(values => {
+          performExport(values);
+        });
+      }
+    }
+  } catch (error) {
+    console.error('Error processing message:', error.message);
+  }
+}
+
+function start() {
+  ws = new WebSocket(WS_URL);
+  
+  ws.on('open', () => {
+    console.log('✓ WebSocket connected');
+    ws.send(JSON.stringify({
+      type: 'plugin_register',
+      pluginId: PLUGIN_ID
+    }));
+    console.log('✓ Sent plugin registration');
+  });
+  
+  ws.on('message', (data) => {
+    onMessage(data.toString());
+  });
+  
+  ws.on('error', (error) => {
+    console.error('WebSocket error:', error.message);
+  });
+  
+  ws.on('close', () => {
+    console.log('WebSocket closed');
+  });
+}
+
+process.on('SIGTERM', async () => {
+  console.log('Shutting down...');
+  await unregisterUi();
+  if (ws) ws.close();
+  process.exit(0);
+});
+
+start();
+```
+
+### Service Plugin with UI (Python)
+
+```python
+#!/usr/bin/env python3
+import requests
+import json
+import asyncio
+import websockets
+
+LUNACY_API = "http://localhost:31415"
+LUNACY_WS = "ws://localhost:31416"
+PLUGIN_ID = "my-plugin"
+
+def register_ui():
+    ui_definition = {
+        "pluginId": PLUGIN_ID,
+        "title": "Export Settings",
+        "fields": [
+            {
+                "id": "format",
+                "type": "select",
+                "label": "Format",
+                "value": "PNG",
+                "options": ["PNG", "JPEG", "SVG"],
+                "description": "Export format"
+            },
+            {
+                "id": "quality",
+                "type": "slider",
+                "label": "Quality",
+                "value": "80",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "description": "Export quality (0-100%)"
+            },
+            {
+                "type": "separator"
+            },
+            {
+                "id": "apply",
+                "type": "button",
+                "label": "Export"
+            }
+        ]
+    }
+    
+    try:
+        response = requests.post(
+            f"{LUNACY_API}/registerui",
+            json=ui_definition,
+            headers={'Content-Type': 'application/json'},
+            timeout=5
+        )
+        response.raise_for_status()
+        print("✓ UI registered")
+    except Exception as e:
+        print(f"Failed to register UI: {e}")
+
+def unregister_ui():
+    try:
+        requests.post(
+            f"{LUNACY_API}/unregisterui",
+            json=PLUGIN_ID,
+            headers={'Content-Type': 'application/json'},
+            timeout=5
+        )
+        print("✓ UI unregistered")
+    except Exception as e:
+        print(f"Failed to unregister UI: {e}")
+
+def get_field_values():
+    try:
+        response = requests.post(
+            f"{LUNACY_API}/getpluginuivalues",
+            json=PLUGIN_ID,
+            headers={'Content-Type': 'application/json'},
+            timeout=5
+        )
+        response.raise_for_status()
+        return response.json()
+    except Exception as e:
+        print(f"Failed to get values: {e}")
+        return {}
+
+def perform_export(values):
+    format_val = values.get('format', 'PNG')
+    quality = float(values.get('quality', 80))
+    
+    print(f"Exporting as {format_val} with quality {quality}...")
+    
+    requests.post(f"{LUNACY_API}/showtoast", json={
+        "text": f"Exporting as {format_val}...",
+        "iconType": 5
+    })
+    
+    # Export logic here...
+    
+    requests.post(f"{LUNACY_API}/showtoast", json={
+        "text": "Export complete!",
+        "iconType": 2
+    })
+
+async def handle_websocket():
+    async with websockets.connect(LUNACY_WS) as ws:
+        print("✓ WebSocket connected")
+        
+        await ws.send(json.dumps({
+            "type": "plugin_register",
+            "pluginId": PLUGIN_ID
+        }))
+        print("✓ Sent plugin registration")
+        
+        async for message in ws:
+            try:
+                event = json.loads(message)
+                event_type = event.get('type')
+                
+                if event_type == 'plugin_initialized':
+                    print("✓ Plugin initialized")
+                    register_ui()
+                
+                elif event_type == 'show_ui' and event.get('pluginId') == PLUGIN_ID:
+                    print("✓ UI opened by user")
+                
+                elif event_type == 'close_ui' and event.get('pluginId') == PLUGIN_ID:
+                    print("✓ UI closed by user")
+                
+                elif event_type == 'ui_field_event' and event.get('pluginId') == PLUGIN_ID:
+                    field_id = event.get('fieldId')
+                    event_type_detail = event.get('eventType')
+                    
+                    if field_id == 'apply' and event_type_detail == 'click':
+                        print("Apply clicked - getting values...")
+                        values = get_field_values()
+                        perform_export(values)
+                        
+            except Exception as e:
+                print(f"Error processing message: {e}")
+
+def main():
+    print("Starting Plugin starting...")
+    
+    try:
+        asyncio.run(handle_websocket())
+    except KeyboardInterrupt:
+        print("\n🛑 Shutting down...")
+        unregister_ui()
+    except Exception as e:
+        print(f"Error: {e}")
+        unregister_ui()
+    finally:
+        print("👋 Plugin stopped")
+
+if __name__ == "__main__":
+    main()
+```
+
+---
+
+## Common Pitfalls
+
+### ❌ Registering UI Too Early
+
+**Incorrect:**
+
+```python
+def main():
+    register_ui()  # TOO EARLY!
+    asyncio.run(handle_websocket())
+```
+
+**Correct:**
+
+```python
+async def handle_websocket():
+    async with websockets.connect(WS_URL) as ws:
+        async for message in ws:
+            event = json.loads(message)
+            if event.get('type') == 'plugin_initialized':
+                register_ui()  # Register AFTER initialization
+```
+
+**Why:** Lunacy's plugin system isn't ready yet. Always wait for `plugin_initialized`.
+
+---
+
+### ❌ Wrong Event Field Names
+
+**Incorrect:**
+
+```json
+{ "event": "show_ui", "pluginId": "..." }
+```
+
+**Correct:**
+
+```json
+{ "type": "show_ui", "pluginId": "..." }
+```
+
+All events use `"type"` field, not `"event"`.
+
+---
+
+### ❌ Wrong HTTP Method for getpluginuivalues
+
+**Incorrect:**
+
+```python
+response = requests.get(f"{API}/getpluginuivalues?pluginId={PLUGIN_ID}")
+```
+
+**Correct:**
+
+```python
+response = requests.post(f"{API}/getpluginuivalues", json=PLUGIN_ID)
+```
+
+Use POST with pluginId in body, not GET with query string.
+
+---
+
+### ❌ Not Parsing Values
+
+**Incorrect:**
+
+```javascript
+const quality = values.quality;  // String "80"
+if (quality > 50) { ... }  // String comparison!
+```
+
+**Correct:**
+
+```javascript
+const quality = parseFloat(values.quality);  // Number 80
+if (quality > 50) { ... }  // Numeric comparison
+```
+
+All field values are strings - always parse numbers/booleans.
+
+---
+
+### ❌ Not Unregistering UI
+
+**Incorrect:**
+
+```javascript
+await processValues();
+process.exit(0);  // Dialog stays open!
+```
+
+**Correct:**
+
+```javascript
+try {
+  await processValues();
+} finally {
+  await axios.post(`${API}/unregisterui`, PLUGIN_ID);
+}
+```
+
+Always cleanup UI before exiting.
+
+---
+
+### ❌ Not Checking eventType
+
+**Incorrect:**
+
+```javascript
+if (fieldId === 'apply') {
+  doSomething();
+}
+```
+
+**Correct:**
+
+```javascript
+if (fieldId === 'apply' && eventType === 'click') {
+  doSomething();
+}
+```
+
+Always verify both `fieldId` and `eventType`.
+
+---
+
+### ❌ PluginId Mismatch
+
+**Incorrect:**
+
+```javascript
+await axios.post(`${API}/registerui`, { pluginId: 'my-plugin', ... });
+const values = await axios.post(`${API}/getpluginuivalues`, "myPlugin");  // Mismatch!
+```
+
+**Correct:**
+
+```javascript
+const PLUGIN_ID = 'my-plugin';
+await axios.post(`${API}/registerui`, { pluginId: PLUGIN_ID, ... });
+const values = await axios.post(`${API}/getpluginuivalues`, PLUGIN_ID);
+```
+
+Use constant to avoid typos.
+
+---
+
+## External UI
+
+Plugin can launch external UI as separate application.
+
+### Web UI (Express + Browser)
+
+```javascript
+const express = require('express');
+const axios = require('axios');
+const open = require('open');
+
+const app = express();
+const LUNACY_API = 'http://localhost:31415';
+
+app.use(express.json());
+app.use(express.static('public'));
+
+app.get('/api/selection', async (req, res) => {
+  const response = await axios.get(`${LUNACY_API}/getselected`);
+  res.json(response.data);
+});
+
+app.post('/api/update', async (req, res) => {
+  await axios.post(`${LUNACY_API}/updatelayers`, req.body.layers);
+  res.json({ success: true });
+});
+
+app.listen(3000, async () => {
+  console.log('Web UI running on http://localhost:3000');
+  await open('http://localhost:3000');
+});
+```
+
+### Desktop UI (Electron)
+
+```javascript
+const { app, BrowserWindow, ipcMain } = require('electron');
+const axios = require('axios');
+
+const LUNACY_API = 'http://localhost:31415';
+
+app.on('ready', () => {
+  const win = new BrowserWindow({
+    width: 800,
+    height: 600,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false
+    }
+  });
+  
+  win.loadFile('index.html');
+});
+
+ipcMain.handle('lunacy:get-selection', async () => {
+  const response = await axios.get(`${LUNACY_API}/getselected`);
+  return response.data;
+});
+
+ipcMain.handle('lunacy:update', async (event, layers) => {
+  await axios.post(`${LUNACY_API}/updatelayers`, layers);
+});
+```
+
+### Real-Time Updates (WebSocket Proxy)
+
+Proxy Lunacy events to web clients:
+
+```javascript
+const WebSocket = require('ws');
+
+const lunacyWs = new WebSocket('ws://localhost:31416');
+const webClients = new Set();
+
+lunacyWs.on('message', (data) => {
+  const event = JSON.parse(data);
+  
+  // Forward to all web clients
+  webClients.forEach(client => {
+    if (client.readyState === WebSocket.OPEN) {
+      client.send(JSON.stringify(event));
+    }
+  });
+});
+
+const wsServer = new WebSocket.Server({ port: 3001 });
+wsServer.on('connection', (ws) => {
+  webClients.add(ws);
+  ws.on('close', () => webClients.delete(ws));
+});
+```
+
+---
+
+## Best Practices
+
+### Parse Values Correctly
+
+All field values are strings:
+
+```javascript
+const quality = parseFloat(values.quality);
+const includeHidden = values.includeHidden === 'true';
+const count = parseInt(values.count);
+```
+
+### Always Unregister UI
+
+```javascript
+try {
+  await performWork();
+} finally {
+  await axios.post(`${API}/unregisterui`, PLUGIN_ID);
+}
+```
+
+### Use Descriptive Labels
+
+```javascript
+// Good
+{ label: "Export Quality (0-100%)" }
+{ label: "Include Hidden Layers" }
+
+// Bad
+{ label: "Quality" }
+{ label: "Hidden" }
+```
+
+### Group Related Fields
+
+```javascript
+fields: [
+  { id: 'format', type: 'select', label: 'Format', options: ['PNG', 'JPEG'] },
+  { id: 'quality', type: 'slider', label: 'Quality', min: 0, max: 100 },
+  
+  { type: 'separator', label: 'Output Options' },
+  
+  { id: 'filename', type: 'text', label: 'File Name' },
+  { id: 'path', type: 'text', label: 'Output Path' }
+]
+```
+
+### Set Sensible Defaults
+
+```javascript
+{ id: 'quality', type: 'slider', value: '80', min: 0, max: 100 }
+{ id: 'scale', type: 'number', value: '2', min: 0.5, max: 4 }
+```
+
+### Use Tooltips
+
+Add descriptions to help users:
+
+```javascript
+{
+  id: 'quality',
+  type: 'slider',
+  label: 'Quality',
+  value: '80',
+  description: 'Export quality (0-100%). Higher values produce larger files.'
+}
+```
+
+### Handle Presets Properly
+
+When implementing preset system:
+
+1. **Apply preset** - Update all fields via `/updateuifields`
+2. **Detect manual changes** - Reset preset to "Custom" when user modifies field
+3. **Listen to value_change events** - Track when user overrides preset
+
+---
+
+## Additional Resources
+
+- [Quick Start Guide](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/QUICK_START.md) - Your first plugin in 5 minutes
+- [Quick Start UI Guide](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/QUICK_START_UI.md) - Smart Duplicate tutorial
+- [Plugin Development Guide](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/PLUGIN_DEVELOPMENT_GUIDE.md) - Complete REST API reference
+- [API Reference](https://lunacy.docs.icons8.com/plugin-api/) - Full endpoint documentation
+- [Best Practices](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/BEST_PRACTICES.md) - Development patterns
+- [Examples](https://github.com/icons8/lunacy-plugins/tree/7b82b78118e2c66a474f3d556b171903af12bcbc/examples) - Working plugin examples
+
+
+# Plugin automation workflows
+Source: https://lunacy.docs.icons8.com/raw/plugin-workflows.md
+
+Complete examples for discovery, revision checks, validation, mutations and recovery
+
+This complete reference is synchronized from the [lunacy-plugins article](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/AUTOMATION_WORKFLOWS.md) at commit `7b82b781`, checked on November 5, 2026. See [Plugins](https://lunacy.docs.icons8.com/plugins/) for installation and manifests.
+
+These examples use the preview [Automation API v2](https://lunacy.docs.icons8.com/plugin-api-v2/). They need a matching Lunacy build; probe `/v2/get_session` instead of assuming an installed release includes them. HTTP requests contain the documented body directly. The grouped MCP/AI Chat `request.operation` wrapper is not part of HTTP.
+
+The sequence is discovery → explicit target → revision → validation → commit → readback. Run examples on a document you intend to edit. Placeholders in JSON, such as `<document-handle>`, must be replaced with actual discovered values.
+
+## A complete variable workflow
+
+Save this as `brand.mjs` and run it with Node.js 18 or newer. It deliberately captures the active document once, verifies that it is ready/editable, and retains that handle. It never chooses the first editable tab after another tab becomes active. The example creates a collection and color variable; it stops if a matching collection already exists so repeated execution does not duplicate resources.
+
+```javascript
+import { randomUUID } from 'node:crypto';
+
+const baseUrl = process.env.LUNACY_API ?? 'http://localhost:31415';
+
+async function api(operation, body = {}) {
+  const response = await fetch(`${baseUrl}/v2/${operation}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  });
+  const text = await response.text();
+  let envelope;
+  try {
+    envelope = JSON.parse(text);
+  } catch {
+    throw new Error(`Expected a v2 response for ${operation}; HTTP ${response.status}`);
+  }
+  if (!response.ok || envelope.ok !== true) {
+    const error = new Error(envelope.error?.message ?? `HTTP ${response.status}`);
+    error.code = envelope.error?.code;
+    error.path = envelope.error?.path;
+    error.operationIndex = envelope.error?.operationIndex;
+    error.envelope = envelope;
+    throw error;
+  }
+  for (const warning of envelope.warnings ?? []) {
+    console.warn(warning);
+  }
+  return envelope;
+}
+
+const session = (await api('get_session')).data;
+if (!session.operations.some(item => item.tool === 'apply_variable_changes')) {
+  throw new Error('This build does not advertise variable automation');
+}
+const documents = (await api('list_documents')).data.items;
+const chosen = documents.find(item => item.documentHandle === session.activeDocumentHandle);
+if (!chosen || chosen.state !== 'ready' || !chosen.canEdit) {
+  throw new Error('Choose an editable ready document in Lunacy before running this example');
+}
+const documentHandle = chosen.documentHandle;
+
+async function currentRevision() {
+  const items = (await api('list_documents')).data.items;
+  const document = items.find(item => item.documentHandle === documentHandle);
+  if (!document?.canEdit || document.state !== 'ready') {
+    throw new Error('The chosen document is no longer editable/ready');
+  }
+  return document.revision;
+}
+
+let cursor;
+do {
+  const result = await api('query_design_system', {
+    documentHandle, kinds: ['collection'], scopes: ['local'], query: 'Plugin demo',
+    ...(cursor ? { cursor } : {})
+  });
+  if (result.data.items.some(item => item.name === 'Plugin demo')) {
+    throw new Error('Plugin demo already exists: inspect/reuse it instead of creating another collection');
+  }
+  cursor = result.data.nextCursor;
+} while (cursor);
+
+const changes = [
+  {
+    action: 'createCollection', clientId: 'brand', name: 'Plugin demo',
+    defaultThemeName: 'Light', defaultThemeClientId: 'light'
+  },
+  {
+    action: 'createVariable', clientId: 'primary', collection: { clientRef: 'brand' },
+    name: 'Primary', type: 'color',
+    values: [{ theme: { clientRef: 'light' }, value: { kind: 'literal', value: '0A84FF' } }]
+  }
+];
+
+await api('apply_variable_changes', {
+  documentHandle, expectedRevision: await currentRevision(),
+  requestId: randomUUID(), validateOnly: true, changes
+});
+
+// A preview does not reserve IDs or a revision. The commit is a new operation.
+const committed = await api('apply_variable_changes', {
+  documentHandle, expectedRevision: await currentRevision(),
+  requestId: randomUUID(), changes
+});
+const ids = committed.data.clientIds;
+const readback = await api('get_design_system_assets', {
+  documentHandle,
+  assets: [{ kind: 'variable', scope: 'local', id: ids.primary, collectionId: ids.brand }]
+});
+for (const item of readback.data.items) {
+  if (item.error) {
+    throw new Error(`${item.error.code}: ${item.error.message}`);
+  }
+  console.log(JSON.stringify(item.definition, null, 2));
+}
+```
+
+The variable batch produces one undo item. Request IDs must remain available to the plugin until the result is known. If this example loses its commit response, use the recovery procedure below before running it again. A production plugin should store the exact request before sending it. Do not add automatic mutation retries with a new ID.
+
+For an alias, use the same variable type and a typed selector:
+
+```json
+{
+  "kind": "alias",
+  "variable": {"id": "<same-type-variable-id>"}
+}
+```
+
+Create a new theme by copying an existing one. `selectCollectionTheme` changes the inspector preview; `setLayerTheme` changes the evaluated canvas theme:
+
+```json
+{
+  "documentHandle": "<document-handle>",
+  "expectedRevision": "<current-revision>",
+  "requestId": "<new-request-id>",
+  "changes": [
+    {
+      "action": "createTheme", "clientId": "dark", "name": "Dark",
+      "collection": {"id": "<collection-id>"}, "sourceTheme": {"id": "<light-theme-id>"}
+    },
+    {
+      "action": "setLayerTheme", "layerIds": ["<frame-layer-id>"],
+      "collection": {"id": "<collection-id>"}, "theme": {"clientRef": "dark"}
+    }
+  ]
+}
+```
+
+Send that body to `/v2/apply_variable_changes`. Themes are collection-specific. For a binding, use `get_session.data.bindings` to check the actual property/type/target combination, then send an explicit layer/style reference. For example, binding a float variable to an eligible layer's opacity:
+
+```json
+{
+  "documentHandle": "<document-handle>",
+  "expectedRevision": "<current-revision>",
+  "requestId": "<new-request-id>",
+  "changes": [{
+    "action": "bind", "variable": {"id": "<float-variable-id>"},
+    "target": {"kind": "layer", "resource": {"id": "<layer-id>"}},
+    "location": {"property": "opacity"}
+  }]
+}
+```
+
+Read `/v2/get_design_context` with `layerIds` afterwards to inspect the binding, resolved theme and effective value. `unbind` uses the same target/location without `variable` and materializes the current effective or cached value.
+
+## Create and apply a shared style
+
+Search first with `query_design_system` using `kinds:["style"]`, `styleType:"color"`, and the intended scopes. Inspect any match with `get_design_system_assets`. If a new style is needed, `/v2/apply_style_changes` can create and apply it in one batch:
+
+```json
+{
+  "documentHandle": "<document-handle>",
+  "expectedRevision": "<current-revision>",
+  "requestId": "<new-request-id>",
+  "changes": [
+    {"action": "create", "clientId": "accent", "name": "Accent", "type": "color", "value": {"fill": "0A84FF"}},
+    {"action": "apply", "style": {"clientRef": "accent"}, "targets": [{"layerId": "<layer-id>", "slot": "fills"}]}
+  ]
+}
+```
+
+For text/effect/guide styles, provide the matching `text`/`effects`/`guides` slot. `createFromLayer` captures native appearance rather than requiring a handwritten FREE fragment. A `range` uses UTF-16 `start`/`length` and is supported only on eligible text slots. Inspect `get_asset_usage` before deletion; the default `rejectIfUsed` prevents an accidental destructive detach. `detachConsumers` is an explicit deletion policy.
+
+## Create a component and place an instance
+
+Query component assets first. The summary's `componentId` identifies a definition; `layerId` identifies its source layer. They are different. When an existing reusable component meets the need, pass its returned component reference directly to `createInstances`.
+
+For a new definition from an existing eligible layer, send this to `/v2/apply_component_changes`:
+
+```json
+{
+  "documentHandle": "<document-handle>",
+  "expectedRevision": "<current-revision>",
+  "requestId": "<new-request-id>",
+  "changes": [
+    {
+      "action": "createFromLayers", "clientId": "button", "name": "Button",
+      "layerIds": ["<frame-layer-id>"], "placement": {"pageId": "<page-id>"}
+    },
+    {
+      "action": "createInstances", "component": {"clientRef": "button"},
+      "instances": [{"clientId": "first", "placement": {"pageId": "<page-id>", "x": 40, "y": 40}}]
+    }
+  ]
+}
+```
+
+`clientRef` resolves only a preceding compatible creation in this batch. After committing, discover the created asset again when you need its source-layer identity, definition/state owner, or complete typed asset reference. Do not assume every returned `clientIds` entry represents the same resource kind.
+
+A property definition is a typed union. For example, append an explicit property action to a suitable component batch:
+
+```json
+{
+  "action": "createProperty", "clientId": "caption",
+  "component": {"id": "<component-id>"},
+  "property": {"type": "text", "name": "Caption", "initialValue": "Continue"}
+}
+```
+
+Assign values to local instances with `setInstanceProperties`, using the returned property identity:
+
+```json
+{
+  "action": "setInstanceProperties",
+  "instances": [{"id": "<instance-layer-id>"}],
+  "properties": [{"property": {"id": "<property-id>"}, "value": {"kind": "text", "value": "Save"}}]
+}
+```
+
+Creating the property does not invent bindings on source nodes. If a source text/visibility/swap binding is needed, use the documented native `updateDefinition.patch.binds` shape with actual property IDs after creation/readback. A raw FREE fragment cannot resolve a batch `clientRef` string. Imported source definitions remain read-only. See [component semantics](https://lunacy.docs.icons8.com/plugin-api-v2/#components-and-instances) for states, swaps, supported patch fields and override categories.
+
+## Pages, navigation and document lifecycle
+
+`list_documents` discovers visible tabs; `activate_document` takes `tabId` and a request ID. Loading and navigation are explicit operations rather than consequences of a read. To create a local document:
+
+```json
+{"name": "Plugin draft", "requestId": "<new-request-id>"}
+```
+
+Send that to `/v2/create_document`, then retain its returned document handle, revision and initial page. For an existing file, `/v2/open_document` accepts exactly one of these locator shapes:
+
+```json
+{"localPath": "<user-authorized-absolute-file-path>", "requestId": "<new-request-id>"}
+```
+
+```json
+{"cloud": {"documentId": "<document-id>", "versionId": "<optional-version-id>"}, "requestId": "<new-request-id>"}
+```
+
+Omit `versionId` to open the current cloud document. The application needs its normal account/file access; the API does not grant it. Version tabs can be read-only. `open_document` reuses a matching visible tab where supported.
+
+Create and rename a page in a single `/v2/manage_pages` batch:
+
+```json
+{
+  "documentHandle": "<document-handle>",
+  "expectedRevision": "<current-revision>",
+  "requestId": "<new-request-id>",
+  "changes": [
+    {"action": "create", "clientId": "screens", "name": "Screens"},
+    {"action": "rename", "page": {"clientRef": "screens"}, "name": "Product screens"}
+  ]
+}
+```
+
+Activate the returned page with `/v2/activate_page`, supplying `pageId` plus the document mutation guards. Navigation does not advance content revision or add an undo item. Page edits do. Deleting a nonempty page requires the explicit `deleteContents` policy; default `rejectIfNotEmpty` rejects it, and the final page cannot be removed.
+
+Rename with `/v2/rename_document` and `name` plus guards. Save to an authorized destination through `/v2/save_document`:
+
+```json
+{
+  "documentHandle": "<document-handle>", "expectedRevision": "<current-revision>",
+  "requestId": "<new-request-id>", "destination": "<user-authorized-absolute-free-path>",
+  "overwrite": false, "allowDialog": false
+}
+```
+
+Inspect `savedRevision`, `destination`, and the returned document's `save` metadata. A cloud queued/sent result is not an extra durable-storage guarantee. Do not close after a failed/cancelled save. When the intended document is safely saved, close with `/v2/close_document`:
+
+```json
+{
+  "tabId": "<tab-id>", "documentHandle": "<document-handle>",
+  "expectedRevision": "<current-revision>", "requestId": "<new-request-id>", "ifUnsaved": "fail"
+}
+```
+
+Every loaded close needs both handle and revision. `ifUnsaved:"discard"` is destructive and must reflect an explicit user decision. Unloaded/failed tabs use the metadata-only close path. `reorder_tabs` supplies the exact complete visible tab ID set in its desired order.
+
+## Recover a response without duplicating a change
+
+Keep the exact original request and its scope. If the transport failed after sending a document mutation, call `/v2/get_request_status`:
+
+```json
+{"documentHandle": "<original-document-handle>", "requestId": "<original-request-id>"}
+```
+
+Use `tabId` for a tab-scoped lifecycle request, or neither selector for a session-scoped operation. Do not change scope because the active tab changed.
+
+- `pending`: the original request is still in progress; wait rather than start a different mutation.
+- `completed`: inspect `data.result`, which is the original success/error envelope, including returned IDs.
+- `unknown`: retention expired, the server restarted, or the request was never observed. Reread model/save/tab state before deciding what to do next.
+
+An exact retry with the same payload/target/request ID can return the retained result even if its old `expectedRevision` is now stale. A different payload with the same ID returns `RequestConflict`. A new request ID means a new operation; it is not a safe lost-response retry. A known `RevisionConflict` requires a fresh read and rebuilt request; never just replace the revision on a destructive stale plan.
+
+## Discover and import library assets
+
+These are request examples, not an instruction to connect/publish anything. Use already authorized account sources. `/v2/list_libraries` with `scope:"available"` lists metadata; follow `nextCursor` with the same target/filter. A metadata `version:null` is not a usable import version.
+
+Search one explicitly selected source through `/v2/query_design_system`:
+
+```json
+{
+  "documentHandle": "<target-document-handle>", "libraryIds": ["<discovered-library-id>"],
+  "scopes": ["availableLibrary"], "kinds": ["component"], "query": "Button", "limit": 50
+}
+```
+
+Retain the returned asset reference and `sourceVersion` together. Inspect the definition before importing. Then send `/v2/import_library_assets` with the current target revision:
+
+```json
+{
+  "documentHandle": "<target-document-handle>", "expectedRevision": "<current-target-revision>",
+  "requestId": "<new-request-id>", "libraryId": "<discovered-library-id>",
+  "sourceVersion": "<observed-semantic-source-version>", "validateOnly": true,
+  "assets": [{"kind": "component", "id": "<source-component-id>", "scope": "availableLibrary", "libraryId": "<discovered-library-id>"}]
+}
+```
+
+Commit with `validateOnly:false`, a fresh request ID and current target revision after a successful preview. Use the returned `assets[].local` mapping for local consumers. Existing imported IDs are reused; importing a new asset does not implicitly update existing imported dependencies.
+
+Persistent `connect_library`/`disconnect_library` needs an editable cloud target and a discovered cloud locator. A local target has no persistent connections but can discover/import available sources. Disconnecting retains imported assets and their consumers. Source definitions are not made editable by importing them.
+
+To refresh, first inspect the source again and submit explicit version pairs to `/v2/refresh_libraries`:
+
+```json
+{
+  "documentHandle": "<target-document-handle>", "expectedRevision": "<current-target-revision>",
+  "requestId": "<new-request-id>",
+  "libraries": [{"libraryId": "<discovered-library-id>", "version": "<observed-semantic-source-version>"}]
+}
+```
+
+Read every result item: refresh is atomic per library, and successful earlier libraries remain applied if a later one fails. Missing source assets are not automatically deleted. Review [native library limits](https://lunacy.docs.icons8.com/plugin-api-v2/#libraries) before preparing large imports.
+
+## Combine v2 with legacy layer, export and UI calls
+
+Use v2 for explicit document discovery and typed design-system operations. Legacy layer/image/export routes keep their own bodies and response formats. On a matching build, pass request-local target headers rather than switching the active tab:
+
+```javascript
+const response = await fetch(`${baseUrl}/getlayersbyids`, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'X-Lunacy-Document-Handle': documentHandle,
+    'X-Lunacy-Page-Id': pageId
+  },
+  body: JSON.stringify(layerIds)
+});
+const raw = await response.text();
+if (!response.ok) {
+  throw new Error(`Layer read failed: HTTP ${response.status}`);
+}
+const layers = JSON.parse(raw);
+```
+
+`pageId` and `layerIds` in this fragment must come from the chosen document. Only pass a page header on routes supporting it. Target failures are explicit; do not retry against the active tab. Legacy calls do not gain a v2 envelope/replay guard from these headers. See the [legacy endpoint reference](https://lunacy.docs.icons8.com/plugin-api/#explicit-document-targets).
+
+The [UI guide](https://lunacy.docs.icons8.com/plugin-ui/) and [service example](https://github.com/icons8/lunacy-plugins/tree/7b82b78118e2c66a474f3d556b171903af12bcbc/featured-plugins/bitmap-to-vector-plugin) show registration and WebSocket lifecycle. Re-register UI after each `plugin_initialized` handshake. Events signal that you should reread; legacy document IDs are not live v2 handles and an event is not a complete revision/commit acknowledgement.
+
+
+# Plugins
+Source: https://lunacy.docs.icons8.com/raw/plugins.md
+
+Install plugins and build integrations with the Lunacy Automation API
+
+## What a Lunacy plugin is
+
+A plugin is an external program that uses Lunacy's local Automation API. It can inspect a document, create or edit layers, work with components and variables, export assets, subscribe to application events, and provide a plugin UI. Plugins can be written in any language that can make HTTP requests; the public repository includes Node.js, Python, and C# examples.
+
+The application supplies the editing operations and their undo behavior. A plugin does not load a managed assembly into the editor or need to implement Lunacy's document model.
+
+### Availability
+
+This guide covers the existing plugin interface and the new typed v2 API and grouped automation catalog, checked on November 5, 2026. The v2 API and the 11-group MCP/AI Chat catalog require a build that includes them; they are not a guarantee about every released Lunacy build. Ask the running application for `GET /v2/get_session`. A missing route means that build does not expose this v2 interface.
+
+The complete references are available on this site:
+
+- [Plugin API reference](https://lunacy.docs.icons8.com/plugin-api/) — legacy geometry, screenshots, export, events, and plugin UI.
+- [Plugin UI guide](https://lunacy.docs.icons8.com/plugin-ui/) — complete field definitions and service lifecycle examples.
+- [Automation workflows](https://lunacy.docs.icons8.com/plugin-workflows/) — runnable examples and recovery.
+- [Typed API v2 reference](https://lunacy.docs.icons8.com/plugin-api-v2/) — all 26 methods, request/result contracts, actions, limits, and errors.
+- [MCP](https://lunacy.docs.icons8.com/mcp/) — connect an external AI client to the grouped tools.
+- [AI Chat](https://lunacy.docs.icons8.com/ai-chat/) — use the same automation from Lunacy's built-in chat.
+
+For runnable examples and development articles, use [lunacy-plugins](https://github.com/icons8/lunacy-plugins), its [API v2 reference](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/API_V2_REFERENCE.md), and [automation workflows](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/AUTOMATION_WORKFLOWS.md).
+
+## Install a plugin
+
+1. Get a plugin from a source you trust and read its runtime/dependency instructions.
+2. In Lunacy, use **Help → Open App Data Folder**. Open or create its `Plugins` directory.
+3. Put the plugin in its own immediate subdirectory. Its `plugin.jsonc` must be at that directory's root. `plugin.json` is also accepted.
+4. Install any runtime/dependencies required by that plugin.
+5. Restart Lunacy and use the plugin's command in the Plugins menu.
+
+The actual application-data location depends on the platform and package variant. Use the menu command rather than copying a path from another computer or package.
+
+Plugins run programs with your user's operating-system permissions. Inspect a plugin before installing it. The local connection does not prevent the plugin from sending data to another service.
+
+## Manifest and lifecycle
+
+A minimal utility plugin can contain these two files:
+
+```text
+inspect-document/
+  plugin.jsonc
+  inspect.js
+```
+
+`plugin.jsonc`:
+
+```json
+{
+  "id": "example-inspect-document",
+  "name": "Inspect document",
+  "lifecycle": "Utility",
+  "commands": [
+    {
+      "id": "inspect",
+      "name": "Inspect open documents",
+      "executable": "node",
+      "args": ["inspect.js"]
+    }
+  ]
+}
+```
+
+Use relative script paths. The default working directory is the plugin directory. The executable and arguments are separate values; do not rely on shell-specific quoting for paths with spaces.
+
+| Lifecycle | Purpose |
+| --- | --- |
+| `Utility` | Run a command when the user chooses it. Appropriate for one-off inspection, changes, or export. |
+| `Service` | Run a longer-lived process through `serviceCommand`, for example an event-driven integration or plugin UI. Subscribe only to the event categories the plugin needs. |
+
+### Manifest fields
+
+| Field | Type / purpose |
+| --- | --- |
+| `id` | Stable plugin identity; use the same value in registration and UI requests. |
+| `name` | Display name. |
+| `description`, `version` | Optional descriptive strings. |
+| `workingDirectory` | Optional process working directory; defaults to the installed plugin directory. |
+| `lifecycle` | `"Utility"` (default) or `"Service"`. |
+| `commands` | Array of command objects for utility menu actions. |
+| `serviceCommand` | Command object used to launch a service plugin. |
+| `events` | Optional application event category names: `selection`, `undo`, `document`, `window`. |
+
+A command object has `id`, `name`, `executable`, an `args` string array, and optional `description`, `env` string dictionary, and `timeoutMs` integer. `timeoutMs` controls a utility command's execution timeout; it is not a service lifetime setting. The process inherits its environment and applies the declared `env` overrides. Use a real executable path or a runtime discoverable by the application process; a shell alias is not an executable.
+
+For a service plugin, replace the utility `commands` entry with a `serviceCommand` and set `lifecycle` to `"Service"`. Connect its WebSocket, register the same plugin ID, and wait for `plugin_initialized` before registering a UI. The service is started with the application and participates in application shutdown; do not use a short utility command for a persistent subscription.
+
+The [plugin API reference](https://lunacy.docs.icons8.com/plugin-api/) covers events and connection messages. The complete [plugin UI guide](https://lunacy.docs.icons8.com/plugin-ui/) describes registration, field types, values and lifecycle examples. The [repository examples](https://github.com/icons8/lunacy-plugins/tree/main) demonstrate each pattern.
+
+## First request
+
+Use a Node.js runtime with built-in `fetch` for this example. `inspect.js` lists tabs without loading all documents:
+
+```js
+const baseUrl = process.argv[2] || 'http://localhost:31415';
+
+async function call(method, body = {}) {
+  const response = await fetch(`${baseUrl}/v2/${method}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  });
+  const result = await response.json();
+  if (!response.ok || !result.ok) {
+    throw new Error(`${result.error?.code || response.status}: ${result.error?.message || 'Request failed'}`);
+  }
+  return result;
+}
+
+async function main() {
+  const session = await call('get_session');
+  const documents = await call('list_documents');
+  console.log('API version:', session.data.apiVersion);
+  console.log(documents.data.items);
+}
+
+main().catch(error => {
+  console.error(error.message);
+  process.exitCode = 1;
+});
+```
+
+The default HTTP address is `http://localhost:31415`. If your application instance uses another endpoint, pass its actual base URL to the plugin. Use the running application's endpoint and operation metadata; do not infer capabilities from a documentation version alone.
+
+## Edit the intended document
+
+A safe workflow is:
+
+1. Read the session and tab list.
+2. Choose the intended item using its name and persisted identity. Activate an unloaded tab only when loading is needed.
+3. Keep the returned live `documentHandle` and `revision`. They identify this instance and state, not every document with the same name.
+4. Search existing assets and read their definitions/usages before creating duplicates.
+5. Send a typed batch with `expectedRevision` and a unique `requestId`. Use `validateOnly:true` before a complex or destructive change.
+6. Read back the affected data and use the returned revision for the next edit.
+7. Save only when the workflow calls for saving. A failed save must not be reported as complete.
+
+For example, create a variable collection through the HTTP API:
+
+```json
+{
+  "documentHandle": "<live-handle>",
+  "expectedRevision": "<current-revision>",
+  "requestId": "<unique-request-id>",
+  "validateOnly": true,
+  "changes": [
+    {"action":"createCollection","clientId":"brand","name":"Brand","defaultThemeName":"Light"}
+  ]
+}
+```
+
+POST that body to `/v2/apply_variable_changes`, replacing placeholders with real values. Validation creates no live collection or history. To commit, use `validateOnly:false`, a fresh request ID, and a current revision. One committed domain batch creates one undo operation; an equal-value no-op creates none.
+
+A creation may declare `clientId`. A later compatible change in the same ordered batch can reference it with `{"clientRef":"brand"}`. An existing asset uses `{"id":"<asset-id>"}`. Do not send both selectors, reuse a forward/deleted reference, or treat a validation preview ID as a persisted ID.
+
+## Errors and uncertain responses
+
+For v2, inspect both the HTTP status and the JSON envelope. Success has `ok:true`; failure has `ok:false` and a stable `error.code`. Legacy routes retain their older text/JSON/binary responses.
+
+If a response is lost, retry the same target, request ID, and payload, or use `/v2/get_request_status`. A different payload with the same retained request ID fails with `RequestConflict`. Once status is `unknown`, reread the document before choosing a new request ID: a fresh ID could repeat a creation, save, import, or discard.
+
+On `RevisionConflict`, reread and rebuild the edit. On `Busy`, wait for the relevant operation/layout to finish. On permission or filesystem denial, obtain access through the normal application workflow; an HTTP client cannot grant itself access.
+
+## Components, libraries, and persistence
+
+Use the domain methods for assets rather than rebuilding them through layer JSON. Component properties, states, overrides, style links, variable themes, and aliases have native identity and inheritance rules.
+
+Imported library definitions are read-only. Editing a source requires opening the source document with edit access and using that source's own live handle. Connecting or importing is not permission to publish. Persistent connect/disconnect operations apply to editable cloud documents; local documents can inspect and import explicitly available assets. Disconnecting does not delete imported consumers.
+
+Local save completion reports the actual destination and saved revision. Cloud results distinguish queued/pending/sent synchronization from durable server storage. Read the result instead of inferring success from a request completing or the document looking clean.
+
+FREE geometry and the saved `.free` archive are documented in the [FREE format reference](https://lunacy.docs.icons8.com/free-format/). HTTP envelopes, live handles, replay entries, and chat history are separate contracts.
+
+## Next steps
+
+Use the [complete typed API](https://lunacy.docs.icons8.com/plugin-api-v2/) for all actions and exact fields, or the [legacy/events/UI reference](https://lunacy.docs.icons8.com/plugin-api/) to extend an existing plugin. The [repository workflow article](https://github.com/icons8/lunacy-plugins/blob/7b82b78118e2c66a474f3d556b171903af12bcbc/docs/AUTOMATION_WORKFLOWS.md) provides request sequences and recovery examples.
+
 
 # Private Cloud
 Source: https://lunacy.docs.icons8.com/raw/private_cloud.md

@@ -36,7 +36,7 @@ Note the different icons these layers have before their titles in the Layer list
 
 **See also:**
 <br>
-<a href="https://lunacy.docs.icons8.com/raw/tools" target="_blank">Tools<.mda>
+<a href="https://lunacy.docs.icons8.com/tools" target="_blank">Tools</a>
 
 ### [Layer properties](#layer-properties)
 

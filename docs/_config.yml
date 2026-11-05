@@ -66,6 +66,12 @@ doks:
       url: '/contact'
     - title: 'Release history'
       url: '/release-notes'
+    - title: 'Plugins'
+      url: '/plugins'
+    - title: 'MCP'
+      url: '/mcp'
+    - title: 'AI Chat'
+      url: '/ai-chat'
     - title: 'Free format'
       url: '/free-format'
       

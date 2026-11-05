@@ -1,0 +1,349 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /v2/apply_style_changes request",
+  "$comment": "Preview Automation API v2 parser contract, documented 2026-11-05. Runtime permissions, revisions, value rules and work limits are checked separately.",
+  "type": "object",
+  "properties": {
+    "validateOnly": {
+      "type": "boolean"
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "action"
+        ],
+        "anyOf": [
+          {
+            "properties": {
+              "action": {
+                "const": "create"
+              },
+              "clientId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "name": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "color",
+                  "text",
+                  "effect",
+                  "guide"
+                ]
+              },
+              "value": true
+            },
+            "required": [
+              "name",
+              "type",
+              "value"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "createFromLayer"
+              },
+              "clientId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "name": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "color",
+                  "text",
+                  "effect",
+                  "guide"
+                ]
+              },
+              "layerId": {
+                "type": "string"
+              },
+              "slot": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "range": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "start": {
+                    "type": "integer"
+                  },
+                  "length": {
+                    "type": "integer"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "name",
+              "type"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "update"
+              },
+              "style": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "patch": true
+            },
+            "required": [
+              "style",
+              "patch"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "rename"
+              },
+              "style": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "style",
+              "name"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "delete"
+              },
+              "style": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "policy": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "style"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "apply"
+              },
+              "style": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "targets": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "layerId": {
+                      "type": "string"
+                    },
+                    "slot": {
+                      "type": "string"
+                    },
+                    "range": {
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "start": {
+                          "type": "integer"
+                        },
+                        "length": {
+                          "type": "integer"
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "style",
+              "targets"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "detach"
+              },
+              "targets": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/properties/changes/items/anyOf/5/properties/targets/items"
+                }
+              }
+            },
+            "required": [
+              "targets"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "expectedRevision": {
+      "type": "string"
+    },
+    "requestId": {
+      "type": "string"
+    },
+    "documentHandle": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "changes",
+    "expectedRevision",
+    "requestId",
+    "documentHandle"
+  ],
+  "additionalProperties": false
+}

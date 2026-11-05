@@ -1,3 +1,17 @@
+# FREE format
+
+> Complete published FREE archive specification and changelog
+
+
+## Reference snapshot
+
+This page mirrors the complete published [icons8/free specification](https://github.com/icons8/free), checked on November 5, 2026, at [commit 9b2fc846](https://github.com/icons8/free/blob/9b2fc846453f1917216a8d8202e2f31d48996115/README.md). The newest published changelog section in that snapshot is format version 11. The upstream README body below is preserved verbatim; its SHA256 is `008d6d00098694395ea998cf7c2a16fb0af8436f8d2913d58b8253fbea020098`.
+
+Development builds implementing the new automation API can write format version 12, including generated border/effect/text/guide style-link override fields. Those additions are described in the separate, currently unmerged [FREE 12 proposal](https://github.com/icons8/free/pull/4). They are not silently mixed into the published-main specification below. Inspect an archive's `meta.json` and the reader version when handling a newer development document.
+
+The saved `.free` archive is distinct from [Plugin API](https://lunacy.docs.icons8.com/raw/plugin-api-v2.md) envelopes, live document handles, request replay data, and AI chat history.
+
+<!-- upstream-free-readme:start -->
 # Free Format
 
 FREE is an open source format for vector graphic files designed to be compact, human-readable, back-compatible, and optimized for multithreaded parsing.
@@ -66,17 +80,17 @@ And there are reasons for this:
 * All IDs are specified as full GUIDs, like ``"1FCC7597-95CD-43E9-B264-18E8006C60B1"``, which is great in terms of data integrity but not the most efficient in terms of file size.
 * Overrides have a peculiar format. For some reason, the data from this complex object is crammed into a single serialized string, containing an array of the target layer's IDs, the override type, and occasionally the override object's number:
 
-  ``"42AB34F8-C748-46D5-9373-073296D64ABA/1FCC7597-95CD-43E9-B264-18E8006C60B1_color-1"``
+    ``"42AB34F8-C748-46D5-9373-073296D64ABA/1FCC7597-95CD-43E9-B264-18E8006C60B1_color-1"``
 
-  This approach is inefficient for parsing. Multiple JSON properties would work way better here.
+    This approach is inefficient for parsing. Multiple JSON properties would work way better here.
 
 ## Downsides of the .fig format.
 
-While working on import from Figma, we thoroughly explored the .fig format. It has one huge advantage — it’s binary and therefore extremely efficient in terms of disk space usage. But there are also serious downsides of the format:
+While working on import from Figma, we thoroughly explored the .fig format. It has one huge advantage — it’s binary and therefore extremely efficient in terms of disk space usage. But there are also serious downsides of the format: 
 
 * Not human-readable.
 * Proprietary with no public format specification.
-* No backward compatibility. Every new version can introduce a completely new format if the Figma team deems it necessary.
+* No backward compatibility. Every new version can introduce a completely new format if the Figma team deems it necessary. 
 
 Due to this, supporting the .fig format is costly. It requires at least one experienced full-time developer with reverse engineering expertise dedicated solely to this task. And during Figma updates, sleepless nights may be required to quickly roll out an update to support the new format. Lots of products that previously supported the format have given up.
 
@@ -101,28 +115,28 @@ We didn't rush the development and release of this format. We worked on it for a
 * If a value is default, it is simply omitted from the file, even for complex objects.
 * All GUIDs are written as ShortGUIDs, which are the base64 serialization of the byte data of the GUID. They retain all the GUID data but occupy 39% less space:
 
-  - ``1FCC7597-95CD-43E9-B264-18E8006C60B1`` - 36 characters
+    - ``1FCC7597-95CD-43E9-B264-18E8006C60B1`` - 36 characters
 
-  - ``_w7kV9AThEiBBxn5BtFCBA`` - 22 characters
+    - ``_w7kV9AThEiBBxn5BtFCBA`` - 22 characters
 * The Point data type is specified as an array of two numbers rather than a serialized string, which not only takes up slightly less space but also parses much faster:
 
-  - Sketch format: ``"To": "{367, 566}"``
+    - Sketch format: ``"To": "{367, 566}"`` 
 
-  - FREE format: ``"To": [367, 566]`` - 3 characters shorter
+    - FREE format: ``"To": [367, 566]`` - 3 characters shorter
 * The Size data type is also specified as an array:
 
-  - Sketch format: ``"Width": 367, "Height": 566 ``
+    - Sketch format: ``"Width": 367, "Height": 566 ``
 
-  - FREE format: ``"Size": [367, 566]`` - noticeably shorter
+    - FREE format: ``"Size": [367, 566]`` - noticeably shorter
 * The Matrix data type has two notation options: simple and with rotation.
 
-  ``"Transform": [4, 6]`` - x and y coordinates of an object.
+    ``"Transform": [4, 6]`` - x and y coordinates of an object.
 
-  ``"Transform": [0.9, 0.1, 4, 0.1, 0.9, 6]`` - ScaleX, SkewX, TransX, SkewY, ScaleY, TransY - this matrix includes the values of the following Sketch fields: x, y, rotation, isFlippedHorizontal, and isFlippedVertical. This is significantly more efficient.
+    ``"Transform": [0.9, 0.1, 4, 0.1, 0.9, 6]`` - ScaleX, SkewX, TransX, SkewY, ScaleY, TransY - this matrix includes the values of the following Sketch fields: x, y, rotation, isFlippedHorizontal, and isFlippedVertical. This is significantly more efficient.
 
 * **The key difference**. The Vertex data type, which defines path points, and has several notation options. It's simply an array of numbers and can include up to eight values: ``[x, y, flags, radius, fromX, fromY, toX, toY]``. If the points on the right end of the array have default values, they are omitted. So, if toX, toY, fromX, fromY are all zeros, the array will look like ``[x,y,flags,radius]``. And if flags and radius are zeros, it becomes ``[x, y]``. Compare these two definitions of points of a rectangle, the most frequent element in all documents:
 
-  - Sketch (682 characters)
+    - Sketch (682 characters)
     ```json 
     "points":[
       {"_class":"curvePoint","cornerRadius":0,"cornerStyle":0,"curveFrom":"{0, 0}","curveMode":1,"curveTo":"{0, 0}","hasCurveFrom":false,"hasCurveTo":false,"point":"{0, 0}"},
@@ -130,18 +144,18 @@ We didn't rush the development and release of this format. We worked on it for a
       {"_class":"curvePoint","cornerRadius":0,"cornerStyle":0,"curveFrom":"{1, 1}","curveMode":1,"curveTo":"{1, 1}","hasCurveFrom":false,"hasCurveTo":false,"point":"{1, 1}"},
       {"_class":"curvePoint","cornerRadius":0,"cornerStyle":0,"curveFrom":"{0, 1}","curveMode":1,"curveTo":"{0, 1}","hasCurveFrom":false,"hasCurveTo":false,"point":"{0, 1}"}]
     ```
-  - FREE (34 characters)
+    - FREE (34 characters)
     ```json 
     "points":[[0,0],[1,0],[1,1],[0,1]]
     ```
-  **20 times less in size!** Considering that Vertex is the most frequently encountered data type in the format, and a file may contain millions of them. Sacrificing some human-readability in this specific area, where it's not as crucial as in others, was a well-considered choice.
+    **20 times less in size!** Considering that Vertex is the most frequently encountered data type in the format, and a file may contain millions of them. Sacrificing some human-readability in this specific area, where it's not as crucial as in others, was a well-considered choice.
 * For colors the FREE format uses HEX strings, while Sketch uses a complex object. Given that color is the second most frequently used object after Vertex, reducing its complexity is also highly critical:
 
-  - Sketch: ``{"_class":"color","alpha":1,"blue":0.827451,"green":0.76862746,"red":0.27058825}`` - 80 characters.
+    - Sketch: ``{"_class":"color","alpha":1,"blue":0.827451,"green":0.76862746,"red":0.27058825}`` - 80 characters.
 
-  - FREE: ``“45C4D3”`` - 8 charecters, 10 times less.
+    - FREE: ``“45C4D3”`` - 8 charecters, 10 times less.
 
-  - Also, the color 333333 in the FREE format will go as 3, the color 4455FF — as 45F.
+    - Also, the color 333333 in the FREE format will go as 3, the color 4455FF — as 45F.
 * Simplified, compact, and unbounded overrides. You can override any value. A single override can affect several values. In Sketch, the set of overrides is limited. Each field requires its own override. The number of fields is also limited and strictly defined. Plus parsing of complex strings can impact performance. The FREE format eliminates all these issues.
 
     ```json
@@ -296,7 +310,7 @@ After fully adapting the new format and polishing it, we plan to develop, test, 
 
 ## Base Types
 
-Free format is NULL-free, NaN-free and Infinity-free - if any of this values are in JSON - it's broken.
+Free format is NULL-free, NaN-free and Infinity-free - if any of this values are in JSON - it's broken. 
 
 * <a name="float"></a>float - 32bit single-precision floating-point number
 * <a name="int"></a>int - 32bit signed integer
@@ -349,6 +363,7 @@ Base class for any layer on a canvas.
 * Opacity: [float](#float) = `1` - opacity value.
 * BlendMode: [BlendMode](#BlendMode) = `Normal` - blend mode.
 * Winding: [PathFillType](#PathFillType) = `EvenOdd` - defines the filling options for overlapping paths.
+* Tint: [Fill](#Fill) - defines the tint color.
 * Fill: [Color](#Color) = `00000000` - if there is a single color fill - use this, otherwise use Fills field.
 * Border: [Color](#Color) = `00000000` - if there is a single color border - use this, otherwise use Borders field.
 * Fills: [Fill[]](#Fill) - list of fills.
@@ -387,7 +402,6 @@ Has all properties of [`Layer`](#Layer), plus:
 * ClipContent: [bool](#bool) = `true` - when enabled, hides the content outside the frame boundaries.
 * FlowHome: [bool](#bool) = `false` - sets the frame as a prototype starting point.
 * Viewport: [PrototypeViewport](#PrototypeViewport) - defines the area that should be displayed on a prototype, when the frame is resized to ensure scrolling effect.
-* ResizesContent: [bool](#bool) = `false` - enables adjusting and resizing the frame content as the frame is resized.
 * AutoLayout: [AutoLayout](#AutoLayout) - auto Layout Properties
 * Layouts: [LayoutGuideBase[]](#LayoutGuideBase) - grid, Row and Column layouts of the frame.
 * GridsId: [GUID](#GUID) - grid Layout style id.
@@ -530,6 +544,7 @@ Has all properties of [`Layer`](#Layer), plus:
 * ComponentId: [GUID](#GUID) - unique component identifier.
 * AutoLayout: [AutoLayout](#AutoLayout) - auto Layout Properties
 * Overrides: [Override[]](#Override) - defines the overrides applied to the instance.
+* Settings: [InstanceSetting[]](#InstanceSetting) - values for component properties
 
 ### <a name="Section"></a>Section
 Root group of layers. Can be a child of a page or another section. Does not support rotation, flips, effects.
@@ -577,12 +592,13 @@ Has all properties of [`Layer`](#Layer), plus:
 * FontSize: [float](#float) = `12` - text size.
 * ParagraphSpacing: [float](#float) = `0` - paragraph spacing.
 * Kerning: [float](#float) = `0` - letter spacing.
-* BaselineOffset: [float](#float) = `0` - text offset from the baseline.
 * LineHeight: [float?](#float) - line spacing.
 * Casing: [CharacterCasing](#CharacterCasing) = `Normal` - character case.
 * Align: [TextHorizontalAlignment](#TextHorizontalAlignment) = `Left` - horizontal alignment applied to the text.
 * Valign: [TextVerticalAlignment](#TextVerticalAlignment) = `Top` - vertical alignment applied to the text.
 * List: [ListMarkerType](#ListMarkerType) = `None` - list type: numbered, bulleted, none.
+* Variation: [[string,float]](#[string,float) - variable font coordinates keyed by four-character OpenType axis tags. An empty object is valid and specifies no explicit axis coordinates.
+* FontOpticalSizing: [string](#string) = `manual` - optical sizing mode: manual or auto.
 * Rtl: [bool](#bool) = `false` - if the text is RTL.
 * Underline: [bool](#bool) = `false` - if the text is underlined.
 * Strikethrough: [bool](#bool) = `false` - if the strikethrough option is applied to the text.
@@ -593,7 +609,7 @@ Has all properties of [`Layer`](#Layer), plus:
 * Truncate: [bool](#bool) = `false` - trim text with triple dots in the end if content overlaps fixed layer size bounds.
 * MaxLines: [byte](#byte) = `0` - count of lines allowed. If the limit is exceeded, the text will be truncated.
 * DrawOnPath: [bool](#bool) = `false` - defines whether text draws on the underlying path.
-* Warp: [bool](#bool) = `false` - defines whether text warps when drawn on the underlying path.
+* WarpGlyphs: [bool](#bool) = `false` - defines whether text warps when drawn on the underlying path.
 * VerticalTrim: [bool](#bool) = `false` - removes extra space on top and bottom of the text layer.
 * TextStyleId: [GUID](#GUID) - text style id.
 
@@ -732,7 +748,6 @@ Defines component property of components and states.
 * _t: [string](#string) = `BOOL` - variable type.
 * Id: [GUID](#GUID) - unique property ID.
 * Name: [string](#string) - property name.
-* Dead: [bool](#bool) = `false` - is already deleted.
 
 ### <a name="ColorStyle"></a>ColorStyle
 Style of fills. Can be set to borders and fills.
@@ -765,11 +780,19 @@ Has all properties of [`StyleBase`](#StyleBase), plus:
 * FontSize: [float](#float) = `12` - text size.
 * ParagraphSpacing: [float](#float) = `0` - paragraph spacing.
 * Kerning: [float](#float) = `0` - letter spacing.
-* BaselineOffset: [float](#float) = `0` - text offset from the baseline.
 * LineHeight: [float?](#float) - line spacing.
+* Fill: [Color](#Color) = `00000000` - if there is a single color fill, use this; otherwise use Fills.
+* Fills: [Fill[]](#Fill) - list of text fills.
+* Align: [TextHorizontalAlignment](#TextHorizontalAlignment) = `Left` - horizontal alignment applied to the text.
+* Valign: [TextVerticalAlignment](#TextVerticalAlignment) = `Top` - vertical alignment applied to the text.
+* List: [ListMarkerType](#ListMarkerType) = `None` - list type: numbered, bulleted, none.
 * Underline: [bool](#bool) = `false` - if the text is underlined.
 * Strikethrough: [bool](#bool) = `false` - if the strikethrough option is applied to the text.
 * Casing: [CharacterCasing](#CharacterCasing) = `Normal` - character case.
+* BaselinePos: [BaselinePosition](#BaselinePosition) = `Normal` - text position against the baseline.
+* Rtl: [bool](#bool) = `false` - if the text is RTL.
+* Variation: [[string,float]](#[string,float) - variable font coordinates keyed by four-character OpenType axis tags. An empty object is valid and specifies no explicit axis coordinates.
+* FontOpticalSizing: [string](#string) = `manual` - optical sizing mode: manual or auto.
 
 ### <a name="StyleBase"></a>StyleBase
 Base class for a shared style
@@ -785,13 +808,17 @@ Defines column settings in a layout guide.
 Has all properties of [`LayoutGuideBase`](#LayoutGuideBase), plus:
 
 * _t: [string](#string) = `COLS` - object type.
-* Enabled: [bool](#bool) = `false` - if columnns are enabled.
+* Enabled: [bool](#bool) = `true` - if columnns are enabled.
 * Align: [LayoutHorizontalAlignment](#LayoutHorizontalAlignment) = `Left` - horizontal alignment settings.
 * Offset: [int](#int) = `0` - offset value.
+* OffsetId: [GUID](#GUID) - float Variable Id of an Offset value.
 * Count: [int](#int) = `0` - number of columns.
+* CountId: [GUID](#GUID) - float Variable Id of a Count value.
 * Gutter: [int](#int) = `0` - gutter value.
+* GutterId: [GUID](#GUID) - float Variable Id of a Gutter value.
 * Width: [int](#int) = `0` - column width.
-* Color: [Color](#Color) = `00000000` - column color.
+* WidthId: [GUID](#GUID) - float Variable Id of a Width value.
+* Color: [Color](#Color) = `19ff0000` - column color.
 
 ### <a name="Grid"></a>Grid
 Defines square grid settings for a frame.
@@ -799,9 +826,10 @@ Defines square grid settings for a frame.
 Has all properties of [`LayoutGuideBase`](#LayoutGuideBase), plus:
 
 * _t: [string](#string) = `GRID` - object type.
-* Enabled: [bool](#bool) = `false` - if the square grid is enabled.
-* Color: [Color](#Color) = `00000000` - grid color.
+* Enabled: [bool](#bool) = `true` - if the square grid is enabled.
+* Color: [Color](#Color) = `19ff0000` - grid color.
 * Size: [int](#int) = `10` - size of grid cells.
+* SizeId: [GUID](#GUID) - float Variable Id of a Size value.
 
 <details>
 <summary>Sketch compatibility</summary>
@@ -815,19 +843,23 @@ Defines row settings in a layout guide.
 Has all properties of [`LayoutGuideBase`](#LayoutGuideBase), plus:
 
 * _t: [string](#string) = `ROWS` - object type.
-* Enabled: [bool](#bool) = `false` - if rows are enabled.
+* Enabled: [bool](#bool) = `true` - if rows are enabled.
 * Align: [LayoutVerticalAlignment](#LayoutVerticalAlignment) = `Top` - vertical alignment settings.
 * Offset: [int](#int) = `0` - offset value.
+* OffsetId: [GUID](#GUID) - float Variable Id of an Offset value.
 * Count: [int](#int) = `0` - number of rows.
+* CountId: [GUID](#GUID) - float Variable Id of a Count value.
 * Gutter: [int](#int) = `0` - gutter value.
-* Width: [int](#int) = `0` - row width.
-* Color: [Color](#Color) = `00000000` - row color.
+* GutterId: [GUID](#GUID) - float Variable Id of a Gutter value.
+* Height: [int](#int) = `0` - row height.
+* HeightId: [GUID](#GUID) - float Variable Id of a Height value.
+* Color: [Color](#Color) = `19ff0000` - row color.
 
 ### <a name="LayoutGuideBase"></a>LayoutGuideBase
 Defines layout guide settings for a frame.
 
 * _t: [string](#string) - object type.
-* Enabled: [bool](#bool) = `false` - if layout guide is enabled.
+* Enabled: [bool](#bool) = `true` - if layout guide is enabled.
 
 ### <a name="BackAction"></a>BackAction
 Action to go to previous frame.
@@ -871,11 +903,11 @@ Has all properties of [`FlowAction`](#FlowAction), plus:
 * _t: [string](#string) = `OVERLAY` - object type.
 * Target: [GUID?](#GUID) - id of the target overlay.
 * Animation: [FlowAnimation](#FlowAnimation) = `Free.Schema.FlowAnimation` - action animation.
-* Position: [FlowOverlayPosition](#FlowOverlayPosition) = `Centered` - startup location of overlay.
-* Offset: [Vector2](#Vector2) = `<0, 0>` - offset from startup location.
-* CloseByClick: [bool](#bool) = `false` - close by any click.
-* HasBackground: [bool](#bool) = `false` - defines whether the overlay has background.
-* Background: [Color](#Color) = `00000000` - overlay background color.
+* OverlayPosition: [FlowOverlayPosition](#FlowOverlayPosition) = `Centered` - startup location of overlay.
+* OverlayPositionOffset: [Vector2](#Vector2) = `<0, 0>` - offset from startup location.
+* OverlayCloseByClick: [bool](#bool) = `false` - close by any click.
+* OverlayHasBackground: [bool](#bool) = `false` - defines whether the overlay has background.
+* OverlayBackground: [Color](#Color) = `00000000` - overlay background color.
 
 ### <a name="OpenUrlAction"></a>OpenUrlAction
 Action to open URL.
@@ -892,6 +924,7 @@ Has all properties of [`FlowAction`](#FlowAction), plus:
 
 * _t: [string](#string) = `SCROLL` - object type.
 * Target: [GUID?](#GUID) - id of the target layer.
+* ScrollOffset: [Vector2](#Vector2) = `<0, 0>` - additional scroll offset from the target layer.
 * Animation: [FlowAnimation](#FlowAnimation) = `Free.Schema.FlowAnimation` - action animation.
 
 ### <a name="SetThemeAction"></a>SetThemeAction
@@ -929,6 +962,7 @@ Has all properties of [`FlowAction`](#FlowAction), plus:
 * _t: [string](#string) = `SWITCH_STATE` - object type.
 * Target: [GUID?](#GUID) - id of the target instance.
 * Animation: [FlowAnimation](#FlowAnimation) = `Free.Schema.FlowAnimation` - id of the target layer.
+* ResetComponentState: [bool](#bool) = `true` - whether nested instances reset to their component state during the transition.
 
 ### <a name="FlowAction"></a>FlowAction
 Base object of prototyping action.
@@ -976,6 +1010,7 @@ Key down.
 
 Has all properties of [`FlowTrigger`](#FlowTrigger), plus:
 
+* _t: [string](#string) = `KEY_DOWN` - object type.
 * Shortcut: [string](#string) - string representing a keyboard shortcut. Examples: TAB, C, Ctrl+Shift+T, Alt+F3, Win+\.
 * Delay: [int](#int) = `0` - delay in ms.
 
@@ -1016,14 +1051,42 @@ Base object of prototyping trigger.
 
 * _t: [string](#string) = `CLICK` - object type.
 
+### <a name="Bind"></a>Bind
+Bind of a variable into layer property.
+
+Has all properties of [`Argument`](#Argument), plus:
+
+* Field: [BindField](#BindField) = `Unknown` - target field. Required. Should be first.
+
+### <a name="InstanceSetting"></a>InstanceSetting
+Setting allows you to set a value for an instance property from a component.
+
+Has all properties of [`Argument`](#Argument), plus:
+
+* Id: [GUID](#GUID) - component property id. Required. Should be first.
+
+### <a name="MapEntry"></a>MapEntry
+Map Entry. Has Key and Argument value.
+
+Has all properties of [`Argument`](#Argument), plus:
+
+* Key: [GUID](#GUID) - key of map entry. Required. Should be first.
+
 ### <a name="Argument"></a>Argument
-Expression Argument. Value or Variable or Expression.
+Expression Argument. Value or Variable or Expression. Please note that only one type of value can be present: just a bool/text/number, a numberId with an optional number fallback, just a boolId or textId, just a ref, just a componentId, a list of variable font axis values, or a func with args.
 
 * Bool: [bool?](#bool) - boolean value
+* BoolId: [GUID?](#GUID) - id of a boolean variable
 * Number: [float?](#float) - number value
+* NumberId: [GUID?](#GUID) - id of a number variable
 * Text: [string](#string) - text value
-* Id: [GUID?](#GUID) - id of a variable. Should be used with a bool/float/string value before id.
+* TextId: [GUID?](#GUID) - id of a Text variable
+* ComponentId: [GUID?](#GUID) - id of a component.
+* Map: [MapEntry[]](#MapEntry) - map. Used for state binds.
+* VariationValues: [FontVariationValue[]](#FontVariationValue) - variable font axis values. Each entry contains an axis tag and a number or number variable.
+* Ref: [GUID?](#GUID) - id of Component Property.
 * Func: [ExpressionFunction?](#ExpressionFunction) - expression Function. Use only with Args.
+* Args: [Argument[]](#Argument) - list of expression arguments. Use only with Func.
 
 ### <a name="AutoLayout"></a>AutoLayout
 Defines auto layout settings.
@@ -1041,18 +1104,29 @@ Defines auto layout settings.
 * ReverseZIndex: [bool](#bool) = `false` - if the Last on Top option is enabled.
 * Wrap: [bool](#bool) = `false` - if wrapping is enabled.
 
-### <a name="Bind"></a>Bind
-Bind of a variable into layer property.
-
-* Field: [BindField](#BindField) = `Unknown` - target field
-* Value: [Argument](#Argument) - bind Value
-
 ### <a name="BlurEffect"></a>BlurEffect
-Defines the settings of the blur effect.
+Defines the settings of a blur or glass effect. Glass uses its own frost radius; Radius applies to other blur types.
 
 * Saturation: [float](#float) = `1` - saturation. Only for background blur.
 * Radius: [float](#float) = `10` - blur Radius.
-* Enabled: [bool](#bool) = `false` - if the blur is enabled.
+* RadiusId: [GUID](#GUID) - float Variable Id of a Radius value.
+* Angle: [float](#float) = `0` - motion Angle
+* GlassLightAngle: [float](#float) = `-45` - direction of the light in degrees. Used by glass.
+* GlassLightIntensity: [float](#float) = `80` - intensity of the light in percent (0 to 100). Used by glass.
+* GlassRefraction: [float](#float) = `80` - intensity of optical distortion in percent (0 to 100). Used by glass.
+* GlassDepth: [float](#float) = `20` - depth of the curved glass edge in document units (1 to 1024).
+* GlassDispersion: [float](#float) = `50` - intensity of color separation in percent (0 to 100). Used by glass.
+* GlassFrost: [float](#float) = `4` - background blur radius in document units (0 to 1024). Used by glass.
+* GlassSplay: [float](#float) = `0` - spread of the glass lighting in percent (0 to 100).
+* GlassLightAngleId: [GUID](#GUID) - float variable identifier for GlassLightAngle. Numeric values provide fallbacks; percentage variables use 0 to 100.
+* GlassLightIntensityId: [GUID](#GUID) - float variable identifier for GlassLightIntensity. Numeric values provide fallbacks; percentage variables use 0 to 100.
+* GlassRefractionId: [GUID](#GUID) - float variable identifier for GlassRefraction. Numeric values provide fallbacks; percentage variables use 0 to 100.
+* GlassDepthId: [GUID](#GUID) - float variable identifier for GlassDepth. Numeric values provide fallbacks; percentage variables use 0 to 100.
+* GlassDispersionId: [GUID](#GUID) - float variable identifier for GlassDispersion. Numeric values provide fallbacks; percentage variables use 0 to 100.
+* GlassFrostId: [GUID](#GUID) - float variable identifier for GlassFrost. Numeric values provide fallbacks; percentage variables use 0 to 100.
+* GlassSplayId: [GUID](#GUID) - float variable identifier for GlassSplay. Numeric values provide fallbacks; percentage variables use 0 to 100.
+* Center: [Point](#Point) = `[0.5,0.5]` - zoom Blur Center
+* Enabled: [bool](#bool) = `true` - if the blur is enabled.
 * Type: [BlurType](#BlurType) = `Gaussian` - sets the blur type.
 
 ### <a name="Document"></a>Document
@@ -1064,7 +1138,7 @@ The document's .json structure.
 * CurrentPageIndex: [int](#int) = `0` - index of the currently open page.
 * Fonts: [Font[]](#Font) - embedded fonts stored in the document.
 * VariableCollections: [VariableCollection[]](#VariableCollection) - variable collections stored in the document.
-* FillStyles: [ColorStyle[]](#ColorStyle) - fill styles stored in the document.
+* ColorStyles: [ColorStyle[]](#ColorStyle) - color styles stored in the document.
 * EffectStyles: [EffectStyle[]](#EffectStyle) - effect styles stored in the document.
 * TextStyles: [TextStyle[]](#TextStyle) - text styles stored in the document.
 * GuideStyles: [GuideStyle[]](#GuideStyle) - guide layout styles stored in the document.
@@ -1081,19 +1155,19 @@ The document's .json structure.
 Export settings.
 
 * Format: [string](#string) = `PNG` - export format. Default: PNG.
-* Type: [ScaleType](#ScaleType) = `Scale` - defines the scale type: Scale/Width/Height. The Width and Height types are currently not supported.
-* Size: [float](#float) = `0` - defines the width/height/scale of the exported object. Dependent on the type of the scale.
+* Type: [ScaleType](#ScaleType) = `Scale` - defines the scale type: Scale/Width/Height.
+* Size: [float](#float) = `1` - defines the width/height/scale of the exported object. Dependent on the type of the scale.
 * Name: [string](#string) - user-defined suffix/preffix (string) added to the export file name. Default: empty.
 * Naming: [NamingScheme](#NamingScheme) = `Suffix` - defines whether a suffix or preffix will be added to the export files name. Default: suffix.
 
 ### <a name="Fill"></a>Fill
 Defines the fill applied to a layer.
 
-* Enabled: [bool](#bool) = `false` - if a fill is added.
-* Color: [Color](#Color) = `00000000` - fill color.
+* Enabled: [bool](#bool) = `true` - if a fill is added.
+* Color: [Color](#Color) = `ff808080` - fill color.
 * ColorId: [GUID?](#GUID) - color variable ID.
 * Type: [FillType](#FillType) = `Color` - defines the fill type.
-* Opacity: [float](#float) = `0` - defines the fill opacity.
+* Opacity: [float](#float) = `1` - defines the fill opacity.
 * BlendMode: [BlendMode](#BlendMode) = `Normal` - defines the blend mode.
 * Pattern: [Pattern](#Pattern) - contains pattern fill properties in case the fill is a pattern fill.
 * Gradient: [Gradient](#Gradient) - contains gradient properties in case the fill is a gradient.
@@ -1109,8 +1183,16 @@ Embedded fonts stored in the document.
 
 * Data: [string](#string) - name of the font file in the fonts folder.
 * Name: [string](#string) - font name.
-* FileName: [string](#string) - font file name.
+* FontFileName: [string](#string) - font file name.
+* CollectionIndex: [int](#int) = `0` - zero-based font index in a TrueType or OpenType collection. Omitted for the first font.
 * PostscriptNames: [string[]](#string) - postScript names of the font.
+
+### <a name="FontVariationValue"></a>FontVariationValue
+A variable font axis value used by a FontVariations bind.
+
+* Axis: [string](#string) - four-character OpenType axis tag, for example wght or wdth.
+* Number: [float?](#float) - numeric axis value or fallback for NumberId.
+* NumberId: [GUID?](#GUID) - id of a float variable that controls the axis.
 
 ### <a name="Gradient"></a>Gradient
 An object that represents a gradient.
@@ -1140,8 +1222,7 @@ Defines filters that can be applied to images.
 ### <a name="InlineStyle"></a>InlineStyle
 Style (bold, italic, etc.) applied to a part of text or single word within a text block.
 
-* Start: [int](#int) = `0` - position where the style starts.
-* Length: [int](#int) = `0` - length of the selection.
+* Range: [Point](#Point) = `[0,0]` - inclusive text range as [start, end].
 * FillsId: [GUID](#GUID) - color Style Id.
 * TextStyleId: [GUID](#GUID) - text style id.
 * Fill: [Color](#Color) = `00000000` - if there is a single color fill - use this, otherwise use Fills field.
@@ -1150,16 +1231,18 @@ Style (bold, italic, etc.) applied to a part of text or single word within a tex
 * FontSize: [float](#float) = `12` - text size.
 * ParagraphSpacing: [float](#float) = `0` - paragraph spacing.
 * Kerning: [float](#float) = `0` - letter spacing.
-* BaselineOffset: [float](#float) = `0` - text offset from the baseline.
 * LineHeight: [float?](#float) - line spacing.
 * Casing: [CharacterCasing](#CharacterCasing) = `Normal` - character case.
 * Align: [TextHorizontalAlignment](#TextHorizontalAlignment) = `Left` - horizontal alignment applied to the text.
 * Valign: [TextVerticalAlignment](#TextVerticalAlignment) = `Top` - vertical alignment applied to the text.
 * List: [ListMarkerType](#ListMarkerType) = `None` - list type: numbered, bulleted, none.
+* Variation: [[string,float]](#[string,float) - variable font coordinates keyed by four-character OpenType axis tags. An empty object is valid and specifies no explicit axis coordinates. Inline styles explicitly write an empty object when no axes are set.
+* FontOpticalSizing: [string](#string) = `manual` - optical sizing mode: manual or auto.
 * Rtl: [bool](#bool) = `false` - if the text is RTL.
 * Underline: [bool](#bool) = `false` - if the text is underlined.
 * Strikethrough: [bool](#bool) = `false` - if the strikethrough option is applied to the text.
 * BaselinePos: [BaselinePosition](#BaselinePosition) = `Normal` - text position against the baseline.
+* Binds: [Bind[]](#Bind) - binds of variables to target fields like: fontSize, fontWeight, etc.
 
 ### <a name="Meta"></a>Meta
 Contains metadata about the document.
@@ -1168,11 +1251,14 @@ Contains metadata about the document.
 * App: [string](#string) - app name.
 * Variant: [string](#string) - app variant: beta/standalone/store/web/etc.
 * AppVersion: [string](#string) - app version.
+* By: [string](#string) - email address of the user who last saved the document.
 
 ### <a name="Override"></a>Override
 Defines overrides for components.
 
+* Target: [GUID[]](#GUID) - list of unique identifiers that determine the target layer, to which an override is applied.
 * ComponentId: [GUID?](#GUID) - unique component identifier.
+* Export: [ExportOption[]](#ExportOption) - export settings.
 * Image: [string](#string) - defines the image name used as a fill.
 * Link: [string](#string) - defines the target frame (prototyping).
 * Locked: [bool?](#bool) - if the layer is locked for editing.
@@ -1189,11 +1275,16 @@ Defines overrides for components.
 * StyleId: [GUID?](#GUID) - identifier of the style applied to a layer.
 * Tint: [Color?](#Color) - defines the tint color.
 * TintId: [GUID?](#GUID) - tint identifier.
+* Fills: [Fill[]](#Fill) - list of fills applied to a layer.
+* Borders: [Fill[]](#Fill) - list of borders applied to a layer.
 * Thickness: [Thickness](#Thickness) = `[0,0,0,0]` - defines border thickness.
 * CustomThickness: [Thickness](#Thickness) = `[0,0,0,0]` - defines custom border thickness.
 * LinePos: [LinePosition](#LinePosition) = `Center` - defines border position.
 * LineCap: [LineCap](#LineCap) = `Butt` - defines the shape of line caps.
 * LineJoin: [LineJoin](#LineJoin) = `Miter` - defines the appearance of line folds.
+* Dash: [float[]](#float) - defines the size of dashes.
+* Shadows: [ShadowEffect[]](#ShadowEffect) - list of shadows.
+* InnerShadows: [ShadowEffect[]](#ShadowEffect) - list of inner shadows.
 * Blur: [BlurEffect](#BlurEffect) - information about blurs.
 * ImageFilters: [ImageFilters](#ImageFilters) - filters applied to an image (hue, saturartion, etc.), if any.
 * Opacity: [float?](#float) - opacity value.
@@ -1201,6 +1292,7 @@ Defines overrides for components.
 * StartMarker: [Arrowhead?](#Arrowhead) - determines the appearance of the tail of an open path drawn with the Line, Arrow, or Pen/Pencil tool.
 * EndMarker: [Arrowhead?](#Arrowhead) - determines the appearance of the head of an open path drawn with the Line, Arrow, or Pen/Pencil tool.
 * Text: [string](#string) - content of the text layer.
+* Inlines: [InlineStyle[]](#InlineStyle) - styling options applied to the text within a text block.
 * TextBehavior: [TextBehavior?](#TextBehavior) - behavior of the text layer size on text value change: flexible, fixed-width, or fixed.
 * Size: [Size?](#Size) - text size.
 * Vertical: [bool?](#bool) - is vertical autolayout
@@ -1212,7 +1304,7 @@ Defines overrides for components.
 * MaxHeight: [float?](#float) - defines the maximum layer height (auto layout).
 * Padding: [Thickness?](#Thickness) - padding value.
 * Align: [HorizontalAlignment?](#HorizontalAlignment) - horizontal children alignment.
-* VAlign: [VerticalAlignment?](#VerticalAlignment) - vertical children alignment.
+* Valign: [VerticalAlignment?](#VerticalAlignment) - vertical children alignment.
 * FixWidth: [bool](#bool) = `false` - is width fixed. False = hug or fill if StretchWidth is true.
 * FixHeight: [bool](#bool) = `false` - is height fixed. False = hug or fill if StretchHeight is true.
 * TextBaseline: [bool?](#bool) - if text baseline alignment is enabled.
@@ -1225,6 +1317,9 @@ Defines overrides for components.
 * MaxLines: [byte](#byte) = `0` - count of lines allowed. If the limit is exceeded, the text will be truncated.
 * KeepScroll: [bool?](#bool) - if the *Keep scroll position* option is enabled (prototyping).
 * ScrollBehavior: [FlowScrollBehavior?](#FlowScrollBehavior) - defines scroll behavior (prototyping).
+* ScrollOverflow: [FlowScrollOverflow?](#FlowScrollOverflow) - defines scroll overflow (prototyping).
+* Settings: [InstanceSetting[]](#InstanceSetting) - values for component properties
+* Binds: [Bind[]](#Bind) - binds of variables to target fields like: fontSize, cornerRadius, thickness, etc.
 
 <details>
 <summary>Sketch compatibility</summary>
@@ -1240,11 +1335,18 @@ Document page properties.
 * Id: [GUID](#GUID) - unique page ID.
 * Name: [string](#string) - page name.
 * Background: [Color](#Color) = `00000000` - canvas color.
-* IsComponentPage: [bool](#bool) = `false` - if the page is used to store components.
+* ComponentPage: [bool](#bool) = `false` - if the page is used to store components.
 * Rulers: [Rulers](#Rulers) - rulers applied by the user.
 * Origin: [Point](#Point) = `[0,0]` - point where the user left off the page.
-* Zoom: [float](#float) = `0` - zoom scale last applied to the page.
+* Zoom: [float](#float) = `1` - zoom scale last applied to the page.
 * Layers: [Layer[]](#Layer) - list of layers in the page.
+
+<details>
+<summary>Lunacy specific</summary>
+
+* NameFixed: [bool](#bool) = `false` - whether the page name was explicitly set by the user.
+* Measurements: [Measurement[]](#Measurement) - persistent distance measurements created on the page.
+</details>
 
 ### <a name="Pattern"></a>Pattern
 Defines the image fill options.
@@ -1272,7 +1374,7 @@ An object containing ruler origins and guideline positions.
 <details>
 <summary>Sketch compatibility</summary>
 
-* Origin: [Point](#Point) = `[0,0]` - ruler origin. Not supported in Lunacy. Sketch Compatibility
+* Origin: [Point](#Point) = `[0,0]` - ruler origin. Sketch compatibility.
 </details>
 
 ### <a name="ShadowEffect"></a>ShadowEffect
@@ -1280,18 +1382,24 @@ Defines the shadow options.
 
 * Enabled: [bool](#bool) = `true` - if a shadow effect is enabled.
 * Radius: [float](#float) = `0` - radius of the shadow blur.
+* RadiusId: [GUID](#GUID) - float Variable Id of a Radius value.
+* XId: [GUID](#GUID) - float Variable Id of X offset value.
+* YId: [GUID](#GUID) - float Variable Id of Y offset value.
 * Color: [Color](#Color) = `00000000` - shadow color.
 * ColorId: [GUID?](#GUID) - color variable ID.
 * Spread: [float](#float) = `0` - shadow spread value.
+* SpreadId: [GUID](#GUID) - float Variable Id of a Spread value.
 * Offset: [Point](#Point) = `[0,0]` - how far the shadow is projected in the x and y directions.
 * BlendMode: [BlendMode](#BlendMode) = `Normal` - shadow blend mode.
 
 ### <a name="SharedLibrary"></a>SharedLibrary
 Contains components, styles and variables from external library that is used in current document. Every file in the shared folder is Shared Library.
 
+* Url: [string](#string) - uRL to the Library. Can be http link or local path (local is not supported in Lunacy yet).
 * Id: [GUID](#GUID) - unique library document identifier.
-* Variables: [VariableCollection[]](#VariableCollection) - variable collections from a shared library.
-* FillStyles: [ColorStyle[]](#ColorStyle) - fill styles stored in the document.
+* Name: [string](#string) - library name.
+* VariableCollections: [VariableCollection[]](#VariableCollection) - variable collections from a shared library.
+* ColorStyles: [ColorStyle[]](#ColorStyle) - color styles stored in the document.
 * EffectStyles: [EffectStyle[]](#EffectStyle) - effect styles stored in the document.
 * TextStyles: [TextStyle[]](#TextStyle) - text styles stored in the document.
 * GuideStyles: [GuideStyle[]](#GuideStyle) - guide layout styles stored in the document.
@@ -1303,7 +1411,6 @@ Bind of component property of a states layer to the state name of component.
 
 * Id: [GUID](#GUID) - component Property Id
 * Name: [string](#string) - state Name
-* NameId: [GUID?](#GUID) - id of string variable with a value
 
 ### <a name="ThemeSelection"></a>ThemeSelection
 Theme Selection of a layer and it's children for a specific theme.
@@ -1322,11 +1429,10 @@ Theme Selection of a layer and it's children for a specific theme.
 ### <a name="FlowAnimation"></a>FlowAnimation Struct
 Prototyping action animation.
 
-* Enabled: [bool](#bool) = `false` - if animation is enabled.
 * Type: [FlowAnimationType](#FlowAnimationType) = `Instant` - animation type.
 * Effect: [FlowAnimationEffect](#FlowAnimationEffect) = `Linear` - animation effect.
 * Direction: [FlowAnimationDirection](#FlowAnimationDirection) = `Left` - animation direction.
-* Duration: [int](#int) - animation duration in ms.
+* Duration: [int](#int) = `300` - animation duration in ms.
 * Curve: [Point[]](#Point) - animation curve point array. Array length is always 2. Point values are between 0 and 1.
 * Spring: [Spring?](#Spring) - spring animation parameters.
 
@@ -1363,7 +1469,7 @@ A utility class to represent layer size.
 ### <a name="Spring"></a>Spring Struct
 Spring animation parameters
 
-* Dumping: [float](#float) - spring Dumping, Min 0.01, Max=10000.
+* Damping: [float](#float) - spring damping, Min 0.01, Max=10000.
 * Mass: [float](#float) - spring Mass, Min 0.01, Max=1000.
 * Stiffness: [float](#float) - spring Stiffness, Min=0.01, Max=1000000.
 
@@ -1382,7 +1488,7 @@ The Vertex data type, which defines path points, and has several notation option
 * From: [Point](#Point) = `[0,0]` - first control point, curve from.
 * To: [Point](#Point) = `[0,0]` - second control point, curve to.
 * Radius: [float](#float) - corner radius of a vertex point. It's stored in half because we don't need that much precision for corner radius.
-* Mode: [CurveMode](#CurveMode) = `None` - mode of vertex.
+* Mode: [CurveMode](#CurveMode) = `Straight` - mode of vertex.
 
 ### <a name="Arrowhead"></a>Arrowhead Enum
 Defines the appearance of arrowheads.
@@ -1438,7 +1544,7 @@ Defines text position against the baseline.
 * `57` FontVariations
 * `58` Text
 * `100` ComponentId
-* `101` InstanceVariant
+* `101` InstanceVariant - selected variant of a component instance.
 * `102` Hyperlink
 
 ### <a name="BlendMode"></a>BlendMode Enum
@@ -1467,7 +1573,10 @@ Defines the type of blend mode applied to a layer.
 Defines the blur type.
 
 * `0` Gaussian - gaussian blur.
+* `1` Motion - motion blur.
+* `2` Zoom - zoom blur.
 * `3` Background - background blur.
+* `4` Glass - glass effect with refraction, lighting, dispersion, and background frost.
 
 ### <a name="BoolOp"></a>BoolOp Enum
 Types of boolean operations used to combine shapes.
@@ -1575,20 +1684,20 @@ Types of components. Currently used for filtering only. Some of the types are no
 ### <a name="CurveMode"></a>CurveMode Enum
 Defines the types of points on Bézier curves.
 
-* `0` None - undefined.
-* `1` Straight - straight point.
-* `2` Mirrored - mirrored branches.
-* `3` Asymmetric - asymmetric branches.
-* `4` Disconnected - disconnected branches.
+* `0` Straight - straight point.
+* `1` Mirrored - mirrored branches.
+* `2` Asymmetric - asymmetric branches.
+* `3` Disconnected - disconnected branches.
 * `4` OnlyFrom - only From branch.
 * `5` OnlyTo - only To branch.
 
 ### <a name="ExpressionFunction"></a>ExpressionFunction Enum
 
-* `0` Add
-* `1` Subtract
-* `2` Multiply
-* `3` Divide
+* `0` Unknown - no expression function.
+* `1` Add
+* `2` Subtract
+* `3` Multiply
+* `4` Divide
 * `10` Equals
 * `11` NotEqual
 * `12` LessThan
@@ -1602,8 +1711,8 @@ Defines the types of points on Bézier curves.
 * `24` Ternary
 * `25` IsTruthy
 * `30` Stringify
-* `100` ResolveState
-* `101` ThemeLookup
+* `100` ResolveState - resolves an instance state during Figma import compatibility processing.
+* `101` ThemeLookup - resolves a value from the selected variable theme.
 
 ### <a name="FillType"></a>FillType Enum
 Defines the fill type.
@@ -1635,6 +1744,8 @@ Prototyping action animation effect.
 * `8` Bounce
 * `9` Custom
 * `10` CustomSpring
+* `11` EaseInOut - eases both into and out of the animation.
+* `12` EaseInOutBack - eases both into and out of the animation with overshoot.
 
 ### <a name="FlowAnimationType"></a>FlowAnimationType Enum
 Prototyping action animation type.
@@ -1648,6 +1759,7 @@ Prototyping action animation type.
 * `6` SlideIn
 * `7` SlideOut
 * `8` Scroll
+* `9` MagicMove - animates matching layers between source and target frames.
 
 ### <a name="FlowOverlayPosition"></a>FlowOverlayPosition Enum
 Prototyping overlay position.
@@ -1675,6 +1787,7 @@ Prototyping scroll overflow of a layer.
 * `1` Horizontal
 * `2` Vertical
 * `3` Both
+* `255` Mixed - mixed overflow state used when combined selections differ.
 
 ### <a name="GradientType"></a>GradientType Enum
 List of Gradient types.
@@ -1682,6 +1795,7 @@ List of Gradient types.
 * `0` Linear - linear gradient: two colors appear at opposite points of an object and blend, or transition into each other.
 * `1` Radial - radial gradient: the transition between color stops is a circular pattern.
 * `2` Angular - angular gradient: sweeps around the circumference.
+* `3` Diamond - diamond gradient.
 
 ### <a name="HorizontalAlignment"></a>HorizontalAlignment Enum
 Defines how a set of layers is aligned horizontally.
@@ -1778,6 +1892,10 @@ Defines how a text is aligned horizontally.
 * `1` Right - text is aligned to the right.
 * `2` Center - text is horizontally centered.
 * `3` Justify - text is horizontally justified.
+* `4` None - no explicit horizontal alignment.
+* `5` Start - text is aligned to the logical start edge.
+* `6` End - text is aligned to the logical end edge.
+* `7` DetectFromContent - alignment is detected from the text content.
 
 ### <a name="TextVerticalAlignment"></a>TextVerticalAlignment Enum
 Defines how a text is aligned vertically.
@@ -1785,6 +1903,7 @@ Defines how a text is aligned vertically.
 * `0` Top - text is aligned to the top.
 * `1` Middle - text is vertically centered.
 * `2` Bottom - text is aligned to the bottom.
+* `3` None - no explicit vertical alignment.
 
 ### <a name="VerticalAlignment"></a>VerticalAlignment Enum
 Defines how a set of layers is aligned vertically.
@@ -1800,6 +1919,16 @@ Information about auto generated texts. _//Lunacy Specific_
 * Type: [DataType](#DataType) = `Unknown` - category of generated text (person, address, date, etc.).
 * Field: [DataFieldType](#DataFieldType) = `Unknown` - type of generated text (full name or first name, city or ZIP code, etc.).
 * Format: [string](#string) - format for Data Type. Used for Date/Time values.
+
+### <a name="Measurement"></a>Measurement
+A persistent distance measurement between two layers. _//Lunacy Specific_
+
+* Start: [GUID](#GUID) - identifier of the layer at the start of the measurement.
+* End: [GUID](#GUID) - identifier of the layer at the end of the measurement.
+* StartSide: [SideType](#SideType) = `Left` - bound side used on the start layer.
+* EndSide: [SideType](#SideType) = `Left` - bound side used on the end layer.
+* StartPos: [float](#float) = `0` - normalized position along the start bound.
+* Text: [string](#string) - optional custom measurement label.
 
 ### <a name="BackgroundRemovalState"></a>BackgroundRemovalState Enum
 Background removal procedure info. _//Lunacy Specific_
@@ -1859,6 +1988,14 @@ Defines the category of generated text. _//Lunacy Specific_
 * `8` Technology
 * `9` Time
 
+### <a name="SideType"></a>SideType Enum
+Side of a layer bound used as a measurement endpoint. _//Lunacy Specific_
+
+* `0` Left - left side.
+* `1` Right - right side.
+* `2` Top - top side.
+* `3` Bottom - bottom side.
+
 ### <a name="ColorOverride"></a>ColorOverride
 Defines color overrides for components. _//Sketch Compatibility_
 
@@ -1876,11 +2013,11 @@ Defines text color overrides for components. _//Sketch Compatibility_
 ### <a name="TextWeightOverride"></a>TextWeightOverride
 Defines text weight overrides for components. _//Sketch Compatibility_
 
-* Slant: [float](#float) = `0`
-* Proportion: [float](#float) = `0`
-* Symbolic: [float](#float) = `0`
-* Weight: [float](#float) = `0`
-* PostScriptName: [string](#string)
+* Slant: [float](#float) = `0` - font slant value.
+* Proportion: [float](#float) = `0` - font proportion value.
+* Symbolic: [float](#float) = `0` - font symbolic traits value.
+* Weight: [float](#float) = `0` - font weight value.
+* PostScriptName: [string](#string) - postScript font name.
 
 ### <a name="ColorOverrideType"></a>ColorOverrideType Enum
 Defines types of color overrides for components. _//Sketch Compatibility_
@@ -1907,12 +2044,35 @@ Controls the use of suffixes/prefixes in the names of export files. _//Sketch Co
 
 ## Changelog
 
+### Version 11 - 27.09.2026
+* Accept empty font variation objects in text layers, text styles, and inline styles.
+* Skip malformed argument values in bindings when loading a document, so one damaged binding does not prevent the rest of the document from opening.
+* Added glass blur type `4` and its light angle, light intensity, refraction, depth, dispersion, frost, and splay settings.
+* Added float variable bindings and numeric fallbacks for all seven glass settings.
+* Glass depth and frost are document-space lengths; intensity, refraction, dispersion, and splay are percentages.
+* Preserve disabled blur and glass settings on layers and effect styles.
+* Corrected the documented blur `enabled` default to `true` when a blur object is present.
+
+### Version 10 - 07.09.2026
+* Added variable font coordinates and optical sizing to text layers, text styles, and inline styles.
+* Added variable bindings for individual font variation axes, including numeric fallback values.
+* Added `collectionIndex` for fonts embedded from TrueType and OpenType collections.
+* Documented page measurements and synchronized field names, defaults, and enum values with the Lunacy reader and writer.
+
+### Version 9 20.05.2026
+* Added `Binds` to `InlineStyle`.
+* Added variables to `Grid`, `Columns` and `Rows`.
+* Added variables to `BlurEffect` and `ShadowEffect`.
+
 ### Version 8 15.03.2026
 * Added `SlotComponentProperty`.
 * Added `Slot` layer and `Slots` property to `Document` and `SharedLibrary`.
 * Added `StateBind` list to `Component`.
-* Added `Expression`, `ExpressionFunction`, `Argument`. Also added `Bind` list to `Layer`.
+* Added `Expression`, `ExpressionFunction`, `Argument`. 
+* Added `Bind` list to `Layer` and `InstanseSetting` list to `Instance`.
 * New flow actions: `ConditionalAction`, `SetVariableAction`, `SetThemeAction`.
+* Added Zoom and Motion blur.
+* Added Diamond Gradient.
 
 ### Version 7 20.02.2026
 * `FixedHorizontal` and `FixedVertical` are replaced by `FixWidth` and `FixHeight`.
@@ -1966,8 +2126,8 @@ Controls the use of suffixes/prefixes in the names of export files. _//Sketch Co
 
 ### Version 2 - 11.08.2024
 
-* `Shared.json` is removed. Now all shared libraries data have a new efficient structure and can be found inside `shared` folder.
-  Separate file is created for every library source - this will significantly increase document open speed in multithreaded way if document use a lot of components from different shared libraries.
+* `Shared.json` is removed. Now all shared libraries data have a new efficient structure and can be found inside `shared` folder. 
+Separate file is created for every library source - this will significantly increase document open speed in multithreaded way if document use a lot of components from different shared libraries.
 * Now `SharedStyle`s are not grouped by text/layer category. All in one container. To check if style is text style - check if it has text `TextStyle` property.
 * `Export` optimized to be a simple list of `ExportOption`. Some sketch-related fields removed.
 
@@ -1975,4 +2135,10 @@ Controls the use of suffixes/prefixes in the names of export files. _//Sketch Co
 
 * Initial Version
 
+## Made by Icons8
+
+`.free` is the native format of **[Lunacy](https://icons8.com/lunacy?utm_source=github)**, our free design app with the whole Icons8 library built in — **[1.5M+ icons](https://icons8.com/icons?utm_source=github)** ([Color](https://icons8.com/icons/color?utm_source=github), [3D Fluency](https://icons8.com/icons/3d-fluency?utm_source=github), [Liquid Glass](https://icons8.com/icons/liquid-glass?utm_source=github)) and **[110,000+ illustrations](https://icons8.com/illustrations?utm_source=github)** ([Cherry](https://icons8.com/illustrations/styles/cherry?utm_source=github), [Bouncy](https://icons8.com/illustrations/styles/bouncy?utm_source=github), [3D Stickle](https://icons8.com/illustrations/styles/3d-stickle?utm_source=github)), free to use.
+
 by Icons8 LLC 2026
+
+<!-- upstream-free-readme:end -->

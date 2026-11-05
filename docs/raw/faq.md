@@ -15,7 +15,7 @@ We have an interactive tutorial with a step-by-step beginner’s guide to our ap
 You can also: 
 
 - Check out <a href="https://blog.icons8.com/articles/tag/lunacy/" target="_blank">step-by-step tutorials</a> on our blog.
-- Read more sections of this <a href="https://lunacy.docs.icons8.com/raw/" target="_blank">documentation page<.mda>.
+- Read more sections of this <a href="https://lunacy.docs.icons8.com/" target="_blank">documentation page</a>.
 - Subscribe to our <a href="https://www.youtube.com/channel/UCIp9WVc3HlNF3TGqGvuDsnQ/videos" target="_blank">Youtube channel</a> for more Lunacy tutorials.
 
 ### Is Lunacy really free?
@@ -150,7 +150,7 @@ If you are running an older Windows version, you can try to do the same using yo
 </div>
 
 ### Can I change the radius of a specific corner in a shape?
-One of our most popular questions😉 Check out the demos <a href="https://lunacy.docs.icons8.com/raw/editing.md#vector-editing" target="_blank">here</a>, <a href="https://lunacy.docs.icons8.com/raw/editing.md#adjusting-the-corner-radius-setting-for-rectangles" target="_blank">here</a>, and <a href="https://community.icons8.com/uploads/default/original/1X/718c05c97ebb1fdbd09cd4e9579178e65f2e8afc.mp4" target="_blank">here</a>.
+One of our most popular questions😉 Check out the demos <a href="https://lunacy.docs.icons8.com/editing/#vector-editing" target="_blank">here</a>, <a href="https://lunacy.docs.icons8.com/editing/#adjusting-the-corner-radius-setting-for-rectangles" target="_blank">here</a>, and <a href="https://community.icons8.com/uploads/default/original/1X/718c05c97ebb1fdbd09cd4e9579178e65f2e8afc.mp4" target="_blank">here</a>.
 
 ### Where is the suggestions panel?
 We decided to revamp the suggestions panel. We’ll add the new version to an upcoming release.

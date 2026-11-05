@@ -1,0 +1,1117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /v2/apply_variable_changes request",
+  "$comment": "Preview Automation API v2 parser contract, documented 2026-11-05. Runtime permissions, revisions, value rules and work limits are checked separately.",
+  "type": "object",
+  "properties": {
+    "validateOnly": {
+      "type": "boolean"
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "action"
+        ],
+        "anyOf": [
+          {
+            "properties": {
+              "action": {
+                "const": "createCollection"
+              },
+              "clientId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "name": {
+                "type": "string"
+              },
+              "defaultThemeName": {
+                "type": "string"
+              },
+              "defaultThemeClientId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "name"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "renameCollection"
+              },
+              "collection": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "collection",
+              "name"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "deleteCollection"
+              },
+              "collection": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "collection"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "createTheme"
+              },
+              "clientId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "collection": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "name": {
+                "type": "string"
+              },
+              "sourceTheme": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "collection",
+              "name",
+              "sourceTheme"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "renameTheme"
+              },
+              "collection": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "theme": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "collection",
+              "theme",
+              "name"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "deleteTheme"
+              },
+              "collection": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "theme": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "collection",
+              "theme"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "selectCollectionTheme"
+              },
+              "collection": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "theme": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "collection",
+              "theme"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "setLayerTheme"
+              },
+              "layerIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "collection": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "theme": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "layerIds",
+              "collection",
+              "theme"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "clearLayerTheme"
+              },
+              "layerIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "collection": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "layerIds",
+              "collection"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "createVariable"
+              },
+              "clientId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "collection": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "name": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "color",
+                  "float",
+                  "bool",
+                  "text"
+                ]
+              },
+              "values": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "theme": {
+                      "type": "object",
+                      "oneOf": [
+                        {
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 128
+                            }
+                          },
+                          "required": [
+                            "id"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "properties": {
+                            "clientRef": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 128
+                            }
+                          },
+                          "required": [
+                            "clientRef"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "value": {
+                      "type": "object",
+                      "required": [
+                        "kind"
+                      ],
+                      "anyOf": [
+                        {
+                          "properties": {
+                            "kind": {
+                              "const": "literal"
+                            },
+                            "value": true
+                          },
+                          "required": [
+                            "value"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "properties": {
+                            "kind": {
+                              "const": "alias"
+                            },
+                            "variable": {
+                              "type": "object",
+                              "oneOf": [
+                                {
+                                  "properties": {
+                                    "id": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 128
+                                    }
+                                  },
+                                  "required": [
+                                    "id"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "properties": {
+                                    "clientRef": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "maxLength": 128
+                                    }
+                                  },
+                                  "required": [
+                                    "clientRef"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "variable"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "theme",
+                    "value"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "collection",
+              "name",
+              "type",
+              "values"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "renameVariable"
+              },
+              "variable": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "variable",
+              "name"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "setValues"
+              },
+              "variable": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "values": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/properties/changes/items/anyOf/9/properties/values/items"
+                }
+              }
+            },
+            "required": [
+              "variable",
+              "values"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "deleteVariable"
+              },
+              "variable": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "variable"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "bind"
+              },
+              "target": {
+                "type": "object",
+                "properties": {
+                  "kind": {
+                    "type": "string"
+                  },
+                  "resource": {
+                    "type": "object",
+                    "oneOf": [
+                      {
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 128
+                          }
+                        },
+                        "required": [
+                          "id"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "properties": {
+                          "clientRef": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 128
+                          }
+                        },
+                        "required": [
+                          "clientRef"
+                        ],
+                        "additionalProperties": false
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "kind",
+                  "resource"
+                ],
+                "additionalProperties": false
+              },
+              "location": {
+                "type": "object",
+                "properties": {
+                  "property": {
+                    "type": "string"
+                  },
+                  "index": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "stopIndex": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "start": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "length": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "property"
+                ],
+                "additionalProperties": false
+              },
+              "variable": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "target",
+              "location",
+              "variable"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "unbind"
+              },
+              "target": {
+                "type": "object",
+                "properties": {
+                  "kind": {
+                    "type": "string"
+                  },
+                  "resource": {
+                    "type": "object",
+                    "oneOf": [
+                      {
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 128
+                          }
+                        },
+                        "required": [
+                          "id"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "properties": {
+                          "clientRef": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 128
+                          }
+                        },
+                        "required": [
+                          "clientRef"
+                        ],
+                        "additionalProperties": false
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "kind",
+                  "resource"
+                ],
+                "additionalProperties": false
+              },
+              "location": {
+                "type": "object",
+                "properties": {
+                  "property": {
+                    "type": "string"
+                  },
+                  "index": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "stopIndex": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "start": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "length": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "property"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "target",
+              "location"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "expectedRevision": {
+      "type": "string"
+    },
+    "requestId": {
+      "type": "string"
+    },
+    "documentHandle": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "changes",
+    "expectedRevision",
+    "requestId",
+    "documentHandle"
+  ],
+  "additionalProperties": false
+}

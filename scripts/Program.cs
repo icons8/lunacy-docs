@@ -1,4 +1,6 @@
-﻿var rootPath = new DirectoryInfo(AppContext.BaseDirectory).Parent!.Parent!.Parent!.Parent!.FullName;
+﻿using System.Text.RegularExpressions;
+
+var rootPath = new DirectoryInfo(AppContext.BaseDirectory).Parent!.Parent!.Parent!.Parent!.FullName;
 string[] optionalPages = ["contact.md", "localization.md", "troubleshooting.md", "subscriptions.md", "rn_before_v10.md", "free-format.md", "release-notes.md"];
 //clear raw folder
 var rawPath = Path.Combine(rootPath, "docs", "raw");
@@ -33,11 +35,12 @@ else
 }
 
 //get md files
-var mdFiles = Directory.GetFiles(rootPath, "*.md", SearchOption.AllDirectories)
-    .Where(x => !x.EndsWith("README.md") && 
+var mdFiles = Directory.GetFiles(Path.Combine(rootPath, "docs"), "*.md", SearchOption.TopDirectoryOnly)
+    .Where(x => !x.EndsWith("README.md") &&
                 !x.EndsWith("index.md"))
     .OrderBy(x => Path.GetFileName(x))
     .ToArray();
+var pageNames = mdFiles.Select(Path.GetFileNameWithoutExtension).ToHashSet(StringComparer.Ordinal);
 foreach (var path in mdFiles)
 {
     var content = File.ReadAllText(path);
@@ -79,12 +82,18 @@ foreach (var path in mdFiles)
         }
     }
     
-    const string pattern = @"https://lunacy\.docs\.icons8\.com/([^/]+)/";
     const string replacement = @"https://lunacy.docs.icons8.com/raw/$1.md";
-    content = System.Text.RegularExpressions.Regex.Replace(content, pattern, replacement);
+    content = DocumentationPageUrl().Replace(content, match =>
+        pageNames.Contains(match.Groups[1].Value) ? match.Result(replacement) : match.Value);
     
     File.WriteAllText(Path.Combine(rawPath, Path.GetFileName(path)), content);
 }
 
 File.WriteAllText(llmsPath, llmsContent + llmsOptional);
 File.WriteAllText(llmsFullPath, fullContent);
+
+partial class Program
+{
+    [GeneratedRegex(@"https://lunacy\.docs\.icons8\.com/([^/#?\s]+)/(?=[#""'\s)>]|$)")]
+    private static partial Regex DocumentationPageUrl();
+}

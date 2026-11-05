@@ -64,7 +64,7 @@ There are two ways to **import an image from your browser** via link:
 
 ### Adding image fills
 
-You can also add images directly to your <a href="https://lunacy.docs.icons8.com/raw/layers.md" target="_blank">layers</a> (including <a href="https://lunacy.docs.icons8.com/raw/editing_shapes.md" target="_blank">shapes</a>, <a href="https://lunacy.docs.icons8.com/raw/layers.md#frames" target="_blank">frames</a>, and <a href="https://lunacy.docs.icons8.com/raw/text" target="_blank">text<.mda> layers). They will act as a layer background you can replace or modify anytime.
+You can also add images directly to your <a href="https://lunacy.docs.icons8.com/raw/layers.md" target="_blank">layers</a> (including <a href="https://lunacy.docs.icons8.com/raw/editing_shapes.md" target="_blank">shapes</a>, <a href="https://lunacy.docs.icons8.com/raw/layers.md#frames" target="_blank">frames</a>, and <a href="https://lunacy.docs.icons8.com/text" target="_blank">text</a> layers). They will act as a layer background you can replace or modify anytime.
 
 To **add an Image fill**:
 

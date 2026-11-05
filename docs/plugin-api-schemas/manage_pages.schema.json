@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /v2/manage_pages request",
+  "$comment": "Preview Automation API v2 parser contract, documented 2026-11-05. Runtime permissions, revisions, value rules and work limits are checked separately.",
+  "type": "object",
+  "properties": {
+    "validateOnly": {
+      "type": "boolean"
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "action"
+        ],
+        "anyOf": [
+          {
+            "properties": {
+              "action": {
+                "const": "create"
+              },
+              "clientId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "name": {
+                "type": "string"
+              },
+              "index": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "name"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "rename"
+              },
+              "page": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "page",
+              "name"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "reorder"
+              },
+              "page": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "index": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "page",
+              "index"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "duplicate"
+              },
+              "clientId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "page": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "index": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "page"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "properties": {
+              "action": {
+                "const": "delete"
+              },
+              "page": {
+                "type": "object",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "properties": {
+                      "clientRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 128
+                      }
+                    },
+                    "required": [
+                      "clientRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "policy": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "page"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "expectedRevision": {
+      "type": "string"
+    },
+    "requestId": {
+      "type": "string"
+    },
+    "documentHandle": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "changes",
+    "expectedRevision",
+    "requestId",
+    "documentHandle"
+  ],
+  "additionalProperties": false
+}

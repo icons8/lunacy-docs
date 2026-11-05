@@ -121,7 +121,7 @@ Some more shape tips:
 
 **See also:**
 <br> 
-<a href="https://lunacy.docs.icons8.com/raw/editing.md" target="_blank">Editing shapes</a>
+<a href="https://lunacy.docs.icons8.com/editing/" target="_blank">Editing shapes</a>
 
 ## Text tool
 
@@ -224,7 +224,7 @@ You can also **hide one of the handles of a disconnected point** by dragging the
 
 **See also:**
 <br>
-<a href="https://lunacy.docs.icons8.com/raw/editing.md#vector-editing" target="_blank">Vector editing</a>
+<a href="https://lunacy.docs.icons8.com/editing/#vector-editing" target="_blank">Vector editing</a>
 
 ## Pencil tool
 
@@ -496,7 +496,7 @@ Similar rules apply to text layers, where **text color** has top priority.
 
 **See also:**
 <br>
-<a href="https://lunacy.docs.icons8.com/raw/styling" target="_blank">Styling<.mda>
+<a href="https://lunacy.docs.icons8.com/styling" target="_blank">Styling</a>
 
 ## Hand tool
 

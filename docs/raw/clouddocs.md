@@ -150,7 +150,7 @@ For additional options, open the **version history context menu** by right-click
     <p><strong>Note:</strong> Free users can access up to <b>30 days</b> of version history. To unlock the full history of any existing cloud file, subscribe to a <a href="https://lunacy.docs.icons8.com/raw/subscriptions.md#personal-cloud-plan" target="_blank">Personal Cloud plan</a>.</p>
 </div>
 
-Apart from cloud documents, you can expand your collaboration options with <a href="https://lunacy.docs.icons8.com/raw/teams.md" target="_blank">teams</a> and unlock additional features with our <a href="https://lunacy.docs.icons8.com/raw/subscriptions" target="_blank">paid plans<.mda>.
+Apart from cloud documents, you can expand your collaboration options with <a href="https://lunacy.docs.icons8.com/raw/teams.md" target="_blank">teams</a> and unlock additional features with our <a href="https://lunacy.docs.icons8.com/subscriptions" target="_blank">paid plans</a>.
 
 
 

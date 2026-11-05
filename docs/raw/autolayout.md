@@ -252,7 +252,7 @@ Once you set a layer to have an absolute position, the **Constraints** section w
 
 ### [Auto layout overrides](#resetting-overrides)
 
-You can add auto layouts to any <a href="https://lunacy.docs.icons8.com/raw/components.md" target="_blank">component</a>. Combining [components and auto layouts](#auto-layouts-and-components) brings your workflow to the next level, making it easier to quickly change and update your designs. Read in detail about <a href="https://lunacy.docs.icons8.com/raw/components" target="_blank">working with components<.mda>.
+You can add auto layouts to any <a href="https://lunacy.docs.icons8.com/raw/components.md" target="_blank">component</a>. Combining [components and auto layouts](#auto-layouts-and-components) brings your workflow to the next level, making it easier to quickly change and update your designs. Read in detail about <a href="https://lunacy.docs.icons8.com/components" target="_blank">working with components</a>.
 
 #### Resetting overrides
 

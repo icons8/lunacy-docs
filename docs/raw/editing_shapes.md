@@ -31,7 +31,7 @@ You can also make shapes using the <a href="https://lunacy.docs.icons8.com/raw/t
 
 <video autoplay="" muted="" loop="" playsinline="" width="100%" poster="/public/editing_shapes_drawing_shapes.png" height="auto"><source src="/public/editing_shapes_drawing_shapes.mp4" type="video/mp4"></video>
 
-This section focuses on how to edit and transform the form of vector shapes using the standard layer **Edit mode**, on-canvas controls, Boolean operations, and the right panel. To learn about adding fills, borders, and effects to shapes and other layers, check out the <a href="https://lunacy.docs.icons8.com/raw/styling" target="_blank">Styling<.mda> page.
+This section focuses on how to edit and transform the form of vector shapes using the standard layer **Edit mode**, on-canvas controls, Boolean operations, and the right panel. To learn about adding fills, borders, and effects to shapes and other layers, check out the <a href="https://lunacy.docs.icons8.com/styling" target="_blank">Styling</a> page.
 
 **See also:**
 <br>
